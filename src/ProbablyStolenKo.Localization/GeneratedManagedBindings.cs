@@ -90,18 +90,18 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(13, 0, "AquaSense.Core+<>c", "<Init>b__0_12", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(14, 0, "AquaSense.Core+<>c", "<Init>b__0_13", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(15, 0, "AquaSense.Core+<>c", "<Init>b__0_14", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(16, 0, "AquaSense.ConfigPanel", "BuildEntryPrefix", "CustomUIBuilder, ModConfig, ConfigEntry", new Type[] { ModReflect.FindType("CustomUIBuilder"), ModReflect.FindType("ModConfig"), ModReflect.FindType("ConfigEntry") }, null, null));
-            bindings.Add(new ManagedExactBinding(17, 0, "AquaSense.Hooks", "GetWaterAnalysis", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(18, 0, "AquaSense.Hooks", "AppendFilterDurability", "RichTextBuilder, GameItem", new Type[] { ModReflect.FindType("RichTextBuilder"), ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(19, 0, "AquaSense.Hooks", "GetCompositionApiRows", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(20, 0, "AquaSense.Hooks", "AppendComposition", "RichTextBuilder, AquaSense.Hooks+WaterAnalysis", new Type[] { ModReflect.FindType("RichTextBuilder"), ModReflect.FindType("AquaSense.Hooks+WaterAnalysis") }, null, null));
-            bindings.Add(new ManagedExactBinding(21, 0, "AquaSense.Hooks", "TryGetDepletedFilter", "GameItem, GameItem&", new Type[] { ModReflect.FindType("GameItem"), (ModReflect.FindType("GameItem")).MakeByRefType() }, null, null));
-            bindings.Add(new ManagedExactBinding(22, 0, "AquaSense.Hooks", "TryGetDepletedCloth", "GameItem, GameItem&", new Type[] { ModReflect.FindType("GameItem"), (ModReflect.FindType("GameItem")).MakeByRefType() }, null, null));
-            bindings.Add(new ManagedExactBinding(23, 0, "AquaSense.Hooks", "IsAvailableFilter", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(24, 0, "AquaSense.Hooks", "IsAvailableCloth", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(16, 0, "AquaSense.ConfigPanel", "BuildEntryPrefix", "CustomUIBuilder, ModConfig, ConfigEntry", new Type[] { typeof(global::CustomUIBuilder), typeof(global::ModConfig), typeof(global::ConfigEntry) }, null, null));
+            bindings.Add(new ManagedExactBinding(17, 0, "AquaSense.Hooks", "GetWaterAnalysis", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(18, 0, "AquaSense.Hooks", "AppendFilterDurability", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(19, 0, "AquaSense.Hooks", "GetCompositionApiRows", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(20, 0, "AquaSense.Hooks", "AppendComposition", "RichTextBuilder, AquaSense.Hooks+WaterAnalysis", new Type[] { typeof(global::RichTextBuilder), ModReflect.FindType("AquaSense.Hooks+WaterAnalysis") }, null, null));
+            bindings.Add(new ManagedExactBinding(21, 0, "AquaSense.Hooks", "TryGetDepletedFilter", "GameItem, GameItem&", new Type[] { typeof(global::GameItem), (typeof(global::GameItem)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(22, 0, "AquaSense.Hooks", "TryGetDepletedCloth", "GameItem, GameItem&", new Type[] { typeof(global::GameItem), (typeof(global::GameItem)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(23, 0, "AquaSense.Hooks", "IsAvailableFilter", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(24, 0, "AquaSense.Hooks", "IsAvailableCloth", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(25, 0, "AquaSense.Hooks", "BuildFilterToast", "System.String, System.String, System.String&", new Type[] { typeof(global::System.String), typeof(global::System.String), (typeof(global::System.String)).MakeByRefType() }, null, null));
-            bindings.Add(new ManagedExactBinding(26, 0, "AquaSense.Hooks", "TryGetParentInventory", "GameItem, GameInventory&", new Type[] { ModReflect.FindType("GameItem"), (ModReflect.FindType("GameInventory")).MakeByRefType() }, null, null));
-            bindings.Add(new ManagedExactBinding(27, 0, "AquaSense.Hooks", "IsWaterContainer", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(26, 0, "AquaSense.Hooks", "TryGetParentInventory", "GameItem, GameInventory&", new Type[] { typeof(global::GameItem), (typeof(global::GameInventory)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(27, 0, "AquaSense.Hooks", "IsWaterContainer", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
         }
 
         private static void Add_1_0(ICollection<ManagedExactBinding> bindings)
@@ -115,7 +115,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(34, 0, "SmartInventoryArrange.FixedPlacementController", "Failed", "System.Exception, SmartInventoryArrange.InventoryTransaction", new Type[] { typeof(global::System.Exception), ModReflect.FindType("SmartInventoryArrange.InventoryTransaction") }, null, null));
             bindings.Add(new ManagedExactBinding(35, 0, "SmartInventoryArrange.FixedPlacementController+<Execute>d__14", "MoveNext", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(36, 0, "SmartInventoryArrange.FixedPlacementController+<ExecuteCross>d__21", "MoveNext", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(37, 0, "SmartInventoryArrange.InventoryTransaction", "Categories", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(37, 0, "SmartInventoryArrange.InventoryTransaction", "Categories", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(38, 0, "SmartInventoryArrange.FixedRules", "Load", "System.String", new Type[] { typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(39, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawFixedPage", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(40, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawTypePicker", "System.Single", new Type[] { typeof(global::System.Single) }, null, null));
@@ -133,7 +133,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(52, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Experiment", "SmartInventoryArrange.SettingsAction, System.String, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsAction"), typeof(global::System.String), typeof(global::System.Boolean) }, null, null));
             bindings.Add(new ManagedExactBinding(53, 0, "SmartInventoryArrange.UnifiedSettingsGui", "ModeCard", "SmartInventoryArrange.SettingsAction, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsAction"), typeof(global::System.Boolean) }, null, null));
             bindings.Add(new ManagedExactBinding(54, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawMainPage", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(55, 0, "SmartInventoryArrange.UnifiedSettingsGui", ".ctor", "ModConfig", new Type[] { ModReflect.FindType("ModConfig") }, typeof(GeneratedManagedPatch_55), null));
+            bindings.Add(new ManagedExactBinding(55, 0, "SmartInventoryArrange.UnifiedSettingsGui", ".ctor", "ModConfig", new Type[] { typeof(global::ModConfig) }, typeof(GeneratedManagedPatch_55), null));
             bindings.Add(new ManagedExactBinding(56, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Save", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(57, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Bind", "SmartInventoryArrange.SettingsBinding, SmartInventoryArrange.SettingsHotkey", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsBinding"), ModReflect.FindType("SmartInventoryArrange.SettingsHotkey") }, null, null));
             bindings.Add(new ManagedExactBinding(58, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Activate", "SmartInventoryArrange.SettingsAction", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsAction") }, null, null));
@@ -150,7 +150,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(69, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_1", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(70, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_2", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(71, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_3", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(72, 0, "SmartInventoryArrange.NativeSmartMenu", "Open", "ItemContextHandler", new Type[] { ModReflect.FindType("ItemContextHandler") }, null, null));
+            bindings.Add(new ManagedExactBinding(72, 0, "SmartInventoryArrange.NativeSmartMenu", "Open", "ItemContextHandler", new Type[] { typeof(global::ItemContextHandler) }, null, null));
             bindings.Add(new ManagedExactBinding(73, 0, "SmartInventoryArrange.OpenInventoryBatch", "Start", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(74, 0, "SmartInventoryArrange.OrientationIntro", "TryGetText", "System.Double", new Type[] { typeof(global::System.Double) }, null, null));
             bindings.Add(new ManagedExactBinding(75, 0, "SmartInventoryArrange.PostInsertArrange", "Tick", "System.Double", new Type[] { typeof(global::System.Double) }, null, null));
@@ -176,7 +176,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(95, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__50_18", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(96, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__50_19", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(97, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__50_21", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(98, 0, "SmartInventoryArrange.SmartArrangeMod", "Run", "GameGridInventory, System.Boolean, System.Func`1<System.Boolean>, System.Int32, System.Int32, SmartInventoryArrange.ArrangeUndo+Group", new Type[] { ModReflect.FindType("GameGridInventory"), typeof(global::System.Boolean), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Boolean) }), typeof(global::System.Int32), typeof(global::System.Int32), ModReflect.FindType("SmartInventoryArrange.ArrangeUndo+Group") }, null, null));
+            bindings.Add(new ManagedExactBinding(98, 0, "SmartInventoryArrange.SmartArrangeMod", "Run", "GameGridInventory, System.Boolean, System.Func`1<System.Boolean>, System.Int32, System.Int32, SmartInventoryArrange.ArrangeUndo+Group", new Type[] { typeof(global::GameGridInventory), typeof(global::System.Boolean), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Boolean) }), typeof(global::System.Int32), typeof(global::System.Int32), ModReflect.FindType("SmartInventoryArrange.ArrangeUndo+Group") }, null, null));
             bindings.Add(new ManagedExactBinding(99, 0, "SmartInventoryArrange.SmartArrangeMonoMod+<>c", "<Init>b__1_0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(100, 0, "SmartInventoryArrange.SmartArrangeMonoMod+<>c", "<Init>b__1_1", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(101, 0, "SmartInventoryArrange.SmartInsertController+<>c", "<Execute>b__21_17", "SmartInventoryArrange.Core.LayoutItem", new Type[] { ModReflect.FindType("SmartInventoryArrange.Core.LayoutItem") }, null, null));
@@ -195,9 +195,9 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(114, 0, "SmartInventoryArrange.Core.Native34Solver", "TemplatesOriginal", "SmartInventoryArrange.Core.LayoutItem[], System.String", new Type[] { (ModReflect.FindType("SmartInventoryArrange.Core.LayoutItem")).MakeArrayType(), typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(115, 0, "SmartInventoryArrange.Core.DeterministicSolver", "AtomicSkylineBlocks", "SmartInventoryArrange.Core.LayoutProblem, System.Boolean[0...,0...], System.Collections.Generic.IReadOnlyList`1<SmartInventoryArrange.Core.LayoutItem>, System.Boolean, System.String&", new Type[] { ModReflect.FindType("SmartInventoryArrange.Core.LayoutProblem"), (typeof(global::System.Boolean)).MakeArrayType(2), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { ModReflect.FindType("SmartInventoryArrange.Core.LayoutItem") }), typeof(global::System.Boolean), (typeof(global::System.String)).MakeByRefType() }, null, null));
             bindings.Add(new ManagedExactBinding(116, 1, "SmartInventoryArrange.IntroNoticeVisual", "Measure", "System.String, System.Single, System.Single, System.Boolean, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Boolean), typeof(global::System.Boolean) }, null, null));
-            bindings.Add(new ManagedExactBinding(117, 4, "SmartInventoryArrange.NativeSmartMenu", "Open", "ItemContextHandler", new Type[] { ModReflect.FindType("ItemContextHandler") }, null, null));
+            bindings.Add(new ManagedExactBinding(117, 4, "SmartInventoryArrange.NativeSmartMenu", "Open", "ItemContextHandler", new Type[] { typeof(global::ItemContextHandler) }, null, null));
             bindings.Add(new ManagedExactBinding(118, 5, "SmartInventoryArrange.OpenInventoryBatch", "Start", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(119, 8, "SmartInventoryArrange.SmartArrangeMod", "Run", "GameGridInventory, System.Boolean, System.Func`1<System.Boolean>, System.Int32, System.Int32, SmartInventoryArrange.ArrangeUndo+Group", new Type[] { ModReflect.FindType("GameGridInventory"), typeof(global::System.Boolean), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Boolean) }), typeof(global::System.Int32), typeof(global::System.Int32), ModReflect.FindType("SmartInventoryArrange.ArrangeUndo+Group") }, null, null));
+            bindings.Add(new ManagedExactBinding(119, 8, "SmartInventoryArrange.SmartArrangeMod", "Run", "GameGridInventory, System.Boolean, System.Func`1<System.Boolean>, System.Int32, System.Int32, SmartInventoryArrange.ArrangeUndo+Group", new Type[] { typeof(global::GameGridInventory), typeof(global::System.Boolean), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Boolean) }), typeof(global::System.Int32), typeof(global::System.Int32), ModReflect.FindType("SmartInventoryArrange.ArrangeUndo+Group") }, null, null));
             bindings.Add(new ManagedExactBinding(120, 9, "SmartInventoryArrange.UnifiedSettingsGui", "DrawFixedPage", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(121, 10, "SmartInventoryArrange.UnifiedSettingsGui", "DrawMainPage", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(122, 12, "SmartInventoryArrange.UnifiedSettingsGui", "get_AfterInsertCaption", "", Type.EmptyTypes, null, null));
@@ -262,49 +262,49 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(161, 0, "AgriExpansion.AgriPerfumeProcessor", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(162, 0, "AgriExpansion.AgriSuperCrops", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(163, 1, "AgriExpansion.AgriChemRecipeNote", "Create", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(164, 2, "AgriExpansion.AgriChemRecipeNote", "Refresh", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(164, 2, "AgriExpansion.AgriChemRecipeNote", "Refresh", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(165, 3, "AgriExpansion.AgriChemRecipeNote", "get_Body", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(166, 4, "AgriExpansion.AgriChemRecipeNote", "get_Title", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(167, 5, "AgriExpansion.AgriChemRecipeNote+<>c", "<Refresh>b__8_1", "TagState", new Type[] { ModReflect.FindType("TagState") }, null, null));
-            bindings.Add(new ManagedExactBinding(168, 6, "AgriExpansion.AgriChemRecipeNote+<>c", "<Refresh>b__8_2", "TagState", new Type[] { ModReflect.FindType("TagState") }, null, null));
+            bindings.Add(new ManagedExactBinding(167, 5, "AgriExpansion.AgriChemRecipeNote+<>c", "<Refresh>b__8_1", "TagState", new Type[] { typeof(global::TagState) }, null, null));
+            bindings.Add(new ManagedExactBinding(168, 6, "AgriExpansion.AgriChemRecipeNote+<>c", "<Refresh>b__8_2", "TagState", new Type[] { typeof(global::TagState) }, null, null));
             bindings.Add(new ManagedExactBinding(169, 7, "AgriExpansion.AgriChemistry", "Register", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(170, 8, "AgriExpansion.AgriCookingAccess", "Register", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(171, 9, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(172, 10, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_1", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(173, 11, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_2", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(174, 12, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("AgriExpansion.CookingRecipe") }, null, null));
+            bindings.Add(new ManagedExactBinding(174, 12, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, null, null));
             bindings.Add(new ManagedExactBinding(175, 13, "AgriExpansion.AgriCookingItems+<>c", "<Note>b__6_4", "System.String", new Type[] { typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(176, 14, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__0", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(177, 15, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__3", "GameItem, GameInventory, SlotMarker", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameInventory"), ModReflect.FindType("SlotMarker") }, null, null));
+            bindings.Add(new ManagedExactBinding(177, 15, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__3", "GameItem, GameInventory, SlotMarker", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::SlotMarker) }, null, null));
             bindings.Add(new ManagedExactBinding(178, 16, "AgriExpansion.AgriCookingMachine", "Create", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(179, 17, "AgriExpansion.AgriCookingMachine+View", "BuildMenu", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(180, 18, "AgriExpansion.AgriCookingMachine+View", "Refresh", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(181, 19, "AgriExpansion.AgriCookingMachine+View+<>c__DisplayClass22_1", "<Refresh>b__1", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(182, 20, "AgriExpansion.AgriCookingProduction", "Cook", "GameItem, GameInventory, GameGridInventory, AgriExpansion.CookingRecipe, System.String&", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameInventory"), ModReflect.FindType("GameGridInventory"), ModReflect.FindType("AgriExpansion.CookingRecipe"), (typeof(global::System.String)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(182, 20, "AgriExpansion.AgriCookingProduction", "Cook", "GameItem, GameInventory, GameGridInventory, AgriExpansion.CookingRecipe, System.String&", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::GameGridInventory), ModReflect.FindType("AgriExpansion.CookingRecipe"), (typeof(global::System.String)).MakeByRefType() }, null, null));
             bindings.Add(new ManagedExactBinding(183, 21, "AgriExpansion.AgriCookingRules", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_183), null));
             bindings.Add(new ManagedExactBinding(184, 22, "AgriExpansion.AgriCropHandbook", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_184), null));
-            bindings.Add(new ManagedExactBinding(185, 23, "AgriExpansion.AgriCropHandbook", "BuildBook", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(186, 24, "AgriExpansion.AgriCropHandbook", "RefreshText", "GameItem, System.Boolean", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Boolean) }, null, null));
-            bindings.Add(new ManagedExactBinding(187, 25, "AgriExpansion.AgriCropHandbook+<>c__DisplayClass12_0", "<Create>b__2", "GameItem, GameInventory, SlotMarker", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameInventory"), ModReflect.FindType("SlotMarker") }, null, null));
+            bindings.Add(new ManagedExactBinding(185, 23, "AgriExpansion.AgriCropHandbook", "BuildBook", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(186, 24, "AgriExpansion.AgriCropHandbook", "RefreshText", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, null, null));
+            bindings.Add(new ManagedExactBinding(187, 25, "AgriExpansion.AgriCropHandbook+<>c__DisplayClass12_0", "<Create>b__2", "GameItem, GameInventory, SlotMarker", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::SlotMarker) }, null, null));
             bindings.Add(new ManagedExactBinding(188, 26, "AgriExpansion.AgriCropRules", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_188), null));
             bindings.Add(new ManagedExactBinding(189, 27, "AgriExpansion.AgriDelivery", "HistoryText", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(190, 28, "AgriExpansion.AgriDelivery", "Submit", "GameItem, GameInventory, System.Int32, System.String&", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameInventory"), typeof(global::System.Int32), (typeof(global::System.String)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(190, 28, "AgriExpansion.AgriDelivery", "Submit", "GameItem, GameInventory, System.Int32, System.String&", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::System.Int32), (typeof(global::System.String)).MakeByRefType() }, null, null));
             bindings.Add(new ManagedExactBinding(191, 29, "AgriExpansion.AgriDelivery+<>c", "<Register>b__17_0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(192, 30, "AgriExpansion.AgriDelivery+<>c__DisplayClass17_0", "<Register>g__describe|1", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(193, 31, "AgriExpansion.AgriDeliveryMachine", "Create", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(194, 32, "AgriExpansion.AgriDeliveryMachine+View", "Refresh", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(195, 33, "AgriExpansion.AgriDressingProtection", "get_StatusText", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(196, 34, "AgriExpansion.AgriEleanorResearchHarvestPatch", "Prefix", "PlantHarvestContext, GameItem", new Type[] { ModReflect.FindType("PlantHarvestContext"), ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(196, 34, "AgriExpansion.AgriEleanorResearchHarvestPatch", "Prefix", "PlantHarvestContext, GameItem", new Type[] { typeof(global::PlantHarvestContext), typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(197, 35, "AgriExpansion.AgriEleanorStory", "AbandonOrder", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(198, 36, "AgriExpansion.AgriEleanorStory", "AcceptOrder", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(199, 37, "AgriExpansion.AgriEleanorStory", "AddDecision", "Dialogue, System.String, System.String, System.Int32", new Type[] { ModReflect.FindType("Dialogue"), typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(200, 38, "AgriExpansion.AgriEleanorStory", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { ModReflect.FindType("RichTextBuilder"), ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(199, 37, "AgriExpansion.AgriEleanorStory", "AddDecision", "Dialogue, System.String, System.String, System.Int32", new Type[] { typeof(global::Dialogue), typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(200, 38, "AgriExpansion.AgriEleanorStory", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(201, 39, "AgriExpansion.AgriEleanorStory", "Claim", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(202, 40, "AgriExpansion.AgriEleanorStory", "CreateVisitor", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(203, 41, "AgriExpansion.AgriEleanorStory", "Everyday", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(204, 42, "AgriExpansion.AgriEleanorStory", "FinishOrder", "AgriExpansion.AgriEleanorState", new Type[] { ModReflect.FindType("AgriExpansion.AgriEleanorState") }, null, null));
             bindings.Add(new ManagedExactBinding(205, 43, "AgriExpansion.AgriEleanorStory", "GoodsGreeting", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(206, 44, "AgriExpansion.AgriEleanorStory", "GoodsName", "System.String, GameItem", new Type[] { typeof(global::System.String), ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(206, 44, "AgriExpansion.AgriEleanorStory", "GoodsName", "System.String, GameItem", new Type[] { typeof(global::System.String), typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(207, 45, "AgriExpansion.AgriEleanorStory", "Lines", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(208, 46, "AgriExpansion.AgriEleanorStory", "Note", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(209, 47, "AgriExpansion.AgriEleanorStory", "Open", "", Type.EmptyTypes, null, null));
@@ -325,23 +325,23 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(224, 62, "AgriExpansion.AgriFarm", "<OpenWaterSettings>b__168_0", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(225, 63, "AgriExpansion.AgriFarm", "<RepairText>b__31_0", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(226, 64, "AgriExpansion.AgriFarm", "AggregateState", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(227, 65, "AgriExpansion.AgriFarm", "AnimalExpansionLabel", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(227, 65, "AgriExpansion.AgriFarm", "AnimalExpansionLabel", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(228, 66, "AgriExpansion.AgriFarm", "AnimalLabel", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(229, 67, "AgriExpansion.AgriFarm", "BuildJournal", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(230, 68, "AgriExpansion.AgriFarm", "ChooseAnimalArea", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(231, 69, "AgriExpansion.AgriFarm", "ChoosePlotMode", "GameItem, System.Int32", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(232, 70, "AgriExpansion.AgriFarm", "ConfigureCultureBucket", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(233, 71, "AgriExpansion.AgriFarm", "ConfirmChop", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(234, 72, "AgriExpansion.AgriFarm", "ConfirmRemoveAnimal", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(231, 69, "AgriExpansion.AgriFarm", "ChoosePlotMode", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(232, 70, "AgriExpansion.AgriFarm", "ConfigureCultureBucket", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(233, 71, "AgriExpansion.AgriFarm", "ConfirmChop", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(234, 72, "AgriExpansion.AgriFarm", "ConfirmRemoveAnimal", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(235, 73, "AgriExpansion.AgriFarm", "Controls", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(236, 74, "AgriExpansion.AgriFarm", "Deposit", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(237, 75, "AgriExpansion.AgriFarm", "Details", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(238, 76, "AgriExpansion.AgriFarm", "EndJournal", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(239, 77, "AgriExpansion.AgriFarm", "Ensure", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(240, 78, "AgriExpansion.AgriFarm", "ExpandAnimalArea", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(240, 78, "AgriExpansion.AgriFarm", "ExpandAnimalArea", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(241, 79, "AgriExpansion.AgriFarm", "ExportCharge", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(242, 80, "AgriExpansion.AgriFarm", "ExportWater", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(243, 81, "AgriExpansion.AgriFarm", "Grow", "GameItem, System.Int32", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(243, 81, "AgriExpansion.AgriFarm", "Grow", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(244, 82, "AgriExpansion.AgriFarm", "ImportCharge", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(245, 83, "AgriExpansion.AgriFarm", "ImportWater", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(246, 84, "AgriExpansion.AgriFarm", "IndustryPolicy", "", Type.EmptyTypes, null, null));
@@ -349,11 +349,11 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(248, 86, "AgriExpansion.AgriFarm", "Metric", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(249, 87, "AgriExpansion.AgriFarm", "OpenAnimalSettings", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(250, 88, "AgriExpansion.AgriFarm", "OpenAnimals", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(251, 89, "AgriExpansion.AgriFarm", "OpenFillRatio", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(251, 89, "AgriExpansion.AgriFarm", "OpenFillRatio", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(252, 90, "AgriExpansion.AgriFarm", "OpenGlobalModules", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(253, 91, "AgriExpansion.AgriFarm", "OpenMineralRatio", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(253, 91, "AgriExpansion.AgriFarm", "OpenMineralRatio", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(254, 92, "AgriExpansion.AgriFarm", "OpenPlot", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(255, 93, "AgriExpansion.AgriFarm", "OpenPlotManagement", "GameItem, System.Int32", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(255, 93, "AgriExpansion.AgriFarm", "OpenPlotManagement", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(256, 94, "AgriExpansion.AgriFarm", "OpenRecyclingSettings", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(257, 95, "AgriExpansion.AgriFarm", "OpenResourceDetails", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, null, null));
             bindings.Add(new ManagedExactBinding(258, 96, "AgriExpansion.AgriFarm", "OpenSeeds", "", Type.EmptyTypes, null, null));
@@ -362,7 +362,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(261, 99, "AgriExpansion.AgriFarm", "OpenSupplies", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(262, 100, "AgriExpansion.AgriFarm", "OpenWaterSettings", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(263, 101, "AgriExpansion.AgriFarm", "PlotLabel", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(264, 102, "AgriExpansion.AgriFarm", "PlotStatus", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(264, 102, "AgriExpansion.AgriFarm", "PlotStatus", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(265, 103, "AgriExpansion.AgriFarm", "PowerReport", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(266, 104, "AgriExpansion.AgriFarm", "PowerSummary", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(267, 105, "AgriExpansion.AgriFarm", "Recycle", "", Type.EmptyTypes, null, null));
@@ -376,7 +376,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(271, 109, "AgriExpansion.AgriFarm", "ReportHeading", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(272, 110, "AgriExpansion.AgriFarm", "RestoreMisplacedFish", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(273, 111, "AgriExpansion.AgriFarm", "RunAnimals", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(274, 112, "AgriExpansion.AgriFarm", "StartSeed", "GameItem, System.Int32", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(274, 112, "AgriExpansion.AgriFarm", "StartSeed", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(275, 113, "AgriExpansion.AgriFarm", "State", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, null, null));
             bindings.Add(new ManagedExactBinding(276, 114, "AgriExpansion.AgriFarm", "Tick", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(277, 115, "AgriExpansion.AgriFarm", "UpdateSeedText", "", Type.EmptyTypes, null, null));
@@ -385,7 +385,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(280, 118, "AgriExpansion.AgriFarm", "WaterSummary", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(281, 119, "AgriExpansion.AgriFarm", "WindowCaption", "System.String, System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(282, 120, "AgriExpansion.AgriFarm", "Withdraw", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(283, 121, "AgriExpansion.AgriFarm+<>c", "<ConfirmChop>b__25_1", "TagState", new Type[] { ModReflect.FindType("TagState") }, null, null));
+            bindings.Add(new ManagedExactBinding(283, 121, "AgriExpansion.AgriFarm+<>c", "<ConfirmChop>b__25_1", "TagState", new Type[] { typeof(global::TagState) }, null, null));
             bindings.Add(new ManagedExactBinding(284, 122, "AgriExpansion.AgriFarm+<>c", "<Controls>b__212_1", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(285, 123, "AgriExpansion.AgriFarm+<>c", "<Controls>b__212_11", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(286, 124, "AgriExpansion.AgriFarm+<>c", "<Controls>b__212_13", "", Type.EmptyTypes, null, null));
@@ -424,12 +424,12 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(319, 157, "AgriExpansion.AgriFarmAccess", "CreateCleanupVisitor", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(320, 158, "AgriExpansion.AgriFarmAccess", "CreateVisitor", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(321, 159, "AgriExpansion.AgriFarmAccess", "GiveFarmerStart", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(322, 160, "AgriExpansion.AgriFarmAccess+<>c__DisplayClass15_0", "<CreateVisitor>b__1", "Dialogue", new Type[] { ModReflect.FindType("Dialogue") }, null, null));
-            bindings.Add(new ManagedExactBinding(323, 161, "AgriExpansion.AgriFarmCultureTank", "Configure", "GameItem, System.Func`3<GameItem,System.Int32,System.Boolean>", new Type[] { ModReflect.FindType("GameItem"), (typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32), typeof(global::System.Boolean) }) }, null, null));
-            bindings.Add(new ManagedExactBinding(324, 162, "AgriExpansion.AgriFarmFootprint", "Apply", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(322, 160, "AgriExpansion.AgriFarmAccess+<>c__DisplayClass15_0", "<CreateVisitor>b__1", "Dialogue", new Type[] { typeof(global::Dialogue) }, null, null));
+            bindings.Add(new ManagedExactBinding(323, 161, "AgriExpansion.AgriFarmCultureTank", "Configure", "GameItem, System.Func`3<GameItem,System.Int32,System.Boolean>", new Type[] { typeof(global::GameItem), (typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }) }, null, null));
+            bindings.Add(new ManagedExactBinding(324, 162, "AgriExpansion.AgriFarmFootprint", "Apply", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(325, 163, "AgriExpansion.AgriFarmFootprint+<>c", "<Initialize>b__7_0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(326, 164, "AgriExpansion.AgriFarmFootprint+<>c", "<Initialize>b__7_1", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(327, 165, "AgriExpansion.AgriFarmHandbook", "Build", "GameItem, System.Func`3<System.Int32,System.Int32,System.Int32>&", new Type[] { ModReflect.FindType("GameItem"), ((typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Int32) })).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(327, 165, "AgriExpansion.AgriFarmHandbook", "Build", "GameItem, System.Func`3<System.Int32,System.Int32,System.Int32>&", new Type[] { typeof(global::GameItem), ((typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Int32) })).MakeByRefType() }, null, null));
             bindings.Add(new ManagedExactBinding(328, 166, "AgriExpansion.AgriFarmHandbook+<>c__DisplayClass5_0", "<Create>b__0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(329, 167, "AgriExpansion.AgriFarmHandbookGuide", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_329), null));
             bindings.Add(new ManagedExactBinding(330, 168, "AgriExpansion.AgriFarmHandbookText", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_330), null));
@@ -438,39 +438,39 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(333, 171, "AgriExpansion.AgriFarmMachine+<>c", "<Register>b__6_0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(334, 172, "AgriExpansion.AgriFarmSecurity+<>c", "<Initialize>b__10_0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(335, 173, "AgriExpansion.AgriFarmSecurity+<>c", "<Initialize>b__10_1", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(336, 174, "AgriExpansion.AgriFiberItems", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { ModReflect.FindType("RichTextBuilder"), ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(337, 175, "AgriExpansion.AgriFiberItems", "Refresh", "GameItem, AgriExpansion.FiberProduct", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("AgriExpansion.FiberProduct") }, null, null));
+            bindings.Add(new ManagedExactBinding(336, 174, "AgriExpansion.AgriFiberItems", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(337, 175, "AgriExpansion.AgriFiberItems", "Refresh", "GameItem, AgriExpansion.FiberProduct", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.FiberProduct") }, null, null));
             bindings.Add(new ManagedExactBinding(338, 176, "AgriExpansion.AgriFiberMachine", "Create", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(339, 177, "AgriExpansion.AgriFiberMachine", "CreateManual", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(340, 178, "AgriExpansion.AgriFiberMachine", "get_ManualText", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(341, 179, "AgriExpansion.AgriFiberMachine+FiberView", "RefreshRequirements", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(342, 180, "AgriExpansion.AgriFiberProduction", "ProcessCycle", "GameItem, GameGridInventory, GameGridInventory, GameSlotInventory, GameInventory, AgriExpansion.FiberProduct, System.Int32", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameGridInventory"), ModReflect.FindType("GameGridInventory"), ModReflect.FindType("GameSlotInventory"), ModReflect.FindType("GameInventory"), ModReflect.FindType("AgriExpansion.FiberProduct"), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(342, 180, "AgriExpansion.AgriFiberProduction", "ProcessCycle", "GameItem, GameGridInventory, GameGridInventory, GameSlotInventory, GameInventory, AgriExpansion.FiberProduct, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::GameGridInventory), typeof(global::GameGridInventory), typeof(global::GameSlotInventory), typeof(global::GameInventory), ModReflect.FindType("AgriExpansion.FiberProduct"), typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(343, 181, "AgriExpansion.AgriFiberRules", "Plan", "AgriExpansion.FiberProduct, System.Collections.Generic.IReadOnlyList`1<AgriExpansion.FiberMaterial>, System.Int32", new Type[] { ModReflect.FindType("AgriExpansion.FiberProduct"), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { ModReflect.FindType("AgriExpansion.FiberMaterial") }), typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(344, 182, "AgriExpansion.AgriFiberRules", "get_MaterialNames", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(345, 183, "AgriExpansion.AgriFiberRules", "get_Names", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(346, 184, "AgriExpansion.AgriFiberRules", "get_QualityNames", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(347, 185, "AgriExpansion.AgriFoodItems", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { ModReflect.FindType("RichTextBuilder"), ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(347, 185, "AgriExpansion.AgriFoodItems", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(348, 186, "AgriExpansion.AgriFoodItems", "Create", "AgriExpansion.FoodKind", new Type[] { ModReflect.FindType("AgriExpansion.FoodKind") }, null, null));
-            bindings.Add(new ManagedExactBinding(349, 187, "AgriExpansion.AgriFoodItems", "RefreshDescription", "GameItem, AgriExpansion.FoodKind", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("AgriExpansion.FoodKind") }, null, null));
+            bindings.Add(new ManagedExactBinding(349, 187, "AgriExpansion.AgriFoodItems", "RefreshDescription", "GameItem, AgriExpansion.FoodKind", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.FoodKind") }, null, null));
             bindings.Add(new ManagedExactBinding(350, 188, "AgriExpansion.AgriFoodMachine", "Create", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(351, 189, "AgriExpansion.AgriFoodMachine", "CreateManual", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(352, 190, "AgriExpansion.AgriFoodMachine", "get_ManualText", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(353, 191, "AgriExpansion.AgriFoodMachine+PackingView", "Refresh", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(354, 192, "AgriExpansion.AgriFoodProduction", "TryPack", "GameItem, GameGridInventory, GameGridInventory, AgriExpansion.FoodKind, System.String&", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameGridInventory"), ModReflect.FindType("GameGridInventory"), ModReflect.FindType("AgriExpansion.FoodKind"), (typeof(global::System.String)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(354, 192, "AgriExpansion.AgriFoodProduction", "TryPack", "GameItem, GameGridInventory, GameGridInventory, AgriExpansion.FoodKind, System.String&", new Type[] { typeof(global::GameItem), typeof(global::GameGridInventory), typeof(global::GameGridInventory), ModReflect.FindType("AgriExpansion.FoodKind"), (typeof(global::System.String)).MakeByRefType() }, null, null));
             bindings.Add(new ManagedExactBinding(355, 193, "AgriExpansion.AgriFoodRules", "Plan", "AgriExpansion.FoodKind, System.Collections.Generic.IReadOnlyList`1<AgriExpansion.FoodMaterial>", new Type[] { ModReflect.FindType("AgriExpansion.FoodKind"), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { ModReflect.FindType("AgriExpansion.FoodMaterial") }) }, null, null));
             bindings.Add(new ManagedExactBinding(356, 194, "AgriExpansion.AgriFoodRules", "get_KindNames", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(357, 195, "AgriExpansion.AgriFoodRules", "get_Names", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(358, 196, "AgriExpansion.AgriIndustry", "Buttons", "GameItem, GameInventory, System.Func`1<System.Int32>, System.Action, System.Action`1<System.String>", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameInventory"), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Action), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, null, null));
-            bindings.Add(new ManagedExactBinding(359, 197, "AgriExpansion.AgriIndustry", "ChooseFarm", "GameItem, System.Action", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Action) }, null, null));
-            bindings.Add(new ManagedExactBinding(360, 198, "AgriExpansion.AgriIndustry", "Refill", "GameItem, GameInventory, System.Int32", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameInventory"), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(358, 196, "AgriExpansion.AgriIndustry", "Buttons", "GameItem, GameInventory, System.Func`1<System.Int32>, System.Action, System.Action`1<System.String>", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Action), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, null, null));
+            bindings.Add(new ManagedExactBinding(359, 197, "AgriExpansion.AgriIndustry", "ChooseFarm", "GameItem, System.Action", new Type[] { typeof(global::GameItem), typeof(global::System.Action) }, null, null));
+            bindings.Add(new ManagedExactBinding(360, 198, "AgriExpansion.AgriIndustry", "Refill", "GameItem, GameInventory, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(361, 199, "AgriExpansion.AgriIndustry", "Register", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(362, 200, "AgriExpansion.AgriIndustry", "Return", "GameItem, GameInventory", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameInventory") }, null, null));
+            bindings.Add(new ManagedExactBinding(362, 200, "AgriExpansion.AgriIndustry", "Return", "GameItem, GameInventory", new Type[] { typeof(global::GameItem), typeof(global::GameInventory) }, null, null));
             bindings.Add(new ManagedExactBinding(363, 201, "AgriExpansion.AgriIndustry+<>c", "<Register>b__3_1", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(364, 202, "AgriExpansion.AgriIndustry+<>c", "<Register>b__3_2", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(365, 203, "AgriExpansion.AgriIndustry+<>c", "<Register>b__3_3", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(366, 204, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(367, 205, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__2", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(368, 206, "AgriExpansion.AgriIronSmelting", "AppendInstructions", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(368, 206, "AgriExpansion.AgriIronSmelting", "AppendInstructions", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(369, 207, "AgriExpansion.AgriIronSmelting", "get_InstructionMarker", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(370, 208, "AgriExpansion.AgriItems", "get_AlgaeDescription", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(371, 209, "AgriExpansion.AgriItems", "get_AlgaeFlavor", "", Type.EmptyTypes, null, null));
@@ -492,11 +492,11 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(387, 225, "AgriExpansion.AgriNextCatalog", "Name", "AgriExpansion.AgriCropVariant", new Type[] { ModReflect.FindType("AgriExpansion.AgriCropVariant") }, null, null));
             bindings.Add(new ManagedExactBinding(388, 226, "AgriExpansion.AgriNextCatalog", "Variant", "System.String, System.String, System.Int32, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32), typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(389, 227, "AgriExpansion.AgriNextCatalog+<Variants>d__5", "MoveNext", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(390, 228, "AgriExpansion.AgriNextEffects", "BindBrew", "GameItem, System.Int32", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(391, 229, "AgriExpansion.AgriNextEffects", "BindSaturated", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(390, 228, "AgriExpansion.AgriNextEffects", "BindBrew", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(391, 229, "AgriExpansion.AgriNextEffects", "BindSaturated", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(392, 230, "AgriExpansion.AgriNextItems", "CreateSeed", "AgriExpansion.AgriNextCrop", new Type[] { ModReflect.FindType("AgriExpansion.AgriNextCrop") }, null, null));
-            bindings.Add(new ManagedExactBinding(393, 231, "AgriExpansion.AgriNextItems", "Describe", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(394, 232, "AgriExpansion.AgriNextItems+<>c__DisplayClass1_0", "<CreateSeed>b__0", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(393, 231, "AgriExpansion.AgriNextItems", "Describe", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(394, 232, "AgriExpansion.AgriNextItems+<>c__DisplayClass1_0", "<CreateSeed>b__0", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
         }
 
         private static void Add_6_2(ICollection<ManagedExactBinding> bindings)
@@ -508,14 +508,14 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(399, 237, "AgriExpansion.AgriPerfumeCatalog", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_399), null));
             bindings.Add(new ManagedExactBinding(400, 238, "AgriExpansion.AgriPerfumeDescriptions", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_400), null));
             bindings.Add(new ManagedExactBinding(401, 239, "AgriExpansion.AgriPerfumeItems", "AromaText", "System.Int32[], System.Boolean", new Type[] { (typeof(global::System.Int32)).MakeArrayType(), typeof(global::System.Boolean) }, null, null));
-            bindings.Add(new ManagedExactBinding(402, 240, "AgriExpansion.AgriPerfumeItems", "DescribeMaterial", "GameItem, AgriExpansion.PerfumeMaterial", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("AgriExpansion.PerfumeMaterial") }, null, null));
+            bindings.Add(new ManagedExactBinding(402, 240, "AgriExpansion.AgriPerfumeItems", "DescribeMaterial", "GameItem, AgriExpansion.PerfumeMaterial", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.PerfumeMaterial") }, null, null));
             bindings.Add(new ManagedExactBinding(403, 241, "AgriExpansion.AgriPerfumeItems", "ReactionText", "System.String", new Type[] { typeof(global::System.String) }, null, null));
-            bindings.Add(new ManagedExactBinding(404, 242, "AgriExpansion.AgriPerfumeItems", "Refresh", "GameItem, System.Int32", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32) }, null, null));
+            bindings.Add(new ManagedExactBinding(404, 242, "AgriExpansion.AgriPerfumeItems", "Refresh", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, null, null));
             bindings.Add(new ManagedExactBinding(405, 243, "AgriExpansion.AgriPerfumeMachines", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_405), null));
             bindings.Add(new ManagedExactBinding(406, 244, "AgriExpansion.AgriPerfumeMachines", "CreateBlender", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(407, 245, "AgriExpansion.AgriPerfumeMachines+Blender", "Process", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(408, 246, "AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(409, 247, "AgriExpansion.AgriPerfumeManual", "Build", "GameItem", new Type[] { ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(409, 247, "AgriExpansion.AgriPerfumeManual", "Build", "GameItem", new Type[] { typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(410, 248, "AgriExpansion.AgriPerfumeManual+<>c__DisplayClass3_0", "<Create>b__0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(411, 249, "AgriExpansion.AgriPerfumeManualText", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_411), null));
             bindings.Add(new ManagedExactBinding(412, 250, "AgriExpansion.AgriPerfumeManualText", "get_FusionTable", "", Type.EmptyTypes, null, null));
@@ -533,19 +533,19 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(424, 262, "AgriExpansion.AgriPerfumeProcessor", "Refresh", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(425, 263, "AgriExpansion.AgriPerfumeRules", ".cctor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_425), null));
             bindings.Add(new ManagedExactBinding(426, 264, "AgriExpansion.AgriPlants", "Register", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(427, 265, "AgriExpansion.AgriPlasticProduction", "Process", "GameItem, GameGridInventory, GameGridInventory, GameSlotInventory, GameInventory", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameGridInventory"), ModReflect.FindType("GameGridInventory"), ModReflect.FindType("GameSlotInventory"), ModReflect.FindType("GameInventory") }, null, null));
-            bindings.Add(new ManagedExactBinding(428, 266, "AgriExpansion.AgriPlasticProduction", "Requirement", "GameItem, GameGridInventory", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameGridInventory") }, null, null));
+            bindings.Add(new ManagedExactBinding(427, 265, "AgriExpansion.AgriPlasticProduction", "Process", "GameItem, GameGridInventory, GameGridInventory, GameSlotInventory, GameInventory", new Type[] { typeof(global::GameItem), typeof(global::GameGridInventory), typeof(global::GameGridInventory), typeof(global::GameSlotInventory), typeof(global::GameInventory) }, null, null));
+            bindings.Add(new ManagedExactBinding(428, 266, "AgriExpansion.AgriPlasticProduction", "Requirement", "GameItem, GameGridInventory", new Type[] { typeof(global::GameItem), typeof(global::GameGridInventory) }, null, null));
             bindings.Add(new ManagedExactBinding(429, 267, "AgriExpansion.AgriRequirementText", "Format", "System.String[], System.Int64[], System.Int32[], System.String", new Type[] { (typeof(global::System.String)).MakeArrayType(), (typeof(global::System.Int64)).MakeArrayType(), (typeof(global::System.Int32)).MakeArrayType(), typeof(global::System.String) }, null, null));
-            bindings.Add(new ManagedExactBinding(430, 268, "AgriExpansion.AgriSeedPropagation", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { ModReflect.FindType("RichTextBuilder"), ModReflect.FindType("GameItem") }, null, null));
+            bindings.Add(new ManagedExactBinding(430, 268, "AgriExpansion.AgriSeedPropagation", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, null, null));
             bindings.Add(new ManagedExactBinding(431, 269, "AgriExpansion.AgriSuperCrops", "Name", "System.String", new Type[] { typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(432, 270, "AgriExpansion.AgriSuperCrops", "PlantName", "System.String", new Type[] { typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(433, 271, "AgriExpansion.AgriSuperCrops", "Produce", "System.String", new Type[] { typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(434, 272, "AgriExpansion.AgriSuperCrops", "Seed", "System.String", new Type[] { typeof(global::System.String) }, null, null));
-            bindings.Add(new ManagedExactBinding(435, 273, "AgriExpansion.AgriSuperCrops", "Tooltip", "RichTextBuilder, GameItem", new Type[] { ModReflect.FindType("RichTextBuilder"), ModReflect.FindType("GameItem") }, null, null));
-            bindings.Add(new ManagedExactBinding(436, 274, "AgriExpansion.AgriSuperExtractCheckPatch", "Prefix", "GameItem, GameItem, System.String&, System.Boolean&", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameItem"), (typeof(global::System.String)).MakeByRefType(), (typeof(global::System.Boolean)).MakeByRefType() }, null, null));
-            bindings.Add(new ManagedExactBinding(437, 275, "AgriExpansion.AgriSuperGeneCheckPatch", "Prefix", "GameItem, System.String&, System.Boolean&", new Type[] { ModReflect.FindType("GameItem"), (typeof(global::System.String)).MakeByRefType(), (typeof(global::System.Boolean)).MakeByRefType() }, null, null));
-            bindings.Add(new ManagedExactBinding(438, 276, "AgriExpansion.AgriSuperGrowStatusPatch", "Prefix", "GameItem, System.String&", new Type[] { ModReflect.FindType("GameItem"), (typeof(global::System.String)).MakeByRefType() }, null, null));
-            bindings.Add(new ManagedExactBinding(439, 277, "AgriExpansion.AgriSuperGrowth", "Check", "GameItem, GameItem, System.String&", new Type[] { ModReflect.FindType("GameItem"), ModReflect.FindType("GameItem"), (typeof(global::System.String)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(435, 273, "AgriExpansion.AgriSuperCrops", "Tooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, null, null));
+            bindings.Add(new ManagedExactBinding(436, 274, "AgriExpansion.AgriSuperExtractCheckPatch", "Prefix", "GameItem, GameItem, System.String&, System.Boolean&", new Type[] { typeof(global::GameItem), typeof(global::GameItem), (typeof(global::System.String)).MakeByRefType(), (typeof(global::System.Boolean)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(437, 275, "AgriExpansion.AgriSuperGeneCheckPatch", "Prefix", "GameItem, System.String&, System.Boolean&", new Type[] { typeof(global::GameItem), (typeof(global::System.String)).MakeByRefType(), (typeof(global::System.Boolean)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(438, 276, "AgriExpansion.AgriSuperGrowStatusPatch", "Prefix", "GameItem, System.String&", new Type[] { typeof(global::GameItem), (typeof(global::System.String)).MakeByRefType() }, null, null));
+            bindings.Add(new ManagedExactBinding(439, 277, "AgriExpansion.AgriSuperGrowth", "Check", "GameItem, GameItem, System.String&", new Type[] { typeof(global::GameItem), typeof(global::GameItem), (typeof(global::System.String)).MakeByRefType() }, null, null));
             bindings.Add(new ManagedExactBinding(440, 278, "AgriExpansion.AgriSuperHydro", "Create", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(441, 279, "AgriExpansion.AgriSuperManual", "Crop", "System.String", new Type[] { typeof(global::System.String) }, null, null));
             bindings.Add(new ManagedExactBinding(442, 280, "AgriExpansion.AgriSuperManual", "get_Machine", "", Type.EmptyTypes, null, null));
@@ -562,11 +562,11 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(453, 291, "AgriExpansion.AgriFarm", "get_WaterNames", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(454, 292, "AgriExpansion.AgriNextTraits", "Register", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(455, 293, "AgriExpansion.AgriFarm+<>c__DisplayClass56_0", "<ConfirmRemoveAnimal>b__1", "", Type.EmptyTypes, null, null));
-            bindings.Add(new ManagedExactBinding(456, 294, "AgriExpansion.AgriFarm", "ReturnCultureAbove", "GameItem, System.Int32, System.Boolean", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32), typeof(global::System.Boolean) }, null, null));
+            bindings.Add(new ManagedExactBinding(456, 294, "AgriExpansion.AgriFarm", "ReturnCultureAbove", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, null, null));
             bindings.Add(new ManagedExactBinding(457, 295, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_2", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(458, 296, "AgriExpansion.AgriFarm", "Upgrade", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(459, 297, "AgriExpansion.AgriFarm+<>c__DisplayClass25_0", "<ConfirmChop>b__0", "System.Int32", new Type[] { typeof(global::System.Int32) }, null, null));
-            bindings.Add(new ManagedExactBinding(460, 298, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { ModReflect.FindType("GameItem"), typeof(global::System.Int32), typeof(global::System.Boolean) }, null, null));
+            bindings.Add(new ManagedExactBinding(460, 298, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, null, null));
             bindings.Add(new ManagedExactBinding(461, 299, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_0", "", Type.EmptyTypes, null, null));
             bindings.Add(new ManagedExactBinding(462, 300, "AgriExpansion.AgriFarm", "Choose", "System.String, System.String[], System.Int32, System.Action`1<System.Int32>", new Type[] { typeof(global::System.String), (typeof(global::System.String)).MakeArrayType(), typeof(global::System.Int32), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }) }, null, null));
             bindings.Add(new ManagedExactBinding(463, 301, "AgriExpansion.AgriFarm", "<SuppliesButton>b__265_0", "", Type.EmptyTypes, null, null));
@@ -601,91 +601,92 @@ namespace ProbablyStolenKo
         }
     }
 
-    [HarmonyPatch("SmartInventoryArrange.UnifiedSettingsGui", MethodType.Constructor)]
+    [HarmonyPatch("SmartInventoryArrange.UnifiedSettingsGui", null, MethodType.Constructor)]
+    [HarmonyPatch(new Type[] { typeof(global::ModConfig) })]
     internal static class GeneratedManagedPatch_55
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 55);
     }
-    [HarmonyPatch("SmartInventoryArrange.RussianText", MethodType.StaticConstructor)]
+    [HarmonyPatch("SmartInventoryArrange.RussianText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_78
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 78);
     }
-    [HarmonyPatch("AgriExpansion.AgriCookingRules", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriCookingRules", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_183
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 183);
     }
-    [HarmonyPatch("AgriExpansion.AgriCropHandbook", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriCropHandbook", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_184
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 184);
     }
-    [HarmonyPatch("AgriExpansion.AgriCropRules", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriCropRules", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_188
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 188);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriFarm", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_220
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 220);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarmHandbookGuide", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriFarmHandbookGuide", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_329
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 329);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarmHandbookText", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriFarmHandbookText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_330
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 330);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextCatalog", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriNextCatalog", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_386
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 386);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeCatalog", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeCatalog", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_399
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 399);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeDescriptions", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeDescriptions", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_400
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 400);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_405
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 405);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_411
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 411);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeRules", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeRules", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_425
     {
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 425);
     }
-    [HarmonyPatch("AgriExpansion.AgriText", MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_443
     {
         [HarmonyTranspiler]

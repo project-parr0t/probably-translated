@@ -31,6 +31,7 @@ Regenerate the bindings whenever a supported managed mod changes:
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/Expand-ManagedRoutes.ps1 `
   -ManagedRuntime managed-ko-runtime.json `
   -WorkshopRoot "path/to/Steam/steamapps/workshop/content/4348910" `
+  -GameManagedDir "path/to/the/game/Managed" `
   -Cecil "path/to/Mono.Cecil.dll" `
   -Output src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs
 ```

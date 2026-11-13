@@ -2,6 +2,7 @@
 param(
     [Parameter(Mandatory = $true)][string]$ManagedRuntime,
     [Parameter(Mandatory = $true)][string]$WorkshopRoot,
+    [Parameter(Mandatory = $true)][string]$GameManagedDir,
     [Parameter(Mandatory = $true)][string]$Cecil,
     [Parameter(Mandatory = $true)][string]$Output
 )
@@ -69,6 +70,20 @@ function Type-Expression($type) {
         $scopeName.StartsWith('Unity', [StringComparison]::Ordinal) -or $scopeName.StartsWith('UnityEngine', [StringComparison]::Ordinal)) {
         return 'typeof(global::' + (Open-CSharp-Type $fullName) + ')'
     }
+    if ($scopeName -eq 'Assembly-CSharp') {
+        try {
+            $definition = $type.Resolve()
+            $visible = $null -ne $definition -and ($definition.IsPublic -or $definition.IsNestedPublic)
+            $parent = if ($null -ne $definition) { $definition.DeclaringType } else { $null }
+            while ($visible -and $null -ne $parent) {
+                $visible = $parent.IsPublic -or $parent.IsNestedPublic
+                $parent = $parent.DeclaringType
+            }
+            if ($visible) { return 'typeof(global::' + (Open-CSharp-Type $fullName) + ')' }
+        } catch {
+            # Fall through to the game-guarded runtime resolver.
+        }
+    }
     return 'ModReflect.FindType("' + (Escape-CSharp (Runtime-Name $type)) + '")'
 }
 
@@ -125,6 +140,11 @@ $unsupportedCount = 0
 $staticPatchCount = 0
 $refreshCount = 0
 
+$assemblyResolver = New-Object Mono.Cecil.DefaultAssemblyResolver
+$assemblyResolver.AddSearchDirectory((Resolve-Path -LiteralPath $GameManagedDir))
+$readerParameters = New-Object Mono.Cecil.ReaderParameters
+$readerParameters.AssemblyResolver = $assemblyResolver
+
 foreach ($targetEntry in $root['targets'].GetEnumerator()) {
     $modId = [string]$targetEntry.Key
     $target = $targetEntry.Value
@@ -137,7 +157,7 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
     $matches = New-Object System.Collections.Generic.List[object]
     foreach ($file in Get-ChildItem -LiteralPath $itemRoot -Recurse -File -Filter '*.dll') {
         try {
-            $candidate = [Mono.Cecil.AssemblyDefinition]::ReadAssembly($file.FullName)
+            $candidate = [Mono.Cecil.AssemblyDefinition]::ReadAssembly($file.FullName, $readerParameters)
             if ($candidate.Name.Name -eq [string]$target['assembly_name']) { $matches.Add($candidate) }
             else { $candidate.Dispose() }
         } catch { }
@@ -292,7 +312,16 @@ foreach ($target in $targets) {
     foreach ($binding in $target.Bindings) {
         if ($binding.Kind -ne 'StaticPatch') { continue }
         $methodType = if ($binding.MethodName -eq '.cctor') { 'StaticConstructor' } else { 'Constructor' }
-        Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", MethodType.' + $methodType + ')]')
+        Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", null, MethodType.' + $methodType + ')]')
+        if ($binding.MethodName -eq '.ctor' -and $binding.Expressions.Count -ne 0) {
+            foreach ($expression in $binding.Expressions) {
+                if (-not $expression.StartsWith('typeof(global::', [StringComparison]::Ordinal) -or
+                    -not $expression.EndsWith(')', [StringComparison]::Ordinal)) {
+                    throw "Constructor binding $($binding.Id) has a parameter type that cannot be encoded in a static Harmony attribute."
+                }
+            }
+            Line ('    [HarmonyPatch(new Type[] { ' + ($binding.Expressions -join ', ') + ' })]')
+        }
         Line "    internal static class GeneratedManagedPatch_$($binding.Id)"
         Line '    {'
         Line '        [HarmonyTranspiler]'
