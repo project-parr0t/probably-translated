@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
@@ -187,18 +186,6 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralOverlay
     {
-        private sealed class PendingTarget
-        {
-            internal PendingTarget(string modId, ManagedTarget target)
-            {
-                ModId = modId;
-                Target = target;
-            }
-
-            internal string ModId { get; }
-            internal ManagedTarget Target { get; }
-        }
-
         private const string HarmonyId = "probably-stolen-ko-localization.managed-r8";
         private static readonly object Gate = new object();
         private static readonly Dictionary<MethodBase, IReadOnlyDictionary<string, string>> LiteralRoutes =
@@ -213,70 +200,20 @@ namespace ProbablyStolenKo
 
         private readonly Dictionary<string, Harmony> _harmonies =
             new Dictionary<string, Harmony>(StringComparer.Ordinal);
+        private readonly Dictionary<string, Type> _targetTypes =
+            new Dictionary<string, Type>(StringComparer.Ordinal);
         private readonly HashSet<string> _appliedTargets = new HashSet<string>(StringComparer.Ordinal);
-        private readonly HashSet<string> _queuedTargets = new HashSet<string>(StringComparer.Ordinal);
-        private readonly Queue<PendingTarget> _pendingTargets = new Queue<PendingTarget>();
         private readonly List<string> _appliedRefresh = new List<string>();
         private readonly ModLog _log;
-        private bool _workerScheduled;
-        private int _generation;
 
         internal ManagedLiteralOverlay(ModLog log)
         {
             _log = log ?? throw new ArgumentNullException(nameof(log));
         }
 
-        internal bool QueueTarget(string modId, ManagedTarget target)
+        internal void ApplyTarget(string modId, ManagedTarget target)
         {
-            if (target == null || _appliedTargets.Contains(modId) || _queuedTargets.Contains(modId)) return false;
-            _pendingTargets.Enqueue(new PendingTarget(modId, target));
-            _queuedTargets.Add(modId);
-            if (_workerScheduled) return false;
-            _workerScheduled = true;
-            return true;
-        }
-
-        internal IEnumerator ProcessQueue(Func<bool> isActive)
-        {
-            if (isActive == null) throw new ArgumentNullException(nameof(isActive));
-            var generation = _generation;
-            yield return null;
-            try
-            {
-                while (generation == _generation && isActive() && _pendingTargets.Count != 0)
-                {
-                    var pending = _pendingTargets.Dequeue();
-                    var routine = ApplyTargetBatched(pending.ModId, pending.Target, generation, isActive);
-                    while (generation == _generation && isActive())
-                    {
-                        bool advanced;
-                        try
-                        {
-                            advanced = routine.MoveNext();
-                        }
-                        catch (Exception error)
-                        {
-                            _queuedTargets.Remove(pending.ModId);
-                            _log.Error("Managed target overlay failed for " + pending.ModId + ". " + error.GetType().Name);
-                            break;
-                        }
-                        if (!advanced) break;
-                        yield return routine.Current;
-                    }
-                }
-            }
-            finally
-            {
-                if (generation == _generation) _workerScheduled = false;
-            }
-        }
-
-        private IEnumerator ApplyTargetBatched(
-            string modId,
-            ManagedTarget target,
-            int generation,
-            Func<bool> isActive)
-        {
+            if (target == null || _appliedTargets.Contains(modId)) return;
             var bindings = GeneratedManagedBindings.Create(modId);
             if (target.Routes.Count != 0 && bindings.Count == 0)
                 throw new InvalidOperationException("No generated exact bindings exist for managed target " + modId + ".");
@@ -286,30 +223,16 @@ namespace ProbablyStolenKo
             var staticBindings = new List<int>();
             var refreshPrepared = false;
             _harmonies.Add(modId, harmony);
-            foreach (var binding in bindings)
-            {
-                if (generation != _generation || !isActive()) yield break;
-                try
-                {
-                    ApplyBinding(harmony, binding, target, patched, staticBindings);
-                }
-                catch
-                {
-                    RollbackTarget(modId, harmony, patched, staticBindings, refreshPrepared);
-                    throw;
-                }
-                yield return null;
-            }
-
-            if (generation != _generation || !isActive()) yield break;
             try
             {
+                foreach (var binding in bindings)
+                    ApplyBinding(harmony, binding, target, patched, staticBindings);
+
                 GeneratedManagedRefresh.Prepare(harmony, modId);
                 refreshPrepared = true;
                 GeneratedManagedRefresh.Invoke(modId);
                 if (target.Refresh.Count != 0) _appliedRefresh.Add(modId);
                 _appliedTargets.Add(modId);
-                _queuedTargets.Remove(modId);
                 _log.Log("Applied managed Korean routes to " + modId + ".");
             }
             catch
@@ -319,7 +242,7 @@ namespace ProbablyStolenKo
             }
         }
 
-        private static void ApplyBinding(
+        private void ApplyBinding(
             Harmony harmony,
             ManagedExactBinding binding,
             ManagedTarget target,
@@ -353,7 +276,12 @@ namespace ProbablyStolenKo
                 return;
             }
 
-            var method = ModReflect.Target(binding.TypeName, binding.MethodName, binding.ParameterTypes);
+            if (!_targetTypes.TryGetValue(binding.TypeName, out var targetType))
+            {
+                targetType = ModReflect.FindType(binding.TypeName);
+                _targetTypes.Add(binding.TypeName, targetType);
+            }
+            var method = ModReflect.Target(targetType, binding.MethodName, binding.ParameterTypes);
             patched.Add(method);
             HarmonyMethod transpiler = null;
             HarmonyMethod postfix = null;
@@ -403,7 +331,6 @@ namespace ProbablyStolenKo
             }
             _harmonies.Remove(modId);
             _appliedTargets.Remove(modId);
-            _queuedTargets.Remove(modId);
         }
 
         internal static bool PrepareBinding(int bindingId)
@@ -413,7 +340,6 @@ namespace ProbablyStolenKo
 
         internal void Restore()
         {
-            _generation++;
             foreach (var harmony in _harmonies.Values) harmony.UnpatchAll(harmony.Id);
             lock (Gate)
             {
@@ -430,10 +356,8 @@ namespace ProbablyStolenKo
             }
             _appliedRefresh.Clear();
             _harmonies.Clear();
+            _targetTypes.Clear();
             _appliedTargets.Clear();
-            _queuedTargets.Clear();
-            _pendingTargets.Clear();
-            _workerScheduled = false;
         }
 
         private static void MergeLiteralRoute(
