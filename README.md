@@ -15,6 +15,7 @@ parr0t은 조금 더 부드럽고 오역이 적은 AI 기반 게임 번역 프�
 ## 어떤 모드의 한글 패치가 지원되나요?
 다음 모드들을 지원합니다:
 - [Better Water Trading](https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417)
+- [Korean Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687)
 - [GoFishing! (Fish Expansion)](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153)
 - [Smart Inventory Arrange](https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666)
 - [Pen's Pipette](https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725)
