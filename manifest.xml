@@ -3,16 +3,25 @@
   <ID>probably-stolen-ko-localization</ID>
   <Name>Probably Translated</Name>
   <Author>Project Parr0t</Author>
-  <ModVersion>1.0.1</ModVersion>
+  <ModVersion>1.0.2</ModVersion>
   <Description>Korean localization overlays for supported Probably Stolen Workshop mods. Base-game localization is untouched.</Description>
   <GameVersions>
     <Version>0.46D</Version>
   </GameVersions>
-  <Prerequisites />
+  <Prerequisites>
+    <Mod>chiqingsan.AquaSense</Mod>
+    <Mod>smart_inventory_arrange</Mod>
+    <Mod>asteroid_crate_reveal</Mod>
+    <Mod>visual_probe_20261031_three</Mod>
+    <Mod>item_durability_bars</Mod>
+    <Mod>better_liquid_scanner</Mod>
+    <Mod>agri_expansion</Mod>
+    <Mod>user.realtimeclock</Mod>
+    <Mod>cs_weapon_case</Mod>
+    <Mod>asteroid_in_game_mod_settings</Mod>
+  </Prerequisites>
   <Assemblies>
     <Assembly>ProbablyStolenKo.Localization.dll</Assembly>
   </Assemblies>
-  <Capabilities>
-    <Capability>reflection-external</Capability>
-  </Capabilities>
+  <Capabilities />
 </Manifest>

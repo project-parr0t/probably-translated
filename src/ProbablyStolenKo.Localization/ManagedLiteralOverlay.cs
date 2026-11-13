@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using HarmonyLib;
@@ -191,16 +190,18 @@ namespace ProbablyStolenKo
         private static readonly object Gate = new object();
         private static readonly Dictionary<MethodBase, IReadOnlyDictionary<string, string>> LiteralRoutes =
             new Dictionary<MethodBase, IReadOnlyDictionary<string, string>>();
+        private static readonly Dictionary<int, IReadOnlyDictionary<string, string>> LiteralBindingRoutes =
+            new Dictionary<int, IReadOnlyDictionary<string, string>>();
         private static readonly Dictionary<MethodBase, IReadOnlyDictionary<string, string>> ResultRoutes =
             new Dictionary<MethodBase, IReadOnlyDictionary<string, string>>();
         private static readonly Dictionary<MethodBase, Tuple<int, IReadOnlyDictionary<string, string>>> ArgumentRoutes =
             new Dictionary<MethodBase, Tuple<int, IReadOnlyDictionary<string, string>>>();
 
-        private readonly Harmony _harmony = new Harmony(HarmonyId);
+        private readonly Dictionary<string, Harmony> _harmonies =
+            new Dictionary<string, Harmony>(StringComparer.Ordinal);
         private readonly HashSet<string> _appliedTargets = new HashSet<string>(StringComparer.Ordinal);
+        private readonly List<string> _appliedRefresh = new List<string>();
         private readonly ModLog _log;
-        private readonly List<Tuple<Assembly, ManagedTarget>> _appliedRefresh =
-            new List<Tuple<Assembly, ManagedTarget>>();
 
         internal ManagedLiteralOverlay(ModLog log)
         {
@@ -210,91 +211,77 @@ namespace ProbablyStolenKo
         internal void ApplyTarget(string modId, ManagedTarget target)
         {
             if (target == null || _appliedTargets.Contains(modId)) return;
-            Assembly assembly = null;
-            if (target.Routes.Count != 0 || target.Refresh.Count != 0)
-            {
-                var candidates = AppDomain.CurrentDomain.GetAssemblies().Where(candidate =>
-                        StringComparer.OrdinalIgnoreCase.Equals(candidate.GetName().Name, target.AssemblyName) &&
-                        RoutesBelongToAssembly(candidate, target))
-                    .ToArray();
-                var owned = candidates.Where(candidate =>
-                    AssemblyPathMatchesWorkshop(candidate, target.WorkshopItemId)).ToArray();
-                RequireSingleOwnerPath(owned.Select(candidate => candidate.Location), target.WorkshopItemId);
-                assembly = owned[0];
-            }
+            var bindings = GeneratedManagedBindings.Create(modId);
+            if (target.Routes.Count != 0 && bindings.Count == 0)
+                throw new InvalidOperationException("No generated exact bindings exist for managed target " + modId + ".");
 
+            var harmony = new Harmony(HarmonyId + "." + modId);
             var patched = new List<MethodBase>();
+            var staticBindings = new List<int>();
+            var unsupported = new Dictionary<string, int>(StringComparer.Ordinal);
+            var refreshPrepared = false;
             try
             {
-                foreach (var route in target.Routes)
+                foreach (var binding in bindings)
                 {
-                    var routeTypes = route.TypeName == "*"
-                        ? assembly.GetTypes()
-                        : route.TypeName.EndsWith("*", StringComparison.Ordinal)
-                            ? assembly.GetTypes().Where(candidate =>
-                                candidate.FullName != null &&
-                                candidate.FullName.StartsWith(
-                                    route.TypeName.Substring(0, route.TypeName.Length - 1),
-                                    StringComparison.Ordinal)).ToArray()
-                            : new[] { assembly.GetType(route.TypeName, false, false) };
-                    if (routeTypes.Length == 0 || routeTypes.Any(candidate => candidate == null))
-                        throw new MissingMemberException(route.TypeName);
-                    var methods = routeTypes.SelectMany(type =>
-                            type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static |
-                                    BindingFlags.Instance | BindingFlags.DeclaredOnly)
-                                .Cast<MethodBase>()
-                                .Concat(type.GetConstructors(BindingFlags.Public | BindingFlags.NonPublic |
-                                    BindingFlags.Static | BindingFlags.Instance | BindingFlags.DeclaredOnly))
-                                .Concat(type.TypeInitializer == null
-                                    ? Array.Empty<MethodBase>()
-                                    : new MethodBase[] { type.TypeInitializer }))
-                        .Where(method => route.MethodName == "*" ||
-                            StringComparer.Ordinal.Equals(method.Name, route.MethodName))
-                        .Where(method => route.Mode == "literal" || route.Mode == "literal_occurrence" ||
-                            (method is MethodInfo info && (
-                                ((route.Mode == "result_string" || route.Mode == "result_by_argument" ||
-                                  route.Mode == "result_by_arguments") &&
-                                 info.ReturnType == typeof(string)) ||
-                                (route.Mode == "result_string_array" && info.ReturnType == typeof(string[])))))
-                        .ToArray();
-                    if (methods.Length == 0) throw new MissingMethodException(route.TypeName, route.MethodName);
-                    foreach (var method in methods)
+                    if (binding.RouteIndex < 0 || binding.RouteIndex >= target.Routes.Count)
+                        throw new InvalidOperationException("Generated managed route index is outside the runtime catalog.");
+                    var route = target.Routes[binding.RouteIndex];
+                    if (binding.Kind == ManagedBindingKind.Unsupported)
                     {
-                        HarmonyMethod transpiler = null;
-                        HarmonyMethod postfix = null;
-                        lock (Gate)
-                        {
-                            if (route.Mode == "literal" || route.Mode == "literal_occurrence")
-                                MergeLiteralRoute(method, route.Entries);
-                            else if (route.Mode == "result_by_argument")
-                                ArgumentRoutes[method] = Tuple.Create(route.ArgumentIndex, route.Entries);
-                            else ResultRoutes[method] = route.Entries;
-                        }
-                        if (route.Mode == "literal" || route.Mode == "literal_occurrence")
-                            transpiler = new HarmonyMethod(typeof(ManagedLiteralOverlay).GetMethod(nameof(Transpile), BindingFlags.Static | BindingFlags.NonPublic));
-                        else if (route.Mode == "result_string")
-                            postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay).GetMethod(nameof(PostfixString), BindingFlags.Static | BindingFlags.NonPublic));
-                        else if (route.Mode == "result_by_argument")
-                            postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay).GetMethod(nameof(PostfixByArgument), BindingFlags.Static | BindingFlags.NonPublic));
-                        else if (route.Mode == "result_by_arguments")
-                            postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay).GetMethod(nameof(PostfixByArguments), BindingFlags.Static | BindingFlags.NonPublic));
-                        else
-                            postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay).GetMethod(nameof(PostfixStringArray), BindingFlags.Static | BindingFlags.NonPublic));
-                        _harmony.Patch(method, postfix: postfix, transpiler: transpiler);
-                        patched.Add(method);
+                        unsupported.TryGetValue(binding.Issue, out var count);
+                        unsupported[binding.Issue] = count + 1;
+                        continue;
                     }
+
+                    if (binding.Kind == ManagedBindingKind.StaticPatch)
+                    {
+                        if (route.Mode != "literal" && route.Mode != "literal_occurrence")
+                            throw new InvalidOperationException("Constructor bindings only support literal transpilers.");
+                        lock (Gate) LiteralBindingRoutes[binding.Id] = route.Entries;
+                        staticBindings.Add(binding.Id);
+                        harmony.CreateClassProcessor(binding.PatchType).Patch();
+                        continue;
+                    }
+
+                    var method = ModReflect.Target(binding.TypeName, binding.MethodName, binding.ParameterTypes);
+                    HarmonyMethod transpiler = null;
+                    HarmonyMethod postfix = null;
+                    lock (Gate)
+                    {
+                        if (route.Mode == "literal" || route.Mode == "literal_occurrence")
+                            MergeLiteralRoute(method, route.Entries);
+                        else if (route.Mode == "result_by_argument")
+                            ArgumentRoutes[method] = Tuple.Create(route.ArgumentIndex, route.Entries);
+                        else ResultRoutes[method] = route.Entries;
+                    }
+                    if (route.Mode == "literal" || route.Mode == "literal_occurrence")
+                        transpiler = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(Transpile));
+                    else if (route.Mode == "result_string")
+                        postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixString));
+                    else if (route.Mode == "result_by_argument")
+                        postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixByArgument));
+                    else if (route.Mode == "result_by_arguments")
+                        postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixByArguments));
+                    else
+                        postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixStringArray));
+                    harmony.Patch(method, postfix: postfix, transpiler: transpiler);
+                    patched.Add(method);
                 }
-                if (assembly != null)
-                {
-                    InvokeRefresh(assembly, target);
-                    _appliedRefresh.Add(Tuple.Create(assembly, target));
-                }
+
+                GeneratedManagedRefresh.Prepare(harmony, modId);
+                refreshPrepared = true;
+                GeneratedManagedRefresh.Invoke(modId);
+                if (target.Refresh.Count != 0) _appliedRefresh.Add(modId);
+                _harmonies.Add(modId, harmony);
                 _appliedTargets.Add(modId);
+                foreach (var issue in unsupported)
+                    _log.Error("Skipped " + issue.Value + " managed bindings for " + modId + ": " + issue.Key + ".");
                 _log.Log("Applied managed Korean routes to " + modId + ".");
             }
             catch
             {
-                foreach (var method in patched) _harmony.Unpatch(method, HarmonyPatchType.All, HarmonyId);
+                harmony.UnpatchAll(harmony.Id);
                 lock (Gate)
                 {
                     foreach (var method in patched)
@@ -303,10 +290,11 @@ namespace ProbablyStolenKo
                         ResultRoutes.Remove(method);
                         ArgumentRoutes.Remove(method);
                     }
+                    foreach (var bindingId in staticBindings) LiteralBindingRoutes.Remove(bindingId);
                 }
-                if (assembly != null)
+                if (refreshPrepared)
                 {
-                    try { InvokeRefresh(assembly, target); }
+                    try { GeneratedManagedRefresh.Invoke(modId); }
                     catch (Exception error) { _log.Error("Managed rollback refresh failed after " + error.GetType().Name + "."); }
                 }
                 throw;
@@ -315,77 +303,22 @@ namespace ProbablyStolenKo
 
         internal void Restore()
         {
-            _harmony.UnpatchAll(HarmonyId);
+            foreach (var harmony in _harmonies.Values) harmony.UnpatchAll(harmony.Id);
             lock (Gate)
             {
                 LiteralRoutes.Clear();
+                LiteralBindingRoutes.Clear();
                 ResultRoutes.Clear();
                 ArgumentRoutes.Clear();
             }
-            foreach (var applied in _appliedRefresh)
+            foreach (var modId in _appliedRefresh)
             {
-                try { InvokeRefresh(applied.Item1, applied.Item2); }
+                try { GeneratedManagedRefresh.Invoke(modId); }
                 catch (Exception error) { _log.Error("Managed restore refresh failed after " + error.GetType().Name + "."); }
             }
             _appliedRefresh.Clear();
+            _harmonies.Clear();
             _appliedTargets.Clear();
-        }
-
-        private static bool RoutesBelongToAssembly(Assembly assembly, ManagedTarget target)
-        {
-            Type[] types;
-            try { types = assembly.GetTypes(); }
-            catch (ReflectionTypeLoadException error) { types = error.Types.Where(type => type != null).ToArray(); }
-            foreach (var route in target.Routes)
-            {
-                if (route.TypeName == "*") continue;
-                if (route.TypeName.EndsWith("*", StringComparison.Ordinal))
-                {
-                    var prefix = route.TypeName.Substring(0, route.TypeName.Length - 1);
-                    if (!types.Any(type => type.FullName != null &&
-                        type.FullName.StartsWith(prefix, StringComparison.Ordinal))) return false;
-                }
-                else if (!types.Any(type => StringComparer.Ordinal.Equals(type.FullName, route.TypeName)))
-                    return false;
-            }
-            foreach (var refresh in target.Refresh)
-                if (!types.Any(type => StringComparer.Ordinal.Equals(type.FullName, refresh.TypeName))) return false;
-            return true;
-        }
-
-        internal static void RequireSingleOwnerPath(IEnumerable<string> locations, string workshopItemId)
-        {
-            if (locations == null || locations.Count(location =>
-                    !string.IsNullOrEmpty(location) &&
-                    location.Split(new[] { '\\', '/' }, StringSplitOptions.RemoveEmptyEntries)
-                        .Any(segment => StringComparer.Ordinal.Equals(segment, workshopItemId))) != 1)
-                throw new InvalidOperationException(
-                    "Target managed assembly path does not match one unambiguous Workshop owner identity.");
-        }
-
-        private static bool AssemblyPathMatchesWorkshop(Assembly assembly, string workshopItemId)
-        {
-            var location = assembly.Location;
-            if (string.IsNullOrEmpty(location)) return false;
-            return location.Split(new[] { '\\', '/' }, StringSplitOptions.RemoveEmptyEntries)
-                .Any(segment => StringComparer.Ordinal.Equals(segment, workshopItemId));
-        }
-
-
-        private static void InvokeRefresh(Assembly assembly, ManagedTarget target)
-        {
-            foreach (var action in target.Refresh)
-            {
-                var type = assembly.GetType(action.TypeName, false, false);
-                var method = type?.GetMethod(
-                    action.MethodName,
-                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static,
-                    null,
-                    Type.EmptyTypes,
-                    null);
-                if (method == null) throw new MissingMethodException(action.TypeName, action.MethodName);
-                method.Invoke(null, null);
-            }
         }
 
         private static void MergeLiteralRoute(
@@ -412,6 +345,22 @@ namespace ProbablyStolenKo
         {
             IReadOnlyDictionary<string, string> entries;
             lock (Gate) LiteralRoutes.TryGetValue(original, out entries);
+            return TranslateInstructions(instructions, entries);
+        }
+
+        internal static IEnumerable<CodeInstruction> TranspileBinding(
+            IEnumerable<CodeInstruction> instructions,
+            int bindingId)
+        {
+            IReadOnlyDictionary<string, string> entries;
+            lock (Gate) LiteralBindingRoutes.TryGetValue(bindingId, out entries);
+            return TranslateInstructions(instructions, entries);
+        }
+
+        private static IEnumerable<CodeInstruction> TranslateInstructions(
+            IEnumerable<CodeInstruction> instructions,
+            IReadOnlyDictionary<string, string> entries)
+        {
             var occurrences = new Dictionary<string, int>(StringComparer.Ordinal);
             foreach (var instruction in instructions)
             {

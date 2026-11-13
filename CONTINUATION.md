@@ -21,6 +21,22 @@ dotnet build src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csp
 
 The project preserves the `ProbablyStolenKo.Localization` assembly name and produces an optimized, deterministic build without debug symbols. Build output is ignored and is not a distributable game dependency bundle.
 
+## Regenerate managed route bindings
+
+The bridge does not discover assemblies, types, or members through unrestricted runtime reflection. `tools/Expand-ManagedRoutes.ps1` expands the reviewed runtime routes into exact, capability-free targets. Normal methods use the game's guarded `ModReflect.Target` API; constructor routes use generated static Harmony patches.
+
+Regenerate the bindings whenever a supported managed mod changes:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Expand-ManagedRoutes.ps1 `
+  -ManagedRuntime managed-ko-runtime.json `
+  -WorkshopRoot "path/to/Steam/steamapps/workshop/content/4348910" `
+  -Cecil "path/to/Mono.Cecil.dll" `
+  -Output src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs
+```
+
+The command must finish with `unsupported=0`. Treat any unsupported binding or changed route count as a held update, not as permission to omit translations.
+
 ## Resume an update
 
 `parr0t-release-checkpoint.json` is the canonical r10 release baseline. Load it with Parr0t's release-checkpoint API and require patch ID `probably-stolen-ko-localization` and release ID `local-r10`. Before starting an update, call `canonical_checkpoint_bytes` and confirm that the returned bytes exactly match the file; `validate_release_checkpoint` provides schema and dependency validation.
