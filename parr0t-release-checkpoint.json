@@ -1,7 +1,7 @@
 {
   "context": {
-    "fingerprint": "b2981078ed247cabe0017b11496dde326f0f72662d2f0c3133c65096d5c0be53",
-    "review_policy_fingerprint": "80d0f3f98704eac7f9813d84937da55ae3d31b4eeb30f706fd0014b6ca3510ed"
+    "fingerprint": "eb0b07ba3386c40972c0a53e1b60ad3d729a55930e0133ffea8a1f9f54ab9797",
+    "review_policy_fingerprint": "006a3006dd83171c6b86bb43d353579ecbc18dce43c9a1e3d8773916bde0d3a9"
   },
   "entries": [
     {
@@ -34857,22 +34857,22 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829110153:gameplay.ship_mentor.can_wait",
       "location_fingerprint": "a4b5bd9deb13b760e44d226501903540e66049af87d48ae46d097efced0154d1",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "df14b6e8c6eb3eae992bda4c2e8677a69fa284814847a66336bd964bd5c98682",
       "source_sha256": "3192bd3623e9ce60a927e67a49d76259343ef3cad9b333d02d770dfe6f76410c",
       "status": "reviewed",
-      "target": "부족하면 시간을 두고 갚아도 돼요.",
-      "target_sha256": "1365cbb1a1beaf47b16c548484e23f2b4f3f5821b202744ab13e94984659960a"
+      "target": "부족하면 시간을 두고 갚아도 돼.",
+      "target_sha256": "e8b905ac7f96c506db48572382af175215b99a30a4345fd05b8aa29c3fc5e8ad"
     },
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829110153:gameplay.ship_mentor.fixed",
       "location_fingerprint": "c40c0772e833e6ad12c278d67911a43820ecb8fc26326269b014bde36dd85a2d",
-      "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
+      "review_fingerprint": "fae6c08f99189b890e6b8f9c946e337c6013b056e357330dd9345ed69a0fbaf7",
       "source_sha256": "84d131fd54b5378819736d897ac67c7c13e220084b02f68a86dcf1bff1f415e0",
       "status": "reviewed",
-      "target": "부탁하신 배 수리가 끝났습니다. 수리비는 1,000크레딧입니다.",
-      "target_sha256": "07a4c1e3adc09179894d69481f0d24bc5519d50ace388fbb51b412b0aa052cb9"
+      "target": "네가 부탁한 배 수리가 끝났어. 수리비는 1,000크레딧이야.",
+      "target_sha256": "ba90b06bc795f7dbc41ae46e8d503897506a0c6eca2c67ccb921c2df68c7156b"
     },
     {
       "dependencies": [],
@@ -34890,11 +34890,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829110153:gameplay.ship_mentor.key_location",
       "location_fingerprint": "b99d8a822499673044b61cf434fcfcfe2c20e56d51f74a04e536d4219765d096",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "2ff152125031a49df07c8a5527e588356420d7240d5c21d45e4dce0999ac18f3",
       "source_sha256": "34af5c2ff74c29ad083da3e9c5b552ddcd25de9049ba414f877b682a0da92735",
       "status": "reviewed",
-      "target": "문 옆에 열쇠를 걸어 뒀어요. 필요할 때 언제든 배를 타고 나가세요.",
-      "target_sha256": "395c47d2b88ce95ac51c842468b4236b2c26289cec2aeff091ad3ab470634df7"
+      "target": "문 옆에 열쇠를 걸어 뒀어. 필요할 때 언제든 배를 타고 나가면 돼.",
+      "target_sha256": "389dae5df47fbb0322c73c365f5ede1dc920547d5e79e9c46d8fe979a01a1551"
     },
     {
       "dependencies": [],
@@ -34923,33 +34923,33 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829110153:gameplay.ship_mentor.no_money_first",
       "location_fingerprint": "ab2352f0c5f6a5c359858ffd089e938a4a571abe85608b201a2e8d3b33b43522",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "27a250ba69e80378e11c90a98c6b0d355cd762f2e053557dca98591067fd2e95",
       "source_sha256": "5625622a6aed744b94aa366233b3f1386bfb87f3ba2303c1d50500001c971884",
       "status": "reviewed",
-      "target": "그렇다면 배를 넘겨드리기엔 아직 이른 것 같군요.",
-      "target_sha256": "51a9b28a95168ec7444e7b84a2c969470937b9e52b8a351a433819712e404b5c"
+      "target": "그렇다면 배를 넘겨주기엔 아직 이른 것 같군.",
+      "target_sha256": "67c5e2e26f2e7047515e33cc51eb5c3736c6f1cd6bbb9b5739f3eab1e1b47394"
     },
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829110153:gameplay.ship_mentor.no_money_later",
       "location_fingerprint": "78a56fd1d5a8280436663d47a88fe10031b583a0c45fdefd051e2e852a689f0b",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "74a82420e8041ed0407026816975e10caf0a8c6cdc812239b198396333f77778",
       "source_sha256": "0bab196c11e0fc3bb2b5def5594a3a7abb1c73b21c04c64d0cc6420bf0b54838",
       "status": "reviewed",
-      "target": "...다음 주에는 돈을 가지고 있으면 좋겠군요.",
-      "target_sha256": "7431496eb45febdaffec745361879145ac1b1457dfa995d057cf5e11ef8d9bce"
+      "target": "...다음 주에는 돈을 가지고 있으면 좋겠군.",
+      "target_sha256": "47be406056d63c60ccfa73668580b25a10059d7491e110350b08190ed6a6fad3"
     },
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829110153:gameplay.ship_mentor.paid",
       "location_fingerprint": "83a865fe6843b2d1bc9b0f8b38131df0eb6da3a41a5b4bc701950c306858aac2",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "5077fc822b6758b03b35cb1ae27c360adf228576e30f53d1da2ba52d7b3985db",
       "source_sha256": "34d855f160ad12c408ac1e8e5f15072c38df725c0017033e6e23917cfe3f3a23",
       "status": "reviewed",
-      "target": "거래하게 되어 기쁘군요. 정보가 필요할 때는 언제든 윌리에게 전화하세요.",
-      "target_sha256": "59826cce2d0cc4e4ad5a5ed5618f0e2e4de7a4d3f5144b5bbc453e2123a5f8e5"
+      "target": "거래하게 되어 기쁘군. 정보가 필요할 때는 언제든 윌리에게 전화해.",
+      "target_sha256": "46df5daa04d3099818096cbb61606bddd5e64de2c73311653c7130b0763e2049"
     },
     {
       "dependencies": [],
@@ -35011,11 +35011,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829110153:gameplay.ship_mentor.remaining",
       "location_fingerprint": "dbeb0814266aa4d65e2ee0d1448a9cf217d4ce78f0828d3cf6c6a5067912a770",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "7155989db920625e56c2584db8f8a967938492dc9b099585fc429a41cb883ea7",
       "source_sha256": "2fa2a49b413ac2732a43d54d4dad596edf883e77e29030865bb5f831d9c05db1",
       "status": "reviewed",
-      "target": "아직 {0}을(를) 빚지고 있군요. 다음 주에 다시 오겠습니다.",
-      "target_sha256": "b3f7a542f6810fbad3b63746c08b745c9edb4071fcd9b03793ce8a71066d809a"
+      "target": "아직 {0}을(를) 빚지고 있군. 다음 주에 다시 오지.",
+      "target_sha256": "0564526f23e741a4c6af0ed853c125426c2947d1fc55e9222881d5c9c9a609d8"
     },
     {
       "dependencies": [],
@@ -62742,11 +62742,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829946713:ch3_aurora_6",
       "location_fingerprint": "294a77892300e11e37bffff993ddcedfe14e9a367ffb7adddbb955682d1ffc5b",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "f973910e8a90c402bb55f0a2b8957f0878568f57578ccfd90e19b0c8f0e884ea",
       "source_sha256": "fbcdf46446e945a24fe239742417cc6e2520efb8aaabbeb9ea9413c9d7561aa2",
       "status": "reviewed",
-      "target": "진료소에서 8년을 일했지만 이런 건 처음 봐.",
-      "target_sha256": "6759007c8a67cae648c1453186a6ff90bd212f1d8f4e0d3628d421750dd5a853"
+      "target": "진료소에서 8년을 일했지만 이런 건 처음 봤어요.",
+      "target_sha256": "95c509827821b87459d1e7dc8f736f7e1c0974e141b980afb3e8c0625145f9cc"
     },
     {
       "dependencies": [],
@@ -73995,11 +73995,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829946713:serpico_after_job_1",
       "location_fingerprint": "7278650473b1618ca0a21b9466f77079afbc2e57e7c11949fdfe3d6a8c84ffae",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "af80e45257bfcbe642d787d77512b9de0dd2cbffd748f89592782521e597e1a4",
       "source_sha256": "36acf0525925905d652a58db7c350679146ab158a44883721a188a65a733aa02",
       "status": "reviewed",
-      "target": "그날 우리는 4명을 데리고 갔다.",
-      "target_sha256": "c936e6ce1d844fd82258abac0c9d09251c7d71f2ec303212e47081cae0ce81ae"
+      "target": "그날 우리는 4명을 데리고 갔어요.",
+      "target_sha256": "6bb48fa46322f795fb3a3e2a4dc12c2de80537be7482dce3f5f5bdbcdad338ce"
     },
     {
       "dependencies": [],
@@ -87547,11 +87547,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3832840208:te_buyer_preferences_03",
       "location_fingerprint": "a2351efd669c13f0f89a2714bf3d11b7e868d479c1ced7fe0316597f4b17eb2c",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
+      "review_fingerprint": "c48c9a714919c43bada7885c702e3b7d3985f4987400933b2e95b50cb88c84f0",
       "source_sha256": "f42df6555edb12a1ab0cc0c2f352253c56473f9a3a33156f404b3d659b90976e",
       "status": "reviewed",
-      "target": "길에서 담배가 특별하다는 이야기를 들었습니다. 원하는 조건은 거래 패널에 적혀 있습니다. 친구들에게 가져갈 담배를 몇 개 골라 주세요.",
-      "target_sha256": "f59d1bef45beffb0f19641f31a83047c9c262e37b08c618e6b0ca0da7dc99b82"
+      "target": "길에서 담배가 특별하다는 이야기를 들었어요. 원하는 조건은 거래 패널에 적혀 있어요. 친구들에게 가져갈 담배를 몇 개 골라 주세요.",
+      "target_sha256": "6a22640c6f6dc6f0ceb60f54373d14354ece0140064f7de3a9ddd0ef56ea21df"
     },
     {
       "dependencies": [],
@@ -93520,22 +93520,22 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3832941698:character.doubao.acceptline",
       "location_fingerprint": "3fcf98049382bf582530b2457a69b57259967d45318424b464ec38881109b8c4",
-      "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
+      "review_fingerprint": "50252097fc8a7252c1132413527658653f5711f053e0e1f842a46fff52b087fd",
       "source_sha256": "3f3c8bf0250619cc692a982b427f1947f628ee25951fc193653bf12fb72ab883",
       "status": "reviewed",
-      "target": "좋아, 그 가격이면 됐어. 흥정은 그만하고 거래하자.",
-      "target_sha256": "669d57fb74aa794659a0436437fb6f1f68cba23df01bb3ca1578a27517e5afcf"
+      "target": "좋습니다, 그 가격이면 됐습니다. 흥정은 그만하고 거래하죠.",
+      "target_sha256": "88bbc784aa497a5d4d26083c74856a7d42c019cf287b1ff2585a7076bf588fae"
     },
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3832941698:character.doubao.doneline",
       "location_fingerprint": "ecc43567df8aa64b9977949c5df4a34ece16726a6deeebc10f5620a7d2dec6ad",
-      "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
+      "review_fingerprint": "66c897f202deec4e1e45d18463c7fdd11baca0ea42574c6b964d77084d2313fb",
       "source_sha256": "94aaf981083da3b6a789d1229df21305651a9adb17199508e578831f52658420",
       "status": "reviewed",
-      "target": "간다. 다음에는 이런 물건으로 날 속이려 들지 마. 내가 바보인 줄 알아?",
-      "target_sha256": "76cf0d245ea188a6fcb27195ad6d885385aa04af31c5ccea2c61fdd114ae4617"
+      "target": "가겠습니다. 다음에는 이런 물건으로 저를 속이지 마세요. 제가 바보인 줄 아십니까?",
+      "target_sha256": "c76617c3043cb74087f02e79e6ef6d87d260a5444be88f8c5b7c55858ac006da"
     },
     {
       "dependencies": [],
@@ -94928,11 +94928,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3832941698:dialogue.doubao.judge.adone",
       "location_fingerprint": "3edcd6a623e0aac9e3afd358c51cc5862e637bc41c6d543c104b93cda9edab84",
-      "review_fingerprint": "763ff5633edc1b8cf300f31e5024b4fc5849e531feec22e1fc4bbd052c523182",
+      "review_fingerprint": "36e9c2445cdb5de595f8692ab36ed895215916887e7f8d64ea45f7cac1b33a9e",
       "source_sha256": "6c2b7dd3ea9f8842cc63094b958003d109e9022b4dc4a7da78c6135fccfbf915",
       "status": "reviewed",
-      "target": "이게 전부야. 보급소가 이번 달 매입 예산을 다 썼어, 하하.",
-      "target_sha256": "a22b8542231cf5a633ba50113399f484dbaa5404cbeca1faa959e707cafe22fd"
+      "target": "하하, 이게 전부입니다. 보급소가 이번 달 매입 예산을 다 썼습니다.",
+      "target_sha256": "29ae44abdc3761cd67322483be951a87c52bcdf2d5ac81d154efb928348ff8b3"
     },
     {
       "dependencies": [],
@@ -104520,7 +104520,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r10",
+  "release_id": "local-r11",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",

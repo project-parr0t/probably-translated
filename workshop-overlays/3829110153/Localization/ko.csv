@@ -1587,21 +1587,21 @@ gameplay.fish.processing.multiplier,계승된 물고기 품질: 가치 ×{0}
 gameplay.fishing.level.max,낚시 레벨 {0}  경험치 {1} (최고 레벨)
 gameplay.fishing.level.progress,낚시 레벨 {0}  경험치 {1}/{2}  다음 레벨: {3}
 gameplay.fishing.level.rules,"가져간 물고기 한 마리당 경험치 10을 얻습니다. 최고 레벨에는 경험치 9,500이 필요합니다. 통째 물고기의 등급은 최초 포획 시 결정되며, 주된 손질 살코기에도 이어집니다. 사육 물고기의 기본 등급은 4등급입니다. 야생 생물 물고기는 성체 단계로 출현하며, 특성은 포획 시 한 번 적용됩니다."
-gameplay.ship_mentor.can_wait,부족하면 시간을 두고 갚아도 돼요.
-gameplay.ship_mentor.fixed,"부탁하신 배 수리가 끝났습니다. 수리비는 1,000크레딧입니다."
+gameplay.ship_mentor.can_wait,부족하면 시간을 두고 갚아도 돼.
+gameplay.ship_mentor.fixed,"네가 부탁한 배 수리가 끝났어. 수리비는 1,000크레딧이야."
 gameplay.ship_mentor.insufficient,크레딧이 부족합니다. 결제되지 않았습니다.
-gameplay.ship_mentor.key_location,문 옆에 열쇠를 걸어 뒀어요. 필요할 때 언제든 배를 타고 나가세요.
+gameplay.ship_mentor.key_location,문 옆에 열쇠를 걸어 뒀어. 필요할 때 언제든 배를 타고 나가면 돼.
 gameplay.ship_mentor.name,멘토
 gameplay.ship_mentor.no_money,지금은 지불할 수 없습니다
-gameplay.ship_mentor.no_money_first,그렇다면 배를 넘겨드리기엔 아직 이른 것 같군요.
-gameplay.ship_mentor.no_money_later,...다음 주에는 돈을 가지고 있으면 좋겠군요.
-gameplay.ship_mentor.paid,거래하게 되어 기쁘군요. 정보가 필요할 때는 언제든 윌리에게 전화하세요.
+gameplay.ship_mentor.no_money_first,그렇다면 배를 넘겨주기엔 아직 이른 것 같군.
+gameplay.ship_mentor.no_money_later,...다음 주에는 돈을 가지고 있으면 좋겠군.
+gameplay.ship_mentor.paid,거래하게 되어 기쁘군. 정보가 필요할 때는 언제든 윌리에게 전화해.
 gameplay.ship_mentor.pay_100_first,100 지불
 gameplay.ship_mentor.pay_100_later,100 지불
 gameplay.ship_mentor.pay_1000,"1,000 지불"
 gameplay.ship_mentor.pay_all,남은 금액 지불
 gameplay.ship_mentor.payment_failed,결제가 완료되지 않았습니다. 나중에 다시 시도해 주세요.
-gameplay.ship_mentor.remaining,아직 {0}을(를) 빚지고 있군요. 다음 주에 다시 오겠습니다.
+gameplay.ship_mentor.remaining,아직 {0}을(를) 빚지고 있군. 다음 주에 다시 오지.
 gameplay.ship_mentor.reminder,남는 크레딧은 좀 모았어?
 gameplay.status.complete,완료
 gameplay.status.diagnostic,자세한 내용은 로그를 확인하세요.

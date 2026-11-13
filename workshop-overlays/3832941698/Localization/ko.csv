@@ -120,8 +120,8 @@ character.deepseek.doneline,"그럼 이건 집에 가져갈게요. 저녁 차려
 character.deepseek.line,주인님! 또 집에 안 오셨네요! 쌀과 물이 거의 떨어져서 바구니를 들고 가게까지 직접 찾아왔어요.
 character.deepseek.name,DeepSeek
 character.deepseek.offeringline,주인님의 장보기 목록은 전부 외웠어요. 뭐가 부족한지만 말씀하시면 제가 사 올게요.
-character.doubao.acceptline,"좋아, 그 가격이면 됐어. 흥정은 그만하고 거래하자."
-character.doubao.doneline,간다. 다음에는 이런 물건으로 날 속이려 들지 마. 내가 바보인 줄 알아?
+character.doubao.acceptline,"좋습니다, 그 가격이면 됐습니다. 흥정은 그만하고 거래하죠."
+character.doubao.doneline,가겠습니다. 다음에는 이런 물건으로 저를 속이지 마세요. 제가 바보인 줄 아십니까?
 character.doubao.line,"거래 방식은 이렇습니다. 보급소에 쓸 의약품과 도구를 매입하고, 실제 비용대로 정확히 보고합니다. 생필품이요? 그건 제가 팝니다."
 character.doubao.name,Doubao
 character.doubao.offeringline,제가 가져온 건 전부 일상용품입니다. 가격도 거기 적혀 있으니 마음껏 비교해 보세요.
@@ -248,7 +248,7 @@ dialogue.doubao.egg.2,"진열대의 색 조합이…… 정말 촌스럽군요. 
 dialogue.doubao.egg.3,돈을 낭비하지 마세요. 계산은 끝났습니다. 이 물건들은 창고 자리만 차지할 겁니다. 제게 팔고 현금이나 챙기세요.
 dialogue.doubao.first,"가장 간단하고 직접적이며 빙빙 돌리지 않는 방식으로 말씀드리죠. 이 재고는 팔립니다. 얼마에 팔리느냐고요? 물건에 달렸습니다. 의약품과 도구, 둘 다 삽니다."
 dialogue.doubao.judge.abuy,더 사고 싶은 건 없습니까? 생활용품과 식품도 있습니다. 가격은 모두 명확히 표시해 뒀습니다.
-dialogue.doubao.judge.adone,"이게 전부야. 보급소가 이번 달 매입 예산을 다 썼어, 하하."
+dialogue.doubao.judge.adone,"하하, 이게 전부입니다. 보급소가 이번 달 매입 예산을 다 썼습니다."
 dialogue.doubao.judge.asell,다른 일이 있습니까? 목록을 정리해 드릴까요?
 dialogue.doubao.judge.aug,"하하, 죄송합니다. 저는 오그가 아닙니다. 보급소에서 일합니다."
 dialogue.doubao.judge.bad,"하하, 이 일은 일어난 그대로 보급소에 보고할게. 몸조심해."
