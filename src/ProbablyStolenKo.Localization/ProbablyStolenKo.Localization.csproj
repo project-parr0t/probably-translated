@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>ProbablyStolenKo.Localization</AssemblyName>
+    <RootNamespace>ProbablyStolenKo</RootNamespace>
+    <Deterministic>true</Deterministic>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <Target Name="ValidateGameManagedDir" BeforeTargets="PrepareForBuild">
+    <Error Condition="'$(GameManagedDir)' == ''" Text="GameManagedDir is required. Pass -p:GameManagedDir=&quot;path/to/the/game/Managed&quot;." />
+    <Error Condition="'$(GameManagedDir)' != '' and !Exists('$(GameManagedDir)')" Text="GameManagedDir does not exist: $(GameManagedDir)" />
+    <Error Condition="'$(GameManagedDir)' != '' and !Exists('$(GameManagedDir)/Assembly-CSharp.dll')" Text="Assembly-CSharp.dll was not found in GameManagedDir." />
+    <Error Condition="'$(GameManagedDir)' != '' and !Exists('$(GameManagedDir)/0Harmony.dll')" Text="0Harmony.dll was not found in GameManagedDir." />
+    <Error Condition="'$(GameManagedDir)' != '' and !Exists('$(GameManagedDir)/Newtonsoft.Json.dll')" Text="Newtonsoft.Json.dll was not found in GameManagedDir." />
+  </Target>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GameManagedDir)/Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(GameManagedDir)/0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(GameManagedDir)/Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
