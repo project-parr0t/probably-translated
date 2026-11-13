@@ -1,16 +1,21 @@
 # Probably Translated
-Probably Translated 모드 번역 모드
+Probably Stolen의 창작마당 모드를 위한 통합 한국어 번역 모드입니다.
 
 <b> Parr0t 프로젝트는 배포자가 직접 플레이하여 번역을 검수하기에, 문제가 생긴 부분을 보거나 토큰이 부족할 경우 패치가 되지 않는 부분이 존재할 수 있습니다. </b>
 
 ## 이게 뭐죠?
-해당 깃허브 레포지토리는 parr0t AI 번역 프레임워크를 통해 [Probably Stolen](https://store.steampowered.com/app/4348910/Probably_Stolen_Cyberpunk_Shopkeeper_Sim/)의 일부 모드를 한글화하는 모드 레포지토리입니다.
+Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stolen](https://store.steampowered.com/app/4348910/Probably_Stolen_Cyberpunk_Shopkeeper_Sim/)의 일부 창작마당 모드를 한글화합니다.
 
-parr0t은 조금 더 부드럽고 오역이 적은 AI 기반 게임 번역 프레임워크 코어입니다.
+소스 코드, 번역 현황 및 오류 제보는 [GitHub 저장소](https://github.com/project-parr0t/probably-translated/)에서 확인할 수 있습니다.
 
 <b>⚠️ 이 모드는 Probably Stolen 기본 게임의 한글 패치가 아니며, "모드"의 한글 패치입니다.⚠️ </b>
 
 <b>⚠️ 기본 한글 패치는 [Korean Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687) 모드를 사용하세요.⚠️</b>
+
+## 설치 및 사용
+1. Steam 창작마당에서 이 모드와 [Korean Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687)을 구독합니다.
+2. 게임의 모드 메뉴에서 두 모드를 활성화합니다.
+3. 게임 언어를 한국어로 설정하고 게임을 완전히 종료한 뒤 다시 실행합니다.
 
 ## 어떤 모드의 한글 패치가 지원되나요?
 다음 모드들을 지원합니다:
