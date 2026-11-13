@@ -324,6 +324,8 @@ foreach ($target in $targets) {
         }
         Line "    internal static class GeneratedManagedPatch_$($binding.Id)"
         Line '    {'
+        Line '        [HarmonyPrepare]'
+        Line "        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding($($binding.Id));"
         Line '        [HarmonyTranspiler]'
         Line "        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, $($binding.Id));"
         Line '    }'

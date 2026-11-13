@@ -605,90 +605,120 @@ namespace ProbablyStolenKo
     [HarmonyPatch(new Type[] { typeof(global::ModConfig) })]
     internal static class GeneratedManagedPatch_55
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(55);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 55);
     }
     [HarmonyPatch("SmartInventoryArrange.RussianText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_78
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(78);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 78);
     }
     [HarmonyPatch("AgriExpansion.AgriCookingRules", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_183
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(183);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 183);
     }
     [HarmonyPatch("AgriExpansion.AgriCropHandbook", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_184
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(184);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 184);
     }
     [HarmonyPatch("AgriExpansion.AgriCropRules", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_188
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(188);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 188);
     }
     [HarmonyPatch("AgriExpansion.AgriFarm", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_220
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(220);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 220);
     }
     [HarmonyPatch("AgriExpansion.AgriFarmHandbookGuide", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_329
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(329);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 329);
     }
     [HarmonyPatch("AgriExpansion.AgriFarmHandbookText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_330
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(330);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 330);
     }
     [HarmonyPatch("AgriExpansion.AgriNextCatalog", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_386
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(386);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 386);
     }
     [HarmonyPatch("AgriExpansion.AgriPerfumeCatalog", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_399
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(399);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 399);
     }
     [HarmonyPatch("AgriExpansion.AgriPerfumeDescriptions", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_400
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(400);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 400);
     }
     [HarmonyPatch("AgriExpansion.AgriPerfumeMachines", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_405
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(405);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 405);
     }
     [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_411
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(411);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 411);
     }
     [HarmonyPatch("AgriExpansion.AgriPerfumeRules", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_425
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(425);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 425);
     }
     [HarmonyPatch("AgriExpansion.AgriText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_443
     {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(443);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 443);
     }

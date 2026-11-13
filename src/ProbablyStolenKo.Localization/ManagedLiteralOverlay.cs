@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
@@ -186,6 +187,18 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralOverlay
     {
+        private sealed class PendingTarget
+        {
+            internal PendingTarget(string modId, ManagedTarget target)
+            {
+                ModId = modId;
+                Target = target;
+            }
+
+            internal string ModId { get; }
+            internal ManagedTarget Target { get; }
+        }
+
         private const string HarmonyId = "probably-stolen-ko-localization.managed-r8";
         private static readonly object Gate = new object();
         private static readonly Dictionary<MethodBase, IReadOnlyDictionary<string, string>> LiteralRoutes =
@@ -196,21 +209,74 @@ namespace ProbablyStolenKo
             new Dictionary<MethodBase, IReadOnlyDictionary<string, string>>();
         private static readonly Dictionary<MethodBase, Tuple<int, IReadOnlyDictionary<string, string>>> ArgumentRoutes =
             new Dictionary<MethodBase, Tuple<int, IReadOnlyDictionary<string, string>>>();
+        private static readonly HashSet<int> EnabledStaticBindings = new HashSet<int>();
 
         private readonly Dictionary<string, Harmony> _harmonies =
             new Dictionary<string, Harmony>(StringComparer.Ordinal);
         private readonly HashSet<string> _appliedTargets = new HashSet<string>(StringComparer.Ordinal);
+        private readonly HashSet<string> _queuedTargets = new HashSet<string>(StringComparer.Ordinal);
+        private readonly Queue<PendingTarget> _pendingTargets = new Queue<PendingTarget>();
         private readonly List<string> _appliedRefresh = new List<string>();
         private readonly ModLog _log;
+        private bool _workerScheduled;
+        private int _generation;
 
         internal ManagedLiteralOverlay(ModLog log)
         {
             _log = log ?? throw new ArgumentNullException(nameof(log));
         }
 
-        internal void ApplyTarget(string modId, ManagedTarget target)
+        internal bool QueueTarget(string modId, ManagedTarget target)
         {
-            if (target == null || _appliedTargets.Contains(modId)) return;
+            if (target == null || _appliedTargets.Contains(modId) || _queuedTargets.Contains(modId)) return false;
+            _pendingTargets.Enqueue(new PendingTarget(modId, target));
+            _queuedTargets.Add(modId);
+            if (_workerScheduled) return false;
+            _workerScheduled = true;
+            return true;
+        }
+
+        internal IEnumerator ProcessQueue(Func<bool> isActive)
+        {
+            if (isActive == null) throw new ArgumentNullException(nameof(isActive));
+            var generation = _generation;
+            yield return null;
+            try
+            {
+                while (generation == _generation && isActive() && _pendingTargets.Count != 0)
+                {
+                    var pending = _pendingTargets.Dequeue();
+                    var routine = ApplyTargetBatched(pending.ModId, pending.Target, generation, isActive);
+                    while (generation == _generation && isActive())
+                    {
+                        bool advanced;
+                        try
+                        {
+                            advanced = routine.MoveNext();
+                        }
+                        catch (Exception error)
+                        {
+                            _queuedTargets.Remove(pending.ModId);
+                            _log.Error("Managed target overlay failed for " + pending.ModId + ". " + error.GetType().Name);
+                            break;
+                        }
+                        if (!advanced) break;
+                        yield return routine.Current;
+                    }
+                }
+            }
+            finally
+            {
+                if (generation == _generation) _workerScheduled = false;
+            }
+        }
+
+        private IEnumerator ApplyTargetBatched(
+            string modId,
+            ManagedTarget target,
+            int generation,
+            Func<bool> isActive)
+        {
             var bindings = GeneratedManagedBindings.Create(modId);
             if (target.Routes.Count != 0 && bindings.Count == 0)
                 throw new InvalidOperationException("No generated exact bindings exist for managed target " + modId + ".");
@@ -218,91 +284,136 @@ namespace ProbablyStolenKo
             var harmony = new Harmony(HarmonyId + "." + modId);
             var patched = new List<MethodBase>();
             var staticBindings = new List<int>();
-            var unsupported = new Dictionary<string, int>(StringComparer.Ordinal);
             var refreshPrepared = false;
+            _harmonies.Add(modId, harmony);
+            foreach (var binding in bindings)
+            {
+                if (generation != _generation || !isActive()) yield break;
+                try
+                {
+                    ApplyBinding(harmony, binding, target, patched, staticBindings);
+                }
+                catch
+                {
+                    RollbackTarget(modId, harmony, patched, staticBindings, refreshPrepared);
+                    throw;
+                }
+                yield return null;
+            }
+
+            if (generation != _generation || !isActive()) yield break;
             try
             {
-                foreach (var binding in bindings)
-                {
-                    if (binding.RouteIndex < 0 || binding.RouteIndex >= target.Routes.Count)
-                        throw new InvalidOperationException("Generated managed route index is outside the runtime catalog.");
-                    var route = target.Routes[binding.RouteIndex];
-                    if (binding.Kind == ManagedBindingKind.Unsupported)
-                    {
-                        unsupported.TryGetValue(binding.Issue, out var count);
-                        unsupported[binding.Issue] = count + 1;
-                        continue;
-                    }
-
-                    if (binding.Kind == ManagedBindingKind.StaticPatch)
-                    {
-                        if (route.Mode != "literal" && route.Mode != "literal_occurrence")
-                            throw new InvalidOperationException("Constructor bindings only support literal transpilers.");
-                        lock (Gate) LiteralBindingRoutes[binding.Id] = route.Entries;
-                        staticBindings.Add(binding.Id);
-                        harmony.CreateClassProcessor(binding.PatchType).Patch();
-                        continue;
-                    }
-
-                    var method = ModReflect.Target(binding.TypeName, binding.MethodName, binding.ParameterTypes);
-                    HarmonyMethod transpiler = null;
-                    HarmonyMethod postfix = null;
-                    lock (Gate)
-                    {
-                        if (route.Mode == "literal" || route.Mode == "literal_occurrence")
-                            MergeLiteralRoute(method, route.Entries);
-                        else if (route.Mode == "result_by_argument")
-                            ArgumentRoutes[method] = Tuple.Create(route.ArgumentIndex, route.Entries);
-                        else ResultRoutes[method] = route.Entries;
-                    }
-                    if (route.Mode == "literal" || route.Mode == "literal_occurrence")
-                        transpiler = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(Transpile));
-                    else if (route.Mode == "result_string")
-                        postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixString));
-                    else if (route.Mode == "result_by_argument")
-                        postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixByArgument));
-                    else if (route.Mode == "result_by_arguments")
-                        postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixByArguments));
-                    else
-                        postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixStringArray));
-                    harmony.Patch(method, postfix: postfix, transpiler: transpiler);
-                    patched.Add(method);
-                }
-
                 GeneratedManagedRefresh.Prepare(harmony, modId);
                 refreshPrepared = true;
                 GeneratedManagedRefresh.Invoke(modId);
                 if (target.Refresh.Count != 0) _appliedRefresh.Add(modId);
-                _harmonies.Add(modId, harmony);
                 _appliedTargets.Add(modId);
-                foreach (var issue in unsupported)
-                    _log.Error("Skipped " + issue.Value + " managed bindings for " + modId + ": " + issue.Key + ".");
+                _queuedTargets.Remove(modId);
                 _log.Log("Applied managed Korean routes to " + modId + ".");
             }
             catch
             {
-                harmony.UnpatchAll(harmony.Id);
-                lock (Gate)
-                {
-                    foreach (var method in patched)
-                    {
-                        LiteralRoutes.Remove(method);
-                        ResultRoutes.Remove(method);
-                        ArgumentRoutes.Remove(method);
-                    }
-                    foreach (var bindingId in staticBindings) LiteralBindingRoutes.Remove(bindingId);
-                }
-                if (refreshPrepared)
-                {
-                    try { GeneratedManagedRefresh.Invoke(modId); }
-                    catch (Exception error) { _log.Error("Managed rollback refresh failed after " + error.GetType().Name + "."); }
-                }
+                RollbackTarget(modId, harmony, patched, staticBindings, refreshPrepared);
                 throw;
             }
         }
 
+        private static void ApplyBinding(
+            Harmony harmony,
+            ManagedExactBinding binding,
+            ManagedTarget target,
+            ICollection<MethodBase> patched,
+            ICollection<int> staticBindings)
+        {
+            if (binding.RouteIndex < 0 || binding.RouteIndex >= target.Routes.Count)
+                throw new InvalidOperationException("Generated managed route index is outside the runtime catalog.");
+            var route = target.Routes[binding.RouteIndex];
+            if (binding.Kind == ManagedBindingKind.Unsupported)
+                throw new InvalidOperationException("Unsupported generated managed binding: " + binding.Issue);
+
+            if (binding.Kind == ManagedBindingKind.StaticPatch)
+            {
+                if (route.Mode != "literal" && route.Mode != "literal_occurrence")
+                    throw new InvalidOperationException("Constructor bindings only support literal transpilers.");
+                staticBindings.Add(binding.Id);
+                lock (Gate)
+                {
+                    LiteralBindingRoutes[binding.Id] = route.Entries;
+                    EnabledStaticBindings.Add(binding.Id);
+                }
+                try
+                {
+                    harmony.CreateClassProcessor(binding.PatchType).Patch();
+                }
+                finally
+                {
+                    lock (Gate) EnabledStaticBindings.Remove(binding.Id);
+                }
+                return;
+            }
+
+            var method = ModReflect.Target(binding.TypeName, binding.MethodName, binding.ParameterTypes);
+            patched.Add(method);
+            HarmonyMethod transpiler = null;
+            HarmonyMethod postfix = null;
+            lock (Gate)
+            {
+                if (route.Mode == "literal" || route.Mode == "literal_occurrence")
+                    MergeLiteralRoute(method, route.Entries);
+                else if (route.Mode == "result_by_argument")
+                    ArgumentRoutes[method] = Tuple.Create(route.ArgumentIndex, route.Entries);
+                else ResultRoutes[method] = route.Entries;
+            }
+            if (route.Mode == "literal" || route.Mode == "literal_occurrence")
+                transpiler = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(Transpile));
+            else if (route.Mode == "result_string")
+                postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixString));
+            else if (route.Mode == "result_by_argument")
+                postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixByArgument));
+            else if (route.Mode == "result_by_arguments")
+                postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixByArguments));
+            else
+                postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixStringArray));
+            harmony.Patch(method, postfix: postfix, transpiler: transpiler);
+        }
+
+        private void RollbackTarget(
+            string modId,
+            Harmony harmony,
+            IEnumerable<MethodBase> patched,
+            IEnumerable<int> staticBindings,
+            bool refreshPrepared)
+        {
+            harmony.UnpatchAll(harmony.Id);
+            lock (Gate)
+            {
+                foreach (var method in patched)
+                {
+                    LiteralRoutes.Remove(method);
+                    ResultRoutes.Remove(method);
+                    ArgumentRoutes.Remove(method);
+                }
+                foreach (var bindingId in staticBindings) LiteralBindingRoutes.Remove(bindingId);
+            }
+            if (refreshPrepared)
+            {
+                try { GeneratedManagedRefresh.Invoke(modId); }
+                catch (Exception error) { _log.Error("Managed rollback refresh failed after " + error.GetType().Name + "."); }
+            }
+            _harmonies.Remove(modId);
+            _appliedTargets.Remove(modId);
+            _queuedTargets.Remove(modId);
+        }
+
+        internal static bool PrepareBinding(int bindingId)
+        {
+            lock (Gate) return EnabledStaticBindings.Contains(bindingId);
+        }
+
         internal void Restore()
         {
+            _generation++;
             foreach (var harmony in _harmonies.Values) harmony.UnpatchAll(harmony.Id);
             lock (Gate)
             {
@@ -310,6 +421,7 @@ namespace ProbablyStolenKo
                 LiteralBindingRoutes.Clear();
                 ResultRoutes.Clear();
                 ArgumentRoutes.Clear();
+                EnabledStaticBindings.Clear();
             }
             foreach (var modId in _appliedRefresh)
             {
@@ -319,6 +431,9 @@ namespace ProbablyStolenKo
             _appliedRefresh.Clear();
             _harmonies.Clear();
             _appliedTargets.Clear();
+            _queuedTargets.Clear();
+            _pendingTargets.Clear();
+            _workerScheduled = false;
         }
 
         private static void MergeLiteralRoute(

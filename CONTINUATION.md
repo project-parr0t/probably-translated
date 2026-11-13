@@ -23,7 +23,7 @@ The project preserves the `ProbablyStolenKo.Localization` assembly name and prod
 
 ## Regenerate managed route bindings
 
-The bridge does not discover assemblies, types, or members through unrestricted runtime reflection. `tools/Expand-ManagedRoutes.ps1` expands the reviewed runtime routes into exact, capability-free targets. Normal methods use the game's guarded `ModReflect.Target` API; constructor routes use generated static Harmony patches.
+The bridge does not discover assemblies, types, or members through unrestricted runtime reflection. `tools/Expand-ManagedRoutes.ps1` expands the reviewed runtime routes into exact, capability-free targets. Normal methods use the game's guarded `ModReflect.Target` API; constructor routes use generated static Harmony patches. Generated patch classes stay disabled during the loader's assembly-wide Harmony scan and are enabled only for their exact target. Runtime patching is serialized at one method per frame so mod initialization never blocks the Unity main thread for the full route set.
 
 Regenerate the bindings whenever a supported managed mod changes:
 

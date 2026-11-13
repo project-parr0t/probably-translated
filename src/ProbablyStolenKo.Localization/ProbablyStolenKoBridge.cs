@@ -136,7 +136,8 @@ namespace ProbablyStolenKo
             if (_managedCatalog == null || !_managedCatalog.Targets.TryGetValue(loaded.Manifest.ID, out managedTarget)) return;
             try
             {
-                _managedOverlay.ApplyTarget(loaded.Manifest.ID, managedTarget);
+                if (_managedOverlay.QueueTarget(loaded.Manifest.ID, managedTarget))
+                    ModHelper.StartCoroutine(_manifest.ID, _managedOverlay.ProcessQueue(() => _enabled));
             }
             catch (Exception error)
             {
