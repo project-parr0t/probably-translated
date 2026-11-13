@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
 using HarmonyLib;
 
 namespace ProbablyStolenKo
@@ -4472,11 +4473,17 @@ namespace ProbablyStolenKo
                     break;
             }
         }
+        [MethodImpl(MethodImplOptions.NoInlining)]
         private static void Refresh_1() => throw new InvalidOperationException("Reverse patch was not prepared.");
+        [MethodImpl(MethodImplOptions.NoInlining)]
         private static void Refresh_2() => throw new InvalidOperationException("Reverse patch was not prepared.");
+        [MethodImpl(MethodImplOptions.NoInlining)]
         private static void Refresh_3() => throw new InvalidOperationException("Reverse patch was not prepared.");
+        [MethodImpl(MethodImplOptions.NoInlining)]
         private static void Refresh_4() => throw new InvalidOperationException("Reverse patch was not prepared.");
+        [MethodImpl(MethodImplOptions.NoInlining)]
         private static void Refresh_5() => throw new InvalidOperationException("Reverse patch was not prepared.");
+        [MethodImpl(MethodImplOptions.NoInlining)]
         private static void Refresh_6() => throw new InvalidOperationException("Reverse patch was not prepared.");
     }
 }

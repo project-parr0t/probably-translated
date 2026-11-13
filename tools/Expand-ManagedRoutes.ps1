@@ -249,6 +249,7 @@ Line 'using System;'
 Line 'using System.Collections.Generic;'
 Line 'using System.Reflection;'
 Line 'using System.Reflection.Emit;'
+Line 'using System.Runtime.CompilerServices;'
 Line 'using HarmonyLib;'
 Line ''
 Line 'namespace ProbablyStolenKo'
@@ -380,7 +381,10 @@ foreach ($target in $targets) {
 Line '            }'
 Line '        }'
 foreach ($target in $targets) {
-    foreach ($refreshBinding in $target.Refresh) { Line ('        private static void Refresh_' + $refreshBinding.Stub + '() => throw new InvalidOperationException("Reverse patch was not prepared.");') }
+    foreach ($refreshBinding in $target.Refresh) {
+        Line '        [MethodImpl(MethodImplOptions.NoInlining)]'
+        Line ('        private static void Refresh_' + $refreshBinding.Stub + '() => throw new InvalidOperationException("Reverse patch was not prepared.");')
+    }
 }
 Line '    }'
 Line '}'
