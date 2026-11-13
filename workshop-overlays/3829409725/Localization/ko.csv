@@ -1,0 +1,116 @@
+﻿pipette_name,실험실 피펫
+pipette_desc,최대 100 ml 용량이며 흡입량을 자유롭게 설정할 수 있습니다. 비었을 때 액체를 흡입합니다.
+pipette_flavor,"오른쪽 클릭 후 열기를 선택해 보정하세요. 장착한 상태에서 왼쪽 클릭하면 흡입하거나 비우며, 빈 곳을 클릭하면 보정 창이 열립니다."
+pipette_tip_liquid,액체: {0} / {1}
+pipette_tip_dose,사용당 흡입량: {0} ({1}%)
+pipette_tip_hint,피펫을 왼쪽 클릭하여 조정 · 장착 중: 왼쪽 클릭 흡입 / 오른쪽 클릭 배출
+pipette_win_title,피펫 교정
+pipette_win_value,{0} 흡입
+pipette_win_input_hint,상자를 클릭하고 숫자(1-100 mL)를 입력하세요.
+pipette_win_confirm_hint,변경할 때마다 확인을 눌러 저장하세요.
+pipette_win_confirm,확인
+pipette_win_close,닫기
+pipette_win_last,기록됨: {0}
+pipette_drag_draw,{0} 흡입 예정
+pipette_drag_pour,{0} 붓기 예정
+pipette_drag_drain,비우기 예정
+pipette_drag_faucet,채우기 예정
+pipette_drag_nothing,흡입할 액체가 없습니다
+pipette_drag_full,대상 가득 참
+super_name,자동 피펫
+super_desc,"최대 100 ml까지 담을 수 있는, 잔류물이 없어야 하는 대부분의 화학 반응에 적합한 호평받는 피펫입니다. 본체는 맑은 푸른빛을 띱니다."
+super_flavor,자동 균형 조정
+mini_name,마이크로 피펫
+mini_desc,용량이 1 ml(1000 µL)이며 흡입량을 자유롭게 설정할 수 있는 가벼운 피펫입니다.
+mini_flavor,
+pipette_win_input_hint_ul,상자를 클릭하세요
+pipette_win_input_hint_fmt,상자를 클릭
+hydra_mode_acid,모드: 산
+hydra_mode_base,모드: 염기
+hydra_mode_none,모드: 미설정
+hydra_blocked,주성분 비율이 50% 미만입니다 — 흡입할 수 없습니다
+hydra_need_acid,산 용액만 흡입할 수 있습니다 (산 함량 > 50%)
+hydra_need_base,염기 용액만 흡입할 수 있습니다 (염기 함량 > 50%)
+hydra_draw,{0} 채우기 예정
+hydra_react,{0} 소모 ({1}) · {2}
+hydra_none,대상에 소모할 것이 없습니다
+hydra_tip_mode,모드: {0} (주성분은 50% 초과여야 함)
+hydra_tip_rule,흡입한 용액에 따라 모드를 자동 전환합니다. 사용하면 자동으로 균형을 맞추고 반응을 즉시 완료합니다.
+hydra_stage_1,광물화
+hydra_stage_2,소독
+hydra_stage_3,안정제
+hydra_stage_4,단백질
+hydra_stage_5,중화
+hydra_stage_none,없음
+hydra_stage_fmt,이번 클릭: {0} ({1}/{2})
+hydra_mode_reducing,모드: 환원제
+hydra_mode_lipobond,모드: 리포본 제제
+hydra_stage_6,꿈 제거
+hydra_stage_7,메틸올화
+hydra_stage_8,지질 침전
+hydra_reason_temp,대상 온도 불일치
+hydra_reason_missing,대상에 필요한 시약이 없습니다
+hydra_reason_alcohol,과도한 알코올 비율
+hydra_catalyst,{0} 지방결합제 이전 예정 (촉매
+hydra_tip_hint,장착 시: 왼쪽 클릭으로 흡입 / 비우기
+agent_name,피펫 판매상
+agent_dialog_1,실험실 장비
+agent_dialog_2,피펫과 화학 약품이 있습니다. 필요한 것을 살펴보세요.
+config_thief_hydra_label,도둑이 자동 피펫을 판매할 수 있음
+config_thief_hydra_tip,도둑이 자동 피펫을 재고로 보유하도록 허용합니다. 다른 모드의 콜백을 보유한 도둑을 상점 갱신 모드가 갱신하지 않는다면 이 설정을 끄세요.
+hydra_mode_chlorine,모드: 염소
+hydra_stage_chlorine,염소 처리
+hydra_reason_water,대상에 물이 없습니다
+hydra_need_chlorine,염소 용액만 흡입할 수 있습니다 (염소 함량 > 50%)
+hydra_mode_dream,모드: 드림 캡
+hydra_mode_coffee,모드: 커피
+hydra_stage_dream,드림 캡 추출
+hydra_stage_coffee,커피 추출
+hydra_reason_no_alcohol,대상에 알코올이 없습니다
+hydra_extract_fmt,{0} 추출 예정 ({1}
+hydra_extract_max,최대 추출 효율 도달
+hydra_extract_notmax,추출 효율 {0}%
+hydra_need_dream,드림 캡 용액만 흡입할 수 있습니다 (다른 모드 성분보다 함량이 높아야 함)
+hydra_need_coffee,커피 용액만 흡입할 수 있습니다 (다른 모드 성분보다 함량이 높아야 함)
+hydra_draw_mode,{0} 흡입 예정 · {1}
+hydra_mode_alcohol,모드: 알코올
+hydra_stage_alcohol,드림 캡 추출 (알코올)
+hydra_stage_dream_lipobond,드림 캡 탈몽
+hydra_extract_already,최대 효율에 이미 도달했습니다 — 더 옮길 필요가 없습니다
+hydra_extract_low_eff,최대 효율에 부족한 이동량 · 현재 효율 {0}%
+hydra_need_alcohol,알코올 용액만 흡입할 수 있습니다 (알코올 함량 > 50%)
+hydra_topup_max_fmt,최대 효율에 도달하도록 {0} 이전 예정 · {1}
+hydra_topup_low_fmt,"{0} 이동 예정 (최대 효율 미달, 현재 효율 {1}%) · {2}"
+hydra_reason_space,대상에 빈 공간이 없습니다
+hydra_reason_chlorine,피펫에 염소가 없습니다
+hydra_reason_contaminant_floor,화학 오염 물질이 이미 0.7% 미만이므로 더 제거할 수 없습니다
+config_merchant_chemicals_label,피펫 상인이 화학 약품을 판매
+config_merchant_chemicals_tip,활성화하면
+hydra_mode_nightmare,모드: 나이트메어 더스트
+hydra_mode_fanta,모드: 판타
+hydra_stage_nightmare,나이트메어 더스트 추출
+hydra_stage_fanta,판타 합성
+hydra_stage_alcohol_nightmare,나이트메어 더스트 추출 (알코올)
+hydra_stage_alcohol_mixed,드림 캡 / 나이트메어 더스트 / 커피 추출 (알코올)
+hydra_need_nightmare,나이트메어 더스트 용액만 흡입할 수 있습니다 (다른 모드 성분보다 함량이 높아야 함)
+hydra_need_fanta,판타 전구체 용액만 흡입할 수 있습니다 (메틸올이 주성분)
+hydra_reason_reducing,대상에 환원제가 없습니다
+hydra_reason_methylol,대상에 메틸올이 부족하거나 안정제가 너무 많습니다
+hydra_fanta_fmt,판타 {0} 합성 예정 (메틸올 {1} 소모) · {2}
+hydra_reason_temp_fmt,대상 온도가 일치하지 않습니다 ({0} 필요)
+hydra_temp_dream,≥40°C
+hydra_temp_coffee,≥50°C
+hydra_temp_nomore,45–55°C
+hydra_temp_fanta,110–130°C
+hydra_reason_lipobond_first,리포본 제제를 먼저 추가하세요 (탈몽에는 이 제제의 촉매가 필요합니다)
+hydra_stage_custom,사용자 지정 반응
+hydra_reason_missing_liquid,대상에 {0}이(가) 없습니다
+hydra_extract_detail_fmt,{0}{1} 추출
+hydra_extract_state_fmt,({0}
+hydra_fanta_eff_fmt,{0} 판타 합성 ({1} 메틸올 소모
+hydra_reaction_detail_fmt,{0} 소모
+hydra_fanta_ratio_fmt,(전환 비율 {0}%)
+hydra_list_separator,; 
+hydra_stage_sterilize,살균
+hydra_stage_decontaminate,오염 제거
+pipette_calibrating_no_draw,피펫을 보정하는 동안에는 액체를 흡입할 수 없습니다

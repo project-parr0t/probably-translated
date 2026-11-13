@@ -1,0 +1,666 @@
+﻿key,값
+fce_164b617d67f7ec9f8638f98c6e2ae77326f3a10359e43739aae5947222aba705,"[낚시 요리] 전용 요리 페이지 생성 실패, 기존 페이지 유지: {0}"
+fce_0ead414d6659452f11253cca0f87eadf0a30d77e0774cceac2673c329635fc1b,"조리대에는 주재료로 생선, 생선살, 건어물 또는 생고기가 필요합니다. 지원되는 부재료와 낚시 팩 조미료만 사용할 수 있습니다."
+fce_0ebb30147fa1abbc3aaace1beedf58f973a13a496fc02467b02a17bcdf3a772a,두껍고 질긴 살코기. 말린 뒤 약한 불에 오래 끓이기 좋다.
+fce_30b88dae37f996fb9ccf12b30582597bdb2b45b6fee78b405b8c3ff7ee173f91,대용량
+fce_f3bdf5b0f7917841cd70d6733a6beccd4ad8df89682303a1703244ed32434eee,푸른 물결 생선살
+fce_4e3492b38ce39a3d9675e6e86e9be7ea9e9ec8849d9943fb67da6002448701bd,"살을 껍데기에서 분리하고 껍데기를 그릇으로 삼아 어유, 고추, 요리술과 함께 향긋해질 때까지 굽는다."
+fce_e0dd08690f4a26d6562f50a94a119ab7ed1a3c1c2a7a34ee04b8295b177581b5,[낚시 요리] 지급할 인벤토리 공간 부족: {0}
+fce_45e55b5209c5b2f9940ea909d630582927775a89fb44f7effe3188d1ead654d9,"통통한 게살 · 구이용, 회용 부적합"
+fce_ff425686399f1969b1c40a3fd3251a722fa62f6873f200e0b8fbe1ef0e20bff2,무지개 생선살
+fce_a021f14d7ce362860b17950b0f5edfe75245197fd969fea21ca4684e43f61db6,손님용 진열대
+fce_965cd824b01e1d1f2e00240df755a126f279996b9225fec26709e6ab4748c0a6,잘못된 조리법
+fce_440e158f14bc42dae35e2494dc6bfedacbe49d66a4be3d117eaf3fe431cc6c92,현재 요리 입문 세트를 이용할 수 없습니다.
+fce_50d18cab54ec79ce7f1b654c504d0e8f827428259eb7a5df7caf8ff8ad0e5dd4,손님을 맞이하려면 인증서를 진열장에 넣으세요.
+fce_789fff7b1daa8bd11d9c50f0e5e22fb422f87c6209426094250d3d422bfd6692,"[낚시 요리] 패치 실패: {0} → {1}; Harmony ID={2}, 우선순위={3}(기본값); {4}"
+fce_6cfbcdb36273f5fa0604f97b8167c5bf43e33d9c06662a2e5dac5d381267882b,황금 물결 생선살
+fce_c57dfd9418e27901fa6bd7ab121d84fe9669bf2ad49a39d11a0286ed69dc7e65,기름에 재워 풍미가 깊다. 센 불에 바삭하게 튀기기 좋다.
+fce_8d7b97f0df91302be88e47ccfaaeeb87b112021f5289f6fe996e0eaddf9a3d69,미보유 요리책 열람
+fce_740b745555dcdc80757f8d648b14e7c6fc4ca2956bd314c778ff821c611f37ab,카운터에서 요리를 치우지 못했습니다. 다시 시도해 주세요.
+fce_6694a182124cd23e5731fb5ed009a6a3eed3ddf637ffc11f7e8720709b21cd62,전기뱀장어
+fce_62cec6e98c856be0acd1018d92b2e5863d93713807685f2e5a19e318d82ff607,숯불 향이 진하고 껍질은 살짝 그을렸다. 꼬치에 밴 간장 향과 불향이 어우러져 자꾸 손이 간다.
+fce_0e8fa161027c8c78816df7ad421f7c2f9ecdd94a2cc2e29b99c23311d2ba6326,설명서 페이지 이동
+fce_f522ecb529b4551bebb7f74848fd2d83d0bcfd43161dc5578809eef48c79e435,[낚시 요리] 인증서 진열 상태 확인 실패: {0}
+fce_bc4d66357a82950592fde3d4cd6fc02836a35f6797bac3a6ca6d0594a9073ba6,가공 생선
+fce_5a48e6d46ca9691e9c905d3d2eb07a32e4d55d588d9a9930e9de17752934e8b9,생선살에 요리술로 밑간한 뒤 뜨거운 어유에 노릇하고 바삭해질 때까지 튀긴다.
+fce_1f7f55943c9f01648b6e7cf2164993d64a818932ccfcd6684dcb2c31fed7b158,주문 완료. 이 요리로 크레딧 {0}을 받았습니다.
+fce_d18c6a6d7c9d7b77a6b70757ed9cab6aa859463eb447f21e3f96d4b67ff5a5ed,[낚시 요리] 조리 실패: {0}
+fce_13b9ae3a0a0f95464d5cc3eb9aae28af00147bedeafa17be472aec86bb748d4f,푸짐하게 만들어 줘
+fce_7c868fd2a298b663ce3b95942b7eb1f20805064eeef80d2d167fa00e0e98b178,말린 니오룬
+fce_9f98e38fcb107663832150fbdf7832986470107900747b223cbd5fa18262ba37,예전에는 별빛 열매를 통째로 썼지만 이제는 과일 혼합물로 대신한다. 양념한 혼합물을 팬에 구운 생선 스테이크 위에 붓는다. 색다른 조합을 즐기는 사람이라면 흥미로워할 맛이다.
+fce_41c00178d1da53f460ca80102ccca59b2dee017271839f6910f63bb0da820f3e,[낚시 요리] 재료 이름 조회 실패: {0}: {1}
+fce_afabf88f5c6141609048f03c3022c2fa168e07a88b71785edaf7eb950f831e11,간장
+fce_b821eb85adca4c76f0cfb34e104ced8f6587fa57d89da9e4f924a621de9ea55b,다음 주에 다시 오기
+fce_e110bce36765f161cb24bedd4cbc876bf75214865cf4ab999a36fa91d57c4c0d,오늘은 {0}을(를) 먹어 보고 싶어
+fce_447b849ad705de581c46f9b51b15365e93121e935f5a9b25f362e6bf75cb5464,[낚시 요리] 재료 태그 준비 실패: {0}
+fce_71f80c5f9acf79edc04f107cd0bcbfdcb30a04eebed7c58e3ed07b714a065a7a,전기뱀장어 필레
+fce_bc2fba3b93fb0e6a240d61dac9aa0be18be9d051401fb464772f48ecb1a3df91,"설탕, 간장"
+fce_053a5559cd38dbedc7b26d6a1885e01da4698ee2969efa33790575959e88654d,적당한 소금 간 유지
+fce_f4cef9b6658516cac46d03c12b35c5124c93173423967e04553ceb2aa1d97499,그릴
+fce_e1878d66d5ff7c9260b7b64e73779c8dc4937a62d860d0b2c37bc897e6260122,망치면 어떡하지?\n...아직 손님에게 내놓지는 않는 게 좋겠어.
+fce_742cb88db184e47a2c5f363f66bf8d57d6d2f95a44ddb1fd0a3f89cbd3d0c2f2,[낚시 요리] 조리대 창을 만드는 데 실패했습니다: {0}
+fce_771c0c25fec38be5c3da9745af8402bab6d4fab0b61a0e23da7c4f32a15d664c,소금에 절인 생선
+fce_6267ac88bd67b386d8eb0f984e4f4dbaabdad152b5aabff409f70e275185aa14,"숯불 향과 고추의 매콤함이 한꺼번에 밀려오고, 얼얼한 여운이 오래갑니다. 매운맛을 좋아한다면 만족하겠지만, 아니라면 조심해서 드세요."
+fce_f6a95275cc642b790d274e311c419bbde9df34bd6f3ddbd03fe3c25b9b782fbb,맛있어! 딱 원하던 맛이야!
+fce_d26df9107201e94b4255d33f81f1a09f5b34ea8ac0483024d44330f06b497e65,고기 요리
+fce_9f3fffe8b3ceaebb7540d9fd901eba371c9e41d8f1ea01ba4352b38795b72a46,은하 블렌드
+fce_dc2410701bda6a5f41ea8795c8b335d596425c7aade5d354fa15cf87d71d0a6a,상류 구역 식당
+fce_215cc9dd68aa53c7f7c337c9b9d5e14e01befb806b5cc01d3797ea3b43f03254,요리 1/2개 전달 완료. 크레딧 {0}을 받았습니다.
+fce_adabbc117fbc769a2ea9eb857f9c5c9aa5b832c04e01aae43e043d9fdcb604a6,아직 먹어보지 않음
+fce_d3f6da526faf4a3f63ed735be0145bc8bc88ec36a60c089868ece23f76d99507,불러오기
+fce_c4ec24f01e553aca75cfba5874a0aadac3d66f1aed59ab14670f8a3461a517d4,소금을 적게 사용하세요
+fce_6122e83a7dd41ae836fb39b05c1c09c7f35a8aa193cd07d94f1d53cad1bb5a2d,"진간장은 색을 내고, 맛술은 비린내를 잡아 줍니다. 설탕을 조금 넣으면 맛이 한층 부드러워집니다."
+fce_58f17abaa23cc710ec972acf504784c48b2b9dc1dc4158ee1272338ab84d306a,다음에 다시 올게요.
+fce_429b99538a05ecaa6adff2fb23afff1d1a74119dc3c8860fd026b0606d647d4f,"맛은 괜찮은 편, 개선 여지 있음"
+fce_1c65f1156af595dfda9c1c5c7a896b46defffc358feb502dd444e0cb530687d9,[낚시 요리] 시작 키트를 지급하지 못했습니다: {0}
+fce_2da55e401336b26a222c365e95bcfd39febd3fdc4bdb66cf4f12a1207b426571,맑은 국물 통생선
+fce_e5ddd13252f1fe88eeb1dec659b08dfd676e567a5e01d28892a993c49d5afda0,풍미를 위한 아주 매운맛
+fce_51860d76d87e72500610639314c83e7dee6b86d58cd268fce29a93a03e4e9215,[낚시 요리] 불러온 후 조리대를 찾지 못했습니다: {0}
+fce_49fe0edbbb2e63f384a1c3ff7c3f551ec9ec250f312881c2e3e0aa532db6977c,발광베리
+fce_b61347db4fc1aaece46282ec95230289d5c083583bed8f2c42338534405c179e,까다로운 손님을 위한 휴대용 주방
+fce_06cdd99950fbb9408acb09c835a91c4b02d7602b58a24c1f3aee274f7c2df696,생선을 간장과 맛술에 잠깐 재운 뒤 숯불에 구우세요.
+fce_3e24d4dac67a017dd1628ecf0d24a3ce960990d4f437c99c6dd9bda2eb30a95b,황금빛 바삭 생선 필레
+fce_0d501c6ad6aed5cc962bef4ccc82b5774b5cebc8176aade6ef2a3639b31ed1b3,요리에 실패했습니다. 재료와 전력 복구를 시도했습니다.
+fce_4395872805febecb8c9c1e4628c0a7cdf9f6b7f2801f2e84d7f5f45b0713b65b,[미발견 레시피]\n단서: {0}
+fce_c032aae803aaec6c71c17f26ee4a239540681dde5132acae24f7e8522d614954, 소금 간
+fce_c06a48faa340a545c6fb2a20b55eae23403b84e28b1c658eaf3a7bb825394009,[낚시 요리] 재료 복구 오류: {0}
+fce_dee9141496c2b7a127bc9c7383288d0ea01e51a21f4a7d363824e7e5ee08d728,별복어 필레
+fce_ad747e79490b978c6103d830aa1e78d839976b1dc24d248dc4cb76f8e241bb89,구형 인벤토리에서 {0}을(를) 제거하지 못했습니다.
+fce_355f63e668fa620b1bb7c1428e4cbe9778cee697be6343ab275db428a0c18349,[낚시 요리] 복사할 기본 내비게이션 버튼 템플릿이 없습니다. 방향키는 계속 사용할 수 있습니다.
+fce_3d5a78841138445df0b459a7ff9cbec92933b5676bdca3908617eda814873fd9,"별빛 팬구이 고기\n예전에는 별빛 열매를 통째로 넣어 만들었지만, 이제는 과일 퓌레로 대신합니다. 양념한 퓌레를 팬에 구운 스테이크 위에 붓습니다. 색다른 조합을 즐기는 사람이라면 흥미롭게 느낄지도 모릅니다."
+fce_8e3ab6593dbb58f53c73de3a7d75ff9234a5918620439cbef43a2c2158ce32ec,대기 중인 손님에게 뜨거울 때 제공
+fce_659702edac5455eac4369f28f09c3ab0b665ab884be8486957a2ede1e9e6dcd1,[낚시 요리] {0}(으)로 전환했습니다. {1}/{2}페이지
+fce_0ec9c507b5cbe6bbe476e65d273269b45247efa6aa6a78e368a938b02b9c3243,[낚시 요리] 배터리 아이콘을 업데이트하지 못했습니다: {0}
+fce_dfc986a6a4257b2c398e1229d444c4d2fdff58b490a6ef4cd413e44c842a58f6,조리 재료를 제거하지 못했습니다: {0}
+fce_bda050585a00f0f6cb502350559d75532ae3b244c9498b996e7c5df2d98dfc8d,—
+fce_15730ea48d76d873b6583f88d05660ba380d32cdcd772b7a90bad29fb86db90d,살이 단단합니다. 팬에 굽거나 튀기기 전에 기름에 재우세요.
+fce_9fd112fbc5a9bb8666c6fb4bb01fd8db73d20f54428460ea36cb34431a80ab78,잘못된 조리법
+fce_5b5305dc3128c5318a6b22284c67b36f50cb128fd09cfdb0f998759164911e4c,[낚시 요리] 협회 담당자가 {0}일 차에 방문하도록 예약되었습니다.
+fce_94d754508a207062bfa0de0548c137c9c5482f679d35dafb9e67f2bc271a6043,어유
+fce_1ab943a1a0ac562df98d4ea3ef765f39acf1c571274bbba9a8860254dbcb7391,[낚시 요리] 레시피 재료의 중국어 이름이 없습니다: {0}
+fce_898d3b94d7ea184551c8edce75807c0618698033e59db8b02ee3ca14535646da,"로푸린: 온전한 외형이 귀하므로 요리할 때는 찌는 것이 좋다.\n니오룬: 날개막이 귀하며 연한 살은 찜에 알맞다.\n페라이트 해파리: 미네랄이 풍부한 젤리는 데쳐 먹고, 날것으로는 좋지 않다."
+fce_1485cc72949d992e77dcd3b5cd7bb5cba4cc50d65c49d8c78e835afa5731f943,무지기
+fce_86a33131b3185c9d1cb09770b1186b7449107823cc089611331e5652db3fbb3a,요리사의 요리책
+fce_40de909b0e536b472c96e94674432665c79674b90d8b085158b9f39ecf8c228b,요리사 협회 조리 설명서
+fce_a6751b5d7832e387caf306c6d077856c4230c5b01255cdde927831091d209865,요리 입문 세트
+fce_ea5a16ee1d11246431a2326604b185673d82f69962f987becea76673a2e865da,[{0} 레시피(계속)]\n\n
+fce_a1805c82d91bc486d20c00c05ec577a11637b7f8e1257f38366b9a23f05220a4,"무지기: 살이 두껍고 질기며, 말린 것은 오래 끓이기 좋다.\n무스펠의 아들: 매콤하게 숯불구이하기 좋으며, 포를 뜨면 발열샘을 얻는다.\n란의 악몽: 충분히 끓여야 하며 회에는 적합하지 않다."
+fce_7a0fa991b295a0aa5ef382ad54a1f9bbe45b01ce44cab56910c51b8b8c3988fb,요리 조미료: {0}회 남음
+fce_bca1f976f652b9a4ce8974183966cab54f199546451278a612031218a8fe2b60,대황어
+fce_909c16b6bc37670bfd9fb5324f6741d3d13909a6d9b17a25015744fea52cc2ac,[낚시 요리] 협회 결제 선택지 실행
+fce_7d07e1165a376f934d85768a7f4c816938b46343aa0c7271f41bc289e2010650,란의 악몽 생선살
+fce_da53cc0c6769ad945fec733a8763f5f2b3e75dd25be59ab844c11343d97658ef,"재료, 조미료, 조리도구, 배터리를 구역별로 보관하며 조리도구 구역은 격자형입니다."
+fce_ba46dfa11c1137e2fc29b3d2745cc0ac7a426c1f9b7a2d397706219beb58827d,조미료
+fce_09f938fd9752a7360da8282d0dc55f536e07dcacd0593fe98b11b2074c95b4d6,{0} · 목차
+fce_502ed40f2534800f4e3b27f3cc609b46d700b0670110e63ad84d07d636d0a45b,[낚시 요리] 내장된 아이템 목록 읽기 실패: {0}
+fce_e0af492b09a3760dd2a9e66a51503ce842c7f3af16d305a11ef83a63895d9b19,푸른 생선살을 차갑게 보관하고 간장을 조금 곁들여 낸다.
+fce_5b2186b87f8bc0fbeb1ae24fc7eff473b46c8f44036d87993a3f1885c7766731,"금붕어: 연한 생선살은 찜에 알맞다.\n별복어: 단단한 살은 소금에 절인 뒤 튀기기 좋고, 회에는 적합하지 않다.\n우주 로켓 물고기: 기름에 재운 뒤 튀기거나 통째로 팬에 굽는다."
+fce_39e9267dbed19cd79b6527ee54ced38abcbad38b9a2edbf85357749b476349a3,불 없음 → 약불 → 중불 → 센 불. 불 세기와 조리도구에 따라 조리법이 정해진다.
+fce_65be4a0530260e9ed3016c0415e3b32b11f0f61a783af9f28ef34b852044aee9,이 맛은 아직 좀 익숙하지 않네요.
+fce_058a5bdca9a6381a6b95d28ba3d2ae5aec10e7b95ec9f4df35bc3e05fa5b67ea,설탕과 간장을 발라 얇고 달콤짭짤한 윤기막을 낸다. 타지 않게 조심한다.
+fce_eea0e6fc2b486cba7b090ead546e96f5410bfd03bbd0bcb64d1a66291e9b465e,말린 쥐치
+fce_19492948b6aad06e729d2df4a63c562139281f6dffe8a6d93f7d73494cf3f848,FishingCuisineExpansion.요리사 레시피.txt
+fce_2b4cf5248671af9fc7ce166017c46d2ac46bbbbc041aec924a89f6e6db7290a8,잘했어. 이 정도면 만족해.
+fce_a76fde7dfcd2f3f89e4c907eebd6ef7d4eebd443e23784eebcf56ab68756995f,"은하 혼합물, 진간장, 요리술"
+fce_b30daec902bc14d9d8a94718a0af90da6d78981021c6233a3888543031217f30,맑은 육수에 요리술을 넣고 생선이 부드러워질 때까지 약한 불로 오래 끓인다.
+fce_f8b79d6a9ee21234319d159ab308412d3147e24dfa5b183b16a629cee830745d,"조리대에는 주재료로 통생선, 생선살, 건어물, 생선 부위 또는 생고기 하나가 필요합니다. 기본 게임 부재료와 낚시 팩 조미료만 사용할 수 있습니다."
+fce_fbe402f5468325603338e258ab308d3babf05dad4670eb7d6319a0347e7769bc,귀한 지느러미막과 부드러운 살 · 회 또는 찜 요리에 적합
+fce_75d8a648237a45e4a462549486011b00b47955d8e14a31349e8893d7b7880b97,"귀하고 부드러우며, 찌거나 회로 먹는 것이 가장 좋다."
+fce_3c7eaa76895cb2b9bfa0ef59532286fb6121477894b080c15421d27452bd5398,바삭한 기름절임 생선
+fce_5af80f300b4f8563cd11e9b241f8b033f4ff02e641fb86cc7d225794eb299cf9,[낚시 요리] 배달된 요리 복원 실패: {0}
+fce_98d4abc71213f83ccd51508a9ea32c452218f8b3b7cb4f1d28530f3ad599d14e,[낚시 요리] 설명서 복구 실패: {0}
+fce_0611fef9ec2ecd693ae9f783b5b77f64f848b9dee0d4ecf586d41eb38db3d02c,단단하고 짭짤함 · 뭉근히 끓이거나 숯불에 굽기 좋음
+fce_4cee6f61271407b8c0f33a4adc16355d6509bbc951c5498856bca22dcbbbc19c,큰 걸로 줘
+fce_c04e8ee8b15067c912661f0bcdb63be528c0d6fd7b787d7d558a6f4424d89d86,[낚시 요리] 핵심 디렉터리 등록 미완료 · 부분 아이템 등록 방지를 위한 확장 패치 제거 · Harmony ID={0}
+fce_8786611173251d7f1de5334b97913f49ab54b94012d13b3603ae1188a8aa2de3,"스무 가지 요리의 조리법, 주재료, 부재료가 적혀 있다."
+fce_eced37d4f95de6702892faaac266f85a88abd52016de3d3b55cbced66fbce2fe,숯불에 구우면 달콤짭짤한 양념이 얇은 호박빛 껍질처럼 굳는다. 씹을수록 향이 진해지는 건어물이라 천천히 즐기기 좋다.
+fce_83c18556877f50ae848f8fce8f5fb4add8483f7c3783958ec89edc795ccb119d,고추는 전혀 넣지 마
+fce_d40d08635e9774142fdbc005489afc6d185a9a1e1949c522d989929fb60e2733,[낚시 요리] 입문 세트 등록 실패: {0}
+fce_c8cf344aa21803689bf25174e25d4bfaa776f5a01ee25a5021d6171155ecd586,[낚시 요리] 기본 스프라이트 조회 처리 완료(예: {0}).
+fce_c58307792408b631dc5b4dd6f3384712a7b847bad7328dcee5f4e64b74df73d2,말린 별복어
+fce_d5a5fa436248c068e1f9e0adf0a96e309133319851710d2c8e3161fc301933b9,아직 후기가 없습니다
+fce_25b7cef49b774721b1a6fa3f2421d1aa45e7b868b446718b95462c159b726c50,통생선
+fce_a65bfe55c63f0ed6c59bf006cd743d04cf93cef796f4ef3998cbd5fa0eb24671,니오룬 생선살
+fce_d9ff2e8aa0c2eabea9d7ea1543a95af1c1b76778b16144d51727748c4ec766b6,[낚시 요리] 결제된 요리 정리 실패: {0}
+fce_00951e84e01bb6ccdd23fe5844c3dd52ee71b8fd8c6109aab975a3660e30fc40,말린 우주로켓어
+fce_9f12f870f988a3eec84b353920f3163c30c1acc303a8283b1d4af88637f30810,대체당 주스
+fce_0e7b34d97a3fd6357cca808ee9b10af8b1c0bb1761841428ec7ed3ed53052c07,붉은꼬리 물고기
+fce_0be4a42d8bc8a927fd22a0ab1f99c2cd9ba5a2dde79985c3a8f52e616a034335,요리술
+fce_4f765520d47565f11b341eeb1da9d5be6800b9389e8b89a05a887c7f7ffac99e,생선과 뉴트리프루트를 약한 불에 천천히 끓여 과일 향이 생선에 배게 한다.
+fce_2bd702efcbce1b18d54025ccd58d488aae5c2c17f39718af680ad0f4ee1a8723,푸른 수정 물고기
+fce_6d9643b5bbb4bfbea694fa3f806f091262aa76892c0bd22b6baa6262736c69d0,맛있었어요. 잘 먹었습니다.
+fce_39ed72ff21e5cd505ff0a8c502a80e6e2b030b2084c429322954414be7b783ed,생선 머리를 요리술로 손질하고 향긋해질 때까지 팬에 구운 뒤 백식초와 설탕을 넣어 소스를 졸인다.
+fce_e4dff580600af032ba5cca6d2f9a3ee30ce5c60e71ae7801e610f51aabb54d73,[낚시 요리] 인증서 등록 실패: {0}
+fce_01cc263da6a1bef4ccd929fd87d8e71fa874a647bb23458d38b4bbdb99cc6572,[낚시 요리] 시작용 조미료 지급 실패: {0}
+fce_b49831d9eacd0876d1594a8ef0ef2cfc419e9ce6366f83d078b86e9ee7c2d6a6,요리 입문 세트 구매 완료
+fce_0da0fe428ecf6a1887e77e38a71b0de5855a512b291fbf2e6b8b6aaa1f44ca20,"다른 유명 요리에서 영감을 받은 듯하다. 걸쭉하고 짙은 소스가 뿔황새치에 감기며, 짭짤한 맛 속에 은은한 단맛이 숨어 있다. 독특한 색감이 정말 밤하늘을 조금 닮았다."
+fce_738c2bf45c6b3ff2c88b6417eec5021067550b7fe496076fb65e2201f406c08e,[낚시 요리] 조리대 아이템 복원 실패 · 다음 불러오기 때 재시도: {0}
+fce_2fccc61ced28a7bb3c0101ed4185dd8f4d6edb834358e0a49cc101f99e964edb,요리사 협회 신입 안내서\n협회의 명예와 까다로운 손님들 사이에서 살아남기 위한 기본 수칙\n\n
+fce_a5684adbb9e755020c201db54be437fe8e258315184c4c02ca17e72a381ca83b,중불에 팬으로 굽는다. 어유를 넣고 센 불로 조리하면 튀길 수 있다.
+fce_520e0544e080fe2a183bccd116e2c836455127bafbe9c78bc57de560bd43aadb,[낚시 요리] 재료 복원 실패: {0}
+fce_493dbf15c9825e179b915a12bb029cb24eabda6ab3fbedf02069cc0f7ab69016,"부드럽게 쪄 낸 대황어. 간장은 맛을 살짝 돋울 뿐, 생선 본연의 신선한 풍미를 그대로 남겼다."
+fce_cc02153f0cc52e9d4ded79d4f480b9eed0673dd6eab90db346c5d5d1f839517d,담백하게 해 줘
+fce_cb95cb578166962455c2cbc069321c2fa5921a57119a6d083dc79ffac26513f5,[낚시 요리] 기존 조리대 인벤토리를 완전히 이전하지 못했습니다. 기존 페이지와 아이템을 유지합니다.
+fce_efaac9c6cef3d73e7b9def8eeae2bc600322bf1108064c3627bd6eab975c5cf3,이 요리는 정말 맛없어
+fce_acf72a13c80dbb69ec9a1f3f737c1ffdd1768972b6ef4bc20e91acc37188861f,찜 또는 회로 먹기 좋음
+fce_43508ab756ca1f54e52a1d11ecf0b88f571304cec2d5e634b02c21ca9cd28b7c,"대체당 주스, 백식초, 설탕"
+fce_c20c256e3aa2d16cb88cfc665471534326707929b31768119c1f3c07186bfc1f,사용자 지정 아이템
+fce_68493054c0e9af84e1dabe244802c2f0f35e9b8bf649b5583d0d30ad49c2c1d2,[낚시 요리] 종속 항목 준비 완료. 요리 기능이 활성화되었습니다.
+fce_9132ea7462f99c4ec878d14e89d081ddefbfdc36d377855fc730f8b43cde8f91,호박빛 양념 건어물
+fce_741a3d4ddbf6fc44b0a648034ff128c82f34239c0c52e1b332310c4b5c1defc0,황조기 생선살
+fce_d89b8a22a398207996d60e3aa8fd75f257ec146e81ecc847cf326304835b7205,매콤한 절임 생선
+fce_fee3c2bab59151b6759c8cfb4b4fdf89fb41887edd59aba1cae399d300f9844d,생선찜
+fce_a2fd0c889928e838b55698488b0e1ab16e62e5f76336bf9cf5b93ea80d008e92,다음에도 이 방식으로 만들기
+fce_ca5a9d640e0b941c594305ba767f84b9e3e491af5f57c0af54a45f150ff96559,녹슨빛 해파리 조각
+fce_90f9a7da2da7a4f500aed11c6ad959e9a7d14e29c44446cd6e24d2c8bbec8743,신선한 생선회\n얇고 가지런히 썬 생선살에서 신선한 생선 본연의 맛이 살아난다. 과한 양념 없이 깔끔한 맛이다.
+fce_0b1e145b53d17f70b8bb07fff32ac1e4f0c70073b28ec03187e68b0c1653adcc,[낚시 요리] 요리 스프라이트 없음: {0}
+fce_9b5973babd6b669b4f92b94e9969bb2db2292b582a93ed509f0328ac2d0109f9,먹을 만하지만 뭔가 빠진 듯
+fce_a378331f0655f9d6b5e9e68688a5a0bde0af011f72c4503c6fe4a754c83d1322,란의 악몽
+fce_610862c692d0ce43d9512dfa50e6ceb77d898ab2b3f5c9fed87b0257f43a3e77,이미 매콤하니 숯불구이에 잘 어울린다
+fce_fe4a9e1f00d5995330e16990e943e8e635194af74f00ff61a44530767bc79715,냄비
+fce_9e18f1013171983cbfc6ebdead0573c0064f0df085dc8e440238bcae9bf24f29,열에 강한 살. 매콤하게 구워 먹는 것이 가장 좋다.
+fce_20801ad1572fa31fa4e81100f5cdfbb9ee4fb16a6aba0af0e42dd2e7ca321d7b,요리술로 비린내 제거 후 찐 다음 간장 뿌리기
+fce_5895f9b2c7b9d1e21f81de734cd2d83fa0dc76b434680c1fcce510b7708c031b,절인 생선은 이미 간이 되어 있다. 표면이 노릇하고 향긋해질 때까지 숯불에 굽는다.
+fce_6585d53c74903b66b400d2f8dcbd9cb56fcc8c864c74f9c796a4c893f4b32103,[낚시 요리] 내장된 조리대 스프라이트가 없습니다.
+fce_c5ea0c8b1a176f5c9e8cda5572011fd6daf63cb2e037ae3d7ef70376313a6733,갓 만든 요리를 가져다주세요. 예전에 만든 요리는 이번 주문에 포함되지 않습니다.
+fce_e4cf24edbb66b0aca7497b14f15307dbb1923c4f9f794afc70008abaeb68c61f,[낚시 요리] item_catalog.json의 루트가 배열이 아닙니다. 목록 삽입을 건너뜁니다.
+fce_c8bf07ad1b15002871bbfe8600407b88f804f828e570d07d068f3249a1aa198d,"[낚시 요리] {0}일 차: 선택된 손님 템플릿 ID={1}, 이름={2}, 등급={3}"
+fce_1661b3212d36d836429ab081e57f6f0a72439465cca5ce88d92e6c0f5a422b43,손질한 생선을 바로 숯불에 올려 구워 짭짤한 감칠맛이 깊고 가장자리는 바삭하게 그을렸다.
+fce_f688a2a924287b7b71e626c1d6aff891fdbeb1a9846c408f7f957639acba6303,말린 무지기
+fce_7970ea45d48e008214593206d6a3483caba3a0eaec81bcfa370b4f790e97242e,[{0}]\n주재료: {1}\n부재료: {2}
+fce_07670134021847eb975a3a874c58f2b108176c90f62ba57755fc8d72554fd288,[낚시 요리] 설명서 유형 설정 실패: {0}
+fce_164a2c6041b386d5d2ff2e8546e8921c6de0960ceb432e7bc7dde10869f32f47,요리사 협회 발급 영업 인증서. 손님 유치를 위해 진열장에 전시.\n평판: {0}
+fce_053d656586a839568ec1a8c3aeb03c52e1a457f8956e279c5a8d7b7580b1f870,발견하지 못한 레시피
+fce_1f8d7f20c51204ec01913917103a0433876d645bd6adae822f3dce7f298ae781,미네랄이 풍부한 젤리. 데쳐 먹는 것이 가장 좋고 날것으로는 좋지 않다.
+fce_3781b59ecc92e3097d73472daaa0c6dad5025199376f7e54adbc052604b2c8a9,[낚시 요리] 전력 복원 실패: {0}
+fce_67ba079da7ecdb2a1b456b6fd2a9431eb56fb9456fffa4a4abbfe7f8242a91a0, 이게 정말 먹을 수 있는 거 맞아요?
+fce_081c785f8bf13a3d3727c3900060eb4a9e2db90f31d776d5bd5e07e6427ad0d6,설탕 통
+fce_a1d2ac0b8b9493ef28368d5f75d215a52038d57016f5a14c06c783a8865b7a3a,귀한 비늘과 섬세한 살 · 찜 요리에 최적
+fce_09be9b67cacf4892eca9a12eb28a6b1d4b97da8c45a007bb560dc7d256dc6ab8,도구 등록
+fce_b210f81a6c45968e491e889041777ad98b818f9fdd72e46bac6886a1caea821d,수관층 재료
+fce_aff88e748f6e8052449671cc1ad1568311b561a7f42ecc3a8f0d2005ab35fe21,"요리술, 간장"
+fce_96282aabaf81a6efcdafdfa4bc5f6641c52c3c60d11ce3c3e11a26c29fdaa3a7,오래 끓여도 생선살이 흐트러지지 않고 국물도 맑다. 처음에는 담백하지만 감칠맛과 신선한 풍미가 서서히 퍼진다.
+fce_5cbfa1b7aff987970218769f040349c7c8bf303f52dff2c47f4f9c0e6328450e,기다리고 있을게
+fce_7c2bfa45bb0cbddbee756f83c0287b2affd368564da2e49a24d8f38d1adcb9a1,너무 짜게 하지 마
+fce_d5c4a8e769a8a9cca004da80637461b7f81aa45b26b533d7f65db5a7c65d930b,조리법은 알아서 해 줘
+fce_ad1069b9d002cfd5b3ef809352fc960ed086bab5cad7b44b3efbad290836aa04,"풍부한 기름기, 굽기·튀기기에 적합"
+fce_2a4e4370723b704faa792f49dd82c31a8a17b19463fe03365478bbf915419971,"어유, 요리술"
+fce_09a7f1685b1011d24f0e52b14dab722d0cd4fb0e33c27e3a2c969702b7ce85bc,붉은꼬리 생선 필레
+fce_18fc9d0c8ba3593781c80eb7d798825d67fce23ab9343183b1a1aea1257f26b1,숯불구이
+fce_44d6ee85439e269eda37e1d7ff7fc1f2ab43b8d3c80b5b83a8250523b8adc4b5,간장 소스 생선살
+fce_538b3a499cf0fd2e10e449a0b4c4d162845c1027c5bf4ca3133c75bdabbc89db,"[낚시 요리] 손님 도착: 템플릿 ID={0}, 인스턴스 ID={1}, 이름={2}"
+fce_2a0725200686a04191fc27785709d0bf60201d122a6dfc8c3b89c95bc13bee7f,등록을 완료하지 못했습니다. 다음 주에 다시 시도해 주세요.
+fce_eb0d5884569b398e475b89e77a068c6c575a0064ff6a72fafc173102c4cfcd57,.
+fce_2d7c717788219a4c55f9cdf09cb81a4f2cd40755114175f38715988ccbe40a02,말린 로푸린
+fce_981015c718a3627a6a116bc87eed24c1a41968ca1a912ed530bfac6eef9b7f32,"벌어진 커다란 턱은 향긋하게 팬에 구웠고, 두툼한 머리 살에는 새콤달콤한 소스를 입혔다. 식탁에 올라와서도 금방이라도 누군가를 물 것처럼 보인다."
+fce_e4dd54fe85f8a4f99d1db3d95f6bad2624ae0988833dd741c0d8145b04985615,소금은 조금만 넣어 줘
+fce_5a8f22f67bb369b712670e551649a0d23c5524d2724d7acee1baef772cb20f8a,요리 입문 패키지 구매 완료
+fce_2161ef84b1db4ecbfd751cab1fb5c24e33bbf1857d89277901cd8566f1f9cf52,그릴 + 중불 또는 센 불
+fce_a28d61d0346189d66398e4af2d3576a9807d59a2b668613f25fa8673c2dda63b,말린 페라이트 해파리
+fce_2439d73027badc5a2de3489c605e38282833e16c9fdfcce8302b4964017be1b5,주재료: 
+fce_bd915306a882e5975ff6888ae406fe6378229507605d83b8a241511273596789,양념 강도가 맞지 않음
+fce_0cc77001072fb7bfb352ef9cde6af4870a5c754f15196e581af7b49a373bce87,[{0}]\n유형: {1} / {2}\n선호 주재료: {3}\n
+fce_fdc51b513a85c897bb6102d9e6939415ac6044f58185951ea98527765d49cd0f,부탁해
+fce_286c2bbf1ae3fe9e68abbbf58a239cf4f82f5a47938b0ea0c0d18f124eddbb7a,끔찍한 요리
+fce_7ef352ae0249db753ed98c7046c1b3b5d711a9c03b8ab4ccc58ed3d780006867,유리 물고기
+fce_cda2f35f1ab3962e9199a5e3141295b6e6b75f9f62835ab747882e2f9a9e626f,프라이팬 + 센 불 + 어유
+fce_2999b1bc81a8310a0220d0221610fddbb402d3115d6e8402acfe0651f8eb4325,신선한 생선살을 간장과 백식초로 만든 소스에 곁들여 본연의 맛을 살린다.
+fce_966f6ead790e79772913c3e24c987a32ee12055cc1fff3dd84bd073130cdcd15,====================
+fce_da2dadcd3ff9c5bc455a1fb290f57841ab906e42d94613ffa9e978a8770e3c9c,요리하기
+fce_ad726b49cc5fee6433a767b19714728521025e6134cc97f54303554d5710c39f,불꽃 고추 생선구이
+fce_4bf27a0354c9190265cd473fadf878c95abf4871c6d0590f1ab22d51aa827ddf,제대로 매콤하게 해 줘
+fce_c7c3e6099fa367aa4cafcc189f2dee8baeb94a2385452fde62fa69fff1ef3708,새 레시피 발견: {0}! 대체 주재료를 사용해 생선 도시락이 되었습니다.
+fce_9c28d28149cfcb73bd9ac5c6c3065b2ffe3438abbaa368e509af38867aab91f4,"[낚시 요리] {0}일 차, {1} 주문: {2}"
+fce_2659e92bf063c273144f509d70752f9751a2d0b9b899908315b3cab9b47a8d05,"조리법과 대표 요리, 식사하는 이들의 취향 안내서"
+fce_cad26cad52c2bd77c2e72f170cc5d33728cf85dc1532a90fe139e9ffee57689d,무스펠의 아들
+fce_3f3acd6ccfcb0ef0e07d74d94448316c22f6823f8b79316198f7686bae0acb11,{0}을(를) 먹고 싶어
+fce_12bd7d86109364dd1b365c38508da06531ddc03bbf8ab580893331161139dcdd,말린 금붕어
+fce_0159db01aec121a3269cb076435d89e3f39bed227abe8c812c8aafa017faa4d4,조리도구 없음 + 불 없음
+fce_7315b36ab85a27ffd2bb7ede9f9cf3b6dc1f4d3c57decbf3101a755993433f39,재료
+fce_95a2b27827ab73f83d15ec805f0613b997e314de5a2569c87e2f85b635b1d566,"금붕어: 살이 연해 찜에 알맞습니다.\n별복어: 살이 단단해 소금에 절인 뒤 튀기기 좋으며, 회로는 적합하지 않습니다.\n우주 로켓어: 기름에 재운 뒤 튀기거나 신선할 때 팬에 구우세요."
+fce_fabb05091ad20ab6a7a1f1ca267f8dfa765e39e2766b944c616c58bf8c6aa067,"머리 쪽 살이 두툼해 팬에 굽기 좋으며, 회로는 적합하지 않습니다."
+fce_db48ce4a8b6a7d9c050de551e4cf333acdaa757e6dbeb1e228d0dc3541a5e1a1,신선한 생선
+fce_bdd70c61127aa2984549b6c81a1fcc75799fbf97225df224a2c872510fc5f98c,괜찮음
+fce_4d4f3c4bedcd1de9eff93f4fd1fccdaf43345a2df0b518b4cee5c3c8ad8402f8,양을 아끼지 마세요
+fce_d916fddb8a3cf351fe779bd81f32e6c88074bca2f9beaf3dcb59e25af546752a,[낚시 요리] 설명서 용지 태그 초기화 실패: {0}
+fce_d4dd9c3f67accdcfcb6588264932c6bc2c9e29043c2d7c882464baf644a7f39a,말린 정어리
+fce_b59fc8581e7668d77ff2ffc6eda91467b967740a21ea1e2c1f75cf386f76fa48,"생선과 부재료는 재료 칸에, 양념은 양념 칸에 넣고 조리 도구 칸에는 냄비, 프라이팬, 그릴 중 하나만 넣으세요. 화력을 선택한 뒤 조리하세요. 회를 만들 때는 조리 도구 칸을 비우고 화력을 사용하지 마세요."
+fce_130b0fd966467e9b1ab6379a31286dc3780b889725c56bfda2667f2c5db0fbd6,[낚시 요리] 양념 구역이 준비되지 않았습니다. 시작 양념을 인벤토리에 넣어 봅니다.
+fce_8ad42b79ebcf618c8aa11eb29494d466e61548f999ace3f57bea8e753844bbfb,신선한 생선회
+fce_0e796635c4b1132feedc603614305d2035715fcca76dd5f65cd0271896e127c1,오른쪽 출력 구역이 가득 찼습니다. 재료는 소모되지 않았습니다.
+fce_db59151cbe0539d5a1bb5b416887659b0480f95a9b435a5592ed42153099883f,협회 대표와 대화하여 800 크레딧을 지불하세요.
+fce_75351adee786f3d747e1807cca1e37ebb8ad014661c0abc05d5aef162f1f8d17,찜
+fce_5fe4e25d932cd06eec246693540be48057ec366bc66f4d5c851282af43edf6d9,설명서
+fce_e8b4d1c08ab0148688e49c10fcf55faed1a66e0ebc2f0ca80f634da3117345d3,[낚시 요리] 배달된 요리 복원 오류: {0}
+fce_6362b7c0e7f9430ee711cd47f9949d375c0d4f18f84c256161db5d6ec37a1e9d,[낚시 요리] 설명서 페이지 교체 실패: {0}
+fce_7efe64f2c6f54b9c8bb4643fb737f94346d16889c4d39574f660c3d5ada9d950,[낚시 요리] 요리 배달 실패: {0}
+fce_6a4d248ee6fcdff2834a8a34683a7c922dad5ec16c400b0639ca64de1e1a21ad,중불 또는 센 불에서 생선 숯불구이
+fce_4f4e1b98760c771bfc185c533fa39cbb5006ee111adf7b899fc5520dcd2bcf26,생선살을 데친 뒤 간장과 약간의 백식초를 섞어 찍어 먹는 소스를 만드세요.
+fce_783d420096b55fcd940166fec136497819b1d3965efb4dab47763a2b02d94dfc,[낚시 요리] 조리대나 인벤토리에 넣을 수 없는 양념: 아이템 변경 없음 {0}
+fce_3077c3d612dfcf30f7fe4c4b386400d476f0b1bea94aa22451d30478cf3fe215,냄비 + 중불
+fce_bdeb658378c40972b981fda9a088dac697f730fbab47cdace111cc6229569b5b,별빛 팬구이 고기
+fce_dc97919388a12d45c2eaaa3cb2fcf9c3df6f111efba76a6db17ee4a964b0cae8,"살이 연하고 은은하게 달며, 쪄 먹는 것이 가장 좋습니다."
+fce_947c288efcc6d8d960bc940ef0cc1ad091f004763d99fc23f1d38673562de43e,조림
+fce_783ccf71fab85445d50a308edd1745f3882f7384f4a0e393d6436b347ddcdf28,조리법: 
+fce_108bfce1526c63627d1040bd8abd9c2f68e73c1e33147d02a43151268aa79d6c,소금 적게 넣기
+fce_61e972e04fc082ef2fdb069b23e0d17facc175efa80396ed9cacbfb64a7cd7c7,요리사 협회가 발급한 영업 허가증입니다. 손님을 유치하려면 진열장에 전시하세요.
+fce_92948c852e52e8d3fbfd14c261bf50c229c1a2e213257904745b49eae9911a4d,[낚시 요리] 요리책 소유 여부 확인 실패: {0}
+fce_705adc5c7e3cae8f519c3335130b0323238cfe51f80fb37df1b7e6ea062eb88d,중불
+fce_aa942c0da44ec173743bade7eeebfa3ad48cbb9d1b36bb63fab9efb5045733bd,빛나는 열매주
+fce_9ebe74d7a934e65678e7e5eac799e591a10f127e082ca54e979c5ad0f5e8159e,생선 도시락
+fce_6cb495beb7aa0741cd82baa2b9b6644d855fd3e928141c1307320dbe40fff926,일단 그대로 두기
+fce_cd7bb36c7dc9648b4b37f2f10b6c74c603982a8097335aa388e9b784b976c7fe,보통 양
+fce_ec75a105fb443f8b738f654b9b4bd8c28570a1727370df36f0697fda5084c77c,전력이 부족합니다. 재료는 소모되지 않았습니다.
+fce_cb5d50f32c898e79aead4d1f6b21a83e99a503beef522bb2c99ffd7fe439d237,무지기를 향이 날 때까지 굽습니다. 솜씨 좋은 요리사가 만들면 작은 용이 식탁 위에서 노니는 듯한 모습이 됩니다.
+fce_3d245ace1f890fb5eda7f540290701514e86cd85b19737869148de90d0ea2cba,[낚시 요리] 필수 종속 파일이 없습니다: ItemForgeRuntime.dll 및 PSItemPack_Gofishing.dll이 필요합니다. 현재 요리 기능이 비활성화되었습니다.
+fce_702dcbd17acdf90475805ad7deee462d2cad2d8c831e2985375d6e482957d7e5,[{0} 조리법]\n\n아직 이 종류의 요리를 발견하지 못했습니다.
+fce_8362a00a7b12638ff31dcf9f43248bb3653f39fb51c8ce834372e47518b11aad,준비 완료: {0}.
+fce_82636ea577c6244377312a43a4fd5e76b5940db698bdf7b495eb56d77e3de761,[낚시 요리] 저장 파일을 불러왔습니다. 처리 중인 주문의 손님을 조리대 기록에 따라 다시 배정했습니다.
+fce_263a6be3dec1ece6579d3465d9290af48775034a3d7cc30ec85f73fed8809614,"재료, 양념, 조리 도구를 각 구역에 넣은 뒤 불 세기를 선택해 조리하세요."
+fce_edb41b5b7a8c8d8372e96a6ec97ab57309ea297eb9d034c092a8af4b8ff4f481,{0:0.0}/5 (최근 {1}명의 손님)
+fce_757bebaedc4828d730d378a120e91f8f028bbede4f4e26df7c6d8c7043722a58,"[낚시 요리] 패치 설치 완료: 성공 {0}개, 건너뜀 {1}개, 실패 {2}개; Harmony ID={3}."
+fce_8d91a1c9f44939226064b412073d8b1f4ef0045d4e4c1a1b95d84f8d4bf8a3ca,{0}. {1}: {2}쪽
+fce_b40a566f10e82111a04a3f8bfb75b5f8546f527ffce91da6de1ca5fdf412630d,열매 향이 증기와 함께 생선에 스며들어 독특한 풍미를 더합니다. 시도해 볼 만하지만 본연의 맛을 선호한다면 적응하는 데 시간이 필요할 수 있습니다.
+fce_033fe3e8d629958063cb9bc7cc2ebc26f7709e585d86c1487ed1fc2508690f66,[조리 도구 및 화력]\n\n냄비:\n약불 = 뭉근히 끓이기\n중불 = 찌기\n강불 = 데치기\n\n프라이팬:\n중불 = 부치기\n강불 + 생선 기름 = 튀기기\n\n그릴:\n중불 또는 강불 = 숯불구이\n\n조리 도구 영역 비우기 + 화력 없음 = 회
+fce_404289109f788712934897a485e75758a5ff1b02ecb8fdf4486cc1a108a94a15,(낚시 요리 확장)
+fce_0cfefd625163983b8c93b17d5e09dd839bafdd026bea7cc762ddec3a362fe11f,"생선 기름, 백식초"
+fce_3b94821c58077522ec0fd2a75e040eb4d94dc4a53bdaf462a1bca46b2ae69304,요리 솜씨가 좋으시네요. 또 올게요.
+fce_5623bce9abba4e5cedc4f64e6106f4aaaedb7a62e2d404872241c2ddf30fdf7f,"[낚시 요리] 설명서를 튜토리얼 용지 형식으로 지정했습니다: type=DOCUMENT, 본문={0}자, BOOK_ID 비활성화."
+fce_f6ccbfb5cf5859af88e8bc62d566dbd1fa0403f6ac6c9dee231cf522c345bf63,[낚시 요리] 요리 등록 실패: {0}
+fce_e93377ba6ad70a46a1ba0c4b9599ce121a0f7989d8d6eb321da185ee5e00ab3b,요리 완성·알림 갱신 실패
+fce_f0c00b4cf345bbd79881a50483edaaab067c3e9f812e52e994992625a8a7516b,화산어
+fce_6fc450be2b450606264c8470afe3e1bed8be2d5bf75cc8dae3d31b9333f80b11,향이 강합니다. 충분히 푹 끓이세요. 회로는 적합하지 않습니다.
+fce_aa02b20ab31ee3bdf98e63283cae3bc36936ac32aae044c9487f6bef99075f64,클릭하여 순환: 불 없음 → 약불 → 중불 → 강불 → 불 없음. 불 세기와 조리 도구에 따라 조리법이 결정됩니다.
+fce_dff2e0ca74aec4f1b8087d7150669093dd41a89faa8aa2c6d4bcacd500298aa8,고추를 듬뿍 넣어 아주 맵게
+fce_b2a7feb745bb2917ccddb631be810894c708819cce7447a39eba3c9284da6497,살이 두툼해 팬에 굽거나 석쇠에 굽기 좋음
+fce_c0263fbdab782ad59fe452836ac5280aeadccce1cd5d9464f75a5fe1cc724dc4,타오르는 고추
+fce_6b7dc80da2ed2dfa882eac094855c43493e233145b0219cb1f0a31569f254b23,미식가
+fce_b082fb7ec53b813d16b451294f14d264f6aee4a62add8ea8076738dd36d6c704,양을 넉넉하게
+fce_6c55575c906a8acf0847a6e4cc476fb081611c32efb08d281bf3a70f3136f17d,[낚시 요리] 불러온 뒤 조리대를 확인하지 못했습니다: {0}
+fce_b636e272e0964cf9385ec7104a1ba1435ac0ad40289a90eb0ecab2523789fe87,고추를 듬뿍 넣기
+fce_4b662de39cc4bd05e0bf6814666cda86a0d98268a269e3c09d8f27b7785aaf93,"요리술로 비린내를 제거한 뒤 중불에서 천천히 팬에 굽고, 간장과 설탕을 넣어 졸이세요."
+fce_c86bc88f26043273549fe166459b6769b91f053efc7a3750be60c3bc8aaea8a7,설탕
+fce_3b6b678ee7bbf708350e024f6ac86f981ea33ab778fea4d4aead5f847d9f33ef,향신료 없음
+fce_b01e1a90c9ab8fd8aca488d3892330bee1c28df69217b2672eece2bdb40019b6,"약불은 조림, 중불은 찜, 강불은 데치기에 적합합니다."
+fce_38441dca90cd00a5b504c518d35f4eb454827cb49bfcdaf601fa5d04d1d90846,말린 무스펠의 아들
+fce_22334123856f3d32ffe853210d9ba007f398ebb711a5dbdbae75d0c2dc7f3abc,잘못된 요리
+fce_f6780edee4de95ff1e1da8c05baa75a5a5e8c399fa966e002cc90fece61e138f,요리용 양념: 20회 남음
+fce_b1230bac0792dc78cf94b860a9c7086fc20f7fe0e5d2ce30c81360a405ce904b,[낚시 요리] 시작 키트 소유권을 되돌리지 못했습니다: {0}: {1}
+fce_f061582b6b11611968c4a05041d190f7ea61d92cb21e67573f29614578af62b0,치즈 팬구이 생선 스테이크
+fce_a6844e97315b69b84434037374acbd06d130e220c93fc13f81278dd406aa8dda,[낚시 요리] 조리법 허용 목록 검증 실패: {0}
+fce_3aeeb0e58dc1809b825030677736b6ab3b45419feb150e16d64feed632629aee,팬에 굽기
+fce_a7015fe82a22703c886478fa86ef7dd3e04faa9ee7e285ffeaafad9cf1f0e658,조리법: {0}\n
+fce_a783ed37bb401ba664bc7b830c3cb009240a18dc3ee5b812db8f9040b25f4d54,아주 맵게
+fce_f0e9320c548d7fa84ea6fcecc737b74b602ddce15e5495f61a68cbdaeff9d5b1,좋은 재료를 사용하기
+fce_476853da11d96d21fffebda8357b1a4c45ea2c2bc54443159031d3cef9087b85,배터리 슬롯에 사용 가능한 에너지가 최소 5 필요합니다.
+fce_0029efb66c55a57945fb0c6d2f1b766653061bd5b8d57fca2854d1c3bf315386,[낚시 요리] 주문 상태 복원 실패: {0}
+fce_e5d90828587296f2b99e5a81ec864003698e56f6bbc2d1103167dd7d79ce1fba,[낚시 요리] 보상 회수 실패: {0}
+fce_68ad9f8c103272a83f483ccd98ff9b264f3224d579cf8eac8896d8a39c2c5fdf,연한 살 · 회로 먹기 가장 좋음
+fce_c0bfcb847113ab5a8ddf504047eb1ab552e7b87eb2e322ec451c795841f2ff49,이걸로 할게요. {0} 아직 {1}을(를) 기다리고 있어요.
+fce_eee8e9605ab48ef3546f6e70fc4bf088c9b408ca066a6f3f93ecc5739cad3a85,아주 맵게 해 주세요
+fce_f024598cf6461e12e5f82e38676ed3195cf5be547dfa77f71ec3dfc5484896d0,"스물다섯 가지 요리의 조리법, 주재료와 곁들임 재료를 소개합니다."
+fce_64f5d2976fc2ade92a5ff69538bf6a5418f66cf5c532450b206bbb7657018198,[목차]\n\n
+fce_06304d3bc22fc6c3d0ee7255aa1748bd9ded5575ef13320453380545d2236012,"스물여섯 가지 요리의 조리법, 주재료와 곁들임 재료를 소개합니다."
+fce_d3c5b5e9c4092665178a6f6f601fe78f74e6adb92fa61343d460c3ebdc8306dc,고추는 빼고 순하게
+fce_7df919e92877e4791d80a59de833e758533ab61aa3982acd91549b92686b4128,신선하고 부드러워 간단히 조리하는 것이 가장 좋습니다
+fce_c71dfbd41c1cbbc83da7bab60392e7197abab2a4026820e6f585f38fd00783e7,[낚시 요리] 아이템 관리자 목록에 요리 항목 {0}개를 기록했습니다(기존 항목 {1}개 교체).
+fce_68cfcacb1f52e53565141a86b917a2e9c5f2871539e1f341378ecd183fdd927a,재료 및 조리 도구 태그
+fce_86e68fa82c42cc362a0d9b4fba28ab1f22030aae296f5ba51c1df2140d1165f3,얇고 가지런하게 썬 신선한 생선의 맛을 그대로 즐겨 보세요. 과한 양념 없이 깔끔한 풍미를 살렸습니다.
+fce_195bcf55a654a3a3ff66d18f01205e5a15c0945e1fd767e849b54d243e28e28c,"과즙과 설탕, 약간의 백식초를 섞어 새콤달콤한 소스를 만든 뒤 팬에 구운 생선 스테이크에 바르세요."
+fce_6de8fdce67f00d0b2f9cad6b1e133f665b741a1055a370d6fe0f1df230a14e56,소금 간이 맞지 않음
+fce_1fa82f728b7230d74bc13776d73ea090ff556f21414d58a495e4b7c265e9a986,아직 {0} 기다리고 있어.
+fce_4c9f9df6b72b31a1d0c6a9350b3ea521c8cf70d08c907afd5536ad6a9d1849a2, 조리법이 제가 부탁한 것과 조금 다르네요.
+fce_68acd81c63d3bcb6fbbf8ceabbf2d45f29a05c680339cf3a8d94913f9b7ac37c,불 없음
+fce_ad9464da161a8d5ae3709ec94baad99de11664bfadb5d02d94caf72fa3bea203,", "
+fce_bc7b6d7663b01ffd23b9ffa10ab5feb133ad2ee0109f4a27ec7ee452ef7c4f35,요리책을 불러오지 못했습니다. 낚시 요리 확장 DLL을 확인하세요.
+fce_b28dfd203690005841d09a3352a466910d00642e935acc612b0c96e9cf9cb893,"재료는 투입 칸에, 양념은 양념 칸에 넣으세요. 양념은 요리가 성공했을 때만 사용됩니다."
+fce_f7ece6ee4509ebfec95644a3d472d3b6fbfe13ec2caf0e7503042aace5cb50fc,푸짐한 양
+fce_4efe95ac94c449fb108030da10d212a9c3e9d6bb8c76eb36a76166db57785f1b,백식초
+fce_20f9a2c8a5218f8a2ffe9abededab8ce56913180acdd5974e7067ff9ce5afd85,요리사 협회 대표
+fce_6a61ed5525734c938ef31f0372501d1f6a7cd185d17ab44c1f5dda4cc3a2969f,괜찮네요. 다음엔 조금 더 신경 써 주세요.
+fce_6f6a60e78a7bcc2b17a36794c031c4873558aa2c3be1e9d286ba3d9f0e43800a,양이 너무 적음
+fce_255e086d9885bb2056caf841b292c6be817dac75804ed078a6bf93cec11d8f44,"간장, 요리술"
+fce_5e3baec754f982293fdfe6a9448d1c2bf51a566cac871e252311eca30f86e533,{0} 한 접시 주세요
+fce_7b86e7cf9191c1f5d87c50cee92af762639a9df0eac6fb964116fdf7eb98bced,팬에 굽거나 튀기기 좋으며 고추가 비린 맛을 잡아 줍니다
+fce_ef4338ee575c2a46fbd7b037a19cdc4ea613165baa0cf4c58aeeecb57411c5cc,"요리사, "
+fce_b8d3249447a54e7a39fc61cbfe9b1359ddf2605d21744a5d5a8a2c90caf1720e,용암불 생선살
+fce_9139fdf27db42a3e1da8176037a4544355c21a102db7a21c8be7bbb436367262,기름에 절인 생선을 바삭하게 튀긴 뒤 백식초를 조금 넣어 느끼함을 잡으세요.
+fce_8be6d6ab9979150e7edb027b4dd517b08a58dda5fce95090106186751fbc61f7,[낚시 요리] 불 세기 변경: {0}
+fce_d4e6a69df5702955577bbc8dab5ff32d0bdc43d6c9c93add21eff039d9687c14,베리즙이 비늘을 타고 흐르고 아름다운 꼬리는 꽃처럼 펼쳐집니다. 꽃잎을 들어 올리면 과일 향이 밴 살이 드러납니다.
+fce_1704c3c5621c529cafb06d863009eea756de5c34659f84f1c7bfec6c24b7b87c,뉴트리프루트
+fce_873b117bbd4f7a6c412af6fb194b4ed8e95c928b9f539877d905e7fdec10643c,시작하기
+fce_8858d168674b5af704223c92b33d4d033ec308f0ed5b7cf65d0419184fc5387c,재료 품질이 제가 기대한 것과 조금 다르네요.
+fce_c7ae54e4712e6c30904fa382606c37094378be6a5d74e1a1ec54caeab2ca3744,일반 손님
+fce_64886834501b744baeafcb87ccd3af0265aa5607c11106392a8ffd489aaba225,모든 요리 기록 완료
+fce_d39fca026fef34a8e5635f05143e930e4d819a8a121d0ed0c698b948ef1ed9e3,프라이팬
+fce_1e9f1ee13acf1bfa0885d673a1180275519db0d236c6e31fa66af0ae1a7daccc,니오룬
+fce_10f5e5256d4016e3af019cbab86136243ac795009192c1f82438e94275346fd5,"손질한 게살을 등딱지에 채우고 뜨거운 기름과 고추를 넣어 구워 향을 가득 냈습니다. 한입마다 게살이 꽉 차며, 한 사람이 먹기엔 양이 너무 많습니다."
+fce_a43a99d95a4093f844edf1d8d2a000ca2af19d5c43a8764f349c5f0bb38bb1ef,과일 소스 생선 스테이크
+fce_e73b8961496e3f3489735817458a0b6f532f076777110aa4d8e05247e575867f,[낚시 요리] 주문 손님 생성 실패: {0}
+fce_40474eaf7a30c1f09aaecf2792d6de6d5a9509f70cab7ff9a68517f7993c6a0e,[낚시 요리] 조리대 위의 입문용 도구 일체가 플레이어 소유로 이전되었습니다.
+fce_c6dc785ee05a55d04ffc0bc9a63d6e587aea5fd01c655a724a37f0b5d3dc23e5,푸른 수정 생선살은 얼음처럼 반짝이고 아삭하게 씹힙니다. 간장을 조금만 더하면 신선한 맛이 살아납니다.
+fce_88e387f2daf8a0a9820aaaecdee5010d3f334e5a8a6cfc2aae0b49487e241f00,요리 등록
+fce_d9589a25e57c3f3349622bca440ac47f010de2085946041d2c29501a4ac8fd66,[낚시 요리] 영업 허가증이 표시되었습니다. 손님은 {0}일째부터 배정됩니다.
+fce_b06d2ae87065494f308d6619122962c896f662f3abdcbe3bd17137d5388aa826,이 재료들은 현재 조리 도구로 요리할 수 없습니다.
+fce_24faf1f9f31473005307669fe9de3ef2d0652e2ddec7ce7513ce306a2adec806,"첫 모금엔 소금을 깜빡했나 싶을지도 모릅니다. 맑은 국물에 부드러운 작은 황조기가 들었지만, 진한 맛을 좋아한다면 너무 순할 수 있습니다."
+fce_cfde57c62c5296439e4c9b814a478fef3371fedce78dbe23bbc1f30f6aaa3d50,[낚시 요리] 협회 결과 대화 표시 실패: {0}
+fce_3fe4a3d74b35d00eb3401c06e2cf477fa42c2f40273e02109989947de39f7af1,요리 허가증
+fce_e4acdb2e404a17a7eab9e05b10e3d6d09fdcf419ee70b13d4156d241df2b8619,[낚시 요리] 설명서 용지를 만들지 못해 메모지로 대체합니다: {0}
+fce_799816addf40dbee319c7d57810d50d9d228b3e66c64b665527496ffbdcda236,[낚시 요리] 요리책 용지를 만들지 못해 메모지로 대체합니다: {0}
+fce_0f49469bb7ee186e7e142612f78bd684870332551a45f30810734c81f63bfdb3,고추는 조금만 넣어 주세요
+fce_aa559aa9106b48ed6bc194f7e6c088c7555cad972db4a0994cc35c1539a95eb2,협회 대표의 상품 매입 불가
+fce_833d48333c2da64e43a90e32d1bbd862c65d5b9be77dca487df1af01dc237382,참조기
+fce_8538d2bae034ee0cea31fec05595ad12126ccf255b6d0b842cc3bdeef7e19f36,[낚시 요리] 서식 {0}이 기본 대기열 검사를 통과하지 못했습니다. 일반 손님의 외형을 사용합니다. 보상 등급은 그대로입니다.
+fce_0b75c3b2fcf9b654c191acb4fcdf5a11ea9e75c02d25229f91235da7837834e6,[낚시 요리] 협회 시작 키트 배치 실패: {0}
+fce_cd9a6f8365922ac6c8a64415f23e6acc5b3023c33e8b092b30505affaa23a431,황금빛 생선살과 발광베리를 한 접시에 담기
+fce_9eac1ecdc61e64d782bbb9c069dc64d496af890426aa0fc9fc1cfc9040ab345e,없음 (손님의 요청에 맞춰 간과 매운맛 조절)
+fce_f46bb99b0d693e6d125fb1eaf38244e3d23821694204e9d495fb8e88d5660cb9,진열장에 전시해 손님을 받을 수 있는 허가를 받았음을 보여 주세요.
+fce_6329bc8311f6d85d5b321f47652311b6fb369c83ebf29f2309abf4b57c511f59,요리사 협회
+fce_1ce8dde14e41167b552819713dd824ff164b8e75cd79d82e7d2a73465348ae56,거대한 꼬리지느러미를 돛 모양으로 다듬어 치즈와 설탕을 조금 곁들였습니다. 차갑고 부드러운 생선에서 은은한 우유 향이 납니다.
+fce_190c01fed7e8e43b54308104ad1c2bae38960d1ac8824993b6ca96eadda679f7,낚시하신다고 들었어요. 요리에도 관심 있으세요? 시작 키트가 카운터에 있어요. 가입하시겠어요?
+fce_2f8f6851dfee41590b4f9c68d9b2a3a0aff55fec1fc16f1f4399d23f2ce2e945,고추 없이 순하게
+fce_0ab56889df58cc74642322b0d3c31f1bfc91b7a431ed57090929a4c570579e85,"저기, "
+fce_655e2fb1591688cdccba5933c3ce73e76be64ccfd0250700af6c0f2cb1b028e0,옥룡 연회
+fce_9f0851605052b0374ffc78143c614c36a366362383e777a616bd93e61c921d84,윤기 나는 새콤달콤 소스가 겉은 살짝 바삭하고 속은 탱글한 생선을 감쌉니다. 전통적인 탕수 생선 스테이크보다 담백합니다.
+fce_67277d840b9342deb7d32375679dd9fbcae2f0f5bafe91579cf13ba5c8b59e7b,[낚시 요리] v2.0.1 로드 완료. ItemForge와 Go Fishing! 아이템 팩을 기다리는 중입니다.
+fce_c91d78d54a2a7871717d2ff13ef22a27769a036543955a96824874dea227a254,합성 치즈
+fce_e51edf1fe02f11a99af9b5e8ee6c5bfc109c1225e07aa0bf767cc0812471a32e,윌리의 낚시용품점에서 구한 완전판 요리책입니다. 펼친 뒤 왼쪽이나 오른쪽으로 페이지를 넘기세요.
+fce_b9297ba8fde6548c3f8f5782432ca54070ffb11cc565f427856df9599b66b5bb,말린 생선
+fce_95d1efe0176b626c851ab442df778f6682783e1cc0852f24d531dd992d73d517,"[낚시 요리] 손님 대체 서식: ID={0}, 이름={1}"
+fce_6b4c87091adbfe3fa6dcab4bfcdda6bedcb7215d738e3e27c909bdf41dbdd1e8,간을 더 세게 해 주세요
+fce_fa5364011d6fa68f5f94b09845863d260e703bec4dc1afd51b2844da04d4b1f6,[낚시 요리] 요리책 읽기 실패: {0}
+fce_f16e491fddeac1b9ba9d75bd6799d0e2b8548b3210a306f853321c5ffdb63781,{0} 한 접시 주세요
+fce_27da8d85e2752e8dfbf282b8e2d83e754f8435ba424be382136172d5972c642a,살이 두툼하고 단단해 말린 뒤 팬에 굽거나 약한 불에 오래 끓이기 좋습니다.
+fce_2f93c70b30f2b56112e0a278cac78997970cf821abacabe31a8f9a7384cd4f71, (조리 도구는 하나만 사용하세요.)
+fce_a89d73d23f28f8123ff7b8aa22171f5d4e5c29d096786dbf7d9992a0af332eb9,조리대
+fce_09572b4575e86fac540bde0affe7fcf3fe6c8cee2e496bcd00c270a9450091f4,잘못된 요리책 행 형식: {0}
+fce_5b1ff1a146eff5f2f337991a65c31a5d04daa5cf389bb8301b22b7fb1bd293e9,상어 머리
+fce_910d7c7b3647bcdc9550d1f4dbb45efd931c716f1bb3d5db027185625e271e42,크레딧이 부족합니다. 800이 필요합니다.
+fce_ffa43df3cbdff2a69b7c517effde10a6060f0c7f572cd84ddfdb672f589dec3a,생선 필레
+fce_562b45f0a505348efb95e7221faf367e0d5e8517faa00ce7d068690a0fa1e3c8,소금을 더 넣기
+fce_d0075eebf5a676636469c85c4941f209354a2892bf818f4fbd09ed865ba68040,요리 발견: {0}
+fce_909f9dd978383f8ab816ce7f72cd9623d99b30e5124e21c324a373168aea589e,진하고 기름진 풍미에 꾸밈없는 든든함이 있습니다. 백식초가 묵직함을 잡아 줍니다.
+fce_9f7fd935e3e5e9f4ad5f58249d65e91a889005e980b3084eed05ced84fb9f3f4,두 요리 모두 최소 {0}점 필요
+fce_1187889457cbbd43a291027d60ae280bfba80a0a0e3206a22fa3cd21f4d49c49,조리대의 양념 칸에 넣으세요. 요리에 성공하면 1회분을 소모합니다.
+fce_d4f48046f23ff78bc156092217944b70b45e8779094af1cbba5ac85b6f9052d6,{0} 좀 만들어 주세요.
+fce_ec6d39ed50bd359a5a21dcab8d412c693382c20427a48d10d198b3846c4e84aa,다음 방문
+fce_5cbdabb5fa9d8fb100437e0260f757f75be7296aba48ec3abc609204d005a63e,감사
+fce_657939d7618482f47382c2377a94bf010c604bb2fa1d51b2c0f433f3077931d3,재료 추가
+fce_5ce708cbe1f8cfec2634307c91fccb8a5361f38a7dd418ff82b138d45285f45f,"맑은 생선탕\n첫 모금엔 소금을 깜빡했나 싶을지도 모릅니다. 담백한 국물에 부드러운 참조기가 들었지만, 진한 맛을 좋아한다면 너무 순할 수 있습니다."
+fce_99d59ddb5c1660741ed1abb62ff3a5c5e14e38ff3cde26d774b83878a8c2aa97,[낚시 요리] {0}일째: 주문 손님이 대기열에 들어오지 않았습니다. 다음 손님 생성 확인 때 다시 시도합니다.
+fce_3e1d9c0238c4f3c169847d18430cc8d17afbf6a94d08391509e23a12a0f5f3bf,배달 대금 지급에 실패했습니다. 요리와 주문을 복구하려고 시도했습니다.
+fce_ab380d7a61243ef02b664f5c56e8c51b2771bd1ba346d8b8082ec6eebad42609,뿔황새치
+fce_4fd8c7bc3a92dbf0a7dc62b0603513d3c558431ba50853fc480d67f6a704c7b7,맑은 생선 스튜\n생선은 오래 끓여도 부서지지 않고 국물은 맑게 유지됩니다. 처음엔 담백하지만 감칠맛 나는 신선함이 서서히 퍼집니다.
+fce_baaf4a7c60f27c9d4bd0d82a759eb88afcc176239721681ee5a54b7c4569feed,"진간장, 요리술, 설탕"
+fce_56cd74f8332087872af7c01955c301241af8388495f36397a207ba3dcf8fb828,숯불 생선 꼬치\n숯 향이 풍부하고 껍질은 살짝 그을렸습니다. 간장과 훈연 향이 어우러져 멈추기 힘든 꼬치입니다.
+fce_8dbdfa8ba5c43bbfffe04cf426ff76f24c1bb1d03af6d7829c87ba665635bc8e,정말 이 요리는 도저히 입에 안 맞네요.
+fce_47ffb96f5350c4886805ab3fea3d58c5602e9b244b01be3870431a94d37939bc,오늘은 아무 요리나 가능
+fce_8f3257395817f09fedbcb0acb5d507754bd597ccc1a2cd31d68f41cce45c7675,곰팡이로 감싼 푸딩
+fce_1818be9d81ac2cf7dcd7a8fac27bbb8e1fc6ee09b527ebd3e3ec8a3c74219e64,{0}의 선호 주재료가 확인되었습니다!
+fce_13122a2367d8019a78f6e45fd0dec844f683a60351a68edec3e1efe225a8e961,주문한 요리만 받는 손님
+fce_163b4a6991355a2b7c81a3b2fff14b56d12e097397cefb58ac5bb46114ac0ded,크레딧 800 지불 완료. 카운터의 스타터 키트가 지급되었습니다.
+fce_acf2b99a1b3ac3999ff0bf0c2eb30a725bdacc451b4ba8123c8f4d92a52f6eb1,\n\n↑/↓ 구역 변경 | ←/→ 페이지 넘기기
+fce_86f069ed75046c3e326c70275252200d887f2e38dfc4c19a510f06cbcfcac896,날고기
+fce_92a3ad22e6f33927e5d87ad77874d5218f2ed2585ce2d6509c5bee8e72ea952a,[낚시 요리] 모드 항목 '{0}'의 스프라이트 {1}개를 등록했습니다(신규 {2}개).
+fce_c8a9b68f4524f1c4c8d3df89e608d0364f5fa89587871f0ed03d79e0d002788b,요리 영업 허가증
+fce_3d081d0c2bfcd372b38456ea3a574148cc151be9c660588fe3bc615a238026dd,재료를 신중하게 고르세요
+fce_304d356f07e52dc8627e9168a65401f08fe901434b78b0414df9adb45bdc4a16,푸른 수정 생선 필레
+fce_8bd664723806033514252b58403f3d518f99e15b3895a1d4f8fb0fc1d6415b66,별빛 생선 필레
+fce_6a35591cf91840bc8fc5be155edd6d1f32d8688049c0af4d21af2f14dc9f77b1,익히거나 팬에 굽거나 그릴에 구워 먹는 것이 가장 좋습니다.
+fce_be8fd84ba60072d9fa715ed46aebf11473a01b2fabbca1723aa05a0afc625088,참조기: 작고 부드러워 데치기 좋습니다.\n정어리: 기름지고 향긋해 숯불이나 뜨거운 기름에 조리하기 좋습니다. 그릴구이에 알맞습니다.\n은상어: 흙내는 고추로 줄일 수 있습니다. 팬구이나 튀김을 시도해 보세요. 현재 이 생선을 선호하는 조리법은 없습니다.\n부세: 흔하고 맛이 좋아 찜에 알맞습니다.\n정화어: 살이 아삭하고 깔끔해 푹 끓이기 좋습니다.\n화산어: 난방용으로 쓰이는 생선이라 약불로는 속까지 익지 않습니다. 말린 상태라도 숯불구이에 알맞습니다.\n뿔황새치: 살이 두툼하고 독특한 맛이 나며 푹 끓이기 좋습니다.
+fce_f7a18fe0486c459ff8d16d31e37ed079c6452d7fa206aba8d21dac30aa3618b5,일반 재료
+fce_818e030d4baa4676727079714c2deea04af7ed316e0331c0132a1c3a61391dd8,진홍 꽃잎 생선살
+fce_018dfd5e3ab77f5f5d3a7252c74f913d8b17747f154295e64abc2dc60c0226ee,"소스가 배어든 부드러운 필레. 은은하면서도 만족스러운 맛으로, 입맛이 없을 때 식욕을 돋우기에 딱 좋습니다."
+fce_249c10c3bfe5243105888136264c6c1b5791a8e670ec01c43fc11e84a363bcc2,냄비에서 훌륭하게 어우러지는 조합입니다. 담백한 정화어가 과일 향을 머금어 은은한 단맛을 더합니다.
+fce_185360dc75e393e815c62cd5f8365008c7dfc3cc8e6a2ff741e9cce03bc0bf56,소금 추가
+fce_348b1922ee91cbef68f2ffaed3e93dff96645937a2898885c8f2f4c629f77b99,황제 붉은갑옷게
+fce_ebed5fb4998928bd16b884a2cff1926e6eb0c53ff3c0757e968d41099b5e510e,\n설치된 조리 도구: {0}
+fce_2d38e6841132404eac6b08cb26b405cf3ae3367034139566abbb80f6c1f44f75,튀기기
+fce_3c28efeaf80a8663d1b2f8577474bb9b3d125ee01432791d54d94cf7d7e37bac,살이 단단해 소금에 절인 뒤 튀기기 좋습니다. 날것으로는 맛이 없습니다.
+fce_622da04602774a4dd52dead69dfa63fa822270c21b3286c735897fd363b8e7b8,스프라이트
+fce_61354672f62f6f693ef93aa6a17a17f74205fe9eb6157b2ead1f50f942b290bf,[낚시 요리] 손님 거절 표시 실패: {0}
+fce_bb6b4dc3fa023c92802a3a8a34a8ee4d438d2cf80705925e8846f2d5fe40cdd3,카운터의 스타터 키트 전체 수령
+fce_1296aa4f92ae3f6a10d69c5836a11bafe3e1f86f88abeee698048379a2b31510,[낚시 요리] 요리책 페이지 넘기기 실패: {0}
+fce_3ba585082824f5fc4401f8cc0ee570872ea6b9d8798200197c961e41148c6de7,숯불 생선 꼬치
+fce_e95bcf907f2a02ca2c8dbc48eb7d56c7b09f1079aad79966ce383bf3dbc779ec,들고 사용하세요. 좌우로 페이지를 넘기고 위아래로 구역을 변경합니다.
+fce_58df87f9fbec01bb3991a0583627bf69c8e87dcf04c7cfec4da71854ad7084ac,황금빛 생선살과 발광베리가 눈길을 끄는 요리를 만듭니다. 새콤달콤한 맛이 요리를 산뜻하게 해 줍니다.
+fce_34eb8c8a2a45d75b52cae48af3430841cd1015826c8e4f72b33234ecda1670b4,보랏빛 광채 생선살
+fce_52daa71ebc31058156b21dc21c01ed18eb4e9a723749259cacd1558afe32dfea,목차
+fce_5f88e2e2b122a49d626bc10e4462d73b391eff08948a5b33aad6fda84ae2081e,냄비 + 강불
+fce_518b2ba6756c37c976e1df5f5f640ab5ddfe6e459a4d9e664671f62ef98f7244,[낚시 요리] 내장된 조리대 스프라이트 로드: {0}×{1}
+fce_2e80c722038e927f9d89f2c608ed54600d1d427dec69d7d5297c196a4c33ea7c,[{0}가지 요리]\n\n
+fce_7f83a1f645d48e8cf3c4f8b3528fc4e654a22a696ef516e81c85f077c8fabcfc,제가 부탁한 매운맛이 아니네요.
+fce_183847d7f599d952ae059a77043ac7f0d7d006a35f9023f23ff74b5134335d5b,발견할 요리가 더 남아 있음
+fce_a7bcc81b4ffabcb0c4d95266dc96af9ee96240776ac993c22ff4661e6d67e0e8,별복어
+fce_fe5b53592d6936c6b0ef82e907f6d538e810e940bb7448b25ceb4c3b7620e732,"재료, 양념, 조리 도구와 화력을 이용해 요리하세요. 일치하는 조리법이 없으면 끔찍한 요리가 만들어집니다."
+fce_84a7221b4a298c5a2b9f318575c14083389a5691a7c158762bf1446f99b490d0,"두 요리 모두, "
+fce_ab60ee95f003229665c3946d0e59585e3e2f44cc4b6a94b255c03a8d44d00fe9,[낚시 요리] 설명서 태그 기록 실패: {0}
+fce_ae262ee62ad958ffa4de3b23b00bede8f37c6fac66dbb17798052f76496388f9,불을 적당히 유지하세요
+fce_67447f7ccdfc0d31ecb60de2a19d8e5669a658495babc6e648cf214dbf6c0b23,기타 등록
+fce_19beffeb73d09f56fc1b35fff310472313ef534a714fbb801ec4f1f1f6da2738,우주 로켓어
+fce_71d6ce2efa1b393a575b962f42cbbacadbb9f7abc2b2b2e242a1811ba44cd070,준비: {0}\n양념: {1}
+fce_e97212eb1011fc2d0c2c0ce1d0e1a788febbbfcf981ccb621854d7c9eae643f6,신선한 생선을 완벽하게 익혔네요. 정말 만족스러워요.
+fce_ce0beac1af059db8fd95f8e0f8e0459af6ca04cc34274c69f56ee4d84e9066c9,이 환상적인 생선을 썰어 치즈와 설탕을 곁들여 접시에 담으세요.
+fce_104ad617ac18c12a5cb31d22f54a48ab904125e50328c2239aaf948a8a995db6,소금에 절인 생선 숯불구이
+fce_891cecb1661e988914c8e3e24646906499fbb84c5ed5b9fbea98ccb98269079f,시작 키트 결제가 완료되지 않았습니다
+fce_3aad67c2a29950c154a8cd87b70ecbed0de992e3b49e7177468fb0dc7e1a7f16,[낚시 요리] 도착한 손님 ID 읽기 실패: {0}
+fce_0a10483653471cbad911f5822ace13a0f98b1974bc03b9357852b369985b488a,타오르는 고추를 생선에 문지른 뒤 숯불에 구워 불맛을 내세요.
+fce_5d1b6f89d6c043c10ff856d400e1fedd592f9bc8806eda6eb3f2a2d41c5e4551,[낚시 요리] 페이지 이동 버튼 생성 실패: {0}
+fce_8a2fd55b011821628517857cc369fef90d4bfd103a18f3b48e3fe5904e094312,배터리
+fce_a416b96ce1f3dea3dfd88fd8f13bfd303066c459d45f56a256e88683ccdb9db7,회
+fce_556e1dd66d4520ea1258652c6502b84070449f0b05d7e2d57d612c5046005d47,[낚시 요리] 조리 도구 스프라이트 로드 실패: {0}: {1}
+fce_5c3d0d214526c073971b8673f8d6d9e7c0bf8e96e2def3576a0ac61eee0109ff,기름에 절인 생선
+fce_2bb042f9fea76377baf47aa8dfd038f573f4775758b2f64ba6849d9ad52c5447,알 수 없는 재료
+fce_51c52d21e783c9ea53712243713b71c705f63fa193516c33d5563c3ce481618d,[낚시 요리] 완성된 요리 출력 제거 실패: {0}
+fce_f2e117cafaa2a33072feb4d209a7883c78e778a5a517d199457fd49ee6a0c72c,일반 향신료
+fce_0a50cfd4f5e05860fe3b670dd432f149285cd7f8b7d668c04ec8efb3c7b90027,황금빛 바삭 생선 필레\n황금빛 바삭한 튀김옷 안에는 놀랍도록 부드러운 생선살이 들어 있습니다.
+fce_19a810faba0714decc2eeb15b8e7b8b103ad570fe44dce26ea9efb63d12604e3,유리물고기: 투명하지만 의외로 살이 연합니다. 회나 찜을 시도해 보세요. 현재 이 생선을 선호하는 조리법은 없습니다.\n무지개물고기: 칼을 대기 아까울 만큼 아름답습니다. 회나 찜을 시도해 보세요. 현재 이 생선을 선호하는 조리법은 없습니다.\n전기뱀장어: 살이 단단하고 쫄깃해 푹 끓이거나 필레로 떠서 팬에 굽기 좋습니다.\n붉은꼬리물고기: 아름다운 꼬리와 두툼하고 탄력 있는 살을 지녔습니다. 찌거나 필레로 떠서 팬에 굽기 좋습니다.\n푸른수정어: 차가운 물에 사는 생선으로 수정처럼 섬세하게 씹힙니다. 필레로 떠서 회로 드세요.\n황금어: 희귀하고 손질이 거의 필요 없습니다. 필레로 떠서 회로 드세요.
+fce_5a327d280678a6f24f60a36e2905c15b7daa4b319a8088315e9703baa901a362,[낚시 요리] 종이 패널이 없어 이동 버튼을 만들지 못했습니다. 화살표 키는 계속 사용할 수 있습니다.
+fce_44f578419815aebbe41aa986c8b2a8185fc623ffef171661b81995ba638850ff,모드에 요리 소개 리소스 미포함
+fce_a09d6582b682ba62b4193fb7accc92be79d822fdc0fa58342724543eac4e8891,작은 황조기를 끓는 물에 데치세요. 맑은 국물이 신선한 맛을 살려 줍니다.
+fce_db774f5a87d3e1df361f16886e9af9282bf8df31abbe1fa05d02453f68a3a37c,[낚시 요리] 요리 아이템 태그 기록 실패: {0}
+fce_49d7d4a96c218a3b1c09531acb701312e92dacbd6f2ebd802f4482916a3a6ad3,[낚시 요리] 기본 스프라이트 등록 실패: {0}
+fce_32cbfac8af26f189df341b965afc954eb89aeb7cbbd3a90ba309eb77043b6939,비어 있는 요리책 행: {0}
+fce_ffa90f90ce764cfcf3d35f8658926cf4939e95eafba9f24339462bb659a1fcd0,악몽 생선 필레
+fce_9d1779bf22eeaf6fda4773e9282d7e3f93eae0f1220400797a442aeb00498c81,귀한 날개막. 적은 양의 부드러운 살은 찜 요리에 알맞습니다.
+fce_08a73e9955d36edb1cb196f04c5311192b3ecb908deede826c0185b85911c844,가벼운 양
+fce_3fff209575c5c5ce8d85baca8882083432ca339ae964791b622677bac3735926,정어리
+fce_90d6cf574d8b210776678065cee180328fc550c025e604cb9974290fee78a7c1,[낚시 요리] 사용된 재료 제거 실패: {0}: {1}
+fce_fdd046391f4d3a5629249bf09ae0602b5128d757fa68ea10a082140c831a9c58,[낚시 요리] 요리 스프라이트 로드 실패: {0}
+fce_c662bb9478eefcdeeab72324cb6709b0103ccf2bbb9802418e156022571400b6,[낚시 요리] 이전 인벤토리 복구 실패: {0}
+fce_03c68bf515b28e11713f265289e35fa71f3af27dcf79fbf31321acd0bc16ad6e,요리가 등록되지 않았습니다. 재료는 소모되지 않았습니다.
+fce_ff8b90ddecc9d6a4d3efae760bb5b37a79032c923c93a6b619cf414328ce65d7,"[낚시 요리] 입문용 도구 지급 완료: 자격증, 설명서, 조리대, 냄비, 프라이팬, 그릴."
+fce_aca64388ea9b981cead7236989242a7f9e26499ad1f97080fd837ef4c1e1c800,찐 생선\n부드럽게 찐 큰 황조기. 간장은 풍미를 살짝 끌어올려 생선 본연의 신선함을 그대로 남깁니다.
+fce_0a6b1c07554751209453cdbddd742691f5c210eaade92cf5a572bf6652ea76fb,저염
+fce_85b7d370c062a82410a94b566cf825ec9fc4e88c847d87278c24e6b8d74e087e,일반 소금
+fce_37a4e3c4e1c027501b63c338f6b0eec223a628ae651de4209edd4afd02b72a8d,발광열매 생선찜
+fce_2037ad97f626da9f8d14eae583b75a0d89128d3cb08218bd37d38d075a0d055f,조리와 식감 개선 필요
+fce_043bb17af8768bc5df20877b9c955ad6603303ee8a3007fa4d376246e1b14809,800 크레딧 지불
+fce_d94a8222b1941b5b6e2209fc49a1b8f1e6a78611c56dee1c8b0f0075c0c52c17,까다로운 손님
+fce_8ae3edfb8f511239824986b3eab2cb355d305179600dd59ce43b3fcb70aaa2e6,{0} 방식으로 조리해 주세요
+fce_c244fb9110aaca4cf62f61392daad3b877919c10f6caf351a4213e8ca9832163,간은 약하게 해 주세요
+fce_a1ae7d1d225390da21f889da88f124605750f087b7842e0553aaf98701eef3d3,"실례합니다, "
+fce_61cd6afbef4b85851c7abaa51385da8a89b8557374b1b1b527b29378a7c247f9,대기 보관함 (요리에 사용되지 않음)
+fce_d239d0da049e5eeb5e8604893266f859a13db2ce797811bd643c949e0083180b,[낚시 요리] 양념 스프라이트 로드 실패: {0}: {1}
+fce_9670eb2d363678ce234e5098612edb9c3f741a25a067a2d901d63395fe81b489,[낚시 요리] 협회 대표 일정 등록 실패: {0}
+fce_5890f4c2a409e1a138d1f46649274e5b07296fc353cf47cc7a83aad192340f85,냄비 + 약불
+fce_d3b987d3cbd0981fddc03d7e3aea517ac7b2f9ebed25e8fc23dd24c7ae88878e,베리빛 회
+fce_a7575680b04a114ef474f4879d3d688f5686239387d85805d46eeb528cd4b539,조리 도구와 불 세기
+fce_1f9ae39b583a1f324b72fda7073f859b4afe8903fd63108696aa17b0b2fba0ae,아주 맵게 해 주세요
+fce_5650f02a345a88e34acd7bd58a4a6d6a65b0785ac1757aee46c57ff1c79fe019,결과 미리 보기
+fce_70020bff050784c1a2de43a9cc2943f87784d9de14189a286ba673cf2e387c60,값비싼 생선을 골라 주세요
+fce_6224dfc89944bb6318c92c94d55e7f11ac2f15ecd36cad014841e5f9e406067b,소금을 적당량 사용하세요
+fce_b5606d64b5fda0631f0dc45b601250fbb0b936aa0afd13ca0821f9d599640a58,[낚시 요리] 주문 손님 대기열 확인 실패: {0}
+fce_76cf9229784ad3603bce49428f5cdf37bdf917e1b3d2bb5b45e97283a16c6568,프라이팬 + 중불
+fce_8688ba61c93418841230f2787eb44b373a9a611733f5ac565b89e3e8e215f671,맑은 생선 스튜
+fce_dc9cde34b2d6781be4e251ce230ba412c56ea1ad48d4889ed1ad03a7c42574e8,별바라기 생선 전골
+fce_e447f41c2dfb2068452fd32169a5c82bbea0db398751a8cbcc91a66db4ee05b8,말린 화산어
+fce_e8a07c3299cb19ab1499611d902041bae084b6f76d0650b5ead029fe49347fef,"죄송하지만, 솔직히 이걸 맛있다고 하긴 어렵네요."
+fce_8b2b945f2716e2c2c3f4ced17911c47067b1f8847b5a19df773620997a3d38c3,[낚시 요리] 요리 소개 읽기 실패: {0}
+fce_82d996885a7f1da518e46150e24f9d6367d85d00aa0ea6b3edbb0e37b6e17457,[낚시 요리] 요리 소개가 {0}/{1}개 레시피에 적용되었습니다.
+fce_76554d72b149e41d2b524f249513eb5f8449b1cdb2c760d0d69cddef2da82667,가장 자신 있는 걸로 만들어 줘
+fce_3558e2750e0aa8465c4e0d2f24f19f85f117698c14d252cc45d90c12702bc001,떨어진 꽃잎
+fce_6452d6d4fc3f01793bb4f721c1a70cdaeb8a3c1a97c9c05d2c6be28a3bd55403,"발광열매, 설탕"
+fce_e82454556a5e29b9c16bf0a387867485607df6d46af3fdc22a2852a11ed915f0,물고기 특성
+fce_06e8b31d0b234737e06fee79e560d92a0c06d484bfb74ab084808bb122e93dc3,계산대 위의 시작 키트가 완전하지 않습니다. 다음 주에 다시 시도해 주세요.
+fce_2ea6d16b369325975534f420e4c7e4c75f455b955126e0ebd1519d31f73a1292,[낚시 요리] 조리대 등록 실패: {0}
+fce_39a6e6667cfa348d31bb6d52e64b2a97ecde7969ef11f0fd9406276fb40a52a8,크레딧이 부족해요. 다음에 다시 올게요.
+fce_6535d2356ec7e92d6d4da9fd0e258213bdb5555d1ae6e037eea77cd76e7183a6,조리 도구
+fce_13c5c248fbdcff4db5f9ee004ba41c10f0e8bd2fc519d092cbf2b106fb1521ef,복제된 재료 및 조리 도구 태그
+fce_2408e874a81246b15c38400a7ff93fae418ed631f90c876ab4887b672a12c5ed,포칭
+fce_bbedcc497b53e13f874b5cb9d8023af05bd388eebe0d10f4127a1005687b0d8c,황금 물고기 필레
+fce_8963d7275cfb746481194251681665b89543d9a7eb6e56d308e8f4a88c1a4137,하지만 제가 주문한 요리는 아닌 것 같네요.
+fce_ba8342511ca315093eb9849164d0b9337e98c6a4539a5b3db7963617e299b4ea,낚시 요리 확장
+fce_ba8c199aaefedd5c374f1cf5dcda628a5c33ce472817dc4abfa75bd140c5ee8d,[낚시 요리] 중국어 재료 목록을 읽지 못했습니다: {0}
+fce_8dd48e5cc746e89450c48d39286d022bd09ec6baff18cf1f9627c0502a7a5f85,"[낚시 요리] 패치 건너뜀: {0} → {1}; 대상 메서드 없음; Harmony ID={2}, 우선순위={3}(기본값)"
+fce_f8e062dc4547b3370ff0f0ab520a6503c40464e15170de7d14318bb59ad8b5b4,깊은 감사
+fce_f67cf213c5029fa220b0468859bacf454875f5d31ee292d66b2ab23095571d1a,{0}과(와) {1}을(를) 각각 1인분씩 주세요
+fce_8b2d7273f969cceac543628a9513697a0dd40ea3d593db67cfabb91fc22611a1,차가운 수정 결정체; 회에 적합
+fce_034d3a83ca2e58267ec288147cc4c687054b6162682c799f1109ba1db28c7d28,[낚시 요리] 조리대 스프라이트 로드 실패: {0}
+fce_3d7114281f5b59d9a7ab82c23fb0d9411eac84fa3b69aa9426edfad89098dda8, 그리고 
+fce_8826bb46423fa31e8220d9af23c05de29bee1f075e8770b8b0dafda6bfc7e344,화산 물고기 필레
+fce_8f3a1a6bcdba1b17b0165477774df1f3946d09c565dd6b510d3e9004a1e0c000,[낚시 요리] 아이템 관리자 목록 기록 실패: {0}
+fce_c7d8d20060554db31b21346ad666536aa3c7bbb21e20b2edb55597c526faf4fc,황금 물고기
+fce_80104c78e5ece9f251d6b13d15e405b8430836c0b94bbf6196c102372cddd592,매운맛은 빼 주세요
+fce_b78b94f18c63bc0f2b4ec558d927d5f57981c6809bb1c3fab89a468e5ffd1cb2,끔찍한 맛
+fce_cff1526626d49cd2a10170f9ca7c83098afaf62f21709104007f8c3cf76385ba,"탱글하고 탄력 있는 전기뱀장어 필레에 뜨거운 치즈를 얹었습니다. 향이 확 퍼지고, 진한 맛은 마지막 한입쯤 부담스러울 수도 있습니다."
+fce_35e4156e90696ef53d924a603b1b4e382d84a53e64c50ed9ac021a148b30c70e,미등록 재료
+fce_56a3a0c40cd28779b065ebd4eec05046464b9b2b384e25cdfabacd4687736672,대게의 대미
+fce_fade7826ae89399fcd4f889baa0ac574fea66ee87e7d74d0e77f0ec385b5ac74,흠… 원하던 것보다 조금 모자라네.
+fce_bf2d2d943f0c5693868cbb6b38c35dfb9ef9d0618a78dde55533120736006d0d,수정회
+fce_7aadf39faaf5353d18c7da10b1f597d71317a7429c5915d1a8388ffd1e855d03,[낚시 요리] 요리 설명서 페이지 화살표 연결 완료; ↑/↓로 항목을 바꿉니다.
+fce_4fc49ee939ce1d847ebf91cf97c208102b90290085e91d9c4a07b3e634ec7472,매콤 생선 꼬치
+fce_f861a1a7a71e2271f7478c46c3a7b041c5aaebcd024124c5cd5e1e891d92a69c,"발광열매를 부드러워질 때까지 찐 뒤, 설탕으로 새콤한 맛을 조절해 찐 생선 위에 얹으세요."
+fce_3afe1c5fbbcfbbb34c371ae78e8b03234d6fd9a41e70f416119f43582549af4e,두툼한 살 · 조림이나 구이에 적합
+fce_c922e6b29e6e655db4af51662ad9855c27e08db70928b243b1477841e72446b8,회용 신선한 통생선 또는 필레
+fce_98b434db0a1e80b2ecba0ba8e580f298bf58dd3c157d183cb338c30271fe84e4,"생고기를 요리술에 잠시 재운 뒤 팬에 굽고, 갤럭시 블렌드와 진간장을 입히세요."
+fce_9858c79996c1dc85db96a4e00b17eb0aa67c344a7749f843c6b576cb5cde9e09,[낚시 요리] 디렉터리 패치 제거 실패: {0}
+fce_30c05cb09c852e76da95356cbbf22aef52ed38f3895fc0c1567b9444b75f3bee,"필레를 요리술에 넣고 걸쭉한 페이스트가 될 때까지 졸인 다음, 치즈와 섞어 작은 디저트를 만드세요."
+fce_1aaf175a26ffd6b43ef884d20e721e35ec13731724ce75a3a60c46ff2f445b69,숯불 위에서 지글거리는 생선 꼬치에서는 기름이 뚝뚝 떨어집니다. 신선하고 매콤한 한입에 자꾸 손이 갑니다.
+fce_23475d24b37ab926b79825f0d6f856a4b804312fa6cdb62bd1497f41da6591e9,이 요리는 우연한 실수로 탄생했습니다. 요리사는 집에 치즈와 생선밖에 없어서 생선 페이스트와 치즈를 섞어 부드럽고 끈적한 작은 디저트를 만들었다고 합니다.
+fce_83d8f4829eaa858e9475555750ff23b636a66771f27f0beb1138c0ab7f6fa0df,결과
+fce_b90fb49c6db1b7d63793fc471f186af9c2f8ea2e49cffe03e5a5987bb5859ad8,요리 설명서
+fce_455e82a3cf2fbcc54946dcd0129b4e6176c90d2e7ab913a2449ecf84a899751c,페라이트 해파리
+fce_670fcd56d68cca2df22b6c999668409139dc772160b0ac69d13c386b7f73b0c6,[낚시 요리] 조미 상태 복원 실패: {0}
+fce_422651a9200c70e9808c66ce6065457cc8ff24e835e05da497f21a18df0eaabc,고객 거래
+fce_a33dc31060a3a792884f6949db495b7707812c8f69b2fd91458929ec50e06425,평범한 재료를 내게 떠넘기지 마
+fce_d14240326f745318a8f72bc4dafbb1536e5278645e9097edad2a4627732b06cc,뭔가 맞지 않는 것 같아요. 주재료를 바꾸면 더 나을지도 모릅니다.
+fce_0ce24218fc607505420403f0c1118289c2b607e8678c293dfd72e84a2e489eee,뉴트리프루트 생선탕
+fce_d62cdcb9c63c7b3023d805691e2b7d2b9ae184658ada951c2311882076f8078e,말린 란의 악몽
+fce_d1553e290b2be56231b2bbb7086d8d46fddf18a21e18760eab768d669b3bf8c5,시작 키트 아이템 전달 실패: {0}
+fce_9448ba88200ada0969ee550a81e709c283ff01ee93e39166a5a20aae25e72442,진간장
+fce_6705c54a5a3efa57f9502a7937e09155ac04bb03491a654901db6ec7fe10d6da,[낚시 요리] 고객 답변 표시 실패: {0}
+fce_60278e0604d83ba1a614cebab9a5ed749380d94f96c8374ba5465d8408a170f0,꿈의 항해
+fce_eb99ea035f1db8d8057dc265589fd7c3732ef679297e59163e28ac899bdd91f6,요리 품질이 너무 낮음
+fce_7307351868c9c694112668ec8ae901f4ce5e92830d02446037390c8d62eb524a,식당 손님
+fce_df74e860b2b02ef3414fdc79521ff83cb08fe98cb55b228d0e4e58b269960050,금붕어
+fce_3ed9363fa1eab6222d0a73e02f1470c70c815b52690f83603fa55a294334ee15,[낚시 요리] {0}
+fce_57319d76c334fff53096c50c3ea10f0c0b70bc4f9d0d8eb18f32a622ce1cb3e7,갓 조리한 생선 요리
+fce_93d1b7eb01cd1b81352f76da76739b3d5cafed3c9e3bb4457e4aca1aeac2da1c,요리책에 요리가 {0}개 있지만 레시피 정의는 {1}개입니다.
+fce_38c967bbffdc4ce6fe89212bc2d72c554ccdbf3b18006f055f6c8e809d026a5e,주재료: {0}\n특성: {1}\n조리법: {2}\n풍미: {3}\n분량: {4}\n점수: {5}\n재료 가치: {6}
+fce_8fa7e9b856080b6a4c0b862f90a40cfebb07a10b82c0184b837488b52783f82a,고객 주문
+fce_7be740d49e63a40b46fd9590fbf24dd2c26b30f7a7bbd911624d53bc16a4a460,매운 절임 생선은 이미 양념되어 있습니다. 꼬치에 꿰어 가장자리가 살짝 탈 때까지 숯불에 구우세요.
+fce_345687e4d18bd27b1e50749c5d4e031f649802efb21ad4e73264463f574a7e9e,내열성이 있어 구이나 튀김에 좋다
+fce_c69cd2c71f2e9a0eb22f900ade85db55971c6f30879d5488aa2053a71fac7e56,대식가
+fce_9721499083cd187b607eb11ddf6fe2b20dbfb43be600d0f5fc7f604960b79d8b,사용하려면 조리대의 왼쪽 조리 도구 칸에 넣으세요.
+fce_52041f5d3dd6d709046a7c0e04e03b16c1f3adb3655441d4ce3e613f68677a07,고객 방문
+fce_6271763e9faf84ff53abd7d5fb501b833c73b3319318e78ad936d0cf9fa45b43,"간장, 백식초"
+fce_2415e6271506b4ccf3882e7f024b3fe63404a964a253684ce850e968eef45402,"생선 스테이크를 팬에 굽고, 뜨거울 때 치즈를 얹어 진하게 녹여 입히세요."
+fce_e67b09eb4ba60d2646a8adab2b682ffbd3317502ad6182b87a05faf535cb817c,생선 부위
+fce_ac791b93f2e8fded0fc6a3c6f7d918e15f2f40f0068a69072f16dc64cd9ab55a,황금빛 바삭한 겉면을 가르면 속은 여전히 놀랄 만큼 부드러운 생선살이 드러납니다.
+fce_38ac5a8ed21d26aa798700878289eee76d82c3780a926da3548bcb94da96d3d3,[낚시 요리] 요리책 읽기 태그 초기화 실패: {0}
+fce_b18ab75ddc414244c9a002f44c3e1c96f62081662c2b0f2204c1756e9a3b8216,발광열매를 으깨 퓌레로 만들고 백식초와 설탕을 조금 섞어 생선과 함께 찌세요.
+fce_2b7cfdf7094901f9d4ce20fdb8ffd2c15265da544a5afd46b6ed4ba74b783d76,[낚시 요리] 페이지 넘김 실패: {0}
+fce_c70a811f81f77afbd124ba568c914a32e8efadf521e14b5d4cd92332bfe51ff3,요리를 만들지 못했습니다. 재료는 소모되지 않았습니다.
+fce_0741cfe2d20c2f826fe11a840bd1dbc18142209a604727c4590e94fa068bbaaf,센 불
+fce_57beb958bc19d11a4797d68f2257b59091e461a683ee7b72553cd13f75770657,약한 불
+fce_28110fa6c8dad805f9f090e499d718d292028b45542ab1ddff3c05124e588de6,"[낚시 요리] 버튼 {0}이 응답하지 않을 수 있습니다: 상호작용 가능={1}, 그래픽={2}"
+fce_c0e385635738605f761928f75a53be0843fedebd1aea481e11d04c0d8646e2a0,읽기 전에 요리사 요리책을 구매하세요.
+fce_e976c914d4fc0b6243c8236bb2ba94fd33a448b7527428a893e266c4f77f97ba,양이 좀 더 많았으면 좋겠어요.
+fce_ef4576633514849ffaf200e2d4b7c64a8b196991bcbc875c4dfbbfda09cffded,재료 가치가 충분하지 않음
+fce_f240e445f97c12f9ad43b9c6517affff7a5da19b2abb104b37008a2ddb167927,로푸린
+fce_53f619da892307d23aa0f77dbda5da58d555406d78f0a06b6530e0513dcbfdee,"[낚시 요리] 패치 성공: {0} → {1}; Harmony ID={2}, 우선순위={3}(기본값)"
+fce_1d65d6dc8435d9afece060170667cf090d2d9777886fd9ffd02fd82c41ba2de8,[낚시 요리] 입문 세트 결제 환불 실패: {0}
+fce_434e87f04523bd69313b34e540345473f098cceebd608744ab0dff5f19d34d4e,고객 일정
+fce_5da304885f206428e2ce37a88f5e2697c0307155a6a372129ddaccbb2af0f808,매콤하게 해 주세요
+fce_8b082b77674e8a8ddf8cafcf6117c633053bc319306bd68495b66ef1a20b407f,내장 요리책이 없습니다
+fce_211f56843279c27290c25d331cccc8eb373f070a101b3923ac653ba7aef814bc,담백하고 촉촉해 살짝 데치거나 쪄 먹기 좋음
+fce_697a8a2840f5ed893a884bd88b2032417913c7c0e5586c5cd12ae99688ea83e3,배달 구역\n주문 요리를 놓는 곳
+fce_85fe28aac3c99c5d96567c1279782de564bf3e7e7c3d2d79087dabe48629427e,정화 물고기
+fce_0bbc8c5af59fdc4f0a4262812cf1d2790fe1c2a6fa8590f5c1f795443a8a5081,"크레딧이 부족합니다. 1,000크레딧이 필요합니다."
+fce_458c70b58211025d66a558dadf9e1b80131cedc80c0043875ae1e241d7f1ee64,"1,000크레딧을 지불했습니다. 확인을 눌러 조리 시작 패키지를 받으세요."
+fce_d628973f911e5ea552dd1c8ee1f1e962158a18c72ecc5d78f7c8d19d7345e384,조리 등록에 실패했습니다. 다시 시도하고 문제가 지속되면 로그를 보관해 주세요.
+fce_82fc1a3641a744874f66205fd7a0cb75badaa9c0e33bb9a7b8fd4ef167bbae49,요리가 잠금 해제되었습니다. 들어가지 못한 선물은 보관 중입니다. 공간을 확보하고 윌리에게 다시 연락해 수령하세요.
+fce_628ab0baaffcd84ea3f0a90078d6f467488cfb4440b8b1c44b6c1b0a620f11f2,조리 시작 패키지를 수령했습니다. 요리업 허가증을 전시해 다음 날부터 손님을 맞이하세요.
+fce_b2dcb6623556354f7bf7e4d20d0858be8b96d8ad955e934ef19add8f9cfbef67,수령하지 않은 요리 선물이 남아 있습니다. 윌리에게 다시 연락해 받으세요.
+fce_47b4e25a4b4e6a48e588967aaa307a3aa27dd0670396492bf5b3ea248d182872,작은 황조기 필레
+fce_3acfcde8ecc44145a87b9c1d038c1d4889e5e4f806cb3903ea779cb14a0f4e0a,정어리 필레
+fce_e3f05405051b5634e7efefea4ddde61ffb104e57b3b132bb319249b929e13a35,유리 물고기 필레
+fce_ddc54510519df06855305cee3d06ce47bd3d61ce8c1d266e6302ed9cd335424b,{0} (건조)
+fce_4ddca1e30282a43a3c0e6f10bcdb3cd07314f474a83cb36dc52ea95daceacebf,빛물고기
+fce_6d9edf50c374b1821262d221aa4f39426be8b7e1fca86defa18e63bcfc30814e,빛물고기 살
+fce_af62b58c3aac86b3ee89fffedc9c0b03b0064d52361eade3f41f0640f142cc31,정화 물고기 살
+fce_0c30bc53490b5e28637000eb1edc51541688963b07f053d84bcb01d43a0aad10,"가공 치즈, 요리술"
+fce_a54010699d20e44eb7a35cb88343f24561f0c203fb9030faa2b53b86366388ed,"가공 치즈, 설탕"
+fce_b4a0f77d657d3022b4652b15d6e9dd3f35c9046c741211f17c1162f675d8ffbc,큰 황조기 살
+fce_3ac236fe81f512c09882c3f41f81c7c12514aab4ca534125fdb67ed70e49e9eb,우주 로켓 물고기 살
+fce_bce2b1a4e19f12cedf65b14f837b3e10b1d5d0fcfd10e52a4369d2dcb8cde85b,참조기 살
+fce_72615915a938c4f8ab0375b84a75bb9db9c1fd52e8dd70e8e76e01f821e51fb4,니오룬 살
+fce_b1299cff27914c0c1be73604d33f91eedd5c397aacd30dacd9f70fc6997f98bc,무지개 물고기
+fce_383c6b1cd8551a2dca037ed16fe1450b45ec0ec4e8e730edc12aaed9089df878,무지개 물고기 살
+fce_ae3ed0f23f5890eb0f431a9ecaf03e3a371f395ac752cef35ff3de6636e051dd,란의 악몽 살
+fce_b5d2ab8c544665d48f42941a53223ff129acb2f2e95d0fcd00598a39a2d4fcff,"조리대에는 통생선, 생선살, 말린 생선, 생선 부위 또는 생고기 중 주재료 하나가 필요합니다. 기본 게임의 부재료와 낚시 팩 양념만 사용할 수 있습니다."
+fce_15ec8acf25db10c46dd6f68c764bcde6e360457d2cef41262c584d15977ad014,"요리술, 백식초, 설탕"
+fce_ade19b1c7a04a55a1208b13aeaf0f2a73454f9ced0367f7c01121966e695ed25,"요리술, 간장, 설탕"
+fce_1818ff46c4400b8732b3d1fbdb40118e30a70a3d56be12df1d2e8c5d190e02a6,무지기 살
+fce_67554e995f0320d11945cd99679b1fd722d65098500c1da44d15192ebdcb39b1,별복어 살
+fce_118790eec59f29506712bb376f666e75d3a4c69b5725b49d5b4a372cf7abfa19,정어리 살
+fce_365aa1503ca4d7fb5f8459e752cf7ac9ce1c057b10646d0c06d96d353e644493,화산 물고기 살
+fce_ab02604fa6f600fb3e951a1e9689b5bea0945755ccaf0c015ea64cdb89e796e5,외뿔황새치 살
+fce_f79c09a5c078c5b620bf5690e436ab90659b523fd7f76a43881532a8c178d306,유리 물고기 살
+fce_c5f4da9e408a0e1605782650bd094c47b01a1384b31638e66d0cfa5acb54e2b4,유리 물고기: 투명한 살과 달리 놀라울 만큼 섬세한 맛입니다. 회나 찜을 시도해 보세요. 현재 선호 레시피는 없습니다.\n무지개 물고기: 너무 아름다워 자르기 아까울 정도입니다. 회나 찜을 시도해 보세요. 현재 선호 레시피는 없습니다.\n빛물고기: 단단하고 쫄깃합니다. 조림에 적합하며 살은 팬에 구워도 됩니다.\n붉은꼬리 물고기: 아름답고 큰 꼬리와 두툼하고 탄력 있는 살이 특징입니다. 찜에 적합하며 살은 팬에 구워도 됩니다.\n푸른 수정 물고기: 차가운 물에서 살아 살결이 섬세하고 수정처럼 느껴집니다. 회에 적합합니다.\n황금 물고기: 희귀하고 손질이 거의 필요 없습니다. 살은 회에 적합합니다.
+fce_64de910da8496f675aeb059be612152349df03602e285f9682755464321e89f1,무스펠의 아들 살
+fce_b1f2a188d833ef26a5cdb779a5be9e8d5e7fa437d24c7137d3e94c2d64d648f1,"발광열매, 백식초, 설탕"
+fce_665f08ae4c24bad5b0d0f6c8c1bc5e9f64b1a1ba5bc662be7707ff0df89f384a,로푸린 살
+fce_d74bf288bedd870b0ac6b22af67daaa0cad6b7a717dab7ed2a6dd542f2301ae0,푸른 수정 물고기 살
+fce_64e1ae5018c9f4557f42b19527ebcf216176b0906119986c05bc5e12cf89b55e,붉은꼬리 물고기 살
+fce_7396e65349866c3fd73b2384fe729ba403c07d06092b13006f934c29381d9dbe,금붕어 살
+fce_801b3cb23a63e04cbe3328c9326ee719d86c6735224f883de7404d4d0e70e1ce,"금붕어: 살이 섬세해 찜이 가장 좋습니다.\n별복어: 살이 단단하며 소금에 절인 뒤 튀기기에 적합하지만 회에는 부적합합니다.\n우주 로켓 물고기: 기름에 재운 뒤 튀기기에 적합하며, 통째로 팬에 구워도 됩니다."
+fce_c17e938b7dcb021c38343ae7347104f27c64184eb63a91d22ea87e446c6c9403,페라이트 해파리 살
+fce_11aa0f31bb9af76f15962d0f056d93129658ed47e91d074c8845a980582dc1a9,"생선 기름, 불타는 고추, 요리술"
+fce_94ab2a671cc2fdf744f2bceb160770d1b4621397610386bb466e5ae29808a83f,회용 재료: 말리지 않은 통생선 또는 생선살
+fce_875eba34c482477bf047c734d92c295f88609ee78ea8d0de0c2a9c2f8b76a3fd,생선살
+fce_3b33fe632e011684650a2143a2f85eca5bad3f7e955fb8638949b3f54a016b8b,상어 꼬리 스테이크
+fce_be3d566f248f71bb7e74da485364378a5d242acb960f29143858cd589a1c2bea,상어 살
+fce_77c3de79a6a9afa01670dfcc566a6c0c40962320210bce59bb6a06bfc15add9b,황금어 살코기
+fce_9b69920fe5ca046e40a18a206d19ac5b28f0fc7dc7c8cc40188969ee0e37e491,쥐치
+fce_21b1d19ee1c373b3f1b0f52f7bd8bbc6120ccc50d7734fa990f7a8f51ae88509,쥐치 살
+fce_70ae5cdec51b50df319c832fd0ace9e17c7303d98e69c089ab48665ffa94e100,일반 통조림 생선
+fce_5229133ac8c81193437122357daf770a17ec9b50114b70d71e83204af3b1e0e4,일반 통조림 생선은 가공 생선이므로 회에 사용할 수 없습니다
+fce_5c7bcd79ebee43750857b11c94199413f1b86f7551c98dff037fe2562e5c73d1,"완성된 소금 절임 생선 통조림 한 개 또는 기존 염장 생선을 사용하고, 향이 날 때까지 숯불에 구우세요."
+fce_03f2bd94070481502dc5b4b67a05991ed606bb79fb9262abfbb03d4b878f7edf,완성된 매운 생선 통조림 한 개 또는 기존 매운 절임 생선을 사용해 가장자리가 탈 때까지 숯불에 구우세요.
+fce_720618bd129a185ed1fe576b256898fb51d96e3f79f7002651a2d4f0ebce9328,"완성된 기름 절임 생선 통조림 또는 기존 기름 절임 생선을 바삭하게 튀기고, 백식초로 느끼함을 잡으세요."
+fce_bec8ba690da901d2b6d386c6c2d931501a0b4fb2737de4419d35def2d3ff58a8,"조리대에는 통생선, 생선살, 말린 생선, 완성된 생선 통조림, 생선 부위 또는 생고기 중 하나가 필요합니다. 기본 게임의 부재료와 낚시 팩 양념만 사용할 수 있습니다."
+fce_a67e7fafd70d7ebae888b61de225fc78e767565d831604bbd0379b59187546f4,완성된 소금 절임 생선 통조림이나 기존 염장 생선을 숯불에 올려 깊은 감칠맛과 바삭한 가장자리를 살리세요.
+fce_8ad9dee905d239cb6a0ef14bb30960eeba57f5923687b0049b7c17524ea1c4f1,완성된 매운 생선 통조림이나 기존 매운 절임 생선이 숯불에서 지글거리며 감칠맛과 매콤함을 선사합니다.
+fce_ba95c81f7c26546100a5f2f569d7a80f756664aca2ede7b462fef7bb6d1dd694,"완성된 기름 절임 생선 통조림이나 기존 기름 절임 생선을 바삭하게 튀기고, 백식초로 풍미의 균형을 잡으세요."
+fce_b351c1cb1c93421c2995f93c1315f5963c4b49bf3c91923112aac7f0db3d2d6d,"잠금 해제한 요리만 주문 가능. 조리 방법, 맛, 품질 지정 가능.\n주재료는 같은 종류로 대체 가능. 적합한 생선을 선택하면 대체로 점수가 높아짐. 부적합한 특성은 점수를 낮추지만 조리를 막지는 않음.\n재료는 투입 구역에, 양념은 양념 구역에 넣기. 한 번에 최대 세 종류 사용 가능. 추가 양념도 결과에 영향.\n완성된 소형·대형 소금 절임, 매운맛, 기름 절임 생선 통조림은 통째로 해당하는 숯불 소금구이, 숯불 매운 생선, 기름 튀김 생선 요리에 사용 가능. 기존 가공 생선도 사용 가능. 빈 통조림과 미완성 통조림은 조리 불가.\n\n"
+fce_4ae51de1b5537882a7c6bf60de5cef2bc00b423338fa820ec3d961ee222db458,여분 조리 도구
+fce_6276227e7f8414528051377f7bef3fed402b79a4a3f74de28d045ff1c8658e19,"조리대, 조리 도구, 생선 요리 레시피 26종 및 고객 주문."
+gifts.inventoryFull,인벤토리나 창고에 알맞은 공간이 없습니다. 남은 선물을 받으려면 공간을 확보하세요.
+gifts.factoryUnavailable,선물 아이템을 생성하지 못했습니다. 미수령 선물은 보관됩니다. 나중에 다시 시도하고 로그를 확인하세요.
+gifts.notReady,선물 전달 준비가 되지 않았습니다. 미수령 선물은 보관됩니다. 다시 시도해 주세요.
+gifts.recoveryPending,이전 선물 전달 작업이 아직 복구 중입니다. 미수령 선물은 보관됩니다.
+gifts.pending,미수령 선물이 남아 있습니다. 수령을 선택해 다시 시도하세요. 전달되지 않은 선물은 보관됩니다.
+fce_0890b79b6f8f79498e4e665711c82e5c96fa93824ea01d441875b12a2b1a4245,선택하면 매일 밤 고객 한 명에게 무료로 연락해 다음 날 방문을 예약합니다. 선택을 해제하면 이후 예약이 중단됩니다. 미완료 주문은 날짜가 지나도 남으며 새 예약을 막습니다.
+fce_6b3ad8ad264fa5fde00faa4b8c036a32ad3b7761003176c7d8c0171dd2d00ffd,활성 상태의 요리업 허가증을 전시하세요. 처음 전시한 다음 날부터 예약할 수 있습니다.
+fce_e93f1b900e038b4ca9108b40289c784ed4b8b3cfb6ff69367811512e089001a8,소유한 조리대 필요
+fce_532cac3027c41b4eba94c67817bf943cf6ca7d801f50e6db0edfca1a0485d81c,고객에게 연락
+fce_f2ea11e1a3288a466944ed1976dfd93985c466eb981f714609f53c71e6378afa,내일 방문하도록 밤에 연락하세요. 기존 주문은 완료할 때까지 남습니다.
+fce_a8a3efcf89ad0955927baecaed3c411ff2efa863b61df77d945ea4d9420a5bdd,사업 시작 세트를 수령했습니다. 전시한 허가증이 활성화되면 야간 서비스에서 고객 연락을 선택해 내일 방문을 예약하세요.
+fce_0b0a364ec14394518dcfc639c8aa37558cd6baaeb0962c65a506b0dedb14f230,"요리사 협회 발급 · 활성화해 진열한 뒤 야간 서비스를 통해 손님 예약 접수
+평판: {0}"
+fce_af2c1ca35962ba06046f3b7509d10eb6f811b1da9aa4721655c1a26d7524ed9c,요리사 협회 발급 기념 증서 · 가게 평판 표시용 · 손님 예약 시 전시 불필요\n평판: {0}
+fce_d872d3afe0c25f13a711c7da10fc1b11a58d0d10c354d9887cb2510bf7075c1f,"요리사 협회가 발급한 기념 증서로, 이 가게의 평판을 표시합니다. 손님을 예약할 때 이 증서를 소유하거나 전시할 필요는 없습니다."
+fce_f164c899d183cb202226fe9372b803867184d63aff4860e253c0cb2f488432f5,이 가게의 평판을 기록한 기념품입니다. 소유하거나 전시해도 손님 예약에는 영향을 주지 않습니다.
+fce_468ea993bc598730cd62acb2c56f7667f1ed1be18402cd5f15a67d619cf08fc8,조리 시작 패키지를 수령했습니다. 야간 서비스에서 요리 손님에게 연락을 선택하면 다음 날 방문합니다. 허가증을 전시할 필요는 없습니다.

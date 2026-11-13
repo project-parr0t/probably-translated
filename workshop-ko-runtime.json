@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "inventory_fingerprint": "97ac0117a56ec0502dbeda2d5ca802ebbeebb891358e2ca61459104cd641033c",
+  "scope": "installed_workshop_mod_korean_overlay_r9",
+  "locale": "ko",
+  "base_game_entries": 0,
+  "existing_ko_entries": 0,
+  "installed_patch_covered_entries": 0,
+  "installed_activity_snapshot": {
+    "active": 20,
+    "inactive": 2
+  },
+  "mods": {
+    "ps-fishing-gameplay": {
+      "workshop_item_id": "3829110153",
+      "csv_path": "workshop-overlays/3829110153/Localization/ko.csv",
+      "entry_count": 3423
+    },
+    "Pen_mod_pipette": {
+      "workshop_item_id": "3829409725",
+      "csv_path": "workshop-overlays/3829409725/Localization/ko.csv",
+      "entry_count": 116
+    },
+    "brewing_expansion": {
+      "workshop_item_id": "3829730904",
+      "csv_path": "workshop-overlays/3829730904/Localization/ko.csv",
+      "entry_count": 551
+    },
+    "disaster_day": {
+      "workshop_item_id": "3829946713",
+      "csv_path": "workshop-overlays/3829946713/Localization/ko.csv",
+      "entry_count": 1371
+    },
+    "fishing-cuisine-expansion": {
+      "workshop_item_id": "3830031787",
+      "csv_path": "workshop-overlays/3830031787/Localization/ko.csv",
+      "entry_count": 665
+    },
+    "visual_probe_20261031_three": {
+      "workshop_item_id": "3830798369",
+      "csv_path": "workshop-overlays/3830798369/Localization/ko.csv",
+      "entry_count": 246
+    },
+    "tobacco_expansion": {
+      "workshop_item_id": "3832840208",
+      "csv_path": "workshop-overlays/3832840208/Localization/ko.csv",
+      "entry_count": 428
+    },
+    "ai.emporium": {
+      "workshop_item_id": "3832941698",
+      "csv_path": "workshop-overlays/3832941698/Localization/ko.csv",
+      "entry_count": 653
+    },
+    "gunsmith_expansion": {
+      "workshop_item_id": "3834619049",
+      "csv_path": "workshop-overlays/3834619049/Localization/ko.csv",
+      "entry_count": 468
+    },
+    "traits_probably_fun": {
+      "workshop_item_id": "3834226532",
+      "csv_path": "workshop-overlays/3834226532/Localization/ko.csv",
+      "entry_count": 27
+    }
+  },
+  "entry_count": 7948
+}

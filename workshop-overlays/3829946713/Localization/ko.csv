@@ -1,0 +1,1371 @@
+﻿name_soldier,상층부 병사
+name_youda,유다
+news_shortage_1,"하층부, 심각한 의약품 부족"
+news_shortage_2,의약품 부족
+news_shortage_3,군이 대량의 의료 물자를 징발한 후
+news_weapon_1,무기 수요 증가
+news_weapon_2,최근 하층부에서 소규모 봉기가 일어났다. 사태는 여전히 통제되고 있다
+news_outbreak_1,하층부에서 분노병 사례 보고
+news_outbreak_2,광란병 발병
+news_outbreak_3,통제 불능 사례
+news_quarantine_1,하층부 출입 제한 조치 시행
+news_quarantine_2,경미한 봉쇄
+news_quarantine_3,광란병 사례가 계속 증가함에 따라
+news_quarantine2_1,하층부 재봉쇄
+news_quarantine2_2,경미한 봉쇄
+news_quarantine2_3,광폭증 환자가 다시 늘고 있습니다. 보안국은 하층 구역의 출입 제한을 다시 시행하고 상층과 하층 사이의 순찰을 강화했습니다.
+eleanor_warn_1,저기
+eleanor_warn_2,난 요즘 잘 지내고 있어.
+eleanor_warn_3,그런데 사람을 난폭하게 만드는 이상한 병이 있다는 얘길 들었어...
+eleanor_warn_4,아직은 심각해 보이지 않아.
+eleanor_warn_5,식량을 좀 사고 싶어.
+soldier_buy_1,여기에 쓸 만한 무기와 장비가 있다고 들었다.
+soldier_buy_2,괜한 생각은 마. 요즘 총과 탄약이 더 필요해져서
+soldier_buy_3,여기서 비축해 두려는 것뿐이야.
+soldier_buy_4,돈은 문제없어.
+soldier_warning_1,이봐.
+soldier_warning_2,하층 사람들에게 너무 많이 주지 마. 네 몫도 좀 남겨 둬.
+soldier_warning_3,전할 말은 여기까지입니다. 경계를 늦추지 마십시오.
+eleanor_outbreak_1,보스... 너무 늦어서 미안해.
+eleanor_outbreak_2,전에 말했던 그 병이 점점 심해지고 있어.
+eleanor_outbreak_3,우리 쪽 사람들이 여럿 쓰러졌어
+eleanor_outbreak_4,그러다 깨어나면 눈에 보이는 사람은 닥치는 대로 공격해.
+eleanor_outbreak_5,진료소도 약이 바닥나고 있고
+eleanor_outbreak_6,상층부에서 의료 물자를 사들이고 있다는 소문도 들려.
+eleanor_outbreak_7,약이 필요해. 조금이라도 시간을 벌 수 있는 거라면 뭐든 좋아.
+eleanor_outbreak_8,다만... 지금은 정말 돈이 빠듯해.
+eleanor_outbreak_9,가져가. 좋은 값에 줄게.
+eleanor_outbreak_10,...고마워
+eleanor_outbreak_11,역시 넌 믿을 수 있을 줄 알았어. 이 은혜는 잊지 않을게.
+eleanor_outbreak_12,미안해
+eleanor_outbreak_13,이해해. 널 원망하진 않아.
+soldier_quarantine_1,또 만났군.
+soldier_quarantine_2,이번엔 솔직히 말하지.
+soldier_quarantine_3,명령은 총기를 전부 압수하라는 거다
+soldier_quarantine_4,총은 안 돼
+soldier_quarantine_5,그러면 놈들은 더 이상 맞서 싸울 수단이 없어.
+soldier_quarantine_6,듣자 하니 요즘 하층 구역 사람들과 꽤 가까이 지낸다던데.
+soldier_quarantine_7,네가 가진 의료 물자
+soldier_quarantine_8,또 만났군.
+soldier_quarantine_9,이번에는 단도직입적으로 말하지.
+soldier_quarantine_10,명령은 총기를 모조리 압수하라는 거다
+soldier_quarantine_11,총도 없고
+soldier_quarantine_12,그러면 놈들은 더 이상 맞서 싸울 수단이 없어.
+soldier_quarantine_13,네가 가진 의료 물자
+soldier_quarantine_14,전부 사들이지. 원하는 값을 말해.
+soldier_quarantine_15,좋아.
+soldier_quarantine_16,현명한 선택이야.
+soldier_quarantine_17,미안하지만
+soldier_quarantine_18,...마음대로 해. 후회하지 않길 바라지.
+serpico_1,오랜만이네요.
+serpico_2,잘 지내고 계신 것 같네요.
+serpico_3,저는 이 광폭증을 처리하러 여기까지 내려왔어요.
+serpico_4,솔직히
+serpico_5,상층에서도 꽤 심상치 않아 보이는 사람들을 내려보냈지만
+serpico_6,별로 신경 쓰진 않았어요.
+serpico_7,조심하라고 말해 주러 왔어요.
+serpico_8,그리고... 온 김에 먹을 것도 좀 사려고요.
+georgio_1,"안녕, 친구!"
+georgio_2,"자네의 절친한 친구, 조르지오라네!"
+georgio_3,"조르지오가 수상한 비밀을 하나 들었는데,"
+georgio_4,친구한테는 공짜로 알려 주지!
+georgio_5,윗선에서 개입해서
+georgio_6,내일... 하층을 봉쇄한다더군.
+georgio_7,"미리 쟁여 두게, 친구!"
+eleanor_disappointed_1,사장님... 얘기 들었어요.
+eleanor_disappointed_2,누가 군인들이 사장님 가게에서 약 상자를 실어 나르는 걸 봤대요.
+eleanor_disappointed_3,그 약이 이곳에 남아 있었다면
+eleanor_disappointed_4,진료소에는 알약 한 알도 남지 않아서
+eleanor_disappointed_5,환자들을 묶어 둘 수밖에 없어요.
+eleanor_disappointed_6,사장님은 그들과 다를 줄 알았어요.
+eleanor_disappointed_7,좋아… 약이 조금 남아 있어.
+eleanor_disappointed_8,…고마워.
+eleanor_disappointed_9,이 정도면 몇 사람은 버틸 수 있을 거야.
+eleanor_disappointed_10,아까 한 말… 미안해.
+eleanor_disappointed_11,전에 한 번 도와줬잖아. 나도 장사를 해야 해.
+eleanor_disappointed_12,…알겠어.
+eleanor_disappointed_13,몸조심해.
+soldier_raid_1,팔려는 물건이 꽤 대단하군.
+soldier_raid_2,이제 큰일 났군.
+soldier_raid_3,<i>*흰 의료 상자를 압수한다*</i>
+joe_1,꼬마야
+joe_2,나라도 저건 다루기 힘들겠어.
+joe_3,운이 좋았어요… 그게 최악은 아니었거든요.
+joe_4,다음에는 더 조심하기
+action_hurries_away,<i>*황급히 떠난다*</i>
+name_researcher,수상한 연구원
+researcher_1,안녕하세요… 연구원입니다.
+researcher_2,아래쪽에 유명한 가게가 있다고 들었습니다. 여기가 맞군요.
+researcher_3,아주… 골치 아픈 일이 있습니다.
+researcher_4,위쪽에서 문제가 생겨서
+researcher_5,그럼 안전하게 보관할 수 있도록 당신에게 맡기고 싶어요.
+researcher_6,제가 찾으러 오면
+researcher_7,좋음
+researcher_8,고맙습니다.
+researcher_9,하지만 몰래 팔아버리면
+researcher_10,그러면 우리 둘 다 큰일 날 거예요.
+researcher_11,죄송합니다
+soldier_search_1,또 만났군. 물어볼 게 있어.
+soldier_search_2,최근 방호복을 입은 연구원을 본 적 있나?
+soldier_search_3,위쪽에서 꽤나 ‘중요한’ 걸 훔쳤지.
+soldier_search_4,그를 봤다면
+soldier_search_5,지금 말해. 곤란해지진 않을 거야.
+soldier_search_6,현명한 선택을 하길 바라네.
+soldier_search_7,(상자 건네기)
+soldier_search_8,…이거군.
+soldier_search_9,올바른 선택을 했어.
+soldier_search_10,보상이다. 받아.
+soldier_search_11,그를 봤어.
+soldier_search_12,좋아. 쓸 만한 정보군.
+soldier_search_13,제보 대가다.
+soldier_search_14,다시 보면
+soldier_search_15,눈여겨보겠어.
+soldier_search_16,…좋아.
+soldier_search_17,이 수배 포스터를 가지고 있어.
+soldier_search_18,그를 보면
+researcher_return_1,…또 만났군요.
+researcher_return_2,밖은 상층 군인들로 가득
+researcher_return_3,제가 맡겨 둔 물건은 괜찮나요?
+researcher_return_4,조금 더 맡아 주세요. 곧 찾으러 올게요.
+researcher_return_5,…또 만났네요.
+researcher_return_6,밖을 가득 채운 상층 군인들
+researcher_return_7,잠깐 여기 숨어 있을게요. 곧 떠날게요.
+researcher_arrest_1,잠깐… 여기서 뭐 하는 거야?!
+researcher_arrest_2,찾았다.
+researcher_arrest_3,위쪽에 가서 물건 얘기를 하자.
+eleanor_thanks_1,보스
+eleanor_thanks_2,군인들을 돌려보냈다면서요.
+eleanor_thanks_3,혁명군이 이것을 전해 달라고 했어요.
+eleanor_thanks_4,제가 진 빚은
+soldier_threat_1,또 만났군.
+soldier_threat_2,위쪽 사람들은 알고 있어
+soldier_threat_3,네가 혁명군과 하층 사람들을 도왔다는 걸.
+soldier_threat_4,그 결정을 후회할지도 모르겠군.
+soldier_threat_5,다음번엔
+crime_1,정거장 전체를 위험에 빠뜨리는 금지 물품 소지
+item_white_box_1,흰 의료 상자
+item_white_box_2,노란 방호복을 입은 사람이 건넸다. 다른 상자와는 전혀 다르게 생겼다. 큰일에 휘말릴 것 같은 느낌이다.
+item_wanted_1,수배 포스터
+item_wanted_2,상층 군인이 두고 간 수배 포스터. 그림 속 남자는 노란 방호복을 입고 있다.
+option_section,재난의 날
+option_chinese,중국어 텍스트
+option_chinese_simplified,간체
+option_chinese_traditional,번체
+option_chinese_tooltip,게임 언어가 중국어일 때
+rage_guide_open,또 만났군.
+rage_guide_open_friendly,또 만났군
+rage_guide_1,미리 알려줄 게 있어.
+rage_guide_2,빨간 제복의 보안 요원들이 요즘 영 미덥지 못해.
+rage_guide_3,감염자 몇 명을 놓친 모양이야.
+rage_guide_4,다행히… 아직은 분노병뿐이야.
+rage_guide_5,이 분노병 식별 안내서를 가지고 있어.
+rage_guide_6,분노병 환자는 눈이 붉고 뺨이 상기돼 있으며
+rage_guide_7,공격적으로 말해.
+rage_guide_8,그런 손님이 나타나면
+rage_guide_9,라이트하우스 방역팀이 와서 데려갈 거야.
+rage_guide_good_1,그동안 우리를 꽤 도와줬어.
+rage_guide_good_2,그러니 다른 사람은 받지 못할 걸 줘야겠어.
+rage_guide_good_3,<i>*흰 의료 상자를 내려놓는다*</i>
+rage_guide_good_4,잠겨 있지 않아. 열어 봐.
+rage_guide_good_5,일단은
+rage_guide_good_6,분노병이라면… 적어도 대처할 수 있는 병이야.
+rage_guide_ok_1,그때 도와줘서 고마워.
+rage_guide_ok_2,이건 내 개인적인 선물이야. 받아.
+rage_guide_ok_3,<i>*시냅스 주사기 두 개와 이뮤니백스 하나를 건넨다*</i>
+rage_guide_plain_1,아무튼
+rage_guide_plain_2,<i>*돌아서 떠난다*</i>
+item_rage_guide_1,분노병 식별 안내서
+item_rage_guide_2,상층 군인이 남긴 안내서입니다. 라이트하우스의 문장과 방역 핫라인이 적혀 있습니다.
+guide_seal,라이트하우스
+guide_issuer,라이트하우스 핫라인 11902
+guide_title,분노병 식별 안내서
+guide_sign_eyes,충혈된 눈
+guide_sign_cheeks,상기된 뺨
+guide_sign_rash,붉은 발진
+guide_nonvisual,-비정상적으로 공격적인 말투\n-무례함
+name_hazmat,라이트하우스 대응 요원
+name_operator,라이트하우스 교환원
+name_lower_resident,하층 주민
+hazmat_arrest_1,라이트하우스 방역팀입니다. 검사할 테니 가만히 계세요.
+hazmat_arrest_2,뭐 하는 거야?! 나한테 손대지 마!
+hazmat_arrest_3,저항한다. 전기 충격을 줘.
+hazmat_arrest_4,악
+hazmat_arrest_5,이제부터는 저희가 맡겠습니다.
+hotline_1,라이트하우스 방역 핫라인입니다.
+hotline_2,상황이 어떻습니까?
+hotline_report,분노병일지도 모르는 손님이 있습니다.
+hotline_nobody_1,…계산대에 아무도 없는데요
+hotline_nobody_2,괜한 전화는 삼가 주세요.
+hotline_refuse_1,그 사람은 저희가 담당할 일이 아닙니다.
+hotline_refuse_2,관할 기관에 연락해 주세요.
+hotline_dispatch_1,알겠습니다. 팀이 출동 중입니다.
+hotline_dispatch_2,그 자리에 붙잡아 두세요
+hotline_nevermind,아무것도 아니에요.
+hotline_bye,알겠습니다. 무슨 일이 생기면 연락 주세요.
+rude_1,뭘 쳐다봐? 빨리 해.
+rude_2,시끄러워… 여긴 왜 이렇게 시끄러운 거야…
+rude_3,사기꾼들. 가격 내려!
+rude_4,한마디만 더 하면 이 허름한 가게를 박살 내 버리겠어.
+rude_5,어이
+rude_6,너한테 시간 낭비할 여유 없어
+rude_7,여긴 대체 뭐 이런 곳이야? 제대로 된 약도 없잖아!
+rude_8,잔말
+rude_ask_medicine,약 줘. 약 내놔. 지금 당장.
+lookalike_drunk_1,*딸꾹*... 미안해요.
+lookalike_drunk_2,얼굴이 온통 빨개졌어
+lookalike_drunk_3,진통제 좀 구해 주실 수 있나요? 머리가 너무 아파요.
+lookalike_tired_1,미안해요.
+lookalike_tired_2,집에 아픈 사람 있음
+lookalike_tired_3,도움이 될 만한 약이 있나요? 고마워요.
+slip_title,라이트하우스 방역 안내문
+slip_right,신고해 주셔서 감사합니다.\n크레딧으로 직접 보상할 수 없으니 감사의 뜻으로 이것을 받아 주세요.
+slip_wrong,잘못된 사람을 신고하셨습니다.\n다음에는 잘 살펴보고 올바르게 신고해 주세요.
+item_unknown_blood_1,정체불명의 혈액
+item_unknown_blood_2,봉투는 흔한 푸른 혈액과 아주 비슷해 보인다
+manufacturer_lighthouse,라이트하우스 생물연구센터
+type_controlled,관리 대상
+item_lighthouse_slip_1,라이트하우스 안내문
+item_lighthouse_slip_2,라이트하우스 방역센터에서 보낸 안내문.
+rude_9,내 말을 못 알아듣겠어?
+rude_10,빨리 해. 두 번 말하게 하지 마.
+rude_11,"다들 계속 날 노려보네… 너, 뭘 봐!"
+rude_12,지독한 악취
+rude_13,흥정은 하지 마. 지금 기분이 아주 안 좋거든
+rude_14,머리가 터질 것 같아. 좀 내버려 둬.
+rude_15,…정말 짜증. 모든 게 다 짜증
+rude_16,그 표정은 뭐야? 싸움이라도 하자는 거야?
+rude_17,이런 쓰레기도 정말 파는 거야?
+rude_18,모르는 척하지 마.
+rude_19,셋까지 센다. 넘겨.
+rude_20,쳇 · 또 쓸모없는 녀석
+rude_ask_2,가장 좋은 약을 꺼내 줘.
+rude_ask_3,진통제. 있는 대로 전부.
+rude_ask_4,빨리 약 내놔
+rude_ask_5,"말은 그만해. 약을 파는 거야, 안 파는 거야?"
+name_lighthouse_staff,라이트하우스 직원
+hotline_blocked_1,…이 번호는 이제 네 신고를 받지 않아.
+hotline_blocked_2,허위 신고가 너무 많아. 끊겠다.
+slip_cold,보고 내용은 정확했다.\n해야 할 일을 해냈다.
+slip_station,도와주셔서 감사합니다.\n어젯밤 검역소에서 하신 신고는 모두 정확했습니다. 감사의 뜻으로 이것을 받아 주세요.
+nightlog_rage_wrecked,돌려보낸 아픈 손님이 밤중에 침입해 {0}을(를) 부쉈습니다. 보험 적용 대상이 아닙니다.
+nightlog_rage_nothing,놓아준 분노병 환자가 밤중에 침입했지만 부술 만한 물건을 찾지 못했습니다.
+nightlog_list_separator,", "
+lighthouse_buyer_1,라이트하우스 조달팀입니다. 의료품을 모으고 있습니다. 무엇이 있나요?
+lighthouse_buyer_2,신고해 주셔서 감사합니다. 아래쪽에 약이 필요합니다. 내놓을 수 있는 걸 보여 주세요.
+lighthouse_buyer_3,격리 병동의 약품이 부족합니다. 어떤 약이든 괜찮습니다.
+lighthouse_buyer_4,걱정 마세요. 사람을 데리러 온 게 아닙니다. 약을 사러 왔습니다.
+lighthouse_seller_1,위층에서 남는 물자가 생겼습니다. 협력해 주시니 먼저 고르세요.
+lighthouse_seller_2,연구센터에서 바로 온 좋은 물건입니다. 어디서 왔는지는 묻지 마세요.
+lighthouse_seller_3,라이트하우스는 친구를 챙깁니다. 한번 둘러보세요.
+perk_buyers_name,정기 조달
+perk_buyers_desc,라이트하우스 직원이 정기적으로 의료품을 사러 옵니다.
+perk_buyers_flavor,병동에는 늘 물자가 더 필요하다.
+perk_rich_buyers_name,넉넉한 예산
+perk_rich_buyers_desc,라이트하우스 구매자가 더 큰 예산을 가져옵니다.
+perk_rich_buyers_flavor,위층에서 추가 예산을 승인했다.
+perk_sellers_name,내부 물자
+perk_sellers_desc,라이트하우스 직원이 정기적으로 고급 의료품을 판매하러 옵니다.
+perk_sellers_flavor,연구센터에서 바로 왔어. 묻지 마.
+perk_extra_thanks_name,추가 감사
+perk_extra_thanks_desc,정확한 신고를 하면 더 많은 감사를 받습니다.
+perk_extra_thanks_flavor,라이트하우스는 도움을 준 사람을 기억한다.
+perk_controlled_goods_name,관리 물자 유통
+perk_controlled_goods_desc,라이트하우스 판매자가 관리 물자를 가져올 수 있습니다.
+perk_controlled_goods_flavor,공식적으로는 이 건물 밖으로 나간 적 없다.
+perk_no_thanks_name,냉담한 대응
+perk_no_thanks_desc,정확한 신고에도 더는 보상이 없습니다.
+perk_no_thanks_flavor,해야 할 일을 했을 뿐이야.
+perk_no_reports_name,접수 중단
+perk_no_reports_desc,핫라인은 더 이상 신고를 받지 않습니다.
+perk_no_reports_flavor,허위 신고가 너무 많았기 때문입니다.
+researcher_farewell_1,"…저, 저예요."
+researcher_farewell_2,"죄송해요, 잠깐... 잠깐 숨 좀 돌릴게요."
+researcher_farewell_3,요즘 사방에서 사람들이 절 찾고 있어요.
+researcher_farewell_4,며칠째 잠을 못 잤어요. 밥 먹을 때조차 숨어야 해요.
+researcher_farewell_5,여기 오는 길에 누가 뒤따라오는 것 같았어요… 착각이겠죠.
+researcher_farewell_6,…내가 맡겨 둔 물건 말이에요. 아직 여기 있죠?
+researcher_farewell_7,<i>*흰 의료 상자를 가져간다*</i>
+researcher_farewell_8,다행이야... 정말 다행이야.
+researcher_farewell_9,감사의 표시로 이걸 드릴게요.
+researcher_farewell_10,<i>*무언가를 계산대에 올려놓는다*</i>
+researcher_farewell_11,감염자들을 상대할 때 쓸모가 있을지도 몰라요.
+researcher_farewell_12,하지만 이제 많은 사람이 날 주시하고 있잖아.
+researcher_farewell_13,당분간 몸을 숨길 곳을 찾아야 해요.
+researcher_farewell_14,이걸 맡아 주세요. 잘 숨겨야 해요.
+researcher_farewell_15,<i>*파란 상자를 계산대에 올려놓는다*</i>
+researcher_farewell_16,정말 믿을 수 있는 유일한 사람…
+researcher_farewell_17,라이트하우스나 군인들을 완전히 믿지는 마세요.
+researcher_farewell_18,혁명군도
+researcher_farewell_19,그중 좋은 사람이 몇 명 있더라도 믿을 만하다는 뜻은 아니에요.
+researcher_farewell_20,자신을 믿기
+item_lighthouse_box_1,라이트하우스 2급 표본 상자
+item_lighthouse_box_2,"또 다른 라이트하우스 상자처럼 보이지만, 색과 봉인이 여느 것과 다르다. 틈새로 빛이 새어 나오며, 안에는 무척 특별한 것이 든 듯하다."
+item_lighthouse_med_box_1,라이트하우스 일반 의료 상자
+item_lighthouse_med_box_2,의료품을 보관하고 운반하는 라이트하우스 표준 의료 상자.
+type_unknown,미상
+hazard_lighthouse_2,라이트하우스 2급 위험물
+hazard_lighthouse_3,라이트하우스 3급 위험물
+value_error,"추정 가치: [ERROR], 기본 가치: [ERROR]"
+item_asimov_1,실험용 아시모프
+item_asimov_2,라벨을 보면 분노병 환자용인 듯하지만 아직 실험 단계다. 실제로 효과가 있을지는 알 수 없다.
+georgio_tip_1,"안녕, 친구! 네 절친 조르지오야!"
+georgio_tip_2,하층에서 혁명군 여자 하나가 미친 사람들을 어디로 데려가는지 묻고 다녀.
+georgio_tip_3,그녀가 네 가게에 자주 온다며? 물론 조르지오는 아무 말도 안 했어.
+georgio_tip_4,마침 조르지오에게 작은 소식이 하나 있지…
+georgio_tip_5,친구 가격으로 단돈 300!
+georgio_tip_buy,"좋아, 살게."
+georgio_tip_buy_1,흰옷 입은 사람들이 분노병 환자 일부를 격리 구역으로 옮기는 것 같아.
+georgio_tip_buy_2,그 이상은 조르지오도 몰라.
+georgio_tip_buy_3,친구에게만 주는 가격이라고!
+georgio_tip_no,괜찮아.
+georgio_tip_no_1,문제없어! 친구 사이에 다음 기회도 있잖아!
+eleanor_ch1_open_trust,보스… 또 귀찮게 해서 미안해.
+eleanor_ch1_open_neutral,"보스, 오랜만이야."
+eleanor_ch1_open_distant,…나야.
+eleanor_taken_1,우리 쪽 사람 하나가 며칠 전부터 증상을 보이기 시작했어.
+eleanor_taken_2,"진료소에서 누군가 그 핫라인에 전화했고, 라이트하우스가 와서 그를 데려갔어."
+eleanor_taken_3,그 뒤로 소식이 없어. 어디로 데려갔는지 아무도 몰라.
+eleanor_taken_hotline,…너도 그 번호로 전화했다는 말을 들었어.
+eleanor_taken_4,그가 아직 살아 있는지만 알고 싶어.
+eleanor_taken_tell,그중 일부는 격리 구역으로 옮겨진다고 들었어.
+eleanor_taken_tell_1,격리 구역이라…
+eleanor_taken_tell_2,적어도 아직 살아 있을지도 몰라.
+eleanor_taken_tell_3,"고마워, 보스. 반드시 진상을 알아낼게."
+eleanor_taken_cure,라이트하우스가 아마 치료해 줄 거야.
+eleanor_taken_cure_1,…정말 그렇게 믿어?
+eleanor_taken_dunno,모르겠어. 미안해.
+eleanor_taken_dunno_1,…그래. 그럴 줄 알았어.
+eleanor_hidden_1,또 한 사람이 아프기 시작했어. 이번엔 아무에게도 알리지 않았어.
+eleanor_hidden_2,"우리가 그를 숨겼어. 라이트하우스가 찾지 못하는 한, 적어도 우리 곁에 있어."
+eleanor_hidden_3,"하지만 상태는 점점 더 악화되고 있고, 약도 전혀 없어."
+eleanor_hidden_favour,당신에게 진 빚은 잊지 않았는데… 또 이렇게 부탁하게 됐네요.
+eleanor_hidden_4,"보스, 그가 버티는 데 도움이 될 만한 것이 있나요?"
+eleanor_hidden_asimov,이것을 가져가세요. (아시모프)
+eleanor_hidden_asimov_1,이건... 라이트하우스 거야?
+eleanor_hidden_asimov_2,"어디서 구했어요? ...아니, 묻지 않을게요."
+eleanor_hidden_asimov_3,감사합니다.
+eleanor_hidden_discount,할인해 드리겠습니다.
+eleanor_hidden_discount_1,"...감사합니다, 보스."
+eleanor_hidden_handover,그를 라이트하우스에 넘겨줘야 해.
+eleanor_hidden_handover_1,...그렇게 생각하는구나.
+eleanor_hidden_handover_2,내가 직접 방법을 찾아볼게.
+eleanor_result_a_1,그 주사... 맞고 나서 그는 꼬박 이틀 동안 얌전했어.
+eleanor_result_a_2,"정신이 들었을 때도 계속 사과하면서, 자신이 무슨 일을 했는지 기억나지 않는다고 했어."
+eleanor_result_a_3,"또 아프기 전, 하층에서 흰옷을 입은 사람들이 빛나는 파란 상자를 들고 있는 걸 봤다고도 했어."
+eleanor_result_a_4,"그러다 발작이 다시 시작됐지만, 전처럼 심하지는 않았어."
+eleanor_result_a_5,"...보스, 그걸 더 구해 줄 수 있어?"
+eleanor_result_a_6,...알겠어. 그게 마지막이었구나...
+eleanor_result_b_1,지난번에 약을 주셔서 감사합니다. 그는 버티고 있지만... 계속 묶어 둬야 합니다.
+eleanor_result_b_2,정신이 맑은 순간이 점점 짧아지고 있습니다.
+eleanor_result_b_3,우리 중 몇몇은 격리 구역에 대해 묻고 있습니다. 어쩌면 거기에 치료법이 있을 수도 있습니다.
+eleanor_result_b_4,"언제까지 이 일을 계속할 수 있을지는 모르겠지만, 적어도 그는 여전히 우리와 함께 있어요."
+eleanor_result_b_5,오늘은 좀 더 사고 싶은데요.
+eleanor_result_c_1,...그들이 그를 데려갔어.
+eleanor_result_c_2,우리가 그를 넘긴 게 아니야. 누군가 핫라인에 전화했어.
+eleanor_result_c_3,라이트하우스는 우리가 그를 숨겨 둔 곳을 곧장 찾아왔어.
+eleanor_result_c_4,보스를 의심하고 싶지 않아. …정말로.
+eleanor_result_c_5,제값 치를게. 그럼 떠날게.
+georgio_after_open,친구! 조르지오가 돌아왔다!
+georgio_after_a_1,하층에 미친 사람들을 진정시키는 파란 약이 있다는 소문이 돈다네.
+georgio_after_a_2,"혁명군 여자 하나가 그 약을 샅샅이 찾고 있는데, 돈도 후하게 쓴다는군."
+georgio_after_a_3,그런데… 흰옷 입은 사람들도 어디서 유출됐는지 알아내려 한다고 들었네.
+georgio_after_a_4,"친구, 그런 걸 갖고 있더라도 남들에게 보여주지 말게."
+georgio_after_b_1,여기 자주 오는 그 혁명군 아가씨가 매일 진료소로 달려가고 있다네.
+georgio_after_b_2,며칠째 잠도 못 잔 얼굴이더군. 조르지오 마음이 다 아프다네.
+georgio_after_b_3,또 혁명군 몇 명이 격리 구역에 가는 법을 묻고 다닌다네. 좋은 생각이 아닌데 말이지.
+georgio_after_b_4,"자네에게 남는 약이 있다면, 조르지오 생각에는... 아니, 조르지오는 아무 말도 안 했다네!"
+georgio_after_c_1,흰옷 입은 사람들이 누군가 하층에 숨겨 둔 미친 남자를 잡아갔다고 들었네. 누군가 신고했다는군.
+georgio_after_c_2,이제 혁명군이 신고한 사람을 찾고 있다네.
+georgio_after_c_3,물론 조르지오는 친구가 그럴 사람이 아니란 걸 알지! 다만… 밤에는 문단속을 잘하게.
+eleanor_result_a_7,그래도 고마워. 정말 많은 도움을 받았어.
+eleanor_result_a_player,…
+hazmat_ch1_1,귀찮게 해서 미안해요. 오늘은 누구를 데려가려고 온 게 아니고 단지 재입고를 하려고 온 거예요.
+hazmat_ch1_2,"이번 주에는 하층 구역에서 온 호출이 훨씬 많아요. 하루에 일곱, 여덟 곳씩 뛰어다녀요."
+hazmat_ch1_4,어제 환자 한 명이 이동 중에 결박을 풀었습니다. 세 명이 달라붙어야 제압할 수 있었습니다.
+hazmat_ch1_5,다행히 아무도 다치지 않았네요… 요즘 우리 모두 3~4시간씩 자고 있어요.
+hazmat_ch1_asimov,"아, 그리고 파란색 주사를 본다면 누구도 사용하지 못하게 하세요. 아직 끝나지 않았습니다. 잘못 사용하면 상황이 더 악화될 뿐입니다."
+hazmat_ch1_thanks,항상 협조해 주셔서 감사합니다.
+hazmat_ch1_6,"좋아요, 뭘 가져왔는지 보죠."
+soldier_ch1_1,또 만났군.
+soldier_ch1_2,업무 때문에 온 건 아니야. 방금 근무를 마치고 맛있는 거나 사 먹으려고 들렀어.
+soldier_ch1_3,위층에서 병력을 또 내려보냈어. 층 사이에 검문소를 더 세우려는 모양이야.
+soldier_ch1_4,이제 위로 올라가는 사람은 모두 혈액 검사를 받아야 해. 아침부터 밤까지 줄이 끊이질 않아.
+soldier_ch1_5,어제 누군가 환기구로 몰래 올라가려 했어. 우리가 막았지.
+soldier_ch1_6,사실 가족을 못 본 지 거의 2주나 됐어. 가족들은 아직 이 아래에 살고 있거든.
+soldier_ch1_helped,전에 우리를 도와주셨습니다. 알려 드려도 문제없겠군요.
+soldier_ch1_not_helped,이 얘기는 비밀로 해.
+serpico_ch1_1,오랜만이에요.
+serpico_ch1_2,아마 들어보셨을 거예요. 윗선에서는 우리가 감염자를 통과시켰다고 하더군요.
+serpico_ch1_3,그날 밤 거리 전체를 맡아 역에서 근무한 사람은 우리 셋뿐이었어요.
+serpico_ch1_4,우리 인원의 절반은 층 사이의 검문소 경비로 파견됐어요. 교대 인원조차 채울 수 없어요.
+serpico_ch1_5,이 아래의 환자는 대부분 이제 바로 라이트하우스로 보내져요. 우리는 그들을 위해 문만 열어 줄 뿐이죠.
+serpico_ch1_hotline,그쪽도 그 핫라인에 전화했다면서요. ...전 상관없어요. 적어도 누군가는 와 주니까요.
+serpico_ch1_6,"어쨌든, 요즘 밤에는 가게 문을 너무 늦게까지 열어 두지 마세요."
+serpico_ch1_7,그리고... 온 김에 먹을 것도 좀 살게요.
+soldier_arms_1,또 만났군. 이번엔 볼일이 있어서 왔어.
+soldier_arms_2,무기와 탄약이 필요해. 있는 만큼 전부.
+soldier_arms_3,요즘 이 아래는 광란병만 문제가 아니야.
+soldier_arms_4,혁명군도 더 분주해졌어. 물자를 옮기고 우리 순찰 경로를 살피는 모습이 목격됐지.
+soldier_arms_5,윗선에서는 혁명군이 혼란을 틈타 뭔가 벌일까 봐 걱정하고 있어.
+soldier_arms_6,예산은 걱정하지 마. 가진 무기와 탄약은 전부 내놔.
+serpico_favor_1,"미안하지만, 오늘은 뭘 사러 온 게 아니에요."
+serpico_favor_2,근무지에 어제 라이트하우스에서 연락이 왔어요. 며칠 뒤 그들이 사람들을 데려가는 일을 도우래요.
+serpico_favor_3,동부 지구의 오래된 창고예요. 누군가 그곳에 환자 몇 명을 숨겨 두고 있다는 제보가 들어왔어요.
+serpico_favor_4,그 일을 하고 싶지 않아요. 가족이 끌려가는 걸 차마 볼 수 없어 숨겨 둔 사람들도 있으니까요.
+serpico_favor_5,가게에는 온갖 사람이 드나들잖아요... 그 근처에 아는 사람이 있다면 말을 좀 전해 줄 수 있나요?
+serpico_favor_6,그 전에 떠나라고 전해 주세요.
+serpico_favor_help,내가 도울게.
+serpico_favor_help_1,…고마워요. 하지만 쉽지 않을 거예요.
+serpico_favor_job,그건 네 일이잖아.
+serpico_favor_job_1,...맞아요. 제 일이죠.
+serpico_favor_out,난 관여하고 싶지 않아.
+serpico_favor_out_1,알겠어요. 아무 말도 안 한 걸로 해요.
+serpico_after_help_1,우리가 그곳에 도착했을 때 창고는 비어 있었어요.
+serpico_after_help_2,라이트하우스 측은 달가워하지 않았어요. 보고서에 우리를 문제 삼았죠.
+serpico_after_help_3,하지만... 괜찮아요.
+serpico_after_help_4,고마워요. 먹을 것 좀 살게요. 남는 돈은 가지세요. 사양하지 마세요.
+serpico_after_job_1,그날 우리는 4명을 데리고 갔다.
+serpico_after_job_2,그중 한 명은 아이였어요. 열 살도 안 됐죠.
+serpico_after_job_3,"그 아이의 어머니는 계속 제 팔을 붙잡고, 아이를 어디로 데려가느냐고 물었어요."
+serpico_after_job_4,아무 대답도 할 수 없었어요.
+serpico_after_job_5,...먹을 것 좀 살게요. 오늘은 아무것도 못 먹었어요.
+serpico_after_out_1,그날 밤 저는 창고에 직접 갔어요.
+serpico_after_out_2,제때 그들 중 절반밖에 구하지 못했어요.
+serpico_after_out_3,다음 날 두 명을 데려갔어요. 라이트하우스 측에서 왜 수가 적냐고 묻기에 제보가 틀렸다고 했죠.
+serpico_after_out_4,...제가 옳은 일을 한 건지 모르겠어요.
+serpico_after_out_5,먹을 것 좀 살게요.
+injured_soldier_1,당신이 가게 주인이죠? 대장님께 이야기 들었습니다.
+injured_soldier_2,이틀 전 대장님이 하층을 순찰하다 혁명군의 매복 공격을 받으셨습니다. 크게 다치셨어요.
+injured_soldier_3,평범한 약은 이제 듣지 않아요. 가장 강한 약이 필요합니다.
+injured_soldier_4,가지고 있는 의료품을 전부 보여 주세요. 가격은 얼마든 상관없습니다. 제발요.
+news_researcher_death_1,연구원의 시체가 낮은 층에서 발견됨
+news_researcher_death_2,연구원이 숨진 채 발견됨
+news_researcher_death_3,어젯밤 연구원의 시신이 저층 동쪽 환기구에서 발견됐다. 보안 당국은 사망자가 최근 수배 중인 연구원 유다라고 확인했다. 사망 원인은 아직 조사 중이다.
+eleanor_taken_buy,"아, 그리고 오늘은 의료용품도 좀 필요해요. 뭐가 있는지 보여 주세요."
+eleanor_hidden_buy,의료용품도 필요해요. 그가 더 오래 버티는 데 도움이 되는 것이라면 뭐든지요.
+soldier_ch1_buy,"아무튼, 그 얘긴 이쯤 하지. 먹을 것 좀 보여 줘."
+serpico_favor_help_2,제가 이 제복을 입고 나타나면 다들 도망칠 거예요.
+serpico_favor_help_3,폐품 수집상들이 늘 이곳을 드나들죠? 믿을 만한 사람 중에 대신 다녀올 사람이 있나요?
+serpico_favor_note,사람을 찾아볼게.
+serpico_favor_note_1,그럼 믿고 맡길게요.
+serpico_favor_note_2,이 메모에 주소와 시간이 적혀 있어요. 믿을 만한 사람에게 건네기만 하면 돼요.
+serpico_favor_note_3,그리고... 제가 썼다고는 아무에게도 말하지 마세요.
+serpico_favor_note_no,떠오르는 사람이 없어.
+georgio_note_1,"안녕, 친구! 조르지오가 지나가던 길에 들렀다네!"
+georgio_note_2,"말이 나와서 말인데, 요즘 보안 요원이 자꾸 자네 가게에 들르는 걸 조르지오가 봤다네."
+georgio_note_3,무슨 일이라도 있나?
+georgio_note_give,(조르지오에게 쪽지를 건넨다)
+georgio_note_give_1,…
+georgio_note_give_2,……
+georgio_note_give_3,나한테 맡기게! 친구의 친구는 조르지오의 친구라네!
+georgio_note_give_4,"하지만 나중에 조르지오에게 필요한 게 생기면, 자네와 자네 친구도 조르지오를 도와주겠지?"
+item_serpico_note_1,세르피코의 메모
+item_serpico_note_2,"연필로 휘갈겨 쓴 글: ""동부 지구의 오래된 창고. 라이트하우스가 며칠 뒤 그들을 잡으러 온다. 그 전에 떠나라."" 믿을 만한 사람에게 전할 것."
+name_jiang,장즈안
+jiang_intro_1,안녕하세요. 이 가게 주인이시죠?
+jiang_intro_2,저는 라이트하우스 소속이에요. 요즘은 주로 이 근처 봉쇄 업무를 맡고 있어요.
+jiang_intro_3,제 성은 장이고 이름은 즈안이에요. 장즈안입니다.
+jiang_intro_4,앞으로 자주 보게 되겠네요. 잘 부탁드려요.
+jiang_intro_5,"오늘은 팀 물품을 사러 왔어요. 음식이랑 음료, 물이요."
+jiang_intro_6,요즘은 제대로 식사할 시간도 없었는데... 맛있는 거 뭐 있어요?
+item_lh_antibiotic_1,라이트하우스 특효약
+item_lh_antibiotic_2,"라이트하우스 내부에서 지급된 강력한 약으로, 그들의 표식이 찍혀 있습니다. 한 알이면 며칠째 열에 시달리던 사람도 다시 일어설 수 있다고 합니다. 원래는 오직 자기들 조직원만 쓰도록 마련된 약입니다."
+item_lh_bandage_1,라이트하우스 해파리 가죽
+item_lh_bandage_2,"라이트하우스가 기르는 해파리의 껍질로 만든 드레싱입니다. 상처에 대면 천천히 조여 출혈을 멈춥니다. 라이트하우스 현장팀이 휴대하며, 이 아래에서는 거의 볼 수 없습니다."
+item_lh_water_ration_1,라이트하우스 정수 식수 배급권
+item_lh_water_ration_2,"라이트하우스에서 직접 정수한 물의 배급권으로, 맑은 물방울 하나가 인쇄되어 있다. 녹슨 맛이 나는 수돗물조차 귀한 이곳에서는 현금보다 가치가 높다. 액체 용기에 부으면 정수된 물 750mL를 얻을 수 있다."
+name_eod,EOD 군인
+special_raid_1,움직이지 마세요! 카운터에 손을 얹으세요!
+special_raid_2,...감히 이걸 팔려고 내놓다니.
+special_raid_3,<i>*{0} 압수*</i>
+special_raid_4,이제 귀하의 사건은 보안팀 소관이 아닙니다.
+eod_1,…
+item_eod_bomb_1,군용 폭발물
+item_eod_bomb_2,군용 폭발물. 빨간 표시등이 초 단위로 카운트다운한다. 해체할 수 없다.
+end_eod_reason,위쪽의 처분
+end_eod_desc,역 전체를 위험에 빠뜨리는 물건을 판매하려 했습니다. 위층에서 파견된 폭발물 처리 요원은 더는 아무 말도 하지 않았습니다.
+end_berserk_reason,가게에 침입한 광폭증 환자에게 물려 사망
+end_berserk_desc,그날 광폭증 환자를 그냥 보내 줌. 밤에는 가게 유리가 깨짐.
+name_serpico_officer,세르피코 경관
+setup_title,재난의 날: 스토리 설정
+setup_intro,Disaster Day의 스토리에는 아래 조건이 필요하지만 이 저장 파일은 아직 해당 조건을 충족하지 않습니다. 체크한 내용은 모두 저장에 바로 기록되므로 조건이 유지됩니다.
+setup_eleanor,엘리너가 혁명군에 합류했습니다. (필수: 이 이벤트가 없으면 ‘재난의 날’이 시작되지 않습니다.)
+setup_georgio,조르지오에게 돈을 빌려줌(《재난의 날》 조르지오 이야기)
+setup_serpico,세르피코가 보안 요원으로 생존함(재난의 날에서 세르피코의 역할)
+setup_still_possible,"본인 이야기는 아직 끝나지 않았으므로, 이 항목을 선택하지 않아도 정상적으로 진행될 수 있습니다."
+setup_warning,경고: 강제로 적용하면 게임 자체의 스토리가 깨지므로 취소할 수 없습니다. 이 문서는 저장 파일당 한 번만 나타납니다.
+setup_confirm,확인
+setup_skip,사양
+setup_pace,스토리 속도
+setup_pace_normal,보통 속도(기본값)
+setup_pace_fast,빠른 스토리 진행
+setup_pace_note,"스토리가 더 빨라질수록 스토리 방문 사이의 대기 시간이 총 약 25일 단축됩니다. 또한 준비하고, 돈을 벌고, 라이트하우스 평판을 쌓는 데 쓸 수 있는 시간도 줄어듭니다."
+setup_once,이 문서는 저장당 한 번만 나타나며 선택 항목은 나중에 변경할 수 없습니다.
+station_title,라이트하우스 검역소
+station_panel,봉쇄 기간 라이트하우스가 이곳을 지나는 주민을 확인합니다.\n노란색: 분노병   주황색: 조증   책상 위 벨: 통과 허가
+station_button_closed,(이 버튼은 아직 사용되지 않습니다.)
+station_jiang_1,와 주셨군요. 도우러 시간을 내 주셔서 감사합니다.
+station_jiang_2,봉쇄 내내 인력이 부족했어요. 우리 팀은 교대근무를 연이어 해 왔고요… 한 사람이라도 더 있으면 정말 큰 도움이 돼요.
+station_jiang_3,"주민들이 한 명씩 올라올 거예요. 얼굴을 살펴보고, 하는 말을 들어 보세요."
+station_jiang_4,분노병이라고 판단되면 패널의 노란색 버튼을 눌러 주세요. 대응 요원들이 즉시 와서 처리할 거예요.
+station_jiang_5,괜찮다면 책상에 있는 벨을 누르고 통과시키시면 됩니다.
+station_jiang_6,주황색 버튼은 조증 환자용입니다. 분노병보다 상태가 심한 사람에게는 그 버튼을 누르세요.
+station_jiang_7,겉모습과 행동이 모두 맞아떨어져야 분노병이에요. 둘 중 하나만 보고 판단하지 마세요.
+station_jiang_8,그럼 맡기겠습니다. 저는 뒤에 있을게요. 무슨 일 있으면 불러 주세요.
+station_home_1,안녕하세요. 저는 동쪽 하층 구역 C블록 3층에 살고 있습니다.
+station_home_2,저는 7번 환기구 옆 기숙사에 살고 있어요. 여기서 도보로 약 10분 정도.
+station_home_3,내 집은 오래된 시장 뒤편 줄에 있어. 문 옆에 깨진 램프가 있는 집이야.
+station_home_4,저는 어머니와 남동생 두 명과 함께 B 구역에 살고 있습니다.
+station_home_5,"아래층 서쪽, 수처리 시설 근처 아파트에 살아요."
+station_home_6,"저는 유지관리 터널 위층에 살고, 파이프 공장에서 일해요."
+station_home_7,안녕하세요. 저는 4구역에 살아요. 오늘 약을 받으러 진료소에 올라가요.
+station_home_8,남쪽 컨테이너 주택에 살아요. 요즘 그쪽이 시끄러워요.
+station_home_9,저는 이 복도 끝에 살아요. 매일 이곳을 지나가요.
+station_home_10,옛 역 근처에 살아요. 그곳으로 이사 온 지 한 달도 안 됐어요.
+station_home_11,저는 재활용 스테이션 건너편 D 블록에 살고 있습니다.
+station_home_12,저는 동쪽 주택 단지 12층에 살아요. 엘리베이터는 늘 고장 나 있어요.
+station_chat_1,봉쇄가 시작되자 줄이 너무 길어졌습니다. 어쩔 수 없는 것 같아요.
+station_chat_2,최근에는 물 배급량이 조금 줄었습니다. 다음 달에 다시 회복되길 바랍니다.
+station_chat_3,지금 막 출근하는 길이에요. 검사만 받으면 가도 되죠?
+station_chat_4,옆 블록에 있던 누군가가 끌려갔다는 소식을 들었습니다. 모두가 약간 긴장하고 있습니다.
+station_chat_5,내 딸은 위에서 공부해요. 못 본 지가 한참 됐어요.
+station_chat_6,오늘도 복도 전등이 나가서 하마터면 길을 잘못 들 뻔했어.
+station_chat_7,매일 여기 서서 일하시느라 고생이 많으십니다.
+station_chat_8,"제 신분증은 제가 가지고 있으니, 필요하시면 확인해주세요."
+station_chat_9,오늘 아침 여기까지 오느라 두 시간이나 줄을 섰어요. 발이 너무 아프네요.
+station_chat_10,요즘 밤은 너무 조용해요. 심야 음식 노점들마저 문을 닫았어요.
+station_chat_11,공장 소식을 기다리고 있어요. 다음 주에 다시 갈 수도 있다고 하더군요.
+station_chat_12,우리 고양이는 며칠째 거의 먹지 않았어요. 고양이도 답답해서 미칠 지경인가 봐요.
+station_chat_13,이 일이 끝나면 서둘러 시장에 가야 해요. 안 그러면 아무것도 남지 않을 거예요.
+station_chat_14,봉쇄가 어서 끝났으면 좋겠어요. 다들 한계에 다다랐어요.
+station_chat_15,이웃이 마스크가 더 안전하다고 해서 마스크를 썼습니다.
+station_chat_16,"죄송해요, 검문소를 통과하는 건 처음이라 어떻게 하는지 잘 모르겠어요."
+station_drunk_1,딸꾹… 죄송해요. 어제 친구 생일이라 술을 좀 많이 마셨어요.
+station_drunk_2,"얼굴이 빨갛죠? 하하, 술만 마시면 늘 이래요. 아픈 건 아니에요."
+station_drunk_3,"죄송해요, 아직 술이 덜 깼네요… 제 차례를 얌전히 기다릴게요."
+station_drunk_4,어젯밤 술집에 너무 늦게까지 있었어요. 아직 머리가 좀 어지럽네요.
+station_drunk_5,"딸꾹… 아, 실례했어요. 정말 술을 너무 많이 마셨을 뿐이에요."
+station_tired_1,"죄송해요, 이틀 동안 거의 못 잤어요. 제 눈이 많이 충혈됐겠네요."
+station_tired_2,아이가 열이 나서 밤새 돌봤어요.
+station_tired_3,야간 근무에 계속 잔업까지 하네요. 눈을 뜨고 있기도 힘들어요.
+station_tired_4,"죄송해요, 어제 공장에서 새벽까지 일하고서야 집에 갔어요."
+station_tired_5,며칠째 제대로 못 잤어요… 눈을 감을 때마다 봉쇄 생각이 나요.
+station_rude_home_1,내가 어디 사냐고? 동쪽 지하층이야. 왜 그렇게 꼬치꼬치 물어?
+station_rude_home_2,B 구역이야. 현관 번호까지 읊어 줘야 해?
+station_rude_home_3,내가 어디 사는 게 너랑 무슨 상관이야? 저 아래라고.
+station_rude_home_4,환기구 7번 옆이야. 이제 됐어?
+station_rude_home_5,"옛 시장 뒤야. 서둘러, 나 바빠."
+station_rude_home_6,D동이야. 매일 똑같은 걸 물어보는 게 지겹지도 않아?
+station_rude_home_7,남쪽의 컨테이너 주택이야. 그런 눈으로 보지 마
+station_rude_home_8,난 바로 이 근처에 살아. 그런데 너희는 매일같이 날 붙잡잖아.
+station_rude_1,뭘 빤히 쳐다봐? 빨리 해.
+station_rude_2,줄을 얼마나 오래 섰는데. 대체 너희 뭐 하는 거야?
+station_rude_3,또 검사라고요? 어제도 검사받았어요!
+station_rude_4,너무 시끄러워… 여긴 왜 이렇게 시끄러운 거야…
+station_rude_5,귀가 먹었어? 지나가겠다고 했잖아.
+station_rude_6,"너한테 시간 낭비할 여유 없어, 알겠어?"
+station_rude_7,헛소리 그만하고 통과시켜.
+station_rude_8,그 표정은 뭐야? 싸움이라도 걸려는 거야?
+station_rude_9,다들 날 노려보고 있잖아... 뭘 봐!
+station_rude_10,계속 시간을 끌면 밀고 들어가겠어.
+station_rude_11,…모든 게 지독하게 짜증스러움
+station_rude_12,윗동네에서 온 너희는 뭐라도 된 줄 알아?
+station_rude_13,머리가 깨질 것 같아. 날 좀 내버려 둬.
+station_rude_14,"쳇, 또 쓸모없는 사람"
+name_aurora,오로라
+name_shen,선 국장
+name_kyle,카일
+item_blue_needle_1,파란 주사기
+item_blue_needle_2,암시장에서는 한 번 맞으면 상처가 빨리 낫고 기운이 넘친다고 한다. 안에 든 액체는 옅은 파란색이며 희미하게 빛나는 듯하다.
+item_mania_guide_1,조증 식별 안내서
+item_mania_guide_2,장즈안이 준 새 안내서입니다. 조증을 알아보는 방법이 추가되어 있습니다.
+mania_guide_title,조증 식별 안내서
+mania_guide_sign_eyes,눈 흰자위가 온통 빨갛게 변합니다.
+mania_guide_sign_cheeks,얼굴 전체가 붉게 상기됨
+mania_guide_sign_rash,"목까지 번진 반점, 도드라진 혈관"
+mania_guide_nonvisual,-감정 기복이 심합니다\n-으르렁거리다가 갑자기 웃음을 터뜨립니다\n-혼잣말을 하고 가만히 있지 못합니다\n-머리와 팔을 긁습니다\n\n*분노병 증상과 함께 이런 징후가 나타나면 조증입니다.
+mania_1,"...하, 하하하! 죄송해요, 왜 웃는지 저도 모르겠어요."
+mania_2,"조용히, 조용히 해… 너한테 하는 말 아니야."
+mania_3,며칠째 잠을 못 잤는데 하나도 안 피곤해! 하하!
+mania_4,"너도 들리지, 그렇지? 계속 움직이라고 말하는 그 목소리."
+mania_5,*팔을 계속 긁는다* 너무 가려워… 너무 가려워…
+mania_6,오늘 기분이 정말 좋아! 거리 하나쯤 통째로 부숴 버릴 만큼!
+mania_7,"그래, 그래, 그래, 알아, 안다고! 그만 말해!"
+mania_8,"하… 그 표정은 뭐야? 어서 웃어, 하하하!"
+mania_9,"멈출 수가 없어. 손도 발도, 아무것도 멈추질 않아."
+mania_10,헤헤… 내가 웃겨? 다들 날 보고 있네.
+hotline_mania_1,환자의 상태를 설명해 주세요.
+hotline_mania_2,…알겠습니다. 이미 2단계군요. 대응 방식이 달라집니다.
+hotline_mania_3,팀을 보내겠습니다. 거리를 두고 계세요.
+hazmat_arrest_mania_1,"이미 더 악화된 상태, 주의"
+station_jiang_9,빨간 버튼은… 영원히 쓸 일이 없으면 좋겠네요.
+station_jiang_again_1,오셨군요. 오늘 밤도 잘 부탁드려요.
+station_jiang_again_2,또 와 주셔서 고마워요. 사장님이 계시면 일이 훨씬 수월하다고 팀원들이 말해요.
+station_jiang_again_3,오늘은 어제보다 사람이 더 많아요. 와 주셔서 고마워요.
+station_jiang_again_end,전 뒤쪽에 있을게요. 무슨 일 생기면 불러 주세요.
+station_jiang_wrong_stage,그 남자는 이미 광증 단계였어요. 다음에는 더 자세히 살펴보세요.
+station_mania_1,"…하하. 죄송해요, 전 괜찮아요. 정말 괜찮아요."
+station_mania_2,*계속 목을 긁는다* 너무 더워... 여기 왜 이렇게 덥지?
+station_mania_3,하하하! 진지한 표정 좀 봐!
+station_mania_4,그만해... 그만하라고 했잖아! ...네 말고.
+station_mania_5,힘이 넘쳐. 사흘이나 안 잤는데도 하나도 안 피곤해!
+station_mania_6,"서둘러, 서둘러, 서둘러. 멈출 수가 없어."
+station_mania_7,이봐… 믿어? 이 벽을 주먹으로 뚫을 수도 있을 것 같아.
+station_mania_8,*갑자기 웃음을 터뜨리더니 손으로 입을 틀어막는다*
+station_eleanor_1,…사장님? 여기서 만날 줄은 몰랐어요.
+station_eleanor_2,저는 하층 서쪽에 살아요. 오늘은 집에 가는 길이에요.
+station_eleanor_daughter,얼마 전 우리 동네 남자 한 명이 라이트하우스에 끌려갔어요. 그 딸은 아빠가 언제 돌아오냐고 매일 제게 물어요.
+station_eleanor_3,제 뒤에 있는 남자는 제 동료예요. 함께 왔어요.
+station_eleanor_4,안색이 별로일 수는 있지만… 약을 먹은 뒤로 훨씬 나아졌어요. 정말이에요.
+station_eleanor_trust,어떤 결정을 하든 원망하지 않을게요.
+station_eleanor_neutral,그냥 사장님 규칙대로 하세요.
+station_eleanor_distant,…해야 할 일을 하세요.
+station_comrade_1,…안녕하세요.
+station_comrade_2,"저, 저는 서쪽에 살아요. 저 여자분과 함께 왔어요."
+station_comrade_3,지금은 훨씬 나아졌어요. 정말이에요. 벌써 며칠째 제가…
+station_comrade_4,*그가 갑자기 웃더니 손으로 입을 틀어막는다* …죄송해요. 전 괜찮아요.
+station_eleanor_back_1,…사장님이 틀리지 않았어요.
+station_eleanor_back_2,그는 전부터 목소리가 들린다고 했어요. 우리는 그저 마지막으로 한 번만 집에 데려다주고 싶었어요.
+station_shen_1,당신이 도와준다는 그 가게 주인인가? 장즈안에게 들었네.
+station_shen_2,난 그저 보러 왔을 뿐이니 계속하게.
+station_shen_3,"…국장님, 오늘 명단에 건물이 한 채 더 추가됐습니다."
+station_shen_4,그럼 봉쇄해.
+station_shen_5,하지만 그 건물 사람들은 대부분 아직 발병하지 않았습니다.
+station_shen_6,"장즈안, 자네는 연구원이었지. 이 병이 어떤 결말을 맞는지는 누구보다 잘 알 텐데."
+station_shen_7,이미 발병한 사람들은 구할 수 없네. 우리가 할 수 있는 건 병이 하층 밖으로 퍼지지 않게 막는 것뿐이네.
+station_shen_8,나머지는 저절로 끝나게 두게.
+station_shen_needle,"아, 그리고 자네 가게에서 누군가 파란 주사기를 판다고 장즈안이 그러더군. …그저 소문이길 바라네."
+station_shen_silent,(아무 말도 하지 않는다)
+station_shen_silent_1,침묵해도 괜찮네. 이런 이야기는 그저 듣고 넘기는 게 최선이지.
+station_shen_silent_jiang_1,…그런 이야기를 듣게 해서 죄송해요.
+station_shen_silent_jiang_2,계속하죠.
+station_shen_ask,이게 정말 옳은 일입니까?
+station_shen_ask_1,옳고 그름은 우리 같은 사람이 결정할 일이 아니야.
+station_shen_ask_jiang_1,…그 질문을 해 줘서 고마워요.
+station_shen_ask_jiang_2,저도 계속 묻고 싶었어요.
+station_sleep_hint,오늘 밤 검역소 일을 돕겠다고 장즈안에게 약속했다. 아직 잘 때가 아니다.
+news_ch3_end_1,하층 동부 주거 단지 전면 봉쇄
+news_ch3_end_2,주거 단지 봉쇄
+news_ch3_end_3,어제 하층 동부의 한 주거 단지에서 중증 의심 환자가 대거 발생했습니다. 라이트하우스와 군은 건물 전체를 봉쇄했으며 주민의 출입은 전면 금지됐습니다. 라이트하우스는 질병 확산을 막기 위해 필요한 조치라고 밝혔습니다.
+ch3_georgio_gift_1,"친구! 오랜만이네, 조르지오가 돌아왔다네!"
+ch3_georgio_gift_2,조르지오가 요즘 하층에 좋은 물건이 풀렸다는 소문을 들었지. 모두 탐내서 순식간에 동났어!
+ch3_georgio_gift_3,조르지오가 몇 개 손에 넣느라 꽤 애를 먹었다네.
+ch3_georgio_gift_4,좋은 물건은 좋은 친구와 나눠야 하는 법이지! 이건 자네 걸세!
+ch3_georgio_gift_5,*파란 주사기를 내려놓는다*
+ch3_georgio_gift_6,한 번만 맞으면 어떤 상처든 아주 빨리 낫고 힘이 넘친다더군!
+ch3_georgio_gift_7,"가게 일도 고되지 않나, 친구. 언젠가 필요할지도 모르네!"
+ch3_jiang_shop_1,또 방해해서 죄송해요.
+ch3_jiang_shop_2,오늘도 저희 팀 물건을 사러 왔어요.
+ch3_jiang_shop_3,"이번 주에 두 명을 잃었어요. 한 명은 과로로 쓰러졌고, 한 명은… 다른 곳으로 배치됐어요."
+ch3_jiang_shop_4,남은 사람들은 두 배로 일하고 있어요. 조금이라도 더 잘 먹이는 게 제가 할 수 있는 전부예요.
+ch3_jiang_shop_5,저기… 죄송하지만 조금만 깎아 주실 수 있을까요?
+ch3_jiang_shop_yes,"물론이죠, 조금 깎아 드릴게요."
+ch3_jiang_shop_yes_1,고마워요. 가게 주인분이 한턱냈다고 모두에게 말할게요.
+ch3_jiang_shop_no,미안하지만 나도 장사는 해야 해요.
+ch3_jiang_shop_no_1,...그렇네요. 제가 너무 무리한 부탁을 했어요.
+ch3_aurora_1,안녕하세요. 하층 진료소의 간호사예요. 오로라라고 불러 주세요.
+ch3_aurora_2,여기엔 뭐든 있다고 들어서 혹시나 하고 와 봤어요.
+ch3_aurora_3,군이 약을 가져간 뒤로 진료소 약장은 거의 텅 비었어요.
+ch3_aurora_4,환자는 점점 늘어나는데... 그중 몇몇은 단순히 화가 난 정도가 아니에요.
+ch3_aurora_5,"완전히 통제력을 잃어요. 방금 전까지 욕하다가 다음 순간 웃음을 터뜨리고, 아무리 불러도 정신을 차리지 못하죠."
+ch3_aurora_6,진료소에서 8년을 일했지만 이런 건 처음 봐.
+ch3_aurora_daughter,"지난주 제 환자 한 명이 흰옷을 입은 사람들에게 끌려갔어요. 딸이 매일 진료소에 와서 소식을 묻지만, 라이트하우스는 아무것도 알려 주지 않았어요."
+ch3_aurora_needle,아... 얼마 전 어떤 사람이 암시장에서 샀다는 파란 주사기를 가져와 주사해 달라고 했어요. 거절했죠.
+ch3_aurora_7,"죄송해요, 말이 길어졌네요. 가지고 있는 약은 뭐든 보여 주세요."
+ch3_jiang_past_1,"...안녕하세요. 죄송해요, 오늘은 좀 피곤해서요."
+ch3_jiang_past_2,어젯밤 세 군데를 뛰어다니고 새벽에야 돌아왔어요.
+ch3_jiang_past_3,"있잖아요, 원래는 이런 일을 하지 않았어요."
+ch3_jiang_past_4,예전에는 라이트하우스에서 연구했어요. 매일 연구실에만 있어서 햇빛도 거의 못 봤죠.
+ch3_jiang_past_5,"그러다... 몇 가지 일이 생겼고, 제가 직접 현장으로 보내 달라고 했어요."
+ch3_jiang_past_6,적어도 여기서는 제가 무슨 일을 하는지 제 눈으로 볼 수 있으니까요.
+ch3_jiang_past_has_1,...잠깐만요.
+ch3_jiang_past_has_2,그 파란 주사기요. 어디서 구했어요?
+ch3_jiang_past_has_3,*그녀가 목소리를 낮춘다*
+ch3_jiang_past_has_4,이건 중요한 일이에요. 사실대로 말해 주세요.
+ch3_jiang_past_georgio,조르지오가 줬어요.
+ch3_jiang_past_georgio_1,조르지오... 늘 하층을 돌아다니는 그 남자요?
+ch3_jiang_past_georgio_2,어디서 구했는지 말하던가요?
+ch3_jiang_past_georgio_3,...하층에서 누군가 팔고 있군요. 알겠어요. 고마워요.
+ch3_jiang_past_hand,(그녀에게 파란 주사기를 건넨다)
+ch3_jiang_past_hand_1,...고마워요.
+ch3_jiang_past_hand_2,절대로 누구에게도 이걸 쓰게 하지 마세요.
+ch3_jiang_past_hand_3,이걸 가진 사람을 또 보게 되면 제게 알려 주세요.
+ch3_jiang_past_lie,친구가 줬어요. 저도 잘 몰라요.
+ch3_jiang_past_lie_1,...그렇군요.
+ch3_jiang_past_lie_2,"그럼 잘 보관하고, 아무에게도 쓰게 하지 마세요."
+ch3_jiang_past_lie_3,그리고 팔지도 마세요. 부탁이에요.
+ch3_jiang_past_sold_1,이런 주사기를 본 적 있나요?
+ch3_jiang_past_sold_2,*그녀가 파란 주사기를 꺼낸다*
+ch3_jiang_past_sold_3,환자 한 명에게서 찾았어요. 가게에서 샀다고 하더군요.
+ch3_jiang_past_admit,...하나 팔았어요.
+ch3_jiang_past_admit_1,...그렇군요.
+ch3_jiang_past_admit_2,솔직히 말해 줘서 고마워요. 뭔지 몰랐던 거잖아요. 탓하지 않을게요.
+ch3_jiang_past_admit_3,하지만 다시 보게 되면 팔지 말아 주세요.
+ch3_jiang_past_deny,본 적 없어요.
+ch3_jiang_past_deny_1,...알겠어요.
+ch3_jiang_past_deny_2,보게 되면 제게 알려 주세요.
+ch3_jiang_past_end,놀라게 해서 죄송해요. 음료는 제값을 치를게요.
+ch3_mania_1,하… 하하. 뭘 봐?
+ch3_mania_2,약. 약을 줘. 약을 달라고 했잖아!
+ch3_mania_3,"...하하하, 미안, 미안해. 그럴 생각은 아니었어."
+ch3_mania_4,내가 왜 이러는지 모르겠어. 요즘은 도저히 멈출 수가 없어.
+ch3_mania_5,머릿속에서 목소리가 소리쳐… 움직이라고…
+ch3_mania_6,너도 들리지? 너도 분명 들리는 거지!
+ch3_jiang_ask_1,오늘은 물건을 사러 온 게 아니에요.
+ch3_jiang_ask_2,이제쯤 한 명은 만나 봤겠죠. 분노병보다 상태가 더 심한 사람이요.
+ch3_jiang_ask_3,우리는 그걸 광증이라고 불러요. 분노병을 오래 방치하면 그렇게 되죠.
+ch3_jiang_ask_4,오늘부터 하층 봉쇄 구역이 확대돼요. 모든 출입구에 검역소를 설치했어요.
+ch3_jiang_ask_5,하지만 저희는... 정말 인력이 부족해요.
+ch3_jiang_ask_6,가게를 운영하며 우리보다 훨씬 많은 사람을 보셨잖아요. 사람 보는 눈을 믿어요.
+ch3_jiang_ask_7,밤에 가게 문을 닫고 나서 검역소 일을 도와주실 수 있을까요?
+ch3_jiang_ask_yes,갈게요.
+ch3_jiang_ask_yes_1,...고마워요. 정말로요.
+ch3_jiang_ask_guide,새 지침서예요. 이제 광증도 실려 있어요.
+ch3_jiang_ask_think,생각해 볼게요.
+ch3_jiang_ask_think_1,이해해요.
+ch3_jiang_ask_think_2,그래도 지침서는 가져가세요. 마음이 내키면 언제든 와 주세요.
+ch3_georgio_ask_1,친구! 조르지오가 돌아왔네! 지난번 파란 주사기는 잘 보관하고 있나?
+ch3_georgio_ask_yes,"그 파란 주사기, 어디서 구했어요? 진짜 출처를 알아봐 줄 수 있어요?"
+ch3_georgio_ask_yes_1,"음? 친구, 표정이 아주 진지하군!"
+ch3_georgio_ask_yes_2,하층에 사는 오랜 친구가 좋은 물건이 돌고 있다고 해서 조르지오가 몇 개를 물물교환해 왔다네. 그 친구가 누구에게서 구했는지는 조르지오도 묻지 않았다네.
+ch3_georgio_ask_yes_3,좋아! 자네가 알고 싶다면 조르지오가 물어보지! 하층 뒷길은 조르지오보다 잘 아는 사람이 없다네!
+ch3_georgio_ask_owed_1,"전에 그 쪽지 기억하나, 친구? 그때 조르지오가 큰 도움을 줬잖나."
+ch3_georgio_ask_owed_2,이번 부탁도 지난번 빚에 함께 달아 두지!
+ch3_georgio_ask_new,이번에는 자네가 조르지오에게 빚진 걸세!
+ch3_georgio_ask_yes_4,조르지오에게 며칠만 주게. 소식이 들리는 즉시 자네에게 곧장 오겠네!
+ch3_georgio_ask_no,아무것도 아니에요. 그냥 궁금해서요.
+ch3_georgio_ask_no_1,그럼 잘 보관해 두게! 좋은 물건이 늘 생기는 건 아니니까!
+ch3_jiang_greet_eleanor_1,오늘 밤 사장님의 도움이 필요할지도 몰라요.
+ch3_jiang_greet_eleanor_2,오늘 동쪽에서 온 무리가 검문소를 통과할 거예요. 듣기로는... 그중 몇 명의 상태가 이상하대요.
+ch3_jiang_greet_eleanor_promised,오늘 밤에 봐요. 검역소에서 기다릴게요.
+ch3_jiang_greet_eleanor_open,와 주실 의향이 있다면 일손이 절실해요. 못 오셔도 괜찮아요.
+ch3_jiang_greet_shen_1,지난 며칠 밤 동안 도와주셔서 고마워요. 사장님이 계셔서 검역소 운영이 훨씬 원활했어요.
+ch3_jiang_greet_shen_2,오늘 밤 윗선에서 시찰을 나와요. 선 국장이에요. 연구소에 있을 때 제 상사였죠.
+ch3_jiang_greet_shen_3,"그는 숫자만 보는 사람이에요. 어느 건물을 봉쇄하고 몇 명을 끌고 가든, 그에게는 보고서 한 줄일 뿐이에요."
+ch3_jiang_greet_shen_4,"오늘 밤 그가 무슨 말을 할지, 그걸 듣고도 아무렇지 않은 척할 수 있을지 모르겠어요."
+ch3_jiang_greet_shen_taken,"그날 밤 사장님 친구 뒤에 있던 남자가 끌려간 일을 계속 생각해요. 사장님의 판단은 틀리지 않았지만, 쉽지 않았다는 걸 알아요."
+ch3_jiang_greet_shen_passed,"그날 밤 사장님은 친구 뒤에 있던 남자를 통과시켰죠. 저는 막지 않았고, 그게 옳았는지 아직도 모르겠어요."
+ch3_jiang_greet_shen_promised,와 주겠다고 약속해 줘서 고마워요. 라이트하우스 사람이 아닌 누군가가 곁에 있으면 버틸 수 있을 것 같아요. 오늘 밤에 봐요.
+ch3_jiang_greet_shen_open,억지로 부탁하진 않을게요. 하지만 와 주신다면 오늘 밤 누군가 곁에 있다는 게 제게 큰 힘이 될 거예요.
+ch3_jiang_greet_buy,"아, 온 김에 마실 것도 살게요. 물이나 병에 든 음료면 뭐든 괜찮아요."
+ch3_serpico_1,오랜만이에요.
+ch3_serpico_2,역 외곽에 배치됐어요. 이른바 '라이트하우스 지원'이라죠. 실은 그들 대신 사람들을 막는 일이에요.
+ch3_serpico_3,"매일 사람들이 억지로 통과하려 해요. 노인도, 아이도, 열이 나는 아이를 안은 어머니도요."
+ch3_serpico_ally_1,지난번에 해 주신 일은 지금도 감사하게 생각해요.
+ch3_serpico_ally_2,...앞으로 몇 번이나 더 그들을 도울 수 있을지 모르겠어요. 하지만 또 그런 일이 생기면 저를 찾아오세요.
+ch3_serpico_duty_1,당신 말이 맞아요. 이게 제 일이죠. 제대로 해낼게요.
+ch3_serpico_duty_2,마음에 들지 않더라도요.
+ch3_serpico_unsure_1,제가 하는 일이 옳은지 아직도 모르겠어요.
+ch3_serpico_unsure_2,그저... 밤마다 잠을 잘 수가 없어요.
+ch3_serpico_end,먹을 것 좀 살게요.
+ch3_soldier_1,또 만났군. 이번엔 주문량이 많아.
+ch3_soldier_2,여기 있는 약은 전부 가져가겠다.
+ch3_soldier_3,...그런 눈으로 보지 마. 상부의 명령이야.
+ch3_soldier_4,저 위에서 하는 말은… 여기 아래에서 벌어지는 일은 저절로 끝나게 두라는 거야.
+ch3_soldier_blood_1,"아, 대장님이 깨어나셨어요. 의사도 기적이라고 하더군요."
+ch3_soldier_blood_2,그런데 요즘 들어 그분은… 기운이 넘치십니다. 지나칠 정도로요.
+ch3_soldier_medicine_1,대장님은 아직 회복 중이십니다. 당신이 팔아 준 약은 잊지 않고 있어요.
+ch3_soldier_nothing_1,대장님은 결국 살아나지 못했습니다.
+ch3_soldier_nothing_2,…아무것도 아니에요. 그냥 한 말입니다.
+ch3_kyle_1,"어이, 사장. 여기선 뭐든 받는다며?"
+ch3_kyle_2,좋은 물건이 한 무더기 있어. 지금 아래층에서 제일 잘나가는 물건이지.
+ch3_kyle_3,*가방을 열자 파란 주사기가 가득 들어 있다*
+ch3_kyle_4,파란 주사기야. 상처를 낫게 하고 기운도 나게 해. 그 괴상한 병까지 고친다는 사람도 있지.
+ch3_kyle_5,다섯 개에 1500이야. 아래층에 팔면 적어도 두 배는 남길 거야.
+ch3_kyle_6,어때? 돈 벌기 쉽지?
+ch3_kyle_buy,전부 살게.
+ch3_kyle_buy_1,이래야 장사지! 더 생기면 다시 올게!
+ch3_kyle_no,그건 취급하지 않아.
+ch3_kyle_no_1,쳇. 좋은 물건을 알아보는 눈이 없군.
+ch3_georgio_found_open,친구! 조르지오가 별로 좋지 않은 소문을 들었어!
+ch3_georgio_found_1,친구! 조르지오가 알아냈어!
+ch3_georgio_found_2,이번엔 조르지오도 농담하는 게 아니야.
+ch3_georgio_found_3,"조르지오가 오랜 친구들을 많이 찾아가 물었는데, 모두 같은 이야기를 했어."
+ch3_georgio_found_4,"아주 오래전, 하층 사람들이 라이트하우스의 보급 비행선을 공격했대!"
+ch3_georgio_found_5,"그들은 비행선을 싹 털었고, 파란 주사기가 한 상자나 실려 있었다더군!"
+ch3_georgio_found_5b,"그 상자는 아래에서 몇 년 동안 사람들 손을 전전했지만, 아무도 감히 손대지 못했어. 그러다 최근에야 누군가 팔기 시작했지."
+ch3_georgio_found_kyle,"그 주사기 장수가 잡혀간 뒤로 아래에서 수많은 사람이 새 공급책을 찾고 있어. 친구, 이건 조르지오가 생각한 것보다 큰일이야!"
+ch3_georgio_found_6,"친구, 다음에 무슨 일을 하든 누구에게 말하든 잘 생각하게."
+ch3_jiang_relay_1,…어젯밤 위쪽에서 누군가 내려왔어요.
+ch3_jiang_relay_2,국장님이 건물 하나를 더 봉쇄 대상에 올리라고 했어요.
+ch3_jiang_relay_3,그 건물 사람들 대부분은 아프지도 않아요.
+ch3_jiang_relay_4,그 사람은… 나머지는 저절로 끝나게 두라고 했어요.
+ch3_jiang_relay_5,…이런 얘길 해서 미안해요. 술값은 제대로 낼게요.
+ch3_aurora_end_1,...봉쇄된 건물 안에 제 환자 몇 명이 살고 있어요.
+ch3_aurora_end_2,어제 약을 들여오려 했는데 거절당했어요.
+ch3_aurora_end_3,안에서 계속 소리가 들렸어요. 비명과 문 두드리는 소리…
+ch3_aurora_end_4,"그리고 한 가지 더요. 군인 한 명에게 들었는데, 어젯밤 누군가 탈출해서 군인들이 총을 몇 발 쐈대요."
+ch3_aurora_end_5,"그 사람은 쓰러졌고, 한참 뒤에… 다시 일어났어요."
+ch3_aurora_end_eleanor,집에 막 돌아온 남자에게서 시작됐다고 들었어.
+ch3_aurora_end_needle,그 건물 사람들 중 파란 주사기를 집에 둔 사람이 많았어.
+ch3_aurora_end_6,…우리가 실제로 맞서 싸우는 건 뭐지?
+station_door_leave,돌아가기
+station_door_wait,아직 검사를 기다리는 사람이 있어
+station_door_wait_line,아직 기다리는 사람들이 있어. 먼저 끝내야겠어.
+news_ch4_cordon_1,동부 봉쇄선 확대
+news_ch4_cordon_2,봉쇄선 확대
+news_ch4_cordon_3,"동부 구역의 봉쇄 주거 단지가 2주째에 접어들었다. 라이트하우스는 봉쇄선을 두 블록 바깥으로 넓히고, 주민들에게 중증 환자와 거리를 두라고 당부했다. 이상 징후가 보이면 즉시 방역 핫라인으로 신고하기 바란다."
+news_region_1,하층 전역 출입 통제
+news_region_2,지역 봉쇄
+news_region_3,"중증 환자의 확산을 막기 위해 라이트하우스와 치안 부서는 하층 전역을 출입 통제 구역으로 지정했다. 모든 입구에 검역소가 설치되며, 통과하는 사람은 누구나 검사를 받아야 한다."
+news_ch4_youda_custody_1,이송 중 구금된 연구원 사망
+news_ch4_youda_custody_2,연구원 사망
+news_ch4_youda_custody_3,며칠 전 구금된 연구원 위다는 어제 이송 도중 사망했다. 치안 당국에 따르면 그는 운송 차량 안에서 쓰러졌으며 병원에 도착하기 전 이미 숨진 상태였다. 사인은 조사 중이다.
+berserk_1,나… 하하하하…… 하하……
+berserk_2,열…어…… 열어… 하… 하하……
+berserk_3,너무… 뜨거워…… 안이…… 너무 뜨거워……
+berserk_4,……흐… 흐흐……
+berserk_5,너… 나를…… 보고 있네…… 하하하……
+berserk_6,아프지… 않아…… 전혀……
+berserk_7,집…… 집이…… 어디…… 하하……
+berserk_8,줄…… 서…… 하… 하하하하……
+berserk_9,누가…… 날 부르지…… 너야……?
+berserk_10,한 발……이면… 나아져…… 하하…… 한 발……
+berserk_arrest_1,라이트하우스 방역반입니다. 협조해 주세요.
+berserk_arrest_2,나… 하하하하…… 하하……
+berserk_arrest_3,협조하지 않습니다. 전기 충격을 가하십시오.
+berserk_arrest_4,아… 하… 하하하……
+berserk_arrest_5,...뭐야? 감전이 아무 효과도 없었어?
+berserk_arrest_7,*갑자기 대응 요원들에게 달려든다*
+berserk_arrest_8,"젠장, 물려고 해! 진정제! 당장!"
+berserk_arrest_10,...쓰러졌어.
+berserk_arrest_11,데려가겠습니다. 오늘 밤 일은 아무에게도 말하지 마십시오.
+station_ch4_jiang_1,오셨군요. 오늘은 사람이 참 많네요. 고맙습니다.
+station_ch4_jiang_2,늘 하던 대로예요. 아픈 사람이 나오면 버튼을 눌러 주세요.
+station_ch4_stop,잠깐—저 사람 뭔가 이상해요.
+station_ch4_after_1,…괜찮으세요?
+station_ch4_after_2,저 남자… 그런 건 처음 봤어.
+station_ch4_after_3,오늘은 여기까지. 귀가 후 휴식
+station_ch4_shen_1,…국장님? 오늘 밤엔 어쩐 일로 오셨어요?
+station_ch4_shen_2,상황을 보러 왔네. 오늘 오후 가게에서 일이 있었다고 들었어.
+station_ch4_shen_3,그 가게 주인이 자네군.
+station_ch4_shen_4,그 사람은 이미 광증 단계를 넘어섰어.
+station_ch4_shen_5,우린 그걸 광폭병이라고 부르네. 이 병의 마지막 단계지.
+station_ch4_shen_6,"이 단계에선 몸이 스스로 회복하지만, 사람은 돌아오지 않아. 고통도 피로도 느끼지 못하고 공격만 할 뿐이지."
+station_ch4_shen_7,그들에게 상처 입은 사람도 병에 걸려.
+station_ch4_shen_8,"치료법은 없어. 하층에서 중층, 상층으로 퍼지면… 역 전체가 이렇게 되고 말 거야."
+station_ch4_shen_9,이 아래 사람들이 우리를 뭐라고 하는지 알아. 자네가 동의할 필요는 없어.
+station_ch4_shen_10,그저 이 병이 하층에만 머물게 해야 해.
+station_ch4_shen_11,…국장님.
+station_ch4_shen_12,장즈안. 오늘부터 빨간 버튼을 사용한다.
+station_ch4_shen_13,…빨간 버튼을 누르면 대응 요원이 오는 게 아니야. 군대가 오지.
+station_ch4_shen_14,누르기 전에… 확실히 해.
+station_ch4_stay_1,…괜찮으세요?
+station_ch4_stay_2,*팔을 붙잡고 뒤집어 살펴본다*
+station_ch4_stay_3,오늘 오후 일은 들었어요. 그 사람이 건드렸나요? 긁혔어요? 물렸어요?
+station_ch4_stay_4,"…손, 목… 상처는 없네요."
+station_ch4_stay_5,…다행이에요. 무사하시네요. 정말 다행이에요.
+station_ch4_stay_6,…
+station_ch4_stay_7,"아, 죄, 죄송해요! 제가... 너무 가까이 갔어요..."
+station_ch4_stay_8,*황급히 떠난다*
+station_red_1,목표 확인
+station_red_2,…처리 완료. 다음.
+station_red_wrong_1,…아프지도 않았던 사람
+station_red_wrong_2,다음에는 누르기 전에 제대로 확인해.
+station_jiang_hint_goods,"그러고 보니 가게 물건은 보통 어디서 들여오지? …아니, 됐네. 다음에 묻지."
+ch3_aurora_ask,저기… 조금만 싸게 주실 수 있을까요? 진료소에 돈이 정말 없어요.
+ch3_aurora_ask_yes,승낙 · 반값
+ch3_aurora_ask_yes_1,...정말요? 고마워요. 이 은혜 잊지 않을게요.
+ch3_aurora_ask_no,죄송해요. 제가 운영하는 가게가 있어서요.
+ch3_aurora_ask_no_1,…알겠어요. 괜히 부탁드렸네요.
+ch3_jiang_hint_suit_1,"아, 그리고… 노란 방호복을 입은 남자가 이 가게에 온 적 있나요?"
+ch3_jiang_hint_suit_2,…아니에요. 그냥 물어본 거예요.
+ch3_jiang_hint_box_1,"…그 상자, 파는 건가요?"
+ch3_jiang_hint_box_2,…아니에요. 그냥 낯이 익어서요.
+ch4_eleanor1_wronged_1,…
+ch4_eleanor1_wronged_2,하룻밤 붙잡혀 있었어요. 아무것도 묻지 않고 다음 날 풀어 줬죠.
+ch4_eleanor1_passed,…그날 밤 우리를 들여보내 줘서 고마워요.
+ch4_eleanor1_reported_1,…저예요.
+ch4_eleanor1_reported_2,그날 밤 일로 당신을 탓하지 않아요. 당신이 틀린 건 아니었어요.
+ch4_eleanor1_open,…안녕하세요.
+ch4_eleanor1_1,우리 사람 넷이 봉쇄 구역 안에 있어요.
+ch4_eleanor1_2,라이트하우스는 누구도 드나들지 못하게 해요. 음식조차 철문을 통과해야 하죠.
+ch4_eleanor1_3,그 사람들은 모두 파란 주사를 맞았어요. 적어도… 당분간은 버틸 수 있을 거예요.
+ch4_eleanor1_passed_2,막 집에 돌아온 사람이 시작이었다고 들었어요. …누군지 알아요.
+ch4_eleanor1_4,음식과 약을 좀 구하고 싶어요. 그들에게 최대한 많이 넣어 주려고요.
+ch4_captain1_1,오랜만이군.
+ch4_captain1_2,얼마 전에 다쳐서 한동안 누워 있었어. 이제 돌아왔네.
+ch4_captain1_blood_1,내 병사에게 수혈팩을 팔아 준 게 자네라고 들었어.
+ch4_captain1_blood_2,…그 약효가 대단하더군. 사흘 만에 침대에서 일어났어. 빚을 졌네.
+ch4_captain1_medicine,그때 도와줬다고 들었어. 고맙네.
+ch4_captain1_3,이제 동부 단지 주변 봉쇄선을 지휘하고 있어.
+ch4_captain1_4,"부하들이 지쳐 가고 있어. 밤마다 건물에서 소리가 들려. 두드리고, 외치고, 울고."
+ch4_captain1_5,누군가 문 너머로 애원했어. 안에 아프지 않은 아이들이 있다고 하더군.
+ch4_captain1_6,난 명령을 따를 뿐이야.
+ch4_captain1_7,…하지만 이번엔 모르겠어.
+ch4_captain1_8,병사들이 안에 있는 이들도 아직 사람이라고 할 수 있느냐고 물었어. 대답할 수 없었지.
+ch4_captain1_b_1,안녕하세요. …저를 기억하세요?
+ch4_captain1_b_2,대장님이 돌아가신 뒤 제가 그 자리를 맡았어요.
+ch4_captain1_b_7,대장님은 늘 말씀하셨죠. 명령만 따르면 된다고.
+ch4_captain1_b_8,…하지만 이번엔 그래야 하는지 모르겠어요.
+ch4_captain1_end,탄약을 좀 팔아 주십시오. 쓸 일이 없길 바랍니다.
+ch4_jiang1_1,좋은 아침이에요. 오늘은 물건 사러 온 게 아니에요.
+ch4_jiang1_2,신문을 보셨겠죠. 이번엔 건물 하나가 아니라 지역 전체예요.
+ch4_jiang1_3,모든 입구에서 검사를 해야 해요. 새벽부터 사람들이 줄을 섰는데 아직도 끝이 안 보여요.
+ch4_jiang1_4,오늘 밤… 정말 도움이 필요해요.
+ch4_jiang1_5,갑작스러운 부탁이라 미안해요. 그럼 오늘 밤에 봬요.
+ch4_jiang1_6,*황급히 떠난다*
+ch4_jiang3_1,또 저예요.
+ch4_jiang3_2,두 번째예요. 지난번보다 줄 선 사람이 훨씬 많아요.
+ch4_jiang3_3,지난번 그 남자… 아직 조사 중이에요.
+ch4_jiang3_4,오늘 밤에도 부탁드려요.
+ch4_jiang3_5,*황급히 떠난다*
+ch4_georgio_1,친구! 조르지오가 또 왔다네!
+ch4_georgio_2,하층에 소문이 돌고 있어. 내 친구도 들었나?
+ch4_georgio_3,"검역소 환자가 전기 충격을 두 번 맞고도 쓰러지지 않았고, 흰 방호복을 입은 사람의 귀를 거의 물어뜯을 뻔했대!"
+ch4_georgio_4,조르지오는 썩 믿지는 않네. 그래도 여러 사람이 같은 말을 하고 있다네.
+ch4_georgio_5,"아, 그리고 친구가 조르지오에게 알아봐 달라고 한 일 말인데, 조르지오가 더 알아냈어."
+ch4_georgio_6,오래전 라이트하우스 비행선을 습격한 사람들은 혁명군이었어. 그때는 수가 적었지만 같은 무리야.
+ch4_georgio_7,파란 주사기 상자는 줄곧 그들에게 있었어. 최근에야 누군가 밖으로 가져오기 시작한 거지.
+ch4_georgio_8,친구가 자주 만나는 그 혁명군 여자 말이야. 조르지오 생각엔 그녀는 모르는 것 같아. 어디까지나 추측이야!
+ch4_georgio_needle_1,…아.
+ch4_georgio_needle_2,"내 친구가 가진 그거 말인데, 조르지오가 맡을게. 조르지오가 준 건 조르지오가 거둬 가야지."
+ch4_georgio_needle_3,*파란 주사기를 가져간다*
+ch4_georgio_end,좋아! 조르지오는 두드려 볼 문이 더 있어!
+ch4_aurora_1,오랜만
+ch4_aurora_2,진료소가 문을 닫았어요. 라이트하우스는 격리 장비가 없는 곳에선 중증 환자를 받을 수 없다고 하네요.
+ch4_aurora_3,그래서 이제 집에서 환자들을 봐요. …아무에게도 말하지 마세요.
+ch4_aurora_notes_1,며칠 전 음흉한 늙은이가 찾아와 이것저것 캐물었어요.
+ch4_aurora_notes_1b,파란 주사기에 대해 알아보고 다닌다고 하더군요.
+ch4_aurora_notes_1d,지난번에 좋은 가격을 줬지. 잊지 않았어.
+ch4_aurora_notes_1c,나… 수첩이 있어.
+ch4_aurora_notes_2,*낡은 수첩을 계산대 위에 놓는다*
+ch4_aurora_notes_3,나중에는 이미 광폭증에 걸린 환자를 맡았어요. 전기 충격도 소용없는 환자였죠. 가족들이 묶어서 데려왔어요.
+ch4_aurora_notes_4,잠들게 한 뒤 매일 파란 주사기를 조금씩 놨어요. 한 번에 하나를 전부 주사하진 않았죠.
+ch4_aurora_notes_5,7일째 되는 날 그가 깨어났어요. …딸의 이름을 말할 수 있었어요.
+ch4_aurora_notes_6,"완전히 낫진 않았어요. 아직 떨고, 아무 이유 없이 웃기도 해요. 그래도 2단계로 돌아왔죠."
+ch4_aurora_notes_7,세 사람에게 시험해 봤어요. 셋 다 결과는 같았어요. 낫게 하진 못해도… 여전히 사람으로 남아 있어요.
+ch4_aurora_notes_8,…일단 여기에 맡겨 둬. 사람들이 모두 네 가게를 거치니까.
+ch4_aurora_none,아픈 사람에게 긁힌 뒤 한동안 지나면 이상하게 행동하기 시작해요. 아직 확실하진 않아요.
+ch4_aurora_end,무슨 약이든 있는 대로 살게요.
+ch4_jiang2_1,오늘 잠깐 얘기할 수 있을까요? 음료 한 잔만요.
+ch4_jiang2_2,전에 노란 방호복을 입은 남자가 이곳에 왔는지 물었죠.
+ch4_jiang2_3,…그가 왔다는 걸 알고 있었어요. 직접 봤거든요. 두 번이나요.
+ch4_jiang2_4,이름은 위다였어요. 같은 연구실에서 일했죠.
+ch4_jiang2_5,파란 주사기는 그때 우리가 만든 거예요. 다친 사람을 낫게 하려던 건데… 이렇게 돼 버렸죠.
+ch4_jiang2_6,아시모프도요. 병의 진행을 늦추지만 치료하진 못해요.
+ch4_jiang2_7,위다는 라이트하우스가 하층을 그냥 버리게 둘 수 없다고 했어요. 그래서 도망치면서 물건 몇 가지를 가져갔죠.
+ch4_jiang2_dead,나중에… 환기구에서 그를 발견했어요. 마지막으로 한 번 보지도 못했어요.
+ch4_jiang2_caught,나중에 그를 붙잡았어요. …이송 중에 죽었어요.
+ch4_jiang2_gone,그 뒤로는 아무 소식도 없었어요.
+ch4_jiang2_8,그가 마지막으로 목격된 곳은 여기예요.
+ch4_jiang2_9,그가 라이트하우스에서 빠져나오도록 도운 건… 저였어요. 라이트하우스는 몰라요.
+ch4_jiang2_10,그래서 대놓고 물어볼 수가 없었어요.
+ch4_jiang2_11,그가… 여기에 뭔가 맡기고 가지 않았나요?
+ch4_jiang2_yes,그랬어요.
+ch4_jiang2_yes_1,…그랬군요.
+ch4_jiang2_yes_2,말해 줘서 고마워요. 지금 꺼내 오지 않아도 돼요.
+ch4_jiang2_yes_3,때가 되면 제가 가지러 올게요.
+ch4_jiang2_no,아니요.
+ch4_jiang2_no_1,…알겠어요.
+ch4_jiang2_no_2,혹시 뭔가 기억나면 말해 줘요.
+ch4_jiang2_end,"미안해요, 말이 많았네요. 음료값은 제대로 낼게요."
+ch4_eleanor2_1,…안녕.
+ch4_eleanor2_2,지난달 우리 거리의 한 남자가 열이 났어요. 격리 구역으로 데려갔죠.
+ch4_eleanor2_3,"그의 딸은 매일 격리 구역 밖에 가서 기다려요. 아침부터 해 질 때까지, 말없이."
+ch4_eleanor2_4,어제 그곳에서 나온 사람이 있었어요. 입구에 모래주머니를 쌓기 시작했대요. 사람들을 막으려는 게 아니라… 안에 있는 사람들이 못 나오게 하려고요.
+ch4_eleanor2_comrade,"내 동지도 거기 있어요. 그날 밤 당신이 버튼을 눌렀을 때, 적어도 치료받겠구나 생각했어요."
+ch4_eleanor2_5,하층 사람들은 라이트하우스가 그 구역을 포기하려 한다고 해요. 문을 봉쇄하고 나면 안에 있는 사람들은… 끝이에요.
+ch4_eleanor2_6,당신은 검역소에 자주 있잖아요. 흰 옷 입은 사람들과 얘기할 수 있어요.
+ch4_eleanor2_7,한 번만 물을게요.
+ch4_eleanor2_8,라이트하우스는… 그들을 죽게 내버려 둘 건가요?
+ch4_eleanor2_shen,라이트하우스 국장이 이렇게 말하는 걸 들었어요… “저절로 끝나게 둬.”
+ch4_eleanor2_shen_1,…
+ch4_eleanor2_shen_2,…그렇군요.
+ch4_eleanor2_shen_3,내가 괜한 상상을 한다고 계속 스스로를 달랬어요.
+ch4_eleanor2_shen_4,사실대로 말해 줘서 고마워요. 이런 얘기를 해 줄 사람은 당신뿐일 거예요.
+ch4_eleanor2_unknown,모르겠어요.
+ch4_eleanor2_unknown_1,…음.
+ch4_eleanor2_unknown_2,그럴 리 없죠. 그런 말은 당신에게 하지 않았을 거예요.
+ch4_eleanor2_defend,라이트하우스도 노력하고 있어요. 당신이 생각하는 그런 곳은 아니에요.
+ch4_eleanor2_defend_1,…노력한다고요?
+ch4_eleanor2_defend_2,노력한다면 왜 단 한 명도 돌아오지 않았죠?
+ch4_eleanor2_defend_3,거기 오래 있더니 이제 그들 편을 드는군요.
+ch4_eleanor2_defend_4,…됐어요.
+ch4_eleanor2_ship,한 가지 더… 그때 라이트하우스 비행선을 습격한 건 혁명군이었나요?
+ch4_eleanor2_ship_1,…비행선?
+ch4_eleanor2_ship_2,제가 들어오기 전 일이에요. 고참들이 말하는 걸 들었을 뿐이에요.
+ch4_eleanor2_ship_3,그 파란 주사기들을 말하는 거지...
+ch4_eleanor2_ship_4,…내가 알아볼게.
+ch4_eleanor2_ship_5,"그게 사실이라면, 그 주사기를 빼돌려 판 놈들을 가만두지 않을 거야."
+ch4_eleanor2_ship_no,아무것도 아니야.
+ch4_eleanor2_end,약값은 제값을 치를게. …이야기 들어줘서 고마워.
+ch4_shop_berserk_1,하... 하하...... 여...어.........
+ch4_shop_berserk_2,나... 사고......... 싶어............ 하하하하......
+ch4_shop_berserk_3,그 여자가... 주사 한 대만......... 맞으면... 나아질 거라고...... 했어......
+ch4_shop_berserk_4,더워............ 너무... 더워... 하하.........
+ch4_shop_berserk_5,너......... 날......... 보고 있지...... 히히......
+ch4_shop_berserk_think,(저건 광폭증이잖아… 신고해야겠어.)
+ch4_shop_berserk_sec_1,…젠장
+ch4_shop_berserk_sec_2,이런 부류까지 거리로 나옴… 심각한 상황
+ch4_shop_berserk_sec_3,"*밖에 있는 병사들에게* 끌고 가기, 바닥 청소"
+ch4_shop_berserk_sec_4,그자는 우리가 데려가겠다.
+ch4_berserk_guide_1,광폭증입니다. 마지막 단계입니다. 더는 사람이 아닙니다.
+ch4_berserk_guide_2,이걸 가지고 있어. 구별하는 법이 적혀 있어.
+ch4_berserk_guide_3,또 이런 자를 보면 유리창은 닫아 둔 채 방역 핫라인에 전화해.
+shop_berserk_sec_1,…또 한 명
+hotline_berserk_1,알겠습니다. 지금 그분이 어떤 상태인지 설명을—
+hotline_berserk_dispatch_1,알겠습니다. 그런 부류군요... 지금 사람을 보내겠습니다.
+hotline_berserk_dispatch_2,그에게서 떨어져 계십시오.
+berserk_lunge_1,…으으……
+berserk_lunge_2,아아아아악!!!!
+berserk_saved_1,…아슬아슬한 순간
+phone_wait,잠시만 기다려 주세요.
+berserk_saved_2,괜찮나?
+shop_berserk_sec_2,그자는 우리가 데려간다.
+ch4_serpico_1,오랜만입니다.
+ch4_serpico_2,어제 봉쇄선에서 새 명령을 받았습니다.
+ch4_serpico_3,“봉쇄선을 넘으려는 자는 사살하라.”
+ch4_serpico_4,종이 한 장에 적힌 한 줄. 그게 전부였습니다.
+ch4_serpico_ally_1,관할서 동료들과 합의했습니다. 정말 누가 달려들면 쏘지 않고 제압하기로요. 기록에 남아도 감수하겠습니다.
+ch4_serpico_ally_2,그쪽에서 도움이 필요하면 말씀만 하십시오.
+ch4_serpico_duty_1,명령을 따르겠습니다. 그게 제 일이니까요.
+ch4_serpico_duty_2,…그저 정말 아무도 우리에게 달려들지 않기만 바랍니다.
+ch4_serpico_ask,제가 어떻게 해야 한다고 생각하십니까?
+ch4_serpico_orders,명령을 따라.
+ch4_serpico_orders_1,…그래야겠군.
+ch4_serpico_dont,쏘지 마.
+ch4_serpico_dont_1,...예. 저도 그렇게 생각합니다.
+ch4_serpico_end,먹을 것 좀 사겠습니다.
+ch4_captain2_1,또 만났군.
+ch4_captain2_2,밖에서는 그날 일이 “병사가 가게에서 환자를 죽였다”로 알려졌더군.
+ch4_captain2_3,해명할 생각은 없다. 당신도 직접 봤잖아. 그자는 더는 환자가 아니었어.
+ch4_captain2_4,우리가 쏘지 않았다면 바닥에 쓰러진 건 당신이었을 거다.
+ch4_captain2_5,…한 가지 더 있다. 원래 당신에게 말해선 안 되는 건데.
+ch4_captain2_6,상부의 명령이다. 며칠 뒤 격리 구역의 경비를 철수시키고 출입구를 봉쇄한다.
+ch4_captain2_7,안에는 아직 사람들이 있어. 라이트하우스는 그들이 “더는 손쓸 수 없는 상태”라고 하더군.
+ch4_captain2_8,"오랫동안 군인으로 살았지만, 명령을 따르고 싶지 않은 건 처음이다."
+ch4_captain2_b_8,"대장님이 아직 살아 계셨다면, 그분도 이 명령을 따르지 않으셨을 것 같군."
+ch4_captain2_refuse,거부할 수도 있어.
+ch4_captain2_refuse_1,…말은 쉽지.
+ch4_captain2_refuse_2,그래도 고맙다. 적어도 누군가는 그렇게 말해 줬으니.
+ch4_captain2_silent,(아무 말도 하지 않는다)
+ch4_captain2_silent_1,…아무 말도 하지 않은 걸로 해.
+ch4_captain2_end,부하들에게 줄 음식 좀.
+ch4_kyle_1,또 나야.
+ch4_kyle_2,요즘 장사가 힘들어. 공급처에서 재고를 직접 봉인했어. “더는 팔지 말라”나 뭐라나.
+ch4_kyle_3,내가 가진 건 이게 마지막이야. 5개에 1200이면 거저나 다름없지.
+ch4_kyle_4,"지금 바깥 상황을 보면, 이건 값이 오르기만 할 거야."
+ch4_kyle_buy,전부 살게.
+ch4_kyle_buy_1,이래야 장사지! 이게 마지막이야. 이제는 구하고 싶어도 못 구해.
+ch4_kyle_no,관심 없음
+ch4_kyle_no_1,쯧 · 마음대로 하라는 말
+ch4_eleanor3_1,…안녕하세요.
+ch4_eleanor3_2,들었죠? 군인들이 환자 한 명을 쏴 죽였어요.
+ch4_eleanor3_3,"바로 여기, 당신 가게에서요."
+ch4_eleanor3_4,"그리고 격리 구역의 경비병들을 철수시키고 있어요. 저 문들이 봉쇄되면, 안에 있는 사람은 누구도 영영 나오지 못해요."
+ch4_eleanor3_shen,당신이 한 말을 계속 생각했어요. “저절로 끝나게 둬.”
+ch4_eleanor3_5,우린 충분히 오래 기다렸어요.
+ch4_eleanor3_6,"오늘은 아무것도 사지 않을 거고, 당신에게 뭘 부탁하러 온 것도 아니에요."
+ch4_eleanor3_7,"그냥... 앞으로 무슨 일이 일어나든, 문간에 서 있지 마세요."
+ch4_eleanor3_8,*돌아서서 떠난다*
+item_berserk_guide_1,광폭증 식별 안내서
+item_berserk_guide_2,라이트하우스 군인이 두고 간 광폭증 식별 안내서.
+berserk_guide_title,광폭증 식별 안내서
+berserk_guide_sign_eyes,"잿빛 피부, 검게 도드라진 혈관"
+berserk_guide_sign_cheeks,충혈된 눈
+berserk_guide_sign_rash,입과 턱에 묻은 피
+berserk_guide_nonvisual,-말이 끊기고 횡설수설함\n-이유 없이 웃음\n-말을 알아듣지 못함\n-덥다는 말을 계속함\n\n*즉시 방역 핫라인에 신고할 것. 유리창을 열지 말 것.
+item_aurora_notes_1,오로라의 진료 기록
+item_aurora_notes_2,"작은 글씨로 빼곡히 적힌 낡은 공책. 환자마다 이름과 발병일, 투여한 것, 악화된 시점이 기록되어 있다. 마지막 몇 장에는 동그라미 친 메모가 여럿 있다. “광폭증 환자 세 명: 계속 재움, 파란 주사기를 매일 조금씩 투여, 절대 한 개를 전부 쓰지 않음 -> 7일째 깨어남, 2단계로 돌아옴. 세 명 모두 동일.”"
+news_ch5_seal_1,하층 전면 봉쇄
+news_ch5_seal_2,전면 봉쇄
+news_ch5_seal_3,"라이트하우스는 오늘부터 5일간 하층 구역을 전면 봉쇄합니다. 모든 출입구에 검역소를 설치하며, 이송이 완료되는 대로 격리 구역을 폐쇄합니다. 주민들은 실내에 머물러 주시고, 이상 징후를 발견하면 즉시 방역 핫라인으로 전화해 주시기 바랍니다."
+ch5_jiang1_1,그냥... 먹을 것 좀 주세요. 지난 며칠 동안 거의 못 먹었어요.
+ch5_jiang1_2,격리 구역을 폐쇄한대요. 위에서는 물자를 빼낸 뒤 안에 있는 사람을 전부 “처리”하라고 했어요.
+ch5_jiang1_3,어느 단계든 상관없이요.
+ch5_jiang1_4,그게 유일한 방법이라고는 믿지 않아요. 초기 단계인 사람들은 회복할 수 있을 거예요. 광폭화한 사람들도… 어쩌면 돌아올 수 있을지 몰라요.
+ch5_jiang1_5,선 국장을 설득하고 싶어요. 하지만 제게는 ‘그럴 것 같아요’라는 말뿐이에요.
+ch5_jiang1_6,"증거가 필요해요. 선 주임도, 그 위의 누구도 거부할 수 없는 무언가가요."
+ch5_jiang1_7,"...죄송해요, 이런 얘기를 떠넘겨서. 이 가게엔 온갖 사람이 드나드니까요. 뭐라도 들으면 알려 주세요."
+ch5_jiang1_buy,"...아, 음식이요. 아무거나 괜찮아요."
+ch5_georgio1_1,친구여! 조르지오가 소식을 가져왔다네.
+ch5_georgio1_2,요즘 암시장에서 누군가 라이트하우스 신분증을 돌리고 있다. 한 폐품 수집꾼이 주웠다더군.
+ch5_georgio1_3,조르지오가 살펴봤지. 거기 찍힌 표식이 친구 가게에 있는 물건과 아주 닮았더군.
+ch5_georgio1_4,"친구 가게에 열리지 않는 파란 상자가 있지 않나? 흐흐, 조르지오는 뭐든 다 안다."
+ch5_georgio1_5,그런 상자는 연구원 카드로 여는 거라더군. 하지만 여는 법은 조르지오도 모른다네!
+ch5_georgio1_6,조르지오가 그 카드를 친구 대신 되찾아다 줄까?
+ch5_georgio1_yes,부탁해.
+ch5_georgio1_yes_1,친구를 위해서라면 조르지오가 해 주지! 하지만 결코 작은 부탁은 아니라네.
+ch5_georgio1_yes_2,이 일이 다 끝나면 조르지오가 뭘 부탁할지 곰곰이 생각해 보겠네. 헤헤!
+ch5_georgio1_yes_3,조르지오에게 며칠만 주게.
+ch5_georgio1_no,지금은 됐어.
+ch5_georgio1_no_1,문제없네! 하지만 암시장 물건은 금세 주인이 바뀐다네. 마음이 바뀌면 서둘러 말해 주게!
+ch5_captain1_1,사장.
+ch5_captain1_2,"결정이 났어. 격리 구역은 폐쇄된다. 그 전에 우리 부대가 연구 기록과 샘플, 약품을 반출한다."
+ch5_captain1_3,그다음엔... 부대가 들어가 감염자를 전부 “처리”한다. 어느 단계든 상관없이.
+ch5_captain1_persuaded,...지난번에 네가 한 말을 생각해 봤다. 그래도 난 가야 해.
+ch5_captain1_4,"문이 닫히고 나면, 안에 있는 사람들이 어떻게 되든 내 알 바 아니야."
+ch5_captain1_5,...계속 그렇게 되뇌고 있어.
+ch5_captain1_b_1,"사장. 대장이 없으니, 이번엔 내가 부대를 이끈다."
+ch5_captain1_b_4,"명령은 명령이다. 문이 닫히고 나면, 안에 있는 사람들은 우리 알 바가 아니다."
+ch5_captain1_end,탄약 좀.
+ch5_georgio2_1,친구! 조르지오가 돌아왔다네! 이번엔 좋은 소식도 가져왔지!
+ch5_georgio2_2,조르지오가 가판대를 몇 군데나 돌고 오랜 친구들에게 모조리 물어본 끝에 마침내 찾아냈다네!
+ch5_georgio2_3,*라이트하우스 신분증을 카운터에 올려놓는다*
+ch5_georgio2_4,판매자는 이게 뭔지도 전혀 모르더군. 조르지오가 아주 좋은 가격에 구했지!
+ch5_georgio2_5,하지만 이런 카드를 어떻게 쓰는지는 조르지오도 모르네. 친구는 라이트하우스 사람들을 좀 알지 않나? 그들에게 물어보게!
+ch5_georgio2_6,그리고 기억해 두게. 조르지오는 이번 일도 장부에 적어 둘 테니! 헤헤!
+ch5_eleanor_1,사장님.
+ch5_eleanor_2,"격리 구역이 폐쇄되는 날 밤, 우린 안으로 들어갈 거야."
+ch5_eleanor_comrade,내 동료도 거기 있어.
+ch5_eleanor_asimov,네가 준 주사 덕분에 우리 동료가 살아 돌아왔어. 격리 구역엔 분명 더 있을 거야.
+ch5_eleanor_passed,그날 밤 넌 내 동료를 통과시켜 줬어. 이번엔 안에 있는 사람들도 내가 데리고 나올 거야.
+ch5_eleanor_shen,“저절로 끝나게 둬” — 난 그렇게 끝나게 두지 않겠어.
+ch5_eleanor_3,그들은 안에 있는 사람들을 전부 죽일 거야. 매일 밖에서 기다리는 그 여자아이… 아버지를 데리고 나오겠다고 약속했어.
+ch5_eleanor_ask_1,너도 검역소에 있었잖아. 교대 사이의 빈틈... 알고 있지?
+ch5_eleanor_ask_2,언제 경비가 가장 허술한지 알려 줘.
+ch5_eleanor_tell,교대 시간 사이의 빈틈을 알려 줘.
+ch5_eleanor_tell_1,...고마워. 이 은혜는 잊지 않을게.
+ch5_eleanor_refuse,말해 줄 수 없어.
+ch5_eleanor_refuse_1,...이해해. 너도 나름의 사정이 있겠지.
+ch5_eleanor_distant_1,뭘 부탁하러 온 건 아니야. 부탁해도 넌 들어주지 않을 테니까.
+ch5_eleanor_end,그날 밤은 안에 있어.
+ch5_eleanor_buy,…그리고 의료 물자도 좀 줘. 그날 밤엔 분명 누군가 다칠 테니까.
+ch5_serpico_1,사장님.
+ch5_serpico_2,"격리 구역이 폐쇄되는 날 밤, 관할서에서 역에 있는 라이트하우스를 지원할 사람들을 보내요. 저도 명단에 올랐어요."
+ch5_serpico_3,명령은 그날 밤 누구를 보든 라이트하우스에 넘기라는 거예요.
+ch5_serpico_ally,...전에 말씀드린 대로예요. 총은 쏘지 않을 거예요. 누가 오더라도 무사히 빠져나가게 할 방법을 찾을게요.
+ch5_serpico_duty,"...명령은 따를 거예요. 하지만 오는 사람이 싸우려는 게 아니라면, 먼저 할 말을 들어 주고 싶어요."
+ch5_serpico_unsure,...그날 밤 제가 어떻게 할지 아직도 모르겠어요.
+ch5_serpico_ask,"...그날 밤, 사장님은요?"
+ch5_serpico_reply_tell,때가 되면 알려 줄게.
+ch5_serpico_reply_tell_1,...알겠습니다. 연락 기다릴게요.
+ch5_serpico_reply_dunno,...나도 모르겠어.
+ch5_serpico_reply_dunno_1,...그렇군요.
+ch5_serpico_end,먹을 것 좀 살게요.
+ch5_jiangask_1,오늘 밤 주임이 검역소에 와요.
+ch5_jiangask_2,격리 구역 일로 다시 한번 얘기해 보고 싶어요. ...저 혼자 말해 봐야 듣지 않을 거예요.
+ch5_jiangask_3,와서 도와주실 수 있을까요? 오늘 밤 검역소로요.
+ch5_jiangask_yes,알았어. 갈게.
+ch5_jiangask_yes_1,...고마워요. 그럼 오늘 밤에 봬요.
+ch5_jiangask_no,오늘 밤은 안 돼.
+ch5_jiangask_no_1,...그렇군요. 괜찮아요. 혼자 해 볼게요.
+station_ch5_shen_1,격리 구역 건은 이미 결정됐다.
+station_ch5_shen_2,"국장님, 그 안에는 아직 1단계나 2단계에 불과한 사람이 많습니다—"
+station_ch5_shen_3,알고 있다.
+station_ch5_shen_4,그럼 왜—
+station_ch5_shen_5,"그들을 구할 수 있다는 증거가 없기 때문이다. 그저 ""가능성""만 있을 뿐이지."
+station_ch5_shen_6,"윗선은 ""가능성""만 믿고 하층 전체를 위험에 빠뜨리진 않아."
+station_ch5_shen_7,...제가 증거를 가져온다면요?
+station_ch5_shen_8,그럼 가져와라. 문이 닫히기 전에.
+ch5_captain2_1,모레 밤에 출동한다.
+ch5_captain2_2,"...하층이 뒤숭숭해. 여기엔 사람들이 드나드니, 뭔가 들은 거 없나?"
+ch5_captain2_tell,혁명군이 그날 밤 격리 구역을 습격할 거야.
+ch5_captain2_tell_1,...확실해?
+ch5_captain2_tell_2,...알았다. 보고하지.
+ch5_captain2_tell_3,고마워.
+ch5_captain2_quiet,아무것도 아니다.
+ch5_captain2_quiet_1,그런가. 다행이군.
+ch5_captain2_end,평소대로 탄약.
+ch5_jiang2_relay_1,어젯밤 국장님이 검역소에 왔어요.
+ch5_jiang2_relay_2,격리 구역 건은 이미 결정됐다고 했어요. 그 안에 아직 1단계나 2단계에 불과한 사람이 많다는 것도 알고 있고요.
+ch5_jiang2_relay_3,"하지만 그들을 구할 수 있다는 증거는 아무것도 없어요. 그저 ""가능성""뿐이죠. 윗선은 ""가능성"" 하나 때문에 하층 전체를 위험에 빠뜨리지 않을 거예요."
+ch5_jiang2_relay_4,증거를 가져오면 어떻겠냐고 물었어요. 그랬더니 이렇게 말하더군요. ‘그럼 가져와라. 문이 닫히기 전에.’
+ch5_jiang2_seen_1,"저기요. 어젯밤 국장님이 하신 말, 들었죠."
+ch5_jiang2_ask_1,다시 주임을 찾아가고 싶어요... 하지만 설득할 만한 게 부족해요.
+ch5_jiang2_ask_2,여기 뭐 없을까요... 뭐든 제게 줄 수 있는 거요?
+ch5_jiang2_give,장즈안에게 카드와 샘플 케이스 건네기
+ch5_jiang2_nothing,아무것도 없어요.
+ch5_jiang2_nothing_1,...그렇군요. 괜찮아요. 다른 방법을 생각해 볼게요.
+ch5_jiang2_2,"…이 카드, 위다 거예요?"
+ch5_jiang2_3,그리고 저 파란 상자... 연구실 샘플 케이스예요.
+ch5_jiang2_4,그런 케이스는 카드 한 장만으로는 열 수 없어요. 연구원 카드와 연구실 암호가 모두 필요해요.
+ch5_jiang2_5,코드는... 알아요. 저희는 같은 걸 썼거든요.
+ch5_jiang2_6,*카드를 받아 상자의 키 몇 개를 누른다*
+ch5_jiang2_7,...열렸어요.
+ch5_jiang2_8,이건... 완성된 아시모프인가? 그리고... 위다의 필체군.
+ch5_jiang2_9,...그는 내게 아무 말도 하지 않았어. 그래서 떠난 거였군.
+ch5_jiang2_10,이게 제게 필요했던 증거예요. 내일 국장님을 모셔 올게요.
+ch5_jiang2_11,이걸 입증할 만한 게 더 있다면 그것도 준비해 주세요.
+ch5_jiang2_buy,"…아, 그리고 먹을 것도 좀 주세요. 문이 닫힐 때까지 버텨야 해요."
+ch5_shen_1,국장님을 모셔 왔습니다.
+ch5_shen_2,장 씨 말로는 제게 보여 줄 게 있다더군요.
+ch5_shen_give,상자 안에 있던 것을 그에게 건넨다.
+ch5_shen_give_1,...완성된 아시모프. 그리고 위다의 필체군.
+ch5_shen_give_2,윗선은 처음부터 이걸 만들 수 있다는 걸 알고 있었군.
+ch5_shen_refuse_1,…그게 다인가?
+ch5_shen_refuse_2,약 하나와 종이 쪼가리 하나로는 아무것도 바뀌지 않아. 사살 명령은 유효하다.
+ch5_shen_short_1,...이게 진짜라 해도 1단계나 2단계 환자만 살릴 수 있어.
+ch5_shen_short_2,이미 광폭화한 이들은 어쩌지? 그들에게는 사살 명령이 내려졌어.
+ch5_shen_nurse_1,…수첩도 하나 있어요. 하층 진료소의 간호사가 쓴 거예요.
+ch5_shen_nurse_2,*수첩을 받아 한 장씩 읽는다*
+ch5_shen_nurse_3,"…‘광폭화 환자 세 명. 재운 채로 파란 주사제를 매일 조금씩 투여하되, 한 개를 통째로 쓰지 말 것. 7일째에 깨어났으며 2단계로 회복.’"
+ch5_shen_nurse_3b,“세 명 모두 동일함.”
+ch5_shen_nurse_3d,…그리고 2단계라면 아시모프로 살릴 수 있어.
+ch5_shen_nurse_3c,......
+ch5_shen_nurse_4,…이것들은 내가 가져가지. 생각해 보겠다.
+ch5_shen_nurse_5,감사합니다.
+ch5_shen_nurse_6,"구역이 폐쇄되는 날 밤, 검역소로 오게. 하층 사람들은 자네를 알아. 자네 말이라면 들을 거야."
+ch5_shen_nurse_known,하지만 군은 이미 혁명군이 그날 밤 온다는 걸 알아요… 그날 밤은 국장님의 손을 벗어났어요. 가지 마세요.
+ch5_shen_notes_5,…고마워요. 정말로요.
+ch5_shen_short_3,국장님…
+ch5_shen_none,당신에게 줄 건 없어.
+ch5_shen_none_1,…시간 낭비였군.
+ch5_shen_none_2,…죄송해요.
+station_ch5_night_jiang_1,오셨군요.
+station_ch5_night_jiang_2,사살 명령이 철회됐어요. 안에 있는 사람들은 새 방법으로 치료받기 시작했어요.
+station_ch5_night_jiang_3,그 사람들이 이쪽으로 올 거예요. …믿고 맡길게요.
+station_ch5_night_eleanor_1,…당신? 여기서 뭐 하는 거야?
+station_ch5_night_player_1,"방침이 바뀌었어. 사살 명령은 철회됐고, 안에 있는 사람들은 치료받을 거야."
+station_ch5_night_eleanor_2,…나더러 라이트하우스를 믿으라고?
+station_ch5_night_player_2,라이트하우스가 아니야. 나야.
+station_ch5_night_eleanor_3,...
+station_ch5_night_player_go,세르피코. 지금
+station_ch5_night_serpico_1,사장님을 믿으세요.
+station_ch5_night_serpico_1b,저는 세르피코입니다. 사장님의 친구예요.
+station_ch5_night_serpico_2,저를 따라 다른 길로 나가세요. 모두 무사할 겁니다.
+station_ch5_night_serpico_2b,서두르세요. 누가 우릴 보면 전 큰일 납니다.
+station_ch5_night_eleanor_seen_1,…알았어. 모두에게 철수하라고 할게.
+station_ch5_night_eleanor_seen_2,…고마워.
+station_ch5_night_soldier_1,멈춰! 혁명군인가?
+station_ch5_night_soldier_2,생포하라는 명령이다. 저 여자를 데려가.
+station_ch5_night_eleanor_caught_1,…이번 한 번은 널 믿을게. 후회하게 만들지 마.
+station_ch5_night_jiang_end,…끝났어요. 감사합니다.
+station_ch5_night_alarm_1,동문이다! 누군가 뚫고 들어왔어!
+station_ch5_night_alarm_2,...동쪽이요? 거긴 지금 교대 중인데—
+station_ch5_night_alarm_3,여기 있어!
+news_ch5_best_1,"하층부, 경계 완화로 복귀"
+news_ch5_best_2,통제 완화
+news_ch5_best_3,"라이트하우스가 격리 구역 소거 명령을 철회했으며, 감염자들은 단계에 따라 치료받게 됩니다. 어젯밤 혁명군이 구역 밖에 집결했지만 충돌은 없었고 부상자도 발생하지 않았습니다. 오늘부터 하층부의 경계가 완화됩니다."
+news_ch5_rev_saved_1,"혁명군, 격리 구역 침입… 사망자 없어"
+news_ch5_rev_saved_2,격리 구역 침입
+news_ch5_rev_saved_3,"혁명군은 어젯밤 교대 시간을 틈타 격리 구역에 침입했다. 소탕 명령이 철회되어 군은 발포하지 않았고, 격리 병동 앞에서 대치한 끝에 혁명군은 철수했다. 혼란 중 일부 감염자가 실종됐으며 당분간 하층의 통제가 강화될 예정이다."
+news_ch5_lh_saved_1,격리 구역 밖에서 혁명군 대거 체포
+news_ch5_lh_saved_2,체포
+news_ch5_lh_saved_3,"제보를 받은 군은 격리 구역 밖에 병력을 대기시켰고, 어젯밤 침입을 시도한 혁명군 전원을 체포했습니다. 사망자는 없었습니다. 라이트하우스는 소거 명령을 철회하고 구역 안의 감염자들을 치료하겠다고도 발표했습니다."
+news_ch5_lighthouse_1,혁명군의 격리 구역 야습 실패
+news_ch5_lighthouse_2,야습 실패
+news_ch5_lighthouse_3,사전 정보를 입수한 군은 어젯밤 격리 구역 밖에서 혁명군을 격퇴했다. 혁명군 지도자 엘리너는 현장에서 총에 맞아 사망했다. 구역은 예정대로 폐쇄됐으며 라이트하우스는 전염병이 통제됐다고 밝혔다.
+news_ch5_revolution_1,"혁명군, 격리 구역 점령"
+news_ch5_revolution_2,구역 함락
+news_ch5_revolution_3,혁명군은 어젯밤 교대 시간에 격리 구역을 급습해 많은 환자를 데려갔다. 라이트하우스 연구원 장즈안은 격리 병동 문 앞에서 혁명군의 총에 맞아 사망했다. 상층은 하층으로 통하는 모든 통로를 폐쇄했다.
+news_ch5_both_1,격리 구역에서 격렬한 교전
+news_ch5_both_2,격리 구역 교전
+news_ch5_both_3,혁명군은 어젯밤 격리 구역에 강제로 진입해 소탕 명령을 수행하던 군대와 충돌했다. 양측 모두 큰 피해를 입었다. 혁명군 지도자 엘리너와 라이트하우스 연구원 장즈안도 사망했다.
+ch5_end_best_jiang_1,신문 봤어요?
+ch5_end_best_jiang_2,안에 있는 사람들은 모두 치료받고 있어요. 1단계 환자 중에는 벌써 집에 돌아갈 수 있는 사람도 있어요.
+ch5_end_best_jiang_3,저 혼자서는 아무것도 해내지 못했을 거예요. …다 사장님 덕분이에요.
+ch5_end_best_eleanor_escort_1,안녕.
+ch5_end_best_eleanor_escort_2,그 세르피코가 우리를 한 명씩 빼내 줬어. 그 일로 상관에게 호되게 질책받았고.
+ch5_end_best_eleanor_released_1,안녕. 이틀 동안 붙잡혀 있다가 풀려났어.
+ch5_end_best_eleanor_released_2,“윗선의 명령”이라고 하더군. …네가 한 일인 것 같아.
+ch5_end_best_eleanor_3,"그 여자아이의 아버지가 어제 집으로 돌아왔어. 아직 몸을 떨지만, 자기 딸은 알아봐."
+ch5_end_best_eleanor_4,…이번에는 네가 우리 편이었어.
+ch5_end_best_thought,…어쩌면 그걸로 충분
+ch5_end_best_title,— 엔딩: 할 수 있는 만큼 했다 —
+news_ch5_rev_nocap_1,"혁명군, 격리 구역 침입… 사망자 없어"
+news_ch5_rev_nocap_2,격리 구역 침입
+news_ch5_rev_nocap_3,"혁명군이 어젯밤 격리 구역에 침입했다. 최근 수비대 지휘관이 교체된 것으로 알려졌는데, 새 지휘관은 제대로 경계선을 구축하지 못했고 혁명군은 혼란을 틈타 밀고 들어왔다. 소탕 명령이 철회되어 군은 발포하지 않았고, 격리 병동 앞에서 대치한 끝에 혁명군은 철수했다. 혼란 중 일부 감염자가 실종됐으며 당분간 하층의 통제가 강화될 예정이다."
+ch5_end_nocap_jiang_1,새 지휘관은 상황을 전혀 통제하지 못했어요. …그 대장이 아직 있었다면 아마 이렇게 되진 않았겠죠.
+ch5_end_nocap_eleanor_1,그날 밤 밖에 있던 사람 중 지휘하는 사람처럼 보이는 이는 하나도 없었어. 우린 순식간에 뚫고 들어갔지.
+ch5_thanks_eleanor_nocap,그 국장에게 트럭을 보내게 한 사람이 너라며. …고마워.
+ch5_nocap_soldier_1,늘 먹던 걸로.
+ch5_nocap_soldier_2,후임 지휘관은 우리를 배치하는 것조차 제대로 못 했어. 그들이 돌파하자 모두가 당황했지.
+ch5_nocap_soldier_3,명령이 바뀌어서 다행이었어. 아무도 총을 쏘지 않았거든.
+ch5_nocap_soldier_4,…대장이 있었다면 그렇게 되진 않았을 텐데.
+ch5_end_rev_jiang_1,…그래도 결국 침입했어요.
+ch5_end_rev_jiang_2,저는 병동 문 앞에 서 있었어요. 엘리너는 총을 든 채 한참 안을 바라보다가… 총을 내렸죠.
+ch5_end_rev_jiang_3,긁힌 사람 몇 명이 혼란을 틈타 달아났어요. 한동안 통제가 더 엄격해질 거예요. …하지만 아무도 죽지 않았어요.
+ch5_end_rev_eleanor_1,안녕. 며칠 동안 갇혀 있다가 풀려났어.
+ch5_end_rev_eleanor_2,"그날 밤, 하마터면 총을 쏠 뻔했어."
+ch5_end_rev_eleanor_3,…안에 있던 사람들이 죽음을 기다리는 대신 주사를 맞고 있어서 다행이야.
+ch5_end_rev_title,— 엔딩: 할 수 있는 만큼 했다 (거의) —
+ch5_end_lhs_soldier_1,사장.
+ch5_end_lhs_soldier_2,그날 밤 명령은 생포였어. 오랫동안 부하들을 지휘했지만 그런 명령은 처음 들어 봤지.
+ch5_end_lhs_soldier_3,…나쁘지 않아.
+ch5_end_soldier_buy,늘 사던 탄약으로.
+ch5_end_lhs_eleanor_1,안녕. 며칠 동안 갇혀 있었어. 이제 풀려났고.
+ch5_end_lhs_eleanor_2,그날 밤 그들은 우리를 기다리고 있었어. …누군가 밀고했지.
+ch5_end_lhs_eleanor_3,하지만 안에 있는 사람들은 치료받고 있어. 내 눈으로 직접 봤어. …그걸로 됐어.
+ch5_end_lhs_title,— 엔딩: 할 수 있는 만큼 했다 (체포) —
+ch5_end_trap_jiang_1,엘리너가 풀려났어요.
+ch5_end_trap_jiang_2,교대 시간을 알려 준 게 사장님인데 병사들은 이미 그곳에서 기다리고 있었다고 하더군요. …다시는 여기 오지 않을 거래요.
+ch5_end_trap_jiang_3,안에 있는 사람들은 모두 치료받고 있어요. …적어도 그건 사실이에요.
+ch5_end_trap_thought,...양쪽에 다 말했어
+ch5_end_trap_title,— 엔딩: 할 수 있는 만큼 했다 (양쪽) —
+ch5_end_lh_jiang_1,…저기요.
+ch5_end_lh_jiang_2,엘리너 소식은 들으셨죠.
+ch5_end_lh_jiang_3,"구역은 폐쇄됐어요. 병도 정말 더는 퍼지지 않고요. …기뻐해야 할지, 어떻게 해야 할지 모르겠어요."
+ch5_end_jiang_buy,먹을 것 좀 주세요. 곧 다시 근무하러 가야 해요.
+ch5_end_lh_soldier_1,늘 먹던 걸로.
+ch5_end_lh_soldier_2,...
+ch5_end_lh_soldier_3,요즘 하층은 조용해.
+ch5_end_lh_thought,…발병은 통제되고 있어. 다행이야. …그렇지?
+ch5_end_lh_title,— 엔딩: 라이트하우스 —
+ch5_end_revo_eleanor_1,안녕.
+ch5_end_revo_eleanor_2,우리가 그들을 빼냈어. 정말 많은 사람을.
+ch5_end_revo_eleanor_3,그 연구원… 병동 문간에 서 있던 사람 말이야. 내가 쏜 건 아니야.
+ch5_end_revo_eleanor_4,이 아래에서 병이 빠르게 퍼지고 있어. 상층은 내려오는 길을 전부 봉쇄했어. 이제 아무것도 내려오지 않아.
+ch5_end_revo_eleanor_5,…있잖아. 우리가 한 일은 옳았던 거지?
+ch5_end_revo_title,— 엔딩: 혁명 —
+ch5_end_both_soldier_1,탄약.
+ch5_end_both_soldier_2,그날 밤 양쪽에서 많은 사람이 죽었어. 명령은 수행됐고.
+ch5_end_both_soldier_3,…그 연구원도 안에 있었어. 부상자들을 안으로 끌어들이려고 뛰쳐나왔지.
+ch5_end_both_thought,…아무 말도 하지 않았어. 아무것도 하지 않았어.
+ch5_end_both_title,— 엔딩: 승자는 없었다 —
+name_captain,대장
+name_soldier_b,병사
+news_ch5_obit_eleanor_1,부고: 엘리너
+news_ch5_obit_eleanor_2,부고
+news_ch5_obit_eleanor_3,혁명 지도자 엘리너가 격리 구역 밖에서 사망했다. 하층 주민들은 그녀가 자주 지나던 모퉁이에 꽃을 놓았다. 형편이 어려운 이들의 약값을 자주 대신 내 주곤 했다는 이야기도 있다.
+news_ch5_obit_jiang_1,부고: 장즈안
+news_ch5_obit_jiang_2,부고
+news_ch5_obit_jiang_3,"라이트하우스 연구원 장즈안이 격리 병동 문 앞에서 숨졌다. 동료들에 따르면 그녀는 구역이 설치된 뒤 그곳을 거의 떠나지 않았으며, 마지막 순간까지 환자들 앞을 지켰다."
+news_ch5_obit_both_1,"부고: 엘리너, 장즈안"
+news_ch5_obit_both_2,부고
+news_ch5_obit_both_3,격리 구역 충돌 사망자 명단이 공개됐다. 혁명군 지도자 엘리너와 라이트하우스 연구원 장즈안도 포함됐다. 두 사람이 쓰러진 곳은 스무 걸음도 떨어져 있지 않았다.
+ch5_thanks_lhs_1,혁명군은 모두 체포됐어요… 하지만 한 명도 죽지 않았어요.
+ch5_thanks_lhs_2,안에 있는 사람들 모두 치료 중
+ch5_thanks_jiang_box,*흰색과 파란색 상자를 계산대에 올려놓는다*
+ch5_thanks_jiang_1,감사의 선물이에요. …전부 먹을 거예요. 사장님도 제대로 못 먹고 있었을 것 같아서요.
+ch5_thanks_jiang_letter,그리고 이것도요. 국장님이 전해 달라고 하셨어요.
+ch5_thanks_jiang_2,"…마무리할 일이 아직 많아요. 환자 기록, 약품, 구역 정리…"
+ch5_thanks_jiang_3,한동안은… 가게에 못 올지도 몰라요.
+ch5_thanks_jiang_4,...
+ch5_thanks_jiang_5,"그, 그럼 가 볼게요! 잘 챙겨 드시고 몸조심하세요!"
+ch5_thanks_jiang_back_1,*달려서 돌아온다*
+ch5_thanks_jiang_back_2,…꼭 다시 올게요. 약속해요!
+ch5_thanks_serpico_1,안녕하세요.
+ch5_thanks_serpico_2,"그날 밤 일로 징계를 여러 건 받았어요. 근무지 이탈, 사람들을 풀어 준 일, 허위 보고…"
+ch5_thanks_serpico_3,대장님은 한 번만 더 그러면 폐기장 청소나 하게 보낼 거라고 하셨어요.
+ch5_thanks_serpico_4,…그래도 후회하지 않아요.
+ch5_thanks_serpico_5,그 사람들은 이제 모두 집에 돌아갔죠? …그럼 그럴 만한 보람은 있었네요.
+ch5_thanks_serpico_buy,먹을 걸 좀 살게요. 징계를 여러 번 받아서 식비까지 깎였거든요.
+ch5_best_captain_1,사장.
+ch5_best_captain_2,그날 밤 명령은 현장을 소탕하라는 것이었다. 한밤중에 명령이 바뀌었지. 윗선에서 그들을 데려갈 호송대를 보낸다고 했다.
+ch5_best_pair_soldier_1,대장님은 그날 밤 내내 무전기만 노려보며 앉아 있었어. 한숨도 안 잤지.
+ch5_best_captain_3,…결국 총 한 발도 쏘지 않았어. 그런 밤은 정말 오랜만이군.
+ch5_best_pair_soldier_2,"며칠 쉬고 싶다는 말까지 하더라고. 3년 동안 휴가 한 번 없었으니, 이제 쉴 때도 됐다고 했지."
+ch5_best_captain_4,…말이 너무 많아.
+ch5_best_captain_buy,늘 사던 탄약으로. …요즘은 별로 쓰지도 않지만.
+ch5_best_soldier_1,늘 먹던 걸로.
+ch5_best_soldier_2,그날 밤중에 명령이 바뀌었어. 총 한 발도 쏘지 않았지.
+ch5_best_soldier_3,…대장님이 아직 살아 계셨다면 기뻐하셨을 텐데.
+ch5_thanks_captain_1,사장.
+ch5_thanks_soldier_1,"대장님, 직접 말하신다면서요?"
+ch5_thanks_captain_2,…그날 밤 정보를 알려 줘서 고맙다.
+ch5_thanks_captain_3,"우린 미리 병력을 배치해 뒀어. 생포하라는 명령이었고, 한 명도 죽지 않았지."
+ch5_thanks_soldier_2,그날 대장님이 돌아와서는 정말 웃기까지 했다니까.
+ch5_thanks_captain_4,…말이 많군.
+ch5_thanks_captain_buy,늘 사던 탄약으로.
+ch5_thanks_eleanor_wine_1,"아, 그리고 이것도 받아."
+ch5_thanks_eleanor_wine_2,상층에 사는 오랜 친구가 내가 혁명군에 들어갔다는 말을 듣고 몰래 사람을 시켜 내려보냈어.
+ch5_thanks_eleanor_wine_3,다른 정거장에서 온 좋은 물건이라더군. …내가 갖고 있어 봐야 총알과 바꿀 테니까.
+ch5_thanks_eleanor_wine_4,감사의 선물이라고 생각해.
+ch5_thanks_eleanor_best,…고마워.
+ch5_thanks_eleanor_rev,그 틈을 알려 준 건 너였어. …고마워.
+item_jiang_gift_1,장즈안의 감사 상자
+item_jiang_gift_2,흰색과 파란색 상자다. 끈은 단단히 채워져 있지만 자물쇠는 없어 바로 열 수 있다. 안에는 음식이 가득 들어 있다.
+item_kyoho_wine_1,거봉 와인
+item_kyoho_wine_2,다른 우주 정거장에서 생산된 최고급 와인. 상층에서도 좀처럼 볼 수 없는 진귀한 물건이다.
+item_jiang_chocolate_1,낯선 초콜릿
+item_jiang_chocolate_2,포장이 꽤 독특해서 이런 물건은 본 적이 없다. 안에는 모양이 조금 못생겼지만 제법 귀여운 초콜릿이 들어 있다.
+item_shen_letter_1,선 국장의 편지
+item_shen_letter_2,"""가게 주인에게. 도와줘서 고맙네. 즈안이 분명 뭔가를 가져다줄 테니 내 몫까지 함께 보낸 것으로 생각하게. 마지막으로, 그 아이가 자네를 꽤 마음에 들어 하더군. 자네도 이제 젊지만은 않으니 생각해 봐도 좋겠지. 적어도 연구에는 진지한 아이니까.\n\n그리고 상자 안의 초콜릿은 그 아이가 직접 만든 걸세. 꽤 못생겼더군. 허허.""\n— 선"
+item_youda_card_1,유다의 신분증
+item_youda_card_2,"유다의 사진이 들어 있는 라이트하우스 연구부 신분증. 저 파란 상자와 한 세트지만, 카드만으로는 열 수 없다."
+item_asimov_final_1,아시모프(완성품)
+item_asimov_final_2,유다가 라이트하우스에서 가져온 완성된 아시모프. 1단계와 2단계 환자를 치료한다.
+item_youda_note_1,유다의 쪽지
+item_youda_note_2,"""완성품은 효과가 있지만, 재료가 얼마 없어서 조금밖에 만들 수 없다. 윗선에서는 전부 상층에 남기고 하층에는 단 한 회분도 보내지 않기로 했다. 그래서 견본과 제조법을 들고 나왔다.""\n— Y"

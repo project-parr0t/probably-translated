@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <ID>probably-stolen-ko-localization</ID>
+  <Name>Probably Translated</Name>
+  <Author>Project Parr0t</Author>
+  <ModVersion>1.0.0</ModVersion>
+  <Description>Korean localization overlays for supported Probably Stolen Workshop mods. Base-game localization is untouched.</Description>
+  <GameVersions>
+    <Version>1.0.0</Version>
+  </GameVersions>
+  <Prerequisites />
+  <Assemblies>
+    <Assembly>ProbablyStolenKo.Localization.dll</Assembly>
+  </Assemblies>
+  <Capabilities />
+</Manifest>

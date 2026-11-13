@@ -1,0 +1,26 @@
+{
+  "schema": "probably-stolen-ko.r10-dialogue-coverage.v1",
+  "dialogue_count": 1770,
+  "speaker_count": 59,
+  "context_count": 1521,
+  "candidate_count": 42,
+  "intentional_shift_count": 35,
+  "corrected_count": 7,
+  "runtime_unmapped_count": 0,
+  "inventory_set_equality": true,
+  "coverage_percent": 100.0,
+  "route_additions": 0,
+  "inventory_sha256": "1290c138c8fc8b210a2813ab7c06efa2ec8c1d4d5852a5071a791037f4f72de4",
+  "contracts_sha256": "8a876489578310f374e2c42460f5473affb0ed1a199624f8b543fcaee125c81a",
+  "review_sha256": "c5c285ac8bf7c175a8685120b81fcc13b938536162bbf144b99f88d0fb23d748",
+  "models": {
+    "exact_luna_model": "openai-codex/gpt-6-luna",
+    "exact_luna_candidate_reviews": 42,
+    "exact_sol_model": "openai-codex/gpt-5.6-sol",
+    "exact_sol_strong_reviews": 7,
+    "exact_sol_bounded_confirmations": 7,
+    "qwen_fallback_reviews": 0,
+    "exact_sol_candidate_classifications": 42,
+    "exact_sol_classification_disagreements": 6
+  }
+}

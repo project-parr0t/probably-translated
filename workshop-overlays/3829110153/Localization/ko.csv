@@ -1,0 +1,3423 @@
+﻿aquaculture.large.machine.description,"기본 어류 격자: 24×4칸. 기존 수용량 및 효율 업그레이드, 전력 공급, 필터 슬롯 4개가 그대로 유지됩니다. 별도의 물탱크를 넣어 주세요. 물, 오염도, 사료는 여전히 사육 가능량을 제한합니다."
+aquaculture.large.machine.flavor,더 넓은 수조도 세심한 관리가 필요합니다.
+aquaculture.large.machine.name,대형 순환여과식 양식 시스템
+aquaculture.large.tank.description,처음에는 비어 있는 별도의 60리터 양식용 물탱크입니다. 시스템의 탱크 슬롯에 직접 장착하세요. 물이 더 많아져도 여과 처리량은 늘어나지 않습니다.
+aquaculture.large.tank.flavor,"눈금은 더 많아졌지만, 물은 여전히 한 방울씩 채워야 합니다."
+aquaculture.large.tank.name,대형 양식용 물탱크
+bait.hover.blood,핏빛 그림자 낚시 성공률 +{0}%p
+bait.hover.catch,일반 낚시 성공률 +{0}%p. 핏빛 그림자와 거대 그림자에는 효과가 없습니다.
+bait.hover.giant,거대 그림자 낚시 성공률 +{0}%p
+bait.hover.treasure,보물 상자 획득 확률(낚시 성공 시) +{0}%p
+can.rebuild.control,조작
+can.rebuild.fill,생선 통째 또는 생선살; 같은 종류의 양념 최대 2개
+can.rebuild.finished,품질: {0} ({1}/5)
+can.rebuild.fish,생선
+can.rebuild.grade.1,나쁨
+can.rebuild.grade.2,일반
+can.rebuild.grade.3,좋음
+can.rebuild.grade.4,양호
+can.rebuild.grade.5,최상
+can.rebuild.materials,재료
+can.rebuild.mixed,잡어
+can.rebuild.name,{0}{1} 통조림
+can.rebuild.oil,기름 절임 
+can.rebuild.preview,{0}\n2일
+can.rebuild.progress,가공 중: {0}/2일
+can.rebuild.quality,품질: {0} ({1}/5)
+can.rebuild.ready,수령 가능
+can.rebuild.remaining,숙성 남은 기간: {0}일
+can.rebuild.salt,소금에 절인 
+can.rebuild.seal,캔 밀봉
+can.rebuild.seal_hint,밀봉하면 재료를 소모합니다. 2일 후 완성됩니다.
+can.rebuild.spicy,매운맛 
+can.rebuild.start,통조림 만들기 시작
+can.rebuild.unfilled,생선 통조림
+can.rebuild.wait,가공 중
+can.rebuild.window,생선 통조림
+canning.access.cash,크레딧이 부족합니다.
+canning.access.creationFailed,프린터가 배송되지 않았습니다. 잠금 해제 상태와 대기 중인 선물은 유지됩니다. 나중에 다시 시도해 주세요.
+canning.access.failed,지금은 용기 인쇄를 잠금 해제할 수 없습니다. 나중에 다시 시도해 주세요.
+canning.access.required,먼저 윌리에게서 용기 인쇄를 잠금 해제하세요.
+canning.access.space,조리대나 보관함에 적당한 공간이 없습니다. 프린터 선물은 대기 상태로 유지됩니다. 공간을 마련한 뒤 수령하세요.
+canning.access.unlock,잠금 해제
+canning.access.unlocked,용기 인쇄 잠금 해제
+canning.manual.description,윌리의 통조림 기록.
+canning.manual.name,통조림 기록
+canning.manual.notReady,아직 설명서가 준비되지 않았습니다. 잠시 후 다시 시도해 주세요.
+canning.manual.page.01.body,생선... +1\n\n        생선살 +2\n\n생선을 섞으면 맛이 이상한가?\n\n    양념도 괜찮지\n\n생선마다 어울리는 맛이 다르다
+canning.manual.page.01.icon.0,완성된 소형 캔
+canning.manual.page.01.icon.1,완성된 대형 캔
+canning.manual.page.01.icon.2,소금 → 소금
+canning.manual.page.01.icon.3,고추 -> 매운맛
+canning.manual.page.01.icon.4,어유 → 기름
+canning.manual.page.01.title,통조림 만들기
+canning.manual.page.02.body,"소금맛: 정화어, 유리어, 무지개어, 푸른 수정어, 로푸린, 니오룬, 페라이트 해파리.\n매운맛: 가물치, 쥐치, 백상아리, 뿔황새치, 황제붉은게, 화산어, 무스펠의 아들, 붉은꼬리어, 무지기, 란의 악몽.\n기름맛: 틸라피아, 시궁창 틸라피아, 접목 틸라피아, 장어, 전기뱀장어, 철갑상어, 참조기, 부세, 정어리, 빛고기, 황금어, 별복어, 금붕어, 우주로켓어."
+canning.manual.page.02.title,생선에 따라 조리법 선택
+chemical.manual.description,"기본 게임의 혼합, 목표별 보조제 조화, 물약 주입법을 그림으로 설명한 안내서."
+chemical.manual.gift,장비를 잠금 해제하면 물약 설명서가 함께 제공됩니다.
+chemical.manual.name,물약 설명서
+chemical.manual.notReady,아직 설명서가 준비되지 않았습니다. 잠시 후 다시 시도해 주세요.
+chemical.manual.page.01.body,"재료 준비하기\n기본 블렌더를 사용해 출처가 확인된 생선 찌꺼기를 물이 든 용기에 넣고 혼합하세요. 준비한 용기를 합성기의 원액 슬롯에 넣고 배터리와 빈 주사기를 공급하세요.\n\n먼저 한 가지 약효 만들기\n추출할 원액의 양을 선택하고 혼합 / 보충을 누르세요. 주 패널에는 현재 약효, 안정성, 부작용이 표시됩니다.\n\n원치 않는 부작용 줄이기\n한 단계 낮추기, 이 약효 제거 또는 모두 조화를 선택하세요. 확정하기 전에 미리 보기와 mL 용량을 확인하세요.\n\n표준 용량 충전하기\n주사기 하나당 10 mL, 빈 주사기 하나, 전력 1단위가 필요합니다. 사용하지 않은 원액은 기계에 남습니다."
+chemical.manual.page.01.icon.0,회복 분말 → 회복
+chemical.manual.page.01.icon.1,근력 분말 → 근력
+chemical.manual.page.01.icon.2,흥분 분말 → 흥분
+chemical.manual.page.01.icon.3,진정 분말 → 진정
+chemical.manual.page.01.icon.4,정화 분말 → 해독
+chemical.manual.page.01.section.0.body,기본 믹서기를 사용해 출처를 아는 생선 부산물과 물이 든 용기를 혼합하세요. 준비한 용기를 합성기의 원액 슬롯에 넣고 배터리와 빈 주사기를 공급하세요.
+chemical.manual.page.01.section.0.title,재료 준비
+chemical.manual.page.01.section.1.body,"추출할 원액의 양을 정하고 혼합 / 보충을 누르세요. 주 화면에 현재 효과, 안정성, 부작용이 표시됩니다."
+chemical.manual.page.01.section.1.title,먼저 효과 하나 만들기
+chemical.manual.page.01.section.2.body,"한 단계 낮추기, 이 약효 제거 또는 모두 조화를 선택하세요. 확정하기 전에 미리 보기와 mL 용량을 확인하세요."
+chemical.manual.page.01.section.2.title,원치 않는 반응 줄이기
+chemical.manual.page.01.section.3.body,"주사기 하나당 10 mL, 빈 주사기 하나, 전력 1단위가 필요합니다. 사용하지 않은 원액은 기계에 남습니다."
+chemical.manual.page.01.section.3.title,표준 용량 주입
+chemical.manual.page.01.title,첫 단일 효과 물약
+chemical.manual.page.02.body,"너무 약함: 더 강한 원액 추가\n블렌더에서 같은 종류의 더 강한 원액을 준비한 뒤 정량을 추가하세요. 약효 단계와 부담을 확인하세요. 보조제는 생선의 유효 성분을 대신할 수 없습니다.\n\n너무 진함: 물만 추가\n희석하면 약효 농도와 그에 따른 부담을 줄일 수 있습니다. 필요한 강도 아래로 약효를 희석하지 않도록 주의하세요.\n\n초급 → 중급 → 고급\n주 패널에 표시되는 실제 단계를 따르세요. 같은 단계에서 더 강한 원액을 추가하면 단계는 오르지 않고 부담만 늘어날 수 있습니다.\n\n특성이 단가를 결정\n각 주사기에는 10 mL가 들어갑니다. 약효 단계가 높을수록 기본 가격이 올라갑니다. 안정성, 부작용, 순도도 판매 가격에 영향을 줍니다."
+chemical.manual.page.02.section.0.body,믹서기에서 같은 효과의 더 강한 용액을 준비해 정량을 추가하세요. 효과 등급과 부담을 확인하세요. 보조제는 생선 유효 성분을 대신할 수 없습니다.
+chemical.manual.page.02.section.0.title,너무 약할 때: 더 강한 원액 추가
+chemical.manual.page.02.section.1.body,희석하면 효과 농도와 부담을 줄일 수 있습니다. 필요한 강도보다 효과가 약해지지 않도록 주의하세요.
+chemical.manual.page.02.section.1.title,과도하게 농축됨: 물만 추가
+chemical.manual.page.02.section.2.body,주 화면의 실제 등급을 따르세요. 같은 등급 안에서 더 강한 용액을 넣으면 등급은 오르지 않고 부담만 늘 수 있습니다.
+chemical.manual.page.02.section.2.title,초급 → 중급 → 고급
+chemical.manual.page.02.section.3.body,"각 주사기에는 10 mL가 들어갑니다. 약효 단계가 높을수록 기본 가격이 올라갑니다. 안정성, 부작용, 순도도 판매 가격에 영향을 줍니다."
+chemical.manual.page.02.section.3.title,속성에 따라 개당 가격 결정
+chemical.manual.page.02.title,농도와 효과 등급
+chemical.manual.page.03.body,"원액 10 mL당 한 쌍\n설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다. 완전한 A+B 한 쌍마다 반응 단계가 한 단계 낮아집니다. I등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n초조와 불면증\n초조에는 드림 캡 추출물과 미네랄을 사용합니다. 불면증에는 드림 캡 추출물과 단백질을 사용합니다.\n\n졸림과 메스꺼움\n졸림에는 카페인과 설탕을 사용합니다. 메스꺼움에는 단백질과 미네랄을 사용합니다.\n\n안정제\n불안정한 원액에는 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용됩니다."
+chemical.manual.page.03.section.0.body,"설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다. 완전한 두 재료 한 쌍마다 부작용이 한 단계 낮아집니다. 1단계는 없음으로 낮아집니다. 부작용 하나당 최대 네 쌍까지 사용할 수 있습니다."
+chemical.manual.page.03.section.0.title,원액 10 mL당 1쌍
+chemical.manual.page.03.section.1.body,초조에는 드림 캡 추출물과 미네랄을 사용합니다. 불면증에는 드림 캡 추출물과 단백질을 사용합니다.
+chemical.manual.page.03.section.1.title,초조와 불면증
+chemical.manual.page.03.section.2.body,졸음에는 카페인과 설탕을 사용합니다. 메스꺼움에는 단백질과 미네랄을 사용합니다.
+chemical.manual.page.03.section.2.title,졸음과 메스꺼움
+chemical.manual.page.03.section.3.body,"불안정한 원액에는 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용됩니다."
+chemical.manual.page.03.section.3.title,안정제
+chemical.manual.page.03.title,보조제 조합표
+chemical.manual.page.04.body,원액 부피 기준 조절\n보조제를 넣기 전 원액 부피에 따라 투여량이 조절됩니다. 보조제는 최종 부피에 더해지며 효과 등급을 바꿀 수 있습니다.\n\n예시: 원액 20 mL의 피로 효과\n한 쌍에는 설탕 1 mL와 단백질 2 mL가 필요합니다. 피로 3등급에는 세 쌍이 필요합니다.\n\n복수 반응\n완전한 A+B 한 쌍마다 반응이 한 등급 낮아집니다. 1등급은 없어집니다. 반응 하나당 최대 네 쌍까지 적용됩니다. 각 투여량은 한 번만 계산됩니다.\n\n미리 보기와 순도\n불순물은 순도에 영향을 주며 기본 게임 필터로 걸러 낼 수 있습니다. 보조제가 남아도 추가 부작용은 생기지 않습니다.
+chemical.manual.page.04.section.0.body,용량은 보조제를 넣기 전 원액의 부피에 따라 결정됩니다. 보조제는 최종 부피를 늘리고 효과 등급을 바꿀 수 있습니다.
+chemical.manual.page.04.section.0.title,원액 부피에 따른 배합
+chemical.manual.page.04.section.1.body,한 쌍에 설탕 1 mL와 단백질 2 mL를 사용합니다. 피로 3등급에는 세 쌍이 필요합니다.
+chemical.manual.page.04.section.1.title,예시: 원액 20 mL에서의 피로도
+chemical.manual.page.04.section.2.body,완전한 두 재료 한 쌍마다 부작용이 한 단계 낮아집니다. 1단계는 없음으로 낮아집니다. 부작용 하나당 최대 네 쌍까지 사용할 수 있습니다. 각 용량은 한 번만 계산됩니다.
+chemical.manual.page.04.section.2.title,복수 반응
+chemical.manual.page.04.section.3.body,불순물은 순도에 영향을 주며 기본 필터로 걸러낼 수 있습니다. 보조제를 과도하게 넣어도 부작용이 더 생기지는 않습니다.
+chemical.manual.page.04.section.3.title,미리 보기와 순도
+chemical.manual.page.04.title,보조제 양 계산
+chemical.manual.page.05.body,"한 가지 약효부터 시작\n주된 약효가 원하는 강도에 도달하면 두 번째 가루를 조금씩 추가하세요. 두 약효와 원치 않는 반응을 비교하세요.\n\n약효가 많을수록 부담도 증가\n각 가루에는 고유한 부담이 있습니다. 형성된 약효가 여러 개면 혼합 부담이 추가되며, 재료를 넣을 때 농도도 변합니다.\n\n각성 + 진정: 강한 충돌\n이 두 약효를 결합하면 초조와 피로가 추가되고 안정성이 낮아집니다. 긍정적인 약효만 보고 물약을 판단하지 마세요.\n\n안정성과 반응 처리\n불안정한 원액에는 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용됩니다. 완전한 A+B 한 쌍마다 반응 단계가 한 단계 낮아집니다. I등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다."
+chemical.manual.page.05.section.0.body,주 효과를 원하는 강도까지 높인 다음 두 번째 가루를 조금씩 넣으세요. 두 효과와 원치 않는 부작용을 비교하세요.
+chemical.manual.page.05.section.0.title,효과 하나부터 시작
+chemical.manual.page.05.section.1.body,"가루마다 고유한 부담이 있습니다. 여러 효과가 형성되면 혼합 부담이 더해지고, 재료를 넣을 때 농도도 변합니다."
+chemical.manual.page.05.section.1.title,효과가 많을수록 부담도 증가
+chemical.manual.page.05.section.2.body,이 효과들을 조합하면 초조와 피로가 더해지고 안정성이 낮아집니다. 긍정적인 효과만 보고 물약을 판단하지 마세요.
+chemical.manual.page.05.section.2.title,흥분제 + 진정제: 강한 상충 작용
+chemical.manual.page.05.section.3.body,"불안정한 원액에는 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용됩니다. 완전한 A+B 한 쌍마다 반응 등급이 한 단계 낮아집니다. 1등급은 없음으로 낮아집니다. 반응마다 최대 네 쌍까지 사용할 수 있습니다."
+chemical.manual.page.05.section.3.title,안정성과 반응 조절
+chemical.manual.page.05.title,이중 효과 물약 만들기
+chemical.manual.page.06.body,"미형성: 농도와 순도 확인\n보조제만으로는 형성되지 않은 약효를 바로잡을 수 없습니다. 유효 가루가 충분한지, 물이 너무 많은지 확인하세요.\n\n만족스러운 제조법 저장\n제조법에 알아보기 쉬운 이름을 붙이세요. 사용자 지정 이름이 없으면 시스템이 주된 약효에 따라 이름을 붙입니다.\n\n반복 제조에도 재료 필요\n저장된 제조법을 선택하고 알맞은 가루, 보조제, 용매를 공급한 다음 제조하세요. 빠진 것이 있다면 부족 메시지에 따라 보충하세요.\n\n충전 전 최종 확인\n약효, 부작용, 생선 원산지, 주사기당 부피를 확인하세요. 충전할 수 없다면 빈 주사기, 배터리, 출력 공간, 잠금 메시지를 확인하세요."
+chemical.manual.page.06.section.0.body,"보조제만으로는 형성되지 않은 효과를 바로잡을 수 없습니다. 유효 가루가 충분한지, 물이 너무 많은지 확인하세요."
+chemical.manual.page.06.section.0.title,미형성: 농도와 순도 확인
+chemical.manual.page.06.section.1.body,알아보기 쉬운 조합 이름을 지으세요. 직접 이름을 짓지 않으면 가장 강한 효과를 따라 자동으로 이름이 붙습니다.
+chemical.manual.page.06.section.1.title,만족스러운 조리법 저장
+chemical.manual.page.06.section.2.body,"저장한 조합을 선택하고 알맞은 가루, 보조제, 용매를 공급한 다음 제조하세요. 재료가 부족하면 안내 메시지를 확인하세요."
+chemical.manual.page.06.section.2.title,반복 제조에도 재료 필요
+chemical.manual.page.06.section.3.body,"효과, 부작용, 생선 원료, 주사기당 용량을 확인하세요. 주입할 수 없다면 빈 주사기, 배터리, 출력 공간, 잠금 메시지를 확인하세요."
+chemical.manual.page.06.section.3.title,주입 전 최종 확인
+chemical.manual.page.06.title,조합 저장과 결과 확인
+chemical.manual.page.07.body,"용도\n피로에는 단백질, 갈증에는 미네랄, 졸림에는 카페인과 조합하세요.\n\n원액 10 mL당 한 쌍\n피로: 설탕 + 단백질. 갈증: 설탕 + 미네랄. 졸림: 설탕 + 카페인. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다.\n\n부작용 단계\n완전한 A+B 한 쌍마다 부작용이 한 단계 낮아집니다. I단계는 없음으로 낮아집니다. 부작용 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량과 원료\n용량은 보조제를 넣기 전의 원액 부피에 맞춰 조절됩니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 아이템 세부 정보에서 재료를 확인하세요."
+chemical.manual.page.07.section.0.body,"피로에는 단백질, 갈증에는 미네랄, 졸림에는 카페인과 조합하세요."
+chemical.manual.page.07.section.0.title,용도
+chemical.manual.page.07.section.1.body,"피로: 설탕 + 단백질. 갈증: 설탕 + 미네랄. 졸림: 설탕 + 카페인. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다."
+chemical.manual.page.07.section.1.title,원액 10 mL당 한 쌍
+chemical.manual.page.07.section.2.body,완전한 A+B 한 쌍마다 반응이 한 등급 낮아집니다. I등급은 없어집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.
+chemical.manual.page.07.section.2.title,반응 등급
+chemical.manual.page.07.section.3.body,투여량은 보조제를 넣기 전 원액의 부피에 따라 결정됩니다. 보조제는 최종 부피를 늘리고 효과 등급을 바꿀 수 있습니다. 기본 게임의 아이템 상세 정보에서 재료를 확인하세요.
+chemical.manual.page.07.section.3.title,용량과 원료
+chemical.manual.page.07.title,설탕 | 보조제 안내
+chemical.manual.page.08.body,"용도\n피로에는 설탕, 불면증에는 드림 캡 추출물, 메스꺼움에는 미네랄과 짝지어 사용합니다.\n\n원액 10 mL당 한 쌍\n피로: 단백질 + 설탕. 불면증: 단백질 + 드림 캡 추출물. 메스꺼움: 단백질 + 미네랄. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL씩 사용합니다. 단백질은 1 mL를 사용합니다.\n\n반응 등급\n완전한 A+B 한 쌍마다 반응이 한 단계 낮아집니다. 1등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량과 원료\n용량은 보조제를 넣기 전 원액의 부피에 비례합니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 재료를 확인하세요."
+chemical.manual.page.08.section.0.body,"피로에는 설탕, 불면에는 드림 캡 추출물, 메스꺼움에는 미네랄과 조합하세요."
+chemical.manual.page.08.section.0.title,용도
+chemical.manual.page.08.section.1.body,"피로: 단백질 + 설탕. 불면증: 단백질 + 드림 캡 추출물. 메스꺼움: 단백질 + 미네랄. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL씩 사용합니다. 단백질은 1 mL를 사용합니다."
+chemical.manual.page.08.section.1.title,원액 10 mL당 한 쌍
+chemical.manual.page.08.section.2.body,완전한 A+B 한 쌍마다 반응이 한 단계 낮아집니다. I단계는 없어집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.
+chemical.manual.page.08.section.2.title,반응 등급
+chemical.manual.page.08.section.3.body,용량은 보조제를 넣기 전 원액의 부피에 따라 결정됩니다. 보조제는 최종 부피를 늘리고 효과 등급을 바꿀 수 있습니다. 기본 아이템 상세 정보에서 재료를 확인하세요.
+chemical.manual.page.08.section.3.title,투여량과 원액
+chemical.manual.page.08.title,단백질 | 보조제 안내
+chemical.manual.page.09.body,"용도\n갈증에는 설탕, 초조함에는 드림 캡 추출물, 메스꺼움에는 단백질과 짝지어 사용합니다.\n\n원액 10 mL당 한 쌍\n갈증: 미네랄 + 설탕. 초조함: 미네랄 + 드림 캡 추출물. 메스꺼움: 미네랄 + 단백질. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL씩 사용합니다. 단백질은 1 mL를 사용합니다.\n\n부작용 단계\n완전한 A+B 한 쌍마다 부작용이 한 단계 낮아집니다. 1단계는 없어집니다. 부작용 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량과 원료\n용량은 보조제를 넣기 전 원액의 부피에 비례합니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 재료를 확인하세요."
+chemical.manual.page.09.section.0.body,"갈증에는 설탕, 초조함에는 드림 캡 추출물, 메스꺼움에는 단백질을 함께 사용하세요."
+chemical.manual.page.09.section.0.title,용도
+chemical.manual.page.09.section.1.body,"갈증: 미네랄 + 설탕. 초조함: 미네랄 + 드림 캡 추출물. 메스꺼움: 미네랄 + 단백질. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL씩 사용합니다. 단백질은 1 mL를 사용합니다."
+chemical.manual.page.09.section.1.title,원액 10 mL당 한 쌍
+chemical.manual.page.09.section.2.body,A+B 한 쌍을 완성할 때마다 반응 등급이 한 단계 낮아집니다. 1등급은 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.
+chemical.manual.page.09.section.2.title,반응 등급
+chemical.manual.page.09.section.3.body,용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인하세요.
+chemical.manual.page.09.section.3.title,용량 및 원액
+chemical.manual.page.09.title,미네랄 | 보조제 안내
+chemical.manual.page.10.body,"용도\n초조함 완화에는 미네랄을, 불면증 완화에는 단백질을 함께 사용합니다. 이 조합은 진정 효과를 직접 높이는 대신 반응을 조율합니다.\n\n원액 10 mL당 한 쌍\n졸림: 카페인 + 설탕. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL 사용합니다. 단백질은 1 mL 사용합니다.\n\n반응 단계\nA+B 한 쌍을 완성할 때마다 반응 단계가 한 단계 낮아집니다. I단계는 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량 및 원액\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인합니다."
+chemical.manual.page.10.section.0.body,"초조함을 완화하려면 미네랄과, 불면증을 완화하려면 단백질과 함께 사용하세요. 여기서는 진정 효과를 직접 높이는 대신 반응을 조율합니다."
+chemical.manual.page.10.section.0.title,용도
+chemical.manual.page.10.section.1.body,"졸림: 카페인 + 설탕. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다."
+chemical.manual.page.10.section.1.title,원액 10 mL당 한 쌍
+chemical.manual.page.10.section.2.body,완성된 A+B 한 쌍마다 반응 등급이 한 단계 낮아집니다. 1등급은 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 적용됩니다.
+chemical.manual.page.10.section.2.title,반응 단계
+chemical.manual.page.10.section.3.body,용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인하세요.
+chemical.manual.page.10.section.3.title,용량 및 원액
+chemical.manual.page.10.title,드림 캡 추출물 | 보조제 안내
+chemical.manual.page.11.body,"용도\n졸림을 줄이려면 설탕과 함께 사용합니다. 카페인은 보조제로 작용하며, 직접적인 각성 효과를 높이지 않습니다.\n\n원액 10 mL당 한 쌍\n초조 완화: 드림 캡 추출물 + 미네랄. 불면 완화: 드림 캡 추출물 + 단백질. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL 사용합니다. 단백질은 1 mL 사용합니다.\n\n반응 단계\nA+B 한 쌍을 완성할 때마다 반응이 한 단계 낮아집니다. I단계는 반응 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량 및 원액\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인합니다."
+chemical.manual.page.11.section.0.body,졸림을 줄이려면 설탕과 함께 사용하세요. 여기서 카페인은 보조제로 작용하며 흥분 효과를 직접 높이지 않습니다.
+chemical.manual.page.11.section.0.title,용도
+chemical.manual.page.11.section.1.body,"초조함: 드림 캡 추출물 + 미네랄. 불면증: 드림 캡 추출물 + 단백질. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다."
+chemical.manual.page.11.section.1.title,원액 10 mL당 한 쌍
+chemical.manual.page.11.section.2.body,A+B 한 쌍을 완성할 때마다 반응이 한 단계 낮아집니다. 1등급은 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.
+chemical.manual.page.11.section.2.title,반응 단계
+chemical.manual.page.11.section.3.body,용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인하세요.
+chemical.manual.page.11.section.3.title,용량 및 원액
+chemical.manual.page.11.title,카페인 | 보조제 안내
+chemical.manual.page.12.body,"목적\n안정제는 용액의 안정성을 회복시킵니다.\n\n원액 10 mL당 한 쌍\n불안정한 용액은 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용합니다.\n\n반응에는 A+B 사용\nA+B 한 쌍을 완성할 때마다 반응이 한 단계 낮아집니다. 1단계는 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량 및 원액\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다."
+chemical.manual.page.12.section.0.body,안정제는 용액의 안정성을 회복시킵니다.
+chemical.manual.page.12.section.0.title,목적
+chemical.manual.page.12.section.1.body,"불안정한 용액은 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용합니다."
+chemical.manual.page.12.section.1.title,원액 10 mL당 한 쌍
+chemical.manual.page.12.section.2.body,두 재료 한 쌍을 완성할 때마다 반응이 한 단계 낮아집니다. 1단계는 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.
+chemical.manual.page.12.section.2.title,반응에는 두 재료 사용
+chemical.manual.page.12.section.3.body,용량은 보조제를 넣기 전 원액의 부피에 비례합니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다.
+chemical.manual.page.12.section.3.title,투여량 및 원료
+chemical.manual.page.12.title,안정제 | 보조제 안내
+chemical.manual.page.auxiliaries.section.0.body,설탕 0.5 + 단백질 1
+chemical.manual.page.auxiliaries.section.0.title,피로
+chemical.manual.page.auxiliaries.section.1.body,설탕 0.5 + 미네랄 0.5
+chemical.manual.page.auxiliaries.section.1.title,갈증
+chemical.manual.page.auxiliaries.section.2.body,드림 캡 추출물 0.5 + 미네랄 0.5
+chemical.manual.page.auxiliaries.section.2.title,초조함
+chemical.manual.page.auxiliaries.section.3.body,드림 캡 추출물 0.5 + 단백질 1
+chemical.manual.page.auxiliaries.section.3.title,불면증
+chemical.manual.page.auxiliaries.section.4.body,카페인 0.5 + 설탕 0.5
+chemical.manual.page.auxiliaries.section.4.title,졸림
+chemical.manual.page.auxiliaries.section.5.body,단백질 1 + 미네랄 0.5
+chemical.manual.page.auxiliaries.section.5.title,메스꺼움
+chemical.manual.page.auxiliaries.section.6.body,"5 mL, 1회 처리"
+chemical.manual.page.auxiliaries.section.6.title,안정제
+chemical.manual.page.auxiliaries.title,보조제 참고표
+chemical.manual.page.concentration.section.0.body,약효가 너무 약하면 더 농축된 정화어 원액을 넣으세요.
+chemical.manual.page.concentration.section.0.title,비활성 · 점수 20 미만
+chemical.manual.page.concentration.section.1.body,원액을 조금 더 넣고 해독 약효 단계가 오르는지 확인하세요.
+chemical.manual.page.concentration.section.1.title,약효 단계 1 · 점수 20–39
+chemical.manual.page.concentration.section.2.body,물만 넣으면 유효 성분이 희석되어 약효 단계가 낮아질 수 있습니다.
+chemical.manual.page.concentration.section.2.title,약효 Ⅱ단계 · 점수 40–64
+chemical.manual.page.concentration.section.3.body,농도를 더 높이면 부작용이 증가할 수 있습니다. 두 번째 원액을 넣은 뒤 두 약효를 모두 확인하세요.
+chemical.manual.page.concentration.section.3.title,3단계 · 점수 65 이상
+chemical.manual.page.concentration.title,농도 및 복합 효과
+chemical.manual.page.equipment.section.0.body,출처가 확인된 생선 자투리를 갈아 원액으로 만드세요.
+chemical.manual.page.equipment.section.0.title,믹서기
+chemical.manual.page.equipment.section.1.body,원액을 받아 제조대로 옮기세요.
+chemical.manual.page.equipment.section.1.title,액체 용기
+chemical.manual.page.equipment.section.2.body,"약효를 확인하고, 균형을 조정한 뒤 용기에 채우세요."
+chemical.manual.page.equipment.section.2.title,시약 작업대
+chemical.manual.page.equipment.section.3.body,1회분마다 10 mL와 전력 1회분이 소모됩니다.
+chemical.manual.page.equipment.section.3.title,빈 주사기
+chemical.manual.page.equipment.title,장비 및 재료
+chemical.manual.page.first-dose.section.0.body,블렌더에 액체 용기를 장착하세요. 정화어에서 나온 자투리를 넣고 혼합하세요.
+chemical.manual.page.first-dose.section.0.title,정화어 원액
+chemical.manual.page.first-dose.section.1.body,용기를 원액 슬롯으로 옮기세요. 정량을 추가한 뒤 해독 효과와 부작용을 확인하세요.
+chemical.manual.page.first-dose.section.1.title,해독 효과 준비
+chemical.manual.page.first-dose.section.2.body,"필요하다면 목표를 선택하고, 보조제와 그에 따른 효과를 검토한 뒤 확정하세요."
+chemical.manual.page.first-dose.section.2.title,균형 조정 미리보기
+chemical.manual.page.first-dose.section.3.body,빈 주사기와 전력을 공급하세요. 1회분마다 10 mL가 소모됩니다. 남은 원액은 조제대에 보관됩니다.
+chemical.manual.page.first-dose.section.3.title,주사기 채우기
+chemical.manual.page.first-dose.title,단일 효과 해독 제조법
+chemical.manual.page.pricing.section.0.body,"안정성이 최대이고 부작용이 없을 때, 약효 1~3단계의 가치는 각각 110, 210, 310입니다."
+chemical.manual.page.pricing.section.0.title,단일 약효 최대 용량 · 예시
+chemical.manual.page.pricing.section.1.body,"부작용 단계마다 약효 가치가 5%씩 차감되며, 최대 6단계까지 적용됩니다."
+chemical.manual.page.pricing.section.1.title,부작용 · 약효 가치에서 최대 30% 차감
+chemical.manual.page.pricing.section.2.body,"구간은 70 이상, 60–69, 60 미만입니다. 두 차감률 중 더 큰 값이 적용됩니다."
+chemical.manual.page.pricing.section.2.title,"안정성 · 약효 가치에서 0%, 10% 또는 25% 차감"
+chemical.manual.page.pricing.title,효과 및 가격
+chemical.manual.page.repeat.section.0.body,약효와 부작용이 목표에 부합하면 배합 기록에 저장하세요.
+chemical.manual.page.repeat.section.0.title,현재 제조법 저장
+chemical.manual.page.repeat.section.1.body,목록에 표시된 원액과 보조제를 준비하세요. 배합을 재현하면 해당 재료가 소모됩니다.
+chemical.manual.page.repeat.section.1.title,재료 모으기
+chemical.manual.page.repeat.section.2.body,"확정하기 전에 용량, 약효, 남은 부작용을 검토하세요."
+chemical.manual.page.repeat.section.2.title,미리보기 및 확정
+chemical.manual.page.repeat.section.3.body,주사기와 전력을 확인하세요. 1회분마다 10 mL가 소모됩니다. 나머지는 나중에 충전할 수 있도록 보관하세요.
+chemical.manual.page.repeat.section.3.title,주사기를 채우고 나머지 보관
+chemical.manual.page.repeat.title,제조법 저장 및 반복
+chemical.manual.preview.aux.note,완전한 한 쌍마다 부작용이 1단계 감소합니다.
+chemical.manual.preview.aux.units,원액 10 mL당 한 쌍 (mL)
+chemical.manual.preview.book.title,시약 설명서
+chemical.manual.sources.empty,이 성분이 함유된 기본 화학물질이나 용액도 사용할 수 있습니다. 먼저 성분 구성을 확인하세요.
+chemical.manual.sources.title,보조제 공급원: 먼저 실제 성분을 확인하세요
+chemical.quality.bone,부산물 품질: {0}
+chemical.quality.grade.cut,희석 제품
+chemical.quality.grade.junk,폐품 등급
+chemical.quality.grade.lab,실험실 순수 등급
+chemical.quality.grade.near,준의약품 등급
+chemical.quality.grade.pharma,의약품 등급
+chemical.quality.grade.starch,전분 등급
+chemical.quality.grade.street,시중 표준 등급
+chemical.quality.powder,순도: {0}%
+chemical.quality.residue,생선 부산물 잔여물
+chemical.quality.summary,순도: {0}% · {1}
+core.save.protected,"화물·해도 데이터 읽기 오류로 출항 중단 및 원본 기록 보존. 저장 파일 재불러오기, 문제가 계속되면 저장 파일 보관 후 로그와 함께 신고"
+core.shop.carry,보관소로 물품 보내기
+core.shop.keeper,윌리
+core.shop.name,낚시용품점
+drying.finished,건어물: 원래 몸통 {0}g; 판매 수율 기준 {1}g. 기본 몸통 에너지/질량을 유지합니다. 다시 건조하거나 포를 뜰 수 없습니다.
+drying.prefix,[건조됨]
+drying.ready,건조가 완료되었습니다. 건조대를 열어 변환하세요.
+drying.remaining,건조: {0}일 남음
+drying.summary,"건조대: 진행 중 {0}, 변환 대기 {1}, 지원되지 않음 {2}."
+equipment.cashShort,크레딧이 부족합니다.
+equipment.legacyDocument,폐기된 물약 메모
+equipment.legacyDocumentBody,"이 메모는 폐지된 물약 의뢰 시스템의 것으로, 역사적 기록으로 보관되어 있습니다."
+equipment.returnPending,이전 의뢰의 물약을 반환할 카운터 공간이 부족합니다. 공간을 비운 뒤 다시 불러오거나 새 하루를 시작하세요.
+equipment.unlockFailed,물약 장비를 조달할 수 없습니다. 나중에 다시 시도해 주세요.
+expedition.00a39ee2997d5ca0,{0}\n시간: {1} · 선체: {2}/{3}
+expedition.0142693c45d44aa6,탐험 상태
+expedition.0147dc31ac1357bf,낚시
+expedition.0155179cb37bb3e3,해류를 타고 시간 소모 없이 {0}(으)로 항해했습니다.
+expedition.01a8a64c065d8614,공격을 받아내기
+expedition.01d44fee9d98a14e,탄소 섬유 낚싯대
+expedition.020b233224c677d0,15분을 들여 수면 아래의 암초를 안전하게 우회했습니다.
+expedition.0213357c4b7f8268,화물 교환 (15분)
+expedition.021e3f2ec50092ea,쌍바늘 낚싯대
+expedition.02edb08b4fc4a864,\n연속 낚시: {0}회. 입질 확률이 {1}%포인트 감소했습니다.
+expedition.036311055674dc28,핏빛 어군의 묵직한 물고기 · 낚시로 바다가 동요함{0}\n{1}
+expedition.03baa34a2453c041,역조를 피해 우회
+expedition.042540d4d76fb01f,연구 장비
+expedition.0528053ebc6b38e0,상인 교역
+expedition.058789a2332a7348,임시 보관함 보기
+expedition.05a36c372dffa512,금 간 곳 수리 완료 · 다음부터는 더 조심할 것 · 여성을 다치게 하는 것은 미덕이 아님
+expedition.05cb84cc598ee864,장비 상점
+expedition.05faf0d15bce1821,낚싯줄 끊김
+expedition.06975dda8ee0b942,거대 물고기 그림자
+expedition.072209e2d0ed4507,먼바다 조사
+expedition.07542f8ba6eb613a,{0} 크레딧을 지불했습니다. 해상 상인이 선체 내구도를 일시적으로 {1} 회복했습니다.
+expedition.08379240cd1135ab,유령선
+expedition.0877b7afdbdee6ba,더 깊은 곳에서 낚시
+expedition.088ad283bea8d633,백상아리의 추격
+expedition.091190ca206968e3,정숙 장비 완전 업그레이드
+expedition.09ac337ee2f694cd,\n임시 보관소에 이전 항해에서 전달하지 못한 어획물 {0}개가 있습니다. 어창에 실으세요. 싣지 않은 물품은 귀환할 때 사라집니다.
+expedition.0a2f787a019ef1c1,원정 낚시에 성공했습니다. 원정 바구니에 아이템 {0}개가 담겼습니다. 현재 연속 낚시 횟수: {1}/5.
+expedition.0a4af887ccbc6e09,선체 수리
+expedition.0a518e38a1364634,1포인트 수리 · {0} 크레딧
+expedition.0a585bbe1b69a5e6,한 번에 물고기 두 마리를 낚는 쌍바늘 채비입니다. 기본 원정 어획 확률: 60%.
+expedition.0a76f64562f9a4ba,필요한 것 손질하기
+expedition.0aa7bc3ddbc8a382,침몰선 인양
+expedition.0ab181426f0ef431,어군 이동
+expedition.0b09485221c825eb,동력 엔진은 자동으로 탑재됩니다. 출항 후 왼쪽 메뉴에서 켜세요. 항해를 시작할 때마다 꺼져 있습니다.
+expedition.0b76b8beff9b576a,작살 수리 · 내구도 1 회복 · 1500
+expedition.0b91b96074135d7d,"유령선 보급품은 현재 2일 주기 동안 유지되며, 주기가 끝나면 갱신됩니다."
+expedition.0bade2b677f87154,오늘 밤의 첩보
+expedition.0bb97f2803bad574,떠다니는 상자에는 여러 물품이 들어 있을 수 있습니다. 어창 공간을 잘 확인하세요.
+expedition.0c76b738746fe924,어획물 보관 후 탐사 계속
+expedition.0cb025835d86012e,"일회용 소모품. 선체 내구도가 0이 되거나 항해 시간이 다하면 자동으로 구조되며, 일반 귀환 및 화물 규칙이 적용됩니다. 선체 내구도가 0이면 내구도를 1 회복합니다."
+expedition.0d28635064e47db1,부상당한 상어
+expedition.0d425fab66159bc6,사용 가능한 긴급 수리 키트가 없습니다.
+expedition.0d7066ded5e61afc,조밀한 어군 · 대량 어획 가능 · 반복 어획 시 경계심 증가{0}\n{1}
+expedition.0d76cd3cf7468770,저장에 실패했습니다. 물건은 어창에 그대로 남아 있습니다. 이 페이지를 다시 열어 확인하세요.
+expedition.0e16a1c01ee4644c,선체 보강\n{0} 크레딧
+expedition.0e6ed0880a828dc4,"마우스 왼쪽 버튼으로 드래그해 아이템을 재배치하거나 양방향으로 옮기세요. 드래그하는 동안 Q, E 또는 마우스 오른쪽 버튼을 누르면 회전합니다. 왼쪽으로 되돌린 아이템은 위치가 갱신되기 전에 회수할 수 있습니다."
+expedition.0ead1b8c60780381,선체 완전 업그레이드
+expedition.0f1639138b521707,교환으로 받을 아이템이 어창에 들어가지 않습니다. 거래가 취소되었으며 원래 화물이 복구되었습니다.
+expedition.0fe47c7c0086f21a,해상 이벤트 처리 중
+expedition.0fe98838f60c9dbf,{0} {1} 크레딧 가치
+expedition.10394fbd073a9dda,탐험 장비
+expedition.106d1d9945071206,버려진 조선소
+expedition.1083c14732c8ee89,수리 키트 사용 ({0})
+expedition.109011d190c848a3,낚시 일지
+expedition.1140e9741c4ab317,이미 {0}을(를) 보유하고 있습니다. 다시 구매할 필요가 없습니다.
+expedition.116d6170db4521e0,"{0}\n임시 보관함에서 아이템 {1}개를 잃었으며, 잡은 어획물 {2}개를 집으로 가져왔습니다."
+expedition.1182c5454f113db5,선택되지 않음
+expedition.12ab208d6cb52c25,유령선 정보 구매 (오늘 밤) · 1000
+expedition.12d3b375730d9b91,안개 속에 유령선이 나타났습니다. 해도에 위치가 표시되었습니다.
+expedition.12e994e165d214fd,도전 준비 완료
+expedition.13c6b3c5ee55c20f,미탐색
+expedition.13df6ef5626a1d7c,오늘은 판매할 장비가 없습니다.
+expedition.148b0a11af08d8cc,이 지역은 완료되었습니다. 집으로 돌아갈 항로를 계속 찾아보세요.
+expedition.155fa15615f23db4,백상아리 회수
+expedition.15b7f7a95c1ccdcb,보트
+expedition.15dc0976f157a344,선체 파괴
+expedition.16ad9725f8f991ec,아이템을 오른쪽 판매 구역으로 드래그하세요. 보급소에서는 기본 가치의 80%를 지급합니다.
+expedition.17913dd233868a5c,어창: {0}/{1}칸 · 임시 보관함: {2}/{3}칸 · 총 {4}개 아이템
+expedition.17cb767faadf00a7,동력 엔진 끄기 (작동 중)
+expedition.17dfd201c920398c,{0} 어창 보관
+expedition.181434deb8cc3436,그림자가 빠르게 다가왔습니다. 소란도가 15 증가했습니다.
+expedition.186d276b9b333a44,안정적인 장력 · 약해지는 물고기
+expedition.18a8e54dd33fa41f,오늘 밤 원정 기회 사용 완료
+expedition.194e8e5a809887a5,역조
+expedition.1a417c628a4f64c8,물고기와의 사투 진행 중
+expedition.1acf34c664d7d425,타이밍이 조금 어긋났습니다. 다시 시도하려면 한 라운드 동안 낚싯줄을 안정시키세요.
+expedition.1b7ca93c76bba113,시간 {0} · 선체 {1}/{2}\n크레딧 {3}\n
+expedition.1d320bca6df108ff,해상 상인과 거래
+expedition.1e77f4a86db835e8,보유하지 않음
+expedition.1ee2993cfe0ff524,그림자 조사 (15분)
+expedition.1fe4cd13e5c9d4c6,자동 릴 #{0} 보충
+expedition.1fef7fafa60c723e,낚시 ▴
+expedition.2024519697cb11b6,흐름 조사
+expedition.21138f1b0642c3f7,정비
+expedition.2173ab65b9f4238e,탐험 실패
+expedition.21c47eba0f9510fa,{0} 적재 완료
+expedition.2304549a78e513e5,소식에 나온 {0} 어군 {1}\n{2}
+expedition.232072faae47582c,"침몰한 아이스박스 안에는 음식이 들어 있지만, 이미 상했을 수도 있습니다."
+expedition.237ba1e0789fba0f,물고기 떼 밀집 지역
+expedition.238da13bf33f8266, [보유량: {0}]
+expedition.24016196fe2212d6,어획물 판매
+expedition.241182881949b62c,어창
+expedition.253a50eac2e9f42b,얕은 물에 사는 물고기에 적합한 기본형 외바늘 낚싯대입니다. 원정 기본 포획 확률: 60%.
+expedition.254ee0020f280eb5,"거래에 실패했습니다. 어획물은 복구되었으며, 다른 화물에는 영향이 없습니다."
+expedition.25685f4ca301901f,캐스팅
+expedition.266dc4ae04afc824,"물고기 그림자는 사라졌지만, 근처에서 보물이 반짝입니다."
+expedition.26b13a9a8beed93f,낚싯줄 조이기 (S)
+expedition.26b734f86c4b3e12,\n작살: {0}/3
+expedition.26e80464aefa76c2,부표 활성화 (15분)
+expedition.27a9096e54464a1b,임시 보관함에 지난 원정에서 배송하지 못한 아이템 {0}개가 들어 있습니다. 평소처럼 출항할 수 있습니다. 출항 후 아이템을 어창으로 끌어다 놓으면 집으로 가져올 수 있습니다. 어창에 싣지 않은 아이템은 귀항할 때 모두 사라집니다.
+expedition.28441cf1da99fe49,윌리의 물고기 연구를 완료하면 잠금 해제되는 고급 낚싯대입니다. 한 번에 물고기 두 마리를 낚습니다. 원정 기본 포획 확률: 60%.
+expedition.28b3dce723486a17,응급 수리 키트 하나와 15분을 사용해 선체 내구도를 {0} 회복했습니다. 선체: {1}/{2}.
+expedition.2902360bdbdf845c,암초
+expedition.297ccf6db067b817,응급 수리 키트 사용
+expedition.2a8c3e60b00ebe10,지금은 출항할 수 없습니다. 나중에 다시 시도해 주세요.
+expedition.2aecd93622a9996b,관찰 완료
+expedition.2afe0c124b7939b4,신비한 물고기 그림자가 나타났습니다. 위치는 해도에 표시되어 있습니다.
+expedition.2bd1a74f8d7a3070,"자원 지점은 이틀마다 재생성됩니다. 전리품은 각 주기 내에서 공유되며, 이미 수색한 지점에는 물자가 다시 채워지지 않습니다."
+expedition.2c110286370df978,미끼 보충
+expedition.2c18fc52cda82560,출항 준비
+expedition.2caf20bdb868be2d,탐조등
+expedition.2cb62650c0216b22,크레딧이 부족합니다. 미끼 {0}개를 보충하려면 {1}이(가) 필요합니다.
+expedition.2d2511b4d1649ab4,백상아리 포획을 시작했습니다. 남은 작살 사용 횟수: {0}/3.
+expedition.2d45772a126f0679,미소지
+expedition.2e4e2c2dd17a1317,알 수 없는 위치
+expedition.2f1af20b043c4d13,지금 떠나기 (15분)
+expedition.2f71bc485aec6a37,중앙 항구에서 출항했습니다. 오늘 밤의 해상 상태: {0}.
+expedition.2f8cd5ff56f4d512,무인 플랫폼에 아직 사용 가능한 장비가 있습니다. 서비스 하나를 선택하세요.
+expedition.2f9855f3a7db87fb,"\n잡은 물고기를 가지고 돌아가시겠습니까, 아니면 계속 위험을 감수하시겠습니까?"
+expedition.2fa8a58cd1c87f1c,작살 수리를 저장하지 못했습니다. 1500크레딧을 환불했습니다.
+expedition.30a1c72dc062600a,수중 교란 충격
+expedition.30b9b94472b72780,이곳에는 특별 이벤트가 없습니다.
+expedition.30ce3dabf9cc15f0,성공 확률이 낮아지는 대신 물고기의 평균 무게가 증가합니다.
+expedition.31080e04777a024f,소모품
+expedition.314800f9c01fa502,물고기가 드뭅니다. 입질 확률이 매우 낮습니다.
+expedition.32149929210e2ad3,엔진 스위치 상태를 저장하지 못했습니다. 이전 상태로 복원했습니다.
+expedition.32487039fbdcf8da,항해 준비로 돌아가기
+expedition.3286ed7c186dbd38,사용 가능한 폭탄이 없습니다.
+expedition.33116eb46469c6cb,유령선 정보가 필요합니다. 먼저 옛 어촌의 엘리아스에게서 1000 크레딧에 구입하세요.
+expedition.332402873029711d,해류
+expedition.33bb5a9eb3800c5f,제시간에 항구에 도착했습니다. 어창의 화물이 안전하게 보존되었습니다.
+expedition.349f5e98e305a641,심해의 동요
+expedition.350e069402727f4a,미끼 보급이 적용되지 않았으며 환불에도 실패했습니다. 로그를 확인하세요.
+expedition.35363128bd77d2c1,너무 일찍 또는 너무 늦게 감아 올렸습니다. 먼저 낚싯줄을 다시 안정시키세요.
+expedition.35930e77501baabc,그림자가 더 멀리 헤엄쳐 갔습니다. 추적 진행도: {0}/3.
+expedition.3695e6ef829038d0,낚싯대 낚아채기 (D)
+expedition.36a6a644686ef643,이 유령선은 이미 수색했거나 포기했습니다. 다시 수색할 수 없습니다.
+expedition.36d19a3544d0c34d,유령선 보급품을 발견하여 정보가 소모되었습니다. 이 배의 나머지 층은 계속 탐사할 수 있습니다.
+expedition.373de14a54b5ae1b,"{0}, 선체에 {1}의 피해를 입혔습니다. 선체: {2}/{3}. 백상아리는 이곳에서 1시간 동안 쉽니다."
+expedition.38470dafbd22239a,상어가 부상을 입었습니다. 이번 전투에서 실패하면 오늘 밤 다시 만났을 때 더 쉽게 제압할 수 있습니다.
+expedition.388c7f6a2713e688,암초\n폭파
+expedition.388de32978b3e248,외해
+expedition.39bfa7c96aa05e0d,물고기가 세차게 잠수합니다! 낚싯줄 장력이 급격히 상승합니다.
+expedition.39ed4e33377f7e6c,이 층의 모든 보급품을 실었습니다. 별도의 버튼을 사용해 다음으로 진행하거나 탐사한 층을 다시 방문하세요.
+expedition.3a96fb7c7a0b2185,저장에 실패했습니다. 불러오기가 취소되었습니다. 이 페이지를 다시 열어 확인하세요.
+expedition.3ba6ea8877cd6ad1,저장에 실패했습니다. 아이템은 어창에 그대로 남아 있습니다.
+expedition.3bbd270a4286c598,{0} 판매 · {1} 크레딧
+expedition.3d0e0c085892fbef,급정지로 반응 시험
+expedition.3d245dd16ed812b7,항구로 돌아가기
+expedition.3d3a55dc84a932a0,{0} 때문에 밤을 다 보냈습니다. 오전 4시 전에 항구에 도착하지 못했습니다.
+expedition.3d57818727d7ba23,원정용 낚싯대가 더 이상 장비 인벤토리에 없습니다.
+expedition.3d93c271fd122197,파이프
+expedition.3dc17bec2830cce5,수리 불필요
+expedition.3e0422821b188a44,심해 낚시터
+expedition.3e125a77006caafc,수리에 실패했습니다. 시간은 소모되지 않았지만 환불에 실패했습니다. 로그를 확인하세요.
+expedition.3e51b815dfc92a87,두 번 연속 대응에 실패해 물고기가 낚싯바늘에서 빠져나갔습니다.
+expedition.3e8b00baf1d1c3ab,희귀 물고기가 모여드는 깊은 소굴 · 낚시 시 바다 교란{0}\n{1}
+expedition.4085312f6ebe463d,임시 보관소 | 남은 어획물은 출항 후 다시 실을 수 있습니다.
+expedition.4110fd56272604de,낚싯줄 풀기 (A)
+expedition.415c69d499214ec7,발견한 보급품을 오른쪽 어창으로 드래그하세요. 수거하지 않은 보급품은 이곳에 남습니다.
+expedition.418d692886b86b0b,끌어올릴 위치 선택
+expedition.41df0f176865e3e6,해류를 타면 다음 이동 시간 단축
+expedition.428fb8bfeecf7f91,이상
+expedition.42a57d1b6076fc1e,버려진 어선
+expedition.42c1c0d16e0c1db5,수리 완료
+expedition.42fd84abb2ec7f28,휴대 중
+expedition.435f622f808ed0f4,수중 암초를 강행하여 선체에 2의 피해를 입었습니다. 선체: {0}/{1}.
+expedition.438d6dded9fb4440,항해 장비
+expedition.43c98117fe272e8b,어획물 보관 후 지도로 돌아가기
+expedition.445e37c6f2eb6336,부표 활성화
+expedition.45d69136b3d29994,{0} 크레딧을 지불하고 선체 내구도를 {1} 회복했습니다.
+expedition.460acf11a59b4bc8,부품을 제거하고 선체 내구도를 {0} 회복했습니다.
+expedition.463cdbaa5a88902a,조사 모드가 취소되었습니다.
+expedition.465eaeb5cc7dab00,메인 페이지
+expedition.46eb6d8216a486b2,다음 층
+expedition.478b019f511b0f5d,이번에는 물고기가 미끼를 물지 않았습니다(성공 확률: {0:P0}).
+expedition.48222134313d94c5,물고기와의 사투로 돌아가기
+expedition.484d55613910eb8c,없음
+expedition.49c6e4dbf8391894,선실 수색
+expedition.4a4774fa5e6118ea, · 상어 부상
+expedition.4a6754575da6a357,이 연구는 이미 완료되었습니다.
+expedition.4a780cb165464af3,폭풍
+expedition.4acce28d56f70b9e,수중의 그림자 때문에 항로를 벗어나 15분이 추가로 소요되었습니다.
+expedition.4ae77aeb8b8e64b6,"{0} · 백상아리\n15분마다 한 칸씩 추적하며, 잡으려면 작살이 필요합니다\n공격 시 선체에 3의 피해를 준 뒤 1시간 동안 쉽니다\n항구에서는 상어가 공격할 수 없습니다."
+expedition.4b6cf946dfbe8547, (자동 휴대)
+expedition.4b76cc3b025a2700,원정 보급품
+expedition.4bb9d8270988a169,완료 · 항해 시간 절약
+expedition.4bba3418c704f1f1,유령선 정보: {0}
+expedition.4c233217bedcc47a,{0} 재배치 완료.
+expedition.4ce4cafdd0561280,메뉴
+expedition.4d31db3e5be3b7cb,장비 구매와 환불에 실패했습니다. 로그를 확인하세요.
+expedition.4e21ee32547c0b43,\n배달하지 못한 어획물 {0}개를 임시 보관소에 두었습니다. 다음 항해 때 실으세요. 싣지 않은 물품은 귀항 시 사라집니다.
+expedition.4e267fb207cedaa8,비상 수리 키트
+expedition.4ed0ba569b754886,이미 유령선 정보를 보유하고 있습니다. 다시 구매할 필요가 없습니다.
+expedition.4eed4dae9286a13b,여기서 계속 낚시하기
+expedition.4f3f7f8c7557f457,이상 해류의 방향이 바뀌었습니다. 이제 역조가 표시됩니다.
+expedition.4f4c4a9b4cf0da2b,수리가 적용되지 않았고 환불에도 실패했습니다. 로그를 확인하세요.
+expedition.5023cf41aebbd703,원정 중단
+expedition.503ff158a6a0fc95,멈추지 않고 이동
+expedition.507ae198b28d6bad,탐조등 낚시
+expedition.50d94cb992b60553,여기서는 실을 수 없습니다. 보급품은 임시 보관소에 남습니다.
+expedition.50e648e92ad77955,수리가 적용되지 않았습니다. 시간은 소모되지 않았으며 크레딧은 환불되었습니다.
+expedition.513c1b6d7f041129,구조 신호기
+expedition.51c79697ab82ea6a,판매 구역\n\n{0}\n항구 매입가: {1}크레딧
+expedition.5285b6af49ae3818,원정 업적
+expedition.5294fbae2e4e287e,미끼 보충에 실패했습니다. 시간은 소모되지 않았으며 크레딧은 환불되었습니다.
+expedition.52a8c50aaec4413d,항로 기록 요청
+expedition.5412b6e3a60721eb,그림자가 배 밑바닥을 들이받아 선체에 {0}의 피해를 입혔습니다. 선체: {1}/{2}.
+expedition.551075bd32f448db,거대 물고기의 윤곽을 드러낸 그림자
+expedition.557b1b8ecdeeab90,세 번 추격한 끝에 거대한 녀석이 마침내 돌아서서 마주한다.
+expedition.55cf67ec9a9200cf,항구 서비스
+expedition.55eaae520f778ea2,백상아리의 공격
+expedition.5617aba57cc22b0a,쥐똥 덩어리
+expedition.563a29c99e043c31,원정 조기 종료: 현재 목표 도주
+expedition.568d5f0f0164ab38,미끼 보충 ({0} 크레딧)
+expedition.578ddf61259af892,해도 업그레이드 · {0} 크레딧
+expedition.5799fc008fa581c2,거대한 녀석에게 도전
+expedition.57b67f0769af2179,도착지: {0}
+expedition.57ca8a87de052697,역조를 우회하느라 15분을 소모했습니다.
+expedition.5875327e0a888326,현재 낚싯대로는 이 해역에서 어떤 포획 대상도 잡을 수 없습니다.
+expedition.5937c94907052c37,수상한 물고기 그림자의 충돌
+expedition.594b016bc4865c37,다진 생선살
+expedition.5987295772a2733e,{0} 항해
+expedition.59f6c836929344e5,해결됨
+expedition.5a1cefe959508235,{0}에서 물품 {1}개를 발견했습니다. {2}개를 실었고 공간 부족으로 {3}개를 포기했습니다.
+expedition.5aa8a83d48df059b,늦은 반응 · 풀린 낚싯줄
+expedition.5b031253e7cce9f5,뉴스 물고기 떼
+expedition.5b0d580d704aaa3b,연속 완벽 대응 · 추가 진척도
+expedition.5b1182701e8c16f8,좋은 상태의 물고기 · 전량 구매
+expedition.5b16ce04c4baefe2,어종: 
+expedition.5be1ee7c99bd9a06,알 수 없는 물품
+expedition.5c3b6a0c53fb4ff3,미끼 보충이 적용되지 않았습니다. 크레딧은 환불되었습니다.
+expedition.5c55a67935af8f45,전체
+expedition.5c87fd7876d8ad2a,{0} · {1}\n{2} · {3}\n{4}\n현재 시야: {5}{6}–{7}{8}
+expedition.5cc1444ad44d1ec2,항구
+expedition.5d30d9fafb8f3d35,낚싯대가 더 이상 유효한 인벤토리에 없습니다.
+expedition.5d4dd7c2262f5835,\n원정에 실패했습니다. 어창의 절반 이상을 차지하던 화물 {0}개가 바다에 빠졌습니다.
+expedition.5d94eb9570f63e61,원정 {0}일 차 밤 (밤 총 2회)  {1}  낚싯대 {2}  미끼 {3}  탐조등 {4}  폭탄 {5}  수리 키트 {6}  신호기 {7}
+expedition.5e3b2aa085c24480,배 수리 필요: 내구도 {0} 남음
+expedition.5e9ce1ec5a2dede4,작살이 없습니다. 조선소에서는 보유 중인 작살만 수리합니다.
+expedition.5ec6430f2c2840b5,어창에 연속된 공간이 부족합니다. {0}을(를) 임시 보관소에 두었습니다. 귀항하기 전에 어창으로 드래그하세요.
+expedition.5eceada45a34a86d,원정 성공
+expedition.5f8bc1070c8b3944,자동 릴\n{0}/20
+expedition.5f96f1857580f37b,조류 원정
+expedition.5fe46e6dede5da44,위험
+expedition.613e9704f291a852,낚시터
+expedition.61510a877e0b5e7e,물고기 떼
+expedition.6173c8e060a89309,원정 페이지를 열 수 없습니다. 로그를 확인하세요.
+expedition.6212e8f69ac77ff1,현재 층 탐색
+expedition.62229cb9e2588aff,수색 플랫폼
+expedition.626a195032cf04ea,유령선 사고로 인한 선체 파괴
+expedition.6300ed27cd472c44,보급품 수색
+expedition.63570538d698c19c,백상아리 포획\n무게: {0:0.###} kg · 가치: {1} 크레딧\n크기: 6×2칸. 어창이 가득 차면 임시 보관소에 넣기를 시도합니다.
+expedition.63978b568e388363,온천 배출구
+expedition.648e6fb8bce1f993,잔잔함
+expedition.6569aa8a61e16290,물고기를 오른쪽 판매 구역으로 드래그하세요. 오래된 어촌에서는 물고기만 기본 가치의 100% 가격에 매입합니다.
+expedition.65ce4e99e971ab18,내구도: {0}/20. 보충할 때마다 내구도가 1 회복됩니다. 파괴된 릴은 복구할 수 없습니다.
+expedition.65f3734b5ea18929,수리 완료 · 호신 도구 추가
+expedition.668e967dbd6e6be3,크레딧: {0}
+expedition.66ac1a59351e8a6f,\n강력 엔진: 설치됨 (출항 후 활성화)
+expedition.66c5de2e5a8b1f72,완벽한 대응! 리듬을 유지하세요.
+expedition.674b274e62c63205,{0} 크레딧을 지불하고 미끼를 {1}만큼 보충했습니다.
+expedition.678c57d34a205c13,희귀 물고기가 더 많지만 아무것도 잡지 못할 확률도 높습니다.
+expedition.679b1fecb38b484b,해상 수리에 실패했습니다. 선체는 복구되었지만 환불에 실패했습니다. 로그를 확인하세요.
+expedition.68a2d0b234f0a0f0,조사 모드: {0}칸 이내의 밝혀지지 않은 해역을 클릭하세요.
+expedition.68b59c199015c7b9,순방향 해류를 찾았습니다. 다음 이동에는 시간이 소모되지 않습니다.
+expedition.69ab164b135392d8,해상 미끼 보충에 실패했습니다. 크레딧은 환불되었습니다.
+expedition.69e633677b5bd719,선체 업그레이드
+expedition.6a0bdba764db5e7f,휴대 (낚시 시간 5분 감소)
+expedition.6ab9551bdcded488,해류를 잘못 판단했습니다. 여전히 길을 막고 있습니다. 다시 관찰하거나 시간을 들여 우회하세요.
+expedition.6b4efa9861bdec39,물품 위에 커서를 올려 세부 정보를 확인하세요.
+expedition.6bc71e973b7ead3f,현재 미끼 내구도 최대
+expedition.6be6c8248ec61181,현재 위치
+expedition.6bf169f60a9c8f1e,"출항 전에 낚싯대, 탐조등, 폭탄을 구매하세요. 실물 미끼를 더블 클릭하면 장비 인벤토리로 옮길 수 있습니다."
+expedition.6c1ba5b15823b865,어창과 임시 보관함 모두 공간이 부족합니다. 플랫폼의 보급품은 제자리에 남습니다.
+expedition.6c6fd46769bbda06,유령선 사고
+expedition.6c9feed96b1d32b5, [수리 불필요]
+expedition.6d128cd0a3b7d789,수중 암초
+expedition.6d55f0393dfad2bc,완료되지 않은 낚시 기록이 유효하지 않습니다. 이번 캐스팅은 안전하게 종료되었습니다.
+expedition.6d7b45874750e42f,버려진 플랫폼
+expedition.6db6b4a06bd68b05,이 층은 당분간 조용합니다. 계속 수색하거나 떠나세요.
+expedition.6e027c9a090520e2,정박 중
+expedition.6e6d714410a1da71,깊은 바다
+expedition.6f2adf12591f1f53,버려진 조선소 / 선박 업그레이드\n선체: {0}/{1} · 어창: {2}×{3} · 이동: 칸당 {4}분
+expedition.6f9d159e7889d78c,작살은 원정 장비입니다. 중앙 항구로 가져가 보관하세요. 판매할 수 없습니다.
+expedition.7002a66160802921,"포획 성공, 5연속 투척을 완료했습니다. 원정 바구니에는 이제 물품 {0}개가 있습니다. 다음 투척은 첫 단계부터 시작합니다."
+expedition.70a33203da45d2fc,물고기가 물 위로 뛰어오릅니다! 낚싯줄 장력이 빠르게 떨어집니다.
+expedition.70ddc40598903cfe,보유 중
+expedition.718bdb676c9cb265,{0}은(는) 여기에 놓을 수 없습니다.
+expedition.719b3536d5b5d9ad,자재 잔해가 수면에 떠 있습니다. 쓸 만한 부품을 찾아보세요.
+expedition.71ec7915252f6928,유효한 물고기 대상 없음
+expedition.71f61861c2f6ea6b,그림자 아래 모여든 희귀 물고기
+expedition.71f79d496a321a7d,낚시 장비
+expedition.726d2898bc63f979,엔진 업그레이드 완료
+expedition.72e103fc402eae81,배 아래를 맴도는 거대한 그림자 · 도전 시 바다 동요\n{0}
+expedition.7345ed45ce936fff,떠나기
+expedition.740d560da90fb461,순방향 해류
+expedition.74d4124b1e9e17b6,환영 인사 · 오늘의 조과
+expedition.74f9f45edd19caa0,안전·보급품·해도 지원 획득 가능
+expedition.75139fbf260c54b2,"성공 확률이 낮습니다. 투척에 실패하면 쓰레기, 자재 또는 도구를 건질 수도 있습니다."
+expedition.7607cd6ca884bfc0,연속 낚시
+expedition.76730fb0debde9e6,항구에 정박
+expedition.76979c1f975ecc5b,어획물 포기
+expedition.76d2ee321f5f5ae5,크레딧이 부족합니다. 이 해상 서비스에는 {0}이 필요합니다.
+expedition.7704557597d7dc81,일반 낚시터 발견 {0}\n{1}
+expedition.77124550148813cb,25분
+expedition.77af8ed9de38c7f1,일회용입니다. 해상에서 사용하면 15분이 걸리고 선체 내구도를 3 회복합니다.
+expedition.7822443535d139d8,작살 수리
+expedition.78f8d3d0aa66409b,탄소 섬유 낚싯대와 함께 잠금 해제됩니다. 같은 어종 목록을 사용하며 항상 물고기 세 마리를 잡습니다. 원정 포획 기본 확률: 60%.
+expedition.794b78439ee4dc25,이전 층
+expedition.795fe4b3b0a721ff,이 업그레이드는 이미 최고 레벨입니다.
+expedition.7a350ada675d594d,{0}은(는) 어창에 들어가지 않으며 임시 보관소에도 이어진 공간이 부족합니다.
+expedition.7a47448c53df7387,유리 미끼
+expedition.7aba50f8f83337e9,탐색 지도로 돌아가기
+expedition.7b08678fa1d27420,인양할 수 있는 물체가 물 위에 떠 있습니다. 배에 싣기 전에 어창 공간을 확인하세요.
+expedition.7b10b47845baf5e6,어촌 부두
+expedition.7b27d9f5c88f232f,크레딧이 부족합니다. {0}이 필요합니다.
+expedition.7b319dda0eebe704,완벽한 조종 솜씨 · 추가 업그레이드 제안
+expedition.7b417291a1f1cd02,{0}\n{1}실수: {2}/2 · 남은 시간 {3:0.0}초\n{4}
+expedition.7b65a265fbd7572e,어창 확장\n{0} 크레딧
+expedition.7c2a0283816ddd49,위험을 감수하고 낚시하기
+expedition.7d82b602e7bb000f,내구도 20. 출항 전에 선택합니다. 일반 사투에서 빨간색으로 강조된 추천 행동마다 내구도 1을 소모합니다. 내구도가 0이 되면 현재 라운드의 안내를 완료한 뒤 릴이 파괴됩니다. 마지막 끌어올리기에는 도움을 주지 않습니다.
+expedition.7d934070ff8b4a42,화물 상자 인양
+expedition.7dec9c17f3a22666, 이번 수리에는 시간이 소모되지 않았습니다.
+expedition.7f136a0ee9359b63,항구 수리 서비스입니다. 현재 최대치를 넘지 않는 범위에서 선체 내구도를 최대 2 회복합니다.
+expedition.8109018c52bca0c7,수중 암초 우회
+expedition.819720c0b4da2a1e,선체 내구도 최대
+expedition.819eccce28e86b40,백상아리의 선체 파괴
+expedition.81d6ffdfe458e743,해류를 타고 무료로 항구에 돌아가기
+expedition.830158139c48e1ca,역방향 해류 관찰
+expedition.836c3109d9e10eeb,부표
+expedition.83a3cf6f1f5afc21,{0} 크레딧을 지불했습니다. 해상 상인이 미끼 내구도를 {1} 회복했습니다.
+expedition.841d87004b76b3ef,사용: {0}/{1}칸
+expedition.84217dd06a91e0f6,오래된 어촌
+expedition.8483d7cdd631d4e1,원정
+expedition.849a2e393d2c00d9,장비를 선택한 뒤 출항하세요.
+expedition.849f0a992528225c,이곳에는 공간이 부족합니다. 보급품은 제자리에 남습니다.
+expedition.84bd5d5f420602ce,{0}을(를) 저장하지 못했습니다. 일부 상태를 복원할 수 없습니다. 저장하지 말고 로그를 확인하세요.
+expedition.859757ea792a73da,30분
+expedition.8597afce613b592c,낚싯줄의 장력이 풀려 물고기가 바늘에서 빠져나갔습니다.
+expedition.859c05998d148c5e,섬뜩한 울음소리에 거대한 물고기 그림자가 모습을 드러냈습니다. 교란도가 추가로 10 증가했습니다.
+expedition.85a6b67a633b5bf8,부표가 소란도를 20 낮추고 인근 해역을 밝혔습니다.
+expedition.85aa198da76b2771,미끼 보급에 실패했습니다. 시간은 소모되지 않았지만 환불에도 실패했습니다. 로그를 확인하세요.
+expedition.86b47937f2457dd0,{0} 판매를 취소했습니다.
+expedition.870fd4bbe517885f,\n이 항구에서 매입하지 않는 물품
+expedition.8789c733f2ae491c,바다로의 출항과 물고기 그림자 추적
+expedition.879e42d74bdffed9,\n작살: 없음
+expedition.8832c1346196f981,안전 부표가 아직 빛나고 있습니다. 작동시키면 주변 해역을 잠잠하게 만들 수 있습니다.
+expedition.8872f5ba183cbd60,구매에 실패했으며 환불에도 실패했습니다. 로그를 확인하세요.
+expedition.8896cb8f0acfac25,해도 최대 강화 완료
+expedition.88b275f2de21bba9,오늘의 조과 없음 · 마을 방문 예정
+expedition.8a8542f6964852dc,다음
+expedition.8aae4ea797220269,교환할 화물 없음
+expedition.8b6214ce097fa5a6,아래에 침몰선이 있습니다. 잠수해 보급품을 수색하세요.
+expedition.8b7766868ce4a2a5,\n자동 릴: {0}/20 (표시 한 번마다 내구도 1 소모)
+expedition.8ccb975cf7459d26,해도에 나타난 핏빛 물고기 떼
+expedition.8cf298c9c3290f32,미끼 없이 출항
+expedition.8df4f1c7a46f79d0,백상아리 (휴식 중)
+expedition.8e04d3c047c863ff,해상 보급소
+expedition.8e13ff7a44a1a00f,수상한 물고기 그림자
+expedition.8e74cc8f38bb23a9,최종 감기: 표시가 중앙의 초록색 구역에 들어오면 낚싯줄을 감으세요.
+expedition.8f18a4ff0497b035,완료되지 않은 낚시 단계는 무효입니다. 이번 캐스팅은 안전하게 종료되었습니다.
+expedition.90150b31759de30c,냉장 상자
+expedition.90181c3fa3bf4af3,침몰선
+expedition.9021bd1389e0b10c,\n배송하지 못한 어획물 {0}개를 임시 보관소에 두었습니다. 다음 항해 때 어창에 실으세요.
+expedition.9047eddf86632dbb,유리 동굴의 느슨한 바위가 선체를 긁어 피해 1을 입혔습니다. 선체: {0}/{1}.
+expedition.90afca3adfb2b26a,최종 릴링 · {0:0.0}초 남음\n{1}물고기 지침. 마저 끌어올리기. 실수: {2}/2\n{3}
+expedition.90ff1cb2ad32618e,선체 내구도가 가득 찼습니다. 수리할 필요가 없습니다.
+expedition.911f6f96eed146d7,역류로 인한 항해 지연·흐름 방향 주의
+expedition.914c2c8bcce80be0,{0}을(를) 회전할 공간이 부족합니다.
+expedition.915048a55d056896,탐조등\n낚시 시간 5분 감소
+expedition.9195515b352b2cc3,장비 해체
+expedition.91dde023dbe20117,물고기 기록
+expedition.91ecc20d00de2bce,상점으로 돌아가기
+expedition.92266859684781a9,자동 릴
+expedition.92365d508d4797c1,섬광 미끼
+expedition.924146d8845b45f7,{0} · 소란도: {1}/100 · 선체: {2}/{3}
+expedition.92576772ba0f3307,포획 수: {0}개\n현재 연속 포획: {1}/5
+expedition.93377116147d3ad0,백상아리
+expedition.93c54590a9cb8069,{0}\n{1}\n시간: {2} · 소란도: {3}/100
+expedition.940f7b9b10c5854c,선체 내구도가 가득 찼습니다. 이 수리 서비스는 필요하지 않습니다.
+expedition.94441e0c706de228,선체 수리 ({0} 크레딧)
+expedition.94c54f2c5c4354e7,이전 어획물이 수령을 기다리며 물고기 바구니에 남아 있습니다. 오늘 밤 다시 출항할 수 있습니다.
+expedition.94e65b8baff57e11,미끼 사용 안 함
+expedition.950ef1d9125a6fbe,크레딧: {0} · 스크롤로 둘러보기 {1}\n{2}
+expedition.957a90523177d5f4,버려진 승강장에서 아이템 1개 적재
+expedition.967dd40d32c05835,{0} 어창 적재
+expedition.96965abdeafc7d45,물고기와의 사투가 끝날 때까지 페이지를 바꿀 수 없습니다.
+expedition.97d759704b10c2c8,현재 낚시터
+expedition.98361b635008df41,마지막 층입니다. 탐사한 층으로 다시 갈 수 있습니다.
+expedition.9845c165151daee3,사용됨
+expedition.9892be1fb7857018,\n연속 낚시가 끊겼습니다. 다음 캐스팅은 첫 단계부터 시작합니다.
+expedition.9897d43dbac3de3a,버려진 어선 탐사
+expedition.989b687bb898fbb5,물고기 풍부
+expedition.98ceb57fd8c4192a,탐사
+expedition.98df058a75db54ee,{0}(으)로 인해 선체 내구도가 0이 되었습니다. 구조 신호기를 자동으로 소모했습니다. 구조선이 배를 중앙 항구로 견인하고 선체 내구도를 1 회복했습니다.
+expedition.99c865c428a63435, 이번 보급에는 시간이 소모되지 않았습니다.
+expedition.9a8c31fa26feae3c,유령선 정보 구매
+expedition.9aa79fc65004f2ee,지원
+expedition.9b5f0e5a3e9b7e31,8 크레딧으로 자동 릴 내구도를 1 회복했습니다. 내구도: {0}/20.
+expedition.9bf786abeec705ca,선체를 수리할 필요가 없습니다.
+expedition.9c526d684417541e,과도한 장력으로 낚싯줄 끊어짐
+expedition.9c8baac245624e12,수리에 실패했습니다. 시간은 소모되지 않았으며 크레딧은 환불되었습니다.
+expedition.9cb42d68aa872318,정박하여 현지 서비스를 이용하세요.
+expedition.9cddb032d6032712,부두에서 준비 중
+expedition.9ce2078b51d43c78,미끼 보급이 적용되지 않았습니다. 시간은 소모되지 않았지만 환불에도 실패했습니다. 로그를 확인하세요.
+expedition.9cffe573b1c270fe,알 수 없는 항구
+expedition.9d4f6c577bf315d5,어종: 미확인
+expedition.9d918ae860ba2e9d,선체 내구도 2 회복
+expedition.9dfecbf0b81efa46,구매\n비용: {0} 크레딧
+expedition.9ecd80aa861748a1,출항할 수 없습니다. 원정은 시작되지 않았습니다. 나중에 다시 시도하세요.
+expedition.9ed08113230b311a,해도 및 기록
+expedition.9efffe02557cf2a8,고요한 밤
+expedition.9f27c8804d904c10,해도 끝자락 도달
+expedition.9f9e5a4e20305023,미끼
+expedition.a05649ac33db9454,강조된 구역의 물품만 수집합니다. 나머지 두 구역은 참고용으로 표시됩니다.
+expedition.a0820af3218093da,정보를 저장하지 못했습니다. 1000 크레딧을 환불했습니다.
+expedition.a0bfbf15123965c9,사용 가능
+expedition.a0e98c8c17d6137e,보트를 중심으로 한 시점
+expedition.a249b8bac6ed6d2f,비정상적인 측정값입니다. 위험과 잠재적 보상이 모두 높습니다.
+expedition.a2c662ddf14a4547,이곳에는 이어진 빈 공간이 충분하지 않습니다. 보급품은 컨테이너에 남아 있습니다.
+expedition.a314d19313f6c054,핏빛 물고기 그림자 성공 확률 +25%p. 내구도: 15. 구매 시 원정 장비에 바로 추가됩니다.
+expedition.a414e3aeb24edd0a,낚싯줄을 감는 시기를 놓쳤습니다. 물고기가 달아났습니다.
+expedition.a42f93736e36b78e,컨테이너 나가기
+expedition.a437c3eb57798426,출항 후 임시 보관소 물품을 어창에 적재
+expedition.a441bc9f8880b3b4,현재 이벤트
+expedition.a459f56bab6f5d68,중앙 항구
+expedition.a4d99f335c6f88b9,잔해
+expedition.a55df6b4d286c88f,간조
+expedition.a5628ea93c01af9f,내 어획물
+expedition.a5d99175bd3f209b,거센 흔들림으로 화물 하나가 바다에 빠졌습니다: {0}.
+expedition.a6158cbe0820f544,"해상 발판의 상인은 낚싯대, 미끼와 원정 보급품을 판매하고 선체를 수리하며 어창의 화물을 매입합니다."
+expedition.a6336e26030432c3,우회하기
+expedition.a705acfff822b465,거래 미완료: {0}. 어획물을 원래 어창 기록으로 복구했습니다.
+expedition.a717c9989a06dcb3,이 낚시터에서 계속 낚시
+expedition.a72380590b9baf02,흥미로운 오늘 밤 · 양호한 데이터
+expedition.a745898df5139a8b,크레딧이 부족합니다. {0}이(가) 필요하지만 {1}밖에 없습니다.
+expedition.a7abb02ae8365140,먼저 원정 장비에서 구매한 낚싯대를 선택하세요.
+expedition.a7c87d2b64ba6e97,완전 수리 · {0} 크레딧
+expedition.a85f74b30d5c31f1,바다에서 원정을 중단했습니다.
+expedition.a89151e11664bb8c,버려진 어선의 선실이나 장비 중 하나를 선택할 수 있습니다.
+expedition.a8a7b703f3f25bcc,선체: {0}/{1}
+expedition.a97b2708384778fd,유령선 떠나기
+expedition.a9ac5a275ed06507,강행 돌파
+expedition.aa2d7224bdaddeef,시간 초과! 물고기의 움직임이 바뀌었습니다.
+expedition.aaa803631cbab73f,"화물, 항해 기록 또는 장비를 찾을 수도 있습니다."
+expedition.ab071f25fd69bb19,선체 내구도가 0입니다. 먼저 항구 장비 상점에서 수리하세요.
+expedition.ac4c8443df8c654c,캐스팅 처리 중 오류가 발생했습니다. 원정이 안전하게 종료되었습니다.
+expedition.ac50e84a2e689d8a,어창 최대 강화 완료
+expedition.ac6aa3914e659296,유령선 안에는 여러 층에 걸쳐 보급품이 있습니다. 수색 중 사고가 발생할 수 있습니다. 한 층을 수색한 뒤 더 깊이 내려가거나 이미 탐사한 층으로 돌아갈 수 있습니다.
+expedition.ad1ad9d27570e933,{0} 출발 · 외해 복귀
+expedition.ae881616d5b7ab5c,멀리서 기묘한 소리가 들렸지만 새로운 목표는 찾지 못했습니다.
+expedition.af0d8acb082f7700,보유 중
+expedition.af31eaf2cd02b447,"상인이 가장 가치가 낮은 화물인 ""{0}""을(를) 가져가고 표류 화물 하나를 주었습니다."
+expedition.af939e1a5a69e1b3,배 강화
+expedition.af9e47a1d104d596,화물 상자
+expedition.afb310066896b2f9,구매 후 원정 장비에 추가된 {0}
+expedition.b06994e369815b20,암초가 항로를 막고 있습니다. 해당 칸을 클릭해 폭탄을 사용하세요.
+expedition.b0da8b0c9fc49021,어획물 수납 중
+expedition.b10bb66258edefe2,아직 발견된 상호작용 대상 없음
+expedition.b11748c9d7c05d81,이 자동 릴은 파괴되었거나 완전히 수리된 상태입니다. 보충할 필요가 없습니다.
+expedition.b151be5c6c5e1149,{0}을(를) 이곳에 두었습니다. 이 장소가 갱신되기 전에 회수할 수 있습니다.
+expedition.b159010dc20f9d8f, {0}/3층
+expedition.b16e2fff7e6537b6,\n돌려받지 못한 어획물의 절반을 잃었습니다. {0}개가 남았습니다.
+expedition.b172511f5232ca5e,시간이 다 되기 전에 물고기의 움직임을 살피며 장력을 조절하세요. 빠르고 완벽한 대응에 2회 연속 성공하면 진행도가 한 단계 추가됩니다.
+expedition.b1dd05917135a4d9,물고기가 미끼를 물었습니다! 세 그림자 중 하나를 선택해 감아 올리세요.
+expedition.b243fed2596cd58c,유리 동굴
+expedition.b2fb4d84a42a79b7,\n임시 보관소의 물품 {0}개를 싣지 않아 귀환 시 잃었습니다.
+expedition.b374b91fa8448ab6,유리 동굴 충돌
+expedition.b386a6d34d105ae3,선택한 미끼가 더 이상 존재하지 않습니다. 장비를 다시 준비하세요.
+expedition.b3badb71c9f36f85,멀리서 정체불명의 물고기 그림자가 나타났습니다. 해도에 위치가 표시되었습니다.
+expedition.b3f305a6689e2e25,어망
+expedition.b41d4d47993295f0,캐스팅 처리 중 오류가 발생했습니다. 탐사 지도로 돌아왔습니다.
+expedition.b4f42b8cdc6a45c9,버려진 발판에서 선체 내구도를 {0} 회복했습니다.
+expedition.b5324f37868764bf,작살: {0}
+expedition.b68fa3f805b7be9c,고출력 엔진
+expedition.b6ce92b75c1ff981,배 중심으로 보기
+expedition.b99239c20aa16459,수색 완료
+expedition.ba8b38edf90da663,"인접, 항해 가능"
+expedition.ba9fec3e8c5354e6,선체가 온전합니다. 비상 수리 키트는 필요하지 않습니다.
+expedition.baits.carried,휴대 미끼
+expedition.baits.selection," (여러 개 선택 가능, 소진 시 선택 순서대로 자동 교체)"
+expedition.baits.used,소진됨
+expedition.bb0cd44a6f08475a,놓으면 파괴
+expedition.bb52f12f688ceeed,원정을 재개합니다. 시간: {0}. 소란도: {1}.
+expedition.bb681cbd73f5901a,유령선에서 발생한 사고로 선체 피해를 {0} 입었습니다.
+expedition.bc19bd12c8da0917,"작살\n크기: 1×6칸, 회전 가능\n어창에 싣고 귀환하면 장비에 추가됩니다.\n내구도 3/3으로 시작합니다. 귀환하기 전에는 물고기와의 사투에서 사용할 수 없습니다."
+expedition.bc395c63315deba7,낚시 성공 확률 +25%p. 내구도: 15. 구매 시 원정 장비에 바로 추가됩니다.
+expedition.bc465d6c374d4ee9,일라이어스 리드
+expedition.bc61c0fb73057ed1,해양 연구소 / 장비 연구\n해도: {0}/2 · 탐지 반경: {1}칸\n저소음 장비: {2}/2 · 소란도 증가량 감소: {3}%
+expedition.bc95c7b5b70f17ee,불안함
+expedition.bd1092e829e04687,{0}\n무게: {1}\n가치: {2}\n특성: {3}\n{4}
+expedition.bdd753c1691fbe72,수면 아래에서 번쩍이는 빛과 함께 표류하는 화물 상자가 드러났습니다.
+expedition.be2263b6e75eb0d4,제때 유령선을 떠났습니다. 소란도가 10 감소했습니다.
+expedition.bf259856d4c3ba9e,온천
+expedition.bf2aee38a21b9db6,위험
+expedition.bf3c45214e2f5e4f,저소음 장비 강화 · {0} 크레딧
+expedition.bf525f1fd8a51157,연구소
+expedition.bf58dcf414e08d7f,거대 물고기 그림자 성공 확률 +25%p. 내구도: 15. 구매 시 원정 장비에 바로 추가됩니다.
+expedition.bfa5960ea8a1eca1,"""내가 먼저 한번 볼게."""
+expedition.blood.key.details,핏빛 열쇠\n공간: 1칸\n화물칸에서 바로 사용해 오로라의 숨겨진 방에 들어갈 수 있습니다. 귀환하면 보관되며 자동으로 휴대합니다. 자원 주기마다 열쇠는 하나뿐이며 보관된 열쇠부터 사용합니다. 판매하거나 상점 인벤토리로 옮길 수 없습니다.\n보라색 등급 물품입니다. 해당 열쇠를 획득하거나 휴대하면 이번 자원 주기의 기존 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며 입구의 암초도 남아 있습니다.
+expedition.blood.key.equipment,자동으로 휴대합니다. 숨겨진 장소의 재고 주기마다 처음 입장할 때 열쇠 하나를 소모합니다. 같은 주기 중 재입장할 때는 소모하지 않습니다.
+expedition.blood.key.name,핏빛 열쇠
+expedition.blood.key.stock,핏빛 열쇠\n수량: {0}
+expedition.blood.key.unsellable,핏빛 열쇠는 원정 장비입니다. 귀환하면 보관되며 판매할 수 없습니다.
+expedition.c07f44c6ddff5ed3,냉장 상자 열기
+expedition.c086e2e92786edc9,{0}{1}\n어창에서 가져온 어획물 {2}개{3}
+expedition.c0876fae3b45d608, · 왼쪽 드래그로 이동 / 드래그 중 Q/E 또는 오른쪽 클릭으로 회전
+expedition.c259c68b4783c97e,현재 낚싯대에는 미끼를 더 달 필요가 없습니다.
+expedition.c275448f2d613de7,상어 대응: {0}/{1}
+expedition.c357ee6132907953,항구 출항
+expedition.c37059a3d9dfd5b1,수색 중…
+expedition.c42b15e9514d1c58,"영구 장비입니다. 수동으로 활성화하면 이동 시간이 1분 감소하고 입질 확률이 20%p 감소하며, 상어 조우 확률이 20%p 증가하고 해상에서 시간당 소란도가 추가로 10 증가합니다."
+expedition.c434cb02b62a3f22,낚싯줄이 너무 느슨합니다. 물고기가 바늘에서 빠져나갈 뻔했습니다!
+expedition.c46ef90cd5a92d0b,폐기 구역\n여기에 놓아 파괴
+expedition.c4d6323dc3feb34b,"{0}을(를) 저장하지 못했습니다. 물품, 효과 및 경과 시간이 복구되었습니다. 다시 시도하세요."
+expedition.c557780c88141725,선체 수리
+expedition.c621502bfcbd9ecd, [보유 중]
+expedition.c66403ac08c118b9,해양 연구소
+expedition.c6c3fb3989de53aa,그림자는 아무것도 남기지 않고 깊은 곳으로 가라앉았습니다.
+expedition.c6e1203270161c17,버려진 발판에서 미끼 내구도를 {0} 회복했습니다.
+expedition.c6e124708972d93c,오래된 어촌의 매입 제외 품목: {0}
+expedition.c6f071ce9638ab72,어획물 판매와 대금 수령은 완료되었지만 표시를 갱신하지 못했습니다. 어획물은 다시 반환되지 않습니다.
+expedition.c6fe4b7214f168dc,{0}\n가치: {1}\n크기: {2}칸
+expedition.c742249e9b59fae4,해역 조사
+expedition.c74d23a332d245e5,백상아리가 다가오고 있습니다. 작살로 대응하세요.
+expedition.c786802c8988f0d6,인양 구역에 이어진 공간이 부족합니다. 물품은 어창에 그대로 남아 있습니다.
+expedition.c7e7e9df0d473c11,폭파용 폭약
+expedition.c84d319ed7f922ab,항구 장비 상점
+expedition.c8dfced206218070,물고기가 꼬리를 세차게 휘둘러 낚싯줄이 팽팽해집니다!
+expedition.c9b9ae7a61444ab7,이전
+expedition.c9ba7f672a81f7ee,{0} 폐기 완료
+expedition.cacb44401f88b9da,항해 일지
+expedition.caec8a45e2739a4b,"""새 어창 칸을 단단히 고정했습니다."""
+expedition.cargo.quote.unavailable,현재 가격을 확인하지 못했습니다. 아무것도 판매하지 않았습니다.
+expedition.cargo.return.port,항구 페이지로 돌아가기
+expedition.cb4d7ad29b4c0b27,물고기 체력: {0}/{1}
+expedition.cb87f3bebce04e40,중앙 항구에서 돌아가기
+expedition.cc460d1b1af84489,적조
+expedition.cc5d524fc0315ff4,조사 계속하기
+expedition.cd69d24f7b529097,조사하기
+expedition.cd88846cf60f5854,준비로 돌아가기
+expedition.cdf4f9e4d85e56fd,수리가 적용되지 않았습니다. 시간은 소모되지 않았지만 환불에 실패했습니다. 로그를 확인하세요.
+expedition.ce1e74b9655c7c9c,보급 플랫폼
+expedition.ce27f550cf45cfcc,무지개 물고기와 유리 물고기가 더 많이 출현합니다. 충돌하면 선체가 손상될 수 있습니다.
+expedition.ce5db517615a69be,{0}에 실패했습니다. 물품은 소모되지 않았습니다.
+expedition.ce7d170dd049cdd4,포획 성공 후 보물 상자 획득 확률 +15%p. 내구도: 15. 구매 시 원정 장비에 바로 추가됩니다.
+expedition.ce8bc31347d5b79f,버려진 파이프
+expedition.ce8f9e94fb1bbc82,작살로 포획하기
+expedition.ce9db4dc890fb4f7,어획물을 보관했습니다. 항로 계획을 계속하세요.
+expedition.cea42c0001cf8e1f,{0} / 선체 수리\n내구도: {1}/{2}\n플랫폼 수리는 조선소 수리보다 비용이 더 많이 듭니다.
+expedition.cf1f4527427626fe,순방향 해류 출구를 찾았습니다. 다음 이동에는 시간이 들지 않습니다.
+expedition.cf4a01181959e8f5,백상아리가 다가오고 있습니다!\n작살 내구도: {0}/3\n포획하려면 {1}회 성공적으로 대응해야 합니다. 전투할 때마다 작살 내구도 1이 소모됩니다.
+expedition.cf81e87458b53fe9,이곳에서는 적재할 수 없습니다. 보급품은 임시 보관소에 그대로 있습니다. 이어진 공간과 저장 상태를 확인하세요.
+expedition.choice.oversized,원본 크기 {0}×{1} (축소 미리 보기)
+expedition.choice.page,{0}/{1}페이지
+expedition.d06b6f5772b57835,이카로 워드
+expedition.d0b868e12913d3f4,낚시 ▾
+expedition.d0e343a2f8e6aee6,물고기가 꼬리를 세차게 휘둘러 낚싯줄이 느슨해집니다!
+expedition.d13bd6cf981eaf3b,구매에 실패했습니다. 크레딧을 환불했습니다.
+expedition.d14085fe540d65ad,안전하게 귀환하기
+expedition.d158c659f6fb1517,임시 보관소 | 귀환하기 전에 물품을 어창에 적재하세요. 적재하지 않은 어획물은 사라집니다.
+expedition.d1f8ec7d6fdca660,수중 암초를 억지로 통과해 선체 피해를 2 입었습니다. 선체: {0}/{1}.
+expedition.d26210c78050f8e6,고요한 여울
+expedition.d273ddbbf6869c6a,"오늘 밤에만 유효한 유령선 정보를 1000크레딧에 구매했습니다. 소란도가 80이면 유령선을 발견할 수 있습니다. 수색으로 보급품을 얻으면 정보가 소모되며, 사용하지 않은 정보도 밤이 지나면 만료됩니다."
+expedition.d3ba08458b88a009,작살이 없습니다. 백상아리가 공격합니다
+expedition.d3c37e5037ee82f1,여울
+expedition.d3e0ab2c097f6a98,항해 중 · {0} · 소란도: {1}/100
+expedition.d467a85f1b7f1821,어획물 회수하기
+expedition.d6001c6679c9fc86, 탄소 섬유 낚싯대와 어망은 윌리의 물고기 연구 이야기를 완료하면 이용할 수 있습니다.
+expedition.d626db0657a6b346,성공 확률이 높고 일반 물고기가 더 자주 나옵니다.
+expedition.d63e3d19f7802b2e,항해 사고 후 교환할 어창 화물이 남아 있지 않습니다.
+expedition.d688d4a60fcfaedc,수상한 물고기 그림자 조사하기
+expedition.d6db58c85366786c,이번 전투 후 작살이 부서집니다. 조선소에서 수리하세요.
+expedition.d6dc65c06776076d,잔해 수색하기
+expedition.d749c2f1f70bf765,장비 구매에 실패했습니다. 크레딧을 환불했습니다.
+expedition.d789f8d95d14472a,상어를 제압하려면 {0}회 성공적으로 대응하세요.
+expedition.d864aff1e419be06,교란으로 갈수록 낚기 어려워지는 물고기
+expedition.d92e52bf52f726f3,어창에 교환할 화물이 없습니다.
+expedition.d9fd7b7f35a6459d,항해 준비 중 선택하면 매번 낚싯줄을 던지는 데 걸리는 시간이 5분 줄어듭니다.
+expedition.da1f6c8e3a01450d,수중 암초 강행 돌파
+expedition.da8ac89bd91b06ec,무언가가 배 밑바닥에 부딪혀 선체에 {0}의 피해를 입혔습니다. 선체: {1}/{2}.
+expedition.db47c81f3589214e,\n자동 릴: 미소지
+expedition.db8db0530432bd15,보기
+expedition.dc0229c6fdcc51ce,미끼 보충
+expedition.dc3e108da7918d9c,{0} · 인양 구역
+expedition.dc3f51b5216d2041,어왕을 낚으려면 10번 성공적으로 대응해야 합니다. 제한 시간이 끝나기 전에 움직임을 살피고 장력을 조절하세요.
+expedition.dc79cfee3dbb3b63,보정 완료: 레이더 탐지 범위 확장
+expedition.dcc9ff9507f783d2,조사 모드 취소
+expedition.dd9a4c9f5e14f7c8,물고기 그림자가 드러날 때까지 페이지를 변경할 수 없습니다.
+expedition.ddbae5383d8d341b,적재 내용을 저장하지 못했습니다. 보급품은 임시 보관소에 남아 있습니다.
+expedition.de34f2507f2cebc7,화산 물고기와 붉은꼬리물고기가 더 많이 출현합니다. 투척할 때마다 미끼 내구도가 1 더 소모됩니다.
+expedition.deab6c33492f4b0f,아이템 {0}개를 낚았습니다.\n5회 연속 캐스팅을 완료했습니다. 연속 기록이 초기화되었습니다.
+expedition.defaa98111ef5752,배치를 저장하지 못했습니다. 원래 위치로 복구했습니다.
+expedition.df3a1d8aa9b5fec8,이번 항해
+expedition.dfbb5128d2edad67,릴 감기 (Space)
+expedition.e07317635c09c938,{0}에서 아이템 {1}개 모두 적재
+expedition.e09ea24a7b795c12,수리 효과가 없었습니다. 크레딧을 환불했습니다.
+expedition.e0b21549b37a930e,지도 탐험
+expedition.e11498fe893108c3,{0}은(는) 임시 보관소의 이 위치에 놓을 수 없습니다.
+expedition.e1506406a5bd8f02,장비
+expedition.e161db42e1d53d86,수중 충격으로 인한 선체 파괴
+expedition.e1b52653b16920e3,"대형 엔진이 활성화되었습니다. 칸당 항해 시간은 {0}분이며, 입질 확률은 20퍼센트포인트 낮아지고 상어 조우 확률은 20퍼센트포인트 높아집니다. 해상에서는 소란도가 시간당 추가로 10 증가합니다."
+expedition.e26a4e7c20e43d57,백상아리 제압
+expedition.e26b55734ba46874,"보강 완료, 항해 주의"
+expedition.e31f1033833ac04d,앞길이 막혀 있습니다. 우회하거나 폭파해야 할 수도 있습니다.
+expedition.e3213bc2912c3803,이 화물은 더 이상 어창에 없습니다.
+expedition.e36f1d776b9d93e6,릴 감기 시간이 초과되었습니다. 물고기가 도망쳤습니다.
+expedition.e3a6fe327e4028b4,"원정이 시작되었습니다. 밤 {0}/2, 해상 상태: {1}. 오전 4시 전에 항구로 돌아오세요."
+expedition.e3d53d15184c3f6f,제시간에 중앙 항구에 도착했습니다. 어창 화물이 안전하게 보관되었습니다.
+expedition.e56277b59dbc50e6,미획득
+expedition.e5cc140600baf9e6,이번 항구 방문에서 할 일을 선택하세요.
+expedition.e64fd507b6ee9cad,산호초를 제거해 이번 원정 동안 통행할 수 있습니다. 남은 폭탄: {0}개.
+expedition.e68d9c0066f01c4c,내구도가 없는 일회용 아이템입니다. 폭파한 인접 산호초는 이번 원정 중 계속 통행 가능하며 자원이 갱신되면 복구됩니다.
+expedition.e6a50ed917bb1cae,\n여기에 끌어다 놓아 판매
+expedition.e6bee12d4a0e9793,실수가 반복되어 물고기가 낚싯바늘에서 빠져나갔습니다.
+expedition.e6d2774e9b057324,출항
+expedition.e72636518d89dda2,백상아리 (추적 중)
+expedition.e732eb51d8da7f16,원정 장비를 구매하지 않았습니다.\n왼쪽 아래 메뉴의 항구 장비 상점을 방문하세요.
+expedition.e7e58e5f263a80db,백상아리 전투 중단
+expedition.e852010c7f4e75e2,부유물
+expedition.e8af6dcc199407aa,끊어질 듯 팽팽한 낚싯줄
+expedition.e9536578da6a433a,조선소 작업장
+expedition.ea2ef3a1ef7c97e1,역류가 길을 막고 있습니다. 물살을 살펴 탈출로를 찾거나 우회하세요. 살펴보기가 실패할 수도 있습니다.
+expedition.ea44b0ecd061b584,더 먼 곳에 다시 나타난 어두운 그림자
+expedition.eada9a8ae8f2c7c0,해류를 타면 다음 지역에 더 빠르게 도착할 수 있습니다.
+expedition.eafec27f0557ee53,{0}에 밤을 다 써 버렸습니다. 오전 4시 전에 중앙 항구에 도착하지 못했습니다.
+expedition.eb686eb397deb894,"출력 엔진이 정지했습니다. 이동, 입질 확률, 상어 확률, 교란도 증가가 모두 평상시 규칙으로 돌아갔습니다."
+expedition.eba0570e9c1e7ebf,산호초로 막힌 항로 · 폭탄 필요
+expedition.ebf01fbf2d8bfcde,인양 가능한 보급품 · 어창 공간 차지
+expedition.ec2b2c3811334a21," (파손됨, 수리 필요)"
+expedition.ecf7caabd36b7e25,출항
+expedition.ed90d9c07d601216,항구 귀환
+expedition.ee8c74ab34a2a5f6,크레딧 1500을 지불하고 작살 내구도를 1 회복했습니다. 내구도: {0}/3.
+expedition.eeb9e00448a911dd,판매 구역\n\n어창 아이템을 여기로 끌어다 놓아 판매하세요.\n아이템을 놓을 때만 판매됩니다.
+expedition.eed94ebabd44b00b,"날카로운 산호초가 길을 막습니다. 밀고 나가면 선체가 손상되고, 우회하면 시간이 걸립니다."
+expedition.eeebd22bde4ef5ec,엔진 업그레이드\n{0} 크레딧
+expedition.equipment.destroy.failed,파괴하지 못했습니다. 장비 및 출항 선택 사항은 유지되었습니다.
+expedition.equipment.destroy.hint,즉시 영구 파괴합니다. 환불되지 않습니다.
+expedition.equipment.destroy.success,장비를 영구 파괴했습니다. 환불되지 않습니다.
+expedition.f0160141c1ffcfd0,암초에 의한 선체 파손 및 원정 종료
+expedition.f051700f4f1da45d,급류
+expedition.f0d0187da72b81ec,해상 미끼 보급이 실패했고 환불도 실패했습니다. 로그를 확인하세요.
+expedition.f0f4e7781ba16e41,버려진 플랫폼 이용
+expedition.f14c4d2d270dadbf,동력 엔진\n출항 후 활성화
+expedition.f196254e71e9dcfc,{0} / 어획물 거래
+expedition.f1f39558eea9bab0,작살
+expedition.f1f6edb2514558be,정체불명의 물고기 그림자가 공격해 선체에 {0}의 피해를 입혔습니다. 선체: {1}/{2}.
+expedition.f3270bfcd95b9662,업그레이드 선택 · 적합한 재료 사용
+expedition.f46992eab8f32769,컨테이너를 떠났습니다. 회수하지 않은 보급품은 현장에 남아 있습니다. 계속 항해할 수 있습니다.
+expedition.f48d1c84dab3372c,컨테이너의 항해 기록에서 발견된 인근 목표
+expedition.f4a4efebb5e89f42,{0} · 아이템 {1}/{2}개 발견
+expedition.f5116652f9b7b90c,미소지
+expedition.f545b497e7d23933,미끼 가득 참
+expedition.f54c9b1461540933,해류 타기
+expedition.f588eec6ac1a4803,배를 뒤쫓는 물속의 무언가
+expedition.f622d91b4818ffff,오늘 밤의 원정: {0}\n상점으로 돌아오면 다음 출항 전까지 하룻밤을 묵어야 합니다.
+expedition.f63eb3ae4b612bc7,수리가 완료되었습니다. 내구도 {0} 회복. 선체: {1}/{2}.
+expedition.f68510887eb50dbb,기본 미끼
+expedition.f693a13547a30a02,어획 결과 처리 중 오류가 발생했습니다. 이번 투척은 안전하게 종료되었습니다.
+expedition.f6f1800f9cb20282,거대한 생물이 심해를 배회하며 행동할 때마다 이동합니다.
+expedition.f72a8bac9366f5da,유령선 정보 사용 기록을 저장하지 못했습니다. 이 아이템의 탐색 진행도는 유지됩니다. 다시 시도하세요.
+expedition.f79ef7b4345e1050,사용 가능한 작살이 없습니다. 백상아리가 공격합니다
+expedition.f7da33d88874b943,어창과 임시 보관소에 공간이 없습니다. 분해된 보급품은 버려진 배에 남아 있습니다.
+expedition.f8126f3eac09e987,뉴스 어군 따라가기
+expedition.f857e15a78e8af32,조사 완료: {0}
+expedition.f87172f8153df529,미끼 없음
+expedition.f8cf08633bc467e7,심해 어군
+expedition.f93095028e84cb78,미끼 보급이 효과가 없었습니다. 시간이 소모되지 않았고 크레딧을 환불했습니다.
+expedition.f966ff439f93de35,먼저 이 층의 탐색을 마치세요. 보급품은 여기에 두어도 됩니다.
+expedition.f9f55d81bbeb4410,동굴
+expedition.f9f76cabe488b928,동력 엔진 켜기 (정지됨)
+expedition.fa19b815d5b4b337,유리 동굴 충격으로 인한 선체 파괴
+expedition.fa1ed230fdd681af,브램 홀트
+expedition.fa6fcb9024516a4a,급류
+expedition.fab7e5ac803ceee4,낚싯대: {0}\n미끼: {1}\n탐조등: {2}\n보급품: 폭탄 {3} · 수리 키트 {4} · 신호기 {5}
+expedition.fb15b5f8f4e29fcb,부유물 회수
+expedition.fc66d36db79b4dfc,해상 수리에 실패했습니다. 선체는 복구되었고 크레딧은 환불되었습니다.
+expedition.fc6bb436b8caf08b,이동
+expedition.fc852548c8d90a2d,{0} · [{1}] · {2} 크레딧{3}\n{4}
+expedition.fce0d14708423930,길을 잃는 바람에 밤이 지나갔습니다. 오전 4시 전에 항구에 도착하지 못했습니다.
+expedition.fd6f953a445a7279,작살 내구도가 가득 찼습니다. 수리할 필요가 없습니다.
+expedition.fdb35b82d50d57d3,계속할 원정이 없습니다.
+expedition.fde47b12b61c60c0,바다 상인
+expedition.fe0507390913195e,어획 포기. 백상아리의 공격
+expedition.ff33568ff10a6197,산호초 폭파
+expedition.ff61dbead8b52b44,핏빛 물고기 떼
+expedition.ffe28b1054db9d0f,임시 낚싯대
+expedition.fight.status,{0}실수 {1}/2  남은 시간: {2:0.0}초\n{3}
+expedition.fishing.level.phase,항해  {0}  활동도 {1}/100  낚시 Lv.{2}
+expedition.hidden.accident,숨겨진 장소 탐험 사고
+expedition.hidden.damage,숨겨진 장소의 사고로 선체가 {0}만큼 손상되었습니다.
+expedition.hidden.description,산호초 사이에 숨겨진 보급품 저장고입니다. 자원 주기마다 보급품 한 묶음을 탐색할 수 있습니다. 여기서는 회수할 수 없으니 탐색 후 직접 항구로 돌아가세요.
+expedition.hidden.enter,숨겨진 장소 입장
+expedition.hidden.key.required,장비 목록이나 화물칸에 핏빛 열쇠가 있어야 입장할 수 있습니다.
+expedition.hidden.name,숨겨진 장소
+expedition.hidden.ticket,혈액 열쇠 사용
+expedition.hidden.wrecked,숨겨진 장소에서의 사고로 인한 선체 파괴
+expedition.loading.back,뒤로
+expedition.loading.failed,준비가 완료되지 않았습니다. 다시 시도하거나 준비 화면으로 돌아가세요.
+expedition.loading.retry,재시도
+expedition.loading.startFailed,출항을 완료하지 못했습니다. 재시도하기 전에 현재 항해 상태를 확인하세요.
+expedition.map.night.sea,밤 {0} (총 2박) · 해상 상태: {1}
+expedition.merchant.exchange.missing,이 거래의 대금 화물이 더 이상 화물칸에 없습니다. 거래가 종료되며 추가 보상은 지급되지 않습니다.
+expedition.merchant.exchange.resume,거래 계속
+expedition.merchant.recovery.pending,해양 서비스가 완전히 복구되지 않았습니다. 추가 행동 및 저장이 차단되었습니다. 재시도하거나 마지막 저장을 불러오세요.
+expedition.page.unavailable,현재 이 페이지를 사용할 수 없습니다. 메뉴를 통해 돌아가세요.
+expedition.planets.back,상점으로 돌아가기
+expedition.planets.current,오로라
+expedition.planets.hint,현재 행성을 선택한 다음 출발을 준비하세요.
+expedition.planets.lincrown,링관
+expedition.planets.locked,잠김
+expedition.planets.pending,해금됨 · 출시 예정
+expedition.planets.prepare,클릭하여 준비
+expedition.planets.title,목적 행성 선택
+expedition.planets.unknown,알 수 없는 행성
+expedition.planets.upgradeDone,우주선 개조가 완료되었습니다. 두 번째 행성 콘텐츠는 출시 예정입니다.
+expedition.planets.upgradeHint,두 번째 행성을 해금하려면 우주선 개조를 완료하세요.
+expedition.quiet.button_off,저소음 장비: 끔 (켜기)
+expedition.quiet.button_on,저소음 장비: 켬 (끄기)
+expedition.quiet.off,저소음 장비를 비활성화했습니다. 업그레이드 단계는 유지됩니다.
+expedition.quiet.on,저소음 장비를 활성화했습니다. 교란도 증가량이 {0}% 감소합니다.
+expedition.quiet.save_failed,저소음 장비 설정을 저장하지 못했습니다. 다시 시도하세요.
+expedition.quiet.unavailable,정숙 장비가 설치되지 않았습니다.
+expedition.reel.capacity.description,모든 자동 릴의 내구도 한도를 20에서 40으로 영구 증가시킵니다. 기존 릴은 남은 내구도를 유지하며 40까지 재충전할 수 있습니다. 새로 구매한 릴은 내구도 40으로 시작합니다.
+expedition.reel.capacity.item,내구도 {0}. 출항 전에 장착하세요. 일반 낚시 중 강조 표시된 권장 행동을 할 때마다 내구도 1을 소모합니다. 릴이 파괴되기 전 해당 회차 동안 마지막 힌트가 유지됩니다. 최종 릴 감기는 지원하지 않습니다.
+expedition.reel.capacity.name,자동 릴 영구 업그레이드: 내구도
+expedition.reel.capacity.refill,내구도 {0}/{1}. 재충전할 때마다 내구도 1을 회복합니다. 파괴된 릴은 복구할 수 없습니다.
+expedition.reel.capacity.refilled,자동 릴 내구도 1 회복: {0}/{1}. 비용: 크레딧 8.
+expedition.reel.capacity.slot,자동 릴 감기\n{0}/{1}
+expedition.reel.capacity.success,업그레이드 완료: 모든 자동 릴의 내구도 한도가 40이 되었습니다.
+expedition.reel.capacity.summary,\n자동 릴: {0}/{1} (힌트당 내구도 1 소모)
+expedition.reel.upgrade.king.description,모든 기존 및 향후 릴에서 어왕 전투의 권장 행동 힌트를 영구적으로 해금합니다.
+expedition.reel.upgrade.king.name,릴 영구 업그레이드: 어왕 힌트
+expedition.reel.upgrade.prerequisite,먼저 어왕 업그레이드를 구매하세요
+expedition.reel.upgrade.shark.description,"모든 기존 및 향후 릴에서 공용 보스 전투의 권장 행동 힌트를 영구적으로 해금합니다. 백상아리, 황제 붉은게 및 향후 공용 시스템 보스에 업그레이드 하나가 적용됩니다."
+expedition.reel.upgrade.shark.name,릴 영구 업그레이드: 보스 힌트
+expedition.reel.upgrade.success,{0}을(를) 영구 해금했습니다. 이제 기존 및 향후 릴 모두 해당 전투 힌트를 제공합니다.
+expedition.reel.upgrade.unavailable,이미 해금된 업그레이드이거나 선행 업그레이드를 구매하지 않았습니다.
+expedition.rescue.return,{0}에 의해 구조가 발동되었습니다. 구조 신호기 1개를 소모했습니다. 구조선이 안전하게 귀환시켰으며 화물칸은 일반 귀환 규칙에 따라 정산됩니다.
+expedition.research.disturbance.summary,해양 연구소 / 교란도 연구\n저소음 장비 {0}/2: 교란도 증가량 {1}% 감소
+expedition.research.navigation.summary,해양 연구소 / 기초 연구\n항해 지도 {0}/2: 탐지 반경 {1}타일
+expedition.settlement.back,어획물 정산으로 돌아가기
+expedition.settlement.complete,이번 어획은 정산되었습니다: 보상 {0}개 적재.
+expedition.settlement.discard,미적재 보상을 버리고 이번 어획 종료
+expedition.settlement.legacy,중단된 이전 기록을 기존 화물과 대조해 복구했습니다. 확인할 수 없는 오래된 상자와 연속 보상은 다시 지급되지 않습니다.
+expedition.settlement.organize,어창 및 임시 보관소 정리
+expedition.settlement.pending,"어획 정산이 끝나지 않았습니다. 적재된 보상은 안전합니다. 어창 및 임시 보관소를 정리한 다음 다시 시도하거나, 적재되지 않은 보상을 명시적으로 버리세요."
+expedition.settlement.result,강조 표시된 그룹은 이번 어획의 목표입니다. 보상 {0}개를 모두 적재했으며 나머지 두 그룹은 보기 전용입니다.
+expedition.settlement.result.discard,강조 표시된 그룹은 이번 어획의 목표입니다. 보상 {0}개를 적재하고 나머지는 명시적으로 버렸습니다.
+expedition.settlement.retry,남은 보상 적재 재시도
+expedition.store_key.repairing,우주선 수리 중
+expedition.store_key.tooltip,우주선을 타고 다른 행성으로 이동
+expedition.upgrade.cargo.name,어창 확장
+expedition.upgrade.category.basicResearch,기초 연구
+expedition.upgrade.category.basicWorkshop,기본 개조
+expedition.upgrade.category.disturbanceResearch,교란도 연구
+expedition.upgrade.category.powerResearch,동력 연구
+expedition.upgrade.category.powerWorkshop,출력 개조
+expedition.upgrade.engine.name,엔진 업그레이드
+expedition.upgrade.hull.name,선체 보강
+expedition.upgrade.level,현재 레벨: {0}
+expedition.upgrade.navigation.name,항해 지도 업그레이드
+expedition.upgrade.quiet.name,저소음 장비 업그레이드
+expedition.warmup.failed,보급품 목록이 아직 준비되지 않았습니다. 5초 기다린 뒤 다시 시도하거나 저장을 다시 불러오세요.
+expedition.warmup.wait,"보급품 준비 중입니다. 준비가 끝나면 탐색이 시작되며, 나가면 취소됩니다."
+feed.meat.description,육류 기반 산업 사료입니다. 물고기는 필요한 만큼만 먹습니다. 같은 종류의 사료와 합칠 수 있지만 분할할 수 없습니다.
+feed.meat.name,산업용 육류 사료
+fish.farm.label,양식
+fish.farm.wild,자연산
+fish.meat.economy.rate,생선 살코기 가격: 약 {0} 크레딧/kg
+fish.meat.economy.reference,통조림 적합성 기준 분량: {0}g
+fish.native.fry.name,{0} 치어
+fish.native.roe.fertilized,{0} 수정란
+fish.native.roe.name,{0} 알
+fish.native.role.lofurin,자연 번식하지 않습니다. 기존 무정란은 치료에 사용할 수 있습니다.
+fish.native.role.lofurinRoe,무정란은 상처 심각도를 한 단계 낮추고 상처를 안정시킵니다. 수정란은 치료에 사용할 수 없습니다.
+fish.native.role.niorun,성숙하고 건강하면 알을 축적할 수 있습니다. 채란하면 건강도가 감소합니다.
+fish.native.role.rainbow,수질 오염을 제거하는 데 도움이 되지만 오염에 민감합니다.
+fish.native.role.ratfish,폐수 피해를 받지 않지만 수질 오염을 제거하지 않습니다.
+fish.origin.ingredients,재료: {0}
+fish.origin.separator,", "
+fish.origin.unknown,출처 기록 없음
+fishery.access.back,서비스로 돌아가기
+fishery.access.cashShort,크레딧이 부족합니다.
+fishery.access.description,수정된 가물치 알 2개와 어린 지렁이 5마리를 받습니다. 새로 해금할 때는 지렁이 사육 상자 1개도 포함됩니다. 이미 해금했거나 선물 대기 중인 기존 기록에는 상자가 소급 지급되지 않습니다. 은퇴한 양식업자도 가물치 알을 판매합니다. 시스템 해금 후 단말기의 윌리 상점에서 양식 장비를 주문하세요. 소지품이 가득 차도 선물은 계속 수령할 수 있습니다.\n성장은 발달일 기준이며 사료는 실제 성장 속도에 영향을 줍니다. 작은황조기와 정어리는 6단계를 유지하며 발달일 4일째 성체가 됩니다.
+fishery.access.failed,어장 확장을 일시적으로 이용할 수 없습니다. 나중에 다시 시도하세요.
+fishery.access.name,양식 시스템
+fishery.access.requirements,먼저 바닐라 양식업 2가 필요합니다.
+fishery.access.section,어장 확장
+fishery.archive.unnamed,이름 없는 물고기
+fishery.devices.can.description,빈 금속 캔입니다.
+fishery.devices.can.large,대형 빈 캔
+fishery.devices.can.small,소형 빈 캔
+fishery.devices.cash,크레딧이 부족합니다.
+fishery.devices.power,전력이 4 이상인 배터리가 필요합니다.
+fishery.devices.printer,용기 프린터
+fishery.devices.printer.description,"배터리를 넣으면 소형 빈 캔, 대형 빈 캔, 지렁이 배양 상자 및 빈 주사기를 출력합니다. 출력할 때마다 전력 4를 소모하며 재료는 필요하지 않습니다."
+fishery.devices.purchase.failed,구매하지 못했습니다. 기록을 확인하고 다시 시도하세요.
+fishery.devices.quota,이번 주에 이미 이 장비를 구매했습니다.
+fishery.devices.space,먼저 출력 칸의 공간을 비우세요.
+fishery.devices.terminal,어장 단말기
+fishery.devices.terminal.description,단말기에서 물고기 정보를 확인하고 아이템을 주문하세요.
+fishery.devices.title,어장 확장
+fishery.devices.warehouse.full,카운터나 보관함에 적절한 공간이 없습니다. 먼저 장비를 위한 자리를 마련하세요.
+fishery.printer.ui.injector,주사기
+fishery.printer.ui.largecan,대형 캔
+fishery.printer.ui.smallcan,소형 캔
+fishery.printer.ui.wormbox,지렁이 상자
+fishery.terminal.archive,단말기 기록
+fishery.terminal.bought,이번 주 구매
+fishery.terminal.brand,마오치창 어장
+fishery.terminal.brand.sub,통합 단말기 · 마오치창 어장 · 정산망
+fishery.terminal.collect,수집품 열기
+fishery.terminal.commission.completed,의뢰 완료
+fishery.terminal.commission.delivery.note,한 번에 8kg을 납품하세요. 보상은 이 단말기의 수령 보관함으로 들어갑니다. 공간이 없어도 재료는 그대로 보존됩니다.
+fishery.terminal.commission.finished.note,보상이 전달되었습니다. 어장 상점이 열렸습니다.
+fishery.terminal.commission.hint,양식 장비를 받고 어장 상점을 해금하려면 가물치 살코기 8kg을 납품하세요.
+fishery.terminal.commission.material,가물치 살코기
+fishery.terminal.commission.progress,보유량: {0} / {1} g
+fishery.terminal.commission.required,필요량: {0} g
+fishery.terminal.commission.reward.foot,일회성 의뢰 · 보상은 구매 한도를 차감하지 않습니다
+fishery.terminal.commission.reward.name,대형 순환여과 양식 시스템 ×1
+fishery.terminal.commission.reward.title,의뢰 보상
+fishery.terminal.commission.shop.locked,의뢰를 완료하면 수산물 상점이 잠금 해제됩니다
+fishery.terminal.commission.shop.locked.button,의뢰 완료 필요
+fishery.terminal.commission.shop.open,수산물 상점 잠금 해제
+fishery.terminal.commission.shop.preview,가물치 의뢰를 완료하면 구매할 수 있습니다. 지금은 상품을 미리 볼 수 있습니다.
+fishery.terminal.commission.source,출처가 기록된 보유 가물치 살코기만 인정됩니다. 기본 손질 방식으로 가물치를 포 뜨면 얻을 수 있습니다.
+fishery.terminal.commission.submit,재료 납품
+fishery.terminal.commission.tab,수산물 의뢰
+fishery.terminal.commission.title,가물치 살코기 조달
+fishery.terminal.consumables.all,모든 물품
+fishery.terminal.consumables.aquaculture.locked,이 상점을 이용하려면 양식 이용 권한을 잠금 해제하세요.
+fishery.terminal.consumables.busy,구매 중…
+fishery.terminal.consumables.buy,{0:N0}개 구매
+fishery.terminal.consumables.daily.exhausted,오늘 품절
+fishery.terminal.consumables.daily.invalid,오늘 남은 한도 이내의 양수를 입력하세요
+fishery.terminal.consumables.daily.limit,일일 한도: {0}
+fishery.terminal.consumables.daily.remaining,일일 한도: {0} · 오늘 남은 수량 {1}
+fishery.terminal.consumables.delivery,"먼저 주 인벤토리에 넣고, 남으면 보관함에 넣습니다"
+fishery.terminal.consumables.empty,이 분류에 상품이 없습니다.
+fishery.terminal.consumables.failed,구매에 실패했습니다. 다시 시도하세요.
+fishery.terminal.consumables.invalid,0보다 큰 유효한 수량을 입력하세요
+fishery.terminal.consumables.invalid.short,수량 입력
+fishery.terminal.consumables.poor,크레딧이 부족합니다
+fishery.terminal.consumables.price,{0:N0} 크레딧
+fishery.terminal.consumables.quantity,수량
+fishery.terminal.consumables.subtitle,윌리의 주문 상품
+fishery.terminal.consumables.title,윌리의 상점
+fishery.terminal.consumables.total,합계: {0:N0} 크레딧
+fishery.terminal.consumables.unavailable,이용할 수 없음
+fishery.terminal.consumables.unit,개당 가격: {0:N0} 크레딧
+fishery.terminal.consumables.weekly.remaining,주간 한도: 1 · 이번 주 남은 수량 {0}
+fishery.terminal.dex.archive,물고기 도감
+fishery.terminal.dex.archive.empty,아직 물고기 기록이 없습니다.\n의뢰에서 해당 어종을 제출하면 기록이 잠금 해제됩니다.
+fishery.terminal.dex.archive.list,종
+fishery.terminal.dex.balance,{0}크레딧
+fishery.terminal.dex.biological,생물학적 어류
+fishery.terminal.dex.canbreed,번식 가능
+fishery.terminal.dex.cannotbreed,번식 불가
+fishery.terminal.dex.day,{0}일 차
+fishery.terminal.dex.days,{0}일 차
+fishery.terminal.dex.diet.meat,육식성
+fishery.terminal.dex.diet.mixed,잡식성
+fishery.terminal.dex.diet.plant,초식성
+fishery.terminal.dex.done,완료
+fishery.terminal.dex.eco.feature,24×4 서식 공간 · 필터 슬롯 4개
+fishery.terminal.dex.eco.price,1800크레딧
+fishery.terminal.dex.ecosystem,대형 순환식 양식 시스템
+fishery.terminal.dex.escape,ESC: 닫기
+fishery.terminal.dex.filter.all,전체
+fishery.terminal.dex.filter.complete,완료
+fishery.terminal.dex.filter.incomplete,열기
+fishery.terminal.dex.filter.ready,준비 완료
+fishery.terminal.dex.footer,상단을 드래그해 이동 · 모델을 드래그해 회전 · 모델을 두 번 클릭해 초기화
+fishery.terminal.dex.life.days,{0}일
+fishery.terminal.dex.mechanical,기계 물고기
+fishery.terminal.dex.mechanical.body,"기계 물고기는 생물 양식에 포함되지 않습니다.\n성장, 물 요구량, 번식 수치가 없습니다."
+fishery.terminal.dex.model.hint,드래그해 회전 · 두 번 클릭해 초기화
+fishery.terminal.dex.printer,용기 프린터
+fishery.terminal.dex.printer.feature,"캔, 지렁이 상자, 주사기 인쇄 · 전력 4"
+fishery.terminal.dex.product.price,{0} 크레딧
+fishery.terminal.dex.research.held,보유 {0} / 필요 1
+fishery.terminal.dex.research.need,온전한 물고기 ×1 제출
+fishery.terminal.dex.research.note,제출하면 보유한 물고기 한 마리가 소모됩니다. 말린 물고기는 받지 않습니다.
+fishery.terminal.dex.research.required,성체 온전한 물고기 ×1 제출
+fishery.terminal.dex.research.required.mechanical,기계 물고기 ×1 제출
+fishery.terminal.dex.research.reward,{0} 기록 잠금 해제
+fishery.terminal.dex.research.submit,제출하고 해제
+fishery.terminal.dex.research.title,{0} 연구
+fishery.terminal.dex.researched,기록 해제됨
+fishery.terminal.dex.shop,양식 상점
+fishery.terminal.dex.shop.bought,이번 주 구매 완료
+fishery.terminal.dex.shop.buy,구매
+fishery.terminal.dex.shop.limit,주당 1개
+fishery.terminal.dex.species.pending,이 어종의 양식 데이터는 아직 준비되지 않았습니다.
+fishery.terminal.dex.stage.0,어란
+fishery.terminal.dex.stage.1,치어
+fishery.terminal.dex.stage.2,유어
+fishery.terminal.dex.stage.3,아성체
+fishery.terminal.dex.stage.4,성체
+fishery.terminal.dex.stage.5,노어
+fishery.terminal.dex.stage.heading,단계: {0}
+fishery.terminal.dex.stage.title,성장 단계
+fishery.terminal.dex.stat.age,단계 시작
+fishery.terminal.dex.stat.food,야간 유지량
+fishery.terminal.dex.stat.life,수명
+fishery.terminal.dex.stat.waste,야간 배설량
+fishery.terminal.dex.stat.water,필요한 물
+fishery.terminal.dex.stat.weight,단계별 무게
+fishery.terminal.dex.submit.done,표본을 제출했습니다. 어종 기록이 해제되었습니다.
+fishery.terminal.dex.submit.failed,제출이 완료되지 않았습니다. 표본은 보존되었으니 나중에 다시 시도하세요.
+fishery.terminal.dex.tank,60L 양식용 물탱크
+fishery.terminal.dex.tank.feature,양식용 추가 물 저장 공간
+fishery.terminal.dex.tank.price,300크레딧
+fishery.terminal.dex.task.count,과제 {0}개
+fishery.terminal.dex.task.list,의뢰
+fishery.terminal.dex.tasks,의뢰
+fishery.terminal.dex.tasks.empty,이 필터에 해당하는 의뢰 없음
+fishery.terminal.dex.title,어장 단말기
+fishery.terminal.eco.price,1800크레딧
+fishery.terminal.ecosystem,대형 순환식 양식 시스템
+fishery.terminal.introGift,"이 수산 터미널도 함께 제공됩니다. 이곳에서 낚시 도구와 보급품, 장비를 구매할 수 있고, 상점 진열대도 평소처럼 이용할 수 있습니다."
+fishery.terminal.introGiftPending,소개 선물을 모두 전달하지 못했습니다. 명함이나 터미널은 다음 이벤트에서 다시 전달을 시도합니다.
+fishery.terminal.online,온라인
+fishery.terminal.quota.available,구매 가능
+fishery.terminal.quota.used,구매 완료
+fishery.terminal.reference.archive.foot,기록은 현재 어종 데이터를 사용합니다\n신호 양호
+fishery.terminal.reference.archive.hint,양식 수조에서 성장하고 번식하는 육식성 민물고기입니다.
+fishery.terminal.reference.archive.title,가물치 · 양식 기록
+fishery.terminal.reference.balance,현금 {0}크레딧
+fishery.terminal.reference.buy,1개 구매
+fishery.terminal.reference.cash,현금 잔액
+fishery.terminal.reference.channel,배송
+fishery.terminal.reference.channel.value,터미널 보관소
+fishery.terminal.reference.cycle,보급 주기
+fishery.terminal.reference.day,{0}일 차
+fishery.terminal.reference.days,{0}일
+fishery.terminal.reference.eco.feature,24×4 양식 칸 · 필터 슬롯 4개\n확장 및 절전 업그레이드
+fishery.terminal.reference.eco.note,"물탱크는 별도 판매됩니다. 물, 오염도, 먹이를 확인하세요. 용량이 늘어도 여과 성능은 증가하지 않습니다."
+fishery.terminal.reference.footer,ESC로 닫기 · 터미널을 두 번 클릭해 열기 · 탭을 클릭해 전환
+fishery.terminal.reference.goods.count,상품 {0}개
+fishery.terminal.reference.lifespan,수명
+fishery.terminal.reference.limit,종류별 주당 1개
+fishery.terminal.reference.notes,양식 참고 사항
+fishery.terminal.reference.notes.body,먹이\n육류 기반 사료를 충분히 공급하세요.\n\n수질\n배설물과 여과 상태를 확인하고 제때 물을 갈아 주세요.\n\n번식\n먹이와 환경 조건을 충족하면 같은 수조의 성체 암수가 밤사이 어란을 낳을 수 있습니다.
+fishery.terminal.reference.records,구매 기록
+fishery.terminal.reference.reset,{0}주 차 · {1}일 후 초기화
+fishery.terminal.reference.shop.foot,구매한 물품은 보관소로 바로 이동합니다. 공간이 없으면 비용이 청구되지 않습니다.
+fishery.terminal.reference.shop.hint,양식 장비를 공급합니다. 스크롤해 둘러보세요.
+fishery.terminal.reference.shop.title,수산 상점 · 주간 한도
+fishery.terminal.reference.side.foot,구매한 장비는 여기에 보관됩니다\n신호 양호
+fishery.terminal.reference.species,가물치 / Channa argus
+fishery.terminal.reference.stage.day,{0}일 차부터
+fishery.terminal.reference.table.head,단계|체중|물|야간 배설량
+fishery.terminal.reference.tank.feature,용량: 60리터 · 빈 상태로 제공\n양식 시스템의 물탱크 슬롯에 장착
+fishery.terminal.reference.tank.note,먼저 물을 채우세요. 물이 많아져도 여과 용량은 증가하지 않습니다.
+fishery.terminal.reference.traits,육식성 · 번식 가능 · 12일째 성체
+fishery.terminal.reference.week,한도 주기
+fishery.terminal.reference.week.value,{0}주 차
+fishery.terminal.shop,수산 상점
+fishery.terminal.stage.0,어란
+fishery.terminal.stage.1,치어
+fishery.terminal.stage.2,유어
+fishery.terminal.stage.3,아성체
+fishery.terminal.stage.4,성체
+fishery.terminal.stage.5,노어
+fishery.terminal.tank,60 L 양식용 물탱크
+fishery.terminal.tank.price,300크레딧
+gameplay.008a17ba11d1e6b6,기타 가공
+gameplay.00e1cb72dddaa3d1,하지만 그보다 먼저 할 일이 있어. 내 그물을 고쳐야 해.
+gameplay.019f419e1d3c41a5,"또 왔어, 상점 주인."
+gameplay.01d44fee9d98a14e,탄소 섬유 낚싯대
+gameplay.021e3f2ec50092ea,쌍바늘 낚싯대
+gameplay.044bfadbd4f1a541,하지만 내가 봤어! 아름답고 엄청나게 큰 물고기를!
+gameplay.079d359651fd43d1,화학 용품 (일반)
+gameplay.07ae2d20df02180b,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 30. 핏빛 물고기 그림자 낚시 성공 확률 +25%p.
+gameplay.099ded586291c947,두 번 클릭하면 실물 미끼를 소모해 원정 장비 보관함으로 옮깁니다.
+gameplay.09c416e91acf5eab,유리 조각
+gameplay.09f938fd9752a736,{0} - 목차
+gameplay.0a4e7a9d8dca05a0,이것 좀 봐.
+gameplay.0ab181426f0ef431,어군 이동
+gameplay.0af3fdd0387b9585,무게: {0}
+gameplay.0ca65358e9dd9846,어종의 최대 무게에 가까운 거대 개체를 잡았습니다. 100크레딧과 거대어 사냥꾼 배지를 획득했습니다.
+gameplay.0d0762cdf07d28b4,무작위 1단계 모듈
+gameplay.0d742c25e89e6329,무작위 생활용품
+gameplay.0dacdbe58ee915d9,(그가 커다란 구멍이 난 어망을 들어 보인다.)
+gameplay.0e5c6ac3d8e3f19f,"잡힐 때 체중이 한 번 60% 증가하며, 원래 어종의 최대 무게를 넘지 않습니다. 잡기가 더 어렵습니다. 정어리와 참조기를 제외하면 물고기와의 사투가 발생합니다."
+gameplay.0e7b34d97a3fd635,붉은꼬리물고기
+gameplay.100a4a1b5da8cf26,에너지 셀
+gameplay.10434aafbbe2c610,튼튼한 쥐 배설물 미끼
+gameplay.10775654797091ae,고급 융제
+gameplay.109011d190c848a3,낚시 도감
+gameplay.12e282febd51400d,아무도 그 이유를 몰라... 오래전에는 사방에서 사람들이 이것을 보려고 이곳에 모여들었어.
+gameplay.13c99c24e904d7a8, 주기
+gameplay.143ec72971591e95,고급 터보 부스터
+gameplay.155b3665e7fcb43f,모든 결과물을 둘 공간이 부족합니다. 원래 물고기를 복원했습니다.
+gameplay.15771e19186e4ed6,물고기에 관심이 있다면 한번 가 봐. 그곳에는 흥미로운 생물이 아주 많아.
+gameplay.178f2b96cbe98be0,그물을 수리한 뒤 다시 가 봤어.
+gameplay.193f30ea4dd468d4,수질 검사 키트
+gameplay.19aa9c28d6513589,지혈 붕대
+gameplay.1d220b132fe984dc,수질 스캐너
+gameplay.1d29b56c461626f1,황새치 주둥이 1개 건네기
+gameplay.1dda14aefbfdb35f,?  ???  발견되지 않음
+gameplay.1e20fbd1d1ecfcb7,{0} 태그가 붙은 재료
+gameplay.20995e0fbefdad03,고급 정수 필터
+gameplay.20d89b47182ad870,오! 마침 필요하던 거야!
+gameplay.21692b0b20778eb1,잡힐 때 원래의 알 보유 상태로 설정됩니다. 옮기거나 다시 불러와도 알이 보충되지 않습니다.
+gameplay.227c1e25b76bc21d,엔진 업그레이드 완료. 이제 칸당 이동 시간이 {0}분입니다.
+gameplay.228ed69796fc05ce,도감 배지: {0}
+gameplay.24538f7fa5674f89,"그럼, 좋아."
+gameplay.2488a7874161487e,손질의 달인
+gameplay.252ae675a887231d,두 번 클릭하면 실물 미끼를 소모하고 내구도를 원정 장비 보관함에 저장합니다.
+gameplay.253a50eac2e9f42b,얕은 물의 물고기에 적합한 기본 외바늘 낚싯대입니다. 원정 기본 포획 확률: 60%.
+gameplay.25beff1c69c20e70,특수 개체: {0} - {1}
+gameplay.266e0eb3a9d52727,섬광탄
+gameplay.2887a058570d5635,그 낡은 칼로 물고기 백 마리를 손질했다면서. 잘했어!
+gameplay.294e250803cb243d,"고마워, 상점 주인. 정말 큰 도움이 됐어."
+gameplay.2986604227c5115d,?  아직 발견된 물고기 없음
+gameplay.29b10e3e959c1031,한 번의 원정에서 5회 연속 포획에 성공하기
+gameplay.2a9a53ced9a2135a,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 15. 포획 성공 후 보물 상자 획득 확률 +15%p.
+gameplay.2b8ae72efe3dae8e,윌리의 명함
+gameplay.2bf01a7d01c48b9c,어디 한번 보자.
+gameplay.2c19ad12a1f37b97,거대
+gameplay.2ce1d4d95ea43c71,그 물고기를 잡으면 다시 전화해.
+gameplay.2ddc28e8652d183a,튼튼한 유리 미끼
+gameplay.2e05bbab10445944,그 물고기 가져오셨나요?
+gameplay.2e5a79fc315e4f1a,새 미끼 제조법을 연구하고 있어. 우선 기본 미끼부터 시험해 봐.
+gameplay.2f0ffd955b5fe2ca,어창이 {0}×{1}(으)로 확장되어 {2}칸을 사용할 수 있습니다.
+gameplay.2f9004b0ad1849ff,동물 배설물 (소형)
+gameplay.30a2338dfa5006d5,"아니요, 괜찮습니다"
+gameplay.31e164dcce014515,새 낚싯대를 만들어 볼게. 그동안 다른 물고기들을 잡아 봐!
+gameplay.320790681109db8a,무작위 도구
+gameplay.33d1dc4b33ba24bd,"아, 최근에 새 물건도 몇 가지 들여놨어."
+gameplay.342686622fd97ec4,{0} - {1} ({2}/{3}페이지)
+gameplay.3547dce4f4b50a2c,"아... 훌륭해. 때맞춰 왔군, 상점 주인."
+gameplay.365f039a85fd5c28,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 30. 포획 성공 후 보물 상자 획득 확률 +15%p.
+gameplay.3660fd0dfd76c4fa,업그레이드를 저장하지 못했습니다. 상태 복원을 시도했지만 환불에 실패했습니다({0}): {1}
+gameplay.36eef7e38e6d90a1,윌리에게 겨울 별의 전설 듣기
+gameplay.376c07838094fcef,탄소 섬유 낚싯대와 함께 해금됩니다. 해당 낚싯대의 어종 목록을 사용하며 한 번에 물고기 세 마리를 잡습니다. 원정 기본 포획 확률: 60%.
+gameplay.37705d45afcd7bb8,"어디서 본 듯한 얼굴인데... 하, 내가 착각했나 봐."
+gameplay.382f65b00add82a4,아직 황새치 주둥이가 필요해요. 하나 보이면 챙겨 주실래요?
+gameplay.3873f60977084050,좋아. 이 네 종류의 물고기면 낚싯대에 걸리는 하중을 비교하기에 딱 알맞아.
+gameplay.39a62442da885b98,이터널 재생 세럼
+gameplay.39fc504f2c46029c,{0} 필요하면 알맞은 장비를 챙겨서 도전해 봐!
+gameplay.3ada2094a0b0d894,해류를 타고 물고기 떼가 몰려왔습니다. 오늘은 {0}을 잡기 더 쉽습니다.
+gameplay.3b6fefc50febace4,시간
+gameplay.3bb636eda4ae45c5,현재 낚시 아이템 팩과 동기화되는 모든 가공소 제조법 안내서입니다.
+gameplay.3cd7c961cf60030c,무작위 가공
+gameplay.3cf44cfc249bfc5a,카페인 알약
+gameplay.3d19bcfcff50d46e,선체 업그레이드 완료. 이제 최대 내구도가 {0}입니다.
+gameplay.3d5c3c3dbaca6b32, (선택 사항)
+gameplay.3f30200f112d6e84,무작위 2등급 모듈
+gameplay.3fa50ea4eb394415,손상된 모듈
+gameplay.3fff209575c5c5ce,정어리
+gameplay.412a95f6c191c0e4,그다음
+gameplay.414970486f5c61ab,생수 (대)
+gameplay.419471a3d9ee4d3e,전선
+gameplay.41b6e974ed7ba605,망가진 모듈
+gameplay.42b8c2889834631b,소요 시간: {0}{1}
+gameplay.43ba295b89650cbc,"채집: 낚싯대 미끼 슬롯에 끌어다 놓아 {0}을(를) 유인하고 해당 물고기의 무게를 {1}만큼 높입니다. 라운드마다 내구도 1을 소모하며, 포획 확률은 50%로 고정됩니다. 원정: {2}"
+gameplay.43d376086548872c,겨울 밤하늘에는 스타듀 밸리에서만 볼 수 있는 밝은 별이 있어.
+gameplay.440eadf4a0b46cde,아무 물고기
+gameplay.467b7036da0440b8,가게에 특별한 물건 몇 개를 숨겨 두고 있었어. 차마 팔려고 내놓지는 못했지.
+gameplay.46fa16094dc7548e,무작위 출입 카드
+gameplay.484d55613910eb8c,없음
+gameplay.49da61ceeea2f271,일
+gameplay.49fe0edbbb2e63f3,빛나는 열매
+gameplay.4a04564ee8762ef0,크레딧 입금 실패: {0}
+gameplay.4b4dc686bc2cd6be,기본 미끼 종류별 1개씩 건네기
+gameplay.4c0c06e77f4d9983,전력 및 전자 장치
+gameplay.4cd4dc20ef0b7b2b,잡힐 때 체력이 35% 감소합니다. 이후 회복은 원작 게임 규칙을 따릅니다.
+gameplay.50013c6743c5595f,여기 내 전화번호야. 필요한 게 있으면 전화해.
+gameplay.50ef204c51b2a9d3,오늘 밤 가게에 한번 들러 보세요.
+gameplay.51a0e850322c0f8b,내가... 조금 곤란한 일을 겪고 있어. 도움이 필요해.
+gameplay.524e9d31b7ea83bf,새 낚싯대가 완성됐어. 탄소 섬유로 만들었지. 그 큰 녀석도 감당할 수 있을 거야.
+gameplay.52d94f57abe84a28,윌리
+gameplay.52daa71ebc310581,내용물
+gameplay.53118fff9abfdf05,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 10. 거대 물고기 그림자 낚시 성공 확률 +50%p.
+gameplay.5351331717e3337b,전기 충격봉
+gameplay.5384cc0a3ea48e5d,안녕하세요! 겨울별의 전설을 들어 보시겠어요?
+gameplay.553240f43bd4453b,와인병
+gameplay.55e5544148bf81e5,물과 병입
+gameplay.5617aba57cc22b0a,쥐 배설물 미끼
+gameplay.57c1875cb0565462,날카로운 회칼
+gameplay.57c19919b48297d2,무작위 재료
+gameplay.57cbf65587301c61,두 물고기 왕을 모두 잡았습니다: 심해의 왕 배지가 해금되었습니다.
+gameplay.594b016bc4865c37,생선 다짐 미끼
+gameplay.59c59ef51e0ccd7e,미끼 4개 건네기
+gameplay.5a3a13494c8c3533,미끼 이동 실패: 인벤토리 공간이 부족합니다. 로그와 현재 보관함을 즉시 확인하세요.
+gameplay.5bfed9327cb8fba3,두 물고기 왕 모두 포획
+gameplay.5cf3d7e50c29b4aa,자가 충전 에너지 셀
+gameplay.5d69b8226a362925,요즘 뭔가 이상해. 저 아래에 큰 게 있는 것 같아.
+gameplay.5df3582abb5875b3,물고기 왕은 그대로 두세요. 나중에 윌리를 다시 부를 수 있습니다.
+gameplay.5e76b3bdcb6a8467,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 30. 일반 낚시터에서 낚시 성공 확률 +25%p. 핏빛 물고기 떼와 거대 그림자에는 효과가 없습니다.
+gameplay.5f0f23908912674e,생수(소)
+gameplay.606415e44158c418,{0}. {1}: {2}개 레시피 / {3}페이지
+gameplay.6250f96bf4b18abe,"안녕하세요, 저는 윌리예요. 새로 온 가게 주인이신가요?"
+gameplay.62913660c24afdfd,"{0}: 포획 {1}마리, 최대 크기 {2}g, 특성: {3}\n첫 포획: {4}일 / {5}, 손질: {6}"
+gameplay.629ea9185c275193,오랜만이네요!
+gameplay.65e229fe6d00e81b,낚시용품점 주인 윌리의 명함. 전화번호는 2424입니다.
+gameplay.660da0ee0b93864d,기회가 되면 들르겠습니다.
+gameplay.6653798981f41449,엔진이 이미 최고 레벨입니다.
+gameplay.6694a182124cd23e,라이트피시
+gameplay.67f15a2ad1a0f439,간단 낚시
+gameplay.68d906654bb6a885,결정화됨
+gameplay.68e73d1b33cd1546,"정화 물고기, 화산 물고기, 뿔황새치"
+gameplay.6a44c5996f0a94ae,"새 레시피예요. 미끼마다 내구도가 더 긴 종류와 유인력이 더 강한 종류, 두 가지가 있어요."
+gameplay.6affd4b0f6fd0e9d,제가 맡아 둘게요. 자리가 생기면 다시 오세요.
+gameplay.6b0b07514df53ff1,개선된 레시피 8종을 가공소 설명서에 적어 뒀어요. 필요한 미끼를 만들어 보세요.
+gameplay.6c689d6c508334b5,알을 품은
+gameplay.6e7c641fd5108adc,요리사 협회에서 당신이 가입했다고 알려 줬어요!
+gameplay.6f2952bc8094126a,지정 범주의 재료
+gameplay.6f431e8985f6fda7,황금 물고기 1마리 건네기
+gameplay.6f7353ff4a5869a4,원정 기능은 유지하면서 들고 있는 낚싯대로 채집 낚시를 활성화합니다. 홀수일과 짝수일에는 서로 다른 어종이 나옵니다. 링관과 주싱을 해금하면 해당 어종이 추가됩니다. 물고기 왕은 스토리 진행과 고급 장비가 필요합니다. 포획 확률은 50%이며 실패 시 일반 채집이 진행됩니다. 윌리가 낚싯대와 미끼를 판매합니다.
+gameplay.6f7f0808fc98bd19,SYNC 신경활성 향수
+gameplay.6fa583c83acc1189,네 가지를 모두 써 본 뒤 가져와 보여 주세요.
+gameplay.6ffad8106386755a,튼튼한 생선 다짐 미끼
+gameplay.7157f4805cdee57c,"정화 물고기 1마리, 화산 물고기 1마리, 라이트피시 1마리, 레드테일 1마리 건네기"
+gameplay.74cd528dbe00523e,기본 붕대
+gameplay.74e1ae05410d4bb8,그 대신…
+gameplay.76cf5678f9b46ef3,오늘 밖에 나갔다가 이걸 찾았어요...
+gameplay.76f5a6df9fccb568,"윌리, 낚시용품점 주인\n전화: 2424"
+gameplay.782b398eb2ec80ef,즉시
+gameplay.787f58e7bafec7af,정수 필터
+gameplay.7a47448c53df7387,유리 미끼
+gameplay.7a7a5d3a0b8b75c8,복권 묶음(5장)
+gameplay.7a91662d2278c916,표시할 레시피가 없습니다.
+gameplay.7b4bd7244e941737,\n\n최장 연속 포획: {0}
+gameplay.7bb792af0cd90f7c,하이드라테크 소형 정수기
+gameplay.7d444950140a3d50,통통한
+gameplay.7e2e4ca5957cc2ca,물고기 떼가 이동해 물고기 수가 줄었습니다. 오늘은 {0}을(를) 잡기 더 어려울 것입니다.
+gameplay.7e54b72cc1b3313a,무작위 포장 식품
+gameplay.7ef352ae0249db75,유리 물고기
+gameplay.7f9c6b0cf6e7ebfa,알 수 없는 결과물
+gameplay.7fd429672bb752d4,물고기 100마리를 성공적으로 손질해 날카로운 회칼을 얻었습니다!
+gameplay.802d973bfaad7d82,5회 연속 포획 달성: 연속 5회 배지가 해금되었습니다.
+gameplay.808953ffda8f0000,의료품(일반)
+gameplay.8156add6d6dc68e9,그 이상한 물고기들... 요리하면 어떤 맛일지 정말 궁금해.
+gameplay.833d48333c2da64e,참조기
+gameplay.839ddd84c3ed0447,푸른 수정 물고기 1마리 건네기
+gameplay.841ad001db7ac003,기본 미끼 네 종류를 모두 가져왔나요?
+gameplay.85fe28aac3c99c5d,정화어
+gameplay.8702a11ce04620ed,외용 연고 붕대
+gameplay.870e63bad110e4ab,"가게 주인, 그 아름답고 큰 물고기를 잡게 되면..."
+gameplay.87391fc4ba2f3cd6,채집 낚시용 낚싯대에 끌어 놓으세요. 실물 미끼를 소모하고 남은 내구도를 원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 두 사용처의 내구도는 별도로 계산됩니다.
+gameplay.883111b6e98db750,자외선 램프
+gameplay.88708e66f4cf1cf7,손질 가능한 모든 어종 손질하기
+gameplay.8a6e093ba368297a,윌리의 물고기 연구를 완료하면 해금되는 고급 낚싯대입니다. 기본 원정 포획 확률: 60%.
+gameplay.8aea174279d77f9e,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 10. 핏빛 물고기 그림자 출현 지점에서 낚시 성공 확률 +50%p.
+gameplay.8b7339186bb89f51,지금은 공간이 없어요. 다음 행사 때 명함을 다시 전해 드릴게요.
+gameplay.8c17cb0af4176c71,미끼 이동 실패: 실물 아이템을 인벤토리로 돌려보냈습니다.
+gameplay.8d0d7c88dc5fae2f,그물을 고치고 나면 다시 살펴보러 갈게요.
+gameplay.8de5e09d9be5531d,가공소 설명서
+gameplay.8e0ac76fd706d13b,소독용 알코올
+gameplay.8e4bd2c151206be3,일반 물고기를 모두 잡았습니다: 모든 미끼의 최대 내구도가 영구적으로 5 증가합니다.
+gameplay.8f15ea2aa899e6d1,강력한 반짝이 미끼
+gameplay.90462e5da317599e,새 낚싯대를 만드는 데 사흘만 주세요.
+gameplay.90a54f155a67a1c6,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 30. 거대 물고기 그림자 낚시 성공 확률 +25%p.
+gameplay.92365d508d4797c1,반짝이 미끼
+gameplay.93b51f59b239d91d,흉터 난
+gameplay.94249918219708a2,"며칠 전 그물을 끌어 올리러 갔는데, 뭔가가 그물 한가운데에 커다란 구멍을 냈어요."
+gameplay.94f201b9892d2b5c,강력한 유리 미끼
+gameplay.954f0dff39c1c82e,많이 잡으세요!
+gameplay.95674b83f46e6052,지금은 공간이 부족합니다. 보상 전달은 나중에 다시 시도합니다.
+gameplay.9605eb97addd479f,"벌써 가는 중입니다, 가게 주인님."
+gameplay.998c86e9d82a40ad,종별 체중 한계에 가까운 거대 물고기 잡기
+gameplay.9ae9203790c5f429,"잘했어요, 가게 주인님."
+gameplay.9af496723aef4e18,어창이 이미 최대 크기입니다.
+gameplay.9afd033976627552,겨울별과 관련된 별방울이라는 신비한 열매가 있다는 말도 있죠.
+gameplay.9b070842936456da,해도 업그레이드 완료. 이제 탐사 공개 반경이 {0}칸입니다.
+gameplay.9b50d028f7dcbd34,???: 아직 잡히지 않음
+gameplay.9b5f237559aaa05d,원정 미끼
+gameplay.9b69920fe5ca046e,쥐물고기
+gameplay.9c83f46861b31071,최근 우주 정거장 옆 행성에서 새로운 수역이 발견됐어요.
+gameplay.9d202408df89207c,화학 물자(제한)
+gameplay.9efb1a9272d6e9c3,업그레이드를 저장하지 못했습니다. 상태: {0}. {1} 크레딧을 환불했습니다: {2}
+gameplay.9efd29619d5ee3ce,강력한 생선 다짐 미끼
+gameplay.9f0ab409f6175c7e,손질 가능한 물고기를 모두 손질했습니다: 날카로운 회칼의 교체 가격이 영구적으로 20% 감소합니다.
+gameplay.9f9e5a4e20305023,미끼
+gameplay.a2af3b6b3751110f,혈액 주머니
+gameplay.a3fe4682309451c0,금속 주괴
+gameplay.a3fe91ae831ed3bf,그런 일이 생기면 그곳에 모인 물고기를 더 쉽게 잡을 수 있어요.
+gameplay.a44df9ed6fe1f437,생수(미니)
+gameplay.a4e68e4c340e49c3,이 물고기
+gameplay.a59c98cea3504f88,금속 나사
+gameplay.a745898df5139a8b,"크레딧이 부족합니다. 필요: {0}, 보유: {1}."
+gameplay.a88223ffb907e628,정말 잡았네요.
+gameplay.a8d32d3a831d7e9a,별똥별
+gameplay.a94bb3d5a3502f87,좋아요! 기본 재료 네 가지는 향과 질감이 모두 달라요.
+gameplay.a9d624a347243f94,아직 준비가 안 됐나요? 다음에 다시 올게요.
+gameplay.a9fde7a7533524cc,소음 억제 장비 업그레이드 완료. 방해도 증가량이 {0}% 감소합니다.
+gameplay.ab380d7a61243ef0,뿔황새치
+gameplay.ab7171ea58447f95,판매 가격이 50% 증가합니다.
+gameplay.ac86b8ada22013da,황새치 주둥이를 찾으셨나요?
+gameplay.acf2b99a1b3ac399,\n\n-- 위/아래: 분류 | 왼쪽/오른쪽: 페이지 --
+gameplay.ad5e448e77c4f1ea,고철
+gameplay.ada5aff83363b864,에너지 셀(2형)
+gameplay.aef657e9ee38101d,시냅스 주사기
+gameplay.af0a2758f2bca553,새 낚싯대 연구에 필요한 물고기 네 마리를 모두 가져오셨나요?
+gameplay.af126181248c7361,재료 정보 없음
+gameplay.afe7075de4213507,공간을 절약하는 데 도움이 돼요. 필요하면 들러 주세요.
+gameplay.b06e9fbb5678b015,소음 억제 장비가 이미 최고 레벨입니다.
+gameplay.b1299cff27914c0c,무지개 물고기
+gameplay.b2debfe6710f51f3,아쉽지만 지금 낚싯대로는 감당할 수 없어요.
+gameplay.b33ce4bdcaf423a8,원래 물고기를 인벤토리로 돌려놓지 못했습니다. 로그를 확인하세요.
+gameplay.b3f305a6689e2e25,낚시 그물
+gameplay.b47e0b42320ed8ba,드림 더스트 약병
+gameplay.b487069f095dc492,{0}이(가) 내구도 {1}을 남긴 채 원정 장비 보관함으로 옮겨졌습니다. 실물 아이템은 소모되었습니다.
+gameplay.b4bcc87ca9c1ed7d,각성제
+gameplay.b5e1cbb94d282289,가져온 물고기들이 큰 도움이 됐어요.
+gameplay.b6660a52a135a3b3,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 15. 핏빛 물고기 그림자 낚시 성공 확률 +25%p.
+gameplay.b6b84ec3b3dda704,가공소 레시피를 찾지 못했습니다.\nGo Fishing! 아이템 팩이 제대로 불러와졌는지 확인하세요.
+gameplay.b746de10a947e8d2,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 15. 일반 낚시터에서 낚시 성공 확률 +25%p. 핏빛 물고기 떼나 거대 그림자에는 효과가 없습니다.
+gameplay.b89642ba3bce17c9,사람들은 그 별을 보면 행운이 찾아온다고 믿었어요.
+gameplay.b8fa188327f3320b,습한 공기 냄새가 은은하게 배어 있는 명함.
+gameplay.backpack_shop.go,낚시용품점으로 가기
+gameplay.bae85e81255ca7e4,"한 번에 더 많은 물고기를 잡을 수 있으며, 다른 어종 목록을 사용합니다. 기본 원정 포획 확률: 60%."
+gameplay.bca1f976f652b9a4,부세
+gameplay.bcbc3da2ecda9aeb,지난번에 내 그물을 찢어 놓은 게 기억나나요?
+gameplay.bcc860cb3ed9ad12,하! 범인이 이놈이었군! 그러니 그물과 낚싯대가 버티지 못했지.
+gameplay.bd097b1fc07a13cf,◆ {0}  {1}마리 포획  최대 {2}g  특성 {3}/{5}  손질 {4}
+gameplay.be1495d627173712,수리한 낚시 그물도 이제 다시 쓸 수 있어요.
+gameplay.bf106ecce3fb5b14,이 미끼는 아직 사용 중이므로 원정 장비 보관함으로 옮길 수 없습니다.
+gameplay.bf1676dba67b6175,연속 5회
+gameplay.c01bbf538a790fdc,아이템 팩이 업데이트되면 레시피를 다시 읽습니다. 인식할 수 없는 레시피는 기타 가공에 표시됩니다.
+gameplay.c17af603fbc6013a,그냥 보여 드리는 게 낫겠네요...
+gameplay.c23c76c88163c264,윌리의 제안을 정중히 거절하기
+gameplay.c2c5fbe1c9e4fbf1,"잡힐 때 체중이 한 번 25% 증가하며, 원래 어종의 최대 무게를 넘지 않습니다."
+gameplay.c2f9534ba84cb1e3,"오늘 뉴스를 보셨나요? 조수, 수온, 해류가 모두 물고기 떼를 한곳에 모을 수 있어요."
+gameplay.c389ea0e765ad3cf,손전등
+gameplay.c5789a1de3d98c00,알 수 없는 재료
+gameplay.c86820426d4c9d97,{0}. 레시피가 잘못되었습니다
+gameplay.ca457ae0b367a2de,어쩌면 쓸모가 있을지도 몰라요!
+gameplay.canned.mechanical.denied,주싱산 기계 물고기는 통조림 생선 제작에 사용할 수 없습니다. 먼저 제거하세요. 재료는 소모되지 않았습니다.
+gameplay.canned.mechanical.title,통조림 생선을 만들 수 없습니다
+gameplay.cb32a1d471cb670b,총기 부품
+gameplay.ccb797d6470136c5,심해의 왕
+gameplay.cd2cc36d14aca371,윌리의 가공 메모입니다. 위/아래로 분류를 바꾸고 왼쪽/오른쪽으로 페이지를 넘기세요.
+gameplay.cdfec883f30a21ce,손질 실패
+gameplay.ce85a987fc2b120e,무작위 잡동사니
+gameplay.cf0a5798d5931954,환영 선물이에요. 제 가게가 바로 옆에 있으니 시간 날 때 들르세요.
+gameplay.d04682ea689cccc9,생수(표준)
+gameplay.d11e33c2e8185ea5,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 10. 일반 낚시터에서 낚시 성공 확률 +50%p. 핏빛 물고기 떼와 거대 그림자에는 효과가 없습니다.
+gameplay.d1de52706127913c,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 15. 거대 물고기 그림자 낚시 성공 확률 +25%p.
+gameplay.d254bebf0f4b2df8,잡동사니
+gameplay.d2ee5e4322e90f0f,항구 상점에서 살 수 있어요.
+gameplay.d2f4a508d1d7f225,무작위 급조 아이템
+gameplay.d3f2f4002317290c,아직 준비가 안 됐어요
+gameplay.d551a9d35ac88e50,예전에 쓰던 손질용 칼이에요. 이제 당신 거예요.
+gameplay.d581cf6c3e61cbce,"무지개 물고기, 유리 물고기"
+gameplay.d5e11f8f7f573332,미끼 이동 실패: 실물 아이템은 소모되지 않았습니다.
+gameplay.d5e70c8ba719e3d9,"라이트피시, 레드테일"
+gameplay.d5f1011a54540b65,성능 모듈
+gameplay.d6554562bf160c06,이 분류에는 아직 레시피가 없습니다.
+gameplay.d75184a8c0f9bcba,별방울!
+gameplay.d77aabb40673b7fe,의약품 및 화학물질
+gameplay.d8282dad3a86006d,잠깐 살펴봐도 될까요?
+gameplay.d8aabef68dd84755,"좋아요, 바로 갈게요."
+gameplay.d8caa9a6725bf139,푸른 피 주머니
+gameplay.d99afab416080771,플레이어의 상점이 아직 초기화되지 않았습니다.
+gameplay.d9b4821f4c384cc2,도감 완성
+gameplay.dd9a6dea9893a09f,이번에는 낚싯대도 부러졌어요. (한숨을 쉰다.)
+gameplay.dd9b07838cee7305,빈 맥주병
+gameplay.df0d25193874aa17,예
+gameplay.e0bdacd72f86928c,미끼 내구도: {0}/{1}
+gameplay.e3512ad1a9c7dbcc,펄스 가디언 전기 충격기
+gameplay.e404420126414305,개선 사항을 기록하는 데 하루만 주세요.
+gameplay.e42e936be0fc11ee,거대어 사냥꾼
+gameplay.e4865262e488f119,최장 연속 포획: {0}
+gameplay.e53f26e52f99c364,무작위 의료품
+gameplay.e5dc5c3debd7183e,기본 플럭스제
+gameplay.e630973972f78854,무게: {0}\n{1}
+gameplay.e7c1e4f9b99d1e56,낡은 낚시 그물 퀘스트 완료하기
+gameplay.e7d8721d629937fa,가공소에서 미끼를 만들어 보셨나요?
+gameplay.e9d63d81fb48ad69,강력한 쥐 배설물 미끼
+gameplay.eb1e1624d19f9995,저녁에 가게 문을 열어요. 시간 날 때 들르세요.
+gameplay.eb295cf084aabaa7,나이트메어 더스트 약병
+gameplay.ee0ab7f008484fc2,나중에 윌리를 다시 부를 수 있습니다.
+gameplay.ef4075bfbac9f646,가공소 레시피 {0}개를 자동으로 찾았습니다.\n\n
+gameplay.efde8032d4ca6bc3,물고기 왕 퀘스트 완료하기
+gameplay.f0c00b4cf345bbd7,화산 물고기
+gameplay.f209f2530987c38c,해도가 이미 최고 레벨입니다.
+gameplay.f26018b824ca11e8,물고기 4마리 건네기
+gameplay.f27583e958eb1629,"큰민어, 쥐고기"
+gameplay.f2a9d380a8b6dbec,나이팅게일 연고
+gameplay.f44f6487191c5e60,이뮤닌 주사기
+gameplay.f487648a678cae4d,수술 도구 키트
+gameplay.f584a3beddbc88ec,선체가 이미 최고 레벨입니다.
+gameplay.f66f0b567756ef7e,지금은 공간이 부족합니다. 보상이 전달되지 않았습니다. 윌리가 나중에 다시 방문합니다.
+gameplay.f6d7090600052eac,저 아래에 뭐가 있는지 알아보고 싶었어요.
+gameplay.f6e1b640ef82244b,무작위 모듈
+gameplay.f6ec386541f1aeb5,전자 부품(일반)
+gameplay.f6fbb6aafc1feac8,원정 장비 보관함으로 옮기려면 두 번 클릭하세요. 내구도: 10. 포획 성공 시 보물 상자가 나올 확률 +30%p.
+gameplay.f79b76da45155480,일회용 터보 부스터
+gameplay.f7ac4a3b655c88d6,튼튼한 반짝이 미끼
+gameplay.f8e982e7598eabd4,손질 숙련도
+gameplay.fa03875ac7b1556b,테이저
+gameplay.faafc95018766dba,기본 재료 네 가지를 모두 비교해야 무엇을 더해 개선할지 알 수 있어요.
+gameplay.fbd3ca37ec23c120,특수 특성 없음
+gameplay.fdd50d61fa3810eb,결제 실패: {0}
+gameplay.fe0cebc5f94bab30,물고기 떼 목격
+gameplay.fec43b6181fb1781,무기 및 도구
+gameplay.fedcd65b4a746a23,조리 도구도 몇 가지 주더군요. 잃어버리면 제 가게에서 다시 살 수 있어요.
+gameplay.ff0bf646eae3574f,일반 물고기를 모두 잡아 미끼 최대 내구도 5 증가시키기
+gameplay.ffe28b1054db9d0f,임시변통 낚싯대
+gameplay.fillet.partial,일부 결과물을 꺼내지 못해 보관했습니다. 원래 물고기는 소모되었습니다. 이번 시도는 손질 숙련도에 반영되지 않습니다.
+gameplay.fish.grade.0,4등급
+gameplay.fish.grade.1,3등급
+gameplay.fish.grade.2,2등급
+gameplay.fish.grade.3,1등급
+gameplay.fish.grade.4,특급
+gameplay.fish.processing.multiplier,계승된 물고기 품질: 가치 ×{0}
+gameplay.fishing.level.max,낚시 레벨 {0}  경험치 {1} (최고 레벨)
+gameplay.fishing.level.progress,낚시 레벨 {0}  경험치 {1}/{2}  다음 레벨: {3}
+gameplay.fishing.level.rules,"가져간 물고기 한 마리당 경험치 10을 얻습니다. 최고 레벨에는 경험치 9,500이 필요합니다. 통째 물고기의 등급은 최초 포획 시 결정되며, 주된 손질 살코기에도 이어집니다. 사육 물고기의 기본 등급은 4등급입니다. 야생 생물 물고기는 성체 단계로 출현하며, 특성은 포획 시 한 번 적용됩니다."
+gameplay.ship_mentor.can_wait,부족하면 시간을 두고 갚아도 돼요.
+gameplay.ship_mentor.fixed,"부탁하신 배 수리가 끝났습니다. 수리비는 1,000크레딧입니다."
+gameplay.ship_mentor.insufficient,크레딧이 부족합니다. 결제되지 않았습니다.
+gameplay.ship_mentor.key_location,문 옆에 열쇠를 걸어 뒀어요. 필요할 때 언제든 배를 타고 나가세요.
+gameplay.ship_mentor.name,멘토
+gameplay.ship_mentor.no_money,지금은 지불할 수 없습니다
+gameplay.ship_mentor.no_money_first,그렇다면 배를 넘겨드리기엔 아직 이른 것 같군요.
+gameplay.ship_mentor.no_money_later,...다음 주에는 돈을 가지고 있으면 좋겠군요.
+gameplay.ship_mentor.paid,거래하게 되어 기쁘군요. 정보가 필요할 때는 언제든 윌리에게 전화하세요.
+gameplay.ship_mentor.pay_100_first,100 지불
+gameplay.ship_mentor.pay_100_later,100 지불
+gameplay.ship_mentor.pay_1000,"1,000 지불"
+gameplay.ship_mentor.pay_all,남은 금액 지불
+gameplay.ship_mentor.payment_failed,결제가 완료되지 않았습니다. 나중에 다시 시도해 주세요.
+gameplay.ship_mentor.remaining,아직 {0}을(를) 빚지고 있군요. 다음 주에 다시 오겠습니다.
+gameplay.ship_mentor.reminder,남는 크레딧은 좀 모았어?
+gameplay.status.complete,완료
+gameplay.status.diagnostic,자세한 내용은 로그를 확인하세요.
+gameplay.status.incomplete,미완료
+gameplay.status.restore_failed,"복원 실패, 로그를 확인하세요"
+gameplay.status.restored,복원됨
+gameplay.status.unknown,알 수 없음
+gear.bait,미끼
+gifts.factoryUnavailable,선물 아이템을 생성하지 못했습니다. 수령하지 않은 선물은 보관되니 나중에 다시 시도하고 로그를 확인하세요.
+gifts.inventoryFull,카운터나 보관함에 적당한 공간이 없습니다. 남은 선물을 받으려면 공간을 비워 주세요.
+gifts.notReady,선물 전달이 아직 준비되지 않았습니다. 수령하지 않은 선물은 보관되니 나중에 다시 시도해 주세요.
+gifts.pending,아직 받지 않은 선물이 있습니다. ‘받기’를 선택해 다시 시도하세요. 전달되지 않은 선물은 보관됩니다.
+gifts.recoveryPending,이전 선물 전달 건을 아직 복구 중입니다. 받지 않은 선물은 보관됩니다.
+item.ce_basic_optical_mouse.name,그레이셸 광학 마우스
+item.ce_duanxiang_m1_phone.name,돤샹 M1 휴대전화
+item.ce_falcon_wireless_mouse.name,팔콘 저지연 무선 마우스
+item.ce_foldlight_dual_phone.name,폴드라이트 이중 접이식 휴대전화
+item.ce_gray_shell_rugged_phone.name,그레이셸 러기드폰
+item.ce_inkpage_phone.name,잉크페이지 전자종이 휴대전화
+item.ce_low_latency_wireless_keyboard.name,에코 로우 프로파일 무선 키보드
+item.ce_membrane_keyboard.name,오래된 멤브레인 키보드
+item.ce_nightline_encrypted_phone.name,나이트라인 암호화 휴대전화
+item.ce_pair_salvage_speakers.name,오래된 스피커
+item.ce_phase_speaker.name,위상 공명 스피커
+item.ce_refurbished_lcd_monitor.name,재정비된 LCD 모니터
+item.ce_repaired_headphones.name,수선한 오버이어 헤드폰
+item.ce_silence_headphones.name,스틸필드 노이즈 캔슬링 헤드폰
+item.ce_silverring_holo_phone.name,실버링 홀로그램 휴대전화
+item.ce_spectral_display.name,라이트베일 고주사율 디스플레이
+item.gf_advanced_ammunition_parts.flavor,
+item.gf_advanced_ammunition_parts.name,고급 탄약 생산 부품
+item.gf_advanced_ammunition_parts.short,"고급 탄약을 생산하는 장비 세트입니다. 암시장에서 매우 귀하게 거래되며, 소지는 엄격히 불법입니다."
+item.gf_aming_sunshine_potato_mine.flavor,
+item.gf_aming_sunshine_potato_mine.name,아밍의 선샤인 포테이토 마인
+item.gf_aming_sunshine_potato_mine.short,지구 어딘가의 신비한 정원에서 자라는 식물과 닮았다고 합니다. 같은 종류의 다른 식물과 달리 해바라기 같은 꽃잎이 달려 있습니다.
+item.gf_automated_defibrillator.flavor,
+item.gf_automated_defibrillator.name,자동심장충격기
+item.gf_automated_defibrillator.short,음성 안내가 내장된 심정지 응급용 휴대 기기입니다. 매 순간이 중요한 상황에서 생명을 구할 수 있습니다.
+item.gf_big_eye_fish.flavor,
+item.gf_big_eye_fish.name,큰눈 물고기
+item.gf_big_eye_fish.short,주싱에서 온 기계 물고기입니다. 둥근 렌즈는 카메라 제작 재료로 쓸 수 있습니다.
+item.gf_blazing_chili_pepper.flavor,맵기가 강하도록 특별히 재배한 고추입니다. 조금만 넣어도 요리 전체를 아주 맵게 만들 수 있습니다.
+item.gf_blazing_chili_pepper.name,불타는 고추
+item.gf_blazing_chili_pepper.short,물고기를 보존하는 데 사용할 수 있습니다.
+item.gf_blue_crystal_fish_fillet.flavor,
+item.gf_blue_crystal_fish_fillet.name,푸른 수정물고기 살점
+item.gf_blue_crystal_fish_fillet.short,푸른 수정 물고기에서 잘라 낸 얼음빛 푸른 살점입니다.
+item.gf_blue_crystal_fish.flavor,만지면 확연히 차갑습니다.
+item.gf_blue_crystal_fish.name,푸른 수정물고기
+item.gf_blue_crystal_fish.short,몸속에 반투명한 푸른 결정이 생깁니다. 살은 평범하지만 몸속의 얼음 결정이 진짜 보물입니다.
+item.gf_bone_blue_crystal_fish.flavor,
+item.gf_bone_blue_crystal_fish.name,푸른 수정물고기 뼈
+item.gf_bone_blue_crystal_fish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_electric_eel.flavor,
+item.gf_bone_electric_eel.name,빛물고기 뼈
+item.gf_bone_electric_eel.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_glass_fish.flavor,
+item.gf_bone_glass_fish.name,유리어 뼈
+item.gf_bone_glass_fish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_golden_fish.flavor,
+item.gf_bone_golden_fish.name,황금물고기 뼈
+item.gf_bone_golden_fish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_goldfish.flavor,
+item.gf_bone_goldfish.name,금붕어 뼈
+item.gf_bone_goldfish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_horned_swordfish.flavor,
+item.gf_bone_horned_swordfish.name,뿔황새치 뼈
+item.gf_bone_horned_swordfish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_large_yellow_croaker.flavor,
+item.gf_bone_large_yellow_croaker.name,대형 참조기 뼈
+item.gf_bone_large_yellow_croaker.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_lofurin.flavor,
+item.gf_bone_lofurin.name,로푸린 뼈
+item.gf_bone_lofurin.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_muspels_son.flavor,
+item.gf_bone_muspels_son.name,무스펠의 아들 뼈
+item.gf_bone_muspels_son.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_niorun.flavor,
+item.gf_bone_niorun.name,니오룬 뼈
+item.gf_bone_niorun.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_purifier_fish.flavor,
+item.gf_bone_purifier_fish.name,정화어 뼈
+item.gf_bone_purifier_fish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 해당 어종의 뼈는 가루로 빻을 수 있습니다."
+item.gf_bone_rainbow_fish.flavor,
+item.gf_bone_rainbow_fish.name,무지개물고기 뼈
+item.gf_bone_rainbow_fish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_rans_nightmare.flavor,
+item.gf_bone_rans_nightmare.name,란의 악몽 뼈
+item.gf_bone_rans_nightmare.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_ratfish.flavor,
+item.gf_bone_ratfish.name,쥐치 뼈
+item.gf_bone_ratfish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_redtail_fish.flavor,
+item.gf_bone_redtail_fish.name,붉은꼬리물고기 뼈
+item.gf_bone_redtail_fish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_space_rocket_fish.flavor,
+item.gf_bone_space_rocket_fish.name,우주로켓물고기 뼈
+item.gf_bone_space_rocket_fish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_star_puffer.flavor,
+item.gf_bone_star_puffer.name,별복어 뼈
+item.gf_bone_star_puffer.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_volcanic_fish.flavor,
+item.gf_bone_volcanic_fish.name,화산어 뼈
+item.gf_bone_volcanic_fish.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_bone_wuzhiqi.flavor,
+item.gf_bone_wuzhiqi.name,무지기 뼈
+item.gf_bone_wuzhiqi.short,"손질하고 남은 생선 뼈입니다. 재료로 사용할 수 있으며, 지원되는 어종은 가루로 빻을 수 있습니다."
+item.gf_canned_goods_rack.flavor,선반에 둔 통조림은 하룻밤 사이에 완성됩니다.
+item.gf_canned_goods_rack.name,통조림 선반
+item.gf_canned_goods_rack.short,"생선 통조림, 가공한 생선 살, 건조대를 보관합니다."
+item.gf_carbon_fiber_fishing_rod.flavor,더 큰 힘을 견디도록 만든 가볍고 튼튼한 낚싯대입니다.
+item.gf_carbon_fiber_fishing_rod.name,탄소섬유 낚싯대
+item.gf_carbon_fiber_fishing_rod.short,더 많은 어종을 잡을 수 있는 고급 낚싯대입니다. 간편 낚시 특성이 있으면 장착한 채 채집 중 낚시할 수 있습니다. 포획 확률: 50%. 실패하면 일반 채집을 진행합니다. 기본 원정 포획 확률: 60%.
+item.gf_caviar.flavor,
+item.gf_caviar.name,캐비아
+item.gf_caviar.short,"절인 생선 알로, 섬세하고 맛이 좋아 상층 구역의 식탁에서 인기 있는 별미입니다."
+item.gf_chili_pepper.flavor,"흔한 붉은 고추입니다. 맵고 톡 쏘며, 밋밋한 음식에 저렴하게 풍미를 더할 수 있습니다."
+item.gf_chili_pepper.name,고추
+item.gf_chili_pepper.short,물고기를 보존하는 데 사용할 수 있습니다.
+item.gf_chip_crab.flavor,
+item.gf_chip_crab.name,칩 게
+item.gf_chip_crab.short,주싱에서 온 기계 물고기입니다. 접점이 여러 개인 핵은 칩 재료로 사용할 수 있습니다.
+item.gf_chip_puffer.flavor,
+item.gf_chip_puffer.name,칩 복어
+item.gf_chip_puffer.short,주싱에서 온 기계 물고기입니다. 핀으로 둘러싸인 핵은 칩 재료로 사용할 수 있습니다.
+item.gf_conductive_tendon.flavor,
+item.gf_conductive_tendon.name,전도성 힘줄
+item.gf_conductive_tendon.short,빛물고기에서 떼어 낸 특수한 힘줄입니다. 손에 쥐면 저릿저릿합니다.
+item.gf_copper_eel.flavor,
+item.gf_copper_eel.name,구리선 장어
+item.gf_copper_eel.short,주싱에서 온 기계 물고기입니다. 감긴 구리선은 리본 케이블 재료로 사용할 수 있습니다.
+item.gf_double_hook_fishing_rod.flavor,바늘이 두 개 달린 개량형 낚싯대입니다. 구조가 단순해 무거운 하중은 견디지 못합니다.
+item.gf_double_hook_fishing_rod.name,쌍바늘 낚싯대
+item.gf_double_hook_fishing_rod.short,성공하면 물고기 두 마리를 잡는 쌍바늘 낚싯대입니다. 간편 낚시 특성이 있으면 장착한 채 채집 중 낚시할 수 있습니다. 포획 확률: 50%. 실패하면 일반 채집을 진행합니다. 기본 원정 포획 확률: 60%.
+item.gf_dried_blue_crystal_fish.flavor,말렸는데도 범상치 않은 물건임이 분명합니다.
+item.gf_dried_blue_crystal_fish.name,말린 푸른 수정물고기
+item.gf_dried_blue_crystal_fish.short,바람에 말린 푸른 수정 물고기입니다.
+item.gf_dried_electric_eel.flavor,이제 갑자기 전기 충격을 주지는 않습니다... 아마도요.
+item.gf_dried_electric_eel.name,말린 빛물고기
+item.gf_dried_electric_eel.short,바람에 말린 라이트피시입니다.
+item.gf_dried_ferrite_jellyfish.flavor,
+item.gf_dried_ferrite_jellyfish.name,말린 페라이트 해파리
+item.gf_dried_ferrite_jellyfish.short,말린 페라이트 해파리.
+item.gf_dried_glass_fish.flavor,말린 뒤에도 반투명하고 얇은 살이 흐린 유리처럼 보인다.
+item.gf_dried_glass_fish.name,말린 유리물고기
+item.gf_dried_glass_fish.short,바람에 말린 유리물고기.
+item.gf_dried_golden_fish.flavor,말렸는데도 범상치 않은 물건임이 분명하다.
+item.gf_dried_golden_fish.name,말린 황금물고기
+item.gf_dried_golden_fish.short,바람에 말린 황금물고기.
+item.gf_dried_goldfish.flavor,
+item.gf_dried_goldfish.name,말린 금붕어
+item.gf_dried_goldfish.short,말린 금붕어.
+item.gf_dried_horned_swordfish.flavor,좋은 소식은 먹을 수 있다는 것이다. 나쁜 소식은 이가 고생한다는 것이다.
+item.gf_dried_horned_swordfish.name,말린 외뿔황새치
+item.gf_dried_horned_swordfish.short,바람에 말린 외뿔황새치.
+item.gf_dried_large_yellow_croaker.flavor,"단단하고 감칠맛 나는 살로, 오래 보관할 수 있다. 유용한 비상식량이다."
+item.gf_dried_large_yellow_croaker.name,말린 큰민어
+item.gf_dried_large_yellow_croaker.short,바람에 말린 큰민어.
+item.gf_dried_lofurin.flavor,
+item.gf_dried_lofurin.name,말린 로푸린
+item.gf_dried_lofurin.short,말린 로푸린.
+item.gf_dried_muspels_son.flavor,
+item.gf_dried_muspels_son.name,말린 무스펠의 아들
+item.gf_dried_muspels_son.short,말린 무스펠의 아들.
+item.gf_dried_niorun.flavor,
+item.gf_dried_niorun.name,말린 니오룬
+item.gf_dried_niorun.short,말린 니오룬.
+item.gf_dried_purifier_fish.flavor,물주머니는 쪼그라들고 단단하면서 살짝 짭짤한 살만 남았다.
+item.gf_dried_purifier_fish.name,말린 정화어
+item.gf_dried_purifier_fish.short,바람에 말린 정화어.
+item.gf_dried_rainbow_fish.flavor,한때 선명했던 빛깔은 바랬다. 비싼 관상어를 말려 버리니 조금 아깝게 느껴진다.
+item.gf_dried_rainbow_fish.name,말린 무지개물고기
+item.gf_dried_rainbow_fish.short,바람에 말린 무지개물고기.
+item.gf_dried_rans_nightmare.flavor,
+item.gf_dried_rans_nightmare.name,말린 란의 악몽
+item.gf_dried_rans_nightmare.short,란의 악몽 건조품
+item.gf_dried_ratfish.flavor,"살은 많지 않지만, 말리면 놀랄 만큼 단단해지고 오래 보관할 수 있다."
+item.gf_dried_ratfish.name,말린 쥐치
+item.gf_dried_ratfish.short,바람에 말린 쥐치.
+item.gf_dried_redtail_fish.flavor,눈에 띄는 붉은 꼬리는 말린 뒤에도 선명하다.
+item.gf_dried_redtail_fish.name,말린 붉은꼬리물고기
+item.gf_dried_redtail_fish.short,바람에 말린 붉은꼬리물고기.
+item.gf_dried_sardine.flavor,오래 보관할 수 있어 믿음직한 식량이 된다.
+item.gf_dried_sardine.name,말린 정어리
+item.gf_dried_sardine.short,바람에 말린 정어리.
+item.gf_dried_small_yellow_croaker.flavor,작지만 풍미가 가득하고 보관하기도 쉽다.
+item.gf_dried_small_yellow_croaker.name,말린 참조기
+item.gf_dried_small_yellow_croaker.short,바람에 말린 참조기.
+item.gf_dried_space_rocket_fish.flavor,
+item.gf_dried_space_rocket_fish.name,말린 우주로켓물고기
+item.gf_dried_space_rocket_fish.short,말린 우주로켓물고기.
+item.gf_dried_star_puffer.flavor,
+item.gf_dried_star_puffer.name,말린 별복어
+item.gf_dried_star_puffer.short,말린 별복어.
+item.gf_dried_volcanic_fish.flavor,말린 뒤에도 발열 기관은 계속 작동한다.
+item.gf_dried_volcanic_fish.name,말린 화산어
+item.gf_dried_volcanic_fish.short,바람에 말린 화산물고기.
+item.gf_dried_wuzhiqi.flavor,
+item.gf_dried_wuzhiqi.name,말린 무지기
+item.gf_dried_wuzhiqi.short,말린 무지기.
+item.gf_drip_coffee_box.flavor,
+item.gf_drip_coffee_box.name,상자 포장 드립 커피
+item.gf_drip_coffee_box.short,일회용 종이 필터에 포장된 휴대용 커피. 간편하게 내릴 수 있으면서 커피 본연의 향을 간직했다.
+item.gf_drying_rack.flavor,소박한 식품 건조대. 생선을 걸어 두는 것을 잊지 말자.
+item.gf_drying_rack.name,건조대
+item.gf_drying_rack.short,생선을 말려 보존 식량으로 만든다.
+item.gf_durable_fish_mince_bait.flavor,
+item.gf_durable_fish_mince_bait.name,튼튼한 다진 생선 미끼
+item.gf_durable_fish_mince_bait.short,두 번 클릭하면 원정 장비 보관함으로 옮깁니다. 내구도: 30. 일반 낚시터 성공 확률이 25%p 증가합니다. 핏빛 어군이나 거대 그림자에는 효과가 없습니다.
+item.gf_durable_glass_bait.flavor,
+item.gf_durable_glass_bait.name,내구성 유리 미끼
+item.gf_durable_glass_bait.short,두 번 클릭하면 원정 장비 보관함으로 옮깁니다. 내구도: 30. 거대 물고기 그림자 성공 확률 +25%p.
+item.gf_durable_rat_dung_bait.flavor,
+item.gf_durable_rat_dung_bait.name,내구성 쥐 배설물 미끼
+item.gf_durable_rat_dung_bait.short,두 번 클릭하면 원정 장비 보관함으로 옮깁니다. 내구도: 30. 핏빛 물고기 그림자 성공 확률 +25%p.
+item.gf_durable_shiny_bait.flavor,
+item.gf_durable_shiny_bait.name,내구성 반짝이 미끼
+item.gf_durable_shiny_bait.short,두 번 클릭하면 원정 장비 보관함으로 옮깁니다. 내구도: 30. 낚시 성공 후 보물 상자가 나올 확률 +15%p.
+item.gf_eleanor_pocket_watch.flavor,
+item.gf_eleanor_pocket_watch.name,엘리너의 회중시계
+item.gf_eleanor_pocket_watch.short,"상층 구역의 엘리너 아가씨가 쓰던 것으로, 하층 구역에 온 뒤 잃어버렸다고 한다."
+item.gf_electric_eel_fillet.flavor,
+item.gf_electric_eel_fillet.name,빛물고기 살코기
+item.gf_electric_eel_fillet.short,아직도 가끔 꿈틀거린다. 그저 신경 반사이기를 바란다.
+item.gf_electric_eel.flavor,
+item.gf_electric_eel.name,빛고기
+item.gf_electric_eel.short,특수 기관에서 강력한 전류를 만들어 낸다. 다루기 전에 완전히 죽었는지 반드시 확인하자.
+item.gf_electric_shell.flavor,
+item.gf_electric_shell.name,전기 조개
+item.gf_electric_shell.short,주싱에서 온 기계 물고기. 내부 기판은 충전 기판의 재료로 쓸 수 있다.
+item.gf_electronic_shackle.flavor,
+item.gf_electronic_shackle.name,전자 족쇄
+item.gf_electronic_shackle.short,탈옥수가 버린 족쇄. 안에 든 칩은 아직 돈이 될지도 모른다.
+item.gf_emperor_red_crab.flavor,단단한 껍데기를 믿고 물속을 제멋대로 휘젓고 다닌다.
+item.gf_emperor_red_crab.name,황제 붉은갑옷게
+item.gf_emperor_red_crab.short,작살로 잡을 수 있는 붉은 갑각을 두른 거대한 게.
+item.gf_empty_can_large.flavor,
+item.gf_empty_can_large.name,대형 빈 깡통
+item.gf_empty_can_large.short,빈 금속 깡통.
+item.gf_empty_can_small.flavor,
+item.gf_empty_can_small.name,소형 빈 깡통
+item.gf_empty_can_small.short,빈 금속 깡통.
+item.gf_empty_reagent_injector.flavor,
+item.gf_empty_reagent_injector.name,빈 주사기
+item.gf_empty_reagent_injector.short,물약을 조합할 때 쓰는 빈 주사기.
+item.gf_energy_fish.flavor,
+item.gf_energy_fish.name,에너지 물고기
+item.gf_energy_fish.short,주싱에서 온 기계 물고기. 에너지 저장 코어는 배터리 재료로 사용할 수 있다.
+item.gf_ferrite_granules.flavor,"철빛 회색 알갱이들이 서로 뭉치며, 때로는 자기장을 따라 짧은 줄을 이룬다."
+item.gf_ferrite_granules.name,페라이트 알갱이
+item.gf_ferrite_granules.short,페라이트 해파리의 갓에서 분리한 알갱이. 일반 전자 부품과 조합해 에너지 배터리를 만들 수 있다.
+item.gf_ferrite_jellyfish_fillet.flavor,
+item.gf_ferrite_jellyfish_fillet.name,녹슨 금빛 해파리 조각
+item.gf_ferrite_jellyfish_fillet.short,페라이트 해파리를 썰어 만든 조각.
+item.gf_ferrite_jellyfish.flavor,부드러운 촉수가 희미한 자기장에 흔들린다.
+item.gf_ferrite_jellyfish.name,페라이트 해파리
+item.gf_ferrite_jellyfish.short,"링관에서 서식하는 해파리로, 갓에 페라이트 입자가 침전되어 있다."
+item.gf_fish_bone.flavor,물고기를 가공하고 남은 뼈대. 값싼 재료로 판매할 수 있다.
+item.gf_fish_bone.name,생선 뼈
+item.gf_fish_bone.short,"가공 후 남은 평범한 생선 뼈로, 값싼 재료로 사용할 수 있다."
+item.gf_fish_can_large.flavor,
+item.gf_fish_can_large.name,대형 생선 통조림
+item.gf_fish_can_large.short,생선 통조림.
+item.gf_fish_can_small.flavor,
+item.gf_fish_can_small.name,소형 생선 통조림
+item.gf_fish_can_small.short,생선 통조림.
+item.gf_fish_mince_bait.flavor,
+item.gf_fish_mince_bait.name,생선 다짐 미끼
+item.gf_fish_mince_bait.short,두 번 클릭해 원정 장비 보관함으로 옮깁니다. 내구도: 15. 일반 낚시터의 성공 확률이 25%p 증가합니다. 핏빛 어군이나 거대 그림자에는 효과가 없습니다.
+item.gf_fish_offal.flavor,
+item.gf_fish_offal.name,생선 내장
+item.gf_fish_offal.short,백상아리를 가공해 얻는 식용 생선 내장.
+item.gf_fish_oil.flavor,"생선 조직에서 추출한 기름으로, 비린내가 강하다."
+item.gf_fish_oil.name,생선 기름
+item.gf_fish_oil.short,생선을 보존하는 데 사용할 수 있다.
+item.gf_fish_powder_machine.flavor,
+item.gf_fish_powder_machine.name,생선 부산물 분쇄기
+item.gf_fish_powder_machine.short,"사용 가능한 생선 부산물과 배터리를 넣으세요. 다음 날 분말을 생산합니다. 일반 부산물은 무게의 25%, 백상아리 부산물은 1%가 분말이 됩니다."
+item.gf_fishery_ecosystem.flavor,더 넓은 수조에도 세심한 관리가 필요하다.
+item.gf_fishery_ecosystem.name,대형 순환 여과식 양식 시스템
+item.gf_fishery_ecosystem.short,"기본 양식 공간은 24×4칸입니다. 기본 수용량 및 효율 업그레이드, 전력 공급, 필터 슬롯 4개를 유지합니다. 별도의 물탱크를 장착하세요. 물, 오염도, 사료가 사육 가능량을 제한합니다."
+item.gf_fishery_printer.flavor,
+item.gf_fishery_printer.name,용기 프린터
+item.gf_fishery_printer.short,배터리를 장착해 용기를 출력합니다. 한 번 출력할 때마다 에너지 4를 소모하며 재료는 필요하지 않습니다.
+item.gf_fishery_terminal.flavor,
+item.gf_fishery_terminal.name,양식장 단말기
+item.gf_fishery_terminal.short,단말기에서 물고기 정보를 확인하고 아이템을 주문할 수 있습니다.
+item.gf_fishery_water_tank.flavor,"눈금은 늘었지만, 물 한 방울까지 직접 채워야 한다."
+item.gf_fishery_water_tank.name,대형 양식용 물탱크
+item.gf_fishery_water_tank.short,"별도의 60리터 양식용 물탱크로, 처음에는 비어 있습니다. 시스템의 탱크 슬롯에 직접 장착하세요. 물이 많아져도 필터 처리량은 늘지 않습니다."
+item.gf_fishing_net.flavor,바다 원정에 적합한 튼튼한 그물. 간편 낚시로 채집할 때 휴대해 물고기를 잡을 수도 있다.
+item.gf_fishing_net.name,낚시 그물
+item.gf_fishing_net.short,"탄소 섬유 낚싯대와 함께 해금되며 같은 어종 풀을 사용합니다. 성공하면 물고기 세 마리를 잡으며, 각각 별도로 판정합니다. 간단한 채집은 여전히 홀수/짝수 날짜별 어종 풀과 고정 50% 포획 확률을 사용합니다. 원정 기본 포획 확률: 60%."
+item.gf_food_freezer.flavor,"식품과 살아 있는 물고기를 보관하는 대용량 냉동고. 안에 있는 물고기는 생물학적 활동을 멈추며, 꺼내면 다시 활동을 시작한다."
+item.gf_food_freezer.name,식품 냉동고
+item.gf_food_freezer.short,"식품과 살아 있는 물고기를 보관합니다. 안에 있는 물고기는 생물학적 활동을 멈추며, 꺼내면 다시 활동을 시작합니다."
+item.gf_gilded_card.flavor,
+item.gf_gilded_card.name,도금 카드
+item.gf_gilded_card.short,상층 구역 부유층의 장난감이라고 하는 번쩍이는 도금 카드.
+item.gf_glass_bait.flavor,
+item.gf_glass_bait.name,유리 미끼
+item.gf_glass_bait.short,두 번 클릭해 원정 장비 보관함으로 옮깁니다. 내구도: 15. 거대 물고기 그림자 포획 성공 확률이 +25%p 증가합니다.
+item.gf_glass_fish_fillet.name,유리 물고기 살코기
+item.gf_glass_fish_fillet.short,물고기를 손질해 얻은 생살코기.
+item.gf_glass_fish.flavor,
+item.gf_glass_fish.name,유리 물고기
+item.gf_glass_fish.short,거의 투명한 몸 안으로 장기와 뼈가 훤히 보인다.
+item.gf_gold.flavor,
+item.gf_gold.name,금
+item.gf_gold.short,황금어에서 얻은 천연 금.
+item.gf_golden_fish_fillet.flavor,
+item.gf_golden_fish_fillet.name,황금물고기 살코기
+item.gf_golden_fish_fillet.short,금빛 물고기에서 잘라 낸 살코기.
+item.gf_golden_fish.flavor,물고기 한 마리의 가치가 매우 높다.
+item.gf_golden_fish.name,금빛 물고기
+item.gf_golden_fish.short,금속성 비늘을 지닌 매우 희귀한 물고기. 몸속에서 소량의 천연 금도 발견된다.
+item.gf_goldfish_fillet.flavor,
+item.gf_goldfish_fillet.name,유금 살코기
+item.gf_goldfish_fillet.short,금붕어를 썬 살코기.
+item.gf_goldfish.flavor,낚싯바늘을 감아 올리기도 전에 늘 유유히 헤엄쳐 달아난다.
+item.gf_goldfish.name,금붕어
+item.gf_goldfish.short,얕은 물의 뿌리 사이에서 금빛과 붉은빛 비늘을 번뜩이는 작은 물고기.
+item.gf_great_white_shark.flavor,
+item.gf_great_white_shark.name,백상아리
+item.gf_great_white_shark.short,밤에 배를 공격하는 바다의 최상위 포식자.
+item.gf_harpoon.flavor,
+item.gf_harpoon.name,작살
+item.gf_harpoon.short,"유령선에서 발견한 작살입니다. 원정 장비에 추가하려면 주 어창에 넣어 돌아오세요. 내구도: 3회 사용. 부두에서 내구도 1당 1,500 크레딧으로 수리할 수 있습니다."
+item.gf_heat_gland.flavor,
+item.gf_heat_gland.name,발열샘
+item.gf_heat_gland.short,화산 물고기에게서 얻은 특수 분비샘. 아직도 열을 내뿜는다.
+item.gf_horned_swordfish.flavor,
+item.gf_horned_swordfish.name,외뿔황새치
+item.gf_horned_swordfish.short,머리에서 뾰족한 뿔이 솟아 있다. 뾰족한 주둥이 덕분에 천적이 거의 없다.
+item.gf_ice_crystal.flavor,
+item.gf_ice_crystal.name,얼음 결정
+item.gf_ice_crystal.short,푸른 수정 물고기에게서 얻은 차가운 결정.
+item.gf_industrial_meat_feed.flavor,
+item.gf_industrial_meat_feed.name,산업용 육류 사료
+item.gf_industrial_meat_feed.short,기본 칼로리 계산을 따르는 육류 사료입니다. 같은 종류끼리 합쳐지며 나눌 수 없습니다.
+item.gf_iridescent_moxiao_egg.flavor,
+item.gf_iridescent_moxiao_egg.name,무지갯빛 모샤오 알
+item.gf_iridescent_moxiao_egg.short,무지갯빛이 반짝이고 꽃이 가까이 자리한다. 신선한 시각적·촉각적 즐거움에 시선이 오래 머물수록 가슴이 설렌다.
+item.gf_kelp_cable.flavor,
+item.gf_kelp_cable.name,다시마 케이블
+item.gf_kelp_cable.short,주싱에서 온 기계 물고기. 유연한 케이블은 리본 케이블 재료로 사용할 수 있다.
+item.gf_large_yellow_croaker.flavor,
+item.gf_large_yellow_croaker.name,부세
+item.gf_large_yellow_croaker.short,살이 통통해 고기를 넉넉히 얻을 수 있는 부세.
+item.gf_ledx_transilluminator.flavor,
+item.gf_ledx_transilluminator.name,LEDX 피부 투과 조명기
+item.gf_ledx_transilluminator.short,피부 아래 혈관의 위치를 정확히 찾는 의료 기기.
+item.gf_lofurin_fillet.flavor,
+item.gf_lofurin_fillet.name,진홍 꽃잎 살코기
+item.gf_lofurin_fillet.short,로푸린을 썬 살코기.
+item.gf_lofurin.flavor,물 밖에서도 비늘의 은은한 윤기가 유지된다.
+item.gf_lofurin.name,로푸린
+item.gf_lofurin.short,"꼬리는 거즈처럼 물속을 떠다니고, 층층이 겹친 비늘은 작은 꽃잎을 닮았다."
+item.gf_makeshift_fishing_rod.flavor,잡동사니를 엮어 만든 낚싯대. 무엇이 잡힐지는 운에 달렸다.
+item.gf_makeshift_fishing_rod.name,간이 낚싯대
+item.gf_makeshift_fishing_rod.short,바늘 하나가 달린 기본 낚싯대입니다. 간편 낚시 특성이 있으면 장착해 폐품을 수집할 때 낚시할 수 있습니다. 포획 확률: 50%. 실패하면 일반 폐품 수집을 합니다. 원정 기본 포획 확률: 60%.
+item.gf_military_drone.flavor,
+item.gf_military_drone.name,군용 드론
+item.gf_military_drone.short,"무선 원격 장비와 탑재 프로그램으로 조종하는 비행체로, 경찰관들이 흔히 사용한다."
+item.gf_military_radio.flavor,
+item.gf_military_radio.name,군용 무전기
+item.gf_military_radio.short,여러 주파수로 무선 신호를 송신할 수 있는 상태 좋은 군용 무전기.
+item.gf_moonshine_runner.flavor,
+item.gf_moonshine_runner.name,사나운 러너 밀주
+item.gf_moonshine_runner.short,"은신처에서 만든 고급 밀주로, 여섯 번 증류해 세심하게 가공한 알코올 도수 79%의 술이다. 술을 마시면 슬픈 결과를 맞을 수도 있다는 점을 잊지 말자."
+item.gf_muspels_son_fillet.flavor,
+item.gf_muspels_son_fillet.name,용융화염 살코기
+item.gf_muspels_son_fillet.short,얇게 썬 무스펠의 아들 살코기.
+item.gf_muspels_son.flavor,"비늘이 갑옷처럼 몸을 뒤덮고 있으며, 만져 보면 거친 바위 같다."
+item.gf_muspels_son.name,무스펠의 아들
+item.gf_muspels_son.short,붉은 비늘 무늬는 몸을 따라 흐르는 불씨를 닮았다.
+item.gf_nautilite_grinder.flavor,
+item.gf_nautilite_grinder.name,노틸라이트 연마기
+item.gf_nautilite_grinder.short,흰색 연마 헤드를 노틸라이트 절단면에 2초 동안 대면 잘립니다.
+item.gf_nightmare_sac.flavor,짙은 보랏빛 주머니 벽 안에 가시지 않은 꿈을 닮은 침전물이 담겨 있다.
+item.gf_nightmare_sac.name,악몽 주머니
+item.gf_nightmare_sac.short,"란의 악몽에게서 추출한 주머니로, 나이트메어 더스트를 가공하는 데 사용한다."
+item.gf_niorun_fillet.flavor,
+item.gf_niorun_fillet.name,보랏빛 광채 살코기
+item.gf_niorun_fillet.short,니오룬을 썬 살코기.
+item.gf_niorun.flavor,유령처럼 물속을 미끄러지듯 나아가 자주 눈에 띄지 않는다.
+item.gf_niorun.name,니오룬
+item.gf_niorun.short,"위압적으로 보이지만, 몸 대부분은 날개 같은 지느러미다."
+item.gf_ocean_tear.flavor,
+item.gf_ocean_tear.name,바다의 눈물
+item.gf_ocean_tear.short,"자연적으로 형성된 거대한 진주로, 찬란한 빛깔을 띤다. 바다가 선사한 귀한 선물."
+item.gf_oil_packed_fish.flavor,
+item.gf_oil_packed_fish.name,기름 절임 생선
+item.gf_oil_packed_fish.short,생선 기름에 담근 생선 통조림. 기름지지만 열량이 높고 보존성이 매우 뛰어나다.
+item.gf_olivia_champagne.flavor,
+item.gf_olivia_champagne.name,올리비아의 샴페인
+item.gf_olivia_champagne.short,독특한 맛으로 유명하며 특별한 행사나 명절에 자주 내놓는 다른 항성계의 스파클링 와인.
+item.gf_pearl_shell.flavor,
+item.gf_pearl_shell.name,진주조개
+item.gf_pearl_shell.short,주싱에서 온 기계 물고기. 껍데기 안의 둥근 렌즈는 카메라 재료로 사용할 수 있다.
+item.gf_pirate_gold_coin.flavor,
+item.gf_pirate_gold_coin.name,반짝이는 해적 금화
+item.gf_pirate_gold_coin.short,어릴 적부터 해적 이야기를 들었다. 이제 그들의 금화 하나를 직접 손에 쥐고 있다.
+item.gf_powder_blossom.flavor,
+item.gf_powder_blossom.name,수리 가루
+item.gf_powder_blossom.short,수리 효과가 있는 부산물 분말입니다. 물에 녹일 수 있습니다.
+item.gf_powder_ember.flavor,
+item.gf_powder_ember.name,흥분 가루
+item.gf_powder_ember.short,흥분 효과가 있는 생선 부산물 분말입니다. 물에 녹일 수 있습니다.
+item.gf_powder_nightmare.flavor,
+item.gf_powder_nightmare.name,진정 가루
+item.gf_powder_nightmare.short,진정 효과가 있는 생선 부산물 분말입니다. 물에 녹일 수 있습니다.
+item.gf_powder_spectral.flavor,
+item.gf_powder_spectral.name,정화 가루
+item.gf_powder_spectral.short,해독 효과가 있는 생선 부산물 분말입니다. 물에 녹일 수 있습니다.
+item.gf_powder_tide.flavor,
+item.gf_powder_tide.name,강화 가루
+item.gf_powder_tide.short,강화 효과가 있는 생선 부산물 분말입니다. 물에 녹일 수 있습니다.
+item.gf_premium_coffee_beans.flavor,
+item.gf_premium_coffee_beans.name,고급 커피 원두
+item.gf_premium_coffee_beans.short,세심하게 볶고 선별한 특별한 커피 원두. 독특한 향과 희소성 덕분에 상층 구역 커피 애호가들이 귀하게 여긴다.
+item.gf_processing_station.flavor,
+item.gf_processing_station.name,가공 작업대
+item.gf_processing_station.short,생선 내장과 기타 재료를 가공하는 작업대.
+item.gf_purification_sac.flavor,
+item.gf_purification_sac.name,정화 주머니
+item.gf_purification_sac.short,더러운 물을 걸러 비교적 깨끗한 물을 저장하는 정화어의 특수 주머니.
+item.gf_purifier_fish_meat.flavor,염장 생선을 만들기에 좋다.
+item.gf_purifier_fish_meat.name,정화어 살코기
+item.gf_purifier_fish_meat.short,약간 창백한 살코기. 정화어만의 특성 덕분에 보기 드문 고급 식재료다.
+item.gf_purifier_fish.flavor,염장 생선을 만들기에 좋다.\n
+item.gf_purifier_fish.name,정화어
+item.gf_purifier_fish.short,배에 달린 큰 물주머니가 물을 걸러 비교적 깨끗한 물을 저장한다.
+item.gf_purple_fillet.flavor,가난했던 옛 시절을 떠올리게 한다.
+item.gf_purple_fillet.name,보라색 생선살
+item.gf_purple_fillet.short,역겨워!
+item.gf_rainbow_fillet.flavor,나눠 먹자고 권하면 친구가 묘한 눈길로 바라봅니다.
+item.gf_rainbow_fillet.name,무지개 생선살
+item.gf_rainbow_fillet.short,참 이상한 색깔입니다. 정말 먹어도 될까요?
+item.gf_rainbow_fish.flavor,
+item.gf_rainbow_fish.name,무지개물고기
+item.gf_rainbow_fish.short,상층 구역 주민들에게 인기 있는 애완 물고기다. 먹기보다는 파는 편이 나을지도 모른다.
+item.gf_rans_nightmare_fillet.flavor,
+item.gf_rans_nightmare_fillet.name,악몽 생선살
+item.gf_rans_nightmare_fillet.short,란의 악몽을 잘라 만든 생선살.
+item.gf_rans_nightmare.flavor,악몽을 불러오는 듯하며 불운의 상징으로 여겨집니다.
+item.gf_rans_nightmare.name,란의 악몽
+item.gf_rans_nightmare.short,짙은 색 때문에 강바닥에 거의 녹아든다.
+item.gf_rat_dung_bait.flavor,
+item.gf_rat_dung_bait.name,쥐똥 미끼
+item.gf_rat_dung_bait.short,두 번 클릭해 원정 장비 보관함으로 옮깁니다. 내구도: 15. 핏빛 물고기 그림자 포획 성공 확률이 25%포인트 증가합니다.
+item.gf_ratfish_fillet.flavor,
+item.gf_ratfish_fillet.name,쥐고기 생선살
+item.gf_ratfish_fillet.short,쥐고기에서 잘라 낸 분홍빛 생선살.
+item.gf_ratfish.flavor,늘 바위와 진흙 사이에 숨어 있습니다.
+item.gf_ratfish.name,쥐물고기
+item.gf_ratfish.short,바닥 가까이에 머무는 작은 물고기.
+item.gf_reagent_custom.flavor,
+item.gf_reagent_custom.name,맞춤형 물약
+item.gf_reagent_custom.short,맞춤형 물약 혼합물이 든 주사기.
+item.gf_reagent_synthesizer.flavor,
+item.gf_reagent_synthesizer.name,물약 합성기
+item.gf_reagent_synthesizer.short,"미리 준비한 액체에 보조제를 섞고 혼합물을 평가한 뒤, 용량별로 나누어 배출합니다."
+item.gf_redtail_fin.flavor,
+item.gf_redtail_fin.name,붉은꼬리 지느러미
+item.gf_redtail_fin.short,붉은꼬리물고기에게서 온전하게 잘라 낸 질긴 꼬리지느러미.
+item.gf_redtail_fish_fillet.flavor,
+item.gf_redtail_fish_fillet.name,붉은꼬리물고기 살코기
+item.gf_redtail_fish_fillet.short,붉은꼬리물고기에서 잘라 낸 두툼한 살코기.
+item.gf_redtail_fish.flavor,탁한 물속에서도 선명한 붉은 꼬리가 눈에 띈다.
+item.gf_redtail_fish.name,붉은꼬리물고기
+item.gf_redtail_fish.short,"선명한 붉은 꼬리와 강한 근육, 풍부한 살점을 지닌 대형 육식 물고기."
+item.gf_rusty_slicing_knife.flavor,피홈이 파인 작고 녹슨 칼.
+item.gf_rusty_slicing_knife.name,녹슨 손질용 칼
+item.gf_rusty_slicing_knife.short,기본 게임 시스템을 통해 물고기를 가공해 살코기를 얻습니다.
+item.gf_salt.flavor,평범한 소금입니다. 맛없는 음식도 조금은 먹을 만하게 해 줍니다.
+item.gf_salt.name,소금
+item.gf_salt.short,생선을 보존하는 데 사용할 수 있다.
+item.gf_salted_fish.flavor,
+item.gf_salted_fish.name,염장 생선
+item.gf_salted_fish.short,생선을 밀봉한 통조림에 넣어 소금에 절였습니다. 매우 짜고 오래 보관할 수 있습니다.
+item.gf_sardine_fillet.name,정어리 생선살
+item.gf_sardine_fillet.short,생선에서 발라낸 생살코기입니다.
+item.gf_sardine.flavor,기름에 담근 생선을 만드는 데 좋다.
+item.gf_sardine.name,정어리
+item.gf_sardine.short,떼를 지어 사는 작은 물고기입니다.
+item.gf_sealed_can.flavor,이전 저장 파일을 위해서만 남겨 두었습니다. 더 이상 판매하거나 생산하지 않습니다.
+item.gf_sealed_can.name,밀봉 통조림(구형)
+item.gf_sealed_can.short,구형 저장 파일 호환용 아이템입니다. 가공할 수 없습니다.
+item.gf_self_charging_battery_ii.flavor,
+item.gf_self_charging_battery_ii.name,자가 충전 에너지 셀 (마크 2)
+item.gf_self_charging_battery_ii.short,기계를 더 오래 작동시킬 수 있는 개량형 자가 충전 에너지 셀입니다.
+item.gf_shark_fin.flavor,
+item.gf_shark_fin.name,상어 지느러미
+item.gf_shark_fin.short,백상아리를 손질해 얻은 식용 상어 지느러미.
+item.gf_shark_head.flavor,묵직한 턱 사이에는 아직 살점이 많이 남아 있다.
+item.gf_shark_head.name,상어 머리
+item.gf_shark_head.short,요리에 쓸 수 있는 잘린 상어 머리.
+item.gf_shark_meat.flavor,
+item.gf_shark_meat.name,대형 상어 고기
+item.gf_shark_meat.short,백상아리를 손질해 얻은 식용 대형 상어 고기.
+item.gf_shark_tail_steak.flavor,
+item.gf_shark_tail_steak.name,상어 꼬리 스테이크
+item.gf_shark_tail_steak.short,백상아리를 손질해 얻은 식용 상어 꼬리 스테이크.
+item.gf_sharp_slicing_knife.flavor,정성껏 간 칼날이 빛납니다. 손잡이에는 오래 사용한 흔적이 남아 있습니다.
+item.gf_sharp_slicing_knife.name,날카로운 손질용 칼
+item.gf_sharp_slicing_knife.short,기본 게임 시스템을 통해 생선을 가공해 고기를 얻습니다.
+item.gf_shiny_bait.flavor,
+item.gf_shiny_bait.name,빛나는 미끼
+item.gf_shiny_bait.short,두 번 클릭해 원정 장비 보관함으로 옮깁니다. 내구도: 15. 낚시에 성공한 뒤 보물 상자를 얻을 확률이 15%포인트 증가합니다.
+item.gf_small_yellow_croaker_fillet.name,작은 황민어 살코기
+item.gf_small_yellow_croaker_fillet.short,생선에서 발라낸 생살코기.
+item.gf_small_yellow_croaker.flavor,
+item.gf_small_yellow_croaker.name,작은 황민어
+item.gf_small_yellow_croaker.short,흔한 작은 물고기다. 살은 많지 않지만 빈손보다는 낫다.\n
+item.gf_snakehead.flavor,바닥 가까이에 숨어 먹잇감이 다가오기를 기다린다.
+item.gf_snakehead.name,가물치
+item.gf_snakehead.short,양식 수조에서 기르고 번식시킬 수 있는 육식성 민물고기.
+item.gf_solid_gold_lighter.flavor,
+item.gf_solid_gold_lighter.name,순금 라이터
+item.gf_solid_gold_lighter.short,24캐럿 순금으로 만든 라이터. 뚜껑이 부드럽게 열리고 튼튼하다. 불을 붙이는 일조차 호사스럽게 느껴진다.
+item.gf_space_rocket_fish_fillet.flavor,
+item.gf_space_rocket_fish_fillet.name,별비행 생선살
+item.gf_space_rocket_fish_fillet.short,우주 로켓 물고기를 썰어 만든 살코기입니다.
+item.gf_space_rocket_fish.flavor,한 차례 빠르게 질주하고 나면 수면에는 흰 궤적만 잠시 남는다.
+item.gf_space_rocket_fish.name,우주 로켓 물고기
+item.gf_space_rocket_fish.short,"링관에 서식하는 방추형 물고기로, 유선형 몸과 꼬리가 작은 로켓을 닮았습니다."
+item.gf_spectral_wing_membrane.flavor,물 밖에서도 부드럽게 펼쳐지며 옅은 보랏빛 광택이 일렁입니다.
+item.gf_spectral_wing_membrane.name,유령 날개 막
+item.gf_spectral_wing_membrane.short,"니오룬의 날개 같은 지느러미에서 벗겨 낸 막으로, 신경 활성 향수를 가공하는 데 쓰입니다."
+item.gf_spicy_pickled_fish.flavor,
+item.gf_spicy_pickled_fish.name,매콤하게 절인 생선
+item.gf_spicy_pickled_fish.short,고추로 절인 생선입니다. 매운맛이 비린내를 잘 가려 줍니다.
+item.gf_star_fruit.flavor,꿈결 같은 맛이 강렬한 기억을 남깁니다... 말로는\n표현할 수 없는 느낌입니다.
+item.gf_star_fruit.name,별의 열매
+item.gf_star_fruit.short,먹는 이에게 힘을 주는 신비한 과일.
+item.gf_star_puffer_fillet.flavor,
+item.gf_star_puffer_fillet.name,별복어 필레
+item.gf_star_puffer_fillet.short,별복어를 썰어 만든 살코기입니다.
+item.gf_star_puffer.flavor,놀라면 몸을 부풀려 작은 가시 행성처럼 변한다.
+item.gf_star_puffer.name,별 복어
+item.gf_star_puffer.short,"둥글고 통통한 물고기로, 별 모양 무늬가 어두운 물속에서 희미하게 빛납니다."
+item.gf_strong_fish_mince_bait.flavor,
+item.gf_strong_fish_mince_bait.name,강력한 다진 생선 미끼
+item.gf_strong_fish_mince_bait.short,두 번 클릭해 원정 장비 보관함으로 옮깁니다. 내구도: 10. 일반 낚시터의 성공 확률이 50%포인트 증가합니다. 핏빛 어군이나 거대 그림자에는 효과가 없습니다.
+item.gf_strong_glass_bait.flavor,
+item.gf_strong_glass_bait.name,강력한 유리 미끼
+item.gf_strong_glass_bait.short,두 번 클릭해 원정 장비 보관함으로 옮깁니다. 내구도: 10. 거대 물고기 그림자의 성공 확률이 50%포인트 증가합니다.
+item.gf_strong_rat_dung_bait.flavor,
+item.gf_strong_rat_dung_bait.name,강력한 쥐똥 미끼
+item.gf_strong_rat_dung_bait.short,두 번 클릭해 원정 장비 보관함으로 옮깁니다. 내구도: 10. 핏빛 물고기 그림자의 성공 확률이 50%포인트 증가합니다.
+item.gf_strong_shiny_bait.flavor,
+item.gf_strong_shiny_bait.name,강력한 빛나는 미끼
+item.gf_strong_shiny_bait.short,두 번 클릭해 원정 장비 보관함으로 옮깁니다. 내구도: 10. 낚시에 성공한 뒤 보물 상자를 얻을 확률이 30%포인트 증가합니다.
+item.gf_super_salt.flavor,음식을 더 효과적으로 보존하는 정제 소금입니다.
+item.gf_super_salt.name,슈퍼 소금
+item.gf_super_salt.short,생선을 보존하는 데 사용할 수 있습니다.
+item.gf_swordfish_rostrum.flavor,
+item.gf_swordfish_rostrum.name,황새치 주둥이
+item.gf_swordfish_rostrum.short,황새치 머리에서 온전하게 잘라 낸 단단한 주둥이입니다.
+item.gf_transparent_membrane.flavor,
+item.gf_transparent_membrane.name,투명한 막
+item.gf_transparent_membrane.short,유리 물고기에서 온전하게 벗겨 낸 투명한 막입니다. 유연하고 미세한 구멍이 가득합니다.
+item.gf_volcanic_fish_fillet.flavor,매운 생선을 만들기에 좋습니다.\n
+item.gf_volcanic_fish_fillet.name,화산어 살코기
+item.gf_volcanic_fish_fillet.short,선명한 붉은색에 따뜻합니다. 석탄 맛이 난다고 합니다.
+item.gf_volcanic_fish.flavor,매운 생선을 만들기에 좋습니다.\n
+item.gf_volcanic_fish.name,화산 물고기
+item.gf_volcanic_fish.short,비정상적으로 발달한 발열 기관이 죽은 뒤에도 한동안 따뜻함을 유지합니다.
+item.gf_worm_culture_box.flavor,
+item.gf_worm_culture_box.name,지렁이 사육 상자
+item.gf_worm_culture_box.short,생선살과 부산물로 지렁이를 기릅니다.
+item.gf_worm.flavor,
+item.gf_worm.name,사육 지렁이
+item.gf_worm.short,생선살과 부산물로 지렁이를 기릅니다.
+item.gf_wuzhiqi_fillet.flavor,
+item.gf_wuzhiqi_fillet.name,푸른 물결 생선살
+item.gf_wuzhiqi_fillet.short,무지기를 썰어 만든 살코기입니다.
+item.gf_wuzhiqi.flavor,밝은 외눈이 뿌리 아래에서 수면을 바라봅니다. 무언가를 엿보는 듯합니다.
+item.gf_wuzhiqi.name,무지기
+item.gf_wuzhiqi.short,강력한 지느러미 다리로 뒤엉킨 뿌리를 밀어낼 수 있는 대형 수생 생물입니다.
+item.gf_yellow_croaker_fillet.flavor,
+item.gf_yellow_croaker_fillet.name,황민어 생선살
+item.gf_yellow_croaker_fillet.short,싱싱하고 통통한 생선회 한 접시.
+item.pstide_mechanical_key.name,기계 열쇠
+item.pstide_return_cargo_box.flavor,
+item.pstide_return_cargo_box.name,낚시 귀환 화물 상자
+item.pstide_return_cargo_box.short,"어창에 실어 돌아온 화물이 들어 있습니다. 더블 클릭해 연 뒤 직접 아이템을 꺼내거나 모두 꺼내기를 클릭하세요. 보관 공간이 가득 차면 상자는 남아 있으며, 비우면 사라집니다."
+item.tackle_shop_canning_manual.flavor,윌리의 통조림 제작 기록.
+item.tackle_shop_canning_manual.name,통조림 제작 기록
+item.tackle_shop_canning_manual.short,윌리의 통조림 제작 기록.
+item.tackle_shop_nautilite_manual.flavor,
+item.tackle_shop_nautilite_manual.name,베테랑의 경험
+item.tackle_shop_nautilite_manual.short,노틸라이트를 고르고 가공하는 방법을 설명한 그림 안내서입니다.
+item.tackle_shop_potion_manual.flavor,
+item.tackle_shop_potion_manual.name,물약 설명서
+item.tackle_shop_potion_manual.short,"생선 내장을 갈고, 시약을 혼합하고, 주사기를 채우는 방법을 소개한 그림 입문서입니다."
+item.tackle_shop_processing_manual.flavor,윌리의 가공 기록입니다. 분류 버튼으로 항목 사이를 이동하고 페이지를 넘겨 각 제조법을 확인하세요.
+item.tackle_shop_processing_manual.name,가공대 설명서
+item.tackle_shop_processing_manual.short,가공 작업대의 모든 제조법을 담은 그림 안내서입니다.
+item.tackle_shop_willy_card.flavor,축축한 공기 냄새가 희미하게 밴 명함입니다.
+item.tackle_shop_willy_card.name,윌리의 명함
+item.tackle_shop_willy_card.short,낚시용품점 주인 윌리의 명함입니다. 전화번호는 2424입니다.
+item.ui.autoProcessing,자동 가공: 진행 중 
+item.ui.awaitingConversionCount,", 변환 대기 "
+item.ui.canStart,시작 가능: 
+item.ui.container,가공 용기: 
+item.ui.daysSuffix,일
+item.ui.empty,비어 있음
+item.ui.invalidIngredients,"유효하지 않거나, 양이 초과되었거나, 너무 무거운 재료"
+item.ui.invalidInputWeight,중량 기준으로 가공할 수 없습니다. 재료의 중량이 유효하지 않아 재료를 그대로 두었습니다.
+item.ui.missingIngredients,재료 부족
+item.ui.noRecipeCount,", 제조법 없음 "
+item.ui.outputWeight,출력 무게: 
+item.ui.pausedRemaining,"일시 정지, 남은 시간 "
+item.ui.processingComplete,"가공 완료, 수령 가능"
+item.ui.processingRemaining,"가공 중, 남은 시간 "
+item.ui.quality,가공 품질: 
+item.ui.qualityMet," (목표 달성, 값 "
+item.ui.qualityUnmet, (목표 미달)
+item.ui.recipe,가공법: 
+item.ui.status,상태: 
+item.ui.totalFishWeight,생선 총중량: 
+item.ui.totalInputWeight,재료 총중량: 
+item.ui.unpurchasedIngredients,구매하지 않은 재료 포함
+item.ui.waitingConversion,"완료, 변환 대기 중"
+item.ui.weight,무게: 
+items.weight.description,중량: {0}\n{1}
+life.hidden.description,암초 사이에 숨겨진 보급품 은닉처입니다. 자원 주기마다 보급품 한 묶음을 수색할 수 있습니다. 이곳에서는 철수할 수 없으므로 수색 후 직접 항구로 돌아가야 합니다.
+life.hidden.name,수관의 비밀 방
+life.hidden.required,입장하려면 장비 인벤토리나 화물칸에 생명의 열쇠가 있어야 합니다.
+life.hidden.ticket,생명의 열쇠 사용
+life.key.details,"생명의 열쇠\n공간: 1칸\n화물칸에서 바로 사용해 수관의 비밀 방에 들어갈 수 있습니다. 집으로 가져오면 보관되며 자동으로 휴대합니다. 자원 묶음마다 열쇠 하나가 소모되며, 보관된 열쇠부터 사용합니다. 판매하거나 상점 인벤토리로 옮길 수 없습니다.\n보라색 등급 아이템입니다. 해당 열쇠를 얻거나 소지하면 이번 자원 주기에 이미 생성된 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며, 입구의 암초는 그대로 남습니다."
+life.key.equipment,"자동으로 휴대합니다. 수관의 비밀 방을 엽니다. 자원 묶음마다 처음 입장할 때 열쇠 하나가 소모되며, 같은 묶음에서는 다시 입장해도 소모되지 않습니다."
+life.key.name,생명의 열쇠
+life.key.stock,생명의 열쇠\n보유: {0}
+life.key.unsellable,생명의 열쇠는 판매할 수 없습니다. 화물칸에 실어 집으로 가져가세요.
+linguan.altar.description,"꿈의 표식과 샘의 숨결이 숲의 심장을 깨웁니다. 주기마다 한 번, 낙화 왕 어장이나 꿈안개 왕 어장 중 한 곳의 어획 기회를 1회 회복할 수 있습니다."
+linguan.altar.done,숲의 심장이 선택에 응답했습니다. 이번 주기에는 더 이상 소원을 빌 수 없습니다.
+linguan.altar.flower,꽃꿈 소생 (꽃왕 어장)
+linguan.altar.locked,북쪽의 꿈의 표식과 남쪽의 샘의 숨결을 얻어 숲의 심장 제단을 깨우세요.
+linguan.altar.name,숲의 심장 제단
+linguan.altar.night,밤꿈 소생 (꿈안개 왕 어장)
+linguan.echo.done,"꿈의 표식을 얻었습니다. 낙화와 꿈안개가 개방되었으며, 꿈의 표식을 따라 동쪽 수문을 뚫을 수 있습니다."
+linguan.echo.locked,메아리가 불분명합니다. 먼저 서쪽의 낙화 꽃심을 조사해 낙화 표식을 얻으세요.
+linguan.event.status,{0}\n{1}\n시간 {2}  숲의 숨결 {3}/100
+linguan.fish.pressure.unavailable,현재 숲의 숨결은 {0}입니다. 이 낚시터에는 숲의 숨결 조건을 충족하는 물고기가 없습니다. 낚시 시간과 미끼는 소모되지 않았습니다.
+linguan.flower.description,꽃심에 북쪽 연못이 비칩니다. 조사해 꿈의 메아리를 여세요.
+linguan.flower.done,"낙화 표식을 얻었습니다. 서쪽 낚시터, 뿌리 은닉처, 북쪽 꿈의 메아리가 해도에 표시되었습니다."
+linguan.flower.name,낙화 꽃심
+linguan.flower.search,낙화 꽃심 조사
+linguan.gate.description,"고대의 뿌리가 물길을 막고 있습니다. 억지로 통과하면 숲이 동요하지만, 꿈의 표식이 있으면 더 쉽게 지나갈 수 있습니다.\n작업을 완료하면 지름길이 열리고 뿌리 동굴의 보급품이 드러나며 남쪽 샘이 개방됩니다."
+linguan.gate.done,고대 뿌리 수문을 뚫어 숲의 지름길이 열렸습니다. 뿌리 보급품과 남쪽 샘이 해도에 표시되었습니다.
+linguan.gate.gentle,꿈의 표식 따라가기
+linguan.gate.name,고대 뿌리 수문
+linguan.gate.open,수문 강제로 열기
+linguan.intel.description,"원시 열대우림으로 뒤덮인 강 계곡 행성입니다.\n중앙 항구는 식물로 뒤덮인 두 지역을 잇습니다. 바깥 수로로 우회할 수 있으며, 숲을 가로지르면 특별한 사건을 만날 수도 있습니다.\n시간대에 따라 다른 물고기가 나타나는 듯합니다.\n좌표를 구매하면 행성 선택 화면에서 링관으로 이동할 수 있습니다."
+linguan.king.cast,왕 어장에서 낚시 ({0})
+linguan.king.name,왕 어장
+linguan.log.status,{0}  숲의 숨결 {1}/100  선체 {2}/{3}
+linguan.planet.name,링관
+linguan.point.blood.high,샘 핏빛 그림자
+linguan.point.blood.low,샘 밀집 어군
+linguan.point.cast,현재 상태에서 낚시 ({0})
+linguan.point.deep,심해 어군
+linguan.point.dense,밀집 어군
+linguan.point.description,"{0}. 숲의 숨결 {1}, 현재 {2} 상태입니다.\n어종: {3}.\n이 어장은 숲의 숨결에 따라 어종이 바뀝니다. 전환해도 낚시 압력이나 특별 어획 횟수는 초기화되지 않습니다."
+linguan.point.exhausted,"이 특별 상태에서는 성공적인 어획 기회를 모두 소진했습니다. 일반 상태에서는 계속 낚시할 수 있지만, 전환해도 특별 어획 기회는 회복되지 않습니다."
+linguan.point.fight.rule,\n표준 가치가 100을 넘는 링관 물고기는 물고기와의 사투를 시작합니다.
+linguan.point.fishing,낚시터
+linguan.point.flower.king,개화 왕 어장
+linguan.point.flower.ordinary,낙화 어군
+linguan.point.giant.high,고대 뿌리 거대 어영
+linguan.point.giant.low,고대 뿌리 심해 어군
+linguan.point.giant.rules,\n이번 주기의 성공 어획 횟수: {0}. 일반 상태에서는 이 횟수를 소모하지 않습니다.
+linguan.point.king.rules,\n남은 성공 어획 횟수: {0}. 일반 상태에서는 물고기왕 어획 기회를 소모하지 않습니다.
+linguan.point.night.king,꿈안개 왕 어장
+linguan.point.night.ordinary,꿈안개 어군
+linguan.point.ordinary.name,{0}\n{1}
+linguan.point.special.rules,\n이곳에서의 낚시는 숲을 더욱 교란함
+linguan.point.weight,{0} {1}%
+linguan.region.central,중앙 항구와 숲의 강
+linguan.region.east,고대 뿌리 숲
+linguan.region.north,꿈안개 연못
+linguan.region.south,온천 강굽이
+linguan.region.west,낙화 습림
+linguan.resume,"링관 원정을 계속합니다. 시간 {0}, 숲의 숨결 {1}."
+linguan.ruin.accident,수몰 유적 탐사 사고
+linguan.ruin.closed,이 익사 유적은 이번 주기에 이미 수색했거나 철수했습니다.
+linguan.ruin.damage,익사 유적에서 사고가 발생해 선체에 {0}의 피해를 입혔습니다.
+linguan.ruin.description,링관 어촌에서 오늘 밤의 정보를 구매하세요. 유적은 숲이 동요할 때만 나타납니다.
+linguan.ruin.intel.action,유적 정보 구매 (오늘 밤)  1000
+linguan.ruin.intel.consumed,"유적의 전리품을 찾아냈습니다. 정보가 소모되었으며, 이번 주기 동안 남은 층을 계속 탐사할 수 있습니다."
+linguan.ruin.intel.missing,유적 정보가 필요합니다. 링관 어촌의 엘리아스에게서 1000 크레딧에 구매하세요.
+linguan.ruin.intel.owned,이미 유적 정보나 이번 주기의 탐사 허가를 보유하고 있습니다.
+linguan.ruin.intel.port,링관 어촌에서 유적 정보를 구매하세요.
+linguan.ruin.intel.purchased,1000 크레딧을 지불하고 오늘 밤에만 유효한 익사 유적 정보를 얻었습니다.
+linguan.ruin.intel.refunded,정보를 저장하지 못했습니다. 1000 크레딧이 환불되었습니다.
+linguan.ruin.intel.revealed,수몰 유적이 숲의 안개 속에서 모습을 드러냅니다. 위치가 해도에 표시되었습니다.
+linguan.ruin.intel.status,유적 정보: {0}
+linguan.ruin.name,수몰 유적
+linguan.ruin.retired,익사 유적을 떠났습니다. 숲의 숨결이 10 감소했습니다.
+linguan.ruin.retreat,수몰 유적 떠나기
+linguan.ruin.wrecked,익사 유적 사고로 인한 선체 파괴
+linguan.sailing.status,항해 중  {0}  숲의 숨결 {1}/100  낚시 레벨 {2}
+linguan.spring.description,고대 뿌리 수문을 뚫어 샘을 조율하면 샘의 정수를 얻고 숲을 달랠 기회를 획득합니다.\n남은 사용 횟수: {0}.
+linguan.spring.done,샘의 숨결을 얻었습니다. 숲을 달랠 기회가 2회 주어집니다. 꿈의 표식과 함께 중앙의 숲의 심장 제단을 깨울 수 있습니다.
+linguan.spring.locked,상류의 뿌리가 샘물을 막고 있습니다. 먼저 동쪽의 고대 뿌리 수문을 뚫으세요.
+linguan.spring.name,잠든 샘
+linguan.spring.prepare,샘 조율하기
+linguan.spring.soothe,숲 달래기
+linguan.spring.soothed,숲의 숨결이 20 감소해 현재 {0}입니다. 남은 진정 횟수: {1}.
+linguan.spring.unavailable,남은 진정 횟수가 없거나 숲의 숨결이 이미 0입니다.
+linguan.state.high,각성
+linguan.state.low,고요
+linguan.tracks.description,낙화 표식을 지니고 깊은 연못에 응답하면 꿈의 표식을 얻습니다. 메아리는 숲도 동요시킵니다.
+linguan.tracks.follow,꿈속 메아리에 응답하기
+linguan.tracks.name,꿈속 메아리
+mechanical.accident,산업 시설 탐사 사고
+mechanical.blackout.status,전력 고갈: 이동만 가능. 정상 작동을 재개하려면 전력을 복구하세요.
+mechanical.catch.details.no-traits,{0}\n무게: {1}\n가치: {2}
+mechanical.charge.action,안전 충전
+mechanical.charge.done,안전 충전이 완료되어 전력 35를 회복했습니다.
+mechanical.charge.locked,안전 충전을 이용하려면 이번 주기에 서쪽 배관을 수리하고 중앙 칩 제어를 완료해야 합니다.
+mechanical.charge.option,안전하게 충전
+mechanical.charge.unavailable,이미 충전했거나 전력이 가득 찼습니다. 다시 충전할 수 없습니다.
+mechanical.chips.description,칩을 판독하면 각 구역의 일반 인양 지점이 드러납니다. 서쪽 수리와 함께 완료하면 남쪽의 안전 충전도 복구됩니다.
+mechanical.chips.name,칩 제어 콘솔
+mechanical.damage,산업 사고로 선체에 {0}의 피해를 입었습니다.
+mechanical.disturbance.warning,이 해역의 진동이 강해지고 있습니다. 항해와 산업 시설 이용 시 주의하세요.
+mechanical.electricity.insufficient,전력 또는 에너지가 부족합니다. 작업이 시작되지 않았습니다. 항로를 계획하거나 원정을 중단하세요.
+mechanical.energy.claimed,기계 에너지 1단위를 수집했습니다. 단위당 전력 {0}을 회복하며 선내 에너지 비축량에 추가되었습니다.
+mechanical.energy.description,이곳에 회수 가능한 전력 에너지가 있습니다. 수집해 항해 중 사용하세요.
+mechanical.energy.name,에너지 보급 지점
+mechanical.engine.description,영구 장비입니다. 수동으로 켜면 이동 시간이 1분 줄고 입질 확률이 20%포인트 감소합니다.
+mechanical.engine.off,대형 엔진 정지
+mechanical.engine.on,대형 엔진을 켰습니다. 칸당 항해 시간은 {0}분이며 입질 확률이 20%포인트 감소합니다.
+mechanical.event.done,시설 정비가 완료되었습니다. 이번 자원 주기에는 다시 발동하지 않습니다.
+mechanical.event.work,시설 정비
+mechanical.facility.time,이 서비스를 이용할 시간이 15분도 남지 않았습니다. 먼저 항구로 돌아가세요.
+mechanical.field.description,반응로 저장고 입구가 전기장으로 뒤덮여 있습니다. 통과하면 전력이 소모됩니다.
+mechanical.field.name,전기장
+mechanical.fishing.blood.description,핏빛 어군의 물고기는 더 무겁습니다. {0}\n{1}
+mechanical.fishing.deep.description,희귀한 물고기가 이 심해 둥지에 모입니다. {0}\n{1}
+mechanical.fishing.dense.description,밀집 어군입니다. 잡을 때마다 아이템을 하나 더 얻을 수 있습니다. {0}\n{1}
+mechanical.fishing.giant.description,거대한 물고기 그림자가 배 아래를 맴돕니다.\n{0}
+mechanical.hidden.description,암초 사이에 숨겨진 보급품 은닉처입니다. 자원 주기마다 보급품 한 묶음을 수색할 수 있습니다. 이곳에서는 철수할 수 없으므로 수색 후 직접 항구로 돌아가야 합니다.
+mechanical.hidden.key.required,장비 인벤토리나 화물칸에 기계 열쇠가 있어야 들어갈 수 있습니다.
+mechanical.hidden.maintenance.required,먼저 서쪽 정비 통로를 복구하세요.
+mechanical.hidden.name,기계 정비실
+mechanical.hidden.ticket,기계 열쇠 사용
+mechanical.incident.damage,잔해가 선체에 부딪혀 {0}의 피해를 입혔습니다. 남은 선체: {1}/{2}.
+mechanical.incident.impact,산업 잔해 충돌
+mechanical.incident.navigation,전자기 간섭으로 항로가 흐트러져 15분이 더 소요되었습니다.
+mechanical.incident.reactor,산업 진동으로 반응로 저장고가 드러났습니다. 위치가 해도에 표시되었습니다.
+mechanical.incident.vibration,산업 진동이 배관을 타고 울립니다. 새로운 목표는 발견되지 않았습니다.
+mechanical.incident.wrecked,산업 잔해가 선체를 파괴했습니다.
+mechanical.key.details,"기계 열쇠\n공간: 1칸\n화물칸에서 바로 사용해 주조성 정비실에 들어갈 수 있습니다. 집으로 가져오면 보관되며 자동으로 휴대합니다. 자원 묶음마다 열쇠 하나가 소모되며, 보관된 열쇠부터 사용합니다. 판매할 수 없습니다.\n보라색 등급 아이템입니다. 해당 열쇠를 얻거나 소지하면 이번 자원 주기에 이미 생성된 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며, 입구의 암초는 그대로 남습니다."
+mechanical.key.equipment,자동 휴대·주조성 정비실용
+mechanical.key.name,기계 열쇠
+mechanical.key.stock,기계 열쇠\n수량: {0}
+mechanical.key.unsellable,기계 열쇠는 원정 장비입니다. 집으로 가져와 보관해야 하며 판매할 수 없습니다.
+mechanical.optics.description,거울 배열을 보정하면 각 구역의 낚시터가 드러나며 전력이 필요합니다.
+mechanical.optics.name,광학 배열
+mechanical.pipe.description,전력과 고철 2개가 필요합니다. 통로를 복구하면 이번 주기에 정비실에 들어갈 수 있습니다. 중앙 칩 제어와 함께 완료하면 남쪽의 안전 충전도 복구됩니다.
+mechanical.pipe.done,정비 통로 복구 완료
+mechanical.pipe.materials,정비에는 화물칸의 고철 2개가 필요하며 임시 보관소의 아이템은 사용할 수 없습니다.
+mechanical.pipe.name,정비 통로 콘솔
+mechanical.pipe.restore,정비 통로 복구
+mechanical.planet.name,주성
+mechanical.planet.unlocked,좌표를 획득했습니다. 이제 주조성으로 이동할 수 있습니다.
+mechanical.power.accident,감전 사고
+mechanical.power.description,발전소에서 여전히 전기가 새고 있습니다. 위험을 무릅쓰고 수색하면 선체가 손상되지만 배터리를 얻습니다. 서쪽 수리와 중앙 칩 제어를 완료하면 이곳에서 안전하게 충전할 수 있습니다.
+mechanical.power.done,수색 완료.
+mechanical.power.done.hold,수색 완료. {0}이(가) 화물칸에 들어갔습니다.
+mechanical.power.energy.button,에너지 사용(재고: {0} | 전력 {1} 회복)
+mechanical.power.energy.stock,에너지 보급품\n재고: {0}(자동 휴대)
+mechanical.power.energy.tooltip,화물 공간을 차지하지 않고 자동으로 휴대합니다. 개당 전력 {0}을 회복합니다. 전력이 바닥나면 자동으로 사용되며 수동으로도 사용할 수 있습니다.
+mechanical.power.event.status,{0}\n{1}\n시간 {2}  전력 {3}/{4}
+mechanical.power.full,어창과 임시 보관소 모두 연속된 공간이 부족합니다. 공간을 마련한 뒤 발전소를 수색하세요.
+mechanical.power.log.status,{0}  전력 {1}/{4}  선체 {2}/{3}
+mechanical.power.name,누전 발전소
+mechanical.power.resume,"이전 항해를 재개합니다. 시간 {0}, 전력 {1}/{2}."
+mechanical.power.sailing.status,항해 중  {0}  전력 {1}/{3}  낚시 레벨 {2}
+mechanical.power.search,위험을 무릅쓰고 배터리 수색
+mechanical.power.unavailable,배터리 아이템을 사용할 수 없습니다. 자원은 소모되지 않았습니다. 나중에 다시 시도하세요.
+mechanical.power.wrecked,발전소 방전으로 파괴된 선체
+mechanical.reactor.closed,반응로 저장고는 이번 자원 주기 동안 폐쇄되었습니다.
+mechanical.reactor.description,반응로 저장고는 남쪽 아래 암초 안에 있습니다. 전기장을 가로질러 들어가세요. 더 깊이 수색하면 산업 사고가 발생할 수 있습니다.
+mechanical.reactor.entry.accident,반응로 진입 중 산업 사고
+mechanical.reactor.entry.damage,반응로 {0}층에 진입하던 중 산업 사고가 발생해 선체에 {1}의 피해를 입혔습니다. 남은 선체: {2}/{3}.
+mechanical.reactor.entry.wrecked,반응로에 진입하던 중 산업 사고로 선체가 파괴되었습니다.
+mechanical.reactor.leave,저장고 떠나기
+mechanical.reactor.name,반응로 저장고
+mechanical.reactor.next,다음 층
+mechanical.reactor.retired,반응로 저장고에서 철수했습니다.
+mechanical.reactor.retreat,반응로 저장고에서 철수
+mechanical.reactor.search,현재 층 수색
+mechanical.resource.electricity,전력
+mechanical.sector.central,중앙 기계 항구
+mechanical.sector.east,동쪽 · 칩 공방
+mechanical.sector.north,북쪽 · 광학 배열
+mechanical.sector.south,남쪽 · 발전소
+mechanical.sector.west,서쪽 · 케이블 여울
+mechanical.terminal.active,이번 주기의 저장고 터미널을 판독했습니다.
+mechanical.terminal.description,터미널을 해독하면 반응로 저장고 각 층의 정보를 읽고 층을 직접 선택할 수 있습니다.
+mechanical.terminal.floor,{0}층\n남은 보급품: {1}\n{2}\n최초 발견 시 사고 확률: 35%; 선체 내구도 {3} 손실
+mechanical.terminal.material,화물칸의 일반 전자 부품 1개가 필요하며 임시 보관소의 아이템은 사용할 수 없습니다.
+mechanical.terminal.name,저장고 터미널
+mechanical.terminal.ordinary,일반 보급품 감지
+mechanical.terminal.select,{0}층 수색
+mechanical.terminal.unavailable,이번 주기에 저장고가 폐쇄되었거나 요약 정보를 확인할 수 없습니다.
+mechanical.terminal.valuable,고가치 보급품 감지
+mechanical.tuning.active,조율이 완료되었습니다. 반응로 입구의 전기장을 통과할 때마다 전력 5가 소모됩니다.
+mechanical.tuning.description,배열을 조율하면 남쪽 입구의 간섭이 약해져 전기장 통과 시 전력 손실이 감소합니다.
+mechanical.tuning.name,전류 조율소
+mechanical.tunnel.arrived,터널을 통과하는 데 5분이 걸렸습니다. {0}에 도착했습니다.
+mechanical.tunnel.description,터널은 {0}(으)로 이어집니다. 통과하려면 항해 전력이 필요합니다.
+mechanical.tunnel.enter,터널 통과
+mechanical.tunnel.name,구역 터널
+mechanical.tunnel.travel,구역 터널 통과
+mechanical.upgrade.action,장비 업그레이드
+mechanical.upgrade.buy,업그레이드: {0} 크레딧
+mechanical.upgrade.capacity.description,현재 충전량을 보충하지 않고 최대 전력을 늘립니다.
+mechanical.upgrade.capacity.name,확장형 배터리 뱅크
+mechanical.upgrade.details,현재: {0}\n다음: {1}
+mechanical.upgrade.done,업그레이드 완료. 현재 레벨: {0}/3.
+mechanical.upgrade.efficiency.description,각 행동의 전력 소모량을 줄입니다.
+mechanical.upgrade.efficiency.name,효율 제어기
+mechanical.upgrade.entry,전력 장비 업그레이드
+mechanical.upgrade.failed,업그레이드에 실패했습니다. 자세한 내용은 로그를 확인하세요.
+mechanical.upgrade.level,현재: {0}  다음: {1}
+mechanical.upgrade.max,최대 레벨
+mechanical.upgrade.natural.denied,주조성에서는 구매할 수 없습니다.
+mechanical.upgrade.recovery.description,에너지 보급품 하나당 전력 회복량을 늘립니다.
+mechanical.upgrade.recovery.name,에너지 변환기
+mechanical.upgrade.refund_failed,업그레이드에 실패했습니다. 로그를 확인하세요.
+mechanical.upgrade.research.title,해양 연구소 / 전력 연구소
+mechanical.upgrade.startingPower.description,다음 출항의 시작 전력을 늘립니다. 현재 항해에는 영향을 주지 않습니다.
+mechanical.upgrade.startingPower.name,항구 충전 장비
+mechanical.upgrade.time,남은 시간이 30분 미만입니다. 먼저 중앙 항구로 돌아가세요.
+mechanical.upgrade.workshop.title,버려진 조선소 / 장비 공방
+mechanical.wrecked,산업 시설 내부 사고로 인한 선체 파괴
+mod.display.description,"낚시 콘텐츠, 원정, 가공 및 양식."
+mod.display.framework.name,GoFishing
+mod.display.name,GoFishing
+mod.display.pack.name,GoFishing
+native.boss.fillet.failed,도축을 완료할 수 없습니다. 모든 생산물을 놓을 공간을 충분히 확보하세요. 모든 생산물이 배치된 뒤에만 사체가 소모됩니다. 완료되지 않은 처리는 자동으로 복구됩니다.
+native.boss.fillet.title,대형 어획물 도축
+native.dried.name,건조
+native.fillet.name,{0} 생선살
+native.meat.name,{0} 고기
+nautilite.core.1,녹색 형석 코어
+nautilite.core.2,푸른 수정 코어
+nautilite.core.3,적색 코어
+nautilite.core.4,보랏빛 별 코어
+nautilite.core.5,녹니석
+nautilite.core.6,남동석
+nautilite.core.7,적철석
+nautilite.core.8,자수정
+nautilite.flavor.empty,{0}산 나우틸라이트. 안타깝게도 안에는 아무것도 없었다.
+nautilite.flavor.gem,{0}산 나우틸라이트. 돌을 가공하자 안에서 보석이 드러났다.
+nautilite.flavor.mineral,절단면에 흔한 광물이 드러난 {0}산 나우틸라이트.
+nautilite.flavor.origin,{0}산 나우틸라이트.
+nautilite.grade.1,하급
+nautilite.grade.2,일반
+nautilite.grade.3,고급
+nautilite.grade.4,수집가급
+nautilite.grinder.hint,위의 연마기를 끌어 흰색 끝을 절단면에 2초 동안 대세요.
+nautilite.grinder.progress,절단 중 {0}%
+nautilite.inspection.condition,{0} · 숨은 균열: {1}
+nautilite.inspection.cut,절단
+nautilite.inspection.face,맨바위
+nautilite.inspection.finished,연마 완료
+nautilite.inspection.nextFace,다음 절단면이 맨돌일 경우의 예상가: {0}
+nautilite.inspection.open,껍질 열기
+nautilite.inspection.polish,연마
+nautilite.inspection.polishValues,연마 후 예상가(균열 0~3개) {0} / {1} / {2} / {3}
+nautilite.inspection.raw,돋보기로 열어 종류와 등급을 확인하세요.
+nautilite.inspection.slot,절단면 {0}: {1}
+nautilite.inspection.unavailable,이 작업은 이용할 수 없습니다.
+nautilite.inspection.uncut,미절단
+nautilite.inspection.unpolished,미연마
+nautilite.inspection.value,기본 예상가 {0}
+nautilite.manual.gift,"나우틸라이트를 샀다고 들었네. 얼마 전 친구가 이걸 맡기고 갔는데, 자네에게 쓸모가 있을지도 모르겠군."
+nautilite.manual.giftLeft,(베테랑의 경험을 남깁니다.)
+nautilite.manual.giftPending,설명서를 둘 공간이 없습니다. 공간을 비우면 윌리가 다음 방문 때 다시 전달합니다.
+nautilite.manual.text.0,나우틸라이트 종류
+nautilite.manual.text.1,원석 나우틸라이트
+nautilite.manual.text.10,연마
+nautilite.manual.text.11,표식은 4초 동안 바깥쪽으로 갔다가 돌아옵니다. 녹색 구간마다 한 번씩 확인하세요.\n잘못된 타이밍에 누르거나 확인하지 않은 구간이 있으면 균열이 하나 남습니다.
+nautilite.manual.text.12,보석 가격
+nautilite.manual.text.13,같은 보석도 나우틸라이트에 따라 가치가 다를 수 있습니다.
+nautilite.manual.text.14,중염 나우틸라이트
+nautilite.manual.text.15,"녹색 코어 ×1.20, 파란색 코어 ×1.10.\n녹색이나 파란색 보석을 원한다면 중염을 선택하세요."
+nautilite.manual.text.16,맹독 나우틸라이트
+nautilite.manual.text.17,진홍색 코어 ×1.25.\n진홍색 코어 획득에 승부를 걸려면 맹독을 선택하세요.
+nautilite.manual.text.18,무지갯빛 나우틸라이트
+nautilite.manual.text.19,"보라색 코어 ×1.25, 파란색 코어 ×1.10.\n무지갯빛 나우틸라이트는 비싸지만 값진 사치품이 나올 확률이 더 높습니다."
+nautilite.manual.text.2,기본 호가: 300. 껍질을 열어 종류와 등급을 확인하세요.
+nautilite.manual.text.3,개봉된 나우틸라이트
+nautilite.manual.text.4,"상인은 종류와 등급에 따라 공급가를 정합니다.\n\n오로라에는 무지갯빛 나우틸라이트가, 캐노피에는 맹독 나우틸라이트가 풍부합니다."
+nautilite.manual.text.5,가공
+nautilite.manual.text.6,껍질 열기
+nautilite.manual.text.7,돋보기를 사용해 가공 화면을 여세요.\n껍질 열기를 하면 종류와 등급이 드러납니다.
+nautilite.manual.text.8,절단
+nautilite.manual.text.9,"연마기를 끌어 흰색 끝을 절단면에 대세요. 2초 동안 닿으면 절단 결과가 나옵니다.\n같은 색의 코어도 흔한 광물일 수도, 보석일 수도 있습니다. 모양과 광택을 살펴보세요."
+nautilite.name,{0} · {1}
+nautilite.offer,{0}에서 갓 들여온 나우틸라이트입니다. 몇 개 사시겠어요?
+nautilite.polish.confirm,연마 확인
+nautilite.polish.miss,균열 발생
+nautilite.polish.resume,연마 진행 중 ({0}/3)
+nautilite.polish.round,연마 {0}/3 · 녹색 구간마다 한 번씩 확인
+nautilite.polish.success,단계 성공
+nautilite.polish.tradeLocked,판매하거나 물물교환하기 전에 연마를 완료하세요.
+nautilite.species.iridescent,무지갯빛 나우틸라이트
+nautilite.species.salt,소금 나우틸라이트
+nautilite.species.toxic,독성 나우틸라이트
+nautilite.trader,나우틸라이트 상인
+nautilite.unknown,원석 나우틸라이트
+orders.contact.description,"처음 잠금 해제하면 물약 설명서, 블렌더, 물약 합성기와 빈 주사기 4개를 받습니다. 이후에도 윌리에게 합성기와 빈 주사기를 구매할 수 있습니다."
+orders.contact.finish,조달 잠금 해제
+orders.contact.name,물약 장비 조달
+orders.contact.pending,결제가 완료되었습니다. 다시 클릭해 조달을 잠금 해제하세요.
+orders.contact.requirement,먼저 링관을 잠금 해제하세요.
+orders.contact.section,연락처
+orders.contact.unlocked,조달 잠금 해제됨
+potion.customer.accept,이 물약이면 충분
+potion.customer.delivery.hint,전달 구역\n물약을 여기에 놓으세요
+potion.customer.goodbye,알겠습니다. 다른 가게에 가 볼게요.
+potion.customer.miss.adverse,{0} 반응이 아직 너무 강합니다.
+potion.customer.miss.fish,이 물약에는 {0}이(가) 들어 있습니다. 저는 사용할 수 없습니다.
+potion.customer.miss.invalid,제가 받을 수 있는 완성된 물약이 아닙니다.
+potion.customer.miss.notPotion,이 손님은 완성된 물약 한 병만 받습니다. 다른 물건은 치워 주세요.
+potion.customer.miss.primary,{0} 효과가 너무 약합니다. {1}이(가) 필요합니다.
+potion.customer.miss.secondary,{0} {1} 효과도 필요합니다.
+potion.customer.miss.strong,{0} 효과가 너무 강합니다. 순한 물약이면 됩니다.
+potion.customer.miss.stuck,진열대에서 물약을 가져갈 수 없습니다. 다시 시도해 주세요.
+potion.customer.miss.unknown,재료의 출처가 모두 기록되지 않았습니다. 제가 피해야 하는 생선이 없는지 확인할 수 없습니다.
+potion.customer.name,물약 손님
+potion.customer.need.exclude,저는 {0}을(를) 견디지 못합니다. 재료에 그 생선을 사용하지 마세요.
+potion.customer.need.gentle,순하게 만들어 주세요. 그 등급보다 강하면 안 됩니다.
+potion.customer.need.mild,{0} 반응을 억제해 주세요. 뚜렷한 수준이 되어서는 안 됩니다.
+potion.customer.need.primary,{0} {1} 물약 한 병을 원합니다.
+potion.customer.need.secondary,{0} {1} 효과도 필요합니다.
+potion.customer.need.slight,일상생활을 해야 하니 {0} 반응은 약한 정도까지만 감수할 수 있습니다.
+potion.customer.offer,물약 제출
+potion.customer.offerHint,물약 한 병을 진열대의 전달 구역으로 끌어다 놓으세요.
+potion.customer.refuse,적합한 물약이 없습니다
+potion.customer.refuseHint,이번 방문을 끝내고 전달하지 않은 물약은 보관합니다.
+potion.customer.refuseReply,알겠습니다. 다음에 다시 올게요.
+potion.customer.retry,지금은 전달을 완료할 수 없습니다. 나중에 다시 시도해 주세요.
+potion.customer.service.description,선택해 두면 매일 밤 무료로 물약 손님에게 연락해 다음 날 방문하도록 합니다. 선택을 해제하면 이후 연락을 중단합니다. 대기 중인 방문은 중복 예약되지 않습니다.
+potion.customer.service.name,물약 손님에게 연락
+potion.customer.title,물약 전달
+potion.story.delivery.hint,전달 구역\n물약을 여기에 놓으세요
+potion.story.dialogue.celine_first.0,안녕하세요. 《왕국의 몰락》을 보셨나요?
+potion.story.dialogue.celine_first.1,...못 보셨어도 괜찮아요. 저는 그저 스턴트 대역이니까요.
+potion.story.dialogue.celine_first.2,다음 일은 조금 위험해요. 적합한 물약이 있나요? 몸을 더 민첩하게 해 주면서 높은 곳에서 뛰어내려도 다치지 않게 해 주는 것이 필요해요.
+potion.story.dialogue.celine_formal.0,물약 고마워요. 감독님이 제가 잘했다고 정식 배역을 주셨어요.
+potion.story.dialogue.celine_formal.1,멋진 일 아닌가요! 제 새 공연 표예요. 혹시 모르니 정신을 또렷하게 해 줄 물약이 있나요? 활기차 보이고 싶어요.
+potion.story.dialogue.celine_injured.0,안녕하세요. 전에 물약을 사러 왔었죠. 제가 실수해서 리허설 중에 다쳤어요.
+potion.story.dialogue.celine_injured.1,의사 선생님은 이제 격한 운동을 하면 안 된다고 했어요.
+potion.story.dialogue.celine_injured.2,감독님은 쉬면서 회복하라고 했어요...
+potion.story.dialogue.celine_injured.3,적합한 물약이 있나요? 그저 다리를 낫게 하고 싶어요.
+potion.story.dialogue.edwin_first.0,"안녕하세요. 아내는 3년 전에 세상을 떠났지만, 요즘은 매일 밤 침대 곁에 앉아 있는 아내가 보여요."
+potion.story.dialogue.edwin_first.1,잠들려고 하면 계속 제 이름을 부르는 소리가 들려서 잠을 좀 설칩니다.
+potion.story.dialogue.edwin_first.2,잠을 잘 수 있게 도와주시겠어요? 하지만 아내가 완전히 사라지는 건 싫으니 약효는 약하게 해 주세요.
+potion.story.dialogue.edwin_garden.0,오랜만입니다. 이제 다시 정상적으로 잘 수 있어요.
+potion.story.dialogue.edwin_garden.1,요즘 방을 정리하고 있습니다. 아내는 늘 꽃을 좋아했어요. 꽃을 기르는 데 알맞은 물약이 있나요?
+potion.story.dialogue.edwin_retry.0,안녕하세요. 물약을 먹고도 여전히 잠을 잘 수가 없어요.
+potion.story.dialogue.edwin_retry.1,조금 조절해 주시겠어요?
+potion.story.dialogue.eric_final_win.0,돌아왔어요. 엄청난 수확이었죠! 안에는 아직 작동하는 기기가 여러 대 있었어요. 사 줄 사람도 구했습니다. 돈의 절반은 당신 몫이에요!
+potion.story.dialogue.eric_first.0,안녕하세요. 최근에 천문대가 표시된 지도를 손에 넣었습니다.
+potion.story.dialogue.eric_first.1,수십 년 동안 버려진 곳이지만 안에는 아직 뭔가 남아 있을 겁니다.
+potion.story.dialogue.eric_first.2,"천문대 쪽은 춥습니다. 여정을 수월하게 해 줄 물약을 사고 싶고, 정신까지 또렷하게 해 준다면 더 좋겠어요."
+potion.story.dialogue.eric_first.3,천문대에 무사히 도착하게만 해 주시면 무엇을 찾든 일부를 나눠 드리겠습니다.
+potion.story.dialogue.eric_injured_fast.0,돌아왔습니다.
+potion.story.dialogue.eric_injured_fast.1,당신의 물약 덕분에 훨씬 빨라져서 계획보다 일찍 산 중턱에 도착했습니다. 하지만 올라갈수록 추워져서 하마터면 그곳에서 죽는 줄 알았어요.
+potion.story.dialogue.eric_injured_fast.2,다행히 구조대가 빨리 왔습니다. 아직 포기하고 싶지 않아서 조금 회복하면 다시 갈 생각입니다.
+potion.story.dialogue.eric_injured_fast.3,동상을 치료할 만한 게 있나요?
+potion.story.dialogue.eric_injured_plain.0,휴... 돌아왔습니다. 멀리 가지도 못하고 몸이 버티지 못했어요. 제 능력 밖의 일인가 봅니다.
+potion.story.dialogue.eric_injured_plain.1,됐습니다. 우선 회복부터 해야겠어요. 부상을 치료할 만한 게 있나요?
+potion.story.dialogue.eric_recovered.0,물약 고맙습니다. 꽤 잘 회복했어요.
+potion.story.dialogue.eric_recovered.1,요 며칠 지도를 다시 살펴보다 지름길을 찾았습니다. 이번에는 장비도 더 챙길 겁니다. 더 좋은 물약이 있나요?
+potion.story.dialogue.eric_slow.0,오랜만입니다... 중간에 돌아섰어요. 도착하기도 전에 거의 어두워져서 돌아올 수밖에 없었습니다.
+potion.story.dialogue.eric_slow.1,더 강한 물약이 있나요? 진지하게 만들어 주세요. 이번이 마지막 시도입니다.
+potion.story.dialogue.eric_success.0,돌아왔습니다. 당신의 물약은 기대 이상으로 효과가 좋았어요!
+potion.story.dialogue.eric_success.1,안에는 정말 뭔가 있었습니다. 남겨진 광석을 조금 찾았어요.
+potion.story.dialogue.eric_success.2,"아, 그리고 아래에 층이 하나 더 있었지만 철문이 잠겨 있었습니다."
+potion.story.dialogue.eric_success.3,문이 녹슬어 열리지 않더군요. 강제로 열 생각입니다. 이번에는 힘을 키워 주는 물약을 원해요. 강할수록 좋지만 부작용은 없어야 합니다.
+potion.story.dialogue.martin_first.0,안녕하세요. 창고에 도둑이 계속 들어서 재료 한 상자를 통째로 잃었습니다.
+potion.story.dialogue.martin_first.1,야근 탓에 어제 근무 중 잠을 이기지 못하고 문 앞에서 잠들었습니다. 깨어 보니 물건이 또 사라졌더군요.
+potion.story.dialogue.martin_first.2,사장님은 저를 꾸짖으며 또 뭔가 없어지면 다시 올 필요 없다고 했습니다.
+potion.story.dialogue.martin_first.3,그러니 정신을 또렷하게 해 줄 물약이 있나요? 강한 것으로요.
+potion.story.dialogue.martin_job.0,안녕하세요. 해고당해서 새 일자리를 찾고 있습니다.
+potion.story.dialogue.martin_job.1,오늘 부두에 물어봤더니 화물을 옮길 사람이 필요하답니다.
+potion.story.dialogue.martin_job.2,"경비원으로 일한 세월이 오래되어, 이제는 예전만큼 힘이 세지 않습니다."
+potion.story.dialogue.martin_job.3,일을 좀 더 수월하게 해 줄 게 있으면 한 병 주세요.
+potion.story.dialogue.martin_retry.0,휴... 안녕하세요. 물약이 별로 듣지 않았습니다. 밤 전반부에는 괜찮았지만 잠깐 앉아 쉬다가 다시 눈을 뜨니 뒷문이 열려 있었어요.
+potion.story.dialogue.martin_retry.1,사장님은 저를 꾸짖고 마지막 기회를 주겠다고 했습니다.
+potion.story.dialogue.martin_retry.2,물약 탓만은 아니라는 걸 알아요. 요즘 너무 지쳤어요. 더 강한 물약이 있나요? 부작용은 상관없어요.
+potion.story.dialogue.martin_sleep.0,도둑을 잡았으니 확실히 효과는 있었죠... 잠이요? 창고 두 곳도 지킬 수 있을 것 같습니다.
+potion.story.dialogue.martin_sleep.1,문제는 집에서도 잘 수 없다는 겁니다. 어제 아들이 뒤에서 저를 툭 쳤는데 하마터면 무릎을 꿇을 뻔했어요.
+potion.story.dialogue.martin_sleep.2,일자리는 지켰지만 이대로 살 수는 없습니다.
+potion.story.dialogue.martin_sleep.3,정상적으로 잘 수 있게 해 줄 것이 있나요?
+potion.story.dialogue.martin_success.0,"물약 고맙습니다. 평소라면 그때쯤 피곤해서 정신이 멍했을 텐데, 이번에는 아주 또렷했습니다."
+potion.story.dialogue.martin_success.1,"동료와 제가 양쪽 문을 막고 현장에서 잡았습니다. 도둑은 달아날 곳이 없었죠, 하하!"
+potion.story.dialogue.martin_success.2,사장님은 보너스까지 주면서 승진도 고려해 보겠다고 했습니다.
+potion.story.dialogue.martin_success.3,어쨌든 고맙습니다!
+potion.story.miss.notPotion,이 방문객은 완성된 물약 한 병만 필요합니다. 다른 물건은 치워 주세요.
+potion.story.name.celine,극장 대역 배우
+potion.story.name.customer,손님
+potion.story.name.edwin,딴생각에 빠진 남편
+potion.story.name.eric,장비를 잘 갖춘 탐험가
+potion.story.name.martin,창고 경비원
+potion.story.noPotion,적합한 물약이 없습니다
+potion.story.paper.celine_complaint,당신이 만든 물약의 부작용 때문에 공연을 망쳤어요. 당신이 미워요.
+potion.story.paper.celine_final,새 포스터가 나왔는데 세 번째 줄에 제 이름이 있어요. 조명이 저를 비추자 늘 뒤에 서 있던 때가 떠올랐어요. 앞에 선 건 이번이 처음이었어요. 도와주셔서 고마워요.
+potion.story.paper.celine_no_speed,리허설은 실패했어요. 감독님은 제 상태가 좋지 않다며 결국 무대에 올려 주지 않았어요. 다음 기회가 언제 올지 모르겠어요.
+potion.story.paper.celine_plain_show,"공연은 끝났고 박수 소리도 들었어요. 하지만 제 연기는 특별할 게 없었고, 그 박수도 저를 향한 게 아니었죠. 조명이 너무 밝아서 눈을 뜨기도 힘들었어요... 그래도 적어도 프로그램에는 제 이름이 실렸어요."
+potion.story.paper.celine_recovered,다시 정상적으로 걸을 수 있어요. 극장에서 소품 관리를 맡아 달라기에 그러겠다고 했어요. 이제 위험한 일은 하지 않아도 돼요... 어쩌면 잘된 일인지도 모르겠네요.
+potion.story.paper.celine_unhealed,의사 선생님은 회복하려면 시간이 더 필요하다고 했어요. 당분간 극장에는 돌아가지 않을 겁니다. 누군가 재택근무를 소개해 줬어요. 당장은 그렇게 지내려고요.
+potion.story.paper.edwin_final,저는 무언가를 기르는 데 늘 서툴렀습니다. 당신의 물약 덕분에 장미 화분 하나를 살려 냈어요. 발코니에 작은 정원을 만들고 싶습니다. 아내도 무척 좋아했을 거예요.
+potion.story.paper.edwin_garden_fail,꽃을 죽이고 말았습니다. 원예는 제 적성에 맞지 않나 봅니다. 이곳을 떠나려고 해요. 도와주셔서 고맙습니다.
+potion.story.paper.edwin_restless,"약은 별로 도움이 되지 않은 것 같습니다. 어젯밤에도 새벽까지 뜬눈으로 지새웠어요. 잠들 수 없었던 건지, 잠들 용기가 없었던 건지 잘 모르겠습니다."
+potion.story.paper.edwin_strong,"아내가 사라졌습니다. 이제 꿈에도 나오지 않아요. 저는 그저 조금 자고 싶었을 뿐이지, 이런 걸 원한 게 아닙니다."
+potion.story.paper.eric_death,네 물약 때문에 내 친구가 죽었어. 살인자!
+potion.story.paper.eric_door_fail,문은 바로 눈앞에 있었지만 무슨 짓을 해도 열리지 않았습니다. 안에 무엇이 있는지는 영영 보지 못하겠군요.
+potion.story.paper.eric_final_fail,"그 문은 당분간 내버려 둡시다. 두 번의 여정에 번 돈보다 더 많은 비용이 들었고, 동료들도 돌아가고 싶어 하지 않습니다. 다음 기회에 하죠."
+potion.story.paper.eric_give_up,결국 안에 들어가지 못했습니다. 두 번의 여정에 번 돈보다 더 많이 들었어요. 물약 제조 실력이 나아지길 바랍니다.
+potion.story.paper.eric_unhealed,부상은 생각보다 치료하기 어렵다. 아직도 손에 감각이 없다. 남은 여정은 포기하기로 했다.
+potion.story.paper.friend,탐험가의 친구
+potion.story.paper.martin_dock_fail,부두에서 며칠 일해 봤지만 여전히 고된 일을 감당할 수 없습니다. 먹고살 다른 일을 찾아보겠습니다.
+potion.story.paper.martin_promotion,제가 대장이 됐습니다. 작은 감사의 표시를 받아 주세요.
+potion.story.paper.martin_sleep_end,제 문제를 해결해 주셔서 고맙습니다. 이제 제대로 일할 수 있어요.
+potion.story.paper.martin_transfer,부두에서 저를 받아 줬어요. 보수는 적지만 매일 해 질 녘이면 집에 갈 수 있어요.\n\n어제 아들이 이제는 왜 매일 함께 저녁을 먹을 수 있느냐고 물었어요.\n\n그제야 아이가 제가 밤에 집에 오지 않는 데 익숙해졌다는 걸 깨달았어요. 어쩌면 상황이 그리 나쁘지만은 않은 것 같아요.
+potion.story.paper.title,편지
+potion.story.refused,다른 상점 방문
+potion.story.refuseHint,이 손님의 전체 이야기 종료
+potion.story.rewardSpace,조리대 공간이 부족합니다. 공간을 확보한 후 계속하세요. 보상은 보관됩니다.
+potion.story.saveRetry,지금은 저장할 수 없습니다. 나중에 다시 시도하세요.
+potion.story.submit,물약 제출
+potion.story.submitHint,선택한 물약을 조리대의 납품 구역으로 드래그하세요.
+potion.story.title,물약 이야기
+powder.liquid.blossom,회복 분말
+powder.liquid.crystal,청색 수정어 분말 성분
+powder.liquid.electric,빛물고기 분말 성분
+powder.liquid.ember,흥분 분말
+powder.liquid.glass,유리물고기 분말 성분
+powder.liquid.nightmare,진정 분말
+powder.liquid.purifier,정화어 분말 성분
+powder.liquid.rocket,로켓피시 분말 성분
+powder.liquid.spectral,정화 분말
+powder.liquid.tide,강화 분말
+powder.liquid.volcanic,화산어 분말 성분
+powder.machine.battery,배터리
+powder.machine.input,생선 부산물 투입구
+powder.machine.inputItem,투입물 {0}: {1}
+powder.machine.invalidQuantity,{0}\n무게 또는 수량이 올바르지 않습니다.\n가공할 수 없습니다.
+powder.machine.limit,이 묶음에 재료가 너무 많습니다. 더 작은 묶음으로 나누어 가공하세요.
+powder.machine.lockedInput,{0}\n잠겨 있어 가공을 위해\n꺼낼 수 없습니다.
+powder.machine.missingSource,{0}\n생선의 원산지가 없거나\n올바르지 않아 분쇄할 수 없습니다.
+powder.machine.noPower,에너지가 부족합니다. {0} 필요.
+powder.machine.notOwned,{0}\n플레이어 소유가 아닙니다.\n가공할 수 없습니다.
+powder.machine.otherItem,기타 아이템
+powder.machine.output,어분
+powder.machine.preview,이 분쇄기는 더 이상 사용되지 않습니다. 남은 물품을 꺼내고 블렌더를 사용하세요.
+powder.machine.processing,가공 중: {0}일째에 완료
+powder.machine.restoreFailed,기존 묶음을 전달할 수 없어 보존했습니다. 로그를 확인하세요.
+powder.machine.scrapName,생선 부산물
+powder.machine.title,생선 부산물 분쇄기
+powder.machine.unsupportedSource,{0}\n원산지: {1}\n분말 제조법 없음
+powder.machine.waiting,수령 대기 중인 제품: {0}\n출력 보관함의 공간을 확보하세요.
+powder.machine.wrongItem,{0}\n생선 부산물 투입
+powder.weight.remaining,남은 분말: {0} g
+predator.approach,{0}이(가) 배에 접근하고 있습니다. 작살로 맞서세요.
+predator.attack,{0}의 공격
+predator.attack.result,"{0}: 선체 내구도 {1} 감소, {2}/{3} 남음. {4}은(는) 그 자리에서 1시간 동안 쉽니다."
+predator.catch.details,"{2} 포획\n무게 {0:0.###} kg, 가치 {1} 크레딧\n크기 {3}×{4}. 어창이 가득 차면 임시 보관을 시도합니다."
+predator.collect,{0} 수령
+predator.crab.name,황제붉은게
+predator.decline,포획을 포기했습니다. {0}이(가) 공격합니다
+predator.encounter,{2}이(가) 접근 중입니다!\n작살 내구도 {0}/3\n포획하려면 {1}회 성공해야 합니다. 시도할 때마다 작살 내구도 1이 소모됩니다.
+predator.fight.interrupted,{0}과(와) 전투가 중단되었습니다
+predator.fight.start,{1} 포획 중 · 작살 내구도 {0}/3
+predator.fight.success,{0}을(를) 제압했습니다.
+predator.map.chasing,{0} (추격 중)
+predator.map.details,{0}  {1}\n15분마다 한 칸 이동하며 작살로 포획할 수 있습니다\n공격 시 선체 피해 3을 주고 1시간 동안 쉽니다\n항구에서는 공격받지 않습니다.
+predator.map.rest,{0} (휴식 중)
+predator.no_harpoon,작살 없음 · {0}의 공격
+predator.no_usable_harpoon,사용 가능한 작살 없음 · {0}의 공격
+predator.shark.name,백상아리
+predator.spawn,멀리서 {0}이(가) 나타나 배를 추적하고 있습니다.
+predator.wreck,{0}의 선체 파괴
+processing.container.collect,제품 수령
+processing.container.collect_hint,아이템을 더블 클릭하여 제품을 수령하세요
+processing.container.complete,"가공 완료, 수령 가능"
+processing.container.consume_hint,시작 즉시 재료가 소모됩니다
+processing.container.description,{0}\n생선 가공: {1}{2}\n상태: {3}
+processing.container.empty,비어 있음
+processing.container.input_weight,\n생선 재료 무게: {0} / {1} g
+processing.container.invalid,유효하지 않거나 수량 또는 중량 제한을 초과한 재료가 들어 있습니다
+processing.container.missing,재료 부족
+processing.container.output_weight,제품 무게: {0} g
+processing.container.progress,"가공 중, {0}일 남음"
+processing.container.progress_button,가공 중 ({0}일 남음)
+processing.container.quality,가공 품질: {0}
+processing.container.quality_fail,가공 품질: {0} / {1} (목표 미달)
+processing.container.quality_pass,"가공 품질: {0} (목표 달성, 가치 {1:+0.##;-0.##;0}%)"
+processing.container.ready,준비 완료: {0}
+processing.container.schedule,"{0}일째에 시작, {1}일째에 완료."
+processing.container.start,시작
+processing.container.status,상태: {0}
+processing.container.title,생선 가공
+processing.container.unowned,구매하지 않은 재료가 들어 있습니다
+processing.container.weight,무게: {0}
+processing.machine.auto,자동 가공
+processing.machine.complete,"완료, 변환 대기 중"
+processing.machine.item_status,{0}\n제조법: {1}\n상태: {2}
+processing.machine.paused,"일시 정지, {0}일 남음"
+processing.machine.running,"가공 중, {0}일 남음"
+processing.machine.summary,"{0}\n자동 가공: 진행 중 {1}, 변환 대기 {2}, 제조법 없음 {3}"
+processing.machine.title,가공 기계
+processing.manual.category.bait,미끼
+processing.manual.category.electronic,전력 및 전자 장치
+processing.manual.category.medical,의료 및 화학
+processing.manual.category.other,기타 제조법
+processing.manual.category.random,무작위 결과물
+processing.manual.category.water,물 및 병입
+processing.manual.category.weapon,무기 및 도구
+processing.manual.duration,소요 시간 {0}{1}
+processing.manual.index.entry,제조법 {0}개 · {1}페이지
+processing.manual.index.summary,7개 분류에 제조법 58개가 있습니다.
+processing.manual.nav.next,다음 분류
+processing.manual.nav.previous,이전 분류
+processing.manual.notReady,아직 안내서가 준비되지 않았습니다. 잠시 후 다시 시도하세요.
+processing.manual.page.bait-1.title,미끼
+processing.manual.page.bait-2.title,미끼
+processing.manual.page.bait-3.title,미끼
+processing.manual.page.electronic-1.title,전력 및 전자 장치
+processing.manual.page.electronic-2.title,전력 및 전자 장치
+processing.manual.page.header, · {0}/{1}페이지
+processing.manual.page.index.title,모든 가공 제조법
+processing.manual.page.medical-1.title,의료 및 화학
+processing.manual.page.medical-2.title,의료 및 화학
+processing.manual.page.medical-3.title,의료 및 화학
+processing.manual.page.other-1.title,기타 제조법
+processing.manual.page.random-1.title,무작위 결과물
+processing.manual.page.random-2.title,무작위 결과물
+processing.manual.page.water-1.title,물 및 병입
+processing.manual.page.water-2.title,물 및 병입
+processing.manual.page.weapon-1.title,무기 및 도구
+processing.manual.page.weapon-2.title,무기 및 도구
+processing.manual.title,가공대 안내서
+processing.manual.unit.cycle,회
+processing.manual.unit.day,일
+processing.manual.unit.hour,시간
+processing.recipe.gf_drying_rack.0,뿔황새치 건조
+processing.recipe.gf_drying_rack.1,무지개물고기 건조
+processing.recipe.gf_drying_rack.10,청색 수정어 건조
+processing.recipe.gf_drying_rack.11,붉은꼬리물고기 건조
+processing.recipe.gf_drying_rack.12,은상어 건조
+processing.recipe.gf_drying_rack.13,금붕어 건조
+processing.recipe.gf_drying_rack.14,별복어 건조
+processing.recipe.gf_drying_rack.15,우주 로켓피시 건조
+processing.recipe.gf_drying_rack.16,무지기 건조
+processing.recipe.gf_drying_rack.17,무스펠의 아들 건조
+processing.recipe.gf_drying_rack.18,란의 악몽 건조
+processing.recipe.gf_drying_rack.19,로푸린 건조
+processing.recipe.gf_drying_rack.2,정화어 건조
+processing.recipe.gf_drying_rack.20,니오룬 건조
+processing.recipe.gf_drying_rack.21,페라이트 해파리 건조
+processing.recipe.gf_drying_rack.3,화산어 건조
+processing.recipe.gf_drying_rack.4,빛물고기 건조
+processing.recipe.gf_drying_rack.5,유리물고기 건조
+processing.recipe.gf_drying_rack.6,정어리 건조
+processing.recipe.gf_drying_rack.7,부세 건조
+processing.recipe.gf_drying_rack.8,작은참조기 건조
+processing.recipe.gf_drying_rack.9,황금물고기 건조
+processing.recovery.cleanup,재료 정리가 보류 중입니다. 클릭하여 다시 시도하세요. 완성품은 이미 전달되었습니다.
+processing.recovery.save-blocked,가공 아이템이 보관함으로 복구되지 않아 저장을 취소했습니다. 원래 보관함의 공간을 확보한 후 다시 저장하면 복구를 재시도합니다. 디스크의 이전 저장 파일은 변경되지 않았습니다.
+processing.recovery.title,가공 복구
+processing.special.material.denied,생선 부산물 재료는 생선 뼈를 제외하고 통조림으로 만들 수 없습니다. 재료는 소모되지 않았습니다.
+processing.station.ingredients.short,작업대: 재료가 부족합니다. 최대 {0}묶음까지 만들 수 있습니다(선택: {1}).
+processing.station.recipe.mismatch,"작업대: 일치하는 제조법이 없습니다. 올바른 가공 재료(생선 내장, 금속, 부품 등)를 넣으세요."
+reagent.actualChange,마지막 조제: 실제 변화
+reagent.adverse.drowsiness,졸림
+reagent.adverse.fatigue,피로
+reagent.adverse.heat,발열
+reagent.adverse.nausea,메스꺼움
+reagent.adverse.thirst,갈증
+reagent.amendInstructions,"조제는 선택한 양을 추가하고, 용매 추가는 별도로 희석합니다. 주입하면 전체 약액을 선택한 주사기 수만큼 나누며, 주사기마다 에너지 1과 빈 주사기 1개를 사용합니다."
+reagent.apply,적용
+reagent.autoAux.accept,조화 확인
+reagent.autoAux.adverseRise,{0} 증가: {1} → {2}
+reagent.autoAux.amounts,권장 추가량:\n{0}
+reagent.autoAux.available,사용 가능한 보조제:\n{0}
+reagent.autoAux.button,자동 균형 조정
+reagent.autoAux.cancel,균형 조정 취소
+reagent.autoAux.changed,약액이 변경되었습니다. 균형 조정을 취소하고 다시 계산하세요.
+reagent.autoAux.empty,보조제 양을 계산하기 전에 약액을 조제하세요.
+reagent.autoAux.help,목표를 선택하고 양을 확인하세요. 제안 사용을 선택해 계획을 준비한 다음 조제/보충으로 보조제를 추가하세요.
+reagent.autoAux.history,현재 배치를 배합하기 전에 저장된 레시피 목표를 취소하세요.
+reagent.autoAux.limits,투여량은 보조제를 넣기 전의 원액 부피를 기준으로 합니다. 보조제는 최종 부피에 더해지며 효과 등급을 바꿀 수 있습니다. 불순물은 순도에 영향을 주며 기본 필터로 걸러낼 수 있습니다. 보조제가 과도해도 추가 부작용은 발생하지 않습니다.
+reagent.autoAux.missingPair,사용 가능한 보조제만으로는 유효한 한 쌍을 만들 수 없습니다. 아래 재료를 보충하세요.
+reagent.autoAux.next,권장 보조제만 추가\n{0}
+reagent.autoAux.none,"선택한 목표는 추가 처리가 필요 없거나, 사용 가능한 재료로 개선할 수 없습니다."
+reagent.autoAux.noStock,보관함과 준비 구역에 사용 가능한 보조제가 없습니다.
+reagent.autoAux.pending,배합안을 적용했습니다. 보조제를 넣으려면 ‘혼합 / 보충’을 클릭하세요.
+reagent.autoAux.reference,재고 보충 후 참고용 계획(현재 실행 불가):\n{0}
+reagent.autoAux.shortage,추가 배합에 필요한 재료가 부족합니다:\n{0}\n보충한 뒤 다시 계산하세요. 자동으로 추가되는 재료는 없습니다.
+reagent.autoAux.stabilityDrop,안정성 감소: {0} → {1}
+reagent.autoAux.tierDrop,{0}: {1} → {2}
+reagent.autoAux.title,보조제 자동 배합
+reagent.autoAux.tradeoffs,계획의 장단점:\n{0}
+reagent.autoAux.unformed,경고: 이 계획을 적용하면 형성된 효과가 남지 않습니다.
+reagent.automaticHistory,"저장된 배합식을 불러오면 재료가 준비되는 즉시 한 번 조제합니다. 분말과 첨가제는 준비 구역에 둘 수 있으며, 용매는 현재 품질을 유지합니다."
+reagent.autoRatio,자동 비율
+reagent.auxInput,보조 재료
+reagent.auxInstructions,합계에는 유효 재고와 준비된 재료가 포함됩니다. 추가량을 µl 단위로 입력하세요. 목표마다 세 쌍을 지원하며 여러 목표가 더 많은 재고를 공유할 수 있습니다. 0이면 추가하지 않습니다.
+reagent.auxOnly,어분은 분말 슬롯에 넣으세요. 저장조에는 보조 화학 물질과 액체를 넣을 수 있습니다.
+reagent.auxSettings,보조제 수량
+reagent.auxStock,{0}: {1} µl 사용 가능
+reagent.auxTarget.all,모두 조화시키기
+reagent.auxTarget.complete,현재: 치료 목표 우선
+reagent.auxTarget.done,목표를 이미 달성했습니다. 보조제를 더 추가할 필요가 없습니다.
+reagent.auxTarget.lower,한 등급 낮추기
+reagent.auxTarget.pollution,오염 물질이 들어 있습니다. 원액을 정화하거나 교체하세요. 보조제는 조화 가능한 부담만 처리합니다.
+reagent.auxTarget.preserve,현재: 효과 등급 유지
+reagent.auxTarget.remove,이 효과 제거
+reagent.auxTarget.title,보조제 조화
+reagent.batchAmount,이번 묶음의 주사기 수(1–50)
+reagent.batchFull,혼합물 저장고 용량은 최대 1000 ml입니다.
+reagent.batchGrams,{0} g 추가
+reagent.batchShort,용액이 부족합니다. 주사기 하나당 10 mL가 필요합니다.
+reagent.batchStatus,약액 {0} ml · 주사기 {1}개로 분할\n{2}
+reagent.battery,배터리
+reagent.bone.residue,스크랩 처리 잔여물
+reagent.burden.auxDoses,"약액 10ml당 권장 보조제 양: 단백질 150µl, 당 150µl, 미네랄 60µl, 카페인 30µl, 드림 캡 추출물 20µl, 안정제 20µl. 약액 양에 맞춰 비례 조정하세요. 보조제는 분말 기반을 대체하지 않습니다."
+reagent.burden.multi,복합 효과 기본 부담
+reagent.burden.multiSummary,복수 효과: {0}
+reagent.burden.sleepSpeed,수면 × 속도
+reagent.changed,재료가 변경되었습니다. 다시 확인하세요.
+reagent.chooseFormula,내 레시피
+reagent.comparison.empty,아직 용액이 없습니다.
+reagent.comparison.inactive,완성된 혼합물에 활성 효과가 없습니다.
+reagent.comparison.invalid,미리 볼 수 없습니다: 성분량이 올바르지 않습니다.
+reagent.comparison.metric,{0}: {1} → {2} ({3})
+reagent.comparison.stability,안정성
+reagent.comparison.title,이전 → 이후(10 ml당 효과)
+reagent.comparison.volume,용액 부피: {0} → {1} ml
+reagent.confirm.accept,확인
+reagent.confirm.cancel,취소
+reagent.confirm.title,작업 확인
+reagent.confirmDeleteFormula,이 배합식 기록을 삭제하시겠습니까? 기존 약액과 주사기는 변경되지 않습니다.
+reagent.confirmDiscard,현재 약액을 버리시겠습니까? 재료는 반환되지 않습니다. 보조제 재고와 기록된 배합식은 유지됩니다.
+reagent.confirmLoad,"보조 재료 추출 확인 · 고체 소모, 액체 용기 유지 · 활성화된 보조 재료만 추출하여 원소별 합침 · 추출한 고체 복구 불가\n{0}"
+reagent.count,{0}개 주사기 채우기
+reagent.customName,사용자 지정 물약
+reagent.deleteFormula,이 기록 삭제
+reagent.details.collapse,세부 정보 숨기기
+reagent.details.expand,세부 정보 표시
+reagent.discardBatch,이 혼합물 폐기
+reagent.dispense,주사기에 채우기
+reagent.duplicateName,같은 이름을 사용하는 배합식이 있습니다. 다른 이름을 선택하세요. 기존 기록은 덮어쓰지 않습니다.
+reagent.effect.analgesia,진통
+reagent.effect.protection,방어
+reagent.effect.repair,수리
+reagent.effect.stealth,은신
+reagent.effect.strength,힘
+reagent.elementAssist,"첨가제에는 장단점이 있습니다. 드림 캡 추출물은 진통 효과를 높이지만 졸림을 유발하고, 단백질은 회복을, 미네랄은 방어를, 안정제는 안정성을 돕습니다. 카페인은 근력을 돕고 졸림을 줄이지만 은폐를 저해합니다. 첨가제가 지나치면 불편 증상이 생길 수 있습니다."
+reagent.elementBlossom,"회복 분말: 주로 회복, 부가적으로 방어 효과를 냅니다. 치료용이나 방어 효과의 대체 원료로 유용합니다. 강화 분말은 회복 효과를 돕습니다."
+reagent.elementEmber,"흥분 분말: 주로 방어, 부가적으로 근력 효과를 냅니다. 농도가 높으면 발열을 유발합니다. 정화 분말과 혼합하면 안정성과 은폐 효과가 저하될 수 있습니다."
+reagent.elementGrades,"효과 등급은 1, 2, 3입니다. 1등급 미만 효과는 제품에 표시되지 않습니다. 물은 농도를 낮추고, 균등 분할은 등급을 바꾸지 않고 용량만 바꿉니다. 순한 효과를 요구하는 주문은 지나치게 강한 효과를 거부할 수 있습니다."
+reagent.elementGuide,원소와 효과
+reagent.elementGuideIntro,각 분말에는 주 효과와 더 약한 부 효과가 있습니다. 원료 분말 3g을 추출하면 유효 성분 1ml 상당을 얻습니다. 물은 효과를 희석하며 정해진 물 비율은 없습니다.
+reagent.elementNightmare,"나이트메어: 주로 진통, 부가적으로 은폐 효과를 냅니다. 농도가 높을수록 졸림이 심해지고, 활동 촉진 성분과 혼합하면 피로를 유발할 수 있습니다."
+reagent.elementSpectral,"스펙트럴: 주효과는 은폐, 부효과는 진통입니다. 은밀한 활동이나 통증 완화에 유용하며, 농도가 높으면 피로를 유발합니다."
+reagent.elementTide,"타이드: 주효과는 힘, 부효과는 회복입니다. 격한 활동과 치료에 유용하며, 농도가 높으면 갈증을 유발합니다."
+reagent.empty,빈 주사기
+reagent.excessActive,현재 혼합물이나 용매의 활성 성분이 제조법의 요구량을 초과합니다. 용매를 교체하거나 목표를 취소하세요.
+reagent.five.auto,자동
+reagent.five.conflict,흥분 × 진정
+reagent.five.effect.drowsiness,졸음
+reagent.five.effect.repair,수리
+reagent.five.effect.sleep,진정
+reagent.five.effect.strength,강화
+reagent.five.guide.allocation,완전한 A+B 조합마다 반응 등급이 한 단계 낮아집니다. 1등급은 없음으로 낮아집니다. 반응마다 최대 네 조합까지 사용할 수 있습니다.
+reagent.five.guide.conflicts,혼합 및 상충 효과는 부작용을 증가시킬 수 있습니다. 불안정한 혼합물에는 원액 10 mL당 안정제 5 mL가 한 번 필요합니다.
+reagent.five.guide.doses,"원액 10 mL당 한 쌍을 사용합니다. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL, 단백질은 1 mL를 사용합니다. 불안정한 용액에는 원액 10 mL당 안정제 5 mL를 한 번 사용합니다."
+reagent.five.guide.grades,"효과는 초급, 중급, 고급으로 나뉩니다. 좋은 물약은 효능, 순도, 부작용의 균형을 맞춰야 합니다. 균등 분배는 주사기당 용량만 바꿉니다. 제조법 기록에는 비율이 저장됩니다."
+reagent.five.guide.intro,출처가 알려진 생선 부산물을 블렌더로 갈아 다섯 가지 물약 성분 중 하나를 얻으세요. 블렌더 모듈에 따라 재료 손실량이 달라집니다.
+reagent.five.guide.pairs,대상 조합:\n설탕 + 단백질: 피로\n설탕 + 미네랄: 갈증\n드림 추출물 + 미네랄: 초조\n드림 추출물 + 단백질: 불면증\n카페인 + 설탕: 졸음\n단백질 + 미네랄: 메스꺼움
+reagent.five.guide.powders,"회복 분말: 회복, 피로 동반.\n강화 분말: 강화, 갈증과 피로 동반.\n흥분 분말: 흥분, 초조와 불면증 동반.\n진정 분말: 진정, 졸음 동반.\n정화 분말: 해독, 메스꺼움 동반. 오염 물질을 제거하지는 않습니다."
+reagent.five.guide.quality,불순물은 순도에 영향을 주며 기본 필터로 걸러낼 수 있습니다. 보조제를 과량 넣어도 부작용이 추가되지는 않습니다. 투여량은 보조제를 넣기 전 원액 용량을 기준으로 조정됩니다. 보조제는 최종 용량에 더해져 효과 등급을 바꿀 수 있습니다.
+reagent.five.guide.sources,"해당 생선 부산물:\n회복 분말: 참조기, 정어리, 부세, 은상어, 로푸린.\n강화 분말: 뿔황새치, 황금어, 무스펠의 아들, 우즈치, 백상아리, 황제홍게.\n흥분 분말: 화산어, 붉은꼬리어, 우주로켓어, 빛물고기, 페라이트 해파리.\n진정 분말: 블루 크리스털 피시, 금붕어, 란의 악몽, 니오룬, 유리물고기.\n정화 분말: 무지개물고기, 별복, 정화어.\n현재 황제홍게를 손질해도 부산물이 나오지 않습니다. 해당 분말 제조 경로는 그 출처가 표시된 부산물에만 적용됩니다."
+reagent.five.helper.caffeine,카페인
+reagent.five.helper.dream,꿈 추출물
+reagent.five.helper.mineral,미네랄
+reagent.five.helper.protein,단백질
+reagent.five.helper.sugar,설탕
+reagent.five.notNeeded,처리 불필요
+reagent.five.pair.agitation,드림 추출물 + 미네랄 / 초조
+reagent.five.pair.drowsiness,카페인 + 설탕 / 졸음
+reagent.five.pair.fatigue,설탕 + 단백질 / 피로
+reagent.five.pair.insomnia,드림 추출물 + 단백질 / 불면증
+reagent.five.pair.nausea,단백질 + 미네랄 / 메스꺼움
+reagent.five.pair.thirst,설탕 + 미네랄 / 갈증
+reagent.five.priority,우선 처치: {0}
+reagent.five.reduction,{0} 감소
+reagent.five.self.alertness,흥분 부담
+reagent.five.self.detox,해독 부담
+reagent.five.self.repair,회복 부담
+reagent.five.self.sleep,진정 부담
+reagent.five.self.strength,강화 부담
+reagent.five.shortage,부족: {0}
+reagent.five.slight,경미한 {0}
+reagent.fixedDose.available,개당 10 mL · {0}개 충전 가능
+reagent.fixedDose.capacity,개당 10 mL · 용액 {0}개분
+reagent.fixedDose.missing,{0} mL 더 필요
+reagent.fixedDose.remainder,{0} mL 남음 · 개당 기본 가격: {1}
+reagent.formulaFull,제조법은 최대 32개까지 저장할 수 있습니다. 먼저 사용하지 않는 기록을 삭제하세요.
+reagent.formulaName,레시피 이름
+reagent.freeInstructions,원액을 꺼내 보조제를 조절한 다음 조제하고 분배하세요.
+reagent.freeMix,목표를 취소하고 자유롭게 혼합
+reagent.harmonize.assist,첨가제: {0}
+reagent.harmonize.blossom,블러섬 부담
+reagent.harmonize.caffeine,카페인
+reagent.harmonize.concealment,흥분 분말 × 정화 분말
+reagent.harmonize.conflictCount,충돌: {0}; 용액 세부 정보 참조
+reagent.harmonize.conflicts,충돌: {0}
+reagent.harmonize.details,출처 및 배합: 용액 세부 정보
+reagent.harmonize.dream,드림 캡 추출물
+reagent.harmonize.ember,엠버 부담
+reagent.harmonize.exertion,엠버 × 타이드
+reagent.harmonize.guideAssist,"첨가제로 혼합물의 균형을 맞출 수 있습니다. 카페인은 졸음을, 단백질은 피로와 회복 부담을, 미네랄은 갈증을 완화합니다. 안정제는 주성분 간 충돌을 줄이고, 드림 캡 추출물은 열을 낮추지만 졸음을 유발합니다. 효과는 점차 감소하며, 첨가제를 과도하게 넣으면 새로운 부담이 생깁니다."
+reagent.harmonize.guideBlossom,"블러섬: 주효과는 회복, 부효과는 방어입니다. 농도가 높으면 메스꺼움을 유발합니다. 타이드와 조합하면 회복에 도움이 됩니다."
+reagent.harmonize.guideConflict,"주성분 충돌: 나이트메어와 타이드는 피로를, 엠버와 스펙트럴은 열을, 엠버와 타이드는 열과 갈증을 유발합니다. 두 성분의 농도가 모두 높을수록 충돌이 심해집니다."
+reagent.harmonize.guideGrades,"효과는 세 등급으로 나뉩니다. 물은 효과와 부담을 모두 희석하며, 균등하게 병에 담으면 용량만 달라집니다. 약한 혼합물에는 보통 첨가제가 필요 없지만, 강하거나 충돌하는 혼합물은 효능과 부작용의 균형을 맞춰야 합니다."
+reagent.harmonize.impurities,액체 불순물
+reagent.harmonize.mineral,광물
+reagent.harmonize.nightmare,나이트메어 부담
+reagent.harmonize.other,기타 성분
+reagent.harmonize.overload,농도 부담
+reagent.harmonize.preview,완제품 미리 보기
+reagent.harmonize.previewDose,주사기 {0}개 · 개당 {1}ml
+reagent.harmonize.previewMore,전체 제품 정보: 액체 세부 정보
+reagent.harmonize.previewNext,혼합 후: 완제품
+reagent.harmonize.protein,단백질
+reagent.harmonize.sedative,나이트메어 × 타이드
+reagent.harmonize.sources,부담 원인 및 첨가제 균형
+reagent.harmonize.spectral,스펙트럴 부담
+reagent.harmonize.stabilizer,안정제
+reagent.harmonize.tide,타이드 부담
+reagent.historyAmounts,저장된 제조법은 재료량을 자동으로 계산합니다. 직접 조절하려면 제조법 목표를 취소하세요.
+reagent.historyLibrary,내 레시피
+reagent.historyPrepareHelp,실제 보유 재료로 선택한 제조법을 조제합니다. 재료가 부족하면 아무것도 소모되지 않습니다.
+reagent.inert,활성 약효가 감지되지 않음
+reagent.inspect,혼합물 세부 정보
+reagent.invalidBatch,혼합물 데이터가 올바르지 않아 기존 저장 데이터를 유지했습니다.
+reagent.invalidName,줄 바꿈이나 리치 텍스트 괄호 없이 1~24자로 입력하세요.
+reagent.invalidNumber,표시된 범위 내의 정수를 입력하세요.
+reagent.invalidTarget,"목표 총용량은 0보다 크고 1000 ml 이하여야 하며, 0.001 ml 단위까지 지정할 수 있습니다."
+reagent.invalidWater,0~1000ml 범위에서 소수점 이하 세 자리까지 입력하세요.
+reagent.knownFormulas,"내 제조법 (이름 변경, 배율 조정, 불러오기 또는 삭제)"
+reagent.live.current,현재 혼합물
+reagent.live.currentScore,{0} {1}
+reagent.live.direction,현재 → 첨가 후
+reagent.live.dose,주사기당 {0} → {1} mL
+reagent.live.normalized,10 ml당으로 환산한 특성
+reagent.live.score,{0} {1}→{2} ({3})
+reagent.live.shortage,필요한 재료
+reagent.live.title,실시간 특성
+reagent.live.volume,총량 {0} → {1} ml
+reagent.load,첨가제 보관
+reagent.loadFormula,제조법을 선택해 자동 조제
+reagent.lowConcentration,농도가 낮습니다. 활성 성분을 추가하세요.
+reagent.missingIngredient,부족: {0}
+reagent.missingPowderSlot,{0}: {1} g
+reagent.missingSolvent,용매: {0} ml
+reagent.mix,혼합 / 보충
+reagent.mixAmounts,분말량은 이번에 추가할 양을 g 단위로 나타내며 0.001 g까지 지정할 수 있습니다. 용매나 보조제만 추가하려면 0으로 설정하세요.
+reagent.mixSettings,이번에 추가할 재료
+reagent.multidose.used, ({0}조합 사용)
+reagent.nameFormula,이름 지정 / 제조법 저장
+reagent.nameInstructions,"최대 24자입니다. 이름은 표시용이며, 실제 효과는 재료에 따라 결정됩니다."
+reagent.naming.advanced,고급
+reagent.naming.alertness,흥분
+reagent.naming.analgesia,진통
+reagent.naming.cooling,냉각
+reagent.naming.detox,해독
+reagent.naming.formed,{0} {1} 물약
+reagent.naming.minor,초급
+reagent.naming.protection,방어
+reagent.naming.renameBatch,혼합물 이름만 변경
+reagent.naming.repair,치유
+reagent.naming.restore,자동 이름 복원
+reagent.naming.save,제조법 저장
+reagent.naming.saveTitle,현재 제조법 저장
+reagent.naming.sleep,수면
+reagent.naming.speed,속도
+reagent.naming.standard,중급
+reagent.naming.stealth,은폐
+reagent.naming.strength,힘
+reagent.naming.unformed,미완성 물약
+reagent.naming.unmixed,혼합하지 않은 물약
+reagent.naming.warmth,온기
+reagent.needEmpty,빈 주사기가 부족합니다.
+reagent.needPower,에너지가 부족합니다.
+reagent.nextChange,다음 첨가 시 예상 변화
+reagent.nextMix,"이번 첨가량: 분말 A {0}g, 분말 B {1}g, 용매 {2}ml\n첨가제: {3}. 필요한 재료를 소모합니다."
+reagent.noBatch,아직 혼합물이 없습니다. 먼저 재료를 혼합하세요.
+reagent.noComponent,이 재료에는 투입할 수 있는 화학 성분이 없습니다.
+reagent.noHistory,저장된 제조법이 없습니다. 자유롭게 혼합한 다음 이름을 지정해 제조법을 저장하세요.
+reagent.none,없음
+reagent.noReference,저장한 제조법을 선택하거나 자유롭게 혼합하세요.
+reagent.nothingToMix,원액 또는 보조제의 양을 설정하세요.
+reagent.order.drag.adverseHigh,{0} 과다
+reagent.order.drag.arrival,물약을 받으러 왔습니다. 배송 구역에 놓아 주세요. 전체 물량을 확인하겠습니다.
+reagent.order.drag.check,배송 구역의 물약 확인
+reagent.order.drag.checkBatch,필요한 특성 확인
+reagent.order.drag.checkHelp,각 물약을 앞쪽 카운터로 끌어 놓은 다음 전체 물량을 확인하세요. 배송하지 않은 물품은 카운터에 남습니다.
+reagent.order.drag.doseMismatch,용량이 잘못되었습니다. 약 {0}ml가 필요합니다.
+reagent.order.drag.effectHigh,{0} 과다
+reagent.order.drag.effectLow,{0} 부족
+reagent.order.drag.goodbye,준비되면 연락해 주세요.
+reagent.order.drag.later,지금은 배송하지 않음
+reagent.order.drag.laterHelp,이번 주문 방문을 종료하고 배송하지 않은 물품은 모두 보관합니다.
+reagent.order.drag.match,이 용량은 조건에 맞습니다. 전체 물량도 여전히 필요합니다.
+reagent.order.drag.name,고객
+reagent.order.drag.noEffect,유효한 약효가 아직 없습니다.
+reagent.order.drag.noOrder,유효한 주문이 없습니다.
+reagent.order.drag.notMatch,조건 불일치: {0}
+reagent.order.drag.pending,배송 구역: {0}/{1}. 아직 배송된 물품이 없습니다. 물약을 다시 가져갈 수 있습니다.
+reagent.order.drag.place,주문 물약을 배송 구역에 놓기
+reagent.order.drag.progress,납품 구역: {0}/{1}\n물약을 넣으세요. 전체 물량을 한꺼번에 확인합니다.
+reagent.order.drag.reagentOnly,여기에는 회수 가능한 물약만 배송할 수 있습니다. 물품은 카운터에 남습니다.
+reagent.order.drag.retry,배송을 완료하지 못했습니다. 배송하지 않은 물품은 카운터에 남아 있습니다. 다시 시도하세요.
+reagent.order.drag.risk,이 물량은 요청한 특성을 충족하지 않습니다. 배송하면 효과가 약하거나 부작용이 있다는 피드백을 받을 수 있습니다. 그래도 배송하시겠습니까?
+reagent.order.drag.routeMatch,선택지 {0}에 부합합니다. 전체 물량은 같은 선택지에 맞아야 합니다.
+reagent.order.drag.title,물약 배송
+reagent.order.drag.tooMany,배송 구역에 물약이 {0}개보다 많습니다. 확인하기 전에 초과분을 가져가세요.
+reagent.order.drag.unavailable,오늘 배송할 주문이 없습니다.
+reagent.order.drag.unstable,안정성이 부족합니다.
+reagent.order.visitor.adverseHigh,{0} 과다
+reagent.order.visitor.arrival,주문한 물약을 받으러 왔습니다. 준비한 것을 보여 주세요.
+reagent.order.visitor.checkBatch,약효 조건 확인
+reagent.order.visitor.choose,배송할 물약 선택
+reagent.order.visitor.chooseHelp,이 패널에서 직접 선택한 주사기만 배송됩니다.
+reagent.order.visitor.close,배송하지 않고 돌아가기
+reagent.order.visitor.confirm,선택한 물품 배송 확인
+reagent.order.visitor.details,{0}ml | {1}\n{2}
+reagent.order.visitor.doseMismatch,용량이 잘못되었습니다. 약 {0} mL가 필요합니다.
+reagent.order.visitor.effectHigh,{0} 효과가 너무 강함
+reagent.order.visitor.effectLow,{0} 부족
+reagent.order.visitor.empty,배송할 사용자 제작 물약이 없습니다.
+reagent.order.visitor.goodbye,몸조심하세요.
+reagent.order.visitor.invalid,잘못된 조성
+reagent.order.visitor.later,배송하지 않음
+reagent.order.visitor.laterHelp,물품을 모두 보관하고 이번 방문을 종료합니다.
+reagent.order.visitor.match,"✓ 용량 조건 충족, 전체 물량은 아직 필요합니다."
+reagent.order.visitor.name,수령 고객
+reagent.order.visitor.next,다음 페이지
+reagent.order.visitor.noEffect,활성 약효 없음
+reagent.order.visitor.noneSelected,먼저 배송할 주사기를 선택하세요.
+reagent.order.visitor.noOrder,활성 주문 없음
+reagent.order.visitor.notMatch,불일치: {0}
+reagent.order.visitor.previous,이전 페이지
+reagent.order.visitor.reagent,맞춤형 물약
+reagent.order.visitor.retry,배송을 완료하지 못했습니다. 나중에 다시 시도하세요.
+reagent.order.visitor.riskConfirm,이 물약은 요청한 특성을 충족하지 않습니다. 고객은 여기서 물약을 평가할 수 없습니다. 배송하면 효과가 약하거나 부작용이 있다는 신고를 받을 수 있습니다. 그래도 배송하시겠습니까?
+reagent.order.visitor.routeMatch,"✓ 경로 {0} 충족, 물량 전체에 같은 경로를 사용하세요."
+reagent.order.visitor.select,이번 배송에 포함할 주사기 선택
+reagent.order.visitor.selection,{0}개 선택됨. 직접 선택한 주사기만 배송됩니다.
+reagent.order.visitor.title,주문 배송
+reagent.order.visitor.unavailable,이번에는 배송할 주문이 없습니다.
+reagent.order.visitor.unstable,안정성이 부족합니다.
+reagent.output,물약 결과물
+reagent.outputFull,결과물을 놓을 공간이 부족합니다. 재료는 소모되지 않았습니다.
+reagent.pendingCount,사용 가능한 첨가제: {0}
+reagent.pooledStock,보조 재고 {0} mL\n추가량 {1} mL\n용매 {2} mL
+reagent.powderExtractionMinimum,"분말은 최소 0.003g 넣으세요. 추출 후 0.003g 미만으로 남은 찌꺼기는 공정 손실로 소모되며, 사용 가능한 분말은 보존됩니다."
+reagent.powderNeeded,분말이 부족합니다. 겹쳐 쌓이지 않은 분말 묶음을 넣으세요.
+reagent.preparationComplete,충전용 혼합물 준비 완료
+reagent.pricing.hint,"물약의 가치는 완성된 효과, 용량, 순도 및 부작용 특성에 따라 달라집니다. 분말을 더 넣는다고 반드시 가격이 오르는 것은 아닙니다."
+reagent.primary,분말 A
+reagent.productVolume,용량: {0} ml
+reagent.profileText,혼합물 10mL당\n효과: {0}\n안정성: {1}\n유해 특성: {2}
+reagent.rebuild.balanced,균형 잡힘
+reagent.rebuild.concentration,총 농도: {0}
+reagent.rebuild.empty,활성 성분 없음
+reagent.rebuild.fanta,환타
+reagent.rebuild.guideConcentration,"부스러기 분말은 각각 효과에 기여하며 긍정 효과는 일정 수준 이후 증가하지 않습니다. 농축 분말은 자체 부담을 더하고, 여러 효과는 혼합물에 별도의 부담을 줍니다. 보조제는 적정 용량에서 최대 효과를 내며, 더 넣어도 효과는 늘지 않고 적정량의 두 배를 초과하면 부작용 특성이 추가됩니다. 조화제는 부담 대부분을 줄이지만 오염물은 제거하지 못합니다."
+reagent.rebuild.guideExcluded,"으깬 재료, 피임약 및 가축용 혈청은 조화 보조제가 아닙니다. 그 밖의 기존 가공용 화학물질은 원래 반응을 유지하며 완성된 물약을 자동으로 개선하지 않습니다."
+reagent.rebuild.guidePrice,"표준 10ml 물약의 기본 주효과 가치는 등급 1, 2, 3에 따라 100, 200, 300 크레딧입니다. 부효과는 점차 감소하는 가치로 더해집니다. 품질과 부작용 특성도 결과에 영향을 주며, 재료비를 반드시 회수할 수 있는 것은 아닙니다."
+reagent.rebuild.strong,강함; 물을 추가하거나 비율을 조정하세요.
+reagent.rebuild.sugar,설탕
+reagent.rebuild.weak,약함
+reagent.renameFormula,기록 이름 변경
+reagent.safety.fair,대체로 안정적인 혼합물
+reagent.safety.risk,부작용 위험
+reagent.safety.unstable,불안정한 혼합물
+reagent.saveFormula,새 제조법의 이름을 정하고 저장
+reagent.scaleInstructions,재료를 최대 1000 ml의 목표 총량에 맞춰 비율 조정합니다. 정밀도는 0.001 ml입니다. 분말 정밀도는 0.001 g입니다. 주사기 개수는 기본 패널에서 설정하세요.
+reagent.secondary,분말 B
+reagent.selectedFormula,이전 제조법: {0}
+reagent.setName,혼합물 이름 지정
+reagent.sixLive.metric,{0} {1}→{2}({3})
+reagent.sixLive.more,누락: 약액 세부 정보
+reagent.sixLive.stability,안정성
+reagent.sixLive.value,{0} {1}
+reagent.solventAmount,"추출할 용액량(mL, 정밀도 0.001)"
+reagent.stable,안정적인 반응
+reagent.stateError,잘못된 데이터입니다. 재료와 저장된 상태는 보존되었습니다.
+reagent.targetDifference,필요량: {0}
+reagent.targetExcess,목표 초과량: {0}
+reagent.targetFormula,제조법 목표: {0}
+reagent.targetVolume,목표 혼합물 총량 (ml)
+reagent.ten.crystal,크리스털피시 부담
+reagent.ten.electric,라이트피시 부담
+reagent.ten.glass,글라스피시 부담
+reagent.ten.guide.blossom,"블러섬: 주로 치유 효과를 내며, 방어 효과는 더 약합니다."
+reagent.ten.guide.conflict,"형성된 효과가 두 개 이상이면 부효과와 통증 완화를 포함해 혼합물에 기본 부담이 생깁니다. 같은 효과는 한 번만 계산됩니다. 효과가 많고 등급이 높을수록 부담이 커집니다. 수면과 속도, 수면과 흥분, 온기와 냉각은 긍정 효과를 상쇄하지 않으면서 강한 추가 충돌을 일으킵니다."
+reagent.ten.guide.crystal,청색 수정어 분말: 주로 냉각 효과가 있어 더운 환경에 적합합니다.
+reagent.ten.guide.electric,빛물고기 분말: 주로 흥분 효과로 깨어 있어야 할 때 유용합니다.
+reagent.ten.guide.ember,"엠버: 주로 방어 효과를 내며, 온기 성향도 있습니다."
+reagent.ten.guide.glass,글라스피시 분말: 은폐 효과를 얻는 더 간단한 대안 경로입니다.
+reagent.ten.guide.grades,"효과에는 1, 2, 3의 세 단계가 있습니다. 제품 미리보기에는 현재 물약 또는 재료 추가 후 결과가 표시됩니다. 주사기에 분배하면 주사기당 용량만 바뀝니다."
+reagent.ten.guide.helpers,"보조제는 주로 부작용 특성을 줄입니다. 단백질과 설탕은 피로를 완화하고, 미네랄은 갈증과 무거움을 덜어 주며, 카페인은 진정 작용을 완화하고, 드림 캡 추출물은 초조함과 불면을 덜어 줍니다. 안정제는 기본 혼합물 부담과 강한 충돌 부담을 줄이지만 오염이나 개별 분말 과부하는 줄이지 않습니다. 환타는 통증 완화 효과를 유지하지만 과량 사용 시 불이익이 있습니다."
+reagent.ten.guide.intro,블렌더는 생선 부스러기로 물약 액체를 만듭니다. 보조제는 부작용을 줄이고 물은 농도를 바꿉니다. 희석해도 불순물은 제거되지 않습니다.
+reagent.ten.guide.nightmare,나이트메어: 주로 수면 효과입니다. 휴식에 유용하지만 주의력이 필요한 작업에는 적합하지 않습니다.
+reagent.ten.guide.purifier,정화어 분말: 주로 해독 효과입니다. 혼합물의 불순물을 물리적으로 제거하지는 않습니다.
+reagent.ten.guide.rocket,로켓피시 분말: 주로 속도 효과입니다. 더 큰 부담을 감수하면 힘 효과와 함께 사용할 수 있습니다.
+reagent.ten.guide.spectral,"스펙트럴: 주로 은폐 효과이며, 균형 조정이 필요할 수 있는 수면 성향이 있습니다."
+reagent.ten.guide.tide,"타이드: 주로 힘 효과이며, 농축 혼합물은 신체에 부담을 줍니다."
+reagent.ten.guide.volcanic,화산어 분말: 추운 환경에서 주로 온기 효과를 냅니다.
+reagent.ten.hotCold,온기 × 냉각
+reagent.ten.purifier,정화어 부담
+reagent.ten.rocket,로켓피시 부담
+reagent.ten.sleepAlert,수면 × 흥분
+reagent.ten.strengthSpeed,힘 × 속도
+reagent.ten.volcanic,화산어 부담
+reagent.tier.agitation,초조함
+reagent.tier.alertness,흥분
+reagent.tier.analgesia,통증 완화
+reagent.tier.change,{0} {1}→{2}{3}
+reagent.tier.cold,오한
+reagent.tier.combinedRisk,복합 부작용 위험: 주의
+reagent.tier.cooling,냉각
+reagent.tier.description.advanced,고급
+reagent.tier.description.adverse,부작용
+reagent.tier.description.combined,복합 부작용 위험
+reagent.tier.description.effectLine,• {0} {1}
+reagent.tier.description.effects,효과
+reagent.tier.description.minor,경미
+reagent.tier.description.noneAdverse,눈에 띄는 부작용 없음
+reagent.tier.description.standard,표준
+reagent.tier.description.volume,액체 용량: {0}ml
+reagent.tier.detox,해독
+reagent.tier.drowsiness,과도한 진정
+reagent.tier.empty,용액 없음
+reagent.tier.fair,대체로 안정
+reagent.tier.fatigue,피로
+reagent.tier.forming,형성 중
+reagent.tier.heat,열
+reagent.tier.heaviness,무거움
+reagent.tier.inactive,효과 형성 안 됨
+reagent.tier.insomnia,불면
+reagent.tier.marked,뚜렷한 {0}
+reagent.tier.mild,약한 {0}
+reagent.tier.nausea,메스꺼움
+reagent.tier.near,{0}에 근접
+reagent.tier.noAdverse,없음
+reagent.tier.none,없음
+reagent.tier.noWarning,눈에 띄는 불편 없음
+reagent.tier.presentAdverse,부작용: {0}
+reagent.tier.presentEffects,효과 발현: {0}
+reagent.tier.protection,방어
+reagent.tier.repair,치유
+reagent.tier.severe,심각한 {0}
+reagent.tier.sleep,수면
+reagent.tier.speed,속도
+reagent.tier.stable,안정
+reagent.tier.stateChange,{0}→{1}
+reagent.tier.stealth,은폐
+reagent.tier.strength,힘
+reagent.tier.thirst,갈증
+reagent.tier.unstable,불안정
+reagent.tier.vulnerability,취약성
+reagent.tier.warmth,온기
+reagent.tier.warning,주의: {0}
+reagent.title,물약 합성기
+reagent.ui.clearSolution,용액 비우기
+reagent.ui.nextMix,원액 용기에서 {0} ml를 덜어 보조제 {1}을(를) 넣습니다.
+reagent.unavailable,아이템을 사용할 수 없습니다. 소유권과 잠금 상태를 확인하세요.
+reagent.unavailable.count,수량이 잘못되었습니다.
+reagent.unavailable.detail,{0}을(를) 사용할 수 없습니다: {1}.
+reagent.unavailable.locked,게임 또는 다른 모드에서 제거를 차단했습니다.
+reagent.unavailable.missing,재료 또는 배터리가 없습니다. 슬롯을 확인하세요.
+reagent.unavailable.owner,플레이어 소유가 아님
+reagent.unbalanced,비율이 맞지 않습니다. 재료를 조정하거나 물로 희석하세요.
+reagent.unstackLiquid,먼저 겹쳐 쌓인 액체 용기를 분리하세요.
+reagent.unsuitablePreparation,이 보급품으로는 제조법을 정확히 재현할 수 없습니다. 용매의 조성과 양을 확인하세요.
+reagent.ux.auxDose,첨가제
+reagent.ux.composition,전체 조성
+reagent.ux.confirmDilution,용기 용액 {0} mL 추가 여부\n{1}
+reagent.ux.confirmSolids,이 혼합물은 다음 고체 재료를 소모합니다. 액체는 필요한 첨가제만 공급합니다:\n{0}\n혼합 후 남는 첨가제 총 재고:\n{1}\n옮긴 고체 재료는 회수할 수 없습니다.
+reagent.ux.dilute,희석
+reagent.ux.diluteHelp,"용매 용기에서 선택한 양만 추가하며, 용매에 포함된 불순물도 함께 들어갑니다. 분말과 첨가제 재고는 그대로이며 용량 설정도 유지됩니다."
+reagent.ux.diluteTarget,용매를 추가하면 저장된 제조법 목표가 취소되고 자유 혼합으로 돌아갑니다.
+reagent.ux.positiveWater,0보다 크고 1000 mL 이하
+reagent.ux.previewDilution,희석 미리보기
+reagent.ux.saveCurrent,현재 제조법 저장
+reagent.water,원액
+reagent.waterControl,{0} ml 빼기
+reagent.waterControlHelp,"버튼으로 1ml씩 조정하고, 값을 클릭해 0–1000ml를 0.001ml 단위로 입력하세요."
+reagent.waterEditor,이번 추가분의 용매량 설정
+reagent.waterMaterial,물
+reagent.waterQualityNotice,용매에 원래 있던 불순물은 함께 물약에 들어갑니다. 물의 품질은 순도와 부작용 특성에 영향을 줍니다.
+recipe.drying.gf_dried_ferrite_jellyfish.21.name,건조 페라이트 해파리
+recipe.drying.gf_dried_goldfish.13.name,건조 금붕어
+recipe.drying.gf_dried_lofurin.19.name,건조 로푸린
+recipe.drying.gf_dried_muspels_son.17.name,건조 무스펠의 아들
+recipe.drying.gf_dried_niorun.20.name,건조 니오룬
+recipe.drying.gf_dried_rans_nightmare.18.name,건조 란의 악몽
+recipe.drying.gf_dried_space_rocket_fish.15.name,스페이스 로켓피시 건조
+recipe.drying.gf_dried_star_puffer.14.name,건조 별복
+recipe.drying.gf_dried_wuzhiqi.16.name,건조 우즈치
+recipe.processing.advanced_flux_agent.23.name,유동제
+recipe.processing.aquascan.14.name,수질 스캐너
+recipe.processing.black_injector.10.name,시냅스 주사기
+recipe.processing.blue_blood_bag.21.name,청혈
+recipe.processing.bottled_water.27.name,생수 (표준)
+recipe.processing.bottled_water.29.name,생수 분할 (대)
+recipe.processing.common_electronic.1.name,일반 전자 부품
+recipe.processing.energy_credit_breeder.17.name,자동 충전 에너지 셀
+recipe.processing.energy_credit_ext.16.name,에너지 셀 (2형)
+recipe.processing.energy_credit.15.name,에너지 셀
+recipe.processing.energy_credit.57.name,에너지 배터리 (페라이트 과립)
+recipe.processing.flashbang_grenade.5.name,섬광탄
+recipe.processing.flashlight.20.name,손전등
+recipe.processing.gf_durable_fish_mince_bait.49.name,지속형 다진 생선 미끼
+recipe.processing.gf_durable_glass_bait.51.name,튼튼한 유리 미끼
+recipe.processing.gf_durable_rat_dung_bait.47.name,지속형 쥐똥 미끼
+recipe.processing.gf_durable_shiny_bait.53.name,지속형 반짝이 미끼
+recipe.processing.gf_fish_mince_bait.35.name,다진 생선 미끼 (참조기)
+recipe.processing.gf_fish_mince_bait.36.name,다진 생선 미끼 (정어리)
+recipe.processing.gf_glass_bait.37.name,유리 미끼
+recipe.processing.gf_rat_dung_bait.34.name,쥐똥 미끼
+recipe.processing.gf_shiny_bait.38.name,반짝이 미끼
+recipe.processing.gf_strong_fish_mince_bait.50.name,강력한 다진 생선 미끼
+recipe.processing.gf_strong_glass_bait.52.name,강력한 유리 미끼
+recipe.processing.gf_strong_rat_dung_bait.48.name,강력한 쥐똥 미끼
+recipe.processing.gf_strong_shiny_bait.54.name,강력한 반짝이 미끼
+recipe.processing.gun_part.0.name,총기 부품
+recipe.processing.large_bottled_water.28.name,생수 (대)
+recipe.processing.large_purple_injector.7.name,이뮨닌 주사기
+recipe.processing.mini_bottle.31.name,생수 분할 (소)
+recipe.processing.neuroactive_perfume.56.name,신경 활성 향수 (유령 날개 막)
+recipe.processing.neuroactive_perfume.9.name,SYNC 신경활성 향수
+recipe.processing.nightmare_dust.33.name,나이트메어 더스트
+recipe.processing.nightmare_dust.55.name,나이트메어 더스트 (악몽 주머니)
+recipe.processing.portable_water_purifier.13.name,정수기
+recipe.processing.restricted_chemical.6.name,규제 화학 물품
+recipe.processing.salve.24.name,나이팅게일 연고
+recipe.processing.scratcher_stack.32.name,스크래치 복권
+recipe.processing.skincare_cream.11.name,이터널 재생 세럼
+recipe.processing.small_bottled_water.26.name,생수(소)
+recipe.processing.small_bottled_water.30.name,병에 든 물 나누기 (표준)
+recipe.processing.smelling_salt.2.name,후각염
+recipe.processing.stun_baton.19.name,전기 충격봉
+recipe.processing.stun_gun.4.name,펄스 가디언 전기 충격기
+recipe.processing.surgery_tool.8.name,수술 도구 키트
+recipe.processing.system_module_performance.25.name,성능 모듈
+recipe.processing.table:makeshift_weapon.42.name,무작위 임시변통 아이템
+recipe.processing.table:material.39.name,무작위 재료
+recipe.processing.table:medical.41.name,무작위 의료 아이템
+recipe.processing.table:packed_food.46.name,무작위 포장 식품
+recipe.processing.table:t1module.43.name,무작위 1단계 모듈
+recipe.processing.table:t2module.44.name,무작위 2단계 모듈
+recipe.processing.table:tool.40.name,무작위 도구
+recipe.processing.tazer.3.name,테이저건
+recipe.processing.turbo_booster_adv.18.name,고급 터보 부스터
+recipe.processing.uv_filter.22.name,자외선 램프
+recipe.processing.water_filter_adv.12.name,고급 정수 필터
+recipe.processing.wine_bottle.45.name,와인병 복원
+return.box.claim,반송 화물 받기 ({0}개)
+return.box.claim-failed,수령에 실패했습니다. 전달되지 않은 내역은 보존됩니다. 보관 공간을 확보한 뒤 다시 시도하세요.
+return.box.claimed,반송 화물 {0}개 배송 완료
+return.box.description,"어창에서 돌아온 화물이 들어 있습니다. 두 번 클릭해 연 다음 아이템을 직접 꺼내거나 모두 꺼내기를 클릭하세요. 보관 공간이 가득 차면 상자는 남아 있으며, 비우면 사라집니다."
+return.box.full,보관 공간이 부족합니다. 화물은 상자에 남아 있습니다. 내용물을 열어 아이템을 직접 꺼내세요.
+return.box.name,낚시 반송 화물 상자
+return.box.partial,모두 꺼내지 못했습니다. 아이템 {0}개는 보관함에 있고 나머지는 화물 상자에 남아 있습니다.
+return.box.pending,화물 배송이 완료되지 않았습니다. 아이템을 꺼내기 전에 원정 페이지를 다시 열어 배송을 복구하세요.
+return.box.unpack,모두 꺼내기
+return.box.unpacked,화물 상자에서 꺼낸 아이템 {0}개
+return.box.waiting,\n반송 아이템 {0}개가 수령 대기 상태로 저장되었습니다. 보관 공간을 확보한 뒤 출항 메뉴에서 받으세요. 이후 항해에서도 사라지지 않습니다.
+test6.meat,생선살
+voyage.change.bait,미끼 내구도
+voyage.change.bloodkey,진홍색 열쇠
+voyage.change.credits,크레딧
+voyage.change.disturbance,교란
+voyage.change.energy,전력 에너지
+voyage.change.forest,숲의 숨결
+voyage.change.harpoon,작살 내구도
+voyage.change.hold,적재 공간
+voyage.change.hull,선체
+voyage.change.mechanicalkey,기계 열쇠
+voyage.change.power,전력
+voyage.change.summary,실제 변경 사항 | {0}
+voyage.change.temp,임시 보관
+voyage.change.time,시간: {0}분
+voyage.change.value,{0} {1:+0;-0;0}
+willy.buyer.arrival,이 상품은 동업자 가격으로 매입합니다. 소매 마진 없이 평가액에서 15%를 뺀 가격입니다.
+willy.buyer.booked,좋습니다. 내일 가게에 들러 어떤 물건을 파는지 보겠습니다.
+willy.buyer.cooldown,지난번 화물을 아직 정리 중입니다. {0}일 후에 다시 연락해 주세요.
+willy.buyer.deal,거래 성립
+willy.buyer.pending,이미 약속이 잡혀 있습니다. 준비가 되면 찾아가겠습니다.
+willy.buyer.phone.option,판매할 물건
+willy.buyer.right,좋아 보이는 상품
+willy.buyer.unavailable,지금은 바쁩니다. 다른 때 다시 연락하세요.
+willy.buyer.wrong,"생선, 생선 재료, 생선 가공품과 낚시 미끼를 매입합니다. 다른 물품은 매입하지 않습니다."
+willy.contact.claim,선물 받기
+willy.contact.giftsPending,받지 않은 선물이 남아 있습니다. 소지품 공간을 확보한 뒤 받기를 선택하세요.
+willy.cuisine.description,"요리를 잠금 해제하면 요리 사업 증서, 요리 설명서, 조리대, 냄비, 프라이팬, 그릴과 백식초·간장·진간장·요리용 술·설탕을 한 병씩 받습니다. 소지품에 들어가지 않는 선물도 나중에 받을 수 있습니다."
+willy.cuisine.name,요리 사업
+willy.cuisine.unavailable,요리 등록이 아직 준비되지 않았습니다. 나중에 윌리에게 다시 연락하세요.
+willy.cuisine.unlocked,요리 사업 잠금 해제
+willy.fishking.deliver.lofurin,로푸린 1마리 전달
+willy.fishking.deliver.niorun,니오런 1마리 전달
+willy.fishking.deliver.one,어왕 한 마리 전달 (책상 위 우선)
+willy.intel.balance,크레딧: {0}
+willy.intel.buy,구매
+willy.intel.close,닫기
+willy.intel.cost,가격: {0} 크레딧
+willy.intel.destinations,정보
+willy.intel.future.description,이 행성에 대한 정보는 아직 없습니다. 윌리가 신뢰할 수 있는 항로와 좌표를 찾고 있습니다.
+willy.intel.future.name,미지의 행성
+willy.intel.future.unavailable,아직 이용할 수 없음
+willy.intel.insufficient,크레딧이 부족합니다.
+willy.intel.mechanical.description,고급 휴대폰 부품을 구할 수 있는 행성입니다. 정보를 구매하면 좌표를 받을 수 있습니다.\n전자기장이 항법 시스템을 교란하므로 행동에 전기 에너지가 필요합니다.\n무사히 귀환할 수 있도록 잔여 전력과 시간을 확인하세요.
+willy.intel.payment_failed,결제를 완료할 수 없습니다. 나중에 다시 시도해 주세요.
+willy.intel.pending,결제는 완료됐지만 좌표를 저장하지 못했습니다. 다시 클릭해 좌표를 받으세요.
+willy.intel.phone.business,전달할 물건이 있습니다 (영업 시간 중 이용 가능)
+willy.intel.phone.greeting,무엇을 도와드릴까요?
+willy.intel.phone.opening,필요한 것을 말씀해 주세요.
+willy.intel.phone.option,윌리 서비스 보기
+willy.intel.require.day,10일 차 도달
+willy.intel.require.debt,"선박 빚 1,000크레딧 상환"
+willy.intel.resume,좌표 받기
+willy.intel.section.regular,정보
+willy.intel.section.special,특수 정보
+willy.intel.subtitle,행성 좌표
+willy.intel.title,윌리 | 서비스
+willy.intel.unlocked,좌표 획득
+willy.phone.closed,아직 영업 시간이 아닙니다. 영업 시간에 다시 연락해 주세요.
+willy.phone.requirements.bait,{0} 가져오기
+willy.phone.requirements.item,{0} ×1
+willy.phone.requirements.king,다음 어왕 중 한 마리 가져오기: {0}
+willy.phone.requirements.net,{0} 가져오기
+willy.phone.requirements.research,{0} 가져오기
+willy.phone.requirements.separator,", "
+willy.processing.available,이용 가능
+willy.processing.canning.description,"용기 인쇄와 생선 통조림 제조를 잠금 해제합니다. 소형 빈 캔, 대형 빈 캔, 지렁이 배양 상자, 빈 주사기를 만드는 용기 프린터 한 대를 받습니다. 추가 프린터는 윌리 상점 단말기에서 주문할 수 있습니다. 이미 잠금 해제한 경우에도 선물을 한 번 받을 수 있습니다."
+willy.processing.canning.name,용기 인쇄
+willy.processing.section,가공
+willy.shop.bought,{0}개 구매 · 총 {1} 크레딧
+willy.shop.busy,처리 중인 거래가 있습니다. 잠시 후 다시 시도하세요.
+willy.shop.cash,크레딧이 부족하거나 합계 가격이 지불 가능 범위를 초과했습니다.
+willy.shop.category.aquaculture,양식 장비
+willy.shop.category.bait,미끼
+willy.shop.category.cookware,조리 도구
+willy.shop.category.culture,양식 용품
+willy.shop.category.equipment,가공 장비
+willy.shop.category.manual,설명서
+willy.shop.category.other,기타 상품
+willy.shop.category.reagent,시약 용품
+willy.shop.category.seasoning,조미료
+willy.shop.category.supplies,소모품
+willy.shop.category.tool,낚시 장비
+willy.shop.daily.exhausted,오늘 남은 구매 한도가 부족합니다.
+willy.shop.failed,구매에 실패했습니다. 로그를 확인하고 다시 시도하세요.
+willy.shop.quantity,0보다 큰 수량을 선택하세요.
+willy.shop.recovery,복구 처리 대기 중입니다. 저장이 일시 중지되었습니다. 잠시 후 다시 시도하세요.
+willy.shop.single.quantity,한 번에 한 개만 구매 가능
+willy.shop.space,공간이 부족합니다. 수량을 줄이세요. 비용은 청구되지 않았습니다.
+willy.shop.unavailable,이 상품은 아직 이용할 수 없습니다.
+willy.shop.weekly.quantity,구매할 때마다 장치를 하나씩 선택하세요.
+willy.shop.weekly.route,상품 목록으로 돌아가 이 장치를 다시 선택하세요.
+worm.culture.worm.adult,성체 지렁이
+worm.culture.worm.age,나이: {0}일
+worm.culture.worm.dead,죽은 지렁이
+worm.culture.worm.description,배양 상자에 넣고 생선살이나 생선 부산물을 먹이로 주세요.
+worm.culture.worm.flavor,모든 생명에는 필요한 것이 있습니다.
+worm.culture.worm.growth,잘 먹인 밤 {0}회 후 성체
+worm.culture.worm.invalid,상태가 올바르지 않습니다. 새 지렁이를 생성하세요.
+worm.culture.worm.name,지렁이
+worm.culture.worm.stage.adult,성체: 잘라서 어린 지렁이로 만들거나 짝을 지어 번식시키세요.
+worm.culture.worm.status.dead,죽음
+worm.culture.worm.status.fed,먹이를 먹음
+worm.culture.worm.status.hungry,배고픔
+worm.culture.worm.status.space,공간 부족
+worm.culture.worm.young,어린 지렁이
+worm.housing.blocked,공간 부족
+worm.housing.feed.adult,살아 있는 성체 지렁이 1마리 필요
+worm.housing.feed.cost,성체 지렁이 한 마리와 저장된 5000 kcal를 사용해 5000 kcal의 사료를 만들고 창고로 보냅니다. 생선살과 부산물은 밤에 비축분에 들어갑니다.
+worm.housing.feed.energy,비축분에 5000 kcal가 저장되어 있어야 합니다.
+worm.housing.feed.failed,사료 생산에 실패했습니다. 원래 자원은 보존되거나 복구됩니다.
+worm.housing.feed.meat,육류 사료 만들기
+worm.housing.feed.normal,산업용 사료 만들기
+worm.housing.feed.space,창고 공간이 부족합니다. 지렁이나 저장 에너지는 소비되지 않았습니다.
+worm.housing.flavor,흙 속의 작은 생업.
+worm.housing.hungry,배고픔
+worm.housing.name,지렁이 배양 상자
+worm.housing.noWorms,종자 지렁이 추가
+worm.housing.raising,지렁이 사육 중
+worm.housing.status,지렁이: {0}마리 | 먹이: {1} kcal | {2}
+worm.housing.waiting,오늘 밤 먹이 주기

@@ -1,0 +1,428 @@
+﻿te_item_seed_name,담배 씨앗
+te_item_seed_description,"씨앗 부화기의 투입구에 넣고 충전된 배터리를 장착하세요. 하룻밤 동안 담배를 기른 뒤 말리고 잘라 담배를 만드세요.\n기계 한 대당 매일 밤 최대 2개를 재배할 수 있으며, 초급/중급/고급 양조 자격증이 있으면 5/7/18개로 늘어납니다. 결과물이 성공적으로 생산된 밤에는 기계 한 대당 에너지 12를 소모합니다. 비어 있거나 가득 찼거나 생산에 전부 실패한 기계는 전력을 소모하지 않으며, 충전량이나 공간이 부족하면 씨앗은 그대로 보존됩니다."
+te_item_leaf_name,담뱃잎
+te_item_leaf_description,"담배 건조기에 넣어 말린 다음, 마른 담뱃잎에 칼을 끌어다 놓아 잘게 써세요.\n건조기가 없다면 이틀 동안 두어 축축하게 마른 담뱃잎을 얻을 수 있으며, 이것도 자를 수 있습니다. 축축한 담뱃조각으로 만들면 고칠 수 없는 결함이 생겨 담뱃갑 가치가 30% 낮아집니다."
+te_item_dry_name,말린 담뱃잎
+te_item_dry_description,"마른 담뱃잎에 칼을 끌어다 놓아 자르세요. 일반 칼은 담뱃조각 1개, xuxu 칼은 2개를 얻습니다.\n하룻밤 동안 두면 눅눅해지지만 자를 수는 있습니다. 제작 전에 건조기로 수분을 제거해 결함 있는 담배가 되는 것을 방지하세요."
+te_item_shred_name,담뱃잎 조각
+te_item_shred_description,"담배 제조기의 담뱃조각 칸에 넣으세요. 담뱃갑 하나당 담뱃조각 1개, 롤링 페이퍼 2장, 전력 4가 필요합니다. 추출물과 약품은 선택 사항입니다.\n하룻밤이면 눅눅해지므로 건조기에서 다시 말리세요. 눅눅한 담뱃조각도 쓸 수 있지만, 완성품에는 고칠 수 없는 결함이 생기고 가치가 30% 낮아집니다."
+te_item_paper_name,담배 종이
+te_item_paper_description,얇은 종이는 잎의 향을 머금습니다.\n담배 제조기의 종이 칸에 넣으세요. 한 갑마다 2장을 소모합니다. 종이 상자째 넣어도 자동으로 사용할 수 있습니다.
+te_item_paperbox_name,롤링 페이퍼 상자
+te_item_paperbox_description,상자 하나에는 담배 종이 8장이 들어 있어 담배 4갑을 만들 수 있습니다. 더블클릭하면 남은 수량을 확인할 수 있습니다.\n상자째 기계의 종이 칸에 넣으세요. 한 갑마다 2장을 사용하며 빈 상자는 남습니다. 낱장 종이와 함께 사용할 수도 있습니다.
+te_item_syringe_name,추출 주사기
+te_item_syringe_description,"양조용 펄프에 끌어다 놓아 4분의 1을 뽑으면 추출물 1회분을 얻습니다. 추출물이 남아 있는 동안에는 맛을 섞을 수 없습니다.\n채운 주사기를 기계의 추출물 칸에 넣으세요. 과일 담배 한 갑에 1회분을 씁니다. 주사기 하나로 두 번 추출할 수 있으며, 마지막 추출물이 담뱃갑 제작에 성공한 뒤에만 소모됩니다."
+te_item_partialpulp_name,남은 펄프
+te_item_partialpulp_description,추출액이 남은 주사기를 이 펄프에 끌어 놓으세요. 한 번 사용할 때마다 4분의 1을 추출해 담배 추출물 1회분을 얻습니다. 펄프 한 덩이를 전부 요구하는 양조 제조법에는 사용할 수 없습니다.
+te_item_knife_name,xuxu 칼
+te_item_knife_description,마른 담뱃잎에 끌어다 놓으면 잎 하나당 담뱃조각 2개를 얻습니다. 일반 칼은 1개를 얻습니다. 수분을 빼지 않고 습기가 밴 마른 담뱃잎도 자를 수 있습니다.\n쥐를 잡는 데도 쓸 수 있으며 도구 상자에 들어갑니다.
+te_item_sign_name,담배 간판
+te_item_sign_description,"진열장에 놓으면 개장할 때 담배 상인과 천쯔를 불러옵니다. 천쯔는 매일 일회용 업체 라벨을 가져오고, 상인들은 담배를 판매합니다.\n데스크톱 위탁 단말기에서 의뢰를 수락하고 제출한 뒤 보상을 받으세요. 의뢰에는 천쯔나 이 간판이 필요하지 않습니다."
+te_cigarette_lore_basic,희미한 담배 맛과 약간의 온기만 느껴진다. 말이 적은 사람들은 오래도록 담배를 피운다.
+te_cigarette_lore_flavored,밤에 부드럽게 내려앉는 향
+te_cigarette_chili_lore,피우고 나면 목이 화끈거리고 배가 따뜻해진다. 야간 근무 전에 한 개비 피우면 바람조차 더는 춥게 느껴지지 않는다.
+te_cigarette_rice_lore,피우고 나니 배가 부른 듯하다. 거짓인 줄 알면서도 어쩐지 마음이 놓인다.
+te_cigarette_wheat_lore,밀 향이 입안에 남는다. 햇볕에 데워진 곡식 더미에 누운 듯 따뜻하고 나른해져 잠들고 싶어진다.
+te_cigarette_wormwood_lore,쓴맛이 퍼지고 눈이 맑아지며 생각이 꼬리를 문다. 쓴 약초는 늘 생각을 너무 많이 하게 만든다.
+te_cigarette_sichuan_pepper_lore,입안이 얼얼하고 통증이 무뎌져 감각이 사라진다. 이만큼 강한 것이어야 겨우 버틸 수 있다.
+te_cigarette_lemon_lore,입안 가득 신맛이 퍼지며 졸음이 달아난다. 때로는 억지로라도 정신을 차려야 한다.
+te_cigarette_yellow_grape_lore,목구멍에 달고 끈적한 맛이 감돈다. 값비싼 술을 한 모금 마신 듯하다. 고상한 척은 연기지만 맛은 진짜다.
+te_cigarette_sugarcane_lore,단맛이 다시 감돌고 이 사이에는 사탕수수 조각이 남는다. 꼭 사탕수수 줄기를 씹는 듯하다.
+te_cigarette_cucumber_lore,시원한 기운이 목에서 배까지 미끄러져 내려간다. 여름날 우물물처럼 차고 깨끗하다.
+te_cigarette_lychee_lore,단맛이 입안에 가득 차고 손끝이 끈적하다. 손까지 달콤해진다.
+te_cigarette_jasmine_lore,희미한 향이 졸음을 부른다. 잠 못 드는 이들을 위해 밤에만 피는 꽃.
+te_cigarette_green_grape_lore,"처음엔 떫다가 이내 달콤해진다. 새콤한 단맛이 입을 열고, 부드러운 단맛이 오래 남는다."
+te_cigarette_osmanthus_lore,"계화 향이 가느다랗게 오래 머문다. 그해 옷깃에 꽂았던 가지는 아직 남아 있지만, 떠난 사람은 돌아오지 않았다."
+te_cigarette_bayberry_lore,시고 떫은맛이 가슴에 내려앉는다. 그녀는 머리가 하얗게 셀 때까지 기다렸지만 편지 한 통만 받았다.
+te_cigarette_stardust_berry_lore,입안이 시원해지고 끝없는 별바다에 떠 있는 듯하다. 조용히 생각을 정리하기에 좋다.
+te_cigarette_void_plum_lore,중력을 잃고 우주를 떠도는 듯한 느낌
+te_cigarette_condition_help,"\n두 번 클릭해 검사 화면을 열거나, 마우스 오른쪽 버튼을 클릭하고 상태 확인을 선택해 눅눅함과 결함을 확인하세요. 결함은 수리할 수 없습니다."
+te_cigarette_authentication_help,돋보기와 진위 감별 안내서를 사용해 진품 여부를 따로 확인하세요.
+te_cigarette_always_genuine,항상 정품
+te_cigarette_label_help,"\n창에서 라벨 확인을 누르면 일회용 라벨을 떼어 내고 원래 생산자와 가격으로 되돌립니다. 수제품에는 생산자 보정치 -20%가 적용되며, 도장이나 라벨을 붙이면 해당 보정치로 대체됩니다. 니코틴 중독 상태라면 우클릭하여 섭취하세요."
+te_cigarette_regular_name,xuxu 기본 담배
+te_cigarette_chili_name,고추 담배
+te_cigarette_rice_name,쌀 담배
+te_cigarette_wheat_name,밀 담배
+te_cigarette_wormwood_name,쑥 담배
+te_cigarette_sichuan_pepper_name,쓰촨 후추 담배
+te_cigarette_lemon_name,레몬 담배
+te_cigarette_yellow_grape_name,황포도 담배
+te_cigarette_sugarcane_name,사탕수수 담배
+te_cigarette_cucumber_name,오이 담배
+te_cigarette_lychee_name,리치 담배
+te_cigarette_jasmine_name,재스민 담배
+te_cigarette_green_grape_name,청포도 담배
+te_cigarette_osmanthus_name,계화 담배
+te_cigarette_bayberry_name,양매 담배
+te_cigarette_stardust_berry_name,별가루 베리 담배
+te_cigarette_void_plum_name,공허 매실 담배
+te_syringe_status,남은 추출 횟수: {0}/2. 보유 추출물: {1}회분.\n양조용 펄프에 끌어다 놓아 4분의 1을 뽑으세요. 추출할 때마다 1회분을 얻습니다. 추출물이 남아 있는 동안에는 맛을 섞을 수 없습니다.\n채운 주사기를 기계의 추출물 칸에 넣으세요. 과일 담배 한 갑에 1회분을 씁니다. 두 번 모두 추출한 뒤에는 마지막 추출물이 담뱃갑 제작에 성공할 때에만 주사기가 소모됩니다.
+te_dryer_name,담배 건조기
+te_dryer_description,"두 번 클릭해 여세요. 전원 칸에 충전된 배터리를 넣고, 재료 칸에는 담뱃잎이나 축축한 말린 담뱃잎 또는 눅눅한 담뱃조각을 넣으세요.\n가공하면 건조 가능한 재료를 모두 말리며 묶음당 전력 6을 소비합니다. 밤새 말리면 전력 6으로 재료 하나를 처리합니다. 출력 공간에 묶음 전체가 들어가야 하며, 공간이 부족하면 재료나 전력을 소비하지 않습니다. 자세한 내용은 오른쪽의 안내서를 여세요."
+te_maker_name,담배 제조기
+te_maker_description,"두 번 클릭해 여세요. 충전된 배터리를 넣고, 담뱃조각 칸에 담뱃조각을, 종이 칸에 낱장 종이나 상자째 종이를 넣으세요. 클릭하거나 밤이 지나면 담뱃조각 1개, 종이 2장, 전력 4를 사용해 담뱃갑 1개를 만듭니다.\n선택 사항: 추출물 칸에 채운 주사기를 넣으면 담뱃갑마다 추출물 1회분을 공급합니다. 없으면 기본 담배를 만듭니다. 첨가제 칸의 약품은 여러 묶음이어도 전부 한 담뱃갑에 들어가 도취 효과와 독성을 더합니다. 눅눅한 담뱃조각은 고칠 수 없는 결함을 유발합니다. 출력 칸에서 가져가세요. 오른쪽 안내서를 참조하세요."
+te_guide_name,과일 담배 진위 감별 안내서
+te_guide_description,"구입한 뒤 두 번 클릭해 읽으세요. 아래쪽 화살표로 페이지를 넘기고 오른쪽 위 버튼으로 확대할 수 있습니다. 14쪽에 걸쳐 과일 담배 7종의 진품 포장, 글자, 봉인 및 상표를 비교합니다.\n돋보기로 담뱃갑을 검사하고 안내서와 비교하세요. 진위 여부를 확인합니다. 결함은 상태 확인, 일회용 제조사 라벨은 라벨 확인을 사용하세요."
+te_story_description,{0}쪽 분량의 외곽 고리 이야기입니다. 구입한 뒤 두 번 클릭하거나 열기를 선택하세요. 책의 최대화 버튼으로 크게 볼 수 있습니다. 이야기 본문은 중국어입니다.
+te_story_book_forty_seven_name,마흔일곱
+te_story_book_nini_name,니니
+te_story_book_short_stories_name,외곽 고리 단편집
+te_overlabel_action,"보유한 담뱃갑 하나에 끌어다 놓기 · 라벨 1개 사용, 표시 제조사를 {0}(으)로 변경\n"
+te_overlabel_standard,이 제조사는 표준 가격을 적용하며 제조사 보너스나 페널티가 없습니다.
+te_overlabel_bonus,이 생산자는 가격을 {0}% 올려 줍니다.
+te_overlabel_warning, 이전 제조사의 보너스나 페널티를 대체하며 중첩되지 않습니다.\n라벨 확인으로 떼어 내면 라벨은 돌려받지 않고 원래 제조사와 가격으로 복구됩니다. 고객에게 들키면 외곽 구역 평판이 10 감소합니다. 의뢰에는 원래 제조사의 가치가 적용됩니다.
+te_stamp_tool_description,두 번 클릭해 여세요. 특별 의뢰로 얻은 업체 도장을 넣고 슬롯 옆의 활성화를 선택하세요. 한 번에 도장 하나만 활성화할 수 있습니다.\n도구를 소유한 담뱃갑에 끌어다 놓으면 제조사와 제조사 가격 보정치가 영구적으로 바뀌고 일회용 라벨은 제거됩니다. 도구나 도장은 소모되지 않습니다.
+te_stamp_action,"담배 도장 도구에 넣고 활성화한 다음, 도구를 소유한 담뱃갑에 끌어다 놓으면 제조사가 {0}(으)로 영구 변경됩니다.\n"
+te_stamp_standard,표준 가격이며 제조사 보너스나 페널티가 없습니다.
+te_stamp_bonus,제조사 가격 보너스: {0}%.
+te_stamp_reuse, 이전 제조사의 보너스나 페널티를 대체하며 중첩되지 않습니다. 특별 의뢰로 얻으며 일회용 라벨과 달리 계속 재사용할 수 있습니다.
+te_debug_catalogue_01,일회용 라벨
+te_debug_catalogue_02, 도장
+te_debug_catalogue_08,말아 피우는 종이 상자(가득 참)
+te_debug_catalogue_10,남은 펄프 (비어 있음)
+te_debug_catalogue_17,담배 도장 도구
+te_inventory_01,담배 공방
+te_cigarette_actions_01,상태 확인
+te_cigarette_chemistry_01,약함
+te_cigarette_chemistry_02,눈에 띔
+te_cigarette_chemistry_03,강함
+te_cigarette_chemistry_04,강렬함
+te_cigarette_chemistry_05,희미함
+te_cigarette_chemistry_06,없음
+te_cigarette_chemistry_07,치명적
+te_cigarette_chemistry_08,유독함
+te_cigarette_chemistry_09,낮음
+te_cigarette_chemistry_11,도취감: 
+te_cigarette_chemistry_12, (
+te_cigarette_chemistry_13,)
+te_cigarette_chemistry_14,  독성: 
+te_condition_labels_01,담배 상태
+te_condition_labels_02,상태 선택
+te_items__quality_01,상태 미확인
+te_items__refresh_01,가짜
+te_items__refresh_02,진품
+te_items__refresh_06, (눅눅함)
+te_items__refresh_08,추출 횟수가 남은 주사기를 이 펄프에 끌어다 놓으세요. 사용할 때마다 4분의 1을 뽑아 담배 추출물 1회분을 얻습니다.\n이 펄프는 더 이상 온전한 한 덩이가 아니므로 전체 펄프가 필요한 양조법에 사용할 수 없습니다.
+te_overlabels_02,제조사 라벨을 자세히 확인하겠습니다. 라벨을 바꾼 담뱃갑을 속여 팔 생각은 마세요.
+te_overlabels_03,이 라벨은 나중에 붙인 거죠? 원래 제조사는 다른 곳이네요. 솔직히 말하세요.
+te_producer_labels_01,파스텔
+te_producer_labels_02,아펠리온 인터스텔라
+te_producer_labels_03,케플러
+te_producer_labels_04,xuxu 외곽 구역 회사
+te_producer_labels_05,수제
+te_producer_labels_06,생산자 라벨
+te_stamp_machine_03,꺼짐
+te_stamp_machine_04,활성
+te_machine_instructions_01,"1. 충전된 배터리를 넣으세요.\n2. 재료 칸에 담뱃잎, 눅눅해진 말린 담뱃잎 또는 눅눅한 담뱃조각을 넣으세요.\n\n3. 가공하면 건조 가능한 재료를 모두 말리며 묶음당 전력 6을 소비합니다. 묶음 전체가 출력 칸에 들어가야 하며, 공간이 부족하면 재료나 전력을 소비하지 않습니다.\n4. 밤새 가공하면 재료 하나를 전력 6으로 말립니다.\n5. 마른 담뱃잎이나 담뱃조각을 가져가세요. 이 재료들은 하룻밤 사이 눅눅해지며 다시 말릴 수 있습니다. 담뱃잎은 자연적으로 이틀 뒤 눅눅해진 말린 담뱃잎이 됩니다."
+te_machine_instructions_02,"1. 충전된 배터리를 넣으세요.\n2. 담뱃조각 칸에 담뱃조각을 넣으세요. 종이 칸에는 낱장 담배 종이나 종이 상자를 넣을 수 있으며, 내용물을 자동으로 사용하고 빈 상자는 남깁니다. 담뱃갑 하나당 담뱃조각 1개, 종이 2장, 전력 4가 필요합니다.\n\n3. 선택적으로 과일 추출물이 든 주사기를 추출물 칸에 넣으면 향 담배를 만들 수 있습니다. 추출물이 없으면 기본 담배를 만듭니다. 주사기의 추출 횟수에는 제한이 있습니다.\n4. 첨가제 칸에는 드림 더스트, 펜타닐 정제 등 도취 효과나 독성이 있는 약품을 선택적으로 넣을 수 있습니다. 한 번 가공할 때 모든 약품의 전체 묶음 수량이 흡수되어 실제 성분이 담뱃갑 하나에 더해집니다. 약품은 선택 사항입니다.\n5. 가공하면 담뱃갑 하나를 만듭니다. 밤새 가공해도 하나를 만듭니다. 재료나 전력, 출력 공간이 부족하면 생산되지 않습니다.\n6. 축축한 담뱃조각은 복구할 수 없는 결함을 만듭니다. 완성품은 출력 칸에서 가져가세요."
+te_machines_01,재료와 배터리를 넣으세요.\n그런 다음 가공을 누르세요.
+te_machines_02,가공
+te_machines_03,가공 완료.\n출력 칸에서 가져가세요.
+te_machines_04,"재료, 충전량\n및 출력 공간을 확인하세요."
+te_machines_05,담뱃조각
+te_machines_06,재료
+te_machines_07,생산물
+te_machines_08,종이
+te_machines_09,추출물
+te_machines_10,첨가물
+te_buyer_preferences_01,종류가 꽤 많다고 들었어요. 거래 패널에 원하는 조건을 적어 뒀으니 실망시키지 마세요. 담배 맛에 아주 까다로우니 속일 생각은 마세요.
+te_buyer_preferences_02,긴 하루를 보낸 뒤엔 그저 입에 맞는 담배를 피우고 싶어요. 원하는 조건은 거래 패널에 적어 뒀어요. 화려한 포장엔 관심 없어요. 하층 구역에서 이런 건 충분히 봤거든요.
+te_buyer_preferences_03,길에서 담배가 특별하다는 이야기를 들었습니다. 원하는 조건은 거래 패널에 적혀 있습니다. 친구들에게 가져갈 담배를 몇 개 골라 주세요.
+te_buyer_preferences_04,"오늘은 제게 맞는 담배를 찾고 있어요. 원하는 조건은 거래 패널에 적어 뒀으니, 괜찮은 걸 찾아주면 이야기해 보죠."
+te_buyer_preferences_05,기본 담배
+te_buyer_preferences_06,불량 담배 묶음
+te_buyer_preferences_07,위조품 (+10%)
+te_buyer_preferences_08,진품 담뱃갑 (+10%)
+te_buyer_preferences_09,이 묶음의 추가 금액: +
+te_outer_tobacco_reputation_01,새로운 담배 및 술 의뢰를 받을 수 없습니다.
+te_outer_tobacco_reputation_02,"천쯔의 담배 가게가 문을 닫고, 일일 의뢰가 하나로 줄어듭니다."
+te_regional_inspection_01,이 담배는 불량이네요. 한 모금이면 알 수 있어요. 맛은 숨길 수 없죠.
+te_regional_inspection_02,이건 위조품이에요. 하층 구역에서는 매일 이런 걸 다루니 한눈에 알아보죠.
+te_tobacco_shop_01,천쯔의 담배 가게
+te_tobacco_shop_02,"어서 오세요. 씨앗과 담배 종이, 도구는 계산대에 있어요. 천천히 둘러보시고 필요한 게 있으면 말씀하세요."
+te_tobacco_shop_03,천쯔가 드론을 보내 바닥에 남은 물건을 모두 옮길 거예요. 정말 떠나시겠어요?
+te_trade_sections_01,선호 조건:
+te_trade_sections_02,생산자 라벨:
+te_visitors_01,천쯔
+te_visitors_02,하층 구역 담배 상인
+te_visitors_03,골목 담배 상인
+te_visitors_04,상층 구역 담배 상인
+te_visitors_05,더 둘러보세요. 마음에 드는 게 있으면 이야기해요.
+te_visitors_06,좋습니다. 물건은 당신께 넘기죠.
+te_visitors_07,다음에 또 봐요. 향기가 조금 남도록 하죠.
+te_visitors_08,매일 생산자 라벨을 가져와요. 평판이 높을수록 라벨도 더 많이 가져오죠. 마음에 드는 게 있나요? 의뢰 물품 납품과 보상 수령은 단말기에서 하세요. 보상은 바로 계산대로 전달됩니다.
+te_visitors_09,원하는 라벨을 거래대에 올려두면 거래하죠.
+te_visitors_10,주문하신 라벨이에요. 다음에 또 봐요.
+te_visitors_11,오늘 가져온 라벨은 모두 팔렸어요. 내일 봐요.
+te_order_terminal_02,외곽환 의뢰 단말기
+te_order_terminal_03,"의뢰를 확인하고 수락한 뒤 보유 물품을 제출하세요. 완료된 의뢰의 보상도 여기서 수령할 수 있으며, 천쯔를 기다릴 필요 없이 물품이 바로 계산대로 전달됩니다. 완료 후 미수령한 의뢰는 기한이 지나면 자동 정산됩니다."
+te_order_window_01,특별 · 
+te_order_window_02,일반
+te_order_window_03,희귀
+te_order_window_04,진귀
+te_order_window_05,수락 가능 · 
+te_order_window_06,일 후
+te_order_window_07,남은 기간: 
+te_order_window_08,일
+te_order_window_09,완료 · 수령을 누르세요
+te_order_window_12,지급 완료 · 보상 물품 수령 대기
+te_order_window_13,지급 완료
+te_order_window_14,만료 · 제출 물품 반환 불가
+te_order_window_15,의뢰 상세 정보
+te_order_window_16,의뢰인: 
+te_order_window_17,보상: 
+te_order_window_18, 영구 도장; 크레딧 없음
+te_order_window_19,보상: 제출 물품의 실제 가치 + 
+te_order_window_20, 크레딧
+te_order_window_21,외곽환 평판 +5; 무작위 씨앗: 
+te_order_window_22,제출 물품의 실제 가치: 
+te_order_window_23,수령 대기 중인 씨앗: 
+te_order_window_24,. 동반 씨앗은 보관됩니다. 수령하려면 Brewing Expansion을 다시 설치하세요.
+te_order_window_25,. 계산대에 공간을 만든 뒤 다시 수령하세요.
+te_order_window_26,수락한 계약의 술 요구 사항은 유지됩니다. 납품을 계속하려면 Brewing Expansion을 다시 설치하세요.
+te_order_window_27,도장 수령 대기 중: 계산대에 2×2 공간을 만든 뒤 다시 수령하세요.
+te_order_window_28,이번 주 완료한 의뢰: 
+te_order_window_29,"다음 생산자의 특별 의뢰를 해금하려면 일주일 안에 의뢰 7개를 완료하세요. 주당 한 번 도전할 수 있으며, 실패하면 다음 주에 다시 자격을 얻어야 합니다."
+te_order_window_30,"대기 중인 의뢰를 선택하고 보유 물품을 제출하세요. 완료 후 단말기에서 보상을 수령하면 크레딧과 평판은 즉시 정산되고, 씨앗과 도장은 계산대로 전달됩니다. 공간이 부족한 물품은 수령 대기 상태로 남습니다. 천쯔나 담배 간판은 필요하지 않습니다. 완료 후 미수령한 의뢰는 기한이 지나면 정산됩니다. 미완료 상태로 만료된 의뢰의 물품은 반환되지 않지만 추가 평판 페널티는 없습니다."
+te_order_window_art_03,수락 가능
+te_order_window_art_04,대기 중
+te_order_window_art_05,수락
+te_order_window_art_06,보유 물품 제출
+te_order_window_art_07,특별
+te_order_window_art_08,물품
+te_order_window_art_09,수령
+te_order_window_art_10,납품 대상으로 선정
+te_order_window_art_11,완료되었습니다. 지금 수령하면 물품이 계산대로 전달됩니다.
+te_order_window_art_12,계산대에 공간을 만든 뒤 남은 물품을 수령하세요.
+te_order_window_art_13,얼굴을 클릭해 의뢰를 확인하세요.
+te_order_window_art_14,진행 중인 의뢰가 5개입니다. 새 의뢰를 수락하려면 하나를 완료하세요.
+te_order_window_art_15,외곽환 평판이 -80 이하입니다. 새 의뢰를 받을 수 없습니다.
+te_condition_menu_01,습기로 인해 복구 불가능한 결함이 생겼습니다. 가치 -30%.
+te_condition_menu_02,"건조한 잎담배, 선명한 향, 양호한 상태"
+te_condition_menu_04,라벨 확인
+te_condition_menu_05,라벨이 벗겨졌습니다. 원래 생산자로 복원되었습니다.
+te_condition_menu_06,일회용 라벨이 없습니다.
+te_condition_menu_07,확대경으로 진품 여부를 확인하세요.
+te_quality_good,양호
+te_quality_defective,불량
+te_quality_irreparable,불량 (복구 불가)
+te_quality_genuine,정품
+te_quality_fake,위조품
+te_fruit_generic,과일
+te_flavor_chili,고추
+te_flavor_rice,쌀
+te_flavor_wheat,밀
+te_flavor_wormwood,쑥
+te_flavor_sichuan_pepper,화자오
+te_flavor_lemon,레몬
+te_flavor_yellow_grape,황포도
+te_flavor_sugarcane,사탕수수
+te_flavor_cucumber,오이
+te_flavor_lychee,리치
+te_flavor_jasmine,자스민
+te_flavor_green_grape,청포도
+te_flavor_osmanthus,계화
+te_flavor_bayberry,양매
+te_flavor_stardust_berry,별가루 베리
+te_flavor_void_plum,공허 자두
+te_fruit_extract_name,{0} 추출물
+te_fruit_remaining_name,남은 과육: {0}
+te_cut_space,담뱃잎 조각 {0}개를 놓을 공간을 확보하세요. 담뱃잎은 소모되지 않았습니다.
+te_dryer_guide_title,담배 건조기 안내
+te_maker_guide_title,담배 제조기 안내
+te_supply_add,"첸즈의 담배 씨앗과 추출 주사기: 각각 +{0}, 재고 각각 {1}개."
+te_supply_remove,"천쯔의 담배 씨앗과 추출 주사기: 각각 -{0}, 재고 각각 {1}개."
+te_supply_paper," 담배 종이 상자: +{0}, 재고 {1}개"
+te_supply_vendor,담배 상인 보유량: {1}갑 (+{0})
+te_supply_labels, 천쯔의 일회용 라벨 일일 보유량: {1}장(+{0}).
+te_order_person_0,고물상
+te_order_person_1,상층 구역 주민
+te_order_person_2,우주 여행자
+te_order_person_3,노숙 여행자
+te_order_person_4,동료 상인
+te_order_person_5,관광객
+te_order_reason_0,곧 고철 처리장 야간 근무에 들어가. 동료들이 쓸 물품을 가져다줘. 퇴근하고 다 같이 즐길 거야.
+te_order_reason_1,작은 모임을 열 거예요. 손님마다 취향이 다르니 목록대로 부탁해요.
+te_order_reason_2,곧 함선이 출발합니다. 긴 항해 동안 외곽 지역의 맛을 즐기고 싶군요.
+te_order_reason_3,이제 또 잘 곳을 찾아야 해. 길은 추우니 물품 몇 개가 있으면 도움이 되겠어.
+te_order_reason_4,재고가 부족한데 단골들이 기다리고 있어. 이 목록을 채워 줘. 좋은 거래가 되길 바라.
+te_order_reason_5,솜씨가 좋다고 들었어요! 여행 중에 만난 친구들에게 줄 선물 몇 개를 사고 싶어요.
+te_order_special_reason_0,"요즘 「속세」 담배와 술 맛이 그리움. 몇 개 가져다주면 좋겠네. 걱정 마, 섭섭지 않게 보답할게~"
+te_order_special_reason_1,요즘 다들 「먼 곳에서」의 맛을 이야기하더군… 호기심이 생겨 몇 개 맛볼 수 있게 가져다주면 좋겠어. 단말기에 제출하면 확인할게~
+te_order_special_reason_2,이름만 들어도 추억이 떠오르는 맛이 있지. 「그리움」 담배나 술을 몇 개 찾아줘. 무슨 추억이냐고? 우리끼리 비밀로 하자~
+te_order_special_reason_3,이제 잔광 담배와 술도 구할 수 있다며? 내 몫도 남겨 줘. 늘 그렇듯 단말기에 제출해. 누가 나에 대해 물으면 맛 이야기만 했다고 해~
+te_tier_0,일반
+te_tier_1,먼 곳에서
+te_tier_2,그리움
+te_tier_3,잔광
+te_order_face_0,일반 의뢰
+te_order_face_1,레벨 2
+te_order_face_2,레벨 3
+te_order_any_mix,담배 또는 술 {0}개(혼합 가능)
+te_order_any_smoke,담배 {0}개
+te_tier_min_1,「먼 곳에서」 이상
+te_tier_min_2,「그리움」 이상
+te_noun_wine, 술
+te_noun_smoke, 담배
+te_unit_items,개
+te_unit_wine,병
+te_unit_smoke,갑
+te_tab_pending,진행 중인 의뢰
+te_tab_available,수락 가능한 의뢰
+te_empty_pending,진행 중인 의뢰가 없습니다.
+te_empty_available,오늘의 의뢰를 모두 수락했습니다. 내일 다시 확인하세요.
+te_order_reputation_block,외곽 지역 평판이 -80 이하이면 새 의뢰를 받을 수 없습니다. 기존 의뢰는 계속 납품하고 보상을 받을 수 있습니다.
+te_order_incomplete,보상을 요청하기 전에 이 의뢰를 완료하세요.
+te_inspection_not_required,이 품종은 항상 진품입니다. 물품을 두 번 클릭해 상태를 확인하세요.
+te_intro_chenzi,"씨앗과 종이, 도구는 내 담배 상점에 있어. 나는 매일 일회용 생산자 라벨을 가져오는데, 평판이 높을수록 수량도 늘어나. 단말기에서 재고의 의뢰 물품을 바로 납품할 수도 있어."
+te_intro_vendor,"물건은 탁자 위에 있어. 상태를 확인하고, 포장이 진짜인지는 네 눈을 믿어."
+te_order_product_be_chili_wine,고추주
+te_order_product_be_rice_wine,쌀술
+te_order_product_be_wheat_wine,맥주
+te_order_product_be_wormwood_wine,압생트
+te_order_product_be_sichuan_pepper_wine,쓰촨 후추주
+te_order_product_be_lemon_wine,레몬주
+te_order_product_be_yellow_grape_wine,브랜디
+te_order_product_be_sugarcane_wine,럼
+te_order_product_be_cucumber_wine,오이주
+te_order_product_be_lychee_wine,리치주
+te_order_product_be_jasmine_wine,"밤꽃, 흩날리는 눈"
+te_order_product_be_green_grape_wine,서리 맺힌 포도
+te_order_product_be_osmanthus_wine,황금빛 계화의 혼
+te_order_product_be_bayberry_wine,진홍 구슬 이슬
+te_order_product_be_void_plum_wine,"떨어진 깃털, 아침 안개"
+te_order_product_be_stardust_berry_wine,식지 않은 잔광
+te_order_product_be_gusui_wine,고향의 이삭
+te_order_product_be_chimadu_wine,붉은 마비의 나루
+te_order_product_be_suantian_banzhan_wine,새콤달콤 반 잔
+te_order_product_be_bipo_liuguang_wine,"비취 호박, 흐르는 빛"
+te_order_product_be_banzhan_suanku_wine,새콤씁쓸 반 잔
+te_order_product_be_daopo_shuanggan_wine,"쌀빛 호박색, 두 겹의 단맛"
+te_order_product_be_maigan_niang_wine,달콤한 밀술
+te_order_product_be_lychee_rice_wine,리치 찹쌀 빙주
+te_order_product_be_lychee_wormwood_wine,갈대 잎의 속삭임
+te_order_product_be_lychee_chili_wine,"맑은 리치, 흐르는 노을"
+te_order_product_be_moxiang_miniang_wine,재스민 쌀술
+te_order_product_be_moning_qingxiao_wine,재스민 레몬 새벽
+te_order_product_be_huazhe_liunian_wine,"꽃과 사탕수수, 흘러간 세월"
+te_order_product_be_bimai_liujin_wine,"비취 밀, 흐르는 금빛"
+te_order_product_be_cuiyu_qingzhu_wine,에메랄드 진주
+te_order_product_be_zilu_jinfeng_wine,"보랏빛 이슬, 황금 바람"
+te_order_product_be_moli_qingti_wine,재스민 청포도
+te_order_product_be_guixin_chisu_wine,"계수나무 편지, 뒤늦은 신맛"
+te_order_product_be_jianghen_chenzhe_wine,사탕수수에 잠긴 진홍빛 흔적
+te_order_product_be_zhuolei_xiandan_wine,붉음을 머금은 타는 눈물
+te_order_product_be_cuoji_shu_wine,철 지난 편지
+te_order_product_be_chenyuan_miniang_wine,심연에 잠긴 쌀술
+te_order_product_be_konggu_kuai_wine,빈 골짜기의 쑥
+te_order_product_be_xingluo_maitian_wine,별이 내리는 밀밭
+te_order_product_be_lengxing_ruzhan_wine,잔 속의 차가운 별
+te_order_product_be_yexiang_chenji_wine,"밤의 향기, 고요히 잠들다"
+te_order_product_be_xingzhui_qingteng_wine,"별의 추락, 푸른 덩굴"
+te_order_product_be_xingchen_wange_wine,별가루의 비가
+te_order_product_be_misc_wine,잡주
+te_order_product_be_yidiao_wine,어긋난 음정
+te_order_product_be_cuofu_wine,잘못 건넨 마음
+te_order_product_be_yujin_wine,잿불
+te_order_product_be_midautumn_osmanthus_wine,옥토끼가 문 계수나무
+te_order_product_be_nian_heshi_wine,대체 무슨 생각이었을까
+te_order_product_be_qingxi_liuchun_wine,푸른 틈에 머문 봄
+te_order_product_be_wujian_liubai_wine,안개 속 여백의 편지
+te_order_product_be_jiangyuan_xiangfeng_wine,"리치의 속삭임, 은은한 단맛"
+te_order_product_be_qingti_weifeng_wine,청포도 산들바람
+te_order_product_be_mobai_qinglu_wine,희디흰 재스민 이슬
+te_order_product_be_mijin_wanzhao_wine,꿀빛 황금 노을
+te_order_product_be_jieban_yuxi_wine,꽃잎의 마지막 숨결
+te_button_available,수락 가능
+te_button_pending,대기 중
+te_button_accept,수락
+te_button_claim,수령
+te_button_submit,보유 물품 제출
+te_story_forty_seven_page_01,"내 식별 번호는 47. 애초에 이름은 내 것이 아니었다. 나는 핵심 구역에서 대량으로 길러 낸 도구였다. 기억이 시작된 순간부터 핵심 구역의 밀폐 훈련 포드에서 살았다.\n\n어린 시절도 온기도 없이, 날마다 전투와 잠입, 암살 훈련만 이어졌다.\n\n핵심 구역에는 깔끔하고 효율적인 칼날이 필요했고, 내가 바로 그 칼날이었다. 그들은 공감과 연민을 결함으로 여겨 내 불필요한 감정을 몇 번이고 갈아 없앴고, 어떤 대가를 치르더라도 명령에 복종해 임무를 완수하라고 요구했다."
+te_story_forty_seven_page_02,상층 구역 사람들은 나를 이용했지만 결코 존중하지 않았다. 그들에게 나는 소모품에 불과했다.\n\n임무를 마쳐도 칭찬은 없었다. 돌아오는 것은 차가운 임무 접수증뿐이었다.\n\n작전에 흔적이 남아 발각될 위험이 생기면 나는 골칫거리로 분류되어 언제든 버려질 수 있었다.\n\n같은 기수의 「도구」들이 임무에 실패한 뒤 소리 없이 포드에서 사라지는 모습을 보았다.
+te_story_forty_seven_page_03,"나는 셀 수도 없이 많은 제거 임무를 수행했고, 두 손에는 헤아릴 수 없는 흔적이 남았다. 내가 살아남은 것은 쓸모가 충분했기 때문일 뿐이었다. 하지만 도구에도 금은 간다. 상부에서 내린 어느 임무 뒤, 나는 명령 이면의 추악한 이권 거래를 엿보았다. 그때 문득 깨달았다. 나는 영원히 칼날일 뿐, 사람은 될 수 없다는 것을.\n\n나를 기다리는 결말은 임무 중 파괴되거나, 쓸모를 잃은 뒤 폐기되는 것뿐이었다."
+te_story_forty_seven_page_04,"그런 최후를 맞고 싶지 않았다. 나는 탈출하고 싶었다.\n\n현장 작전의 혼란을 틈타 코어가 내 몸에 새긴 모든 것을 없앴다. 피부 밑에 묻힌 추적 신호기 여러 개와 어깨 아래 연조직에 박힌 칩이었다.\n\n수술 도구가 없어 중층 구역의 버려진 정비 통로에 숨어, 주워 온 망가진 절단 도구로 살 속에서 억지로 뜯어낼 수밖에 없었다."
+te_story_forty_seven_page_05,"금속 파편이 조직을 찢자 통증이 모든 신경을 타고 내달렸다. 신호기를 억지로 뜯어낸 자리에는 살이 뒤집히고 곪은 상처가 여러 군데 남았다.\n\n뜨거운 도관으로 그 부위의 피부가 녹을 때까지 지졌다. 좁은 통로에 살 타는 냄새가 가득 찼다. 대가는 영원했다. 어깨 아래에는 울퉁불퉁한 오래된 흉터가 남았고, 그곳에는 온전한 피부가 다시 자라지 않는다."
+te_story_forty_seven_page_06,"그때쯤 핵심 구역 기록상 지명번호 47은 이미 전사한 시체였다. 하지만 추격대는 나를 놓아주지 않았다. 붉은 경보등이 통로를 따라 깜박였고, 순찰 드론은 중층 구역의 거리를 윙윙거리며 누볐다. 탐조등이 모든 그림자를 몇 번이고 훑었다.\n\n에너지탄이 격벽에 부딪혀 폭발하고 녹아내린 금속 파편이 튀었다. 파편에 팔다리가 베인 것만도 여러 번이었다."
+te_story_forty_seven_page_07,"공용 통로로는 갈 수 없었다. 환기구와 버려진 정비층을 통해 아래로 도망칠 수밖에 없었다.\n\n피를 너무 흘려 시야가 흐려졌다. 마침내 하층 구역에 쌓인 쓰레기 산을 기어 넘었다. 쓰레기 더미에는 폐기물과 고장 난 기계의 잔해가 가득했다.\n\n날카로운 금속 조각이 채 아물지도 않은 상처를 찢었다. 팔과 허리로 피가 흘러내렸고, 한 치 움직일 때마다 마찰이 일으키는 찢어지는 고통을 견뎌야 했다."
+te_story_forty_seven_page_08,폐허에는 죽은 부랑자와 탈영병들이 누워 있었다. 하층 구역에서 거둬 가는 이 없는 시체 더미였다.\n\n드론의 열화상 탐지를 피하려면 차가운 시체들 사이에 웅크리고 찢어진 천으로 몸을 덮은 채 숨을 참으며 죽음의 냄새에 휩싸여야 했다. 드론의 적외선 탐지기가 머리 위를 천천히 지나갔다. 윙윙거리는 소리는 귓가에 있는 듯 가까웠다. 멀지 않은 골목에서 에너지 소총 소리가 메아리쳤다.
+te_story_forty_seven_page_09,"온몸이 피투성이였고 상처는 염증으로 뜨겁게 달아올랐다. 힘은 조금씩 빠져나갔지만, 훈련이 뼛속에 새겨 놓은 생존 의지만이 나를 지탱했다. 시체와 고철 사이에서 얼마나 버텼는지 모른다. 마침내 추격 경보가 서서히 멀어졌다.\n\n나는 간신히 시체 더미에서 기어 나왔다. 손바닥으로 금속 파편과 깨진 유리를 짚었다.\n\n부서진 격벽 칸막이를 넘고, 누군가 폭파해 낸 도킹 포드의 틈을 통과했다. 당국이 오래전에 버린 곳이었다."
+te_story_forty_seven_page_10,"바람—정거장 외벽의 틈으로 스며드는 공기에는 녹과 배기가스 냄새가 섞여 있었다. 드러난 배관, 바람 새는 패널, 깜박이는 조명.\n\n이곳에는 규격화된 항온 포드도 깨끗한 훈련실도 없었다.\n\n공기에서는 녹과 화학약품 냄새가 났다.\n\n그리고… 자유의 냄새도.\n\n아무도 내게 명령하지 않았고, 내 행동을 감시하지도 않았다. 거대한 간판에는 한 문장이 적혀 있었다.\n\n외곽 고리에 오신 것을 환영합니다."
+te_story_nini_page_01,"내 이름은 니니. 상층 구역 출신이다. 하지만 사랑받는 귀족 아가씨는 아니었다. 우리 가족은 상층 구역의 거대한 회색 기계에서 한 톱니에 불과했다.\n\n우리가 절대 권력을 쥔 건 아니었다. 그저 핵심 구역과 상층 권력자들을 대신해 성간 종자와 특수 균주의 유통 허가를 처리했다. 남들 눈에는 항온 관측 포드와 완벽하게 배합한 합성주, 안락하고 우아한 생활을 누리는 집안이었다."
+te_story_nini_page_02,"하지만 집안 자체는 권력에 기대어 사는 종속 세력이었고, 윗선은 우리의 일거수일투족을 감시했다.\n\n어릴 때부터 균주를 감별하고 술을 품평하는 법을 배웠다. 좋아서가 아니라 집안의 또 다른 도구로 길러지기 위해서였다. 나나는 오랫동안 우리 집안과 짝을 이뤄 일해 온 동료였고, 다른 엘리트 분파 출신이었다.\n\n우리 사이에는 다정하고 가까운 정이 있었다. 그 고압적이고 위선적인 상층 환경에서 가면을 조금이나마 벗을 수 있는 몇 안 되는 관계였다."
+te_story_nini_page_03,"나는 그 친밀함에 진심이 담겨 있다고 믿고 싶었다. 한동안은 우리 유대를 통해 집안의 무력한 운명에서 벗어날 수 있으리라 상상했다.\n\n핵심 구역의 정책 변화가 우리의 생존 가능성을 모조리 앗아 갔다.\n\n윗선은 균주 거래의 모든 권한을 되찾으려 했고, 중개인이 이익을 나눠 갖는 일을 더는 용납하지 않았다. 우리 가족은 제거해야 할 장애물이 되었다."
+te_story_nini_page_04,"숙청은 체면을 차린 관료적 정리 작업이었다. 통모와 금지 균주 은닉 혐의를 엮었고, 절차는 완벽했으며 서류상 흠도 없었다.\n\n치안 부대가 집에 들이닥쳐 모든 거래 권한을 압수하고 가족 모두를 연행했다. 나는 이 체제가 가족을 한 걸음씩 삼키는 모습을 지켜봤다. 나나는 그 체제 안에 있었고, 알고 있었다."
+te_story_nini_page_05,"하지만 표결과 증언에서 그녀는 자기 파벌을 지키기로 했고, 이 모든 일이 벌어지도록 묵인했다. 적의 칼보다 더 깊이 파고든 사실은, 그녀가 순전히 악한 사람은 아니었다는 점이다. 그저 권력과 이익을 택하고 나를 포기했을 뿐이었다. 혼란 속에서 집안의 늙은 하인이 목숨을 걸고 포드의 감압 장치를 작동시켰다. 체제가 잠시 마비된 틈에 나를 상층 주 포드 밖으로 밀어냈다.\n\n그렇게 나는 도망쳤다."
+te_story_nini_page_06,뒤에는 정거장 전역에 내려진 공식 치안 시스템의 수배령이 남았다.\n\n내 신분 칩은 원격으로 잠겼고 신용은 전부 동결됐다. 상층과 중층의 모든 정식 통로에 검문소가 설치됐다. 아래로 달아날 수밖에 없었다. 숨고 보급품을 훔쳐 살아남은 날이 셀 수도 없었다. 화려했던 옷은 누더기가 됐고 기름때와 포드 먼지가 들러붙었다.\n\n상층 구역에서 배운 교양과 예법은 생존 앞에서 조금씩 벗겨져 나갔다.
+te_story_nini_page_07,"마침내 망가진 도킹 틈을 뚫고 나왔다. 녹슨 금속과 발효된 배기가스가 뒤섞인 공기가 목구멍으로 쏟아져 들어왔다.\n\n외곽 구역. 코어의 공식 치안 부대는 이어 붙인 폐기 포드의 미로 깊숙이 들어가는 데 드는 비용을 감수하려 하지 않았다.\n\n이곳에서는 권력의 긴 팔도 급격히 짧아졌다. 수배령은 여전히 시스템 기록에 남아 있었지만, 나를 잡으러 일부러 찾아오는 사람은 없었다."
+te_story_nini_page_08,"죽음의 위협은 멈췄지만 세상은 정의도 위안도 주지 않았다. 나는 교차하는 통로 사이를 목적 없이 떠돌았다. 머리 위 배관에서는 불꽃이 튀었고 조명은 깜박였다.\n\n나는 47의 종자 공방을 발견했다.\n\n그녀의 이름은 47이다. 어깨 아래에는 흉측한 오래된 흉터가 있고, 말수가 적으며 위로에도 서툴다. 그녀는 너무나 많은 죽음을 보아 왔다."
+te_story_nini_page_09,"그녀는 내 출신을 묻지 않았고 상층의 원한에 관해서도 캐묻지 않았다. 공방의 빈 창고 칸을 내주며 잠시 머물게 해 주었을 뿐이다. 나는 대부분 구석에 조용히 앉아 발효 중인 균주를 지켜봤다. 하지만 과거의 족쇄는 도망친다고 떨어져 나가지 않았다. 한때는 지위와 가족이 있었지만, 결국 나는 너무나 쉽게 버려졌다.\n\n이제는 아무것도 없었다. 생존조차 낯선 이의 선의에 기대야 했다."
+te_story_nini_page_10,"내 안에서 지독한 자기혐오가 자라났다. 나는 늘 내가 짐이라고, 아무 이유도 없이 포티세븐의 작업장에 내던져진 무거운 짐이라고 느꼈다.   가끔 포티세븐은 물건을 사러 나갔다가 돌아오며 먹을거리 조금이나 상처에 바를 약을 가져와 내 칸막이방 문 앞에 놓아두었다.\n\n그것들을 보면 고마움보다 수치심이 먼저 들었다. 나는 그녀가 부화기를 돌보느라 바쁠 때까지 기다렸다가 먹을거리를 바깥 조리대 위로 슬며시 밀어 돌려놓고 받기를 거부했다."
+te_story_nini_page_11,"포티세븐은 나를 가볍게 한번 쳐다보기만 하고 아무 말 없이 부화기의 온도 조절 장치를 다시 만졌다. 그녀는 남을 설득하는 데도, 듣기 좋은 빈말을 하는 데도 서툴렀다.   억눌린 감정은 은밀한 자해로 변했다.   작업장 밖에는 도관 덮개가 깨져 구리선이 드러난 곳이 있었고, 그곳에서 희미한 방전이 일었다.\n\n나는 무의식중에 손을 뻗어 불꽃에 닿으려 한 적이 한두 번이 아니었다. 손끝 앞에서 작고 푸르스름한 흰색 전기 불꽃이 깜박이는 것을 바라보았다."
+te_story_nini_page_12,"마지막 순간이 되어서야 손을 홱 거두곤 했다. 죽고 싶었던 것은 아니다. 그저 고통을 느끼고, 살갗을 찌르는 아픔으로 마음속의 무거운 수치심과 자기혐오를 덜어내고 싶었다.   한 번은 포티세븐에게 그 모습을 들켰다. 그녀는 성큼 다가와 내 손목을 움켜쥐고 뒤로 끌어당겼다. 손가락은 단단했고, 오래된 흉터의 굳은살이 내 피부에 스쳤다.\n\n나는 그녀의 손을 뿌리치고 칸막이방의 그늘 속에 몸을 웅크린 채 대답을 거부했다."
+te_story_nini_page_13,그녀가 지옥에서 기어 나온 사람이기에 내가 숨긴 생각까지 읽을 수 있다는 것을 알았다. 그녀 앞에서 내가 가장한 평온은 종잇장처럼 얇았다.   가끔 작업장에 상인들이 찾아왔다. 구석에 숨은 나를 본 외지인들은 내가 어디에서 왔는지 별생각 없이 묻곤 했다. 그럴 때면 나는 몹시 당황해 일부러 무릎 사이에 얼굴을 묻고 최대한 작게 몸을 웅크렸다. 그대로 사라져 버리고 싶었다.
+te_story_nini_page_14,"나는 과거 상층부 엘리트였던 나 자신이 싫었고, 아무것도 없이 남에게 의지하는 지금의 나도 싫었다.   나를 진정으로 무너뜨린 것은 가족이 죽은 순간이 아니라, 그 뒤로 서서히 맞춰진 진실이었다.   외곽 지역을 지나는 밀수업자들이 상층부의 자잘한 소식을 가져왔다. 나는 그 조각들을 하나씩 모아 전체 그림을 맞췄다. 그것은 한 사람의 악의가 아니라 정거장의 계급 체계 전체가 내린 선택이었다."
+te_story_nini_page_15,"나나의 침묵, 윗선의 계산, 가문의 타협—모두가 거기에 얽혀 있었다.   미워했지만 누구를 미워해야 할지 몰랐다. 복수할 구체적인 “적”은 없었다. 분노는 쏟아 낼 곳이 없었고, 슬픔은 향할 곳이 없었다.   나는 술을 마시기 시작했다.   차츰 작업장의 칸막이방에 얌전히 머무르지 않게 되었다. 구석에 앉아 씨앗을 지켜보던 소녀는 더 이상 없었다."
+te_story_nini_page_16,"술에 취해 47의 공방에 들이닥쳐 배양 병을 함부로 만지고 균주가 자라는 환경을 망치는 일이 잦았다.\n\n장난기가 조금, 그리고… 나 같은 사람에게는 안정된 구석 하나도 어울리지 않는다고 생각한 마음이 조금. 47은 눈살을 찌푸렸지만 정말로 나무라지는 않았다. 흐트러진 병들을 말없이 제자리에 돌려놓을 뿐이었다. 하지만 나는 여기에 영원히 머무를 수 없었다. 다른 도망자의 피난처에 썩어 가는 감정을 오래도록 눌러앉힐 수는 없었다."
+te_story_nini_page_17,"언젠가 그녀도 나나처럼, 상층 구역 전체처럼 나를 버릴까 두려웠다.\n\n쫓겨나기를 기다리느니 먼저 떠났다. 사십칠의 작업장을 떠났다. 그 뒤로는 정해진 거처 없이 외곽 구역의 수많은 버려진 화물 포드와 도킹 포트 사이를 떠돌았다. 상층 구역의 신분은 죽었고, 복수할 대상도 없었다.\n\n집으로 가는 길은 오래전에 불타 사라졌다.\n\n남은 것은 술 냄새를 영원히 실어 나르며 오가는 불안한 바람뿐이었다."
+te_story_short_stories_page_01,"(1)\n\n니니에게는 고정된 포드 거처가 없다. 외곽 고리의 수많은 숨겨진 화물 포드와 버려진 도킹 포트 사이를 떠돈다. 그녀가 집착하는 것은 오직 술이다.\n\n47의 말로는 처음 만났을 때 그녀는 지금과 성격이 조금 달랐고, 이렇게 술을 마시지도 않았다고 한다.\n\n언제부터 변했는지는 아무도 모른다.\n\n그녀는 포드마다 돌아다니며 집에서 빚은 술을 찾고 기묘한 발효 재료를 모으기 시작했다."
+te_story_short_stories_page_02,"새 술 소문이 도는 곳이면 어디든 그녀가 나타났다.\n\n그녀는 술에 취해 47의 양조장에 들이닥쳐 배양 병을 만지작거리고 균주가 자라는 환경을 어지럽히곤 했다. 그러면 47은 눈살을 찌푸렸다.\n\n47이 버럭 하기 전에 니니는 비틀거리며 다시 나가 버렸고, 며칠씩 모습을 보이지 않았다. 외곽 고리에는 끝이 없다. 조명은 흔들리고 거래는 끊이지 않는다. 그녀는 흩어진 상인과 수배범 사이를 누비며"
+te_story_short_stories_page_03,"때로는 출처를 알 수 없는 작은 물건을 집에서 빚은 술 한 잔과 바꾸고, 때로는 그저 재미를 찾아다녔다.   상층부에는 규격에 맞게 정제된 합성주가 있었지만 규정으로 엄격히 통제되었고, 하층부 암시장의 술은 보안대의 단속에 자주 쓸려 나갔다. 제멋대로 발효된 술은 오직 외곽 지역에서만 맛볼 수 있었다.   그녀는 외곽 지역을 누비는 바람 같아서 그림자도 흔적도 남기지 않았다. 인연도 소속도 없이, 오직 술만이 그녀의 유일한 위안이었다."
+te_story_short_stories_page_04,"(2)\n\n외곽 지역의 통풍관이 낮게 웅웅거리고, 상인들의 외침과 정박하는 우주선의 덜컹거리는 소리가 뒤섞였다.\n\n이곳에서는 개인 통신 번호를 조작하는 일쯤은 어렵지도 않았다.   심심해 죽을 지경이던 니니는 폐기된 통신 단말기에서 떼어 낸 모듈을 만지작거리다가 자신의 공개 호출 번호를 4747로 바꿨다.   공교롭게도 포티세븐 작업장의 통신 코드 끝자리도 바로 그 숫자였다.   장난이 떠오르자 니니는 어깨를 들썩일 만큼 크게 웃었다."
+te_story_short_stories_page_05,"그 뒤 사십칠에게 주문하려는 사람들은 들은 번호로 전화를 걸곤 했고, 전화를 받은 사람은 외곽 고리의 화물 포드 사이를 떠돌던 니니였다. 누군가 균주 주문을 상의하려고 전화를 걸었다. 주문품은 양조용 목서 씨앗 한 묶음과 위험한 변이 효모 작은 병 하나였다.\n\n전화가 연결되자 공방 장비의 윙윙거리는 소리 대신 니니의 태평한 웃음소리가 들렸다.\n\n“사십칠을 찾으세요?"
+te_story_short_stories_page_06,“지금은 바빠서 의뢰를 받을 수 없습니다.”   통신 저편의 밀수업자는 어리둥절해 몇 번이나 번호를 확인했다. 분명 4747이라고 적어 두었다.   밤에는 한 의뢰인이 연락해 목소리를 낮추고 암살 의뢰를 조율했다. 표적과 보수를 에둘러 말했다.\n\n통신 저편에서 니니는 집에서 빚은 술이 반쯤 남은 병을 흔들며 재미있다는 듯 듣다가 건성으로 몇 마디 답하고 통신을 끊었다.
+te_story_short_stories_page_07,"포티세븐 작업장의 통신기는 잠잠해졌고 문의는 절반 넘게 줄었다.   처음에 포티세븐은 외곽 지역의 장사가 뜸해진 줄 알았다. 단골손님이 찾아와 인상을 찌푸리며, 전화했더니 술 취한 사람이 받아 농담만 하고 사업 이야기는 전혀 하지 않더라며 따지기 전까지는.\n\n포티세븐은 눈썹을 꿈틀거렸다.   손님이 알려 준 기록을 따라 4747로 전화를 걸었다."
+te_story_short_stories_page_08,"통신이 연결되었다. 여전히 낄낄대는 니니의 목소리가 들렸고, 배경에는 멀리서 포드 문이 열리고 닫히는 금속음이 섞여 있었다.   씨앗 작업장에서는 부화기 팬이 윙윙 돌고, 유리병 속 효모가 조용히 발효되고 있었다.\n\n사십칠은 높낮이 없는 목소리로 말했다. “니니, 번호를 원래대로 돌려놔.”   니니는 한참 웃다가 실컷 웃고 나서 통신을 끊었다."
+te_story_short_stories_page_09,"포티세븐은 그 일로 끝난 줄 알았다. 하지만 그 뒤 이틀 동안에도 4747은 여전히 니니의 것이었다.\n\n포티세븐이 전화해도 바로 거절당했다. 그래서 포티세븐은 포드마다 찾아다녔지만 니니는 이미 빠져나간 뒤였다.   씨앗을 사려던 사람들이 계속 실수로 니니에게 전화했고, 암살 의뢰 일부도 여전히 중간에 가로채였다. 포티세븐의 장사는 산산이 흩어졌다."
+te_story_short_stories_page_10,"(3)\n\n외곽 구역의 밤은 죽음처럼 고요하고 차가우며, 녹과 황량함으로 가득하다. 포티세븐의 가게 외벽은 통로 전체에서 가장 춥고 숨 막히는 곳이었다. 그녀처럼 억눌리고 적막한 삶에는 생기가 한 점도 없었다."
+te_story_short_stories_page_11,"그때 니니는 여전히 공방에 머물고 있었다. 자기혐오와 빚진 마음으로 가득했지만 아무것도 없어 47의 거처 제공에 보답할 수 없었고, 고맙다는 말조차 하지 못했다. 그래서 어색한 마음을 꾹 눌러 담은 채 외곽 구역의 고철 더미를 뒤져 채도 높은 부서진 조명 띠와 분홍, 파랑, 보라색 형광 페인트를 한 아름 모았다.\n\n깊은 밤, 아무도 없을 때 그녀는 벽 아래 웅크리고 마음껏 칠했다."
+te_story_short_stories_page_12,"그녀는 일부러 47의 취향과 전혀 어울리지 않는 양식을 골라 벽 전체를 덮었다. 얼룩진 녹벽 위에 눈을 찌르는 요란한 색면을 그리고, 빽빽하고 삐뚤빼뚤한 소녀 취향의 하트를 그렸다. 어지럽고 유치한 그림에 깜박이는 네온빛을 더해 음산한 황무지의 벽을 황당한 “나이트클럽풍”으로 바꿔 놓았다.\n\n니니는 자신의 “작품”에 무척 만족했다.\n\n새벽에 47이 문을 열자 가장 먼저 눈에 들어온 것은 요란하게 춤추는 분홍빛과 보랏빛 하트로 뒤덮인 벽이었다."
+te_story_short_stories_page_13,"죽을 듯 차가운 공방은 유치한 낙서가 그려진 벽 하나로 완전히 부조화스러워졌다. 황당하고 기묘했다.\n\n그녀는 한참 동안 말없이 서 있었다. 어쩔 줄 몰라 하면서도 설명하기 어려운 재미를 느꼈다.\n\n그녀는 치우지도 긁어내지도 않았다.\n\n황량한 외곽 고리 깊숙이 자리한 그녀의 차갑고 외로운 공방에, 황당하고 유치한 낙서의 벽이 함께 서 있도록 내버려 두었다."
+te_label_name,{0} 일회용 라벨
+te_stamp_name,{0} 도장
+te_damp_material_name,{0} (축축함)
+te_cigarette_description,희귀도: {1}.\n{0}
+te_overlabel_description,{0}{1} 기존 생산자의 보너스 또는 페널티를 대체하며 중첩되지 않습니다.\n「라벨 확인」을 하면 라벨을 떼어 내 원래 생산자와 가격을 복원합니다. 라벨은 돌려받지 못합니다. 고객에게 들키면 외곽 고리 평판이 10 감소합니다. 의뢰 평가는 원래 생산자 기준으로 이루어집니다.
+te_stamp_description,"{0}{1} 기존 생산자의 보너스 또는 페널티를 대체하며 중첩되지 않습니다. 특별 의뢰 보상으로 획득하며, 일회용 라벨과 달리 영구적으로 재사용할 수 있습니다."
+te_chemistry_values,쾌감: {0} ({1})  독성: {2} ({3})
+te_supply_positive,천쯔의 담배 씨앗과 추출 주사기는 각각 {0}개 추가되어 재고가 각각 {1}개입니다. 담배 종이 상자는 {0}개 추가되어 재고가 {1}개입니다. 담배 상인은 담배 {3}갑을 보유합니다(+{2}). 천쯔는 매일 일회용 라벨 {4}장을 보유합니다(+{2}).
+te_commission_special,특수 · {0}
+te_commission_available,수락 가능 · 수락 후 기한 {0}일
+te_commission_remaining,남은 기간: {0}일
+te_commission_commissioner,의뢰인: {0}
+te_commission_stamp_reward,보상: 영구 도장 {0}개; 크레딧 없음
+te_commission_credit_reward,보상: 제출 물품의 실제 가치 + {0}크레딧
+te_commission_seed_reward,외곽 고리 평판 +5; 무작위 씨앗: {0}개
+te_commission_submitted_value,제출한 실제 가치: {0}
+te_commission_pending_seeds,수령 대기 중인 씨앗: {0}개
+te_commission_weekly,이번 주 완료한 의뢰: {0}/7
+te_commission_wine_requirement,{0} 와인
+te_commission_smoke_requirement,{0}개비 담배
+te_commission_progress_items,{0} {1}/{2}개 물품{3}
+te_commission_progress_wine,{0} {1}/{2}병{3}
+te_commission_progress_smoke,{0} {1}/{2}갑{3}
+te_delivery_title,납품할 물품 선택
+te_delivery_help,납품할 물품을 선택하세요. 확인하면 재고에서 차감됩니다.
+te_delivery_back,뒤로
+te_delivery_confirm,물품 {0}개 납품 확인
+te_delivery_changed,재고 또는 의뢰 내용이 변경되었습니다. 다시 선택하세요.
+te_delivery_partial,{0}개 항목을 전달했습니다. 나머지 항목을 다시 선택하세요.
+te_delivery_empty,이 조건을 충족하는 재고가 없습니다.
+te_delivery_unit,{0} ({1}/{2})
+te_delivery_details,{0} · 예상 {1} 크레딧\n{2}
+te_delivery_location_storage,창고
+te_delivery_location_counter,카운터
+te_delivery_location_back,안쪽 카운터
+te_delivery_location_display,진열장
+te_delivery_location_hidden,숨겨진 수납칸
+te_delivery_location_other,기타 재고
+te_delivery_slot,"{0} · {1}열, {2}행"
+te_commission_min_wine_score,와인 품질: {0}+점 ({1})
+te_mod_name,담배 확장팩
+te_order_common_flavored,일반 등급 향 담배 아무거나 (기본형 제외)
+te_order_alternative,둘 중 하나를 선택하세요. 첫 납품 후에는 선택이 고정되며 두 선택지를 함께 적용할 수 없습니다.
+te_cigarette_tier_lore_0,매일 걷는 거리처럼 익숙한 담배 한 갑
+te_cigarette_tier_lore_1,"갑을 여는 순간, 먼 곳에서 온 편지를 여는 듯하다."
+te_cigarette_tier_lore_2,"흐려지는 세부 기억, 익숙한 향의 기억"
+te_cigarette_tier_lore_3,"어디서 왔는지는 기억에서 희미해졌지만, 향기는 남아 있다."
