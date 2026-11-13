@@ -191,34 +191,39 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
                         }
                         else { $expressions.Add($expression) }
                     }
+                    $sameNameCount = @($type.Methods | Where-Object Name -eq $method.Name).Count
+                    $staticSignature = $null -eq $issue
+                    foreach ($expression in $expressions) {
+                        if (-not $expression.StartsWith('typeof(global::', [StringComparison]::Ordinal) -or
+                            -not $expression.EndsWith(')', [StringComparison]::Ordinal)) {
+                            $staticSignature = $false
+                        }
+                    }
                     if ($method.Name -eq '.cctor') {
                         $kind = 'StaticPatch'
                         $staticPatchCount++
                     } elseif ($method.Name -eq '.ctor') {
-                        $constructorCount = @($type.Methods | Where-Object Name -eq '.ctor').Count
-                        if ($constructorCount -eq 1) {
+                        if ($sameNameCount -eq 1 -or $staticSignature) {
                             $kind = 'StaticPatch'
                             $staticPatchCount++
                         } else {
                             $kind = 'Unsupported'
-                            $issue = 'Harmony string-type constructor patches cannot select one of multiple constructors without external parameter Type references'
+                            $issue = 'Harmony constructor patch cannot select an overloaded external signature'
                             $unsupportedCount++
                         }
+                    } elseif ($sameNameCount -eq 1 -or $staticSignature) {
+                        $kind = 'StaticPatch'
+                        $staticPatchCount++
                     } elseif ($null -ne $issue) {
-                        $sameNameCount = @($type.Methods | Where-Object Name -eq $method.Name).Count
-                        if ($sameNameCount -eq 1) {
-                            $issue = $null
-                            $unqualifiedTarget = $true
-                        } else {
-                            $kind = 'Unsupported'
-                            $unsupportedCount++
-                        }
+                        $kind = 'Unsupported'
+                        $unsupportedCount++
                     }
                     $parameterNames = @($method.Parameters | ForEach-Object { Runtime-Name $_.ParameterType }) -join ', '
                     $bindings.Add([pscustomobject]@{
                         Id = $bindingId; RouteIndex = $routeIndex; TypeName = $typeName; MethodName = [string]$method.Name
                         Kind = $kind; Expressions = @($expressions); Signature = $parameterNames; Issue = $issue
                         UnqualifiedTarget = $unqualifiedTarget
+                        UseStaticSignature = $kind -eq 'StaticPatch' -and $sameNameCount -ne 1 -and $method.Name -ne '.cctor'
                     })
                 }
             }
@@ -232,7 +237,7 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
             $refreshCount++
             $refreshBindings.Add([pscustomobject]@{ Index = $refreshIndex; TypeName = [string]$action['type']; MethodName = [string]$action['method']; Stub = $refreshCount })
         }
-        $targets.Add([pscustomobject]@{ ModId = $modId; Bindings = $bindings.ToArray(); Refresh = $refreshBindings.ToArray() })
+        $targets.Add([pscustomobject]@{ ModId = $modId; Routes = $routes; Bindings = $bindings.ToArray(); Refresh = $refreshBindings.ToArray() })
     } finally { $assembly.Dispose() }
 }
 
@@ -298,7 +303,7 @@ for ($targetNumber = 0; $targetNumber -lt $targets.Count; $targetNumber++) {
         $end = [Math]::Min($start + 125, $target.Bindings.Count)
         for ($index = $start; $index -lt $end; $index++) {
             $binding = $target.Bindings[$index]
-            $parameters = if ($binding.UnqualifiedTarget) { 'null' } elseif ($binding.Expressions.Count -eq 0) { 'Type.EmptyTypes' } else { 'new Type[] { ' + ($binding.Expressions -join ', ') + ' }' }
+            $parameters = if ($binding.Kind -eq 'StaticPatch' -or $binding.UnqualifiedTarget) { 'null' } elseif ($binding.Expressions.Count -eq 0) { 'Type.EmptyTypes' } else { 'new Type[] { ' + ($binding.Expressions -join ', ') + ' }' }
             $patchType = if ($binding.Kind -eq 'StaticPatch') { "typeof(GeneratedManagedPatch_$($binding.Id))" } else { 'null' }
             $issue = if ($null -eq $binding.Issue) { 'null' } else { '"' + (Escape-CSharp $binding.Issue) + '"' }
             Line ('            bindings.Add(new ManagedExactBinding(' + $binding.Id + ', ' + $binding.RouteIndex + ', "' + (Escape-CSharp $binding.TypeName) + '", "' + (Escape-CSharp $binding.MethodName) + '", "' + (Escape-CSharp $binding.Signature) + '", ' + $parameters + ', ' + $patchType + ', ' + $issue + '));')
@@ -311,23 +316,37 @@ Line ''
 foreach ($target in $targets) {
     foreach ($binding in $target.Bindings) {
         if ($binding.Kind -ne 'StaticPatch') { continue }
-        $methodType = if ($binding.MethodName -eq '.cctor') { 'StaticConstructor' } else { 'Constructor' }
-        Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", null, MethodType.' + $methodType + ')]')
-        if ($binding.MethodName -eq '.ctor' -and $binding.Expressions.Count -ne 0) {
-            foreach ($expression in $binding.Expressions) {
-                if (-not $expression.StartsWith('typeof(global::', [StringComparison]::Ordinal) -or
-                    -not $expression.EndsWith(')', [StringComparison]::Ordinal)) {
-                    throw "Constructor binding $($binding.Id) has a parameter type that cannot be encoded in a static Harmony attribute."
-                }
-            }
+        if ($binding.MethodName -eq '.cctor') {
+            Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", null, MethodType.StaticConstructor)]')
+        } elseif ($binding.MethodName -eq '.ctor') {
+            Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", null, MethodType.Constructor)]')
+        } else {
+            Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", "' + (Escape-CSharp $binding.MethodName) + '", MethodType.Normal)]')
+        }
+        if ($binding.UseStaticSignature) {
             Line ('    [HarmonyPatch(new Type[] { ' + ($binding.Expressions -join ', ') + ' })]')
         }
         Line "    internal static class GeneratedManagedPatch_$($binding.Id)"
         Line '    {'
         Line '        [HarmonyPrepare]'
         Line "        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding($($binding.Id));"
-        Line '        [HarmonyTranspiler]'
-        Line "        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, $($binding.Id));"
+        $mode = [string]$target.Routes[$binding.RouteIndex]['mode']
+        if ($mode -eq 'literal' -or $mode -eq 'literal_occurrence') {
+            Line '        [HarmonyTranspiler]'
+            Line "        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, $($binding.Id));"
+        } elseif ($mode -eq 'result_by_argument') {
+            Line '        [HarmonyPostfix]'
+            Line "        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, $($binding.Id));"
+        } elseif ($mode -eq 'result_by_arguments') {
+            Line '        [HarmonyPostfix]'
+            Line "        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentsBinding(__args, ref __result, $($binding.Id));"
+        } elseif ($mode -eq 'result_string_array') {
+            Line '        [HarmonyPostfix]'
+            Line "        internal static void Postfix(ref string[] __result) => ManagedLiteralOverlay.PostfixStringArrayBinding(ref __result, $($binding.Id));"
+        } else {
+            Line '        [HarmonyPostfix]'
+            Line "        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, $($binding.Id));"
+        }
         Line '    }'
 }
 }

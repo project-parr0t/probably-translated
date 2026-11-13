@@ -15,15 +15,21 @@ Continuation requires:
 
 From the repository root, run:
 
-```sh
+```powershell
 dotnet build src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csproj --configuration Release -p:GameManagedDir="path/to/the/game/Managed"
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Finalize-ManagedBindings.ps1 `
+  -InputDll src/ProbablyStolenKo.Localization/bin/Release/netstandard2.1/ProbablyStolenKo.Localization.dll `
+  -OutputDll ProbablyStolenKo.Localization.dll `
+  -WorkshopRoot "path/to/Steam/steamapps/workshop/content/4348910" `
+  -GameManagedDir "path/to/the/game/Managed" `
+  -Cecil "path/to/Mono.Cecil.dll"
 ```
 
-The project preserves the `ProbablyStolenKo.Localization` assembly name and produces an optimized, deterministic build without debug symbols. Build output is ignored and is not a distributable game dependency bundle.
+The first command produces an intermediate assembly. The finalizer resolves every reviewed target against the installed, read-only mod assemblies and writes exact type/module metadata tokens into the distributable root DLL. Publish only that finalized DLL. Both steps preserve the `ProbablyStolenKo.Localization` assembly name and deterministic optimized output without debug symbols. Build output is ignored and no game or dependency assembly is bundled.
 
 ## Regenerate managed route bindings
 
-The bridge does not discover assemblies, types, or members through unrestricted runtime reflection. `tools/Expand-ManagedRoutes.ps1` expands the reviewed runtime routes into exact, capability-free targets. Normal methods use the game's guarded `ModReflect.Target` API; constructor routes use generated static Harmony patches. Generated patch classes stay disabled during the loader's assembly-wide Harmony scan and are enabled only for their exact target. Each target is patched once during its activation; resolved target types are cached, and no patch queue runs during gameplay frames.
+The bridge does not scan assemblies, types, or members by name at runtime. `tools/Expand-ManagedRoutes.ps1` expands every reviewed runtime route into generated Harmony patch classes; `tools/Finalize-ManagedBindings.ps1` replaces their intermediate string metadata with 479 exact type/module metadata-token targets and does the same for all six refresh targets. Generated patch classes stay disabled during the loader's assembly-wide Harmony scan and are enabled only for their exact target. Runtime activation contains no `ModReflect.Target` calls, no per-target caller/ownership stack validation, and no patch queue running across gameplay frames.
 
 Regenerate the bindings whenever a supported managed mod changes:
 

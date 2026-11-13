@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Reflection;
 using System.Reflection.Emit;
 using HarmonyLib;
 using Newtonsoft.Json.Linq;
@@ -188,20 +187,16 @@ namespace ProbablyStolenKo
     {
         private const string HarmonyId = "probably-stolen-ko-localization.managed-r8";
         private static readonly object Gate = new object();
-        private static readonly Dictionary<MethodBase, IReadOnlyDictionary<string, string>> LiteralRoutes =
-            new Dictionary<MethodBase, IReadOnlyDictionary<string, string>>();
         private static readonly Dictionary<int, IReadOnlyDictionary<string, string>> LiteralBindingRoutes =
             new Dictionary<int, IReadOnlyDictionary<string, string>>();
-        private static readonly Dictionary<MethodBase, IReadOnlyDictionary<string, string>> ResultRoutes =
-            new Dictionary<MethodBase, IReadOnlyDictionary<string, string>>();
-        private static readonly Dictionary<MethodBase, Tuple<int, IReadOnlyDictionary<string, string>>> ArgumentRoutes =
-            new Dictionary<MethodBase, Tuple<int, IReadOnlyDictionary<string, string>>>();
+        private static readonly Dictionary<int, IReadOnlyDictionary<string, string>> ResultBindingRoutes =
+            new Dictionary<int, IReadOnlyDictionary<string, string>>();
+        private static readonly Dictionary<int, Tuple<int, IReadOnlyDictionary<string, string>>> ArgumentBindingRoutes =
+            new Dictionary<int, Tuple<int, IReadOnlyDictionary<string, string>>>();
         private static readonly HashSet<int> EnabledStaticBindings = new HashSet<int>();
 
         private readonly Dictionary<string, Harmony> _harmonies =
             new Dictionary<string, Harmony>(StringComparer.Ordinal);
-        private readonly Dictionary<string, Type> _targetTypes =
-            new Dictionary<string, Type>(StringComparer.Ordinal);
         private readonly HashSet<string> _appliedTargets = new HashSet<string>(StringComparer.Ordinal);
         private readonly List<string> _appliedRefresh = new List<string>();
         private readonly ModLog _log;
@@ -219,14 +214,13 @@ namespace ProbablyStolenKo
                 throw new InvalidOperationException("No generated exact bindings exist for managed target " + modId + ".");
 
             var harmony = new Harmony(HarmonyId + "." + modId);
-            var patched = new List<MethodBase>();
             var staticBindings = new List<int>();
             var refreshPrepared = false;
             _harmonies.Add(modId, harmony);
             try
             {
                 foreach (var binding in bindings)
-                    ApplyBinding(harmony, binding, target, patched, staticBindings);
+                    ApplyBinding(harmony, binding, target, staticBindings);
 
                 GeneratedManagedRefresh.Prepare(harmony, modId);
                 refreshPrepared = true;
@@ -237,16 +231,15 @@ namespace ProbablyStolenKo
             }
             catch
             {
-                RollbackTarget(modId, harmony, patched, staticBindings, refreshPrepared);
+                RollbackTarget(modId, harmony, staticBindings, refreshPrepared);
                 throw;
             }
         }
 
-        private void ApplyBinding(
+        private static void ApplyBinding(
             Harmony harmony,
             ManagedExactBinding binding,
             ManagedTarget target,
-            ICollection<MethodBase> patched,
             ICollection<int> staticBindings)
         {
             if (binding.RouteIndex < 0 || binding.RouteIndex >= target.Routes.Count)
@@ -255,74 +248,43 @@ namespace ProbablyStolenKo
             if (binding.Kind == ManagedBindingKind.Unsupported)
                 throw new InvalidOperationException("Unsupported generated managed binding: " + binding.Issue);
 
-            if (binding.Kind == ManagedBindingKind.StaticPatch)
-            {
-                if (route.Mode != "literal" && route.Mode != "literal_occurrence")
-                    throw new InvalidOperationException("Constructor bindings only support literal transpilers.");
-                staticBindings.Add(binding.Id);
-                lock (Gate)
-                {
-                    LiteralBindingRoutes[binding.Id] = route.Entries;
-                    EnabledStaticBindings.Add(binding.Id);
-                }
-                try
-                {
-                    harmony.CreateClassProcessor(binding.PatchType).Patch();
-                }
-                finally
-                {
-                    lock (Gate) EnabledStaticBindings.Remove(binding.Id);
-                }
-                return;
-            }
-
-            if (!_targetTypes.TryGetValue(binding.TypeName, out var targetType))
-            {
-                targetType = ModReflect.FindType(binding.TypeName);
-                _targetTypes.Add(binding.TypeName, targetType);
-            }
-            var method = ModReflect.Target(targetType, binding.MethodName, binding.ParameterTypes);
-            patched.Add(method);
-            HarmonyMethod transpiler = null;
-            HarmonyMethod postfix = null;
+            if (binding.Kind != ManagedBindingKind.StaticPatch)
+                throw new InvalidOperationException("Generated managed binding is not an exact static patch.");
+            staticBindings.Add(binding.Id);
             lock (Gate)
             {
                 if (route.Mode == "literal" || route.Mode == "literal_occurrence")
-                    MergeLiteralRoute(method, route.Entries);
+                    LiteralBindingRoutes[binding.Id] = route.Entries;
                 else if (route.Mode == "result_by_argument")
-                    ArgumentRoutes[method] = Tuple.Create(route.ArgumentIndex, route.Entries);
-                else ResultRoutes[method] = route.Entries;
+                    ArgumentBindingRoutes[binding.Id] = Tuple.Create(route.ArgumentIndex, route.Entries);
+                else ResultBindingRoutes[binding.Id] = route.Entries;
+                EnabledStaticBindings.Add(binding.Id);
             }
-            if (route.Mode == "literal" || route.Mode == "literal_occurrence")
-                transpiler = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(Transpile));
-            else if (route.Mode == "result_string")
-                postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixString));
-            else if (route.Mode == "result_by_argument")
-                postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixByArgument));
-            else if (route.Mode == "result_by_arguments")
-                postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixByArguments));
-            else
-                postfix = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(PostfixStringArray));
-            harmony.Patch(method, postfix: postfix, transpiler: transpiler);
+            try
+            {
+                harmony.CreateClassProcessor(binding.PatchType).Patch();
+            }
+            finally
+            {
+                lock (Gate) EnabledStaticBindings.Remove(binding.Id);
+            }
         }
 
         private void RollbackTarget(
             string modId,
             Harmony harmony,
-            IEnumerable<MethodBase> patched,
             IEnumerable<int> staticBindings,
             bool refreshPrepared)
         {
             harmony.UnpatchAll(harmony.Id);
             lock (Gate)
             {
-                foreach (var method in patched)
+                foreach (var bindingId in staticBindings)
                 {
-                    LiteralRoutes.Remove(method);
-                    ResultRoutes.Remove(method);
-                    ArgumentRoutes.Remove(method);
+                    LiteralBindingRoutes.Remove(bindingId);
+                    ResultBindingRoutes.Remove(bindingId);
+                    ArgumentBindingRoutes.Remove(bindingId);
                 }
-                foreach (var bindingId in staticBindings) LiteralBindingRoutes.Remove(bindingId);
             }
             if (refreshPrepared)
             {
@@ -343,10 +305,9 @@ namespace ProbablyStolenKo
             foreach (var harmony in _harmonies.Values) harmony.UnpatchAll(harmony.Id);
             lock (Gate)
             {
-                LiteralRoutes.Clear();
                 LiteralBindingRoutes.Clear();
-                ResultRoutes.Clear();
-                ArgumentRoutes.Clear();
+                ResultBindingRoutes.Clear();
+                ArgumentBindingRoutes.Clear();
                 EnabledStaticBindings.Clear();
             }
             foreach (var modId in _appliedRefresh)
@@ -356,36 +317,9 @@ namespace ProbablyStolenKo
             }
             _appliedRefresh.Clear();
             _harmonies.Clear();
-            _targetTypes.Clear();
             _appliedTargets.Clear();
         }
 
-        private static void MergeLiteralRoute(
-            MethodBase method,
-            IReadOnlyDictionary<string, string> additions)
-        {
-            LiteralRoutes.TryGetValue(method, out var existing);
-            var merged = new Dictionary<string, string>(StringComparer.Ordinal);
-            if (existing != null)
-                foreach (var entry in existing) merged.Add(entry.Key, entry.Value);
-            foreach (var entry in additions)
-            {
-                if (merged.TryGetValue(entry.Key, out var prior) &&
-                    !StringComparer.Ordinal.Equals(prior, entry.Value))
-                    throw new InvalidOperationException(
-                        "Conflicting identity-bound literal route for " +
-                        method.DeclaringType?.FullName + "." + method.Name + ": " + entry.Key);
-                merged[entry.Key] = entry.Value;
-            }
-            LiteralRoutes[method] = merged;
-        }
-
-        private static IEnumerable<CodeInstruction> Transpile(IEnumerable<CodeInstruction> instructions, MethodBase original)
-        {
-            IReadOnlyDictionary<string, string> entries;
-            lock (Gate) LiteralRoutes.TryGetValue(original, out entries);
-            return TranslateInstructions(instructions, entries);
-        }
 
         internal static IEnumerable<CodeInstruction> TranspileBinding(
             IEnumerable<CodeInstruction> instructions,
@@ -394,6 +328,49 @@ namespace ProbablyStolenKo
             IReadOnlyDictionary<string, string> entries;
             lock (Gate) LiteralBindingRoutes.TryGetValue(bindingId, out entries);
             return TranslateInstructions(instructions, entries);
+        }
+
+        internal static void PostfixStringBinding(ref string result, int bindingId)
+        {
+            if (result == null) return;
+            IReadOnlyDictionary<string, string> entries;
+            lock (Gate) ResultBindingRoutes.TryGetValue(bindingId, out entries);
+            if (entries != null && entries.TryGetValue(result, out var translation)) result = translation;
+        }
+
+        internal static void PostfixByArgumentBinding(object[] args, ref string result, int bindingId)
+        {
+            Tuple<int, IReadOnlyDictionary<string, string>> route;
+            lock (Gate) ArgumentBindingRoutes.TryGetValue(bindingId, out route);
+            if (route == null || args == null || route.Item1 >= args.Length) return;
+            var source = args[route.Item1] as string;
+            if (source != null && route.Item2.TryGetValue(source, out var translation)) result = translation;
+        }
+
+        internal static void PostfixByArgumentsBinding(object[] args, ref string result, int bindingId)
+        {
+            if (args == null || args.Length < 2 || !(args[0] is string identity)) return;
+            IReadOnlyDictionary<string, string> entries;
+            lock (Gate) ResultBindingRoutes.TryGetValue(bindingId, out entries);
+            if (entries == null) return;
+            var key = identity + "|" + Convert.ToString(args[1], System.Globalization.CultureInfo.InvariantCulture);
+            if (entries.TryGetValue(key, out var translation)) result = translation;
+        }
+
+        internal static void PostfixStringArrayBinding(ref string[] result, int bindingId)
+        {
+            if (result == null) return;
+            IReadOnlyDictionary<string, string> entries;
+            lock (Gate) ResultBindingRoutes.TryGetValue(bindingId, out entries);
+            if (entries == null) return;
+            string[] translatedResult = null;
+            for (var index = 0; index < result.Length; index++)
+            {
+                if (result[index] == null || !entries.TryGetValue(result[index], out var translation)) continue;
+                if (translatedResult == null) translatedResult = (string[])result.Clone();
+                translatedResult[index] = translation;
+            }
+            if (translatedResult != null) result = translatedResult;
         }
 
         private static IEnumerable<CodeInstruction> TranslateInstructions(
@@ -418,47 +395,5 @@ namespace ProbablyStolenKo
             }
         }
 
-        private static void PostfixString(MethodBase __originalMethod, ref string __result)
-        {
-            if (__result == null) return;
-            IReadOnlyDictionary<string, string> entries;
-            lock (Gate) ResultRoutes.TryGetValue(__originalMethod, out entries);
-            if (entries != null && entries.TryGetValue(__result, out var translation)) __result = translation;
-        }
-
-        private static void PostfixByArgument(MethodBase __originalMethod, object[] __args, ref string __result)
-        {
-            Tuple<int, IReadOnlyDictionary<string, string>> route;
-            lock (Gate) ArgumentRoutes.TryGetValue(__originalMethod, out route);
-            if (route == null || __args == null || route.Item1 >= __args.Length) return;
-            var source = __args[route.Item1] as string;
-            if (source != null && route.Item2.TryGetValue(source, out var translation)) __result = translation;
-        }
-
-        private static void PostfixByArguments(MethodBase __originalMethod, object[] __args, ref string __result)
-        {
-            if (__args == null || __args.Length < 2 || !(__args[0] is string identity)) return;
-            IReadOnlyDictionary<string, string> entries;
-            lock (Gate) ResultRoutes.TryGetValue(__originalMethod, out entries);
-            if (entries == null) return;
-            var key = identity + "|" + Convert.ToString(__args[1], System.Globalization.CultureInfo.InvariantCulture);
-            if (entries.TryGetValue(key, out var translation)) __result = translation;
-        }
-
-        private static void PostfixStringArray(MethodBase __originalMethod, ref string[] __result)
-        {
-            if (__result == null) return;
-            IReadOnlyDictionary<string, string> entries;
-            lock (Gate) ResultRoutes.TryGetValue(__originalMethod, out entries);
-            if (entries == null) return;
-            string[] translatedResult = null;
-            for (var index = 0; index < __result.Length; index++)
-            {
-                if (__result[index] == null || !entries.TryGetValue(__result[index], out var translation)) continue;
-                if (translatedResult == null) translatedResult = (string[])__result.Clone();
-                translatedResult[index] = translation;
-            }
-            if (translatedResult != null) __result = translatedResult;
-        }
     }
 }
