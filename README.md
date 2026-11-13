@@ -15,7 +15,6 @@ parr0t은 조금 더 부드럽고 오역이 적은 AI 기반 게임 번역 프�
 ## 어떤 모드의 한글 패치가 지원되나요?
 다음 모드들을 지원합니다:
 - [Better Water Trading](https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417)
-- [Korean Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687)
 - [GoFishing! (Fish Expansion)](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153)
 - [Smart Inventory Arrange](https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666)
 - [Pen's Pipette](https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725)
@@ -26,12 +25,10 @@ parr0t은 조금 더 부드럽고 오역이 적은 AI 기반 게임 번역 프�
 - [Vanilla Food Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369)
 - [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547)
 - [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187)
-- [YeastStayBox](https://steamcommunity.com/sharedfiles/filedetails/?id=3831834469)
 - [Agri Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311)
 - [Tobacco Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208)
 - [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698)
 - [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602)
-- [Station Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506)
 - [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482)
 - [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532)
 - [In-Game Mod Settings](https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946)
