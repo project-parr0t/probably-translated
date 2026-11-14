@@ -72,8 +72,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "c9c6d5806a15b40e6d8b7ee010c6fb16ef340d7d14f31fd0385507b7583709b7";
-        private const int ExpectedEntries = 21687;
+        private const string ExpectedFingerprint = "7f4783cdb9f20aa37e099e7b96e6189da0bc9ba99f2f87b3ce163ac1ae0929a0";
+        private const int ExpectedEntries = 21689;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -100,8 +100,9 @@ namespace ProbablyStolenKo
                 ["asteroid_in_game_mod_settings"] = "3834556946",
                 ["gunsmith_expansion"] = "3834619049",
                 ["upper_levels"] = "3838944803",
+                ["combat_contracts"] = "3834364038",
             };
-        private const int ExpectedTargets = 23;
+        private const int ExpectedTargets = 24;
 
         private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets)
         {

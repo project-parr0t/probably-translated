@@ -1,6 +1,6 @@
 {
   "context": {
-    "fingerprint": "eb0b07ba3386c40972c0a53e1b60ad3d729a55930e0133ffea8a1f9f54ab9797",
+    "fingerprint": "8bb2cb885f68b7bac27a74ced5f5666acc089dd21f3b1942938417752e68b21d",
     "review_policy_fingerprint": "006a3006dd83171c6b86bb43d353579ecbc18dce43c9a1e3d8773916bde0d3a9"
   },
   "entries": [
@@ -17372,6 +17372,28 @@
       "status": "reviewed",
       "target": "거대한 철열매",
       "target_sha256": "7f1d9ed6d83af045966be169beb55b7d03be73dc8128d7d7cb7bdad33d1c806d"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3834364038:manifest:description",
+      "location_fingerprint": "71510cfab18140e8f7e1929165a59339340022d0b28fa2545958d51bb09daf17",
+      "review_fingerprint": "d1a600bf79b7a4443e23478903b349ef8ec6602821ef607fdf571718ae13a9e6",
+      "source_sha256": "caf42b7ed6c99571eb5327ec2d30347ef213fc9f0717e07da767f288b94aa15c",
+      "status": "reviewed",
+      "target": "왕 형님의 거래망에서 해제하는 전투 의뢰 모드입니다. 7개 세력의 현상금 의뢰, 턴제 전투, 가게 방어전을 추가합니다. 본편의 11개 언어를 지원하며 게임 언어에 맞춰 자동 전환됩니다. 전투 성장과 의뢰 진행도가 저장되어 아이템, 평판, 경제에 영향을 줍니다. 비활성화하기 전에 가게로 돌아와 전투를 마치고 방어구 출력을 완료한 뒤 저장 파일을 백업하세요. 자세한 내용은 README를 참고하세요.",
+      "target_sha256": "afa7f4b4b196fb836b91061b47da54f0c483dc83627718015b66022197904c11"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3834364038:manifest:name",
+      "location_fingerprint": "9199ae506b583f16e97280e5ca6c2c3882e7720826427b31479e2826d97c14e6",
+      "review_fingerprint": "71aa9ecc2758c661591e6cf286a8955348ad6708686dbfe528e743570e7ae039",
+      "source_sha256": "2cd21ddb0cd36dbed64a46c82b1f31accf2bb7e9e47f7ec39f11896243d1530c",
+      "status": "reviewed",
+      "target": "심우주 전당포: 전투 의뢰",
+      "target_sha256": "9365c39edaa9a7a06a2da961fade191f5fddf84b6766a2ab164f5cc7e73bd513"
     },
     {
       "dependencies": [],
@@ -99381,6 +99403,259 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_09f654330dc033a8393d64c7",
+      "location_fingerprint": "4d9ff7c96a0c976e86c27ba1c061951ceee69ccea85208970dfa059a1f36cec1",
+      "review_fingerprint": "a409de117572a3c97d661b14f9f837692c35f5b8ae16439c6abc094fa6386424",
+      "source_sha256": "1fee6a7eb517a7e6dc6fdcbadecd8b80b6d51a151ac03113fc36cefa21a92c92",
+      "status": "reviewed",
+      "target": "기절 중에는 이 주 행동을 할 수 없습니다. 먼저 스멜링 솔트를 쓰세요.",
+      "target_sha256": "4fa06d12e39497ae64bec5b1f321147f9046208e56937316496344cee6059910"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_1f772f26421cb5e278ee0310",
+      "location_fingerprint": "a503e255a36178fedf26326705ad25a70cd5877ffc5e14e4b7bb58b3a2d4fe60",
+      "review_fingerprint": "05c7af40aee384514336f499b4a79620bfd61c4387729b169dd0d52ab66b2765",
+      "source_sha256": "e936ba92d1f4018a162b77f8d29836f96be0c723e090d1843fe53c93b9740da9",
+      "status": "reviewed",
+      "target": "외용 붕대와 지속 회복 효과를 공유. 효능과 남은 적용 횟수는 각각 더 높은 값을 적용.",
+      "target_sha256": "479ac0e2097ef367bb29176ae0a6f4062f36fb5bc6c004975c5af28e51bd400c"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_2d8b529e549708987fa0d4f8",
+      "location_fingerprint": "81d03b9aead5c4da12e349c493f86f99f1d9a27eb59034e6f341a0508bbc4511",
+      "review_fingerprint": "2ff210addf5968d252330d384a17582cd83cf22df1bfe3c030386974e8fe12bf",
+      "source_sha256": "32cfa353c7b3a21b46475f143f53c928e97e35e1e83e259c6f9b72dd4ce5f078",
+      "status": "reviewed",
+      "target": "아이언크래프트 10",
+      "target_sha256": "03d07b725e20dd8d0c78618c03b2606baaae39ec381f9dc1b95d4e0155b7a53c"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_36219b9ca0d845f2d033d18e",
+      "location_fingerprint": "e7985ad178b08074ae2935de2760724f7296121bbaccc98ccf1bde1d91f02c14",
+      "review_fingerprint": "141711a1244b0e9e026d6bb5271d477369b10e95d424f0a5f1a4beb10f1c3379",
+      "source_sha256": "393d4aabc425e90246d9cb063d2fccbcacd0c349e564aac072adc7a2a08b427e",
+      "status": "reviewed",
+      "target": "나이트메어 더스트",
+      "target_sha256": "d5e3df45bd526b0d5cb5544db3ddbed4ba79646ded809b9c5543c09a8c9b21ff"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_3f43316c836d8ff36b2bf5b7",
+      "location_fingerprint": "0a400dac8e27a8233222a3b0b53b069c604533d11a20fa1f4ac3dc7633548845",
+      "review_fingerprint": "ecaef1f5920b68b578c7cc5c51c61199ec2197cd5798db0ed698ec59447e2a87",
+      "source_sha256": "9b79b0bf54fd6c57e9d58dde8eb67f84eabe23b818fdcf7acd1962407ae48884",
+      "status": "reviewed",
+      "target": "나이트메어 더스트: 기본 명중률 {0}%. 명중 시 표적의 턴 시작에 독 피해 {1}을 {2}회 적용. 독의 총 피해 상한은 회당 {3}.",
+      "target_sha256": "846a5dcdc91e8fbb890fb70de2c937340d64db886ca2878b00a5c3b3a7c6457e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_3f89672b668395e9b74da575",
+      "location_fingerprint": "c6cde4e165ebdac254f4f4e2b986c3fd95a3fefa7e2039e9d7e251b6b882b34b",
+      "review_fingerprint": "861e13c3873cc83382b6c998bda52b62bee494064f43acc30254f8a9550d97cc",
+      "source_sha256": "df0c2f617bb7a4783b44ce3971da6632b316c72ff79a49a71d31e0a94f7deaa5",
+      "status": "reviewed",
+      "target": "자이아나이드 알약으로 탄약을 도포할 수 없습니다.",
+      "target_sha256": "3bab2e5969640bd6e10623fbb8198ef2ec8ccba114294011ae96bd8cc69f45d6"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_41016b198ff8cbc0cfbbfb99",
+      "location_fingerprint": "194648704cf9efe8d501cfd80b67ef8886970fc2713911d3109aab4a1cf9bc02",
+      "review_fingerprint": "409ec8f8a818ebf72af4778cf1e2dfa369ef52550a1ecab92ff7dade10a9121c",
+      "source_sha256": "0934e1c503dd98a02c689cf91bca9eca6366c26f087f891eff29e80c6d38909b",
+      "status": "reviewed",
+      "target": "나이트메어 물약",
+      "target_sha256": "bcce791274d58eae756c9f51af3405ced995e64332413800fb99ec5163d29dcb"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_443f43b7fe3fcf5e66b5cec4",
+      "location_fingerprint": "7542b85c2c1c304d9feff04790e521dbacc4d3d0764188e1e1969b6f76807599",
+      "review_fingerprint": "340aaf605b5a700df2034bc747b6c53e204ddca4a9700a0c55724a2a844cc2c3",
+      "source_sha256": "92db874c6b88b34a31fecb3bded74fe8920f951d10fc4747a84028b4fcb6b1aa",
+      "status": "reviewed",
+      "target": "유리 단도는 수리할 수 없습니다.",
+      "target_sha256": "4a21e4ce220a5f23e24697160273c3829b66b65542e7c196668020c8544ac2c2"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_48ec5cd28a1c300e454b11de",
+      "location_fingerprint": "6c37a4046a2d8732df2340846047b7b5e72b33c24ac74c332e8710af1284fd6f",
+      "review_fingerprint": "e1768a5802e87df2dbe60eb5d70e614f25907743b9846a13cbab83db820b422b",
+      "source_sha256": "dd5ceea131dc71f58d2659a9e6ffd19d7dfb291f9e6cd74f3209575f409a3896",
+      "status": "reviewed",
+      "target": "네스트파이어",
+      "target_sha256": "0aa7a61f1cdfbf936c64660a0adcb1cd81e2a965d972b8843cb4e994a05184bd"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_4eabfade5588ff757d3fcfd7",
+      "location_fingerprint": "724bf856f9478d477922c8829b35f2b194f6a14db1a661b07edb28ea14ac46dc",
+      "review_fingerprint": "77cd0b5a9496f7bde8b9456193e2d59a3eb4c926dbdfd29d0587510df7ffa854",
+      "source_sha256": "4f0ba6c605ba10560196ce6d91ec45c682a62f7f908a85a6deec7750422787e0",
+      "status": "reviewed",
+      "target": "나이트메어 도포",
+      "target_sha256": "8ceb573580a10ed4520a0c20084cf7c64dc17499e4e18989b9f9853e0c20212f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_5d6934a24dc1590f6dc595d8",
+      "location_fingerprint": "a3bcf6c4ae4021519b619b5f581e6037c3a68c0f3e8942a7c6560b52286cfcef",
+      "review_fingerprint": "35ec8db62d066dbfc1946be66d86034abced4c59625d05dd134eb490b4316ef5",
+      "source_sha256": "b5deaa8aa4be9ff047f00f64bb8d51ac5e1854a63cbb973fa62b4596b50012e5",
+      "status": "reviewed",
+      "target": "기절과 통증 해제. 기절 중 사용 가능. 스멜링 솔트로 기절을 해제하면 명료 보호를 얻지 못함.",
+      "target_sha256": "3451b232244468ab0b3ba36ca1bf72543769ac0256a36bd8b56e6cf80cbf94f5"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_5d81953447ab001eff325e7a",
+      "location_fingerprint": "297da5b2e6ae3f9a9db6af10a790c33c3abf17e347946db3688b7e8fa470ac6c",
+      "review_fingerprint": "930b1b234debbb0763d6f2fdbe103edb92ecac54596a699127f6ab58020fe96f",
+      "source_sha256": "b09aeaf74ea3572b92cdbf345d13eeda96db1e8b9dbf721a7cf0b42d1cc77353",
+      "status": "reviewed",
+      "target": "체력 회복. 센티널 Mk. III는 본편의 이뮤니백스 치료도 받음.",
+      "target_sha256": "4f0c8f5120925ad13086170ce5827da8bfe5d89f445f29e671bb66486cd851cb"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_61dd848fd1f0e685f3d45ab2",
+      "location_fingerprint": "d09f986400d4c87ef243ea9394b64a8b40a81c2382874e87663073d200c74766",
+      "review_fingerprint": "fe4d9fd25d7bc1128957779ef28a56a5e427beeade9a1389a03619d23d720000",
+      "source_sha256": "7261f15e135184d79adf72e7da45254b2ec6b7fbef31fff8aab2397e86cd8435",
+      "status": "reviewed",
+      "target": "자이아나이드 알약 1개로 도포 3회분 제공. 칼날에만 사용 가능.",
+      "target_sha256": "5544c6304e9324d67745a9baeeff6b1ac7d0fe001a523c6446f3584d6b3309cb"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_9d7c44185042e1ed002cfcb7",
+      "location_fingerprint": "a3fb72c270c8222a534ea4f3292bf276a2216bc9f32d1efdbd138e10aa9b2283",
+      "review_fingerprint": "b651c4ce4c67689e5eaec87b42d6bb41a9874340d9084e3e5724c7535c3e1955",
+      "source_sha256": "feffd9f3ceb5fe91dc2a1cc4de0d02f196d99cfa94c4795f5b12fca3b46b6556",
+      "status": "reviewed",
+      "target": "펄스가드 스턴 건은 공격당 에너지 10, 테이저와 전기 모드 진압봉은 5 필요. 전원 선택은 주 행동을 소모하지 않음. 빗나가도 유한 에너지 소모.",
+      "target_sha256": "059d3d9e2eac510079e6443ddd09044823e6ec4d7fc0cce8dc0a1d6701a828d9"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_ad0ebfa677a1fb2a02e79bf1",
+      "location_fingerprint": "f2db6e27f48501701f575e1522909f3266dee2dab8f34ec88c64d8b728b2337f",
+      "review_fingerprint": "9982dcb9ad2f60f5b31569550b4ef28ded58c817c023c047372013988b65405d",
+      "source_sha256": "684564ea55ec2850325f63797736aff438153c64a63efc0d671b5ff9d30900c3",
+      "status": "reviewed",
+      "target": "나이팅게일 연고와 지속 회복 효과를 공유. 효능과 남은 적용 횟수는 각각 더 높은 값을 적용.",
+      "target_sha256": "c7f1e4f68af8c38f68f75f169985eab139a53e72ed8ce378d437fa500514597d"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_b86e2f66c93687e66bf56a46",
+      "location_fingerprint": "99f3a40b9b2d3ac70f3931dadb0dc615531078246e81a14257901b35d4b49be9",
+      "review_fingerprint": "0333f60696d8de318a4c66f2018182ee88517195efc2f37291dda4cbbd4fac2d",
+      "source_sha256": "bcf1dfd4db9b7c15c78652319bf0a38e99e0571fc95661a947d9eefe4b658154",
+      "status": "reviewed",
+      "target": "기절: 스멜링 솔트 사용, 행동 건너뛰기 또는 탈출 가능한 전투에서 탈출.",
+      "target_sha256": "d95e1c8b05b018f0339a5977e8ceb5af857cced3c8e7f1068bc9e23d4081ecb4"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_be3cb2938a6de7f9f347014c",
+      "location_fingerprint": "9e2574093b6f484280395aae6d033248a3e1e255c8c4700cd98c48a0336ed8fa",
+      "review_fingerprint": "4cb49b3650351aa95f84f9ce5782be8d62fd16835f66d4556ec4d6005116475f",
+      "source_sha256": "80fb086108df42ff8afd3d96cbe10dbe692d5ccded72765c678dbf7eeb69bf9b",
+      "status": "reviewed",
+      "target": "램파트 이중 작동식 산탄총",
+      "target_sha256": "f0486339cd77a70bd5a0f493a81dce0194dfbd38f4650d1d91facec3add58628"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_c576d407d212bff6d02a8ca8",
+      "location_fingerprint": "28bdba788f01fbdb02732c3027030f956063348818959818edf893a095c62067",
+      "review_fingerprint": "911a8820fc88ce665ca8fba0488ca2e8902a2c924018c53d6fc56e524c1cb021",
+      "source_sha256": "e6cbbed56843ff570d1f15fa7ffd6a92e3772dd457cc8011238ca1c8127ccb9e",
+      "status": "reviewed",
+      "target": "나이트메어 더스트: 기본 명중률 ",
+      "target_sha256": "1a4759dea375df5983fade0184348f2e55a295d65f0ae718189fb15995eac2a7"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_d3c069cb45db1a5c087ca14f",
+      "location_fingerprint": "d52541232c98ced5a7baf84d4ae8997c8b604c812b2e4fcf2a4c19a5cbf8c7bb",
+      "review_fingerprint": "8dd463b788df13c63d71ea1b13013578a4aa827d9e8482f1a59af80e735305b9",
+      "source_sha256": "cf4457360eec1462092b9333631a7e97add9c018abebe4d025260ce32842cfd3",
+      "status": "reviewed",
+      "target": "기절: 클릭해 턴을 건너뛰거나 먼저 스멜링 솔트로 회복.",
+      "target_sha256": "8c4f84d07a0ec36bf31c172d4c559e496c5097585f32fad7ff9b9156be2ef9f7"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_d3cc02801f0fcd442fa0b07e",
+      "location_fingerprint": "178e01ac0c2ca6158984a6d1ee008fad6450e7a6563ce5cff20ef23d38c8d488",
+      "review_fingerprint": "a2e7eeeb5f7f4fc7967d377374695912937ea50550d223a26fb86a77edea7230",
+      "source_sha256": "f00e5e78685838f20c4f4f3b0ce7ba80a4d3ebb3e07c0aad1f0bdec6e4d08765",
+      "status": "reviewed",
+      "target": "증후군의 명중률 −5%p 해제. 센티널 Mk. III에는 본편의 이뮤니백스 치료도 적용.",
+      "target_sha256": "7b439dbb833dc30b778da4a1ed076e597375cf30b47e5083d4a7b3ec3b326cc7"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_d49425741071f31caf48a842",
+      "location_fingerprint": "3d58695b23a3b327d33ac2f1e61c205c029cb0d35d54b4b8dd83915f6dc7d0bf",
+      "review_fingerprint": "ce198ce6e7f96c2408b6a4faff45aaf729bb06eab872a058e99dbb883e432653",
+      "source_sha256": "f6b33c658c0191fb72e911645eb699e9b4a22fd6a2b3299a281ca8278f20da39",
+      "status": "reviewed",
+      "target": "피스메이커",
+      "target_sha256": "c8ba799915cde0718f44c0e67e5d62d58b1ff88f41ff3165442ed9728d775f58"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_d8b7850ef7ed445e6e15856f",
+      "location_fingerprint": "9c41b2b45727f8f25748083e17264dbe90f1334ec3f8d5ce8a86b0c5409f135b",
+      "review_fingerprint": "9d58faed646d8a41866954fed3af06a4da070b14b7e8eea054db5e52f32aac3e",
+      "source_sha256": "df50e9ab7fae7f31c8403369fda50b2d5d31970e1569b9dcc5be6f83ad2facfa",
+      "status": "reviewed",
+      "target": "센티널 Mk. III",
+      "target_sha256": "b1c473d3bd5d5985d0bcaf351cbf2a94da49ebd7ef9dec481bdd7cb847df3cb3"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834364038:cc_f677f2abdb57f8f98e472115",
+      "location_fingerprint": "03cd4025b29c8160ab6b75ca2a56023f7555ba7bb685a090a1a8cc3d94f21238",
+      "review_fingerprint": "4c71f6797546698017f473f8d46f61b48e9164a34b1c528e5d7a5245c8cf2d07",
+      "source_sha256": "131c95746a3762bf7e75010f1cd13b2eaca5c9dee508626073e54bb53abcb58d",
+      "status": "reviewed",
+      "target": "자이아나이드 알약으로 탄약을 도포할 수 없습니다.",
+      "target_sha256": "3bab2e5969640bd6e10623fbb8198ef2ec8ccba114294011ae96bd8cc69f45d6"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3834619049:attachment_chip_name",
       "location_fingerprint": "d2217bfaa4ed4955c92bf8493a0117a3d50b48c47f8e8f5bd373cc938054767a",
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
@@ -126322,7 +126597,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r12",
+  "release_id": "local-r13",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
@@ -126330,8 +126605,8 @@
     "commit": "629b1c3e1f1c35c66243aea0a3f7bde2d05eada7"
   },
   "source_inventory": {
-    "fingerprint": "59030192ddf67f2fc1936215fcad153d04733ec402cba0fe8cdb9246f25f9da4",
+    "fingerprint": "8b488647246c87e7be036b6136964886a246fbe40febad23c426a52ef9038571",
     "method": "workshop-and-managed-runtime-inventory",
-    "target_count": 11482
+    "target_count": 11507
   }
 }

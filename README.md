@@ -36,6 +36,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602)
 - [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482)
 - [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532)
+- [Combat Contract](https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038)
 - [In-Game Mod Settings](https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946)
 - [Gunsmith Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049)
 - [Probably Containers+](https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782)

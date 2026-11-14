@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "c9c6d5806a15b40e6d8b7ee010c6fb16ef340d7d14f31fd0385507b7583709b7",
-  "entry_count": 21687,
+  "inventory_fingerprint": "7f4783cdb9f20aa37e099e7b96e6189da0bc9ba99f2f87b3ce163ac1ae0929a0",
+  "entry_count": 21689,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",
@@ -15288,6 +15288,17 @@
       "manifest": {
         "name": "상층 구역 Upper Levels: DLC일지도 모릅니다",
         "description": "Upper Levels에 가게를 여세요: 시작 직업 8종, 특성 48개, 새로운 고객과 세력, 사이버펑크 스타일의 가게 장식이 추가됩니다. 메인 메뉴에서 Upper Levels 모드를 켜면 시작할 수 있습니다. 장식만 원한다면 설정에서 따로 켤 수 있습니다."
+      },
+      "routes": [],
+      "refresh": []
+    },
+    "combat_contracts": {
+      "workshop_item_id": "3834364038",
+      "assembly_name": "CombatContracts",
+      "entry_count": 2,
+      "manifest": {
+        "name": "심우주 전당포: 전투 의뢰",
+        "description": "왕 형님의 거래망에서 해제하는 전투 의뢰 모드입니다. 7개 세력의 현상금 의뢰, 턴제 전투, 가게 방어전을 추가합니다. 본편의 11개 언어를 지원하며 게임 언어에 맞춰 자동 전환됩니다. 전투 성장과 의뢰 진행도가 저장되어 아이템, 평판, 경제에 영향을 줍니다. 비활성화하기 전에 가게로 돌아와 전투를 마치고 방어구 출력을 완료한 뒤 저장 파일을 백업하세요. 자세한 내용은 README를 참고하세요."
       },
       "routes": [],
       "refresh": []
