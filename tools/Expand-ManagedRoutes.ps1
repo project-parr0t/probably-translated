@@ -125,6 +125,18 @@ function Route-MatchesMethod($route, $method) {
         }
         return $false
     }
+    if ($mode -eq 'field_store') {
+        if (-not $method.HasBody) { return $false }
+        $fieldType = [string]$route['field_type']
+        $fieldName = [string]$route['field_name']
+        $stores = @($method.Body.Instructions | Where-Object {
+            $_.OpCode.Code -eq [Mono.Cecil.Cil.Code]::Stfld -and
+            $null -ne $_.Operand -and
+            [StringComparer]::Ordinal.Equals((Runtime-Name $_.Operand.DeclaringType), $fieldType) -and
+            [StringComparer]::Ordinal.Equals($_.Operand.Name, $fieldName)
+        })
+        return $stores.Count -eq 1
+    }
     if ($mode -eq 'result_string_array') { return $method.ReturnType.FullName -eq 'System.String[]' }
     return $method.ReturnType.FullName -eq 'System.String'
 }
@@ -335,6 +347,9 @@ foreach ($target in $targets) {
         if ($mode -eq 'literal' -or $mode -eq 'literal_occurrence') {
             Line '        [HarmonyTranspiler]'
             Line "        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, $($binding.Id));"
+        } elseif ($mode -eq 'field_store') {
+            Line '        [HarmonyTranspiler]'
+            Line "        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileFieldStoreBinding(instructions, $($binding.Id));"
         } elseif ($mode -eq 'result_by_argument') {
             Line '        [HarmonyPostfix]'
             Line "        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, $($binding.Id));"

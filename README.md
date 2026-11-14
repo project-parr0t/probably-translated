@@ -42,6 +42,11 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Probably Containers+](https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782)
 - [Storage Bay Appearance](https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447)
 - [Upper Levels](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803)
+- [VA-11 Hall-A Fan MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004)
+- [Space Coffee](https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583)
+- [Better UV Lamp](https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349)
+- [Eleanor: Bring Her Back](https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808)
+- [Deep Space Mine: Probably Crystal](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650)
 
 ## 다른 번역 모드들과 겹쳐도 작동하나요?
 확실하지 않습니다. 다만, 이 모드는 제가 개인적으로 즐기기 위해서 일괄로 번역을 수행하고 사용하고 있습니다.

@@ -1,0 +1,304 @@
+sys_bootstrap,로컬라이즈를 불러왔습니다
+sys_probe_format,플레이스홀더 확인: {0} / {1}
+ui_station_btn_recipes,레시피
+ui_station_btn_serve,서빙
+ui_station_btn_redo,다시 하기
+ui_station_btn_mix,셰이킹
+ui_station_btn_stop,멈추기
+client_size_big,큰 잔
+ui_cup_big,(큰 잔)
+ui_cup_std,(보통 잔)
+ui_word_drink,음료
+ui_word_client,손님
+ui_serve_yes,서빙 확인
+ui_serve_no,"잘못 서빙함, 다시 하기"
+ui_serve_body,"{0}{1}을(를) 손님에게 건넬까요?\n(주문: {2}{3})\n「잘못 서빙함, 다시 하기」를 선택하면 카운터의 음료가 비워지고 손님의 주문은 유지됩니다."
+ui_serve_body_tutorial,"{0}{1}을(를) 손님에게 건넬까요?\n(스토리 튜토리얼: 올바르게 서빙하면 다음 단계로 진행합니다. 「잘못 서빙함, 다시 하기」를 선택하면 카운터가 비워집니다.)"
+ui_scan_no_counter,(카운터 용기를 찾을 수 없음)
+ui_scan_empty,(카운터가 비어 있음)
+ui_scan_wrong_cup,(잔 종류가 맞지 않음)
+ui_scan_no_drink,(카운터에 만든 음료가 없음)
+ui_scan_error,(스캔 오류)
+ui_tutorial_body,모드 플레이 방법을 배워볼까요?\nVA-11 Hall-A 원작을 플레이했거나 다른 세이브에서 이 모드를 플레이했다면 건너뛰어도 됩니다.
+ui_tutorial_yes,튜토리얼 시작
+ui_tutorial_no,건너뛰기
+ui_book_prev,◀ 이전 페이지
+ui_book_next,다음 페이지 ▶
+ui_book_page_intro,소개
+ui_book_page_hint,용어 설명
+ui_book_page_n,{0} / {1}페이지
+ui_book_page_scroll_tip,레시피는 휠과 좌우 방향키를 길게 눌러 연속으로 넘길 수 있습니다.
+ui_label_big,큰 잔
+ui_glitch_temp_desc,임시 정의 - {0}
+ui_glitch_temp_tags,임시 정의
+cfg_debug_label,디버그 로그 출력
+cfg_debug_tip,"끄기(기본값): 이 모드의 일반 진행 로그를 출력하지 않아 로그를 간결하게 유지합니다. 켜면 문제 해결에 필요한 상세 로그를 모두 출력합니다. 경고와 오류는 이 설정과 관계없이 항상 출력됩니다."
+cfg_scale_label,초상화 전체 축소율(>1 = 더 작게)
+cfg_scale_tip,"모든 초상화에 적용되는 축소 배율입니다. 1.0 = 기존 Dana와 같은 픽셀 밀도, 1.25 = 전체 크기를 1/1.25로 축소합니다. 변경 사항은 게임을 다시 시작해야 적용됩니다."
+item_station_name,B․T․C 바텐딩 스테이션
+item_station_desc,B․T․C 인증을 받은 표준 바텐딩 스테이션. 인증된 음료를 다양하게 만들 수 있습니다.
+item_station_italic,음료를 만들고~인생을 바꾸세요~
+item_certificate_name,B․T․C 바텐더 인증서
+item_certificate_desc,"B․T․C 인증 바텐더 자격증입니다.\n진열장에 놓으면 글리치 시티의 손님들이 가게를 찾아옵니다.\n손님이 방문할 확률은 33%이며, 최대 사흘 연속 손님이 없을 수 있고 나흘째에는 반드시 한 명이 방문합니다."
+item_drink_bad_touch_name,나쁜 손길
+item_drink_bad_touch_quote,우린 어차피 포유류에 불과하니까요.
+item_drink_bad_touch_tags,"시큼함, 고급스러움, 복고풍."
+item_drink_beer_name,맥주
+item_drink_beer_quote,"전통 방식으로 양조한 맥주는 사치품이 되었지만, 이 음료는 진짜 맥주와 맛이 꽤 비슷합니다……"
+item_drink_beer_tags,"거품, 고급스러움, 복고풍."
+item_drink_bleeding_jane_name,블리딩 제인
+item_drink_bleeding_jane_quote,거울을 보며 이 음료 이름을 세 번 외치면 바보처럼 보일 겁니다.
+item_drink_bleeding_jane_tags,"매콤함, 클래식, 숙취 해소."
+item_drink_bloom_light_name,블룸 라이트
+item_drink_bloom_light_quote,쓸데없이 잿빛이 도는 음료……
+item_drink_bloom_light_tags,"매콤함, 선전용, 담백함."
+item_drink_blue_fairy_name,블루 페어리
+item_drink_blue_fairy_quote,한 모금만 마셔도 이가 파래집니다. 다 마신 뒤 양치 잘 하세요.
+item_drink_blue_fairy_tags,"달콤함, 여성적, 부드러움."
+item_drink_brandtini_name,브랜디니
+item_drink_brandtini_quote,허세 부리는 인간 열 명 중 여덟은 이 술을 추천합니다. 하지만 그런 인간들은 허세 부리느라 남에게 술을 추천할 시간이 없습니다.
+item_drink_brandtini_tags,"달콤함, 고급스러움, 편안함."
+item_drink_cobalt_velvet_name,코발트 벨벳
+item_drink_cobalt_velvet_quote,콜라가 조금 남은 잔에 샴페인을 부은 듯한 맛입니다.
+item_drink_cobalt_velvet_tags,"거품, 고급스러움, 화끈함."
+item_drink_crevice_spike_name,크레비스 스파이크
+item_drink_crevice_spike_quote,취기뿐 아니라 의식까지 날려버릴 수 있습니다.
+item_drink_crevice_spike_tags,"시큼함, 남성적, 숙취 해소."
+item_drink_fluffy_dream_name,플러피 드림
+item_drink_fluffy_dream_quote,"한두 모금이면 혀를 즐겁게 하지만, 더 마시면 늦잠을 잘지도 모릅니다."
+item_drink_fluffy_dream_tags,"시큼함, 여성적, 부드러움."
+item_drink_fringe_weaver_name,프린지 위버
+item_drink_fringe_weaver_quote,무수 알코올에 설탕 한 숟갈을 곁들인 맛입니다.
+item_drink_fringe_weaver_tags,"거품, 고급스러움, 강렬함."
+item_drink_frothy_water_name,거품수
+item_drink_frothy_water_quote,2040년 이래 부모 지도 등급 프로그램에서 가장 애용하는 맥주 대용품입니다.
+item_drink_frothy_water_tags,"거품, 클래식, 담백함."
+item_drink_grizzly_temple_name,그리즐리 템플
+item_drink_grizzly_temple_quote,"거의 참기 힘든 맛입니다. 이 음료가 광고하는 영화의 팬이라면 모를까, 주문할 사람은 거의 없습니다."
+item_drink_grizzly_temple_tags,"씁쓸함, 선전용, 담백함."
+item_drink_gut_punch_name,거트 펀치
+item_drink_gut_punch_quote,"이름은 ‘복부를 강타하는 한 방’이라는 뜻이지만, 마실 때 실제로 배를 얻어맞는 듯한 느낌을 줍니다."
+item_drink_gut_punch_tags,"씁쓸함, 남성적, 강렬함."
+item_drink_marsblast_name,마스 블라스트
+item_drink_marsblast_quote,한 모금이면 얼굴이 화성처럼 빨개집니다.
+item_drink_marsblast_tags,"매콤함, 남성적, 강렬함."
+item_drink_mercuryblast_name,머큐리 블라스트
+item_drink_mercuryblast_quote,이 음료를 개발하는 동안 다친 온도계는 없습니다.
+item_drink_mercuryblast_tags,"시큼함, 고급스러움, 화끈함."
+item_drink_moonblast_name,문 블라스트
+item_drink_moonblast_quote,매달 일주일 동안 볼 수 있는 달의 하드론 대포와는 아무 관계도 없습니다.
+item_drink_moonblast_tags,"달콤함, 여성적, 편안함."
+item_drink_piano_man_name,피아노 맨
+item_drink_piano_man_quote,이 음료는 바 피아니스트 협회나 관련 단체의 견해를 대변하지 않습니다.
+item_drink_piano_man_tags,"시큼함, 선전용, 강렬함."
+item_drink_piano_woman_name,피아노 우먼
+item_drink_piano_woman_quote,"원래 이름은 프리티 우먼이었지만, 피아노 맨이라는 술이 있다면 피아노 우먼이라는 술도 있어야 한다는 항의가 많았습니다."
+item_drink_piano_woman_tags,"달콤함, 선전용, 편안함."
+item_drink_piledriver_name,파일드라이버
+item_drink_piledriver_quote,"혀는 이 술의 매운맛을 알아채지 못할지 몰라도, 목구멍을 데우지 않도록 조심하세요."
+item_drink_piledriver_tags,"씁쓸함, 남성적, 화끈함."
+item_drink_sparkle_star_name,스파클 스타
+item_drink_sparkle_star_quote,예전에는 실제로 반짝이는 음료였지만 피부 문제를 호소하는 손님이 너무 많아 반짝이지 않는 버전으로 다시 만들었습니다.
+item_drink_sparkle_star_tags,"달콤함, 여성적, 편안함."
+item_drink_sugar_rush_name,슈가 러시
+item_drink_sugar_rush_quote,달콤하고 담백하며 과일 향이 납니다. 이보다 더 여성적인 음료는 없을 겁니다.
+item_drink_sugar_rush_tags,"달콤함, 여성적, 편안함."
+item_drink_sunshine_cloud_name,선샤인 클라우드
+item_drink_sunshine_cloud_quote,옛날 초코우유 같은 맛에 그 향까지 남아 있습니다. 캐러멜 맛이 난다는 사람도 있죠……
+item_drink_sunshine_cloud_tags,"씁쓸함, 여성적, 부드러움."
+item_drink_suplex_name,수플렉스
+item_drink_suplex_quote,파일드라이버를 살짝 조정해 매운맛이 목구멍 대신 혀에서 느껴지게 했습니다.
+item_drink_suplex_tags,"씁쓸함, 남성적, 화끈함."
+item_drink_zen_star_name,젠 스타
+item_drink_zen_star_quote,이토록 균형 잡힌 레시피라면 맛있을 거라고 생각할지도 모릅니다…… 크게 틀렸습니다.
+item_drink_zen_star_tags,"시큼함, 선전용, 담백함."
+client_dorothy_name,도로시 헤이즈 Dorothy Haze
+client_dorothy_arrival,"와아— | 방금 '손님' 한 분과 작별 인사를 했는데, 눈 깜짝할 새 여기 와 있네요. | 여긴 Glitch City와는 다르군요. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명합니다.) | 불빛도 적고 비도 덜 오네요. | 그래도 '전당포 겸 바'라니? 마음에 들어요."
+client_dorothy_order,"{size}{drink} 한 잔 주세요. | 알아서 만들어 주세요, 인증받은 솜씨를 믿을게요."
+client_dorothy_correct,"맞아요, 딱 이 맛이에요. | 전 평소에 단 걸 좋아해서, 오늘 색다른 걸 마셔도 기분 좋네요. | 자기야, 솜씨는 가게 외관보다 훨씬 믿음직하네요."
+client_dorothy_wrong,"어머, 이게 아닌데요. | 한 번만 더 해봐요, 자기야. 물진 않을게요—아마도."
+client_dorothy_checkout,"고마워요, 자기. | 바텐더 솜씨는 어딜 가도 숨길 수 없네요."
+client_stella_name,스텔라 호시이 Stella Hoshii
+client_stella_arrival,……여긴 어디죠? | 방금까지 집 정원에서 차를 마시고 있었는데 눈 깜짝할 새 여기 왔어요. | Glitch City 같진 않네요. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명합니다.) | 불빛도 훨씬 적고…… 생각보다 깔끔하네요.
+client_stella_order,{size}{drink} 한 잔 부탁드려요. | 편하신 방식대로 만들어 주세요.
+client_stella_correct,"음, 인증서에 걸맞은 솜씨군요. | 저 같은 사람은 이런 곳에 잘 오지 않아요—'캣 부머', 태어날 때부터 고양이 귀가 있었거든요. | (캣 부머: VA-11 Hall-A 원작에서 '고양이화 수술'을 받아 고양이 귀가 생긴 사람.) | 사람들은 여기 오면 늘 빤히 쳐다보는데, 여긴 아무도 말을 걸지 않는군요."
+client_stella_wrong,제가 주문한 게 아니에요. | 제 시간을 낭비하지 말아 주세요.
+client_stella_checkout,돈은 여기 있어요. 거스름돈은 됐어요. | 제 친구가 한 명 있는데요. | 그 친구는 달고 무알코올인 음료를 좋아해요.
+client_alma_name,알마 아르마스 Alma Armas
+client_alma_arrival,여긴 아무래도 Glitch City가 아닌 것 같네. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명해.) | 방금까지 회사 서버를 뚫고 있었거든. | ……여기 방화벽은 솔직히 비용 아끼는 중소기업들보다도 허술하네.
+client_alma_order,{size}{drink} 한 잔 줘. | 솜씨 좀 볼까.
+client_alma_correct,"좋아, 인증서를 돈 주고 산 건 아닌가 보네. | 컨설턴트란 작자들을 많이 봤지. 자격증은 한 무더기인데 실력은 하나도 없어. | 넌 다르네. 그걸로 충분해."
+client_alma_wrong,"잠깐, 이건 주문한 게 아닌데. | 나 진지하게 만들 생각이야?"
+client_alma_checkout,돈 받아. | 평소 있던 곳보다 조용하네.
+client_sei_name,세이 P. 아사가리 Sei P. Asagiri
+client_sei_arrival,"실례합니다. | 순찰 중에 모퉁이를 돌았더니 여기로 왔습니다. | 여긴 절대 Glitch City가 아닙니다. 그 도시의 거리라면 전부 알고 있으니까요. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명합니다.) | 먼저 확인하겠습니다. 불법 업소는 아니죠? | 죄송합니다, 직업병입니다."
+client_sei_order,{size}{drink} 한 잔 부탁드립니다. | 인증을 받은 분이니 믿고 맡기겠습니다.
+client_sei_correct,"감사합니다. | 저는…… 화이트 나이트 소속입니다. | (화이트 나이트: VA-11 Hall-A 원작에서 Glitch City의 치안을 유지하는 무장 조직.) | 도움이 필요한 사람을 보면 그냥 지나치기가 어렵습니다. | 하지만 어떤 때는 아무것도 할 수 없다는 걸 배웠습니다...... | 그것도 어쩔 수 없는 일이겠지요. | 저는 달고 무알코올인 음료를 좋아하는데, 오늘 주문은 딱 좋네요."
+client_sei_wrong,죄송하지만 제가 주문한 게 아닙니다. | 다시 확인해 주세요.
+client_sei_checkout,돈은 여기 있습니다. | 근무가 끝난 뒤 이런 곳에서 쉴 수 있다니 귀한 일이군요.
+client_kim_name,"킴벌리 ""킴"" 라 발레트 Kimberly “Kim” La Vallete"
+client_kim_arrival,"……여긴 뭐지? | 방금까지 기사를 쓰고 있었는데 고개를 드니 여기네. | 뭐, 알아보는 사람이 없을 테니 잘됐어."
+client_kim_order,"{size}{drink} 한 잔 줘. | 뭐든 괜찮아, 오늘은 고를 기분이 아니야."
+client_kim_correct,"좋아, 적어도 이 잔은 날 속이지 않았네. | 난 《The Augmented Eye》에서 취재해. | (The Augmented Eye: VA-11 Hall-A 원작에 등장하는 신문사.) | 동료들은 B․T․C가 다 사기라던데, 꼭 그렇지만도 않군."
+client_kim_wrong,내가 주문한 게 아니야. | 부탁이니 다시 만들어 줘. 바빠.
+client_kim_checkout,돈은 여기 둘게. | 동료들한테 내가 왔다고 말하지 마. | 이유도 묻지 말고—그냥 거래라고 생각해.
+client_kira_miki_name,*키라*미키
+client_kira_miki_arrival,"와아—! | 방금까지 공연장 뒤편에서 준비 중이었는데, 눈 깜짝할 새—여긴 어디야? | 그래도 '전당포 겸 바'라니, 설정 진짜 멋지다!"
+client_kira_miki_order,"{size}{drink} 한 잔 주세요! | 뭐든 좋아요, 사장님 특기인 걸로!"
+client_kira_miki_correct,맛있어! 사장님 진짜 솜씨 있는데요! | 무대에 오래 서다 보면 가끔 아무도 모르는 곳에서 쉬고 싶어져요.
+client_kira_miki_wrong,에에— 이게 아닌데. | 한 번만 더 해주면 안 돼요? 부탁이에요. 저 웬만해선 부탁 안 하는데.
+client_kira_miki_checkout,"돈 여기 있어요! | 다음 공연 때 사장님을 추천 목록에 올려둘게요! | '인증받은 전당포 바'라니, 듣기만 해도 멋지지 않아요?"
+client_jamie_name,제이미 Jamie
+client_jamie_arrival,"여기 괜찮네. | 옆문은 튼튼해 보이고, 창문엔 잠금장치가 있고, 카운터도 보강했군. | ……긴장 풀어. 난 들어가면 먼저 그런 걸 살펴보는 버릇이 있어. | 방금 Glitch City 교외에서 일하고 있었는데, 정신 차려 보니 여기 서 있더군. 이상한 일이야. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명해.)"
+client_jamie_order,{size}{drink} 한 잔 줘. | 알아서 만들어.
+client_jamie_correct,"좋군. | 내가 가 본 몇몇 곳보다 훨씬 나아. | ……떠올리고 싶지 않은 일이 있지만, 이 술은 괜찮아."
+client_jamie_wrong,"내가 주문한 게 아니야. | 다시 만들어도 돼. 서두르지 마, 안 급해."
+client_jamie_checkout,"예전에 친하게 지내던 바텐더가 있었는데, 솜씨가 딱 이랬어. | 그 뒤론 거의 못 봤지…… 그냥 혼잣말이야."
+client_art_name,아트 폰 딜레이 Art von Delay
+client_art_arrival,"여기가 정말 전당포 겸 바구나. 흥미롭네. | 방금 누군가를 미행하고 있었어. | 뒤돌아보니 그 사람은 사라지고 나도 여기 와 있더군…… 아, 미리 말해두는데 난 아주 검소한 사람이야."
+client_art_order,{size}{drink} 한 잔 줘. | 제일 싼 걸로. 난 안 가려.
+client_art_correct,"좋아, 이 정도면 값어치는 하네. | 난 사립 탐정이야. 번 돈은 남들 일에 다 쓰고 나면 | 내 몫은 거의 남지 않아."
+client_art_wrong,내가 주문한 게 아니야. | 혹시…… 공짜로 한 잔 줄 생각은 없나?
+client_art_checkout,돈은 여기 있어. 한 푼도 더는 없어. | 배웅은 하지 마. 혼자 갈게.
+client_betty_name,"비아트리스 ""베티"" 앨버트 Beatrice ""Betty"" Albert"
+client_betty_arrival,"여기가 그 '한번 볼 만하다'는 곳인가? | 전당포에 술집, 그 외에도 뭐가 있나? | 솔직히 Glitch City보다 깨끗할지도 모르겠군. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명해.)"
+client_betty_order,{size}{drink} 한 잔 줘. | 물 탄 술은 내놓지 마.
+client_betty_correct,"좋아, 이 건물 절반보다 낫군. | 난 수의사야. Seifar의 코기들은 전부 내 담당이지. | (Seifar: VA-11 Hall-A 원작에 등장하는 코기들이 운영하는 장난감 회사.) | 그러니 '처리하기 곤란한' 게 생기면 나랑 얘기해도 돼."
+client_betty_wrong,"내가 주문한 게 아니야. | 다시 만들어, 사장. 참을성은 길지 않아."
+client_betty_checkout,돈 받아. | 친구를 데려오면 그 사람한텐 순한 걸 줘. | 그 친구는 술이 약하니까 곤란하게 하지 말고.
+client_deal_name,딜 Deal
+client_deal_arrival,난 보통 이런 데 혼자 오지 않아. | 방금 회사에서 코기들 사진을 찍고 있었는데 고개를 드니 여기더군.
+client_deal_order,{size}{drink} 한 잔 부탁드려요. | ……너무 독하지 않은 걸로요.
+client_deal_correct,"고마워요, 정말 맛있네요. | 전 릴림이에요. 장난감 회사에서 잡일을 해요. | (릴림: VA-11 Hall-A 원작에 등장하는 바이오로이드의 명칭.) | 회사엔 코기가 대부분이에요. | 수의사를 빼면 두 발로 걷는 건 아마 저뿐일 거예요."
+client_deal_wrong,이건…… 제가 원한 게 아니에요. | 다시 만들어 주시겠어요? 감사합니다.
+client_deal_checkout,돈 여기 있습니다.|고맙습니다. 사장님 가게는 괜찮네요. 생각보다 훨씬 좋아요.
+client_virgilio_name,비르질리오 아르만디오 Virgilio Armandio
+client_virgilio_arrival,"전당포 술집, 별들 사이에 놓인 여관. | 카운터 뒤에 선 그대의 손에는 술잔이 아니라 운명의 주사위 통이 들려 있지— | —좋아요, 전혀 맞장구를 안 쳐주시네요. 준비한 대사가 헛수고가 됐어요. | 제가 걸어온 건 아닙니다. Glitch City의 모퉁이에서 시를 읊고 있었는데요. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명합니다.) | 눈을 뜨니 다른 세계였죠."
+client_virgilio_order,{size}{drink} 한 잔 줘. | 오늘은 수수께끼 없이 바로 주문할게.
+client_virgilio_correct,"좋아! 깔끔한 한 잔이군. | 아마 모르겠지만, 나도 한때 떳떳하지 못한 일을 했어. | 죄책감은 마음에 아물지 않는 상처를 남기지."
+client_virgilio_wrong,이 잔이 아니야. | 내 첫 대사도 네 기억력도 헛수고였군.
+client_virgilio_checkout,돈은 여기 있어. | 언젠가 여기서 카레를 팔면 매일 올게. | 내 꿈은 카레 가게를 여는 거야. | 바보 같은 소리 같지? 하지만 진심이야.
+client_taylor_name,테일러 Taylor
+client_taylor_arrival,"안녕하세요. | 걱정 마세요—저를 보고 대부분은 놀라니까요. | 자리도 안 차지해요, 이 병 하나뿐이거든요. | 방금 실험실에서 데이터를 기록하고 있었는데 눈 깜짝할 새 여기 왔어요."
+client_taylor_order,{size}{drink} 한 잔 줘. | 맛만 보려고.
+client_taylor_correct,"아, 맛있네. | 안타깝지만 이 몸으론 아무리 마셔도 취하지 않아. | 맛만 볼 수 있어도 괜찮아. 아무것도 못 맛보는 것보단 낫지."
+client_taylor_wrong,이건 아니야. | 다시 해봐. 난 안 급해—어차피 갈 데도 없으니까.
+client_taylor_checkout,돈은 여기 있어. | 다음에 재미있는 일이 있으면 불러줘. | 뇌만 남았어도 열정은 그대로야.
+client_norma_name,노마 Norma
+client_norma_arrival,……여기가 그 전당포 겸 술집이야? | 생각보다 평범하네. | 학원에서 집으로 돌아가던 길이었는데…… | 고개를 들어보니 처음 보는 방에 서 있었어. 여긴 분명 Glitch City가 아니야. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명해.)
+client_norma_order,{size}{drink} 한 잔 주세요. | ……너무 독하지 않은 걸로요.
+client_norma_correct,이거…… 꽤 맛있네요. | 엄마는 이런 걸 절대 못 마시게 해요. | 이런 데 시간을 쓰는 사람은 커서 아무것도 못 이룬다고 하시거든요.
+client_norma_wrong,이게 아닌데…… | 죄송한데 한 잔 더 만들어 주실래요?
+client_norma_checkout,"돈은 여기 있어요. | 사장님…… 여기, '잠시 집에 돌아가고 싶지 않은' 사람도 받아주나요? | 아니에요, 못 들은 걸로 해주세요. 안녕히 계세요."
+client_mario_name,마리오 Mario
+client_mario_arrival,"어이, 사장. | 여기…… 엄청 센 거 없어? | 아까 밖에서 차를 몰다가 급커브를 돌았는데—여기 와 있더라고. | 대체 뭐 하는 곳이야?| 뭐, 술만 있으면 됐어."
+client_mario_order,"{size}{drink} 한 잔 줘. | 이걸로, 빨리."
+client_mario_correct,……나쁘지 않네. | (작게) 내가 마실 건 아니야. 친구 부탁으로 물어보는 거야. | 여자…… 여자 친구라고.
+client_mario_wrong,"이게 아니야. | 다른 걸로, 빨리 좀 해."
+client_mario_checkout,"돈 여기 있어. | 내가 이걸 주문했다고 남들한테 말하지 마. | ……그래, 이거 꽤 괜찮네. 그 '친구'가 다음에도 이걸 주문할 거야."
+client_ingram_name,잉그램 맥두걸 Ingram McDougal
+client_ingram_arrival,"……또 이런 데군. 전당포 겸 술집이라니, 기발하네. | Glitch City보다도 낡아 보여. | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명해.) | 친한 척하지 마. 난 술 마시러 돈을 내는 거지 친구를 사귀러 온 게 아니야."
+client_ingram_order,"{size}{drink} 한 잔 줘. | 빨리, 인내심 별로 없어."
+client_ingram_correct,"흥, 괜찮군. | 적어도 생각만큼 맛없진 않아."
+client_ingram_wrong,내가 주문한 게 아니야. | 날 놀리는 거냐?
+client_ingram_checkout,돈. | 다시 올 거라 기대하지 마.
+client_gaby_name,"가브리엘 ""개비"" Gabrielle ""Gaby"""
+client_gaby_arrival,여긴 어디지? 내가 아는 곳은 아닌 것 같은데. | 그런데 B․T․C 인증까지 받았네. 여기가 술집인가?
+client_gaby_order,{size}{drink} 한 잔 줘.
+client_gaby_correct,"……괜찮네. | 언니가 예전에 어떤 바텐더 얘길 했어. 좋은 사람이었다고. | 그와 관련된 곳을 찾을 수 있을까 했는데…… 됐어, 아무 말도 아니야."
+client_gaby_wrong,내가 원한 게 아니야. | 일부러 그러는 거야?
+client_gaby_checkout,"돈. | 그런 눈으로 보지 마. | 넌 아무것도 몰라, 우리 언니에 대해선 정말 아무것도 몰라."
+client_streaming_chan_name,니콜 첸 / 스트리밍 짱 Nicole Chen / Streaming-chan
+client_streaming_chan_arrival,안녕—방송 보고 있는 여러분! | 지금 전당포 바에 와 있어요! | 방금까지 Glitch City 거리에서 방송 중이었는데 신호가 튀더니—장소가 바뀌었어요! | (Glitch City: VA-11 Hall-A 원작의 도시. 네온사인과 끊이지 않는 비로 유명합니다.) | 사장님이 정식 인증까지 받았네요? 제법 제대로 된 곳인데요!
+client_streaming_chan_order,{size}{drink} 한 잔 주세요! | 꽉 채워 주세요! 오늘 밤은 실컷 마실래요!
+client_streaming_chan_correct,"하아— 겨우 이 정도예요? | 괜찮네요, 괜찮아. 드디어 맛이 좀 나요. | 여러분, 보셨죠! 오늘 방송 컨디션 최고예요!"
+client_streaming_chan_wrong,"잠깐, 잠깐, 이거 아니에요. | 제 방송 블랙리스트에 오르고 싶어요?|뭐, 시청자도 별로 없긴 하지만..."
+client_streaming_chan_checkout,"돈 여기 있어요. | 여러분, 이 가게—방송 짱이 기억해둘게요! | 그럼 간다, 다음 장소로!"
+client_jess_name,제스 Jess
+client_jess_arrival,"……전당포 겸 술집이라니, 드문 조합이네. | 사장, 여기 별별 사람이 다 오나? | 여기저기 떠돌아다니다 보면 늘 조심해야 하거든. | 아, 난 '하이브리드'야. 몸에 부품을 꽤 많이 달았지. | (하이브리드: VA-11 Hall-A 원작의 개조인. 기계 의체나 유전자 조작 등 신체를 대폭 개조한 사람을 가리키는 포괄적 분류.)"
+client_jess_order,{size}{drink} 한 잔 줘.
+client_jess_correct,"음, 괜찮네. | 마지막으로 이렇게 조용한 데서 술을 마신 건 다른 지역에 출장 갔을 때였어. | 거긴 여기보다 훨씬 시끄러웠지."
+client_jess_wrong,내가 원한 게 아니야. | 다시 해줘.
+client_jess_checkout,돈. | 나중에 다른 곳에 가게를 열면 현지 규칙부터 파악해. | 난 그걸 배우는 데 몇 년이나 걸렸거든.
+client_tomcat_name,TOMCAT
+client_tomcat_arrival,"……전당포는 괜찮군. | 카운터 뒤에 숨겨둔 게 꽤 많아 보이는데. | 방금 단서를 쫓고 있었는데, 따라가다 보니 낯선 곳에 와 있더군. | 긴장하지 마. 그냥 지나가다가 물어볼 게 좀 있어서 그래."
+client_tomcat_order,{size}{drink} 한 잔 줘.
+client_tomcat_correct,"좋군. | 사장, 요즘 '출처가 수상한' 손님이 온 적 있나? | 한 사람을 찾고 있어—'앨리스 래빗'. | (앨리스 래빗: VA-11 Hall-A 원작에서 정체가 불분명한 해커의 코드명.) | ……됐어, 아무것도 아니야."
+client_tomcat_wrong,내가 주문한 게 아니야. | 일부러 시간을 끄는 거야?
+client_tomcat_checkout,돈. | 내 이름은 묻지 마. | 물어봐도 소용없어. | 알아내지 못할 테니까. 간다.
+client_nacho_name,나초 텀블위드 주니어 Nacho Tumbleweed Jr.
+client_nacho_arrival,"……흥. | 여기가 술집이라고? 인간들은 참 독특한 취향이군. | 마실 걸 내와, 어서."
+client_nacho_order,"{size}{drink} 한 잔 줘. 독하고 씁쓸하게, 남자다운 맛으로."
+client_nacho_correct,"……괜찮군. | 생각보다 맛없지만, 괜찮아. | 부하 녀석들이 내가 이런 데서 술 마시는 걸 알면 꽤 부러워하겠지."
+client_nacho_wrong,내가 원한 게 아니야. | 귀가 안 들리나?
+client_nacho_checkout,"돈. | 오래 기다리게 했군, 흥? | 내가 왔다는 말은 아무한테도 하지 마."
+client_rad_shiba_name,래드 시바 Rad Shiba
+client_rad_shiba_arrival,"멍. | 안녕하세요, 사장님. | 방금 회사 심부름을 하다가 골목으로 꺾었는데 여기 왔어요.|B․T․C 인증도 있네요? 온 김에 한 잔 주문할게요."
+client_rad_shiba_order,{size}{drink} 한 잔 주세요. | 알아서 해주세요. 뭐든 마셔요.
+client_rad_shiba_correct,……나쁘지 않네요. | 솔직히 어떤 음료는 사람들 돈을 뜯으려고 만든 것 같아요. | 이거보다 백 배는 맛없고 비싼 것도 마셔봤어요.
+client_rad_shiba_wrong,"제가 주문한 게 아니에요. | 사장님, 전 그냥 개예요. 너무 곤란하게 하지 마세요."
+client_rad_shiba_checkout,돈 여기 있어요. | 이 돈은 중요한 데 써야 해요. | ……무슨 일인지는 묻지 마세요. | 개가 아르바이트한다는 건 좀 창피하거든요.
+client_anna_name,애나 그레이엄 Anna Graem
+client_anna_arrival,"어이. | 사장, 내가 보여? | 다행이다. 여기선 날 볼 수 있는 사람이 별로 없거든. | 원래 떠다니는 몸이라, 둥실둥실 떠다니다 여기까지 왔어. |"
+client_anna_order,{size}{drink} 한 잔 줘. | ……난 못 마시지만 저기 놓아두면 보기만 해도 기쁠 거야.
+client_anna_correct,예쁘다. | 네 바텐딩 솜씨를 보니 질이 생각나.
+client_anna_wrong,"아, 이게 아니야. | 한 번 더 해볼래? 난 시간 많아. | 죽은 자의 시간은 아주 많거든."
+client_anna_checkout,"거스름돈은 됐어. | 어차피 나 돈도 없어. | ……좋아, 남의 주머니에서 훔친 돈이야. 누구 건지는 묻지 마."
+client_gillian_name,길리언 Gillian
+client_gillian_arrival,"음…… 전당포 안에 바라니, 흥미롭군. | 면허가 있는 바텐더, 면허 없는 물건. | 사장, 우리 꽤 닮았어."
+client_gillian_order,{size}{drink} 한 잔. | 이상한 건 넣지 마.
+client_gillian_correct,"좋군. | 솜씨가 제법이야. | 내가 예전에 일하던 가게는 'VA-11 Hall-A'였어. | (VA-11 Hall-A: VA-11 Hall-A 원작에서 Jill이 일하는 바의 이름이며, 사장은 Dana입니다.) | 그곳의 좌우명은—'음료를 만들고, 인생을 바꾼다.'"
+client_gillian_wrong,"내가 주문한 게 아니야. | 사장, 딴생각했어? 우주 정거장 중력이 머리까지 어지럽히나?"
+client_gillian_checkout,"돈 여기 있어. | 다음에도 올 테니 아무한테도 말하지 마. | 예전엔 오랜 친구가 내 술만 마셨지. | 이젠 그만뒀지만, 가끔 조용한 곳에서 쉬고 싶어."
+story_jill_v1_day1,음료를 만들고 인생을 바꾼다 | 여기 사장인가요? | Glitch City 같진 않네요 | B․T․C에서 적당한 가게를 찾아 B․T․C 인증을 발급하라고 했어요 | 여긴…… 나쁘지 않아 보이네요
+story_jill_v1_day7,다시 왔어요 | 다시 물어볼게요 | B․T․C 인증에 가입하시겠어요?
+story_jill_v1_s1_o1_label,B․T․C 인증이 뭐죠?
+story_jill_v1_s1_o1_lines,거대 기업 B․T․C가 바텐더와 바를 인증하는 제도예요 | 이게 있어야 정식으로 바텐딩을 할 자격이 생겨요 | Glitch City에선 이 인증 없이 가게를 열면 골치 아파져요
+story_jill_v1_s1_o2_label,Glitch City요?
+story_jill_v1_s1_o2_lines,"Glitch City | 제가 온 곳이에요 | 네온사인도 많고, 비도 많이 오고, 골칫거리도 많은 도시죠 | 거기서 바텐더로 일하고 있어요 | 이름은 VA-11 Hall-A예요"
+story_jill_v1_s1_o3_label,당신은 누구죠?
+story_jill_v1_s1_o3_lines,"Jill이라고 부르면 돼요 | 전 바텐더예요... 어... 지금은 예전 일이라고 해야 하나? | 어쩌다 여기로 오게 됐고, 어쩌다 B․T․C 일을 하게 된 사람이라고 해두죠"
+story_jill_v1_s1_o4_label,더 물어볼 건 없어요
+story_jill_v1_s1_o4_lines,그럼 본론으로 갈게요 | B․T․C 인증이 있으면 바텐딩을 할 수 있어요 | 바텐딩 스테이션을 드릴게요 | 인증서를 진열장에 올려두면 손님들이 찾아올 거예요 | ……가입하시겠어요?
+story_jill_v1_s2_join_label,가입
+story_jill_v1_s2_join_lines,좋아요
+story_jill_v1_s2_join_tail,"여기 B․T․C 인증서예요 | 오늘부터 당신은 B․T․C 인증 바텐더예요 | 나중에 다시 들를게요 | 아, 제 보스 Dana를 만날 수도 있어요 | 그 사람이 가져온 매운 닭 날개는 함부로 먹지 마세요 | 후회할 거예요"
+story_jill_tut_r1_arrival,이게 바텐딩 스테이션이에요. 솜씨를 한번 볼게요 | 우선 스테이션을 여세요 | 셰이커 주위에 다섯 가지 액상 재료가 있어요 | 왼쪽에는 얼음 추가와 숙성 옵션이 있어요 | 레시피는 위쪽에 있어요. 열어보세요 | 음료 레시피는 전부 이 책에 기록되어 있어요 | 두 번째 페이지엔 설명이 있어요 | 대강 살펴보세요
+story_jill_tut_r1_order,음... 먼저 {size}{drink} 한 잔 만들어 주세요.
+story_jill_tut_r1_correct,"좋아 보이네요, 마셔볼게요 | ...... | 괜찮네요. 기본기는 문제가 없어요."
+story_jill_tut_r1_wrong,어딘가 잘못됐어요. 제가 주문한 건 이게 아니에요 | 레시피와 설명을 다시 확인해 보세요
+story_jill_tut_r2_arrival,좋아요 | 다음은 셰이킹해야 하는 음료예요 | 셰이커를 세게 흔들다가 멈추면 셰이킹이 끝나요 | 자세한 내용은 레시피 설명에도 있어요
+story_jill_tut_r2_order,"자, 이제 {size}{drink} 한 잔 만들어 주세요."
+story_jill_tut_r2_correct,"맞아요, 바로 이거예요 | 마셔볼게요 | ...... | 합격이에요. 이제 B․T․C 인증을 받을 자격이 있어요."
+story_jill_tut_r2_wrong,어딘가 잘못됐어요. 제가 주문한 건 이게 아니에요 | 레시피와 설명을 다시 확인해 보세요
+story_jill_v1_s2_decline_label,거절
+story_jill_v1_s2_decline_lines,……알겠어요 | 며칠 뒤에 다시 물어볼게요
+story_jill_v1_s2_decline_day7,……그럼 여기까지네요
+story_jill_v2_arrival,다시 왔어요. 여기서 한잔할게요.
+story_jill_v2_order,{size}{drink} 한 잔 주세요.
+story_jill_v2_correct,"좋아요, 딱 제가 원한 거예요."
+story_jill_v2_wrong,"아뇨, 제가 주문한 게 아니에요. B․T․C 바텐딩 안내서를 확인해 보세요."
+story_jill_v2_checkout,"음... 괜찮네요. 이 인증을 받을 만해요 | Fore는 잘 지내려나... | Fore요? 아, 제 단모종 고양이 이름이에요 | 그럼 갈게요"
+story_dana_v1_s1_lines,"안녕하세요 | Dana Zane이에요. Dana라고 부르면 돼요 | 착한 직원 Jill이 들렀다고 들었어요 | 어떻게 하고 있나 보러 왔죠 | 아, 매운 닭 날개를 가져왔는데 먹어볼래요?"
+story_dana_v1_s1_o1_label,먹어볼게요
+story_dana_v1_s1_o1_lines,"...... | 하하하>v<, 이 정도 매운맛도 못 견뎌요? | 내가 왜 멀쩡하냐고요?| 난 세 배속으로 움직이거든요!"
+story_dana_v1_s1_o2_label,사양할게요
+story_dana_v1_s1_o2_lines,"아, 아쉽네요, Jill처럼 매운 닭 날개의 맛을 모르는군요"
+story_dana_v1_s2_lines,그럼 이만 갈게요. 나중에 또 보러 올게요.
+story_dana_v2_arrival,"안녕, 다시 왔어요 | 오늘은 매운 닭 날개를 안 가져왔어요. 여긴 Glitch City 같은 분위기가 아니네요 | 뭐라도 한잔할게요"
+story_dana_v2_order,음... {size}{drink} 한 잔 주세요.
+story_dana_v2_correct,"좋아요, 마셔볼게요."
+story_dana_v2_wrong,"아뇨, 아뇨, 이게 아니에요."
+story_dana_v2_checkout,음... 나쁘지 않네요. 그래도 Jill만큼은 아니지만요.
+client_collab_frieren_name,프리렌 Frieren
+client_collab_frieren_arrival,손으로 만든 술이죠?|2천 년 전 맛을 떠올리게 할 수 있는지 볼게요.
+client_collab_frieren_order,{size}{drink} 한 잔.
+client_collab_frieren_correct,"괜찮네.|블루 페어리라는 묘사에 맞는 생명체는 열 종도 넘게 봤어.|아주 귀엽고 날아다니는 것도 있고, 밤에 잠든 이를 습격하는 무서운 것도 있어."
+client_collab_frieren_wrong,예상했던 것과는 조금 다르네.
+client_collab_frieren_checkout,다음에 또 올게. 여긴 좋은 곳이야. 10년쯤 머물러도 좋겠어.
+client_collab_fern_name,페른 Fern
+client_collab_fern_arrival,옆 행성에서 우주선을 몰고 막 돌아왔어요.|고고학은 쉬운 일이 아니에요.
+client_collab_fern_order,{size}{drink} 한 잔 주세요.|정말 폭발하면 좋겠네요. 그러면 우주 쓰레기 속에 쓸 만한 게 있는지 바로 살펴볼 수 있을 텐데요.
+client_collab_fern_correct,생체 센서가 아주 괜찮다고 하네요.
+client_collab_fern_wrong,생체 센서가 경고를 울렸어요. 좋은 징조가 아니네요.
+client_collab_fern_checkout,프리렌 님이 이 우주 정거장을 정말 좋아하기 전에 쓸 만한 걸 찾아야겠어요.|안 그러면 여기서 몇 년을 보내야 할지 누가 알겠어요.|안녕히 계세요.

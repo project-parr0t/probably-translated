@@ -1,14 +1,14 @@
 appearance_recommended,추천
 appearance_custom,직접 선택
 source_storage,보관함
-source_storage_large,보관함 (확장)
+source_storage_large,확장형 보관함
 source_hypertech,하이테크 보관함
 source_smuggler,밀수꾼 보관함
-source_smuggler_large,밀수꾼 보관함 (개조)
+source_smuggler_large,개량형 밀수꾼 보관함
 source_brewing_mini,xuxu 미니 저장고
 source_brewing_compact,사십칠의 "소형" 비밀 수납고
 source_machine,기계 보관함
-source_machine_ext,기계 보관함 (확장형)
+source_machine_ext,확장형 기계 보관함
 appearance_page,{0} / {1}
 appearance,외관
 current,현재: {0}

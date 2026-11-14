@@ -20,9 +20,9 @@ namespace ProbablyStolenKo
 
     internal sealed class WorkshopPayloadCatalog
     {
-        private const string ExpectedFingerprint = "1cc4cebef13dfbf4f84d40fd584b0338a07ccd4d1d52c73e83a546ba7b7486fa";
-        private const int ExpectedEntries = 10027;
-        private const int ExpectedMods = 14;
+        private const string ExpectedFingerprint = "0f14e390857494df537e083da5db070538e0a89805099db4c3d72fb1cf2d16dd";
+        private const int ExpectedEntries = 10504;
+        private const int ExpectedMods = 17;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -40,6 +40,9 @@ namespace ProbablyStolenKo
                 ["upper_levels"] = "3838944803",
                 ["traits_probably_fun"] = "3834226532",
                 ["combat_contracts"] = "3834364038",
+                ["va11halla"] = "3831732004",
+                ["space_coffee"] = "3834667583",
+                ["local.uv-coverage"] = "3835898349",
             };
 
         private WorkshopPayloadCatalog(string locale, IReadOnlyDictionary<string, WorkshopModPayload> mods, int count)
@@ -92,7 +95,7 @@ namespace ProbablyStolenKo
                 total += entries.Count;
                 mods.Add(modProperty.Name, new WorkshopModPayload(workshopItemId, entries));
             }
-            if (total != ExpectedEntries) throw new FormatException("Workshop payload entry count is not 9951.");
+            if (total != ExpectedEntries) throw new FormatException("Workshop payload entry count is invalid.");
             return new WorkshopPayloadCatalog(locale, mods, total);
         }
 

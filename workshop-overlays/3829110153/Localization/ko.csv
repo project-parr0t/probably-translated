@@ -7,7 +7,7 @@ aquaculture.large.tank.name,대형 양식용 물탱크
 bait.hover.blood,핏빛 그림자 낚시 성공률 +{0}%p
 bait.hover.catch,일반 낚시 성공률 +{0}%p. 핏빛 그림자와 거대 그림자에는 효과가 없습니다.
 bait.hover.giant,거대 그림자 낚시 성공률 +{0}%p
-bait.hover.treasure,보물 상자 획득 확률(낚시 성공 시) +{0}%p
+bait.hover.treasure,낚시에 성공하면 보물 상자 획득 확률이 {0}%포인트 증가합니다.
 can.rebuild.control,조작
 can.rebuild.fill,생선 통째 또는 생선살; 같은 종류의 양념 최대 2개
 can.rebuild.finished,품질: {0} ({1}/5)
@@ -3609,7 +3609,7 @@ recipe.processing.bottled_water.27.name,생수 (표준)
 recipe.processing.bottled_water.29.name,생수 분할 (대)
 recipe.processing.common_electronic.1.name,일반 전자 부품
 recipe.processing.energy_credit_breeder.17.name,자동 충전 에너지 셀
-recipe.processing.energy_credit_ext.16.name,에너지 셀 (2형)
+recipe.processing.energy_credit_ext.16.name,에너지 셀 2형
 recipe.processing.energy_credit.15.name,에너지 셀
 recipe.processing.energy_credit.57.name,에너지 배터리 (페라이트 과립)
 recipe.processing.flashbang_grenade.5.name,섬광탄

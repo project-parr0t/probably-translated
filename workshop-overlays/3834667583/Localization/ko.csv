@@ -1,0 +1,132 @@
+roaster_name,커피 로스터
+roaster_desc,투입된 생원두를 출력 공간에 들어가는 만큼 볶습니다. 동물 배설물을 1:1로 넣으면 쥐똥 원두를 볶을 수 있습니다. 전력이 필요합니다.
+beans_light_name,약배전 원두
+beans_light_desc,약하게 볶은 커피 원두 한 줌.
+beans_medium_name,중배전 원두
+beans_medium_desc,중간 정도로 볶은 커피 원두 한 줌.
+beans_dark_name,강배전 원두
+beans_dark_desc,강하게 볶은 커피 원두 한 줌.
+btn_light,약하게
+btn_medium,중간
+btn_dark,강하게
+status_idle,대기 중
+status_no_power,전력 없음
+status_need_beans,커피 원두 필요
+status_output_full,출력 공간이 가득 참
+status_done_roast,완료: {0} ({1})
+status_done_full,"완료: {0}, 출력 공간이 가득 참"
+status_done_no_power,"완료: {0}, 전력 없음"
+maker_name,커피 머신
+maker_desc,"모든 재료와 빈 컵을 왼쪽 재료 칸에 넣으세요. 음료는 오른쪽 출력 칸에 생성됩니다(최소 2×2 공간 확보). 아메리카노를 만들면 에스프레소 잔은 왼쪽으로 돌아옵니다. 전력이 필요하며, 한 번에 한 잔만 만들 수 있습니다. 여러 조리법이 가능할 때 우선순위: 모카, 비엔나 커피, 라테, 아포가토, 주스 아메리카노, 아메리카노, 쥐똥 커피, 에스프레소."
+panel_beans,볶은 원두
+panel_water,물
+panel_control,조작
+panel_coffee,커피
+btn_brew,만들기
+status_need_roasted,재료가 부족합니다
+status_need_water_container,재료가 부족합니다
+status_need_water,물이 없습니다
+status_need_output_container,재료가 부족합니다
+status_output_mixed,출력물은 비어 있거나 커피여야 합니다
+status_cup_full,출력 공간이 가득 참
+status_liquid_error,준비되지 않음
+status_done_brew,완료: {0} {1}mL
+status_water_not_pure_liquid,혼합 액체
+status_output_other_grade,출력물에 다른 등급의 액체가 있습니다(비어 있거나 {0}이어야 함)
+grade_ditch,폐수 커피
+grade_bad,간신히 마실 만함
+grade_handmade,수제 커피
+grade_commercial,상업용 커피
+grade_specialty,스페셜티 커피
+panel_espresso,커피 컵
+status_need_more_water,물이 부족합니다
+status_done_espresso,완료
+espresso_name_graded,에스프레소 ({0})
+espresso_desc,커피 머신으로 내린 에스프레소 한 잔입니다.
+tooltip_grade,[등급] {0}
+tooltip_bottle_grade,[등급] 에스프레소 · {0} ({1}mL)
+status_cup_full_ml,출력 용기에 {0}mL 이상 담을 공간이 없습니다
+espresso_bottle_name,에스프레소
+espresso_name,에스프레소
+label_prefix,[라벨]
+panel_bottle,빈 병
+status_need_empty_bottle,재료가 부족합니다
+cup_empty_name,빈 커피잔
+cup_empty_desc,에스프레소용 잔입니다. 볶은 원두와 함께 커피 머신의 재료 칸에 넣어 에스프레소를 만드세요.
+status_no_empty_cup,재료가 부족합니다
+order_card_name,커피잔 주문 카드
+order_card_desc,빈 커피잔과 빈 유리잔을 주문할 수 있는 공급업체 카드입니다. 주문한 상품은 이후 영업일에 매장 앞 카운터로 배송됩니다.
+order_card_paper_title,커피잔 주문
+order_card_paper_body,잔과 유리컵을 주문하세요.\n다음 영업일에 배송됩니다.
+order_card_paper_btn,주문 창 열기
+order_ui_title,커피잔 주문
+order_ui_price_hint,클릭당 15크레딧으로 3개를 주문합니다. 배송 대기 중인 커피잔과 유리잔은 최대 18개입니다. 다음 영업일에 문을 연 뒤 배송됩니다.
+order_btn_close,닫기
+order_pending_none,배송 대기 중인 주문이 없습니다.
+order_pending_line,대기 중: 컵 {0}개(주문일: {1}일)
+order_msg_ok,컵 {0}개를 주문했습니다({1}크레딧). 이후 영업일에 문을 연 뒤 배송됩니다.
+order_msg_cap,3개 묶음을 주문할 공간이 부족합니다(컵과 유리잔 합계 최대 {0}개). 배송을 기다려 주세요.
+order_msg_fail,주문에 실패했습니다. F8 콘솔을 확인하세요.
+order_balance_line,보유 현금: {0}
+order_balance_unknown,보유 현금: (확인할 수 없음)
+order_msg_broke,"현금이 부족합니다({0} 필요, 보유액 {1}). 비용은 청구되지 않았습니다."
+order_msg_balance_error,현금 잔액을 확인할 수 없어 주문을 취소했습니다. 비용은 청구되지 않았습니다.
+cabinet_name,커피잔 수납장
+cabinet_desc,"대형 수납장입니다. 커피잔과 원두, 기계, 각종 재료를 보관할 수 있습니다."
+panel_cabinet,수납
+coffee_shop_title,딥 스페이스 커피 보급소
+coffee_shop_desc,야간에 이용할 수 있는 커피 보급소입니다. 진열대의 상품을 구매 구역으로 옮긴 뒤 셀프서비스 태블릿에서 결제하세요. 떠나기 전에 구매한 상품을 챙기세요.
+coffee_shop_leave_warning,바닥에 남긴 물품은 떠날 때 사라져 되찾을 수 없습니다. 구매한 물품을 모두 챙기셨나요?
+glass_empty_name,빈 유리잔
+glass_empty_desc,아메리카노용 유리잔입니다. 에스프레소와 함께 커피 머신의 재료 칸에 넣고 물을 추가해 아메리카노를 만드세요.
+americano_name,아메리카노
+americano_name_graded,아메리카노 ({0})
+americano_desc,에스프레소와 물로 만든 아메리카노입니다. 등급은 넣은 물의 품질에 따라 달라집니다.
+panel_maker_input,재료
+panel_maker_output,출력
+status_need_maker_input,재료가 부족합니다
+status_no_empty_glass,재료가 부족합니다
+status_need_recipe_pair,재료가 부족합니다
+status_done_americano,완료
+order_pending_product,{0} 대기 중: {1}(주문일: {2}일)
+order_pending_product_none,{0}: 배송 대기 중인 주문이 없습니다.
+order_msg_product_ok,{0} {1}개를 주문했습니다({2}크레딧). 이후 영업일에 문을 연 뒤 배송됩니다.
+order_btn_3,3개(15)
+latte_name,라테
+latte_desc,에스프레소와 필크로 만든 라테입니다.
+status_done_latte,완료
+status_need_milk_or_glass,재료가 부족합니다
+juice_americano_name,주스 아메리카노
+juice_americano_desc,아메리카노와 푸이스로 만든 주스 아메리카노입니다.
+affogato_name,아포가토
+affogato_desc,커피와 바닐라 아이스크림으로 만든 아포가토입니다.
+status_done_juice_americano,완료
+status_done_affogato,완료
+mocha_name,모카
+mocha_desc,라테와 캣 초콜릿 바로 만든 모카입니다.
+vienna_name,비엔나 커피
+vienna_desc,라테와 바닐라 아이스크림으로 만든 비엔나 커피입니다.
+status_done_mocha,완료
+status_done_vienna,완료
+recipe_note_name,커피 조리법
+recipe_note_title,커피 조리법
+recipe_note_line01,모든 재료와 빈 컵을 커피 머신 왼쪽의 재료 칸에 넣으세요. 물통은 물 칸에 넣고 '만들기'를 누르세요. 완성된 커피는 오른쪽에 나옵니다.
+recipe_note_line02,에스프레소: 볶은 원두 + 빈 커피잔 + 물.
+recipe_note_line03,아메리카노: 에스프레소 + 빈 유리잔 + 물.
+recipe_note_line04,라테: 에스프레소 + 필크.
+recipe_note_line05,아포가토: 에스프레소 또는 아메리카노 + 바닐라 아이스크림.
+recipe_note_line06,주스 아메리카노: 아메리카노 + 푸이스.
+recipe_note_line07,모카: 라테 + 캣 초콜릿 바.
+recipe_note_line08,비엔나 커피: 라테 + 바닐라 아이스크림.
+recipe_note_line09,쥐똥 커피: 쥐똥 원두 + 빈 커피잔 + 물. 생원두와 동물 배설물을 1:1로 함께 볶으면 쥐똥 원두가 됩니다.
+recipe_note_line10,커피 등급은 물의 품질에 따라 달라집니다. 첨가물을 넣은 음료는 기본 커피의 등급을 유지합니다.
+rat_beans_light_name,약배전 쥐똥 원두
+rat_beans_light_desc,동물 배설물과 함께 약하게 볶은 커피 원두 한 줌.
+rat_beans_medium_name,중배전 쥐똥 원두
+rat_beans_medium_desc,동물 배설물과 함께 중간 정도로 볶은 커피 원두 한 줌. 중배전일 때 풍미가 가장 좋습니다.
+rat_beans_dark_name,강배전 쥐똥 원두
+rat_beans_dark_desc,동물 배설물과 함께 강하게 볶은 커피 원두 한 줌.
+rat_coffee_name,쥐똥 커피
+rat_coffee_desc,쥐똥 원두로 내린 커피 한 잔입니다. 원두가 어디서 왔는지는 묻지 마세요.
+status_done_rat_roast,"완료: {0} ({1}, 쥐똥 원두)"
+status_done_rat_coffee,완료

@@ -182,7 +182,12 @@ guide_title,분노병 식별 안내서
 guide_sign_eyes,충혈된 눈
 guide_sign_cheeks,상기된 뺨
 guide_sign_rash,붉은 발진
-guide_nonvisual,-비정상적으로 공격적인 말투\n-무례함
+guide_nonvisual,"-말투가 유난히 사납습니다.
+-무례하고 예의가 없습니다.
+-쉽게 짜증을 냅니다.
+-사소한 일에도 화를 냅니다.
+
+※외모와 말투 양쪽에 증상이 나타나야 분노병입니다."
 name_hazmat,라이트하우스 대응 요원
 name_operator,라이트하우스 교환원
 name_lower_resident,하층 주민
@@ -1000,7 +1005,7 @@ ch4_shop_berserk_sec_1,…젠장
 ch4_shop_berserk_sec_2,이런 부류까지 거리로 나옴… 심각한 상황
 ch4_shop_berserk_sec_3,"*밖에 있는 병사들에게* 끌고 가기, 바닥 청소"
 ch4_shop_berserk_sec_4,그자는 우리가 데려가겠다.
-ch4_berserk_guide_1,광폭증입니다. 마지막 단계입니다. 더는 사람이 아닙니다.
+ch4_berserk_guide_1,광폭증이야. 마지막 단계야. 더는 사람이 아니야.
 ch4_berserk_guide_2,이걸 가지고 있어. 구별하는 법이 적혀 있어.
 ch4_berserk_guide_3,또 이런 자를 보면 유리창은 닫아 둔 채 방역 핫라인에 전화해.
 shop_berserk_sec_1,…또 한 명

@@ -13,12 +13,16 @@ namespace ProbablyStolenKo
             string methodName,
             string mode,
             int argumentIndex,
+            string fieldType,
+            string fieldName,
             IReadOnlyDictionary<string, string> entries)
         {
             TypeName = typeName;
             MethodName = methodName;
             Mode = mode;
             ArgumentIndex = argumentIndex;
+            FieldType = fieldType;
+            FieldName = fieldName;
             Entries = entries;
         }
 
@@ -26,6 +30,8 @@ namespace ProbablyStolenKo
         internal string MethodName { get; }
         internal string Mode { get; }
         internal int ArgumentIndex { get; }
+        internal string FieldType { get; }
+        internal string FieldName { get; }
         internal IReadOnlyDictionary<string, string> Entries { get; }
     }
 
@@ -73,7 +79,7 @@ namespace ProbablyStolenKo
     internal sealed class ManagedLiteralCatalog
     {
         private const string ExpectedFingerprint = "7f4783cdb9f20aa37e099e7b96e6189da0bc9ba99f2f87b3ce163ac1ae0929a0";
-        private const int ExpectedEntries = 21689;
+        private const int ExpectedEntries = 23516;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -101,8 +107,10 @@ namespace ProbablyStolenKo
                 ["gunsmith_expansion"] = "3834619049",
                 ["upper_levels"] = "3838944803",
                 ["combat_contracts"] = "3834364038",
+                ["eleanor_rescue"] = "3834076808",
+                ["charles_chemistry_items"] = "3838151650",
             };
-        private const int ExpectedTargets = 24;
+        private const int ExpectedTargets = 26;
 
         private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets)
         {
@@ -150,11 +158,14 @@ namespace ProbablyStolenKo
                     var methodName = (string)route?["method"];
                     var mode = (string)route?["mode"];
                     var argumentIndex = (int?)route?["argument_index"] ?? 0;
+                    var fieldType = (string)route?["field_type"];
+                    var fieldName = (string)route?["field_name"];
                     var sourceEntries = route?["entries"] as JObject;
                     if (string.IsNullOrWhiteSpace(typeName) || string.IsNullOrWhiteSpace(methodName) ||
-                        (mode != "literal" && mode != "literal_occurrence" &&
+                        (mode != "literal" && mode != "literal_occurrence" && mode != "field_store" &&
                          mode != "result_string" && mode != "result_string_array" &&
                          mode != "result_by_argument" && mode != "result_by_arguments") ||
+                        (mode == "field_store" && (string.IsNullOrWhiteSpace(fieldType) || string.IsNullOrWhiteSpace(fieldName))) ||
                         argumentIndex < 0 || sourceEntries == null)
                         throw new FormatException("Incomplete managed route record.");
                     var entries = new Dictionary<string, string>(StringComparer.Ordinal);
@@ -164,7 +175,7 @@ namespace ProbablyStolenKo
                         if (string.IsNullOrEmpty(entry.Name) || translation == null) throw new FormatException("Invalid managed route entry.");
                         entries.Add(entry.Name, translation);
                     }
-                    routes.Add(new ManagedRoute(typeName, methodName, mode, argumentIndex, entries));
+                    routes.Add(new ManagedRoute(typeName, methodName, mode, argumentIndex, fieldType, fieldName, entries));
                 }
                 var refresh = new List<ManagedRefresh>(sourceRefresh.Count);
                 foreach (var refreshToken in sourceRefresh)
@@ -195,6 +206,8 @@ namespace ProbablyStolenKo
             new Dictionary<int, IReadOnlyDictionary<string, string>>();
         private static readonly Dictionary<int, Tuple<int, IReadOnlyDictionary<string, string>>> ArgumentBindingRoutes =
             new Dictionary<int, Tuple<int, IReadOnlyDictionary<string, string>>>();
+        private static readonly Dictionary<int, Tuple<string, string, IReadOnlyDictionary<string, string>>> FieldStoreBindingRoutes =
+            new Dictionary<int, Tuple<string, string, IReadOnlyDictionary<string, string>>>();
         private static readonly HashSet<int> EnabledStaticBindings = new HashSet<int>();
 
         private readonly Dictionary<string, Harmony> _harmonies =
@@ -257,6 +270,8 @@ namespace ProbablyStolenKo
             {
                 if (route.Mode == "literal" || route.Mode == "literal_occurrence")
                     LiteralBindingRoutes[binding.Id] = route.Entries;
+                else if (route.Mode == "field_store")
+                    FieldStoreBindingRoutes[binding.Id] = Tuple.Create(route.FieldType, route.FieldName, route.Entries);
                 else if (route.Mode == "result_by_argument")
                     ArgumentBindingRoutes[binding.Id] = Tuple.Create(route.ArgumentIndex, route.Entries);
                 else ResultBindingRoutes[binding.Id] = route.Entries;
@@ -286,6 +301,7 @@ namespace ProbablyStolenKo
                     LiteralBindingRoutes.Remove(bindingId);
                     ResultBindingRoutes.Remove(bindingId);
                     ArgumentBindingRoutes.Remove(bindingId);
+                    FieldStoreBindingRoutes.Remove(bindingId);
                 }
             }
             if (refreshPrepared)
@@ -311,6 +327,7 @@ namespace ProbablyStolenKo
                 ResultBindingRoutes.Clear();
                 ArgumentBindingRoutes.Clear();
                 EnabledStaticBindings.Clear();
+                FieldStoreBindingRoutes.Clear();
             }
             foreach (var modId in _appliedRefresh)
             {
@@ -330,6 +347,42 @@ namespace ProbablyStolenKo
             IReadOnlyDictionary<string, string> entries;
             lock (Gate) LiteralBindingRoutes.TryGetValue(bindingId, out entries);
             return TranslateInstructions(instructions, entries);
+        }
+
+        internal static IEnumerable<CodeInstruction> TranspileFieldStoreBinding(
+            IEnumerable<CodeInstruction> instructions,
+            int bindingId)
+        {
+            Tuple<string, string, IReadOnlyDictionary<string, string>> route;
+            lock (Gate) FieldStoreBindingRoutes.TryGetValue(bindingId, out route);
+            if (route == null) throw new InvalidOperationException("Field-store route was not prepared.");
+
+            var source = new List<CodeInstruction>(instructions);
+            var output = new List<CodeInstruction>(source.Count + 2);
+            var matches = 0;
+            foreach (var instruction in source)
+            {
+                if (instruction.opcode == OpCodes.Stfld &&
+                    instruction.operand != null &&
+                    StringComparer.Ordinal.Equals(instruction.operand.ToString(), "System.String " + route.Item2))
+                {
+                    output.Add(new CodeInstruction(OpCodes.Ldc_I4, bindingId));
+                    output.Add(CodeInstruction.Call(typeof(ManagedLiteralOverlay), nameof(TranslateFieldStoreValue)));
+                    matches++;
+                }
+                output.Add(instruction);
+            }
+            if (matches != 1)
+                throw new InvalidOperationException("Expected exactly one reviewed field store, found " + matches + ".");
+            return output;
+        }
+
+        internal static string TranslateFieldStoreValue(string source, int bindingId)
+        {
+            if (source == null) return null;
+            Tuple<string, string, IReadOnlyDictionary<string, string>> route;
+            lock (Gate) FieldStoreBindingRoutes.TryGetValue(bindingId, out route);
+            return route != null && route.Item3.TryGetValue(source, out var translation) ? translation : source;
         }
 
         internal static void PostfixStringBinding(ref string result, int bindingId)

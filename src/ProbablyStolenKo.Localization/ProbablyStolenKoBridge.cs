@@ -5,6 +5,19 @@ namespace ProbablyStolenKo
 {
     public sealed class ProbablyStolenKoBridge : IMod
     {
+        private const ulong CroTranslationPackWorkshopId = 3834117650UL;
+        private static readonly HashSet<string> CroOverlapManifestIds =
+            new HashSet<string>(StringComparer.Ordinal)
+            {
+                "ps-fishing-gameplay",
+                "brewing_expansion",
+                "fishing-cuisine-expansion",
+                "tobacco_expansion",
+                "ai.emporium",
+                "gunsmith_expansion",
+                "upper_levels"
+            };
+
         private ModManifest _manifest;
         private WorkshopPayloadCatalog _workshopCatalog;
         private ManagedLiteralCatalog _managedCatalog;
@@ -13,6 +26,8 @@ namespace ProbablyStolenKo
         private ModLog _log;
         private bool _enabled;
         private bool _assetsSubscribed;
+        private bool _croStateCaptured;
+        private bool _croTranslationPackActive;
         private readonly Dictionary<WorkshopEntryKey, WorkshopOriginal> _workshopOriginals =
             new Dictionary<WorkshopEntryKey, WorkshopOriginal>();
 
@@ -46,6 +61,11 @@ namespace ProbablyStolenKo
         private void ActivateWhenRegistered()
         {
             if (!IsRegistered()) return;
+            if (!_croStateCaptured)
+            {
+                _croTranslationPackActive = IsCroTranslationPackActive();
+                _croStateCaptured = true;
+            }
             if (_workshopCatalog == null && !TryLoadCatalog()) return;
             TryLoadManagedCatalog();
             foreach (var loaded in ModLoader.Mods)
@@ -61,6 +81,17 @@ namespace ProbablyStolenKo
                     StringComparer.Ordinal.Equals(loaded.Manifest.ID, _manifest.ID)) return true;
             return false;
         }
+        private static bool IsCroTranslationPackActive()
+        {
+            foreach (var loaded in ModLoader.Mods)
+            {
+                if (!IsUsable(loaded)) continue;
+                if (loaded.WorkshopId == CroTranslationPackWorkshopId ||
+                    loaded.ShadowedWorkshopId == CroTranslationPackWorkshopId) return true;
+            }
+            return false;
+        }
+
 
         private static bool IsUsable(LoadedMod loaded)
         {
@@ -99,6 +130,7 @@ namespace ProbablyStolenKo
 
         private void ApplyTarget(LoadedMod loaded)
         {
+            if (_croTranslationPackActive && CroOverlapManifestIds.Contains(loaded.Manifest.ID)) return;
             if (_workshopCatalog.TryGetMod(loaded.Manifest.ID, out _))
             {
                 try

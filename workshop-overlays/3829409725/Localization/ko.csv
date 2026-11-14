@@ -6,7 +6,7 @@ pipette_tip_dose,사용당 흡입량: {0} ({1}%)
 pipette_tip_hint,피펫을 왼쪽 클릭하여 조정 · 장착 중: 왼쪽 클릭 흡입 / 오른쪽 클릭 배출
 pipette_win_title,피펫 교정
 pipette_win_value,{0} 흡입
-pipette_win_input_hint,상자를 클릭하고 숫자(1-100 mL)를 입력하세요.
+pipette_win_input_hint,상자를 클릭하고 1–100 mL를 입력하세요.
 pipette_win_confirm_hint,변경할 때마다 확인을 눌러 저장하세요.
 pipette_win_confirm,확인
 pipette_win_close,닫기
@@ -24,7 +24,7 @@ mini_name,마이크로 피펫
 mini_desc,용량이 1 ml(1000 µL)이며 흡입량을 자유롭게 설정할 수 있는 가벼운 피펫입니다.
 mini_flavor,
 pipette_win_input_hint_ul,상자를 클릭하세요
-pipette_win_input_hint_fmt,상자를 클릭
+pipette_win_input_hint_fmt,상자를 클릭해 {0}–{1} {2}을(를) 입력하세요
 hydra_mode_acid,모드: 산
 hydra_mode_base,모드: 염기
 hydra_mode_none,모드: 미설정
@@ -51,7 +51,7 @@ hydra_stage_8,지질 침전
 hydra_reason_temp,대상 온도 불일치
 hydra_reason_missing,대상에 필요한 시약이 없습니다
 hydra_reason_alcohol,과도한 알코올 비율
-hydra_catalyst,{0} 지방결합제 이전 예정 (촉매
+hydra_catalyst,"{0} 지방결합제 이전 예정 (촉매 작용, 소모되지 않음) · {1}"
 hydra_tip_hint,장착 시: 왼쪽 클릭으로 흡입 / 비우기
 agent_name,피펫 판매상
 agent_dialog_1,실험실 장비
@@ -67,7 +67,7 @@ hydra_mode_coffee,모드: 커피
 hydra_stage_dream,드림 캡 추출
 hydra_stage_coffee,커피 추출
 hydra_reason_no_alcohol,대상에 알코올이 없습니다
-hydra_extract_fmt,{0} 추출 예정 ({1}
+hydra_extract_fmt,"{0} 추출 예정 ({1}, 원료의 {2}% 전환) · {3}"
 hydra_extract_max,최대 추출 효율 도달
 hydra_extract_notmax,추출 효율 {0}%
 hydra_need_dream,드림 캡 용액만 흡입할 수 있습니다 (다른 모드 성분보다 함량이 높아야 함)
@@ -105,10 +105,10 @@ hydra_temp_fanta,110–130°C
 hydra_reason_lipobond_first,리포본 제제를 먼저 추가하세요 (탈몽에는 이 제제의 촉매가 필요합니다)
 hydra_stage_custom,사용자 지정 반응
 hydra_reason_missing_liquid,대상에 {0}이(가) 없습니다
-hydra_extract_detail_fmt,{0}{1} 추출
-hydra_extract_state_fmt,({0}
-hydra_fanta_eff_fmt,{0} 판타 합성 ({1} 메틸올 소모
-hydra_reaction_detail_fmt,{0} 소모
+hydra_extract_detail_fmt,{0}{1}을(를) 추출해 {2} 생성
+hydra_extract_state_fmt,"({0}, 원료의 {1}% 전환) · {2}"
+hydra_fanta_eff_fmt,"{0} 판타 합성 예정 (메틸올 {1} 소모, 전환율 {2}%) · {3}"
+hydra_reaction_detail_fmt,"{0} 소모, {1} 생성"
 hydra_fanta_ratio_fmt,(전환 비율 {0}%)
 hydra_list_separator,; 
 hydra_stage_sterilize,살균

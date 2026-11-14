@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "inventory_fingerprint": "1cc4cebef13dfbf4f84d40fd584b0338a07ccd4d1d52c73e83a546ba7b7486fa",
-  "scope": "installed_workshop_mod_korean_overlay_r23",
+  "inventory_fingerprint": "0f14e390857494df537e083da5db070538e0a89805099db4c3d72fb1cf2d16dd",
+  "scope": "installed_workshop_mod_korean_overlay_r24",
   "locale": "ko",
   "base_game_entries": 0,
   "existing_ko_entries": 0,
@@ -76,7 +76,22 @@
       "workshop_item_id": "3834364038",
       "csv_path": "workshop-overlays/3834364038/Localization/ko.csv",
       "entry_count": 23
+    },
+    "va11halla": {
+      "workshop_item_id": "3831732004",
+      "csv_path": "workshop-overlays/3831732004/Localization/ko.csv",
+      "entry_count": 304
+    },
+    "space_coffee": {
+      "workshop_item_id": "3834667583",
+      "csv_path": "workshop-overlays/3834667583/Localization/ko.csv",
+      "entry_count": 132
+    },
+    "local.uv-coverage": {
+      "workshop_item_id": "3835898349",
+      "csv_path": "workshop-overlays/3835898349/Localization/ko.csv",
+      "entry_count": 41
     }
   },
-  "entry_count": 10027
+  "entry_count": 10504
 }

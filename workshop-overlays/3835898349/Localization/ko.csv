@@ -1,0 +1,41 @@
+radius,전방 조사 범위(칸)
+radius_tip,전방은 기존 아이콘의 아래쪽 방향을 기준으로 합니다. 기본 범위는 3칸입니다. 진입하거나 액체가 추가되면 조사를 시작합니다.
+range,자외선 조사 범위 표시
+effects,조사 애니메이션 표시
+manual_effects,수동 자외선 조사 애니메이션 표시
+lamp_on,범위 조사: 켜짐
+lamp_off,범위 조사: 꺼짐
+turn_on,자외선 범위 조사 켜기
+turn_off,자외선 범위 조사 끄기
+red,색상: 빨강 R (0–255)
+green,색상: 초록 G (0–255)
+blue,색상: 파랑 B (0–255)
+rgb_tip,이 채널은 범위 조사와 스캔 색상에 모두 적용됩니다. 기본 RGB는 153 / 79 / 255입니다.
+transparency,조명 투명도(%)
+transparency_tip,"0부터 100까지 입력하세요. 소수도 허용됩니다. 0은 불투명, 100은 완전 투명입니다. 지속 조명에만 적용됩니다. 기본값: 75."
+fade_start,감쇠 시작 지점(조사 범위 대비 %)
+fade_start_tip,0부터 100까지 입력하세요. 램프 앞쪽을 기준으로 합니다. 0은 전체 조사 범위에서 감쇠하고 100은 감쇠를 끕니다. 기본값: 70.
+side_softness,측면 페더 너비(칸)
+side_softness_tip,양쪽 측면의 페더 너비를 0부터 1까지 입력하세요. 0은 비활성화입니다. 기본값: 0.33칸.
+foreground,용기 위에 조명 표시
+foreground_tip,끄면 물건 아래에 표시합니다. 어느 모드에서도 마우스 입력을 막지 않습니다.
+scan_duration,조사 지속 시간(초)
+scan_duration_tip,자동/수동 조사를 포함한 전체 스캔의 지속 시간입니다. 기본값: 0.9초.
+scan_line_width,스캔 선 너비(픽셀)
+scan_line_width_tip,게임 UI 픽셀을 사용하며 UI 배율에 따라 크기가 달라집니다. 기본값: 2픽셀.
+scan_line_opacity,스캔 선 불투명도(%)
+scan_wash_opacity,스캔 광막 불투명도(%)
+dev_title,더 나은 자외선 램프 · 개발자 설정
+dev_hint,변경 사항은 자동 저장됩니다 · Ctrl+Shift+U로 전환 · 제목 표시줄을 끌어 이동
+dev_reset,기본값으로 초기화
+dev_close,닫기
+settings_title,더 나은 자외선 램프 · 설정
+settings_reset,기본값으로 초기화
+settings_apply,적용
+player_depth,조사 범위(1–4칸)
+player_light,조사 조명 표시
+color,조명 색상(RGB)
+rgb_error,0부터 255까지의 정수 RGB 값을 입력하세요
+player_area_scan,범위 조사 애니메이션
+player_manual_scan,수동 자외선 조사 애니메이션
+number_error,{0}에서 {1} 사이의 올바른 숫자를 입력하세요

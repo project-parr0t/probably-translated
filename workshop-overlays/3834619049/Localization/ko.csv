@@ -438,7 +438,7 @@ gsx_printed_part_name,출력된 총기 부품
 gsx_printed_part_desc,플라스틱 총기 부품. 플라스틱 출력 총기를 ‘양호’ 상태까지 수리한다.
 gsx_printed_part_flavor,어차피 프린터에서 나온 총에 쓸 거라면 이 정도면 충분하다.
 gsx_chip_pouch_name,칩 주머니
-gsx_chip_pouch_desc,3D 프린터 칩을 최대 {0}개 담는다. 프린터 칩 슬롯에 넣고 아래에서 레시피를 고른다(또는 주머니를 전환한다).
+gsx_chip_pouch_desc,3D 프린터 칩을 최대 {0}개 담습니다. 프린터 칩 슬롯에 넣고 레시피를 선택하거나 보급 키트로 주머니 안의 칩을 찾을 수 있습니다.
 gsx_chip_pouch_flavor,모든 설계도를 한 주머니에.
 gsx_chip_pouch_chosen,선택한 칩: {0}
 gsx_chip_pouch_none,안에 칩이 없습니다.

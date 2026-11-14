@@ -28,9 +28,9 @@ namespace ProbablyStolenKo
     internal static class GeneratedManagedBindings
     {
         internal const string InventoryFingerprint = "7f4783cdb9f20aa37e099e7b96e6189da0bc9ba99f2f87b3ce163ac1ae0929a0";
-        internal const int RouteCount = 347;
-        internal const int BindingCount = 438;
-        internal const int StaticPatchBindingCount = 438;
+        internal const int RouteCount = 352;
+        internal const int BindingCount = 441;
+        internal const int StaticPatchBindingCount = 441;
         internal const int UnsupportedBindingCount = 0;
         internal const int RefreshBindingCount = 6;
         internal static IReadOnlyList<ManagedExactBinding> Create(string modId)
@@ -69,6 +69,12 @@ namespace ProbablyStolenKo
                     break;
                 case "asteroid_in_game_mod_settings":
                     Add_9_0(bindings);
+                    break;
+                case "eleanor_rescue":
+                    Add_10_0(bindings);
+                    break;
+                case "charles_chemistry_items":
+                    Add_11_0(bindings);
                     break;
             }
             return bindings;
@@ -409,7 +415,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(303, 177, "AgriExpansion.AgriFiberMachine", "CreateManual", "", null, typeof(GeneratedManagedPatch_303), null));
             bindings.Add(new ManagedExactBinding(304, 178, "AgriExpansion.AgriFiberMachine", "get_ManualText", "", null, typeof(GeneratedManagedPatch_304), null));
             bindings.Add(new ManagedExactBinding(305, 179, "AgriExpansion.AgriFiberMachine+FiberView", "RefreshRequirements", "", null, typeof(GeneratedManagedPatch_305), null));
-            bindings.Add(new ManagedExactBinding(306, 180, "AgriExpansion.AgriFiberProduction", "ProcessCycle", "GameItem, GameGridInventory, GameGridInventory, GameSlotInventory, GameInventory, AgriExpansion.FiberProduct, System.Int32", null, typeof(GeneratedManagedPatch_306), null));
+            bindings.Add(new ManagedExactBinding(306, 180, "AgriExpansion.AgriFiberProduction", "ProcessCycle", "GameItem, GameInventory, GameGridInventory, GameSlotInventory, GameInventory, AgriExpansion.FiberProduct, System.Int32", null, typeof(GeneratedManagedPatch_306), null));
             bindings.Add(new ManagedExactBinding(307, 181, "AgriExpansion.AgriFiberRules", "Plan", "AgriExpansion.FiberProduct, System.Collections.Generic.IReadOnlyList`1<AgriExpansion.FiberMaterial>, System.Int32", null, typeof(GeneratedManagedPatch_307), null));
             bindings.Add(new ManagedExactBinding(308, 182, "AgriExpansion.AgriFiberRules", "get_MaterialNames", "", null, typeof(GeneratedManagedPatch_308), null));
             bindings.Add(new ManagedExactBinding(309, 183, "AgriExpansion.AgriFiberRules", "get_Names", "", null, typeof(GeneratedManagedPatch_309), null));
@@ -421,7 +427,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(315, 189, "AgriExpansion.AgriFoodMachine", "CreateManual", "", null, typeof(GeneratedManagedPatch_315), null));
             bindings.Add(new ManagedExactBinding(316, 190, "AgriExpansion.AgriFoodMachine", "get_ManualText", "", null, typeof(GeneratedManagedPatch_316), null));
             bindings.Add(new ManagedExactBinding(317, 191, "AgriExpansion.AgriFoodMachine+PackingView", "Refresh", "", null, typeof(GeneratedManagedPatch_317), null));
-            bindings.Add(new ManagedExactBinding(318, 192, "AgriExpansion.AgriFoodProduction", "TryPack", "GameItem, GameGridInventory, GameGridInventory, AgriExpansion.FoodKind, System.String&", null, typeof(GeneratedManagedPatch_318), null));
+            bindings.Add(new ManagedExactBinding(318, 192, "AgriExpansion.AgriFoodProduction", "TryPack", "GameItem, GameInventory, GameGridInventory, AgriExpansion.FoodKind, System.String&", null, typeof(GeneratedManagedPatch_318), null));
             bindings.Add(new ManagedExactBinding(319, 193, "AgriExpansion.AgriFoodRules", "Plan", "AgriExpansion.FoodKind, System.Collections.Generic.IReadOnlyList`1<AgriExpansion.FoodMaterial>", null, typeof(GeneratedManagedPatch_319), null));
             bindings.Add(new ManagedExactBinding(320, 194, "AgriExpansion.AgriFoodRules", "get_KindNames", "", null, typeof(GeneratedManagedPatch_320), null));
             bindings.Add(new ManagedExactBinding(321, 195, "AgriExpansion.AgriFoodRules", "get_Names", "", null, typeof(GeneratedManagedPatch_321), null));
@@ -431,133 +437,144 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(325, 199, "AgriExpansion.AgriIndustry", "Register", "", null, typeof(GeneratedManagedPatch_325), null));
             bindings.Add(new ManagedExactBinding(326, 200, "AgriExpansion.AgriIndustry", "Return", "GameItem, GameInventory", null, typeof(GeneratedManagedPatch_326), null));
             bindings.Add(new ManagedExactBinding(327, 201, "AgriExpansion.AgriIndustry+<>c", "<Register>b__3_1", "", null, typeof(GeneratedManagedPatch_327), null));
-            bindings.Add(new ManagedExactBinding(328, 202, "AgriExpansion.AgriIndustry+<>c", "<Register>b__3_2", "", null, typeof(GeneratedManagedPatch_328), null));
-            bindings.Add(new ManagedExactBinding(329, 203, "AgriExpansion.AgriIndustry+<>c", "<Register>b__3_3", "", null, typeof(GeneratedManagedPatch_329), null));
-            bindings.Add(new ManagedExactBinding(330, 204, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__0", "", null, typeof(GeneratedManagedPatch_330), null));
-            bindings.Add(new ManagedExactBinding(331, 205, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__2", "", null, typeof(GeneratedManagedPatch_331), null));
-            bindings.Add(new ManagedExactBinding(332, 206, "AgriExpansion.AgriIronSmelting", "AppendInstructions", "GameItem", null, typeof(GeneratedManagedPatch_332), null));
-            bindings.Add(new ManagedExactBinding(333, 207, "AgriExpansion.AgriIronSmelting", "get_InstructionMarker", "", null, typeof(GeneratedManagedPatch_333), null));
-            bindings.Add(new ManagedExactBinding(334, 208, "AgriExpansion.AgriItems", "get_AlgaeDescription", "", null, typeof(GeneratedManagedPatch_334), null));
-            bindings.Add(new ManagedExactBinding(335, 209, "AgriExpansion.AgriItems", "get_AlgaeFlavor", "", null, typeof(GeneratedManagedPatch_335), null));
-            bindings.Add(new ManagedExactBinding(336, 210, "AgriExpansion.AgriItems", "get_GourdDescription", "", null, typeof(GeneratedManagedPatch_336), null));
-            bindings.Add(new ManagedExactBinding(337, 211, "AgriExpansion.AgriItems", "get_GourdFlavor", "", null, typeof(GeneratedManagedPatch_337), null));
-            bindings.Add(new ManagedExactBinding(338, 212, "AgriExpansion.AgriItems", "get_IronFlavor", "", null, typeof(GeneratedManagedPatch_338), null));
-            bindings.Add(new ManagedExactBinding(339, 213, "AgriExpansion.AgriItems", "get_IronFruitDescription", "", null, typeof(GeneratedManagedPatch_339), null));
-            bindings.Add(new ManagedExactBinding(340, 214, "AgriExpansion.AgriItems", "get_IronSeedDescription", "", null, typeof(GeneratedManagedPatch_340), null));
-            bindings.Add(new ManagedExactBinding(341, 215, "AgriExpansion.AgriItems", "get_PlasmaDescription", "", null, typeof(GeneratedManagedPatch_341), null));
-            bindings.Add(new ManagedExactBinding(342, 216, "AgriExpansion.AgriItems", "get_PlasmaFlavor", "", null, typeof(GeneratedManagedPatch_342), null));
-            bindings.Add(new ManagedExactBinding(343, 217, "AgriExpansion.AgriItems", "get_VineDescription", "", null, typeof(GeneratedManagedPatch_343), null));
-            bindings.Add(new ManagedExactBinding(344, 218, "AgriExpansion.AgriItems", "get_VineFlavor", "", null, typeof(GeneratedManagedPatch_344), null));
-            bindings.Add(new ManagedExactBinding(345, 219, "AgriExpansion.AgriItems+<>c", "<Register>b__10_0", "", null, typeof(GeneratedManagedPatch_345), null));
-            bindings.Add(new ManagedExactBinding(346, 220, "AgriExpansion.AgriItems+<>c", "<Register>b__10_1", "", null, typeof(GeneratedManagedPatch_346), null));
-            bindings.Add(new ManagedExactBinding(347, 221, "AgriExpansion.AgriItems+<>c", "<Register>b__10_2", "", null, typeof(GeneratedManagedPatch_347), null));
-            bindings.Add(new ManagedExactBinding(348, 222, "AgriExpansion.AgriItems+<>c", "<Register>b__10_3", "", null, typeof(GeneratedManagedPatch_348), null));
-            bindings.Add(new ManagedExactBinding(349, 223, "AgriExpansion.AgriItems+<>c", "<Register>b__10_4", "", null, typeof(GeneratedManagedPatch_349), null));
-            bindings.Add(new ManagedExactBinding(350, 224, "AgriExpansion.AgriNextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_350), null));
-            bindings.Add(new ManagedExactBinding(351, 225, "AgriExpansion.AgriNextCatalog", "Name", "AgriExpansion.AgriCropVariant", null, typeof(GeneratedManagedPatch_351), null));
-            bindings.Add(new ManagedExactBinding(352, 226, "AgriExpansion.AgriNextCatalog", "Variant", "System.String, System.String, System.Int32, System.Int32", null, typeof(GeneratedManagedPatch_352), null));
-            bindings.Add(new ManagedExactBinding(353, 227, "AgriExpansion.AgriNextCatalog+<Variants>d__5", "MoveNext", "", null, typeof(GeneratedManagedPatch_353), null));
-            bindings.Add(new ManagedExactBinding(354, 228, "AgriExpansion.AgriNextEffects", "BindBrew", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_354), null));
-            bindings.Add(new ManagedExactBinding(355, 229, "AgriExpansion.AgriNextEffects", "BindSaturated", "GameItem", null, typeof(GeneratedManagedPatch_355), null));
-            bindings.Add(new ManagedExactBinding(356, 230, "AgriExpansion.AgriNextItems", "CreateSeed", "AgriExpansion.AgriNextCrop", null, typeof(GeneratedManagedPatch_356), null));
-            bindings.Add(new ManagedExactBinding(357, 231, "AgriExpansion.AgriNextItems", "Describe", "GameItem", null, typeof(GeneratedManagedPatch_357), null));
-            bindings.Add(new ManagedExactBinding(358, 232, "AgriExpansion.AgriNextItems+<>c__DisplayClass1_0", "<CreateSeed>b__0", "GameItem", null, typeof(GeneratedManagedPatch_358), null));
-            bindings.Add(new ManagedExactBinding(359, 233, "AgriExpansion.AgriPerfumeAccess", "Register", "", null, typeof(GeneratedManagedPatch_359), null));
-            bindings.Add(new ManagedExactBinding(360, 234, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_0", "", null, typeof(GeneratedManagedPatch_360), null));
-            bindings.Add(new ManagedExactBinding(361, 235, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_1", "", null, typeof(GeneratedManagedPatch_361), null));
-            bindings.Add(new ManagedExactBinding(362, 236, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_2", "", null, typeof(GeneratedManagedPatch_362), null));
-            bindings.Add(new ManagedExactBinding(363, 237, "AgriExpansion.AgriPerfumeCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_363), null));
-            bindings.Add(new ManagedExactBinding(364, 238, "AgriExpansion.AgriPerfumeDescriptions", ".cctor", "", null, typeof(GeneratedManagedPatch_364), null));
-            bindings.Add(new ManagedExactBinding(365, 239, "AgriExpansion.AgriPerfumeItems", "AromaText", "System.Int32[], System.Boolean", null, typeof(GeneratedManagedPatch_365), null));
-            bindings.Add(new ManagedExactBinding(366, 240, "AgriExpansion.AgriPerfumeItems", "DescribeMaterial", "GameItem, AgriExpansion.PerfumeMaterial", null, typeof(GeneratedManagedPatch_366), null));
-            bindings.Add(new ManagedExactBinding(367, 241, "AgriExpansion.AgriPerfumeItems", "ReactionText", "System.String", null, typeof(GeneratedManagedPatch_367), null));
-            bindings.Add(new ManagedExactBinding(368, 242, "AgriExpansion.AgriPerfumeItems", "Refresh", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_368), null));
-            bindings.Add(new ManagedExactBinding(369, 243, "AgriExpansion.AgriPerfumeMachines", ".cctor", "", null, typeof(GeneratedManagedPatch_369), null));
-            bindings.Add(new ManagedExactBinding(370, 244, "AgriExpansion.AgriPerfumeMachines", "CreateBlender", "", null, typeof(GeneratedManagedPatch_370), null));
-            bindings.Add(new ManagedExactBinding(371, 245, "AgriExpansion.AgriPerfumeMachines+Blender", "Process", "", null, typeof(GeneratedManagedPatch_371), null));
-            bindings.Add(new ManagedExactBinding(372, 246, "AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", "", null, typeof(GeneratedManagedPatch_372), null));
-            bindings.Add(new ManagedExactBinding(373, 247, "AgriExpansion.AgriPerfumeManual", "Build", "GameItem", null, typeof(GeneratedManagedPatch_373), null));
-            bindings.Add(new ManagedExactBinding(374, 248, "AgriExpansion.AgriPerfumeManual+<>c__DisplayClass3_0", "<Create>b__0", "", null, typeof(GeneratedManagedPatch_374), null));
-            bindings.Add(new ManagedExactBinding(375, 249, "AgriExpansion.AgriPerfumeManualText", ".cctor", "", null, typeof(GeneratedManagedPatch_375), null));
-            bindings.Add(new ManagedExactBinding(376, 250, "AgriExpansion.AgriPerfumeManualText", "get_FusionTable", "", null, typeof(GeneratedManagedPatch_376), null));
-            bindings.Add(new ManagedExactBinding(377, 251, "AgriExpansion.AgriPerfumeManualText", "get_Introduction", "", null, typeof(GeneratedManagedPatch_377), null));
-            bindings.Add(new ManagedExactBinding(378, 252, "AgriExpansion.AgriPerfumeManualText", "get_Priorities", "", null, typeof(GeneratedManagedPatch_378), null));
-            bindings.Add(new ManagedExactBinding(379, 253, "AgriExpansion.AgriPerfumeManualText", "get_Quality", "", null, typeof(GeneratedManagedPatch_379), null));
-            bindings.Add(new ManagedExactBinding(380, 254, "AgriExpansion.AgriPerfumeManualText", "get_ReactionOrder", "", null, typeof(GeneratedManagedPatch_380), null));
-            bindings.Add(new ManagedExactBinding(381, 255, "AgriExpansion.AgriPerfumeManualText", "get_Tutorial", "", null, typeof(GeneratedManagedPatch_381), null));
-            bindings.Add(new ManagedExactBinding(382, 256, "AgriExpansion.AgriPerfumeManualText", "get_Usage", "", null, typeof(GeneratedManagedPatch_382), null));
-            bindings.Add(new ManagedExactBinding(383, 257, "AgriExpansion.AgriPerfumeManualText+<>c", "<Recipes>b__11_0", "System.Int32", null, typeof(GeneratedManagedPatch_383), null));
-            bindings.Add(new ManagedExactBinding(384, 258, "AgriExpansion.AgriPerfumeProcessor", "ChooseNote", "", null, typeof(GeneratedManagedPatch_384), null));
-            bindings.Add(new ManagedExactBinding(385, 259, "AgriExpansion.AgriPerfumeProcessor", "Clear", "", null, typeof(GeneratedManagedPatch_385), null));
-            bindings.Add(new ManagedExactBinding(386, 260, "AgriExpansion.AgriPerfumeProcessor", "Create", "System.Int32", null, typeof(GeneratedManagedPatch_386), null));
-            bindings.Add(new ManagedExactBinding(387, 261, "AgriExpansion.AgriPerfumeProcessor", "Process", "", null, typeof(GeneratedManagedPatch_387), null));
-            bindings.Add(new ManagedExactBinding(388, 262, "AgriExpansion.AgriPerfumeProcessor", "Refresh", "", null, typeof(GeneratedManagedPatch_388), null));
-            bindings.Add(new ManagedExactBinding(389, 263, "AgriExpansion.AgriPerfumeRules", ".cctor", "", null, typeof(GeneratedManagedPatch_389), null));
-            bindings.Add(new ManagedExactBinding(390, 264, "AgriExpansion.AgriPlants", "Register", "", null, typeof(GeneratedManagedPatch_390), null));
-            bindings.Add(new ManagedExactBinding(391, 265, "AgriExpansion.AgriPlasticProduction", "Process", "GameItem, GameGridInventory, GameGridInventory, GameSlotInventory, GameInventory", null, typeof(GeneratedManagedPatch_391), null));
-            bindings.Add(new ManagedExactBinding(392, 266, "AgriExpansion.AgriPlasticProduction", "Requirement", "GameItem, GameGridInventory", null, typeof(GeneratedManagedPatch_392), null));
-            bindings.Add(new ManagedExactBinding(393, 267, "AgriExpansion.AgriRequirementText", "Format", "System.String[], System.Int64[], System.Int32[], System.String", null, typeof(GeneratedManagedPatch_393), null));
-            bindings.Add(new ManagedExactBinding(394, 268, "AgriExpansion.AgriSeedPropagation", "AddTooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_394), null));
+            bindings.Add(new ManagedExactBinding(328, 204, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__0", "", null, typeof(GeneratedManagedPatch_328), null));
+            bindings.Add(new ManagedExactBinding(329, 205, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__2", "", null, typeof(GeneratedManagedPatch_329), null));
+            bindings.Add(new ManagedExactBinding(330, 206, "AgriExpansion.AgriIronSmelting", "AppendInstructions", "GameItem", null, typeof(GeneratedManagedPatch_330), null));
+            bindings.Add(new ManagedExactBinding(331, 207, "AgriExpansion.AgriIronSmelting", "get_InstructionMarker", "", null, typeof(GeneratedManagedPatch_331), null));
+            bindings.Add(new ManagedExactBinding(332, 208, "AgriExpansion.AgriItems", "get_AlgaeDescription", "", null, typeof(GeneratedManagedPatch_332), null));
+            bindings.Add(new ManagedExactBinding(333, 209, "AgriExpansion.AgriItems", "get_AlgaeFlavor", "", null, typeof(GeneratedManagedPatch_333), null));
+            bindings.Add(new ManagedExactBinding(334, 210, "AgriExpansion.AgriItems", "get_GourdDescription", "", null, typeof(GeneratedManagedPatch_334), null));
+            bindings.Add(new ManagedExactBinding(335, 211, "AgriExpansion.AgriItems", "get_GourdFlavor", "", null, typeof(GeneratedManagedPatch_335), null));
+            bindings.Add(new ManagedExactBinding(336, 212, "AgriExpansion.AgriItems", "get_IronFlavor", "", null, typeof(GeneratedManagedPatch_336), null));
+            bindings.Add(new ManagedExactBinding(337, 213, "AgriExpansion.AgriItems", "get_IronFruitDescription", "", null, typeof(GeneratedManagedPatch_337), null));
+            bindings.Add(new ManagedExactBinding(338, 214, "AgriExpansion.AgriItems", "get_IronSeedDescription", "", null, typeof(GeneratedManagedPatch_338), null));
+            bindings.Add(new ManagedExactBinding(339, 215, "AgriExpansion.AgriItems", "get_PlasmaDescription", "", null, typeof(GeneratedManagedPatch_339), null));
+            bindings.Add(new ManagedExactBinding(340, 216, "AgriExpansion.AgriItems", "get_PlasmaFlavor", "", null, typeof(GeneratedManagedPatch_340), null));
+            bindings.Add(new ManagedExactBinding(341, 217, "AgriExpansion.AgriItems", "get_VineDescription", "", null, typeof(GeneratedManagedPatch_341), null));
+            bindings.Add(new ManagedExactBinding(342, 218, "AgriExpansion.AgriItems", "get_VineFlavor", "", null, typeof(GeneratedManagedPatch_342), null));
+            bindings.Add(new ManagedExactBinding(343, 219, "AgriExpansion.AgriItems+<>c", "<Register>b__10_0", "", null, typeof(GeneratedManagedPatch_343), null));
+            bindings.Add(new ManagedExactBinding(344, 220, "AgriExpansion.AgriItems+<>c", "<Register>b__10_1", "", null, typeof(GeneratedManagedPatch_344), null));
+            bindings.Add(new ManagedExactBinding(345, 221, "AgriExpansion.AgriItems+<>c", "<Register>b__10_2", "", null, typeof(GeneratedManagedPatch_345), null));
+            bindings.Add(new ManagedExactBinding(346, 222, "AgriExpansion.AgriItems+<>c", "<Register>b__10_3", "", null, typeof(GeneratedManagedPatch_346), null));
+            bindings.Add(new ManagedExactBinding(347, 223, "AgriExpansion.AgriItems+<>c", "<Register>b__10_4", "", null, typeof(GeneratedManagedPatch_347), null));
+            bindings.Add(new ManagedExactBinding(348, 224, "AgriExpansion.AgriNextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_348), null));
+            bindings.Add(new ManagedExactBinding(349, 225, "AgriExpansion.AgriNextCatalog", "Name", "AgriExpansion.AgriCropVariant", null, typeof(GeneratedManagedPatch_349), null));
+            bindings.Add(new ManagedExactBinding(350, 226, "AgriExpansion.AgriNextCatalog", "Variant", "System.String, System.String, System.Int32, System.Int32", null, typeof(GeneratedManagedPatch_350), null));
+            bindings.Add(new ManagedExactBinding(351, 227, "AgriExpansion.AgriNextCatalog+<Variants>d__5", "MoveNext", "", null, typeof(GeneratedManagedPatch_351), null));
+            bindings.Add(new ManagedExactBinding(352, 228, "AgriExpansion.AgriNextEffects", "BindBrew", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_352), null));
+            bindings.Add(new ManagedExactBinding(353, 229, "AgriExpansion.AgriNextEffects", "BindSaturated", "GameItem", null, typeof(GeneratedManagedPatch_353), null));
+            bindings.Add(new ManagedExactBinding(354, 230, "AgriExpansion.AgriNextItems", "CreateSeed", "AgriExpansion.AgriNextCrop", null, typeof(GeneratedManagedPatch_354), null));
+            bindings.Add(new ManagedExactBinding(355, 231, "AgriExpansion.AgriNextItems", "Describe", "GameItem", null, typeof(GeneratedManagedPatch_355), null));
+            bindings.Add(new ManagedExactBinding(356, 232, "AgriExpansion.AgriNextItems+<>c__DisplayClass1_0", "<CreateSeed>b__0", "GameItem", null, typeof(GeneratedManagedPatch_356), null));
+            bindings.Add(new ManagedExactBinding(357, 233, "AgriExpansion.AgriPerfumeAccess", "Register", "", null, typeof(GeneratedManagedPatch_357), null));
+            bindings.Add(new ManagedExactBinding(358, 234, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_0", "", null, typeof(GeneratedManagedPatch_358), null));
+            bindings.Add(new ManagedExactBinding(359, 235, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_1", "", null, typeof(GeneratedManagedPatch_359), null));
+            bindings.Add(new ManagedExactBinding(360, 236, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_2", "", null, typeof(GeneratedManagedPatch_360), null));
+            bindings.Add(new ManagedExactBinding(361, 237, "AgriExpansion.AgriPerfumeCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_361), null));
+            bindings.Add(new ManagedExactBinding(362, 238, "AgriExpansion.AgriPerfumeDescriptions", ".cctor", "", null, typeof(GeneratedManagedPatch_362), null));
+            bindings.Add(new ManagedExactBinding(363, 239, "AgriExpansion.AgriPerfumeItems", "AromaText", "System.Int32[], System.Boolean", null, typeof(GeneratedManagedPatch_363), null));
+            bindings.Add(new ManagedExactBinding(364, 240, "AgriExpansion.AgriPerfumeItems", "DescribeMaterial", "GameItem, AgriExpansion.PerfumeMaterial", null, typeof(GeneratedManagedPatch_364), null));
+            bindings.Add(new ManagedExactBinding(365, 241, "AgriExpansion.AgriPerfumeItems", "ReactionText", "System.String", null, typeof(GeneratedManagedPatch_365), null));
+            bindings.Add(new ManagedExactBinding(366, 242, "AgriExpansion.AgriPerfumeItems", "Refresh", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_366), null));
+            bindings.Add(new ManagedExactBinding(367, 243, "AgriExpansion.AgriPerfumeMachines", ".cctor", "", null, typeof(GeneratedManagedPatch_367), null));
+            bindings.Add(new ManagedExactBinding(368, 244, "AgriExpansion.AgriPerfumeMachines", "CreateBlender", "", null, typeof(GeneratedManagedPatch_368), null));
+            bindings.Add(new ManagedExactBinding(369, 245, "AgriExpansion.AgriPerfumeMachines+Blender", "Process", "", null, typeof(GeneratedManagedPatch_369), null));
+            bindings.Add(new ManagedExactBinding(370, 246, "AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", "", null, typeof(GeneratedManagedPatch_370), null));
+            bindings.Add(new ManagedExactBinding(371, 247, "AgriExpansion.AgriPerfumeManual", "Build", "GameItem", null, typeof(GeneratedManagedPatch_371), null));
+            bindings.Add(new ManagedExactBinding(372, 248, "AgriExpansion.AgriPerfumeManual+<>c__DisplayClass3_0", "<Create>b__0", "", null, typeof(GeneratedManagedPatch_372), null));
+            bindings.Add(new ManagedExactBinding(373, 249, "AgriExpansion.AgriPerfumeManualText", ".cctor", "", null, typeof(GeneratedManagedPatch_373), null));
+            bindings.Add(new ManagedExactBinding(374, 250, "AgriExpansion.AgriPerfumeManualText", "get_FusionTable", "", null, typeof(GeneratedManagedPatch_374), null));
+            bindings.Add(new ManagedExactBinding(375, 251, "AgriExpansion.AgriPerfumeManualText", "get_Introduction", "", null, typeof(GeneratedManagedPatch_375), null));
+            bindings.Add(new ManagedExactBinding(376, 252, "AgriExpansion.AgriPerfumeManualText", "get_Priorities", "", null, typeof(GeneratedManagedPatch_376), null));
+            bindings.Add(new ManagedExactBinding(377, 253, "AgriExpansion.AgriPerfumeManualText", "get_Quality", "", null, typeof(GeneratedManagedPatch_377), null));
+            bindings.Add(new ManagedExactBinding(378, 254, "AgriExpansion.AgriPerfumeManualText", "get_ReactionOrder", "", null, typeof(GeneratedManagedPatch_378), null));
+            bindings.Add(new ManagedExactBinding(379, 255, "AgriExpansion.AgriPerfumeManualText", "get_Tutorial", "", null, typeof(GeneratedManagedPatch_379), null));
+            bindings.Add(new ManagedExactBinding(380, 256, "AgriExpansion.AgriPerfumeManualText", "get_Usage", "", null, typeof(GeneratedManagedPatch_380), null));
+            bindings.Add(new ManagedExactBinding(381, 257, "AgriExpansion.AgriPerfumeManualText+<>c", "<Recipes>b__11_0", "System.Int32", null, typeof(GeneratedManagedPatch_381), null));
+            bindings.Add(new ManagedExactBinding(382, 258, "AgriExpansion.AgriPerfumeProcessor", "ChooseNote", "", null, typeof(GeneratedManagedPatch_382), null));
+            bindings.Add(new ManagedExactBinding(383, 259, "AgriExpansion.AgriPerfumeProcessor", "Clear", "", null, typeof(GeneratedManagedPatch_383), null));
+            bindings.Add(new ManagedExactBinding(384, 260, "AgriExpansion.AgriPerfumeProcessor", "Create", "System.Int32", null, typeof(GeneratedManagedPatch_384), null));
+            bindings.Add(new ManagedExactBinding(385, 261, "AgriExpansion.AgriPerfumeProcessor", "Process", "", null, typeof(GeneratedManagedPatch_385), null));
+            bindings.Add(new ManagedExactBinding(386, 262, "AgriExpansion.AgriPerfumeProcessor", "Refresh", "", null, typeof(GeneratedManagedPatch_386), null));
+            bindings.Add(new ManagedExactBinding(387, 263, "AgriExpansion.AgriPerfumeRules", ".cctor", "", null, typeof(GeneratedManagedPatch_387), null));
+            bindings.Add(new ManagedExactBinding(388, 264, "AgriExpansion.AgriPlants", "Register", "", null, typeof(GeneratedManagedPatch_388), null));
+            bindings.Add(new ManagedExactBinding(389, 265, "AgriExpansion.AgriPlasticProduction", "Process", "GameItem, GameInventory, GameGridInventory, GameSlotInventory, GameInventory", null, typeof(GeneratedManagedPatch_389), null));
+            bindings.Add(new ManagedExactBinding(390, 266, "AgriExpansion.AgriPlasticProduction", "Requirement", "GameItem, GameInventory", null, typeof(GeneratedManagedPatch_390), null));
+            bindings.Add(new ManagedExactBinding(391, 267, "AgriExpansion.AgriRequirementText", "Format", "System.String[], System.Int64[], System.Int32[], System.String", null, typeof(GeneratedManagedPatch_391), null));
+            bindings.Add(new ManagedExactBinding(392, 268, "AgriExpansion.AgriSeedPropagation", "AddTooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_392), null));
+            bindings.Add(new ManagedExactBinding(393, 269, "AgriExpansion.AgriSuperCrops", "Name", "System.String", null, typeof(GeneratedManagedPatch_393), null));
+            bindings.Add(new ManagedExactBinding(394, 270, "AgriExpansion.AgriSuperCrops", "PlantName", "System.String", null, typeof(GeneratedManagedPatch_394), null));
         }
 
         private static void Add_6_2(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(395, 269, "AgriExpansion.AgriSuperCrops", "Name", "System.String", null, typeof(GeneratedManagedPatch_395), null));
-            bindings.Add(new ManagedExactBinding(396, 270, "AgriExpansion.AgriSuperCrops", "PlantName", "System.String", null, typeof(GeneratedManagedPatch_396), null));
-            bindings.Add(new ManagedExactBinding(397, 271, "AgriExpansion.AgriSuperCrops", "Produce", "System.String", null, typeof(GeneratedManagedPatch_397), null));
-            bindings.Add(new ManagedExactBinding(398, 272, "AgriExpansion.AgriSuperCrops", "Seed", "System.String", null, typeof(GeneratedManagedPatch_398), null));
-            bindings.Add(new ManagedExactBinding(399, 273, "AgriExpansion.AgriSuperCrops", "Tooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_399), null));
-            bindings.Add(new ManagedExactBinding(400, 274, "AgriExpansion.AgriSuperExtractCheckPatch", "Prefix", "GameItem, GameItem, System.String&, System.Boolean&", null, typeof(GeneratedManagedPatch_400), null));
-            bindings.Add(new ManagedExactBinding(401, 275, "AgriExpansion.AgriSuperGeneCheckPatch", "Prefix", "GameItem, System.String&, System.Boolean&", null, typeof(GeneratedManagedPatch_401), null));
-            bindings.Add(new ManagedExactBinding(402, 276, "AgriExpansion.AgriSuperGrowStatusPatch", "Prefix", "GameItem, System.String&", null, typeof(GeneratedManagedPatch_402), null));
-            bindings.Add(new ManagedExactBinding(403, 277, "AgriExpansion.AgriSuperGrowth", "Check", "GameItem, GameItem, System.String&", null, typeof(GeneratedManagedPatch_403), null));
-            bindings.Add(new ManagedExactBinding(404, 278, "AgriExpansion.AgriSuperHydro", "Create", "", null, typeof(GeneratedManagedPatch_404), null));
-            bindings.Add(new ManagedExactBinding(405, 279, "AgriExpansion.AgriSuperManual", "Crop", "System.String", null, typeof(GeneratedManagedPatch_405), null));
-            bindings.Add(new ManagedExactBinding(406, 280, "AgriExpansion.AgriSuperManual", "get_Machine", "", null, typeof(GeneratedManagedPatch_406), null));
-            bindings.Add(new ManagedExactBinding(407, 281, "AgriExpansion.AgriText", ".cctor", "", null, typeof(GeneratedManagedPatch_407), null));
-            bindings.Add(new ManagedExactBinding(408, 282, "AgriExpansion.AgriText", "Get", "System.String", null, typeof(GeneratedManagedPatch_408), null));
-            bindings.Add(new ManagedExactBinding(409, 283, "AgriExpansion.AgriText", "RefreshRegistries", "", null, typeof(GeneratedManagedPatch_409), null));
-            bindings.Add(new ManagedExactBinding(410, 284, "AgriExpansion.AgriText", "SavedText", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_410), null));
-            bindings.Add(new ManagedExactBinding(411, 285, "AgriExpansion.AgriText", "Translate", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_411), null));
-            bindings.Add(new ManagedExactBinding(412, 286, "AgriExpansion.AgriTraits", "Register", "", null, typeof(GeneratedManagedPatch_412), null));
-            bindings.Add(new ManagedExactBinding(413, 287, "AgriExpansion.AgriFarm", "get_WaterNames", "", null, typeof(GeneratedManagedPatch_413), null));
-            bindings.Add(new ManagedExactBinding(414, 288, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_414), null));
-            bindings.Add(new ManagedExactBinding(415, 289, "AgriExpansion.AgriFeedSupport+<>c__DisplayClass6_0", "<Configure>b__0", "", null, typeof(GeneratedManagedPatch_415), null));
-            bindings.Add(new ManagedExactBinding(416, 291, "AgriExpansion.AgriFarm", "get_WaterNames", "", null, typeof(GeneratedManagedPatch_416), null));
-            bindings.Add(new ManagedExactBinding(417, 292, "AgriExpansion.AgriNextTraits", "Register", "", null, typeof(GeneratedManagedPatch_417), null));
-            bindings.Add(new ManagedExactBinding(418, 293, "AgriExpansion.AgriFarm+<>c__DisplayClass56_0", "<ConfirmRemoveAnimal>b__1", "", null, typeof(GeneratedManagedPatch_418), null));
-            bindings.Add(new ManagedExactBinding(419, 294, "AgriExpansion.AgriFarm", "ReturnCultureAbove", "GameItem, System.Int32, System.Boolean", null, typeof(GeneratedManagedPatch_419), null));
-            bindings.Add(new ManagedExactBinding(420, 295, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_2", "", null, typeof(GeneratedManagedPatch_420), null));
-            bindings.Add(new ManagedExactBinding(421, 296, "AgriExpansion.AgriFarm", "Upgrade", "", null, typeof(GeneratedManagedPatch_421), null));
-            bindings.Add(new ManagedExactBinding(422, 297, "AgriExpansion.AgriFarm+<>c__DisplayClass25_0", "<ConfirmChop>b__0", "System.Int32", null, typeof(GeneratedManagedPatch_422), null));
-            bindings.Add(new ManagedExactBinding(423, 298, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", null, typeof(GeneratedManagedPatch_423), null));
-            bindings.Add(new ManagedExactBinding(424, 299, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_0", "", null, typeof(GeneratedManagedPatch_424), null));
-            bindings.Add(new ManagedExactBinding(425, 300, "AgriExpansion.AgriFarm", "Choose", "System.String, System.String[], System.Int32, System.Action`1<System.Int32>", null, typeof(GeneratedManagedPatch_425), null));
-            bindings.Add(new ManagedExactBinding(426, 303, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_1", "", null, typeof(GeneratedManagedPatch_426), null));
-            bindings.Add(new ManagedExactBinding(427, 306, "AgriExpansion.AgriFarmFootprint", "Initialize", "", null, typeof(GeneratedManagedPatch_427), null));
-            bindings.Add(new ManagedExactBinding(428, 307, "AgriExpansion.AgriFarmSecurity", "Initialize", "", null, typeof(GeneratedManagedPatch_428), null));
+            bindings.Add(new ManagedExactBinding(395, 271, "AgriExpansion.AgriSuperCrops", "Produce", "System.String", null, typeof(GeneratedManagedPatch_395), null));
+            bindings.Add(new ManagedExactBinding(396, 272, "AgriExpansion.AgriSuperCrops", "Seed", "System.String", null, typeof(GeneratedManagedPatch_396), null));
+            bindings.Add(new ManagedExactBinding(397, 273, "AgriExpansion.AgriSuperCrops", "Tooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_397), null));
+            bindings.Add(new ManagedExactBinding(398, 274, "AgriExpansion.AgriSuperExtractCheckPatch", "Prefix", "GameItem, GameItem, System.String&, System.Boolean&", null, typeof(GeneratedManagedPatch_398), null));
+            bindings.Add(new ManagedExactBinding(399, 275, "AgriExpansion.AgriSuperGeneCheckPatch", "Prefix", "GameItem, System.String&, System.Boolean&", null, typeof(GeneratedManagedPatch_399), null));
+            bindings.Add(new ManagedExactBinding(400, 276, "AgriExpansion.AgriSuperGrowStatusPatch", "Prefix", "GameItem, System.String&", null, typeof(GeneratedManagedPatch_400), null));
+            bindings.Add(new ManagedExactBinding(401, 277, "AgriExpansion.AgriSuperGrowth", "Check", "GameItem, GameItem, System.String&", null, typeof(GeneratedManagedPatch_401), null));
+            bindings.Add(new ManagedExactBinding(402, 278, "AgriExpansion.AgriSuperHydro", "Create", "", null, typeof(GeneratedManagedPatch_402), null));
+            bindings.Add(new ManagedExactBinding(403, 279, "AgriExpansion.AgriSuperManual", "Crop", "System.String", null, typeof(GeneratedManagedPatch_403), null));
+            bindings.Add(new ManagedExactBinding(404, 280, "AgriExpansion.AgriSuperManual", "get_Machine", "", null, typeof(GeneratedManagedPatch_404), null));
+            bindings.Add(new ManagedExactBinding(405, 281, "AgriExpansion.AgriText", ".cctor", "", null, typeof(GeneratedManagedPatch_405), null));
+            bindings.Add(new ManagedExactBinding(406, 282, "AgriExpansion.AgriText", "Get", "System.String", null, typeof(GeneratedManagedPatch_406), null));
+            bindings.Add(new ManagedExactBinding(407, 283, "AgriExpansion.AgriText", "RefreshRegistries", "", null, typeof(GeneratedManagedPatch_407), null));
+            bindings.Add(new ManagedExactBinding(408, 284, "AgriExpansion.AgriText", "SavedText", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_408), null));
+            bindings.Add(new ManagedExactBinding(409, 285, "AgriExpansion.AgriText", "Translate", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_409), null));
+            bindings.Add(new ManagedExactBinding(410, 286, "AgriExpansion.AgriTraits", "Register", "", null, typeof(GeneratedManagedPatch_410), null));
+            bindings.Add(new ManagedExactBinding(411, 287, "AgriExpansion.AgriFarm", "get_WaterNames", "", null, typeof(GeneratedManagedPatch_411), null));
+            bindings.Add(new ManagedExactBinding(412, 288, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_412), null));
+            bindings.Add(new ManagedExactBinding(413, 289, "AgriExpansion.AgriFeedSupport+<>c__DisplayClass6_0", "<Configure>b__0", "", null, typeof(GeneratedManagedPatch_413), null));
+            bindings.Add(new ManagedExactBinding(414, 291, "AgriExpansion.AgriFarm", "get_WaterNames", "", null, typeof(GeneratedManagedPatch_414), null));
+            bindings.Add(new ManagedExactBinding(415, 292, "AgriExpansion.AgriNextTraits", "Register", "", null, typeof(GeneratedManagedPatch_415), null));
+            bindings.Add(new ManagedExactBinding(416, 293, "AgriExpansion.AgriFarm+<>c__DisplayClass56_0", "<ConfirmRemoveAnimal>b__1", "", null, typeof(GeneratedManagedPatch_416), null));
+            bindings.Add(new ManagedExactBinding(417, 294, "AgriExpansion.AgriFarm", "ReturnCultureAbove", "GameItem, System.Int32, System.Boolean", null, typeof(GeneratedManagedPatch_417), null));
+            bindings.Add(new ManagedExactBinding(418, 295, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_2", "", null, typeof(GeneratedManagedPatch_418), null));
+            bindings.Add(new ManagedExactBinding(419, 296, "AgriExpansion.AgriFarm", "Upgrade", "", null, typeof(GeneratedManagedPatch_419), null));
+            bindings.Add(new ManagedExactBinding(420, 297, "AgriExpansion.AgriFarm+<>c__DisplayClass25_0", "<ConfirmChop>b__0", "System.Int32", null, typeof(GeneratedManagedPatch_420), null));
+            bindings.Add(new ManagedExactBinding(421, 298, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", null, typeof(GeneratedManagedPatch_421), null));
+            bindings.Add(new ManagedExactBinding(422, 299, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_0", "", null, typeof(GeneratedManagedPatch_422), null));
+            bindings.Add(new ManagedExactBinding(423, 300, "AgriExpansion.AgriFarm", "Choose", "System.String, System.String[], System.Int32, System.Action`1<System.Int32>", null, typeof(GeneratedManagedPatch_423), null));
+            bindings.Add(new ManagedExactBinding(424, 303, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_1", "", null, typeof(GeneratedManagedPatch_424), null));
+            bindings.Add(new ManagedExactBinding(425, 306, "AgriExpansion.AgriFarmFootprint", "Initialize", "", null, typeof(GeneratedManagedPatch_425), null));
+            bindings.Add(new ManagedExactBinding(426, 307, "AgriExpansion.AgriFarmSecurity", "Initialize", "", null, typeof(GeneratedManagedPatch_426), null));
         }
 
         private static void Add_7_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(429, 0, "ClockSettings", "T", "System.String, System.String, System.String", null, typeof(GeneratedManagedPatch_429), null));
+            bindings.Add(new ManagedExactBinding(427, 0, "ClockSettings", "T", "System.String, System.String, System.String", null, typeof(GeneratedManagedPatch_427), null));
         }
 
         private static void Add_8_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(430, 0, "CSCaseOpening.OpeningDescriptionData", "Read", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_430), null));
-            bindings.Add(new ManagedExactBinding(431, 1, "CSWeaponCase.AgentDialogues", "Pick", "System.String, System.String, System.Random", null, typeof(GeneratedManagedPatch_431), null));
-            bindings.Add(new ManagedExactBinding(432, 2, "CSWeaponCase.ProjectText", "Case", "CSWeaponCase.CaseDefinition", null, typeof(GeneratedManagedPatch_432), null));
-            bindings.Add(new ManagedExactBinding(433, 3, "CSWeaponCase.ProjectText", "ItemName", "System.String, System.String", null, typeof(GeneratedManagedPatch_433), null));
-            bindings.Add(new ManagedExactBinding(434, 4, "CSWeaponCase.ProjectText", "T", "System.String", null, typeof(GeneratedManagedPatch_434), null));
-            bindings.Add(new ManagedExactBinding(435, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_435), null));
-            bindings.Add(new ManagedExactBinding(436, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.String", null, typeof(GeneratedManagedPatch_436), null));
-            bindings.Add(new ManagedExactBinding(437, 6, "CSWeaponCase.ProjectText", "Weapon", "CSWeaponCase.WeaponDefinition", null, typeof(GeneratedManagedPatch_437), null));
+            bindings.Add(new ManagedExactBinding(428, 0, "CSCaseOpening.OpeningDescriptionData", "Read", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_428), null));
+            bindings.Add(new ManagedExactBinding(429, 1, "CSWeaponCase.AgentDialogues", "Pick", "System.String, System.String, System.Random", null, typeof(GeneratedManagedPatch_429), null));
+            bindings.Add(new ManagedExactBinding(430, 2, "CSWeaponCase.ProjectText", "Case", "CSWeaponCase.CaseDefinition", null, typeof(GeneratedManagedPatch_430), null));
+            bindings.Add(new ManagedExactBinding(431, 3, "CSWeaponCase.ProjectText", "ItemName", "System.String, System.String", null, typeof(GeneratedManagedPatch_431), null));
+            bindings.Add(new ManagedExactBinding(432, 4, "CSWeaponCase.ProjectText", "T", "System.String", null, typeof(GeneratedManagedPatch_432), null));
+            bindings.Add(new ManagedExactBinding(433, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_433), null));
+            bindings.Add(new ManagedExactBinding(434, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.String", null, typeof(GeneratedManagedPatch_434), null));
+            bindings.Add(new ManagedExactBinding(435, 6, "CSWeaponCase.ProjectText", "Weapon", "CSWeaponCase.WeaponDefinition", null, typeof(GeneratedManagedPatch_435), null));
         }
 
         private static void Add_9_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(438, 0, "ProbablyStolenInGameModSettings.UiText", "Get", "System.String", null, typeof(GeneratedManagedPatch_438), null));
+            bindings.Add(new ManagedExactBinding(436, 0, "ProbablyStolenInGameModSettings.UiText", "Get", "System.String", null, typeof(GeneratedManagedPatch_436), null));
+        }
+
+        private static void Add_10_0(ICollection<ManagedExactBinding> bindings)
+        {
+            bindings.Add(new ManagedExactBinding(437, 0, "EleanorRescue.TextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_437), null));
+        }
+
+        private static void Add_11_0(ICollection<ManagedExactBinding> bindings)
+        {
+            bindings.Add(new ManagedExactBinding(438, 0, "ModText", ".cctor", "", null, typeof(GeneratedManagedPatch_438), null));
+            bindings.Add(new ManagedExactBinding(439, 1, "ModText", "Redisplay", "System.String", null, typeof(GeneratedManagedPatch_439), null));
+            bindings.Add(new ManagedExactBinding(440, 2, "ModText", "Get", "System.String", null, typeof(GeneratedManagedPatch_440), null));
+            bindings.Add(new ManagedExactBinding(441, 3, "ProbablyCrystal_Mod", "LocalizeBook", "PaperBookData", null, typeof(GeneratedManagedPatch_441), null));
         }
     }
 
@@ -3179,7 +3196,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 327);
     }
-    [HarmonyPatch("AgriExpansion.AgriIndustry+<>c", "<Register>b__3_2", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_328
     {
         [HarmonyPrepare]
@@ -3187,7 +3204,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 328);
     }
-    [HarmonyPatch("AgriExpansion.AgriIndustry+<>c", "<Register>b__3_3", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__2", MethodType.Normal)]
     internal static class GeneratedManagedPatch_329
     {
         [HarmonyPrepare]
@@ -3195,7 +3212,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 329);
     }
-    [HarmonyPatch("AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriIronSmelting", "AppendInstructions", MethodType.Normal)]
     internal static class GeneratedManagedPatch_330
     {
         [HarmonyPrepare]
@@ -3203,7 +3220,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 330);
     }
-    [HarmonyPatch("AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__2", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriIronSmelting", "get_InstructionMarker", MethodType.Normal)]
     internal static class GeneratedManagedPatch_331
     {
         [HarmonyPrepare]
@@ -3211,7 +3228,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 331);
     }
-    [HarmonyPatch("AgriExpansion.AgriIronSmelting", "AppendInstructions", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_AlgaeDescription", MethodType.Normal)]
     internal static class GeneratedManagedPatch_332
     {
         [HarmonyPrepare]
@@ -3219,7 +3236,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 332);
     }
-    [HarmonyPatch("AgriExpansion.AgriIronSmelting", "get_InstructionMarker", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_AlgaeFlavor", MethodType.Normal)]
     internal static class GeneratedManagedPatch_333
     {
         [HarmonyPrepare]
@@ -3227,7 +3244,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 333);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_AlgaeDescription", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_GourdDescription", MethodType.Normal)]
     internal static class GeneratedManagedPatch_334
     {
         [HarmonyPrepare]
@@ -3235,7 +3252,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 334);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_AlgaeFlavor", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_GourdFlavor", MethodType.Normal)]
     internal static class GeneratedManagedPatch_335
     {
         [HarmonyPrepare]
@@ -3243,7 +3260,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 335);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_GourdDescription", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_IronFlavor", MethodType.Normal)]
     internal static class GeneratedManagedPatch_336
     {
         [HarmonyPrepare]
@@ -3251,7 +3268,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 336);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_GourdFlavor", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_IronFruitDescription", MethodType.Normal)]
     internal static class GeneratedManagedPatch_337
     {
         [HarmonyPrepare]
@@ -3259,7 +3276,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 337);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_IronFlavor", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_IronSeedDescription", MethodType.Normal)]
     internal static class GeneratedManagedPatch_338
     {
         [HarmonyPrepare]
@@ -3267,7 +3284,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 338);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_IronFruitDescription", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_PlasmaDescription", MethodType.Normal)]
     internal static class GeneratedManagedPatch_339
     {
         [HarmonyPrepare]
@@ -3275,7 +3292,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 339);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_IronSeedDescription", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_PlasmaFlavor", MethodType.Normal)]
     internal static class GeneratedManagedPatch_340
     {
         [HarmonyPrepare]
@@ -3283,7 +3300,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 340);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_PlasmaDescription", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_VineDescription", MethodType.Normal)]
     internal static class GeneratedManagedPatch_341
     {
         [HarmonyPrepare]
@@ -3291,7 +3308,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 341);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_PlasmaFlavor", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems", "get_VineFlavor", MethodType.Normal)]
     internal static class GeneratedManagedPatch_342
     {
         [HarmonyPrepare]
@@ -3299,7 +3316,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 342);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_VineDescription", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_343
     {
         [HarmonyPrepare]
@@ -3307,7 +3324,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 343);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems", "get_VineFlavor", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_1", MethodType.Normal)]
     internal static class GeneratedManagedPatch_344
     {
         [HarmonyPrepare]
@@ -3315,7 +3332,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 344);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_2", MethodType.Normal)]
     internal static class GeneratedManagedPatch_345
     {
         [HarmonyPrepare]
@@ -3323,7 +3340,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 345);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_1", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_3", MethodType.Normal)]
     internal static class GeneratedManagedPatch_346
     {
         [HarmonyPrepare]
@@ -3331,7 +3348,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 346);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_2", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_4", MethodType.Normal)]
     internal static class GeneratedManagedPatch_347
     {
         [HarmonyPrepare]
@@ -3339,7 +3356,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 347);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_3", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextCatalog", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_348
     {
         [HarmonyPrepare]
@@ -3347,7 +3364,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 348);
     }
-    [HarmonyPatch("AgriExpansion.AgriItems+<>c", "<Register>b__10_4", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextCatalog", "Name", MethodType.Normal)]
     internal static class GeneratedManagedPatch_349
     {
         [HarmonyPrepare]
@@ -3355,7 +3372,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 349);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextCatalog", null, MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriNextCatalog", "Variant", MethodType.Normal)]
     internal static class GeneratedManagedPatch_350
     {
         [HarmonyPrepare]
@@ -3363,7 +3380,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 350);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextCatalog", "Name", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextCatalog+<Variants>d__5", "MoveNext", MethodType.Normal)]
     internal static class GeneratedManagedPatch_351
     {
         [HarmonyPrepare]
@@ -3371,7 +3388,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 351);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextCatalog", "Variant", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextEffects", "BindBrew", MethodType.Normal)]
     internal static class GeneratedManagedPatch_352
     {
         [HarmonyPrepare]
@@ -3379,7 +3396,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 352);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextCatalog+<Variants>d__5", "MoveNext", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextEffects", "BindSaturated", MethodType.Normal)]
     internal static class GeneratedManagedPatch_353
     {
         [HarmonyPrepare]
@@ -3387,7 +3404,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 353);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextEffects", "BindBrew", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextItems", "CreateSeed", MethodType.Normal)]
     internal static class GeneratedManagedPatch_354
     {
         [HarmonyPrepare]
@@ -3395,7 +3412,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 354);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextEffects", "BindSaturated", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextItems", "Describe", MethodType.Normal)]
     internal static class GeneratedManagedPatch_355
     {
         [HarmonyPrepare]
@@ -3403,7 +3420,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 355);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextItems", "CreateSeed", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextItems+<>c__DisplayClass1_0", "<CreateSeed>b__0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_356
     {
         [HarmonyPrepare]
@@ -3411,7 +3428,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 356);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextItems", "Describe", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeAccess", "Register", MethodType.Normal)]
     internal static class GeneratedManagedPatch_357
     {
         [HarmonyPrepare]
@@ -3419,7 +3436,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 357);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextItems+<>c__DisplayClass1_0", "<CreateSeed>b__0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_358
     {
         [HarmonyPrepare]
@@ -3427,7 +3444,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 358);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeAccess", "Register", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_1", MethodType.Normal)]
     internal static class GeneratedManagedPatch_359
     {
         [HarmonyPrepare]
@@ -3435,7 +3452,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 359);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_2", MethodType.Normal)]
     internal static class GeneratedManagedPatch_360
     {
         [HarmonyPrepare]
@@ -3443,7 +3460,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 360);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_1", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeCatalog", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_361
     {
         [HarmonyPrepare]
@@ -3451,7 +3468,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 361);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_2", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeDescriptions", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_362
     {
         [HarmonyPrepare]
@@ -3459,7 +3476,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 362);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeCatalog", null, MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeItems", "AromaText", MethodType.Normal)]
     internal static class GeneratedManagedPatch_363
     {
         [HarmonyPrepare]
@@ -3467,7 +3484,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 363);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeDescriptions", null, MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeItems", "DescribeMaterial", MethodType.Normal)]
     internal static class GeneratedManagedPatch_364
     {
         [HarmonyPrepare]
@@ -3475,7 +3492,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 364);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeItems", "AromaText", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeItems", "ReactionText", MethodType.Normal)]
     internal static class GeneratedManagedPatch_365
     {
         [HarmonyPrepare]
@@ -3483,7 +3500,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 365);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeItems", "DescribeMaterial", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeItems", "Refresh", MethodType.Normal)]
     internal static class GeneratedManagedPatch_366
     {
         [HarmonyPrepare]
@@ -3491,7 +3508,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 366);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeItems", "ReactionText", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_367
     {
         [HarmonyPrepare]
@@ -3499,7 +3516,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 367);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeItems", "Refresh", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines", "CreateBlender", MethodType.Normal)]
     internal static class GeneratedManagedPatch_368
     {
         [HarmonyPrepare]
@@ -3507,7 +3524,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 368);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines", null, MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines+Blender", "Process", MethodType.Normal)]
     internal static class GeneratedManagedPatch_369
     {
         [HarmonyPrepare]
@@ -3515,7 +3532,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 369);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines", "CreateBlender", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", MethodType.Normal)]
     internal static class GeneratedManagedPatch_370
     {
         [HarmonyPrepare]
@@ -3523,7 +3540,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 370);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines+Blender", "Process", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManual", "Build", MethodType.Normal)]
     internal static class GeneratedManagedPatch_371
     {
         [HarmonyPrepare]
@@ -3531,7 +3548,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 371);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManual+<>c__DisplayClass3_0", "<Create>b__0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_372
     {
         [HarmonyPrepare]
@@ -3539,7 +3556,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 372);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManual", "Build", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_373
     {
         [HarmonyPrepare]
@@ -3547,7 +3564,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 373);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManual+<>c__DisplayClass3_0", "<Create>b__0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_FusionTable", MethodType.Normal)]
     internal static class GeneratedManagedPatch_374
     {
         [HarmonyPrepare]
@@ -3555,7 +3572,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 374);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", null, MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Introduction", MethodType.Normal)]
     internal static class GeneratedManagedPatch_375
     {
         [HarmonyPrepare]
@@ -3563,7 +3580,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 375);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_FusionTable", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Priorities", MethodType.Normal)]
     internal static class GeneratedManagedPatch_376
     {
         [HarmonyPrepare]
@@ -3571,7 +3588,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 376);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Introduction", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Quality", MethodType.Normal)]
     internal static class GeneratedManagedPatch_377
     {
         [HarmonyPrepare]
@@ -3579,7 +3596,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 377);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Priorities", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_ReactionOrder", MethodType.Normal)]
     internal static class GeneratedManagedPatch_378
     {
         [HarmonyPrepare]
@@ -3587,7 +3604,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 378);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Quality", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Tutorial", MethodType.Normal)]
     internal static class GeneratedManagedPatch_379
     {
         [HarmonyPrepare]
@@ -3595,7 +3612,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 379);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_ReactionOrder", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Usage", MethodType.Normal)]
     internal static class GeneratedManagedPatch_380
     {
         [HarmonyPrepare]
@@ -3603,7 +3620,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 380);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Tutorial", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText+<>c", "<Recipes>b__11_0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_381
     {
         [HarmonyPrepare]
@@ -3611,7 +3628,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 381);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText", "get_Usage", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "ChooseNote", MethodType.Normal)]
     internal static class GeneratedManagedPatch_382
     {
         [HarmonyPrepare]
@@ -3619,7 +3636,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 382);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeManualText+<>c", "<Recipes>b__11_0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "Clear", MethodType.Normal)]
     internal static class GeneratedManagedPatch_383
     {
         [HarmonyPrepare]
@@ -3627,7 +3644,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 383);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "ChooseNote", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "Create", MethodType.Normal)]
     internal static class GeneratedManagedPatch_384
     {
         [HarmonyPrepare]
@@ -3635,7 +3652,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 384);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "Clear", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "Process", MethodType.Normal)]
     internal static class GeneratedManagedPatch_385
     {
         [HarmonyPrepare]
@@ -3643,7 +3660,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 385);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "Create", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "Refresh", MethodType.Normal)]
     internal static class GeneratedManagedPatch_386
     {
         [HarmonyPrepare]
@@ -3651,7 +3668,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 386);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "Process", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPerfumeRules", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_387
     {
         [HarmonyPrepare]
@@ -3659,7 +3676,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 387);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeProcessor", "Refresh", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPlants", "Register", MethodType.Normal)]
     internal static class GeneratedManagedPatch_388
     {
         [HarmonyPrepare]
@@ -3667,7 +3684,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 388);
     }
-    [HarmonyPatch("AgriExpansion.AgriPerfumeRules", null, MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriPlasticProduction", "Process", MethodType.Normal)]
     internal static class GeneratedManagedPatch_389
     {
         [HarmonyPrepare]
@@ -3675,7 +3692,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 389);
     }
-    [HarmonyPatch("AgriExpansion.AgriPlants", "Register", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriPlasticProduction", "Requirement", MethodType.Normal)]
     internal static class GeneratedManagedPatch_390
     {
         [HarmonyPrepare]
@@ -3683,7 +3700,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 390);
     }
-    [HarmonyPatch("AgriExpansion.AgriPlasticProduction", "Process", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriRequirementText", "Format", MethodType.Normal)]
     internal static class GeneratedManagedPatch_391
     {
         [HarmonyPrepare]
@@ -3691,7 +3708,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 391);
     }
-    [HarmonyPatch("AgriExpansion.AgriPlasticProduction", "Requirement", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSeedPropagation", "AddTooltip", MethodType.Normal)]
     internal static class GeneratedManagedPatch_392
     {
         [HarmonyPrepare]
@@ -3699,7 +3716,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 392);
     }
-    [HarmonyPatch("AgriExpansion.AgriRequirementText", "Format", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "Name", MethodType.Normal)]
     internal static class GeneratedManagedPatch_393
     {
         [HarmonyPrepare]
@@ -3707,7 +3724,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 393);
     }
-    [HarmonyPatch("AgriExpansion.AgriSeedPropagation", "AddTooltip", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "PlantName", MethodType.Normal)]
     internal static class GeneratedManagedPatch_394
     {
         [HarmonyPrepare]
@@ -3715,7 +3732,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 394);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "Name", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "Produce", MethodType.Normal)]
     internal static class GeneratedManagedPatch_395
     {
         [HarmonyPrepare]
@@ -3723,7 +3740,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 395);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "PlantName", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "Seed", MethodType.Normal)]
     internal static class GeneratedManagedPatch_396
     {
         [HarmonyPrepare]
@@ -3731,7 +3748,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 396);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "Produce", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "Tooltip", MethodType.Normal)]
     internal static class GeneratedManagedPatch_397
     {
         [HarmonyPrepare]
@@ -3739,7 +3756,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 397);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "Seed", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperExtractCheckPatch", "Prefix", MethodType.Normal)]
     internal static class GeneratedManagedPatch_398
     {
         [HarmonyPrepare]
@@ -3747,7 +3764,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 398);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperCrops", "Tooltip", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperGeneCheckPatch", "Prefix", MethodType.Normal)]
     internal static class GeneratedManagedPatch_399
     {
         [HarmonyPrepare]
@@ -3755,7 +3772,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 399);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperExtractCheckPatch", "Prefix", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperGrowStatusPatch", "Prefix", MethodType.Normal)]
     internal static class GeneratedManagedPatch_400
     {
         [HarmonyPrepare]
@@ -3763,7 +3780,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 400);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperGeneCheckPatch", "Prefix", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperGrowth", "Check", MethodType.Normal)]
     internal static class GeneratedManagedPatch_401
     {
         [HarmonyPrepare]
@@ -3771,7 +3788,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 401);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperGrowStatusPatch", "Prefix", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperHydro", "Create", MethodType.Normal)]
     internal static class GeneratedManagedPatch_402
     {
         [HarmonyPrepare]
@@ -3779,7 +3796,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 402);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperGrowth", "Check", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperManual", "Crop", MethodType.Normal)]
     internal static class GeneratedManagedPatch_403
     {
         [HarmonyPrepare]
@@ -3787,7 +3804,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 403);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperHydro", "Create", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriSuperManual", "get_Machine", MethodType.Normal)]
     internal static class GeneratedManagedPatch_404
     {
         [HarmonyPrepare]
@@ -3795,7 +3812,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 404);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperManual", "Crop", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_405
     {
         [HarmonyPrepare]
@@ -3803,15 +3820,15 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 405);
     }
-    [HarmonyPatch("AgriExpansion.AgriSuperManual", "get_Machine", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriText", "Get", MethodType.Normal)]
     internal static class GeneratedManagedPatch_406
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(406);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 406);
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 406);
     }
-    [HarmonyPatch("AgriExpansion.AgriText", null, MethodType.StaticConstructor)]
+    [HarmonyPatch("AgriExpansion.AgriText", "RefreshRegistries", MethodType.Normal)]
     internal static class GeneratedManagedPatch_407
     {
         [HarmonyPrepare]
@@ -3819,7 +3836,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 407);
     }
-    [HarmonyPatch("AgriExpansion.AgriText", "Get", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriText", "SavedText", MethodType.Normal)]
     internal static class GeneratedManagedPatch_408
     {
         [HarmonyPrepare]
@@ -3827,39 +3844,39 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 408);
     }
-    [HarmonyPatch("AgriExpansion.AgriText", "RefreshRegistries", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriText", "Translate", MethodType.Normal)]
     internal static class GeneratedManagedPatch_409
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(409);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 409);
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 409);
     }
-    [HarmonyPatch("AgriExpansion.AgriText", "SavedText", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriTraits", "Register", MethodType.Normal)]
     internal static class GeneratedManagedPatch_410
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(410);
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 410);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 410);
     }
-    [HarmonyPatch("AgriExpansion.AgriText", "Translate", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarm", "get_WaterNames", MethodType.Normal)]
     internal static class GeneratedManagedPatch_411
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(411);
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 411);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 411);
     }
-    [HarmonyPatch("AgriExpansion.AgriTraits", "Register", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarmMachine", "T", MethodType.Normal)]
     internal static class GeneratedManagedPatch_412
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(412);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 412);
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 412);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm", "get_WaterNames", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFeedSupport+<>c__DisplayClass6_0", "<Configure>b__0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_413
     {
         [HarmonyPrepare]
@@ -3867,15 +3884,15 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 413);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarmMachine", "T", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarm", "get_WaterNames", MethodType.Normal)]
     internal static class GeneratedManagedPatch_414
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(414);
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 414);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 414);
     }
-    [HarmonyPatch("AgriExpansion.AgriFeedSupport+<>c__DisplayClass6_0", "<Configure>b__0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriNextTraits", "Register", MethodType.Normal)]
     internal static class GeneratedManagedPatch_415
     {
         [HarmonyPrepare]
@@ -3883,7 +3900,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 415);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm", "get_WaterNames", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarm+<>c__DisplayClass56_0", "<ConfirmRemoveAnimal>b__1", MethodType.Normal)]
     internal static class GeneratedManagedPatch_416
     {
         [HarmonyPrepare]
@@ -3891,7 +3908,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 416);
     }
-    [HarmonyPatch("AgriExpansion.AgriNextTraits", "Register", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarm", "ReturnCultureAbove", MethodType.Normal)]
     internal static class GeneratedManagedPatch_417
     {
         [HarmonyPrepare]
@@ -3899,7 +3916,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 417);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm+<>c__DisplayClass56_0", "<ConfirmRemoveAnimal>b__1", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_2", MethodType.Normal)]
     internal static class GeneratedManagedPatch_418
     {
         [HarmonyPrepare]
@@ -3907,7 +3924,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 418);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm", "ReturnCultureAbove", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarm", "Upgrade", MethodType.Normal)]
     internal static class GeneratedManagedPatch_419
     {
         [HarmonyPrepare]
@@ -3915,7 +3932,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 419);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_2", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarm+<>c__DisplayClass25_0", "<ConfirmChop>b__0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_420
     {
         [HarmonyPrepare]
@@ -3923,7 +3940,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 420);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm", "Upgrade", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarm", "ApplyMineralRatio", MethodType.Normal)]
     internal static class GeneratedManagedPatch_421
     {
         [HarmonyPrepare]
@@ -3931,7 +3948,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 421);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm+<>c__DisplayClass25_0", "<ConfirmChop>b__0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_0", MethodType.Normal)]
     internal static class GeneratedManagedPatch_422
     {
         [HarmonyPrepare]
@@ -3939,7 +3956,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 422);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm", "ApplyMineralRatio", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarm", "Choose", MethodType.Normal)]
     internal static class GeneratedManagedPatch_423
     {
         [HarmonyPrepare]
@@ -3947,7 +3964,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 423);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_0", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_1", MethodType.Normal)]
     internal static class GeneratedManagedPatch_424
     {
         [HarmonyPrepare]
@@ -3955,7 +3972,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 424);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarm", "Choose", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarmFootprint", "Initialize", MethodType.Normal)]
     internal static class GeneratedManagedPatch_425
     {
         [HarmonyPrepare]
@@ -3963,7 +3980,7 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 425);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_1", MethodType.Normal)]
+    [HarmonyPatch("AgriExpansion.AgriFarmSecurity", "Initialize", MethodType.Normal)]
     internal static class GeneratedManagedPatch_426
     {
         [HarmonyPrepare]
@@ -3971,39 +3988,39 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 426);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarmFootprint", "Initialize", MethodType.Normal)]
+    [HarmonyPatch("ClockSettings", "T", MethodType.Normal)]
     internal static class GeneratedManagedPatch_427
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(427);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 427);
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 427);
     }
-    [HarmonyPatch("AgriExpansion.AgriFarmSecurity", "Initialize", MethodType.Normal)]
+    [HarmonyPatch("CSCaseOpening.OpeningDescriptionData", "Read", MethodType.Normal)]
     internal static class GeneratedManagedPatch_428
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(428);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 428);
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentsBinding(__args, ref __result, 428);
     }
-    [HarmonyPatch("ClockSettings", "T", MethodType.Normal)]
+    [HarmonyPatch("CSWeaponCase.AgentDialogues", "Pick", MethodType.Normal)]
     internal static class GeneratedManagedPatch_429
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(429);
         [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 429);
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 429);
     }
-    [HarmonyPatch("CSCaseOpening.OpeningDescriptionData", "Read", MethodType.Normal)]
+    [HarmonyPatch("CSWeaponCase.ProjectText", "Case", MethodType.Normal)]
     internal static class GeneratedManagedPatch_430
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(430);
         [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentsBinding(__args, ref __result, 430);
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 430);
     }
-    [HarmonyPatch("CSWeaponCase.AgentDialogues", "Pick", MethodType.Normal)]
+    [HarmonyPatch("CSWeaponCase.ProjectText", "ItemName", MethodType.Normal)]
     internal static class GeneratedManagedPatch_431
     {
         [HarmonyPrepare]
@@ -4011,7 +4028,7 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 431);
     }
-    [HarmonyPatch("CSWeaponCase.ProjectText", "Case", MethodType.Normal)]
+    [HarmonyPatch("CSWeaponCase.ProjectText", "T", MethodType.Normal)]
     internal static class GeneratedManagedPatch_432
     {
         [HarmonyPrepare]
@@ -4019,7 +4036,8 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 432);
     }
-    [HarmonyPatch("CSWeaponCase.ProjectText", "ItemName", MethodType.Normal)]
+    [HarmonyPatch("CSWeaponCase.ProjectText", "Translate", MethodType.Normal)]
+    [HarmonyPatch(new Type[] { typeof(global::System.String), typeof(global::System.Boolean) })]
     internal static class GeneratedManagedPatch_433
     {
         [HarmonyPrepare]
@@ -4027,7 +4045,8 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 433);
     }
-    [HarmonyPatch("CSWeaponCase.ProjectText", "T", MethodType.Normal)]
+    [HarmonyPatch("CSWeaponCase.ProjectText", "Translate", MethodType.Normal)]
+    [HarmonyPatch(new Type[] { typeof(global::System.String), typeof(global::System.String) })]
     internal static class GeneratedManagedPatch_434
     {
         [HarmonyPrepare]
@@ -4035,8 +4054,7 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 434);
     }
-    [HarmonyPatch("CSWeaponCase.ProjectText", "Translate", MethodType.Normal)]
-    [HarmonyPatch(new Type[] { typeof(global::System.String), typeof(global::System.Boolean) })]
+    [HarmonyPatch("CSWeaponCase.ProjectText", "Weapon", MethodType.Normal)]
     internal static class GeneratedManagedPatch_435
     {
         [HarmonyPrepare]
@@ -4044,8 +4062,7 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 435);
     }
-    [HarmonyPatch("CSWeaponCase.ProjectText", "Translate", MethodType.Normal)]
-    [HarmonyPatch(new Type[] { typeof(global::System.String), typeof(global::System.String) })]
+    [HarmonyPatch("ProbablyStolenInGameModSettings.UiText", "Get", MethodType.Normal)]
     internal static class GeneratedManagedPatch_436
     {
         [HarmonyPrepare]
@@ -4053,21 +4070,45 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 436);
     }
-    [HarmonyPatch("CSWeaponCase.ProjectText", "Weapon", MethodType.Normal)]
+    [HarmonyPatch("EleanorRescue.TextCatalog", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_437
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(437);
-        [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 437);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 437);
     }
-    [HarmonyPatch("ProbablyStolenInGameModSettings.UiText", "Get", MethodType.Normal)]
+    [HarmonyPatch("ModText", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_438
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(438);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 438);
+    }
+    [HarmonyPatch("ModText", "Redisplay", MethodType.Normal)]
+    internal static class GeneratedManagedPatch_439
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(439);
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 438);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 439);
+    }
+    [HarmonyPatch("ModText", "Get", MethodType.Normal)]
+    internal static class GeneratedManagedPatch_440
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(440);
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 440);
+    }
+    [HarmonyPatch("ProbablyCrystal_Mod", "LocalizeBook", MethodType.Normal)]
+    internal static class GeneratedManagedPatch_441
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(441);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileFieldStoreBinding(instructions, 441);
     }
 
     internal static class GeneratedManagedRefresh
