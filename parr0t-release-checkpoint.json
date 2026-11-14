@@ -126974,8 +126974,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "67f637d8cfb53c8d3bf23e314b9f6ef13adf41fdccf95daca7ca149d07316ece",
       "status": "reviewed",
-      "target": "카이가 집주인의 변호사와 술 한잔하며 얘기해 둬요. 임대료를 한 번 놓쳐도, 집주인이 다음 주에 합산해 내도록 해 줄 거예요. 일회성 호의이며, 사용 후 {0}일이 지나면 다시 이용할 수 있어요.",
-      "target_sha256": "ab3e6f9ebdd8681fa705d40b83c5fb1b015fd3bc63b37306a8f865209e570847"
+      "target": "카이가 집주인의 변호사와 술 한잔하며 얘기해 둔다. 임대료를 한 번 놓쳐도, 집주인이 다음 주에 합산해 내도록 해 준다. 일회성 호의이며, 사용 후 {0}일이 지나면 다시 이용할 수 있다.",
+      "target_sha256": "6fc8a7021eca04ed39e6815d13d8e517240275ae7cb8868ebdda61fa9a0fd8c3"
     },
     {
       "dependencies": [],
@@ -127499,7 +127499,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r16",
+  "release_id": "local-r17",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
