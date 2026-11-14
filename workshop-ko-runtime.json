@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "inventory_fingerprint": "a47f3915514b597576b1bd9090323f763357c7e317c03b64f02e8ea8b2a773b2",
-  "scope": "installed_workshop_mod_korean_overlay_r16",
+  "inventory_fingerprint": "87a19e6c87a4682520e50ddfb12f10aad2da149184ca856e61b0f2f808a803c4",
+  "scope": "installed_workshop_mod_korean_overlay_r22",
   "locale": "ko",
   "base_game_entries": 0,
   "existing_ko_entries": 0,
@@ -10,7 +10,7 @@
     "ps-fishing-gameplay": {
       "workshop_item_id": "3829110153",
       "csv_path": "workshop-overlays/3829110153/Localization/ko.csv",
-      "entry_count": 3423
+      "entry_count": 3426
     },
     "Pen_mod_pipette": {
       "workshop_item_id": "3829409725",
@@ -78,5 +78,5 @@
       "entry_count": 23
     }
   },
-  "entry_count": 10011
+  "entry_count": 10014
 }

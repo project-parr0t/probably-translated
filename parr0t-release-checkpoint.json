@@ -45206,6 +45206,39 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3829110153:nautilite.manual.text.20",
+      "location_fingerprint": "9069497c3775df10c03531c05f8866079a0927a933e3fdd7581ba983bcc8dbae",
+      "review_fingerprint": "a4348389b91eccb51e2c9e227d41f6bdd87039752973dd4c2bf4414cece1bfb6",
+      "source_sha256": "b4e56b8689ce315b6f5cd7aeb4e1f9bf3271e6e26367e554044fb182eabb4a83",
+      "status": "reviewed",
+      "target": "절단면의 광물 식별",
+      "target_sha256": "b799255e3c3f65d6984b12c8279cc8e30d79490d28f1af954ae29e182b069a23"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3829110153:nautilite.manual.text.21",
+      "location_fingerprint": "b225be2f039e7e90f95de539b4e21b12005908b29b1eb6f36792ba12528ca96c",
+      "review_fingerprint": "a4348389b91eccb51e2c9e227d41f6bdd87039752973dd4c2bf4414cece1bfb6",
+      "source_sha256": "adb542d31369c7fbb256c4c19243d2e3bab6337c339b644c3035605c26ca7120",
+      "status": "reviewed",
+      "target": "같은 녹색 절단면에서 색이 서서히 드러나는 모습을 살펴보세요.",
+      "target_sha256": "8020ba178816c3e483cda0e2440ac6682ca9eea7df4788adecaf7aef4ceb085e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3829110153:nautilite.manual.text.22",
+      "location_fingerprint": "05c3534380f6b2388761485311f4330a14a1f69af91be6f76f6dc672a504b902",
+      "review_fingerprint": "a4348389b91eccb51e2c9e227d41f6bdd87039752973dd4c2bf4414cece1bfb6",
+      "source_sha256": "7168c317ada78a37e1d666858972122f79cb28f23d3b06a537ca761829fcec0b",
+      "status": "reviewed",
+      "target": "보석은 더 밝고 투명하게 빛나며, 광물은 더 탁합니다. 색이 처음 드러날 때 색상으로 종류를 판별한 뒤, 계속 갈아 세부를 살펴보세요.\n\n가치가 낮은 광물 세 종류는 원석 표면의 손실을 줄여 주지만, 가격은 여전히 낮춥니다. 감정가를 높이는 것은 보석뿐입니다.\n\n한 번 잘못 자르면 파산, 한 번 잘 자르면 부자가 됩니다. 이것이 바로 돈을 버는 길이지요. 전부 걸어 보세요!",
+      "target_sha256": "7b0cdac160b80cf2892e64500a7e5031bc0801805094be250889849309695fef"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3829110153:nautilite.manual.text.3",
       "location_fingerprint": "b58586838e4759e0f190e4ee1e12703b2d0ed307ddf60eabcbe669e5e00dddf4",
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
@@ -127499,7 +127532,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r21",
+  "release_id": "local-r22",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
@@ -127507,8 +127540,8 @@
     "commit": "629b1c3e1f1c35c66243aea0a3f7bde2d05eada7"
   },
   "source_inventory": {
-    "fingerprint": "e5a55c5fbf7d930ff7ad7dedbca08afd06fbc42799e1a0c7e408b5f6a16d5408",
+    "fingerprint": "5db7ebcf96768096b6c41446a2748b90a032e35434ae18faa5ac24b78d2bc5a7",
     "method": "workshop-and-managed-runtime-inventory",
-    "target_count": 11589
+    "target_count": 11592
   }
 }
