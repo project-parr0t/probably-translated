@@ -961,21 +961,21 @@ theo.6.c_pay,[{0} 크레딧의 통행료를 내고 연구실 인수하기]
 theo.6.c_advance,[중개인이 통행료를 대신 내게 하고 연구실 인수하기 (파티용 등급 아이스 {0}개를 빚짐)]
 theo.6.c_report,[신고하기]
 theo.6.c_mira,[미라의 사람들에게 넘기기]
-theo.6.pay,그렇게나 많이... 어떻게 감사해야 할지 모르겠어요.
+theo.6.pay,그렇게나 많이... 어떻게 고마워해야 할지 모르겠어.
 theo.6.advance,"중개인에게 말할게. 내 표값은 그가 대신 내고, 네가 {1}일 안에 파티용 등급 제품 {0}개를 빚지는 거야. 직접 받으러 올 거야."
 theo.6.take1,제조법 기록이야. 사건의 핵심이지. 봉인이 풀렸어. 결정기와 스캐너도 네 거야.
 theo.6.take2,나처럼 되지 마. 만들고 싶으면 만들어. 만지지는 말고.
 theo.6.report,"당신도 그렇군. 그래, 그럴 줄 알았어."
 theo.6.mira1,하층 구역이라고? 좋아. 살아만 있으면 돼.
 theo.6.mira2,기록은 가져가게 둬. 다시는 그걸 보고 싶지 않아.
-theo.arrest.c1,"안 돼, 잠깐만요! 전 그냥 연구원이에요!,,"
+theo.arrest.c1,"안 돼, 잠깐만요! 전 그냥 연구원이에요!"
 theo.arrest.s1,해군 정보부가 이 사건을 맡는다. 우리와 함께 가자.
 theo.arrest.s2,협조해 주셔서 감사합니다. 현상금은 계좌로 입금됩니다.
 broker.arrest.c1,내 손님들이 누군지 알기나 해?
 broker.arrest.s1,알고 있습니다. 그래서 해군 정보부가 이자를 데려갑니다.
 broker.arrest.s2,협조해 주셔서 감사합니다. 현상금은 계좌로 입금됩니다.
 lady.arrest.c1,우리 가문 성이 뭔지 아십니까?
-lady.arrest.s1,"알고 있습니다, 부인. 해군 정보부에서 질문이 있습니다. 테오라는 연구원에 대해서요.,"
+lady.arrest.s1,"알고 있습니다, 부인. 해군 정보부에서 질문이 있습니다. 테오라는 연구원에 대해서요."
 theo.report.notify,해군 정보부가 테오를 연행했습니다. 파티 중개인은 다시 오지 않을 겁니다.
 theo.report.seized,해군 정보부가 테오를 연행하고 가게의 사건 기록을 압수했습니다. 파티 중개인은 다시 오지 않을 겁니다.
 intel.1,어제 일은 고마워요.
@@ -990,14 +990,14 @@ broker.due.3,파티용 등급 제품 {0}개. 어디 있지?
 broker.due.c_give,[아이스 {0}개 넘기기]
 broker.due.c_fail,[아직 준비되지 않았어요]
 broker.due.ok,좋아. 시간 잘 지키는 사람이 마음에 들어.
-broker.due.fail1,"유감이군. 내 업계에선 기한을 놓치면 두 번째 기회는 없어.,"
-broker.due.fail2,"그건 그렇고, 경찰서에 있는 친구 몇 명이 네 가게를 궁금해하더군.,"
+broker.due.fail1,"유감이군. 내 업계에선 기한을 놓치면 두 번째 기회는 없어."
+broker.due.fail2,"그건 그렇고, 경찰서에 있는 친구 몇 명이 네 가게를 궁금해하더군."
 broker.v1.1,좋은 저녁입니다. 오늘 밤 전망대에서 파티가 열립니다. 손님들 눈이 까다롭죠.
 broker.v1.2,새로운 건 있나?
 broker.v2.1,또 만났군. 지난번 물건이 반응이 좋았어. 어떤 분이 네 물건을 콕 집어 찾더군.
 broker.v2.2,뭘 갖고 있는지 보자고.
 broker.v3.1,진정해. 그냥 지나가다 들렀어. 진열대를 좀 보자고.
-broker.v3.2,"결정 등급이라면 가격은 협상할 수 있어.,"
+broker.v3.2,"결정 등급이라면 가격은 협상할 수 있어."
 broker.ask,늘 그렇듯 등급별로 값을 치르지.
 broker.more,더 있나?
 broker.c_crystal,[결정 등급 1개 판매 ({0} 크레딧)]
@@ -1006,25 +1006,25 @@ broker.c_street,[거리 등급 1개 판매 ({0} 크레딧)]
 broker.c_none,[이상입니다]
 broker.sold,좋아.
 broker.bye,거래 즐거웠네.
-broker.bye_none,"아무것도 없다고? 그럼 다음에 보지. 파티는 기다려 주지 않아.,"
+broker.bye_none,"아무것도 없다고? 그럼 다음에 보지. 파티는 기다려 주지 않아."
 item_ul_perfume_desk_name,뉴로 향수 조합대
-item_ul_perfume_desk_desc,"천연 꽃으로 뉴로 향수를 조합합니다. 프린터는 분자는 복제해도 원산지는 복제할 수 없습니다.,"
-item_ul_perfume_desk_flavor,"온실 목재로 만든 조합대에 머리카락처럼 가는 증류관이 달려 있습니다. 정거장의 모든 향수는 출력품입니다. 이곳에서 나오는 향은 흙내음을 품고 있습니다.,"
+item_ul_perfume_desk_desc,"천연 꽃으로 뉴로 향수를 조합합니다. 프린터는 분자는 복제해도 원산지는 복제할 수 없습니다."
+item_ul_perfume_desk_flavor,"온실 목재로 만든 조합대에 머리카락처럼 가는 증류관이 달려 있습니다. 정거장의 모든 향수는 출력품입니다. 이곳에서 나오는 향은 흙내음을 품고 있습니다."
 item_ul_perfume_desk_note_name,향수 조합대 설명서
 item_ul_perfume_desk_note_flavor,"천연 꽃을 꽃 투입구에 넣고, 제조법을 고른 뒤 배터리를 연결하세요.
 단일 노트: 꽃 2개, 하룻밤, ‘단일’ 향수 1병.
 어코드: 꽃 4개, 이틀 밤, ‘어코드’ 향수 1병, 가끔 ‘솔리테어’ 1병.
-제조가 시작되면 꽃이 소모됩니다. 제조 도중 제조법을 바꿔도 달라지는 건 없습니다. 전력 없는 밤에는 작업이 멈추지만 꽃은 사라지지 않습니다.,,,,,,,"
+제조가 시작되면 꽃이 소모됩니다. 제조 도중 제조법을 바꿔도 달라지는 건 없습니다. 전력 없는 밤에는 작업이 멈추지만 꽃은 사라지지 않습니다."
 item_ul_reactor_case_name,저온 결정 반응기
 item_ul_reactor_case_desc,저온 결정 반응기가 들어 있는 밀봉 장비 케이스. 밀수품 (높음).
-item_ul_reactor_case_flavor,"헬리오스 연구소의 폐기 번호가 찍힌 봉인이 붙은 은회색 장비 케이스. 보기보다 무겁습니다.,"
+item_ul_reactor_case_flavor,"헬리오스 연구소의 폐기 번호가 찍힌 봉인이 붙은 은회색 장비 케이스. 보기보다 무겁습니다."
 item_ul_reactor_case_note_name,반응기 설명서
 item_ul_reactor_case_note_flavor,"봉인 상태: 봉인이 온전합니다. 열리지 않으며 아무것도 넣을 수 없습니다. 테오와의 일이 해결될 때까지 그저 상자일 뿐입니다.
 봉인 해제: 결정 전구체 1개와 응축 탭 1개가 한 배치입니다. 배치마다 생결정 2개를 얻습니다. 밤마다 최대 4배치까지 가능합니다.
-안전한 투입량은 2배치입니다. 추가 배치마다 사고 확률이 높아집니다. 사고가 나면 시약이 망가지고, 반응기는 하룻밤 수리를 위해 멈추며, 증거가 남습니다.,,,"
+안전한 투입량은 2배치입니다. 추가 배치마다 사고 확률이 높아집니다. 사고가 나면 시약이 망가지고, 반응기는 하룻밤 수리를 위해 멈추며, 증거가 남습니다."
 item_ul_crystallizer_name,극저온 결정기
 item_ul_crystallizer_desc,생결정을 천천히 아이스로 굳힙니다. 설정이 높을수록 오래 걸리지만 더 높은 등급을 얻습니다. 밀수품 (높음).
-item_ul_crystallizer_flavor,"문에 서리가 끼어도 녹지 않는 길고 좁은 금속 캐비닛. 눈금은 세 개지만 표시창은 없습니다.,,"
+item_ul_crystallizer_flavor,"문에 서리가 끼어도 녹지 않는 길고 좁은 금속 캐비닛. 눈금은 세 개지만 표시창은 없습니다."
 item_ul_crystallizer_note_name,결정기 설명서
 item_ul_crystallizer_note_flavor,"생결정을 투입구에 넣고 응축 설정을 고른 뒤 배터리를 연결하세요.
 설정 I - 약하게: 하룻밤, 거리 등급.
@@ -1033,19 +1033,19 @@ item_ul_crystallizer_note_flavor,"생결정을 투입구에 넣고 응축 설정
 설정을 바꿔도 이미 기다린 밤은 그대로 계산됩니다.
 갓 만든 제품은 순도 보고서가 없어 구매자가 절반만 지불합니다. 먼저 순도 스캐너에 넣으세요."
 item_ul_purity_scanner_name,순도 스캐너
-item_ul_purity_scanner_desc,"아이스의 순도 보고서를 발급합니다. 보고서가 없으면 절반 가격에 팔립니다.,"
-item_ul_purity_scanner_flavor,"모서리 화면이 깨진 퇴역 연구실 스캐너. 상층 구역에서는 보고서가 물건보다 값집니다.,"
+item_ul_purity_scanner_desc,"아이스의 순도 보고서를 발급합니다. 보고서가 없으면 절반 가격에 팔립니다."
+item_ul_purity_scanner_flavor,"모서리 화면이 깨진 퇴역 연구실 스캐너. 상층 구역에서는 보고서가 물건보다 값집니다."
 item_ul_purity_scanner_note_name,스캐너 설명서
 item_ul_purity_scanner_note_flavor,"검사하지 않은 아이스를 투입구에 넣고 배터리를 연결한 뒤 하룻밤 두세요.
-하룻밤 동안 투입구의 모든 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다.,,,,"
+하룻밤 동안 투입구의 모든 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다."
 item_ul_lightfield_bench_name,라이트필드 복원 작업대
 item_ul_lightfield_bench_desc,홀로 작품의 불량 화소를 수리하고 고유 인증서를 발급합니다. 서명자가 누구인지 꼬치꼬치 묻는 사람은 없습니다.
-item_ul_lightfield_bench_flavor,"표면 아래에 수백 개의 마이크로 프로젝터가 들어 있는 검은 작업대. 라이트필드 원본은 복제할 수 없으므로, 이를 복원하고 인증하는 사람은 비싼 값을 받습니다.,"
+item_ul_lightfield_bench_flavor,"표면 아래에 수백 개의 마이크로 프로젝터가 들어 있는 검은 작업대. 라이트필드 원본은 복제할 수 없으므로, 이를 복원하고 인증하는 사람은 비싼 값을 받습니다."
 item_ul_lightfield_bench_note_name,복원 작업대 설명서
 item_ul_lightfield_bench_note_flavor,"작업대에 물건 하나를 놓고 모드를 선택한 뒤 배터리를 연결하고 하룻밤 두세요.
 복원: 손상된 홀로 작품을 하룻밤 만에 수리해 인증된 홀로 작품으로 만듭니다. 도난품은 계속 도난품입니다.
 인증: 사샤의 인맥이 필요합니다. 도난품을 작업대에 놓으면 아침까지 ‘깨끗한’ 이력이 생깁니다. 재료비로 가치의 15%(최소 80)를 보유 자금에서 가져갑니다.
-인증품도 건국 가문 감정사의 면밀한 검사까지 견뎌 내지는 못합니다.,,,"
+인증품도 건국 가문 감정사의 면밀한 검사까지 견뎌 내지는 못합니다."
 item_ul_perfume_single_name,뉴로 향수 ‘단일’
 item_ul_perfume_single_flavor,"한 송이의 생화로 조향했습니다. 가볍게 시작해 은은한 여운이 남습니다.,인쇄한 향수는 꽃향기가 납니다. 이건 진짜 꽃입니다."
 item_ul_perfume_accord_name,뉴로 프래그런스 ‘어코드’
@@ -1317,8 +1317,8 @@ clinic.ask,무엇을 갖고 있습니까?
 clinic.more,다른 것도 있습니까?
 clinic.sold,좋습니다.
 clinic.c_none,오늘은 더 없습니다.
-clinic.c_sell,"{0},, {1}크레딧입니다."
-clinic.c_sell_wanted,"{0},, {1}크레딧입니다(긴급)."
+clinic.c_sell,"{0}, {1}크레딧입니다."
+clinic.c_sell_wanted,"{0}, {1}크레딧입니다(긴급)."
 clinic.bye_next,며칠 뒤에 봅시다. 냉장 보관하세요.
 clinic.arrest.c1,이곳에서 이식 수술을 기다리는 사람이 몇 명인지 아십니까?
 clinic.arrest.s1,화이트 타워 진료소 조달 담당입니다. 같이 가시죠.
@@ -1514,7 +1514,7 @@ appraiser.guide.kind,- {0}: {1}
 appraiser.guide.cond,상태 (배율):
 appraiser.guide.pct,- {0}: {1}%
 appraiser.guide.prov,문서로 입증된 소장 이력: {0}% 추가.
-appraiser.guide.mat,"재질 (배율,, 스캐너로 확인):"
+appraiser.guide.mat,"재질 (배율, 스캐너로 확인):"
 appraiser.guide.tip,고객은 언제나 진품 가격을 부릅니다. 복제품과 위조품의 가치는 그 일부에 불과합니다. 너무 높게 감정하면 고객이 거절합니다.
 appraiser.cond.0,최상
 appraiser.cond.1,양호
@@ -1592,7 +1592,7 @@ navy.reyes.v1.1,"레이스, 보급부다."
 navy.reyes.v1.2,또 한 주가 지났군.
 navy.reyes.v2.1,다음 주에 함대가 정박해. 보급 목록이 지난번보다 길어졌군.
 navy.reyes.v2.2,재고를 보자고.
-navy.reyes.v3.1,"좋은 아침. 예산이 또 삭감됐어. 계약업자 몫은 아니지만,."
+navy.reyes.v3.1,"좋은 아침. 예산이 또 삭감됐어. 계약업자 몫은 아니지만."
 navy.reyes.v3.2,계약업자 예산을 깎으면 선원들 배급도 줄어드니까.
 navy.reyes.menu,주문한 물자는 준비됐나?
 navy.reyes.menu_more,또 있나?
@@ -1608,7 +1608,7 @@ navy.reyes.c_intel_favor,[무료. 대신 빚 하나 지는 거야]
 navy.reyes.intel_ok_cash,정보부에서 돈을 낼 거야. 정보 출처에 네 이름은 남지 않아.
 navy.reyes.intel_ok_favor,기억해 두지. 공화국은 오래도록 잊지 않아.
 navy.reyes.close,좋아.
-navy.reyes.close_due,"좋아. 기한이 지난 건 계약대로 보증금에서 차감할 거야,."
+navy.reyes.close_due,"좋아. 기한이 지난 건 계약대로 보증금에서 차감할 거야."
 navy.reyes.no_new,아직 처리하지 않은 주문이 있군. 이번 주엔 새 주문이 없어.
 navy.reyes.new_intro,이번 주 주문은 {0}건이야.
 navy.reyes.new_outro,전부 허가증 기록에 적혀 있어.
@@ -1663,7 +1663,7 @@ retire_kai_5,"그래서요. 이제 그만둘까요, 아니면 조금 더 계속�
 retire_choice_now,이제 그만두겠습니다.
 retire_choice_later,조금 더 하겠습니다.
 retire_kai_now_1,좋아요. 서류는 제가 처리할게요. 내일이면 누군가 가게를 인수할 거예요.
-retire_kai_now_2,"상층 구역 시민이 되신 걸 환영합니다, ."
+retire_kai_now_2,"상층 구역 시민이 되신 걸 환영합니다."
 retire_kai_later_1,마음대로 해요. 이 카드는 갖고 있어요.
 retire_kai_later_2,"마음이 정해지면, 이걸로 연락해요."
 item_ul_kai_card_name,카이 와일드의 명함

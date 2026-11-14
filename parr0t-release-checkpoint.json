@@ -106712,8 +106712,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b6ec8a5fd9e4214823cf0f50984709477ca2f4f0cd30068a4eaa7773d5e3d74d",
       "status": "reviewed",
-      "target": "재질 (배율,, 스캐너로 확인):",
-      "target_sha256": "b6342e054b70fe8cd46c1026a36233df7fb9b6516b3eb2f20bd3240a20ceb289"
+      "target": "재질 (배율, 스캐너로 확인):",
+      "target_sha256": "cd75be48b069aaa221e6228f6cd9e92354c97ed936e3044fb472b137b644dad5"
     },
     {
       "dependencies": [],
@@ -107669,8 +107669,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "950ca30f20bee4f92af205edae7cf1e53671b1002457b5a402a4ddfafc366ff0",
       "status": "reviewed",
-      "target": "아무것도 없다고? 그럼 다음에 보지. 파티는 기다려 주지 않아.,",
-      "target_sha256": "2144fc17df0de338c7bdcb619d731f6cf264a25d4e4ced07d5e5e34376b2ca6d"
+      "target": "아무것도 없다고? 그럼 다음에 보지. 파티는 기다려 주지 않아.",
+      "target_sha256": "e18f47171e7790cee5add79e9809d80adadb8a4ca660f26fc8ae111a00b8a205"
     },
     {
       "dependencies": [],
@@ -107779,8 +107779,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "fd9893e1ddf381682c17a62086b4290ac33411e811f467c11b53288904b68d75",
       "status": "reviewed",
-      "target": "유감이군. 내 업계에선 기한을 놓치면 두 번째 기회는 없어.,",
-      "target_sha256": "c6fdbb8188015f55aa1465e606c75f42c020aa5a37804e17e3cb26f8862645c8"
+      "target": "유감이군. 내 업계에선 기한을 놓치면 두 번째 기회는 없어.",
+      "target_sha256": "a3bc95044c515b27cda19fd5937e4ed5bd58a31f3316b75e5a2866d03fbfd63b"
     },
     {
       "dependencies": [],
@@ -107790,8 +107790,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b0aae9c255edcac6ed914e70d7e31e904583f42dba9442a0c0f659ea43ea22bd",
       "status": "reviewed",
-      "target": "그건 그렇고, 경찰서에 있는 친구 몇 명이 네 가게를 궁금해하더군.,",
-      "target_sha256": "e5fcac0fbf0567679c69acb18acee8204d85cb87e78fb16254542aa0d58592a4"
+      "target": "그건 그렇고, 경찰서에 있는 친구 몇 명이 네 가게를 궁금해하더군.",
+      "target_sha256": "e8d5fce392abc5958105190a04f21eb28298c09bb2f4043abc6a2eb9742031d5"
     },
     {
       "dependencies": [],
@@ -107889,8 +107889,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "6832ab567b06912c95174cc1b372319f8763d4854d244c91e92443982576903e",
       "status": "reviewed",
-      "target": "결정 등급이라면 가격은 협상할 수 있어.,",
-      "target_sha256": "7dc2a1c777b96537a493f8b7d6ba35699308da844343be51bfd49e91e1288b82"
+      "target": "결정 등급이라면 가격은 협상할 수 있어.",
+      "target_sha256": "5e09c7b4f91844374ac7790fee462ca6b59077804d0edb697001991ad3a5e99d"
     },
     {
       "dependencies": [],
@@ -109000,8 +109000,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "7a922de4b69cc356137d9e795b4a39bbf1332b56111a9a4c7f338c10d4a759f2",
       "status": "reviewed",
-      "target": "{0},, {1}크레딧입니다.",
-      "target_sha256": "65e1b07bb1e35a86bd1a061abebae9b1321941bbdbbf0ef09b67e27b7df0c1ae"
+      "target": "{0}, {1}크레딧입니다.",
+      "target_sha256": "1bca4d9a824f89065e3d564e8d7a9511256968282ebc5ef9b0c3cb34ac406ddb"
     },
     {
       "dependencies": [],
@@ -109011,8 +109011,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "54cfb89954f27fe94de65a06cf03096d49bf91a0c92a7f83c476e5a8bf310c0e",
       "status": "reviewed",
-      "target": "{0},, {1}크레딧입니다(긴급).",
-      "target_sha256": "ac0ffd6522842c5c14a64dc513003b395839c8edface570c2e3d76a4ade66290"
+      "target": "{0}, {1}크레딧입니다(긴급).",
+      "target_sha256": "e7bdd09caee900726061ded22007ad9436a1f3a6bf5a9f90f203b348e28ad8be"
     },
     {
       "dependencies": [],
@@ -113862,8 +113862,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "96527d59c7b3973818c40955524723e44905d60e8494ee2c9c2e447f9794854e",
       "status": "reviewed",
-      "target": "문에 서리가 끼어도 녹지 않는 길고 좁은 금속 캐비닛. 눈금은 세 개지만 표시창은 없습니다.,,",
-      "target_sha256": "ace11762f168cc0ab04735cd942114ca53615d315e78fdac0c85e41fb08ff9ae"
+      "target": "문에 서리가 끼어도 녹지 않는 길고 좁은 금속 캐비닛. 눈금은 세 개지만 표시창은 없습니다.",
+      "target_sha256": "119ec5bd8d9ca6c765cd45010817b59a4ba81dc4e9f551145162a8a3d927ecd8"
     },
     {
       "dependencies": [],
@@ -114214,8 +114214,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "0aad0d406970351b708d170bc73733bdf79cd4a36f2d0832864a340d05a00b57",
       "status": "reviewed",
-      "target": "표면 아래에 수백 개의 마이크로 프로젝터가 들어 있는 검은 작업대. 라이트필드 원본은 복제할 수 없으므로, 이를 복원하고 인증하는 사람은 비싼 값을 받습니다.,",
-      "target_sha256": "8dd97d0ae2f86d27a1119e350b72719f67db12cf6e76f954e30d4e67036fde57"
+      "target": "표면 아래에 수백 개의 마이크로 프로젝터가 들어 있는 검은 작업대. 라이트필드 원본은 복제할 수 없으므로, 이를 복원하고 인증하는 사람은 비싼 값을 받습니다.",
+      "target_sha256": "8aaf0ee5e5751715d24d1e43984c8458246b7ef2cc9eb20400ab9aeea0c33ea0"
     },
     {
       "dependencies": [],
@@ -114236,8 +114236,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "64066dfadfd7f340de30d807f3a362a624cb6f15fbc35d07e92e58922016d2d7",
       "status": "reviewed",
-      "target": "작업대에 물건 하나를 놓고 모드를 선택한 뒤 배터리를 연결하고 하룻밤 두세요.\n복원: 손상된 홀로 작품을 하룻밤 만에 수리해 인증된 홀로 작품으로 만듭니다. 도난품은 계속 도난품입니다.\n인증: 사샤의 인맥이 필요합니다. 도난품을 작업대에 놓으면 아침까지 ‘깨끗한’ 이력이 생깁니다. 재료비로 가치의 15%(최소 80)를 보유 자금에서 가져갑니다.\n인증품도 건국 가문 감정사의 면밀한 검사까지 견뎌 내지는 못합니다.,,,",
-      "target_sha256": "e9beb02d9025aaf61363e83c54ecc6667b7212d60a52086fc5adfa14a38a8915"
+      "target": "작업대에 물건 하나를 놓고 모드를 선택한 뒤 배터리를 연결하고 하룻밤 두세요.\n복원: 손상된 홀로 작품을 하룻밤 만에 수리해 인증된 홀로 작품으로 만듭니다. 도난품은 계속 도난품입니다.\n인증: 사샤의 인맥이 필요합니다. 도난품을 작업대에 놓으면 아침까지 ‘깨끗한’ 이력이 생깁니다. 재료비로 가치의 15%(최소 80)를 보유 자금에서 가져갑니다.\n인증품도 건국 가문 감정사의 면밀한 검사까지 견뎌 내지는 못합니다.",
+      "target_sha256": "d655854cb1a0f6bdf5d449cba92c4dbf48887a74b5d6a58f020ca5ca4441d7ad"
     },
     {
       "dependencies": [],
@@ -114577,8 +114577,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b641f73f986b806d834552231845e1b1eb96b5cbab190c93ab071c6e6b105722",
       "status": "reviewed",
-      "target": "천연 꽃으로 뉴로 향수를 조합합니다. 프린터는 분자는 복제해도 원산지는 복제할 수 없습니다.,",
-      "target_sha256": "9d2d0f4a4249b1d89e7d8be1fa3d37b82c4acfa463c0c9ae15b307ac57a63e54"
+      "target": "천연 꽃으로 뉴로 향수를 조합합니다. 프린터는 분자는 복제해도 원산지는 복제할 수 없습니다.",
+      "target_sha256": "82e6b862265838d2405fa3d97bdf4b43c95cab6d35ed79310a6234f8b553f128"
     },
     {
       "dependencies": [],
@@ -114588,8 +114588,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "836e0063e8653b70dae2212c6939a605c2becdb4a4446c55f4c3a3142998edde",
       "status": "reviewed",
-      "target": "온실 목재로 만든 조합대에 머리카락처럼 가는 증류관이 달려 있습니다. 정거장의 모든 향수는 출력품입니다. 이곳에서 나오는 향은 흙내음을 품고 있습니다.,",
-      "target_sha256": "1c98aef007213c1445fb3683dc22c87da6a02cb3e06518395170f10ee9e9bd06"
+      "target": "온실 목재로 만든 조합대에 머리카락처럼 가는 증류관이 달려 있습니다. 정거장의 모든 향수는 출력품입니다. 이곳에서 나오는 향은 흙내음을 품고 있습니다.",
+      "target_sha256": "abf86c7e9450d289ef6b03ef2d4959288367519fec81c0a39e0c92b8bf94a9d8"
     },
     {
       "dependencies": [],
@@ -114610,8 +114610,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b8db038b4dd554c87ae67155d26e8d8650f9de283dcad09d190dd5039b5a26b6",
       "status": "reviewed",
-      "target": "천연 꽃을 꽃 투입구에 넣고, 제조법을 고른 뒤 배터리를 연결하세요.\n단일 노트: 꽃 2개, 하룻밤, ‘단일’ 향수 1병.\n어코드: 꽃 4개, 이틀 밤, ‘어코드’ 향수 1병, 가끔 ‘솔리테어’ 1병.\n제조가 시작되면 꽃이 소모됩니다. 제조 도중 제조법을 바꿔도 달라지는 건 없습니다. 전력 없는 밤에는 작업이 멈추지만 꽃은 사라지지 않습니다.,,,,,,,",
-      "target_sha256": "5ffa6d94301e090138d0551bb7af9d998dc2044169a08e811358a82e3e1b3ea7"
+      "target": "천연 꽃을 꽃 투입구에 넣고, 제조법을 고른 뒤 배터리를 연결하세요.\n단일 노트: 꽃 2개, 하룻밤, ‘단일’ 향수 1병.\n어코드: 꽃 4개, 이틀 밤, ‘어코드’ 향수 1병, 가끔 ‘솔리테어’ 1병.\n제조가 시작되면 꽃이 소모됩니다. 제조 도중 제조법을 바꿔도 달라지는 건 없습니다. 전력 없는 밤에는 작업이 멈추지만 꽃은 사라지지 않습니다.",
+      "target_sha256": "3629772df8b036ae6c04f3ca5394881106c4040df2e4f79a863e83f766d4a4a2"
     },
     {
       "dependencies": [],
@@ -114698,8 +114698,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "5602cbb50054d6694fc0c30ae0ca3ed3dfb4965bf63c680e77d7ae048bdaf26d",
       "status": "reviewed",
-      "target": "아이스의 순도 보고서를 발급합니다. 보고서가 없으면 절반 가격에 팔립니다.,",
-      "target_sha256": "f1d13dd9c3a4168521aaf03560ae6833390cc558efb9b9784709206c286ed986"
+      "target": "아이스의 순도 보고서를 발급합니다. 보고서가 없으면 절반 가격에 팔립니다.",
+      "target_sha256": "f745f6d0a57fd065a69e469baff7ca9275ea38220e63198863608c77e743bd3b"
     },
     {
       "dependencies": [],
@@ -114709,8 +114709,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "55afe28052e6bfd3eb554e96b3f5f6c79485b6261d269732537d811aa0ece209",
       "status": "reviewed",
-      "target": "모서리 화면이 깨진 퇴역 연구실 스캐너. 상층 구역에서는 보고서가 물건보다 값집니다.,",
-      "target_sha256": "356a1f8c70d0080d05055dda0198c8262d3027f7352c82cedbcafbfd9eeb935f"
+      "target": "모서리 화면이 깨진 퇴역 연구실 스캐너. 상층 구역에서는 보고서가 물건보다 값집니다.",
+      "target_sha256": "f7ec7dfa3b196ae34f159a4afdc1ad0cbd20f5e641b9fb68fcb4313b3760baeb"
     },
     {
       "dependencies": [],
@@ -114731,8 +114731,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "6037feec5200f991ec5b6ad9e308d07ef4ebb1db7997eb0daaa9cd3a839d2c6e",
       "status": "reviewed",
-      "target": "검사하지 않은 아이스를 투입구에 넣고 배터리를 연결한 뒤 하룻밤 두세요.\n하룻밤 동안 투입구의 모든 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다.,,,,",
-      "target_sha256": "9e8c149c8d1bb9bf5065180c4cb5fa16f59b1073f638c4621273cc29f6be65ad"
+      "target": "검사하지 않은 아이스를 투입구에 넣고 배터리를 연결한 뒤 하룻밤 두세요.\n하룻밤 동안 투입구의 모든 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다.",
+      "target_sha256": "a8728705a5c5d9cd9d977510a5ad432c26264a475d4e486e039d419e13131805"
     },
     {
       "dependencies": [],
@@ -114764,8 +114764,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "59b8e7454c20aac6f159e822e7cdb7d718cf8f8a99376b5d2244e7da45bbd93e",
       "status": "reviewed",
-      "target": "헬리오스 연구소의 폐기 번호가 찍힌 봉인이 붙은 은회색 장비 케이스. 보기보다 무겁습니다.,",
-      "target_sha256": "ec9aa9e4247a0481100d189706270baf9682de27fb26036267d7c66c89b9c4f3"
+      "target": "헬리오스 연구소의 폐기 번호가 찍힌 봉인이 붙은 은회색 장비 케이스. 보기보다 무겁습니다.",
+      "target_sha256": "cd6ad90a43b8397d8d6395367d615581e7d796b7d22eb3eb293201df6dba5636"
     },
     {
       "dependencies": [],
@@ -114786,8 +114786,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "1e46acce075d0df388b1c2d6c127f8f44d15dc73dd04fd4317a8398b17d969c9",
       "status": "reviewed",
-      "target": "봉인 상태: 봉인이 온전합니다. 열리지 않으며 아무것도 넣을 수 없습니다. 테오와의 일이 해결될 때까지 그저 상자일 뿐입니다.\n봉인 해제: 결정 전구체 1개와 응축 탭 1개가 한 배치입니다. 배치마다 생결정 2개를 얻습니다. 밤마다 최대 4배치까지 가능합니다.\n안전한 투입량은 2배치입니다. 추가 배치마다 사고 확률이 높아집니다. 사고가 나면 시약이 망가지고, 반응기는 하룻밤 수리를 위해 멈추며, 증거가 남습니다.,,,",
-      "target_sha256": "3dbbd8940cac2973b52b1107ccd77c55632b6e89f731e15f623c7499ff9ea001"
+      "target": "봉인 상태: 봉인이 온전합니다. 열리지 않으며 아무것도 넣을 수 없습니다. 테오와의 일이 해결될 때까지 그저 상자일 뿐입니다.\n봉인 해제: 결정 전구체 1개와 응축 탭 1개가 한 배치입니다. 배치마다 생결정 2개를 얻습니다. 밤마다 최대 4배치까지 가능합니다.\n안전한 투입량은 2배치입니다. 추가 배치마다 사고 확률이 높아집니다. 사고가 나면 시약이 망가지고, 반응기는 하룻밤 수리를 위해 멈추며, 증거가 남습니다.",
+      "target_sha256": "e658790a7451828b3ad6ff758c256e4cf6d7b8538d92f40f6a696eee5110c9b1"
     },
     {
       "dependencies": [],
@@ -115765,8 +115765,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "e1bca3e12f6c91b9e05697468bb26d32212dd8cd8baf73436e31bf46adee0463",
       "status": "reviewed",
-      "target": "알고 있습니다, 부인. 해군 정보부에서 질문이 있습니다. 테오라는 연구원에 대해서요.,",
-      "target_sha256": "f18016c61d143fc82898d4603efc5282df574af51871ad00a5b9d4070eb530c5"
+      "target": "알고 있습니다, 부인. 해군 정보부에서 질문이 있습니다. 테오라는 연구원에 대해서요.",
+      "target_sha256": "db220ffdde26d96e2e41d357f53ba37b07d7faa0089496ee3dbc46cf97ccd971"
     },
     {
       "dependencies": [],
@@ -117734,8 +117734,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "97d0f50ca20edeca0ff5ad13101b80b2fa70c41cf9b7f3570bd6eef5848fed80",
       "status": "reviewed",
-      "target": "좋아. 기한이 지난 건 계약대로 보증금에서 차감할 거야,.",
-      "target_sha256": "0bf57bb76f74d33e9aae277cf0c1ec18b6ce472cb6031a3c9f400f44644c75ae"
+      "target": "좋아. 기한이 지난 건 계약대로 보증금에서 차감할 거야.",
+      "target_sha256": "1c2e837b75e3a6ec166725edc0250cc75c06bdeeb07d624915371620868179ab"
     },
     {
       "dependencies": [],
@@ -118020,8 +118020,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "cae9b76996d09b7d82ce41aa1a55787658ef87277761ffaea40a408b0686a0ad",
       "status": "reviewed",
-      "target": "좋은 아침. 예산이 또 삭감됐어. 계약업자 몫은 아니지만,.",
-      "target_sha256": "cfec19909d1a715322cec974a2079a9eca74de1b425939fb958fd17365af8cc8"
+      "target": "좋은 아침. 예산이 또 삭감됐어. 계약업자 몫은 아니지만.",
+      "target_sha256": "479b355855f5017c7439e0052015e7fff8f986ba6bb82bb3ba46aebc8766545f"
     },
     {
       "dependencies": [],
@@ -122552,8 +122552,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "1654447db6c631f74affbbbf77cd8cb7bd67027f2019c7cc42e20376d0db363c",
       "status": "reviewed",
-      "target": "상층 구역 시민이 되신 걸 환영합니다, .",
-      "target_sha256": "b05f1bb39414d547ef0b421b4537e0c25f083be5b980747e4f00df783bba139d"
+      "target": "상층 구역 시민이 되신 걸 환영합니다.",
+      "target_sha256": "859037c157488a899c0987a0fabc6b6a92fdd89004a038d9d14fb7d68da6b6b0"
     },
     {
       "dependencies": [],
@@ -125511,8 +125511,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "16cfe5fb9b192917367011ca5588105185bf04a8e3e67bed6fd9441c1e0ee43e",
       "status": "reviewed",
-      "target": "그렇게나 많이... 어떻게 감사해야 할지 모르겠어요.",
-      "target_sha256": "8845d04ad7c7e8ea355c77bbfe4f92931699233d0574fa0b7879a324f52a28a7"
+      "target": "그렇게나 많이... 어떻게 고마워해야 할지 모르겠어.",
+      "target_sha256": "aedaf779649833d8658e86e5a460df0a948fa88c01aac480eba31234f6fea6b4"
     },
     {
       "dependencies": [],
@@ -125555,8 +125555,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "7f50c651c15fa5520df8c226742c2c4ab237c3b7c678f281e00c2732632c75bc",
       "status": "reviewed",
-      "target": "안 돼, 잠깐만요! 전 그냥 연구원이에요!,,",
-      "target_sha256": "e3e0cd31a75e1009a055086b7df85a808131d7412a50a358716df71b87c18609"
+      "target": "안 돼, 잠깐만요! 전 그냥 연구원이에요!",
+      "target_sha256": "9aaabff06454a61b1bdff25e181190f93692f021f95ea6b2b9e8fb1d95b4cd2a"
     },
     {
       "dependencies": [],
@@ -127675,7 +127675,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r26",
+  "release_id": "local-r27",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
