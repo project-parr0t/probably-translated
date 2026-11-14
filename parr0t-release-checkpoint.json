@@ -7,6 +7,83 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3828896687:manifest:name",
+      "location_fingerprint": "5c5390d32a177057b18585cc2261aeb619d2c3ba6f9904ced825b4c3e3a18598",
+      "review_fingerprint": "80dc25b0a8e40a8e13921f4cb39da20879b3a96f738d64df20a9a9fe23468655",
+      "source_sha256": "c5b374b448cb28cf9fb4a7d9489de3f739ab7f538b9fe9ef7b0635301be9df20",
+      "status": "reviewed",
+      "target": "Korean Translation",
+      "target_sha256": "c5b374b448cb28cf9fb4a7d9489de3f739ab7f538b9fe9ef7b0635301be9df20"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3829110153:manifest:name",
+      "location_fingerprint": "409014aaf2bf46609a52df4d0a12e5f4568674514c8113100a515c79f8d0f1fb",
+      "review_fingerprint": "d22fafc6113e5d111a64ee15a18017d737f04a765599eb16eea6849e08b1be2b",
+      "source_sha256": "ebb620e4a14249ac292431d77ca9264f46af1553d55985e762e370738a730f3b",
+      "status": "reviewed",
+      "target": "GoFishing",
+      "target_sha256": "ebb620e4a14249ac292431d77ca9264f46af1553d55985e762e370738a730f3b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3829206666:manifest:name",
+      "location_fingerprint": "fb88ae57d60badbcc52394c571222b4465dd9cb1b082055cd77bae22fb3271b8",
+      "review_fingerprint": "741dd1f7759c4d459fcebe2f74271014acb9b4a642363694baf1e47f1069a393",
+      "source_sha256": "d0d483b61603d0772bbf3a3aa853fe052628b650870cb74d57c15c91404dddfb",
+      "status": "reviewed",
+      "target": "Smart Inventory Arrange",
+      "target_sha256": "d0d483b61603d0772bbf3a3aa853fe052628b650870cb74d57c15c91404dddfb"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3829409725:manifest:name",
+      "location_fingerprint": "15cc6d06c7629fa5669251cd5b092b6c04f6732b97c23647500d71fd14de4550",
+      "review_fingerprint": "84d1cde1a2041e052539553b8b750330c1aa3daf14db6ad83400d9bd5bd203d1",
+      "source_sha256": "50c97a5b093063217968dca35f65e5862a5d5321caca22ebab3c66982f9439b9",
+      "status": "reviewed",
+      "target": "Pen的移液枪",
+      "target_sha256": "50c97a5b093063217968dca35f65e5862a5d5321caca22ebab3c66982f9439b9"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3829946713:manifest:name",
+      "location_fingerprint": "da7a6dc8266d8d6fb3d15e3c48dd9bb4978bd71a7f5acb579841b49da1e14bd6",
+      "review_fingerprint": "6a945f04b770576c1b9297db213ee30a131e88fa079939e98e09177d9d081252",
+      "source_sha256": "8e21e8886b61992511e75ce1154bc52420871201bddf917cc028d27f86ade776",
+      "status": "reviewed",
+      "target": "災變日 Disaster Day",
+      "target_sha256": "8e21e8886b61992511e75ce1154bc52420871201bddf917cc028d27f86ade776"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3830031787:manifest:name",
+      "location_fingerprint": "dd6bbb0e4545c88e28a547df9a19a2713af9b8dfb74b3dc30d71639d73a82632",
+      "review_fingerprint": "4944e32e6cd5fa30066e043810063b6448291739f45fc0ce628d84bbb179c322",
+      "source_sha256": "de1d8b608c9e6b411891367b6beaa39e70bbc7950241c9bb3eaeba20b8c9b920",
+      "status": "reviewed",
+      "target": "Fishing Cuisine Expansion",
+      "target_sha256": "de1d8b608c9e6b411891367b6beaa39e70bbc7950241c9bb3eaeba20b8c9b920"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3830643693:manifest:name",
+      "location_fingerprint": "601250459cd9573f46a8e7764ba13e2daefc909dd14571f4e84758bab63fca4e",
+      "review_fingerprint": "8100f52ba8fd89306d25eaedad4f45d9cc5d7addf88633560e2bdd85602cfd3f",
+      "source_sha256": "1108efb5953bcbae789a06bb7d4dbdf29465c75d5fc0f92299659e98acfc02ef",
+      "status": "reviewed",
+      "target": "开箱时刻 / Unbox Moment",
+      "target_sha256": "1108efb5953bcbae789a06bb7d4dbdf29465c75d5fc0f92299659e98acfc02ef"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "managed:3830798369:managed:cake-dialogue:000",
       "location_fingerprint": "4a7d7ba8549834c3b830894e40915ba035572f77ffcb98d2c34a76724899e726",
       "review_fingerprint": "22920e8674fc35c28e38131bb959b1e4f74cbc91aa9cb3806c001c6e9e08ce89",
@@ -2654,6 +2731,39 @@
       "status": "reviewed",
       "target": "물론이죠. 천천히 보세요.",
       "target_sha256": "8bbfdae40fa957f2682d9d1f8b7c800349cac744574d9e024e3f229596319a08"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3830798369:manifest:name",
+      "location_fingerprint": "7050cb73880a0ec67d09dab02cc948867e6006a1c5af67f54a4ca7c927cc37f2",
+      "review_fingerprint": "de3b08bff7a43c79e0152f52367bbeb0284f420e83a7c52ae88c74dde9258374",
+      "source_sha256": "ea0cbad4258d7f6b4e6ad4581d431ca760f021a49a93dadca475d96c647e6a90",
+      "status": "reviewed",
+      "target": "Vanilla Food Expansion",
+      "target_sha256": "ea0cbad4258d7f6b4e6ad4581d431ca760f021a49a93dadca475d96c647e6a90"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3831464547:manifest:name",
+      "location_fingerprint": "898b365c506f4e4b2f4339773f9184a903b1c0608959fdae411f4145a9ba7cf0",
+      "review_fingerprint": "b042c140bb13ef4feaf01c449d6a00353374a113a317e7c84863dbed206dc565",
+      "source_sha256": "e365e1a201dd3ad8484bb6a16e561f1ed117e1a8491cc27fbf1a4e84e119b0a6",
+      "status": "reviewed",
+      "target": "Visible Item Durability / 物品耐久显示",
+      "target_sha256": "e365e1a201dd3ad8484bb6a16e561f1ed117e1a8491cc27fbf1a4e84e119b0a6"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3831472187:manifest:name",
+      "location_fingerprint": "89504013c8a0889efaf69005dc5564a9eaf06a9f74f9266d1faa4ff0416c4cf2",
+      "review_fingerprint": "674f34c07085692fab6fe2a0381f009ae24dda6228ac1881065fdef33d0e2886",
+      "source_sha256": "fab06d4dc3df121facf69066089b7a0c7a358e54cf72afb53cd130ee68672898",
+      "status": "reviewed",
+      "target": "更好的液体扫描仪 Better Liquid Scanner",
+      "target_sha256": "fab06d4dc3df121facf69066089b7a0c7a358e54cf72afb53cd130ee68672898"
     },
     {
       "dependencies": [],
@@ -17376,6 +17486,50 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3832249311:manifest:name",
+      "location_fingerprint": "073da17e24f8058844e12d7ad3fe94bd5a17e54c7813e94c5cf8472429989f33",
+      "review_fingerprint": "1525f9dca7a998c8747378aebaccc332dfad219a0d7667d39467a8c5b62a6692",
+      "source_sha256": "a7339b9e617632294b75ccc05af54045e4d0ec28bbd288b8047611166c830bf1",
+      "status": "reviewed",
+      "target": "农业扩展 / Agri Expansion",
+      "target_sha256": "a7339b9e617632294b75ccc05af54045e4d0ec28bbd288b8047611166c830bf1"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3833083602:manifest:name",
+      "location_fingerprint": "e67edfdb7d88804fb69e6eee5b874e0deee54a404a977b9ba9e7869e010ffe53",
+      "review_fingerprint": "153dc64cbdd42f5fe69dfcdb4fd4677534262ed7e1fe483c5f329e104a8b38cf",
+      "source_sha256": "fc858c838fe1e24a876c1c040f00b3885bbe7e3c3a6b0d2c0e6d18f55a0f4431",
+      "status": "reviewed",
+      "target": "Real Time Clock 現實時鐘",
+      "target_sha256": "fc858c838fe1e24a876c1c040f00b3885bbe7e3c3a6b0d2c0e6d18f55a0f4431"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3833966506:manifest:name",
+      "location_fingerprint": "974c9956154a2d1e923c4dc255858ec4a041995e8f387a8f42e0bdb898392055",
+      "review_fingerprint": "d21607f70662333edda88ad5d05463568c5a95530b4da1795affbc0b18407585",
+      "source_sha256": "dcccf9cc4d21e23c42d1a15bc225527b227bef2db7bfd52032f336690f1a4c9d",
+      "status": "reviewed",
+      "target": "空间站事件拓展 | Station Events",
+      "target_sha256": "dcccf9cc4d21e23c42d1a15bc225527b227bef2db7bfd52032f336690f1a4c9d"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3834110482:manifest:name",
+      "location_fingerprint": "71c3463739c29270526c53a23b518d234e3361a28b7d639fe09a0f0eac7a8af9",
+      "review_fingerprint": "d99256ee541c05e8fbda4e29f1d7c07cb479a54179bd0666739369b8d22d10ae",
+      "source_sha256": "a25170e34d3a5917b96e4d4d234e55de382c548435c64fa651c856f648260741",
+      "status": "reviewed",
+      "target": "CS武器拓展 / CS Weapon Expansion",
+      "target_sha256": "a25170e34d3a5917b96e4d4d234e55de382c548435c64fa651c856f648260741"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "managed:3834364038:manifest:description",
       "location_fingerprint": "71510cfab18140e8f7e1929165a59339340022d0b28fa2545958d51bb09daf17",
       "review_fingerprint": "d1a600bf79b7a4443e23478903b349ef8ec6602821ef607fdf571718ae13a9e6",
@@ -17389,11 +17543,33 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "managed:3834364038:manifest:name",
       "location_fingerprint": "9199ae506b583f16e97280e5ca6c2c3882e7720826427b31479e2826d97c14e6",
-      "review_fingerprint": "71aa9ecc2758c661591e6cf286a8955348ad6708686dbfe528e743570e7ae039",
+      "review_fingerprint": "c3b4fa8ea82c28d5cff556a62c181663adba3fa84f197d9e196f26f93bca97a5",
       "source_sha256": "2cd21ddb0cd36dbed64a46c82b1f31accf2bb7e9e47f7ec39f11896243d1530c",
       "status": "reviewed",
-      "target": "심우주 전당포: 전투 의뢰",
-      "target_sha256": "9365c39edaa9a7a06a2da961fade191f5fddf84b6766a2ab164f5cc7e73bd513"
+      "target": "深空当铺：战斗委托 / Combat Contracts",
+      "target_sha256": "2cd21ddb0cd36dbed64a46c82b1f31accf2bb7e9e47f7ec39f11896243d1530c"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3834556946:manifest:name",
+      "location_fingerprint": "5ce4a2872b933b3327b9796ad24932d59bc75d7f1836426595f82d2eb1590c5d",
+      "review_fingerprint": "c8fbb7e791f7cec2f0b0567e17b98c07ccb4beaa52aa7e153c5358fb2a5c85ee",
+      "source_sha256": "f2a3d6f82a015bc361bd8b3ac87f803ddccb849a23683f7c46bfd892b9197cc3",
+      "status": "reviewed",
+      "target": "游戏内模组设置 / In-Game Mod Settings",
+      "target_sha256": "f2a3d6f82a015bc361bd8b3ac87f803ddccb849a23683f7c46bfd892b9197cc3"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3834619049:manifest:name",
+      "location_fingerprint": "b56f22b6ea39da7da0c94829123244b13258d8f1c49f777171794b4a3ba96b43",
+      "review_fingerprint": "436e7415d11f0165f0230cceeed8279da6a006f9e1fb4b98b245a3c85424d0db",
+      "source_sha256": "fe01721b9e7ecdab688ead424a563f753e31dd7b65712b5b63bbe41bb3cdd9ad",
+      "status": "reviewed",
+      "target": "Gunsmith Expansion",
+      "target_sha256": "fe01721b9e7ecdab688ead424a563f753e31dd7b65712b5b63bbe41bb3cdd9ad"
     },
     {
       "dependencies": [],
@@ -17411,11 +17587,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "managed:3838944803:manifest:name",
       "location_fingerprint": "c35f5ed1cbfe2c941e2012d933be82d5e5b4e6f19187516b992b72efc77ab830",
-      "review_fingerprint": "b9b722bab3d9d1dc153a890a6415f674af53495e412cbf06f77d0b9ce4ee56b5",
+      "review_fingerprint": "6e4afe87b92a3896068fb10bf57752cbb54a858bffbb82cc77ba70ff70e9836b",
       "source_sha256": "bbdb6c90c936b02e3b5df225505cf9526021c2b24e77e763acf2fab9bc347982",
       "status": "reviewed",
-      "target": "상층 구역 Upper Levels: DLC일지도 모릅니다",
-      "target_sha256": "17164c587357fd0c3abb9035f5af568098db8f305892d525f74b7af0db7cb714"
+      "target": "Upper Levels: Probably DLC",
+      "target_sha256": "811b23a25844787724166e8801e7931f62f52dc93c3236fac07874f88b4e491b"
     },
     {
       "dependencies": [],
@@ -33243,8 +33419,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "2818c6809acfa3503b8cd368c3560c05bcbd852a68497dbfa5568cc06328385e",
       "status": "reviewed",
-      "target": "벌써 가는 중입니다, 가게 주인님.",
-      "target_sha256": "1d3b2218b2e459df69b76ea2a0324ae1fa21cbf62333b5c56be31ad5debbb460"
+      "target": "벌써 가는 중이야, 가게 주인.",
+      "target_sha256": "dbbc545e66be7b569f16f9c6965d310c844dd66bb40244967a898132a1fd31eb"
     },
     {
       "dependencies": [],
@@ -33265,8 +33441,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "180ce4f5915ddaf3bfdcbfe0cd30510487325b526e620af4e6a450a7938a6bde",
       "status": "reviewed",
-      "target": "잘했어요, 가게 주인님.",
-      "target_sha256": "c8afffbc88a38bd48aec523e5018edd627e2240120611b65a6a2b932817b146c"
+      "target": "잘했어, 가게 주인.",
+      "target_sha256": "95753ab322694004630f0cdf503255ea5a6a4ee07ad58338a56ce2ef2f18b9bd"
     },
     {
       "dependencies": [],
@@ -107779,8 +107955,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "eba7a9271496686659136f4b0241b07fba74512dbc5e2c8e0665cffd74f2d80a",
       "status": "reviewed",
-      "target": "카이, 미라, 밴더린 경, 또는 하층 구역의 엘리너에게 넘길 수 있어요.\\n평의회는 머지않아 침입 사실을 알아차릴 거예요. 남은 시간은 최대 7일이에요.",
-      "target_sha256": "d0a4409efec70ad3304baddb25bafe77a8c6e568dfd98bc449bcd75ddc74d5b0"
+      "target": "카이, 미라, 밴더린 경, 또는 하층 구역의 엘리너에게 넘길 수 있어요.\n평의회는 머지않아 침입 사실을 알아차릴 거예요. 남은 시간은 최대 7일이에요.",
+      "target_sha256": "dae293fbf51121271dffaac8e13f3c9dd6877dec737d07e109e0d155c4500ce1"
     },
     {
       "dependencies": [],
@@ -109132,8 +109308,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b37dd787c57e35c661c81a16ce0e36fdbeeee91abd12a3f1a6ec60b7efe6eb3b",
       "status": "reviewed",
-      "target": "밀봉 상자를 작업대에 올려놓으십시오.\\n밤새 개봉: 하룻밤에 최대 2개를 엽니다. 내용물은 온전한 상태로 아침에 카운터 뒤에 놓입니다(자리가 없으면 가게 안의 다른 곳에 놓임), 그래서 작업대에 다음 상자를 올릴 수 있습니다.\\n강제 개봉: 버튼을 눌러 첫 번째 상자를 즉시 엽니다. 각 물품은 35% 확률로 낡은 상태가 됩니다.\\n상자는 밀수품입니다. 열기 전에는 누구에게도 들키지 마십시오.",
-      "target_sha256": "1b1d48abe16d80d616629da006751e36ab200d2a87c024e75cf143a33399f1ad"
+      "target": "밀봉 상자를 작업대에 올려놓으십시오.\n밤새 개봉: 하룻밤에 최대 2개를 엽니다. 내용물은 온전한 상태로 아침에 카운터 뒤에 놓입니다(자리가 없으면 가게 안의 다른 곳에 놓임), 그래서 작업대에 다음 상자를 올릴 수 있습니다.\n강제 개봉: 버튼을 눌러 첫 번째 상자를 즉시 엽니다. 각 물품은 35% 확률로 낡은 상태가 됩니다.\n상자는 밀수품입니다. 열기 전에는 누구에게도 들키지 마십시오.",
+      "target_sha256": "d0a494b7d95978cb7a2be6c81491bb0305ade894c9aaa541783d51b0be3508d9"
     },
     {
       "dependencies": [],
@@ -111585,8 +111761,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "e2a3dce513057bc1955f3799b73aa8415f15448a101ff4bd083b6738d9c7f945",
       "status": "reviewed",
-      "target": "아직 저택의 사정을 모릅니다. 어느 문이 잠기지 않는지, 야간 경비가 언제 교대하는지 말입니다.\\n· 밴더린 가문에 대한 정보가 있다면 사전 답사를 할 수 있습니다(금요일 살롱에서 헬리오스 측 사람들을 떠보세요).\\n· 아니면 하인에게 {0} 크레딧을 주면 됩니다.",
-      "target_sha256": "5f98357b289c76a28fbe00b1678665ae0ebe0652b6d9970612bed6db7d13c9e0"
+      "target": "아직 저택의 사정을 모릅니다. 어느 문이 잠기지 않는지, 야간 경비가 언제 교대하는지 말입니다.\n· 밴더린 가문에 대한 정보가 있다면 사전 답사를 할 수 있습니다(금요일 살롱에서 헬리오스 측 사람들을 떠보세요).\n· 아니면 하인에게 {0} 크레딧을 주면 됩니다.",
+      "target_sha256": "0539944cf6f2a23e662138683dd40f798946d253f6090a5de2b69ab55e22d84c"
     },
     {
       "dependencies": [],
@@ -111992,8 +112168,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "ec2adb7599e10c22029e6e8dc2c1078d5405f8862f4fbc8b1d1845d8fb95d8cd",
       "status": "reviewed",
-      "target": "남은 시간 {0} · 행동 횟수 {1}\\n{2}",
-      "target_sha256": "1ea6bae3235354455bdc598e92bfe6bcb72133858eee2b4b38293277ec041c1c"
+      "target": "남은 시간 {0} · 행동 횟수 {1}\n{2}",
+      "target_sha256": "9be810bb9acd94c68fabe16da5ba742f4e8a2b5a3a9cf269c113c97d3373d83a"
     },
     {
       "dependencies": [],
@@ -113367,8 +113543,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "2ab2b1adb9b6cb6979c7893d2fd71735bdc782063fc0aa22d51539bd134893d6",
       "status": "reviewed",
-      "target": "생결정을 투입구에 넣고 응축 설정을 고른 뒤 배터리를 연결하세요.\\n설정 I - 약하게: 하룻밤, 거리 등급.\\n설정 II - 일정하게: 이틀 밤, 대부분 파티용 등급.\\n설정 III - 강하게: 사흘 밤, 대개 결정 등급이나 더 낮을 때도 있습니다.\\n설정을 바꿔도 이미 기다린 밤은 그대로 계산됩니다.\\n갓 만든 제품은 순도 보고서가 없어 구매자가 절반만 지불합니다. 먼저 순도 스캐너에 넣으세요.",
-      "target_sha256": "4dbba436f572adc0d61d9c48137697330d80bf7c2beeac10f9a89c9d2b64e94b"
+      "target": "생결정을 투입구에 넣고 응축 설정을 고른 뒤 배터리를 연결하세요.\n설정 I - 약하게: 하룻밤, 거리 등급.\n설정 II - 일정하게: 이틀 밤, 대부분 파티용 등급.\n설정 III - 강하게: 사흘 밤, 대개 결정 등급이나 더 낮을 때도 있습니다.\n설정을 바꿔도 이미 기다린 밤은 그대로 계산됩니다.\n갓 만든 제품은 순도 보고서가 없어 구매자가 절반만 지불합니다. 먼저 순도 스캐너에 넣으세요.",
+      "target_sha256": "f11f0db8323f5a5407dd6f66917dbb9995ef422fee4ebd96d982e7704d627a9b"
     },
     {
       "dependencies": [],
@@ -113422,8 +113598,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "1eec0b8d5d9d8d602b5bf959465d023defdf32bb49ee11122e7fc542da0de4f0",
       "status": "reviewed",
-      "target": "시신 칸에 시신을 넣으세요. 전기가 들어오는 밤에 해부됩니다.\\n시신 한 구에서 보통 쓸 만한 장기 한두 개, 운이 좋으면 서너 개를 얻습니다. 어떤 장기가 나올지는 운에 달렸고, 오래된 시신일수록 덜 나옵니다.\\n냉각기 밖의 장기는 매일 상태가 나빠지며 4일째에 상합니다. 시신은 2일간 보관됩니다.",
-      "target_sha256": "cee7ac890b45c75ea3fa5d53c5523d6a905df7c9c130d46858561e5f31cb722d"
+      "target": "시신 칸에 시신을 넣으세요. 전기가 들어오는 밤에 해부됩니다.\n시신 한 구에서 보통 쓸 만한 장기 한두 개, 운이 좋으면 서너 개를 얻습니다. 어떤 장기가 나올지는 운에 달렸고, 오래된 시신일수록 덜 나옵니다.\n냉각기 밖의 장기는 매일 상태가 나빠지며 4일째에 상합니다. 시신은 2일간 보관됩니다.",
+      "target_sha256": "aff986a32638a8d2ba2e6d4e07ca084b5ab4af5b17f4aa66563bbc9454823ca2"
     },
     {
       "dependencies": [],
@@ -113719,8 +113895,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "64066dfadfd7f340de30d807f3a362a624cb6f15fbc35d07e92e58922016d2d7",
       "status": "reviewed",
-      "target": "작업대에 물건 하나를 놓고 모드를 선택한 뒤 배터리를 연결하고 하룻밤 두세요.\\n복원: 손상된 홀로 작품을 하룻밤 만에 수리해 인증된 홀로 작품으로 만듭니다. 도난품은 계속 도난품입니다.\\n인증: 사샤의 인맥이 필요합니다. 도난품을 작업대에 놓으면 아침까지 ‘깨끗한’ 이력이 생깁니다. 재료비로 가치의 15%(최소 80)를 보유 자금에서 가져갑니다.\\n인증품도 건국 가문 감정사의 면밀한 검사까지 견뎌 내지는 못합니다.,,,",
-      "target_sha256": "f1c79d3fef08b0d75a44a37fec2687888e2f86c246e5797e146cecb05c68ade4"
+      "target": "작업대에 물건 하나를 놓고 모드를 선택한 뒤 배터리를 연결하고 하룻밤 두세요.\n복원: 손상된 홀로 작품을 하룻밤 만에 수리해 인증된 홀로 작품으로 만듭니다. 도난품은 계속 도난품입니다.\n인증: 사샤의 인맥이 필요합니다. 도난품을 작업대에 놓으면 아침까지 ‘깨끗한’ 이력이 생깁니다. 재료비로 가치의 15%(최소 80)를 보유 자금에서 가져갑니다.\n인증품도 건국 가문 감정사의 면밀한 검사까지 견뎌 내지는 못합니다.,,,",
+      "target_sha256": "e9beb02d9025aaf61363e83c54ecc6667b7212d60a52086fc5adfa14a38a8915"
     },
     {
       "dependencies": [],
@@ -114093,8 +114269,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b8db038b4dd554c87ae67155d26e8d8650f9de283dcad09d190dd5039b5a26b6",
       "status": "reviewed",
-      "target": "천연 꽃을 꽃 투입구에 넣고, 제조법을 고른 뒤 배터리를 연결하세요.\\n단일 노트: 꽃 2개, 하룻밤, ‘단일’ 향수 1병.\\n어코드: 꽃 4개, 이틀 밤, ‘어코드’ 향수 1병, 가끔 ‘솔리테어’ 1병.\\n제조가 시작되면 꽃이 소모됩니다. 제조 도중 제조법을 바꿔도 달라지는 건 없습니다. 전력 없는 밤에는 작업이 멈추지만 꽃은 사라지지 않습니다.,,,,,,,",
-      "target_sha256": "05e6d2bd1b9fc469db7bfe384c0620d9df0824f3f70d058300e28be60e52f634"
+      "target": "천연 꽃을 꽃 투입구에 넣고, 제조법을 고른 뒤 배터리를 연결하세요.\n단일 노트: 꽃 2개, 하룻밤, ‘단일’ 향수 1병.\n어코드: 꽃 4개, 이틀 밤, ‘어코드’ 향수 1병, 가끔 ‘솔리테어’ 1병.\n제조가 시작되면 꽃이 소모됩니다. 제조 도중 제조법을 바꿔도 달라지는 건 없습니다. 전력 없는 밤에는 작업이 멈추지만 꽃은 사라지지 않습니다.,,,,,,,",
+      "target_sha256": "5ffa6d94301e090138d0551bb7af9d998dc2044169a08e811358a82e3e1b3ea7"
     },
     {
       "dependencies": [],
@@ -114214,8 +114390,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "6037feec5200f991ec5b6ad9e308d07ef4ebb1db7997eb0daaa9cd3a839d2c6e",
       "status": "reviewed",
-      "target": "검사하지 않은 아이스를 투입구에 넣고 배터리를 연결한 뒤 하룻밤 두세요.\\n하룻밤 동안 투입구의 모든 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다.,,,,",
-      "target_sha256": "274ab902ee74847a547498cfb4e1c0b0c1d144ebe7e3a11cbb846ca6f5c75dea"
+      "target": "검사하지 않은 아이스를 투입구에 넣고 배터리를 연결한 뒤 하룻밤 두세요.\n하룻밤 동안 투입구의 모든 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다.,,,,",
+      "target_sha256": "9e8c149c8d1bb9bf5065180c4cb5fa16f59b1073f638c4621273cc29f6be65ad"
     },
     {
       "dependencies": [],
@@ -114269,8 +114445,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "1e46acce075d0df388b1c2d6c127f8f44d15dc73dd04fd4317a8398b17d969c9",
       "status": "reviewed",
-      "target": "봉인 상태: 봉인이 온전합니다. 열리지 않으며 아무것도 넣을 수 없습니다. 테오와의 일이 해결될 때까지 그저 상자일 뿐입니다.\\n봉인 해제: 결정 전구체 1개와 응축 탭 1개가 한 배치입니다. 배치마다 생결정 2개를 얻습니다. 밤마다 최대 4배치까지 가능합니다.\\n안전한 투입량은 2배치입니다. 추가 배치마다 사고 확률이 높아집니다. 사고가 나면 시약이 망가지고, 반응기는 하룻밤 수리를 위해 멈추며, 증거가 남습니다.,,,",
-      "target_sha256": "dcbb0187618f9bf1fb42cf90b3280a75bd632371aa32664a3ed6f27aa79d7d98"
+      "target": "봉인 상태: 봉인이 온전합니다. 열리지 않으며 아무것도 넣을 수 없습니다. 테오와의 일이 해결될 때까지 그저 상자일 뿐입니다.\n봉인 해제: 결정 전구체 1개와 응축 탭 1개가 한 배치입니다. 배치마다 생결정 2개를 얻습니다. 밤마다 최대 4배치까지 가능합니다.\n안전한 투입량은 2배치입니다. 추가 배치마다 사고 확률이 높아집니다. 사고가 나면 시약이 망가지고, 반응기는 하룻밤 수리를 위해 멈추며, 증거가 남습니다.,,,",
+      "target_sha256": "3dbbd8940cac2973b52b1107ccd77c55632b6e89f731e15f623c7499ff9ea001"
     },
     {
       "dependencies": [],
@@ -117995,22 +118171,22 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:opt_allow_aug",
       "location_fingerprint": "aa338b240bbb9fc727ba8d6aea47366cbfd95609ffe96f50c176afbbec8fd22b",
-      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "review_fingerprint": "b6098060ce0534a4c6de07645cb7a29018d3db42662a1dea05a447171459c23c",
       "source_sha256": "1a49aec6ac94bf3741871ba4e770b96d78de17ccd23710f2ad09435375abb2fb",
       "status": "reviewed",
-      "target": "상층 게임에서 증강체 위기 허용",
-      "target_sha256": "1c90c0349e0d1ae1595f400e23691937d87be9f1fb3bcd64e69504fc22069bb9"
+      "target": "상층 게임에서 오그 위기 허용",
+      "target_sha256": "54357aafac714851e244b152c768af2c23d4a43052dc717668e9b4a7b1bbbf50"
     },
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:opt_allow_aug_tip",
       "location_fingerprint": "68ec24ef8a382b005f6540c7924ff31feb8eaec6b1e2ed4c837296530413dc9d",
-      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "review_fingerprint": "081652ccbe8cae228eff0f32f9e73b020d4a1fde88334a296a3d53a9f50e34a9",
       "source_sha256": "100543d14502757ffc2359069d75387a5b88ada493bad9f5dbc7764a86c3bf87",
       "status": "reviewed",
-      "target": "기본값은 꺼짐입니다. 상층에는 증강체 위기가 없습니다. 증강체를 중심으로 만들어진 모드를 사용한다면 켜세요. 진행 중인 저장에도 적용되며, 다음 날부터 효력이 생깁니다. 12일이 지났다면, 다음 날 아침 산탄총을 받습니다.",
-      "target_sha256": "3057f97a5c72c16c29157da6e9b58ee740b405de442d2e9b5de6666e12fc54f5"
+      "target": "기본값은 꺼짐입니다. 상층에는 오그 위기가 없습니다. 오그를 중심으로 만들어진 모드를 사용한다면 켜세요. 진행 중인 저장에도 적용되며, 다음 날부터 효력이 생깁니다. 12일이 지났다면, 다음 날 아침 산탄총을 받습니다.",
+      "target_sha256": "c40d122103f74d9fcd53a7ad90f3b73e4676352b490719be772118564de20bab"
     },
     {
       "dependencies": [],
@@ -118039,11 +118215,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:opt_aug_started",
       "location_fingerprint": "546cc638d314042bf48de7687466a2db052c8065f58448990eb61fe0184279af",
-      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "review_fingerprint": "be8ddf35bab8ec92a8eb82ebab6e3b458aa3e326dc7f15120034234f191caf53",
       "source_sha256": "60f7f02c43ad993863fde7c3a4eed1d2142b7688a9af856e56234d5a0a1716a8",
       "status": "reviewed",
-      "target": "상층에 증강체가 나타나기 시작했습니다. 이제 카운터 아래에 산탄총이 있습니다.",
-      "target_sha256": "ccc15bd367cb17d8e05cec1e0c6af390578cd9011b0e8b8e8d9675eed0116996"
+      "target": "상층에 오그가 나타나기 시작했습니다. 이제 카운터 아래에 산탄총이 있습니다.",
+      "target_sha256": "4914786fbe5e169efd73f0bab622a939dfa9b117cfd843b8bfdc85e89076f559"
     },
     {
       "dependencies": [],
@@ -120792,8 +120968,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "39e02a25302cfa20d0abc69f8b32eb14770c4d1be0ad603a46a882339cf863e2",
       "status": "reviewed",
-      "target": "이건 제 기록이에요. 엘리너에게.\\n\\n여기 위의 향수는 모두 인쇄품이에요. 향은 그럴듯하지만, 그 안엔 아무것도 없죠.\\n\\n진짜 꽃은 달라요. 변하고, 시들고, 누군가를 기억하죠.\\n\\n- 헬레나",
-      "target_sha256": "ba4533b120ab3b872eab23227002d41db2ff126010fd14de5c7c84372be8718b"
+      "target": "이건 제 기록이에요. 엘리너에게.\n\n여기 위의 향수는 모두 인쇄품이에요. 향은 그럴듯하지만, 그 안엔 아무것도 없죠.\n\n진짜 꽃은 달라요. 변하고, 시들고, 누군가를 기억하죠.\n\n- 헬레나",
+      "target_sha256": "d65f18426580602ad7a0752e0533ac5b81e648288705c9dd90724d039336a638"
     },
     {
       "dependencies": [],
@@ -120814,8 +120990,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "65fb5b458c0bdda835ec09fa00c01e9949fcb37663e64fe2706d4a206e41b829",
       "status": "reviewed",
-      "target": "꽃 2송이, 하룻밤.\\n‘단일’ 향수 1병을 얻어요.\\n약 500 크레딧.\\n\\n꽃은 책상 꽃 투입구에 넣어요.\\n제조법을 고르고, 배터리를 연결하세요.\\n\\n우선 이걸로 시작하세요.",
-      "target_sha256": "1f6841f911ae78cf9ccf42ba8f01d18a79ac3e6817ff5be8c21cfc3515cbf124"
+      "target": "꽃 2송이, 하룻밤.\n‘단일’ 향수 1병을 얻어요.\n약 500 크레딧.\n\n꽃은 책상 꽃 투입구에 넣어요.\n제조법을 고르고, 배터리를 연결하세요.\n\n우선 이걸로 시작하세요.",
+      "target_sha256": "89e8de7907efb13e5526bd33682b11f9068d80949db45e078840ef89dde1eb74"
     },
     {
       "dependencies": [],
@@ -120836,8 +121012,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "0d50188c0a5f4bcfcad6ff455e6fa2f9fc178c560b8358d8819360a4af655d6c",
       "status": "reviewed",
-      "target": "꽃 4송이, 이틀 밤.\\n‘어코드’ 향수 1병을 얻어요.\\n약 1,000 크레딧.\\n\\n네 병 중 한 병꼴로 ‘솔리테어’가 나와요.\\n그건 1,800 크레딧에 팔려요.\\n\\n시작할 때 꽃을 가져가요.\\n도중에 제조법을 바꿔도 꽃은 돌아오지 않아요.",
-      "target_sha256": "bb403b90196f3bcce4d89aba1c20dbff962624a94165366fb91481c4f19edea1"
+      "target": "꽃 4송이, 이틀 밤.\n‘어코드’ 향수 1병을 얻어요.\n약 1,000 크레딧.\n\n네 병 중 한 병꼴로 ‘솔리테어’가 나와요.\n그건 1,800 크레딧에 팔려요.\n\n시작할 때 꽃을 가져가요.\n도중에 제조법을 바꿔도 꽃은 돌아오지 않아요.",
+      "target_sha256": "6d5603ffc60ee86a53ed3c204ee8ddbd406aca96f188cb41aca94cd4539f1d00"
     },
     {
       "dependencies": [],
@@ -120858,8 +121034,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "f1134774344566755e5e1fa638855017758f12393f1e8e07fe28667820f3352d",
       "status": "reviewed",
-      "target": "향수 구매자는 매주 와요.\\n시세보다 더 쳐주죠.\\n\\n여기 위의 부유한 손님들도 사요.\\n진열장에 몇 병 놓아두면 사람들이 구경하러 와요.\\n\\n배달원들에게 꽃을 사세요.\\n저렴한 거래처는 인맥으로 굴러가요.\\n\\n전부 팔지는 마세요.\\n하나는 직접 간직하세요.",
-      "target_sha256": "ed6920b9f5d6b0c6a22189c388109b5c096352e55ac1b7538b23765de46f16e7"
+      "target": "향수 구매자는 매주 와요.\n시세보다 더 쳐주죠.\n\n여기 위의 부유한 손님들도 사요.\n진열장에 몇 병 놓아두면 사람들이 구경하러 와요.\n\n배달원들에게 꽃을 사세요.\n저렴한 거래처는 인맥으로 굴러가요.\n\n전부 팔지는 마세요.\n하나는 직접 간직하세요.",
+      "target_sha256": "47781eb9c9c31a855fdad4cafa8c8af1644eff5918be6e53f58aa4efc3ad6840"
     },
     {
       "dependencies": [],
@@ -120913,8 +121089,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "c0a05b035bcd7f31ecf62dfc0826d870d7474bc8168dab2562c6ec327a44300f",
       "status": "reviewed",
-      "target": "이 파일은 가방에 계속 남아 있습니다. 뭔가 잊어버렸을 때 언제든 열어 보세요.\\n\\n목표는 하나뿐입니다. 이 가게를 산 뒤 1,000,000크레딧을 모아 은퇴하세요.\\n\\n그 밖의 모든 것은 선택 사항입니다. 사람들은 알아서 찾아올 겁니다. 이야기를 나눠도 되고 무시해도 됩니다.",
-      "target_sha256": "1c1151ea6b10be0cd0441bdf75861c3bc6054bfdc98ca0b5cb27eb266bf6fbe0"
+      "target": "이 파일은 가방에 계속 남아 있습니다. 뭔가 잊어버렸을 때 언제든 열어 보세요.\n\n목표는 하나뿐입니다. 이 가게를 산 뒤 1,000,000크레딧을 모아 은퇴하세요.\n\n그 밖의 모든 것은 선택 사항입니다. 사람들은 알아서 찾아올 겁니다. 이야기를 나눠도 되고 무시해도 됩니다.",
+      "target_sha256": "72f28bd35cf8d029d58597aefad8c28599996639a735e9ba4bf50a9e386ce2e9"
     },
     {
       "dependencies": [],
@@ -120935,8 +121111,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b9fbd505e9f411d259aa784589f5f617abc7b7c395352c5c412ce762b8471748",
       "status": "reviewed",
-      "target": "· 임대료는 하층의 세 배이며, 매주 내야 합니다. 돈을 조금 남겨 두세요.\\n· 상층 고객은 돈이 더 많습니다. 더 높은 값을 불러도 됩니다.\\n· 직업에 따라 기계나 공급업자를 가지고 시작하며, 매주 누군가 찾아옵니다. 우선 그 일을 자리 잡게 하세요.\\n· 6일쯤 되면, 카이 와일드가 찾아올 겁니다.",
-      "target_sha256": "43bb566703d3255359a4cf70729483b55198ee3d0c6e4bbce599962157dde48e"
+      "target": "· 임대료는 하층의 세 배이며, 매주 내야 합니다. 돈을 조금 남겨 두세요.\n· 상층 고객은 돈이 더 많습니다. 더 높은 값을 불러도 됩니다.\n· 직업에 따라 기계나 공급업자를 가지고 시작하며, 매주 누군가 찾아옵니다. 우선 그 일을 자리 잡게 하세요.\n· 6일쯤 되면, 카이 와일드가 찾아올 겁니다.",
+      "target_sha256": "3e83b9a4c3464f7d1eb1b6b594b3f4ebdcada3908cd32c443f5e80f864328599"
     },
     {
       "dependencies": [],
@@ -120957,8 +121133,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "ccd7a0a260b9741c766d8d4fcd70c4d219653c8922982a2b0b43b7651b8a3a08",
       "status": "reviewed",
-      "target": "· 본업이 주된 일입니다. 물건을 만들고 공급하고 배달하고 방문객을 상대하세요.\\n· 카운터는 부업입니다. 기본 게임과 똑같이 사고파세요.\\n· 가게를 사고 나면, 본업의 확장 요소가 해금되어 수입이 계속 늘어납니다.\\n· 밀수품은 돈이 빨리 되지만 증거를 남깁니다. 너무 많이 취급하면 경찰이 들이닥칩니다.",
-      "target_sha256": "7d20ff3379c468fc087d2d49527cf0b1b6dc96628540fa617fa3888e0035c4c6"
+      "target": "· 본업이 주된 일입니다. 물건을 만들고 공급하고 배달하고 방문객을 상대하세요.\n· 카운터는 부업입니다. 기본 게임과 똑같이 사고파세요.\n· 가게를 사고 나면, 본업의 확장 요소가 해금되어 수입이 계속 늘어납니다.\n· 밀수품은 돈이 빨리 되지만 증거를 남깁니다. 너무 많이 취급하면 경찰이 들이닥칩니다.",
+      "target_sha256": "af6a6b53d549fa43edf5e9b29feac728c723e97873794bff81c479d916150a86"
     },
     {
       "dependencies": [],
@@ -120979,8 +121155,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "e500daf9465c6db380be2253ed6867e54c4a64e41c386ece52a5e0538b8ab89f",
       "status": "reviewed",
-      "target": "카이는 조의 사촌입니다. 여기 위쪽에서 필요한 것은 무엇이든 그를 통해야 합니다.\\n\\n그의 서비스는 와일드 네트워크 화면의, 상층 인맥 항목에 있으며, 와일드의 호의로 구매합니다. 뭘 사야 할지 모르겠나요? 각 열에서 가장 싼 것부터 시작하세요.\\n\\n금요일 살롱 초대장도 가져다줄 겁니다.",
-      "target_sha256": "3e2ca9ec67753464471a89cf492057d42692bed820c946508600136337e48674"
+      "target": "카이는 조의 사촌입니다. 여기 위쪽에서 필요한 것은 무엇이든 그를 통해야 합니다.\n\n그의 서비스는 와일드 네트워크 화면의, 상층 인맥 항목에 있으며, 와일드의 호의로 구매합니다. 뭘 사야 할지 모르겠나요? 각 열에서 가장 싼 것부터 시작하세요.\n\n금요일 살롱 초대장도 가져다줄 겁니다.",
+      "target_sha256": "6844a4b3211e95f9be7749419a623ede9a5afc5dc07b33bd066f450cc931f339"
     },
     {
       "dependencies": [],
@@ -121001,8 +121177,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "99abae837f15f7418a8b643fa8f2770f77b944b29330fc435cfdc520810327cd",
       "status": "reviewed",
-      "target": "이곳은 네 세력이 좌우합니다. 공화국 당국, 헬리오스 컨소시엄, 밴더린 가문과 혁명군입니다.\\n\\n· 금요일 폐점 후, 살롱을 방문하세요. 각 세력의 대표와 이야기하고 정보를 파세요.\\n· 누군가의 환심을 사면 도움을 받을 수 있고, 부탁을 받을 수도 있습니다.\\n· 누군가에게 밉보이면 대가를 치르게 됩니다.",
-      "target_sha256": "3a30f5aefa1fc4fc740888d625f6ecc040ad70123d174a46ced9eada6eea5937"
+      "target": "이곳은 네 세력이 좌우합니다. 공화국 당국, 헬리오스 컨소시엄, 밴더린 가문과 혁명군입니다.\n\n· 금요일 폐점 후, 살롱을 방문하세요. 각 세력의 대표와 이야기하고 정보를 파세요.\n· 누군가의 환심을 사면 도움을 받을 수 있고, 부탁을 받을 수도 있습니다.\n· 누군가에게 밉보이면 대가를 치르게 됩니다.",
+      "target_sha256": "01e0f9d8035dd6730c4a5d774654f626355f115213caecb7fe37e7fda94ce153"
     },
     {
       "dependencies": [],
@@ -121023,8 +121199,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "20b41b02b6b6cef7a2a14eb9178f06d5e6c761388ddf0e36c2dffd0edc7e14a9",
       "status": "reviewed",
-      "target": "폐점 후에는 밖으로 나갈 수 있습니다. 살롱, 본업 종사자만 아는 장소, 그리고 평판이 썩 좋지 않은 곳 몇 군데가 있습니다.\\n\\n밤은 위험합니다. 다치거나, 목격당하거나, 증거를 남길 수 있습니다. 분수를 지키세요. 내일도 가게 문을 열어야 합니다.",
-      "target_sha256": "920e12f66942a60516545eb1b3f4d8d9693ff9c410135b105ba32d79f0d055a5"
+      "target": "폐점 후에는 밖으로 나갈 수 있습니다. 살롱, 본업 종사자만 아는 장소, 그리고 평판이 썩 좋지 않은 곳 몇 군데가 있습니다.\n\n밤은 위험합니다. 다치거나, 목격당하거나, 증거를 남길 수 있습니다. 분수를 지키세요. 내일도 가게 문을 열어야 합니다.",
+      "target_sha256": "64beb47bf84bda258dfb556b6e674d708adb4a97a0351e975221bc321ae29d69"
     },
     {
       "dependencies": [],
@@ -121045,8 +121221,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "2e44c2b4e7d9e80203478f2c2a4361c49bf2315f9bd2f1cdca385129bf15eef9",
       "status": "reviewed",
-      "target": "· 문: 오른쪽 유리판의 둥근 버튼을 눌러 여세요. 초록색 버튼은 여전히 폐점할 때 씁니다.\\n· 책상 오른쪽의 격자에는 팔고 싶지 않은 물건을 보관할 수 있습니다.\\n· 설정 → 상층: 기본 UI로 되돌리거나, 일반 게임에서도 이 가게를 사용할 수 있습니다.",
-      "target_sha256": "f1ab14fa3a26da88b0ea873f3a1c3756e3aa25631139966d3ce6c98b554a1583"
+      "target": "· 문: 오른쪽 유리판의 둥근 버튼을 눌러 여세요. 초록색 버튼은 여전히 폐점할 때 씁니다.\n· 책상 오른쪽의 격자에는 팔고 싶지 않은 물건을 보관할 수 있습니다.\n· 설정 → 상층: 기본 UI로 되돌리거나, 일반 게임에서도 이 가게를 사용할 수 있습니다.",
+      "target_sha256": "fd204f5db0c50903c844d753e0516eca8e1768fbfa7840038eb63c3577dd9279"
     },
     {
       "dependencies": [],
@@ -121067,8 +121243,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "716e460be5e8b2596ce9e8723551bf9b10a50bcb000690d91ea4a06d4d279ca7",
       "status": "reviewed",
-      "target": "이 모드는 베타 버전입니다. 아직 완성되지 않은 부분이 많고, 제가 찾지 못한 문제도 분명 있을 겁니다.\\n\\n재미없는 부분이 있거나, 너무 어렵거나 너무 쉽다고 느껴지거나, 버그를 발견했다면, 창작마당 댓글이나 토론란(중국어 QQ 그룹: 1132532956)에 알려 주세요. 하나도 빠짐없이 읽습니다.\\n\\n이곳에 가게를 열어 주셔서 감사합니다. 여러분이 플레이하는 매 게임과 남겨 주시는 모든 의견이 이 모드를 계속 만들어 나가는 원동력입니다.\\n\\n— Mr.K",
-      "target_sha256": "519f0cfe3d61b9017d5d0c4e87742e40e1b924cdfde57892dba30adffef4f919"
+      "target": "이 모드는 베타 버전입니다. 아직 완성되지 않은 부분이 많고, 제가 찾지 못한 문제도 분명 있을 겁니다.\n\n재미없는 부분이 있거나, 너무 어렵거나 너무 쉽다고 느껴지거나, 버그를 발견했다면, 창작마당 댓글이나 토론란(중국어 QQ 그룹: 1132532956)에 알려 주세요. 하나도 빠짐없이 읽습니다.\n\n이곳에 가게를 열어 주셔서 감사합니다. 여러분이 플레이하는 매 게임과 남겨 주시는 모든 의견이 이 모드를 계속 만들어 나가는 원동력입니다.\n\n— Mr.K",
+      "target_sha256": "fbd99ac43fbfd8555569654948019fbc0ce5db2ac7014ef00319d63a0ca95dbf"
     },
     {
       "dependencies": [],
@@ -121969,8 +122145,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "1c109f682bad0beed59114a9f5b87ea0272c70ecdf029163d5920afd7a7ea0ba",
       "status": "reviewed",
-      "target": "[{0}]\\n대표: {1} ({2})\\n평판: {3} {4} ({5})\\n{6}",
-      "target_sha256": "5507809868d134cb6bd8c363583067b2bfffc49eb6422375cace7cc0c1170ef6"
+      "target": "[{0}]\n대표: {1} ({2})\n평판: {3} {4} ({5})\n{6}",
+      "target_sha256": "fca423d32a63bf69c0998a133e06590a65c2ce8ecf3abe59b9c3df1a1c5c14c5"
     },
     {
       "dependencies": [],
@@ -124059,8 +124235,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "a5a7a8157b7e82cf948cafd53242e7e59ad57e387b7bdb8e56f019aae16ea837",
       "status": "reviewed",
-      "target": "[{0}]\\n{1}",
-      "target_sha256": "a5a7a8157b7e82cf948cafd53242e7e59ad57e387b7bdb8e56f019aae16ea837"
+      "target": "[{0}]\n{1}",
+      "target_sha256": "eb3c32a7442c0908110284c3af7c017260dd679feefa8adbc994e0a318341dff"
     },
     {
       "dependencies": [],
@@ -124169,8 +124345,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "2e37047a10b69795262b9b6aa9e341a96b86d5ff4949cde397cc215e560e5d08",
       "status": "reviewed",
-      "target": "활성화하면 새 상층 구역 게임(또는 불러온 상층 구역 저장 파일)에서 금요일 살롱, 밴더린 저택, 평의회 기록 보관소와 두 건의 절도 의뢰가 즉시 해금됩니다. 보안/기술 키카드와 정보 파일 2개, 3000 크레딧도 지급됩니다. 저장 파일마다 한 번 적용됩니다.\\n테스트 단축키(Ctrl 누른 상태): 1 오스카, 2 테오, 3 사샤, 4 엘리너의 후일담—다음 방문을 오늘로 예약; 5 중개인 또는 꽃 공급업자; 6 테스트 키트(기계, 재료, 전지, 5000 크레딧); 7 모드 아이템 종류별 하나씩; 8 모든 모드 기계를 즉시 하룻밤 작동; 9 +10000 크레딧 및 +2000 와일드의 호의.\\n일반 플레이에서는 끄세요.",
-      "target_sha256": "6766c2b0c0dc7b10f177e705f1167dbb205956a63d20b3c5378b1c921d21dc34"
+      "target": "활성화하면 새 상층 구역 게임(또는 불러온 상층 구역 저장 파일)에서 금요일 살롱, 밴더린 저택, 평의회 기록 보관소와 두 건의 절도 의뢰가 즉시 해금됩니다. 보안/기술 키카드와 정보 파일 2개, 3000 크레딧도 지급됩니다. 저장 파일마다 한 번 적용됩니다.\n테스트 단축키(Ctrl 누른 상태): 1 오스카, 2 테오, 3 사샤, 4 엘리너의 후일담—다음 방문을 오늘로 예약; 5 중개인 또는 꽃 공급업자; 6 테스트 키트(기계, 재료, 전지, 5000 크레딧); 7 모드 아이템 종류별 하나씩; 8 모든 모드 기계를 즉시 하룻밤 작동; 9 +10000 크레딧 및 +2000 와일드의 호의.\n일반 플레이에서는 끄세요.",
+      "target_sha256": "b537d551dbda7bb7bb385a650cb34491dc9650dea717157e57f9aa70960af150"
     },
     {
       "dependencies": [],
@@ -125676,8 +125852,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "d7a97e3efb5564bd7de3f9e8324d77759c17a929011d363970bbcd1e87fc6a25",
       "status": "reviewed",
-      "target": "하층 구역 대신 정거장 상층 구역에 상점을 여세요.\\n부동산과 임대료가 더 비쌉니다. 상층 구역 고객은 더 자주 찾아오고 더 많이 씁니다.\\n연락책은 조 와일드의 사촌인 카이 와일드입니다.",
-      "target_sha256": "09f904c9b16fe6ab4b367be03e682cf3e48140980792d2efe2cd820742cc265a"
+      "target": "하층 구역 대신 정거장 상층 구역에 상점을 여세요.\n부동산과 임대료가 더 비쌉니다. 상층 구역 고객은 더 자주 찾아오고 더 많이 씁니다.\n연락책은 조 와일드의 사촌인 카이 와일드입니다.",
+      "target_sha256": "4461a025a41b5dac851009c4d287583ff3be93094998bdf8edea8ec6a7f59304"
     },
     {
       "dependencies": [],
@@ -126597,7 +126773,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r13",
+  "release_id": "local-r15",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
@@ -126605,8 +126781,8 @@
     "commit": "629b1c3e1f1c35c66243aea0a3f7bde2d05eada7"
   },
   "source_inventory": {
-    "fingerprint": "8b488647246c87e7be036b6136964886a246fbe40febad23c426a52ef9038571",
+    "fingerprint": "045c7d66b91c9d092531aee360add9c0458c2557132706752061efb6231591ab",
     "method": "workshop-and-managed-runtime-inventory",
-    "target_count": 11507
+    "target_count": 11523
   }
 }

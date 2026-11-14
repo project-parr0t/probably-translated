@@ -51,7 +51,7 @@
       "assembly_name": "KoreanTranslation",
       "entry_count": 3,
       "manifest": {
-        "name": "한국어 번역",
+        "name": "Korean Translation",
         "description": "비공식 한국어 팬 번역입니다. 메인 메뉴의 언어 목록에 한국어를 추가합니다. 번역되지 않은 문장은 영어로 표시됩니다."
       },
       "routes": [],
@@ -62,7 +62,7 @@
       "assembly_name": "PSFishingGameplay",
       "entry_count": 3297,
       "manifest": {
-        "name": "고피싱",
+        "name": "GoFishing",
         "description": "낚시, 원정, 가공 및 양식 콘텐츠."
       },
       "routes": [],
@@ -73,7 +73,7 @@
       "assembly_name": "SmartInventoryArrange.Mono",
       "entry_count": 201,
       "manifest": {
-        "name": "스마트 인벤토리 정리",
+        "name": "Smart Inventory Arrange",
         "description": "결과 피드백을 제공하는 시각 중심 정렬, 선택 가능한 모드 메뉴 우선순위, 단일 페이지 F6 설정, 단축키 적용 범위 선택(마우스 아래 또는 열린 창 전체)을 지원합니다. 게임 기본 제공 ‘정렬 메뉴 비활성화’ 옵션과 호환됩니다. 네이티브 Mono를 사용하며 종속 항목은 게임에서 제공합니다."
       },
       "routes": [
@@ -555,7 +555,7 @@
       "assembly_name": "Pen_mod_pipette",
       "entry_count": 117,
       "manifest": {
-        "name": "펜의 피펫 건",
+        "name": "Pen의 피펫 건",
         "description": "1mL~100mL 사이에서 용량을 조절하고 한 번 흡입할 양을 자유롭게 설정할 수 있는 피펫을 추가했습니다. 빈 피펫으로 흡입하고 액체가 든 채로 쏟을 수 있으며, 용량과 투여량은 아이템 저장 데이터에 기록됩니다."
       },
       "routes": [],
@@ -577,7 +577,7 @@
       "assembly_name": "DisasterDayMod_build",
       "entry_count": 1373,
       "manifest": {
-        "name": "재앙의 날",
+        "name": "재앙의 날 Disaster Day",
         "description": "가게를 인수하고 엘리너가 혁명군이 된 뒤의 이야기(프롤로그~5장, 완결, 엔딩 7종): 가게를 인수하고 얼마 지나지 않아 엘리너가 갑자기 찾아왔다. 겉보기에는 잘 지내는 듯했고, 어머니 일로 오래 슬퍼하지는 않은 모양이다. 오늘 그녀는 내게 물자를 몇 가지 사 갔지만, 우주 정거장 전체에 심각한 일이 벌어질 것만 같다."
       },
       "routes": [],
@@ -588,7 +588,7 @@
       "assembly_name": "PSFishingCuisineExpansion",
       "entry_count": 667,
       "manifest": {
-        "name": "낚시 요리 확장",
+        "name": "Fishing Cuisine Expansion",
         "description": "조리대와 조리 도구, 생선 요리법 26종."
       },
       "routes": [],
@@ -599,7 +599,7 @@
       "assembly_name": "ProbablyStolenCrateReveal",
       "entry_count": 96,
       "manifest": {
-        "name": "언박싱 모먼트",
+        "name": "언박싱 모먼트 / Unbox Moment",
         "description": "보급 상자 개봉 애니메이션을 추가합니다. 아이템을 하나씩 공개하고, 가치에 따라 시각·음향 효과를 연출한 뒤 획득 수량과 총가치를 요약합니다. “게임 내 모드 설정 / In-Game Mod Settings”(asteroid_in_game_mod_settings) 설치를 권장합니다. 게임 내 기본 옵션 화면에서 이 모드 설정을 조정할 수 있습니다. 이 보조 모드는 선택적 소프트 의존성입니다. 설치하지 않아도 상자 개봉 기능은 정상 작동합니다."
       },
       "routes": [
@@ -713,7 +713,7 @@
       "assembly_name": "VisualTestDraft",
       "entry_count": 489,
       "manifest": {
-        "name": "바닐라 음식 확장"
+        "name": "Vanilla Food Expansion"
       },
       "routes": [
         {
@@ -1251,7 +1251,7 @@
       "assembly_name": "ItemDurabilityBars",
       "entry_count": 7,
       "manifest": {
-        "name": "아이템 내구도 표시",
+        "name": "Visible Item Durability / 아이템 내구도 표시",
         "description": "【물품 표시】\n필터, 향수, 물 저장통 등의 표면에 내구도, 잔량, 충전량을 표시하며 소모된 부분은 회색으로 표시합니다.\n물통과 양식 시스템 내부의 빈 공기 필터 슬롯에는 윤곽선을 표시해 빈 슬롯과 다 쓴 필터를 구분하기 쉽게 합니다.\n\n【필요에 따라 설정】\nMOD 화면 → 이 MOD 선택 → 톱니바퀴 설정으로 이동하세요:\n· 물품 표시: 물품별 표시를 켜고 끌 수 있으며, 슬라이더로 회색 농도를 조절하고 마우스 오른쪽 버튼으로 해당 항목의 기본값을 복원합니다.\n· 기타 설정: 물통의 필터 상태 표시를 개별적으로 켜고 끌 수 있어 필터 장착 여부와 남은 내구도를 확인하기 쉽습니다.\n기본적으로 모두 켜져 있으며 적용을 누르면 반영됩니다. 이 표시 설정을 변경해도 게임을 다시 시작할 필요가 없습니다.\n\n추가로 지원을 원하는 물품이 있으면 댓글로 알려 주세요. 감사합니다.\n\n【물품 표시】\n필터, 향수, 물 저장통 등의 물품에 내구도, 잔량, 충전량을 표시합니다. 소모된 부분은 회색으로 표시됩니다.\n물통과 양식 시스템 내부의 빈 공기 필터 슬롯에는 윤곽선이 표시되어 빈 슬롯과 다 쓴 필터를 구분할 수 있습니다.\n\n【설정】\nMOD 메뉴 열기 → 이 MOD 선택 → 톱니바퀴:\n· 물품 표시: 물품별 표시를 켜거나 끄고 슬라이더로 소모 부분의 밝기를 조절합니다. 슬라이더를 마우스 오른쪽 버튼으로 클릭하면 기본값으로 돌아갑니다.\n· 기타 설정: 물통의 필터 상태 표시를 따로 켜거나 꺼서 필터 장착 여부와 남은 내구도를 확인할 수 있습니다.\n모든 스위치는 기본적으로 켜져 있습니다. 적용을 누르면 저장되고 표시가 갱신됩니다. 이 설정을 변경해도 다시 시작할 필요가 없습니다.\n\n추가로 지원을 원하는 물품은 댓글로 알려 주세요. 감사합니다."
       },
       "routes": [
@@ -1281,7 +1281,7 @@
       "assembly_name": "BetterLiquidScanner",
       "entry_count": 31,
       "manifest": {
-        "name": "더 나은 액체 스캐너",
+        "name": "더 나은 액체 스캐너 Better Liquid Scanner",
         "description": "기본 액체 스캐너 내부에 표시되는 읽기 쉬운 성분 막대그래프. 기본 액체 스캐너 내부에 표시되는 선명한 성분 막대그래프."
       },
       "routes": [
@@ -1341,7 +1341,7 @@
       "assembly_name": "AgriExpansion",
       "entry_count": 7572,
       "manifest": {
-        "name": "농업 확장",
+        "name": "농업 확장 / Agri Expansion",
         "description": "농업 확장 1.9.1: 성수란, 모방꽃, 운명고리나무 및 초과학 수경 재배 시스템. 기존 농업·가공·통합 농장 및 스토리 기능을 유지하며, 추가 권한은 필요하지 않습니다."
       },
       "routes": [
@@ -11426,7 +11426,7 @@
       "assembly_name": "RealTimeClock",
       "entry_count": 44,
       "manifest": {
-        "name": "실시간 시계",
+        "name": "Real Time Clock 실시간 시계",
         "description": "가게에 작은 전자시계를 걸어 PC의 현지 시간을 표시합니다. 해·달·수탉 아이콘이 포함되어 있으며, 가게 곳곳에 최대 4개까지 설치할 수 있습니다. 시계를 클릭하면 특정 시각이나 카운트다운 알람을 설정할 수 있습니다. 설정은 옵션에 있습니다. 글꼴: WD-XL Lubrifont (SIL 오픈 폰트 라이선스 1.1)."
       },
       "routes": [
@@ -11488,7 +11488,7 @@
       "assembly_name": "StationEvents",
       "entry_count": 259,
       "manifest": {
-        "name": "우주 정거장 이벤트 확장 | 스테이션 이벤트",
+        "name": "우주 정거장 이벤트 확장 | Station Events",
         "description": "우주 정거장에 단기 이벤트를 추가하고 시장 시세, 신문, 추가 고객, 예고와 연동합니다. 이벤트 밀도 5단계와 선택 가능한 주기 변동을 제공합니다."
       },
       "routes": [],
@@ -11499,7 +11499,7 @@
       "assembly_name": "CS Weapon Case",
       "entry_count": 4832,
       "manifest": {
-        "name": "CS 무기 확장",
+        "name": "CS 무기 확장 / CS Weapon Expansion",
         "description": "CS 무기 확장: 상자 24종, 무기 스킨 828종, 투척물 6종, 신규 고객 90명. 상자 개봉, 시장, 창고, 용광로 포함. 터미널에서 구매한 뒤 매장 안에서 우클릭해 설치하세요.\n\n권한 사용 목적: Steam은 순위표에 사용됩니다. ID, 닉네임, 순위를 읽고, 골드/레드 등급 획득 횟수 또는 마모 점수를 제출합니다. 순위표에 오른 닉네임과 기록은 공개될 수 있습니다. 안내문의 “업적, 친구” 등은 게임에서 통상적으로 드는 예시입니다.\n이 모드는 비밀번호, 친구 목록, 채팅, 브라우저 정보 또는 관련 없는 개인 파일을 읽지 않으며 제작자 서버로 데이터를 전송하지 않습니다. 순위표를 열지 않으면 순위 정보를 능동적으로 요청하지 않습니다. 고정 가격 및 로컬 게임플레이는 오프라인에서 사용할 수 있습니다."
       },
       "routes": [
@@ -15247,7 +15247,7 @@
       "assembly_name": "ProbablyStolenInGameModSettings",
       "entry_count": 10,
       "manifest": {
-        "name": "게임 내 모드 설정",
+        "name": "게임 내 모드 설정 / In-Game Mod Settings",
         "description": "게임 기본 옵션 화면 하단에 모드 설정 항목을 추가해 설정 페이지가 있는 설치된 모든 모드를 한곳에서 열 수 있습니다. 개봉 순간 / Unbox Moment의 설정을 게임 내에서 바로 조정하려면 이 모드를 설치하는 것이 좋습니다. 하위 설정 페이지를 열어도 상위 페이지에서 아직 적용하지 않은 선택 사항은 유지됩니다."
       },
       "routes": [
@@ -15275,7 +15275,7 @@
       "assembly_name": "GunsmithExpansion",
       "entry_count": 470,
       "manifest": {
-        "name": "총기 제작 확장",
+        "name": "Gunsmith Expansion",
         "description": "Probably Stolen의 지하 총기 제작 콘텐츠입니다.\n- 신규 총기 11종, 치명적 개조 키트를 장착할 수 있는 비살상 총기 2종, 총기에 직접 표시되는 부착물 14종\n- 신규 총기용 3D 프린팅, 수리 작업대, 총기 보관함, 탄약 상자와 상자 4종\n- 벡스의 야간 무기고: 총기 허가증 또는 암시장 평판에 따라 재고가 달라집니다. 계약, 주문 장부, 이벤트, 전화선도 추가됩니다.\n- 비밀 총기 제작자 시작 설정과 특성 6개\n영어, 프랑스어, 중국어 간체 지원."
       },
       "routes": [],
@@ -15286,7 +15286,7 @@
       "assembly_name": "UpperLevels",
       "entry_count": 2,
       "manifest": {
-        "name": "상층 구역 Upper Levels: DLC일지도 모릅니다",
+        "name": "Upper Levels: Probably DLC",
         "description": "Upper Levels에 가게를 여세요: 시작 직업 8종, 특성 48개, 새로운 고객과 세력, 사이버펑크 스타일의 가게 장식이 추가됩니다. 메인 메뉴에서 Upper Levels 모드를 켜면 시작할 수 있습니다. 장식만 원한다면 설정에서 따로 켤 수 있습니다."
       },
       "routes": [],
@@ -15297,7 +15297,7 @@
       "assembly_name": "CombatContracts",
       "entry_count": 2,
       "manifest": {
-        "name": "심우주 전당포: 전투 의뢰",
+        "name": "심우주 전당포: 전투 의뢰 / Combat Contracts",
         "description": "왕 형님의 거래망에서 해제하는 전투 의뢰 모드입니다. 7개 세력의 현상금 의뢰, 턴제 전투, 가게 방어전을 추가합니다. 본편의 11개 언어를 지원하며 게임 언어에 맞춰 자동 전환됩니다. 전투 성장과 의뢰 진행도가 저장되어 아이템, 평판, 경제에 영향을 줍니다. 비활성화하기 전에 가게로 돌아와 전투를 마치고 방어구 출력을 완료한 뒤 저장 파일을 백업하세요. 자세한 내용은 README를 참고하세요."
       },
       "routes": [],
