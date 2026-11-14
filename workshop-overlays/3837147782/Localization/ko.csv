@@ -1,0 +1,17 @@
+﻿containers_plus.pill_bottle_name,알약 병
+containers_plus.pill_bottle_description,낱개 알약을 보관할 수 있습니다.
+containers_plus.big_pill_bottle_name,대형 알약 병
+containers_plus.big_pill_bottle_description,낱개 알약을 보관할 수 있습니다.
+containers_plus.smugglers_book_name,밀수꾼의 책
+containers_plus.smugglers_book_description,"오래된 책일 뿐, 수상한 점은 없습니다."
+containers_plus.vial_rack_name,약병 거치대
+containers_plus.vial_rack_description,여러 화학 물질이 든 약병을 보관하는 거치대입니다.
+containers_plus.pilk_crate_name,필크 상자
+containers_plus.pilk_crate_description,"매점에서 보관 상자를 버리는 일은 드물지만, 발견하면 꽤 유용합니다.
+필크, 퓨스, 피트가 든 팩을 보관합니다. 위로 두 개까지 쌓을 수 있습니다."
+containers_plus.pilk_crate_stacked_name,필크 상자 (적재됨)
+containers_plus.pilk_crate_stacked_description,"매점에서 보관 상자를 버리는 일은 드물지만, 발견하면 꽤 유용합니다.
+필크, 퓨스, 피트가 든 팩을 보관합니다. 활성화하면 분리할 수 있습니다."
+containers_plus.wallet_name,지갑
+containers_plus.wallet_description,"실종자의 소지품이 엉뚱한 곳에서 발견되곤 합니다.
+출입 카드, 식량 배급표, 복권을 보관할 수 있습니다."

@@ -1,15 +1,11 @@
 {
   "schema_version": 1,
-  "inventory_fingerprint": "97ac0117a56ec0502dbeda2d5ca802ebbeebb891358e2ca61459104cd641033c",
-  "scope": "installed_workshop_mod_korean_overlay_r9",
+  "inventory_fingerprint": "3a1b33e3d687bdde0541d2be4cfbb90eec86191f615d092ca83f2466c3b9fea6",
+  "scope": "installed_workshop_mod_korean_overlay_r12",
   "locale": "ko",
   "base_game_entries": 0,
   "existing_ko_entries": 0,
   "installed_patch_covered_entries": 0,
-  "installed_activity_snapshot": {
-    "active": 20,
-    "inactive": 2
-  },
   "mods": {
     "ps-fishing-gameplay": {
       "workshop_item_id": "3829110153",
@@ -56,11 +52,26 @@
       "csv_path": "workshop-overlays/3834619049/Localization/ko.csv",
       "entry_count": 468
     },
+    "containers_plus": {
+      "workshop_item_id": "3837147782",
+      "csv_path": "workshop-overlays/3837147782/Localization/ko.csv",
+      "entry_count": 14
+    },
+    "sfi.storageappearance": {
+      "workshop_item_id": "3837983447",
+      "csv_path": "workshop-overlays/3837983447/Localization/ko.csv",
+      "entry_count": 64
+    },
+    "upper_levels": {
+      "workshop_item_id": "3838944803",
+      "csv_path": "workshop-overlays/3838944803/Localization/ko.csv",
+      "entry_count": 1902
+    },
     "traits_probably_fun": {
       "workshop_item_id": "3834226532",
       "csv_path": "workshop-overlays/3834226532/Localization/ko.csv",
       "entry_count": 27
     }
   },
-  "entry_count": 7948
+  "entry_count": 9928
 }

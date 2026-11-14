@@ -72,8 +72,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "744738487893dc760b4913e7a2091666419386c1f55691f935e57922e50f7d11";
-        private const int ExpectedEntries = 21685;
+        private const string ExpectedFingerprint = "c9c6d5806a15b40e6d8b7ee010c6fb16ef340d7d14f31fd0385507b7583709b7";
+        private const int ExpectedEntries = 21687;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -99,8 +99,9 @@ namespace ProbablyStolenKo
                 ["traits_probably_fun"] = "3834226532",
                 ["asteroid_in_game_mod_settings"] = "3834556946",
                 ["gunsmith_expansion"] = "3834619049",
+                ["upper_levels"] = "3838944803",
             };
-        private const int ExpectedTargets = 22;
+        private const int ExpectedTargets = 23;
 
         private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets)
         {
@@ -178,7 +179,7 @@ namespace ProbablyStolenKo
                 targets.Add(targetProperty.Name, new ManagedTarget(
                     workshopItemId, assemblyName, entryCount.Value, manifestName, manifestDescription, routes, refresh));
             }
-            if (total != ExpectedEntries) throw new FormatException("Managed payload total is not 21685.");
+            if (total != ExpectedEntries) throw new FormatException("Managed payload total is invalid.");
             return new ManagedLiteralCatalog(targets);
         }
     }

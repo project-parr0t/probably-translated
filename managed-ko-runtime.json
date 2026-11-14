@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "744738487893dc760b4913e7a2091666419386c1f55691f935e57922e50f7d11",
-  "entry_count": 21685,
+  "inventory_fingerprint": "c9c6d5806a15b40e6d8b7ee010c6fb16ef340d7d14f31fd0385507b7583709b7",
+  "entry_count": 21687,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",
@@ -15277,6 +15277,17 @@
       "manifest": {
         "name": "총기 제작 확장",
         "description": "Probably Stolen의 지하 총기 제작 콘텐츠입니다.\n- 신규 총기 11종, 치명적 개조 키트를 장착할 수 있는 비살상 총기 2종, 총기에 직접 표시되는 부착물 14종\n- 신규 총기용 3D 프린팅, 수리 작업대, 총기 보관함, 탄약 상자와 상자 4종\n- 벡스의 야간 무기고: 총기 허가증 또는 암시장 평판에 따라 재고가 달라집니다. 계약, 주문 장부, 이벤트, 전화선도 추가됩니다.\n- 비밀 총기 제작자 시작 설정과 특성 6개\n영어, 프랑스어, 중국어 간체 지원."
+      },
+      "routes": [],
+      "refresh": []
+    },
+    "upper_levels": {
+      "workshop_item_id": "3838944803",
+      "assembly_name": "UpperLevels",
+      "entry_count": 2,
+      "manifest": {
+        "name": "상층 구역 Upper Levels: DLC일지도 모릅니다",
+        "description": "Upper Levels에 가게를 여세요: 시작 직업 8종, 특성 48개, 새로운 고객과 세력, 사이버펑크 스타일의 가게 장식이 추가됩니다. 메인 메뉴에서 Upper Levels 모드를 켜면 시작할 수 있습니다. 장식만 원한다면 설정에서 따로 켤 수 있습니다."
       },
       "routes": [],
       "refresh": []

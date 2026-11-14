@@ -1,0 +1,1902 @@
+﻿ui_upper_mode,상층 구역 모드
+ui_upper_mode_tooltip,하층 구역 대신 정거장 상층 구역에 상점을 여세요.\n부동산과 임대료가 더 비쌉니다. 상층 구역 고객은 더 자주 찾아오고 더 많이 씁니다.\n연락책은 조 와일드의 사촌인 카이 와일드입니다.
+diff_subtitle,{0} · 상층 구역
+diff_note_property,부동산 가격: {0}
+diff_note_start,"임대료 x{0}, 시작 자금 +{1}"
+kane.Dialogue.dialog_insurance_1,안녕하세요. 상층 구역에 오신 것을 환영합니다.
+kane.Dialogue.dialog_insurance_2,"저는 카이 와일드입니다. 네, 조 와일드의 사촌이죠."
+kane.Dialogue.dialog_insurance_3,무슨 생각을 하시는지 압니다. 걱정 마세요. 저는 그 사람과 전혀 달라요.
+kane.Dialogue.dialog_insurance_4,이곳은 겉보기엔 점잖죠. 도둑들이 가치에 대해 더 잘 알 뿐입니다.
+kane.Dialogue.dialog_insurance_5,이곳에서는 수집품 하나를 잃는 것만으로도 작은 가게가 문을 닫을 수 있습니다.
+kane.Dialogue.dialog_insurance_6,그래서 제가 보험을 제공하는 겁니다—
+kane.Dialogue.dialog_insurance_7,—상층 구역에 처음 온 상점 주인들을 위해서요.
+kane.Dialogue.dialog_insurance_8,매일 청구됩니다. 사촌이 받는 금액보다 조금 비싸죠. 여긴 상층 구역이니까요.
+kane.Dialogue.dialog_insurance_9,—그리고 무엇이든 도난당하면 소유하신 물건은 모두 보장됩니다.
+kane.Dialogue.dialog_insurance_10,매일 밤 주무시기 전에 갱신 여부를 결정하시면 됩니다.
+kane.Dialogue.dialog_insurance_11,이상입니다. 장사 잘되길 바랍니다.
+kane.Dialogue.dialog_wild_network_1,알아두셔야 할 규칙이 몇 가지 있습니다.
+kane.Dialogue.dialog_wild_network_2,상층 구역은 주먹질과 고함으로 돌아가지 않습니다.
+kane.Dialogue.dialog_wild_network_3,호의와 인맥으로 돌아가죠.
+kane.Dialogue.dialog_wild_network_4,"누가 누구에게 빚졌고, 누가 누구를 아는지. 그건 크레딧보다 가치가 있죠."
+kane.Dialogue.dialog_wild_network_5,몇 사람을 소개해 드릴 수 있습니다. 조건이 하나 있어요.
+kane.Dialogue.dialog_wild_network_6,적절한 사교계에서 제 평판을 좋게 말해 주시는 겁니다.
+kane.Dialogue.dialog_wild_network_7,제 명함입니다. 금박을 입혔으니 깨끗이 보관하세요.
+kane.Dialogue.dialog_wild_network_8,필요한 게 있으면 이 번호로 전화하세요. 제 비서가 처리해 드릴 겁니다.
+kane.Dialogue.dialog_wild_upgrade_reminder_1,오랜만이네요. 요즘은 전화가 뜸하셨습니다.
+kane.Dialogue.dialog_wild_upgrade_reminder_2,잭슨 박사도 당신이 한 번도 찾아오지 않았다고 전해 왔어요.
+kane.Dialogue.dialog_wild_upgrade_reminder_3,이곳에서는 관리하지 않는 인맥은 오래가지 않습니다.
+kane.Dialogue.dialog_wild_upgrade_reminder_4,제가 준비한 걸 살펴보세요.
+kane.Dialogue.dialog_wild_bailout_1,장부 사정이 좋지 않다고 들었습니다.
+kane.Dialogue.dialog_wild_bailout_2,오해하지 마세요. 비웃으러 온 게 아닙니다. 이곳에서 가게 하나가 문을 닫을 때마다 거리 전체의 부동산 가격이 내려가니까요.
+kane.Dialogue.dialog_wild_bailout_3,이건 제가 부담하죠. 돈은 받지 않겠습니다. 하지만 기억해 두겠어요.
+kane.Dialogue.dialog_wild_bailout_4,한번 보세요.
+kane.Dialogue.dialog_wild_network_reminder_1,아직 제게 전화하지 않으셨군요. 이곳에서는 조금 무례한 일입니다.
+kane.Dialogue.dialog_wild_network_reminder_2,시간 날 때 전화하세요.
+kane.Dialogue.dialog_wild_network_reminder_3,쓸모 있는 사람들을 많이 알고 있습니다.
+kane.Dialogue.dialog_wild_network_reminder_4,"기술을 가르치는 사람, 소개를 주선하는 사람, 문제를 없애는 사람도 있죠."
+kane.Dialogue.dialog_wild_network_reminder_5,준비되면 전화하세요.
+kane.Dialogue.dialog_marketplace_intro_1,안녕하세요.
+kane.Dialogue.dialog_marketplace_intro_2,장사는 잘되시나요?
+kane.Dialogue.dialog_marketplace_intro_3,아직 모르실 만한 게 하나 있습니다.
+kane.Dialogue.dialog_marketplace_intro_4,정거장의 공개 시장 의뢰 시스템을 이용하게 해드릴 수 있어요.
+kane.Dialogue.dialog_marketplace_intro_5,정거장 주민들의 의뢰를 직접 받을 수 있습니다. 상층 구역 의뢰는 아래층보다 보수가 훨씬 좋죠.
+kane.Dialogue.dialog_marketplace_intro_6,추천합니다.
+kane.Dialogue.dialog_marketplace_intro_7,살펴보시겠어요?
+kane.Dialogue.dialog_marketplace_intro_8,언제든 연락하셔도 됩니다.
+kane.Dialogue.dialog_wild_deed_1,축하합니다. 소식 들었어요.
+kane.Dialogue.dialog_wild_deed_2,이곳에서 오래 산 사람 중에도 자기 상점을 갖지 못한 이들이 많습니다.
+kane.Dialogue.dialog_wild_deed_3,"이곳에서 자리 잡을 능력을 증명하셨으니, 새로 보여 드릴 게 있습니다."
+kane.Dialogue.dialog_wild_deed_4,하이퍼테크라고 들어보셨나요?
+kane.Dialogue.dialog_wild_deed_5,이 정거장의 산업으로는 만들 수 없는 수준의 기술입니다.
+kane.Dialogue.dialog_wild_deed_6,이곳의 부자들조차 줄을 서서 기다립니다.
+kane.Dialogue.dialog_wild_deed_7,그 물건을 취급하는 밀수업자를 알고 있습니다. 수수료를 내시면 소개해 드리죠.
+kane.Dialogue.dialog_wild_deed_8,미리 경고하죠. 그 길의 모든 단계에는 돈이 많이 듭니다.
+kane.Dialogue.dialog_wild_deed_9,준비되면 전화하세요.
+kane.PhoneDialogue.wild1,안녕하세요. 카이 와일드 님의 사무실입니다.
+net_tab,상층 사교계
+net_subtitle,카이 와일드
+ul_kane_salon_title,살롱 소개
+ul_kane_salon_desc,카이가 비공개 살롱에 데려가 사람들을 소개합니다. 상층 구역 평판을 즉시 {0} 얻습니다.
+ul_kane_clientele_i_title,상류 고객층 I
+ul_kane_clientele_i_desc,카이가 자신의 사교계에 당신의 상점을 추천합니다. 상층 구역 고객의 지출 가능액이 {0}% 증가합니다.
+ul_kane_clientele_ii_title,상류 고객층 II
+ul_kane_clientele_ii_desc,카이가 친구들에게 건네는 명단에 당신의 상점을 추가합니다. 상층 구역 고객의 지출 가능액이 추가로 {0}% 증가합니다.
+ul_kane_etiquette_title,상층 구역 예절
+ul_kane_etiquette_desc,카이가 부자들의 지출을 늘리는 예절을 가르칠 강사를 고용합니다. 상층 구역 고객과 관광객의 예산이 추가로 {0}% 증가합니다.
+ul_kane_collector_title,수집가 소개
+ul_kane_collector_desc,카이가 수집가들을 당신의 가게로 보냅니다. 매일 {0}% 확률로 자금이 넉넉한 사치품 수집가가 방문합니다.
+ul_kane_gala_title,자선 갈라 후원
+ul_kane_gala_desc,"상점 이름으로 카이의 자선 갈라를 후원하세요. 후원할 때마다 상층 구역 평판을 {0} 얻으며, 재사용 대기시간은 {1}일입니다."
+kai_name,카이 와일드
+ui_close,닫기
+talk_continue,계속
+talk_narration,내레이션
+talk_got_intel,[획득: {0}에 관한 정보]
+social_notify_up,{0} 평판 +{1}
+social_notify_down,{0} 평판 -{1}
+tier_ally,동맹
+tier_friendly,우호
+tier_neutral,중립
+tier_cold,냉랭
+tier_hostile,적대
+faction_council_name,공화국 당국
+faction_council_desc,"공화국의 정거장 내 두 부서입니다. 정거장 평의회는 규정, 허가증, 층간 통행증을 담당하고 해군 조달부는 군수품 조달을 담당합니다. 절차를 따르지만, 그 절차도 돈으로 살 수 있습니다."
+faction_helios_name,헬리오스 컨소시엄
+faction_helios_desc,"정거장의 물, 전력, 수경재배를 통제하는 거대 기업입니다. 원하는 것은 반드시 손에 넣습니다."
+faction_vanderlin_name,밴더린 가문
+faction_vanderlin_desc,"정거장 건설에 자금을 댄 창립 가문 중 하나로, 가장 오래된 부동산 권리와 물·공기 할당량을 물려받았습니다. 인쇄할 수 없는 천연 소재, 실물 원본, 고유 인증을 받은 라이트필드 작품을 수집합니다."
+faction_rev_name,잠입국
+faction_rev_desc,"상층 구역에서 종업원, 운전사, 청소부로 일하는 혁명군 요원들입니다. 특권층은 그들을 알아채지 못하지만, 그들은 모든 것을 알아챕니다."
+rep_council_name,빅터 할로
+rep_council_title,평의회 사무총장
+rep_helios_name,세라피나 콜
+rep_helios_title,헬리오스 홍보 책임자
+rep_vanderlin_name,오거스트 밴더린 경
+rep_vanderlin_title,밴더린 가문의 수장
+rep_rev_name,미라
+rep_rev_title,살롱 직원
+roster_title,상층 사교계 명부
+roster_intro,카이가 당신을 위해 정리한 명단입니다. 이곳에서는 누가 부자인지보다 누가 누구를 싫어하는지 아는 게 중요합니다.
+roster_rep,대표: {0} ({1})
+roster_standing,평판: {0} ({1})
+item_roster_name,상층 사교계 명부
+item_roster_flavor,상층 구역 유력 인사와 대표자들을 적은 작은 가죽 수첩입니다. 클릭해서 읽으세요.
+item_invitation_name,금요일 살롱 초대장
+item_invitation_flavor,금박을 입힌 초대장입니다. 매주 금요일 폐점 후 상층 구역 비공개 살롱에 참석할 수 있습니다.
+item_case_fragment_name,사건 기록 조각
+item_case_fragment_flavor,"평의회 기밀 도장이 찍힌 그을린 문서입니다. 수경재배 농장 횡령 사건의 감사 기록인데, 숫자가 맞지 않습니다."
+item_intel_name,정보: {0}
+item_intel_flavor_council,평의회 인사에 관한 약점입니다. 살롱에서 다른 세력에 팔 수 있습니다.
+item_intel_flavor_helios,헬리오스 컨소시엄 내부 정보입니다. 살롱에서 다른 세력에 팔 수 있습니다.
+item_intel_flavor_vanderlin,밴더린 가문이 감추고 싶어 하는 사적인 일들입니다. 살롱에서 다른 세력에 팔 수 있습니다.
+item_intel_flavor_rev,혁명 조직의 흔적입니다. 살롱에서 다른 세력에 팔 수 있습니다.
+kai_invite_1,좋은 아침이에요. 걱정 마세요. 돈 받으러 온 건 아니니까요.
+kai_invite_2,여기서는 장사를 잘하는 것만으로는 부족해요. 적절한 자리에 모습을 보여야 하죠.
+kai_invite_3,"매주 금요일 밤 비공개 살롱이 열려요. 평의회, 컨소시엄, 명문가들이 모이죠. 사업이라고 부르는 사람은 없지만, 사업은 거기서 이뤄져요."
+kai_invite_4,초대장이에요. 인맥을 좀 썼죠. 그리고 주요 인사 명단도요.
+kai_invite_5,금요일 폐점 후에 가세요. 말은 아끼고 귀 기울이세요. 거기서 듣는 게 파는 것보다 값질 수 있어요.
+kai_invite_6,"아, 옷도 제대로 갖춰 입으세요. 날 난처하게 만들지 말고요."
+salon_title,금요일 살롱
+salon_panel_intro,상층 구역의 낯익은 얼굴들이 술을 마시며 조용히 이야기합니다. 이곳에서 거래가 이뤄진다고 인정하는 사람은 없습니다.
+salon_guests,오늘 밤 손님:
+salon_guest,{0}에게 말 걸기 ({1})
+salon_talked, (오늘 밤 이미 대화함)
+salon_sell_intel,정보 팔기
+salon_open_roster,인맥록 열기
+intel_title,정보 판매
+intel_intro,"관심 있는 사람에게 정보를 파세요. 개당 {0} 크레딧입니다. 구매자는 호의를 기억할 테고, 정보의 대상도 언젠가는 알게 될 겁니다."
+intel_row,{0} 정보 x{1}
+intel_sell_to,{0}에게 판매 ({1})
+intel_none,팔 정보가 없습니다. 손님들과 어울려 보세요.
+talk.council.1.open,처음 오셨습니까? 카이 와일드가 당신을 보증했다더군요. 이곳에서 가게를 열려면 평의회 승인 열일곱 건이 필요합니다.
+talk.council.1.a,규정이 엄격할수록 이곳은 더 지킬 가치가 있습니다.
+talk.council.1.a_reply,잘 말씀하셨습니다. 요즘 그런 걸 이해하는 젊은이는 드뭅니다.
+talk.council.1.b,열일곱 건이요? 심사관들께 감사해야겠군요.
+talk.council.1.b_reply,흠. 예의가 바르군요. 이곳에선 중요한 일입니다.
+talk.council.1.c,그 열일곱 건 중 몇 건이나 신속 처리할 수 있습니까?
+talk.council.1.c_win,그는 웃으며 대답하지 않습니다. 그러곤 매주 주말을 컨소시엄 요트에서 보내는 동료 이야기를 꺼냅니다.
+talk.council.1.c_lose,신속 처리라고요? 그는 안경을 고쳐 씁니다. 그 말은 잊으십시오.
+talk.council.2.open,다음 주에 평의회가 새로운 층간 통행 규정을 심의합니다. 하층 구역 사람들이 올라오기가 점점 어려워지고 있죠. 어떻게 생각하십니까?
+talk.council.2.a,이곳의 질서는 모두가 함께 지켜야 합니다.
+talk.council.2.a_reply,그렇습니다. 질서는 지키는 사람과 이해하는 사람이 모두 필요하지요.
+talk.council.2.b,저는 그저 가게를 운영할 뿐입니다. 평의회가 잘 알겠지요.
+talk.council.2.b_reply,신중함은 미덕입니다. 여기서 잘 지내시겠군요.
+talk.council.2.c,컨소시엄이 제안했다고 들었습니다만?
+talk.council.2.c_win,누가 제안했는지는 중요하지 않다고 그가 조용히 말합니다. 누가 서명했는지가 중요하지요. 당신은 이름 하나를 기억합니다.
+talk.council.2.c_lose,그는 잔을 내려놓습니다. 평의회 사람들 앞에서 그 말을 되풀이하지 마십시오.
+talk.council.3.open,"예산 회의가 또 파행됐습니다. 물, 전력, 보안—모두 더 달라고 하는군요."
+talk.council.3.a,평의회가 균형을 잡고 있는 게 대단하군요.
+talk.council.3.a_reply,그런 말을 듣는 건 드문 일이군요. 허가 갱신은 제가 챙기겠습니다.
+talk.council.3.b,"고생이 많으십니다, 사무총장님."
+talk.council.3.b_reply,그가 살짝 고개를 끄덕입니다. 제 일이니까요.
+talk.council.3.c,보안 예산은 어디로 간 겁니까?
+talk.council.3.c_win,잠시 뜸을 들인 뒤 그가 한숨을 쉽니다. 언젠가는 들으실 테니 말씀드리지요. 그는 장부가 맞지 않는다고 알려줍니다.
+talk.council.3.c_lose,그 질문은 가게 주인이 신경 쓸 일이 아니라고 그가 차갑게 말합니다.
+talk.helios.1.open,당신 가게 이야기는 들었어요. 하층 구역 출신이죠? 컨소시엄은 올바른 협력자를 고르는 자수성가형 인물을 좋아해요.
+talk.helios.1.a,헬리오스와 함께 일하게 된다면 영광입니다.
+talk.helios.1.a_reply,현명하시군요. 공급업체 명단에 올려드리겠습니다.
+talk.helios.1.b,그건 나중에 논의하죠.
+talk.helios.1.b_reply,물론이죠. 너무 오래 기다리게 하진 마세요.
+talk.helios.1.c,컨소시엄의 협력자들은 어떻게 되죠?
+talk.helios.1.c_win,잘 지내죠. 고집을 부리는 이들만 빼면요. 그녀는 밴더린 가문이 최근 가보를 저당 잡혔다고 말합니다.
+talk.helios.1.c_lose,그녀의 미소가 싸늘해집니다. 다시는 묻지 마세요.
+talk.helios.2.open,다음 달 물값이 8퍼센트 오릅니다. 하층 구역에서 또 폭동이 일어나겠군요. 어떻게 보십니까?
+talk.helios.2.a,시설을 운영하는 데 돈이 드니 공정한 일입니다.
+talk.helios.2.a_reply,드디어 말이 통하는 분이 있군요. 저 낡은 유물들보다는 낫네요.
+talk.helios.2.b,저는 가게 수도 요금만 신경 씁니다.
+talk.helios.2.b_reply,실리적이시네요. 그런 분이 좋아요.
+talk.helios.2.c,"인상분은 비용입니까, 이윤입니까?"
+talk.helios.2.c_win,예리하시네요. 그녀는 잔을 빙글 돌립니다. 한 가지 알려드리죠. 오래전부터 밴더린 가문의 토지 증서를 노리고 있었어요.
+talk.helios.2.c_lose,"비용이든 이익이든, 그녀가 웃습니다. 하층 구역 사람에게 그게 중요할까요?"
+talk.helios.3.open,들으셨어요? 저희가 수경 재배 농장을 인수했어요. 전 주인은 법적 문제에 휘말렸죠.
+talk.helios.3.a,컨소시엄이 맡으면 더 잘 운영되겠네요.
+talk.helios.3.a_reply,"정확해요. 이곳에선, 효율성이 전부니까요."
+talk.helios.3.b,전 주인은 괜찮은가요?
+talk.helios.3.b_reply,"그녀는 어깨를 으쓱합니다. 구금 중이에요. 살아는, 있겠죠."
+talk.helios.3.c,그 소송은 참 절묘한 시기에 터졌네요.
+talk.helios.3.c_win,"그녀는 한참 당신을 바라보다가, 미소 짓습니다. 이곳에선 우연이란 흔하죠. 그녀는 평의회 서명자의 이름을 슬쩍 흘립니다."
+talk.helios.3.c_lose,"조심하세요, 그녀가 낮은 목소리로 말합니다. 말이 너무 많아 곤란해진 사람도 있으니까요."
+talk.vanderlin.1.open,"흠, 또 풋내기로군. 이 살롱의 카펫은 증조부께서 지구에서 가져오신 걸세, 알고 있나?"
+talk.vanderlin.1.a,어쩐지 아주 훌륭하더군요. 돈으로 살 수 없는 것도 있죠.
+talk.vanderlin.1.a_reply,예의는 아는군. 앉게.
+talk.vanderlin.1.b,"죄송합니다, 경."
+talk.vanderlin.1.b_reply,흠. 적어도 사람을 어떻게 불러야 하는지는 아는군.
+talk.vanderlin.1.c,그 카펫은 아직 밴더린 가문의 소유인가요?
+talk.vanderlin.1.c_win,그의 표정이 바뀝니다. 그는 기침을 합니다. 컨소시엄 사람들은 카펫보다 더 많은 걸 원하지. 그는 콜 가문에 얽힌 오래된 이야기를 들려줍니다.
+talk.vanderlin.1.c_lose,무례하군! 그는 지팡이로 바닥을 칩니다. 먼저 예의부터 배우게.
+talk.vanderlin.2.open,"요즘은 예술품마저 감정받고, 경매에 부쳐지고 꼬리표가 붙지. 자네는 전당포를 운영하네. 물건의 가치는 무엇으로 정해지나?"
+talk.vanderlin.2.a,"그 물건의 역사와, 그것을 간직해 온 사람들이요."
+talk.vanderlin.2.a_reply,"잘 말했네! 다음에 좋은 물건이 생기면, 집사가 자네에게 가져다주겠네."
+talk.vanderlin.2.b,누군가 그것에 지불하려는 금액이요.
+talk.vanderlin.2.b_reply,"장사꾼다운 대답이군. 솔직하긴, 하네."
+talk.vanderlin.2.c,요즘 밴더린 가문에서 물건을 처분하고 있나요?
+talk.vanderlin.2.c_win,"긴 침묵이 흐릅니다. 그러고는, 조용히 말합니다. 처분하는 게 아니라, 강요당한 거야. 그는 컨소시엄이 어떻게 그렇게 했는지 알려줍니다."
+talk.vanderlin.2.c_lose,"우리 집안일은, 그가 차갑게 말합니다, 전당포 주인이 참견할 일이 아니네."
+talk.vanderlin.3.open,"평의회가 세워질 때, 밴더린 가문은 일곱 서명자 중 하나였네. 지금은 어떤가? 서기들이 명령을 내리지."
+talk.vanderlin.3.a,이 정거장은 경 같은 가문들이 세우셨죠.
+talk.vanderlin.3.a_reply,"아직 기억하는 이가 있군. 자네는 앞날이 밝겠어, 젊은이."
+talk.vanderlin.3.b,"세상이 변했네요, 경."
+talk.vanderlin.3.b_reply,그래. 변했지. 그는 창밖을 바라보며 한숨을 쉽니다.
+talk.vanderlin.3.c,그 일곱 가문 중 지금도 발언권이 있는 곳은 몇이나 되나요?
+talk.vanderlin.3.c_win,"두 곳 반이지, 그가 비웃습니다. 할로는 그중 한 곳을 팔아넘기고 사무총장 자리에 올랐네."
+talk.vanderlin.3.c_lose,뭘 캐내려는 겐가? 그는 눈을 가늘게 뜹니다. 낯선 이에게 집안일을 말하진 않네.
+talk.rev.1.open,"한 잔 더 드릴까요? 상층 구역 출신은 아니시죠, 잔을 드는 모습이 저와 비슷하네요."
+talk.rev.1.a,하층 구역 사람끼리는 서로 챙겨야죠.
+talk.rev.1.a_reply,그녀는 잔을 채웁니다. 조용히 말합니다. 기억해 둘게요.
+talk.rev.1.b,"고마워요, 한 잔이면 충분해요."
+talk.rev.1.b_reply,그럼요. 그녀는 공손히 웃고 자리를 뜹니다.
+talk.rev.1.c,"여기서 일하시니, 많이 들으시겠네요."
+talk.rev.1.c_win,"그녀는 망설이며, 테이블을 닦습니다. 할로 사무총장은 매주 목요일 가선 안 될 곳에 가요."
+talk.rev.1.c_lose,전 술만 따를 뿐이에요. 그녀의 눈빛이 경계합니다.
+talk.rev.2.open,저 사람들 좀 보세요. 저들이 마시는 술 한 잔이면 하층 구역 가족이 한 달은 먹고살 수 있겠어요.
+talk.rev.2.a,언젠가는 달라질 거예요.
+talk.rev.2.a_reply,"그녀는 미소 짓습니다, 이번에는 진심으로요. 저들이 생각하는 것보다 빨리요."
+talk.rev.2.b,상층 구역은 원래 그렇죠.
+talk.rev.2.b_reply,그렇죠. 원래 그런 거예요. 그녀의 목소리가 무미건조해집니다.
+talk.rev.2.c,뭔가 계획하고 있어요?
+talk.rev.2.c_win,아무 말도 안 했어요. 그녀는 냅킨을 당신 손에 쥐여 줍니다. 거기에는 평의회 창고의 출입 시간이 적혀 있습니다.
+talk.rev.2.c_lose,잘못 짚으셨어요. 그녀는 자리를 뜹니다.
+talk.rev.3.open,"오늘 밤에도 경찰이 와 있어요, 뒷문 쪽에요. 회색 제복이 보이면, 가까이 가지 마세요."
+talk.rev.3.a,경고해 줘서 고마워요. 당신도 조심해요.
+talk.rev.3.a_reply,늘 조심하죠. 그녀는 윙크합니다.
+talk.rev.3.b,숨길 만한 짓은 안 했어요.
+talk.rev.3.b_reply,"상층 구역에선, 누구도 감히 그런 말을 못 해요."
+talk.rev.3.c,누굴 찾으러 온 거죠?
+talk.rev.3.c_win,"평의회 장부를 관리하는 회계사예요, 그녀가 속삭입니다. 너무 많은 걸 알고 있죠."
+talk.rev.3.c_lose,"당신이 아니라면, 묻지 마세요, 그녀가 속삭입니다. 너무 많이 물으면 표적이 될 테니까요."
+ch1_1,"바에서 기다리는 동안, 칸막이 너머로 익숙한 목소리 둘이 들립니다. 평의회 사무총장과 컨소시엄 홍보 책임자입니다."
+ch1_2,농장 사건 심리는 다음 달이야. 이번엔 평의회가 문서를 더 찾아내지 않기를 바라.
+ch1_3,"걱정 마, 감사 보고서는 제출됐어. 원본 일부는 불에 탔고."
+ch1_4,"좋아. 그 여자가 구금되어 있는 시간이 길수록, 농장을 넘기기 쉬워져. 그 여자의 딸은 하층 구역에서 아직도 도움을 구하고 있어."
+ch1_5,그런 애가 뭘 할 수 있겠어. 가자. 경께서 우리가 함께 있는 걸 보시면 안 돼.
+ch1_6,"발소리가 멀어집니다. 당신이 떠나려 하자, 미라가 쟁반을 들고 다가옵니다, 새 술을 가져온 것처럼 말입니다."
+ch1_7,"들으셨죠? 그녀는 접힌 종이를 컵받침 밑으로 밀어 넣습니다. 이건 그들이 태우다 만 페이지예요."
+ch1_8,누군가는 이걸 없애고 싶어 해요. 당신은 하층 구역에서 올라왔죠. 무슨 뜻인지 알잖아요.
+ch1_decide,종이 가장자리는 그을렸고 평의회의 기밀 도장이 찍혀 있습니다. 당신은 다음과 같이 결정합니다:
+ch1_keep,"조각을 간직하고, 아무 말도 하지 않는다."
+ch1_keep_result,당신은 조각을 주머니에 넣습니다. 미라는 고개를 끄덕이고 사람들 사이로 사라집니다.
+ch1_kai,카이 와일드에게 건넨다.
+ch1_kai_result,잘 판단하셨습니다. 카이는 쳐다보지도 않고 조각을 챙깁니다. 이 일로 곤란해지실 수 있어요. 제가 맡죠.
+ch1_confront,그 자리에서 할로에게 조각을 들이민다.
+ch1_confront_result,"할로는 창백해졌다가, 이내 평정을 되찾습니다. 젊은이, 그건 위조품이야. 곤란해지기 전에 태워 버리게."
+ch1_confront_vanderlin,근처에서 모든 걸 지켜본 밴더린 경이 다가와 잔을 듭니다. 흥미롭군. 여기서 사무총장이 망신당한 건 수년 만이야.
+ch1_end,
+ul_kai_cleaning_title,청소 계약
+ul_kai_cleaning_desc,"카이는 매일 폐점 후 청소 인력을 보내 쓰레기를 치우고 낙서를 지웁니다. 야간 비용은 없습니다. 이 계약이 없으면, 상점 앞은 매일 더러워집니다."
+heist_begin,몰래 들어가기
+heist_done_tonight,오늘 밤은 이미 이곳을 털었습니다. 다른 날 다시 오세요.
+heist_status,남은 시간 {0} · 행동 횟수 {1}\n{2}
+heist_cost," (발각 {0}%, 체포 {1}%, 시간 {2})"
+heist_bag_full,[공간이 없습니다. 두고 갑니다.]
+heist_time_up,발소리가 들립니다. 순찰대가 오고 있습니다. 지금 떠나야 합니다.
+heist_escaped,"물건 {0}개를 들고 빠져나옵니다. 아무도 보지 못했습니다. 이제 장물이라, 경찰 수색에서 쉽게 찾아낼 수 있습니다. 열기가 가라앉기를 기다리거나, 미라의 사람들이 옮기도록 하세요."
+heist_escaped_empty,빈손으로 떠났습니다. 그래도 아무도 보지 못했습니다.
+heist_caught,거기 누구야? 손전등이 얼굴을 비춥니다. 발각됐습니다.
+heist_caught_drop,모두 버리고 달아난다.
+heist_caught_drop_result,"전리품을 버리고 담을 넘어 달아납니다. 경비는 얼굴을 보지 못했지만, 경찰이 당신에 대한 단서를 하나 더 얻었습니다."
+heist_caught_bribe,경비에게 크레딧을 슬쩍 건넨다 ({0}).
+heist_caught_bribe_result,"경비는 칩을 살펴보고 다른 복도로 걸어갑니다. ""아무것도 못 봤어."""
+heist_caught_force,힘으로 빠져나간다.
+heist_caught_force_win,경비를 밀치고 전리품을 챙겨 달아납니다. 뒤에서 경보가 울립니다. 내일이면 경찰이 수소문할 겁니다.
+heist_caught_force_lose,"빠져나오지 못하고 몸싸움 끝에 모든 걸 잃습니다. 달아나긴 했지만, 많은 사람이 당신의 얼굴을 봤습니다."
+heist.manor.title,밴더린 저택
+heist.manor.panel,"오래된 밴더린 가문의 저택. 대대로 모은 소장품이 갤러리에 걸려 있고, 서재 금고에는 가문의 인장이 있다고 한다."
+heist.manor.note_friday,오늘은 금요일이다. 영주는 살롱에 가고 저택에는 일손이 부족하다. (위험 x0.6)
+heist.manor.note_home,"오늘 밤은 영주가 집에 있다. (금요일에는 살롱에 가므로, 위험이 낮아진다.)"
+heist.manor.room.garden,정원
+heist.manor.room.garden.desc,잘 가꾼 정원. 높은 담 위에는 깨진 유리가 박혀 있다. 하인용 출입구가 살짝 열려 있다.
+heist.manor.room.hall,갤러리 홀
+heist.manor.room.hall.desc,금박 액자가 줄지어 있다. 구석의 골동품 화병은 네 가게 전체보다 비싸다.
+heist.manor.room.case,보석 진열장
+heist.manor.room.case.desc,"유리 진열장 안에 에메랄드 브로치가 놓여 있고, 주위에는 붉은 레이저 감지망이 둘러쳐져 있다."
+heist.manor.room.study,서재
+heist.manor.room.study.desc,"가죽 장정 책으로 가득한 서재. 책상 서랍은 잠겨 있지 않고, 낡은 금고는 그림 뒤에 숨어 있다."
+heist.manor.garden.wall,정원 담을 넘는다
+heist.manor.garden.wall.done,"유리에 소매가 찢어졌지만, 무사히 넘었다."
+heist.manor.garden.servants,첩보로 알아낸 하인들의 근무표를 이용한다
+heist.manor.garden.servants.done,교대 시간이다. 통로가 비었다.
+heist.manor.leave,빠져나간다
+heist.manor.leave.done,
+heist.manor.back_hall,갤러리로 돌아간다
+heist.manor.back_hall.done,조용히 갤러리로 돌아왔다.
+heist.manor.hall.painting,벽에서 유화를 떼어 낸다
+heist.manor.hall.painting.done,액자는 보기보다 무겁다. 캔버스를 빼내 돌돌 말았다.
+heist.manor.hall.vase,골동품 화병을 챙긴다
+heist.manor.hall.vase.done,"숨을 죽이고, 화병을 가방에 조심스레 넣었다."
+heist.manor.hall.to_case,보석 진열장으로 간다
+heist.manor.hall.to_case.done,벽을 따라 진열장 쪽으로 다가갔다.
+heist.manor.hall.to_study,위층 서재로 향한다
+heist.manor.hall.to_study.done,계단이 삐걱거린다. 얼어붙은 채 기다렸다.
+heist.manor.case.lasers,엔지니어링 키 카드로 레이저를 끈다
+heist.manor.case.lasers.done,판독기에 초록불이 깜박이고 붉은 감지망이 꺼졌다.
+heist.manor.case.smash,유리를 깨고 브로치를 챙긴다
+heist.manor.case.smash.done,유리가 산산이 깨졌다. 갤러리 전체에 소리가 울린다.
+heist.manor.case.take,브로치를 챙긴다
+heist.manor.case.take.done,브로치가 소리 없이 주머니 속으로 들어갔다.
+heist.manor.study.drawer,책상 서랍을 비틀어 연다
+heist.manor.study.drawer.done,안에는 밴더린 가문의 문장이 새겨진 금 회중시계가 있다.
+heist.manor.study.safe,그림 뒤의 금고를 딴다
+heist.manor.study.safe.done,다이얼이 딸깍인다. 벨벳 상자 안에 밴더린 가문의 인장이 놓여 있다.
+heist.archive.title,평의회 기록 보관소
+heist.archive.panel,평의회가 정거장의 기록을 보관하는 곳. 불타 버린 감사 보고서의 원본은 아마 기밀 금고에 잠겨 있을 것이다.
+heist.archive.note,야간 경비대는 정해진 순서로 순찰한다. 보안 키 카드가 있으면 수고를 크게 덜 수 있다.
+heist.archive.room.dock,하역장
+heist.archive.room.dock.desc,"하역대에 빈 수레가 놓여 있고, 화물 출입문 옆에는 카드 판독기가 있다."
+heist.archive.room.corridor,기록물 복도
+heist.archive.room.corridor.desc,긴 복도. 천장 카메라가 몇 초마다 회전한다.
+heist.archive.room.stacks,기록 서고
+heist.archive.room.stacks.desc,강철 서류함이 줄지어 있다. 맨 끝에는 육중한 금고 문이 있다.
+heist.archive.room.vault,기밀 금고
+heist.archive.room.vault.desc,잠긴 문서 상자가 놓인 차가운 작은 방. 한 표지에는 수경 재배 농장 사건 · 감사라고 적혀 있다.
+heist.archive.leave,빠져나간다
+heist.archive.leave.done,
+heist.archive.dock.card,보안 키 카드를 긁는다
+heist.archive.dock.card.done,판독기가 삑 소리를 내고 문이 열린다.
+heist.archive.dock.napkin,미라의 출입 일정을 이용해 교대 시간에 잠입한다
+heist.archive.dock.napkin.done,정확한 시간이다. 문을 지키던 경비가 반대편으로 막 떠났다.
+heist.archive.dock.force,화물 출입문을 비틀어 연다
+heist.archive.dock.force.done,금속 문이 끼익거린다. 틈 사이로 몸을 밀어 넣었다.
+heist.archive.corridor.sneak,카메라가 도는 시간을 재서 지나간다
+heist.archive.corridor.sneak.done,한 걸음씩 벽을 따라 조금씩 나아갔다.
+heist.archive.corridor.walk,고개를 숙이고 태연히 걷는다
+heist.archive.corridor.walk.done,카메라의 붉은 빛이 등에 오래 머무는 느낌이 든다.
+heist.archive.stacks.ledger,재무 기록을 뒤진다
+heist.archive.stacks.ledger.done,평의회 관리들이 받은 모든 선물이 기록된 두꺼운 장부를 찾았다.
+heist.archive.stacks.chip,암호화된 데이터 칩을 복사한다
+heist.archive.stacks.chip.done,칩이 희미한 푸른빛을 낸다. 얼른 챙겼다.
+heist.archive.stacks.vault_card,보안 키 카드로 금고를 연다
+heist.archive.stacks.vault_card.done,육중한 문이 미끄러지듯 열린다.
+heist.archive.stacks.vault_hack,엔지니어링 키 카드로 판독기를 해킹한다
+heist.archive.stacks.vault_hack.done,"판독기의 불빛이 마구 깜박이다가, 초록색으로 바뀐다."
+heist.archive.vault.report,농장 사건 감사 보고서 원본을 챙긴다
+heist.archive.vault.report.done,"찾았다. 불에 타지 않은 온전한, 감사 보고서 원본이다."
+item_ul_loot_painting_name,고전 유화
+item_ul_loot_painting_flavor,"금박 액자에 담긴, 오래전에 사라진 지구의 풍경화. 상층 구역 수집가들이 서로 차지하려 들 것이다."
+item_ul_loot_vase_name,골동품 도자기 화병
+item_ul_loot_vase_flavor,지구에서 가져온 진품이라고 한다. 깨지기 쉬우니 조심해서 다루자.
+item_ul_loot_signet_name,밴더린 인장 반지
+item_ul_loot_signet_flavor,루비가 박힌 밴더린 가문의 금제 인장이다. 이것만 있으면 누구든 가문의 이름으로 서명하고 봉인할 수 있다.
+item_ul_loot_brooch_name,에메랄드 브로치
+item_ul_loot_brooch_flavor,은에 박힌 정교하게 세공된 에메랄드.
+item_ul_loot_watch_name,금 회중시계
+item_ul_loot_watch_flavor,밴더린 가문의 문장이 새겨진 낡은 금 회중시계. 아직도 째깍거린다.
+item_ul_loot_datachip_name,암호화된 데이터 칩
+item_ul_loot_datachip_flavor,평의회 기록 보관소에서 복사한 암호화된 칩. 해독해야만 안에 무엇이 있는지 알 수 있다.
+item_ul_loot_ledger_name,평의회 뇌물 장부
+item_ul_loot_ledger_flavor,평의회 관리들이 받은 모든 선물의 기록. 출처 열에 헬리오스 컨소시엄이 끊임없이 등장한다.
+item_ul_audit_report_name,농장 사건 감사 보고서 원본
+item_ul_audit_report_flavor,불에 타지 않은 온전한 원본. 마지막 장에는 빅터 할로의 서명과 컨소시엄의 봉인이 나란히 있다.
+commission_header,의뢰
+commission_offer,{0}이(가) 부탁할 일이 있다고 한다
+commission_accept,수락
+commission_decline,거절
+commission_deliver,{1}을(를) {0}에게 건넨다
+commission_pending,{0}이(가) {1}을(를) 기다리고 있다
+commission.helios_signet.offer,"컨소시엄은 밴더린의 땅을 노리는데, 그 늙은이가 서명을 거부하고 있어. 누군가 가문의 인장을 찾아 준다면 컨소시엄에서 {0} 크레딧을 주고 빚도 하나 지겠지."
+commission.helios_signet.accepted,역시 똑똑하군. 인장은 그의 서재 금고에 있어. 어떻게 알았는지는 묻지 마.
+commission.helios_signet.done,"콜이 인장을 빛에 비춰 본다. ""만족스럽군. 다음에 컨소시엄에서 일이 들어오면, 자네에게 가장 먼저 연락하지."""
+commission.rev_ledger.offer,"평의회는 누가 누구에게 돈을 줬는지 적힌 장부를 보관하고 있어요. 그걸 가지고 나오면 아래층 사람들이 이용할 수 있어요. 저희에겐 {0} 크레딧밖에 없지만, 은혜는 기억할게요."
+commission.rev_ledger.accepted,재무 기록은 기록 보관소 서가에 있어요. 복도 카메라를 조심하세요.
+commission.rev_ledger.done,미라가 서빙 카트 아래로 장부를 슬쩍 넣었어요. “고마워요. 이제 많은 사람이 잠을 설칠 거예요.”
+fence_button,미라의 사람들에게 넘기기
+fence_none,수상한 물건은 가지고 있지 않네요. 생기면 다시 오세요.
+fence_done,미라가 조용히 물건 {0}개를 받아 들고 크레딧 칩을 건넸어요: {1} 크레딧. “아래층에서 천천히 팔 거예요. 당신까지 추적되진 않을 거예요.”
+ch2_1,"가게로 돌아와 책상 램프 아래에서 원본을 펼쳐 봤어요. 3페이지부터 숫자가 맞지 않았어요. “횡령된” 농장 자금은 전부 헬리오스 컨소시엄의 페이퍼 컴퍼니로 흘러갔어요. 수혜자는 파스텔, 뉴트리프루트 종자 회사였어요. 헬리오스가 최대 주주였죠."
+ch2_2,마지막 페이지에서 감사 결론은 붉은 펜으로 지워지고 “농장주의 개인 횡령”으로 바뀌어 있었어요. 서명은 빅터 할로. 옆에는 컨소시엄 인장이 찍혀 있었어요.
+ch2_3,"엘리너의 어머니는 누명을 썼어요. 그녀는 뉴트리프루트 종자가 다시 열매를 맺게 하는 방법을 찾아냈고, 그 때문에 파스텔은 손해를 봤어요. 이 원본은 평의회와 컨소시엄 사람들을 감옥에 보낼 수 있어요. 누구에게 넘기느냐에 달렸죠."
+ch2_end,"카이, 미라, 밴더린 경, 또는 하층 구역의 엘리너에게 넘길 수 있어요.\n평의회는 머지않아 침입 사실을 알아차릴 거예요. 남은 시간은 최대 7일이에요."
+test_mode_label,테스트 모드 (살롱과 잠입 즉시 해제)
+test_mode_tooltip,"활성화하면 새 상층 구역 게임(또는 불러온 상층 구역 저장 파일)에서 금요일 살롱, 밴더린 저택, 평의회 기록 보관소와 두 건의 절도 의뢰가 즉시 해금됩니다. 보안/기술 키카드와 정보 파일 2개, 3000 크레딧도 지급됩니다. 저장 파일마다 한 번 적용됩니다.\n테스트 단축키(Ctrl 누른 상태): 1 오스카, 2 테오, 3 사샤, 4 엘리너의 후일담—다음 방문을 오늘로 예약; 5 중개인 또는 꽃 공급업자; 6 테스트 키트(기계, 재료, 전지, 5000 크레딧); 7 모드 아이템 종류별 하나씩; 8 모든 모드 기계를 즉시 하룻밤 작동; 9 +10000 크레딧 및 +2000 와일드의 호의.\n일반 플레이에서는 끄세요."
+test_mode_applied,[테스트 모드] 살롱과 잠입 해제됨; 키카드와 정보가 소지품에 추가됨
+talk_line,[{0}]\n{1}
+ui_back,뒤로
+salon_guest_line,· {0} ({1}){2}
+salon_talk_button,{0}와(과) 대화
+rep_council_short,할로
+rep_helios_short,콜
+rep_vanderlin_short,밴더린 경
+rep_rev_short,미라
+intel_sell_button,{0} 정보 → {1}
+commission_offer_button,{0}의 이야기 듣기
+commission_ready,· {0}이(가) 원하는 {1}을(를) 가지고 있습니다.
+commission_deliver_button,{0}에게 건네기
+fence_line,· 미라의 사람들이 훔친 물건을 가져갑니다 (가치의 {0}%).
+roster_entry,[{0}]\n대표: {1} ({2})\n평판: {3} {4} ({5})\n{6}
+heist_room,[{0}]
+heist_options,할 수 있는 일:
+heist_option_line,· {0}{1}
+heist.manor.garden.wall.short,담 넘기
+heist.manor.garden.servants.short,하인 출입문
+heist.manor.leave.short,나가기
+heist.manor.back_hall.short,갤러리로 돌아가기
+heist.manor.hall.painting.short,그림 가져가기
+heist.manor.hall.vase.short,꽃병 가져가기
+heist.manor.hall.to_case.short,진열장으로 이동
+heist.manor.hall.to_study.short,서재로 올라가기
+heist.manor.case.lasers.short,레이저 끄기
+heist.manor.case.smash.short,유리 깨기
+heist.manor.case.take.short,브로치 가져가기
+heist.manor.study.drawer.short,서랍 뜯기
+heist.manor.study.safe.short,금고 열기
+heist.archive.leave.short,나가기
+heist.archive.dock.card.short,카드 찍고 들어가기
+heist.archive.dock.napkin.short,몰래 들어가기
+heist.archive.dock.force.short,문 뜯기
+heist.archive.corridor.sneak.short,카메라 피하기
+heist.archive.corridor.walk.short,그냥 걸어가기
+heist.archive.stacks.ledger.short,장부 찾기
+heist.archive.stacks.chip.short,칩 복사하기
+heist.archive.stacks.vault_card.short,보관고 카드 찍기
+heist.archive.stacks.vault_hack.short,판독기 해킹하기
+heist.archive.vault.report.short,보고서 가져가기
+faction_police_name,경찰
+faction_infiltration_name,혁명 잠입국
+perk_notify_contract,평의회 조달 대금 수령: +{0} 크레딧
+perk_notify_audit,평의회 감사: {0} 크레딧 벌금
+rep_perk_ULF_COUNCIL_STAMP_name,도장 한 번
+rep_perk_ULF_COUNCIL_STAMP_desc,평의회가 신고 몇 건을 묻어 줘요: 매일 아침 증거가 추가로 2 감소해요.
+rep_perk_ULF_COUNCIL_STAMP_flavor,할로 의원은 서류가 책상에 얼마나 오래 놓여 있는지는 언제든 협상할 수 있다고 해요.
+rep_perk_ULF_COUNCIL_CONTRACT_name,시청 계약
+rep_perk_ULF_COUNCIL_CONTRACT_desc,7일마다 평의회 조달 대금 300 크레딧을 받아요.
+rep_perk_ULF_COUNCIL_CONTRACT_flavor,이제 평의회 건물의 낡은 가구와 장비는 우선 당신을 거쳐 가요.
+rep_perk_ULF_COUNCIL_AUDIT_name,정기 감사
+rep_perk_ULF_COUNCIL_AUDIT_desc,7일마다 감사가 진행되어 200 크레딧의 벌금이 부과돼요 (남은 현금만큼만 낼 수도 있어요).
+rep_perk_ULF_COUNCIL_AUDIT_flavor,"감사관들은 언제나 예의 바르지만, 언제나 문제를 찾아내요."
+rep_perk_ULF_COUNCIL_WATCH_name,감시 대상
+rep_perk_ULF_COUNCIL_WATCH_desc,매일 아침 증거가 3 증가해요. 평의회 기록 보관소 잠입 시 발각되거나 붙잡힐 확률이 1.5배예요.
+rep_perk_ULF_COUNCIL_WATCH_flavor,아무도 존재를 인정하지 않는 명단에 당신 이름이 올라 있어요.
+rep_perk_ULF_HELIOS_CLIENTS_name,컨소시엄 고객
+rep_perk_ULF_HELIOS_CLIENTS_desc,헬리오스 직원들이 가게를 찾아와요: 상층 구역 고객의 지출 예산이 10% 늘어요.
+rep_perk_ULF_HELIOS_CLIENTS_flavor,콜 여사가 내부 공지에 당신 가게를 언급했어요. 한 번이면 충분했죠.
+rep_perk_ULF_HELIOS_BOARD_name,이사회 인맥
+rep_perk_ULF_HELIOS_BOARD_desc,컨소시엄 사람들이 들러요: 매일 고객이 한 명 더 와요.
+rep_perk_ULF_HELIOS_BOARD_flavor,임원들은 사적인 물건을 눈치 보지 않고 처분할 장소가 필요해요.
+rep_perk_ULF_HELIOS_PRICEWAR_name,가격 전쟁
+rep_perk_ULF_HELIOS_PRICEWAR_desc,헬리오스가 근처에서 더 싸게 팔며 경쟁해요: 상층 구역 고객의 지출 예산이 10% 줄어요.
+rep_perk_ULF_HELIOS_PRICEWAR_flavor,길 건너 새 위탁 판매점 간판에 익숙한 태양 문양이 있어요.
+rep_perk_ULF_HELIOS_BLACKLIST_name,컨소시엄 블랙리스트
+rep_perk_ULF_HELIOS_BLACKLIST_desc,헬리오스와 연이 있는 사람은 모두 당신을 피해요: 매일 고객이 한 명 줄어요.
+rep_perk_ULF_HELIOS_BLACKLIST_flavor,헬리오스의 모든 자회사가 같은 공지를 받았어요.
+rep_perk_ULF_VANDERLIN_REGULAR_name,살롱 단골
+rep_perk_ULF_VANDERLIN_REGULAR_desc,금요일 살롱에서 대화할 때 평판을 1 더 얻어요.
+rep_perk_ULF_VANDERLIN_REGULAR_flavor,밴더린 경이 당신 이름을 알아요. 이곳에선 그걸로 충분해요.
+rep_perk_ULF_VANDERLIN_INTRO_name,가문의 소개
+rep_perk_ULF_VANDERLIN_INTRO_desc,매일 부유한 수집가가 한 명 더 방문할 확률이 25%예요.
+rep_perk_ULF_VANDERLIN_INTRO_flavor,밴더린 가문의 친구는 곧 우리의 친구예요.
+rep_perk_ULF_VANDERLIN_COLD_name,냉담한 태도
+rep_perk_ULF_VANDERLIN_COLD_desc,금요일 살롱에서 대화할 때 평판을 절반만 얻어요.
+rep_perk_ULF_VANDERLIN_COLD_flavor,당신이 다가갈 때마다 모두 다른 급한 일이 생각난 척해요.
+rep_perk_ULF_VANDERLIN_FEUD_name,가문의 불화
+rep_perk_ULF_VANDERLIN_FEUD_desc,밴더린 저택은 경계 중입니다. 그곳에서 도둑질하면 발각되거나 붙잡힐 확률이 1.5배가 됩니다.
+rep_perk_ULF_VANDERLIN_FEUD_flavor,저택에 새 문지기가 왔습니다. 낯선 얼굴을 하나하나 살핍니다.
+heist_state_clean,상태: 아무도 당신을 보지 못했습니다
+heist_state_spotted,상태: [발각됨] 이제부터 모든 행동의 위험이 두 배가 됩니다
+heist_state_lockdown,삼엄한 경비: 위험 x1.5
+heist_spotted,"[누군가 당신을 봤습니다!] 현장에서 붙잡히지는 않았지만, 이제부터 모든 행동이 더 위험해집니다."
+heist_luck_spotted,"[하마터면 들킬 뻔했습니다. 다행히, 아무도 눈치채지 못했습니다.]"
+heist_luck_caught,"[경비가 바로 옆을 지나갑니다. 다행히, 뒤돌아보지 않습니다.]"
+heist_escaped_spotted,"물건 {0}개를 들고 빠져나왔지만, 누군가 당신을 봤습니다. 주인들이 당신을 의심할 것이고, 경찰에도 신고가 들어갈 겁니다."
+heist_escaped_empty_spotted,"빈손으로 나왔지만, 누군가 당신을 봤습니다. 주인들은 당신을 기억할 겁니다."
+heist_nothing_left,가져갈 만한 물건이 남아 있지 않습니다. 전부 가져갔습니다.
+heist_lockdown_note,최근 이곳에서 도난 사건이 있었습니다. 경비가 삼엄합니다({0}일 동안 위험 x1.5).
+heist.manor.scout_needed,"아직 저택의 사정을 모릅니다. 어느 문이 잠기지 않는지, 야간 경비가 언제 교대하는지 말입니다.\n· 밴더린 가문에 대한 정보가 있다면 사전 답사를 할 수 있습니다(금요일 살롱에서 헬리오스 측 사람들을 떠보세요).\n· 아니면 하인에게 {0} 크레딧을 주면 됩니다."
+heist.manor.scout_intel.short,정보로 사전 답사하기
+heist.manor.scout_bribe.short,하인 매수하기({0})
+heist.manor.scout_intel.done,"정보를 따라, 저택을 두 바퀴 돌며 경비 교대 시간과 하인용 출입구를 확인합니다. 이제 들어갈 준비가 됐습니다."
+heist.manor.scout_bribe.done,주방 보조가 돈을 받고 교대 시간과 뒷문 암호를 적은 냅킨을 건넵니다. 이제 들어갈 준비가 됐습니다.
+ch2_days_left,감사 보고서는 아직 당신에게 있습니다. 경찰이 가게를 수색하기까지 {0}일 남았습니다.
+ch2_kai_1,좋은 아침이에요. 어젯밤 누군가 평의회 기록 보관소에 침입했다는 소식을 들었어요. 상층 전체가 그 얘기로 떠들썩해요.
+ch2_kai_2,"진정하세요. 전 경찰이 아니에요. 하층에서 갓 올라온 전당포 주인이 왜 그 농장 사건에 그토록 관심이 많은지 궁금할 뿐이에요."
+ch2_kai_2_fragment,"진정하세요. 당신이 준 그 페이지는 아직 갖고 있어요. 오늘 아침엔 나머지가 누구 손에 들어갔을지 궁금해지더군요."
+ch2_kai_3,"이렇게 하죠. 그게 당신 손에 있으면 폭탄이지만, 제 손에 있으면 수표예요. 할로와 콜은 그 일이 조용히 사라지는 대가로 큰돈을 낼 거예요."
+ch2_kai_4,"당신은 2500크레딧을 받고, 제 사촌 쪽에서 호의도 하나 얻는 거예요. 당신이 한 일인지는 아무도 모를 거예요. 농장 주인은 어차피 감옥에 갈 운명이었으니까요."
+ch2_kai_ask,그래서요? 넘기실 건가요?
+ch2_kai2_1,아직도 갖고 계세요? 평의회에서 기록 보관소의 출입 기록을 조사하기 시작했다더군요.
+ch2_kai2_2,제 제안은 여전해요. 2500크레딧에 호의 하나예요. 이틀만 더 지나면 팔 기회조차 없을 거예요.
+ch2_kai2_ask,마지막으로 묻겠습니다. 넘기실 건가요?
+ch2_kai_give,가져가요.
+ch2_kai_give_1,"현명하시네요. 돈은 내일 들어올 거고, 그 호의는 기억해 둘게요."
+ch2_kai_give_2,"그리고 오늘 우리는 만난 적 없는 거예요. 이곳 상층에서는 기억력이 나쁜 사람이 오래 살죠."
+ch2_kai_decline,생각해 봐야겠어요.
+ch2_kai_decline_1,마음대로 하세요. 며칠 뒤에 다시 오죠. 그때도 그게 경찰의 증거물 봉투가 아니라 당신 손에 있길 바라요.
+ch2_kai2_decline_1,좋아요. 제 사촌만큼이나 고집이 세시군요. 행운을 빌게요.
+ch2_salon_hint,감사 보고서는 아직 당신에게 있습니다(경찰 수색까지 {0}일). 오늘 밤 이곳에 그걸 쓸 만한 사람이 둘 있습니다.
+ch2_salon_mira,보고서: 미라 만나기
+ch2_salon_vanderlin,보고서: 영주 만나기
+ch2_not_yet,생각해 봐야겠어요.
+ch2_mira_1,(미라가 당신을 식료품 저장실로 데려가 문을 닫습니다.) 꺼내 온 거예요? 기록 보관소 사본을요?
+ch2_mira_2,"하층에는 지하 신문이 있고, 이곳 상층에는 수백 명의 웨이터와, 운전기사, 청소부가 있어요. 내일 아침이면 모든 식탁에 사본이 한 부씩 놓일 겁니다."
+ch2_mira_3,"할로는 몰락하고, 컨소시엄 주가는 바닥을 칠 겁니다. 하지만 경찰이 이곳을 샅샅이 뒤질 테니 준비하세요."
+ch2_mira_ask,우리에게 주시겠어요?
+ch2_mira_give,잠입국에 넘긴다.
+ch2_mira_give_reply,"고마워요. 오늘부터 당신도 우리 편이에요, 원하든 원하지 않든요. 조심하세요. 내일은 거리가 소란스러울 테니까요."
+ch2_mira_wait_reply,"너무 오래 기다리지 마세요. 그걸 쥐고 있는 하루하루, 위험은 더 커지니까요."
+ch2_vanderlin_1,"(영주가 손짓해 당신을 테라스로 부릅니다.) 젊은이, 기록 보관소에서 뭔가 사라졌다고 들었네. 자네 표정을 보니, 주머니 속에 있는 듯하군."
+ch2_vanderlin_2,"헬리오스의 벼락출세한 자들은 파스텔의 씨앗을 통해 10년 동안 이 정거장의 피를 빨아먹었네. 평의회는 다음 달에 청문회를 열 것이고, 나는 이것을 모든 평의원 앞에 내놓을 걸세."
+ch2_vanderlin_3,"할로는 사임하고, 컨소시엄은 농장을 잃고, 그 가엾은 여인은 풀려날 걸세. 자네에게 후하게 보상하겠네, 밴더린 가문도 자네를 기억할 테고."
+ch2_vanderlin_ask,내게 맡기겠나?
+ch2_vanderlin_give,영주에게 넘긴다.
+ch2_vanderlin_give_reply,"현명한 선택이네. 내 집사가 내일 자네 가게로 찾아갈 걸세. 농장은, 누군가 인수해야겠지."
+ch2_vanderlin_wait_reply,"잘 생각해 보게. 하지만 너무 오래 기다리게 하진 말게, 젊은이."
+freight_title,화물 승강기
+freight_panel,"상층과 하층을 잇는 화물 통로입니다. 매일 밤 수 톤의 물자가 이곳을 오르내리고, 가끔은 사람도 오갑니다."
+freight_done_tonight,오늘 밤은 이미 한 번 이동했습니다.
+freight_no_reason,지금은 내려갈 이유가 없습니다.
+freight_begin,몰래 내려가기
+freight_cost," (발각 {0}%, 체포 {1}%)"
+freight_cost_money," (비용 {0}크레딧, 위험 없음)"
+freight_turn_back,돌아가기
+freight_spotted,"[누군가 당신을 알아챘습니다!] 제지당하진 않았지만, 다음 검문소는 더 위험해집니다."
+freight.checkpoint,상층 검문소
+freight.checkpoint.desc,승강기 옆 초소에 빨간불이 켜져 있습니다. 검문관은 화물 목록을 펼쳐 놓고 커피를 마십니다. 차단기 너머에는 아래로 내려가는 승강장이 있습니다.
+freight.checkpoint.crate,반출 화물 상자에 숨기
+freight.checkpoint.crate.short,상자에 숨기
+freight.checkpoint.crate.done,승강장이 삐걱거리며 내려가는 동안 뉴트리프루트 상자 사이에 몸을 웅크립니다.
+freight.checkpoint.card,"기술부 카드를 긁고, 정비 요원인 척한다"
+freight.checkpoint.card.short,기술부 카드 긁기
+freight.checkpoint.card.done,"판독기에 초록불이 깜박입니다. 검문관이 힐끗 올려다보더니, 다시 커피로 시선을 돌립니다."
+freight.checkpoint.bribe,검문관에게 돈 찔러 주기
+freight.checkpoint.bribe.short,매수하기
+freight.checkpoint.bribe.done,"검문관이 칩을 주머니에 넣고 차단기를 올립니다. ""10분 뒤 빈 차가 간다."""
+freight.gate,하층 출입문
+freight.gate.desc,"승강장이 하층에 멈춥니다. 공기가 뜨겁고 습해지고, 증기 사이로 네온 불빛이 깜박입니다. 출구 옆에서 경비 둘이 담배를 피우고 있습니다."
+freight.gate.shift,야간 근무조에 섞이기
+freight.gate.shift.short,노동자들과 합류하기
+freight.gate.shift.done,"고개를 숙인 채, 기름때 묻은 노동자 무리에 섞여 종종걸음으로 나갑니다."
+freight.gate.duct,정비용 덕트로 기어가기
+freight.gate.duct.short,덕트 이용하기
+freight.gate.duct.done,덕트는 좁고 어둡습니다. 한참을 기어간 끝에 배수구로 빠져나옵니다.
+freight_caught,"누군가 당신의 어깨를 붙잡습니다. ""이봐. 여기서 뭐 하는 거야? 신분증."""
+freight_caught_bribe,돈으로 매수한다({0}크레딧)
+freight_caught_bribe_result,"경비가 칩의 무게를 가늠하더니 비켜섭니다. ""가. 난 널 본 적 없어."""
+freight_caught_back,사실대로 말하고 돌려보내진다
+freight_caught_back_result,"승강기로 끌려가고 이름이 기록에 올라갑니다. 보고서는 옷 안감에 숨긴 채였지만, 경찰 기록에 당신에 대한 내용이 하나 더 추가됐습니다."
+ch2_el_0,"서류에 적힌 주소를 따라, 배급소 맞은편의 셋방을 찾아갑니다. 문을 세 번 두드립니다. 문이 살짝 열립니다."
+ch2_el_1,"누구세요? 집세 때문에 온 거라면, 월말에 준다고 했잖아요."
+ch2_el_2,감사 보고서요? 우리 어머니 사건의? 이걸 기록 보관소에서 훔쳤어요?
+ch2_el_3,"(그녀가 떨리는 손으로, 한 장씩 넘깁니다.) 파스텔. 역시 그놈들이었어."
+ch2_el_ask,이걸 저한테 주겠다고요?
+ch2_el_give,그녀에게 넘긴다.
+ch2_el_give_1,"이 아래에는 신문사가 있고, 돈 없는 사람들의 사건을 맡아 주는 변호사도 있어요. 이게 있으면, 사건을 다시 수사해야만 할 거예요."
+ch2_el_give_2,"고마워요. 어떻게 갚아야 할지 모르겠네요. 어머니가 나오시면, 올라가서 당신을 찾아갈게요."
+ch2_el_wait,"이해해요. 위험하니까요. 마음이 바뀌면, 제가 어디 사는지 알잖아요."
+ch2_ep_kai_1,"좋은 아침. 돈은 계좌에 넣어 뒀어요, 한 푼도 빠짐없이."
+ch2_ep_kai_2,"할로는 협조적이었어요. 콜은 더 그랬고요. 청문회는 예정대로 열릴 거예요, 그리고 판결은 놀랍지 않을 거예요."
+ch2_ep_kai_3,농장 주인은요? 아직 수감 중이에요. 누군가는 감옥에 가야죠. 여긴 원래 그런 식으로 돌아가요.
+ch2_ep_kai_4,그런 눈으로 보지 마세요. 오늘 당신은 자기 자신과 와일드 가문을 도왔어요. 앞으로 우리 둘이 함께할 거래가 많을 겁니다.
+ch2_notify_kai,"카이의 지급액: +{0} 크레딧, 와일드의 호의 +{1}"
+ch2_ep_mira_1,(미라는 제복을 입지 않았다. 구겨진 신문을 계산대에 내려놓는다.) 봤죠? 1면이에요.
+ch2_ep_mira_2,오늘 상층 구역 웨이터 절반이 출근하지 않았어. 평의회가 할로를 ‘조사 중’이라는 이유로 직무 정지시켰대. 컨소시엄 주가는 30퍼센트나 떨어졌고.
+ch2_ep_mira_3,"농장 주인의 심리가 연기됐어. 아직 풀려난 건 아니지만, 이제 정거장 전체가 지켜보고 있어. 그들도 함부로 건드리지 못할 거야."
+ch2_ep_mira_4,경찰이 집집마다 찾아다니고 있어. 곧 네게도 올 거야. 우리도 지켜볼게. 넌 혼자가 아니야.
+ch2_ep_vanderlin_1,"(다름 아닌 밴더린 경이다. 그는 골동품을 살피듯 당신의 작은 가게를 둘러본다.) 집사를 보내려 했네, 하지만 직접 오는 편이 낫겠더군."
+ch2_ep_vanderlin_2,"어제 오후 내가 그 보고서를 평의회에서 낭독했네. 할로는 즉시 사임했고, 컨소시엄에는 농장을 반환하라는 명령이 내려졌지."
+ch2_ep_vanderlin_3,그 부인은 오늘 아침 석방됐네. 전례에 따라 하층 구역에서 살아야 하지. 농장은 당분간 밴더린 가문이 신탁 관리하네. 누군가 인수해야 할 걸세.
+ch2_ep_vanderlin_4,"자네 몫일세. 오늘부터 밴더린 가문은 자네에게 신세를 졌네. 이곳에선, 그 빚이 돈보다 값지지."
+ch2_notify_vanderlin,경의 사례금: +{0} 크레딧
+ch2_ep_eleanor_1,안녕하세요! 저예요. 법원에서 청문회에 올라올 수 있도록 임시 출입증을 내줬어요.
+ch2_ep_eleanor_2,"신문에 그 보고서가 실렸어요. 변호사 말로는 원본이 있으니, 법원이 사건을 재심해야 한대요. 엄마는 재심을 기다리며 다음 주에 풀려나요!"
+ch2_ep_eleanor_3,"그런데 파스텔 쪽 사람들이 원본을 가져간 사람을 찾느라 며칠째 신문사 주변을 맴돌고 있어요, 조심하세요."
+ch2_ep_eleanor_4,이건 그 모든 일이 있기 전에 엄마 생신 선물로 산 거예요. 도저히 팔 수가 없었어요.
+ch2_ep_eleanor_5,이건 당신 거예요. 다른 누구도 하지 않았을 일을 해줘서 고마워요.
+ch2_ep_lost_1,(경찰관 둘을 뒤에 대동한 빅터 할로다.) 안녕하십니까. 정기 점검입니다. 영업에 지장을 주진 않을 겁니다.
+ch2_ep_lost_2,(경찰관들이 가게를 뒤집어 놓고 마침내 상자에서 원본을 찾아낸다. 할로는 눈길도 주지 않고 서류 가방에 넣는다.)
+ch2_ep_lost_3,"전당포에서 평의회 문서가 도난품으로 발견되다니, 참 우연이군요. 이번엔 ‘주웠다’고 믿어드리죠. 다음은 없습니다."
+ch2_ep_lost_4,청문회는 다음 달에 열립니다. 영업 잘하시길 바랍니다.
+ch2_end_kai,
+ch2_end_mira,
+ch2_end_vanderlin,
+ch2_end_eleanor,
+ch2_end_lost,
+ch2_complete,
+hint_backroom,뒷방에서 휴식
+uc.consignment.name,위탁 매입상
+uc.consignment.1,안녕하세요. 산책로 끝에 있는 위탁 매장에서 매입하고 있습니다.
+uc.consignment.2,"밀수품만 아니면 뭐든 사요, 상태가 괜찮기만 하면요."
+uc.consignment.3,"시세보다 {0}% 낮은 가격이에요, 소매 마진은 붙지 않아요."
+uc.consignment.4,오늘은 {1}크레딧을 가져왔어요.
+uc.resident.name,상층 구역 주민
+uc.resident.1,"안녕하세요. 요리사가 휴가 중이라, 제가 먹을 걸 사러 왔어요."
+uc.resident.2,"괜찮은 걸로 주세요, 간식, 음료, 와인, 뭐든요."
+uc.socialite.name,사교계 인사
+uc.socialite.1,"어머, 이 가게엔 처음 와봐요."
+uc.socialite.2,"오늘 저녁 만찬이 있는데, 아직 사람들에게 깊은 인상을 줄 만한 걸 못 골랐어요."
+uc.socialite.3,"향수, 피부 관리 제품, 예쁜 소품 같은 거요. 뭐가 있는지 보여주세요."
+uc.bodyguard.name,개인 경호원
+uc.bodyguard.1,고용주가 요즘 원한을 산 사람이 많습니다.
+uc.bodyguard.2,"무기, 방호구, 탄약을 보충해야 합니다."
+uc.bodyguard.3,돈은 문제가 아닙니다. 믿을 수 있느냐가 중요하죠.
+uc.charity.name,자선 갈라 구매 담당자
+uc.charity.1,"안녕하세요, 다음 주 자선 갈라의 구매를 맡고 있습니다."
+uc.charity.2,물량이 꽤 필요합니다. 음식과 음료요.
+uc.charity.3,"재단에서 비용을 대니, 편하게 가격을 제시하세요."
+uc.pleasure.name,유흥을 찾는 이
+uc.pleasure.1,"가게 주인, 잠깐 따로 이야기합시다."
+uc.pleasure.2,여기서... 그다지 떳떳하지 않은 즐길 거리를 구할 수 있다고 들었소.
+uc.pleasure.3,"담배, 술, 뭐든 상관없소. 아내만 모르면 돼."
+uc.luxury.name,안목 있는 쇼핑객
+uc.luxury.1,오늘 참 따분하군요. 구경이나 해볼까 했어요.
+uc.luxury.2,가장 좋은 걸 보여주세요.
+uc.engineer.name,기술자
+uc.engineer.1,안녕하세요. 링 정비소에서 일합니다.
+uc.engineer.2,교체한 모듈과 계측기는 아직 멀쩡해요. 버리긴 아깝죠. 싸게 드릴게요.
+uc.engineer.3,"필요 없는 기계 부품이 있다면, 저도 사겠습니다."
+uc.doctor.name,개인 주치의
+uc.doctor.1,안녕하십니까. 개인 의원에서 진료하고 있습니다.
+uc.doctor.2,의원에서 거래처를 바꾸면서 이 재고를 처분해야 합니다.
+uc.doctor.3,"모두 정식 경로로 들여온 물품입니다, 서류도 갖췄고요."
+uc.researcher.name,연구원
+uc.researcher.1,"안녕하세요, 헬리오스 연구소의 연구원입니다."
+uc.researcher.2,연구실 장비를 교체하고 있어요. 쓰던 시약과 유리 기구를 가져가셔도 됩니다.
+uc.researcher.3,"화학 물품이 있으시면, 시세대로 매입할게요."
+uc.moving.name,이사하는 주민
+uc.moving.1,다음 달 링 반대편으로 이사하는데 새집이 더 작아요.
+uc.moving.2,필요 없는 건 전부 가져왔어요. 한번 보세요.
+uc.moving.3,"아, 괜찮은 생활용품이 있다면, 저도 몇 개 사겠습니다."
+uc.estate.name,유산 정리 대리인
+uc.estate.1,안녕하세요. 작고하신 신사의 유품 처분을 의뢰받았습니다.
+uc.estate.2,"상속인들은 현금만 원해서, 이 물건들은 금방 팔릴 겁니다."
+uc.estate.3,모든 물건이 유언장에 기록돼 있습니다. 출처도 확실합니다.
+uc.auction.name,경매장 직원
+uc.auction.1,어젯밤 경매에서 몇몇 물건이 유찰됐습니다.
+uc.auction.2,창고에는 물건을 남겨두지 않습니다. 묶음으로 싸게 처분하는 게 원칙이죠.
+uc.auction.3,상자째 가져가시면 가격을 얘기해보죠.
+uc.water.name,고급 생수 판매원
+uc.water.1,"안녕하세요, ‘클리어스프링’에서 배달을 왔습니다."
+uc.water.2,이 생수는 빙층 깊은 곳에서 길어 올립니다. 병마다 검사를 거치죠.
+uc.water.3,정수 샘플도 몇 개 가져왔습니다.
+uc.collector.name,수집가
+uc.collector.1,안녕하세요. 수집을 하고 있습니다.
+uc.collector.2,"수집실이 가득 차서, 몇 점은 처분해야겠어요."
+uc.collector.3,모두 훌륭한 물건입니다. 알아보는 사람은 알아볼 겁니다.
+uc.fallen.name,몰락한 귀족
+uc.fallen.1,"한 번 잘못된 거래로, 하룻밤 사이에 모든 걸 잃었어요."
+uc.fallen.2,"이게 제가 가진 마지막 물건들이에요. 제발, 정당한 값을 쳐주세요."
+opt_section,상층 구역
+opt_store_theme,상점 스타일
+opt_store_theme_tip,상층 구역 플레이에서 상점에 적용할 미술 양식입니다. 언제든 변경할 수 있습니다.
+theme_lux,검정과 금색 (고급 부티크)
+theme_cyber,네온(파란 사이버펑크)
+theme_retro,복고풍(상층 구역의 옛 상점 외관)
+ul_kai_lease_title,임대료 납부 유예
+ul_kai_lease_desc,"카이가 집주인의 변호사와 술 한잔하며 얘기해 둬요. 임대료를 한 번 놓쳐도, 집주인이 다음 주에 합산해 내도록 해 줄 거예요. 일회성 호의이며, 사용 후 {0}일이 지나면 다시 이용할 수 있어요."
+ul_kai_police_title,경찰서에 말 한마디
+ul_kai_police_desc,"경찰서에서 카이에게 신세를 진 사람이 한마디 해 둬요. 원래라면 감옥에 갈 밀수품이 적발돼도 경고만 받고 끝나요. 일회성 호의이며, {0}일 후 다시 이용할 수 있어요."
+ul_kai_informant_title,내부 정보망
+ul_kai_informant_desc,카이에게는 경찰서에 ‘동료’가 있어요. 매일 밤 비용을 내면 정기 단속 하루 전에 소식을 들을 수 있어요. 기습 단속은 막아 주지 못해요.
+ul_kai_fixer_i_title,해결사
+ul_kai_fixer_i_desc,"카이의 해결사를 고용해요. 매일 밤 비용을 내면 경찰이 아직 수거하지 않은 증거를 치우고 목격자를 입막음해, 의심도를 더 빠르게 낮춰 줘요."
+ul_kai_fixer_ii_title,숙련 해결사
+ul_kai_fixer_ii_desc,카이가 더 경험 많은 사람을 보내요. 증거를 더 빨리 치우고 매일 밤 의심도를 더 많이 낮춰 줘요. 야간 비용도 더 올라요.
+ul_kai_fixer_iii_title,카이의 직속 인력
+ul_kai_fixer_iii_desc,"카이가 가장 믿는 사람들을 가게에 보내요. 목격자는 입을 다물고, 증거는 사라지며, 의심도가 가장 빠르게 낮아져요. 야간 비용도 가장 비싸요."
+ul_kai_records_title,기록 정리
+ul_kai_records_desc,카이가 평의회 기록 보관소에 있는 지인에게 부탁해 서류를 ‘정리’해요. 수집된 증거가 모두 폐기되고 진행 중인 수사도 조용히 끝나요. 재사용 대기 시간은 {0}일이에요.
+npc_oscar_name,오스카 밴더린
+npc_asset_name,밴더린 가문 자산 담당관
+npc_kastor_name,캐스터 가문 도박장 딜러
+npc_clerk_name,평의회 위원
+story_notify_bounty,현상금 +{0} 크레딧
+story_notify_paid,{0} 크레딧 지불
+story_notify_got,{0} 크레딧 받음
+oscar.1.1,안녕! 전망대에서 네 가게 간판이 보이더라.
+oscar.1.2,"오스카 밴더린이야. 그래, 그 밴더린 가문 맞아."
+oscar.1.3,가족들이 ‘재정 규율’을 지켜야 한대. 그러니까 내 돈줄을 끊었다는 거지.
+oscar.1.4,이것 좀 봐. 정거장 건설 당시의 진품이야. 증조할아버지가 수송선에서 직접 들고 내리셨대.
+oscar.1.5,얼마면 살래? 너무 후려치진 말고.
+oscar.1.accept,잘 생각했어!
+oscar.1.done,다음 주에 더 가져올게.
+oscar.2.1,작은 부탁 하나만 들어줘.
+oscar.2.2,다음 주에 전망대에서 파티를 열 거야. 건국 명문가 자제들이 다 올 거고.
+oscar.2.3,장소 대여료가 조금 모자라.
+oscar.2.4,{0} 크레딧이야. 열흘 뒤에 두 배로 갚을게. 밴더린 이름을 걸고 약속할게.
+oscar.2.c_full,[{0} 크레딧 빌려주기]
+oscar.2.c_half,[{0} 크레딧만 빌려주기]
+oscar.2.c_no,[거절]
+oscar.2.yes,이 정거장에서 내 편은 너뿐이야!
+oscar.2.no,좋아. 캐스터 가문에 물어볼게. 그 집 도박장엔 늘 돈이 있으니까.
+oscar.3.1,빤히 보지 마. 다크서클 심한 거 알아.
+oscar.3.2,파티는 대성공이었어. 경비가 날 쫓아낼 정도로 말이야.
+oscar.3.3,우선 일부야. 나머지도 곧 갚을게.
+oscar.3.4,물건을 더 가져왔어. 이번엔 전부 진품이야. 거의 다.
+oscar.4.1,이걸 맡아 줘.
+oscar.4.2,안에 든 게 뭔지 묻지 마. 열어 보지도 말고. 밴더린 사람이 아니라는 걸 알아볼 거야.
+oscar.4.3,할아버지가 가문의 물건을 목록으로 만들기 시작했어.
+oscar.4.4,내 침대 밑보다 네가 맡아 주는 게 안전해. 보관료도 낼게. 난 원칙이 있거든.
+oscar.4.c_yes,[상자 맡아 주기]
+oscar.4.c_no,[거절]
+oscar.4.yes,역시 널 믿길 잘했어. 잃어버리지 마.
+oscar.4.no,그럼 다른 방법을 찾아볼게.
+oscar.5.1,결심했어. 이제 제대로 된 일을 해 볼 거야.
+oscar.5.2,여기 사는 사람 중에 진짜 흙을 만져 본 적 없는 사람이 얼마나 많은지 알아?
+oscar.5.3,진짜 흙이야! 건국 가문 온실에서 나온 거라고! 화분 하나에 천 크레딧이야!
+oscar.5.4,"내가 인맥을 대고, 네가 돈을 조금 대. 반반씩 나누자. 아니, 네가 60 내가 40. 좋아, 70 대 30으로 하자."
+oscar.5.c_yes,[{0} 크레딧 투자하기]
+oscar.5.c_no,[넘기기]
+oscar.5.yes,동업자네! 돈 셀 준비나 해!
+oscar.5.no,후회할걸. 진짜 흙이라고.
+asset.1,"안녕하십니까. 저는 밴더린 가문의 자산 담당관이며, 오거스트 님을 보좌하고 있습니다."
+asset.2,오스카 님께서 사흘째 가문 시스템에 접속하지 않으셨습니다.
+asset.3,가문의 재산 열쇠도 금고에서 사라졌습니다.
+asset.4,"가문 문장이 있는 물건은 오거스트 님께서, 적정한 가격에 되사실 겁니다."
+asset.5,"오스카 님을 보시면, 집으로 돌아오시라고 전해 주십시오. 오거스트 님께서 화나신 건 아닙니다. 아주 많이는요."
+asset.c_goods,[가게에 있는 밴더린 가문의 물건 넘기기]
+asset.goods,장부와 모두 일치합니다. 감사합니다.
+asset.more,다른 물건도 있습니까?
+asset.c_case,[잠긴 가문 상자 넘기기]
+asset.case,이게 맞군요. 오거스트 님께서 기억해 두실 겁니다.
+asset.c_none,[본 적 없습니다]
+asset.none,"실례했습니다. 소식이 있으면, 밴더린 가문에 연락해 주십시오."
+oscar.7r.1,돌려줬어?
+oscar.7r.2,그래도 캐스터 가문 손에 들어가진 않았네.
+oscar.7r.3,이제 집에 가서 잔소리 들어야겠네. 네게 진 빚은 잊지 않았어.
+oscar.7.1,"상자 아직 갖고 있지, 그렇지? 좋아."
+oscar.7.2,솔직히 말할게. 그건 가문의 재산 열쇠야.
+oscar.7.3,"그 열쇠가 있으면, 우리 가문의 물과 공기 할당량을 넘길 수 있어."
+oscar.7.4,캐스터 가문 도박장 딜러에게 큰돈을 빚졌어. 그들이 원하는 게 그 열쇠야.
+oscar.7.5,"집에는 돌아갈 수 없고, 열쇠를 넘길 수도 없어. 네가 나보다 현명하잖아. 누구에게 넘길까?"
+oscar.7.c_a,[밴더린 가문에 돌려주기]
+oscar.7.c_b,[캐스터 가문 딜러에게 팔기]
+oscar.7.c_c,[공화국 당국에 넘기기]
+oscar.7.c_d,[아무에게도 주지 않기]
+oscar.7.bye,그래. 그렇게 하자. 미워하진 마.
+oscar.7n.1,캐스터 가문 딜러에게 전당 잡혔어.
+oscar.7n.2,이제 되찾을 수 없어. 할아버지가 날 죽이려 들 거야.
+oscar.7n.3,그 사람들에게 말할 거야?
+oscar.7n.c_tell,[밴더린 가문 자산 담당관에게 알리기]
+oscar.7n.tell,네 말이 맞아. 집에 가야겠어.
+oscar.7n.c_quiet,[모르는 척하기]
+oscar.7n.quiet,고마워. 한동안 몸을 사릴게.
+oscar.ra.1,오거스트 님께서 밴더린 가문을 위해 돈보다 더 중요한 것을 지켜 주셨다고 하셨습니다.
+oscar.ral.1,오스카 님께서 귀가하셨습니다. 오거스트 님께서 당신을 원칙 있는 분이라 하셨습니다.
+oscar.ra.2,"오스카 님께 진 빚이 무엇이든, 가문에서 갚겠습니다. 그리고 앞으로 매주, 밴더린 가문은 당신을 기억할 것입니다."
+oscar.rb.1,열쇠를 가져가겠습니다. 캐스터 님께서 안부를 전하셨습니다.
+oscar.rb.2,캐스터 님께서 흙 화분 지분을 원가로 사셨습니다. 빚을 남겨 두는 걸 싫어하시거든요.
+oscar.rc.1,열쇠 하나면 온 가족이 얌전해지죠. 평의회는 당신을 기억할 거예요.
+oscar.rc.2,"또한, 젊은 남자가 이걸 전해 달라고 했어요. 고맙다고 전해 달라더군요."
+oscar.rd.notify,잠긴 가족 보관함이 주인을 인식하지 못해 영구적으로 잠겨 버렸습니다. 밴더린 가문이 이 일을 알게 됐습니다.
+oscar.gift.notify,건국 가문의 진품 하나가 카운터에 나타났습니다.
+oscar.arrest.c1,잠깐! 난 밴더린이야!
+oscar.arrest.s1,알고 있다. 네 할아버지는 이미 경찰서에서 기다리고 계셔.
+perfume_unlocked_notify,해제됨: 신경 향 합성. 향수 작업대가 카운터에 놓였습니다.
+eleanor_ep.kai.1,법원에서 증인 출입증을 줬어요. 다음 주면 만료돼요.
+eleanor_ep.kai.2,카이 와일드 쪽 사람들은 말이 많아요. 원본이 어디로 갔는지 알아요.
+eleanor_ep.kai.3,당신을 용서하지 않아요.
+eleanor_ep.kai.4,온실이 압류될 참이에요. 이건 어머니가 가장 아끼던 꽃들이죠. 값을 불러요. 팔고 후회하게 만들진 말아요.
+eleanor_ep.mira.1,법원에서 증인 출입증을 줬어요. 다음 주면 만료돼요.
+eleanor_ep.mira.2,파업 닷새째. 온실에 물 주는 사람이 없어요. 헬리오스가 당황하고 있어요.
+eleanor_ep.mira.3,어머니는 아직 감옥에 있어요. 하지만 이번만큼은 내가 옳은 편에 선 것 같아요.
+eleanor_ep.mira.4,정원사들이 이걸 팔아 달래요. 수익금은 파업 기금으로 들어가요.
+eleanor_ep.vanderlin.1,법원에서 어머니와 제게 증인 출입증을 줬어요. 다음 주면 만료돼요.
+eleanor_ep.vanderlin.2,"어머니가 풀려났어요. 하층 구역으로 추방됐지만, 풀려났어요. 고맙다고 전해 달래요."
+eleanor_ep.vanderlin.3,농장은 이제 밴더린 가문의 소유예요. 이 꽃들은 우리가 가져올 수 있었던 전부예요.
+eleanor_ep.vanderlin.4,가져가세요. 적당하다고 생각하는 만큼 내세요.
+eleanor_ep.eleanor.1,법원에서 증인 출입증을 줬어요. 재심이 열릴 거예요.
+eleanor_ep.eleanor.2,"파스텔 쪽 사람들이 원본을 누가 유출했는지 묻고 있어요. 누가 물으면, 아무것도 모른다고 해요."
+eleanor_ep.eleanor.3,온실에 남은 마지막 꽃들이에요. 변호사 비용이 필요해요.
+eleanor_ep.lost.1,법원에서 증인 출입증을 줬어요. 증언할 일이 남아 있는지는 모르겠지만요.
+eleanor_ep.lost.2,원본은 사라졌어요. 그래도 심리는 예정대로 열려요.
+eleanor_ep.lost.3,변호사 비용이 필요해요. 이 꽃들의 가치만큼 내 주세요.
+eleanor_ep.accept,고마워요.
+eleanor_ep.done,며칠 뒤에 다시 올게요.
+eleanor_ep.kai.deal,"생각해 봤어요. 내겐 가게가 필요하고, 당신에겐 꽃이 필요하죠. 함께 일해요. 용서한 건 아니에요."
+eleanor_ep.mira.deal,"파업 중인 정원사들이 협동조합을 만들었어요. 꽃을, 싸게 공급할게요. 함께 일해요."
+eleanor_ep.vanderlin.deal,밴더린 신탁 농장은 꽃을 사 줄 사람이 필요해요. 어머니가 당신과 얘기하래요. 우리보다 당신 말을 더 잘 들어줄 거예요.
+eleanor_ep.eleanor.deal,재심에서 이겼어요. 어머니는 상층 구역에 남게 됐어요. 2주마다 꽃을 가져올게요. 최저가로요.
+eleanor_ep.lost.deal,하층 구역으로 돌아갈게요. 가져가세요. 이제 빚은 없어요.
+eleanor_ep.notes,이건 어머니의 향수 기록이에요. 어머니는 향이 장부보다 솔직하다고 하곤 했죠.
+eleanor_ep.desk,(작은 향수 작업대를 카운터에 놓는다.) 이게 필요할 거예요.
+eleanor_ep.arrest.c1,법원 증인 출입증이 있어요. 직접 확인하세요.
+eleanor_ep.arrest.s1,"서류에 문제 없습니다. 소란을 피워 죄송합니다, 아가씨."
+eleanor_ep.arrest.s2,"(엘리너가 당신을 바라보고, 아무 말 없이, 걸어 나간다.)"
+item_ul_wood_carving_name,천연 목각품
+item_ul_wood_carving_flavor,진짜 나무로 깎은 작은 새. 이 역의 나무 대부분은 건국 가문 사람들의 거실에 놓여 있다.
+item_ul_stone_weight_name,천연석 문진
+item_ul_stone_weight_flavor,초록 맥이 흐르는 천연석. 종이를 누르려고 어느 행성에서 여기까지 실어 왔다.
+item_ul_true_wine_name,진짜 빈티지 와인
+item_ul_true_wine_flavor,"진짜 온실 포도로 만든 와인. 합성 와인과 달리, 해마다 맛이 다르다."
+item_ul_seed_jar_name,‘지구 씨앗 병’
+item_ul_seed_jar_flavor,라벨에는 ‘역 건설 당시의 원본’이라 적혀 있다. 뚜껑은 인쇄된 플라스틱이다. 병은 비어 있다.
+item_ul_family_case_name,잠긴 가족 보관함
+item_ul_family_case_flavor,오스카가 맡긴 보관함. 생체 인식 잠금장치가 희미하게 빛나고 옆면에는 ‘V’가 새겨져 있다. 당신이 밴더린이 아님을 알고 있다.
+item_ul_flowers_name,천연 꽃
+item_ul_flowers_flavor,"온실 흙내가 아직 남은 진짜 꽃과 허브 다발. 향수 재료이자, 상층 구역에서 가장 비싼 장식품이다."
+item_ul_perfume_notes_name,조향사의 기록
+item_ul_perfume_notes_flavor,"엘리너 어머니의 향수 노트, 페이지 사이에 압화가 끼워져 있다. 첫 장에는 ‘향은 장부보다 솔직하다’라고 적혀 있다."
+item_ul_crystal_precursor_name,결정체 전구물질
+item_ul_crystal_precursor_flavor,밀봉된 약병 안에 떠 있는 빛나는 결정 씨앗 몇 개. 헬리오스 연구소 라벨은 절반쯤 뜯겨 있다.
+item_ul_condense_tab_name,응축 촉매제
+item_ul_condense_tab_flavor,흰 알약이 든 블리스터 포장. 안내문에는 ‘연구용으로만 사용’이라고 한 줄 적혀 있다.
+item_ul_ice_street_name,아이스(거리용)
+item_ul_ice_street_flavor,뿌연 결정이 든 작은 봉지. 상류층 파티에 오는 사람은 아무도 손대지 않을 것이다. 하지만 누군가는 늘 손댄다.
+item_ul_ice_party_name,아이스(파티용)
+item_ul_ice_party_flavor,맑은 결정이 든 작은 봉지. 상층 구역 파티에서 인기다. 경찰이 무엇보다 쫓는 물건이다.
+item_ul_ice_crystal_name,아이스(결정급)
+item_ul_ice_crystal_flavor,거의 투명한 결정이 든 작은 봉지. 극소수만 이 등급을 본 적 있다.
+item_ul_holo_damaged_name,손상된 라이트필드 작품
+item_ul_holo_damaged_flavor,"라이트필드에 죽은 점이 가득하고 이미지가 끊겼다 이어진다. 복원하면, 값이 꽤 나간다."
+item_ul_holo_certified_name,인증 라이트필드 작품
+item_ul_holo_certified_flavor,복제할 수 없는 고유 인증 라이트필드 작품. 인증서의 서명은 그럴듯하다.
+item_ul_holo_original_name,사샤의 원본
+item_ul_holo_original_flavor,"사샤의 획기적인 작품. 헬리오스 광고가 이를 베꼈고, 이제 역 전체가 알고 있다."
+ul_kai_greenhouse_title,온실 인맥
+ul_kai_greenhouse_desc,"카이는 건국 가문 온실을 돌보는 정원사를 알아요. 조향 노트와 향수 작업대를 받아, 신경 향 합성을 해금해요. 꽃은 카이 인맥을 통해, 최고가로 들어와요."
+ul_kai_certhouse_title,인증 기관 인맥
+ul_kai_certhouse_desc,카이는 라이트필드 인증 기관에 오랜 친구가 있어요. 손상된 홀로 작품을 수리하는 라이트필드 복원대를 받아요. 엄격히 합법적이에요. 출처가 의심스러운 작품은 인증할 수 없어요.
+npc_sasha_name,사샤
+npc_angry_collector_name,성난 수집가
+npc_appraiser_name,밴더린 감정사
+sasha.arrest.c1,그쪽에 전화했어요? 좋아요. 그래도 당신은 그들보다 솔직하군요.
+sasha.arrest.c2,헬리오스에 다음 포스터는 안 그릴 거라고 전해요.
+sasha.arrest.s1,"위조 인증서, 여러 건이군. 갑시다, 예술가 양반."
+sasha.1.1,"홀로 작품을 사나요? 내 예전 작품들이에요. 라이트필드가 좀 망가졌지만, 그래서 싸요."
+sasha.1.2,왜 고치지 않느냐고 묻지 마요. 어차피 아무도 원하지 않을 테니까. 사람들이 내가 베낀다고 하더군요.
+sasha.1.3,날 베낀 사람들의 작품이 역의 광고 화면마다 걸려 있어요.
+sasha.1.4,두 작품이에요. 죽은 화소는 가장자리에 있어요. 눈이 있으면 원래 무엇이었는지 알아볼 수 있어요.
+sasha.1.accept,음. 램프 아래에 걸지 마세요. 필드가 더 번져요.
+sasha.1.done,"잘 다뤄 주세요. 적어도 내가 다룬 것보다는, 잘요."
+sasha.2.1,사람들 물건을 복원해요. 이건 끝났어요. 주인이 돌려받길 원치 않았죠.
+sasha.2.2,정식 인증까지 됐어요. 싸게 넘길게요. 두 배에 되팔 수 있어요.
+sasha.2.3,그렇게 보지 마요. 도망치는 거 아니에요.
+sasha.2.4,뒷면에 봉인이 있어요. 깨끗하고 규정대로예요.
+sasha.2.accept,됐어요. 어디서 났는지 말하지 마요. 복원가도 평판이 중요하니까.
+sasha.2.done,또 봐요. 다음이 있다면요.
+sasha.3.1,작은 부탁이에요. 정말 작은.
+sasha.3.2,"이건 수집가에게 갈 거예요. 인증서 두 장을 원해요. 하나는 나한테서, 하나는 독립된 사람한테서요."
+sasha.3.3,"가게를 운영하잖아요. 독립적이라는 뜻이죠. 도장 하나, {0}."
+sasha.3.4,진짜 작품이에요. 진짜라고 할 만하죠.
+sasha.3.c_stamp,[도장을 찍고 {0}크레딧 받기]
+sasha.3.c_no,[거절]
+sasha.3.c_roster,[밴더린 컬렉션 등록부에 없는 물건이네요]
+sasha.3.stamp,고마워요. 당신 도장이 제 것보다 값이 더 나가네요. 이 위쪽에선 그런 법이죠.
+sasha.3.no,마음대로 하세요. 다른 사람이 도장을 찍겠죠. 돈은 당신 몫이 아니겠지만요.
+sasha.3.roster1,그 집안에 아는 사람이 있나요?
+sasha.3.roster2,좋아요. 난 여기 없었던 걸로 하죠.
+collector.1,당신이 그 가게 주인이오? 내가 산 물건이 당신을 거쳐 갔지.
+collector.2,밴더린 감정사가 가짜라고 하더군. 가짜라니!
+collector.3,저녁 파티에 걸어 뒀소. 다들 날 비웃더군.
+collector.4,내 돈을 돌려주시오. 아니면 누가 팔았는지 말하든가.
+collector.c_refund,[그에게 {0}크레딧 환불하기]
+collector.c_refuse,[거절]
+collector.c_name,[그에게 말하기: 사샤]
+collector.refund,적어도 양심은 있군. 다음엔 좀 더 잘 살펴보시오.
+collector.refuse1,좋소. 아주 좋아.
+collector.refuse2,위층 사람들 모두 이 가게가 어떻게 장사하는지 알게 될 거요.
+collector.name1,사샤? 그 표절범?
+collector.name2,"그랬을 줄 알았소. 고맙소, 점주님."
+collector.dump.1,밴더린 감정사가 가짜라고 하더군. 다시는 보고 싶지 않아.
+collector.dump.2,이걸 가져가겠소? 가격은 아무거나 부르시오.
+collector.dump.3,"그래도 액자는 괜찮네, 적어도 액자는 진짜니까."
+collector.dump.accept,가져가요. 보기만 해도 참을 수가 없어요.
+collector.dump.done,앞으로는 인쇄할 수 없는 것만 사겠어. 전에도 그렇게 말했지만.
+sasha.5.named,날 팔아넘겼지. 알고 있어.
+sasha.5.named2,상관없어. 그래도 왔어. 다른 사람은 없으니까.
+sasha.5.1,찾았어. 헬리오스가 갖고 있던 내 원본 라이트필드 파일의 사본이야. 광고보다 2년 전 타임스탬프가 찍혀 있어.
+sasha.5.2,"이게 공개되면, 누가 누구를 베꼈는지 모두 알게 될 거야."
+sasha.5.3,하지만 밴더린 가문도 날 쫓고 있어. 가문의 명예를 더럽혔다고 하더라.
+sasha.5.4,내가 할 수 있는 건 하나뿐이야. 네가 골라.
+sasha.5.c_partner,"[동업하기: 복원 작업실을 열고, 증거는 묻어두기]"
+sasha.5.c_hand,[밴더린 가문에 넘기기]
+sasha.5.c_expose,[헬리오스를 폭로하도록 돕기]
+sasha.5.partner1,현실적이네. 현실적인 건 싫어. 굶는 건 더 싫고.
+sasha.5.partner2,"작업대는 네 거야. 복원도 하고, 위조도 할 수 있어."
+sasha.5.partner3,"일주일에 한 점. 내 몫은 40%, 네 몫은 60%야. 밴더린 가문에 들키지 마."
+sasha.5.hand1,하. 그럴 줄 알았어.
+sasha.5.hand2,알았어야 했는데. 여기 위쪽에선 진실도 최고가를 부르는 사람에게 가니까.
+sasha.5.expose1,좋아. 세상에 알려.
+sasha.5.expose2,타임스탬프를 밴더린 가문에도 보냈어. 이제 그들은 미워할 사람이 따로 생겼지.
+sasha.5.expose3,작업대 가져가. 제대로 된 작업대야. 진품만 인증해.
+sasha.5.expose4,그리고 이것도. 내 첫 작품이야. 아무도 손댄 적 없어. 헐값에 팔지 마.
+appraiser.take1,"사샤 씨, 밴더린 가문에서 당신을 모시고자 합니다. 모두를 위해 비공개 합의가 최선입니다."
+appraiser.take2,"점주님, 가문에서 감사의 표시를 전합니다. 오늘 일은 누구에게도 말씀하지 말아 주십시오."
+appraiser.first1,"안녕하십니까. 밴더린 감정 사무소입니다, 정기 점검입니다."
+appraiser.first2,요즘 시장에 나온 라이트필드 작품 중 인증서가 지나치게 훌륭한 것들이 꽤 있더군요.
+appraiser.first3,"가문에서도 관심을 두고 있습니다. 등록부에는 우리 이름이 올라가 있으니까요, 어쨌든."
+appraiser.first4,"깨끗한 물건은 손대지 않습니다. 깨끗하지 않은 물건은, 제가 가져가죠."
+appraiser.again1,또 저입니다. 2주마다 오죠. 이제 익숙해지셨을 겁니다.
+appraiser.again2,긴장하지 마십시오. 긴장하는 사람은 대개 이유가 있더군요.
+appraiser.again3,잠깐 살펴보고 가겠습니다.
+appraiser.notify_taken,밴더린 감정사가 위조 인증 작품 {0}점을 압수했습니다
+appraiser.notify_clean,밴더린 감정사가 문제를 발견하지 못했습니다
+sasha.new.a1,새 작품이야. 이번엔 내 이름으로.
+sasha.new.a2,"인증서는 진짜야, 가격도 그래. 비싸진 않아. 돈보다 이름이 더 빨리 돌아오네."
+sasha.new.a3,화랑가보다 싸게 줄게. 이유는 묻지 마. 신세 졌잖아.
+sasha.new.b1,또 하나야. 요즘 손이 잘 풀리네.
+sasha.new.b2,헬리오스가 광고를 내렸어. 역이 이제 한산해. 마음에 들어.
+sasha.new.b3,가서 팔아. 그리고 조명 아래 걸지 마. 말했잖아.
+sasha.new.accept,응.
+sasha.new.done,2주 뒤에.
+sasha.deliver.notify,사샤가 복원 작품을 배달했습니다. 사샤에게 {0}크레딧을 지불했습니다
+sasha.deliver.skip,사샤가 이번 주 배달을 건너뛰었습니다. 사샤 몫({0}크레딧)을 감당할 수 없습니다
+npc_theo_name,테오
+npc_broker_name,파티 중개인
+npc_lady_name,건국 가문의 영애
+npc_navyintel_name,해군 정보부 요원
+theo.1.1,"안녕하세요, 안녕. 연구소에서 일해요. 헬리오스요."
+theo.1.2,연구소에서 매달 물품을 한 묶음씩 폐기해요. 버리기엔 아깝죠.
+theo.1.3,좋은 물건이에요. 시중에 나온 것보다 낫죠. 내부 사용 기한만 막 지났을 뿐이에요.
+theo.1.4,가격은 협상 가능해요. 제가 급해서요.
+theo.1.accept,"좋아요, 좋아요. 거래 성립이네요."
+theo.1.done,그게 다예요. 이만 갈게요. 어디서 났는지는 말하지 마세요.
+theo.2.1,부탁이 있어요. 며칠만 맡아 주세요.
+theo.2.2,연구소에서 실험실을 점검한대요. 기숙사에 이걸 둘 수가 없어요.
+theo.2.3,위험한 건 아니에요. 작은 기계일 뿐이에요.
+theo.2.4,"열지 마세요. 열더라도, 묻지는 마시고요."
+theo.2.5,수고비로 {0}크레딧 드릴게요. 지금 지불할게요.
+theo.2.c_yes,[가방 받기]
+theo.2.c_no,[거절]
+theo.2.yes,고마워요. 정말로요. 상황이 잠잠해지면 찾으러 올게요.
+theo.2.no,알겠어요. 이해해요. 다른 방법을 찾아볼게요.
+broker.3.1,안녕하세요. 테오라는 연구원을 찾고 있습니다.
+broker.3.2,그 사람이 제게 물건을 배달하기로 했거든요.
+broker.3.case,"계산대 뒤에 있는 저 가방, 낯이 익군요."
+broker.3.3,상품은 괜찮군. 내 손님들은 까다롭네.
+broker.3.4,"최고급 술을 주시오. 테오가 보이면, 파티는 기다려주지 않는다고 전해 주시오."
+broker.3.accept,탁월한 안목이군요.
+broker.3.done,테오에게 안부 전해 주시오.
+theo.4.1,그런 눈으로 보지 마세요. 그냥 잠을 못 잤을 뿐이에요.
+theo.4.2,매주 더 많이 원해요. 저 혼자서는 감당할 수 없어요.
+theo.4.3,저도 조금 써 봤어요. 정말 조금만요. 순도를 확인하려고요.
+theo.4.4,돈이 다 떨어졌어요. 대신 이걸 받으세요. 제가 직접 만들었어요. 제가 사려는 것보다 몇 배는 값져요.
+theo.4.c_sample,"[샘플 받기, 그를 외상 장부에 올리기]"
+theo.4.c_cash,[현금만 받기]
+theo.4.c_no,[그에게 판매 거절하기]
+theo.4.sample,좋은 분이시네요. 뭐라도 먹고 방해되지 않게 나갈게요.
+theo.4.cash,현금이라… 확인해 볼게요. {0}크레딧이네요. 가진 돈이 전부예요.
+theo.4.no,그래. 그래. 네 탓은 안 할게.
+theo.4.accept,"이 정도면 됐어, 이 정도면."
+theo.4.done,이제 돌아가야 해. 기계를 멈출 수 없어.
+theo.4b.1,"묻지 마. 넘어졌어. ...아니, 누가 때렸어."
+theo.4b.2,누군가 내 기숙사에 대해 연구소 경비에 밀고했어.
+theo.4b.3,"아무것도 찾진 못했지만, 도망치다 크게 넘어졌어."
+theo.4b.4,약이 필요해. 피를 멎게 하고 통증을 가라앉힐 약.
+theo.4b.accept,고마워. 이 정도면 되겠어.
+theo.4b.done,"누가 물어보면, 날 본 적 없다고 해."
+lady.1,안녕하세요. 테오 씨의 작품을 여기서 살 수 있다고 들었습니다.
+lady.2,"우리 모임은 규모가 작고, 모두 그의 솜씨를 좋아하죠."
+lady.3,가격은 문제가 아닙니다. 비밀을 지켜 주시는 게 중요하죠.
+lady.4,있다면 세 배로 치르겠습니다. 없다면 저를 본 적 없는 겁니다.
+lady.c_sell,[견본 판매 ({0} 크레딧)]
+lady.c_none,[없어요]
+lady.sold,훌륭하군요. 오늘은 평범한 오후 다과회였던 걸로 하죠.
+lady.none,아쉽군요. 좋은 하루 보내세요.
+theo.6.1,"그들은 전부 원해. 기계와 제조법, 그리고 나까지."
+theo.6.2,이제 그만둘래. 이 정거장을 떠나고 싶어.
+theo.6.3,통행료가 필요해. 게다가 부두에도 그들 사람이 있어.
+theo.6.4,날 이용하지 않은 사람은 당신뿐이야.
+theo.6.5,"제발, 도와줘."
+theo.6.c_pay,[{0} 크레딧의 통행료를 내고 연구실 인수하기]
+theo.6.c_advance,[중개인이 통행료를 대신 내게 하고 연구실 인수하기 (파티용 등급 아이스 {0}개를 빚짐)]
+theo.6.c_report,[신고하기]
+theo.6.c_mira,[미라의 사람들에게 넘기기]
+theo.6.pay,그렇게나 많이... 어떻게 감사해야 할지 모르겠어요.
+theo.6.advance,"중개인에게 말할게. 내 표값은 그가 대신 내고, 네가 {1}일 안에 파티용 등급 제품 {0}개를 빚지는 거야. 직접 받으러 올 거야."
+theo.6.take1,제조법 기록이야. 사건의 핵심이지. 봉인이 풀렸어. 결정기와 스캐너도 네 거야.
+theo.6.take2,나처럼 되지 마. 만들고 싶으면 만들어. 만지지는 말고.
+theo.6.report,"당신도 그렇군. 그래, 그럴 줄 알았어."
+theo.6.mira1,하층 구역이라고? 좋아. 살아만 있으면 돼.
+theo.6.mira2,기록은 가져가게 둬. 다시는 그걸 보고 싶지 않아.
+theo.arrest.c1,"안 돼, 잠깐만요! 전 그냥 연구원이에요!,,"
+theo.arrest.s1,해군 정보부가 이 사건을 맡는다. 우리와 함께 가자.
+theo.arrest.s2,협조해 주셔서 감사합니다. 현상금은 계좌로 입금됩니다.
+broker.arrest.c1,내 손님들이 누군지 알기나 해?
+broker.arrest.s1,알고 있습니다. 그래서 해군 정보부가 이자를 데려갑니다.
+broker.arrest.s2,협조해 주셔서 감사합니다. 현상금은 계좌로 입금됩니다.
+lady.arrest.c1,우리 가문 성이 뭔지 아십니까?
+lady.arrest.s1,"알고 있습니다, 부인. 해군 정보부에서 질문이 있습니다. 테오라는 연구원에 대해서요.,"
+theo.report.notify,해군 정보부가 테오를 연행했습니다. 파티 중개인은 다시 오지 않을 겁니다.
+theo.report.seized,해군 정보부가 테오를 연행하고 가게의 사건 기록을 압수했습니다. 파티 중개인은 다시 오지 않을 겁니다.
+intel.1,어제 일은 고마워요.
+intel.2,테오는 모든 걸 말할 겁니다. 파티 손님 명단을 하나씩 확인하겠어요.
+intel.3,공화국은 협조하는 상인을 기억합니다.
+theo.unlocked.notify,사건 기록의 봉인이 풀렸습니다. 아이스 생산이 해금됐습니다. 파티 중개인이 단골이 됩니다.
+theo.mira.news,지하 신문에 상류층 파티에 관한 기사가 실렸습니다. 상층 구역이 발칵 뒤집혔습니다.
+theo.mira.letter,테오에게서 편지가 왔습니다. 발신인 주소는 없습니다. 안에는 암호화된 데이터 칩이 들어 있습니다.
+broker.due.1,좋은 저녁입니다. 갚을 때가 됐군요.
+broker.due.2,테오의 통행료는 내가 냈어. 이제 빚은 네 거야.
+broker.due.3,파티용 등급 제품 {0}개. 어디 있지?
+broker.due.c_give,[아이스 {0}개 넘기기]
+broker.due.c_fail,[아직 준비되지 않았어요]
+broker.due.ok,좋아. 시간 잘 지키는 사람이 마음에 들어.
+broker.due.fail1,"유감이군. 내 업계에선 기한을 놓치면 두 번째 기회는 없어.,"
+broker.due.fail2,"그건 그렇고, 경찰서에 있는 친구 몇 명이 네 가게를 궁금해하더군.,"
+broker.v1.1,좋은 저녁입니다. 오늘 밤 전망대에서 파티가 열립니다. 손님들 눈이 까다롭죠.
+broker.v1.2,새로운 건 있나?
+broker.v2.1,또 만났군. 지난번 물건이 반응이 좋았어. 어떤 분이 네 물건을 콕 집어 찾더군.
+broker.v2.2,뭘 갖고 있는지 보자고.
+broker.v3.1,진정해. 그냥 지나가다 들렀어. 진열대를 좀 보자고.
+broker.v3.2,"결정 등급이라면 가격은 협상할 수 있어.,"
+broker.ask,늘 그렇듯 등급별로 값을 치르지.
+broker.more,더 있나?
+broker.c_crystal,[결정 등급 1개 판매 ({0} 크레딧)]
+broker.c_party,[파티용 등급 1개 판매 ({0} 크레딧)]
+broker.c_street,[거리 등급 1개 판매 ({0} 크레딧)]
+broker.c_none,[이상입니다]
+broker.sold,좋아.
+broker.bye,거래 즐거웠네.
+broker.bye_none,"아무것도 없다고? 그럼 다음에 보지. 파티는 기다려 주지 않아.,"
+item_ul_perfume_desk_name,뉴로 향수 조합대
+item_ul_perfume_desk_desc,"천연 꽃으로 뉴로 향수를 조합합니다. 프린터는 분자는 복제해도 원산지는 복제할 수 없습니다.,"
+item_ul_perfume_desk_flavor,"온실 목재로 만든 조합대에 머리카락처럼 가는 증류관이 달려 있습니다. 정거장의 모든 향수는 출력품입니다. 이곳에서 나오는 향은 흙내음을 품고 있습니다.,"
+item_ul_perfume_desk_note_name,향수 조합대 설명서
+item_ul_perfume_desk_note_flavor,"천연 꽃을 꽃 투입구에 넣고, 제조법을 고른 뒤 배터리를 연결하세요.\n단일 노트: 꽃 2개, 하룻밤, ‘단일’ 향수 1병.\n어코드: 꽃 4개, 이틀 밤, ‘어코드’ 향수 1병, 가끔 ‘솔리테어’ 1병.\n제조가 시작되면 꽃이 소모됩니다. 제조 도중 제조법을 바꿔도 달라지는 건 없습니다. 전력 없는 밤에는 작업이 멈추지만 꽃은 사라지지 않습니다.,,,,,,,"
+item_ul_reactor_case_name,저온 결정 반응기
+item_ul_reactor_case_desc,저온 결정 반응기가 들어 있는 밀봉 장비 케이스. 밀수품 (높음).
+item_ul_reactor_case_flavor,"헬리오스 연구소의 폐기 번호가 찍힌 봉인이 붙은 은회색 장비 케이스. 보기보다 무겁습니다.,"
+item_ul_reactor_case_note_name,반응기 설명서
+item_ul_reactor_case_note_flavor,"봉인 상태: 봉인이 온전합니다. 열리지 않으며 아무것도 넣을 수 없습니다. 테오와의 일이 해결될 때까지 그저 상자일 뿐입니다.\n봉인 해제: 결정 전구체 1개와 응축 탭 1개가 한 배치입니다. 배치마다 생결정 2개를 얻습니다. 밤마다 최대 4배치까지 가능합니다.\n안전한 투입량은 2배치입니다. 추가 배치마다 사고 확률이 높아집니다. 사고가 나면 시약이 망가지고, 반응기는 하룻밤 수리를 위해 멈추며, 증거가 남습니다.,,,"
+item_ul_crystallizer_name,극저온 결정기
+item_ul_crystallizer_desc,생결정을 천천히 아이스로 굳힙니다. 설정이 높을수록 오래 걸리지만 더 높은 등급을 얻습니다. 밀수품 (높음).
+item_ul_crystallizer_flavor,"문에 서리가 끼어도 녹지 않는 길고 좁은 금속 캐비닛. 눈금은 세 개지만 표시창은 없습니다.,,"
+item_ul_crystallizer_note_name,결정기 설명서
+item_ul_crystallizer_note_flavor,"생결정을 투입구에 넣고 응축 설정을 고른 뒤 배터리를 연결하세요.\n설정 I - 약하게: 하룻밤, 거리 등급.\n설정 II - 일정하게: 이틀 밤, 대부분 파티용 등급.\n설정 III - 강하게: 사흘 밤, 대개 결정 등급이나 더 낮을 때도 있습니다.\n설정을 바꿔도 이미 기다린 밤은 그대로 계산됩니다.\n갓 만든 제품은 순도 보고서가 없어 구매자가 절반만 지불합니다. 먼저 순도 스캐너에 넣으세요."
+item_ul_purity_scanner_name,순도 스캐너
+item_ul_purity_scanner_desc,"아이스의 순도 보고서를 발급합니다. 보고서가 없으면 절반 가격에 팔립니다.,"
+item_ul_purity_scanner_flavor,"모서리 화면이 깨진 퇴역 연구실 스캐너. 상층 구역에서는 보고서가 물건보다 값집니다.,"
+item_ul_purity_scanner_note_name,스캐너 설명서
+item_ul_purity_scanner_note_flavor,"검사하지 않은 아이스를 투입구에 넣고 배터리를 연결한 뒤 하룻밤 두세요.\n하룻밤 동안 투입구의 모든 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다.,,,,"
+item_ul_lightfield_bench_name,라이트필드 복원 작업대
+item_ul_lightfield_bench_desc,홀로 작품의 불량 화소를 수리하고 고유 인증서를 발급합니다. 서명자가 누구인지 꼬치꼬치 묻는 사람은 없습니다.
+item_ul_lightfield_bench_flavor,"표면 아래에 수백 개의 마이크로 프로젝터가 들어 있는 검은 작업대. 라이트필드 원본은 복제할 수 없으므로, 이를 복원하고 인증하는 사람은 비싼 값을 받습니다.,"
+item_ul_lightfield_bench_note_name,복원 작업대 설명서
+item_ul_lightfield_bench_note_flavor,"작업대에 물건 하나를 놓고 모드를 선택한 뒤 배터리를 연결하고 하룻밤 두세요.\n복원: 손상된 홀로 작품을 하룻밤 만에 수리해 인증된 홀로 작품으로 만듭니다. 도난품은 계속 도난품입니다.\n인증: 사샤의 인맥이 필요합니다. 도난품을 작업대에 놓으면 아침까지 ‘깨끗한’ 이력이 생깁니다. 재료비로 가치의 15%(최소 80)를 보유 자금에서 가져갑니다.\n인증품도 건국 가문 감정사의 면밀한 검사까지 견뎌 내지는 못합니다.,,,"
+item_ul_perfume_single_name,뉴로 향수 ‘단일’
+item_ul_perfume_single_flavor,"한 송이의 생화로 조향했습니다. 가볍게 시작해 은은한 여운이 남습니다.,인쇄한 향수는 꽃향기가 납니다. 이건 진짜 꽃입니다."
+item_ul_perfume_accord_name,뉴로 프래그런스 ‘어코드’
+item_ul_perfume_accord_flavor,여러 생화를 겹겹이 조합했습니다. 향이 15분마다 변합니다. 상류층 여성들은 이를 ‘숨 쉬는 향기’라 부릅니다.
+item_ul_perfume_master_name,뉴로 프래그런스 ‘솔리테어’
+item_ul_perfume_master_flavor,"이 꽃들과 오늘 밤의 온실 공기로 만들었습니다.,세상에 단 한 병뿐입니다. 어떤 조향법으로도 재현할 수 없습니다.,수집가들이 줄을 섭니다."
+item_ul_ice_raw_name,생결정
+item_ul_ice_raw_flavor,"작고,차가운,아직 굳지 않은 회색 덩어리입니다. 밀수품(위험). 이 상태로는 아무도 사지 않습니다. 결정화기에 넣으세요."
+item_ul_ice_unverified_name,얼음 (미검사)
+item_ul_ice_unverified_flavor,"보관함에서 막 꺼냈습니다. 등급은 알 수 없습니다. 순도 보고서가 없으면, 구매자는 절반만 지불합니다."
+mach_label_flowers,꽃
+mach_label_output,산출물
+mach_label_recipe,제조법
+mach_label_reagents,시약
+mach_label_status,상태
+mach_label_raw,결정 트레이
+mach_label_gear,응축
+mach_label_tray,검사 트레이
+mach_label_work,작업대
+mach_label_mode,모드
+mach_perfume_mode_single,단일 향
+mach_perfume_mode_accord,어코드
+mach_cryst_gear_1,I - 약
+mach_cryst_gear_2,II - 보통
+mach_cryst_gear_3,III - 강
+mach_bench_mode_repair,복원
+mach_bench_mode_launder,세탁
+mach_status_idle,대기 중
+mach_status_ready,오늘 밤 가동
+mach_status_progress,작업 중: 밤 {0}/{1}
+mach_status_down,수리: {0}일 남음
+mach_perfume_status_need,꽃 {0}/{1}
+mach_reactor_status_sealed,봉인됨: 봉인 유지
+mach_reactor_status_need,시약 필요
+mach_reactor_load,"{0} 적재 (안전 한도 {1}), 사고 {2}%"
+mach_cryst_status_need,원결정 필요
+mach_cryst_status,{0} 설정: {1}/{2}일
+mach_scanner_status_pending,검사 대상 {0}
+mach_scanner_status_done,검사 완료 {0}
+mach_scanner_status_need,얼음 투입
+mach_bench_status_locked,잠김: 인맥 필요
+mach_bench_status_need_stolen,도난품 투입
+mach_bench_status_fee,"오늘 밤 인증, 비용 {0}"
+mach_bench_status_repaired,복원 완료
+mach_bench_status_need_damaged,손상된 작품 투입
+mach_log_down,{0} 수리 중이라 오늘 밤 가동하지 않습니다.
+mach_log_perfume,향수 작업대에서 {0} 한 병을 완성했습니다.
+mach_log_reactor,반응기에서 생결정 {0}개를 생산했습니다.
+mach_log_accident,밤사이 반응기 사고가 발생했습니다. 시약이 망가졌으며 하룻밤 수리가 필요합니다. 이웃들이 소리를 들었습니다 (증거 +{0}).
+mach_log_cryst,결정화기에서 얼음 {0}봉지를 굳혔습니다.
+mach_log_scanner,순도 검사기에서 얼음 {0}봉지를 검사했습니다.
+mach_log_repair,복원 작업대에서 홀로 작품을 수리했습니다.
+mach_log_launder,복원 작업대에서 {0} 인증을 완료했습니다. 재료: {1}.
+mach_log_launder_nocash,인증 재료비 ({0})가 부족해 오늘 밤 작업대가 가동되지 않았습니다.
+npc_flower_mira_name,협동조합 정원사
+npc_flower_vanderlin_name,영지 농장 관리인
+npc_flower_network_name,온실 배달원
+flower.eleanor.1,앞으로 2주간 드릴 꽃이에요. 엄마가 골랐어요. 작년보다 라벤더가 낫대요.
+flower.kai.1,저예요. 이번 꽃은 온실에서 직접 골랐어요. 한번 보세요.
+flower.mira.1,"협동조합 꽃이에요, 약속한 대로요. 미라가 말하길: 흥정은 하지 마세요, 우리 사람들은 아직 파업 중이에요."
+flower.vanderlin.1,이번 주 영지 농장 꽃입니다. 가문과의 평판을 고려해 가격을 매겼습니다.
+flower.network.1,와일드 씨 주문입니다. 온실 꽃이에요. 꽃대마다 번호가 붙어 있죠.
+flower.accept,좋습니다. 다음에도 같은 시간에 하죠.
+flower.done,전 이만 갈게요. 꽃은 서늘한 곳에 보관하세요.
+test_hotkey_queued,테스트: 오늘 고객 대기열에 {0} 방문 {1}건을 추가했습니다.
+test_hotkey_none,테스트: {0} 대사는 대기열에 추가할 방문이 더 없습니다.
+test_hotkey_kit,"테스트 키트 배송 완료: 기계 5대, 재료, 손상된 라이트필드 작품, 자가충전 셀, 터보 부스터(기본 및 고급), 크레딧 +5000; 얼음 및 세탁 해제."
+test_hotkey_all,테스트: 모드 아이템을 하나씩 모두 지급했습니다({0}개). 들어가지 않은 것은 카운터에 있습니다.
+test_hotkey_machines,테스트: 모드 기계 {0}대가 하룻밤 즉시 작동했습니다.
+test_hotkey_money,"테스트: 크레딧 +10000, 와일드의 호의 +2000."
+ul_inte_sec_departement,상류층 경찰
+ul_inte_sec_record,경찰 기록
+ul_inte_sec_lower_levels,상류층
+ul_inte_security,경찰
+ul_inte_sec_call,경찰에 지원 요청
+ul_ui_nego_tag_security,경찰
+net_group_social,상류사회
+net_group_safety,보호
+net_group_trade,부업
+net_group_intro,소개
+net_group_referral,고객층
+net_group_store,상점
+net_group_favor,호의
+net_group_informant,정보원
+net_group_service,서비스
+ul_kai_showcase_i_title,쇼케이스 확장 I
+ul_kai_showcase_i_desc,카이가 아는 진열 전문가가 쇼케이스를 재배치해 더 많은 상품을 진열합니다. 매일 진열장에서 구매하는 고객이 {0}명 늘어납니다.
+ul_kai_showcase_ii_title,쇼케이스 확장 II
+ul_kai_showcase_ii_desc,전문가가 쇼케이스를 다시 확장하고 온도 조절 진열대를 설치합니다. 매일 진열장에서 구매하는 고객이 {0}명 늘어납니다.
+ul_kai_dossier_title,확장 서류철
+ul_kai_dossier_desc,카이가 더 많은 서류를 담을 수 있는 가죽 서류철을 줍니다.
+ul_kai_reno_i_title,상점 개조 I
+ul_kai_reno_i_desc,카이가 상류층 전용 작업 인력을 불러 상점을 제대로 개조합니다. 상점의 기본 매력도가 {0}포인트 상승합니다.
+ul_kai_reno_ii_title,상점 개조 II
+ul_kai_reno_ii_desc,석재와 맞춤형 조명을 시공해 매장을 전면 개조합니다. 기본 매장 매력이 추가로 {0} 증가합니다.
+ul_kai_reno_iii_title,매장 리모델링 III
+ul_kai_reno_iii_desc,카이는 건국 가문 저택을 설계하는 디자이너를 섭외합니다. 매장이 잡지에 실릴 만큼 멋져집니다. 기본 매장 매력이 추가로 {0} 증가합니다.
+ul_kai_power_title,상업용 전력
+ul_kai_power_desc,"카이가 건물 관리부에 말을 넣어, 전력선을 상업용 등급으로 업그레이드합니다. 충전기와 파워블록의 충전 속도가 {0}% 빨라집니다."
+ul_kai_market_title,비공개 의뢰 목록
+ul_kai_market_desc,"카이가 비공개 의뢰 목록에 당신의 이름을 올립니다. 구매자의 의뢰를 확인하고 수행할 수 있으며, 보통 시세보다 높은 값을 받을 수 있습니다."
+ul_kai_vending_title,야간 자동판매기
+ul_kai_vending_desc,카이가 매장에 생체 인식 무인 판매함을 설치합니다. 폐점 후에도 판매할 수 있습니다.
+ui_upper_mode_on,상층 구역: 켜짐
+ui_upper_mode_off,상층 구역: 꺼짐
+scenario.newcomer.title,상층 구역의 신참
+scenario.newcomer.desc,"상층 구역에 매장을 임대했습니다. 기계도, 인맥도 없습니다. 가진 건 창업 자금과 카이 와일드의 명함뿐입니다."
+scenario.newcomer.with1,상층 구역의 매장
+scenario.newcomer.with2,창업 자금
+scenario.newcomer.with3,"카이 와일드 위탁품: 주당 20개, 판매액의 60%는 당신 몫"
+scenario.newcomer.tag,상층 구역 모드
+perk.ul_trust_fund.name,신탁 기금
+perk.ul_trust_fund.desc,시작 자금 3000 크레딧 추가.
+perk.ul_founder_kin.name,먼 친척
+perk.ul_founder_kin.desc,밴더린 가문의 먼 친척입니다. 밴더린 평판이 +30으로 시작합니다.
+perk.ul_kai_friend.name,카이의 오랜 친구
+perk.ul_kai_friend.desc,카이의 서비스 비용이 15% 저렴합니다.
+perk.ul_salon_regular.name,살롱 단골
+perk.ul_salon_regular.desc,살롱 초대장을 가지고 시작합니다. 살롱 대화로 얻는 평판이 50% 증가합니다.
+perk.ul_good_eye.name,좋은 안목
+perk.ul_good_eye.desc,상층 구역 고객의 예산이 10% 증가합니다.
+perk.ul_facade.name,그럴듯한 겉모습
+perk.ul_facade.desc,기본 매장 매력 +100.
+perk.ul_discreet.name,신중함
+perk.ul_discreet.desc,범죄 현장에 남는 증거가 30% 감소합니다.
+perk.ul_police_friend.name,경찰 인맥
+perk.ul_police_friend.desc,경찰 평판이 +20으로 시작합니다. 단속이 있으면 항상 미리 알게 됩니다.
+perk.ul_night_owl.name,야행성
+perk.ul_night_owl.desc,침입 중 발각되거나 붙잡힐 확률이 20% 감소합니다.
+perk.ul_collector.name,단골 수집가
+perk.ul_collector.desc,부유한 수집가가 매주 방문합니다.
+perk.ul_energetic.name,활력
+perk.ul_energetic.desc,밤에 외출해도 고객을 잃지 않습니다.
+perk.ul_socialite.name,사교계 명사
+perk.ul_socialite.desc,특성 슬롯 +3.
+perk.ul_blacklisted.name,블랙리스트
+perk.ul_blacklisted.desc,밴더린 평판이 -30으로 시작합니다. 살롱 초대장이 12일째에 도착합니다.
+perk.ul_kai_debt.name,카이에게 빚짐
+perk.ul_kai_debt.desc,카이의 서비스 비용이 20% 더 비쌉니다.
+perk.ul_shabby.name,허름한 겉모습
+perk.ul_shabby.desc,기본 매장 매력 -100.
+perk.ul_clumsy.name,말주변 없음
+perk.ul_clumsy.desc,상층 구역 고객의 예산이 10% 감소합니다.
+perk.ul_record.name,전과 기록
+perk.ul_record.desc,경찰 평판이 -20으로 시작합니다. 범죄 현장에 남는 증거가 25% 증가합니다.
+perk.ul_night_blind.name,야맹증
+perk.ul_night_blind.desc,침입 중 발각되거나 붙잡힐 확률이 20% 증가합니다.
+perk.ul_landlord_nephew.name,건물주의 조카
+perk.ul_landlord_nephew.desc,건물주의 조카가 임대 계약을 쥐고 있습니다. 전대 계약입니다. 임대료 +30%.
+perk.ul_creditor.name,채권자
+perk.ul_creditor.desc,"8일째부터, 10주 동안 매주 누군가 300 크레딧을 걷어 갑니다. 돈이 모자라면, 가진 만큼 가져갑니다."
+perk.ul_chatty.name,수다쟁이
+perk.ul_chatty.desc,"살롱에서 실언할 확률 30%: 평판을 얻지 못하고, 대신 3 잃습니다."
+perk.ul_sleepy.name,잠꾸러기
+perk.ul_sleepy.desc,"밤에 외출한 다음 날, 고객이 한 명 줄어듭니다."
+perk.ul_deep_debt.name,막대한 빚
+perk.ul_deep_debt.desc,"매장을 외상으로 구매했습니다. 8일째부터, 10주 동안 매주 1000 크레딧을 갚아야 합니다. 납부를 놓치면 임대료가 100 오릅니다."
+perk.ul_wanted.name,수배자
+perk.ul_wanted.desc,경찰 평판이 -50으로 시작합니다. 범죄 현장에 남는 증거가 50% 증가합니다.
+perk.ul_outsider.name,외부인
+perk.ul_outsider.desc,"이곳 사람들은 당신을 모릅니다. 고객이 30% 줄고, 살롱 초대장이 20일째에 도착합니다."
+perk.debt.paid,크레딧 {0}을 지불했습니다. 남은 납부 횟수: {1}.
+perk.debt.default,이번 납부를 할 수 없습니다. 임대료가 {0} 크레딧 오릅니다.
+perk.chatty.slip,실언했습니다.
+perk.ul_perfumer.name,조향사의 도제
+perk.ul_perfumer.desc,"조향사에게 배웠습니다. 향수 작업대와 조제 노트를 가지고 시작해, 신경 향을 만들 수 있습니다."
+perk.ul_lightfield.name,라이트필드 도제
+perk.ul_lightfield.desc,라이트필드 스튜디오에서 일했습니다. 라이트필드 복원 및 인증 작업대를 가지고 시작합니다.
+perk.ul_council_friend.name,공화국 당국 인맥
+perk.ul_council_friend.desc,공화국 당국 평판이 +20으로 시작합니다.
+perk.ul_council_black.name,당국 블랙리스트
+perk.ul_council_black.desc,공화국 당국 평판이 -20으로 시작합니다.
+perk.ul_fortune.name,행운아
+perk.ul_fortune.desc,운이 좋아집니다. 아마도.
+perk.ul_security.name,사설 경비
+perk.ul_security.desc,매장에 사설 경비가 있습니다. 밤에 절대 강도를 당하지 않습니다.
+perk.ul_eloquent.name,언변가
+perk.ul_eloquent.desc,거래로 얻는 평판이 33% 증가합니다.
+perk.ul_celebrity.name,유명인 행세
+perk.ul_celebrity.desc,"상층 구역 평판이 +15로 시작합니다. 상층 구역 평판 획득량이 +25% 증가하고, 상층 구역 고객의 예산이 10% 증가합니다."
+perk.ul_craftsman.name,장인
+perk.ul_craftsman.desc,아이템을 업그레이드할 때 재료를 소모하지 않을 확률 20%.
+perk.ul_admirer.name,익명의 후원자
+perk.ul_admirer.desc,"매장을 열면, 가끔 서명 없는 선물을 발견합니다."
+perk.ul_night_life.name,밤의 유흥
+perk.ul_night_life.desc,매일 밤 최대 2곳의 유흥 장소를 방문할 수 있습니다.
+perk.ul_vinyl.name,레코드 수집가
+perk.ul_vinyl.desc,카세트 플레이어용 음악 테이프를 모두 가지고 시작합니다.
+perk.ul_well_known.name,유명 인사
+perk.ul_well_known.desc,모든 세력 평판이 +15로 시작합니다.
+perk.ul_bad_luck.name,불운한 해
+perk.ul_bad_luck.desc,불운
+perk.ul_cigar.name,시가 습관
+perk.ul_cigar.desc,"정기적으로, 피우지 않으면 거래에 8% 불이익을 받습니다. 끊을 수 있습니다."
+perk.ul_wine.name,와인 습관
+perk.ul_wine.desc,"정기적으로, 마시지 않으면 거래에 8% 불이익을 받습니다. 끊을 수 있습니다."
+perk.ul_gambler.name,도박꾼
+perk.ul_gambler.desc,기회가 되면 늘 복권을 삽니다. 모든 복권 콘텐츠가 처음부터 해금됩니다. 끊을 수 있습니다.
+perk.ul_clutter.name,전 세입자의 잡동사니
+perk.ul_clutter.desc,전 세입자가 서둘러 떠났습니다. 처음부터 소지품 아래쪽에 치울 수 있는 잡동사니 세 더미가 있습니다.
+perk.ul_small_unit.name,작은 방
+perk.ul_small_unit.desc,주 소지품 칸이 24×10에서 20×10으로 줄어듭니다.
+perk.ul_secret.name,숨기고 싶은 과거
+perk.ul_secret.desc,"누군가, 당신의 과거를 알고 협박하고 있습니다. 매주 입막음 돈을 내세요. 그렇지 않으면 폭로되어 대부분 세력의 평판이 크게 떨어집니다."
+perk.ul_illness.name,만성 질환
+perk.ul_illness.desc,불치성 자가면역 질환이 있어 살려면 매주 면역혈청 주사를 맞아야 합니다. 시작할 때 1회분을 갖고 있습니다.
+perk.ul_no_news.name,신문 없음
+perk.ul_no_news.desc,"매일, 신문을 받지 않으며 달력에도 예정된 소식이 표시되지 않습니다(기본 게임의 구독 취소와 동일)."
+perk.ul_homebody.name,집순이
+perk.ul_homebody.desc,외출을 좋아하지 않습니다. 이틀에 한 번만 외출할 수 있습니다.
+scenario.organ.title,장기 밀매상
+scenario.organ.desc,이곳 사람들은 장기가 부족하지 않습니다. 인쇄 장기는 싸고 합법이죠. 그들이 원하는 건 자연산입니다. 자연산은 한 곳에서만 나옵니다.
+scenario.organ.with1,해부 기계와 배터리
+scenario.organ.with2,장기 냉장고
+scenario.organ.with3,교전 지역 위치
+scenario.organ.tag,고위험
+item_ul_organ_heart_name,자연산 심장
+item_ul_organ_heart_flavor,인쇄되지 않은 심장입니다. 상층 구역 진료소는 이런 것만 받습니다.
+item_ul_organ_lung_left_name,자연산 왼쪽 폐
+item_ul_organ_lung_left_flavor,자연산 왼쪽 폐입니다.
+item_ul_organ_lung_right_name,자연산 오른쪽 폐
+item_ul_organ_lung_right_flavor,자연산 오른쪽 폐입니다.
+item_ul_organ_kidney_left_name,자연산 왼쪽 신장
+item_ul_organ_kidney_left_flavor,자연산 왼쪽 신장입니다.
+item_ul_organ_kidney_right_name,자연산 오른쪽 신장
+item_ul_organ_kidney_right_flavor,자연산 오른쪽 신장입니다.
+organ_rotten_prefix,상한 {0}
+organ_rotted,아이템 {0}개가 상했습니다.
+item_ul_corpse_name,시신 가방
+item_ul_corpse_flavor,끝까지 지퍼를 잠갔습니다. 오늘 밤이나 내일 처리하는 게 좋습니다.
+item_ul_organ_cooler_name,장기 냉장고
+item_ul_organ_cooler_desc,안에 보관한 장기는 상하지 않습니다.
+item_ul_organ_cooler_flavor,의료용입니다. 진료소 라벨은 긁어냈습니다.
+item_ul_dissector_name,해부 기계
+item_ul_dissector_desc,"시신을, 넣고 하룻밤 기다리면 온전한 장기를 꺼낼 수 있습니다."
+item_ul_dissector_flavor,중고 의료 장비입니다. 전 주인은 다시는 보고 싶어 하지 않습니다.
+item_ul_dissector_note_name,해부 기계 설명서
+item_ul_dissector_note_flavor,"시신 칸에 시신을 넣으세요. 전기가 들어오는 밤에 해부됩니다.\n시신 한 구에서 보통 쓸 만한 장기 한두 개, 운이 좋으면 서너 개를 얻습니다. 어떤 장기가 나올지는 운에 달렸고, 오래된 시신일수록 덜 나옵니다.\n냉각기 밖의 장기는 매일 상태가 나빠지며 4일째에 상합니다. 시신은 2일간 보관됩니다."
+dissector_label_body,시신
+dissector_label_status,상태
+dissector_status_empty,비어 있음
+dissector_status_ready,신선도 {0}
+dissector_status_rotten,상함
+dissector_log_done,해부 기계가 온전한 장기 {0}개를 회수했습니다.
+dissector_log_rotten,시신이 상했습니다. 해부 기계는 아무것도 회수하지 못했습니다.
+battle.title,교전 지역
+battle.panel_quiet,혁명군과 치안부가 며칠 전 이곳에서 싸웠습니다. 오늘 밤은 조용합니다.
+battle.panel_fight,"방금, 총격이 멎었습니다. 땅에서 더 많이 찾을 수 있지만 순찰도 더 많습니다."
+battle.tries_left,오늘 밤 {0}회 더 수색할 수 있습니다({1}회 중).
+battle.wounded,다쳤습니다. 오늘 밤은 더 수색할 수 없습니다.
+battle.risk,경미한 부상 {0}%  중상 {1}%  목격됨 {2}%
+battle.search,수색
+battle.found_corpse,아직 대체로 온전한 시신을 찾았습니다. 포장할 필요는 없습니다. 떠날 때 끌고 가면 됩니다.
+battle.found_scrap,팔 만한 고철을 주웠습니다.
+battle.found_nothing,아무것도 찾지 못했습니다.
+battle.luck_saved,유탄이 스칠 뻔했습니다. 운이 좋았습니다.
+battle.spotted_police,치안부 순찰대가 당신을 봤습니다. 기록에 남을 것입니다.
+battle.spotted_rev,혁명군 사람이 당신을 봤습니다. 소식이 경찰에 전해질 것입니다.
+battle.fight_tonight,오늘 밤 교전 지역에서 전투가 벌어지고 있습니다.
+npc_clinic_name,손
+clinic.intro.1,"화이트, 타워 진료소 조달 담당 손입니다."
+clinic.intro.2,우리는 자연산만 받습니다. 나머지는 직접 인쇄할 수 있으니까요.
+clinic.intro.3,"며칠에, 한 번 들르겠습니다. 신선한 물건이면 좋은 가격을 쳐 드리죠."
+clinic.visit.1,물건을 받으러 왔습니다.
+clinic.wanted_now,이번에는 {0}이(가) 급히 필요합니다. 50% 더 드리죠.
+clinic.ask,무엇을 갖고 있습니까?
+clinic.more,다른 것도 있습니까?
+clinic.sold,좋습니다.
+clinic.c_none,오늘은 더 없습니다.
+clinic.c_sell,"{0},, {1}크레딧입니다."
+clinic.c_sell_wanted,"{0},, {1}크레딧입니다(긴급)."
+clinic.bye_next,며칠 뒤에 봅시다. 냉장 보관하세요.
+clinic.arrest.c1,이곳에서 이식 수술을 기다리는 사람이 몇 명인지 아십니까?
+clinic.arrest.s1,화이트 타워 진료소 조달 담당입니다. 같이 가시죠.
+scenario.perfume.title,조향사
+scenario.perfume.desc,조향사에게 3년 동안 배웠습니다. 상층 구역의 향수는 모두 합성품입니다. 당신의 향수는 다릅니다.
+scenario.perfume.with1,향수 작업대 두 대와 조향 노트
+scenario.perfume.with2,"자연산, 꽃 8송이와 매주 꽃 배달"
+scenario.perfume.with3,매주 물건을 사러 오는 구매자
+scenario.perfume.tag,상층 구역 모드
+npc_perfume_buyer_name,비올라
+perfume_buyer.intro.1,비올라예요. 앰버 거리의 부티크를 대신해 물건을 사요.
+perfume_buyer.intro.2,자연산 꽃을 쓴다고 들었어요.
+perfume_buyer.intro.3,일주일에 한 번 와서 있는 건 전부 살게요.
+perfume_buyer.visit.1,또 그날이네요.
+perfume_buyer.wanted_now,이번 주에는 {0}이(가) 잘 팔려요. 추가로 쳐 드릴게요.
+perfume_buyer.ask,이번에는 뭐가 있나요?
+perfume_buyer.more,다른 것도 있나요?
+perfume_buyer.sold,좋아요.
+perfume_buyer.c_none,[여기까지.]
+perfume_buyer.c_sell,"{0}, {1} 크레딧."
+perfume_buyer.c_sell_wanted,"{0}, {1} 크레딧 (그녀가 원하는 물건)."
+perfume_buyer.bye,다음 주에 봐요.
+ice_maker.scenario.title,제빙업자
+ice_maker.scenario.desc,완전한 냉결정 장비를 갖추고 상층 구역으로 이사 왔습니다. 파티 모임의 구매자가 매주 얼음을 사러 옵니다. 할당량을 채우면 돈을 받습니다. 경찰 기록은 깨끗하지 않습니다 (경찰 평판 -10).
+ice_maker.scenario.with1,미봉인 냉결정 반응로
+ice_maker.scenario.with2,극저온 결정기 및 순도 스캐너
+ice_maker.scenario.with3,시약 몇 가지와 배터리 3개
+ice_maker.scenario.with4,매주 찾아오는 구매자
+ice_maker.scenario.tag,고위험
+ice_maker.collector_name,준
+ice_maker.supplier_name,루벤
+ice_maker.grade.0,길거리 등급
+ice_maker.grade.1,파티 등급
+ice_maker.grade.2,결정 등급
+ice_maker.intro.1,새 가게 주인이신가요? 전 준이에요.
+ice_maker.intro.2,여기서 파티 모임 몇 군데에 물건을 대고 있어요.
+ice_maker.intro.3,지난 공급업자가 지난달에 잡혀갔거든요.
+ice_maker.intro.4,장비를 통째로 들여왔다고 들었어요.
+ice_maker.intro.5,"다음 주 같은 시간에, {0}개를 가져갈게요. {1} 등급 이상으로요."
+ice_maker.intro.6,스캔 안 된 건 안 돼요. 손님들이 순도 보고서를 원하거든요.
+ice_maker.intro.7,"등급별로 값을 쳐 드려요, 가방당, 현장에서 바로요."
+ice_maker.intro.8,매주 누군가 시약을 가져올 거예요. 가격은 그 사람과 정하세요.
+ice_maker.intro.9,한 번이라도 수량이 모자라면 경고예요. 그래도 소문은 나겠죠.
+ice_maker.intro.10,두 번째부터는 대가를 치르게 돼요.
+ice_maker.col.1,그날이 왔네요.
+ice_maker.col.2,이번 주엔 {0}예요. {1} 등급 이상으로요.
+ice_maker.col.3,검사된 것만요. 순도 보고서가 없으면 가지고 계세요.
+ice_maker.col.c_give,[건네기 ({0})]
+ice_maker.col.c_short,[수량이 부족해요]
+ice_maker.col.paid,수량 확인됐어요. {0} 크레딧입니다.
+ice_maker.col.next,다음 주엔 {0}개가 필요해요. {1} 등급 이상으로요.
+ice_maker.col.again,"다음 주에도, {0}개예요. {1} 등급 이상으로요."
+ice_maker.short.none,한 개도 없어요?
+ice_maker.short.some,{0}개뿐이에요? 그거라도 가져갈게요. {1} 크레딧이에요.
+ice_maker.short1.1,이번엔 경고예요. 이 바닥 사람들 모두 알게 될 거예요.
+ice_maker.short1.2,모임 사람들도 벌써 물어보고 있어요.
+ice_maker.short2.1,또 수량이 부족하네요.
+ice_maker.short2.2,"파티는 없지만, 장소 대관료는 내야죠. 그건 당신 책임이에요. {0} 크레딧입니다."
+ice_maker.short2.3,한 번만 더 그러면 돈 문제로 끝나지 않을 거예요.
+ice_maker.short3.1,내가 경고했죠.
+ice_maker.short3.2,다신 찾아오지 마세요.
+ice_maker.short3.3,여기서 무슨 일을 하는지 경찰도 곧 알게 될 거예요.
+ice_maker.extra.ask,남는 것도 살게요. 가격은 똑같아요.
+ice_maker.extra.more,더 있어요?
+ice_maker.extra.c_none,[여기까지]
+ice_maker.extra.c_0,[길거리 등급 1개 판매 ({0})]
+ice_maker.extra.c_1,[파티 등급 1개 판매 ({0})]
+ice_maker.extra.c_2,[결정 등급 1개 판매 ({0})]
+ice_maker.extra.sold,좋아요.
+ice_maker.extra.bye,다음 주에 봐요.
+ice_maker.arrest.c1,경찰을 불렀다고요? 좋아요.
+ice_maker.arrest.s1,보안팀입니다. 여기서 밀수품 거래가 있다는 신고를 받았습니다.
+ice_maker.arrest.s2,저희와 함께 가시죠.
+ice_maker.supply.arrest.c1,전 그냥 배달만 했어요!
+ice_maker.supply.first.1,난 루벤이야. 준이 보냈어.
+ice_maker.supply.first.2,결정 전구체와 응축 정제야. 일주일에 한 번씩 가져오지.
+ice_maker.supply.first.3,다른 데보다 조금 싸. 어디서 났는지는 묻지 마.
+ice_maker.supply.v1,늘 하던 대로야. 전구체랑 정제.
+ice_maker.supply.v2,"이번 주 물량이야. 수량 확인했고, 빠진 건 없어."
+ice_maker.supply.accept,거래하지.
+ice_maker.supply.done,다음 주에 봐.
+luxury.scenario.title,고급품 거래상
+luxury.scenario.desc,우주 정거장의 모든 것은 출력할 수 있어. 그래서 출력할 수 없는 물건이 가장 비싸지. 밴더린 가문 신탁에서 며칠마다 진품을 보내 줘. 그걸 상층 구역 사람들에게 팔면 돼. 이곳 손님들은 더 많이 쓰거든.
+luxury.scenario.with1,진열장 확장
+luxury.scenario.with2,진품 인증품 3개
+luxury.scenario.with3,밴더린 가문 평판 +10
+luxury.scenario.tag,상층 구역 모드
+luxury.npc_name,모로
+luxury.first.1,난 모로야. 밴더린 가문 신탁을 대표하지.
+luxury.first.2,신탁은 상층 구역에서 몇몇 거래상하고만 일해. 이제 네가 그중 하나야.
+luxury.first.3,"며칠마다 물건을 가져오지. 전부 진품이고, 하나하나 인증서가 있어."
+luxury.v1.1,새 물건이 들어왔어.
+luxury.v1.2,상자 안에 인증서가 있어. 잃어버리지 마.
+luxury.v2.1,방금 부두 세관을 통과한 물건들이야.
+luxury.v2.2,몇 개는 외부 행성에서 왔어. 운송에 2년이나 걸렸지.
+luxury.v3.1,좋은 아침.
+luxury.v3.2,늘 하던 조건대로야. 감정가에서 할인해 줄게.
+luxury.heard,며칠 전에 네가 판 물건 하나를 신탁에서 확인하러 가져왔어. 난 널 모른다고 했지.
+luxury.heard_stop,또 하나가 감정을 받으러 들어왔어. 인증 안 된 물건은 이제 그만이야. 묻지 마.
+luxury.fake.1,그리고 내 개인 소장품도 몇 개 있어. 인증서는 없어. 진품보다 훨씬 싸지.
+luxury.fake.2,팔고 나서 무슨 일이 생겨도 신탁과는 상관없어. 나도 마찬가지고.
+luxury.ask,어떤 걸로? 전부 가져가면 더 싸.
+luxury.more,더 있어?
+luxury.pick,어느 걸로?
+luxury.c_none,[여기까지.]
+luxury.c_pick,[하나씩 볼게요.]
+luxury.c_all,[남은 {0}개를 전부 살게요. ({1} 크레딧)]
+luxury.c_fake,[인증서 없는 {0}개요. ({1} 크레딧)]
+luxury.c_next,[다른 건 뭐가 있어요?]
+luxury.c_back,[일단 이 정도면 됐어요.]
+luxury.c_item,[{0}. ({1} 크레딧)]
+luxury.sold,됐어. 인증서도 같이 줄게.
+luxury.sold_all,전부 네 거야.
+luxury.fake_sold,난 이런 걸 본 적 없어.
+luxury.sold_out,이게 전부야. 며칠 뒤에 보자.
+luxury.bye,며칠 뒤에 다시 올게.
+luxury.bye_none,좋아. 며칠 뒤에 다시 올게.
+luxury.caught_one,구매자 한 명이 네가 판 위조품을 감정받았어.
+luxury.caught_many,구매자 {0}명이 네 위조품을 감정받았어.
+luxury.tip_fake,인증서 없음. 위조품이다.
+luxury.tip_cert,밴더린 신탁 인증서가 딸려 있다.
+crate.scenario.title,밀봉 상자 사냥꾼
+crate.scenario.desc,상층 구역에서 가게를 운영하며 번 돈 대부분을 밀봉 상자에 쏟아붓습니다. 암시장이 며칠마다 한 묶음씩 가져옵니다. 열기 전에는 안에 무엇이 들었는지 아무도 모릅니다.
+crate.scenario.with1,상자 개봉 작업대
+crate.scenario.with2,일반 상자 두 개와 고급 상자 한 개
+crate.scenario.with3,며칠마다 찾아오는 밀수꾼
+crate.scenario.tag,상층 구역 모드
+crate.item.common.name,일반 밀봉 상자
+crate.item.common.flavor,"하층 갑판에서 밀반입된 나무 상자,로, 봉인은 온전하다. 대부분 생활용품이 들었지만 가끔은 다른 물건도 나온다."
+crate.item.fine.name,고급 밀봉 상자
+crate.item.fine.flavor,잠금쇠와 보안 봉인이 달린 단단한 외장 상자. 운송비가 내용물 대부분보다 더 비쌌다.
+crate.item.noble.name,귀족 밀봉 상자
+crate.item.noble.flavor,"어느 유서 깊은 가문의 저택에서 나온 옻칠 상자. 문장은 절반쯤 긁혀 나갔다. 가보가 나올 때도 있고, 그들이 버린 물건이 나올 때도 있다."
+crate.item.bench.name,상자 작업대
+crate.item.bench.desc,"밀봉 상자를 여는 작업대. 하룻밤 두면 깔끔하게 열 수 있고, 지금 당장 강제로 뜯을 수도 있다."
+crate.item.bench.flavor,"유압 지렛대,와 쇠지렛대, 여기저기 흩어진 못이 잔뜩 있다. 전기가 아니라, 힘으로 작동한다."
+crate.item.bench.note_name,상자 작업대 설명서
+crate.item.bench.note_flavor,"밀봉 상자를 작업대에 올려놓으십시오.\n밤새 개봉: 하룻밤에 최대 2개를 엽니다. 내용물은 온전한 상태로 아침에 카운터 뒤에 놓입니다(자리가 없으면 가게 안의 다른 곳에 놓임), 그래서 작업대에 다음 상자를 올릴 수 있습니다.\n강제 개봉: 버튼을 눌러 첫 번째 상자를 즉시 엽니다. 각 물품은 35% 확률로 낡은 상태가 됩니다.\n상자는 밀수품입니다. 열기 전에는 누구에게도 들키지 마십시오."
+crate.bench.label_work,작업대
+crate.bench.label_control,개봉
+crate.bench.status_empty,상자를 넣으세요
+crate.bench.status_ready,오늘 밤 {0}개 개봉 예정 (총 {1}개)
+crate.bench.pry,강제 개봉
+crate.open.empty,상자가 비어 있었다.
+crate.open.summary,물품 {1}개. 최고 물품: {0}.
+crate.pry.damaged,{0} 손상됨.
+crate.log.opened,상자 작업대가 밀봉 상자를 열었다. {0}
+crate.smuggler.name,밀수꾼
+crate.smuggler.first.1,밀봉 상자 산다는 사람이 너야?
+crate.smuggler.first.2,"규칙은 간단해. 상자는 밀봉된 채로 넘기고, 환불도 없고, 어디서 났는지도 묻지 마."
+crate.smuggler.first.3,며칠마다 들를게. 오늘 물건은 여기 있어.
+crate.smuggler.v1.1,이번 주 물건이야. 방금 검문소를 통과했지.
+crate.smuggler.v2.1,늘 하던 대로야. 골라 봐.
+crate.smuggler.v3.1,이번 길은 험했어. 상자들이 좀 부딪혔지. 안에 든 건 내 알 바 아니야.
+crate.smuggler.noble,오늘은 귀족 저택에서 나온 것도 하나 있어. 어느 집인지는 묻지 마.
+crate.smuggler.plain,평범한 물건이야. 너무 깊이 생각하지 마.
+crate.smuggler.accept,거래 성립. 안에 뭐가 들었는지는 네 운에 달렸어.
+crate.smuggler.done,다음 주에 보자.
+crate.smuggler.arrest.c1,맹세코 안에 뭐가 들었는지 몰라요!
+crate.smuggler.arrest.s1,그럼 서로 가서 곰곰이 생각해 보시지. 상자도 압수한다.
+appraiser.scenario.title,감정사
+appraiser.scenario.desc,"당신은 감정위원회 자격증을 보유하고 있습니다. 상층 구역 수집가들이 신경 쓰는 것은 단 하나, 진품,인지 복제품인지입니다."
+appraiser.scenario.with1,감정위원회 초급 자격증 (진열장에 이미 배치됨)
+appraiser.scenario.with2,"재질 스캐너: 진품과 복제품, 위조품을 구별합니다"
+appraiser.scenario.with3,며칠마다 귀중품을 가져오는 경매소 또는 수집가
+appraiser.scenario.with4,상층 구역 평판 +5
+appraiser.scenario.tag,상층 구역 모드
+item_ul_appraiser_scanner_name,재질 스캐너
+item_ul_appraiser_scanner_desc,"수집품,이나 사치품 또는 술에 사용하면 진품인지, 복제품인지 위조품인지 판별합니다. 수집품에 사용하면 감정 패널도 열립니다."
+item_ul_appraiser_scanner_flavor,프린터는 형태를 복제할 수 있다. 하지만 400년 묵은 산화 흔적까지 복제할 수는 없다.
+item_ul_appraiser_guide_name,상층 구역 수집품 가격 안내서
+item_ul_appraiser_guide_desc,감정위원회의 수집품 가격표. 열어서 읽을 수 있다.
+appraiser.piece.painting.name,감정용 회화
+appraiser.piece.painting.flavor,물감은 지구에서 운송해 왔다고 한다.
+appraiser.piece.holo.name,감정용 광장 작품
+appraiser.piece.holo.flavor,광장 예술 작품. 진품은 광장에 희미한 노이즈가 있지만 복제품에는 없다.
+appraiser.piece.vase.name,감정용 골동품 화병
+appraiser.piece.vase.flavor,진짜 점토를 구워 만들었다. 이 정거장에는 이제 가마가 남아 있지 않다.
+appraiser.piece.watch.name,감정용 기계식 시계
+appraiser.piece.watch.flavor,태엽을 감아야 한다. 상층 구역 사람들은 이를 운치라고 부른다.
+appraiser.piece.carving.name,감정용 목각품
+appraiser.piece.carving.flavor,"진짜 나무를 깎아 만들었다. 냄새도 나무, 냄새다."
+appraiser.piece.brooch.name,감정용 브로치
+appraiser.piece.brooch.flavor,브로치. 금이 진짜인지는 스캔해 봐야 안다.
+appraiser.scan.notify.1,{0}: 진품
+appraiser.scan.notify.2,{0}: 복제품
+appraiser.scan.notify.3,{0}: 위조품
+appraiser.guide.base,종류별 기본 가격:
+appraiser.guide.kind,- {0}: {1}
+appraiser.guide.cond,상태 (배율):
+appraiser.guide.pct,- {0}: {1}%
+appraiser.guide.prov,문서로 입증된 소장 이력: {0}% 추가.
+appraiser.guide.mat,"재질 (배율,, 스캐너로 확인):"
+appraiser.guide.tip,고객은 언제나 진품 가격을 부릅니다. 복제품과 위조품의 가치는 그 일부에 불과합니다. 너무 높게 감정하면 고객이 거절합니다.
+appraiser.cond.0,최상
+appraiser.cond.1,양호
+appraiser.cond.2,보통
+appraiser.cond.3,손상
+appraiser.mat.1,진품
+appraiser.mat.2,복제품
+appraiser.mat.3,위조품
+appraiser.tip.cond,상태: {0}
+appraiser.tip.prov.yes,소장 이력: 문서 있음
+appraiser.tip.prov.no,소장 이력: 없음
+appraiser.tip.unscanned,재질: 스캔하지 않음
+appraiser.tip.scan,재질 스캔: {0}
+appraiser.fake.premium.1.1,복제품이라고요? 경매소에서 지난주에 진품으로 매입했는데.
+appraiser.fake.premium.1.2,"아직 도록에 싣지 않아서 다행이군요. {0} 크레딧,에 경매소의 감사까지 드리죠."
+appraiser.fake.premium.2.1,위조품이군요. 인증서조차 가짜예요.
+appraiser.fake.premium.2.2,판매자와 이야기를 좀 해야겠군요. {0} 크레딧은 가지세요.
+appraiser.fake.normal.1.1,복제품이라고요? 할아버지는 진품이라고 하셨는데.
+appraiser.fake.normal.1.2,경매에서 알게 되는 것보단 낫군요. 여기 {0} 크레딧을 더 드리죠.
+appraiser.fake.normal.2.1,가짜라고요? 이거 비싸게 샀는데.
+appraiser.fake.normal.2.2,좋아요. {0} 크레딧을 더 드리죠. 이 일은 비밀로 해 주세요.
+appraiser.premium.ok,"진품,이며 감정가도 정확합니다. 감정원에서 {0} 크레딧을 추가합니다."
+appraiser.client.name,상층 구역 주민
+appraiser.client.req.1,유산을 정리하다가 이런 물건들을 찾았어요.
+appraiser.client.more.1,보험사에서 감정서를 원해요.
+appraiser.client.req.2,전남편이 두고 간 물건들이에요.
+appraiser.client.more.2,그 사람이 얼마나 구두쇠였는지 정확히 알고 싶어요.
+appraiser.client.req.3,"이사할 예정이라, 먼저 이 물건들 감정받으려고요."
+appraiser.client.more.3,값싼 건 전부 두고 갈 거예요.
+appraiser.client.req.4,친구가 여기 감정이 괜찮다고 하더군요.
+appraiser.client.more.4,저녁 식사 자리에서 망신 주진 마세요.
+appraiser.visit.auction.name,경매장 감정사
+appraiser.visit.auction.1,다음 주 경매에 낼 물건입니다. 독립적인 감정이 필요합니다.
+appraiser.visit.auction.2,진품 가격으로 책정돼 있습니다. 진짜인지는 당신이 판단하세요.
+appraiser.visit.collector.name,개인 수집가
+appraiser.visit.collector.1,방금 샀어요. 판매자는 출처 증명이 완벽하다고 하더군요.
+appraiser.visit.collector.2,수수료를 받지 않는 사람의 의견을 듣고 싶어요.
+appraiser.visit.done,감정서를 가져가겠습니다. 다음 주에 보죠.
+navy.scenario.title,해군 계약업자
+navy.scenario.desc,"공화국 해군의 공인 계약업자 허가증을 보유하고 있습니다. 해군이 필요한 물자를, 조달해 제때 납품하세요. 병참장교가 일주일에 한 번 방문합니다."
+navy.scenario.with1,공인 계약업자 허가증
+navy.scenario.with2,소량의 보급품 견본
+navy.scenario.with3,레이스 병참장교의 보급 요청
+navy.scenario.tag,상층 구역
+navy.license.name,공인 계약업자 허가증
+navy.license.flavor,해군 보급부 발급. 열어서 계약업자 등급과 현재 보급 요청을 확인하세요.
+navy.status.title,계약업자 기록
+navy.status.level,"계약업자 등급 {0}. 보급 요청 {1}건 납품 완료, 다음 등급까지 {2}건 남았습니다."
+navy.status.level_max,계약업자 등급 {0}. 보급 요청 {1}건 납품 완료. 함대 계약을 받으려면 매장을 소유해야 합니다.
+navy.status.no_orders,진행 중인 보급 요청이 없습니다.
+navy.status.order,{0} 보유량: {1}.
+navy.status.next,레이스의 다음 방문: {0}일째. 잉여 물자 경매: {1}일째.
+navy.status.totals,현재까지 보급 수입: {0} 크레딧. 경매 순수익: {1} 크레딧. 보유 정보: {2}.
+navy.cat.food,식량
+navy.cat.medical,의약품
+navy.cat.water,식수
+navy.cat.battery,배터리
+navy.cat.tool,도구
+navy.cat.ammo,탄약
+navy.cat.melee,근접 무기
+navy.cat.module,장치 모듈
+navy.cat.firearm,총기
+navy.cat.armor,방어구
+navy.order.desc,"{0} x {1}, 개당 최소 {2} 크레딧. {3}일째까지 납품. 보상 {4} 크레딧."
+navy.order.desc_any,{0} x {1}. {2}일째까지 납품. 보상 {3} 크레딧.
+navy.order.short,{0} x {1} (보유량 {2})
+navy.notify.level,계약업자 등급 상승: {0}
+navy.notify.overdue,보급 요청 {0}건 기한 초과. 벌금 {1} 크레딧
+navy.reyes.name,레이스 병참장교
+navy.reyes.intro.1,"해군 보급부, 레이스다. 허가증에 서명한 사람이 나야."
+navy.reyes.intro.2,"규칙은 간단해. 일주일에 한 번 와서, 새 주문을 주고, 지난주 주문을 받아 간다."
+navy.reyes.intro.3,"수량을 맞춰, 제때 납품하면, 시세보다 후하게 쳐 주지. 더 많이 납품하면, 주문 규모도 커진다."
+navy.reyes.intro.4,기한을 놓치면 보증금에서 차감한다.
+navy.reyes.v1.1,"레이스, 보급부다."
+navy.reyes.v1.2,또 한 주가 지났군.
+navy.reyes.v2.1,다음 주에 함대가 정박해. 보급 목록이 지난번보다 길어졌군.
+navy.reyes.v2.2,재고를 보자고.
+navy.reyes.v3.1,"좋은 아침. 예산이 또 삭감됐어. 계약업자 몫은 아니지만,."
+navy.reyes.v3.2,계약업자 예산을 깎으면 선원들 배급도 줄어드니까.
+navy.reyes.menu,주문한 물자는 준비됐나?
+navy.reyes.menu_more,또 있나?
+navy.reyes.c_done,[이게 전부입니다]
+navy.reyes.c_deliver,[납품: {0}]
+navy.reyes.got,"확인했어. {0} 크레딧을, 네 계좌로 송금했다."
+navy.reyes.c_intel,[넘겨주기: {0}]
+navy.reyes.intel_ask.dock,"부두 밀수 명단이군. 정보부에서 원해. 돈으로 받을래, 아니면 부탁 하나 들어줄래?"
+navy.reyes.intel_ask.vanderlin,"밴더린 가문의 할당량 장부군. 이걸 주면 평의회가 회의를 소집할 거야. 돈으로 받을래, 아니면 부탁 하나 들어줄래?"
+navy.reyes.intel_ask.rev,"잠입국 연락처군. 값어치가 꽤 나가. 대가는 알겠지. 돈으로 받을래, 아니면 부탁 하나 들어줄래?"
+navy.reyes.c_intel_cash,[현금 ({0} 크레딧)]
+navy.reyes.c_intel_favor,[무료. 대신 빚 하나 지는 거야]
+navy.reyes.intel_ok_cash,정보부에서 돈을 낼 거야. 정보 출처에 네 이름은 남지 않아.
+navy.reyes.intel_ok_favor,기억해 두지. 공화국은 오래도록 잊지 않아.
+navy.reyes.close,좋아.
+navy.reyes.close_due,"좋아. 기한이 지난 건 계약대로 보증금에서 차감할 거야,."
+navy.reyes.no_new,아직 처리하지 않은 주문이 있군. 이번 주엔 새 주문이 없어.
+navy.reyes.new_intro,이번 주 주문은 {0}건이야.
+navy.reyes.new_outro,전부 허가증 기록에 적혀 있어.
+navy.reyes.bye,다음 주에 보자.
+navy.intel.dock.name,정보: 부두 밀수 명단
+navy.intel.dock.flavor,선박 이름과 정박 위치. 레이스가 방문할 때 해군 정보부에 판매하세요.
+navy.intel.vanderlin.name,정보: 밴더린 할당량 장부
+navy.intel.vanderlin.flavor,밴더린 가문이 할당량을 초과해 사용한 물과 전력 기록. 레이스가 방문할 때 해군 정보부에 판매하세요. 밴더린 가문은 싫어하겠군요.
+navy.intel.rev.name,정보: 잠입국 연락처
+navy.intel.rev.flavor,주소 세 곳과 암구호. 레이스가 방문할 때 해군 정보부에 판매하세요. 잠입국은 싫어하겠군요.
+navy.clerk.name,해군 서기
+navy.clerk.v1,보급부에서 서류를 복사해요. 월급으론 집세도 못 내죠.
+navy.clerk.v2,제복은 신경 쓰지 마세요. 휴가 중이에요.
+navy.clerk.v3,레이스를 위해 계약한다고 들었어요. 그럼 구매자도 알겠네요.
+navy.clerk.offer.dock,부두 밀수 명단 사본이에요. {0} 크레딧이요.
+navy.clerk.offer.vanderlin,"감사부에서 빼낸 밴더린 할당량 장부예요., {0} 크레딧이요."
+navy.clerk.offer.rev,잠입국 연락처예요. 베끼는데 손이 떨렸어요. {0} 크레딧이요.
+navy.clerk.c_no,[괜찮습니다]
+navy.clerk.c_buy,[{0} 크레딧에 구매]
+navy.clerk.bye_no,좋아요. 난 여기 없었던 거예요.
+navy.clerk.bye_buy,됐어요. 어디서 났는지 말하지 마세요.
+navy.auction.name,해군 경매장 직원
+navy.auction.intro.1,해군 경매장입니다. 계약업자 명단에 올라 있군요.
+navy.auction.intro.2,"퇴역한 봉인 상자입니다. 목록은 없고, 현장에서 직접 여셔야 합니다."
+navy.auction.intro.3,매입 창구에서 내용물을 정가로 사들입니다. 이익이든 손해든 당신 몫이죠.
+navy.auction.v1,이번 주 상자가 들어왔습니다.
+navy.auction.v2,경매 사무소입니다. 늘 하던 규칙대로 진행하죠.
+navy.auction.lots_1,이번 주에는 당신 등급에 맞는 작은 상자 하나뿐입니다.
+navy.auction.lots_2,이번 주에는 작은 상자와 중간 상자 하나씩입니다.
+navy.auction.lots_3,"작은 상자, 중간 상자, 그리고 이번 주에는 컨테이너 하나가 나왔습니다."
+navy.auction.ask,어느 걸로 하시겠습니까?
+navy.auction.more,더 보시겠습니까?
+navy.auction.c_none,[그만두겠습니다]
+navy.auction.bye_none,다음 주에도 기회는 있습니다.
+navy.auction.bye,영수증은 제가 처리하죠. 다음 주에 봅시다.
+navy.auction.c_lot0,[작은 상자에 입찰 ({0} 크레딧)]
+navy.auction.c_lot1,[중간 상자에 입찰 ({0} 크레딧)]
+navy.auction.c_lot2,[컨테이너에 입찰 ({0} 크레딧)]
+navy.auction.r0.1,녹슨 렌치와 유효기간 지난 설명서입니다. 매입 창구에서 {0} 크레딧을 쳐 줬습니다.
+navy.auction.r0.2,전부 왼쪽 장화입니다. 매입 창구에서 {0} 크레딧을 쳐 줬습니다.
+navy.auction.r1.1,"유통기한까지 석 달 남은 압축 식량, 매입 창구에서 {0} 크레딧을 쳐 줬습니다."
+navy.auction.r1.2,단종된 모델용 예비 필터입니다. 매입 창구에서 {0} 크레딧을 쳐 줬습니다.
+navy.auction.r2.1,밀봉된 구급 키트 한 상자입니다. 매입 창구에서 {0} 크레딧을 쳐 줬습니다.
+navy.auction.r2.2,"항법 모듈입니다, 둘은 아직 작동합니다. 매입 창구에서 {0} 크레딧을 쳐 줬습니다."
+navy.auction.r3.1,"군용 방어구 한 벌입니다, 꼬리표도 그대로 붙어 있군요. 매입 창구에서 {0} 크레딧을 쳐 줬습니다."
+navy.auction.r3.2,"명세서에는 식기류라고 적혀 있었는데, 함선용 프린터의 핵심 부품이군요. 매입 창구에서 {0} 크레딧을 쳐 줬습니다."
+retire_kai_1,좋은 아침입니다. 장부를 봤어요.
+retire_kai_2,"백만을 넘겼네요. 이 위쪽에선, 그 정도면 충분하다고 하죠."
+retire_kai_3,가게는 넘길 수 있어요. 인수할 만한 사람 몇 명을 알아요.
+retire_kai_4,살 집도 알아봤어요. 평의회에서 두 거리 떨어진 곳이에요.
+retire_kai_5,"그래서요. 이제 그만둘까요, 아니면 조금 더 계속할까요?"
+retire_choice_now,이제 그만두겠습니다.
+retire_choice_later,조금 더 하겠습니다.
+retire_kai_now_1,좋아요. 서류는 제가 처리할게요. 내일이면 누군가 가게를 인수할 거예요.
+retire_kai_now_2,"상층 구역 시민이 되신 걸 환영합니다, ."
+retire_kai_later_1,마음대로 하세요. 이 카드는 가지고 계세요.
+retire_kai_later_2,"마음이 정해지면, 이걸로 저에게 연락하세요."
+item_ul_kai_card_name,카이 와일드의 명함
+item_ul_kai_card_flavor,카이 와일드의 개인 명함. 자산이 {0:N0} 이상일 때 사용하면 은퇴할 수 있습니다.
+retire_card_not_here,이 카드는 가게에서만 사용할 수 있습니다.
+retire_card_short,은퇴하려면 크레딧 {0:N0}이 더 필요합니다.
+retire_card_no_deed,아직 가게 소유주가 아닙니다. 은퇴할 수 없습니다.
+retire_test_ready,"테스트: 가게 구매 완료, 자산이 은퇴 기준에 도달했습니다. 카이가 오늘 찾아옵니다."
+retire_end_title,상층 구역 시민
+retire_end_open,가게를 팔고 상층 구역으로 이사했습니다. 가진 돈이면 평생 걱정 없이 살 수 있습니다.
+retire_end_prof_newcomer,"처음 이곳에 온 해에는, 집세 낼 크레딧 하나하나까지 세었죠."
+retire_end_prof_organ,냉장고를 팔았습니다. 당신이 예전에 무슨 일을 했는지 묻는 사람은 없습니다.
+retire_end_prof_perfume,여전히 향수를 조향합니다. 이제 팔지 않을 뿐이죠.
+retire_end_prof_ice,"반응로는 사라졌고 조제법은 불태웠습니다., 적어도 그렇게 말하고 다니죠."
+retire_end_prof_crate,경매에 나온 군용 상자를 여전히 보러 갑니다. 입찰은 한 번도 하지 않죠.
+retire_end_prof_appraiser,"사람들이 진품인지 물으면, 당신은 “알기 어렵네요”라고 답합니다."
+retire_end_prof_luxury,집에 있는 물건 중 절반은 예전에 팔았다가 다시 사들인 것들입니다.
+retire_end_prof_navy,해군 계약이 끝났습니다. 갱신하지 않았죠.
+retire_end_sold_organ,건강 검진 결과는 아주 좋습니다. 각 장기의 값어치를 의사보다 더 잘 알죠.
+retire_end_sold_ice,보안팀은 얼음 사건 자료를 보관하고 있습니다. 그 안에 당신 이름은 없죠.
+retire_end_faction_council,공화국 당국이 영주권을 발급했습니다. 번호가 아주 낮군요.
+retire_end_faction_helios,헬리오스는 매년 카드를 보냅니다. 법무 부서 서명이 있죠.
+retire_end_faction_vanderlin,"밴더린 만찬에서, 당신은 상석에 앉습니다."
+retire_end_faction_rev,청소부는 서재 청소를 늘 빼먹습니다. 당신은 이유를 묻지 않죠.
+retire_end_close,카이는 이따금 들릅니다. 사업 이야기는 하지 않죠.
+mach_status_nopower,전력 없음: 배터리를 삽입하세요
+dissector_log_nopower,해부 기계의 전원이 꺼져 있었습니다. 시신은 아직 기계 안에 있습니다.
+battle.ground_full,바닥에 더 놓을 공간이 없습니다. 그대로 두고 갑니다.
+navy.p2.notify,"계약자 등급 상승: 6 (함대). 레예스가 함대 계약을 가져옵니다. 하나를 완료하면, 다음 주에 다음 계약이 옵니다."
+navy.status.level_fleet,계약자 등급 {0} (함대). 징발품 {1}개 납품 완료.
+navy.order.fleet,함대 계약: {0}
+navy.order.short_fleet,함대 계약: {0} x {1} (보유 {2})
+navy.reyes.fleet.1,가게를 인수했다면서요.
+navy.reyes.fleet.2,함대는 자기 사업장을 가진 계약자하고만 계약합니다.
+navy.reyes.fleet.3,"오늘부터 함대 계약자입니다. 주문도 더 많고, 보수도 더 좋습니다."
+navy.reyes.fleet.4,"함대 계약도 맡게 됩니다. 대량 주문이죠. 납기는 2주입니다. 하나를 완료하면, 다음 주에 다음 계약을 가져오겠습니다."
+navy.reyes.fleet_new,함대 계약이 하나 추가됐습니다.
+navy.auction.lots_4,"작은 상자, 중간 상자, 그리고 이번 주에는 컨테이너 하나와 잉여 물자 한 배 분량이 나왔습니다."
+navy.auction.c_lot3,[선적분에 입찰 ({0} 크레딧)]
+luxury.p2.notify,"신탁이 당신 가게에 전시대를 열었습니다. 모로가 더 값비싼 물품과, 개인 고객의 예약품을 가져옵니다."
+luxury.p2.1,가게를 사셨군요? 신탁은 이미 알고 있습니다.
+luxury.p2.2,자기 사업장을 가진 상인에게 신탁 전시대를 내어 드립니다.
+luxury.p2.3,이제 좋은 물품을 몇 점 더 가져오겠습니다. 고객이 예약한 것도 있죠.
+luxury.p2.4,예약품은 잘 보관해 두세요. 다음에 제가 웃돈을 얹어 가져가겠습니다.
+luxury.vit.ask,고객들이 지난번에 예약한 물품입니다. 가지고 계신가요?
+luxury.vit.none,지난번 예약품이 없으시군요. 괜찮습니다.
+luxury.vit.c_ok,[알겠습니다]
+luxury.vit.c_give,"[건네기 ({0}개, {1} 크레딧)]"
+luxury.vit.c_keep,[가지고 있기]
+luxury.vit.paid,대금을 치렀습니다. 고객들이 기뻐하겠네요.
+luxury.vit.kept,"좋습니다. 예약은 취소하는, 걸로 하죠."
+luxury.vit.offer,이번에는 전시용 물품을 {0}개 더 가져왔습니다.
+luxury.vit.reserve_1,{0}은(는) 예약됐습니다. 다음에 방문하면 가치의 {1}%를 쳐 드리고 다시 사겠습니다.
+luxury.vit.reserve_2,{0}과(와) {1}은(는) 예약됐습니다. 다음에 방문하면 가치의 {2}%를 쳐 드리고 다시 사겠습니다.
+luxury.c_item_res,"[{0}. ({1} 크레딧, 예약됨)]"
+luxury.tip_reserved,모로의 고객이 이와 같은 물품을 예약했습니다. 다음 방문 때 가치의 {0}%를 지불합니다.
+phase2.debug_done,확장이 이미 해제됐습니다.
+organ.phase2.1,가게를 인수했다면서요. 축하합니다.
+organ.phase2.2,화이트 타워 사립 병원에서도 납품을 원합니다. 연결해 드렸어요.
+organ.phase2.3,"매주 담당자가 올 겁니다. 방문할 때마다 12개씩, 저보다 더 비싸게 사 줄 거예요."
+organ.phase2.4,시체 안치소의 무연고 시신도 병원에서 판매할 겁니다.
+organ.phase2.5,병원에서 해부 기계를 퇴역시켰길래 가져왔어요. 매장 안에 있습니다.
+npc_hospital_name,베버 박사
+hospital.intro.1,화이트 타워 사립 병원입니다. 베버예요. 쏜이 보냈습니다.
+hospital.intro.2,"환자는 기다려 주지 않습니다. 자연 장기만, 취급하고 신선해야 합니다."
+hospital.intro.3,일주일에 한 번 오겠습니다.
+hospital.visit.1,수거하러 왔습니다.
+hospital.bodies,이번 주 영안실에 미수습 시신이 {0}구 있습니다. 한 구당 {1}크레딧입니다. 가져가시겠습니까?
+hospital.c_bodies,전부 가져가겠습니다. ({0}크레딧)
+hospital.c_no_bodies,이번에는 괜찮습니다.
+hospital.bodies_done,가게에 두었습니다. 너무 오래 두지 마세요.
+hospital.no_room,가게에 자리가 없습니다. 웨버가 남은 시신을 가져갔습니다.
+hospital.ask,장기는요?
+hospital.more,더 필요한 건 없습니까?
+hospital.sold,좋습니다.
+hospital.c_none,오늘은 여기까지입니다.
+hospital.c_sell,"{0}, {1}크레딧."
+hospital.bye,다음 주에 뵙겠습니다.
+hospital.arrest.c1,저는 의사 면허가 있습니다!
+hospital.arrest.s1,그건 판사에게 설명하시죠. 같이 가시죠.
+ice_maker.phase2.1,가게를 샀다며.
+ice_maker.phase2.2,준이 더 원해. 이제부터 전구체 열두 개와 정제 열두 개를 매주 가져오지.
+ice_maker.phase2.3,"할당량을 채우면, 추가로 최대 열두 개까지 가져갈 거야."
+ice_maker.phase2.4,그녀가 이 결정화기를 가져오라고 했어. 어디서 났는지는 묻지 마.
+perfume.phase2.1,이제 가게가 네 거야? 그럼 더 큰 거래를 할 수 있겠네.
+perfume.phase2.2,이제부터 일주일에 두 번 올게. 부티크 가격으로.
+perfume.phase2.3,"온실에 남는 꽃이 있어. 올 때마다 조금씩 가져올게, 원가로."
+perfume.phase2.4,이 향수 작업대를 써. 가게에 있어.
+perfume.phase2.flowers,"온실 꽃이야. 이번엔 {0}개를 가져왔어, 총 {1}개야. 받을래?"
+perfume.phase2.c_flowers,네. ({0}크레딧)
+perfume.phase2.c_no_flowers,이번에는 됐어요.
+perfume.phase2.no_room,가게에 자리가 없습니다. 비올라가 남은 꽃을 가져갔습니다.
+crate.phase2.1,가게가 네 것이 됐다며. 이제 큰 물건도 가져올 수 있겠어.
+crate.phase2.2,윗층의 누군가가 귀족 저택 창고를 통째로 비웠어.
+crate.phase2.3,"앞으로, 한 번 올 때마다 귀족 상자 세 개야. 현금을 준비해."
+crate.phase2.4,작업대 하나로는 부족할 거야. 이걸 받아.
+crate.smuggler.noble_batch,귀족 물건 세 개 더야. 이번 물량은 이게 전부야.
+appraiser.buy.offer.1,"진품이라고 하시면, 그걸로 충분합니다."
+appraiser.buy.offer.2,팔려고 했어요. {0}에 가져가세요.
+appraiser.buy.c_yes,거래하죠. {0}.
+appraiser.buy.c_no,사양하겠습니다.
+appraiser.buy.yes,당신 겁니다.
+appraiser.buy.no,좋습니다. 다른 데 알아보죠.
+appraiser.buy.short,돈이 부족하시네요. 됐습니다.
+appraiser.buy.full,놓을 자리가 없군요. 다음에 하죠.
+appraiser.auction.name,경매장 관리자
+appraiser.auction.intro.1,이제 이곳이 사장님 가게라더군요.
+appraiser.auction.intro.2,저희 경매장에 상주 감정사가 필요합니다.
+appraiser.auction.intro.3,일주일에 한 번 경매를 엽니다. 주요 물건을 먼저 보실 수 있죠.
+appraiser.auction.intro.4,총액의 10%를 드립니다. 정산은 다음 주에 하죠.
+appraiser.auction.settle.1,지난주 경매 수익은 {0}입니다.
+appraiser.auction.settle.2,사장님 몫 {0}%: {1}.
+appraiser.auction.settle.cons,사장님 물건 {0}개도 팔렸습니다. 수수료를 빼면 {1}입니다.
+appraiser.auction.cons.ask,사장님이 사신 물건이 {0}개 있군요. 이번 주 경매에 내놓으시겠습니까?
+appraiser.auction.cons.c_yes,"가져가세요. {0}개, 가치 {1}입니다."
+appraiser.auction.cons.c_no,그대로 두겠습니다.
+appraiser.auction.cons.taken,{0}개군요. 다음 주에 정산하겠습니다.
+appraiser.auction.lots,이번 주 주요 경매 물품입니다. 보시죠.
+appraiser.auction.done,전표는 제가 가져가겠습니다. 경매 후에 뵙죠.
+kai.consign.intro.1,물건이 좀 있어. 여기서 대신 팔아 줘.
+kai.consign.intro.2,"선금은 없어. 팔린 금액의 {0}%는 네 몫이고, {1}%는 내 몫이야."
+kai.consign.intro.3,다음 주에 정산할게. 안 팔린 건 내가 가져가지.
+kai.consign.hello,정산할 시간이야.
+kai.consign.phase2.1,이제 가게가 네 거야? 축하해.
+kai.consign.phase2.2,"그럼 더 가져오지. 이제부터 매주 {0}개씩 가져올게, 네 몫은 {1}%야."
+kai.consign.sold,"{0}개 판매, 총 {1}. 내 {2}% 몫은 {3}이야."
+kai.consign.none_sold,이번 주엔 팔린 게 없어.
+kai.consign.missing,"가게에 {0}개가 없어. 정가로는 {1}이니, 내 몫은 {2}야."
+kai.consign.recalled,아침에 안 팔린 {0}개를 사람을 시켜 가져갔어.
+kai.consign.owed,전부 합쳐 {0}이야. 지금 가져갈게.
+kai.consign.new,새 물건 {0}개야. 조건은 같아.
+kai.consign.debt,카이에게 {0}을 아직 갚지 않았어. 다음 정산에 합산할게.
+kai.consign.full,더는 자리가 없어. 카이는 위탁품 {0}개만 두고 갔어.
+kai.consign.tip,"카이의 위탁품입니다. 판매되면 {0}%를 가져가며, 다음 방문 때 정산합니다."
+phase2.no_room_gift,가게에 자리가 없습니다. {0}이 내일 가져올 겁니다.
+luxury.no_room,가게에 자리가 없습니다. 모로가 들어가지 않은 물건을 가져가고 환불해 드렸습니다.
+ice_maker.phase2.direct,루벤은 돌아오지 않을 거야. 그쪽 사람들이 두 번째 크라이오 결정화기를 가게에 두고 갔어.
+ice_maker.phase2.direct_sender,택배원
+ul_cn.name_lower_levels_citizen,상층 거주자
+ul_cn.name_lower_level_citizen,상층 거주자
+ul_cn.name_lower_levels_worker,정비공
+ul_cn.name_low_level_doctor,개인 의사
+ul_cn.name_lower_level_repairman,수리 기술자
+ul_cn.name_lower_level_inventor,독립 발명가
+ul_cn.name_lower_level_parent,젊은 부모
+ul_cn.name_lower_level_weapon_trader,무기 중개상
+ul_cn.name_lower_levels_trader,상인
+ul_cn.name_lower_levels_vendor,노점상
+ul_cn.name_lower_level_nurse,간호사
+ul_cn.name_lower_levels_elder,장기 거주자
+ul_cn.name_sick_lower_levels_citizen,아픈 거주자
+ul_cn.name_lower_level_chemist,실험실 연구원
+ul_cn.name_lower_level_gunsmith,총기 제작자
+opt_decor_vanilla,일반 플레이에서도 상층 가게 사용
+opt_decor_vanilla_tip,"일반 플레이에서도 상층 가게 외관과 파란색 UI(유리문, 책상 선반, 콘솔)를 사용합니다. 게임 콘텐츠는 바닐라 그대로입니다. 문, 선반과 콘솔은 저장을 다시 불러오면 나타납니다."
+opt_vanilla_ui,바닐라 UI 사용
+opt_vanilla_ui_tip,파란색 스킨 대신 창과 패널의 원래 외관을 유지합니다. 가게 장식은 그대로입니다.
+ul_cn.supplier,공급자
+readme.item_name,README.md
+readme.item_desc,상층 안내서입니다. 열어서 읽어 보세요.
+readme.p1.title,상층에 오신 것을 환영합니다
+readme.p1.body,"이 파일은 가방에 계속 남아 있습니다. 뭔가 잊어버렸을 때 언제든 열어 보세요.\n\n목표는 하나뿐입니다. 이 가게를 산 뒤 1,000,000크레딧을 모아 은퇴하세요.\n\n그 밖의 모든 것은 선택 사항입니다. 사람들은 알아서 찾아올 겁니다. 이야기를 나눠도 되고 무시해도 됩니다."
+readme.p2.title,첫 주
+readme.p2.body,"· 임대료는 하층의 세 배이며, 매주 내야 합니다. 돈을 조금 남겨 두세요.\n· 상층 고객은 돈이 더 많습니다. 더 높은 값을 불러도 됩니다.\n· 직업에 따라 기계나 공급업자를 가지고 시작하며, 매주 누군가 찾아옵니다. 우선 그 일을 자리 잡게 하세요.\n· 6일쯤 되면, 카이 와일드가 찾아올 겁니다."
+readme.p3.title,돈 벌기
+readme.p3.body,"· 본업이 주된 일입니다. 물건을 만들고 공급하고 배달하고 방문객을 상대하세요.\n· 카운터는 부업입니다. 기본 게임과 똑같이 사고파세요.\n· 가게를 사고 나면, 본업의 확장 요소가 해금되어 수입이 계속 늘어납니다.\n· 밀수품은 돈이 빨리 되지만 증거를 남깁니다. 너무 많이 취급하면 경찰이 들이닥칩니다."
+readme.p4.title,카이 와일드
+readme.p4.body,"카이는 조의 사촌입니다. 여기 위쪽에서 필요한 것은 무엇이든 그를 통해야 합니다.\n\n그의 서비스는 와일드 네트워크 화면의, 상층 인맥 항목에 있으며, 와일드의 호의로 구매합니다. 뭘 사야 할지 모르겠나요? 각 열에서 가장 싼 것부터 시작하세요.\n\n금요일 살롱 초대장도 가져다줄 겁니다."
+readme.p5.title,살롱과 세력
+readme.p5.body,"이곳은 네 세력이 좌우합니다. 공화국 당국, 헬리오스 컨소시엄, 밴더린 가문과 혁명군입니다.\n\n· 금요일 폐점 후, 살롱을 방문하세요. 각 세력의 대표와 이야기하고 정보를 파세요.\n· 누군가의 환심을 사면 도움을 받을 수 있고, 부탁을 받을 수도 있습니다.\n· 누군가에게 밉보이면 대가를 치르게 됩니다."
+readme.p6.title,밤에는
+readme.p6.body,"폐점 후에는 밖으로 나갈 수 있습니다. 살롱, 본업 종사자만 아는 장소, 그리고 평판이 썩 좋지 않은 곳 몇 군데가 있습니다.\n\n밤은 위험합니다. 다치거나, 목격당하거나, 증거를 남길 수 있습니다. 분수를 지키세요. 내일도 가게 문을 열어야 합니다."
+readme.p7.title,가게 주변
+readme.p7.body,"· 문: 오른쪽 유리판의 둥근 버튼을 눌러 여세요. 초록색 버튼은 여전히 폐점할 때 씁니다.\n· 책상 오른쪽의 격자에는 팔고 싶지 않은 물건을 보관할 수 있습니다.\n· 설정 → 상층: 기본 UI로 되돌리거나, 일반 게임에서도 이 가게를 사용할 수 있습니다."
+readme.p8.title,마지막으로 한 가지
+readme.p8.body,"이 모드는 베타 버전입니다. 아직 완성되지 않은 부분이 많고, 제가 찾지 못한 문제도 분명 있을 겁니다.\n\n재미없는 부분이 있거나, 너무 어렵거나 너무 쉽다고 느껴지거나, 버그를 발견했다면, 창작마당 댓글이나 토론란(중국어 QQ 그룹: 1132532956)에 알려 주세요. 하나도 빠짐없이 읽습니다.\n\n이곳에 가게를 열어 주셔서 감사합니다. 여러분이 플레이하는 매 게임과 남겨 주시는 모든 의견이 이 모드를 계속 만들어 나가는 원동력입니다.\n\n— Mr.K"
+readme.header,상층 · README.md
+opt_allow_wanted,상층 게임에서 지명 수배범 허용
+opt_allow_wanted_tip,"기본값은 꺼짐입니다. 상층에는 지명 수배범이 없어 안전합니다., 지명 수배범을 중심으로 만들어진 모드를 사용한다면 켜세요. 진행 중인 저장에도 적용되며, 다음 날부터 효력이 생깁니다."
+opt_allow_aug,상층 게임에서 증강체 위기 허용
+opt_allow_aug_tip,"기본값은 꺼짐입니다. 상층에는 증강체 위기가 없습니다. 증강체를 중심으로 만들어진 모드를 사용한다면 켜세요. 진행 중인 저장에도 적용되며, 다음 날부터 효력이 생깁니다. 12일이 지났다면, 다음 날 아침 산탄총을 받습니다."
+opt_aug_started,상층에 증강체가 나타나기 시작했습니다. 이제 카운터 아래에 산탄총이 있습니다.
+scenario.organ.with4,대형 밀수 공간(6×5): 안에 든 밀수품은 검문 때 수색당하지 않습니다
+battle.corpse_carried,{0}구의 시신을 가게로 끌고 돌아옵니다.
+battle.corpse_no_room,가게에 공간이 없습니다. {0}구의 시신을 전장에 두고 옵니다.
+clinic.c_shop,진료소에서 장비도 판매하나요?
+clinic.shop,조금은. 진료소에서 교체한 구형 장비들이지. 작동은 해.
+clinic.c_buy_dissector,"해부기, {0}크레딧입니다."
+clinic.c_buy_cooler,"장기 냉각기, {0}크레딧입니다."
+clinic.c_shop_back,오늘은 됐어요.
+clinic.shop_done,카운터 위에 놓았어.
+item_ul_smuggler_bay_name,대형 밀수 공간
+item_ul_smuggler_bay_desc,"개조된 밀수 공간으로, 일반형보다 한 칸 더 넓습니다. 안에 든 물건은 검문에 걸리지 않습니다."
+heist_loot_carried,물품 {0}개를 가게로 가져옵니다.
+heist_loot_no_room,가게에 공간이 없습니다. 물품 {0}개를 두고 옵니다.
+pex.name_contact,거래소 연락책
+pex.intro.1,좋은 저녁입니다. 작은 모임을 대신해 찾아왔습니다.
+pex.intro.2,여기 물건 중에는 장부에 올리면 안 되는 것들이 있습니다. 눈에 띄어서도 안 되고요.
+pex.intro.3,그래서 비공개 거래소를 운영합니다. 아는 사람만 이용할 수 있죠.
+pex.intro.4,규칙은 간단합니다. 목록에 적힌 물건을 쓰레기통에 넣으세요.
+pex.intro.5,그날 밤 가게 청소를 맡기세요. 카이의 청소 계약을 이용하면 됩니다.
+pex.intro.6,"아침이 되면, 감사의 표시가 가게에 놓여 있을 겁니다."
+pex.intro.7,현재 목록입니다. 며칠마다 바뀝니다.
+pex.intro.8,가장 좋은 점이 뭔지 아십니까? 경찰 기록에는 아무것도 남지 않습니다.
+pex.intro.9,다음에 또 뵙죠.
+pex.list_title,비공개 거래소 · 현재 목록
+pex.list_howto,물품을 쓰레기통에 넣고 그날 밤 가게 청소를 맡기세요. 아침이 되면 보상이 쓰레기통에 놓입니다. 각 거래는 하룻밤에 한 번만 할 수 있습니다.
+pex.list_permanent,[상시]
+pex.list_weekly,[이번 주] (매주 월요일 변경)
+pex.list_line,· {0} → {1}
+pex.give.perfume,뉴로 향수 2개
+pex.give.perfume3,뉴로 향수 3개
+pex.give.wine,술 2병
+pex.give.organ,장기 1개
+pex.give.organ2,장기 2개
+pex.give.art,예술품 2점
+pex.give.weapon,무기 1개
+pex.give.module,기계 모듈 2개
+pex.give.luxury,사치품 3개
+pex.give.sec_card,보안 키카드
+pex.give.med_card,의료 키카드
+pex.give.eng_card,공학 키카드
+pex.get.module,"희귀 기계 모듈 1개(오버클럭 / 절전 / 정밀, 경우에 따라 신경 코어)"
+pex.get.cell,자가 충전 에너지 셀 1개
+pex.get.cells,자가 충전 에너지 셀 2개
+pex.get.medical,검은색 주사기 + 파란색 혈액 팩
+pex.get.surgery,수술 도구 + 검은색 주사기 2개
+pex.get.rep10,상층 평판 +10
+pex.get.rep25,상층 평판 +25
+pex.get.favor,와일드의 호의 +150
+pex.get.sec_crate,보안 보급품 상자
+pex.get.med_crate,의료 보급품 상자
+pex.get.eng_crate,공학 보급품 상자
+pex.give.perfume4,뉴로 향수 4개
+pex.get.neural,신경 코어 모듈 1개(상한 적용)
+type_ul_upper_stock,상층 재고
+clinic.trade,"장기를 카운터 위에 놓으세요. 진료소에서 교체한 해부기와 냉각기도 가져왔습니다., 원하신다면 말이죠."
+ice_maker.buy.intro,며칠마다 들를게. 가진 건 뭐든 카운터 위에 올려놓으면 가격을 흥정하지. 순도 검사를 마친 물건은 더 쳐 주겠어.
+ice_maker.buy.1,뭐 좀 있나? 어디 보자고.
+ice_maker.buy.deal,거래 성립.
+ice_maker.buy.bye,며칠 뒤에 보자고.
+uc.corporate.name,기업 구매 담당자
+uc.corporate.1,헬리오스 조달부입니다. 장비와 자재를 조달하고 있습니다.
+uc.corporate.2,"품질만 좋다면, 가격은 문제없습니다."
+net_group_studio,밀러 스튜디오
+ul_kai_studio_i_title,스튜디오 투자
+ul_kai_studio_i_desc,"카이가 당신을 대신해 밀러 박사의 스튜디오에 자금을 조금 투자합니다. 쓸 만한 장비를 눈여겨봐 줍니다. 대형 배낭, 고급 모듈 같은 물건이 더 자주 등장합니다."
+ul_kai_studio_ii_title,스튜디오 투자 II
+ul_kai_studio_ii_desc,추가 투자입니다. 밀러 박사가 당신을 주요 고객으로 대우하며 좋은 장비가 더 자주 등장합니다.
+ul_kai_studio_special_title,특별 재고
+ul_kai_studio_special_desc,"밀러 박사가 당신을 위해 특별 재고를 따로 마련하기 시작합니다. 기계 공간 확장 장치, 대형 보관 공간, 자가 충전 셀, 고급 모듈 추출기입니다. 가끔 좋은 장비를 진열해 두는 특별 재고의 날이 열립니다."
+pex_dr_miller_name,밀러 박사
+pnotes.item_name,향수 노트
+pnotes.item_desc,헬레나의 향수 제조 노트입니다.
+pnotes.header,향수 노트
+pnotes.p1.title,향은 장부보다 솔직하다
+pnotes.p1.body,"이건 제 기록이에요. 엘리너에게.\n\n여기 위의 향수는 모두 인쇄품이에요. 향은 그럴듯하지만, 그 안엔 아무것도 없죠.\n\n진짜 꽃은 달라요. 변하고, 시들고, 누군가를 기억하죠.\n\n- 헬레나"
+pnotes.p2.title,단일
+pnotes.p2.body,"꽃 2송이, 하룻밤.\n‘단일’ 향수 1병을 얻어요.\n약 500 크레딧.\n\n꽃은 책상 꽃 투입구에 넣어요.\n제조법을 고르고, 배터리를 연결하세요.\n\n우선 이걸로 시작하세요."
+pnotes.p3.title,어코드
+pnotes.p3.body,"꽃 4송이, 이틀 밤.\n‘어코드’ 향수 1병을 얻어요.\n약 1,000 크레딧.\n\n네 병 중 한 병꼴로 ‘솔리테어’가 나와요.\n그건 1,800 크레딧에 팔려요.\n\n시작할 때 꽃을 가져가요.\n도중에 제조법을 바꿔도 꽃은 돌아오지 않아요."
+pnotes.p4.title,사는 사람
+pnotes.p4.body,향수 구매자는 매주 와요.\n시세보다 더 쳐주죠.\n\n여기 위의 부유한 손님들도 사요.\n진열장에 몇 병 놓아두면 사람들이 구경하러 와요.\n\n배달원들에게 꽃을 사세요.\n저렴한 거래처는 인맥으로 굴러가요.\n\n전부 팔지는 마세요.\n하나는 직접 간직하세요.
+ul_dialog_minor_patrol_3,상층 구역 순찰도 또 하루가 지났네.
+ul_dialog_minor_patrol_4,여기 사람들은 날 경비견 보듯 해.
+ul_dialog_minor_patrol_6,"어서 날 경사로 진급시켜 줘,"
+ul_dialog_minor_patrol_7,아니면 책상이라도 하나 주든가...

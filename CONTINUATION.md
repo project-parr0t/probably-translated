@@ -29,7 +29,7 @@ The first command produces an intermediate assembly. The finalizer resolves ever
 
 ## Regenerate managed route bindings
 
-The bridge does not scan assemblies, types, or members by name at runtime. `tools/Expand-ManagedRoutes.ps1` expands every reviewed runtime route into generated Harmony patch classes; `tools/Finalize-ManagedBindings.ps1` replaces their intermediate string metadata with 479 exact type/module metadata-token targets and does the same for all six refresh targets. Generated patch classes stay disabled during the loader's assembly-wide Harmony scan and are enabled only for their exact target. Runtime activation contains no `ModReflect.Target` calls, no per-target caller/ownership stack validation, and no patch queue running across gameplay frames.
+The bridge does not scan assemblies, types, or members by name at runtime. `tools/Expand-ManagedRoutes.ps1` expands every reviewed runtime route into generated Harmony patch classes; `tools/Finalize-ManagedBindings.ps1` replaces their intermediate string metadata with 438 exact type/module metadata-token targets and does the same for all six refresh targets. Generated patch classes stay disabled during the loader's assembly-wide Harmony scan and are enabled only for their exact target. Runtime activation contains no `ModReflect.Target` calls, no per-target caller/ownership stack validation, and no patch queue running across gameplay frames.
 
 Regenerate the bindings whenever a supported managed mod changes:
 
@@ -46,7 +46,7 @@ The command must finish with `unsupported=0`. Treat any unsupported binding or c
 
 ## Resume an update
 
-`parr0t-release-checkpoint.json` is the canonical r10 release baseline. Load it with Parr0t's release-checkpoint API and require patch ID `probably-stolen-ko-localization` and release ID `local-r10`. Before starting an update, call `canonical_checkpoint_bytes` and confirm that the returned bytes exactly match the file; `validate_release_checkpoint` provides schema and dependency validation.
+`parr0t-release-checkpoint.json` is the canonical r12 release baseline. Load it with Parr0t's release-checkpoint API and require patch ID `probably-stolen-ko-localization` and release ID `local-r12`. Before starting an update, call `canonical_checkpoint_bytes` and confirm that the returned bytes exactly match the file; `validate_release_checkpoint` provides schema and dependency validation.
 
 Use the validated checkpoint to retain reviewed targets whose source, location, dependency, context, and review fingerprints are unchanged. Re-select and review targets whose recorded fingerprints no longer match the newly inventoried source. Preserve the checkpoint as the comparison baseline; write a new release checkpoint through Parr0t's canonical serialization API rather than editing JSON manually.
 

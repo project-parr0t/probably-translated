@@ -1,0 +1,64 @@
+appearance_recommended,추천
+appearance_custom,직접 선택
+source_storage,보관함
+source_storage_large,보관함 (확장)
+source_hypertech,하이테크 보관함
+source_smuggler,밀수꾼 보관함
+source_smuggler_large,밀수꾼 보관함 (개조)
+source_brewing_mini,xuxu 미니 저장고
+source_brewing_compact,사십칠의 "소형" 비밀 수납고
+source_machine,기계 보관함
+source_machine_ext,기계 보관함 (확장형)
+appearance_page,{0} / {1}
+appearance,외관
+current,현재: {0}
+game_default,게임 기본값
+restore,게임 기본값 복원
+close,닫기
+missing_sprite,텍스처 없음
+style_original,기본 디자인
+style_specialized,특수 디자인
+style_smuggler,밀수꾼 보관함 윤곽선
+category_food,식품
+category_medical,의료
+category_materials,재료
+category_household,생활용품
+category_substance,주류
+category_weapon,무기
+category_water,물
+category_tool,도구
+category_module,모듈
+category_ammunition,탄약
+category_rat_cage,쥐 사육장
+category_fish,물고기
+category_plant,식물
+category_luxury,사치품
+category_keycard,출입 카드
+category_chemicals,화학 용품
+category_grape,포도
+category_wine_cabinet,술 진열장
+category_battery,배터리
+category_meat,고기
+category_fish-meat,생선살
+category_chemical-samples,화학 샘플
+category_mushroom,버섯
+category_bullets,탄환
+style_machine,애니메이션 디자인
+style_machine_static,정적 디자인
+category_water-purification,정수
+category_manufacturing,제조
+category_chemistry,화학
+category_hydroponics,수경재배
+category_husbandry,축산
+category_brewing,양조
+category_power,전력
+category_fish-farming,양식
+hotkey_enabled,외관 단축키 사용
+hotkey_help,지원되는 보관함에 마우스를 올리고 지정된 키를 눌러 외관 창을 여세요.
+hotkey_key,외관 단축키
+hotkey_prompt,새 키를 누르세요. Esc를 누르면 취소됩니다.
+hotkey_cancel,취소
+appearance_controls_section,외관 설정
+context_menu_enabled,우클릭 메뉴에 외관 표시
+context_menu_help,지원되는 보관함의 우클릭 메뉴에 외관 항목을 표시합니다. 단축키는 별도로 사용할 수 있습니다.
+mod_description,"지원되는 보관함을 우클릭해 외관을 선택하거나, 보관함에 마우스를 올리고 F7을 누르세요. 톱니바퀴 설정에서 단축키를 끄거나 변경할 수 있습니다. 기계 보관함은 애니메이션 또는 정적 디자인을 선택할 수 있으며, 밀수꾼 보관함에도 보관함 디자인을 사용할 수 있습니다. 양조 확장을 설치하면 xuxu 미니 저장고를 지원합니다. 보관함 외관은 게임 저장 파일에 저장됩니다."
