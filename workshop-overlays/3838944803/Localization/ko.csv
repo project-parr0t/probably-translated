@@ -82,7 +82,7 @@ tier_neutral,중립
 tier_cold,냉랭
 tier_hostile,적대
 faction_council_name,공화국 당국
-faction_council_desc,"공화국의 정거장 내 두 부서입니다. 정거장 평의회는 규정, 허가증, 층간 통행증을 담당하고 해군 조달부는 군수품 조달을 담당합니다. 절차를 따르지만, 그 절차도 돈으로 살 수 있습니다."
+faction_council_desc,"공화국의 정거장 내 두 부서다. 정거장 평의회는 규정, 허가증, 층간 통행증을 담당하고 해군 조달부는 군수품 조달을 담당한다. 절차를 따르지만, 그 절차도 돈으로 살 수 있다."
 faction_helios_name,헬리오스 컨소시엄
 faction_helios_desc,"정거장의 물, 전력, 수경재배를 통제하는 거대 기업입니다. 원하는 것은 반드시 손에 넣습니다."
 faction_vanderlin_name,밴더린 가문

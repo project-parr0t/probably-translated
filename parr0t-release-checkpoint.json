@@ -110408,8 +110408,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "021f3de33fcee26033f64d47a020387663a05221ed279feaedcc80f504324232",
       "status": "reviewed",
-      "target": "공화국의 정거장 내 두 부서입니다. 정거장 평의회는 규정, 허가증, 층간 통행증을 담당하고 해군 조달부는 군수품 조달을 담당합니다. 절차를 따르지만, 그 절차도 돈으로 살 수 있습니다.",
-      "target_sha256": "87109d1ea239c4afcd6e470de3df75feee91e8790a6f7d81bf7743c55fa129dc"
+      "target": "공화국의 정거장 내 두 부서다. 정거장 평의회는 규정, 허가증, 층간 통행증을 담당하고 해군 조달부는 군수품 조달을 담당한다. 절차를 따르지만, 그 절차도 돈으로 살 수 있다.",
+      "target_sha256": "e32fb2195273070fb1712ed382cc63b07fdc53bccc14cf17ce5ee7d1ec943c30"
     },
     {
       "dependencies": [],
@@ -127499,7 +127499,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r20",
+  "release_id": "local-r21",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
