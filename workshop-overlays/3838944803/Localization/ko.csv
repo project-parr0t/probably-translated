@@ -2050,3 +2050,16 @@ perk.ul_blacklisted.desc_nosalon,밴더린 가문 평판 -30으로 시작합니�
 perk.ul_outsider.desc_nosalon,상층 구역에서는 아무도 당신을 모릅니다. 고객이 30% 적게 찾아옵니다.
 scenario.soon.tag,출시 예정
 scenario.soon.desc,출시 예정. 이 직업은 아직 제작 중입니다.
+ul_dialog_upper_lower_visitor_1,"어이, 가게 주인! 난 몇 층 위에 살아."
+ul_dialog_upper_hedonist_greeting_1,여기 찾느라 산책로를 반이나 돌아다녔어. 빨리 끝내자고.
+ul_dialog_upper_lower_visitor_luxury_1,오늘은 참 따분하네. 쇼핑이나 하러 가야겠어.
+ul_dialog_minor_ul_visitor_2,"저는 보통 전당포엔 잘 안 오는데요,"
+ul_dialog_minor_ul_visitor_3,여기서 하층 구역 물건도 찾을 수 있다고 들었어요!
+ul_dialog_minor_ul_visitor_4,하층 구역 물건은 정말 흥미롭더라고요.
+ul_dialog_minor_ul_visitor_8,하층 구역 물건이면 뭐든 괜찮아요.
+ul_dialog_minor_ul_visitor_9,"수제품이나 가공식품, 저기술 무기 같은 거,"
+ul_dialog_tourist_greet_1,"와, 여기가 상층 구역이구나. 정말 마음에 들어!"
+ul_dialog_tourist_greet_5,여기가 터무니없이 비싸다는 말을 다들 하더라고요. 그래서 꼭 와 봐야 했죠.
+ul_dialog_tourist_deal_2,이 근처에서 재미 좀 볼 수 있다고 들었는데요?
+ul_dialog_tourist_weapon_greet_2,"위쪽 가게들은 엄청 비싸다던데, 꽤 매력적이네요."
+ul_dialog_tourist_weapon_greet_3,오늘은 정거장에서 가장 부유한 구역을 둘러보려고요. 문화가 넘치네요!

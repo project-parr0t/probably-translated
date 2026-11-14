@@ -126771,6 +126771,149 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_minor_ul_visitor_2",
+      "location_fingerprint": "a4e287d6ee746e6d407cf6d14a5d8cf43eef8696bf20610f6a6b39879ccd2911",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "cb787dd3f1e9588864df0c779ce788e8abfcf98164dbd93ba096aa421072d44a",
+      "status": "reviewed",
+      "target": "저는 보통 전당포엔 잘 안 오는데요,",
+      "target_sha256": "4cc511dc5cc893b9f08bc76e175cd3d7458036fe045ee5219917f2581c10ea64"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_minor_ul_visitor_3",
+      "location_fingerprint": "b4cffe8a22a2ea110d1e51d3200d52f872bd672986122ef3fe08edb4581d5468",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "35fe6c452b101dc22f84a3737d6a0f01f6121a2714ef96c23c69b10059916845",
+      "status": "reviewed",
+      "target": "여기서 하층 구역 물건도 찾을 수 있다고 들었어요!",
+      "target_sha256": "4b32835479a215f0a6a8a4576baf53a6e2a1de62907cba8eaf5d57618dcc0efc"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_minor_ul_visitor_4",
+      "location_fingerprint": "70272df186d014dcb912037aaafcad1d1b0c1ae7f0bcfd0fa7c5164e290fd544",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "57183ac70a0414770930edae1ad62e7595b0a1c1740e8cbc9f266be4f9f0d5b7",
+      "status": "reviewed",
+      "target": "하층 구역 물건은 정말 흥미롭더라고요.",
+      "target_sha256": "e8f885a426c82d022316a8ca564d18ed9a1512948d03281001426623559396fd"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_minor_ul_visitor_8",
+      "location_fingerprint": "0a8fb847d24ce6395174b3c8d3daee1dd7d653c972083f7c0302bb756fee0b3f",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "fd27e87024146dd149c08b8369f1086799307fbca4813b97bd4280f7cddde273",
+      "status": "reviewed",
+      "target": "하층 구역 물건이면 뭐든 괜찮아요.",
+      "target_sha256": "38f7753756326e4c0dc5b723a29c407018212cc70f00bb8009879aeb9af84918"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_minor_ul_visitor_9",
+      "location_fingerprint": "be508ebfe07994ea0e98fe77089211b517ed85711bcd72bd6333fb2e58cca8ef",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "3ebd3e3ae09cd688e8b6709fc958a5f3edb1e0cd786f9abe0e82d7ae3ad9cc27",
+      "status": "reviewed",
+      "target": "수제품이나 가공식품, 저기술 무기 같은 거,",
+      "target_sha256": "c0b1e997c7599b91a5023ee11677990288a3e201b659e5def81083cf5221e68d"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_tourist_deal_2",
+      "location_fingerprint": "e0dee95bc78b1ee123642f9aebbc9dae21254052000eb7c4a6b8d1ce1cce11ed",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "412c6fd63b5bf52435fbf4c1826475bfd39e4ca33f4d0daebc6a5271b2a83fe1",
+      "status": "reviewed",
+      "target": "이 근처에서 재미 좀 볼 수 있다고 들었는데요?",
+      "target_sha256": "b4cd7179a9960744b30ba5a09593ecaa3b629ada0c60b8cb6e989475941111fe"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_tourist_greet_1",
+      "location_fingerprint": "e46ac41b28aacb810346423700952031c285556aefe9cf75906bd75ec742b382",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "3deccf6826ef78994f099ec321f883527e8218301605e66114268e769d1df61e",
+      "status": "reviewed",
+      "target": "와, 여기가 상층 구역이구나. 정말 마음에 들어!",
+      "target_sha256": "66b292de53de220f812e61bc279172ab300e17d186c63ca7e6df552f1f8d8f8a"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_tourist_greet_5",
+      "location_fingerprint": "f53ee61a78fe95c7880f9e7edcceb8e510bbd792f2dafe4bf2891f83bbb4ccad",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "79442bb71d7f2ff9f90e85d35b9acaf5b12b1ffefdef6f372139b2690d5b4d77",
+      "status": "reviewed",
+      "target": "여기가 터무니없이 비싸다는 말을 다들 하더라고요. 그래서 꼭 와 봐야 했죠.",
+      "target_sha256": "0aa8262971fa4e01839ba8801577578bcc041757e555c6cbe0a793e500a4766c"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_tourist_weapon_greet_2",
+      "location_fingerprint": "13124281c8530d9dc97e853223649763f85f1cdb440835bdd2d226ca7a25df1e",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "96b74280812c5ea6cafa99546eeb5d4234f7746e77aefdc2eae297ac0c2d24fb",
+      "status": "reviewed",
+      "target": "위쪽 가게들은 엄청 비싸다던데, 꽤 매력적이네요.",
+      "target_sha256": "3f6d071ea18a7937b4e32698e4c0e50ca79a5b8bec19b77c21db1bdc7314907b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_tourist_weapon_greet_3",
+      "location_fingerprint": "54083374d769a21475a85a8f8a1d1d06e73587f8f168a1062e81a72e576edb35",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "818c84fcb61b93a3f6bf4562cb1c39d84b6edd3591d57638762fc0418c2c351d",
+      "status": "reviewed",
+      "target": "오늘은 정거장에서 가장 부유한 구역을 둘러보려고요. 문화가 넘치네요!",
+      "target_sha256": "8c38439bb205374bf8b752249ec9dc569aea5d36c8712d51374667d9825a3f9e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_upper_hedonist_greeting_1",
+      "location_fingerprint": "b560bb7f619fc2bea856c1c26c47cb5d13305ad977306b9c8094e11e1b662c94",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "30fc0f51859996653b49f2f6123e8783562216f6d439970c9d3be4e6ec7ba7c5",
+      "status": "reviewed",
+      "target": "여기 찾느라 산책로를 반이나 돌아다녔어. 빨리 끝내자고.",
+      "target_sha256": "afbed3a663afd70e42eb82f44e000503c477c387c166fd2bbe4d63f65581fce2"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_upper_lower_visitor_1",
+      "location_fingerprint": "e373ad705ad596fb8d61ca171673d2db2a7838ea6451b47ce777fc4a9941adee",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "581d43745726e0ee62911178bfb3887c3fe295d29eeb741f0e40f91e8a70907a",
+      "status": "reviewed",
+      "target": "어이, 가게 주인! 난 몇 층 위에 살아.",
+      "target_sha256": "a94cabac602d771f0be4071cabaf410fceaaded9d81690178c5f2c65543de80a"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_dialog_upper_lower_visitor_luxury_1",
+      "location_fingerprint": "9eeadf34dac8e06aa4e576c1c216c7e75ab5ebadaf665ab3c12b4101cd9cccbb",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "dbadaee7d4d32be85cb40e56c6250258a5e2a4b0b3934ae150caef9d514e8bf5",
+      "status": "reviewed",
+      "target": "오늘은 참 따분하네. 쇼핑이나 하러 가야겠어.",
+      "target_sha256": "bb7c2d8971d0b337e6b76f4af88e939fd8b31d2db4b4b8ff93119c12de3b2915"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:ul_inte_sec_call",
       "location_fingerprint": "c969a41e4c44914ebd6f13e5de880d4b61450f7401283c379c909625825792f7",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -127532,7 +127675,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r22",
+  "release_id": "local-r23",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
@@ -127540,8 +127683,8 @@
     "commit": "629b1c3e1f1c35c66243aea0a3f7bde2d05eada7"
   },
   "source_inventory": {
-    "fingerprint": "5db7ebcf96768096b6c41446a2748b90a032e35434ae18faa5ac24b78d2bc5a7",
+    "fingerprint": "ba497d27cc56d5dcd1cec3390283933a245186b9c8045d6e3fb55cc7c05a5372",
     "method": "workshop-and-managed-runtime-inventory",
-    "target_count": 11592
+    "target_count": 11605
   }
 }
