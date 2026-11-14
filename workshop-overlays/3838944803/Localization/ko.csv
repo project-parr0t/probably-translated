@@ -1133,7 +1133,7 @@ net_group_informant,정보원
 net_group_service,서비스
 ul_kai_showcase_i_title,쇼케이스 확장 I
 ul_kai_showcase_i_desc,카이가 아는 진열 전문가가 쇼케이스를 재배치해 더 많은 상품을 진열합니다. 매일 진열장에서 구매하는 고객이 {0}명 늘어납니다.
-ul_kai_showcase_ii_title,쇼케이스 확장 II
+ul_kai_showcase_ii_title,진열장 확장 II
 ul_kai_showcase_ii_desc,전문가가 쇼케이스를 다시 확장하고 온도 조절 진열대를 설치합니다. 매일 진열장에서 구매하는 고객이 {0}명 늘어납니다.
 ul_kai_dossier_title,확장 서류철
 ul_kai_dossier_desc,카이가 더 많은 서류를 담을 수 있는 가죽 서류철을 줍니다.
@@ -1822,7 +1822,7 @@ opt_decor_vanilla_tip,"일반 플레이에서도 상층 가게 외관과 파란�
 opt_vanilla_ui,바닐라 UI 사용
 opt_vanilla_ui_tip,파란색 스킨 대신 창과 패널의 원래 외관을 유지합니다. 가게 장식은 그대로입니다.
 ul_cn.supplier,공급자
-readme.item_name,README.md
+readme.item_name,상층 안내서
 readme.item_desc,상층 안내서입니다. 열어서 읽어 보세요.
 readme.p1.title,상층에 오신 것을 환영합니다
 readme.p1.body,"이 파일은 가방에 계속 남아 있습니다. 뭔가 잊어버렸을 때 언제든 열어 보세요.
@@ -1868,7 +1868,7 @@ readme.p8.body,"이 모드는 베타 버전입니다. 아직 완성되지 않은
 이곳에 가게를 열어 주셔서 감사합니다. 여러분이 플레이하는 매 게임과 남겨 주시는 모든 의견이 이 모드를 계속 만들어 나가는 원동력입니다.
 
 — Mr.K"
-readme.header,상층 · README.md
+readme.header,상층 · 안내서
 opt_allow_wanted,상층 게임에서 지명 수배범 허용
 opt_allow_wanted_tip,"기본값은 꺼짐입니다. 상층에는 지명 수배범이 없어 안전합니다., 지명 수배범을 중심으로 만들어진 모드를 사용한다면 켜세요. 진행 중인 저장에도 적용되며, 다음 날부터 효력이 생깁니다."
 opt_allow_aug,상층 게임에서 오그 위기 허용
@@ -1990,3 +1990,63 @@ ul_dialog_minor_patrol_3,상층 구역 순찰도 또 하루가 지났네.
 ul_dialog_minor_patrol_4,여기 사람들은 날 경비견 보듯 해.
 ul_dialog_minor_patrol_6,"어서 날 경사로 진급시켜 줘,"
 ul_dialog_minor_patrol_7,아니면 책상이라도 하나 주든가...
+salon_time_left,오늘 남은 시간: {0} (남은 횟수 {1}: 대화 또는 정보 1건 판매)
+salon_time_up,시간이 늦어 손님들이 떠나고 있습니다. 인맥록은 확인할 수 있습니다.
+salon_guest_line2,· {0} ({1}) 평판 {2} {3}
+test_hotkey_salon_closed,테스트: 오늘을 금요일로 설정하고 가게를 폐점합니다. 밖으로 나가 금요일 살롱을 방문하세요.
+test_hotkey_salon_morning,테스트: 오늘을 금요일로 설정합니다. 가게를 열었다가 폐점한 뒤 밖으로 나가 살롱을 방문하세요.
+test_hotkey_salon_ready,테스트: 오늘을 금요일로 설정합니다. 밖으로 나가 금요일 살롱을 방문하세요.
+net_group_water,급수관
+ul_kai_tap_i_title,기본 급수관
+ul_kai_tap_i_desc,"카이가 건물의 급수관을 가게까지 연결해 줍니다. 용기를 들고 수도꼭지를 클릭하면 기본 물을 받을 수 있습니다. 하루 4~6리터이며, 다 쓰면 끝입니다."
+ul_kai_tap_ii_title,정수 급수관
+ul_kai_tap_ii_desc,다단계 여과 장치가 달린 급수관입니다. 고품질 물을 하루 3~5리터 얻습니다.
+ul_kai_spring_tap_title,샘물 급수관
+ul_kai_spring_tap_desc,카이가 창립 가문이 소유한 샘물 급수관을 분기해 줍니다. 하루 2~4리터의 순수한 물을 얻습니다.
+tap_faucet_desc,{0}. 오늘 남은 물 약 {1}L. 용기를 들고 클릭해 물을 받으세요.
+tap_empty,오늘치 물을 모두 사용했습니다. 내일 다시 오세요.
+uc.water_resident.name,물을 사러 온 주민
+uc.water_resident.1,건물 정수기가 또 고장 났어요. 관리실에선 다음 주에나 고친대요.
+uc.water_resident.2,깨끗한 물 있나요?
+uc.water_corp.name,기업 조달 담당자
+uc.water_corp.1,회의실과 임원 전용 층에 물이 필요합니다. 고품질만 받습니다.
+uc.water_corp.2,순도만 맞으면 가격은 문제없습니다.
+pex.give.smuggler,밀수 공간 + 분홍색 주사기 8개
+pex.give.smuggler_big,대형 밀수 공간 + 분홍색 주사기 8개
+pex.get.smuggler,"개조 밀수 공간 (8×8, 검문 시 수색되지 않음)"
+salon_talk_leave,(지금은 됐어요)
+salon_guest_line3,· {0} ({1}) 평판 {2}{3}
+salon_talked_short, · 대화함
+intel_pick_button,{0}에 관한 정보 판매
+intel_pick_buyer,{0}에 관한 정보입니다. 누구에게 넘길까요?
+intel_buyer_button,{0}에게 판매
+intel_buyer_button_rival,"{0}에게 판매 (경쟁 세력, 추가 호의)"
+intel_pick_other,다른 정보 선택
+salon_time_left2,오늘 남은 시간: {0} (대화나 정보 판매마다 1회 소모)
+salon_menu_guests,손님들과 어울리기
+salon_menu_jobs,의뢰와 장물 거래
+salon_menu_jobs_n,의뢰와 장물 거래 ({0})
+test_hotkey_appraisal,테스트: 확대경을 추가합니다. 다음 손님이 감정품을 종류별로 하나씩 가져옵니다.
+apguide.header,감정 안내서 · 내부용
+apguide.p1.title,감정하는 법
+apguide.p1.body,"손님이 물건을 카운터에 올려놓고 가격을 묻습니다.\\n\\n1. 물건에 마우스를 올리면 상태와 출처가 표시됩니다.\\n2. 재료 스캐너로 원본, 인쇄품, 위조품인지 확인합니다.\\n3. 확대경(또는 스캐너)으로 감정 창을 열고 가격을 입력한 뒤 제출합니다.\\n\\n가치 = 기본 가격 × 상태 × 출처 × 재질\\n\\n감정가가 정확할수록 감정 위원회 평판이 빠르게 오릅니다.\\n경매장과 수집가가 매주 가져오는 고급품은 감정을 잘하면 추가 보상을 줍니다."
+apguide.p2.title,감정품 (I)
+apguide.p3.title,감정품 (II)
+apguide.kind.painting,기본 가격 2400\\n지구에서 실어 온 그림입니다. 고급품.
+apguide.kind.holo,기본 가격 2000\\n원본에는 희미한 라이트필드 잡음이 있지만 인쇄품에는 없습니다. 고급품.
+apguide.kind.vase,기본 가격 1600\\n실제로 구운 점토입니다. 정거장에는 가마가 남아 있지 않습니다. 고급품.
+apguide.kind.watch,기본 가격 1200\\n태엽을 감아야 합니다. 이곳 사람들은 그걸 운치라고 부르죠.
+apguide.kind.carving,기본 가격 1000\\n진짜 나무를 깎아 만들었습니다. 냄새만 맡아도 알 수 있죠.
+apguide.kind.brooch,기본 가격 800\\n금이 진짜인지는 스캔해야 알 수 있습니다.
+apguide.p4.title,상태와 출처
+apguide.p4.body,"상태 (도움말 참조):\\n· 최상: ×100%\\n· 양호: ×85%\\n· 보통: ×65%\\n· 손상: ×40%\\n\\n출처:\\n· 소장 기록 있음: ×120%\\n· 기록 없음: 변동 없음\\n\\n예시: 소장 기록이 있는 최상급 시계 (원본)\\n1200 × 100% × 120% = 1440"
+apguide.p5.title,재질 스캐너
+apguide.p5.body,"스캐너로 물건의 재질을 확인합니다:\\n· 원본: ×100%\\n· 인쇄품: ×10%\\n· 위조품: ×5%\\n\\n스캔하지 않은 물건에는 ""재질: 미확인""으로 표시됩니다.\\n물건을 스캔하면 감정 창도 열립니다."
+apguide.p6.title,감정 규칙
+apguide.p6.body,"· 손님은 물건이 원본인 것처럼 가격을 제시합니다.\\n· 인쇄품과 위조품은 푼돈 가치밖에 없습니다. 값을 높게 매기면 가짜를 보증하는 셈입니다.\\n· 감정가가 너무 높거나 낮으면 손님이 거절하며, 두 번 거절하면 떠납니다.\\n· 감정 후 수집가가 물건을 팔기도 합니다. 원본은 보관하거나 경매장에 위탁하세요.\\n\\n프린터는 모양을 복제할 수 있어도 400년간 쌓인 산화 흔적은 복제할 수 없습니다."
+opt_vanilla_decor,상층 게임에서 기본 상점 장식 사용
+opt_vanilla_decor_tip,"켜면 상층 게임에서도 상점의 기본 외관을 유지합니다 (벽, 유리문, 책상 선반과 콘솔을 교체하지 않습니다). 상층 콘텐츠는 그대로 이용할 수 있습니다. 책상 선반의 물건은 카운터 뒤로 옮겨집니다. 저장을 다시 불러오면 유리문과 콘솔이 바뀝니다."
+perk.ul_blacklisted.desc_nosalon,밴더린 가문 평판 -30으로 시작합니다.
+perk.ul_outsider.desc_nosalon,상층 구역에서는 아무도 당신을 모릅니다. 고객이 30% 적게 찾아옵니다.
+scenario.soon.tag,출시 예정
+scenario.soon.desc,출시 예정. 이 직업은 아직 제작 중입니다.

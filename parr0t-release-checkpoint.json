@@ -7,6 +7,17 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3828878417:manifest:name",
+      "location_fingerprint": "c44cb70257b40ae4631c7d92b2c8ce59ad2f3d4838b2432734f2eb94fb12cfe3",
+      "review_fingerprint": "84d1cde1a2041e052539553b8b750330c1aa3daf14db6ad83400d9bd5bd203d1",
+      "source_sha256": "2a64547aacfbda541141b4e809a2fadb7de340c688e9a4de19681e921c3314c6",
+      "status": "reviewed",
+      "target": "Better Water Trading",
+      "target_sha256": "74bac65303d465e286ff331cafaa5b422f04bcb3759bf085c9e0277b18e05814"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "managed:3828896687:manifest:name",
       "location_fingerprint": "5c5390d32a177057b18585cc2261aeb619d2c3ba6f9904ced825b4c3e3a18598",
       "review_fingerprint": "80dc25b0a8e40a8e13921f4cb39da20879b3a96f738d64df20a9a9fe23468655",
@@ -45,8 +56,19 @@
       "review_fingerprint": "84d1cde1a2041e052539553b8b750330c1aa3daf14db6ad83400d9bd5bd203d1",
       "source_sha256": "50c97a5b093063217968dca35f65e5862a5d5321caca22ebab3c66982f9439b9",
       "status": "reviewed",
-      "target": "Pen的移液枪",
-      "target_sha256": "50c97a5b093063217968dca35f65e5862a5d5321caca22ebab3c66982f9439b9"
+      "target": "Pen's Pipette",
+      "target_sha256": "a71960641b055730384c0f6ab4c9f2c52f6d3dcd329e5f07f6723097fa4e0672"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3829730904:manifest:name",
+      "location_fingerprint": "515afa71d54d7e3089d1ff42440b1554daf4bc5eb840ad0058dea088a26b26dd",
+      "review_fingerprint": "84d1cde1a2041e052539553b8b750330c1aa3daf14db6ad83400d9bd5bd203d1",
+      "source_sha256": "922abc369f1e4de436b0aaa60646620ec384707d987a337b8d4006de715c7ced",
+      "status": "reviewed",
+      "target": "Brewing Expansion",
+      "target_sha256": "fbaed626eef8ff7211147fd37f05aef2b44f1f7c1529ef598f4d41636f7e4c67"
     },
     {
       "dependencies": [],
@@ -56,8 +78,8 @@
       "review_fingerprint": "6a945f04b770576c1b9297db213ee30a131e88fa079939e98e09177d9d081252",
       "source_sha256": "8e21e8886b61992511e75ce1154bc52420871201bddf917cc028d27f86ade776",
       "status": "reviewed",
-      "target": "災變日 Disaster Day",
-      "target_sha256": "8e21e8886b61992511e75ce1154bc52420871201bddf917cc028d27f86ade776"
+      "target": "Disaster Day",
+      "target_sha256": "491352cdf6943c7db3cc62e042637148e915161f185a7c016a70d0d3ea060ce8"
     },
     {
       "dependencies": [],
@@ -78,8 +100,8 @@
       "review_fingerprint": "8100f52ba8fd89306d25eaedad4f45d9cc5d7addf88633560e2bdd85602cfd3f",
       "source_sha256": "1108efb5953bcbae789a06bb7d4dbdf29465c75d5fc0f92299659e98acfc02ef",
       "status": "reviewed",
-      "target": "开箱时刻 / Unbox Moment",
-      "target_sha256": "1108efb5953bcbae789a06bb7d4dbdf29465c75d5fc0f92299659e98acfc02ef"
+      "target": "Unbox Moment",
+      "target_sha256": "f525b8c0f82995dcc5b737af971eff312880836ae514af9687489890e977e004"
     },
     {
       "dependencies": [],
@@ -2751,8 +2773,8 @@
       "review_fingerprint": "b042c140bb13ef4feaf01c449d6a00353374a113a317e7c84863dbed206dc565",
       "source_sha256": "e365e1a201dd3ad8484bb6a16e561f1ed117e1a8491cc27fbf1a4e84e119b0a6",
       "status": "reviewed",
-      "target": "Visible Item Durability / 物品耐久显示",
-      "target_sha256": "e365e1a201dd3ad8484bb6a16e561f1ed117e1a8491cc27fbf1a4e84e119b0a6"
+      "target": "Visible Item Durability",
+      "target_sha256": "b4c38b9f82b3b353adaad42c6bd22288e6aff4fa30368e0c6fb935903272c220"
     },
     {
       "dependencies": [],
@@ -2762,8 +2784,19 @@
       "review_fingerprint": "674f34c07085692fab6fe2a0381f009ae24dda6228ac1881065fdef33d0e2886",
       "source_sha256": "fab06d4dc3df121facf69066089b7a0c7a358e54cf72afb53cd130ee68672898",
       "status": "reviewed",
-      "target": "更好的液体扫描仪 Better Liquid Scanner",
-      "target_sha256": "fab06d4dc3df121facf69066089b7a0c7a358e54cf72afb53cd130ee68672898"
+      "target": "Better Liquid Scanner",
+      "target_sha256": "4442ee16279c35921cd1a01c418ea71436d1023161c13ab3497dcbf127a1222e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3831834469:manifest:name",
+      "location_fingerprint": "9154cf47d94c9932bd431acea0b42607b72a6642722cb23ca8c6df571c1c4642",
+      "review_fingerprint": "84d1cde1a2041e052539553b8b750330c1aa3daf14db6ad83400d9bd5bd203d1",
+      "source_sha256": "a8efc37751a0b592dc172c6b6de38f08732b5d9d150289bb7f37d271449ae05a",
+      "status": "reviewed",
+      "target": "YeastStayBox",
+      "target_sha256": "837f2e7397f449d18e948b53984051e898a48305d17996f3a713f929ed8c24ce"
     },
     {
       "dependencies": [],
@@ -17491,8 +17524,30 @@
       "review_fingerprint": "1525f9dca7a998c8747378aebaccc332dfad219a0d7667d39467a8c5b62a6692",
       "source_sha256": "a7339b9e617632294b75ccc05af54045e4d0ec28bbd288b8047611166c830bf1",
       "status": "reviewed",
-      "target": "农业扩展 / Agri Expansion",
-      "target_sha256": "a7339b9e617632294b75ccc05af54045e4d0ec28bbd288b8047611166c830bf1"
+      "target": "Agri Expansion",
+      "target_sha256": "6a10ac6f5123e3ce2377d1b53aeb617856f45f7eaeeb999150581a32b10eaf3f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3832840208:manifest:name",
+      "location_fingerprint": "d0416d520a328208699a09645e27306f5f475cd776baacc81d5422c445747c19",
+      "review_fingerprint": "84d1cde1a2041e052539553b8b750330c1aa3daf14db6ad83400d9bd5bd203d1",
+      "source_sha256": "9409feb4c8776b12c465763d88bdc275a0ce992b7d8a32f452f297eba720ee63",
+      "status": "reviewed",
+      "target": "Tobacco Expansion",
+      "target_sha256": "5ace6197b7764e8ad46802e5850715dcab6791049555c4cd24de1b611b441c26"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3832941698:manifest:name",
+      "location_fingerprint": "c75c013d17f5698e77deae891a5acbf5bc38a92da83e645e4ad93da3c2c4c0d3",
+      "review_fingerprint": "84d1cde1a2041e052539553b8b750330c1aa3daf14db6ad83400d9bd5bd203d1",
+      "source_sha256": "1271ae66462197d62c4bcb9089f110eeaaaf2a603e3c576b72596110f94ab053",
+      "status": "reviewed",
+      "target": "Probably Regulars - AI Emporium",
+      "target_sha256": "ee48961da87b3270eb21acd7a30ab05c9970596e551238b4c545e40cb94a2741"
     },
     {
       "dependencies": [],
@@ -17502,8 +17557,8 @@
       "review_fingerprint": "153dc64cbdd42f5fe69dfcdb4fd4677534262ed7e1fe483c5f329e104a8b38cf",
       "source_sha256": "fc858c838fe1e24a876c1c040f00b3885bbe7e3c3a6b0d2c0e6d18f55a0f4431",
       "status": "reviewed",
-      "target": "Real Time Clock 現實時鐘",
-      "target_sha256": "fc858c838fe1e24a876c1c040f00b3885bbe7e3c3a6b0d2c0e6d18f55a0f4431"
+      "target": "Real Time Clock",
+      "target_sha256": "7018def6dbac26dc96f40dca1183493e9a3168e11e8bc96ae48c340b387664c5"
     },
     {
       "dependencies": [],
@@ -17513,8 +17568,8 @@
       "review_fingerprint": "d21607f70662333edda88ad5d05463568c5a95530b4da1795affbc0b18407585",
       "source_sha256": "dcccf9cc4d21e23c42d1a15bc225527b227bef2db7bfd52032f336690f1a4c9d",
       "status": "reviewed",
-      "target": "空间站事件拓展 | Station Events",
-      "target_sha256": "dcccf9cc4d21e23c42d1a15bc225527b227bef2db7bfd52032f336690f1a4c9d"
+      "target": "Station Events",
+      "target_sha256": "88782d20cb18545918faedf654c1acca41e0745fcfd18222501bc3209db1bba5"
     },
     {
       "dependencies": [],
@@ -17524,8 +17579,19 @@
       "review_fingerprint": "d99256ee541c05e8fbda4e29f1d7c07cb479a54179bd0666739369b8d22d10ae",
       "source_sha256": "a25170e34d3a5917b96e4d4d234e55de382c548435c64fa651c856f648260741",
       "status": "reviewed",
-      "target": "CS武器拓展 / CS Weapon Expansion",
-      "target_sha256": "a25170e34d3a5917b96e4d4d234e55de382c548435c64fa651c856f648260741"
+      "target": "CS Weapon Expansion",
+      "target_sha256": "27c36da1b3385e52ac62169677cfb1b3ca0bacaff6763f93da828094b490efcc"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3834226532:manifest:name",
+      "location_fingerprint": "e6fb2e3d827f315865753283263c16cdfa406d2f8e3d936d09cb83992b4d1b61",
+      "review_fingerprint": "84d1cde1a2041e052539553b8b750330c1aa3daf14db6ad83400d9bd5bd203d1",
+      "source_sha256": "990b99d209734540fa1df6cb776eac6de27d7a0ffdba0f63f0d14020977c2381",
+      "status": "reviewed",
+      "target": "Perks: Probably Fun",
+      "target_sha256": "3d16b3069f833b65e84a346306e4aeacdcd91206650400374b8dd7df1e4389f8"
     },
     {
       "dependencies": [],
@@ -17546,8 +17612,8 @@
       "review_fingerprint": "c3b4fa8ea82c28d5cff556a62c181663adba3fa84f197d9e196f26f93bca97a5",
       "source_sha256": "2cd21ddb0cd36dbed64a46c82b1f31accf2bb7e9e47f7ec39f11896243d1530c",
       "status": "reviewed",
-      "target": "深空当铺：战斗委托 / Combat Contracts",
-      "target_sha256": "2cd21ddb0cd36dbed64a46c82b1f31accf2bb7e9e47f7ec39f11896243d1530c"
+      "target": "Combat Contracts",
+      "target_sha256": "84654b485d858011b79f54c89fd3238ff0edbd67600236cb2373d406c9a6f1c0"
     },
     {
       "dependencies": [],
@@ -17557,8 +17623,8 @@
       "review_fingerprint": "c8fbb7e791f7cec2f0b0567e17b98c07ccb4beaa52aa7e153c5358fb2a5c85ee",
       "source_sha256": "f2a3d6f82a015bc361bd8b3ac87f803ddccb849a23683f7c46bfd892b9197cc3",
       "status": "reviewed",
-      "target": "游戏内模组设置 / In-Game Mod Settings",
-      "target_sha256": "f2a3d6f82a015bc361bd8b3ac87f803ddccb849a23683f7c46bfd892b9197cc3"
+      "target": "In-Game Mod Settings",
+      "target_sha256": "176f99c8642d7fe0f946f71bd81132dc7e069db8565d6b809aa1457219198640"
     },
     {
       "dependencies": [],
@@ -105838,6 +105904,193 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.header",
+      "location_fingerprint": "a2e83c4d5c5a4cd6fd2c22d50b777fc988d54710e3b57b71e6c0a596e4430847",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "6cb813be9714fbc3b607e9348b43493797f12f7bf8e8d3f59ac7147078a6c30c",
+      "status": "reviewed",
+      "target": "감정 안내서 · 내부용",
+      "target_sha256": "9c2e5bb9ec4c610d164e5dd96652e70204e5abff4bd5e57ee825e5a98d43cc65"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.kind.brooch",
+      "location_fingerprint": "20122f725785e319d7fbcaaca426c249a924b507c74011ee4ae3b740e3ae13d8",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "a174c022555532b3d86fdd815a320c0dbb0eb993648d6eb2e6b9221c3155416e",
+      "status": "reviewed",
+      "target": "기본 가격 800\\\\n금이 진짜인지는 스캔해야 알 수 있습니다.",
+      "target_sha256": "8d607a231a0f216875817ef0f565f61aeeeca02518db6b7d27f409f3bd393121"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.kind.carving",
+      "location_fingerprint": "7a031acc66962bc9209fa54e4e20fe36a742275fa1bbbb8157671a3710322e5d",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "aef9fae652f4021e6f771439518616b9c04c1a143462ccde7334fe642cf2db0a",
+      "status": "reviewed",
+      "target": "기본 가격 1000\\\\n진짜 나무를 깎아 만들었습니다. 냄새만 맡아도 알 수 있죠.",
+      "target_sha256": "33a8b5e36d63082acbd411bbf89385f0a8a964e419b248546e5d551952d68558"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.kind.holo",
+      "location_fingerprint": "be2f5b60954331e1ab27be235c6e2248c4c42cc9e9fdde419aa0162f04e99e2e",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "374474b3c9c9770869c697ddb394ea08db8536e62239ae6ba164b7e8bdc17f29",
+      "status": "reviewed",
+      "target": "기본 가격 2000\\\\n원본에는 희미한 라이트필드 잡음이 있지만 인쇄품에는 없습니다. 고급품.",
+      "target_sha256": "76b00bf8dcfa1b7f10ae8a855bee9cf1bd6770b5a5d803fca60cf3411ec744c5"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.kind.painting",
+      "location_fingerprint": "f1c15a21c0d6a5409305f838dd0d805228862d7f28e410fe5caa43b84ddd14f4",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "462b06b0b272915a9d376dd625c2eea397848480aa349014e28a1a2088117341",
+      "status": "reviewed",
+      "target": "기본 가격 2400\\\\n지구에서 실어 온 그림입니다. 고급품.",
+      "target_sha256": "be752710dd2a7d4487b1c0843e83e173ec07aad8924abaa6b56ded8cf87ae176"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.kind.vase",
+      "location_fingerprint": "3a0738c878d6deeb61db13d163c971ee1dea81f61f5523563edf872b9b698e68",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "63dc5dcb8943dbd1dbb19ee4e6a06819103fdd3b5ab4820fe77edca157320e62",
+      "status": "reviewed",
+      "target": "기본 가격 1600\\\\n실제로 구운 점토입니다. 정거장에는 가마가 남아 있지 않습니다. 고급품.",
+      "target_sha256": "ddacc27d7611898138afe17a9d2f382f598035782780e88c58ece9ba0ad076bc"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.kind.watch",
+      "location_fingerprint": "c8654e116f21566f1b86d032699daa9f7fc5820058a300c3f5ead099454459d7",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "cef4953b9ff09600d16e7a32d4a0c135e3d1758b66013ba47d0766974bd84af6",
+      "status": "reviewed",
+      "target": "기본 가격 1200\\\\n태엽을 감아야 합니다. 이곳 사람들은 그걸 운치라고 부르죠.",
+      "target_sha256": "2817f7c691b649c8e90a35f02a88ae63b3ea10f30f6b9cb8984456d944cf1d77"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p1.body",
+      "location_fingerprint": "e59923f70c217178e17b5543802f5ac5437f559cd9491d72cb740fe524ac9446",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "70ad5b538d3e45f47a90c7495cd3c90a4f10df99872e93e9d3afee939865c3b1",
+      "status": "reviewed",
+      "target": "손님이 물건을 카운터에 올려놓고 가격을 묻습니다.\\\\n\\\\n1. 물건에 마우스를 올리면 상태와 출처가 표시됩니다.\\\\n2. 재료 스캐너로 원본, 인쇄품, 위조품인지 확인합니다.\\\\n3. 확대경(또는 스캐너)으로 감정 창을 열고 가격을 입력한 뒤 제출합니다.\\\\n\\\\n가치 = 기본 가격 × 상태 × 출처 × 재질\\\\n\\\\n감정가가 정확할수록 감정 위원회 평판이 빠르게 오릅니다.\\\\n경매장과 수집가가 매주 가져오는 고급품은 감정을 잘하면 추가 보상을 줍니다.",
+      "target_sha256": "391f2af34982f8508abe4bc4e49fa00419dd51c7f43ad63940877712b0c142ac"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p1.title",
+      "location_fingerprint": "28734db4bffda1504b6804d0269424e80ab7ac78a0c91293d8de45b0ef140f3d",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "73972c877216e4b75f99adabcfdf018e8c1156579e650ebe06230842f14f163c",
+      "status": "reviewed",
+      "target": "감정하는 법",
+      "target_sha256": "ca1abcca0210b5b82ec290cd8f8e3f81f8e0c9d4666462c9d5730f9f896fea6a"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p2.title",
+      "location_fingerprint": "cabcc08b0eb0b61c050b5a01bbc5c3b317e273210cc0ac2fac7cc465a83636b0",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "eb07030d550bf99c346aad94563aa6c11db7ab078604fb6a1cc0d8be8921e420",
+      "status": "reviewed",
+      "target": "감정품 (I)",
+      "target_sha256": "283ef602e7f63ad0f5e8f54c6b24c382c75f5fc5d17d386068d08ba04d80a26f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p3.title",
+      "location_fingerprint": "b397f8d67796b9e50ec62e275ed398bb1bd35ec38d9e2a9f4c2616930e28ca6e",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "368e4fc5c7b4574070aa3344337a8dee761e77d784c8bb87ca702e545ce53dae",
+      "status": "reviewed",
+      "target": "감정품 (II)",
+      "target_sha256": "6c179ee2569fbd8d811664e79321d373c571da6ef3fbb67f4d00b2a95fbd1de6"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p4.body",
+      "location_fingerprint": "070db210ff65be24ff334f4266dc5a88d28c9efb6efae0481f548a965b8c18cd",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "aeaac5da0b9a8112f0bfcbdc5b7b4ad579c10f34033cf4f5c5c1a10b43ea5b08",
+      "status": "reviewed",
+      "target": "상태 (도움말 참조):\\\\n· 최상: ×100%\\\\n· 양호: ×85%\\\\n· 보통: ×65%\\\\n· 손상: ×40%\\\\n\\\\n출처:\\\\n· 소장 기록 있음: ×120%\\\\n· 기록 없음: 변동 없음\\\\n\\\\n예시: 소장 기록이 있는 최상급 시계 (원본)\\\\n1200 × 100% × 120% = 1440",
+      "target_sha256": "0dd7aee8da6741531dac7da10075655c4936214ef304ff2a69bbc553235cb72f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p4.title",
+      "location_fingerprint": "ee7a3049f48fd7bfd7828b413a1d3e44ad90c4256c1e2387c32a2a1630d35761",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "6369ea65358d174e04b01f0a69583ed1ba1009154cfffdd8f6fbe01cb410b05b",
+      "status": "reviewed",
+      "target": "상태와 출처",
+      "target_sha256": "8e9201c4c545528b4567e3aa30029111c8b615c3f845566b7efe2c26e6257f9e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p5.body",
+      "location_fingerprint": "0cd9f088acbded5975335601da77326c5f3f424b7e849e679229f7c097484679",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "a5887d645d3d62d7b1b93ed9f154bb4eff2e52f3eb827b2566d1239d74d31276",
+      "status": "reviewed",
+      "target": "스캐너로 물건의 재질을 확인합니다:\\\\n· 원본: ×100%\\\\n· 인쇄품: ×10%\\\\n· 위조품: ×5%\\\\n\\\\n스캔하지 않은 물건에는 \"재질: 미확인\"으로 표시됩니다.\\\\n물건을 스캔하면 감정 창도 열립니다.",
+      "target_sha256": "3b98f52aadcb36bc14c815bd983d9dfc6451709bf1bc5d9e1afa42d6d5d9556a"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p5.title",
+      "location_fingerprint": "38d2c41ed6baf16b3755daa85ea6456fef4353680ca148a30d596b95940d19c3",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "e05f3044d4dfad1eb7159cac14d5ae5c3260c7d8d1748b6753592c0ed5b7caff",
+      "status": "reviewed",
+      "target": "재질 스캐너",
+      "target_sha256": "e1a69b7ea587c6eedeaeb59cb8a3c5a088880887e96b01704482239cfe48a87e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p6.body",
+      "location_fingerprint": "33859fc3a321e296239c29f034b2fc0d382d60e7ec015c17d15c332ebfc97050",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "b130ef338b8d9fc244beb918d465f898ab6d94960c5c9cf07b99d1a05d303974",
+      "status": "reviewed",
+      "target": "· 손님은 물건이 원본인 것처럼 가격을 제시합니다.\\\\n· 인쇄품과 위조품은 푼돈 가치밖에 없습니다. 값을 높게 매기면 가짜를 보증하는 셈입니다.\\\\n· 감정가가 너무 높거나 낮으면 손님이 거절하며, 두 번 거절하면 떠납니다.\\\\n· 감정 후 수집가가 물건을 팔기도 합니다. 원본은 보관하거나 경매장에 위탁하세요.\\\\n\\\\n프린터는 모양을 복제할 수 있어도 400년간 쌓인 산화 흔적은 복제할 수 없습니다.",
+      "target_sha256": "5c31b0009e21e1a28960114580f9cd8a6dcf90846dd3a1b2941e958dbbd3ccb8"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:apguide.p6.title",
+      "location_fingerprint": "84da338523a2f2c91a805d20fb9257f61f8287bcffc7a7c61a0d1cda653b97e7",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "c2280185ba249fe7f20eeae89abf820ff5fbe3ad6f818acece32b8bc9f24c59e",
+      "status": "reviewed",
+      "target": "감정 규칙",
+      "target_sha256": "7a0bbb85c78a8892b792f8c02ee8bcd7e695e5cf541990b5390292ae7747274f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:appraiser.again1",
       "location_fingerprint": "b66f07d470c86a1bfbd08ae09a697e181b2aa4704fa85b6de818db6b1151beb8",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -113175,6 +113428,28 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:intel_buyer_button",
+      "location_fingerprint": "7ce05803d02551d528b6547bcf0776d8500ee5d255af07b498f02c5aa26280d9",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "5f93c87ec8b25d398d69d5ebdf0a218c6ca8502ad5bf5369bf91856eaf2f9145",
+      "status": "reviewed",
+      "target": "{0}에게 판매",
+      "target_sha256": "b44bfdb93493a9619696aeaf856aca0404d99276d937b84bada38809a230825f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:intel_buyer_button_rival",
+      "location_fingerprint": "ed972f020202b233085da036f77e7f2ea5d711b051dc5f22a10775e80bb6e692",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "babd667342aefc11267beb6f28d8653222a0f4c124ff62c6f1fdfd58e4aa289c",
+      "status": "reviewed",
+      "target": "{0}에게 판매 (경쟁 세력, 추가 호의)",
+      "target_sha256": "7d8d62dcf0a60a551ebc480e31672b7aa9a8604bab4a9b412d5798cde726db63"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:intel_intro",
       "location_fingerprint": "e59abc24efda193c4c4834665973fba3f3e92e869aedf8fcb7a1b81e49204fd5",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -113193,6 +113468,39 @@
       "status": "reviewed",
       "target": "팔 정보가 없습니다. 손님들과 어울려 보세요.",
       "target_sha256": "5d009d391f4c1c4e32fb07177e0231fefb0233a5f4f0750b056d4476c4a42999"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:intel_pick_button",
+      "location_fingerprint": "2d1a7c2d21a5dad90e85723b48aab333157e6d10e91189f3dc26bfad88019811",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "71a30ffbeeffd03a3068b1c6127e341179c65820aafc046ad13df13ccf98b22a",
+      "status": "reviewed",
+      "target": "{0}에 관한 정보 판매",
+      "target_sha256": "adec94efd5ccfa8075897d6bbc7feb74ae8981ead33e03989673921ce268fdcf"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:intel_pick_buyer",
+      "location_fingerprint": "a06cad1035b248c5a8a69da20d658bb5e614d217a95d234c7462952f1ca91231",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "510666a3b6ab3c1715e9fe4c8e5e79398126104653e6d7491691f87b7c46fe51",
+      "status": "reviewed",
+      "target": "{0}에 관한 정보입니다. 누구에게 넘길까요?",
+      "target_sha256": "4fbe7a06c2c766f8b71355e4a34ce524ba79429bc71802af2fd700df726c0bca"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:intel_pick_other",
+      "location_fingerprint": "e63f47cff5ea0a7e2d7a8bf4c8b085c64c7e37db11d3abb2431e4ba9716d2faf",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "96f59e31599d12146672532902cf3458550e072462089f685d2b3ef3e1297d81",
+      "status": "reviewed",
+      "target": "다른 정보 선택",
+      "target_sha256": "38ff0924b31a340b9f872db487bafc3d458a27ec7ab1ca0ccb2b593cf6fb4a2a"
     },
     {
       "dependencies": [],
@@ -117960,6 +118268,17 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:net_group_water",
+      "location_fingerprint": "a902b93435f5376ae4445d6a0998e810f600c5f65a1c6af68dac21b6836ac667",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "18ecb3203f5b6faf08bcddcc94d02d78159abee9b6bfb570811cc96f080b1be5",
+      "status": "reviewed",
+      "target": "급수관",
+      "target_sha256": "2e54ab4ad99f1d4445db05d1aaeb092901c9ef3fe3602169374e75c4e474dd6f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:net_subtitle",
       "location_fingerprint": "c90e92b8c8b5ef6af69004b53e0e13fb2d2eccf99a71450aa635d2547223b405",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -118275,6 +118594,28 @@
       "status": "reviewed",
       "target": "상층 구역 플레이에서 상점에 적용할 미술 양식입니다. 언제든 변경할 수 있습니다.",
       "target_sha256": "8200ae89a19e92ec117ec61c40757e0d2076dfbf9d460397da5dd6c25135e714"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:opt_vanilla_decor",
+      "location_fingerprint": "63de877807f38f7ab2944ab3217001fa8d899528f6461fdea5e89e9961c19b85",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "cac376812f76b2dcdd97f91f661ccecddeba7b839f86e60bef1d47de00567ce9",
+      "status": "reviewed",
+      "target": "상층 게임에서 기본 상점 장식 사용",
+      "target_sha256": "3758b535664b25c0d1d98da53d538cae8d9f5c3cbb3148fbe1a3087d99c52f1a"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:opt_vanilla_decor_tip",
+      "location_fingerprint": "f3bdccfc2865819eb45188517e8ef705480959563280974c2a36af00ec9aa582",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "a6531567b50c5c89783100e92618ba4b2d4817891c7161e84a3f2cc319727407",
+      "status": "reviewed",
+      "target": "켜면 상층 게임에서도 상점의 기본 외관을 유지합니다 (벽, 유리문, 책상 선반과 콘솔을 교체하지 않습니다). 상층 콘텐츠는 그대로 이용할 수 있습니다. 책상 선반의 물건은 카운터 뒤로 옮겨집니다. 저장을 다시 불러오면 유리문과 콘솔이 바뀝니다.",
+      "target_sha256": "2ab04be64ddbcb1326f694be6b61aed287c3a1b83f76424cced78a0005bb33b6"
     },
     {
       "dependencies": [],
@@ -119434,6 +119775,17 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:perk.ul_blacklisted.desc_nosalon",
+      "location_fingerprint": "c17eb7fc1496e019fe39622fd691243f625d86d4272c558fe37eab3dab3d4cc4",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "60791b4084e914f64d5003377d4468bdd6a1c1a3a064bd8d9878e1e2af6da8dc",
+      "status": "reviewed",
+      "target": "밴더린 가문 평판 -30으로 시작합니다.",
+      "target_sha256": "ff787712c38f83cba757800961f306731a02322a9130ee06fa3037c145e61a10"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:perk.ul_blacklisted.name",
       "location_fingerprint": "4cf09b17a5c8e224b6b4c6bb676c0b62ce0db036a39a8d839477217d881e24fc",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -120094,6 +120446,17 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:perk.ul_outsider.desc_nosalon",
+      "location_fingerprint": "2d4ab49887d57cb9359a41cda2af05145df5db3a3aabe5398dc4d3b76e59dde9",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "749e9286cc8b44d7e852e29cafa02b389929951a60005cbf9d60bf8e5accaabe",
+      "status": "reviewed",
+      "target": "상층 구역에서는 아무도 당신을 모릅니다. 고객이 30% 적게 찾아옵니다.",
+      "target_sha256": "8e8a64a66dc0af59b94a64cb0d0b7acdd0ff1424f4c0e52d8afbc457e3c5eaf0"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:perk.ul_outsider.name",
       "location_fingerprint": "e996df12f49cf784f01819bdbf883e4d7b75336729a31de2dc3547b4307405cb",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -120578,6 +120941,17 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:pex.get.smuggler",
+      "location_fingerprint": "d761a1304b22d3cbb0a463fc7068d1a5a3871bfbd199265f6c67bcd8ab6daf45",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "0b976aa33a3c7f4c15e2d336dc8e0be79bb453b43ca9c25cab00e019d77924a5",
+      "status": "reviewed",
+      "target": "개조 밀수 공간 (8×8, 검문 시 수색되지 않음)",
+      "target_sha256": "8450d0ca3a5c0e68ce5b58f2cffd4b727436e90eb11f7e991248c7f06ea521b4"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:pex.get.surgery",
       "location_fingerprint": "a469dd7446650f75f87a26187e5cf129a97c078d4eb884b8590bf84d546761eb",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -120706,6 +121080,28 @@
       "status": "reviewed",
       "target": "보안 키카드",
       "target_sha256": "e47f8e7be26567002bb9477d9678ea3b375c4137d177323c0bf090feba8859e2"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:pex.give.smuggler",
+      "location_fingerprint": "614571df5894f6ed08a95d8a0bad27efb9cd5a6e0ef022551aa922672aaf6eb7",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "f2fb36695b19f256d666a4c446fd88c635a8ac6547da6baaa35331047050c4c3",
+      "status": "reviewed",
+      "target": "밀수 공간 + 분홍색 주사기 8개",
+      "target_sha256": "4ede9eb5ee81a4896e7e5a1498da8590125061271a2b5f9fd4174a9c25f8ee16"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:pex.give.smuggler_big",
+      "location_fingerprint": "b1e1ad4e291d21e7ff03fbd173d15d80b3a823d2ee250893ec41ffa818195b87",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "596323ff082990d28d148b6cc2190f29c9ebd71626d2bb4907d438ca2b81866d",
+      "status": "reviewed",
+      "target": "대형 밀수 공간 + 분홍색 주사기 8개",
+      "target_sha256": "788fcf112382f4f88743d086578ffd5e9249ce091683ba9c19992603886fba91"
     },
     {
       "dependencies": [],
@@ -121056,8 +121452,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "e0c8c762d7976f97b9a14cf534f6efe0130f5f34a83e98bbd671099f4ba91423",
       "status": "reviewed",
-      "target": "상층 · README.md",
-      "target_sha256": "b1755bd4dc7b164ec656183a8048410a32b0be539d3032202f4f85b8ca96e9ad"
+      "target": "상층 · 안내서",
+      "target_sha256": "a342218c75826b40df9380acfcc2c9bd2b8a67605ffd44d419fdef35e1441a86"
     },
     {
       "dependencies": [],
@@ -121078,8 +121474,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5",
       "status": "reviewed",
-      "target": "README.md",
-      "target_sha256": "b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5"
+      "target": "상층 안내서",
+      "target_sha256": "81171d81dd80218746209275776160a1e0a7d740ec232ca6192ea866499f7228"
     },
     {
       "dependencies": [],
@@ -122217,6 +122613,28 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_guest_line2",
+      "location_fingerprint": "cac0f4fdd17244365b97fd4f8ba3b863099135b3e362963580c726ea9d81ec00",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "4d3d1c8dfccd4df58a9e9c7c521ffae513467ebf93340f5e10d8559085894af9",
+      "status": "reviewed",
+      "target": "· {0} ({1}) 평판 {2} {3}",
+      "target_sha256": "4c3a9e5b2ae2e0a748e30912d3d5b2064da8d6866fc2c393dc5df657253e47b1"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_guest_line3",
+      "location_fingerprint": "efbbf51ac02c7ef864285255ff8ebb12c39df0a730781548350a1e78e95d33b5",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "7335ba8ea98fe445bd514fe5d9670ae33a497343ba938af0fbd7717cdfa7127c",
+      "status": "reviewed",
+      "target": "· {0} ({1}) 평판 {2}{3}",
+      "target_sha256": "04d229363912a024658aa97c24010473a4a974bc86e679149f09d23bbbf958e8"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:salon_guests",
       "location_fingerprint": "fd45fd58380b7847804f6117a1b47eb68809d1480fcaaab1c247bdd08d78eb6b",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -122224,6 +122642,39 @@
       "status": "reviewed",
       "target": "오늘 밤 손님:",
       "target_sha256": "a132160c53c9942596111341e95ba334547d1977595b003fb77455b87971b6d1"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_menu_guests",
+      "location_fingerprint": "464269b528ccaa4c090e8f35e9f75241ae8c6c9b6f5f7349c06f38decac0b542",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "5ea5dbb44ee58230abb4fb757a91481457d49d91595048d1464da3c002053579",
+      "status": "reviewed",
+      "target": "손님들과 어울리기",
+      "target_sha256": "37e37201e89b05a6e272fa10857565be08e18786b2b8a58a076fcaa1d20aeb29"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_menu_jobs",
+      "location_fingerprint": "1aedce32fa21f296b1e08c468e515e47966e3c138dfd867f3a74b2e087fc1d4d",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "0732a84d047a48e861d05351eb3554022dd013809b79bbcb0dec308de604188f",
+      "status": "reviewed",
+      "target": "의뢰와 장물 거래",
+      "target_sha256": "96a8d8dec2cb3a4ef438814c4aed96c7d3cd9634d48e1e686e81bf30fa2ff1bd"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_menu_jobs_n",
+      "location_fingerprint": "3a3926cfb87b103c047aa21e6c5d494e0f2be44b039fef1307d33286247d7529",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "b0d61e0783ebbc45b2837f8ce9eba2dff71457cfab1f263fcb1b9f0e24b6d337",
+      "status": "reviewed",
+      "target": "의뢰와 장물 거래 ({0})",
+      "target_sha256": "770b5d64e1c336ec9b8d5d239a65fe6e6e93e6d41b8f3bc6b4d49eb101a84441"
     },
     {
       "dependencies": [],
@@ -122272,6 +122723,17 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_talk_leave",
+      "location_fingerprint": "5b8593a45e3b7240b003ffa8d441c547e4fcb724a7e54b6b324c68bb330b0623",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "d80785d9e69afa443b680bf78ec588bea314cc2d5d688c370c1aea22c98fc823",
+      "status": "reviewed",
+      "target": "(지금은 됐어요)",
+      "target_sha256": "0167f67df161867f2513c1d20f49e814652f565b9cf058a2db22c720e24e4942"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:salon_talked",
       "location_fingerprint": "12e68f3ea68301f0b40e21215b822f29ab8b64f33f70cfeaba138ac4ccb104d9",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -122279,6 +122741,50 @@
       "status": "reviewed",
       "target": " (오늘 밤 이미 대화함)",
       "target_sha256": "18e177951ff76d38463e302035ea2f65abcfed47d776c78169c8c998f4e92458"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_talked_short",
+      "location_fingerprint": "9f6f1200934aa559deeb46cbfd7ebde5b8b7871a8176392f3d7d3f81d2512a32",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "b6d27dc48f3051758808c1c03a0068f42df2dfdb9e972d75bca9a58da63aeee8",
+      "status": "reviewed",
+      "target": " · 대화함",
+      "target_sha256": "6e4fc96029d2116a2f7370814cb758f1b0c0693e196c8605b1506a6101e0f265"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_time_left",
+      "location_fingerprint": "93722d04b776155d94e4ba79db77389d181bf2c7d91ac99796e5ee897ee3de09",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "7ba8e97fb8e130b81a6351366e19cf2e2248b764eba6f86d4464ec4be75ee8c9",
+      "status": "reviewed",
+      "target": "오늘 남은 시간: {0} (남은 횟수 {1}: 대화 또는 정보 1건 판매)",
+      "target_sha256": "050df8d8c83f0120b92a534a8994008400ef1fb9422c646aafd5bb8389a9d56f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_time_left2",
+      "location_fingerprint": "0145fc7fff2a2d11cd84d684dbb179e73e48ed9c1b8f401b451b7f2418c4eec2",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "092a1eaf0544fda06dbab8a4daef18b2a93ad2db97ae08f27cb8f46dbc0d4734",
+      "status": "reviewed",
+      "target": "오늘 남은 시간: {0} (대화나 정보 판매마다 1회 소모)",
+      "target_sha256": "c8e773f3afc9e6d205d4bc2836962cfdbdec951ebf104397195b75c81bd43ae5"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:salon_time_up",
+      "location_fingerprint": "012924944985f4afdb071b358e16162a3f6a8a9f941eb52ab73eb313ba1cad39",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "2a984f8c24a832a238700e16e39018b01af71179aff25629571a91411b5945e6",
+      "status": "reviewed",
+      "target": "시간이 늦어 손님들이 떠나고 있습니다. 인맥록은 확인할 수 있습니다.",
+      "target_sha256": "7846e06221e1fb8f912306873ba2ed5ce7a42471bc3c1cd5c7d03cbbe17e7296"
     },
     {
       "dependencies": [],
@@ -123093,6 +123599,28 @@
       "status": "reviewed",
       "target": "매주 물건을 사러 오는 구매자",
       "target_sha256": "23e4eba1e7a56b56380572a2f7877aad7552925368b2d9f1dae8cf97a1b3e5d5"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:scenario.soon.desc",
+      "location_fingerprint": "32e9a4cf22ea974a290b903554692e162b2aa4016b628128a693aee569196ef6",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "135eba1a214d8b67270686b2ad15458d1f438d4606f2ff78a2ae88f62bc01438",
+      "status": "reviewed",
+      "target": "출시 예정. 이 직업은 아직 제작 중입니다.",
+      "target_sha256": "a73e33485afe47e56114c09cf5607dccc38026904c4c767586c9440e00a35fd7"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:scenario.soon.tag",
+      "location_fingerprint": "5ec1bf4cd0cebdb842ce257e46be2e1a156b7075b1eb6fd419d8fead9e368d85",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c",
+      "status": "reviewed",
+      "target": "출시 예정",
+      "target_sha256": "7e7e4bfa5e676b524308bb90001ef2cf043328bf9ba3b989c5c4da9d34c3af4f"
     },
     {
       "dependencies": [],
@@ -124252,6 +124780,28 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:tap_empty",
+      "location_fingerprint": "5a0a5083602400261c8eb3e508de43d13aa713e2d373b2ba3998ecf2e3bcba8b",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "4505acc5d2592a0568ccf26f4811c84557007845faced2c42188127ed75b3e51",
+      "status": "reviewed",
+      "target": "오늘치 물을 모두 사용했습니다. 내일 다시 오세요.",
+      "target_sha256": "941220f93d8fe098bcfc5740797dd60d4071d16219f24c774a1313c79acadfa7"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:tap_faucet_desc",
+      "location_fingerprint": "086fbbd1ec62246ce11456c3e51d2eafe0129871ed6f06e614dd7764f3ea32ed",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "5ba7971fb42e04114f95debda5aa17b8868c526d199f80510beeda39e863221d",
+      "status": "reviewed",
+      "target": "{0}. 오늘 남은 물 약 {1}L. 용기를 들고 클릭해 물을 받으세요.",
+      "target_sha256": "aa33057996b2e7c41336f01327ce261c6ada3762e6635c1ca85398923c562bf6"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:test_hotkey_all",
       "location_fingerprint": "76009e82a841d8cb0d3513fd94cae7c28dca7b5bee12945fa2e162710baf9fb9",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -124259,6 +124809,17 @@
       "status": "reviewed",
       "target": "테스트: 모드 아이템을 하나씩 모두 지급했습니다({0}개). 들어가지 않은 것은 카운터에 있습니다.",
       "target_sha256": "4a68e12738c2cb77a484cacff1f522c373ba0d195af8d5f830c97ba6848cf259"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:test_hotkey_appraisal",
+      "location_fingerprint": "503ed01a3b63788de6c30f8c32e38623598e424e68248e3dd0cdae4b33ca47bf",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "da5fbb99614cc33d61decb015ea69b8e958d30939d1c06bfddb0b33077e9be32",
+      "status": "reviewed",
+      "target": "테스트: 확대경을 추가합니다. 다음 손님이 감정품을 종류별로 하나씩 가져옵니다.",
+      "target_sha256": "d386a446a39ff842acd0cb0f231935d4e1e6ef3e5b7c45df4135013b93fb38a0"
     },
     {
       "dependencies": [],
@@ -124314,6 +124875,39 @@
       "status": "reviewed",
       "target": "테스트: 오늘 고객 대기열에 {0} 방문 {1}건을 추가했습니다.",
       "target_sha256": "421f84b7614dd3df77ee81fe291829e93252274177dc290638c9f233cae6224b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:test_hotkey_salon_closed",
+      "location_fingerprint": "852e2f69bed7986ea040134f4c297c7fbb4cc8fb3c9320ea35ed0bf315c94a70",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "2b3e3cb2c6adbfe154763bf2ae29950042dbc34bb326619189cd42419208eaf2",
+      "status": "reviewed",
+      "target": "테스트: 오늘을 금요일로 설정하고 가게를 폐점합니다. 밖으로 나가 금요일 살롱을 방문하세요.",
+      "target_sha256": "a9d2646a4e53568d92b8bcb5adc71f89262c28b9268c7c4f236646dc54d74167"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:test_hotkey_salon_morning",
+      "location_fingerprint": "10cd39bf8116116e9ff7c5b3619844f4fec13bfb85b5a94a6aff1016ef07a1c8",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "3e619e4dc653e77303e3360a43442b661c03b59c3adb5398c8edc409ecde8be5",
+      "status": "reviewed",
+      "target": "테스트: 오늘을 금요일로 설정합니다. 가게를 열었다가 폐점한 뒤 밖으로 나가 살롱을 방문하세요.",
+      "target_sha256": "40a7dbd7c169d6b18ffa7e45e94fbd3e33c588429e2a28677909c7a599c9d0bf"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:test_hotkey_salon_ready",
+      "location_fingerprint": "59b6b180f2c521f8a030654eff6cf0bb4db2c68b3239aef25e138d7d1af76e72",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "2c2729cad66265a72dfca223dc8099e2544399aa5c1533612a34f3aed3d3da9b",
+      "status": "reviewed",
+      "target": "테스트: 오늘을 금요일로 설정합니다. 밖으로 나가 금요일 살롱을 방문하세요.",
+      "target_sha256": "5ecfa4fb6119a8c7997e10f897f44caea534d1535449ca8af5863aedd21ede11"
     },
     {
       "dependencies": [],
@@ -125792,6 +126386,72 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:uc.water_corp.1",
+      "location_fingerprint": "6646a4d14254e7c294f06e13637b42e76eb76fd51c62e4acc8fa41913507c94a",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "a71722e1399de3f04a49b3bb2ba4ac44c436b9b7fc4c040df8d47622a290cb39",
+      "status": "reviewed",
+      "target": "회의실과 임원 전용 층에 물이 필요합니다. 고품질만 받습니다.",
+      "target_sha256": "6f49f8bcd7e56c9ac24ae377279255c350a59cd668be966e8e1d4d86beb47b94"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:uc.water_corp.2",
+      "location_fingerprint": "d2f2b17cee6d93718d1ad404b306006c2f9337bc6ac07458c42d6e7f60be9d45",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "6af49fb4fb2a6c10b4d6fad0c531d7a2c7e35cc1396d5bbb145391a86cf650ba",
+      "status": "reviewed",
+      "target": "순도만 맞으면 가격은 문제없습니다.",
+      "target_sha256": "17c7242ed319138285c1cc85fc80ec7c9bba4d3dc82ada558c7a962e74c894d2"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:uc.water_corp.name",
+      "location_fingerprint": "2ffe6b88745288043d565f089ed708051f54d6fcbf5e141c906623f5029100a4",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "26355455cfc8ed1a550b085960e1dd1cee549428815ccd957ad408399982e0d7",
+      "status": "reviewed",
+      "target": "기업 조달 담당자",
+      "target_sha256": "ec92ad917e39104f59df9ee4b89beebc7ffeaa5e92223784fcd7af4f106de20b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:uc.water_resident.1",
+      "location_fingerprint": "1588d285c65c42787ca9f9aa2ded3b90464da24d0563f3554e96b38e3ae7206c",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "73ab9303fb66dbdbb18ca39e29d792b5589d6e10735e777a2558208093058a7d",
+      "status": "reviewed",
+      "target": "건물 정수기가 또 고장 났어요. 관리실에선 다음 주에나 고친대요.",
+      "target_sha256": "5a47e97bea622ae913621e973f03cba3c0ee95d2642b2a2fb79450739660ce8b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:uc.water_resident.2",
+      "location_fingerprint": "b52989733d63a75e04132df5822f045ae9cee98dacdf9221363a77daff4eed61",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "cc002018583da56382d35e8d677ed5c3242237a63847c66e014dd625e068f2f0",
+      "status": "reviewed",
+      "target": "깨끗한 물 있나요?",
+      "target_sha256": "1145ac9c2e40ff73706339731af2ad050e3a843f0948fb2438e45e059eff207b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:uc.water_resident.name",
+      "location_fingerprint": "774eba735483ae361e838a9829cd509e21a5ffc3b94e5f6aa4b76aa4d38bd027",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "1d8963308c8b7e8c9eed256d0df4d1a79cc2e46b39d3e41239204e459f23a6b9",
+      "status": "reviewed",
+      "target": "물을 사러 온 주민",
+      "target_sha256": "0916dbd2261ee21dea494456ad3d3aad0129b58118d52ce15333244d31e1aaa3"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3838944803:ui_back",
       "location_fingerprint": "8dd8261fcadd359b595b7a6d7bf25b1e4ebd91bfbf8bbaa101dd2b782fbfa1d8",
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
@@ -126523,8 +127183,30 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "0e4211ce99c837da93ec2315a31aebd9e575403ed96341e9d6e8a248db6affb4",
       "status": "reviewed",
-      "target": "쇼케이스 확장 II",
-      "target_sha256": "0998af47bc9d3a88eccb6b8bc6c945323065cba9bd12cdeeabee7e0b1c3de890"
+      "target": "진열장 확장 II",
+      "target_sha256": "df1313b0c0cd957bed02c17daa9482483dd5cba9f91e02657c163b7b662f430b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_kai_spring_tap_desc",
+      "location_fingerprint": "757621c840145c41b447867c4408ef107e235a04911c6679f5e58c78d6bea1f8",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "3a245e8535eb0174c20a13a29103467b828b65321acd29fead60591dce5ac966",
+      "status": "reviewed",
+      "target": "카이가 창립 가문이 소유한 샘물 급수관을 분기해 줍니다. 하루 2~4리터의 순수한 물을 얻습니다.",
+      "target_sha256": "708b8c57e1a549706465a2d639c8333381fd3ab39c1d7aed536012d74572a7eb"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_kai_spring_tap_title",
+      "location_fingerprint": "ac59a14d7bd420caa9b9438156034c1a2ec90af0890575915f0e695a835d8d2f",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "42c5cd0adcab097c57cd44778ba3822e727b854600f1991d2fb547e59ac61f48",
+      "status": "reviewed",
+      "target": "샘물 급수관",
+      "target_sha256": "d74c2335b4c78e4e09e2123a57e1f6e7353ef420a6d6fda822af7e97fd4add4a"
     },
     {
       "dependencies": [],
@@ -126591,6 +127273,50 @@
       "status": "reviewed",
       "target": "특별 재고",
       "target_sha256": "a23ebfddd3e19c254381be67f61c05016213a61ddab47aed31df530f6ca0ab3f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_kai_tap_i_desc",
+      "location_fingerprint": "0127117c3feaf1621a58ea85200842855e5bb5f7baa60ff703dbaf8ba0896465",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "9fda3c3fa016e437894a0c69fa660f91eb581e78179d83cf677d523ffa3bafe8",
+      "status": "reviewed",
+      "target": "카이가 건물의 급수관을 가게까지 연결해 줍니다. 용기를 들고 수도꼭지를 클릭하면 기본 물을 받을 수 있습니다. 하루 4~6리터이며, 다 쓰면 끝입니다.",
+      "target_sha256": "27e074f479b59f4eac0de8ac028b2fa34350d0ff764d85dd8a8db9cafe616cbe"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_kai_tap_i_title",
+      "location_fingerprint": "16f43bfc173b9d6f425ea1ba7b054a331bda195212801c7215dcca2075bffe00",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "5c74d39001f06a47e8f3f35ff252ed45f76cb95aea5a289e40f7bf6f0c29aba6",
+      "status": "reviewed",
+      "target": "기본 급수관",
+      "target_sha256": "6f024cea2d4a21abb27fc2bf756142447653435986fae82f2d1ecbaed6c1b120"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_kai_tap_ii_desc",
+      "location_fingerprint": "f9048e9cdd81de79f854267b34843bff4a7349c959dd0620172011100e4c7c8e",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "1f111505038063dbc5a1d37de422c1c68a8b8a474029899bc912412761b5f842",
+      "status": "reviewed",
+      "target": "다단계 여과 장치가 달린 급수관입니다. 고품질 물을 하루 3~5리터 얻습니다.",
+      "target_sha256": "bedacd0ff7973ee734ed083528f93a9f66fae9376cc619e2f1f405500a56f378"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:ul_kai_tap_ii_title",
+      "location_fingerprint": "b47d232dfd910ffe2bd1b819e7a1f99cdd84a58b4cfc2d1c2cd42a1c9f06f51c",
+      "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
+      "source_sha256": "d8747502e2b26ff1911d9e596ca11855a8e71763b765af3c657e93f8de69e8df",
+      "status": "reviewed",
+      "target": "정수 급수관",
+      "target_sha256": "5766b55e76921875f8692cc2285dba53a62409924af4bea4ec2f17910b9dc7e2"
     },
     {
       "dependencies": [],
@@ -126773,7 +127499,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r15",
+  "release_id": "local-r16",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
@@ -126781,8 +127507,8 @@
     "commit": "629b1c3e1f1c35c66243aea0a3f7bde2d05eada7"
   },
   "source_inventory": {
-    "fingerprint": "045c7d66b91c9d092531aee360add9c0458c2557132706752061efb6231591ab",
+    "fingerprint": "e5a55c5fbf7d930ff7ad7dedbca08afd06fbc42799e1a0c7e408b5f6a16d5408",
     "method": "workshop-and-managed-runtime-inventory",
-    "target_count": 11523
+    "target_count": 11589
   }
 }
