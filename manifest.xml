@@ -3,7 +3,7 @@
   <ID>probably-stolen-ko-localization</ID>
   <Name>Probably Translated</Name>
   <Author>Project Parr0t</Author>
-  <ModVersion>1.0.14</ModVersion>
+  <ModVersion>1.0.15</ModVersion>
   <Description>Korean localization overlays for supported Probably Stolen Workshop mods. Base-game localization is untouched.</Description>
   <GameVersions>
     <Version>0.46D</Version>

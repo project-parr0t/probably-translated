@@ -17920,8 +17920,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e2953c62ea1c8a64dc8040b7ab93419d74c39666846f66a6262dfc03030189bc",
       "status": "reviewed",
-      "target": "{0}\\n2일",
-      "target_sha256": "bfcbc3ec8fa97d8a992181e3046431406e823cd9f7e0820fd264fbb3a0a5ff50"
+      "target": "{0}\n2일",
+      "target_sha256": "9cc1f5ab5910dfcfa8a0058511b9cc05cddedc92f663be3447da5bc6c6098499"
     },
     {
       "dependencies": [],
@@ -18173,8 +18173,8 @@
       "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
       "source_sha256": "c84e24b20ea77300e956abfc25f8e4101fb2102c15cd53133e6a1eff0e874646",
       "status": "reviewed",
-      "target": "생선... +1\\n\\n        생선살 +2\\n\\n생선을 섞으면 맛이 이상한가?\\n\\n    양념도 괜찮지\\n\\n생선마다 어울리는 맛이 다르다",
-      "target_sha256": "78bbd8253b2d2e8b39404676ab480d81c8ff4d119fd6df1a12d9ca3b3c97a01c"
+      "target": "생선... +1\n\n        생선살 +2\n\n생선을 섞으면 맛이 이상한가?\n\n    양념도 괜찮지\n\n생선마다 어울리는 맛이 다르다",
+      "target_sha256": "d50f629d6a3d1551517e245845c05e5ad52921d453728921e1bc2f35a7f9f78f"
     },
     {
       "dependencies": [],
@@ -18250,8 +18250,8 @@
       "review_fingerprint": "763ff5633edc1b8cf300f31e5024b4fc5849e531feec22e1fc4bbd052c523182",
       "source_sha256": "ea128cb644e8b4e947e7966588618f47976c6c6bd56bc076708e949d244baa47",
       "status": "reviewed",
-      "target": "소금맛: 정화어, 유리어, 무지개어, 푸른 수정어, 로푸린, 니오룬, 페라이트 해파리.\\n매운맛: 가물치, 쥐치, 백상아리, 뿔황새치, 황제붉은게, 화산어, 무스펠의 아들, 붉은꼬리어, 무지기, 란의 악몽.\\n기름맛: 틸라피아, 시궁창 틸라피아, 접목 틸라피아, 장어, 전기뱀장어, 철갑상어, 참조기, 부세, 정어리, 빛고기, 황금어, 별복어, 금붕어, 우주로켓어.",
-      "target_sha256": "6296db676b1174f0a0fa714817af2252d8eb5868596aa6596f26233478d2b0e7"
+      "target": "소금맛: 정화어, 유리어, 무지개어, 푸른 수정어, 로푸린, 니오룬, 페라이트 해파리.\n매운맛: 가물치, 쥐치, 백상아리, 뿔황새치, 황제붉은게, 화산어, 무스펠의 아들, 붉은꼬리어, 무지기, 란의 악몽.\n기름맛: 틸라피아, 시궁창 틸라피아, 접목 틸라피아, 장어, 전기뱀장어, 철갑상어, 참조기, 부세, 정어리, 빛고기, 황금어, 별복어, 금붕어, 우주로켓어.",
+      "target_sha256": "571802db94c9c4bea612271da3b4c9b92bc8178ff57a9d53e1eef2b5c54bf92e"
     },
     {
       "dependencies": [],
@@ -18316,8 +18316,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "48543987177050e6c984b59a4615e08cd49583607dfdf9032da88b19f4c8d571",
       "status": "reviewed",
-      "target": "재료 준비하기\\n기본 블렌더를 사용해 출처가 확인된 생선 찌꺼기를 물이 든 용기에 넣고 혼합하세요. 준비한 용기를 합성기의 원액 슬롯에 넣고 배터리와 빈 주사기를 공급하세요.\\n\\n먼저 한 가지 약효 만들기\\n추출할 원액의 양을 선택하고 혼합 / 보충을 누르세요. 주 패널에는 현재 약효, 안정성, 부작용이 표시됩니다.\\n\\n원치 않는 부작용 줄이기\\n한 단계 낮추기, 이 약효 제거 또는 모두 조화를 선택하세요. 확정하기 전에 미리 보기와 mL 용량을 확인하세요.\\n\\n표준 용량 충전하기\\n주사기 하나당 10 mL, 빈 주사기 하나, 전력 1단위가 필요합니다. 사용하지 않은 원액은 기계에 남습니다.",
-      "target_sha256": "bafeb89244a88b5446ca14219bbffcf6081b2d1b2b4a93e2fede01d9ac519342"
+      "target": "재료 준비하기\n기본 블렌더를 사용해 출처가 확인된 생선 찌꺼기를 물이 든 용기에 넣고 혼합하세요. 준비한 용기를 합성기의 원액 슬롯에 넣고 배터리와 빈 주사기를 공급하세요.\n\n먼저 한 가지 약효 만들기\n추출할 원액의 양을 선택하고 혼합 / 보충을 누르세요. 주 패널에는 현재 약효, 안정성, 부작용이 표시됩니다.\n\n원치 않는 부작용 줄이기\n한 단계 낮추기, 이 약효 제거 또는 모두 조화를 선택하세요. 확정하기 전에 미리 보기와 mL 용량을 확인하세요.\n\n표준 용량 충전하기\n주사기 하나당 10 mL, 빈 주사기 하나, 전력 1단위가 필요합니다. 사용하지 않은 원액은 기계에 남습니다.",
+      "target_sha256": "c2e4ce421ae8c5ca41abf4e5f5ae21872e0f190f97b669688f58236457be74a0"
     },
     {
       "dependencies": [],
@@ -18481,8 +18481,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "713e4fc1112be856199f759dd3e03a1b176870c3976690d8b928ab6695acfd99",
       "status": "reviewed",
-      "target": "너무 약함: 더 강한 원액 추가\\n블렌더에서 같은 종류의 더 강한 원액을 준비한 뒤 정량을 추가하세요. 약효 단계와 부담을 확인하세요. 보조제는 생선의 유효 성분을 대신할 수 없습니다.\\n\\n너무 진함: 물만 추가\\n희석하면 약효 농도와 그에 따른 부담을 줄일 수 있습니다. 필요한 강도 아래로 약효를 희석하지 않도록 주의하세요.\\n\\n초급 → 중급 → 고급\\n주 패널에 표시되는 실제 단계를 따르세요. 같은 단계에서 더 강한 원액을 추가하면 단계는 오르지 않고 부담만 늘어날 수 있습니다.\\n\\n특성이 단가를 결정\\n각 주사기에는 10 mL가 들어갑니다. 약효 단계가 높을수록 기본 가격이 올라갑니다. 안정성, 부작용, 순도도 판매 가격에 영향을 줍니다.",
-      "target_sha256": "faec045bb7936003ecec1f95e1965491bd4dde48481c8f169a40b3bec6d9bcaa"
+      "target": "너무 약함: 더 강한 원액 추가\n블렌더에서 같은 종류의 더 강한 원액을 준비한 뒤 정량을 추가하세요. 약효 단계와 부담을 확인하세요. 보조제는 생선의 유효 성분을 대신할 수 없습니다.\n\n너무 진함: 물만 추가\n희석하면 약효 농도와 그에 따른 부담을 줄일 수 있습니다. 필요한 강도 아래로 약효를 희석하지 않도록 주의하세요.\n\n초급 → 중급 → 고급\n주 패널에 표시되는 실제 단계를 따르세요. 같은 단계에서 더 강한 원액을 추가하면 단계는 오르지 않고 부담만 늘어날 수 있습니다.\n\n특성이 단가를 결정\n각 주사기에는 10 mL가 들어갑니다. 약효 단계가 높을수록 기본 가격이 올라갑니다. 안정성, 부작용, 순도도 판매 가격에 영향을 줍니다.",
+      "target_sha256": "ee8ba16c698e709f1f5f818447a4057b347c94d502fe95d7ee061edb988f4f09"
     },
     {
       "dependencies": [],
@@ -18591,8 +18591,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "0eaedd2cd0727fbada0f8c66ce9d153aed8a713c3252c4b1883fe4dea5fd50a5",
       "status": "reviewed",
-      "target": "원액 10 mL당 한 쌍\\n설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다. 완전한 A+B 한 쌍마다 반응 단계가 한 단계 낮아집니다. I등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\\n\\n초조와 불면증\\n초조에는 드림 캡 추출물과 미네랄을 사용합니다. 불면증에는 드림 캡 추출물과 단백질을 사용합니다.\\n\\n졸림과 메스꺼움\\n졸림에는 카페인과 설탕을 사용합니다. 메스꺼움에는 단백질과 미네랄을 사용합니다.\\n\\n안정제\\n불안정한 원액에는 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용됩니다.",
-      "target_sha256": "9a690dc8528c617e0a9c7fddabfa1b61567b7d87827e59679f04fbce26366057"
+      "target": "원액 10 mL당 한 쌍\n설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다. 완전한 A+B 한 쌍마다 반응 단계가 한 단계 낮아집니다. I등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n초조와 불면증\n초조에는 드림 캡 추출물과 미네랄을 사용합니다. 불면증에는 드림 캡 추출물과 단백질을 사용합니다.\n\n졸림과 메스꺼움\n졸림에는 카페인과 설탕을 사용합니다. 메스꺼움에는 단백질과 미네랄을 사용합니다.\n\n안정제\n불안정한 원액에는 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용됩니다.",
+      "target_sha256": "87a98b0399a3f53ed0dda60b88482c747a893cebe0c8da9e8f31bb43b0f62405"
     },
     {
       "dependencies": [],
@@ -18701,8 +18701,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "37e2480d980e5e74d3f8622510b750a4a3ea04d49c77c7ee6351edfb8639ba47",
       "status": "reviewed",
-      "target": "원액 부피 기준 조절\\n보조제를 넣기 전 원액 부피에 따라 투여량이 조절됩니다. 보조제는 최종 부피에 더해지며 효과 등급을 바꿀 수 있습니다.\\n\\n예시: 원액 20 mL의 피로 효과\\n한 쌍에는 설탕 1 mL와 단백질 2 mL가 필요합니다. 피로 3등급에는 세 쌍이 필요합니다.\\n\\n복수 반응\\n완전한 A+B 한 쌍마다 반응이 한 등급 낮아집니다. 1등급은 없어집니다. 반응 하나당 최대 네 쌍까지 적용됩니다. 각 투여량은 한 번만 계산됩니다.\\n\\n미리 보기와 순도\\n불순물은 순도에 영향을 주며 기본 게임 필터로 걸러 낼 수 있습니다. 보조제가 남아도 추가 부작용은 생기지 않습니다.",
-      "target_sha256": "fe542816a8d2cddf50dfd28f85adfca092062d3de5d92f48e14b478775aff967"
+      "target": "원액 부피 기준 조절\n보조제를 넣기 전 원액 부피에 따라 투여량이 조절됩니다. 보조제는 최종 부피에 더해지며 효과 등급을 바꿀 수 있습니다.\n\n예시: 원액 20 mL의 피로 효과\n한 쌍에는 설탕 1 mL와 단백질 2 mL가 필요합니다. 피로 3등급에는 세 쌍이 필요합니다.\n\n복수 반응\n완전한 A+B 한 쌍마다 반응이 한 등급 낮아집니다. 1등급은 없어집니다. 반응 하나당 최대 네 쌍까지 적용됩니다. 각 투여량은 한 번만 계산됩니다.\n\n미리 보기와 순도\n불순물은 순도에 영향을 주며 기본 게임 필터로 걸러 낼 수 있습니다. 보조제가 남아도 추가 부작용은 생기지 않습니다.",
+      "target_sha256": "41849d8d39c962cee2642be5ceb61467cd441a6bcd8efa95d7684a4b0a43119c"
     },
     {
       "dependencies": [],
@@ -18811,8 +18811,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "124665fafe0a95c5af51c49e61d9bb6dd1c188f67d8243911e517a8b92612755",
       "status": "reviewed",
-      "target": "한 가지 약효부터 시작\\n주된 약효가 원하는 강도에 도달하면 두 번째 가루를 조금씩 추가하세요. 두 약효와 원치 않는 반응을 비교하세요.\\n\\n약효가 많을수록 부담도 증가\\n각 가루에는 고유한 부담이 있습니다. 형성된 약효가 여러 개면 혼합 부담이 추가되며, 재료를 넣을 때 농도도 변합니다.\\n\\n각성 + 진정: 강한 충돌\\n이 두 약효를 결합하면 초조와 피로가 추가되고 안정성이 낮아집니다. 긍정적인 약효만 보고 물약을 판단하지 마세요.\\n\\n안정성과 반응 처리\\n불안정한 원액에는 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용됩니다. 완전한 A+B 한 쌍마다 반응 단계가 한 단계 낮아집니다. I등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.",
-      "target_sha256": "c1a6b315dad1a6984ce967066005250416bb0a527515bc5eeb5ef0130ffcb303"
+      "target": "한 가지 약효부터 시작\n주된 약효가 원하는 강도에 도달하면 두 번째 가루를 조금씩 추가하세요. 두 약효와 원치 않는 반응을 비교하세요.\n\n약효가 많을수록 부담도 증가\n각 가루에는 고유한 부담이 있습니다. 형성된 약효가 여러 개면 혼합 부담이 추가되며, 재료를 넣을 때 농도도 변합니다.\n\n각성 + 진정: 강한 충돌\n이 두 약효를 결합하면 초조와 피로가 추가되고 안정성이 낮아집니다. 긍정적인 약효만 보고 물약을 판단하지 마세요.\n\n안정성과 반응 처리\n불안정한 원액에는 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용됩니다. 완전한 A+B 한 쌍마다 반응 단계가 한 단계 낮아집니다. I등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.",
+      "target_sha256": "a05d851e37c5708216b5e8b0d36e718515a124165028c2c8d63e987dbdb2ed90"
     },
     {
       "dependencies": [],
@@ -18921,8 +18921,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "9e82656a3f6553db86727a2a59b6e7a0551d32f204cdacb00172bfa630b17909",
       "status": "reviewed",
-      "target": "미형성: 농도와 순도 확인\\n보조제만으로는 형성되지 않은 약효를 바로잡을 수 없습니다. 유효 가루가 충분한지, 물이 너무 많은지 확인하세요.\\n\\n만족스러운 제조법 저장\\n제조법에 알아보기 쉬운 이름을 붙이세요. 사용자 지정 이름이 없으면 시스템이 주된 약효에 따라 이름을 붙입니다.\\n\\n반복 제조에도 재료 필요\\n저장된 제조법을 선택하고 알맞은 가루, 보조제, 용매를 공급한 다음 제조하세요. 빠진 것이 있다면 부족 메시지에 따라 보충하세요.\\n\\n충전 전 최종 확인\\n약효, 부작용, 생선 원산지, 주사기당 부피를 확인하세요. 충전할 수 없다면 빈 주사기, 배터리, 출력 공간, 잠금 메시지를 확인하세요.",
-      "target_sha256": "da6a2d71e239963c60f85e00b81c04888b9b534ee0ab69eb6bf273b0828220b9"
+      "target": "미형성: 농도와 순도 확인\n보조제만으로는 형성되지 않은 약효를 바로잡을 수 없습니다. 유효 가루가 충분한지, 물이 너무 많은지 확인하세요.\n\n만족스러운 제조법 저장\n제조법에 알아보기 쉬운 이름을 붙이세요. 사용자 지정 이름이 없으면 시스템이 주된 약효에 따라 이름을 붙입니다.\n\n반복 제조에도 재료 필요\n저장된 제조법을 선택하고 알맞은 가루, 보조제, 용매를 공급한 다음 제조하세요. 빠진 것이 있다면 부족 메시지에 따라 보충하세요.\n\n충전 전 최종 확인\n약효, 부작용, 생선 원산지, 주사기당 부피를 확인하세요. 충전할 수 없다면 빈 주사기, 배터리, 출력 공간, 잠금 메시지를 확인하세요.",
+      "target_sha256": "ec725c0bc7344cfcbaebffccd2ce902d5f6c54ad78ba1c92a3eaa276262891e6"
     },
     {
       "dependencies": [],
@@ -19031,8 +19031,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "8979f13974c10d5ac89cedc53913a75435b38a59163572a2dcdf94cb07b266f9",
       "status": "reviewed",
-      "target": "용도\\n피로에는 단백질, 갈증에는 미네랄, 졸림에는 카페인과 조합하세요.\\n\\n원액 10 mL당 한 쌍\\n피로: 설탕 + 단백질. 갈증: 설탕 + 미네랄. 졸림: 설탕 + 카페인. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다.\\n\\n부작용 단계\\n완전한 A+B 한 쌍마다 부작용이 한 단계 낮아집니다. I단계는 없음으로 낮아집니다. 부작용 하나당 최대 네 쌍까지 사용할 수 있습니다.\\n\\n용량과 원료\\n용량은 보조제를 넣기 전의 원액 부피에 맞춰 조절됩니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 아이템 세부 정보에서 재료를 확인하세요.",
-      "target_sha256": "d2b8cac0bea9a7431840a16212bcd4297c97ffd4d15650e6e3627bc95c4847ec"
+      "target": "용도\n피로에는 단백질, 갈증에는 미네랄, 졸림에는 카페인과 조합하세요.\n\n원액 10 mL당 한 쌍\n피로: 설탕 + 단백질. 갈증: 설탕 + 미네랄. 졸림: 설탕 + 카페인. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL를 사용합니다. 단백질은 1 mL를 사용합니다.\n\n부작용 단계\n완전한 A+B 한 쌍마다 부작용이 한 단계 낮아집니다. I단계는 없음으로 낮아집니다. 부작용 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량과 원료\n용량은 보조제를 넣기 전의 원액 부피에 맞춰 조절됩니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 아이템 세부 정보에서 재료를 확인하세요.",
+      "target_sha256": "6406c579d81e3e923fe6fd5816d51a8cdba0b66fdb19dd357cc0136159517ac1"
     },
     {
       "dependencies": [],
@@ -19141,8 +19141,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "150bfe5764489ea8ed383109e6b03fcba23a76180731798ce83f7a4e432faaf2",
       "status": "reviewed",
-      "target": "용도\\n피로에는 설탕, 불면증에는 드림 캡 추출물, 메스꺼움에는 미네랄과 짝지어 사용합니다.\\n\\n원액 10 mL당 한 쌍\\n피로: 단백질 + 설탕. 불면증: 단백질 + 드림 캡 추출물. 메스꺼움: 단백질 + 미네랄. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL씩 사용합니다. 단백질은 1 mL를 사용합니다.\\n\\n반응 등급\\n완전한 A+B 한 쌍마다 반응이 한 단계 낮아집니다. 1등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\\n\\n용량과 원료\\n용량은 보조제를 넣기 전 원액의 부피에 비례합니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 재료를 확인하세요.",
-      "target_sha256": "aa45d4ff088c020adef54825d7ea5e3b8e6ab60883f7b65c2dd614db495e521b"
+      "target": "용도\n피로에는 설탕, 불면증에는 드림 캡 추출물, 메스꺼움에는 미네랄과 짝지어 사용합니다.\n\n원액 10 mL당 한 쌍\n피로: 단백질 + 설탕. 불면증: 단백질 + 드림 캡 추출물. 메스꺼움: 단백질 + 미네랄. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL씩 사용합니다. 단백질은 1 mL를 사용합니다.\n\n반응 등급\n완전한 A+B 한 쌍마다 반응이 한 단계 낮아집니다. 1등급은 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량과 원료\n용량은 보조제를 넣기 전 원액의 부피에 비례합니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 재료를 확인하세요.",
+      "target_sha256": "f93e36c963d3e436447fd0c8474e3a6ae6a7e63050cfa40c7c74f4e8d0290a22"
     },
     {
       "dependencies": [],
@@ -19251,8 +19251,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "89d0185ee8bd9451a8da9e5e71dacbf5c74cb6f9fe2ad4351199e88d2bc7fc43",
       "status": "reviewed",
-      "target": "용도\\n갈증에는 설탕, 초조함에는 드림 캡 추출물, 메스꺼움에는 단백질과 짝지어 사용합니다.\\n\\n원액 10 mL당 한 쌍\\n갈증: 미네랄 + 설탕. 초조함: 미네랄 + 드림 캡 추출물. 메스꺼움: 미네랄 + 단백질. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL씩 사용합니다. 단백질은 1 mL를 사용합니다.\\n\\n부작용 단계\\n완전한 A+B 한 쌍마다 부작용이 한 단계 낮아집니다. 1단계는 없어집니다. 부작용 하나당 최대 네 쌍까지 사용할 수 있습니다.\\n\\n용량과 원료\\n용량은 보조제를 넣기 전 원액의 부피에 비례합니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 재료를 확인하세요.",
-      "target_sha256": "46f6574e9f53b39554b81e8d4a0a096678bcb4e08e5f6bf106a36d29bd40cfbb"
+      "target": "용도\n갈증에는 설탕, 초조함에는 드림 캡 추출물, 메스꺼움에는 단백질과 짝지어 사용합니다.\n\n원액 10 mL당 한 쌍\n갈증: 미네랄 + 설탕. 초조함: 미네랄 + 드림 캡 추출물. 메스꺼움: 미네랄 + 단백질. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL씩 사용합니다. 단백질은 1 mL를 사용합니다.\n\n부작용 단계\n완전한 A+B 한 쌍마다 부작용이 한 단계 낮아집니다. 1단계는 없어집니다. 부작용 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량과 원료\n용량은 보조제를 넣기 전 원액의 부피에 비례합니다. 보조제는 최종 부피에 더해지며 약효 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 재료를 확인하세요.",
+      "target_sha256": "d34515acdba0e1b54ad9b1b29466bd9c6d419cfa0b98bb0b3153774cf5411367"
     },
     {
       "dependencies": [],
@@ -19361,8 +19361,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "0420f9e0476a600591e4aebda89c13f0c9bf09553c653352fb8328a498ac09fc",
       "status": "reviewed",
-      "target": "용도\\n초조함 완화에는 미네랄을, 불면증 완화에는 단백질을 함께 사용합니다. 이 조합은 진정 효과를 직접 높이는 대신 반응을 조율합니다.\\n\\n원액 10 mL당 한 쌍\\n졸림: 카페인 + 설탕. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL 사용합니다. 단백질은 1 mL 사용합니다.\\n\\n반응 단계\\nA+B 한 쌍을 완성할 때마다 반응 단계가 한 단계 낮아집니다. I단계는 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.\\n\\n용량 및 원액\\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인합니다.",
-      "target_sha256": "1ae9e114b790f2dc3e1146e20a12096c2afd6070ec5262d83eb6d365b9739827"
+      "target": "용도\n초조함 완화에는 미네랄을, 불면증 완화에는 단백질을 함께 사용합니다. 이 조합은 진정 효과를 직접 높이는 대신 반응을 조율합니다.\n\n원액 10 mL당 한 쌍\n졸림: 카페인 + 설탕. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL 사용합니다. 단백질은 1 mL 사용합니다.\n\n반응 단계\nA+B 한 쌍을 완성할 때마다 반응 단계가 한 단계 낮아집니다. I단계는 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량 및 원액\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인합니다.",
+      "target_sha256": "0876335a3fe57824757ed371a8aeb53a04b4a7db42d74e55a8587c67a92c456d"
     },
     {
       "dependencies": [],
@@ -19471,8 +19471,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "c89e96bcd587a3af0dc0e60507d3c565cf552ebc8290a9ee4b75e95833ea507b",
       "status": "reviewed",
-      "target": "용도\\n졸림을 줄이려면 설탕과 함께 사용합니다. 카페인은 보조제로 작용하며, 직접적인 각성 효과를 높이지 않습니다.\\n\\n원액 10 mL당 한 쌍\\n초조 완화: 드림 캡 추출물 + 미네랄. 불면 완화: 드림 캡 추출물 + 단백질. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL 사용합니다. 단백질은 1 mL 사용합니다.\\n\\n반응 단계\\nA+B 한 쌍을 완성할 때마다 반응이 한 단계 낮아집니다. I단계는 반응 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\\n\\n용량 및 원액\\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인합니다.",
-      "target_sha256": "5c4ca35bd5a83453593f154dbad07ca11087ac62d03331dce7fe267281c48acf"
+      "target": "용도\n졸림을 줄이려면 설탕과 함께 사용합니다. 카페인은 보조제로 작용하며, 직접적인 각성 효과를 높이지 않습니다.\n\n원액 10 mL당 한 쌍\n초조 완화: 드림 캡 추출물 + 미네랄. 불면 완화: 드림 캡 추출물 + 단백질. 설탕, 미네랄, 카페인, 드림 캡 추출물은 각각 0.5 mL 사용합니다. 단백질은 1 mL 사용합니다.\n\n반응 단계\nA+B 한 쌍을 완성할 때마다 반응이 한 단계 낮아집니다. I단계는 반응 없음으로 낮아집니다. 반응 하나당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량 및 원액\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다. 기본 게임 아이템 상세 정보에서 성분을 확인합니다.",
+      "target_sha256": "559edfb56f4aa00eb8df74b323242a4131b270f67d00285c9b7b1bc5c9de4d91"
     },
     {
       "dependencies": [],
@@ -19581,8 +19581,8 @@
       "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
       "source_sha256": "edb1104caceb1a4b1de59cd1e3d8e622c98a7a261bfa886f27c5fd2ed2629093",
       "status": "reviewed",
-      "target": "목적\\n안정제는 용액의 안정성을 회복시킵니다.\\n\\n원액 10 mL당 한 쌍\\n불안정한 용액은 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용합니다.\\n\\n반응에는 A+B 사용\\nA+B 한 쌍을 완성할 때마다 반응이 한 단계 낮아집니다. 1단계는 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.\\n\\n용량 및 원액\\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다.",
-      "target_sha256": "e374cc30f6f56c0c1b750e8f4c3eeec503d9dba66b72ae38cfb9ff3d692322d7"
+      "target": "목적\n안정제는 용액의 안정성을 회복시킵니다.\n\n원액 10 mL당 한 쌍\n불안정한 용액은 원액 10 mL당 안정제 5 mL가 필요하며, 한 번만 적용합니다.\n\n반응에는 A+B 사용\nA+B 한 쌍을 완성할 때마다 반응이 한 단계 낮아집니다. 1단계는 반응 없음으로 낮아집니다. 반응당 최대 네 쌍까지 사용할 수 있습니다.\n\n용량 및 원액\n용량은 보조제를 넣기 전 원액의 부피를 기준으로 계산합니다. 보조제는 최종 부피에 더해지며 효과 단계를 바꿀 수 있습니다.",
+      "target_sha256": "3bf5ecbb6bd11a3025cea10b9af3b3d3c69c84014fb1e9f8d0bd2a6959caf9b3"
     },
     {
       "dependencies": [],
@@ -20659,8 +20659,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "4d14878a73feed7b18765d5b8a1177a247e07bebd1ea05304c844d7b27265302",
       "status": "reviewed",
-      "target": "{0}\\n시간: {1} · 선체: {2}/{3}",
-      "target_sha256": "a24ef6b51b63875c7359c4a517dc0a5630d084faea5d64585c0d550b686183b2"
+      "target": "{0}\n시간: {1} · 선체: {2}/{3}",
+      "target_sha256": "e311d89e91800a4684429b47109a27ce89a698036b690e6514cdd500a133c50d"
     },
     {
       "dependencies": [],
@@ -20758,8 +20758,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a669584444dd09afa217ab1a6a4dd28b61b2a592fae8dff91587f7402760e6d7",
       "status": "reviewed",
-      "target": "\\n연속 낚시: {0}회. 입질 확률이 {1}%포인트 감소했습니다.",
-      "target_sha256": "8359b8033c59f514de2a26b96f23f21414eb0e09bc8224eabec6fe94d881407c"
+      "target": "\n연속 낚시: {0}회. 입질 확률이 {1}%포인트 감소했습니다.",
+      "target_sha256": "06fa4e88aae1d8fa1dd4d34c0d2f60ccd37cb2049a770f86bce3eaeea118a3b6"
     },
     {
       "dependencies": [],
@@ -20769,8 +20769,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "674b3a466c0c10071f8061901bd74d85812c88316a10371bf90cee785f5b8cd6",
       "status": "reviewed",
-      "target": "핏빛 어군의 묵직한 물고기 · 낚시로 바다가 동요함{0}\\n{1}",
-      "target_sha256": "9218bc05e88f969509c7093456a7654f199f31cc6a68e613ae000779905c0c34"
+      "target": "핏빛 어군의 묵직한 물고기 · 낚시로 바다가 동요함{0}\n{1}",
+      "target_sha256": "7f114e04d367e0f5739a23ec8a528f3170c279758fb4034939c7fcfcc58fdd35"
     },
     {
       "dependencies": [],
@@ -20934,8 +20934,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "29f8655c4d673557156395bb6dc327cb90f216051fa745a7df4f4d6f58bec03c",
       "status": "reviewed",
-      "target": "\\n임시 보관소에 이전 항해에서 전달하지 못한 어획물 {0}개가 있습니다. 어창에 실으세요. 싣지 않은 물품은 귀환할 때 사라집니다.",
-      "target_sha256": "04c10c22f30c0a1ae1817428eaee89f5ee20938c395ba31fa4284482593a361e"
+      "target": "\n임시 보관소에 이전 항해에서 전달하지 못한 어획물 {0}개가 있습니다. 어창에 실으세요. 싣지 않은 물품은 귀환할 때 사라집니다.",
+      "target_sha256": "4eef45f6df16a1a32e2504a4ece2993b9b5108f813938b7d4f7c81e9c8278647"
     },
     {
       "dependencies": [],
@@ -21121,8 +21121,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "1a1053971b91f749a5418ed84e32b4c841580ccdb6db7c4eafaa3fb849af0549",
       "status": "reviewed",
-      "target": "조밀한 어군 · 대량 어획 가능 · 반복 어획 시 경계심 증가{0}\\n{1}",
-      "target_sha256": "fd342023621d21eed4c24b461de665a9476ce1def2894c2799a5fdd696a0f5f7"
+      "target": "조밀한 어군 · 대량 어획 가능 · 반복 어획 시 경계심 증가{0}\n{1}",
+      "target_sha256": "0c4d5cd87dcd8cfc818c3f9f6cdb3c5e2b8115597946e892e8d9444ef51163ac"
     },
     {
       "dependencies": [],
@@ -21143,8 +21143,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "3253c8e9a3cef51b66e7d97bdf87a67842b05163414fc119f2bc6770e5e6fcb4",
       "status": "reviewed",
-      "target": "선체 보강\\n{0} 크레딧",
-      "target_sha256": "e028e2fffeb23d628ec8bfe0396f1d41a046794ad48701a827a0f0964fefdae1"
+      "target": "선체 보강\n{0} 크레딧",
+      "target_sha256": "1ad74f038f6305756b035c01e8e652e4220770ee941916a6ad372b23fb6cb40b"
     },
     {
       "dependencies": [],
@@ -21264,8 +21264,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "6edc47c6941647afe6d0f6aae71198b66f57dde4bbd92703e5b4e91749668a72",
       "status": "reviewed",
-      "target": "{0}\\n임시 보관함에서 아이템 {1}개를 잃었으며, 잡은 어획물 {2}개를 집으로 가져왔습니다.",
-      "target_sha256": "79b88cc2e5ba251233272ff9617b97bdbffbb254f3374a1b5c6d330b46abd01c"
+      "target": "{0}\n임시 보관함에서 아이템 {1}개를 잃었으며, 잡은 어획물 {2}개를 집으로 가져왔습니다.",
+      "target_sha256": "409fad0003bd2b4d797cafd36c38ccedc2f94bbddff4ce682c907ac397e450c1"
     },
     {
       "dependencies": [],
@@ -21495,8 +21495,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "8985a3a3023aad6f804a0ee11a36366b203262c086b95ad0f84af025911cea0f",
       "status": "reviewed",
-      "target": "시간 {0} · 선체 {1}/{2}\\n크레딧 {3}\\n",
-      "target_sha256": "be06b7833f826536d9b7f9e5f245e45fc5b1589dcf6bd897a8b54762bb121416"
+      "target": "시간 {0} · 선체 {1}/{2}\n크레딧 {3}\n",
+      "target_sha256": "ccc72768b854159a52bb41ac73d90fb73da8c8b93cf14e933854b2748fe88685"
     },
     {
       "dependencies": [],
@@ -21605,8 +21605,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "ac319a51b7498ee3dbded0ed9c9c10f14ca88a5c7dcd55249382eebee00d3180",
       "status": "reviewed",
-      "target": "소식에 나온 {0} 어군 {1}\\n{2}",
-      "target_sha256": "5533eccc4ee5f87b3dbbadcfc5e7fe4513a97883ee63a7f5ae21adfeb0772954"
+      "target": "소식에 나온 {0} 어군 {1}\n{2}",
+      "target_sha256": "0bd357d357b7cb31fb71f14f0dd2988eb2154e8be9fbd69ba523801361cde4df"
     },
     {
       "dependencies": [],
@@ -21726,8 +21726,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "9bd368d1559c9a5be1e670751517b17e1439a044d630152c4676e0ea58db824f",
       "status": "reviewed",
-      "target": "\\n작살: {0}/3",
-      "target_sha256": "1f0d39970a70521e5199ea7f681883581720a4373120618b926c75505ecaad11"
+      "target": "\n작살: {0}/3",
+      "target_sha256": "18dfeb7c1ba1097d7252928372f7f33225d52798ef680d3ace0aed349d3e62ec"
     },
     {
       "dependencies": [],
@@ -21957,8 +21957,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "cc20afc9e0711ed1a33da3e2cee904c14c207d89949faf4e3fbebee48ff4f3ad",
       "status": "reviewed",
-      "target": "\\n잡은 물고기를 가지고 돌아가시겠습니까, 아니면 계속 위험을 감수하시겠습니까?",
-      "target_sha256": "0ee92d8364aa33b9c47a0db6ac7bfa57e9a5f1220ebc272b79e5be9d19e02529"
+      "target": "\n잡은 물고기를 가지고 돌아가시겠습니까, 아니면 계속 위험을 감수하시겠습니까?",
+      "target_sha256": "82d24eb262bc291956d4a9ad55603bf8f3b195d3b5d9de8495df7e5b9e2550a7"
     },
     {
       "dependencies": [],
@@ -22199,8 +22199,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "52532f476758b92d1d39af31f3d1d4a43affec3e4a361198813daa4e9fd16a57",
       "status": "reviewed",
-      "target": "암초\\n폭파",
-      "target_sha256": "395c87f4f1a5f25364c0ec4857ef325f9ad90cbbf8efad8086405e8a0686bc81"
+      "target": "암초\n폭파",
+      "target_sha256": "0335f815ee18fdd22e62e0b9d200952c80d9322cda44b1abc97fb4bf1da86237"
     },
     {
       "dependencies": [],
@@ -22375,8 +22375,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "5fdc34651a89cfc34d43a573dd85f294ed8b519be43cba96581b36d6d4f61721",
       "status": "reviewed",
-      "target": "희귀 물고기가 모여드는 깊은 소굴 · 낚시 시 바다 교란{0}\\n{1}",
-      "target_sha256": "6996c7e0b8395cf14e7f2cb300be188d63a60d7aa1efdd808cd7ad66725f2abb"
+      "target": "희귀 물고기가 모여드는 깊은 소굴 · 낚시 시 바다 교란{0}\n{1}",
+      "target_sha256": "87d17727157fa53414e186d87eedcaeab0b85dd4b906d3650d4c8ff6c477b445"
     },
     {
       "dependencies": [],
@@ -22672,8 +22672,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e5a25b35b6de6289f88966376cb9af9576b956d77c67f0d64741b5d287a27cc7",
       "status": "reviewed",
-      "target": "{0} · 백상아리\\n15분마다 한 칸씩 추적하며, 잡으려면 작살이 필요합니다\\n공격 시 선체에 3의 피해를 준 뒤 1시간 동안 쉽니다\\n항구에서는 상어가 공격할 수 없습니다.",
-      "target_sha256": "4ea821ae8f4ae97ac5d9fdd65f6fe1e7783b6e3de9c8f50436c31d012df4172f"
+      "target": "{0} · 백상아리\n15분마다 한 칸씩 추적하며, 잡으려면 작살이 필요합니다\n공격 시 선체에 3의 피해를 준 뒤 1시간 동안 쉽니다\n항구에서는 상어가 공격할 수 없습니다.",
+      "target_sha256": "3b35df3d28ee621c410385f232318bb746a3c22c3c42dea9ab3e2103ebbdf079"
     },
     {
       "dependencies": [],
@@ -22760,8 +22760,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "65dfa6ffe640163ff3000263fd022dd9c655ef0e61faa4df610728b80e40c6de",
       "status": "reviewed",
-      "target": "\\n배달하지 못한 어획물 {0}개를 임시 보관소에 두었습니다. 다음 항해 때 실으세요. 싣지 않은 물품은 귀항 시 사라집니다.",
-      "target_sha256": "79679f9e0da2a40183c48d5103beda685cce9af7b70d00fbfffe09e30fdda6ab"
+      "target": "\n배달하지 못한 어획물 {0}개를 임시 보관소에 두었습니다. 다음 항해 때 실으세요. 싣지 않은 물품은 귀항 시 사라집니다.",
+      "target_sha256": "2bfcd00f8a3234cb88e3f2c3bdc17e946eb4536a9f65d28a5bb2254f3ca12918"
     },
     {
       "dependencies": [],
@@ -22892,8 +22892,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "b45331b7af8702b0cbcb2d730ae696dd41953d20f41b06ae799eca8dfbb48b77",
       "status": "reviewed",
-      "target": "판매 구역\\n\\n{0}\\n항구 매입가: {1}크레딧",
-      "target_sha256": "72c60b5249ba51feb02d20f63f88492b46ee70ab1ed18ca9413a337e294d1761"
+      "target": "판매 구역\n\n{0}\n항구 매입가: {1}크레딧",
+      "target_sha256": "52362f5c11124aacfee389dbc38eab66fab7aaae31ccca29dee3b121ec0db94c"
     },
     {
       "dependencies": [],
@@ -23222,8 +23222,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "5df61280bf5e7999807a28c20870bd54cebfef31cc04a180e67ccce3e08c7b43",
       "status": "reviewed",
-      "target": "{0} · {1}\\n{2} · {3}\\n{4}\\n현재 시야: {5}{6}–{7}{8}",
-      "target_sha256": "7aa371a2dbeb2dd0429fb14bbc09cac755f2147c8502b63c2857e4d506770aad"
+      "target": "{0} · {1}\n{2} · {3}\n{4}\n현재 시야: {5}{6}–{7}{8}",
+      "target_sha256": "cdf35c179fbfda42ec75fffaef33aab308d992ce62c2028249f7a2bfbab66dc2"
     },
     {
       "dependencies": [],
@@ -23255,8 +23255,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "c6ebddd5ceef2b9b483802e3d150c3cb88140dbb67049ee63163bd69927e8443",
       "status": "reviewed",
-      "target": "\\n원정에 실패했습니다. 어창의 절반 이상을 차지하던 화물 {0}개가 바다에 빠졌습니다.",
-      "target_sha256": "069cfb11264c6d3c0f2a7d5e76f26de30a87e29587a6c32fd7d8073aa3c10ba0"
+      "target": "\n원정에 실패했습니다. 어창의 절반 이상을 차지하던 화물 {0}개가 바다에 빠졌습니다.",
+      "target_sha256": "a7738c8302a80b3e91118ff65ec48c4bf78a93bd341f74b38a7002e65679d1a2"
     },
     {
       "dependencies": [],
@@ -23321,8 +23321,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "7a22587988e779f79508651bcd475bae0701de41fa25eed9e085bcac4fcd9b66",
       "status": "reviewed",
-      "target": "자동 릴\\n{0}/20",
-      "target_sha256": "1c2c1bb0e4df86136a84b67b2abfe2188384b3568c0c7496a027a254e928729b"
+      "target": "자동 릴\n{0}/20",
+      "target_sha256": "0e6a1877db706550ca25193a8c2736350f255d8b5a26cdf87070089cee21e9d2"
     },
     {
       "dependencies": [],
@@ -23431,8 +23431,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "58b7bd85300cedfc53296f2eba1d332e5ad6ea895f24e9a893d22f2847aa08ac",
       "status": "reviewed",
-      "target": "백상아리 포획\\n무게: {0:0.###} kg · 가치: {1} 크레딧\\n크기: 6×2칸. 어창이 가득 차면 임시 보관소에 넣기를 시도합니다.",
-      "target_sha256": "b5ff45e6a0302010000f249e6c0d65f20b8ac44d37acd278bba7e894103993a3"
+      "target": "백상아리 포획\n무게: {0:0.###} kg · 가치: {1} 크레딧\n크기: 6×2칸. 어창이 가득 차면 임시 보관소에 넣기를 시도합니다.",
+      "target_sha256": "e46a2e3e56400d0a22c2fd94e6f07d7d8eedb2d02e5eeff794f41cdd75678b7f"
     },
     {
       "dependencies": [],
@@ -23508,8 +23508,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "4f933892356e64308098dd9453f0c97e21fd8f94bc5a294463c8f2a116dd6738",
       "status": "reviewed",
-      "target": "\\n강력 엔진: 설치됨 (출항 후 활성화)",
-      "target_sha256": "3fe3c22986de4b812e55dfec04a5cf3db45ac25034ad4e8a99527c77032cc9b2"
+      "target": "\n강력 엔진: 설치됨 (출항 후 활성화)",
+      "target_sha256": "1468ac16d666b4fbd4f40c22543f9d2b8e3d77aeb9a5d4f3928661bc12aee32f"
     },
     {
       "dependencies": [],
@@ -23772,8 +23772,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "3062c7f8b8ca70273002a2217180bd6c3f0dd4d175160dfab28177a7abd9582b",
       "status": "reviewed",
-      "target": "버려진 조선소 / 선박 업그레이드\\n선체: {0}/{1} · 어창: {2}×{3} · 이동: 칸당 {4}분",
-      "target_sha256": "0757cdc9b87f5ec065650907f6ea275d9cdee49227907c0adc0f56304b78ca78"
+      "target": "버려진 조선소 / 선박 업그레이드\n선체: {0}/{1} · 어창: {2}×{3} · 이동: 칸당 {4}분",
+      "target_sha256": "7630092d8e8bdb73d4d513ed2f94dfea27b90144f3563344abaea6c0faae21e3"
     },
     {
       "dependencies": [],
@@ -23893,8 +23893,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "57b38190981fd9a8b417d0808693c88e87fadd97ac005587a7ba7c3908af8188",
       "status": "reviewed",
-      "target": "배 아래를 맴도는 거대한 그림자 · 도전 시 바다 동요\\n{0}",
-      "target_sha256": "3e92ca6d8cd216be9c9c45abceac5cc27ad4d9cbc149568ee3ee0ac45523c375"
+      "target": "배 아래를 맴도는 거대한 그림자 · 도전 시 바다 동요\n{0}",
+      "target_sha256": "0d63513983779afe50b04bf3ebe9ec51410525017fcd7764ef99b08ac9bcba0c"
     },
     {
       "dependencies": [],
@@ -24003,8 +24003,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "d229a5dec6dfadff1e92257bb8c19e11defdd570cac3efc53d1c1cad3448cbfb",
       "status": "reviewed",
-      "target": "일반 낚시터 발견 {0}\\n{1}",
-      "target_sha256": "f9ae36e6c70bc67bdbd7619ff01040a7046cc92d151d727699cd630d6904878e"
+      "target": "일반 낚시터 발견 {0}\n{1}",
+      "target_sha256": "535748323fb79c1f05e30618e2080734377c76fc7bd270c6cee834aacbd9b31c"
     },
     {
       "dependencies": [],
@@ -24157,8 +24157,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "7bc9f1c70acbc58b3f868241f770c564958d970e024233d310cd60ecdd795934",
       "status": "reviewed",
-      "target": "{0}\\n{1}실수: {2}/2 · 남은 시간 {3:0.0}초\\n{4}",
-      "target_sha256": "876a4acf56fd299f4cc1067e69d2a49a24533372c1dcfd18cf68061fa1a9e4e7"
+      "target": "{0}\n{1}실수: {2}/2 · 남은 시간 {3:0.0}초\n{4}",
+      "target_sha256": "9f1b38c2e426927d2cc64870d133bdb7c3f1c695d15e3be180ffab9e26662622"
     },
     {
       "dependencies": [],
@@ -24168,8 +24168,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "b22d0ee466cfdd59c8b1b3382456cdcefa34480e415a38af97434596386eca39",
       "status": "reviewed",
-      "target": "어창 확장\\n{0} 크레딧",
-      "target_sha256": "b084eb68422db23d349fd9bdad69f35a41cdf4a3e2161f5f011527fc0c563ff0"
+      "target": "어창 확장\n{0} 크레딧",
+      "target_sha256": "25fdf6876770a63469df028e270cc0285215023b7e8fbba4d9ee9042aea0b62d"
     },
     {
       "dependencies": [],
@@ -24443,8 +24443,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e27c19fcce0c10130211bce191a82c54901aba01981b2bd9d16b3efa53cfa82a",
       "status": "reviewed",
-      "target": "\\n이 항구에서 매입하지 않는 물품",
-      "target_sha256": "37707ce0e2bd2840f9c970634a4e7b4b030f4f7be2edfaf4ded084d6b3935f8a"
+      "target": "\n이 항구에서 매입하지 않는 물품",
+      "target_sha256": "fb8a12b34df0f14934dd7f957f0ad2c40b663d13c663854d4b2d8e18e18ca1d7"
     },
     {
       "dependencies": [],
@@ -24465,8 +24465,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e83a8b91c0d2d48be705190bc4704b6d99d17e0aedfb14b0c1523f436b003065",
       "status": "reviewed",
-      "target": "\\n작살: 없음",
-      "target_sha256": "718b659e6dd37057bfd67451adc25c59c741f8ee9758683dcb8ee178efb36f62"
+      "target": "\n작살: 없음",
+      "target_sha256": "015441f175e5abe49858ff66b23e4c00bf426f1cbcaa658af8d4b363d2caed64"
     },
     {
       "dependencies": [],
@@ -24553,8 +24553,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "1e4de84347512377dd51a98372beb381fd9cc3fb888ced047b841b0399990ae4",
       "status": "reviewed",
-      "target": "\\n자동 릴: {0}/20 (표시 한 번마다 내구도 1 소모)",
-      "target_sha256": "9abdaafc4aaf51d9cc7a8fe964d238bf017a6d5449f34396b1c118f9e35cffe5"
+      "target": "\n자동 릴: {0}/20 (표시 한 번마다 내구도 1 소모)",
+      "target_sha256": "d9d709ea004c37dd1046640cf3a64e2336c65f041eec4bfca4f3112a3d63bfae"
     },
     {
       "dependencies": [],
@@ -24663,8 +24663,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "f914b0c15fb8c15731d9fad46c19416151dde3d3959b973d8b239b32957bca64",
       "status": "reviewed",
-      "target": "\\n배송하지 못한 어획물 {0}개를 임시 보관소에 두었습니다. 다음 항해 때 어창에 실으세요.",
-      "target_sha256": "8b6b919df5104090c37f22a194537e16f0eec8b771b06013d267f0d5a2002b8f"
+      "target": "\n배송하지 못한 어획물 {0}개를 임시 보관소에 두었습니다. 다음 항해 때 어창에 실으세요.",
+      "target_sha256": "c32d8bbb23f6f002ef12bae7cc3564fc6bc7ac0afe55cadca95485694618da9c"
     },
     {
       "dependencies": [],
@@ -24685,8 +24685,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "3c9ed5cca1a62fc3db8f8f4d7903f7c2c8cde8379f8546cc96d8098005927121",
       "status": "reviewed",
-      "target": "최종 릴링 · {0:0.0}초 남음\\n{1}물고기 지침. 마저 끌어올리기. 실수: {2}/2\\n{3}",
-      "target_sha256": "c2822b7b611a4387718c23861948a79cfbc5ab6088e3a8219e6625e9e075005f"
+      "target": "최종 릴링 · {0:0.0}초 남음\n{1}물고기 지침. 마저 끌어올리기. 실수: {2}/2\n{3}",
+      "target_sha256": "3409faa6b9c4a1d1c70b77d454c2d3b91bfec3e1867625e1d8ee2dfd6837a08f"
     },
     {
       "dependencies": [],
@@ -24729,8 +24729,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "c660bce7afc9e6c2cd07f707f44893068a359cdaab33ccd36610542bd2df64f1",
       "status": "reviewed",
-      "target": "탐조등\\n낚시 시간 5분 감소",
-      "target_sha256": "b69431db9037e0095306bbfb39bfc35facc114b49cfdecc1dfe5e4fad4cf142b"
+      "target": "탐조등\n낚시 시간 5분 감소",
+      "target_sha256": "49de1f25373b4b4edbb413e44de906ead6dc05489ab10568b860b58fec8f1e18"
     },
     {
       "dependencies": [],
@@ -24806,8 +24806,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "abb6632d3fe552f65cca2a9ff310a89a622bfd3cc4b9ffc04797ebed1356d677",
       "status": "reviewed",
-      "target": "포획 수: {0}개\\n현재 연속 포획: {1}/5",
-      "target_sha256": "40fa2873f2977cc3243fa07948a7e602eafd27eb922a1a9cb3a04b1deb73f664"
+      "target": "포획 수: {0}개\n현재 연속 포획: {1}/5",
+      "target_sha256": "4c95613e4a29d0c31dc5d1203e0276a92da5329ce7852563fb5a4f7a8dded1ca"
     },
     {
       "dependencies": [],
@@ -24828,8 +24828,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "be2482f0a62517c145b020bb63ec946bc62d0f0664c30ceea977523c811ac984",
       "status": "reviewed",
-      "target": "{0}\\n{1}\\n시간: {2} · 소란도: {3}/100",
-      "target_sha256": "b19f01c117145b034af343fb2266c9edbeda4a59643011763a9f1059d8a50378"
+      "target": "{0}\n{1}\n시간: {2} · 소란도: {3}/100",
+      "target_sha256": "4f6aa5d807dc5ac037771a3b7f0bea032a4d0ccd2af3e7a729a2e879a65da252"
     },
     {
       "dependencies": [],
@@ -24883,8 +24883,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "0ca207b3db00ed2d38177d2aafea8ea504e6fdd2f1894e948283491786258b7c",
       "status": "reviewed",
-      "target": "크레딧: {0} · 스크롤로 둘러보기 {1}\\n{2}",
-      "target_sha256": "006c99dd100ff0dcf04e622e7f7b32caf258e422e191f85b2d5d400c9b279d11"
+      "target": "크레딧: {0} · 스크롤로 둘러보기 {1}\n{2}",
+      "target_sha256": "d9fab413e14bbfdb1a7a0817e98a4f85b05e244192287213a2a4531330b5f275"
     },
     {
       "dependencies": [],
@@ -24960,8 +24960,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e4ef3426d203833d89958e05ef5e203dfb2820e1efb9e975e49d9a8ee83044da",
       "status": "reviewed",
-      "target": "\\n연속 낚시가 끊겼습니다. 다음 캐스팅은 첫 단계부터 시작합니다.",
-      "target_sha256": "026dee1b18637eab79dc2aaa21e2d4bf044cb0631a49ab2efb0d6c137e62b715"
+      "target": "\n연속 낚시가 끊겼습니다. 다음 캐스팅은 첫 단계부터 시작합니다.",
+      "target_sha256": "85790c89bacc29006eafddfffbad6bfc55f705080876233eefab588d1497a302"
     },
     {
       "dependencies": [],
@@ -25158,8 +25158,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a4a748ec6e4e006e1e4a1533a10a3d38c213edad847e0aabae7d988e5eeb2b82",
       "status": "reviewed",
-      "target": "구매\\n비용: {0} 크레딧",
-      "target_sha256": "a58c5e0f7600f89e8c0206cf57929059887c028cd5a3a015cdd4c64df4fd5dc6"
+      "target": "구매\n비용: {0} 크레딧",
+      "target_sha256": "3b87b75c39b9aa19ce66f156ca233a1daf7b5a2d7805d9833d953c07940e1166"
     },
     {
       "dependencies": [],
@@ -25752,8 +25752,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "1ea4cc9c53fa1308ec38235d0e7f6dfdafb78db47a132694c3494ae028ad3d82",
       "status": "reviewed",
-      "target": "\\n돌려받지 못한 어획물의 절반을 잃었습니다. {0}개가 남았습니다.",
-      "target_sha256": "5571a3ed9e095339f708b48c3c243f44eb8f89ac06097b31d2b67a8fdcdc761d"
+      "target": "\n돌려받지 못한 어획물의 절반을 잃었습니다. {0}개가 남았습니다.",
+      "target_sha256": "a5d64da8e502096c16e951fda5787e986c14d12536c633238469b32c183d20a8"
     },
     {
       "dependencies": [],
@@ -25796,8 +25796,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "7ec7d5789f4141d9a0a7f1b3ef64a466ae273b2f76cf43452b2140033dc7db42",
       "status": "reviewed",
-      "target": "\\n임시 보관소의 물품 {0}개를 싣지 않아 귀환 시 잃었습니다.",
-      "target_sha256": "48b9bcfe84d6120920b4e6c876eaf1445b341ed3b6a7f8e9a3b393c9f2fbc960"
+      "target": "\n임시 보관소의 물품 {0}개를 싣지 않아 귀환 시 잃었습니다.",
+      "target_sha256": "c06da704bc05ae584326dcf96615678815d45a8673ed4120fd961092065e493d"
     },
     {
       "dependencies": [],
@@ -26005,8 +26005,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a86280aac3a1685ec8d3c44445895addedd289092c5e43bd86b8e61a9bc1d7cb",
       "status": "reviewed",
-      "target": "작살\\n크기: 1×6칸, 회전 가능\\n어창에 싣고 귀환하면 장비에 추가됩니다.\\n내구도 3/3으로 시작합니다. 귀환하기 전에는 물고기와의 사투에서 사용할 수 없습니다.",
-      "target_sha256": "9c0ef44db4f7372f9a2082080a45bf493306a33b7aeb7f3fd78b6ce1bae165a9"
+      "target": "작살\n크기: 1×6칸, 회전 가능\n어창에 싣고 귀환하면 장비에 추가됩니다.\n내구도 3/3으로 시작합니다. 귀환하기 전에는 물고기와의 사투에서 사용할 수 없습니다.",
+      "target_sha256": "a9016b14d0e858bd503b222de0abb7145dafcaa556762dc994fa6416b5613d0b"
     },
     {
       "dependencies": [],
@@ -26038,8 +26038,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "4c5e9352519a57a941c103bf19076b131d86f51d705496ac1d0d15c334d07e48",
       "status": "reviewed",
-      "target": "해양 연구소 / 장비 연구\\n해도: {0}/2 · 탐지 반경: {1}칸\\n저소음 장비: {2}/2 · 소란도 증가량 감소: {3}%",
-      "target_sha256": "c0c8733332324e7d268e584cc5cf67fc601367e4e30c6899ebf7be01ee29e954"
+      "target": "해양 연구소 / 장비 연구\n해도: {0}/2 · 탐지 반경: {1}칸\n저소음 장비: {2}/2 · 소란도 증가량 감소: {3}%",
+      "target_sha256": "f92b0f9315e53fc8d9793bdb868d4c7c628c9d6095d15aed51cccf62864b5539"
     },
     {
       "dependencies": [],
@@ -26060,8 +26060,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "f4f45f1586d8fc9e06f6e3ff8240d7911b15582def3384dc6c77df25457149fd",
       "status": "reviewed",
-      "target": "{0}\\n무게: {1}\\n가치: {2}\\n특성: {3}\\n{4}",
-      "target_sha256": "1a6dd55e7be447f685821d2559a10e9d84c6c17baba2274ecbde53b41bb7ded4"
+      "target": "{0}\n무게: {1}\n가치: {2}\n특성: {3}\n{4}",
+      "target_sha256": "a7f237c6ff91007c0f26b4ddffb22488400838941366de1ef1c994649f1d0fac"
     },
     {
       "dependencies": [],
@@ -26159,8 +26159,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "04b6419943e06520e51293ffc72b1b8ab05c9f596d14f2b422ec9596274a1b67",
       "status": "reviewed",
-      "target": "핏빛 열쇠\\n공간: 1칸\\n화물칸에서 바로 사용해 오로라의 숨겨진 방에 들어갈 수 있습니다. 귀환하면 보관되며 자동으로 휴대합니다. 자원 주기마다 열쇠는 하나뿐이며 보관된 열쇠부터 사용합니다. 판매하거나 상점 인벤토리로 옮길 수 없습니다.\\n보라색 등급 물품입니다. 해당 열쇠를 획득하거나 휴대하면 이번 자원 주기의 기존 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며 입구의 암초도 남아 있습니다.",
-      "target_sha256": "7455578682dca5d9b5c5d636718488f83b3c895dd637786488c26dd4ae11f964"
+      "target": "핏빛 열쇠\n공간: 1칸\n화물칸에서 바로 사용해 오로라의 숨겨진 방에 들어갈 수 있습니다. 귀환하면 보관되며 자동으로 휴대합니다. 자원 주기마다 열쇠는 하나뿐이며 보관된 열쇠부터 사용합니다. 판매하거나 상점 인벤토리로 옮길 수 없습니다.\n보라색 등급 물품입니다. 해당 열쇠를 획득하거나 휴대하면 이번 자원 주기의 기존 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며 입구의 암초도 남아 있습니다.",
+      "target_sha256": "ebb34680056c51c72fef74c46645934118d19b1227d01a4b8d1aee228558c153"
     },
     {
       "dependencies": [],
@@ -26192,8 +26192,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "c3815942fa43cc6741b02a75ef29104f1c10981c9a0aeb4f130f04a7ba8b76e0",
       "status": "reviewed",
-      "target": "핏빛 열쇠\\n수량: {0}",
-      "target_sha256": "2aa88a6209596108811b15c17a14970b8f919f3e2481f4fb0aeaf50e3cb75ff4"
+      "target": "핏빛 열쇠\n수량: {0}",
+      "target_sha256": "c7c8f858abfe2e777d925795a335f5345c537c1231b43a32554d9e11ea40e9ee"
     },
     {
       "dependencies": [],
@@ -26225,8 +26225,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "adfaa9de835db068fec11a635fd915198066fd4c50b9c8d7e6e7703c60eededc",
       "status": "reviewed",
-      "target": "{0}{1}\\n어창에서 가져온 어획물 {2}개{3}",
-      "target_sha256": "1ec6a896c7d84e9235e4471b573cf18db57913f310c9db1e6f86cad14d43362b"
+      "target": "{0}{1}\n어창에서 가져온 어획물 {2}개{3}",
+      "target_sha256": "5551aa86c0550699d04e186503cefd27c67524048a3cdefdb9cc4ba35b6d956c"
     },
     {
       "dependencies": [],
@@ -26313,8 +26313,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "1366872536820da9e66c373921bf1142664ee61e6f3a183ae654908b0803463b",
       "status": "reviewed",
-      "target": "폐기 구역\\n여기에 놓아 파괴",
-      "target_sha256": "01393a6bd328e5eb92159e42238bf39d05ec8389db5c5264feeb764ff93869f2"
+      "target": "폐기 구역\n여기에 놓아 파괴",
+      "target_sha256": "bc5727ea1f6e3ea333344028607a9e1560bbb48affc218eaabd6e0a5704beb68"
     },
     {
       "dependencies": [],
@@ -26412,8 +26412,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "5100bcb9ba50cd3ab62596c0578b39ed4c7c71f72eb1ad0dd72a0be2c810c018",
       "status": "reviewed",
-      "target": "{0}\\n가치: {1}\\n크기: {2}칸",
-      "target_sha256": "0dc790427c4e902090118fa129f5d3b00cbf9c64738907e952bcf7613acaf02a"
+      "target": "{0}\n가치: {1}\n크기: {2}칸",
+      "target_sha256": "f8cf79a1d3a19c697917aa1dcc7445d2df4f2346c54e64f281b8e0317f537a2e"
     },
     {
       "dependencies": [],
@@ -26709,8 +26709,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "c334aea93993a402ef1284d864afa465b7a24208f9e5865391dd218529da3170",
       "status": "reviewed",
-      "target": "{0} / 선체 수리\\n내구도: {1}/{2}\\n플랫폼 수리는 조선소 수리보다 비용이 더 많이 듭니다.",
-      "target_sha256": "0d544bcdfb4c18ddf845feda925f143827611451a590d03803993686dfdd96be"
+      "target": "{0} / 선체 수리\n내구도: {1}/{2}\n플랫폼 수리는 조선소 수리보다 비용이 더 많이 듭니다.",
+      "target_sha256": "69eddb784b79af2cfa8ec7996c4ea31eb120bae138e31441b724e42cfc099840"
     },
     {
       "dependencies": [],
@@ -26731,8 +26731,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "3ac36e9e51145dd6781366c39a8577a9d6979490853899385ed041938349dac4",
       "status": "reviewed",
-      "target": "백상아리가 다가오고 있습니다!\\n작살 내구도: {0}/3\\n포획하려면 {1}회 성공적으로 대응해야 합니다. 전투할 때마다 작살 내구도 1이 소모됩니다.",
-      "target_sha256": "33779aee30adcc96c2d9e6a48f0058c6d45ff77b9fe0c8c73d55327ddd2e66bc"
+      "target": "백상아리가 다가오고 있습니다!\n작살 내구도: {0}/3\n포획하려면 {1}회 성공적으로 대응해야 합니다. 전투할 때마다 작살 내구도 1이 소모됩니다.",
+      "target_sha256": "0265c9ffa2d94e8301ace72c3b4da7bf610f2576a0ed3525667679e93b3d64b8"
     },
     {
       "dependencies": [],
@@ -27061,8 +27061,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "4095d88bd60396bf1f5b9ccc5db4a4a4a71a5a2ff8b82e49389fc89f2b5aa498",
       "status": "reviewed",
-      "target": "\\n자동 릴: 미소지",
-      "target_sha256": "5cad58dd1c7a99e0408b6d773125dcd9f76c4351d4b428d6488c488a57cae9d2"
+      "target": "\n자동 릴: 미소지",
+      "target_sha256": "abb137fc2db18062d84a9853c8abdd882cf7344c5c52405ad2c6322d19471410"
     },
     {
       "dependencies": [],
@@ -27171,8 +27171,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "26c1937b9a0c97c5f4700d4cbe495d97900768a6fa707ac0772d97c38cac08da",
       "status": "reviewed",
-      "target": "아이템 {0}개를 낚았습니다.\\n5회 연속 캐스팅을 완료했습니다. 연속 기록이 초기화되었습니다.",
-      "target_sha256": "6f75163e9c6f1cdca0f187cc2ee0fdfb6d36336ac288f0da5efc99fed754808b"
+      "target": "아이템 {0}개를 낚았습니다.\n5회 연속 캐스팅을 완료했습니다. 연속 기록이 초기화되었습니다.",
+      "target_sha256": "5d3d341361b6f2af9cc57067d3d9aeb82187d6ae914a174c590dfc6612591942"
     },
     {
       "dependencies": [],
@@ -27413,8 +27413,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "10554ff5a6867ba9259c5de9aad4672b6568b8024cf7f832da722fcff7b673f2",
       "status": "reviewed",
-      "target": "\\n여기에 끌어다 놓아 판매",
-      "target_sha256": "57ae62354c2c7dd269b1894780713b0fb4ca21797ee6f487ca9df84737a2d0d5"
+      "target": "\n여기에 끌어다 놓아 판매",
+      "target_sha256": "1094bb477cda291ac5ea86de35c6aff83311555be48c0b17ffc0ce706b2bca4a"
     },
     {
       "dependencies": [],
@@ -27457,8 +27457,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "00cce3dc2468530053a35035cdab03431bb68455063a30752d0803db2587298a",
       "status": "reviewed",
-      "target": "원정 장비를 구매하지 않았습니다.\\n왼쪽 아래 메뉴의 항구 장비 상점을 방문하세요.",
-      "target_sha256": "cff57e704a1ced07c152b4c18fc9263b0e54a6611716df6da7ae0ca266592dca"
+      "target": "원정 장비를 구매하지 않았습니다.\n왼쪽 아래 메뉴의 항구 장비 상점을 방문하세요.",
+      "target_sha256": "b5a9f21e53011deda60106ad85bdff6e26f023120b0d6b9b4a5aad9f5a23491d"
     },
     {
       "dependencies": [],
@@ -27633,8 +27633,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "dff07a1dbfa7bfcb20bf749ca14e94dc09d09dafc570a8bb6034ab1879e4c169",
       "status": "reviewed",
-      "target": "판매 구역\\n\\n어창 아이템을 여기로 끌어다 놓아 판매하세요.\\n아이템을 놓을 때만 판매됩니다.",
-      "target_sha256": "ac9e1cb06d077aa8122f634a3ec348acbe03bccaa57c2668eb2ad98b75d3e5d0"
+      "target": "판매 구역\n\n어창 아이템을 여기로 끌어다 놓아 판매하세요.\n아이템을 놓을 때만 판매됩니다.",
+      "target_sha256": "b8f91d0453b8892f1ff6d376ee58f4521409bcc5f42ff9b94db16d171ab72710"
     },
     {
       "dependencies": [],
@@ -27655,8 +27655,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "0b5ab01132c6c8de8576ca15cbbc94ab9afbb73e70a63e2056be6b06058516c7",
       "status": "reviewed",
-      "target": "엔진 업그레이드\\n{0} 크레딧",
-      "target_sha256": "8350643781389f8150be2f9735a256ecede06e2edbefdf4e7d6d1b6e2c32a574"
+      "target": "엔진 업그레이드\n{0} 크레딧",
+      "target_sha256": "0ab5dad87760a77a0158e462450ccfe5615ef8283dc698c69a6d226c2cf43db3"
     },
     {
       "dependencies": [],
@@ -27743,8 +27743,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "b43aa07bbd52775f0d023e5b644f54d7dae1115f1e908c0afcfd3962731a8a5a",
       "status": "reviewed",
-      "target": "동력 엔진\\n출항 후 활성화",
-      "target_sha256": "c5844fe940819f3ef7be90f958dc07ea8c45c6c0b6c8ac2845d0437a5b3b12ca"
+      "target": "동력 엔진\n출항 후 활성화",
+      "target_sha256": "1770268d3b52aa34f6cac837d6e1bc537186c783dcaa9b75569c04cac2d8812a"
     },
     {
       "dependencies": [],
@@ -27875,8 +27875,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "6cd658b2b138497ca73587ad2bfdf6b045065599df629f38139b73355796f54f",
       "status": "reviewed",
-      "target": "오늘 밤의 원정: {0}\\n상점으로 돌아오면 다음 출항 전까지 하룻밤을 묵어야 합니다.",
-      "target_sha256": "e60847c17ca48fc8feed3a5a11241a477b60edc8ec05f23f564881fec9a4b818"
+      "target": "오늘 밤의 원정: {0}\n상점으로 돌아오면 다음 출항 전까지 하룻밤을 묵어야 합니다.",
+      "target_sha256": "27f16967794011d66634fc65a04711849c5cd698fd39446051fc9175e6ebee06"
     },
     {
       "dependencies": [],
@@ -28084,8 +28084,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "8c44c6d60e1f71d91f7500565c7d609765bfd3766b0977ed767ddc2054a2df15",
       "status": "reviewed",
-      "target": "낚싯대: {0}\\n미끼: {1}\\n탐조등: {2}\\n보급품: 폭탄 {3} · 수리 키트 {4} · 신호기 {5}",
-      "target_sha256": "58a1d8649b2ad6f50abb335c001943cadc66110c043388bea4da2010ba5aebe3"
+      "target": "낚싯대: {0}\n미끼: {1}\n탐조등: {2}\n보급품: 폭탄 {3} · 수리 키트 {4} · 신호기 {5}",
+      "target_sha256": "bc9eb44cebf7de3cca701cd8855fc74f297df8201da84c4f6c2b01ccf3e10589"
     },
     {
       "dependencies": [],
@@ -28128,8 +28128,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "6a8451d91a3768e83d2f771c78fd16bf85a4a8ec73a4d993710e58b48d8a3863",
       "status": "reviewed",
-      "target": "{0} · [{1}] · {2} 크레딧{3}\\n{4}",
-      "target_sha256": "0f5bbd5e6498422604411e5e78b3ab163fe67199598fa8285f572ca1c78904d2"
+      "target": "{0} · [{1}] · {2} 크레딧{3}\n{4}",
+      "target_sha256": "951e6c7632f5389cbde3188475a3733f8df3f86b2ef14d5160f18e86d55b592c"
     },
     {
       "dependencies": [],
@@ -28227,8 +28227,8 @@
       "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
       "source_sha256": "5707f08cafec628c74a4cb55ba649aea7bc689ecb9fd605ab91e58ead822c75b",
       "status": "reviewed",
-      "target": "{0}실수 {1}/2  남은 시간: {2:0.0}초\\n{3}",
-      "target_sha256": "2b60638d440be3330ae1a817c61510f66b87e23196f7078e5e0fc372051073a4"
+      "target": "{0}실수 {1}/2  남은 시간: {2:0.0}초\n{3}",
+      "target_sha256": "d298678ab84bd9efc2b35e3858b9992e9f0402b1adec38a7b0aa0e5e31dcae36"
     },
     {
       "dependencies": [],
@@ -28678,8 +28678,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "609ec84185299d6252b400b6101ba7ab567996dfe0b259dfda66a0e65d3ae0c7",
       "status": "reviewed",
-      "target": "자동 릴 감기\\n{0}/{1}",
-      "target_sha256": "a47ef769c2bf9838d3495e83a667dfe992f8b0b0b449ec15dda6914bf1c38387"
+      "target": "자동 릴 감기\n{0}/{1}",
+      "target_sha256": "5d4fcfece916ec67128c1f764fb9ac04c53f892bde8b9ca317c9905c19af9564"
     },
     {
       "dependencies": [],
@@ -28700,8 +28700,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "6bacd7f317f2244e0eda92c79af87d41837e124de12d5273e6ef11df663e0dce",
       "status": "reviewed",
-      "target": "\\n자동 릴: {0}/{1} (힌트당 내구도 1 소모)",
-      "target_sha256": "c2dc71283bbbcfec1e8737abd2546eaf92be9047ec3f2bc696db7edb2e737a3a"
+      "target": "\n자동 릴: {0}/{1} (힌트당 내구도 1 소모)",
+      "target_sha256": "38e6bc26c76cac7bb7ece6eb652e9b11e9b1bf11bc6dd30474373dd47706d8b9"
     },
     {
       "dependencies": [],
@@ -28799,8 +28799,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a3cb54d46fa9d0f85d79c619d80d3eb98fe7bfa7e95902087b51dd76c6934d13",
       "status": "reviewed",
-      "target": "해양 연구소 / 교란도 연구\\n저소음 장비 {0}/2: 교란도 증가량 {1}% 감소",
-      "target_sha256": "81f3605e8681ed061a9bceee36394e313317c5b39c2373a81b30309dcbe2520e"
+      "target": "해양 연구소 / 교란도 연구\n저소음 장비 {0}/2: 교란도 증가량 {1}% 감소",
+      "target_sha256": "3b0a86cdc8f1433dae4a28d0dbebefcff88fe5b9459e5146f4097712124e3cf1"
     },
     {
       "dependencies": [],
@@ -28810,8 +28810,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "808aa5429f15b1d5a1111df5d764749019c52bb5d22f9e1f390896fc8989b119",
       "status": "reviewed",
-      "target": "해양 연구소 / 기초 연구\\n항해 지도 {0}/2: 탐지 반경 {1}타일",
-      "target_sha256": "de1fe81fcf320b81b90e301d0f5c4f441a743ef8309ed8e36737b2ce6a80c79f"
+      "target": "해양 연구소 / 기초 연구\n항해 지도 {0}/2: 탐지 반경 {1}타일",
+      "target_sha256": "ba0e5dad29f610ac7176077bf00a64fb6b89074d56e78e7db211586a64903072"
     },
     {
       "dependencies": [],
@@ -29294,8 +29294,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "de54b044794edfc2bf22ba587532612f2ae885db18830c6aa0fa02b74f1a8311",
       "status": "reviewed",
-      "target": "수정된 가물치 알 2개와 어린 지렁이 5마리를 받습니다. 새로 해금할 때는 지렁이 사육 상자 1개도 포함됩니다. 이미 해금했거나 선물 대기 중인 기존 기록에는 상자가 소급 지급되지 않습니다. 은퇴한 양식업자도 가물치 알을 판매합니다. 시스템 해금 후 단말기의 윌리 상점에서 양식 장비를 주문하세요. 소지품이 가득 차도 선물은 계속 수령할 수 있습니다.\\n성장은 발달일 기준이며 사료는 실제 성장 속도에 영향을 줍니다. 작은황조기와 정어리는 6단계를 유지하며 발달일 4일째 성체가 됩니다.",
-      "target_sha256": "63548a6ad5a5763137a65d84f44df3c0ab6e952eb6c05c9191ee2d360e979b37"
+      "target": "수정된 가물치 알 2개와 어린 지렁이 5마리를 받습니다. 새로 해금할 때는 지렁이 사육 상자 1개도 포함됩니다. 이미 해금했거나 선물 대기 중인 기존 기록에는 상자가 소급 지급되지 않습니다. 은퇴한 양식업자도 가물치 알을 판매합니다. 시스템 해금 후 단말기의 윌리 상점에서 양식 장비를 주문하세요. 소지품이 가득 차도 선물은 계속 수령할 수 있습니다.\n성장은 발달일 기준이며 사료는 실제 성장 속도에 영향을 줍니다. 작은황조기와 정어리는 6단계를 유지하며 발달일 4일째 성체가 됩니다.",
+      "target_sha256": "c923b83bf3b6aa9928727cf107e36ef81eb994ee75397a24c66b5ccc17dfc0e4"
     },
     {
       "dependencies": [],
@@ -30064,8 +30064,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "8e00510e48e3d1125c5453bcdc0f17dc74ffa33963b01cc3fa331caa4d3cc7ac",
       "status": "reviewed",
-      "target": "아직 물고기 기록이 없습니다.\\n의뢰에서 해당 어종을 제출하면 기록이 잠금 해제됩니다.",
-      "target_sha256": "73569643e05bba852c718239f64b9ee5f309a34d0c70e18b05c281db1bf3d620"
+      "target": "아직 물고기 기록이 없습니다.\n의뢰에서 해당 어종을 제출하면 기록이 잠금 해제됩니다.",
+      "target_sha256": "ad865367e506baa01e9d0501903d9f3ab28a6065ce1f5f986ea6845e5504f06a"
     },
     {
       "dependencies": [],
@@ -30317,8 +30317,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "1ba63a48544475fdcc1fa5a477ac067792f2945f7a82117860fa58b8d020ca64",
       "status": "reviewed",
-      "target": "기계 물고기는 생물 양식에 포함되지 않습니다.\\n성장, 물 요구량, 번식 수치가 없습니다.",
-      "target_sha256": "764bd3f047f786294967799c8e2c4d94ed3f8b9ad0556628d97494ca241f2fb7"
+      "target": "기계 물고기는 생물 양식에 포함되지 않습니다.\n성장, 물 요구량, 번식 수치가 없습니다.",
+      "target_sha256": "729ab29790874b822dd2e9d42d1b293c7c6b2d022cdc39a79cf591f95171537b"
     },
     {
       "dependencies": [],
@@ -30867,8 +30867,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a0a7e61cc2930c9fde44d7f2228b8626f05f9a2575e158d7614070ce1debd600",
       "status": "reviewed",
-      "target": "기록은 현재 어종 데이터를 사용합니다\\n신호 양호",
-      "target_sha256": "631a42eda569dd37e92acf2c5e642eb36fa8cd3d72c9570bd703ca0a3c6f699c"
+      "target": "기록은 현재 어종 데이터를 사용합니다\n신호 양호",
+      "target_sha256": "603e6b547c1f0cd24e86522ee83274e30d5a41d38d0d76b249c275144d2488c6"
     },
     {
       "dependencies": [],
@@ -30988,8 +30988,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "c8083e5ba95d9f473e05d832c97e5b25f5d17541eb355265bc2485cd03bd2345",
       "status": "reviewed",
-      "target": "24×4 양식 칸 · 필터 슬롯 4개\\n확장 및 절전 업그레이드",
-      "target_sha256": "49f57520863ebc5a0bb7eef29a6fdc6f350dc157fb80855c098a531be14289f0"
+      "target": "24×4 양식 칸 · 필터 슬롯 4개\n확장 및 절전 업그레이드",
+      "target_sha256": "17b95a4d26492ecabf03271eaaf76e9644f97645029fb304e121e7e512c62737"
     },
     {
       "dependencies": [],
@@ -31065,8 +31065,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "aa7acee03a5cfd36a9a7b291a6725745ad09850b8b29dc29636715e266803fea",
       "status": "reviewed",
-      "target": "먹이\\n육류 기반 사료를 충분히 공급하세요.\\n\\n수질\\n배설물과 여과 상태를 확인하고 제때 물을 갈아 주세요.\\n\\n번식\\n먹이와 환경 조건을 충족하면 같은 수조의 성체 암수가 밤사이 어란을 낳을 수 있습니다.",
-      "target_sha256": "05327a91ac61111099872c2f31eb458c78f3dcf1c3e02c6dbe9584bca2d96ff7"
+      "target": "먹이\n육류 기반 사료를 충분히 공급하세요.\n\n수질\n배설물과 여과 상태를 확인하고 제때 물을 갈아 주세요.\n\n번식\n먹이와 환경 조건을 충족하면 같은 수조의 성체 암수가 밤사이 어란을 낳을 수 있습니다.",
+      "target_sha256": "a6ffc48927b7f9981dd0cf2f72683899bac84ee62fb9474d41ab080da6aa4d4d"
     },
     {
       "dependencies": [],
@@ -31131,8 +31131,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a3005f7a283781293805b00c6e90444039a222678095096f7898895b35671f33",
       "status": "reviewed",
-      "target": "구매한 장비는 여기에 보관됩니다\\n신호 양호",
-      "target_sha256": "5ffbd4da90d5cdc6a435dcb81bcfc5b6fb529fec419b0257a8bbdefca11de802"
+      "target": "구매한 장비는 여기에 보관됩니다\n신호 양호",
+      "target_sha256": "3298a5c2fd39454d5bebc74c5530f45ef9f54a299010e324be8367ebc529a8ce"
     },
     {
       "dependencies": [],
@@ -31175,8 +31175,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "4c1a1eb8763209902a2dc8d02f54cc4dc80fc52f3b06d7e86982f7cd5d249c1c",
       "status": "reviewed",
-      "target": "용량: 60리터 · 빈 상태로 제공\\n양식 시스템의 물탱크 슬롯에 장착",
-      "target_sha256": "b034c73327daa098f3f4a18655ca15f623423323950fbb6be5f19b2e6a66699d"
+      "target": "용량: 60리터 · 빈 상태로 제공\n양식 시스템의 물탱크 슬롯에 장착",
+      "target_sha256": "cde8a08e748ba31b02a798ad8628d54ad4a9fa5d83febd2cf0f480d1f99efe16"
     },
     {
       "dependencies": [],
@@ -32748,8 +32748,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "387d2947e57accb8e2a809585b18b06d67a7e3108062b34ce761c86336cca01f",
       "status": "reviewed",
-      "target": "{0}: 포획 {1}마리, 최대 크기 {2}g, 특성: {3}\\n첫 포획: {4}일 / {5}, 손질: {6}",
-      "target_sha256": "90b2e42849654185c81b01b7e89a3d6e440a9eff0fa5877a640bfab7eadcdbeb"
+      "target": "{0}: 포획 {1}마리, 최대 크기 {2}g, 특성: {3}\n첫 포획: {4}일 / {5}, 손질: {6}",
+      "target_sha256": "40d598d8a8c89db79ad8d509eba9eddae0f5097721a7e940081e57e4ce7b38db"
     },
     {
       "dependencies": [],
@@ -33012,8 +33012,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "ede0fc974a7e2cff01dc164db7e3aee15e47cdff501eb911daf656193a950d03",
       "status": "reviewed",
-      "target": "윌리, 낚시용품점 주인\\n전화: 2424",
-      "target_sha256": "526c52760f31a5c60d11c89915a10e6ba8a84cf3d2e47b7428df7681ff849fbb"
+      "target": "윌리, 낚시용품점 주인\n전화: 2424",
+      "target_sha256": "3aa998eadac219a7d94936c1ef785d1030a1e46f35db4c6f8186a8c1d410d4ed"
     },
     {
       "dependencies": [],
@@ -33078,8 +33078,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "3bef7bed9a868039bdeae728a9658f3dbe5e9116a29f6695e20d53e8daf821d1",
       "status": "reviewed",
-      "target": "\\n\\n최장 연속 포획: {0}",
-      "target_sha256": "1a91549ddf915390edcd9f3be5f6eef0db4247817b418b1a27be156d608d528f"
+      "target": "\n\n최장 연속 포획: {0}",
+      "target_sha256": "10bc838160066bfee27b9587f522623af3b4e1818391e13a53d070e2c8a3170d"
     },
     {
       "dependencies": [],
@@ -33815,8 +33815,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "fbc781c1b0bbe60d35a60f46be4f161624b674c824befee99e7b9b39b8878a14",
       "status": "reviewed",
-      "target": "\\n\\n-- 위/아래: 분류 | 왼쪽/오른쪽: 페이지 --",
-      "target_sha256": "be1dd67692c04ac9489012a547fad5212627c106293e189e26764fbc7b4225a7"
+      "target": "\n\n-- 위/아래: 분류 | 왼쪽/오른쪽: 페이지 --",
+      "target_sha256": "37f1e96e38019e5bace1b5caa5829bea4078b6414f0ad8a7030351cbf329ebdd"
     },
     {
       "dependencies": [],
@@ -34002,8 +34002,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "37e5244c7f9b9e454e056d8c56f1df366297eb0e7643fdb387b5f01838d5d5ca",
       "status": "reviewed",
-      "target": "가공소 레시피를 찾지 못했습니다.\\nGo Fishing! 아이템 팩이 제대로 불러와졌는지 확인하세요.",
-      "target_sha256": "cdc73f87effa013026311a3d7ef7a0e0e19fa3416ff04b5850f12e8bc8f85f94"
+      "target": "가공소 레시피를 찾지 못했습니다.\nGo Fishing! 아이템 팩이 제대로 불러와졌는지 확인하세요.",
+      "target_sha256": "f23bef5dbc8d88295e0f8c6b80d179608435be38ad81d5ec111e8062c439be3b"
     },
     {
       "dependencies": [],
@@ -34662,8 +34662,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "ad742ed793c050d93b9c4bcc177d6194d41e12667b275a3296dd3242894c86f1",
       "status": "reviewed",
-      "target": "무게: {0}\\n{1}",
-      "target_sha256": "fa840bf15a482137c47288d1dd2d995d1777d8eb97b773462d548ed479073806"
+      "target": "무게: {0}\n{1}",
+      "target_sha256": "a2848d27bc29c8440bf20c8463f2d15fcd4b3a8cc082df2f5cb031c84543b662"
     },
     {
       "dependencies": [],
@@ -34739,8 +34739,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "9315e2787efb45d11c2b1dd921e52a1bffe2802d63c01295914fbc3aa967da0f",
       "status": "reviewed",
-      "target": "가공소 레시피 {0}개를 자동으로 찾았습니다.\\n\\n",
-      "target_sha256": "e691e76a5b21a03e5c393147a7dcdc54899ee01a771c761682325160969b1db1"
+      "target": "가공소 레시피 {0}개를 자동으로 찾았습니다.\n\n",
+      "target_sha256": "3c1595c3c5864c9d1e6fe2729f0f4c2603a45357b8099c8f0cdec598c2acb242"
     },
     {
       "dependencies": [],
@@ -40008,8 +40008,8 @@
       "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
       "source_sha256": "a31f1e06845ff935bf551df166045d0f38f5d755f9ed1f1b80cebaaf8a513fd3",
       "status": "reviewed",
-      "target": "염장 생선을 만들기에 좋다.\\n",
-      "target_sha256": "5a3934be0d0299729cf4c73b6700c189c601e364ebc682cb1495cd6138c60250"
+      "target": "염장 생선을 만들기에 좋다.\n",
+      "target_sha256": "0c3fce9c5c5f960635910bcbcaf6d02c8d0458e4ebe85d9fff8785152f1f0edc"
     },
     {
       "dependencies": [],
@@ -40943,8 +40943,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "462c786204a3cc7539c8e2edd4137ac5a6c366abe3e8bdc16d4c7a8c74189ff3",
       "status": "reviewed",
-      "target": "흔한 작은 물고기다. 살은 많지 않지만 빈손보다는 낫다.\\n",
-      "target_sha256": "c0051911f017e0164e6ae4089cb94b8e6fc6cd9f6ee8c2d688423acbf8117592"
+      "target": "흔한 작은 물고기다. 살은 많지 않지만 빈손보다는 낫다.\n",
+      "target_sha256": "f919ecf6dc0342a336943e3b45c755467e74a229e527689292d78f45c5dc523d"
     },
     {
       "dependencies": [],
@@ -41174,8 +41174,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "0673f5caaf471185b650ff63aec6985b5b2d5bb7630e1ff4c6ba870ac42e94e6",
       "status": "reviewed",
-      "target": "꿈결 같은 맛이 강렬한 기억을 남깁니다... 말로는\\n표현할 수 없는 느낌입니다.",
-      "target_sha256": "9c22c8ead66d98a1852ea56a9ab3253de5d868333c170879cf7ed72a0c64a64f"
+      "target": "꿈결 같은 맛이 강렬한 기억을 남깁니다... 말로는\n표현할 수 없는 느낌입니다.",
+      "target_sha256": "86d382427c808e9dc0c47ab9bf12475f39f9b1ba635c60606dc58e37c3955028"
     },
     {
       "dependencies": [],
@@ -41504,8 +41504,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "eff13cf53fa92df965b5d2e3ac1dc7d173138e3c8d390f3dffa87f5b75eb6351",
       "status": "reviewed",
-      "target": "매운 생선을 만들기에 좋습니다.\\n",
-      "target_sha256": "ea5771d38806838933a88bd978e879d953a2713a5a344e84127fa46b7c24588b"
+      "target": "매운 생선을 만들기에 좋습니다.\n",
+      "target_sha256": "2cfa893583d52a0fb7fbb92dcde66a3d5053c6c8ce258ea47fc5bdd902409923"
     },
     {
       "dependencies": [],
@@ -41537,8 +41537,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "eff13cf53fa92df965b5d2e3ac1dc7d173138e3c8d390f3dffa87f5b75eb6351",
       "status": "reviewed",
-      "target": "매운 생선을 만들기에 좋습니다.\\n",
-      "target_sha256": "ea5771d38806838933a88bd978e879d953a2713a5a344e84127fa46b7c24588b"
+      "target": "매운 생선을 만들기에 좋습니다.\n",
+      "target_sha256": "2cfa893583d52a0fb7fbb92dcde66a3d5053c6c8ce258ea47fc5bdd902409923"
     },
     {
       "dependencies": [],
@@ -42208,8 +42208,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "ad742ed793c050d93b9c4bcc177d6194d41e12667b275a3296dd3242894c86f1",
       "status": "reviewed",
-      "target": "중량: {0}\\n{1}",
-      "target_sha256": "cfd7166e580a0fc7dccd0f73bf5676c4b483e7ab5be25c7b4908f396d35a6bd8"
+      "target": "중량: {0}\n{1}",
+      "target_sha256": "b1c619e6b73336d94cb35f3d41fb560283b8a47ed72ffb3937c433020c889b84"
     },
     {
       "dependencies": [],
@@ -42263,8 +42263,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "09ef89acbce8b436a87f596d716e305036a54eb76eae88ce9701651f01c8d6fc",
       "status": "reviewed",
-      "target": "생명의 열쇠\\n공간: 1칸\\n화물칸에서 바로 사용해 수관의 비밀 방에 들어갈 수 있습니다. 집으로 가져오면 보관되며 자동으로 휴대합니다. 자원 묶음마다 열쇠 하나가 소모되며, 보관된 열쇠부터 사용합니다. 판매하거나 상점 인벤토리로 옮길 수 없습니다.\\n보라색 등급 아이템입니다. 해당 열쇠를 얻거나 소지하면 이번 자원 주기에 이미 생성된 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며, 입구의 암초는 그대로 남습니다.",
-      "target_sha256": "3bff1713efb6414a970312076f469c93951ad41691199b0538ebc535638a8b2a"
+      "target": "생명의 열쇠\n공간: 1칸\n화물칸에서 바로 사용해 수관의 비밀 방에 들어갈 수 있습니다. 집으로 가져오면 보관되며 자동으로 휴대합니다. 자원 묶음마다 열쇠 하나가 소모되며, 보관된 열쇠부터 사용합니다. 판매하거나 상점 인벤토리로 옮길 수 없습니다.\n보라색 등급 아이템입니다. 해당 열쇠를 얻거나 소지하면 이번 자원 주기에 이미 생성된 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며, 입구의 암초는 그대로 남습니다.",
+      "target_sha256": "dffa3169419f58d430de446566d0805a131c293299681008a3dc65eeade151bb"
     },
     {
       "dependencies": [],
@@ -42296,8 +42296,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a227baf9919b5d8d19ddaa0b4163bcd487a106025344759d2cd76d62c349505c",
       "status": "reviewed",
-      "target": "생명의 열쇠\\n보유: {0}",
-      "target_sha256": "5500a39ff8068a1f119af84cf270b1aa61239053550a082b834026f005c7f11a"
+      "target": "생명의 열쇠\n보유: {0}",
+      "target_sha256": "8ccea28833c6c16532dfc33aaf68a0d912d112d406c615f50a6fe18c69d56825"
     },
     {
       "dependencies": [],
@@ -42406,8 +42406,8 @@
       "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
       "source_sha256": "b3d5b4e87c41759f537e1e9e71c94674ea027647b712d5301b680dfcc064678f",
       "status": "reviewed",
-      "target": "{0}\\n{1}\\n시간 {2}  숲의 숨결 {3}/100",
-      "target_sha256": "ad29b2e3262ea10b2caf5408b8d7dcb1902d344cce4b4fec943515b29e0e3778"
+      "target": "{0}\n{1}\n시간 {2}  숲의 숨결 {3}/100",
+      "target_sha256": "7ede7b99f78cf5b74a99c372d958ca5dc679d580910584309735887667afb92f"
     },
     {
       "dependencies": [],
@@ -42472,8 +42472,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "1d8deb45c17d301c9dadc749eb038a7459caa86f4aef3bfd2529ef1cb63e4c60",
       "status": "reviewed",
-      "target": "고대의 뿌리가 물길을 막고 있습니다. 억지로 통과하면 숲이 동요하지만, 꿈의 표식이 있으면 더 쉽게 지나갈 수 있습니다.\\n작업을 완료하면 지름길이 열리고 뿌리 동굴의 보급품이 드러나며 남쪽 샘이 개방됩니다.",
-      "target_sha256": "118a2ad0da02409f7111eeabb72275505b5a34ba911e5ec018f8207f314eb750"
+      "target": "고대의 뿌리가 물길을 막고 있습니다. 억지로 통과하면 숲이 동요하지만, 꿈의 표식이 있으면 더 쉽게 지나갈 수 있습니다.\n작업을 완료하면 지름길이 열리고 뿌리 동굴의 보급품이 드러나며 남쪽 샘이 개방됩니다.",
+      "target_sha256": "ccd459b0c87b83ee9a95401cc4ad46c0fe3e5d878409ed9ad653b99edd1f3cf5"
     },
     {
       "dependencies": [],
@@ -42527,8 +42527,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "7f6e006d101a7c65479ce7b5c6e3ad783e1d2d5b0a9032b6dae7c43a06585cc1",
       "status": "reviewed",
-      "target": "원시 열대우림으로 뒤덮인 강 계곡 행성입니다.\\n중앙 항구는 식물로 뒤덮인 두 지역을 잇습니다. 바깥 수로로 우회할 수 있으며, 숲을 가로지르면 특별한 사건을 만날 수도 있습니다.\\n시간대에 따라 다른 물고기가 나타나는 듯합니다.\\n좌표를 구매하면 행성 선택 화면에서 링관으로 이동할 수 있습니다.",
-      "target_sha256": "707d1bb9d487ec72ffca84022a8bdf9f63c760ef616f7e6d00d900267a549e0c"
+      "target": "원시 열대우림으로 뒤덮인 강 계곡 행성입니다.\n중앙 항구는 식물로 뒤덮인 두 지역을 잇습니다. 바깥 수로로 우회할 수 있으며, 숲을 가로지르면 특별한 사건을 만날 수도 있습니다.\n시간대에 따라 다른 물고기가 나타나는 듯합니다.\n좌표를 구매하면 행성 선택 화면에서 링관으로 이동할 수 있습니다.",
+      "target_sha256": "f15ce29092442a77df4241aae97f137af919e151f43a81a05377b683a749f08a"
     },
     {
       "dependencies": [],
@@ -42637,8 +42637,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "1cbd7465adfd9d29c48fa038a79d760013509039faed6f36a5ad7e45dab9f17d",
       "status": "reviewed",
-      "target": "{0}. 숲의 숨결 {1}, 현재 {2} 상태입니다.\\n어종: {3}.\\n이 어장은 숲의 숨결에 따라 어종이 바뀝니다. 전환해도 낚시 압력이나 특별 어획 횟수는 초기화되지 않습니다.",
-      "target_sha256": "40dcaf2e7da97e90088c65d8a41e770884010e128b24100fc33ce75c73363c42"
+      "target": "{0}. 숲의 숨결 {1}, 현재 {2} 상태입니다.\n어종: {3}.\n이 어장은 숲의 숨결에 따라 어종이 바뀝니다. 전환해도 낚시 압력이나 특별 어획 횟수는 초기화되지 않습니다.",
+      "target_sha256": "b97bf56df151ca771e826b9306e39f1279e13c1c439a120a7f9cd71c5ee4fd08"
     },
     {
       "dependencies": [],
@@ -42659,8 +42659,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "5530ef6b53d5e4fc413f13063630c50d9aa5bdb7ddc9acbff08b221d40f8391c",
       "status": "reviewed",
-      "target": "\\n표준 가치가 100을 넘는 링관 물고기는 물고기와의 사투를 시작합니다.",
-      "target_sha256": "b6676eb7a7054214f20a07ad9a7f75ef94252ced8e714f927f7c2b5ef2d6d926"
+      "target": "\n표준 가치가 100을 넘는 링관 물고기는 물고기와의 사투를 시작합니다.",
+      "target_sha256": "ab0dbdaaef19d81569d27e545a1fc5c623b2b8e0bbaef28b275e5131185237db"
     },
     {
       "dependencies": [],
@@ -42725,8 +42725,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "f62cc681b85b8ecd35066a0b856c55dc11c548788f6411ca61bf6569e46bead4",
       "status": "reviewed",
-      "target": "\\n이번 주기의 성공 어획 횟수: {0}. 일반 상태에서는 이 횟수를 소모하지 않습니다.",
-      "target_sha256": "9745e16549dfb19ef21ddf4b7d1d42b29842f557331df2f93eb87475b348b51c"
+      "target": "\n이번 주기의 성공 어획 횟수: {0}. 일반 상태에서는 이 횟수를 소모하지 않습니다.",
+      "target_sha256": "4e4f1cb0828f5547ca5cf1bbd80d446c6cb11d80960dc15efbe61738edf9397e"
     },
     {
       "dependencies": [],
@@ -42736,8 +42736,8 @@
       "review_fingerprint": "4182fe01d6d48966f9ee7e6a6bd50ad12704e1137dc545926d329998e60718a9",
       "source_sha256": "a59b37454d8ff0e5d0f618cb842165d26a5c1083dac5b013c83ae9fb5d5e50f5",
       "status": "reviewed",
-      "target": "\\n남은 성공 어획 횟수: {0}. 일반 상태에서는 물고기왕 어획 기회를 소모하지 않습니다.",
-      "target_sha256": "5d87292a8bd4b0e44db88c715a350c69ba1515f50aa5d43a3be041f7c6390879"
+      "target": "\n남은 성공 어획 횟수: {0}. 일반 상태에서는 물고기왕 어획 기회를 소모하지 않습니다.",
+      "target_sha256": "13bf4acc48f4e747b756c9b8c4c7e3ac716fc59d97d7d0c072afb0d2185ca01c"
     },
     {
       "dependencies": [],
@@ -42769,8 +42769,8 @@
       "review_fingerprint": "634b17d1543203eb6405f488f17e1a82a3573fdc9a5a6f7568a723ef090b2aed",
       "source_sha256": "007761b035ca8fedeb6f608989395928e5e201ebdda036fd6504774f14259d93",
       "status": "reviewed",
-      "target": "{0}\\n{1}",
-      "target_sha256": "007761b035ca8fedeb6f608989395928e5e201ebdda036fd6504774f14259d93"
+      "target": "{0}\n{1}",
+      "target_sha256": "21eb21206182978aaddaadb499938dd50bb1fa2c6ee20cd7a89bac4766ca8b25"
     },
     {
       "dependencies": [],
@@ -42780,8 +42780,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "73081e7e0b4d91d6e8d0d46222c501aae88187c308354e1cdfeb061c2095554f",
       "status": "reviewed",
-      "target": "\\n이곳에서의 낚시는 숲을 더욱 교란함",
-      "target_sha256": "982cc0c55b40e477d35a2016e350edf528043046d50f564584cfb9976b537653"
+      "target": "\n이곳에서의 낚시는 숲을 더욱 교란함",
+      "target_sha256": "22b271199584219ed93c5ec37b95999ee40f7b0b8b1e0f0e0932286738030c26"
     },
     {
       "dependencies": [],
@@ -43066,8 +43066,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "93dea99b69abd499cee10632e1b9eda1b8aad76953173348f593319f04894fe2",
       "status": "reviewed",
-      "target": "고대 뿌리 수문을 뚫어 샘을 조율하면 샘의 정수를 얻고 숲을 달랠 기회를 획득합니다.\\n남은 사용 횟수: {0}.",
-      "target_sha256": "78a4ac6e5d4076ab6f1483bfed25ac131c14d589c33c01f1cd4d2b98479bae9b"
+      "target": "고대 뿌리 수문을 뚫어 샘을 조율하면 샘의 정수를 얻고 숲을 달랠 기회를 획득합니다.\n남은 사용 횟수: {0}.",
+      "target_sha256": "bcc4fe29c3b25ce7b8314467ba10dd932da4d8173642aed2b2c961c5ab3dba96"
     },
     {
       "dependencies": [],
@@ -43231,8 +43231,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "501f7d7c2971ff9ef6ecbe74c1a4f0ac8285e2678e1096df4df5eabc33cd5952",
       "status": "reviewed",
-      "target": "{0}\\n무게: {1}\\n가치: {2}",
-      "target_sha256": "93a55c12a8488e56b3cc4981db5f65c2bb1dc5b2329cb5cf3171f6956337fe4f"
+      "target": "{0}\n무게: {1}\n가치: {2}",
+      "target_sha256": "0010aae2d48786580ed28f0601e91ffcaa8d7aa13aed681efbe9c78b4a0f1eb0"
     },
     {
       "dependencies": [],
@@ -43473,8 +43473,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "22e27ca60ac9566fd19a844f3c34cfa2c6b52fb85a2845ce8e23e72432796d24",
       "status": "reviewed",
-      "target": "핏빛 어군의 물고기는 더 무겁습니다. {0}\\n{1}",
-      "target_sha256": "e99382ff49dea1952f0ad6cc6b8b363e9899c6aacd67748a2230edec93853681"
+      "target": "핏빛 어군의 물고기는 더 무겁습니다. {0}\n{1}",
+      "target_sha256": "976f6d0fa6b01e3e0fbacc576038417d8172b34a647175a646bf4c6debedfa88"
     },
     {
       "dependencies": [],
@@ -43484,8 +43484,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a3bc9ec6b80dd28260c1783e9388335fce8a407b8111a6d494e49448a74d6076",
       "status": "reviewed",
-      "target": "희귀한 물고기가 이 심해 둥지에 모입니다. {0}\\n{1}",
-      "target_sha256": "3aefe73ed4f472991e7309c01a01707f368ef89a7e77b3bdf460a0cf571180a1"
+      "target": "희귀한 물고기가 이 심해 둥지에 모입니다. {0}\n{1}",
+      "target_sha256": "d4c68475c08f80b922c9c6a74757c372eac7d32d667f27ceba424eb9778469b0"
     },
     {
       "dependencies": [],
@@ -43495,8 +43495,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "18e82d36c79fa3b46e48b6b0d1349a1d1e3c23994ba4a6c4bbd7d271faafbe97",
       "status": "reviewed",
-      "target": "밀집 어군입니다. 잡을 때마다 아이템을 하나 더 얻을 수 있습니다. {0}\\n{1}",
-      "target_sha256": "31744cdcb66d6cf49100157ff0723bb0c00470c6641111122882bca2d72cdb26"
+      "target": "밀집 어군입니다. 잡을 때마다 아이템을 하나 더 얻을 수 있습니다. {0}\n{1}",
+      "target_sha256": "334ac3182b421d0ab35a1d57724010175b6e6e88518b2ef5a16b2eafc03df732"
     },
     {
       "dependencies": [],
@@ -43506,8 +43506,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "d7be1100e52e7aed6b96c726d43bd98c0532d8ff7a2e885ba85f0ac3d4741603",
       "status": "reviewed",
-      "target": "거대한 물고기 그림자가 배 아래를 맴돕니다.\\n{0}",
-      "target_sha256": "058e06da97846759c1e5fc9bac3d5869182e2886a30639149d90eda7bc7b4e77"
+      "target": "거대한 물고기 그림자가 배 아래를 맴돕니다.\n{0}",
+      "target_sha256": "2bd556bdb63f33e9727e0c305f7e6de285691f90560861eda59f45d79bfa2646"
     },
     {
       "dependencies": [],
@@ -43638,8 +43638,8 @@
       "review_fingerprint": "3ddc54c8677f39b50c19b62e75a7298a0744045f23780fba582d5051e36f45df",
       "source_sha256": "4cf7dcb65d487921b71d6e494595926c0b3dcafb888a2596e7aa67d94da5ff5f",
       "status": "reviewed",
-      "target": "기계 열쇠\\n공간: 1칸\\n화물칸에서 바로 사용해 주조성 정비실에 들어갈 수 있습니다. 집으로 가져오면 보관되며 자동으로 휴대합니다. 자원 묶음마다 열쇠 하나가 소모되며, 보관된 열쇠부터 사용합니다. 판매할 수 없습니다.\\n보라색 등급 아이템입니다. 해당 열쇠를 얻거나 소지하면 이번 자원 주기에 이미 생성된 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며, 입구의 암초는 그대로 남습니다.",
-      "target_sha256": "b56bd34c527524ffaadc888457e1342214d33789b2f93ed56883484b97e77074"
+      "target": "기계 열쇠\n공간: 1칸\n화물칸에서 바로 사용해 주조성 정비실에 들어갈 수 있습니다. 집으로 가져오면 보관되며 자동으로 휴대합니다. 자원 묶음마다 열쇠 하나가 소모되며, 보관된 열쇠부터 사용합니다. 판매할 수 없습니다.\n보라색 등급 아이템입니다. 해당 열쇠를 얻거나 소지하면 이번 자원 주기에 이미 생성된 열쇠 방이 표시됩니다. 표시는 주기가 끝날 때까지 유지되며, 입구의 암초는 그대로 남습니다.",
+      "target_sha256": "23f052207590152687edad734d45562db19d97379df086a6c72f3ccdc3b45c11"
     },
     {
       "dependencies": [],
@@ -43671,8 +43671,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "19db32638ea047346d05eb8892884824f5e11c3af2f6ff2b0d0c7cca35b75abf",
       "status": "reviewed",
-      "target": "기계 열쇠\\n수량: {0}",
-      "target_sha256": "f736ad374624b21fe269f655bfaa3b4dbee9516c8eda9876999ae63e53c41790"
+      "target": "기계 열쇠\n수량: {0}",
+      "target_sha256": "379956fa726d594349038478e4a15ca8349d888c60a69d60bafe644b51719b02"
     },
     {
       "dependencies": [],
@@ -43847,8 +43847,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "7ead0c7f323600b4213942e129c5f1f0c0787257c1bc27db98beed5e004f3440",
       "status": "reviewed",
-      "target": "에너지 보급품\\n재고: {0}(자동 휴대)",
-      "target_sha256": "518ac7a41d8a872176501421c5a2707327f9b64f49e0fb601170685b6355e407"
+      "target": "에너지 보급품\n재고: {0}(자동 휴대)",
+      "target_sha256": "56f24ce4695c967ef088784d7e0a07aa0c3596feb8f4be7f730d550b9a52f4bb"
     },
     {
       "dependencies": [],
@@ -43869,8 +43869,8 @@
       "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
       "source_sha256": "020efffbc3cdedafc30f5cfab2fb3fd32edab6656820d42062c10d4440de34ff",
       "status": "reviewed",
-      "target": "{0}\\n{1}\\n시간 {2}  전력 {3}/{4}",
-      "target_sha256": "146e498586126678c670cc975ea922278ca01981c3586cdfb75fbf70482542fb"
+      "target": "{0}\n{1}\n시간 {2}  전력 {3}/{4}",
+      "target_sha256": "16d0c98ebf82e9031d0d6abf5f329b162cadd734c0a36cbc2505a93e2c1e1a48"
     },
     {
       "dependencies": [],
@@ -44177,8 +44177,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "015e9646120c75d6e09f20e6edd09e953ff66f2c14052428e86244dbaf8c751a",
       "status": "reviewed",
-      "target": "{0}층\\n남은 보급품: {1}\\n{2}\\n최초 발견 시 사고 확률: 35%; 선체 내구도 {3} 손실",
-      "target_sha256": "a38a8d1d4fd503ef167ee706f400fb89ba550d496c0de1e05e8303a9fc9a2c59"
+      "target": "{0}층\n남은 보급품: {1}\n{2}\n최초 발견 시 사고 확률: 35%; 선체 내구도 {3} 손실",
+      "target_sha256": "5742f3e8c1a244d6f1017d50612379d38ca7410da28bfe9f5048c523410c3e0a"
     },
     {
       "dependencies": [],
@@ -44386,8 +44386,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "c9195ba509136d7f8057513fadfa79f7ca38f23eee414cd3d5c9af8c5302d2b9",
       "status": "reviewed",
-      "target": "현재: {0}\\n다음: {1}",
-      "target_sha256": "92bbc06a25ef272a3fb8643077317030f19b9c105ea0f852f5e93dfd72ff646f"
+      "target": "현재: {0}\n다음: {1}",
+      "target_sha256": "068e8bf3d8ef56e833d9fb41d63066544ab2d5b2ffeb7c3f4bd58f8d4c706e69"
     },
     {
       "dependencies": [],
@@ -45101,8 +45101,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "71b8a7d8890449be8a64d808cdc0499f21ecfeaab24d7610d02bbbed5be8f9d4",
       "status": "reviewed",
-      "target": "표식은 4초 동안 바깥쪽으로 갔다가 돌아옵니다. 녹색 구간마다 한 번씩 확인하세요.\\n잘못된 타이밍에 누르거나 확인하지 않은 구간이 있으면 균열이 하나 남습니다.",
-      "target_sha256": "99f76f73755330ca89b48cca49f4f70fe4fe597f7d1494232817e42b7c59d20d"
+      "target": "표식은 4초 동안 바깥쪽으로 갔다가 돌아옵니다. 녹색 구간마다 한 번씩 확인하세요.\n잘못된 타이밍에 누르거나 확인하지 않은 구간이 있으면 균열이 하나 남습니다.",
+      "target_sha256": "83f35f6a06cbaaad9c0707c612bfeffbdf18f0d8d85fe55b13b6a85e4813a704"
     },
     {
       "dependencies": [],
@@ -45145,8 +45145,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "97dedfa3f580237cf22e189280f77f50132eddb30be3f893cc1dd0de3cb2157f",
       "status": "reviewed",
-      "target": "녹색 코어 ×1.20, 파란색 코어 ×1.10.\\n녹색이나 파란색 보석을 원한다면 중염을 선택하세요.",
-      "target_sha256": "597d834af28c950b52b296b21debf911aa7152703595927e407b2660ed13b882"
+      "target": "녹색 코어 ×1.20, 파란색 코어 ×1.10.\n녹색이나 파란색 보석을 원한다면 중염을 선택하세요.",
+      "target_sha256": "8c92c41d297414650c88598592c40e3d545a2c091444e516841ed3bdb5c6816f"
     },
     {
       "dependencies": [],
@@ -45167,8 +45167,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "012ea5b811f5b0f5e079edd295582505c109d899bc7fc84e9283dc72fd985d7b",
       "status": "reviewed",
-      "target": "진홍색 코어 ×1.25.\\n진홍색 코어 획득에 승부를 걸려면 맹독을 선택하세요.",
-      "target_sha256": "bb961be0f24b5afbb30542157c30de62fad5948590bb3ec30ae91bbcba9cdd1c"
+      "target": "진홍색 코어 ×1.25.\n진홍색 코어 획득에 승부를 걸려면 맹독을 선택하세요.",
+      "target_sha256": "eef636871d9d19c26383bded7f2ba5c4554e0350de49ee7c560e36cb20004c7b"
     },
     {
       "dependencies": [],
@@ -45189,8 +45189,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "113f089002de0c6d272cd173f1df95988e2795d7e1d6388302cafb53171a9175",
       "status": "reviewed",
-      "target": "보라색 코어 ×1.25, 파란색 코어 ×1.10.\\n무지갯빛 나우틸라이트는 비싸지만 값진 사치품이 나올 확률이 더 높습니다.",
-      "target_sha256": "4c5f130a8199b6228b3604e2600cd69bb211788ae9b6a36289820473acc67258"
+      "target": "보라색 코어 ×1.25, 파란색 코어 ×1.10.\n무지갯빛 나우틸라이트는 비싸지만 값진 사치품이 나올 확률이 더 높습니다.",
+      "target_sha256": "2bef360b5033344056af00395354a3820d2ca31c7c738f49c40c725ada6b6999"
     },
     {
       "dependencies": [],
@@ -45222,8 +45222,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "14279783d9380e698c7d6c1a0f059b9ea9b52085265babff9e127d7f8d431f62",
       "status": "reviewed",
-      "target": "상인은 종류와 등급에 따라 공급가를 정합니다.\\n\\n오로라에는 무지갯빛 나우틸라이트가, 캐노피에는 맹독 나우틸라이트가 풍부합니다.",
-      "target_sha256": "a795a2a5d00870ca901d49b5a94af8631f609271e3012d04caa1a60c265005f4"
+      "target": "상인은 종류와 등급에 따라 공급가를 정합니다.\n\n오로라에는 무지갯빛 나우틸라이트가, 캐노피에는 맹독 나우틸라이트가 풍부합니다.",
+      "target_sha256": "ab4a5f82ece5bc7a127ee532fa33361324e76dc49f0314fd26e6c4c93cc89354"
     },
     {
       "dependencies": [],
@@ -45255,8 +45255,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e71c8f88946b5d49bfa5c5d707c0e934933a5c06cda0f9bbb7a71b65579bffe7",
       "status": "reviewed",
-      "target": "돋보기를 사용해 가공 화면을 여세요.\\n껍질 열기를 하면 종류와 등급이 드러납니다.",
-      "target_sha256": "4e83fb08d562c2a65a876bec31fd1d7a6059a8f09f253c3dd16bd5d8429b51cd"
+      "target": "돋보기를 사용해 가공 화면을 여세요.\n껍질 열기를 하면 종류와 등급이 드러납니다.",
+      "target_sha256": "3dcc5472c47fede8fc7ffb306fdb223df97c0d0fca704870db11204f6327fe78"
     },
     {
       "dependencies": [],
@@ -45277,8 +45277,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "3ab89baa809f74aa69327894e3d851c6738f58194a25f3b48e0f68cd2635db49",
       "status": "reviewed",
-      "target": "연마기를 끌어 흰색 끝을 절단면에 대세요. 2초 동안 닿으면 절단 결과가 나옵니다.\\n같은 색의 코어도 흔한 광물일 수도, 보석일 수도 있습니다. 모양과 광택을 살펴보세요.",
-      "target_sha256": "c9a18b3342b7b76150520b6edfd6829d06ec20939cc8972baefc52fcd223934c"
+      "target": "연마기를 끌어 흰색 끝을 절단면에 대세요. 2초 동안 닿으면 절단 결과가 나옵니다.\n같은 색의 코어도 흔한 광물일 수도, 보석일 수도 있습니다. 모양과 광택을 살펴보세요.",
+      "target_sha256": "7f082fda44922670af39eb9887f029b0dc0a86b2d6f092c120a29274808c9844"
     },
     {
       "dependencies": [],
@@ -45519,8 +45519,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "ae6e6ba09615ad72b7f0a24866481ffa7f102192aa12912de687678ad3f60c88",
       "status": "reviewed",
-      "target": "전달 구역\\n물약을 여기에 놓으세요",
-      "target_sha256": "81bb47a3efbc6ecd70a6f574854d238aa33b2ff046cb42ebc63ba88f1f85539e"
+      "target": "전달 구역\n물약을 여기에 놓으세요",
+      "target_sha256": "1a4420cd6938a1fdffaaa38df1d0f260677d7146bd8f5e6deab95ef04a673630"
     },
     {
       "dependencies": [],
@@ -45816,8 +45816,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "ae6e6ba09615ad72b7f0a24866481ffa7f102192aa12912de687678ad3f60c88",
       "status": "reviewed",
-      "target": "전달 구역\\n물약을 여기에 놓으세요",
-      "target_sha256": "81bb47a3efbc6ecd70a6f574854d238aa33b2ff046cb42ebc63ba88f1f85539e"
+      "target": "전달 구역\n물약을 여기에 놓으세요",
+      "target_sha256": "1a4420cd6938a1fdffaaa38df1d0f260677d7146bd8f5e6deab95ef04a673630"
     },
     {
       "dependencies": [],
@@ -46707,8 +46707,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "c70ba3b5ddc87a7560a70ef8d9ba586e3539a89149e1cfe9222f869bac1f8cd6",
       "status": "reviewed",
-      "target": "부두에서 저를 받아 줬어요. 보수는 적지만 매일 해 질 녘이면 집에 갈 수 있어요.\\n\\n어제 아들이 이제는 왜 매일 함께 저녁을 먹을 수 있느냐고 물었어요.\\n\\n그제야 아이가 제가 밤에 집에 오지 않는 데 익숙해졌다는 걸 깨달았어요. 어쩌면 상황이 그리 나쁘지만은 않은 것 같아요.",
-      "target_sha256": "2428b4fea700c54d9320c735dcecda0d89ed2898660c0815b9cfb7fb00bf941c"
+      "target": "부두에서 저를 받아 줬어요. 보수는 적지만 매일 해 질 녘이면 집에 갈 수 있어요.\n\n어제 아들이 이제는 왜 매일 함께 저녁을 먹을 수 있느냐고 물었어요.\n\n그제야 아이가 제가 밤에 집에 오지 않는 데 익숙해졌다는 걸 깨달았어요. 어쩌면 상황이 그리 나쁘지만은 않은 것 같아요.",
+      "target_sha256": "25e0a0f8e1d7c2345d1c905d01dea60247f02d39767bbcf003d6afc10810a545"
     },
     {
       "dependencies": [],
@@ -46960,8 +46960,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e5e4c616ca5a02427ddb0385f0f13526014e008581f9350c50c9ab35d13c03c3",
       "status": "reviewed",
-      "target": "{0}\\n무게 또는 수량이 올바르지 않습니다.\\n가공할 수 없습니다.",
-      "target_sha256": "427f6f0bdcefe8a3b9cd9ed97374994453d2948011dc19b8cc57cf50733c7f4b"
+      "target": "{0}\n무게 또는 수량이 올바르지 않습니다.\n가공할 수 없습니다.",
+      "target_sha256": "d1a4b4244ccd41accc962e8281c305fd6894262b8167d80d5328cec01db703e0"
     },
     {
       "dependencies": [],
@@ -46982,8 +46982,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "fac4f879569501e7f24a79996ac4241eddafd0d9643f4c3c97d99e578674fa97",
       "status": "reviewed",
-      "target": "{0}\\n잠겨 있어 가공을 위해\\n꺼낼 수 없습니다.",
-      "target_sha256": "46401ff54c9eb26d9513fe83027f2f08b2a5892393e39a24ab21e7dddb8a8789"
+      "target": "{0}\n잠겨 있어 가공을 위해\n꺼낼 수 없습니다.",
+      "target_sha256": "e3963ef0092b878631499dbea030b234d83d428781275d852407f13e7b8285b6"
     },
     {
       "dependencies": [],
@@ -46993,8 +46993,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "2739cb68d9e84a604c3c796ed67987220950fbc12bb2aa1607fb3c8258d1517a",
       "status": "reviewed",
-      "target": "{0}\\n생선의 원산지가 없거나\\n올바르지 않아 분쇄할 수 없습니다.",
-      "target_sha256": "1ae45bcfa2a161e3b94201c4d05fc0848e495b4f78cbe00e41425cb1ced0437f"
+      "target": "{0}\n생선의 원산지가 없거나\n올바르지 않아 분쇄할 수 없습니다.",
+      "target_sha256": "a5f44c98d260d75c0cd1f793c09e28d5245ec856455b4f6fe4eb3e24adfacccb"
     },
     {
       "dependencies": [],
@@ -47015,8 +47015,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e9541c8af441d0060ab50b1f71b17bd499b6263183faa39757b34c9f936da149",
       "status": "reviewed",
-      "target": "{0}\\n플레이어 소유가 아닙니다.\\n가공할 수 없습니다.",
-      "target_sha256": "f616fe2c7e3025959a1e188eb47692424880522467444303806b3706bf065aff"
+      "target": "{0}\n플레이어 소유가 아닙니다.\n가공할 수 없습니다.",
+      "target_sha256": "12d0b6c6432a496cd279e372904c0a8b189735d298dae058634addc9900c58f2"
     },
     {
       "dependencies": [],
@@ -47103,8 +47103,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "1b66f2ba565881c5c8ab8a68ae1a0d185558f05f35f46ac27837adae722fb386",
       "status": "reviewed",
-      "target": "{0}\\n원산지: {1}\\n분말 제조법 없음",
-      "target_sha256": "0760c3d475bb02e7f6ed7d0287224625c9be0581ff91c8e8a9fbfd14eef96ea9"
+      "target": "{0}\n원산지: {1}\n분말 제조법 없음",
+      "target_sha256": "9aa51e3740195be7163f69244016d81ecd4a54b3ee6563919bb05be0224572d5"
     },
     {
       "dependencies": [],
@@ -47114,8 +47114,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "b5d4291fc600f033a2efbef3325851e4e2c85fd1a1b1b0d7c774799bc0572bad",
       "status": "reviewed",
-      "target": "수령 대기 중인 제품: {0}\\n출력 보관함의 공간을 확보하세요.",
-      "target_sha256": "7240dc1dbe79bc3d15e84faabb5e4f66a4d3fb10b9a7f5510cd8b91000bc72a6"
+      "target": "수령 대기 중인 제품: {0}\n출력 보관함의 공간을 확보하세요.",
+      "target_sha256": "dfdde305e2de3e2da6f6c904b111bd4c968d78485c8ccbcc5b661d9aea548c8f"
     },
     {
       "dependencies": [],
@@ -47125,8 +47125,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "39854445b8b57dca2139c29f7872092f71ce91b2864070cfc9cb3fd1449f0c25",
       "status": "reviewed",
-      "target": "{0}\\n생선 부산물 투입",
-      "target_sha256": "a3c0fc007ac5ad7063ee5e29796a6bf5d937dafbad97dc5cce0ba83cf912933a"
+      "target": "{0}\n생선 부산물 투입",
+      "target_sha256": "31e9e6f80ffae2e440c2b3c1c8cd6c9641f0b922a6a2422cd8710ea670ae63a3"
     },
     {
       "dependencies": [],
@@ -47180,8 +47180,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "8d0cf461ed861152fdf5856e2883b4c450bdb936af4a1b586e9e984f814e54c5",
       "status": "reviewed",
-      "target": "{2} 포획\\n무게 {0:0.###} kg, 가치 {1} 크레딧\\n크기 {3}×{4}. 어창이 가득 차면 임시 보관을 시도합니다.",
-      "target_sha256": "10c5ab6983ae173dfb073263c0a523e1c4d4983e7a6a0f9f1ec16c8226c37742"
+      "target": "{2} 포획\n무게 {0:0.###} kg, 가치 {1} 크레딧\n크기 {3}×{4}. 어창이 가득 차면 임시 보관을 시도합니다.",
+      "target_sha256": "a4480a804935096bd3c4a876898b8042c9e74ded78c2e3767c8307a407e716a9"
     },
     {
       "dependencies": [],
@@ -47224,8 +47224,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "df68d9306275a0ba78dccb23fdb62f21c89be6a8a5bf703f2cbf0351782912a6",
       "status": "reviewed",
-      "target": "{2}이(가) 접근 중입니다!\\n작살 내구도 {0}/3\\n포획하려면 {1}회 성공해야 합니다. 시도할 때마다 작살 내구도 1이 소모됩니다.",
-      "target_sha256": "5bbf5d596f4a4ee78ccbf715f33fd045923ee6197272dc3d7e4505cdc3413cac"
+      "target": "{2}이(가) 접근 중입니다!\n작살 내구도 {0}/3\n포획하려면 {1}회 성공해야 합니다. 시도할 때마다 작살 내구도 1이 소모됩니다.",
+      "target_sha256": "99429195e009814e8af705168b189aa1d34fc6cc50cd87efec00293edbe084b1"
     },
     {
       "dependencies": [],
@@ -47279,8 +47279,8 @@
       "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
       "source_sha256": "ec52fab5dbc2749a4309eb647bd20bff08b20dc99000615ae831bfc0141aa91e",
       "status": "reviewed",
-      "target": "{0}  {1}\\n15분마다 한 칸 이동하며 작살로 포획할 수 있습니다\\n공격 시 선체 피해 3을 주고 1시간 동안 쉽니다\\n항구에서는 공격받지 않습니다.",
-      "target_sha256": "99243c32d6bd4d725430ebb20f2b409410296be8a5ceec422d086f06da0c0bd8"
+      "target": "{0}  {1}\n15분마다 한 칸 이동하며 작살로 포획할 수 있습니다\n공격 시 선체 피해 3을 주고 1시간 동안 쉽니다\n항구에서는 공격받지 않습니다.",
+      "target_sha256": "7de2042b87a7116b7e27219b01293578c496bcc354429a4bb4f5f01fc3508706"
     },
     {
       "dependencies": [],
@@ -47400,8 +47400,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "f345db25dd969016d8ffa69226f6db85aeb3cb8ba5a19e85cda952cde6c2991f",
       "status": "reviewed",
-      "target": "{0}\\n생선 가공: {1}{2}\\n상태: {3}",
-      "target_sha256": "8d01997d2c0a5dc33f20547ac67fdff381b0f7966a3cd3f2779040f6cb3fa129"
+      "target": "{0}\n생선 가공: {1}{2}\n상태: {3}",
+      "target_sha256": "cd64acfb62c4e74f6da9279725665352e2fcacd3aa2e507d3c7c16ba96e6e087"
     },
     {
       "dependencies": [],
@@ -47422,8 +47422,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "0062b2e723d1093a8606502c3fa4307b27f632932889e3dcc41de4161ffae8f2",
       "status": "reviewed",
-      "target": "\\n생선 재료 무게: {0} / {1} g",
-      "target_sha256": "cd6b26864949daa4f779d507f05c0c1930ca45d484f9bd520972d4493cef6bed"
+      "target": "\n생선 재료 무게: {0} / {1} g",
+      "target_sha256": "7161be6dd1ce2467c144eee155f0a523da2afd2d84b23e6d45cc09a4dd1535cf"
     },
     {
       "dependencies": [],
@@ -47620,8 +47620,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "84b0c8c1085358a0b9d287fcd05091e9c3bebc2995c0697fe741037d896a0d96",
       "status": "reviewed",
-      "target": "{0}\\n제조법: {1}\\n상태: {2}",
-      "target_sha256": "cfc73a7314d38eb283890c6016d061159b4372a813404c147fddb2f8a9cacc25"
+      "target": "{0}\n제조법: {1}\n상태: {2}",
+      "target_sha256": "b869667f8683e9a65c7dd6b67c3062f52b6035b1460bd8e2ab9c528fcb7d0e9f"
     },
     {
       "dependencies": [],
@@ -47653,8 +47653,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "89eca6d082e66bc69260ca2bba698880b79a0136f0f3cf2746f3cee3e82d9dcf",
       "status": "reviewed",
-      "target": "{0}\\n자동 가공: 진행 중 {1}, 변환 대기 {2}, 제조법 없음 {3}",
-      "target_sha256": "598bbbc7bc889b0f2814a0dccc0db62dce75330fa65bf11b9ddc686a144b57c9"
+      "target": "{0}\n자동 가공: 진행 중 {1}, 변환 대기 {2}, 제조법 없음 {3}",
+      "target_sha256": "c06a897dc35a96454c0e8d5f6962663526842b531a7362aa4825e95441448fc4"
     },
     {
       "dependencies": [],
@@ -48467,8 +48467,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "8f378f960434ebede27547c5f6b8ef9e8d17ffa6a470a9c1191072ed42e296b2",
       "status": "reviewed",
-      "target": "권장 추가량:\\n{0}",
-      "target_sha256": "bf8037d1a8de81443ead1f5329feecd01dabda7b5b38bbaeca300e0839521376"
+      "target": "권장 추가량:\n{0}",
+      "target_sha256": "6debf2b0eaf61d86b799a7cb94bb274b502a997967fe7cdd81fc18d498f2dfb4"
     },
     {
       "dependencies": [],
@@ -48478,8 +48478,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "559d92984f6d157bb61ba20db91c1f33ef0d51ac93b837df52f6f8c79b7e0c1d",
       "status": "reviewed",
-      "target": "사용 가능한 보조제:\\n{0}",
-      "target_sha256": "f5daffa7ece1aef908994a3d74b7d62b89035a604ac52f3008c5f36f4fdf0d8e"
+      "target": "사용 가능한 보조제:\n{0}",
+      "target_sha256": "51375d31e83527f71476f8506e3ef4c64ed09923695108259dcf480ccda92e17"
     },
     {
       "dependencies": [],
@@ -48577,8 +48577,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "9b6a95660d1fad6dfdc034b4e77e1620077a3fd2f1a80f0bd02b6552c59e1dee",
       "status": "reviewed",
-      "target": "권장 보조제만 추가\\n{0}",
-      "target_sha256": "b394b3b2aa22f063496ce56d1b21a4d5470f6b9c34d2a8a6bbd16b91026c2ecf"
+      "target": "권장 보조제만 추가\n{0}",
+      "target_sha256": "392035e506b2b1242dfe382335b3223cb02078bf72a3ee3ec2f5da1995a38042"
     },
     {
       "dependencies": [],
@@ -48621,8 +48621,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "6479898d0ca36e13e4160e6d9ef76cd9d03cd16096e75a9f0427006fe609dfca",
       "status": "reviewed",
-      "target": "재고 보충 후 참고용 계획(현재 실행 불가):\\n{0}",
-      "target_sha256": "8d90c214eba668033ef6f5e411021d26bfa206c11eeb6a10823a972bf8f058fe"
+      "target": "재고 보충 후 참고용 계획(현재 실행 불가):\n{0}",
+      "target_sha256": "3befd235acd80e1e28dff297c0f6a797022653ed52abaac5fbe523e703caf9e1"
     },
     {
       "dependencies": [],
@@ -48632,8 +48632,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a2fbfedd53c1a88139f8d5830fe69bdbff33e95c5319b9a523681b3321bc5521",
       "status": "reviewed",
-      "target": "추가 배합에 필요한 재료가 부족합니다:\\n{0}\\n보충한 뒤 다시 계산하세요. 자동으로 추가되는 재료는 없습니다.",
-      "target_sha256": "bed584ca2c6b3ac3d8e8327dde7332bc959a0ec35f147f779b1db87003365536"
+      "target": "추가 배합에 필요한 재료가 부족합니다:\n{0}\n보충한 뒤 다시 계산하세요. 자동으로 추가되는 재료는 없습니다.",
+      "target_sha256": "1a98a1e98232ce09b4414a6f2538c90cb065e440cc3e9f239912df25e6642d66"
     },
     {
       "dependencies": [],
@@ -48676,8 +48676,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "3fa2c9da9cd746585126ee55ef6ea90935bb5af2eaf58f093c462c7c5ab663fc",
       "status": "reviewed",
-      "target": "계획의 장단점:\\n{0}",
-      "target_sha256": "7ca0680a8a1bfeb1b8c32226d3a4f53f68d7ffec3310eb8caac35d6936a9d5a9"
+      "target": "계획의 장단점:\n{0}",
+      "target_sha256": "7edeb01f111e0e213948d3d25c9e0375fff1479751aa0198f3a218f6c48b4cba"
     },
     {
       "dependencies": [],
@@ -48907,8 +48907,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a28a0c90cc0b3d700a5fd8c86d85da2921a694bda2d9a84a12256e77ca24aea4",
       "status": "reviewed",
-      "target": "약액 {0} ml · 주사기 {1}개로 분할\\n{2}",
-      "target_sha256": "1917fe76ab9641ea78b662fdb6fd1352bf714040a8999f0d08e0cfb05deff4f9"
+      "target": "약액 {0} ml · 주사기 {1}개로 분할\n{2}",
+      "target_sha256": "5090e3e76e1ac58fffdf1626679185501952cb09f5eaaec4d1fc7fe458751ee3"
     },
     {
       "dependencies": [],
@@ -49138,8 +49138,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "7287d01ae7c6126d24f83225d44228a2a9877645659161f55d20be0bed2b2a13",
       "status": "reviewed",
-      "target": "보조 재료 추출 확인 · 고체 소모, 액체 용기 유지 · 활성화된 보조 재료만 추출하여 원소별 합침 · 추출한 고체 복구 불가\\n{0}",
-      "target_sha256": "0161f0f8c8ccc999e1dbea8de62f802bbaccf1fd797026852128e5458469c61f"
+      "target": "보조 재료 추출 확인 · 고체 소모, 액체 용기 유지 · 활성화된 보조 재료만 추출하여 원소별 합침 · 추출한 고체 복구 불가\n{0}",
+      "target_sha256": "7d7c3343c98af9717b66e50a5909f08821da561cd7caaf9e0925e80e37bd5058"
     },
     {
       "dependencies": [],
@@ -49534,8 +49534,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "76db01be82eee7649e38f440be7228bd90a45932d9c8c943c34fe7ccb27c970d",
       "status": "reviewed",
-      "target": "대상 조합:\\n설탕 + 단백질: 피로\\n설탕 + 미네랄: 갈증\\n드림 추출물 + 미네랄: 초조\\n드림 추출물 + 단백질: 불면증\\n카페인 + 설탕: 졸음\\n단백질 + 미네랄: 메스꺼움",
-      "target_sha256": "5ad99460b64ceb6761cac7eb4780e068ca505dfa8069229f7d43b18276228cba"
+      "target": "대상 조합:\n설탕 + 단백질: 피로\n설탕 + 미네랄: 갈증\n드림 추출물 + 미네랄: 초조\n드림 추출물 + 단백질: 불면증\n카페인 + 설탕: 졸음\n단백질 + 미네랄: 메스꺼움",
+      "target_sha256": "4429bff16463519f02a5b77a5be8c41e8625200e9af13ac5654c93e3fd56f4f6"
     },
     {
       "dependencies": [],
@@ -49545,8 +49545,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "91d1d675a04f8bbf4d85500f407c38720cf1bc7940819987efa283818d2360f8",
       "status": "reviewed",
-      "target": "회복 분말: 회복, 피로 동반.\\n강화 분말: 강화, 갈증과 피로 동반.\\n흥분 분말: 흥분, 초조와 불면증 동반.\\n진정 분말: 진정, 졸음 동반.\\n정화 분말: 해독, 메스꺼움 동반. 오염 물질을 제거하지는 않습니다.",
-      "target_sha256": "fa7803f4323ee8628c943146243dcf8f4b25510caecaedf01332bc24e875b931"
+      "target": "회복 분말: 회복, 피로 동반.\n강화 분말: 강화, 갈증과 피로 동반.\n흥분 분말: 흥분, 초조와 불면증 동반.\n진정 분말: 진정, 졸음 동반.\n정화 분말: 해독, 메스꺼움 동반. 오염 물질을 제거하지는 않습니다.",
+      "target_sha256": "4702b0dc583d3ea4846d4e8b393ed18a26b7b898e4d73763b7552dff33dc52f6"
     },
     {
       "dependencies": [],
@@ -49567,8 +49567,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "4edf7f3209116551cdd20a3278a9204002da741178a93ddca5cc2a79c52a6d32",
       "status": "reviewed",
-      "target": "해당 생선 부산물:\\n회복 분말: 참조기, 정어리, 부세, 은상어, 로푸린.\\n강화 분말: 뿔황새치, 황금어, 무스펠의 아들, 우즈치, 백상아리, 황제홍게.\\n흥분 분말: 화산어, 붉은꼬리어, 우주로켓어, 빛물고기, 페라이트 해파리.\\n진정 분말: 블루 크리스털 피시, 금붕어, 란의 악몽, 니오룬, 유리물고기.\\n정화 분말: 무지개물고기, 별복, 정화어.\\n현재 황제홍게를 손질해도 부산물이 나오지 않습니다. 해당 분말 제조 경로는 그 출처가 표시된 부산물에만 적용됩니다.",
-      "target_sha256": "7c6d6803d933a11a3869c6af1acedd5d2026855e19cb3c2b6b1c0d49cf6fb12e"
+      "target": "해당 생선 부산물:\n회복 분말: 참조기, 정어리, 부세, 은상어, 로푸린.\n강화 분말: 뿔황새치, 황금어, 무스펠의 아들, 우즈치, 백상아리, 황제홍게.\n흥분 분말: 화산어, 붉은꼬리어, 우주로켓어, 빛물고기, 페라이트 해파리.\n진정 분말: 블루 크리스털 피시, 금붕어, 란의 악몽, 니오룬, 유리물고기.\n정화 분말: 무지개물고기, 별복, 정화어.\n현재 황제홍게를 손질해도 부산물이 나오지 않습니다. 해당 분말 제조 경로는 그 출처가 표시된 부산물에만 적용됩니다.",
+      "target_sha256": "beb14cceafa52b20bfc92e41a1dfd49c04ddfa700ca1eb8674b634dd0be8e4f8"
     },
     {
       "dependencies": [],
@@ -50832,8 +50832,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "d3779e037075e91a89f89cd18063b2f79931448556207a212603a49bcf792f77",
       "status": "reviewed",
-      "target": "이번 첨가량: 분말 A {0}g, 분말 B {1}g, 용매 {2}ml\\n첨가제: {3}. 필요한 재료를 소모합니다.",
-      "target_sha256": "1e785affa1eca8c5efce08632b89f4476034c790850cb4cb4f11dc0dcc9253a9"
+      "target": "이번 첨가량: 분말 A {0}g, 분말 B {1}g, 용매 {2}ml\n첨가제: {3}. 필요한 재료를 소모합니다.",
+      "target_sha256": "6f5feea1ec855196a85e90af4d37c1a303ca5e8367082f49b31f8f60bdd70177"
     },
     {
       "dependencies": [],
@@ -51107,8 +51107,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "69c2fae42b0f44ea9d35392f83937605431f35a7c26769566c79c1e9412bc841",
       "status": "reviewed",
-      "target": "납품 구역: {0}/{1}\\n물약을 넣으세요. 전체 물량을 한꺼번에 확인합니다.",
-      "target_sha256": "8860c0a5c4816381c3fd9c3211f9c712fd021b42b1c061a0d5023f53f518e4f7"
+      "target": "납품 구역: {0}/{1}\n물약을 넣으세요. 전체 물량을 한꺼번에 확인합니다.",
+      "target_sha256": "4ab8e26962e5ec62d8538d62f302ca4c77481dc84c72a5392b1bfb72edc00448"
     },
     {
       "dependencies": [],
@@ -51283,8 +51283,8 @@
       "review_fingerprint": "634b17d1543203eb6405f488f17e1a82a3573fdc9a5a6f7568a723ef090b2aed",
       "source_sha256": "b682a0e0e51ab3154f30daf2a9e4385bf3ec7b2e5002844f215e2aeb1e79d5ee",
       "status": "reviewed",
-      "target": "{0}ml | {1}\\n{2}",
-      "target_sha256": "b682a0e0e51ab3154f30daf2a9e4385bf3ec7b2e5002844f215e2aeb1e79d5ee"
+      "target": "{0}ml | {1}\n{2}",
+      "target_sha256": "64137452bdffbe269715b19e2cef945073678263dd715c2180063250281269ef"
     },
     {
       "dependencies": [],
@@ -51602,8 +51602,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "bee2a6e6c4347e4af69496530154b596dc9738072d5f6db30201d146cffe4b8a",
       "status": "reviewed",
-      "target": "보조 재고 {0} mL\\n추가량 {1} mL\\n용매 {2} mL",
-      "target_sha256": "149647088512102dfa85ae7d050d1a405e95e2b3f8405c2edd2bf60269f27465"
+      "target": "보조 재고 {0} mL\n추가량 {1} mL\n용매 {2} mL",
+      "target_sha256": "c1f9a389675177a3077278792e0282375bd6508a87b2205c2a1d3bc2acb0fe0a"
     },
     {
       "dependencies": [],
@@ -51679,8 +51679,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "4a14ee6fac812b33e6a5a1b8682e8f7351f610b0c037f1d06cb8c36961eccd6c",
       "status": "reviewed",
-      "target": "혼합물 10mL당\\n효과: {0}\\n안정성: {1}\\n유해 특성: {2}",
-      "target_sha256": "8f2c1e743f898a3de077056f44018c8aff5002607ab1fd2bd469a84ce714d3fd"
+      "target": "혼합물 10mL당\n효과: {0}\n안정성: {1}\n유해 특성: {2}",
+      "target_sha256": "428a69de1e73e8eef042e9b20096b0ed4a153b070e9828e9ff7b4dc533d5bbed"
     },
     {
       "dependencies": [],
@@ -52977,8 +52977,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "01dfa76476add3335a202373324c03b23ec8ad695beef95ffe68c159cb6fa952",
       "status": "reviewed",
-      "target": "용기 용액 {0} mL 추가 여부\\n{1}",
-      "target_sha256": "364d9752c6390a1c41ea2aeabbe579f3dadc35bc5dae9d988b1cece55263ab47"
+      "target": "용기 용액 {0} mL 추가 여부\n{1}",
+      "target_sha256": "69d2bb01d30d4ebd0458e6f8658c2410fa9cdff6e415302ba1f584973e3e385f"
     },
     {
       "dependencies": [],
@@ -52988,8 +52988,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "a66c2b76c287e59ab1da4c1941d5894d3e5a9ebdfb548e2045ae2c65857d9bbd",
       "status": "reviewed",
-      "target": "이 혼합물은 다음 고체 재료를 소모합니다. 액체는 필요한 첨가제만 공급합니다:\\n{0}\\n혼합 후 남는 첨가제 총 재고:\\n{1}\\n옮긴 고체 재료는 회수할 수 없습니다.",
-      "target_sha256": "72f9f8de5f9b6b45ae5b561688c2abef75900d812db6bdf3749c5fe7a16cd4e0"
+      "target": "이 혼합물은 다음 고체 재료를 소모합니다. 액체는 필요한 첨가제만 공급합니다:\n{0}\n혼합 후 남는 첨가제 총 재고:\n{1}\n옮긴 고체 재료는 회수할 수 없습니다.",
+      "target_sha256": "c39aa61711104dd10c98442703c7218246b263a5ce0bc7cb2379d4ee292c174e"
     },
     {
       "dependencies": [],
@@ -53978,8 +53978,8 @@
       "review_fingerprint": "584961b2772ec3189f30f94922aa79eaccfbc8bb9e3e09edc80ac5df73605104",
       "source_sha256": "53b454cab22e37f39c83e44418be8c39f16858c802cfd01ebc027f3ed8792421",
       "status": "reviewed",
-      "target": "\\n반송 아이템 {0}개가 수령 대기 상태로 저장되었습니다. 보관 공간을 확보한 뒤 출항 메뉴에서 받으세요. 이후 항해에서도 사라지지 않습니다.",
-      "target_sha256": "b7e202a87698d959f1c16a77f6982c7f81089655060302191cc8ed9d8cd5ccbc"
+      "target": "\n반송 아이템 {0}개가 수령 대기 상태로 저장되었습니다. 보관 공간을 확보한 뒤 출항 메뉴에서 받으세요. 이후 항해에서도 사라지지 않습니다.",
+      "target_sha256": "16fd41543bd6b62628d8d9a60861167ad63d3872cd5deeffedf3b92362ccd233"
     },
     {
       "dependencies": [],
@@ -54462,8 +54462,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "300d80f9cda6891a7e15df04aee218263e47b5cb625a01f3317103ad236ca0db",
       "status": "reviewed",
-      "target": "고급 휴대폰 부품을 구할 수 있는 행성입니다. 정보를 구매하면 좌표를 받을 수 있습니다.\\n전자기장이 항법 시스템을 교란하므로 행동에 전기 에너지가 필요합니다.\\n무사히 귀환할 수 있도록 잔여 전력과 시간을 확인하세요.",
-      "target_sha256": "0090993200fc23b2e062b77ac08719a06369e496512b3e5c891bda09f975dee8"
+      "target": "고급 휴대폰 부품을 구할 수 있는 행성입니다. 정보를 구매하면 좌표를 받을 수 있습니다.\n전자기장이 항법 시스템을 교란하므로 행동에 전기 에너지가 필요합니다.\n무사히 귀환할 수 있도록 잔여 전력과 시간을 확인하세요.",
+      "target_sha256": "49e2035703be6ac323ccebbe2d96a0a288261c1c5e5a7f6cb641ad8c82342b1e"
     },
     {
       "dependencies": [],
@@ -127499,7 +127499,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r18",
+  "release_id": "local-r19",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
