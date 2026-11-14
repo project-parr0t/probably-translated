@@ -108505,8 +108505,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "f6ee4ba57ecc0dc9522e9021bf3cafc09c1dcfcb438108885ace152c66926a95",
       "status": "reviewed",
-      "target": "아직도 갖고 계세요? 평의회에서 기록 보관소의 출입 기록을 조사하기 시작했다더군요.",
-      "target_sha256": "a53df16a2eb56119bc5d9d1fc322597d83b104ceba23b6438e55b050050641ec"
+      "target": "아직도 갖고 있어요? 평의회에서 기록 보관소의 출입 기록을 조사하기 시작했다더군요.",
+      "target_sha256": "591f5a5f04c6ce8eb5c397eaf4c9a80508469e2dfc4fd1a63a6fc5aa84241ec5"
     },
     {
       "dependencies": [],
@@ -108527,8 +108527,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "e1ab19ec62bd41741c2ae19ba8d87277ef72841fa047af1ef3ba7fa7a6386f07",
       "status": "reviewed",
-      "target": "마지막으로 묻겠습니다. 넘기실 건가요?",
-      "target_sha256": "4f8931a5d161ce295ad803a9c0d6a40ccdf6003de6a43c1ed6ad04784b85b085"
+      "target": "마지막으로 물을게요. 넘길 거예요?",
+      "target_sha256": "b804b014e134357aca8a8ad8a756fe38f7359fc56b91319eed68e06aa8faee64"
     },
     {
       "dependencies": [],
@@ -108604,8 +108604,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "7e96e5675f3538ebff973a5a6150fdc301614713282aaf43fe86af16ceb5dc62",
       "status": "reviewed",
-      "target": "그래서요? 넘기실 건가요?",
-      "target_sha256": "f89fc066219affd2b47b756f5434fd81c1a2c95bc9a792dcc11ee45f5b75e5f2"
+      "target": "그래서요? 넘길 거예요?",
+      "target_sha256": "bcde9ca14bb589f89d51e0e8ffeac233b9c45cc909a6750db86769c0fb581722"
     },
     {
       "dependencies": [],
@@ -108648,8 +108648,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "d4500bac185a7fbff878a956bac151c91868e73b7ba60940904bc733c84ebd3f",
       "status": "reviewed",
-      "target": "현명하시네요. 돈은 내일 들어올 거고, 그 호의는 기억해 둘게요.",
-      "target_sha256": "b4f1da0eaf9fa8da693f33dbafa7faafaa5ae9c36c2ded4c3c74f8a2728903fe"
+      "target": "현명하네요. 돈은 내일 들어올 거고, 그 호의는 기억해 둘게요.",
+      "target_sha256": "f52af81b7e4a71b42d41212579906dda4888dee9c518b1c8661ac588e8479e94"
     },
     {
       "dependencies": [],
@@ -115259,8 +115259,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "e05b9151d2b0e3306e115e17d8fe467db6d7c39639a65a62575c1e06f705d5bd",
       "status": "reviewed",
-      "target": "장사는 잘되시나요?",
-      "target_sha256": "db07d819cb18cfe192d1cab5b8465a2515f678c3ee487b0852c75c7751081569"
+      "target": "장사는 잘돼요?",
+      "target_sha256": "2221f12c714e213b9b39441b71651d23c5025a578df066b79161ed9d601cd3b4"
     },
     {
       "dependencies": [],
@@ -115270,8 +115270,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "52806e81eb7f2261349766fe2a94c8e8a11f9948da619383be149b50cdbc97dc",
       "status": "reviewed",
-      "target": "아직 모르실 만한 게 하나 있습니다.",
-      "target_sha256": "ef818e61a97212d4a3e0340a88b4582df2c817bb411b306dafbe0cf9f70a91c5"
+      "target": "아직 모를 만한 게 하나 있어요.",
+      "target_sha256": "237fcf4873d237d8dcd963f53f2a5a5ab76966f3b2ed448989eed60897bc331a"
     },
     {
       "dependencies": [],
@@ -115281,8 +115281,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "a74ca66e10cfed84dec66bfe0253efdfe740b0c704ea89d48ccb6c7ef354de64",
       "status": "reviewed",
-      "target": "정거장의 공개 시장 의뢰 시스템을 이용하게 해드릴 수 있어요.",
-      "target_sha256": "8b0127eb4fdb2ad32ed2ebe1957e4895fda4df39b662c1dd6485ba96935d87de"
+      "target": "정거장의 공개 시장 의뢰 시스템을 이용하게 해 줄 수 있어요.",
+      "target_sha256": "80a30125aa60fcb6fd89726f47ab9e3a9c1f995542323b114ef1710f62ddc10d"
     },
     {
       "dependencies": [],
@@ -115292,8 +115292,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "5376c15eaa5c5b2e00683d21aa197a84ca3b551a05f6be487d76f22f51ae622d",
       "status": "reviewed",
-      "target": "정거장 주민들의 의뢰를 직접 받을 수 있습니다. 상층 구역 의뢰는 아래층보다 보수가 훨씬 좋죠.",
-      "target_sha256": "311627b833dc9fdbb66ce0b8e1f0701257617e4e71f11cdb045418f75ac2de48"
+      "target": "정거장 주민들의 의뢰를 직접 받을 수 있어요. 상층 구역 의뢰는 아래층보다 보수가 훨씬 좋죠.",
+      "target_sha256": "aeefa5068e3b2e14fd4e67c72beacbe2c3516f90a7c2debe0d35e56145720fdf"
     },
     {
       "dependencies": [],
@@ -115303,8 +115303,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "59ae27a415d8bafca706878152f8c89d8c0f16c5113490ca80b2fbc1c0597b46",
       "status": "reviewed",
-      "target": "추천합니다.",
-      "target_sha256": "3569d28df1cf85b1a64194a202921a74e298d9fae56baf45c219b0202587fb55"
+      "target": "추천해요.",
+      "target_sha256": "60f75605d935b50ee936468782278ee04a6a17f26eae3457df81df277c0fdcb3"
     },
     {
       "dependencies": [],
@@ -115314,8 +115314,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "e10eb241612dd0fbeb71d734170b2482552dbab756a6249c717424d960be0b6d",
       "status": "reviewed",
-      "target": "살펴보시겠어요?",
-      "target_sha256": "c55af6ff7ece26ec11979e00030afae0d9c7c8ca452492caa89f6916ec904a4d"
+      "target": "살펴볼래요?",
+      "target_sha256": "e873acc300c0c494ac5f99a1fc79096d49e873ecd7140a0a0767301be4b9cb43"
     },
     {
       "dependencies": [],
@@ -115325,8 +115325,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "2feca5eb3922d33f4c1f224dc858efec63b873b5af38cdb13fbe04d12af4ff93",
       "status": "reviewed",
-      "target": "언제든 연락하셔도 됩니다.",
-      "target_sha256": "5df279a8e27dc0b5029ef620b3675a9dbd298131cf5a2b69be401d48a8c79f62"
+      "target": "언제든 연락해도 돼요.",
+      "target_sha256": "9005e57b28933763f56de2a367962c2f302496b03c859c26ff1b15e71d766e29"
     },
     {
       "dependencies": [],
@@ -115336,8 +115336,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "40c56f68e82d8636fb6643944a4cbe7235f4fb18000d6b18d35d46eaedf10f36",
       "status": "reviewed",
-      "target": "장부 사정이 좋지 않다고 들었습니다.",
-      "target_sha256": "f0310b445f7956b10032d7cab13f45a9751ca89edaf7aa1b53bcd3b40051b04b"
+      "target": "장부 사정이 좋지 않다고 들었어요.",
+      "target_sha256": "3c9d98e2c8055aecd979588de8bb173ecfb93c9c864275bfca65458ad04eaf26"
     },
     {
       "dependencies": [],
@@ -115347,8 +115347,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "5e04e10886c21a869a5091aac4f96e0f368f5a3e637826918ba0ff93d17ba344",
       "status": "reviewed",
-      "target": "오해하지 마세요. 비웃으러 온 게 아닙니다. 이곳에서 가게 하나가 문을 닫을 때마다 거리 전체의 부동산 가격이 내려가니까요.",
-      "target_sha256": "e801608aae40943f6833dc3529edaaaa174f86d6cfde52521ebd9b88549882cc"
+      "target": "오해하지 마세요. 비웃으러 온 게 아니에요. 이곳에서 가게 하나가 문을 닫을 때마다 거리 전체의 부동산 가격이 내려가니까요.",
+      "target_sha256": "308333c62660fb50aa805debc7331d3796b36595e1e4b7ebdb9b2248c85974f9"
     },
     {
       "dependencies": [],
@@ -115358,8 +115358,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "8501e1412c8ee2cb01448166e983e4fe11a6f4a0b79f056b00a21674b82596d1",
       "status": "reviewed",
-      "target": "이건 제가 부담하죠. 돈은 받지 않겠습니다. 하지만 기억해 두겠어요.",
-      "target_sha256": "c5819b42a7bd5f592d1f7736d2d9a152a10245e22ad51e011cb65f404755451c"
+      "target": "이건 내가 부담할게요. 돈은 받을 생각 없어요. 하지만 기억해 둘게요.",
+      "target_sha256": "0523aee1d43d3d02779784d817f35fb276e6dacd0970ffc2890c8fa05d6cc36f"
     },
     {
       "dependencies": [],
@@ -115380,8 +115380,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "eaef0b029fef5ef9609d8a0396d5d0a1f974c90f5ba05d6ab30e983a864af8ae",
       "status": "reviewed",
-      "target": "축하합니다. 소식 들었어요.",
-      "target_sha256": "2ef042ce2bc985c6de0eaf31ba02a5d89c571bd3f577e9a7d7b3d6b0b7e24e01"
+      "target": "축하해요. 소식 들었어요.",
+      "target_sha256": "920d9476cf540c77f6a53f6a0715f22b97152bd49e8d3d0c089fa2d178af6e06"
     },
     {
       "dependencies": [],
@@ -115391,8 +115391,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "90ee5300288a5b487f1281a99969df251b42580a968350d08d03219bf6a91380",
       "status": "reviewed",
-      "target": "이곳에서 오래 산 사람 중에도 자기 상점을 갖지 못한 이들이 많습니다.",
-      "target_sha256": "a6e78850127bf20f893ba8e8517bb8358921384290605676e769e863d89cde0d"
+      "target": "이곳에서 오래 산 사람 중에도 자기 상점을 갖지 못한 이들이 많아요.",
+      "target_sha256": "2e1cec8ec3dd2cb548bc44a8a0ec3c1cce9b3e8127a4022ae2b73cda002b67f3"
     },
     {
       "dependencies": [],
@@ -115402,8 +115402,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "4e99b30bb2343effad11a0164c8a51a4736ec22aed0540c4e867980f83b3e7dd",
       "status": "reviewed",
-      "target": "이곳에서 자리 잡을 능력을 증명하셨으니, 새로 보여 드릴 게 있습니다.",
-      "target_sha256": "613038808c299497bd7ec0a38e0892a815c69891b16ceebfc47d2f2dbd4f60e2"
+      "target": "이곳에서 자리 잡을 능력을 증명했으니, 새로 보여 줄 게 있어요.",
+      "target_sha256": "60cbaae18dd112b3bec4d830dbb6e3c9e17bb9fa002ef063655e984a8139eea2"
     },
     {
       "dependencies": [],
@@ -115413,8 +115413,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "a9ca148d8cad01952b2eb833fbae400aadedd75b47420c6b8ab4865e02c13c40",
       "status": "reviewed",
-      "target": "하이퍼테크라고 들어보셨나요?",
-      "target_sha256": "3080cf86221fadf2a46afad1edc99c51b0286d859c8b732f8810aa2ac09d596f"
+      "target": "하이퍼테크라고 들어봤어요?",
+      "target_sha256": "20a491f6ad4597cf7559a5fe01c4539c3398d7b86c5626cfe31a5f3514b3f62b"
     },
     {
       "dependencies": [],
@@ -115424,8 +115424,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "fccb9f1aace76404bbe682153cb5b7f735f7fdd215717057c55c79221971d339",
       "status": "reviewed",
-      "target": "이 정거장의 산업으로는 만들 수 없는 수준의 기술입니다.",
-      "target_sha256": "1db037c67994893c51919b7d4bb5446c57f376481623f2a0796c28f78134c2e0"
+      "target": "이 정거장의 산업으로는 만들 수 없는 수준의 기술이에요.",
+      "target_sha256": "6c0439b26ee07445fda7568b317a4476131daafadfd5894c70bcd47d0de8a3da"
     },
     {
       "dependencies": [],
@@ -115435,8 +115435,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "8ab99a66b123094dae9c494019586718d2aebd0aaca94f97815b2a0c1f26de75",
       "status": "reviewed",
-      "target": "이곳의 부자들조차 줄을 서서 기다립니다.",
-      "target_sha256": "55f325c6179456e488fc54c70aba71174e66368973ce4c132480afccad41f77a"
+      "target": "이곳의 부자들조차 줄을 서서 기다려요.",
+      "target_sha256": "12e1acfda7f4959ec0d42f80af4e403fd2b7c25378109282d46eda164f96c0ab"
     },
     {
       "dependencies": [],
@@ -115446,8 +115446,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "dd0e0f5977c210c5edd8bf05d1b33434565556ec609bafab603fadce4e7dfba0",
       "status": "reviewed",
-      "target": "그 물건을 취급하는 밀수업자를 알고 있습니다. 수수료를 내시면 소개해 드리죠.",
-      "target_sha256": "067c297cf5c46ef8e001dca0b724ea8bf3d6391f6e3806e430bba79e6a7e0f93"
+      "target": "그 물건을 취급하는 밀수업자를 알고 있어요. 수수료를 내면 소개해 줄게요.",
+      "target_sha256": "11ad2f340b4a414c347c6316d72b30b01c1e86f6a5fdab255f9f414a3d43afb2"
     },
     {
       "dependencies": [],
@@ -115457,8 +115457,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "0f71583463ceea03d3f14deed2ee629788a75170058853acd7734a22abe864ca",
       "status": "reviewed",
-      "target": "미리 경고하죠. 그 길의 모든 단계에는 돈이 많이 듭니다.",
-      "target_sha256": "78de583327ccccaf6549054293bb9fa1dbc5d290719cc637fc86154b577f7476"
+      "target": "미리 경고할게요. 그 길의 모든 단계에는 돈이 많이 들어요.",
+      "target_sha256": "71052a91da3cf29498a6f0630d442c92bc4dec59c3747c2ed307169a527c5cf4"
     },
     {
       "dependencies": [],
@@ -115468,8 +115468,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "17670ad6981caf9c4c835f8e74e63c8ea247ab188597c3f6c3c6ef8c484909ec",
       "status": "reviewed",
-      "target": "준비되면 전화하세요.",
-      "target_sha256": "0c743d6d54b5433db0608de1a7a436bee96e44e31b596476fec9a89ba1a4c5be"
+      "target": "준비되면 전화해요.",
+      "target_sha256": "13aa0b9ba664e917ef99ea4a1bd9516cbb0775acd4f2e045da17288205fef122"
     },
     {
       "dependencies": [],
@@ -115479,8 +115479,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "8a81179a5fe7f581d96284866be5f5e02dc7b274f3314a81e21311c261a7f3ed",
       "status": "reviewed",
-      "target": "알아두셔야 할 규칙이 몇 가지 있습니다.",
-      "target_sha256": "a3bb4f197a9a6043e347becf032fdd27ddc812b8ee79e7e3be43a903a8409348"
+      "target": "알아둘 규칙이 몇 가지 있어요.",
+      "target_sha256": "257359ccd24bd4a45e8a96dbedb9f377470c6ae73d8a476d1b45a689d96a3bc8"
     },
     {
       "dependencies": [],
@@ -115490,8 +115490,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b111833a7b995ebc0415560e16a0c80b105713e8d29033a9c60496b18059cc84",
       "status": "reviewed",
-      "target": "상층 구역은 주먹질과 고함으로 돌아가지 않습니다.",
-      "target_sha256": "d75f9aea0f55ab940138b27d0f2b31a11a8c70cc0f24b84543d6a59daaa3a9f2"
+      "target": "상층 구역은 주먹질과 고함으로 돌아가지 않아요.",
+      "target_sha256": "1ded08df3a422de044cdccdfd5fb63928089b09dcdcebb4cfacafa08ade2b00d"
     },
     {
       "dependencies": [],
@@ -115523,8 +115523,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "3c733f3dc5ab6a445faeea852dc4e58e0a688b12565565341251255c0cc21c03",
       "status": "reviewed",
-      "target": "몇 사람을 소개해 드릴 수 있습니다. 조건이 하나 있어요.",
-      "target_sha256": "0c39527919e1c5b28e84072056dd5a4ddf34d9b417c828ed7dff8e075be821a6"
+      "target": "몇 사람을 소개해 줄 수 있어요. 조건이 하나 있어요.",
+      "target_sha256": "252a4c5f785c935ab878f5237c624d01ae2ad9d992107ade966122eeeddefe1f"
     },
     {
       "dependencies": [],
@@ -115534,8 +115534,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "5086f9393c931e4476e31fb2ab27881c99fe9df8cbade0c5ffd39f499769a9e1",
       "status": "reviewed",
-      "target": "적절한 사교계에서 제 평판을 좋게 말해 주시는 겁니다.",
-      "target_sha256": "50cbcf04e57eb28dc752e681f848859730cd4af5bb7fc0ef2417826b7547f16b"
+      "target": "적절한 사교계에서 내 평판을 좋게 말해 주는 거예요.",
+      "target_sha256": "cc488fad4b9cd3a37b0933600781cf05159103d3cf39eec60dcba869b8f5da8f"
     },
     {
       "dependencies": [],
@@ -115545,8 +115545,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "6aff566e56e998e0283b32f4d50508fc5a2fed17b712b7958c26c5c94fb58667",
       "status": "reviewed",
-      "target": "제 명함입니다. 금박을 입혔으니 깨끗이 보관하세요.",
-      "target_sha256": "8ac223d671b5b54b106cee57c0296d5ae29e18c0f54ae83e78fbba7f1dbf614b"
+      "target": "제 명함이에요. 금박을 입혔으니 깨끗이 보관해요.",
+      "target_sha256": "bcefd6a797582fdf79fc44b26ef1048235990af51593764f4129a32053546621"
     },
     {
       "dependencies": [],
@@ -115556,8 +115556,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "e56ebca6578b47b35d00a97820e8395d1fda4d73261337642b598ec4c23e2c3f",
       "status": "reviewed",
-      "target": "필요한 게 있으면 이 번호로 전화하세요. 제 비서가 처리해 드릴 겁니다.",
-      "target_sha256": "f421625bc8257f1afa862b223fefbffc4c8c1e340de9529210ccbdeca2204c3f"
+      "target": "필요한 게 있으면 이 번호로 전화하세요. 비서가 처리해 줄 거예요.",
+      "target_sha256": "9d6e11d04112cbbd2702d751678d8ce21daea34f78e2c4dc06ee0115fbc2f778"
     },
     {
       "dependencies": [],
@@ -115567,8 +115567,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "f5e03b73d09ee92d8e3de119a05ab449cbbec58c6b52f601b5d0b6e0b9326a09",
       "status": "reviewed",
-      "target": "아직 제게 전화하지 않으셨군요. 이곳에서는 조금 무례한 일입니다.",
-      "target_sha256": "054cc6eced1ef75cfa04dd6c09325bb0be56802a142971336017f37e14462482"
+      "target": "아직 내게 전화 안 했군요. 여기선 조금 무례한 일이에요.",
+      "target_sha256": "a868ece26881902928ddecec38fbbd3d92586126a7e294f4796121aeb3f61cd6"
     },
     {
       "dependencies": [],
@@ -115589,8 +115589,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "022c014c2cca91a12bb5e022e448838f4fdb7a13e88099709421d3a91fbe7a04",
       "status": "reviewed",
-      "target": "쓸모 있는 사람들을 많이 알고 있습니다.",
-      "target_sha256": "40ff5cb411427804eee7526f3cb1cc7afd9f43ce62a469d8cac698289cd2418f"
+      "target": "쓸모 있는 사람들을 많이 알고 있어요.",
+      "target_sha256": "6c6badb7bead4a2e0f148d7ae0afe213f08af1b5f52331c9b60734e3b8d00982"
     },
     {
       "dependencies": [],
@@ -115622,8 +115622,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "59d5cf6b45eddfe6132307df3ee1ce52365b477b00fbea4b178a23996a76e7cc",
       "status": "reviewed",
-      "target": "오랜만이네요. 요즘은 전화가 뜸하셨습니다.",
-      "target_sha256": "a836ff0f8d07d61f8773ad606934b732f9056974e4304d8c3a6e8fe1c5e9c729"
+      "target": "오랜만이네요. 요즘은 전화가 뜸했어요.",
+      "target_sha256": "f60d74c25d85b7a5d2af8976857e1d99f37f7097cd192c2f05037c446236220c"
     },
     {
       "dependencies": [],
@@ -115644,8 +115644,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "8a631935da62416418cff2723c2faa22b314c24254f1c3549c901d32f764871d",
       "status": "reviewed",
-      "target": "이곳에서는 관리하지 않는 인맥은 오래가지 않습니다.",
-      "target_sha256": "95935777ba054ecc8f009a8a83a69c5aa5365a40d8d64b51e4f32aa2c2540018"
+      "target": "이곳에서는 관리하지 않는 인맥은 오래가지 않아요.",
+      "target_sha256": "84e5bab874b93c4c8dd07ed806a11f44c28c2879141a3635e7f341c3de87fbff"
     },
     {
       "dependencies": [],
@@ -122431,8 +122431,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "07fd6ea6c9675b406bf5ec67bb24b1854da669eebe91a6c1ffb4a97267fd0997",
       "status": "reviewed",
-      "target": "좋은 아침입니다. 장부를 봤어요.",
-      "target_sha256": "67ef6d7125746d3923a7be68f48542ebe90705204a73678262c4eec6ae615957"
+      "target": "좋은 아침이에요. 장부를 봤어요.",
+      "target_sha256": "f7d12ac84c266f6ea3f0f9e4f11ff4d6678c74ac13aa3063d4754a05a1259581"
     },
     {
       "dependencies": [],
@@ -122486,8 +122486,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "f1cedc54b7469671b95f2690e685c4cbe2b7eb38dc68afc72140c6fa3b5aba4f",
       "status": "reviewed",
-      "target": "마음대로 하세요. 이 카드는 가지고 계세요.",
-      "target_sha256": "9ed564f97453aa850bf498248c111f0d9139c55cdb49462aec971ab0a4c77c4e"
+      "target": "마음대로 해요. 이 카드는 갖고 있어요.",
+      "target_sha256": "cb9f90aaaa52c7fa395034c0e4212e83eec2bed38ad79a2fd89fd8bf117306c2"
     },
     {
       "dependencies": [],
@@ -122497,8 +122497,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "aee3a3dfcc30704139759a4a782771b82b821a18393c3f5e0e3751656a1fc6dc",
       "status": "reviewed",
-      "target": "마음이 정해지면, 이걸로 저에게 연락하세요.",
-      "target_sha256": "dc21f78d53888146609f9de33ee36c2ca705efa06975541f847bdd72d6919e93"
+      "target": "마음이 정해지면, 이걸로 연락해요.",
+      "target_sha256": "7e28892e4a8f31a414d332730131c050fc7145cb5847c92de4e6310ff762e96c"
     },
     {
       "dependencies": [],
@@ -127499,7 +127499,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r19",
+  "release_id": "local-r20",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",

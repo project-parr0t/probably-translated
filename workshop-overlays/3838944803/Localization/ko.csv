@@ -16,44 +16,44 @@ kane.Dialogue.dialog_insurance_8,매일 청구됩니다. 사촌이 받는 금액
 kane.Dialogue.dialog_insurance_9,—그리고 무엇이든 도난당하면 소유하신 물건은 모두 보장됩니다.
 kane.Dialogue.dialog_insurance_10,매일 밤 주무시기 전에 갱신 여부를 결정하시면 됩니다.
 kane.Dialogue.dialog_insurance_11,이상입니다. 장사 잘되길 바랍니다.
-kane.Dialogue.dialog_wild_network_1,알아두셔야 할 규칙이 몇 가지 있습니다.
-kane.Dialogue.dialog_wild_network_2,상층 구역은 주먹질과 고함으로 돌아가지 않습니다.
+kane.Dialogue.dialog_wild_network_1,알아둘 규칙이 몇 가지 있어요.
+kane.Dialogue.dialog_wild_network_2,상층 구역은 주먹질과 고함으로 돌아가지 않아요.
 kane.Dialogue.dialog_wild_network_3,호의와 인맥으로 돌아가죠.
 kane.Dialogue.dialog_wild_network_4,"누가 누구에게 빚졌고, 누가 누구를 아는지. 그건 크레딧보다 가치가 있죠."
-kane.Dialogue.dialog_wild_network_5,몇 사람을 소개해 드릴 수 있습니다. 조건이 하나 있어요.
-kane.Dialogue.dialog_wild_network_6,적절한 사교계에서 제 평판을 좋게 말해 주시는 겁니다.
-kane.Dialogue.dialog_wild_network_7,제 명함입니다. 금박을 입혔으니 깨끗이 보관하세요.
-kane.Dialogue.dialog_wild_network_8,필요한 게 있으면 이 번호로 전화하세요. 제 비서가 처리해 드릴 겁니다.
-kane.Dialogue.dialog_wild_upgrade_reminder_1,오랜만이네요. 요즘은 전화가 뜸하셨습니다.
+kane.Dialogue.dialog_wild_network_5,몇 사람을 소개해 줄 수 있어요. 조건이 하나 있어요.
+kane.Dialogue.dialog_wild_network_6,적절한 사교계에서 내 평판을 좋게 말해 주는 거예요.
+kane.Dialogue.dialog_wild_network_7,제 명함이에요. 금박을 입혔으니 깨끗이 보관해요.
+kane.Dialogue.dialog_wild_network_8,필요한 게 있으면 이 번호로 전화하세요. 비서가 처리해 줄 거예요.
+kane.Dialogue.dialog_wild_upgrade_reminder_1,오랜만이네요. 요즘은 전화가 뜸했어요.
 kane.Dialogue.dialog_wild_upgrade_reminder_2,잭슨 박사도 당신이 한 번도 찾아오지 않았다고 전해 왔어요.
-kane.Dialogue.dialog_wild_upgrade_reminder_3,이곳에서는 관리하지 않는 인맥은 오래가지 않습니다.
+kane.Dialogue.dialog_wild_upgrade_reminder_3,이곳에서는 관리하지 않는 인맥은 오래가지 않아요.
 kane.Dialogue.dialog_wild_upgrade_reminder_4,제가 준비한 걸 살펴보세요.
-kane.Dialogue.dialog_wild_bailout_1,장부 사정이 좋지 않다고 들었습니다.
-kane.Dialogue.dialog_wild_bailout_2,오해하지 마세요. 비웃으러 온 게 아닙니다. 이곳에서 가게 하나가 문을 닫을 때마다 거리 전체의 부동산 가격이 내려가니까요.
-kane.Dialogue.dialog_wild_bailout_3,이건 제가 부담하죠. 돈은 받지 않겠습니다. 하지만 기억해 두겠어요.
+kane.Dialogue.dialog_wild_bailout_1,장부 사정이 좋지 않다고 들었어요.
+kane.Dialogue.dialog_wild_bailout_2,오해하지 마세요. 비웃으러 온 게 아니에요. 이곳에서 가게 하나가 문을 닫을 때마다 거리 전체의 부동산 가격이 내려가니까요.
+kane.Dialogue.dialog_wild_bailout_3,이건 내가 부담할게요. 돈은 받을 생각 없어요. 하지만 기억해 둘게요.
 kane.Dialogue.dialog_wild_bailout_4,한번 보세요.
-kane.Dialogue.dialog_wild_network_reminder_1,아직 제게 전화하지 않으셨군요. 이곳에서는 조금 무례한 일입니다.
+kane.Dialogue.dialog_wild_network_reminder_1,아직 내게 전화 안 했군요. 여기선 조금 무례한 일이에요.
 kane.Dialogue.dialog_wild_network_reminder_2,시간 날 때 전화하세요.
-kane.Dialogue.dialog_wild_network_reminder_3,쓸모 있는 사람들을 많이 알고 있습니다.
+kane.Dialogue.dialog_wild_network_reminder_3,쓸모 있는 사람들을 많이 알고 있어요.
 kane.Dialogue.dialog_wild_network_reminder_4,"기술을 가르치는 사람, 소개를 주선하는 사람, 문제를 없애는 사람도 있죠."
 kane.Dialogue.dialog_wild_network_reminder_5,준비되면 전화하세요.
 kane.Dialogue.dialog_marketplace_intro_1,안녕하세요.
-kane.Dialogue.dialog_marketplace_intro_2,장사는 잘되시나요?
-kane.Dialogue.dialog_marketplace_intro_3,아직 모르실 만한 게 하나 있습니다.
-kane.Dialogue.dialog_marketplace_intro_4,정거장의 공개 시장 의뢰 시스템을 이용하게 해드릴 수 있어요.
-kane.Dialogue.dialog_marketplace_intro_5,정거장 주민들의 의뢰를 직접 받을 수 있습니다. 상층 구역 의뢰는 아래층보다 보수가 훨씬 좋죠.
-kane.Dialogue.dialog_marketplace_intro_6,추천합니다.
-kane.Dialogue.dialog_marketplace_intro_7,살펴보시겠어요?
-kane.Dialogue.dialog_marketplace_intro_8,언제든 연락하셔도 됩니다.
-kane.Dialogue.dialog_wild_deed_1,축하합니다. 소식 들었어요.
-kane.Dialogue.dialog_wild_deed_2,이곳에서 오래 산 사람 중에도 자기 상점을 갖지 못한 이들이 많습니다.
-kane.Dialogue.dialog_wild_deed_3,"이곳에서 자리 잡을 능력을 증명하셨으니, 새로 보여 드릴 게 있습니다."
-kane.Dialogue.dialog_wild_deed_4,하이퍼테크라고 들어보셨나요?
-kane.Dialogue.dialog_wild_deed_5,이 정거장의 산업으로는 만들 수 없는 수준의 기술입니다.
-kane.Dialogue.dialog_wild_deed_6,이곳의 부자들조차 줄을 서서 기다립니다.
-kane.Dialogue.dialog_wild_deed_7,그 물건을 취급하는 밀수업자를 알고 있습니다. 수수료를 내시면 소개해 드리죠.
-kane.Dialogue.dialog_wild_deed_8,미리 경고하죠. 그 길의 모든 단계에는 돈이 많이 듭니다.
-kane.Dialogue.dialog_wild_deed_9,준비되면 전화하세요.
+kane.Dialogue.dialog_marketplace_intro_2,장사는 잘돼요?
+kane.Dialogue.dialog_marketplace_intro_3,아직 모를 만한 게 하나 있어요.
+kane.Dialogue.dialog_marketplace_intro_4,정거장의 공개 시장 의뢰 시스템을 이용하게 해 줄 수 있어요.
+kane.Dialogue.dialog_marketplace_intro_5,정거장 주민들의 의뢰를 직접 받을 수 있어요. 상층 구역 의뢰는 아래층보다 보수가 훨씬 좋죠.
+kane.Dialogue.dialog_marketplace_intro_6,추천해요.
+kane.Dialogue.dialog_marketplace_intro_7,살펴볼래요?
+kane.Dialogue.dialog_marketplace_intro_8,언제든 연락해도 돼요.
+kane.Dialogue.dialog_wild_deed_1,축하해요. 소식 들었어요.
+kane.Dialogue.dialog_wild_deed_2,이곳에서 오래 산 사람 중에도 자기 상점을 갖지 못한 이들이 많아요.
+kane.Dialogue.dialog_wild_deed_3,"이곳에서 자리 잡을 능력을 증명했으니, 새로 보여 줄 게 있어요."
+kane.Dialogue.dialog_wild_deed_4,하이퍼테크라고 들어봤어요?
+kane.Dialogue.dialog_wild_deed_5,이 정거장의 산업으로는 만들 수 없는 수준의 기술이에요.
+kane.Dialogue.dialog_wild_deed_6,이곳의 부자들조차 줄을 서서 기다려요.
+kane.Dialogue.dialog_wild_deed_7,그 물건을 취급하는 밀수업자를 알고 있어요. 수수료를 내면 소개해 줄게요.
+kane.Dialogue.dialog_wild_deed_8,미리 경고할게요. 그 길의 모든 단계에는 돈이 많이 들어요.
+kane.Dialogue.dialog_wild_deed_9,준비되면 전화해요.
 kane.PhoneDialogue.wild1,안녕하세요. 카이 와일드 님의 사무실입니다.
 net_tab,상층 사교계
 net_subtitle,카이 와일드
@@ -482,12 +482,12 @@ ch2_kai_2,"진정하세요. 전 경찰이 아니에요. 하층에서 갓 올라�
 ch2_kai_2_fragment,"진정하세요. 당신이 준 그 페이지는 아직 갖고 있어요. 오늘 아침엔 나머지가 누구 손에 들어갔을지 궁금해지더군요."
 ch2_kai_3,"이렇게 하죠. 그게 당신 손에 있으면 폭탄이지만, 제 손에 있으면 수표예요. 할로와 콜은 그 일이 조용히 사라지는 대가로 큰돈을 낼 거예요."
 ch2_kai_4,"당신은 2500크레딧을 받고, 제 사촌 쪽에서 호의도 하나 얻는 거예요. 당신이 한 일인지는 아무도 모를 거예요. 농장 주인은 어차피 감옥에 갈 운명이었으니까요."
-ch2_kai_ask,그래서요? 넘기실 건가요?
-ch2_kai2_1,아직도 갖고 계세요? 평의회에서 기록 보관소의 출입 기록을 조사하기 시작했다더군요.
+ch2_kai_ask,그래서요? 넘길 거예요?
+ch2_kai2_1,아직도 갖고 있어요? 평의회에서 기록 보관소의 출입 기록을 조사하기 시작했다더군요.
 ch2_kai2_2,제 제안은 여전해요. 2500크레딧에 호의 하나예요. 이틀만 더 지나면 팔 기회조차 없을 거예요.
-ch2_kai2_ask,마지막으로 묻겠습니다. 넘기실 건가요?
+ch2_kai2_ask,마지막으로 물을게요. 넘길 거예요?
 ch2_kai_give,가져가요.
-ch2_kai_give_1,"현명하시네요. 돈은 내일 들어올 거고, 그 호의는 기억해 둘게요."
+ch2_kai_give_1,"현명하네요. 돈은 내일 들어올 거고, 그 호의는 기억해 둘게요."
 ch2_kai_give_2,"그리고 오늘 우리는 만난 적 없는 거예요. 이곳 상층에서는 기억력이 나쁜 사람이 오래 살죠."
 ch2_kai_decline,생각해 봐야겠어요.
 ch2_kai_decline_1,마음대로 하세요. 며칠 뒤에 다시 오죠. 그때도 그게 경찰의 증거물 봉투가 아니라 당신 손에 있길 바라요.
@@ -1655,7 +1655,7 @@ navy.auction.r2.1,밀봉된 구급 키트 한 상자입니다. 매입 창구에�
 navy.auction.r2.2,"항법 모듈입니다, 둘은 아직 작동합니다. 매입 창구에서 {0} 크레딧을 쳐 줬습니다."
 navy.auction.r3.1,"군용 방어구 한 벌입니다, 꼬리표도 그대로 붙어 있군요. 매입 창구에서 {0} 크레딧을 쳐 줬습니다."
 navy.auction.r3.2,"명세서에는 식기류라고 적혀 있었는데, 함선용 프린터의 핵심 부품이군요. 매입 창구에서 {0} 크레딧을 쳐 줬습니다."
-retire_kai_1,좋은 아침입니다. 장부를 봤어요.
+retire_kai_1,좋은 아침이에요. 장부를 봤어요.
 retire_kai_2,"백만을 넘겼네요. 이 위쪽에선, 그 정도면 충분하다고 하죠."
 retire_kai_3,가게는 넘길 수 있어요. 인수할 만한 사람 몇 명을 알아요.
 retire_kai_4,살 집도 알아봤어요. 평의회에서 두 거리 떨어진 곳이에요.
@@ -1664,8 +1664,8 @@ retire_choice_now,이제 그만두겠습니다.
 retire_choice_later,조금 더 하겠습니다.
 retire_kai_now_1,좋아요. 서류는 제가 처리할게요. 내일이면 누군가 가게를 인수할 거예요.
 retire_kai_now_2,"상층 구역 시민이 되신 걸 환영합니다, ."
-retire_kai_later_1,마음대로 하세요. 이 카드는 가지고 계세요.
-retire_kai_later_2,"마음이 정해지면, 이걸로 저에게 연락하세요."
+retire_kai_later_1,마음대로 해요. 이 카드는 갖고 있어요.
+retire_kai_later_2,"마음이 정해지면, 이걸로 연락해요."
 item_ul_kai_card_name,카이 와일드의 명함
 item_ul_kai_card_flavor,카이 와일드의 개인 명함. 자산이 {0:N0} 이상일 때 사용하면 은퇴할 수 있습니다.
 retire_card_not_here,이 카드는 가게에서만 사용할 수 있습니다.
