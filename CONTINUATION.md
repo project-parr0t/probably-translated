@@ -46,7 +46,7 @@ The command must finish with `unsupported=0`. Treat any unsupported binding or c
 
 ## Resume an update
 
-`parr0t-release-checkpoint.json` is the canonical r17 release baseline. Load it with Parr0t's release-checkpoint API and require patch ID `probably-stolen-ko-localization` and release ID `local-r17`. Before starting an update, call `canonical_checkpoint_bytes` and confirm that the returned bytes exactly match the file; `validate_release_checkpoint` provides schema and dependency validation.
+`parr0t-release-checkpoint.json` is the canonical r18 release baseline. Load it with Parr0t's release-checkpoint API and require patch ID `probably-stolen-ko-localization` and release ID `local-r18`. Before starting an update, call `canonical_checkpoint_bytes` and confirm that the returned bytes exactly match the file; `validate_release_checkpoint` provides schema and dependency validation.
 
 Use the validated checkpoint to retain reviewed targets whose source, location, dependency, context, and review fingerprints are unchanged. Re-select and review targets whose recorded fingerprints no longer match the newly inventoried source. Preserve the checkpoint as the comparison baseline; write a new release checkpoint through Parr0t's canonical serialization API rather than editing JSON manually.
 

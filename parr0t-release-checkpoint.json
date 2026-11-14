@@ -17821,8 +17821,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "94dfd46d9dae63e6c692415bbab8e266c777e87cdd77beab02583b8ed7bd874d",
       "status": "reviewed",
-      "target": "나쁨",
-      "target_sha256": "2b31496893c034fa01f85257235c9883d12a59d5cb3da78016704a5813e5726c"
+      "target": "저급",
+      "target_sha256": "686933764f3b4f8e0906264dab368451e6d918ea3d416561a549fefa7f2a38c0"
     },
     {
       "dependencies": [],
@@ -17832,8 +17832,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "ef6691545d2c5523efed00424407cb261aeb0037d165ca5792f7f8bac3381362",
       "status": "reviewed",
-      "target": "일반",
-      "target_sha256": "512989791c19de3fcf9c18e11580d2895d2a146264cc803e52c86bede3453e4e"
+      "target": "보통",
+      "target_sha256": "666599febd987f532ea6ab000ee16ee7d5838beed690d2f9b174aab30ce78307"
     },
     {
       "dependencies": [],
@@ -17843,8 +17843,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "c939327ca16dcf97ca32521d8b834bf1de16573d21deda3bb2a337cf403787a6",
       "status": "reviewed",
-      "target": "좋음",
-      "target_sha256": "4b15b49bbed35deb325423aadd2e2db264ea1487de0c703f872a994b3860becd"
+      "target": "양호",
+      "target_sha256": "826801054efddfd90f29c6d4942b5f889e1774ddb70163b62244bdebe0501421"
     },
     {
       "dependencies": [],
@@ -17854,8 +17854,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "fa67303aecdafbdddabe4fb62751c7cc1c45876b485191d65aa893c7f1eba737",
       "status": "reviewed",
-      "target": "양호",
-      "target_sha256": "826801054efddfd90f29c6d4942b5f889e1774ddb70163b62244bdebe0501421"
+      "target": "우수",
+      "target_sha256": "b46392793aab51956de6ef91c2d77bd1570d191a4806dff7ca4088e8d4174173"
     },
     {
       "dependencies": [],
@@ -17865,8 +17865,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "86474c03f7de4b5088ebb7010012a57f9c70fdecb14eb63ca9954c553141f499",
       "status": "reviewed",
-      "target": "최상",
-      "target_sha256": "fac8d5cc2a67aae960a00c05320f36f917bef745db7d067f12f5acceb6a45a8b"
+      "target": "최상급",
+      "target_sha256": "6e08f4a7fd6d5c1f4b043a49f345986d02fd5a073a5a2c648aa8a62730e6d7ca"
     },
     {
       "dependencies": [],
@@ -56827,8 +56827,8 @@
       "review_fingerprint": "763ff5633edc1b8cf300f31e5024b4fc5849e531feec22e1fc4bbd052c523182",
       "source_sha256": "eb20bdb5ac22bbaf371fdda52f75d679887f3fd85c68038444e8197225b62ed5",
       "status": "reviewed",
-      "target": "배양기에서 나오는 모드 과실과 블룸베리는 품질 점수 -1 / 1 / 2가 각각 10% / 60% / 30%의 확률로 나옵니다. 격조 있게 액자한 인증서. 씨앗 배양기는 밤마다 씨앗 다섯 개를 부화시키고, 포티세븐은 일곱 개를 가져옵니다. '먼 곳'은 15%로 고정되고, '그리움'은 실패 누적에 따라 3%에서 8%로, '잔광'은 1%에서 5%로 오릅니다. 나머지는 '필멸'이 채웁니다. 효과는 아이템을 소유하는 동안 적용되며, 보관 용기에 넣어 두어도 발동합니다. 진열할 필요는 없습니다.",
-      "target_sha256": "52fe903f1d2dfe7aefc1aecde458153eee4a8ab213bec35386c720564371258b"
+      "target": "부화기에서 나오는 모드 과실과 블룸베리는 품질 점수 -1 / 1 / 2가 각각 10% / 60% / 30%의 확률로 나옵니다. 격조 있게 액자한 인증서. 씨앗 부화기는 밤마다 씨앗 다섯 개를 부화시키고, 포티세븐은 일곱 개를 가져옵니다. '먼 곳'은 15%로 고정되고, '그리움'은 실패 누적에 따라 3%에서 8%로, '잔광'은 1%에서 5%로 오릅니다. 나머지는 '필멸'이 채웁니다. 효과는 아이템을 소유하는 동안 적용되며, 보관 용기에 넣어 두어도 발동합니다. 진열할 필요는 없습니다.",
+      "target_sha256": "2412f22bbc6c5627b9858afd4723df9fea57f4a076867b9c4379e962221269c2"
     },
     {
       "dependencies": [],
@@ -57993,8 +57993,8 @@
       "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
       "source_sha256": "e4ac68ba3832c4488884bc5427d3fe3689d95ee31eecbe9b0354acee04480212",
       "status": "reviewed",
-      "target": "씨앗 배양기 사용 설명서",
-      "target_sha256": "ed1a5d1c2ec061aeadb43b872b7a24c78ec40d3d65f2c4717ad196db5bf95bdb"
+      "target": "씨앗 부화기 사용 설명서",
+      "target_sha256": "4d79660d00f88931e60eac05910ce3cab15587090c748220eef7566f6d8b9df8"
     },
     {
       "dependencies": [],
@@ -58268,8 +58268,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "1b89c8baa0c0467bef60b0f0c8fe2764685755a52d241f4e17e224d7fbf6c669",
       "status": "reviewed",
-      "target": "향긋한 레몬 씨앗. 속세의 신맛은 여름이 혀를 후려치는 맛이다. 씨앗 배양기에 넣으면 날이 밝을 때 열매를 맺는다.",
-      "target_sha256": "9d3dff24f57124762fe0225373486df988cbb495e7bf14eae3ca82d9abfe2b53"
+      "target": "향긋한 레몬 씨앗. 속세의 신맛은 여름이 혀를 후려치는 맛이다. 씨앗 부화기에 넣으면 날이 밝을 때 열매를 맺는다.",
+      "target_sha256": "b0e41d50947cc91e40a142be341544deeb46b2c5e7a0fbfe5ae3477f8be28548"
     },
     {
       "dependencies": [],
@@ -58741,8 +58741,8 @@
       "review_fingerprint": "b7ceaf8049575e5922641e90dd043d69557c539bfc6879f85b2d5a88f00171a7",
       "source_sha256": "265216d3401b2c5a92878a2afb91d58a4b2d21254ffc199cd6c16cad5a58841a",
       "status": "reviewed",
-      "target": "배양기에서 나오는 모드 과실과 블룸베리는 품질 점수 -1 / 1 / 2가 각각 5% / 60% / 35%의 확률로 나옵니다. 좀 더 귀한 재료로 만든 인증서. 씨앗 배양기는 밤마다 씨앗 일곱 개를 부화시키고, 사십칠은 아홉 개를 가져옵니다. 실패 누적 보너스 이후 '그리움'과 '잔광' 확률에 1.3을 곱합니다: 3.9%–10.4%와 1.3%–6.5%. '먼 곳'은 15%로 고정되고, 나머지는 '필멸'이 채웁니다. 효과는 아이템을 소유하는 동안 적용되며, 보관 용기에 넣어 두어도 발동합니다. 진열할 필요는 없습니다.",
-      "target_sha256": "f828f9d87873fd655949f7301c0c76c4f77ab0e93cf264c1081b58c59a80597d"
+      "target": "부화기에서 나오는 모드 과실과 블룸베리는 품질 점수 -1 / 1 / 2가 각각 5% / 60% / 35%의 확률로 나옵니다. 좀 더 귀한 재료로 만든 인증서. 씨앗 부화기는 밤마다 씨앗 일곱 개를 부화시키고, 사십칠은 아홉 개를 가져옵니다. 실패 누적 보너스 이후 '그리움'과 '잔광' 확률에 1.3을 곱합니다: 3.9%–10.4%와 1.3%–6.5%. '먼 곳'은 15%로 고정되고, 나머지는 '필멸'이 채웁니다. 효과는 아이템을 소유하는 동안 적용되며, 보관 용기에 넣어 두어도 발동합니다. 진열할 필요는 없습니다.",
+      "target_sha256": "e172b425a0f47aad24a652b199ff84f9cfc2f34de9e934a13d5b6544e3a08bbf"
     },
     {
       "dependencies": [],
@@ -60721,8 +60721,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "99483db5c0e8b5abf463881065d98afdbb3b3257941d642902daadd669fd2364",
       "status": "reviewed",
-      "target": "가시 돋친 화자오 씨앗. 속세의 얼얼함은 따끔한 여운 속에 숨어 있다. 씨앗 배양기에 넣으면 날이 밝을 때 열매를 맺는다.",
-      "target_sha256": "a8d6724b1be9ccd63636e91db1a5aa1424ff48c0df992072945da8649a35819d"
+      "target": "가시 돋친 화자오 씨앗. 속세의 얼얼함은 따끔한 여운 속에 숨어 있다. 씨앗 부화기에 넣으면 날이 밝을 때 열매를 맺는다.",
+      "target_sha256": "9944b15109079fe9180b0920795688ff355dc4b088bcbd0c4d09a594885508a7"
     },
     {
       "dependencies": [],
@@ -61106,8 +61106,8 @@
       "review_fingerprint": "1181fd522e5c167833a867242dca7894a63082e1c4de8e7ff9fa024e5cd79149",
       "source_sha256": "e8780c00e4d8f0a04cdf96166d3f24d664535fc1a7d47f58f5c88ec7c3335272",
       "status": "reviewed",
-      "target": "황금빛 밀 씨앗. 속세에서 가장 소박한 향기, 매일 아침을 여는 냄새다. 씨앗 배양기에 넣으면 날이 밝을 때 열매를 맺는다.",
-      "target_sha256": "162124e857371ba63099ec39154b1a5a724a3430ec8866a642e281c8a5cff5dd"
+      "target": "황금빛 밀 씨앗. 속세에서 가장 소박한 향기, 매일 아침을 여는 냄새다. 씨앗 부화기에 넣으면 날이 밝을 때 열매를 맺는다.",
+      "target_sha256": "01d4deb42a38c4e068cb6fc2689f2392b340703c4a8e1d873d75f67bb35eb64d"
     },
     {
       "dependencies": [],
@@ -127499,7 +127499,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r17",
+  "release_id": "local-r18",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",

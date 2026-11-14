@@ -12,11 +12,11 @@ can.rebuild.control,조작
 can.rebuild.fill,생선 통째 또는 생선살; 같은 종류의 양념 최대 2개
 can.rebuild.finished,품질: {0} ({1}/5)
 can.rebuild.fish,생선
-can.rebuild.grade.1,나쁨
-can.rebuild.grade.2,일반
-can.rebuild.grade.3,좋음
-can.rebuild.grade.4,양호
-can.rebuild.grade.5,최상
+can.rebuild.grade.1,저급
+can.rebuild.grade.2,보통
+can.rebuild.grade.3,양호
+can.rebuild.grade.4,우수
+can.rebuild.grade.5,최상급
 can.rebuild.materials,재료
 can.rebuild.mixed,잡어
 can.rebuild.name,{0}{1} 통조림
@@ -1610,11 +1610,11 @@ gameplay.status.restore_failed,"복원 실패, 로그를 확인하세요"
 gameplay.status.restored,복원됨
 gameplay.status.unknown,알 수 없음
 gear.bait,미끼
-gifts.factoryUnavailable,선물 아이템을 생성하지 못했습니다. 수령하지 않은 선물은 보관되니 나중에 다시 시도하고 로그를 확인하세요.
+gifts.factoryUnavailable,선물 아이템을 생성하지 못했습니다. 미수령 선물은 보관되니 나중에 다시 시도하고 로그를 확인하세요.
 gifts.inventoryFull,카운터나 보관함에 적당한 공간이 없습니다. 남은 선물을 받으려면 공간을 비워 주세요.
-gifts.notReady,선물 전달이 아직 준비되지 않았습니다. 수령하지 않은 선물은 보관되니 나중에 다시 시도해 주세요.
-gifts.pending,아직 받지 않은 선물이 있습니다. ‘받기’를 선택해 다시 시도하세요. 전달되지 않은 선물은 보관됩니다.
-gifts.recoveryPending,이전 선물 전달 건을 아직 복구 중입니다. 받지 않은 선물은 보관됩니다.
+gifts.notReady,선물 전달이 아직 준비되지 않았습니다. 미수령 선물은 보관되니 나중에 다시 시도해 주세요.
+gifts.pending,미수령 선물이 남아 있습니다. ‘받기’를 선택해 다시 시도하세요. 전달되지 않은 선물은 보관됩니다.
+gifts.recoveryPending,이전 선물 전달 건을 아직 복구 중입니다. 미수령 선물은 보관됩니다.
 item.ce_basic_optical_mouse.name,그레이셸 광학 마우스
 item.ce_duanxiang_m1_phone.name,돤샹 M1 휴대전화
 item.ce_falcon_wireless_mouse.name,팔콘 저지연 무선 마우스
