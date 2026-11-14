@@ -126974,8 +126974,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "19bdeade3989c2f56c9cb516afe62912fbf6c2d56791c2492ebd1cb28a5bbdb0",
       "status": "reviewed",
-      "target": "카이는 라이트필드 인증 기관에 오랜 친구가 있다. 손상된 홀로 작품을 수리하는 라이트필드 복원대를 받는다. 엄격히 합법적이다. 출처가 의심스러운 작품은 인증할 수 없다.",
-      "target_sha256": "9e0f1c7c984f64aad81c3dd76908efccf3a2e9235755462cbc40306a9ab7fcdf"
+      "target": "카이는 라이트필드 인증 기관에 오랜 친구가 있습니다. 손상된 홀로 작품을 수리하는 라이트필드 복원대를 받습니다. 엄격히 합법적입니다. 출처가 의심스러운 작품은 인증할 수 없습니다.",
+      "target_sha256": "8c7c2c9e8197988e8d1615e051f7c3517ae5219102278bef0e9c72cc7065c799"
     },
     {
       "dependencies": [],
@@ -126996,8 +126996,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "3041d428d5f493eb4fecb5c9bc651e12c79eb3ab072dba707f5cfade27f5d832",
       "status": "reviewed",
-      "target": "카이는 매일 폐점 후 청소 인력을 보내 쓰레기를 치우고 낙서를 지운다. 야간 비용은 없다. 이 계약이 없으면 상점 앞은 매일 더러워진다.",
-      "target_sha256": "4cebaafd16c514f23f037c574cefd0026228bf9b479409fd2bb8a650789fadf9"
+      "target": "카이는 매일 폐점 후 청소 인력을 보내 쓰레기를 치우고 낙서를 지웁니다. 야간 비용은 없습니다. 이 계약이 없으면 상점 앞은 매일 더러워집니다.",
+      "target_sha256": "77eeb965655bf7ae2cc8c2a3f2e0a3445a3c6f44f8815cef70860c88f6c2d6bc"
     },
     {
       "dependencies": [],
@@ -127018,8 +127018,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b925e98b22a880d8fbca1b001ef825f1c6bbfc3f67e7c50a61186c52b4156208",
       "status": "reviewed",
-      "target": "카이가 더 많은 서류를 담을 수 있는 가죽 서류철을 준다.",
-      "target_sha256": "e8f812d90b69c486858f14aaf5fd282faa128d4f36e46eede97d8ef114166754"
+      "target": "카이가 더 많은 서류를 담을 수 있는 가죽 서류철을 줍니다.",
+      "target_sha256": "ad1152fc8417c36eef2e60dbaf51ff1f3fc7a22fe6bf8a3cfcb96f842df72323"
     },
     {
       "dependencies": [],
@@ -127040,8 +127040,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "7ff2cd3682304db1fc41230a256c59cda5622af8c896ca3d5441495fb6707279",
       "status": "reviewed",
-      "target": "카이의 해결사를 고용한다. 매일 밤 비용을 내면 경찰이 아직 수거하지 않은 증거를 치우고 목격자를 입막음해 의심도를 더 빠르게 낮춘다.",
-      "target_sha256": "bc9dea1539aa1b866bcdcc4a85da1485478fca598a2248a069b967ce8617bcb8"
+      "target": "카이의 해결사를 고용합니다. 매일 밤 비용을 내면 경찰이 아직 수거하지 않은 증거를 치우고 목격자를 입막음해 의심도를 더 빠르게 낮춥니다.",
+      "target_sha256": "a3c9f7d2912ee33322bf49de3078bdce6d6ad6b602b46b612597bb7eb8705177"
     },
     {
       "dependencies": [],
@@ -127062,8 +127062,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "3a26ce51e4eefd07cdd9f6eca4537e3f6016ce5d004f52c80e27f4ecb393771c",
       "status": "reviewed",
-      "target": "카이가 더 경험 많은 사람을 보낸다. 증거를 더 빨리 치우고 매일 밤 의심도를 더 많이 낮춘다. 야간 비용도 더 올라간다.",
-      "target_sha256": "e0fecf83e30d7a9cc2bad6289ea09955e89be336595df901089a779ba4be266f"
+      "target": "카이가 더 경험 많은 사람을 보냅니다. 증거를 더 빨리 치우고 매일 밤 의심도를 더 많이 낮춥니다. 야간 비용도 더 올라갑니다.",
+      "target_sha256": "ae7d7590194e506252255667657832a69b082497c4ce5f3b5532ffed9d0db1aa"
     },
     {
       "dependencies": [],
@@ -127084,8 +127084,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "ec1567a8fad82749366e497ad802c744c399357e535fd986e757e84cddf24bdd",
       "status": "reviewed",
-      "target": "카이가 가장 믿는 사람들을 가게에 보낸다. 목격자는 입을 다물고, 증거는 사라지며, 의심도가 가장 빠르게 낮아진다. 야간 비용도 가장 비싸다.",
-      "target_sha256": "9f42dc9e88e441cebeb8c769088b62082d31bfbc14f224dc8fc8d4da0896f053"
+      "target": "카이가 가장 믿는 사람들을 가게에 보냅니다. 목격자는 입을 다물고, 증거는 사라지며, 의심도가 가장 빠르게 낮아집니다. 야간 비용도 가장 비쌉니다.",
+      "target_sha256": "1a5ee5847623bab5440e48aa3f5ef79e86904621b580cede2679e519758b4434"
     },
     {
       "dependencies": [],
@@ -127106,8 +127106,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "b73f76bd77b44b350fbc9f76eefcf96c0d0a49d590e38a08bb1978a45715c6b1",
       "status": "reviewed",
-      "target": "카이는 건국 가문 온실을 돌보는 정원사를 안다. 조향 노트와 향수 작업대를 받아 신경 향 합성을 해금한다. 꽃은 카이 인맥을 통해 최고가로 들어온다.",
-      "target_sha256": "8f4038fb023b411c9f9235d2080e59fd5fc0e0b089ffa97a7d061c284c2ebd48"
+      "target": "카이는 건국 가문 온실을 돌보는 정원사를 압니다. 조향 노트와 향수 작업대를 받아 신경 향 합성을 해금합니다. 꽃은 카이 인맥을 통해 최고가로 들어옵니다.",
+      "target_sha256": "8c46b423c6356e808cf7ca7c40611708240ba38e0ddac89e926a3f3cdce782ec"
     },
     {
       "dependencies": [],
@@ -127128,8 +127128,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "0420e677a77824ff13888d0ce659e5c71106c02e81404fdc00e5230d4e122f59",
       "status": "reviewed",
-      "target": "카이에게는 경찰서에 ‘동료’가 있다. 매일 밤 비용을 내면 정기 단속 하루 전에 소식을 들을 수 있다. 기습 단속은 막아 주지 못한다.",
-      "target_sha256": "f376e047be25b94b0b6700022fb182ce153b97540b1b281712072f6ae7f3b66e"
+      "target": "카이에게는 경찰서에 ‘동료’가 있습니다. 매일 밤 비용을 내면 정기 단속 하루 전에 소식을 들을 수 있습니다. 기습 단속은 막아 주지 못합니다.",
+      "target_sha256": "b44e15b1f5f595275464d2a8f7e24632110bd931ab76e197436b0ee88d62df18"
     },
     {
       "dependencies": [],
@@ -127150,8 +127150,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "67f637d8cfb53c8d3bf23e314b9f6ef13adf41fdccf95daca7ca149d07316ece",
       "status": "reviewed",
-      "target": "카이가 집주인의 변호사와 술 한잔하며 얘기해 둔다. 임대료를 한 번 놓쳐도, 집주인이 다음 주에 합산해 내도록 해 준다. 일회성 호의이며, 사용 후 {0}일이 지나면 다시 이용할 수 있다.",
-      "target_sha256": "6fc8a7021eca04ed39e6815d13d8e517240275ae7cb8868ebdda61fa9a0fd8c3"
+      "target": "카이가 집주인의 변호사와 술 한잔하며 얘기해 둡니다. 임대료를 한 번 놓쳐도, 집주인이 다음 주에 합산해 내도록 해 줍니다. 일회성 호의이며, 사용 후 {0}일이 지나면 다시 이용할 수 있습니다.",
+      "target_sha256": "2add32128d72ab799ecbc3758362d828e92a33b164b5a6218bd61d307f5bdd8e"
     },
     {
       "dependencies": [],
@@ -127172,8 +127172,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "762a60136025f17e16e1ee594fbf2ffd88717cb41e7127297e27ed98491c7ec9",
       "status": "reviewed",
-      "target": "카이가 비공개 의뢰 목록에 당신의 이름을 올린다. 구매자의 의뢰를 확인하고 수행할 수 있으며, 보통 시세보다 높은 값을 받을 수 있다.",
-      "target_sha256": "3105fe25a03d7fc8c63096b284907f4e4af058f813372eeb707458e540d592a1"
+      "target": "카이가 비공개 의뢰 목록에 당신의 이름을 올립니다. 구매자의 의뢰를 확인하고 수행할 수 있으며, 보통 시세보다 높은 값을 받을 수 있습니다.",
+      "target_sha256": "6d49eb97bbd374102edd43b06fe8cdd67642bc81916cb872906a13ed1513c20a"
     },
     {
       "dependencies": [],
@@ -127194,8 +127194,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "75969d4f39d36f1c005e55a4b513921ed99fe32a01a6e466e0fa3a81f1d4d1b6",
       "status": "reviewed",
-      "target": "경찰서에서 카이에게 신세를 진 사람이 한마디 해 둔다. 원래라면 감옥에 갈 밀수품이 적발돼도 경고만 받고 끝난다. 일회성 호의이며, {0}일 후 다시 이용할 수 있다.",
-      "target_sha256": "eab10e18dd97a9aa5912cd441ae567435e8450996d787605f1aa995c40c96f93"
+      "target": "경찰서에서 카이에게 신세를 진 사람이 한마디 해 둡니다. 원래라면 감옥에 갈 밀수품이 적발돼도 경고만 받고 끝납니다. 일회성 호의이며, {0}일 후 다시 이용할 수 있습니다.",
+      "target_sha256": "f8f02925dbe59ee13e3e501dcb5cdd304fdaded7135e75b2f175d967e8f698e4"
     },
     {
       "dependencies": [],
@@ -127216,8 +127216,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "c1b5a43167f4dff62d6c645f784468a4d770ae3ac61b6f6e5eab26193f357811",
       "status": "reviewed",
-      "target": "카이가 건물 관리부에 말을 넣어 전력선을 상업용 등급으로 업그레이드한다. 충전기와 파워블록의 충전 속도가 {0}% 빨라진다.",
-      "target_sha256": "d17685e0c840891683fee71d3d5c2a6f553bdea237627a3a9d6857aa6c91f538"
+      "target": "카이가 건물 관리부에 말을 넣어 전력선을 상업용 등급으로 업그레이드합니다. 충전기와 파워블록의 충전 속도가 {0}% 빨라집니다.",
+      "target_sha256": "3079deac11f59319e127a18d8aae9519eb560b6fcf221d530d8b6f1abe3ec348"
     },
     {
       "dependencies": [],
@@ -127238,8 +127238,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "8a29ea7d6e88d9d45d6ecce35ea3ceb1d8288bc342ce7dd6bb819a24e322532c",
       "status": "reviewed",
-      "target": "카이가 평의회 기록 보관소에 있는 지인에게 부탁해 서류를 ‘정리’한다. 수집된 증거가 모두 폐기되고 진행 중인 수사도 조용히 끝난다. 재사용 대기 시간은 {0}일이다.",
-      "target_sha256": "c85a1b4342e7c6b8410a5c70558b8b6d503d93f9c7b4f716a9c4e6baac9ce5c9"
+      "target": "카이가 평의회 기록 보관소에 있는 지인에게 부탁해 서류를 ‘정리’합니다. 수집된 증거가 모두 폐기되고 진행 중인 수사도 조용히 끝납니다. 재사용 대기 시간은 {0}일입니다.",
+      "target_sha256": "7092561ab2dd841084a1e3edb72fa63505978505420c7edbb9689297723aa201"
     },
     {
       "dependencies": [],
@@ -127260,8 +127260,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "58054118e994c8e3e7829f99901f6b90108192788978771a78fdb9b57b11592b",
       "status": "reviewed",
-      "target": "카이가 상류층 전용 작업 인력을 불러 상점을 제대로 개조한다. 상점의 기본 매력도가 {0}포인트 상승한다.",
-      "target_sha256": "a73230331d57df16cc6674b989739b22a77122554800d7cc16fe5a73dec6548a"
+      "target": "카이가 상류층 전용 작업 인력을 불러 상점을 제대로 개조합니다. 상점의 기본 매력도가 {0}포인트 상승합니다.",
+      "target_sha256": "e5c712f985daa6504b5ca82a52e0ff9cf47df7765969d87b5b390f258b6b942c"
     },
     {
       "dependencies": [],
@@ -127282,8 +127282,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "35a655bb200b026d9056b2378947c7d007418c71d051bfb901a7a56107720957",
       "status": "reviewed",
-      "target": "석재와 맞춤형 조명으로 매장을 전면 개조한다. 기본 매장 매력이 추가로 {0} 증가한다.",
-      "target_sha256": "aafaa9ca09581db8c1be6944a46aad3443677aada6b15843bfe838d3e60320f0"
+      "target": "석재와 맞춤형 조명으로 매장을 전면 개조합니다. 기본 매장 매력이 추가로 {0} 증가합니다.",
+      "target_sha256": "1290909c376f275320e287b681451dd9a5203f32fbcced9789e303c4c029ffd3"
     },
     {
       "dependencies": [],
@@ -127304,8 +127304,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "7bf3404ef1dd4e98d950aea09a5f788e5a54c63e141a9db92f814c4c0fdcc8da",
       "status": "reviewed",
-      "target": "카이는 건국 가문 저택을 설계하는 디자이너를 섭외한다. 매장이 잡지에 실릴 만큼 멋져진다. 기본 매장 매력이 추가로 {0} 증가한다.",
-      "target_sha256": "c9ac9ca4c6fc753a29199beb1c5121e5b147ac19897f61c76da252c91987c050"
+      "target": "카이는 건국 가문 저택을 설계하는 디자이너를 섭외합니다. 매장이 잡지에 실릴 만큼 멋져집니다. 기본 매장 매력이 추가로 {0} 증가합니다.",
+      "target_sha256": "464d51826fd7c22819a0cee4c374889808f273a4c77156c28977ee66abde5db6"
     },
     {
       "dependencies": [],
@@ -127326,8 +127326,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "ecce81c0d679549230ee2017f351ef3cd770668bbe68905610890bb1e02c5622",
       "status": "reviewed",
-      "target": "카이가 아는 진열 전문가가 쇼케이스를 재배치해 더 많은 상품을 진열한다. 매일 진열장에서 구매하는 고객이 {0}명 늘어난다.",
-      "target_sha256": "cbd3ae704dbda8e604f1e30ee672c1c08ab629e59b10cb82b5a13fe9aafc9d4e"
+      "target": "카이가 아는 진열 전문가가 쇼케이스를 재배치해 더 많은 상품을 진열합니다. 매일 진열장에서 구매하는 고객이 {0}명 늘어납니다.",
+      "target_sha256": "e630f20ef98e021b3c29bf5c4bf3cf88dec61dcb22c1838cb6f6a58e10ceab47"
     },
     {
       "dependencies": [],
@@ -127348,8 +127348,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "d0f2bbf26afa907fa0809e833f51e2a617b7d195f1ea35ce3974deec7c51b82c",
       "status": "reviewed",
-      "target": "전문가가 쇼케이스를 다시 확장하고 온도 조절 진열대를 설치한다. 매일 진열장에서 구매하는 고객이 {0}명 늘어난다.",
-      "target_sha256": "0093d6a12dea6e500b5dfbe38e8afe761e96c2f779bb47d7a7897dd844315b1f"
+      "target": "전문가가 쇼케이스를 다시 확장하고 온도 조절 진열대를 설치합니다. 매일 진열장에서 구매하는 고객이 {0}명 늘어납니다.",
+      "target_sha256": "3900014628a17bbe1f38696832092537da006173ad992324e2e508a79f6de809"
     },
     {
       "dependencies": [],
@@ -127370,8 +127370,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "3a245e8535eb0174c20a13a29103467b828b65321acd29fead60591dce5ac966",
       "status": "reviewed",
-      "target": "카이가 창립 가문이 소유한 샘물 급수관을 분기해 준다. 하루 2~4리터의 순수한 물을 얻는다.",
-      "target_sha256": "69a81ecc28bb8fe8270af42df84d089b54a796a571a72f4f8252363acae0d4bc"
+      "target": "카이가 창립 가문이 소유한 샘물 급수관을 분기해 줍니다. 하루 2~4리터의 순수한 물을 얻습니다.",
+      "target_sha256": "708b8c57e1a549706465a2d639c8333381fd3ab39c1d7aed536012d74572a7eb"
     },
     {
       "dependencies": [],
@@ -127392,8 +127392,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "202e4d31899966ce8b207996b9be077e18acce67e8c239126f01c37f89466f84",
       "status": "reviewed",
-      "target": "카이가 당신을 대신해 밀러 박사의 스튜디오에 자금을 조금 투자한다. 쓸 만한 장비를 눈여겨본다. 대형 배낭, 고급 모듈 같은 물건이 더 자주 등장한다.",
-      "target_sha256": "6e2a4e992988c71b42c940fce0766478ab0a8b774ca67ac9f5516b867db9554f"
+      "target": "카이가 당신을 대신해 밀러 박사의 스튜디오에 자금을 조금 투자합니다. 쓸 만한 장비를 눈여겨봅니다. 대형 배낭, 고급 모듈 같은 물건이 더 자주 등장합니다.",
+      "target_sha256": "f04ce7a154d3215dd1b6d4bf56b374b6b1d2dc6402c4c2479a6088b2d60ec6da"
     },
     {
       "dependencies": [],
@@ -127414,8 +127414,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "0eec5304c4534954101a0775dc5a518e9b6d823bebe42fa421ebf8f2917b46ca",
       "status": "reviewed",
-      "target": "추가 투자다. 밀러 박사가 당신을 주요 고객으로 대우하며 좋은 장비가 더 자주 등장한다.",
-      "target_sha256": "33f22a5cbfb0d1b1665701e40fd1e993d9e679d8a3e2e0d8d920866c95b01351"
+      "target": "추가 투자입니다. 밀러 박사가 당신을 주요 고객으로 대우하며 좋은 장비가 더 자주 등장합니다.",
+      "target_sha256": "138a07a52dfa56786e019fbf0efd4e3a5dcbb8c32eadc1173b19596774468486"
     },
     {
       "dependencies": [],
@@ -127436,8 +127436,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "c3dce3dea5cb81eaa0e5e4634c13c6b3c61ba89a6a92cb60ff6d16c63329ad92",
       "status": "reviewed",
-      "target": "밀러 박사가 당신을 위해 특별 재고를 따로 마련하기 시작한다. 기계 공간 확장 장치, 대형 보관 공간, 자가 충전 셀, 고급 모듈 추출기다. 가끔 좋은 장비를 진열해 두는 특별 재고의 날이 열린다.",
-      "target_sha256": "8dbdc1cf6c57bd3978d83b6ea580fad2a608dcb37e3e0c557c48371718e45d9b"
+      "target": "밀러 박사가 당신을 위해 특별 재고를 따로 마련하기 시작합니다. 기계 공간 확장 장치, 대형 보관 공간, 자가 충전 셀, 고급 모듈 추출기입니다. 가끔 좋은 장비를 진열해 두는 특별 재고의 날이 열립니다.",
+      "target_sha256": "aa49dde5fba3c2f934695f34ee762208c2e0465bdb296c591b7b9429189e0419"
     },
     {
       "dependencies": [],
@@ -127458,8 +127458,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "9fda3c3fa016e437894a0c69fa660f91eb581e78179d83cf677d523ffa3bafe8",
       "status": "reviewed",
-      "target": "카이가 건물의 급수관을 가게까지 연결해 준다. 용기를 들고 수도꼭지를 클릭하면 기본 물을 받을 수 있다. 하루 4~6리터이며, 다 쓰면 끝이다.",
-      "target_sha256": "3e40f098bfd7613de58a03d9f72e717b70718fb57897913029382acf77f9ba36"
+      "target": "카이가 건물의 급수관을 가게까지 연결해 줍니다. 용기를 들고 수도꼭지를 클릭하면 기본 물을 받을 수 있습니다. 하루 4~6리터이며, 다 쓰면 끝입니다.",
+      "target_sha256": "27e074f479b59f4eac0de8ac028b2fa34350d0ff764d85dd8a8db9cafe616cbe"
     },
     {
       "dependencies": [],
@@ -127480,8 +127480,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "1f111505038063dbc5a1d37de422c1c68a8b8a474029899bc912412761b5f842",
       "status": "reviewed",
-      "target": "다단계 여과 장치가 달린 급수관이다. 고품질 물을 하루 3~5리터 얻는다.",
-      "target_sha256": "2fd02365d86b29983f8d68473d526ed5dc5cff54687d62d17020a80eb8b6ee60"
+      "target": "다단계 여과 장치가 달린 급수관입니다. 고품질 물을 하루 3~5리터 얻습니다.",
+      "target_sha256": "bedacd0ff7973ee734ed083528f93a9f66fae9376cc619e2f1f405500a56f378"
     },
     {
       "dependencies": [],
@@ -127502,8 +127502,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "8d4c93cd829e31871b02da1462f4eb38bd8fd5ea6bb745852f3440f87a90ad86",
       "status": "reviewed",
-      "target": "카이가 매장에 생체 인식 무인 판매함을 설치한다. 폐점 후에도 판매할 수 있다.",
-      "target_sha256": "421147356927af4cd5d2f6f755bb6231b79a71bb554177349a39f9b2c43cab22"
+      "target": "카이가 매장에 생체 인식 무인 판매함을 설치합니다. 폐점 후에도 판매할 수 있습니다.",
+      "target_sha256": "bb4bfcb4d640cec8457d75efbb8ce3271265ddcb35b1ddee48b346226f9ed752"
     },
     {
       "dependencies": [],
@@ -127524,8 +127524,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "a2ff603d2c34aace527ae06a4e5df8bcaded08b327c976535a1ef523fc7258e1",
       "status": "reviewed",
-      "target": "카이가 자신의 사교계에 당신의 상점을 추천한다. 상층 구역 고객의 지출 가능액이 {0}% 증가한다.",
-      "target_sha256": "1281a9974f4b3f2775ca59d8e47b1cbf3e9b3bdcddf79c7ac3f6b57ba4c30a63"
+      "target": "카이가 자신의 사교계에 당신의 상점을 추천합니다. 상층 구역 고객의 지출 가능액이 {0}% 증가합니다.",
+      "target_sha256": "6dd2f6b06d0a3065c8b611cb0847e3ad6b7ab0d10a6fff7c1e2e72d619903a1a"
     },
     {
       "dependencies": [],
@@ -127546,8 +127546,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "c5cf3a035a366a39e99c02822c8bd16e01a71c3907378bb2c888c93943c68c20",
       "status": "reviewed",
-      "target": "카이가 친구들에게 건네는 명단에 당신의 상점을 추가한다. 상층 구역 고객의 지출 가능액이 추가로 {0}% 증가한다.",
-      "target_sha256": "dbfb7ff650325a5c3c1ec33f050e31d429de37ef6c8b3a5188abec9ba7012a13"
+      "target": "카이가 친구들에게 건네는 명단에 당신의 상점을 추가합니다. 상층 구역 고객의 지출 가능액이 추가로 {0}% 증가합니다.",
+      "target_sha256": "0b819fbcc7a20ba8a0d177fa05af30bb6da0a9cfdd7b4c8fb1515ad1a1ec449c"
     },
     {
       "dependencies": [],
@@ -127568,8 +127568,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "767d36307b060fbbc7baf958fcc5c025f73c70a5a870a494f1b51ead028b97da",
       "status": "reviewed",
-      "target": "카이가 수집가들을 당신의 가게로 보낸다. 매일 {0}% 확률로 자금이 넉넉한 사치품 수집가가 방문한다.",
-      "target_sha256": "4c90e6d9c7328a37c94b75c478a6ad3a6257975763f580b9c77e24f9f71d69cd"
+      "target": "카이가 수집가들을 당신의 가게로 보냅니다. 매일 {0}% 확률로 자금이 넉넉한 사치품 수집가가 방문합니다.",
+      "target_sha256": "78cea58844630bd5b43e13af7cc6e69d722ef9604e7fd866cfb8bddd95f1fb6d"
     },
     {
       "dependencies": [],
@@ -127590,8 +127590,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "a0d5f0ebeb9c390fba5997976b1f47919cbf20a0fefc1d34224304c101b1f865",
       "status": "reviewed",
-      "target": "카이가 부자들의 지출을 늘리는 예절을 가르칠 강사를 고용한다. 상층 구역 고객과 관광객의 예산이 추가로 {0}% 증가한다.",
-      "target_sha256": "459cbe60e04591c4bc85df1655fba911fc18e2b07aa24bc6a2ae1b406e17b263"
+      "target": "카이가 부자들의 지출을 늘리는 예절을 가르칠 강사를 고용합니다. 상층 구역 고객과 관광객의 예산이 추가로 {0}% 증가합니다.",
+      "target_sha256": "eba6ecaa8e1222961b9bc3e10a0dc400703eacfa1877fea1e70e881c566acbb6"
     },
     {
       "dependencies": [],
@@ -127612,8 +127612,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "af3f2c6820d318fc845f951f4ce9142185f230eacaf1676ad4f6afccaaa06258",
       "status": "reviewed",
-      "target": "상점 이름으로 카이의 자선 갈라를 후원한다. 후원할 때마다 상층 구역 평판을 {0} 얻으며, 재사용 대기시간은 {1}일이다.",
-      "target_sha256": "b80de8d441804b7f0da8ca5681b37cc55486ae143a996e69440b3b042d0dfd23"
+      "target": "상점 이름으로 카이의 자선 갈라를 후원합니다. 후원할 때마다 상층 구역 평판을 {0} 얻으며, 재사용 대기시간은 {1}일입니다.",
+      "target_sha256": "bcabab45c14a95fb6f9c69a12bd8e277c34540006e243d40431d3c173fd963dc"
     },
     {
       "dependencies": [],
@@ -127634,8 +127634,8 @@
       "review_fingerprint": "b6219e946b09077dfa1aadceb3c1decdbdae3ae9cdbc6f5be5616671349a79e5",
       "source_sha256": "bfe451e41b5288e7c0122a7c4cbf7e32d7402d704fae1a0838157a47c3ee647a",
       "status": "reviewed",
-      "target": "카이가 비공개 살롱에 데려가 사람들을 소개한다. 상층 구역 평판을 즉시 {0} 얻는다.",
-      "target_sha256": "09b40de7959a7a37fec7f5744df8214cc9ba80d160adc597d865655f4a121c5f"
+      "target": "카이가 비공개 살롱에 데려가 사람들을 소개합니다. 상층 구역 평판을 즉시 {0} 얻습니다.",
+      "target_sha256": "90f11ce61c17cff268b58a88f6fc84c738f2f7a8c904a6798c5b5c45fb6bdec7"
     },
     {
       "dependencies": [],
@@ -127675,7 +127675,7 @@
     "verified": false
   },
   "patch_id": "probably-stolen-ko-localization",
-  "release_id": "local-r25",
+  "release_id": "local-r26",
   "schema": "parr0t.release-checkpoint/v1",
   "sdk": {
     "adapter_fingerprint": "3a1f63479f4f61d1ffa27ea05f0f6bdd48ee61113db13b56e05dbd232006d190",
