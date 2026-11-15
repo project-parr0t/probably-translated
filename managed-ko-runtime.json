@@ -1,6 +1,7 @@
 {
   "schema_version": 2,
   "inventory_fingerprint": "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b",
+  "entry_count": 26809,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",

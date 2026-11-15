@@ -129,7 +129,7 @@ namespace ProbablyStolenKo
             }
             catch (Exception error)
             {
-                _log.Error("Managed payload load deferred after " + error.GetType().Name + ".");
+                _log.Error("Managed payload load deferred after " + error.GetType().Name + ": " + error.Message);
             }
         }
 
