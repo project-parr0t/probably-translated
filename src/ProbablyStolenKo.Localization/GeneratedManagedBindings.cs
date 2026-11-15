@@ -30,9 +30,9 @@ namespace ProbablyStolenKo
     internal static class GeneratedManagedBindings
     {
         internal const string InventoryFingerprint = "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b";
-        internal const int RouteCount = 641;
-        internal const int BindingCount = 199;
-        internal const int StaticPatchBindingCount = 199;
+        internal const int RouteCount = 645;
+        internal const int BindingCount = 203;
+        internal const int StaticPatchBindingCount = 203;
         internal const int UnsupportedBindingCount = 0;
         internal const int RefreshBindingCount = 6;
         internal static IReadOnlyList<ManagedExactBinding> Create(string modId)
@@ -76,8 +76,11 @@ namespace ProbablyStolenKo
                 case "charles_chemistry_items":
                     Add_11_0(bindings);
                     break;
-                case "DeepSpaceClinic_InventoryTest":
+                case "va11halla":
                     Add_12_0(bindings);
+                    break;
+                case "DeepSpaceClinic_InventoryTest":
+                    Add_13_0(bindings);
                     break;
             }
             return bindings;
@@ -331,7 +334,15 @@ namespace ProbablyStolenKo
 
         private static void Add_12_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(199, 59, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_199), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(199, 0, "Va11HallA.BtcStoryProfiles", ".cctor", "", null, typeof(GeneratedManagedPatch_199), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(200, 1, "Va11HallA.BtcStationPanel", ".cctor", "", null, typeof(GeneratedManagedPatch_200), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(201, 2, "Va11HallA.DrinkRecipeBook", ".cctor", "", null, typeof(GeneratedManagedPatch_201), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(202, 3, "Va11HallA.Va11MixologyItems", ".cctor", "", null, typeof(GeneratedManagedPatch_202), "Transpiler", true, null));
+        }
+
+        private static void Add_13_0(ICollection<ManagedExactBinding> bindings)
+        {
+            bindings.Add(new ManagedExactBinding(203, 59, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_203), "Postfix", false, null));
         }
     }
 
@@ -2307,15 +2318,47 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileFieldStoreBinding(instructions, 198);
     }
-    [HarmonyPatch]
+    [HarmonyPatch("Va11HallA.BtcStoryProfiles", null, MethodType.StaticConstructor)]
     internal static class GeneratedManagedPatch_199
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(199);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 199);
+    }
+    [HarmonyPatch("Va11HallA.BtcStationPanel", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_200
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(200);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 200);
+    }
+    [HarmonyPatch("Va11HallA.DrinkRecipeBook", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_201
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(201);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 201);
+    }
+    [HarmonyPatch("Va11HallA.Va11MixologyItems", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_202
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(202);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 202);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_203
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(203);
         [HarmonyTargetMethod]
         internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicText", "T", new Type[] { typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 199);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 203);
     }
 
     internal static class GeneratedManagedRefresh

@@ -77,15 +77,21 @@ namespace ProbablyStolenKo
             var texture = new Texture2D(2, 2, TextureFormat.RGBA32, false)
             {
                 name = key + ".ko",
-                filterMode = FilterMode.Point,
+                filterMode = FilterMode.Bilinear,
                 wrapMode = TextureWrapMode.Clamp
             };
             try
             {
-                if (!ImageConversion.LoadImage(texture, bytes, true) || texture.width != 315 || texture.height != 214)
+                var logicalWidth = key == "va11halla_panel" ? 872 : 315;
+                var logicalHeight = key == "va11halla_panel" ? 582 : 214;
+                if (!ImageConversion.LoadImage(texture, bytes, true) ||
+                    texture.width != logicalWidth * 4 || texture.height != logicalHeight * 4)
                     throw new InvalidOperationException("Invalid VA-11 recipe image: " + key);
-                sprite = Sprite.Create(texture, new Rect(0f, 0f, 315f, 214f), new Vector2(0.5f, 0.5f), 100f);
-                sprite.name = key + ".ko";
+                sprite = Sprite.Create(
+                    texture,
+                    new Rect(0f, 0f, texture.width, texture.height),
+                    new Vector2(0.5f, 0.5f),
+                    400f);
                 _textures.Add(texture);
                 _sprites.Add(key, sprite);
                 return sprite;
@@ -117,7 +123,8 @@ namespace ProbablyStolenKo
             var paths = new Dictionary<string, string>(StringComparer.Ordinal)
             {
                 ["va11halla_recipe_intro"] = AssetDirectory + "recipe_intro.png",
-                ["va11halla_recipe_hint"] = AssetDirectory + "recipe_hint.png"
+                ["va11halla_recipe_hint"] = AssetDirectory + "recipe_hint.png",
+                ["va11halla_panel"] = AssetDirectory + "panel_ko.png"
             };
             for (var page = 1; page <= 24; page++)
                 paths.Add("va11halla_recipe_" + page, AssetDirectory + "recipe_" + page.ToString("00") + ".png");
@@ -129,7 +136,9 @@ namespace ProbablyStolenKo
             var keys = new Dictionary<string, string>(StringComparer.Ordinal)
             {
                 ["Va11HallA.Assets.recipe_intro_cn_0.png"] = "va11halla_recipe_intro",
-                ["Va11HallA.Assets.recipe_hint_cn_0.png"] = "va11halla_recipe_hint"
+                ["Va11HallA.Assets.recipe_hint_cn_0.png"] = "va11halla_recipe_hint",
+                ["Va11HallA.Assets.BTC调酒台界面.png"] = "va11halla_panel",
+                ["Va11HallA.Assets.BTC调酒台界面_EN.png"] = "va11halla_panel"
             };
             for (var page = 1; page <= 24; page++)
                 keys.Add("Va11HallA.Assets.recipes_cn_" + page + ".png", "va11halla_recipe_" + page);

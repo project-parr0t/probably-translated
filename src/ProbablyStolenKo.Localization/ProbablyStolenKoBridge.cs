@@ -201,7 +201,9 @@ namespace ProbablyStolenKo
             }
             catch (Exception error)
             {
-                _log.Error("Managed target overlay failed for " + loaded.Manifest.ID + ". " + error.GetType().Name);
+                _log.Error(
+                    "Managed target overlay failed for " + loaded.Manifest.ID + ". " +
+                    error.GetType().Name + ": " + error.Message);
             }
         }
 
