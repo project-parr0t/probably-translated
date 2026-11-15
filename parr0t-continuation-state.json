@@ -4,7 +4,7 @@
     "managed-ko-runtime.json": "44abadd7b60b932c5dac89f5c38c504a80efa8710da22b13accefc7ba7f09010",
     "manifest.xml": "c04263933c625b6c4b65b86bfbd4a78aef17efe83fa6a70775fa2232f7862aac",
     "parr0t-release-checkpoint.json": "3ccb0d7fadbe737e71c0908713d65d0ba4c69d8b56e5b5ac04ad618e82483c8e",
-    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "048f77f94856950a92892591eb0f8f889a0fa5eca92a2496381773e11cf936c3",
+    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "4cd240d2e3af6f792c05b7653535c3fc6eaa5ed2d1e7e4a95f7c696adc4c2740",
     "workshop-ko-runtime.json": "e571ac328ae428c0d21f341ab5138af4770720b6c40c6ca5993ccb14f021b8b7"
   },
   "contracts": {
@@ -43,7 +43,7 @@
     },
     "workshop-overlays": {
       "files": 17,
-      "sha256": "ec3937005a64f8870c98bae4d45d278a59a71c809c953044dc217ef6ff04d914"
+      "sha256": "a7c01604b934c6f7acfbae104ef96f9f0b18bbb29d0b12f0e5ff839f388ac409"
     }
   }
 }

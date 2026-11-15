@@ -66,9 +66,9 @@ try {
         $expectedLine = "routes=$($state.contracts.generated_routes) bindings=$($state.contracts.generated_bindings) static_patches=$($state.contracts.generated_static_patches) unsupported=$($state.contracts.generated_unsupported) refresh=$($state.contracts.generated_refresh)"
         if ($generatorLine -ne $expectedLine) { throw "Generated binding contract mismatch: $generatorLine" }
         $trackedGenerated = Join-Path $root "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs"
-        if ((Get-FileHash $generated -Algorithm SHA256).Hash -ne (Get-FileHash $trackedGenerated -Algorithm SHA256).Hash) {
-            throw "Tracked generated bindings are stale"
-        }
+        $generatedText = (Get-Content -LiteralPath $generated -Raw -Encoding UTF8).Replace("`r`n", "`n")
+        $trackedText = (Get-Content -LiteralPath $trackedGenerated -Raw -Encoding UTF8).Replace("`r`n", "`n")
+        if ($generatedText -cne $trackedText) { throw "Tracked generated bindings are stale" }
     }
 
     $buildOutput = Join-Path $temp "build"

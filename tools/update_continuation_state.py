@@ -8,8 +8,16 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
+TEXT_SUFFIXES = {".cs", ".csv", ".json", ".md", ".ps1", ".py", ".xml"}
+
+
+def canonical_bytes(path: Path) -> bytes:
+    data = path.read_bytes()
+    return data.replace(b"\r\n", b"\n") if path.suffix.lower() in TEXT_SUFFIXES else data
+
+
 def sha256(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    return hashlib.sha256(canonical_bytes(path)).hexdigest()
 
 
 def tree_digest(root: Path, relative: str) -> tuple[int, str]:
