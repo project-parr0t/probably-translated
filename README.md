@@ -47,6 +47,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Better UV Lamp](https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349)
 - [Eleanor: Bring Her Back](https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808)
 - [Deep Space Mine: Probably Crystal](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650)
+- [Deep Space Clinic 2077](https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040)
 
 ## 다른 번역 모드들과 겹쳐도 작동하나요?
 확실하지 않습니다. 다만, 이 모드는 제가 개인적으로 즐기기 위해서 일괄로 번역을 수행하고 사용하고 있습니다.

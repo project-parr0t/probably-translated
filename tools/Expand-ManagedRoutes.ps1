@@ -204,6 +204,7 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
                         else { $expressions.Add($expression) }
                     }
                     $sameNameCount = @($type.Methods | Where-Object Name -eq $method.Name).Count
+                    $completeSignature = $null -eq $issue -and $expressions.Count -eq $method.Parameters.Count
                     $staticSignature = $null -eq $issue
                     foreach ($expression in $expressions) {
                         if (-not $expression.StartsWith('typeof(global::', [StringComparison]::Ordinal) -or
@@ -223,7 +224,7 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
                             $issue = 'Harmony constructor patch cannot select an overloaded external signature'
                             $unsupportedCount++
                         }
-                    } elseif ($sameNameCount -eq 1 -or $staticSignature) {
+                    } elseif ($sameNameCount -eq 1 -or $completeSignature) {
                         $kind = 'StaticPatch'
                         $staticPatchCount++
                     } elseif ($null -ne $issue) {
@@ -269,8 +270,8 @@ Line '{'
 Line '    internal enum ManagedBindingKind { Normal, StaticPatch, Unsupported }'
 Line '    internal sealed class ManagedExactBinding'
 Line '    {'
-Line '        internal ManagedExactBinding(int id, int routeIndex, string typeName, string methodName, string signature, Type[] parameterTypes, Type patchType, string issue)'
-Line '        { Id = id; RouteIndex = routeIndex; TypeName = typeName; MethodName = methodName; Signature = signature; ParameterTypes = parameterTypes; PatchType = patchType; Issue = issue; }'
+Line '        internal ManagedExactBinding(int id, int routeIndex, string typeName, string methodName, string signature, Type[] parameterTypes, Type patchType, string patchMethodName, bool usesPatchAttributes, string issue)'
+Line '        { Id = id; RouteIndex = routeIndex; TypeName = typeName; MethodName = methodName; Signature = signature; ParameterTypes = parameterTypes; PatchType = patchType; PatchMethodName = patchMethodName; UsesPatchAttributes = usesPatchAttributes; Issue = issue; }'
 Line '        internal int Id { get; }'
 Line '        internal int RouteIndex { get; }'
 Line '        internal string TypeName { get; }'
@@ -278,6 +279,8 @@ Line '        internal string MethodName { get; }'
 Line '        internal string Signature { get; }'
 Line '        internal Type[] ParameterTypes { get; }'
 Line '        internal Type PatchType { get; }'
+Line '        internal string PatchMethodName { get; }'
+Line '        internal bool UsesPatchAttributes { get; }'
 Line '        internal string Issue { get; }'
 Line '        internal ManagedBindingKind Kind => Issue != null ? ManagedBindingKind.Unsupported : PatchType != null ? ManagedBindingKind.StaticPatch : ManagedBindingKind.Normal;'
 Line '    }'
@@ -316,10 +319,13 @@ for ($targetNumber = 0; $targetNumber -lt $targets.Count; $targetNumber++) {
         $end = [Math]::Min($start + 125, $target.Bindings.Count)
         for ($index = $start; $index -lt $end; $index++) {
             $binding = $target.Bindings[$index]
-            $parameters = if ($binding.Kind -eq 'StaticPatch' -or $binding.UnqualifiedTarget) { 'null' } elseif ($binding.Expressions.Count -eq 0) { 'Type.EmptyTypes' } else { 'new Type[] { ' + ($binding.Expressions -join ', ') + ' }' }
+            $usesPatchAttributes = $binding.MethodName -eq '.cctor' -or $binding.MethodName -eq '.ctor'
+            $parameters = if ($usesPatchAttributes) { 'null' } elseif ($binding.Expressions.Count -eq 0) { 'Type.EmptyTypes' } else { 'new Type[] { ' + ($binding.Expressions -join ', ') + ' }' }
             $patchType = if ($binding.Kind -eq 'StaticPatch') { "typeof(GeneratedManagedPatch_$($binding.Id))" } else { 'null' }
+            $mode = [string]$target.Routes[$binding.RouteIndex]['mode']
+            $patchMethodName = if ($mode -eq 'literal' -or $mode -eq 'literal_occurrence' -or $mode -eq 'field_store') { 'Transpiler' } else { 'Postfix' }
             $issue = if ($null -eq $binding.Issue) { 'null' } else { '"' + (Escape-CSharp $binding.Issue) + '"' }
-            Line ('            bindings.Add(new ManagedExactBinding(' + $binding.Id + ', ' + $binding.RouteIndex + ', "' + (Escape-CSharp $binding.TypeName) + '", "' + (Escape-CSharp $binding.MethodName) + '", "' + (Escape-CSharp $binding.Signature) + '", ' + $parameters + ', ' + $patchType + ', ' + $issue + '));')
+            Line ('            bindings.Add(new ManagedExactBinding(' + $binding.Id + ', ' + $binding.RouteIndex + ', "' + (Escape-CSharp $binding.TypeName) + '", "' + (Escape-CSharp $binding.MethodName) + '", "' + (Escape-CSharp $binding.Signature) + '", ' + $parameters + ', ' + $patchType + ', "' + $patchMethodName + '", ' + $usesPatchAttributes.ToString().ToLowerInvariant() + ', ' + $issue + '));')
         }
         Line '        }'
     }

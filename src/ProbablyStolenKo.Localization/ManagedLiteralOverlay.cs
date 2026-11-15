@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Reflection.Emit;
 using HarmonyLib;
 using Newtonsoft.Json.Linq;
@@ -78,8 +79,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "7f4783cdb9f20aa37e099e7b96e6189da0bc9ba99f2f87b3ce163ac1ae0929a0";
-        private const int ExpectedEntries = 23516;
+        private const string ExpectedFingerprint = "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b";
+        private const int ExpectedEntries = 26754;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -109,8 +110,10 @@ namespace ProbablyStolenKo
                 ["combat_contracts"] = "3834364038",
                 ["eleanor_rescue"] = "3834076808",
                 ["charles_chemistry_items"] = "3838151650",
+                ["va11halla"] = "3831732004",
+                ["DeepSpaceClinic_InventoryTest"] = "3832819040",
             };
-        private const int ExpectedTargets = 26;
+        private const int ExpectedTargets = 28;
 
         private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets)
         {
@@ -143,8 +146,10 @@ namespace ProbablyStolenKo
                 var sourceRoutes = target?["routes"] as JArray;
                 var sourceRefresh = target?["refresh"] as JArray;
                 if (string.IsNullOrWhiteSpace(targetProperty.Name) || string.IsNullOrWhiteSpace(workshopItemId) ||
-                    !entryCount.HasValue || entryCount.Value < 1 || sourceRoutes == null || sourceRefresh == null ||
-                    (sourceRoutes.Count != 0 && string.IsNullOrWhiteSpace(assemblyName)))
+                    !entryCount.HasValue || entryCount.Value < 0 || sourceRoutes == null || sourceRefresh == null ||
+                    (sourceRoutes.Count != 0 && string.IsNullOrWhiteSpace(assemblyName)) ||
+                    (entryCount.Value == 0 && (sourceRoutes.Count != 0 || sourceRefresh.Count != 0 ||
+                        (string.IsNullOrWhiteSpace(manifestName) && string.IsNullOrWhiteSpace(manifestDescription)))))
                     throw new FormatException("Incomplete managed target record.");
                 string expectedWorkshopItem;
                 if (!ExpectedWorkshopItems.TryGetValue(targetProperty.Name, out expectedWorkshopItem) ||
@@ -225,6 +230,7 @@ namespace ProbablyStolenKo
         internal void ApplyTarget(string modId, ManagedTarget target)
         {
             if (target == null || _appliedTargets.Contains(modId) || !_attemptedTargets.Add(modId)) return;
+            var started = Stopwatch.GetTimestamp();
             var bindings = GeneratedManagedBindings.Create(modId);
             if (target.Routes.Count != 0 && bindings.Count == 0)
                 throw new InvalidOperationException("No generated exact bindings exist for managed target " + modId + ".");
@@ -243,7 +249,8 @@ namespace ProbablyStolenKo
                 GeneratedManagedRefresh.Invoke(modId);
                 if (target.Refresh.Count != 0) _appliedRefresh.Add(modId);
                 _appliedTargets.Add(modId);
-                _log.Log("Applied managed Korean routes to " + modId + ".");
+                var elapsedMs = (Stopwatch.GetTimestamp() - started) * 1000L / Stopwatch.Frequency;
+                _log.Log("Applied " + bindings.Count + " managed Korean bindings to " + modId + " in " + elapsedMs + " ms.");
             }
             catch
             {
@@ -280,7 +287,21 @@ namespace ProbablyStolenKo
             }
             try
             {
-                harmony.CreateClassProcessor(binding.PatchType).Patch();
+                if (binding.UsesPatchAttributes)
+                {
+                    harmony.CreateClassProcessor(binding.PatchType).Patch();
+                    return;
+                }
+
+                var original = ModReflect.Target(
+                    binding.TypeName,
+                    binding.MethodName,
+                    binding.ParameterTypes ?? Type.EmptyTypes);
+                var patch = new HarmonyMethod(binding.PatchType, binding.PatchMethodName);
+                if (binding.PatchMethodName == "Transpiler")
+                    harmony.Patch(original, transpiler: patch);
+                else
+                    harmony.Patch(original, postfix: patch);
             }
             finally
             {

@@ -23,6 +23,7 @@ namespace ProbablyStolenKo
         private ManagedLiteralCatalog _managedCatalog;
         private ManagedLiteralOverlay _managedOverlay;
         private ManifestOverlay _manifestOverlay;
+        private Va11RecipeOverlay _va11RecipeOverlay;
         private ModLog _log;
         private bool _enabled;
         private bool _activated;
@@ -38,6 +39,7 @@ namespace ProbablyStolenKo
             _log = new ModLog(_manifest);
             _managedOverlay = new ManagedLiteralOverlay(_log);
             _manifestOverlay = new ManifestOverlay();
+            _va11RecipeOverlay = new Va11RecipeOverlay(_manifest);
         }
 
         public void OnEnable()
@@ -149,6 +151,18 @@ namespace ProbablyStolenKo
                     _log.Error("Target overlay failed for " + loaded.Manifest.ID + ". " + error.GetType().Name);
                 }
             }
+            if (StringComparer.Ordinal.Equals(loaded.Manifest.ID, "va11halla"))
+            {
+                try
+                {
+                    _va11RecipeOverlay.Apply(loaded.Manifest.ID);
+                }
+                catch (Exception error)
+                {
+                    _log.Error("VA-11 recipe overlay failed. " + error.GetType().Name);
+                }
+            }
+
 
             ManagedTarget manifestTarget;
             if (_managedCatalog != null && _managedCatalog.Targets.TryGetValue(loaded.Manifest.ID, out manifestTarget) &&
@@ -189,6 +203,7 @@ namespace ProbablyStolenKo
                 _assetsSubscribed = false;
             }
             _managedOverlay?.Restore();
+            _va11RecipeOverlay?.Restore();
             _manifestOverlay?.Restore();
             WorkshopOverlayEngine.Restore(_workshopCatalog, _workshopOriginals);
         }

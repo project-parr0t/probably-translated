@@ -24,7 +24,7 @@ The first command builds the runtime; the second promotes that exact output to t
 
 ## Regenerate managed route bindings
 
-`tools/Expand-ManagedRoutes.ps1` expands every reviewed runtime route into generated Harmony patch classes. Normal methods use literal `ModReflect.Target` calls with exact parameter signatures. Constructor patches retain statically auditable Harmony metadata because `ModReflect.Target` resolves methods only. All six refresh targets use the same checked API.
+`tools/Expand-ManagedRoutes.ps1` expands every reviewed runtime route into generated Harmony patch classes. Normal methods resolve through literal, exact-signature `ModReflect.Target` calls and are passed directly to `Harmony.Patch`; this avoids hundreds of redundant Harmony attribute scans during startup. Constructor patches retain statically auditable Harmony metadata because `ModReflect.Target` resolves methods only. All six refresh targets use the same checked API.
 
 Regenerate the bindings whenever a supported managed mod changes:
 

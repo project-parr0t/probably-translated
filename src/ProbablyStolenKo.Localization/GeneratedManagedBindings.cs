@@ -12,8 +12,8 @@ namespace ProbablyStolenKo
     internal enum ManagedBindingKind { Normal, StaticPatch, Unsupported }
     internal sealed class ManagedExactBinding
     {
-        internal ManagedExactBinding(int id, int routeIndex, string typeName, string methodName, string signature, Type[] parameterTypes, Type patchType, string issue)
-        { Id = id; RouteIndex = routeIndex; TypeName = typeName; MethodName = methodName; Signature = signature; ParameterTypes = parameterTypes; PatchType = patchType; Issue = issue; }
+        internal ManagedExactBinding(int id, int routeIndex, string typeName, string methodName, string signature, Type[] parameterTypes, Type patchType, string patchMethodName, bool usesPatchAttributes, string issue)
+        { Id = id; RouteIndex = routeIndex; TypeName = typeName; MethodName = methodName; Signature = signature; ParameterTypes = parameterTypes; PatchType = patchType; PatchMethodName = patchMethodName; UsesPatchAttributes = usesPatchAttributes; Issue = issue; }
         internal int Id { get; }
         internal int RouteIndex { get; }
         internal string TypeName { get; }
@@ -21,16 +21,18 @@ namespace ProbablyStolenKo
         internal string Signature { get; }
         internal Type[] ParameterTypes { get; }
         internal Type PatchType { get; }
+        internal string PatchMethodName { get; }
+        internal bool UsesPatchAttributes { get; }
         internal string Issue { get; }
         internal ManagedBindingKind Kind => Issue != null ? ManagedBindingKind.Unsupported : PatchType != null ? ManagedBindingKind.StaticPatch : ManagedBindingKind.Normal;
     }
 
     internal static class GeneratedManagedBindings
     {
-        internal const string InventoryFingerprint = "7f4783cdb9f20aa37e099e7b96e6189da0bc9ba99f2f87b3ce163ac1ae0929a0";
-        internal const int RouteCount = 352;
-        internal const int BindingCount = 441;
-        internal const int StaticPatchBindingCount = 441;
+        internal const string InventoryFingerprint = "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b";
+        internal const int RouteCount = 641;
+        internal const int BindingCount = 730;
+        internal const int StaticPatchBindingCount = 730;
         internal const int UnsupportedBindingCount = 0;
         internal const int RefreshBindingCount = 6;
         internal static IReadOnlyList<ManagedExactBinding> Create(string modId)
@@ -76,505 +78,811 @@ namespace ProbablyStolenKo
                 case "charles_chemistry_items":
                     Add_11_0(bindings);
                     break;
+                case "DeepSpaceClinic_InventoryTest":
+                    Add_12_0(bindings);
+                    Add_12_1(bindings);
+                    Add_12_2(bindings);
+                    break;
             }
             return bindings;
         }
 
         private static void Add_0_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(1, 0, "AquaSense.Core+<>c", "<Init>b__0_0", "", null, typeof(GeneratedManagedPatch_1), null));
-            bindings.Add(new ManagedExactBinding(2, 0, "AquaSense.Core+<>c", "<Init>b__0_1", "", null, typeof(GeneratedManagedPatch_2), null));
-            bindings.Add(new ManagedExactBinding(3, 0, "AquaSense.Core+<>c", "<Init>b__0_2", "", null, typeof(GeneratedManagedPatch_3), null));
-            bindings.Add(new ManagedExactBinding(4, 0, "AquaSense.Core+<>c", "<Init>b__0_3", "", null, typeof(GeneratedManagedPatch_4), null));
-            bindings.Add(new ManagedExactBinding(5, 0, "AquaSense.Core+<>c", "<Init>b__0_4", "", null, typeof(GeneratedManagedPatch_5), null));
-            bindings.Add(new ManagedExactBinding(6, 0, "AquaSense.Core+<>c", "<Init>b__0_5", "", null, typeof(GeneratedManagedPatch_6), null));
-            bindings.Add(new ManagedExactBinding(7, 0, "AquaSense.Core+<>c", "<Init>b__0_6", "", null, typeof(GeneratedManagedPatch_7), null));
-            bindings.Add(new ManagedExactBinding(8, 0, "AquaSense.Core+<>c", "<Init>b__0_7", "", null, typeof(GeneratedManagedPatch_8), null));
-            bindings.Add(new ManagedExactBinding(9, 0, "AquaSense.Core+<>c", "<Init>b__0_8", "", null, typeof(GeneratedManagedPatch_9), null));
-            bindings.Add(new ManagedExactBinding(10, 0, "AquaSense.Core+<>c", "<Init>b__0_9", "", null, typeof(GeneratedManagedPatch_10), null));
-            bindings.Add(new ManagedExactBinding(11, 0, "AquaSense.Core+<>c", "<Init>b__0_10", "", null, typeof(GeneratedManagedPatch_11), null));
-            bindings.Add(new ManagedExactBinding(12, 0, "AquaSense.Core+<>c", "<Init>b__0_11", "", null, typeof(GeneratedManagedPatch_12), null));
-            bindings.Add(new ManagedExactBinding(13, 0, "AquaSense.Core+<>c", "<Init>b__0_12", "", null, typeof(GeneratedManagedPatch_13), null));
-            bindings.Add(new ManagedExactBinding(14, 0, "AquaSense.Core+<>c", "<Init>b__0_13", "", null, typeof(GeneratedManagedPatch_14), null));
-            bindings.Add(new ManagedExactBinding(15, 0, "AquaSense.Core+<>c", "<Init>b__0_14", "", null, typeof(GeneratedManagedPatch_15), null));
-            bindings.Add(new ManagedExactBinding(16, 0, "AquaSense.ConfigPanel", "BuildEntryPrefix", "CustomUIBuilder, ModConfig, ConfigEntry", null, typeof(GeneratedManagedPatch_16), null));
-            bindings.Add(new ManagedExactBinding(17, 0, "AquaSense.Hooks", "GetWaterAnalysis", "GameItem", null, typeof(GeneratedManagedPatch_17), null));
-            bindings.Add(new ManagedExactBinding(18, 0, "AquaSense.Hooks", "AppendFilterDurability", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_18), null));
-            bindings.Add(new ManagedExactBinding(19, 0, "AquaSense.Hooks", "GetCompositionApiRows", "GameItem", null, typeof(GeneratedManagedPatch_19), null));
-            bindings.Add(new ManagedExactBinding(20, 0, "AquaSense.Hooks", "AppendComposition", "RichTextBuilder, AquaSense.Hooks+WaterAnalysis", null, typeof(GeneratedManagedPatch_20), null));
-            bindings.Add(new ManagedExactBinding(21, 0, "AquaSense.Hooks", "TryGetDepletedFilter", "GameItem, GameItem&", null, typeof(GeneratedManagedPatch_21), null));
-            bindings.Add(new ManagedExactBinding(22, 0, "AquaSense.Hooks", "TryGetDepletedCloth", "GameItem, GameItem&", null, typeof(GeneratedManagedPatch_22), null));
-            bindings.Add(new ManagedExactBinding(23, 0, "AquaSense.Hooks", "IsAvailableFilter", "GameItem", null, typeof(GeneratedManagedPatch_23), null));
-            bindings.Add(new ManagedExactBinding(24, 0, "AquaSense.Hooks", "IsAvailableCloth", "GameItem", null, typeof(GeneratedManagedPatch_24), null));
-            bindings.Add(new ManagedExactBinding(25, 0, "AquaSense.Hooks", "BuildFilterToast", "System.String, System.String, System.String&", null, typeof(GeneratedManagedPatch_25), null));
-            bindings.Add(new ManagedExactBinding(26, 0, "AquaSense.Hooks", "TryGetParentInventory", "GameItem, GameInventory&", null, typeof(GeneratedManagedPatch_26), null));
-            bindings.Add(new ManagedExactBinding(27, 0, "AquaSense.Hooks", "IsWaterContainer", "GameItem", null, typeof(GeneratedManagedPatch_27), null));
+            bindings.Add(new ManagedExactBinding(1, 0, "AquaSense.Core+<>c", "<Init>b__0_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_1), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(2, 0, "AquaSense.Core+<>c", "<Init>b__0_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_2), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(3, 0, "AquaSense.Core+<>c", "<Init>b__0_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_3), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(4, 0, "AquaSense.Core+<>c", "<Init>b__0_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_4), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(5, 0, "AquaSense.Core+<>c", "<Init>b__0_4", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_5), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(6, 0, "AquaSense.Core+<>c", "<Init>b__0_5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_6), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(7, 0, "AquaSense.Core+<>c", "<Init>b__0_6", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_7), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(8, 0, "AquaSense.Core+<>c", "<Init>b__0_7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_8), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(9, 0, "AquaSense.Core+<>c", "<Init>b__0_8", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_9), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(10, 0, "AquaSense.Core+<>c", "<Init>b__0_9", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_10), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(11, 0, "AquaSense.Core+<>c", "<Init>b__0_10", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_11), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(12, 0, "AquaSense.Core+<>c", "<Init>b__0_11", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_12), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(13, 0, "AquaSense.Core+<>c", "<Init>b__0_12", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_13), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(14, 0, "AquaSense.Core+<>c", "<Init>b__0_13", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_14), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(15, 0, "AquaSense.Core+<>c", "<Init>b__0_14", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_15), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(16, 0, "AquaSense.ConfigPanel", "BuildEntryPrefix", "CustomUIBuilder, ModConfig, ConfigEntry", new Type[] { typeof(global::CustomUIBuilder), typeof(global::ModConfig), typeof(global::ConfigEntry) }, typeof(GeneratedManagedPatch_16), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(17, 0, "AquaSense.Hooks", "GetWaterAnalysis", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_17), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(18, 0, "AquaSense.Hooks", "AppendFilterDurability", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_18), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(19, 0, "AquaSense.Hooks", "GetCompositionApiRows", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_19), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(20, 0, "AquaSense.Hooks", "AppendComposition", "RichTextBuilder, AquaSense.Hooks+WaterAnalysis", new Type[] { typeof(global::RichTextBuilder), ModReflect.FindType("AquaSense.Hooks+WaterAnalysis") }, typeof(GeneratedManagedPatch_20), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(21, 0, "AquaSense.Hooks", "TryGetDepletedFilter", "GameItem, GameItem&", new Type[] { typeof(global::GameItem), (typeof(global::GameItem)).MakeByRefType() }, typeof(GeneratedManagedPatch_21), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(22, 0, "AquaSense.Hooks", "TryGetDepletedCloth", "GameItem, GameItem&", new Type[] { typeof(global::GameItem), (typeof(global::GameItem)).MakeByRefType() }, typeof(GeneratedManagedPatch_22), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(23, 0, "AquaSense.Hooks", "IsAvailableFilter", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_23), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(24, 0, "AquaSense.Hooks", "IsAvailableCloth", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_24), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(25, 0, "AquaSense.Hooks", "BuildFilterToast", "System.String, System.String, System.String&", new Type[] { typeof(global::System.String), typeof(global::System.String), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_25), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(26, 0, "AquaSense.Hooks", "TryGetParentInventory", "GameItem, GameInventory&", new Type[] { typeof(global::GameItem), (typeof(global::GameInventory)).MakeByRefType() }, typeof(GeneratedManagedPatch_26), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(27, 0, "AquaSense.Hooks", "IsWaterContainer", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_27), "Transpiler", false, null));
         }
 
         private static void Add_1_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(28, 0, "SmartInventoryArrange.ArrangeFeedback", "OutcomeText", "SmartInventoryArrange.ArrangeNotice, System.Boolean", null, typeof(GeneratedManagedPatch_28), null));
-            bindings.Add(new ManagedExactBinding(29, 0, "SmartInventoryArrange.ArrangeFeedback", "OverlayText", "System.Double", null, typeof(GeneratedManagedPatch_29), null));
-            bindings.Add(new ManagedExactBinding(30, 0, "SmartInventoryArrange.ArrangeUndo+<>c__DisplayClass27_0", "<Execute>g__Report|5", "System.Exception", null, typeof(GeneratedManagedPatch_30), null));
-            bindings.Add(new ManagedExactBinding(31, 0, "SmartInventoryArrange.ArrangeUndo+<Execute>d__27", "MoveNext", "", null, typeof(GeneratedManagedPatch_31), null));
-            bindings.Add(new ManagedExactBinding(32, 0, "SmartInventoryArrange.FixedPlacementController", "Start", "SmartInventoryArrange.FixedPlacementController+Request", null, typeof(GeneratedManagedPatch_32), null));
-            bindings.Add(new ManagedExactBinding(33, 0, "SmartInventoryArrange.FixedPlacementController", "NoLayout", "", null, typeof(GeneratedManagedPatch_33), null));
-            bindings.Add(new ManagedExactBinding(34, 0, "SmartInventoryArrange.FixedPlacementController", "Failed", "System.Exception, SmartInventoryArrange.InventoryTransaction", null, typeof(GeneratedManagedPatch_34), null));
-            bindings.Add(new ManagedExactBinding(35, 0, "SmartInventoryArrange.FixedPlacementController+<Execute>d__14", "MoveNext", "", null, typeof(GeneratedManagedPatch_35), null));
-            bindings.Add(new ManagedExactBinding(36, 0, "SmartInventoryArrange.FixedPlacementController+<ExecuteCross>d__21", "MoveNext", "", null, typeof(GeneratedManagedPatch_36), null));
-            bindings.Add(new ManagedExactBinding(37, 0, "SmartInventoryArrange.InventoryTransaction", "Categories", "GameItem", null, typeof(GeneratedManagedPatch_37), null));
-            bindings.Add(new ManagedExactBinding(38, 0, "SmartInventoryArrange.FixedRules", "Load", "System.String", null, typeof(GeneratedManagedPatch_38), null));
-            bindings.Add(new ManagedExactBinding(39, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawFixedPage", "", null, typeof(GeneratedManagedPatch_39), null));
-            bindings.Add(new ManagedExactBinding(40, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawTypePicker", "System.Single", null, typeof(GeneratedManagedPatch_40), null));
-            bindings.Add(new ManagedExactBinding(41, 0, "SmartInventoryArrange.UnifiedSettingsGui", "UpdateFixedPage", "", null, typeof(GeneratedManagedPatch_41), null));
-            bindings.Add(new ManagedExactBinding(42, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_SelectItems", "", null, typeof(GeneratedManagedPatch_42), null));
-            bindings.Add(new ManagedExactBinding(43, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_OldModeName", "", null, typeof(GeneratedManagedPatch_43), null));
-            bindings.Add(new ManagedExactBinding(44, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_PreserveDescription", "", null, typeof(GeneratedManagedPatch_44), null));
-            bindings.Add(new ManagedExactBinding(45, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_OrientationHint", "", null, typeof(GeneratedManagedPatch_45), null));
-            bindings.Add(new ManagedExactBinding(46, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_InsertHint", "", null, typeof(GeneratedManagedPatch_46), null));
-            bindings.Add(new ManagedExactBinding(47, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_AfterInsertHint", "", null, typeof(GeneratedManagedPatch_47), null));
-            bindings.Add(new ManagedExactBinding(48, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_FixedPlacementHint", "", null, typeof(GeneratedManagedPatch_48), null));
-            bindings.Add(new ManagedExactBinding(49, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_InsertCaption", "", null, typeof(GeneratedManagedPatch_49), null));
-            bindings.Add(new ManagedExactBinding(50, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_MenuTopCaption", "", null, typeof(GeneratedManagedPatch_50), null));
-            bindings.Add(new ManagedExactBinding(51, 0, "SmartInventoryArrange.UnifiedSettingsGui", "SmallKey", "System.String, SmartInventoryArrange.SettingsHotkey, SmartInventoryArrange.SettingsBinding, UnityEngine.Color", null, typeof(GeneratedManagedPatch_51), null));
-            bindings.Add(new ManagedExactBinding(52, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Experiment", "SmartInventoryArrange.SettingsAction, System.String, System.Boolean", null, typeof(GeneratedManagedPatch_52), null));
-            bindings.Add(new ManagedExactBinding(53, 0, "SmartInventoryArrange.UnifiedSettingsGui", "ModeCard", "SmartInventoryArrange.SettingsAction, System.Boolean", null, typeof(GeneratedManagedPatch_53), null));
-            bindings.Add(new ManagedExactBinding(54, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawMainPage", "", null, typeof(GeneratedManagedPatch_54), null));
-            bindings.Add(new ManagedExactBinding(55, 0, "SmartInventoryArrange.UnifiedSettingsGui", ".ctor", "ModConfig", null, typeof(GeneratedManagedPatch_55), null));
-            bindings.Add(new ManagedExactBinding(56, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Save", "", null, typeof(GeneratedManagedPatch_56), null));
-            bindings.Add(new ManagedExactBinding(57, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Bind", "SmartInventoryArrange.SettingsBinding, SmartInventoryArrange.SettingsHotkey", null, typeof(GeneratedManagedPatch_57), null));
-            bindings.Add(new ManagedExactBinding(58, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Activate", "SmartInventoryArrange.SettingsAction", null, typeof(GeneratedManagedPatch_58), null));
-            bindings.Add(new ManagedExactBinding(59, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Display", "SmartInventoryArrange.SettingsHotkey", null, typeof(GeneratedManagedPatch_59), null));
-            bindings.Add(new ManagedExactBinding(60, 0, "SmartInventoryArrange.UnifiedSettingsGui+<>c", "<.ctor>b__145_0", "", null, typeof(GeneratedManagedPatch_60), null));
-            bindings.Add(new ManagedExactBinding(61, 0, "SmartInventoryArrange.UnifiedSettingsGui+<>c", "<.ctor>b__145_1", "", null, typeof(GeneratedManagedPatch_61), null));
-            bindings.Add(new ManagedExactBinding(62, 0, "SmartInventoryArrange.UnifiedSettingsGui+<>c", "<.ctor>b__145_2", "", null, typeof(GeneratedManagedPatch_62), null));
-            bindings.Add(new ManagedExactBinding(63, 0, "SmartInventoryArrange.InsertUndo", "Execute", "System.Func`1<System.Boolean>", null, typeof(GeneratedManagedPatch_63), null));
-            bindings.Add(new ManagedExactBinding(64, 0, "SmartInventoryArrange.InsertUndo", "<Execute>g__Changed|21_1", "System.String", null, typeof(GeneratedManagedPatch_64), null));
-            bindings.Add(new ManagedExactBinding(65, 0, "SmartInventoryArrange.InsertUndo", "<Execute>g__Occupied|21_2", "System.String", null, typeof(GeneratedManagedPatch_65), null));
-            bindings.Add(new ManagedExactBinding(66, 0, "SmartInventoryArrange.InsertUndo+Change", "ToString", "", null, typeof(GeneratedManagedPatch_66), null));
-            bindings.Add(new ManagedExactBinding(67, 0, "SmartInventoryArrange.IntroNoticeVisual", "Measure", "System.String, System.Single, System.Single, System.Boolean, System.Boolean", null, typeof(GeneratedManagedPatch_67), null));
-            bindings.Add(new ManagedExactBinding(68, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_0", "", null, typeof(GeneratedManagedPatch_68), null));
-            bindings.Add(new ManagedExactBinding(69, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_1", "", null, typeof(GeneratedManagedPatch_69), null));
-            bindings.Add(new ManagedExactBinding(70, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_2", "", null, typeof(GeneratedManagedPatch_70), null));
-            bindings.Add(new ManagedExactBinding(71, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_3", "", null, typeof(GeneratedManagedPatch_71), null));
-            bindings.Add(new ManagedExactBinding(72, 0, "SmartInventoryArrange.NativeSmartMenu", "Open", "ItemContextHandler", null, typeof(GeneratedManagedPatch_72), null));
-            bindings.Add(new ManagedExactBinding(73, 0, "SmartInventoryArrange.OpenInventoryBatch", "Start", "", null, typeof(GeneratedManagedPatch_73), null));
-            bindings.Add(new ManagedExactBinding(74, 0, "SmartInventoryArrange.OrientationIntro", "TryGetText", "System.Double", null, typeof(GeneratedManagedPatch_74), null));
-            bindings.Add(new ManagedExactBinding(75, 0, "SmartInventoryArrange.PostInsertArrange", "Tick", "System.Double", null, typeof(GeneratedManagedPatch_75), null));
-            bindings.Add(new ManagedExactBinding(76, 0, "SmartInventoryArrange.ReleaseNotice", "TryGetText", "System.Double", null, typeof(GeneratedManagedPatch_76), null));
-            bindings.Add(new ManagedExactBinding(77, 0, "SmartInventoryArrange.RussianText", "Translate", "System.String", null, typeof(GeneratedManagedPatch_77), null));
-            bindings.Add(new ManagedExactBinding(78, 0, "SmartInventoryArrange.RussianText", ".cctor", "", null, typeof(GeneratedManagedPatch_78), null));
-            bindings.Add(new ManagedExactBinding(79, 0, "SmartInventoryArrange.SettingsIntro", "TryGetText", "System.Double", null, typeof(GeneratedManagedPatch_79), null));
-            bindings.Add(new ManagedExactBinding(80, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_0", "", null, typeof(GeneratedManagedPatch_80), null));
-            bindings.Add(new ManagedExactBinding(81, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_1", "", null, typeof(GeneratedManagedPatch_81), null));
-            bindings.Add(new ManagedExactBinding(82, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_4", "", null, typeof(GeneratedManagedPatch_82), null));
-            bindings.Add(new ManagedExactBinding(83, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_7", "", null, typeof(GeneratedManagedPatch_83), null));
-            bindings.Add(new ManagedExactBinding(84, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_8", "", null, typeof(GeneratedManagedPatch_84), null));
-            bindings.Add(new ManagedExactBinding(85, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_9", "", null, typeof(GeneratedManagedPatch_85), null));
-            bindings.Add(new ManagedExactBinding(86, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_10", "", null, typeof(GeneratedManagedPatch_86), null));
-            bindings.Add(new ManagedExactBinding(87, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_11", "", null, typeof(GeneratedManagedPatch_87), null));
-            bindings.Add(new ManagedExactBinding(88, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_12", "", null, typeof(GeneratedManagedPatch_88), null));
-            bindings.Add(new ManagedExactBinding(89, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_13", "", null, typeof(GeneratedManagedPatch_89), null));
-            bindings.Add(new ManagedExactBinding(90, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_15", "", null, typeof(GeneratedManagedPatch_90), null));
-            bindings.Add(new ManagedExactBinding(91, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_16", "", null, typeof(GeneratedManagedPatch_91), null));
-            bindings.Add(new ManagedExactBinding(92, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_17", "", null, typeof(GeneratedManagedPatch_92), null));
-            bindings.Add(new ManagedExactBinding(93, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_18", "", null, typeof(GeneratedManagedPatch_93), null));
-            bindings.Add(new ManagedExactBinding(94, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_19", "", null, typeof(GeneratedManagedPatch_94), null));
-            bindings.Add(new ManagedExactBinding(95, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_20", "", null, typeof(GeneratedManagedPatch_95), null));
-            bindings.Add(new ManagedExactBinding(96, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_21", "", null, typeof(GeneratedManagedPatch_96), null));
-            bindings.Add(new ManagedExactBinding(97, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_23", "", null, typeof(GeneratedManagedPatch_97), null));
-            bindings.Add(new ManagedExactBinding(98, 0, "SmartInventoryArrange.SmartArrangeMod", "Run", "GameGridInventory, System.Boolean, System.Func`1<System.Boolean>, System.Int32, System.Int32, SmartInventoryArrange.ArrangeUndo+Group", null, typeof(GeneratedManagedPatch_98), null));
-            bindings.Add(new ManagedExactBinding(99, 0, "SmartInventoryArrange.SmartArrangeMonoMod+<>c", "<Init>b__1_0", "", null, typeof(GeneratedManagedPatch_99), null));
-            bindings.Add(new ManagedExactBinding(100, 0, "SmartInventoryArrange.SmartArrangeMonoMod+<>c", "<Init>b__1_1", "", null, typeof(GeneratedManagedPatch_100), null));
-            bindings.Add(new ManagedExactBinding(101, 0, "SmartInventoryArrange.SmartInsertController+<>c", "<Execute>b__21_17", "SmartInventoryArrange.Core.LayoutItem", null, typeof(GeneratedManagedPatch_101), null));
-            bindings.Add(new ManagedExactBinding(102, 0, "SmartInventoryArrange.SmartInsertFeedback", "RunningText", "System.Boolean", null, typeof(GeneratedManagedPatch_102), null));
-            bindings.Add(new ManagedExactBinding(103, 0, "SmartInventoryArrange.SmartInsertFeedback", "StageText", "SmartInventoryArrange.InsertPhase", null, typeof(GeneratedManagedPatch_103), null));
-            bindings.Add(new ManagedExactBinding(104, 0, "SmartInventoryArrange.SmartInsertFeedback", "Success", "SmartInventoryArrange.SmartInsertFeedback+Attempt, System.Boolean", null, typeof(GeneratedManagedPatch_104), null));
-            bindings.Add(new ManagedExactBinding(105, 0, "SmartInventoryArrange.SmartInsertFeedback", "NoLayout", "SmartInventoryArrange.SmartInsertFeedback+Attempt", null, typeof(GeneratedManagedPatch_105), null));
-            bindings.Add(new ManagedExactBinding(106, 0, "SmartInventoryArrange.SmartInsertFeedback", "Failed", "SmartInventoryArrange.SmartInsertFeedback+Attempt, System.Boolean", null, typeof(GeneratedManagedPatch_106), null));
-            bindings.Add(new ManagedExactBinding(107, 0, "SmartInventoryArrange.SmartInsertFeedback", "Cancelled", "SmartInventoryArrange.SmartInsertFeedback+Attempt", null, typeof(GeneratedManagedPatch_107), null));
-            bindings.Add(new ManagedExactBinding(108, 0, "SmartInventoryArrange.SmartInsertStacks+Change", "ToString", "", null, typeof(GeneratedManagedPatch_108), null));
-            bindings.Add(new ManagedExactBinding(109, 0, "SmartInventoryArrange.SmartInsertStatusGui", "SelectText", "System.Double", null, typeof(GeneratedManagedPatch_109), null));
-            bindings.Add(new ManagedExactBinding(110, 0, "SmartInventoryArrange.StartupCompatibility", "Start", "", null, typeof(GeneratedManagedPatch_110), null));
-            bindings.Add(new ManagedExactBinding(111, 0, "SmartInventoryArrange.StartupCompatibility", "Prepare", "SmartInventoryArrange.CompatFeature, System.Type", null, typeof(GeneratedManagedPatch_111), null));
-            bindings.Add(new ManagedExactBinding(112, 0, "SmartInventoryArrange.StartupCompatibility", "Cleanup", "SmartInventoryArrange.CompatFeature, System.Exception, System.Reflection.MethodBase", null, typeof(GeneratedManagedPatch_112), null));
-            bindings.Add(new ManagedExactBinding(113, 0, "SmartInventoryArrange.Core.Native34Solver", "ShapeKeyCore", "SmartInventoryArrange.Core.LayoutItem", null, typeof(GeneratedManagedPatch_113), null));
-            bindings.Add(new ManagedExactBinding(114, 0, "SmartInventoryArrange.Core.Native34Solver", "TemplatesOriginal", "SmartInventoryArrange.Core.LayoutItem[], System.String", null, typeof(GeneratedManagedPatch_114), null));
-            bindings.Add(new ManagedExactBinding(115, 0, "SmartInventoryArrange.Core.DeterministicSolver", "AtomicSkylineBlocks", "SmartInventoryArrange.Core.LayoutProblem, System.Boolean[0...,0...], System.Collections.Generic.IReadOnlyList`1<SmartInventoryArrange.Core.LayoutItem>, System.Boolean, System.String&", null, typeof(GeneratedManagedPatch_115), null));
-            bindings.Add(new ManagedExactBinding(116, 1, "SmartInventoryArrange.IntroNoticeVisual", "Measure", "System.String, System.Single, System.Single, System.Boolean, System.Boolean", null, typeof(GeneratedManagedPatch_116), null));
-            bindings.Add(new ManagedExactBinding(117, 4, "SmartInventoryArrange.NativeSmartMenu", "Open", "ItemContextHandler", null, typeof(GeneratedManagedPatch_117), null));
-            bindings.Add(new ManagedExactBinding(118, 5, "SmartInventoryArrange.OpenInventoryBatch", "Start", "", null, typeof(GeneratedManagedPatch_118), null));
-            bindings.Add(new ManagedExactBinding(119, 8, "SmartInventoryArrange.SmartArrangeMod", "Run", "GameGridInventory, System.Boolean, System.Func`1<System.Boolean>, System.Int32, System.Int32, SmartInventoryArrange.ArrangeUndo+Group", null, typeof(GeneratedManagedPatch_119), null));
-            bindings.Add(new ManagedExactBinding(120, 9, "SmartInventoryArrange.UnifiedSettingsGui", "DrawFixedPage", "", null, typeof(GeneratedManagedPatch_120), null));
-            bindings.Add(new ManagedExactBinding(121, 10, "SmartInventoryArrange.UnifiedSettingsGui", "DrawMainPage", "", null, typeof(GeneratedManagedPatch_121), null));
-            bindings.Add(new ManagedExactBinding(122, 12, "SmartInventoryArrange.UnifiedSettingsGui", "get_AfterInsertCaption", "", null, typeof(GeneratedManagedPatch_122), null));
-            bindings.Add(new ManagedExactBinding(123, 13, "SmartInventoryArrange.UnifiedSettingsGui", "get_AltCaption", "", null, typeof(GeneratedManagedPatch_123), null));
-            bindings.Add(new ManagedExactBinding(124, 14, "SmartInventoryArrange.UnifiedSettingsGui", "get_KeepMenuCaption", "", null, typeof(GeneratedManagedPatch_124), null));
-            bindings.Add(new ManagedExactBinding(125, 15, "SmartInventoryArrange.UnifiedSettingsGui", "get_ModeName", "", null, typeof(GeneratedManagedPatch_125), null));
-            bindings.Add(new ManagedExactBinding(126, 16, "SmartInventoryArrange.UnifiedSettingsGui", "get_OrientationCaption", "", null, typeof(GeneratedManagedPatch_126), null));
+            bindings.Add(new ManagedExactBinding(28, 0, "SmartInventoryArrange.ArrangeFeedback", "OutcomeText", "SmartInventoryArrange.ArrangeNotice, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.ArrangeNotice"), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_28), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(29, 0, "SmartInventoryArrange.ArrangeFeedback", "OverlayText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_29), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(30, 0, "SmartInventoryArrange.ArrangeUndo+<>c__DisplayClass27_0", "<Execute>g__Report|5", "System.Exception", new Type[] { typeof(global::System.Exception) }, typeof(GeneratedManagedPatch_30), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(31, 0, "SmartInventoryArrange.ArrangeUndo+<Execute>d__27", "MoveNext", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_31), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(32, 0, "SmartInventoryArrange.FixedPlacementController", "Start", "SmartInventoryArrange.FixedPlacementController+Request", new Type[] { ModReflect.FindType("SmartInventoryArrange.FixedPlacementController+Request") }, typeof(GeneratedManagedPatch_32), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(33, 0, "SmartInventoryArrange.FixedPlacementController", "NoLayout", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_33), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(34, 0, "SmartInventoryArrange.FixedPlacementController", "Failed", "System.Exception, SmartInventoryArrange.InventoryTransaction", new Type[] { typeof(global::System.Exception), ModReflect.FindType("SmartInventoryArrange.InventoryTransaction") }, typeof(GeneratedManagedPatch_34), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(35, 0, "SmartInventoryArrange.FixedPlacementController+<Execute>d__14", "MoveNext", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_35), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(36, 0, "SmartInventoryArrange.FixedPlacementController+<ExecuteCross>d__21", "MoveNext", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_36), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(37, 0, "SmartInventoryArrange.InventoryTransaction", "Categories", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_37), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(38, 0, "SmartInventoryArrange.FixedRules", "Load", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_38), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(39, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawFixedPage", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_39), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(40, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawTypePicker", "System.Single", new Type[] { typeof(global::System.Single) }, typeof(GeneratedManagedPatch_40), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(41, 0, "SmartInventoryArrange.UnifiedSettingsGui", "UpdateFixedPage", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_41), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(42, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_SelectItems", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_42), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(43, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_OldModeName", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_43), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(44, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_PreserveDescription", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_44), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(45, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_OrientationHint", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_45), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(46, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_InsertHint", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_46), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(47, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_AfterInsertHint", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_47), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(48, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_FixedPlacementHint", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_48), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(49, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_InsertCaption", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_49), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(50, 0, "SmartInventoryArrange.UnifiedSettingsGui", "get_MenuTopCaption", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_50), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(51, 0, "SmartInventoryArrange.UnifiedSettingsGui", "SmallKey", "System.String, SmartInventoryArrange.SettingsHotkey, SmartInventoryArrange.SettingsBinding, UnityEngine.Color", new Type[] { typeof(global::System.String), ModReflect.FindType("SmartInventoryArrange.SettingsHotkey"), ModReflect.FindType("SmartInventoryArrange.SettingsBinding"), typeof(global::UnityEngine.Color) }, typeof(GeneratedManagedPatch_51), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(52, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Experiment", "SmartInventoryArrange.SettingsAction, System.String, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsAction"), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_52), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(53, 0, "SmartInventoryArrange.UnifiedSettingsGui", "ModeCard", "SmartInventoryArrange.SettingsAction, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsAction"), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_53), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(54, 0, "SmartInventoryArrange.UnifiedSettingsGui", "DrawMainPage", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_54), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(55, 0, "SmartInventoryArrange.UnifiedSettingsGui", ".ctor", "ModConfig", null, typeof(GeneratedManagedPatch_55), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(56, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Save", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_56), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(57, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Bind", "SmartInventoryArrange.SettingsBinding, SmartInventoryArrange.SettingsHotkey", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsBinding"), ModReflect.FindType("SmartInventoryArrange.SettingsHotkey") }, typeof(GeneratedManagedPatch_57), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(58, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Activate", "SmartInventoryArrange.SettingsAction", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsAction") }, typeof(GeneratedManagedPatch_58), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(59, 0, "SmartInventoryArrange.UnifiedSettingsGui", "Display", "SmartInventoryArrange.SettingsHotkey", new Type[] { ModReflect.FindType("SmartInventoryArrange.SettingsHotkey") }, typeof(GeneratedManagedPatch_59), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(60, 0, "SmartInventoryArrange.UnifiedSettingsGui+<>c", "<.ctor>b__145_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_60), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(61, 0, "SmartInventoryArrange.UnifiedSettingsGui+<>c", "<.ctor>b__145_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_61), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(62, 0, "SmartInventoryArrange.UnifiedSettingsGui+<>c", "<.ctor>b__145_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_62), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(63, 0, "SmartInventoryArrange.InsertUndo", "Execute", "System.Func`1<System.Boolean>", new Type[] { (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Boolean) }) }, typeof(GeneratedManagedPatch_63), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(64, 0, "SmartInventoryArrange.InsertUndo", "<Execute>g__Changed|21_1", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_64), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(65, 0, "SmartInventoryArrange.InsertUndo", "<Execute>g__Occupied|21_2", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_65), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(66, 0, "SmartInventoryArrange.InsertUndo+Change", "ToString", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_66), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(67, 0, "SmartInventoryArrange.IntroNoticeVisual", "Measure", "System.String, System.Single, System.Single, System.Boolean, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_67), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(68, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_68), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(69, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_69), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(70, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_70), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(71, 0, "SmartInventoryArrange.MonoDiagnostics+<>c", "<Initialize>b__9_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_71), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(72, 0, "SmartInventoryArrange.NativeSmartMenu", "Open", "ItemContextHandler", new Type[] { typeof(global::ItemContextHandler) }, typeof(GeneratedManagedPatch_72), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(73, 0, "SmartInventoryArrange.OpenInventoryBatch", "Start", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_73), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(74, 0, "SmartInventoryArrange.OrientationIntro", "TryGetText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_74), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(75, 0, "SmartInventoryArrange.PostInsertArrange", "Tick", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_75), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(76, 0, "SmartInventoryArrange.ReleaseNotice", "TryGetText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_76), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(77, 0, "SmartInventoryArrange.RussianText", "Translate", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_77), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(78, 0, "SmartInventoryArrange.RussianText", ".cctor", "", null, typeof(GeneratedManagedPatch_78), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(79, 0, "SmartInventoryArrange.SettingsIntro", "TryGetText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_79), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(80, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_80), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(81, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_81), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(82, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_4", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_82), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(83, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_83), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(84, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_8", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_84), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(85, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_9", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_85), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(86, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_10", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_86), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(87, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_11", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_87), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(88, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_12", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_88), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(89, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_13", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_89), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(90, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_15", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_90), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(91, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_16", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_91), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(92, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_17", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_92), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(93, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_18", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_93), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(94, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_19", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_94), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(95, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_20", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_95), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(96, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_21", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_96), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(97, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__58_23", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_97), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(98, 0, "SmartInventoryArrange.SmartArrangeMod", "Run", "GameGridInventory, System.Boolean, System.Func`1<System.Boolean>, System.Int32, System.Int32, SmartInventoryArrange.ArrangeUndo+Group", new Type[] { typeof(global::GameGridInventory), typeof(global::System.Boolean), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Boolean) }), typeof(global::System.Int32), typeof(global::System.Int32), ModReflect.FindType("SmartInventoryArrange.ArrangeUndo+Group") }, typeof(GeneratedManagedPatch_98), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(99, 0, "SmartInventoryArrange.SmartArrangeMonoMod+<>c", "<Init>b__1_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_99), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(100, 0, "SmartInventoryArrange.SmartArrangeMonoMod+<>c", "<Init>b__1_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_100), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(101, 0, "SmartInventoryArrange.SmartInsertController+<>c", "<Execute>b__21_17", "SmartInventoryArrange.Core.LayoutItem", new Type[] { ModReflect.FindType("SmartInventoryArrange.Core.LayoutItem") }, typeof(GeneratedManagedPatch_101), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(102, 0, "SmartInventoryArrange.SmartInsertFeedback", "RunningText", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_102), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(103, 0, "SmartInventoryArrange.SmartInsertFeedback", "StageText", "SmartInventoryArrange.InsertPhase", new Type[] { ModReflect.FindType("SmartInventoryArrange.InsertPhase") }, typeof(GeneratedManagedPatch_103), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(104, 0, "SmartInventoryArrange.SmartInsertFeedback", "Success", "SmartInventoryArrange.SmartInsertFeedback+Attempt, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SmartInsertFeedback+Attempt"), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_104), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(105, 0, "SmartInventoryArrange.SmartInsertFeedback", "NoLayout", "SmartInventoryArrange.SmartInsertFeedback+Attempt", new Type[] { ModReflect.FindType("SmartInventoryArrange.SmartInsertFeedback+Attempt") }, typeof(GeneratedManagedPatch_105), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(106, 0, "SmartInventoryArrange.SmartInsertFeedback", "Failed", "SmartInventoryArrange.SmartInsertFeedback+Attempt, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SmartInsertFeedback+Attempt"), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_106), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(107, 0, "SmartInventoryArrange.SmartInsertFeedback", "Cancelled", "SmartInventoryArrange.SmartInsertFeedback+Attempt", new Type[] { ModReflect.FindType("SmartInventoryArrange.SmartInsertFeedback+Attempt") }, typeof(GeneratedManagedPatch_107), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(108, 0, "SmartInventoryArrange.SmartInsertStacks+Change", "ToString", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_108), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(109, 0, "SmartInventoryArrange.SmartInsertStatusGui", "SelectText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_109), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(110, 0, "SmartInventoryArrange.StartupCompatibility", "Start", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_110), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(111, 0, "SmartInventoryArrange.StartupCompatibility", "Prepare", "SmartInventoryArrange.CompatFeature, System.Type", new Type[] { ModReflect.FindType("SmartInventoryArrange.CompatFeature"), typeof(global::System.Type) }, typeof(GeneratedManagedPatch_111), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(112, 0, "SmartInventoryArrange.StartupCompatibility", "Cleanup", "SmartInventoryArrange.CompatFeature, System.Exception, System.Reflection.MethodBase", new Type[] { ModReflect.FindType("SmartInventoryArrange.CompatFeature"), typeof(global::System.Exception), typeof(global::System.Reflection.MethodBase) }, typeof(GeneratedManagedPatch_112), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(113, 0, "SmartInventoryArrange.Core.Native34Solver", "ShapeKeyCore", "SmartInventoryArrange.Core.LayoutItem", new Type[] { ModReflect.FindType("SmartInventoryArrange.Core.LayoutItem") }, typeof(GeneratedManagedPatch_113), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(114, 0, "SmartInventoryArrange.Core.Native34Solver", "TemplatesOriginal", "SmartInventoryArrange.Core.LayoutItem[], System.String", new Type[] { (ModReflect.FindType("SmartInventoryArrange.Core.LayoutItem")).MakeArrayType(), typeof(global::System.String) }, typeof(GeneratedManagedPatch_114), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(115, 0, "SmartInventoryArrange.Core.DeterministicSolver", "AtomicSkylineBlocks", "SmartInventoryArrange.Core.LayoutProblem, System.Boolean[0...,0...], System.Collections.Generic.IReadOnlyList`1<SmartInventoryArrange.Core.LayoutItem>, System.Boolean, System.String&", new Type[] { ModReflect.FindType("SmartInventoryArrange.Core.LayoutProblem"), (typeof(global::System.Boolean)).MakeArrayType(2), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { ModReflect.FindType("SmartInventoryArrange.Core.LayoutItem") }), typeof(global::System.Boolean), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_115), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(116, 1, "SmartInventoryArrange.IntroNoticeVisual", "Measure", "System.String, System.Single, System.Single, System.Boolean, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_116), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(117, 4, "SmartInventoryArrange.NativeSmartMenu", "Open", "ItemContextHandler", new Type[] { typeof(global::ItemContextHandler) }, typeof(GeneratedManagedPatch_117), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(118, 5, "SmartInventoryArrange.OpenInventoryBatch", "Start", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_118), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(119, 8, "SmartInventoryArrange.SmartArrangeMod", "Run", "GameGridInventory, System.Boolean, System.Func`1<System.Boolean>, System.Int32, System.Int32, SmartInventoryArrange.ArrangeUndo+Group", new Type[] { typeof(global::GameGridInventory), typeof(global::System.Boolean), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Boolean) }), typeof(global::System.Int32), typeof(global::System.Int32), ModReflect.FindType("SmartInventoryArrange.ArrangeUndo+Group") }, typeof(GeneratedManagedPatch_119), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(120, 9, "SmartInventoryArrange.UnifiedSettingsGui", "DrawFixedPage", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_120), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(121, 10, "SmartInventoryArrange.UnifiedSettingsGui", "DrawMainPage", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_121), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(122, 12, "SmartInventoryArrange.UnifiedSettingsGui", "get_AfterInsertCaption", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_122), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(123, 13, "SmartInventoryArrange.UnifiedSettingsGui", "get_AltCaption", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_123), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(124, 14, "SmartInventoryArrange.UnifiedSettingsGui", "get_KeepMenuCaption", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_124), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(125, 15, "SmartInventoryArrange.UnifiedSettingsGui", "get_ModeName", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_125), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(126, 16, "SmartInventoryArrange.UnifiedSettingsGui", "get_OrientationCaption", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_126), "Transpiler", false, null));
         }
 
         private static void Add_2_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(127, 0, "ProbablyStolenCrateReveal.UiText", "Get", "System.String, System.String", null, typeof(GeneratedManagedPatch_127), null));
+            bindings.Add(new ManagedExactBinding(127, 0, "ProbablyStolenCrateReveal.UiText", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_127), "Postfix", false, null));
         }
 
         private static void Add_3_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(128, 0, "ProbableFoodPack.CakeDialogueLocalization", "Get", "System.String, System.String", null, typeof(GeneratedManagedPatch_128), null));
-            bindings.Add(new ManagedExactBinding(129, 2, "ProbableFoodPack.NpcLocalization", "Get", "System.String, System.String", null, typeof(GeneratedManagedPatch_129), null));
-            bindings.Add(new ManagedExactBinding(130, 2, "ProbableFoodPack.NpcLocalization", "Get", "System.String, System.String, System.String", null, typeof(GeneratedManagedPatch_130), null));
-            bindings.Add(new ManagedExactBinding(131, 3, "ProbableFoodPack.NpcOptions", "T", "System.String", null, typeof(GeneratedManagedPatch_131), null));
-            bindings.Add(new ManagedExactBinding(132, 4, "ProbableFoodPack.NpcPostGiftChatText", "Topic", "System.Int32", null, typeof(GeneratedManagedPatch_132), null));
-            bindings.Add(new ManagedExactBinding(133, 5, "ProbableFoodPack.NpcPostGiftChatText", "get_Skip", "", null, typeof(GeneratedManagedPatch_133), null));
-            bindings.Add(new ManagedExactBinding(134, 6, "ProbableFoodPack.NpcPostGiftChatText", "get_SkipReply", "", null, typeof(GeneratedManagedPatch_134), null));
-            bindings.Add(new ManagedExactBinding(135, 7, "ProbableFoodPack.NpcRuntime", "Install", "System.Action`1<System.String>", null, typeof(GeneratedManagedPatch_135), null));
-            bindings.Add(new ManagedExactBinding(136, 8, "ProbableFoodPack.NpcOptions", "Install", "", null, typeof(GeneratedManagedPatch_136), null));
+            bindings.Add(new ManagedExactBinding(128, 0, "ProbableFoodPack.CakeDialogueLocalization", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_128), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(129, 2, "ProbableFoodPack.NpcLocalization", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_129), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(130, 2, "ProbableFoodPack.NpcLocalization", "Get", "System.String, System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_130), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(131, 3, "ProbableFoodPack.NpcOptions", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_131), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(132, 4, "ProbableFoodPack.NpcPostGiftChatText", "Topic", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_132), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(133, 5, "ProbableFoodPack.NpcPostGiftChatText", "get_Skip", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_133), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(134, 6, "ProbableFoodPack.NpcPostGiftChatText", "get_SkipReply", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_134), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(135, 7, "ProbableFoodPack.NpcRuntime", "Install", "System.Action`1<System.String>", new Type[] { (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_135), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(136, 8, "ProbableFoodPack.NpcOptions", "Install", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_136), "Transpiler", false, null));
         }
 
         private static void Add_4_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(137, 0, "ItemDurabilityBars.DisplaySettings", "Initialize", "", null, typeof(GeneratedManagedPatch_137), null));
-            bindings.Add(new ManagedExactBinding(138, 0, "ItemDurabilityBars.DisplaySettings", "BrightnessLabel", "System.String", null, typeof(GeneratedManagedPatch_138), null));
-            bindings.Add(new ManagedExactBinding(139, 0, "ItemDurabilityBars.DisplaySettings", "BrightnessHint", "System.String", null, typeof(GeneratedManagedPatch_139), null));
-            bindings.Add(new ManagedExactBinding(140, 0, "ItemDurabilityBars.DisplaySettings", "SectionLabel", "System.String", null, typeof(GeneratedManagedPatch_140), null));
-            bindings.Add(new ManagedExactBinding(141, 0, "ItemDurabilityBars.DisplaySettings", "OtherSectionLabel", "System.String", null, typeof(GeneratedManagedPatch_141), null));
-            bindings.Add(new ManagedExactBinding(142, 0, "ItemDurabilityBars.DisplaySettings", "FilterAlertLabel", "System.String", null, typeof(GeneratedManagedPatch_142), null));
-            bindings.Add(new ManagedExactBinding(143, 0, "ItemDurabilityBars.DisplaySettings", "<Initialize>g__Add|9_0", "System.String, System.Func`1<System.String>, ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0&", null, typeof(GeneratedManagedPatch_143), null));
+            bindings.Add(new ManagedExactBinding(137, 0, "ItemDurabilityBars.DisplaySettings", "Initialize", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_137), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(138, 0, "ItemDurabilityBars.DisplaySettings", "BrightnessLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_138), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(139, 0, "ItemDurabilityBars.DisplaySettings", "BrightnessHint", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_139), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(140, 0, "ItemDurabilityBars.DisplaySettings", "SectionLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_140), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(141, 0, "ItemDurabilityBars.DisplaySettings", "OtherSectionLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_141), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(142, 0, "ItemDurabilityBars.DisplaySettings", "FilterAlertLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_142), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(143, 0, "ItemDurabilityBars.DisplaySettings", "<Initialize>g__Add|9_0", "System.String, System.Func`1<System.String>, ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0&", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }), (ModReflect.FindType("ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0")).MakeByRefType() }, typeof(GeneratedManagedPatch_143), "Transpiler", false, null));
         }
 
         private static void Add_5_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(144, 0, "BetterLiquidScanner.L10n", "T", "System.String, System.Object[]", null, typeof(GeneratedManagedPatch_144), null));
+            bindings.Add(new ManagedExactBinding(144, 0, "BetterLiquidScanner.L10n", "T", "System.String, System.Object[]", new Type[] { typeof(global::System.String), (typeof(global::System.Object)).MakeArrayType() }, typeof(GeneratedManagedPatch_144), "Postfix", false, null));
         }
 
         private static void Add_6_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(145, 0, "AgriExpansion.AgriCookingItems", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_145), null));
-            bindings.Add(new ManagedExactBinding(146, 0, "AgriExpansion.AgriCropHandbook", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_146), null));
-            bindings.Add(new ManagedExactBinding(147, 0, "AgriExpansion.AgriDelivery", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_147), null));
-            bindings.Add(new ManagedExactBinding(148, 0, "AgriExpansion.AgriDeliveryMachine", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_148), null));
-            bindings.Add(new ManagedExactBinding(149, 0, "AgriExpansion.AgriEleanorStory", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_149), null));
-            bindings.Add(new ManagedExactBinding(150, 0, "AgriExpansion.AgriFarmAccess", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_150), null));
-            bindings.Add(new ManagedExactBinding(151, 0, "AgriExpansion.AgriFarm", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_151), null));
-            bindings.Add(new ManagedExactBinding(152, 0, "AgriExpansion.AgriFarmHandbook", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_152), null));
-            bindings.Add(new ManagedExactBinding(153, 0, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_153), null));
-            bindings.Add(new ManagedExactBinding(154, 0, "AgriExpansion.AgriFarmSecurity", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_154), null));
-            bindings.Add(new ManagedExactBinding(155, 0, "AgriExpansion.AgriIndustry", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_155), null));
-            bindings.Add(new ManagedExactBinding(156, 0, "AgriExpansion.AgriNextCatalog", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_156), null));
-            bindings.Add(new ManagedExactBinding(157, 0, "AgriExpansion.AgriPerfumeItems", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_157), null));
-            bindings.Add(new ManagedExactBinding(158, 0, "AgriExpansion.AgriPerfumeMachines", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_158), null));
-            bindings.Add(new ManagedExactBinding(159, 0, "AgriExpansion.AgriPerfumeManual", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_159), null));
-            bindings.Add(new ManagedExactBinding(160, 0, "AgriExpansion.AgriPerfumeManualText", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_160), null));
-            bindings.Add(new ManagedExactBinding(161, 0, "AgriExpansion.AgriPerfumeProcessor", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_161), null));
-            bindings.Add(new ManagedExactBinding(162, 0, "AgriExpansion.AgriSuperCrops", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_162), null));
-            bindings.Add(new ManagedExactBinding(163, 1, "AgriExpansion.AgriChemRecipeNote", "Create", "", null, typeof(GeneratedManagedPatch_163), null));
-            bindings.Add(new ManagedExactBinding(164, 2, "AgriExpansion.AgriChemRecipeNote", "Refresh", "GameItem", null, typeof(GeneratedManagedPatch_164), null));
-            bindings.Add(new ManagedExactBinding(165, 3, "AgriExpansion.AgriChemRecipeNote", "get_Body", "", null, typeof(GeneratedManagedPatch_165), null));
-            bindings.Add(new ManagedExactBinding(166, 4, "AgriExpansion.AgriChemRecipeNote", "get_Title", "", null, typeof(GeneratedManagedPatch_166), null));
-            bindings.Add(new ManagedExactBinding(167, 5, "AgriExpansion.AgriChemRecipeNote+<>c", "<Refresh>b__8_1", "TagState", null, typeof(GeneratedManagedPatch_167), null));
-            bindings.Add(new ManagedExactBinding(168, 6, "AgriExpansion.AgriChemRecipeNote+<>c", "<Refresh>b__8_2", "TagState", null, typeof(GeneratedManagedPatch_168), null));
-            bindings.Add(new ManagedExactBinding(169, 7, "AgriExpansion.AgriChemistry", "Register", "", null, typeof(GeneratedManagedPatch_169), null));
-            bindings.Add(new ManagedExactBinding(170, 8, "AgriExpansion.AgriCookingAccess", "Register", "", null, typeof(GeneratedManagedPatch_170), null));
-            bindings.Add(new ManagedExactBinding(171, 9, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_0", "", null, typeof(GeneratedManagedPatch_171), null));
-            bindings.Add(new ManagedExactBinding(172, 10, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_1", "", null, typeof(GeneratedManagedPatch_172), null));
-            bindings.Add(new ManagedExactBinding(173, 11, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_2", "", null, typeof(GeneratedManagedPatch_173), null));
-            bindings.Add(new ManagedExactBinding(174, 12, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", null, typeof(GeneratedManagedPatch_174), null));
-            bindings.Add(new ManagedExactBinding(175, 13, "AgriExpansion.AgriCookingItems+<>c", "<Note>b__6_4", "System.String", null, typeof(GeneratedManagedPatch_175), null));
-            bindings.Add(new ManagedExactBinding(176, 14, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__0", "", null, typeof(GeneratedManagedPatch_176), null));
-            bindings.Add(new ManagedExactBinding(177, 15, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__3", "GameItem, GameInventory, SlotMarker", null, typeof(GeneratedManagedPatch_177), null));
-            bindings.Add(new ManagedExactBinding(178, 16, "AgriExpansion.AgriCookingMachine", "Create", "", null, typeof(GeneratedManagedPatch_178), null));
-            bindings.Add(new ManagedExactBinding(179, 17, "AgriExpansion.AgriCookingMachine+View", "BuildMenu", "", null, typeof(GeneratedManagedPatch_179), null));
-            bindings.Add(new ManagedExactBinding(180, 18, "AgriExpansion.AgriCookingMachine+View", "Refresh", "", null, typeof(GeneratedManagedPatch_180), null));
-            bindings.Add(new ManagedExactBinding(181, 19, "AgriExpansion.AgriCookingMachine+View+<>c__DisplayClass22_1", "<Refresh>b__1", "System.String, System.Int32", null, typeof(GeneratedManagedPatch_181), null));
-            bindings.Add(new ManagedExactBinding(182, 20, "AgriExpansion.AgriCookingProduction", "Cook", "GameItem, GameInventory, GameGridInventory, AgriExpansion.CookingRecipe, System.String&", null, typeof(GeneratedManagedPatch_182), null));
-            bindings.Add(new ManagedExactBinding(183, 21, "AgriExpansion.AgriCookingRules", ".cctor", "", null, typeof(GeneratedManagedPatch_183), null));
-            bindings.Add(new ManagedExactBinding(184, 22, "AgriExpansion.AgriCropHandbook", ".cctor", "", null, typeof(GeneratedManagedPatch_184), null));
-            bindings.Add(new ManagedExactBinding(185, 23, "AgriExpansion.AgriCropHandbook", "BuildBook", "GameItem", null, typeof(GeneratedManagedPatch_185), null));
-            bindings.Add(new ManagedExactBinding(186, 24, "AgriExpansion.AgriCropHandbook", "RefreshText", "GameItem, System.Boolean", null, typeof(GeneratedManagedPatch_186), null));
-            bindings.Add(new ManagedExactBinding(187, 25, "AgriExpansion.AgriCropHandbook+<>c__DisplayClass12_0", "<Create>b__2", "GameItem, GameInventory, SlotMarker", null, typeof(GeneratedManagedPatch_187), null));
-            bindings.Add(new ManagedExactBinding(188, 26, "AgriExpansion.AgriCropRules", ".cctor", "", null, typeof(GeneratedManagedPatch_188), null));
-            bindings.Add(new ManagedExactBinding(189, 27, "AgriExpansion.AgriDelivery", "HistoryText", "System.Int32", null, typeof(GeneratedManagedPatch_189), null));
-            bindings.Add(new ManagedExactBinding(190, 28, "AgriExpansion.AgriDelivery", "Submit", "GameItem, GameInventory, System.Int32, System.String&", null, typeof(GeneratedManagedPatch_190), null));
-            bindings.Add(new ManagedExactBinding(191, 29, "AgriExpansion.AgriDelivery+<>c", "<Register>b__17_0", "", null, typeof(GeneratedManagedPatch_191), null));
-            bindings.Add(new ManagedExactBinding(192, 30, "AgriExpansion.AgriDelivery+<>c__DisplayClass17_0", "<Register>g__describe|1", "", null, typeof(GeneratedManagedPatch_192), null));
-            bindings.Add(new ManagedExactBinding(193, 31, "AgriExpansion.AgriDeliveryMachine", "Create", "", null, typeof(GeneratedManagedPatch_193), null));
-            bindings.Add(new ManagedExactBinding(194, 32, "AgriExpansion.AgriDeliveryMachine+View", "Refresh", "", null, typeof(GeneratedManagedPatch_194), null));
-            bindings.Add(new ManagedExactBinding(195, 33, "AgriExpansion.AgriDressingProtection", "get_StatusText", "", null, typeof(GeneratedManagedPatch_195), null));
-            bindings.Add(new ManagedExactBinding(196, 34, "AgriExpansion.AgriEleanorResearchHarvestPatch", "Prefix", "PlantHarvestContext, GameItem", null, typeof(GeneratedManagedPatch_196), null));
-            bindings.Add(new ManagedExactBinding(197, 35, "AgriExpansion.AgriEleanorStory", "AbandonOrder", "", null, typeof(GeneratedManagedPatch_197), null));
-            bindings.Add(new ManagedExactBinding(198, 36, "AgriExpansion.AgriEleanorStory", "AcceptOrder", "System.Int32", null, typeof(GeneratedManagedPatch_198), null));
-            bindings.Add(new ManagedExactBinding(199, 37, "AgriExpansion.AgriEleanorStory", "AddDecision", "Dialogue, System.String, System.String, System.Int32", null, typeof(GeneratedManagedPatch_199), null));
-            bindings.Add(new ManagedExactBinding(200, 38, "AgriExpansion.AgriEleanorStory", "AddTooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_200), null));
-            bindings.Add(new ManagedExactBinding(201, 39, "AgriExpansion.AgriEleanorStory", "Claim", "", null, typeof(GeneratedManagedPatch_201), null));
-            bindings.Add(new ManagedExactBinding(202, 40, "AgriExpansion.AgriEleanorStory", "CreateVisitor", "", null, typeof(GeneratedManagedPatch_202), null));
-            bindings.Add(new ManagedExactBinding(203, 41, "AgriExpansion.AgriEleanorStory", "Everyday", "", null, typeof(GeneratedManagedPatch_203), null));
-            bindings.Add(new ManagedExactBinding(204, 42, "AgriExpansion.AgriEleanorStory", "FinishOrder", "AgriExpansion.AgriEleanorState", null, typeof(GeneratedManagedPatch_204), null));
-            bindings.Add(new ManagedExactBinding(205, 43, "AgriExpansion.AgriEleanorStory", "GoodsGreeting", "System.Int32, System.Int32", null, typeof(GeneratedManagedPatch_205), null));
-            bindings.Add(new ManagedExactBinding(206, 44, "AgriExpansion.AgriEleanorStory", "GoodsName", "System.String, GameItem", null, typeof(GeneratedManagedPatch_206), null));
-            bindings.Add(new ManagedExactBinding(207, 45, "AgriExpansion.AgriEleanorStory", "Lines", "System.Int32", null, typeof(GeneratedManagedPatch_207), null));
-            bindings.Add(new ManagedExactBinding(208, 46, "AgriExpansion.AgriEleanorStory", "Note", "System.Int32", null, typeof(GeneratedManagedPatch_208), null));
-            bindings.Add(new ManagedExactBinding(209, 47, "AgriExpansion.AgriEleanorStory", "Open", "", null, typeof(GeneratedManagedPatch_209), null));
-            bindings.Add(new ManagedExactBinding(210, 48, "AgriExpansion.AgriEleanorStory", "OpenGoodsShop", "", null, typeof(GeneratedManagedPatch_210), null));
-            bindings.Add(new ManagedExactBinding(211, 49, "AgriExpansion.AgriEleanorStory", "PayContribution", "", null, typeof(GeneratedManagedPatch_211), null));
-            bindings.Add(new ManagedExactBinding(212, 50, "AgriExpansion.AgriEleanorStory", "PurchaseGoods", "System.Int32, System.Int32", null, typeof(GeneratedManagedPatch_212), null));
-            bindings.Add(new ManagedExactBinding(213, 51, "AgriExpansion.AgriEleanorStory", "RefreshWindow", "", null, typeof(GeneratedManagedPatch_213), null));
-            bindings.Add(new ManagedExactBinding(214, 52, "AgriExpansion.AgriEleanorStory", "RewardItem", "System.String", null, typeof(GeneratedManagedPatch_214), null));
-            bindings.Add(new ManagedExactBinding(215, 53, "AgriExpansion.AgriEleanorStory", "Submit", "", null, typeof(GeneratedManagedPatch_215), null));
-            bindings.Add(new ManagedExactBinding(216, 54, "AgriExpansion.AgriEleanorStory", "SubmitOrder", "AgriExpansion.AgriEleanorState, AgriExpansion.AgriFarm, System.Boolean", null, typeof(GeneratedManagedPatch_216), null));
-            bindings.Add(new ManagedExactBinding(217, 55, "AgriExpansion.AgriEleanorStory", "SubmitWarehouseOrder", "", null, typeof(GeneratedManagedPatch_217), null));
-            bindings.Add(new ManagedExactBinding(218, 56, "AgriExpansion.AgriEleanorStory", "TaskDescription", "AgriExpansion.AgriEleanorState", null, typeof(GeneratedManagedPatch_218), null));
-            bindings.Add(new ManagedExactBinding(219, 57, "AgriExpansion.AgriEleanorStory+<>c__DisplayClass37_0", "<OpenGoodsShop>g__RefreshShop|0", "", null, typeof(GeneratedManagedPatch_219), null));
-            bindings.Add(new ManagedExactBinding(220, 58, "AgriExpansion.AgriFarm", ".cctor", "", null, typeof(GeneratedManagedPatch_220), null));
-            bindings.Add(new ManagedExactBinding(221, 63, "AgriExpansion.AgriFarm", "<RepairText>b__31_0", "System.Int32", null, typeof(GeneratedManagedPatch_221), null));
-            bindings.Add(new ManagedExactBinding(222, 64, "AgriExpansion.AgriFarm", "AggregateState", "System.Int32, System.Int32", null, typeof(GeneratedManagedPatch_222), null));
-            bindings.Add(new ManagedExactBinding(223, 65, "AgriExpansion.AgriFarm", "AnimalExpansionLabel", "GameItem", null, typeof(GeneratedManagedPatch_223), null));
-            bindings.Add(new ManagedExactBinding(224, 66, "AgriExpansion.AgriFarm", "AnimalLabel", "", null, typeof(GeneratedManagedPatch_224), null));
-            bindings.Add(new ManagedExactBinding(225, 67, "AgriExpansion.AgriFarm", "BuildJournal", "", null, typeof(GeneratedManagedPatch_225), null));
-            bindings.Add(new ManagedExactBinding(226, 68, "AgriExpansion.AgriFarm", "ChooseAnimalArea", "", null, typeof(GeneratedManagedPatch_226), null));
-            bindings.Add(new ManagedExactBinding(227, 69, "AgriExpansion.AgriFarm", "ChoosePlotMode", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_227), null));
-            bindings.Add(new ManagedExactBinding(228, 70, "AgriExpansion.AgriFarm", "ConfigureCultureBucket", "GameItem", null, typeof(GeneratedManagedPatch_228), null));
-            bindings.Add(new ManagedExactBinding(229, 71, "AgriExpansion.AgriFarm", "ConfirmChop", "GameItem", null, typeof(GeneratedManagedPatch_229), null));
-            bindings.Add(new ManagedExactBinding(230, 72, "AgriExpansion.AgriFarm", "ConfirmRemoveAnimal", "GameItem", null, typeof(GeneratedManagedPatch_230), null));
-            bindings.Add(new ManagedExactBinding(231, 73, "AgriExpansion.AgriFarm", "Controls", "System.Int32", null, typeof(GeneratedManagedPatch_231), null));
-            bindings.Add(new ManagedExactBinding(232, 74, "AgriExpansion.AgriFarm", "Deposit", "", null, typeof(GeneratedManagedPatch_232), null));
-            bindings.Add(new ManagedExactBinding(233, 76, "AgriExpansion.AgriFarm", "EndJournal", "System.Int32", null, typeof(GeneratedManagedPatch_233), null));
-            bindings.Add(new ManagedExactBinding(234, 77, "AgriExpansion.AgriFarm", "Ensure", "", null, typeof(GeneratedManagedPatch_234), null));
-            bindings.Add(new ManagedExactBinding(235, 78, "AgriExpansion.AgriFarm", "ExpandAnimalArea", "GameItem", null, typeof(GeneratedManagedPatch_235), null));
-            bindings.Add(new ManagedExactBinding(236, 79, "AgriExpansion.AgriFarm", "ExportCharge", "", null, typeof(GeneratedManagedPatch_236), null));
-            bindings.Add(new ManagedExactBinding(237, 80, "AgriExpansion.AgriFarm", "ExportWater", "", null, typeof(GeneratedManagedPatch_237), null));
-            bindings.Add(new ManagedExactBinding(238, 81, "AgriExpansion.AgriFarm", "Grow", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_238), null));
-            bindings.Add(new ManagedExactBinding(239, 82, "AgriExpansion.AgriFarm", "ImportCharge", "", null, typeof(GeneratedManagedPatch_239), null));
-            bindings.Add(new ManagedExactBinding(240, 83, "AgriExpansion.AgriFarm", "ImportWater", "", null, typeof(GeneratedManagedPatch_240), null));
-            bindings.Add(new ManagedExactBinding(241, 84, "AgriExpansion.AgriFarm", "IndustryPolicy", "", null, typeof(GeneratedManagedPatch_241), null));
-            bindings.Add(new ManagedExactBinding(242, 85, "AgriExpansion.AgriFarm", "Integrate", "", null, typeof(GeneratedManagedPatch_242), null));
-            bindings.Add(new ManagedExactBinding(243, 86, "AgriExpansion.AgriFarm", "Metric", "System.Int32", null, typeof(GeneratedManagedPatch_243), null));
-            bindings.Add(new ManagedExactBinding(244, 87, "AgriExpansion.AgriFarm", "OpenAnimalSettings", "", null, typeof(GeneratedManagedPatch_244), null));
-            bindings.Add(new ManagedExactBinding(245, 88, "AgriExpansion.AgriFarm", "OpenAnimals", "", null, typeof(GeneratedManagedPatch_245), null));
-            bindings.Add(new ManagedExactBinding(246, 89, "AgriExpansion.AgriFarm", "OpenFillRatio", "GameItem", null, typeof(GeneratedManagedPatch_246), null));
-            bindings.Add(new ManagedExactBinding(247, 90, "AgriExpansion.AgriFarm", "OpenGlobalModules", "", null, typeof(GeneratedManagedPatch_247), null));
-            bindings.Add(new ManagedExactBinding(248, 91, "AgriExpansion.AgriFarm", "OpenMineralRatio", "GameItem", null, typeof(GeneratedManagedPatch_248), null));
-            bindings.Add(new ManagedExactBinding(249, 92, "AgriExpansion.AgriFarm", "OpenPlot", "", null, typeof(GeneratedManagedPatch_249), null));
-            bindings.Add(new ManagedExactBinding(250, 93, "AgriExpansion.AgriFarm", "OpenPlotManagement", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_250), null));
-            bindings.Add(new ManagedExactBinding(251, 94, "AgriExpansion.AgriFarm", "OpenRecyclingSettings", "", null, typeof(GeneratedManagedPatch_251), null));
-            bindings.Add(new ManagedExactBinding(252, 95, "AgriExpansion.AgriFarm", "OpenResourceDetails", "System.Boolean", null, typeof(GeneratedManagedPatch_252), null));
-            bindings.Add(new ManagedExactBinding(253, 96, "AgriExpansion.AgriFarm", "OpenSeeds", "", null, typeof(GeneratedManagedPatch_253), null));
-            bindings.Add(new ManagedExactBinding(254, 97, "AgriExpansion.AgriFarm", "OpenSpecial", "", null, typeof(GeneratedManagedPatch_254), null));
-            bindings.Add(new ManagedExactBinding(255, 98, "AgriExpansion.AgriFarm", "OpenStock", "", null, typeof(GeneratedManagedPatch_255), null));
-            bindings.Add(new ManagedExactBinding(256, 100, "AgriExpansion.AgriFarm", "OpenWaterSettings", "", null, typeof(GeneratedManagedPatch_256), null));
-            bindings.Add(new ManagedExactBinding(257, 101, "AgriExpansion.AgriFarm", "PlotLabel", "", null, typeof(GeneratedManagedPatch_257), null));
-            bindings.Add(new ManagedExactBinding(258, 102, "AgriExpansion.AgriFarm", "PlotStatus", "GameItem", null, typeof(GeneratedManagedPatch_258), null));
-            bindings.Add(new ManagedExactBinding(259, 103, "AgriExpansion.AgriFarm", "PowerReport", "", null, typeof(GeneratedManagedPatch_259), null));
-            bindings.Add(new ManagedExactBinding(260, 104, "AgriExpansion.AgriFarm", "PowerSummary", "", null, typeof(GeneratedManagedPatch_260), null));
-            bindings.Add(new ManagedExactBinding(261, 105, "AgriExpansion.AgriFarm", "Recycle", "", null, typeof(GeneratedManagedPatch_261), null));
-            bindings.Add(new ManagedExactBinding(262, 106, "AgriExpansion.AgriFarm", "RecycleFeces", "", null, typeof(GeneratedManagedPatch_262), null));
-            bindings.Add(new ManagedExactBinding(263, 107, "AgriExpansion.AgriFarm", "RefreshPlot", "", null, typeof(GeneratedManagedPatch_263), null));
-            bindings.Add(new ManagedExactBinding(264, 108, "AgriExpansion.AgriFarm", "RepairText", "", null, typeof(GeneratedManagedPatch_264), null));
-            bindings.Add(new ManagedExactBinding(265, 109, "AgriExpansion.AgriFarm", "ReportHeading", "", null, typeof(GeneratedManagedPatch_265), null));
-            bindings.Add(new ManagedExactBinding(266, 110, "AgriExpansion.AgriFarm", "RestoreMisplacedFish", "", null, typeof(GeneratedManagedPatch_266), null));
-            bindings.Add(new ManagedExactBinding(267, 111, "AgriExpansion.AgriFarm", "RunAnimals", "", null, typeof(GeneratedManagedPatch_267), null));
-            bindings.Add(new ManagedExactBinding(268, 112, "AgriExpansion.AgriFarm", "StartSeed", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_268), null));
-            bindings.Add(new ManagedExactBinding(269, 113, "AgriExpansion.AgriFarm", "State", "System.Boolean", null, typeof(GeneratedManagedPatch_269), null));
+            bindings.Add(new ManagedExactBinding(145, 0, "AgriExpansion.AgriCookingItems", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_145), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(146, 0, "AgriExpansion.AgriCropHandbook", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_146), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(147, 0, "AgriExpansion.AgriDelivery", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_147), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(148, 0, "AgriExpansion.AgriDeliveryMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_148), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(149, 0, "AgriExpansion.AgriEleanorStory", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_149), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(150, 0, "AgriExpansion.AgriFarmAccess", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_150), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(151, 0, "AgriExpansion.AgriFarm", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_151), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(152, 0, "AgriExpansion.AgriFarmHandbook", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_152), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(153, 0, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_153), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(154, 0, "AgriExpansion.AgriFarmSecurity", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_154), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(155, 0, "AgriExpansion.AgriIndustry", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_155), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(156, 0, "AgriExpansion.AgriNextCatalog", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_156), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(157, 0, "AgriExpansion.AgriPerfumeItems", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_157), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(158, 0, "AgriExpansion.AgriPerfumeMachines", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_158), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(159, 0, "AgriExpansion.AgriPerfumeManual", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_159), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(160, 0, "AgriExpansion.AgriPerfumeManualText", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_160), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(161, 0, "AgriExpansion.AgriPerfumeProcessor", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_161), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(162, 0, "AgriExpansion.AgriSuperCrops", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_162), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(163, 1, "AgriExpansion.AgriChemRecipeNote", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_163), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(164, 2, "AgriExpansion.AgriChemRecipeNote", "Refresh", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_164), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(165, 3, "AgriExpansion.AgriChemRecipeNote", "get_Body", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_165), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(166, 4, "AgriExpansion.AgriChemRecipeNote", "get_Title", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_166), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(167, 5, "AgriExpansion.AgriChemRecipeNote+<>c", "<Refresh>b__8_1", "TagState", new Type[] { typeof(global::TagState) }, typeof(GeneratedManagedPatch_167), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(168, 6, "AgriExpansion.AgriChemRecipeNote+<>c", "<Refresh>b__8_2", "TagState", new Type[] { typeof(global::TagState) }, typeof(GeneratedManagedPatch_168), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(169, 7, "AgriExpansion.AgriChemistry", "Register", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_169), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(170, 8, "AgriExpansion.AgriCookingAccess", "Register", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_170), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(171, 9, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_171), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(172, 10, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_172), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(173, 11, "AgriExpansion.AgriCookingAccess+<>c", "<Register>b__3_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_173), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(174, 12, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_174), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(175, 13, "AgriExpansion.AgriCookingItems+<>c", "<Note>b__6_4", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_175), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(176, 14, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_176), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(177, 15, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__3", "GameItem, GameInventory, SlotMarker", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::SlotMarker) }, typeof(GeneratedManagedPatch_177), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(178, 16, "AgriExpansion.AgriCookingMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_178), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(179, 17, "AgriExpansion.AgriCookingMachine+View", "BuildMenu", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_179), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(180, 18, "AgriExpansion.AgriCookingMachine+View", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_180), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(181, 19, "AgriExpansion.AgriCookingMachine+View+<>c__DisplayClass22_1", "<Refresh>b__1", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_181), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(182, 20, "AgriExpansion.AgriCookingProduction", "Cook", "GameItem, GameInventory, GameGridInventory, AgriExpansion.CookingRecipe, System.String&", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::GameGridInventory), ModReflect.FindType("AgriExpansion.CookingRecipe"), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_182), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(183, 21, "AgriExpansion.AgriCookingRules", ".cctor", "", null, typeof(GeneratedManagedPatch_183), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(184, 22, "AgriExpansion.AgriCropHandbook", ".cctor", "", null, typeof(GeneratedManagedPatch_184), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(185, 23, "AgriExpansion.AgriCropHandbook", "BuildBook", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_185), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(186, 24, "AgriExpansion.AgriCropHandbook", "RefreshText", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_186), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(187, 25, "AgriExpansion.AgriCropHandbook+<>c__DisplayClass12_0", "<Create>b__2", "GameItem, GameInventory, SlotMarker", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::SlotMarker) }, typeof(GeneratedManagedPatch_187), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(188, 26, "AgriExpansion.AgriCropRules", ".cctor", "", null, typeof(GeneratedManagedPatch_188), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(189, 27, "AgriExpansion.AgriDelivery", "HistoryText", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_189), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(190, 28, "AgriExpansion.AgriDelivery", "Submit", "GameItem, GameInventory, System.Int32, System.String&", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::System.Int32), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_190), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(191, 29, "AgriExpansion.AgriDelivery+<>c", "<Register>b__17_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_191), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(192, 30, "AgriExpansion.AgriDelivery+<>c__DisplayClass17_0", "<Register>g__describe|1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_192), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(193, 31, "AgriExpansion.AgriDeliveryMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_193), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(194, 32, "AgriExpansion.AgriDeliveryMachine+View", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_194), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(195, 33, "AgriExpansion.AgriDressingProtection", "get_StatusText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_195), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(196, 34, "AgriExpansion.AgriEleanorResearchHarvestPatch", "Prefix", "PlantHarvestContext, GameItem", new Type[] { typeof(global::PlantHarvestContext), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_196), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(197, 35, "AgriExpansion.AgriEleanorStory", "AbandonOrder", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_197), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(198, 36, "AgriExpansion.AgriEleanorStory", "AcceptOrder", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_198), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(199, 37, "AgriExpansion.AgriEleanorStory", "AddDecision", "Dialogue, System.String, System.String, System.Int32", new Type[] { typeof(global::Dialogue), typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_199), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(200, 38, "AgriExpansion.AgriEleanorStory", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_200), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(201, 39, "AgriExpansion.AgriEleanorStory", "Claim", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_201), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(202, 40, "AgriExpansion.AgriEleanorStory", "CreateVisitor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_202), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(203, 41, "AgriExpansion.AgriEleanorStory", "Everyday", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_203), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(204, 42, "AgriExpansion.AgriEleanorStory", "FinishOrder", "AgriExpansion.AgriEleanorState", new Type[] { ModReflect.FindType("AgriExpansion.AgriEleanorState") }, typeof(GeneratedManagedPatch_204), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(205, 43, "AgriExpansion.AgriEleanorStory", "GoodsGreeting", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_205), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(206, 44, "AgriExpansion.AgriEleanorStory", "GoodsName", "System.String, GameItem", new Type[] { typeof(global::System.String), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_206), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(207, 45, "AgriExpansion.AgriEleanorStory", "Lines", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_207), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(208, 46, "AgriExpansion.AgriEleanorStory", "Note", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_208), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(209, 47, "AgriExpansion.AgriEleanorStory", "Open", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_209), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(210, 48, "AgriExpansion.AgriEleanorStory", "OpenGoodsShop", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_210), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(211, 49, "AgriExpansion.AgriEleanorStory", "PayContribution", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_211), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(212, 50, "AgriExpansion.AgriEleanorStory", "PurchaseGoods", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_212), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(213, 51, "AgriExpansion.AgriEleanorStory", "RefreshWindow", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_213), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(214, 52, "AgriExpansion.AgriEleanorStory", "RewardItem", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_214), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(215, 53, "AgriExpansion.AgriEleanorStory", "Submit", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_215), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(216, 54, "AgriExpansion.AgriEleanorStory", "SubmitOrder", "AgriExpansion.AgriEleanorState, AgriExpansion.AgriFarm, System.Boolean", new Type[] { ModReflect.FindType("AgriExpansion.AgriEleanorState"), ModReflect.FindType("AgriExpansion.AgriFarm"), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_216), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(217, 55, "AgriExpansion.AgriEleanorStory", "SubmitWarehouseOrder", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_217), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(218, 56, "AgriExpansion.AgriEleanorStory", "TaskDescription", "AgriExpansion.AgriEleanorState", new Type[] { ModReflect.FindType("AgriExpansion.AgriEleanorState") }, typeof(GeneratedManagedPatch_218), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(219, 57, "AgriExpansion.AgriEleanorStory+<>c__DisplayClass37_0", "<OpenGoodsShop>g__RefreshShop|0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_219), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(220, 58, "AgriExpansion.AgriFarm", ".cctor", "", null, typeof(GeneratedManagedPatch_220), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(221, 63, "AgriExpansion.AgriFarm", "<RepairText>b__31_0", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_221), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(222, 64, "AgriExpansion.AgriFarm", "AggregateState", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_222), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(223, 65, "AgriExpansion.AgriFarm", "AnimalExpansionLabel", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_223), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(224, 66, "AgriExpansion.AgriFarm", "AnimalLabel", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_224), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(225, 67, "AgriExpansion.AgriFarm", "BuildJournal", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_225), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(226, 68, "AgriExpansion.AgriFarm", "ChooseAnimalArea", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_226), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(227, 69, "AgriExpansion.AgriFarm", "ChoosePlotMode", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_227), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(228, 70, "AgriExpansion.AgriFarm", "ConfigureCultureBucket", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_228), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(229, 71, "AgriExpansion.AgriFarm", "ConfirmChop", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_229), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(230, 72, "AgriExpansion.AgriFarm", "ConfirmRemoveAnimal", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_230), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(231, 73, "AgriExpansion.AgriFarm", "Controls", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_231), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(232, 74, "AgriExpansion.AgriFarm", "Deposit", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_232), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(233, 76, "AgriExpansion.AgriFarm", "EndJournal", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_233), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(234, 77, "AgriExpansion.AgriFarm", "Ensure", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_234), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(235, 78, "AgriExpansion.AgriFarm", "ExpandAnimalArea", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_235), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(236, 79, "AgriExpansion.AgriFarm", "ExportCharge", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_236), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(237, 80, "AgriExpansion.AgriFarm", "ExportWater", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_237), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(238, 81, "AgriExpansion.AgriFarm", "Grow", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_238), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(239, 82, "AgriExpansion.AgriFarm", "ImportCharge", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_239), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(240, 83, "AgriExpansion.AgriFarm", "ImportWater", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_240), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(241, 84, "AgriExpansion.AgriFarm", "IndustryPolicy", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_241), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(242, 85, "AgriExpansion.AgriFarm", "Integrate", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_242), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(243, 86, "AgriExpansion.AgriFarm", "Metric", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_243), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(244, 87, "AgriExpansion.AgriFarm", "OpenAnimalSettings", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_244), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(245, 88, "AgriExpansion.AgriFarm", "OpenAnimals", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_245), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(246, 89, "AgriExpansion.AgriFarm", "OpenFillRatio", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_246), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(247, 90, "AgriExpansion.AgriFarm", "OpenGlobalModules", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_247), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(248, 91, "AgriExpansion.AgriFarm", "OpenMineralRatio", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_248), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(249, 92, "AgriExpansion.AgriFarm", "OpenPlot", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_249), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(250, 93, "AgriExpansion.AgriFarm", "OpenPlotManagement", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_250), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(251, 94, "AgriExpansion.AgriFarm", "OpenRecyclingSettings", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_251), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(252, 95, "AgriExpansion.AgriFarm", "OpenResourceDetails", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_252), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(253, 96, "AgriExpansion.AgriFarm", "OpenSeeds", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_253), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(254, 97, "AgriExpansion.AgriFarm", "OpenSpecial", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_254), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(255, 98, "AgriExpansion.AgriFarm", "OpenStock", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_255), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(256, 100, "AgriExpansion.AgriFarm", "OpenWaterSettings", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_256), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(257, 101, "AgriExpansion.AgriFarm", "PlotLabel", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_257), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(258, 102, "AgriExpansion.AgriFarm", "PlotStatus", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_258), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(259, 103, "AgriExpansion.AgriFarm", "PowerReport", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_259), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(260, 104, "AgriExpansion.AgriFarm", "PowerSummary", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_260), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(261, 105, "AgriExpansion.AgriFarm", "Recycle", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_261), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(262, 106, "AgriExpansion.AgriFarm", "RecycleFeces", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_262), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(263, 107, "AgriExpansion.AgriFarm", "RefreshPlot", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_263), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(264, 108, "AgriExpansion.AgriFarm", "RepairText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_264), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(265, 109, "AgriExpansion.AgriFarm", "ReportHeading", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_265), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(266, 110, "AgriExpansion.AgriFarm", "RestoreMisplacedFish", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_266), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(267, 111, "AgriExpansion.AgriFarm", "RunAnimals", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_267), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(268, 112, "AgriExpansion.AgriFarm", "StartSeed", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_268), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(269, 113, "AgriExpansion.AgriFarm", "State", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_269), "Transpiler", false, null));
         }
 
         private static void Add_6_1(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(270, 114, "AgriExpansion.AgriFarm", "Tick", "", null, typeof(GeneratedManagedPatch_270), null));
-            bindings.Add(new ManagedExactBinding(271, 115, "AgriExpansion.AgriFarm", "UpdateSeedText", "", null, typeof(GeneratedManagedPatch_271), null));
-            bindings.Add(new ManagedExactBinding(272, 116, "AgriExpansion.AgriFarm", "UpdateStock", "", null, typeof(GeneratedManagedPatch_272), null));
-            bindings.Add(new ManagedExactBinding(273, 117, "AgriExpansion.AgriFarm", "WaterReport", "", null, typeof(GeneratedManagedPatch_273), null));
-            bindings.Add(new ManagedExactBinding(274, 118, "AgriExpansion.AgriFarm", "WaterSummary", "", null, typeof(GeneratedManagedPatch_274), null));
-            bindings.Add(new ManagedExactBinding(275, 119, "AgriExpansion.AgriFarm", "WindowCaption", "System.String, System.String, System.String", null, typeof(GeneratedManagedPatch_275), null));
-            bindings.Add(new ManagedExactBinding(276, 120, "AgriExpansion.AgriFarm", "Withdraw", "System.Int32", null, typeof(GeneratedManagedPatch_276), null));
-            bindings.Add(new ManagedExactBinding(277, 121, "AgriExpansion.AgriFarm+<>c", "<ConfirmChop>b__25_1", "TagState", null, typeof(GeneratedManagedPatch_277), null));
-            bindings.Add(new ManagedExactBinding(278, 141, "AgriExpansion.AgriFarm+<>c__DisplayClass15_1", "<OpenAnimals>b__6", "System.Int32, System.Int32", null, typeof(GeneratedManagedPatch_278), null));
-            bindings.Add(new ManagedExactBinding(279, 152, "AgriExpansion.AgriFarm+<>c__DisplayClass47_0", "<OpenFillRatio>b__0", "", null, typeof(GeneratedManagedPatch_279), null));
-            bindings.Add(new ManagedExactBinding(280, 153, "AgriExpansion.AgriFarm+<>c__DisplayClass50_0", "<OpenMineralRatio>b__0", "", null, typeof(GeneratedManagedPatch_280), null));
-            bindings.Add(new ManagedExactBinding(281, 154, "AgriExpansion.AgriFarm+<>c__DisplayClass62_0", "<OpenGlobalModules>b__2", "System.Int32", null, typeof(GeneratedManagedPatch_281), null));
-            bindings.Add(new ManagedExactBinding(282, 155, "AgriExpansion.AgriFarm+<>c__DisplayClass62_1", "<OpenGlobalModules>b__3", "System.Int32", null, typeof(GeneratedManagedPatch_282), null));
-            bindings.Add(new ManagedExactBinding(283, 156, "AgriExpansion.AgriFarm+<>c__DisplayClass81_0", "<OpenPlot>b__3", "", null, typeof(GeneratedManagedPatch_283), null));
-            bindings.Add(new ManagedExactBinding(284, 157, "AgriExpansion.AgriFarmAccess", "CreateCleanupVisitor", "", null, typeof(GeneratedManagedPatch_284), null));
-            bindings.Add(new ManagedExactBinding(285, 158, "AgriExpansion.AgriFarmAccess", "CreateVisitor", "", null, typeof(GeneratedManagedPatch_285), null));
-            bindings.Add(new ManagedExactBinding(286, 159, "AgriExpansion.AgriFarmAccess", "GiveFarmerStart", "", null, typeof(GeneratedManagedPatch_286), null));
-            bindings.Add(new ManagedExactBinding(287, 160, "AgriExpansion.AgriFarmAccess+<>c__DisplayClass15_0", "<CreateVisitor>b__1", "Dialogue", null, typeof(GeneratedManagedPatch_287), null));
-            bindings.Add(new ManagedExactBinding(288, 161, "AgriExpansion.AgriFarmCultureTank", "Configure", "GameItem, System.Func`3<GameItem,System.Int32,System.Boolean>", null, typeof(GeneratedManagedPatch_288), null));
-            bindings.Add(new ManagedExactBinding(289, 162, "AgriExpansion.AgriFarmFootprint", "Apply", "GameItem", null, typeof(GeneratedManagedPatch_289), null));
-            bindings.Add(new ManagedExactBinding(290, 163, "AgriExpansion.AgriFarmFootprint+<>c", "<Initialize>b__7_0", "", null, typeof(GeneratedManagedPatch_290), null));
-            bindings.Add(new ManagedExactBinding(291, 164, "AgriExpansion.AgriFarmFootprint+<>c", "<Initialize>b__7_1", "", null, typeof(GeneratedManagedPatch_291), null));
-            bindings.Add(new ManagedExactBinding(292, 165, "AgriExpansion.AgriFarmHandbook", "Build", "GameItem, System.Func`3<System.Int32,System.Int32,System.Int32>&", null, typeof(GeneratedManagedPatch_292), null));
-            bindings.Add(new ManagedExactBinding(293, 166, "AgriExpansion.AgriFarmHandbook+<>c__DisplayClass5_0", "<Create>b__0", "", null, typeof(GeneratedManagedPatch_293), null));
-            bindings.Add(new ManagedExactBinding(294, 167, "AgriExpansion.AgriFarmHandbookGuide", ".cctor", "", null, typeof(GeneratedManagedPatch_294), null));
-            bindings.Add(new ManagedExactBinding(295, 168, "AgriExpansion.AgriFarmHandbookText", ".cctor", "", null, typeof(GeneratedManagedPatch_295), null));
-            bindings.Add(new ManagedExactBinding(296, 169, "AgriExpansion.AgriFarmMachine", "Create", "", null, typeof(GeneratedManagedPatch_296), null));
-            bindings.Add(new ManagedExactBinding(297, 171, "AgriExpansion.AgriFarmMachine+<>c", "<Register>b__6_0", "", null, typeof(GeneratedManagedPatch_297), null));
-            bindings.Add(new ManagedExactBinding(298, 172, "AgriExpansion.AgriFarmSecurity+<>c", "<Initialize>b__10_0", "", null, typeof(GeneratedManagedPatch_298), null));
-            bindings.Add(new ManagedExactBinding(299, 173, "AgriExpansion.AgriFarmSecurity+<>c", "<Initialize>b__10_1", "", null, typeof(GeneratedManagedPatch_299), null));
-            bindings.Add(new ManagedExactBinding(300, 174, "AgriExpansion.AgriFiberItems", "AddTooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_300), null));
-            bindings.Add(new ManagedExactBinding(301, 175, "AgriExpansion.AgriFiberItems", "Refresh", "GameItem, AgriExpansion.FiberProduct", null, typeof(GeneratedManagedPatch_301), null));
-            bindings.Add(new ManagedExactBinding(302, 176, "AgriExpansion.AgriFiberMachine", "Create", "", null, typeof(GeneratedManagedPatch_302), null));
-            bindings.Add(new ManagedExactBinding(303, 177, "AgriExpansion.AgriFiberMachine", "CreateManual", "", null, typeof(GeneratedManagedPatch_303), null));
-            bindings.Add(new ManagedExactBinding(304, 178, "AgriExpansion.AgriFiberMachine", "get_ManualText", "", null, typeof(GeneratedManagedPatch_304), null));
-            bindings.Add(new ManagedExactBinding(305, 179, "AgriExpansion.AgriFiberMachine+FiberView", "RefreshRequirements", "", null, typeof(GeneratedManagedPatch_305), null));
-            bindings.Add(new ManagedExactBinding(306, 180, "AgriExpansion.AgriFiberProduction", "ProcessCycle", "GameItem, GameInventory, GameGridInventory, GameSlotInventory, GameInventory, AgriExpansion.FiberProduct, System.Int32", null, typeof(GeneratedManagedPatch_306), null));
-            bindings.Add(new ManagedExactBinding(307, 181, "AgriExpansion.AgriFiberRules", "Plan", "AgriExpansion.FiberProduct, System.Collections.Generic.IReadOnlyList`1<AgriExpansion.FiberMaterial>, System.Int32", null, typeof(GeneratedManagedPatch_307), null));
-            bindings.Add(new ManagedExactBinding(308, 182, "AgriExpansion.AgriFiberRules", "get_MaterialNames", "", null, typeof(GeneratedManagedPatch_308), null));
-            bindings.Add(new ManagedExactBinding(309, 183, "AgriExpansion.AgriFiberRules", "get_Names", "", null, typeof(GeneratedManagedPatch_309), null));
-            bindings.Add(new ManagedExactBinding(310, 184, "AgriExpansion.AgriFiberRules", "get_QualityNames", "", null, typeof(GeneratedManagedPatch_310), null));
-            bindings.Add(new ManagedExactBinding(311, 185, "AgriExpansion.AgriFoodItems", "AddTooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_311), null));
-            bindings.Add(new ManagedExactBinding(312, 186, "AgriExpansion.AgriFoodItems", "Create", "AgriExpansion.FoodKind", null, typeof(GeneratedManagedPatch_312), null));
-            bindings.Add(new ManagedExactBinding(313, 187, "AgriExpansion.AgriFoodItems", "RefreshDescription", "GameItem, AgriExpansion.FoodKind", null, typeof(GeneratedManagedPatch_313), null));
-            bindings.Add(new ManagedExactBinding(314, 188, "AgriExpansion.AgriFoodMachine", "Create", "", null, typeof(GeneratedManagedPatch_314), null));
-            bindings.Add(new ManagedExactBinding(315, 189, "AgriExpansion.AgriFoodMachine", "CreateManual", "", null, typeof(GeneratedManagedPatch_315), null));
-            bindings.Add(new ManagedExactBinding(316, 190, "AgriExpansion.AgriFoodMachine", "get_ManualText", "", null, typeof(GeneratedManagedPatch_316), null));
-            bindings.Add(new ManagedExactBinding(317, 191, "AgriExpansion.AgriFoodMachine+PackingView", "Refresh", "", null, typeof(GeneratedManagedPatch_317), null));
-            bindings.Add(new ManagedExactBinding(318, 192, "AgriExpansion.AgriFoodProduction", "TryPack", "GameItem, GameInventory, GameGridInventory, AgriExpansion.FoodKind, System.String&", null, typeof(GeneratedManagedPatch_318), null));
-            bindings.Add(new ManagedExactBinding(319, 193, "AgriExpansion.AgriFoodRules", "Plan", "AgriExpansion.FoodKind, System.Collections.Generic.IReadOnlyList`1<AgriExpansion.FoodMaterial>", null, typeof(GeneratedManagedPatch_319), null));
-            bindings.Add(new ManagedExactBinding(320, 194, "AgriExpansion.AgriFoodRules", "get_KindNames", "", null, typeof(GeneratedManagedPatch_320), null));
-            bindings.Add(new ManagedExactBinding(321, 195, "AgriExpansion.AgriFoodRules", "get_Names", "", null, typeof(GeneratedManagedPatch_321), null));
-            bindings.Add(new ManagedExactBinding(322, 196, "AgriExpansion.AgriIndustry", "Buttons", "GameItem, GameInventory, System.Func`1<System.Int32>, System.Action, System.Action`1<System.String>", null, typeof(GeneratedManagedPatch_322), null));
-            bindings.Add(new ManagedExactBinding(323, 197, "AgriExpansion.AgriIndustry", "ChooseFarm", "GameItem, System.Action", null, typeof(GeneratedManagedPatch_323), null));
-            bindings.Add(new ManagedExactBinding(324, 198, "AgriExpansion.AgriIndustry", "Refill", "GameItem, GameInventory, System.Int32", null, typeof(GeneratedManagedPatch_324), null));
-            bindings.Add(new ManagedExactBinding(325, 199, "AgriExpansion.AgriIndustry", "Register", "", null, typeof(GeneratedManagedPatch_325), null));
-            bindings.Add(new ManagedExactBinding(326, 200, "AgriExpansion.AgriIndustry", "Return", "GameItem, GameInventory", null, typeof(GeneratedManagedPatch_326), null));
-            bindings.Add(new ManagedExactBinding(327, 201, "AgriExpansion.AgriIndustry+<>c", "<Register>b__3_1", "", null, typeof(GeneratedManagedPatch_327), null));
-            bindings.Add(new ManagedExactBinding(328, 204, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__0", "", null, typeof(GeneratedManagedPatch_328), null));
-            bindings.Add(new ManagedExactBinding(329, 205, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__2", "", null, typeof(GeneratedManagedPatch_329), null));
-            bindings.Add(new ManagedExactBinding(330, 206, "AgriExpansion.AgriIronSmelting", "AppendInstructions", "GameItem", null, typeof(GeneratedManagedPatch_330), null));
-            bindings.Add(new ManagedExactBinding(331, 207, "AgriExpansion.AgriIronSmelting", "get_InstructionMarker", "", null, typeof(GeneratedManagedPatch_331), null));
-            bindings.Add(new ManagedExactBinding(332, 208, "AgriExpansion.AgriItems", "get_AlgaeDescription", "", null, typeof(GeneratedManagedPatch_332), null));
-            bindings.Add(new ManagedExactBinding(333, 209, "AgriExpansion.AgriItems", "get_AlgaeFlavor", "", null, typeof(GeneratedManagedPatch_333), null));
-            bindings.Add(new ManagedExactBinding(334, 210, "AgriExpansion.AgriItems", "get_GourdDescription", "", null, typeof(GeneratedManagedPatch_334), null));
-            bindings.Add(new ManagedExactBinding(335, 211, "AgriExpansion.AgriItems", "get_GourdFlavor", "", null, typeof(GeneratedManagedPatch_335), null));
-            bindings.Add(new ManagedExactBinding(336, 212, "AgriExpansion.AgriItems", "get_IronFlavor", "", null, typeof(GeneratedManagedPatch_336), null));
-            bindings.Add(new ManagedExactBinding(337, 213, "AgriExpansion.AgriItems", "get_IronFruitDescription", "", null, typeof(GeneratedManagedPatch_337), null));
-            bindings.Add(new ManagedExactBinding(338, 214, "AgriExpansion.AgriItems", "get_IronSeedDescription", "", null, typeof(GeneratedManagedPatch_338), null));
-            bindings.Add(new ManagedExactBinding(339, 215, "AgriExpansion.AgriItems", "get_PlasmaDescription", "", null, typeof(GeneratedManagedPatch_339), null));
-            bindings.Add(new ManagedExactBinding(340, 216, "AgriExpansion.AgriItems", "get_PlasmaFlavor", "", null, typeof(GeneratedManagedPatch_340), null));
-            bindings.Add(new ManagedExactBinding(341, 217, "AgriExpansion.AgriItems", "get_VineDescription", "", null, typeof(GeneratedManagedPatch_341), null));
-            bindings.Add(new ManagedExactBinding(342, 218, "AgriExpansion.AgriItems", "get_VineFlavor", "", null, typeof(GeneratedManagedPatch_342), null));
-            bindings.Add(new ManagedExactBinding(343, 219, "AgriExpansion.AgriItems+<>c", "<Register>b__10_0", "", null, typeof(GeneratedManagedPatch_343), null));
-            bindings.Add(new ManagedExactBinding(344, 220, "AgriExpansion.AgriItems+<>c", "<Register>b__10_1", "", null, typeof(GeneratedManagedPatch_344), null));
-            bindings.Add(new ManagedExactBinding(345, 221, "AgriExpansion.AgriItems+<>c", "<Register>b__10_2", "", null, typeof(GeneratedManagedPatch_345), null));
-            bindings.Add(new ManagedExactBinding(346, 222, "AgriExpansion.AgriItems+<>c", "<Register>b__10_3", "", null, typeof(GeneratedManagedPatch_346), null));
-            bindings.Add(new ManagedExactBinding(347, 223, "AgriExpansion.AgriItems+<>c", "<Register>b__10_4", "", null, typeof(GeneratedManagedPatch_347), null));
-            bindings.Add(new ManagedExactBinding(348, 224, "AgriExpansion.AgriNextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_348), null));
-            bindings.Add(new ManagedExactBinding(349, 225, "AgriExpansion.AgriNextCatalog", "Name", "AgriExpansion.AgriCropVariant", null, typeof(GeneratedManagedPatch_349), null));
-            bindings.Add(new ManagedExactBinding(350, 226, "AgriExpansion.AgriNextCatalog", "Variant", "System.String, System.String, System.Int32, System.Int32", null, typeof(GeneratedManagedPatch_350), null));
-            bindings.Add(new ManagedExactBinding(351, 227, "AgriExpansion.AgriNextCatalog+<Variants>d__5", "MoveNext", "", null, typeof(GeneratedManagedPatch_351), null));
-            bindings.Add(new ManagedExactBinding(352, 228, "AgriExpansion.AgriNextEffects", "BindBrew", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_352), null));
-            bindings.Add(new ManagedExactBinding(353, 229, "AgriExpansion.AgriNextEffects", "BindSaturated", "GameItem", null, typeof(GeneratedManagedPatch_353), null));
-            bindings.Add(new ManagedExactBinding(354, 230, "AgriExpansion.AgriNextItems", "CreateSeed", "AgriExpansion.AgriNextCrop", null, typeof(GeneratedManagedPatch_354), null));
-            bindings.Add(new ManagedExactBinding(355, 231, "AgriExpansion.AgriNextItems", "Describe", "GameItem", null, typeof(GeneratedManagedPatch_355), null));
-            bindings.Add(new ManagedExactBinding(356, 232, "AgriExpansion.AgriNextItems+<>c__DisplayClass1_0", "<CreateSeed>b__0", "GameItem", null, typeof(GeneratedManagedPatch_356), null));
-            bindings.Add(new ManagedExactBinding(357, 233, "AgriExpansion.AgriPerfumeAccess", "Register", "", null, typeof(GeneratedManagedPatch_357), null));
-            bindings.Add(new ManagedExactBinding(358, 234, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_0", "", null, typeof(GeneratedManagedPatch_358), null));
-            bindings.Add(new ManagedExactBinding(359, 235, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_1", "", null, typeof(GeneratedManagedPatch_359), null));
-            bindings.Add(new ManagedExactBinding(360, 236, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_2", "", null, typeof(GeneratedManagedPatch_360), null));
-            bindings.Add(new ManagedExactBinding(361, 237, "AgriExpansion.AgriPerfumeCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_361), null));
-            bindings.Add(new ManagedExactBinding(362, 238, "AgriExpansion.AgriPerfumeDescriptions", ".cctor", "", null, typeof(GeneratedManagedPatch_362), null));
-            bindings.Add(new ManagedExactBinding(363, 239, "AgriExpansion.AgriPerfumeItems", "AromaText", "System.Int32[], System.Boolean", null, typeof(GeneratedManagedPatch_363), null));
-            bindings.Add(new ManagedExactBinding(364, 240, "AgriExpansion.AgriPerfumeItems", "DescribeMaterial", "GameItem, AgriExpansion.PerfumeMaterial", null, typeof(GeneratedManagedPatch_364), null));
-            bindings.Add(new ManagedExactBinding(365, 241, "AgriExpansion.AgriPerfumeItems", "ReactionText", "System.String", null, typeof(GeneratedManagedPatch_365), null));
-            bindings.Add(new ManagedExactBinding(366, 242, "AgriExpansion.AgriPerfumeItems", "Refresh", "GameItem, System.Int32", null, typeof(GeneratedManagedPatch_366), null));
-            bindings.Add(new ManagedExactBinding(367, 243, "AgriExpansion.AgriPerfumeMachines", ".cctor", "", null, typeof(GeneratedManagedPatch_367), null));
-            bindings.Add(new ManagedExactBinding(368, 244, "AgriExpansion.AgriPerfumeMachines", "CreateBlender", "", null, typeof(GeneratedManagedPatch_368), null));
-            bindings.Add(new ManagedExactBinding(369, 245, "AgriExpansion.AgriPerfumeMachines+Blender", "Process", "", null, typeof(GeneratedManagedPatch_369), null));
-            bindings.Add(new ManagedExactBinding(370, 246, "AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", "", null, typeof(GeneratedManagedPatch_370), null));
-            bindings.Add(new ManagedExactBinding(371, 247, "AgriExpansion.AgriPerfumeManual", "Build", "GameItem", null, typeof(GeneratedManagedPatch_371), null));
-            bindings.Add(new ManagedExactBinding(372, 248, "AgriExpansion.AgriPerfumeManual+<>c__DisplayClass3_0", "<Create>b__0", "", null, typeof(GeneratedManagedPatch_372), null));
-            bindings.Add(new ManagedExactBinding(373, 249, "AgriExpansion.AgriPerfumeManualText", ".cctor", "", null, typeof(GeneratedManagedPatch_373), null));
-            bindings.Add(new ManagedExactBinding(374, 250, "AgriExpansion.AgriPerfumeManualText", "get_FusionTable", "", null, typeof(GeneratedManagedPatch_374), null));
-            bindings.Add(new ManagedExactBinding(375, 251, "AgriExpansion.AgriPerfumeManualText", "get_Introduction", "", null, typeof(GeneratedManagedPatch_375), null));
-            bindings.Add(new ManagedExactBinding(376, 252, "AgriExpansion.AgriPerfumeManualText", "get_Priorities", "", null, typeof(GeneratedManagedPatch_376), null));
-            bindings.Add(new ManagedExactBinding(377, 253, "AgriExpansion.AgriPerfumeManualText", "get_Quality", "", null, typeof(GeneratedManagedPatch_377), null));
-            bindings.Add(new ManagedExactBinding(378, 254, "AgriExpansion.AgriPerfumeManualText", "get_ReactionOrder", "", null, typeof(GeneratedManagedPatch_378), null));
-            bindings.Add(new ManagedExactBinding(379, 255, "AgriExpansion.AgriPerfumeManualText", "get_Tutorial", "", null, typeof(GeneratedManagedPatch_379), null));
-            bindings.Add(new ManagedExactBinding(380, 256, "AgriExpansion.AgriPerfumeManualText", "get_Usage", "", null, typeof(GeneratedManagedPatch_380), null));
-            bindings.Add(new ManagedExactBinding(381, 257, "AgriExpansion.AgriPerfumeManualText+<>c", "<Recipes>b__11_0", "System.Int32", null, typeof(GeneratedManagedPatch_381), null));
-            bindings.Add(new ManagedExactBinding(382, 258, "AgriExpansion.AgriPerfumeProcessor", "ChooseNote", "", null, typeof(GeneratedManagedPatch_382), null));
-            bindings.Add(new ManagedExactBinding(383, 259, "AgriExpansion.AgriPerfumeProcessor", "Clear", "", null, typeof(GeneratedManagedPatch_383), null));
-            bindings.Add(new ManagedExactBinding(384, 260, "AgriExpansion.AgriPerfumeProcessor", "Create", "System.Int32", null, typeof(GeneratedManagedPatch_384), null));
-            bindings.Add(new ManagedExactBinding(385, 261, "AgriExpansion.AgriPerfumeProcessor", "Process", "", null, typeof(GeneratedManagedPatch_385), null));
-            bindings.Add(new ManagedExactBinding(386, 262, "AgriExpansion.AgriPerfumeProcessor", "Refresh", "", null, typeof(GeneratedManagedPatch_386), null));
-            bindings.Add(new ManagedExactBinding(387, 263, "AgriExpansion.AgriPerfumeRules", ".cctor", "", null, typeof(GeneratedManagedPatch_387), null));
-            bindings.Add(new ManagedExactBinding(388, 264, "AgriExpansion.AgriPlants", "Register", "", null, typeof(GeneratedManagedPatch_388), null));
-            bindings.Add(new ManagedExactBinding(389, 265, "AgriExpansion.AgriPlasticProduction", "Process", "GameItem, GameInventory, GameGridInventory, GameSlotInventory, GameInventory", null, typeof(GeneratedManagedPatch_389), null));
-            bindings.Add(new ManagedExactBinding(390, 266, "AgriExpansion.AgriPlasticProduction", "Requirement", "GameItem, GameInventory", null, typeof(GeneratedManagedPatch_390), null));
-            bindings.Add(new ManagedExactBinding(391, 267, "AgriExpansion.AgriRequirementText", "Format", "System.String[], System.Int64[], System.Int32[], System.String", null, typeof(GeneratedManagedPatch_391), null));
-            bindings.Add(new ManagedExactBinding(392, 268, "AgriExpansion.AgriSeedPropagation", "AddTooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_392), null));
-            bindings.Add(new ManagedExactBinding(393, 269, "AgriExpansion.AgriSuperCrops", "Name", "System.String", null, typeof(GeneratedManagedPatch_393), null));
-            bindings.Add(new ManagedExactBinding(394, 270, "AgriExpansion.AgriSuperCrops", "PlantName", "System.String", null, typeof(GeneratedManagedPatch_394), null));
+            bindings.Add(new ManagedExactBinding(270, 114, "AgriExpansion.AgriFarm", "Tick", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_270), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(271, 115, "AgriExpansion.AgriFarm", "UpdateSeedText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_271), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(272, 116, "AgriExpansion.AgriFarm", "UpdateStock", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_272), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(273, 117, "AgriExpansion.AgriFarm", "WaterReport", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_273), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(274, 118, "AgriExpansion.AgriFarm", "WaterSummary", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_274), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(275, 119, "AgriExpansion.AgriFarm", "WindowCaption", "System.String, System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_275), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(276, 120, "AgriExpansion.AgriFarm", "Withdraw", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_276), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(277, 121, "AgriExpansion.AgriFarm+<>c", "<ConfirmChop>b__25_1", "TagState", new Type[] { typeof(global::TagState) }, typeof(GeneratedManagedPatch_277), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(278, 141, "AgriExpansion.AgriFarm+<>c__DisplayClass15_1", "<OpenAnimals>b__6", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_278), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(279, 152, "AgriExpansion.AgriFarm+<>c__DisplayClass47_0", "<OpenFillRatio>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_279), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(280, 153, "AgriExpansion.AgriFarm+<>c__DisplayClass50_0", "<OpenMineralRatio>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_280), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(281, 154, "AgriExpansion.AgriFarm+<>c__DisplayClass62_0", "<OpenGlobalModules>b__2", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_281), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(282, 155, "AgriExpansion.AgriFarm+<>c__DisplayClass62_1", "<OpenGlobalModules>b__3", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_282), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(283, 156, "AgriExpansion.AgriFarm+<>c__DisplayClass81_0", "<OpenPlot>b__3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_283), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(284, 157, "AgriExpansion.AgriFarmAccess", "CreateCleanupVisitor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_284), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(285, 158, "AgriExpansion.AgriFarmAccess", "CreateVisitor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_285), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(286, 159, "AgriExpansion.AgriFarmAccess", "GiveFarmerStart", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_286), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(287, 160, "AgriExpansion.AgriFarmAccess+<>c__DisplayClass15_0", "<CreateVisitor>b__1", "Dialogue", new Type[] { typeof(global::Dialogue) }, typeof(GeneratedManagedPatch_287), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(288, 161, "AgriExpansion.AgriFarmCultureTank", "Configure", "GameItem, System.Func`3<GameItem,System.Int32,System.Boolean>", new Type[] { typeof(global::GameItem), (typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }) }, typeof(GeneratedManagedPatch_288), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(289, 162, "AgriExpansion.AgriFarmFootprint", "Apply", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_289), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(290, 163, "AgriExpansion.AgriFarmFootprint+<>c", "<Initialize>b__7_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_290), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(291, 164, "AgriExpansion.AgriFarmFootprint+<>c", "<Initialize>b__7_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_291), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(292, 165, "AgriExpansion.AgriFarmHandbook", "Build", "GameItem, System.Func`3<System.Int32,System.Int32,System.Int32>&", new Type[] { typeof(global::GameItem), ((typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Int32) })).MakeByRefType() }, typeof(GeneratedManagedPatch_292), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(293, 166, "AgriExpansion.AgriFarmHandbook+<>c__DisplayClass5_0", "<Create>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_293), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(294, 167, "AgriExpansion.AgriFarmHandbookGuide", ".cctor", "", null, typeof(GeneratedManagedPatch_294), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(295, 168, "AgriExpansion.AgriFarmHandbookText", ".cctor", "", null, typeof(GeneratedManagedPatch_295), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(296, 169, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_296), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(297, 171, "AgriExpansion.AgriFarmMachine+<>c", "<Register>b__6_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_297), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(298, 172, "AgriExpansion.AgriFarmSecurity+<>c", "<Initialize>b__10_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_298), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(299, 173, "AgriExpansion.AgriFarmSecurity+<>c", "<Initialize>b__10_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_299), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(300, 174, "AgriExpansion.AgriFiberItems", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_300), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(301, 175, "AgriExpansion.AgriFiberItems", "Refresh", "GameItem, AgriExpansion.FiberProduct", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.FiberProduct") }, typeof(GeneratedManagedPatch_301), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(302, 176, "AgriExpansion.AgriFiberMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_302), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(303, 177, "AgriExpansion.AgriFiberMachine", "CreateManual", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_303), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(304, 178, "AgriExpansion.AgriFiberMachine", "get_ManualText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_304), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(305, 179, "AgriExpansion.AgriFiberMachine+FiberView", "RefreshRequirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_305), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(306, 180, "AgriExpansion.AgriFiberProduction", "ProcessCycle", "GameItem, GameInventory, GameGridInventory, GameSlotInventory, GameInventory, AgriExpansion.FiberProduct, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::GameGridInventory), typeof(global::GameSlotInventory), typeof(global::GameInventory), ModReflect.FindType("AgriExpansion.FiberProduct"), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_306), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(307, 181, "AgriExpansion.AgriFiberRules", "Plan", "AgriExpansion.FiberProduct, System.Collections.Generic.IReadOnlyList`1<AgriExpansion.FiberMaterial>, System.Int32", new Type[] { ModReflect.FindType("AgriExpansion.FiberProduct"), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { ModReflect.FindType("AgriExpansion.FiberMaterial") }), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_307), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(308, 182, "AgriExpansion.AgriFiberRules", "get_MaterialNames", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_308), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(309, 183, "AgriExpansion.AgriFiberRules", "get_Names", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_309), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(310, 184, "AgriExpansion.AgriFiberRules", "get_QualityNames", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_310), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(311, 185, "AgriExpansion.AgriFoodItems", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_311), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(312, 186, "AgriExpansion.AgriFoodItems", "Create", "AgriExpansion.FoodKind", new Type[] { ModReflect.FindType("AgriExpansion.FoodKind") }, typeof(GeneratedManagedPatch_312), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(313, 187, "AgriExpansion.AgriFoodItems", "RefreshDescription", "GameItem, AgriExpansion.FoodKind", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.FoodKind") }, typeof(GeneratedManagedPatch_313), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(314, 188, "AgriExpansion.AgriFoodMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_314), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(315, 189, "AgriExpansion.AgriFoodMachine", "CreateManual", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_315), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(316, 190, "AgriExpansion.AgriFoodMachine", "get_ManualText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_316), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(317, 191, "AgriExpansion.AgriFoodMachine+PackingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_317), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(318, 192, "AgriExpansion.AgriFoodProduction", "TryPack", "GameItem, GameInventory, GameGridInventory, AgriExpansion.FoodKind, System.String&", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::GameGridInventory), ModReflect.FindType("AgriExpansion.FoodKind"), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_318), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(319, 193, "AgriExpansion.AgriFoodRules", "Plan", "AgriExpansion.FoodKind, System.Collections.Generic.IReadOnlyList`1<AgriExpansion.FoodMaterial>", new Type[] { ModReflect.FindType("AgriExpansion.FoodKind"), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { ModReflect.FindType("AgriExpansion.FoodMaterial") }) }, typeof(GeneratedManagedPatch_319), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(320, 194, "AgriExpansion.AgriFoodRules", "get_KindNames", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_320), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(321, 195, "AgriExpansion.AgriFoodRules", "get_Names", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_321), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(322, 196, "AgriExpansion.AgriIndustry", "Buttons", "GameItem, GameInventory, System.Func`1<System.Int32>, System.Action, System.Action`1<System.String>", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Action), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_322), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(323, 197, "AgriExpansion.AgriIndustry", "ChooseFarm", "GameItem, System.Action", new Type[] { typeof(global::GameItem), typeof(global::System.Action) }, typeof(GeneratedManagedPatch_323), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(324, 198, "AgriExpansion.AgriIndustry", "Refill", "GameItem, GameInventory, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_324), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(325, 199, "AgriExpansion.AgriIndustry", "Register", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_325), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(326, 200, "AgriExpansion.AgriIndustry", "Return", "GameItem, GameInventory", new Type[] { typeof(global::GameItem), typeof(global::GameInventory) }, typeof(GeneratedManagedPatch_326), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(327, 201, "AgriExpansion.AgriIndustry+<>c", "<Register>b__3_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_327), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(328, 204, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_328), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(329, 205, "AgriExpansion.AgriIndustry+<>c__DisplayClass7_0", "<Buttons>b__2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_329), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(330, 206, "AgriExpansion.AgriIronSmelting", "AppendInstructions", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_330), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(331, 207, "AgriExpansion.AgriIronSmelting", "get_InstructionMarker", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_331), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(332, 208, "AgriExpansion.AgriItems", "get_AlgaeDescription", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_332), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(333, 209, "AgriExpansion.AgriItems", "get_AlgaeFlavor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_333), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(334, 210, "AgriExpansion.AgriItems", "get_GourdDescription", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_334), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(335, 211, "AgriExpansion.AgriItems", "get_GourdFlavor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_335), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(336, 212, "AgriExpansion.AgriItems", "get_IronFlavor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_336), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(337, 213, "AgriExpansion.AgriItems", "get_IronFruitDescription", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_337), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(338, 214, "AgriExpansion.AgriItems", "get_IronSeedDescription", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_338), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(339, 215, "AgriExpansion.AgriItems", "get_PlasmaDescription", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_339), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(340, 216, "AgriExpansion.AgriItems", "get_PlasmaFlavor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_340), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(341, 217, "AgriExpansion.AgriItems", "get_VineDescription", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_341), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(342, 218, "AgriExpansion.AgriItems", "get_VineFlavor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_342), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(343, 219, "AgriExpansion.AgriItems+<>c", "<Register>b__10_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_343), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(344, 220, "AgriExpansion.AgriItems+<>c", "<Register>b__10_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_344), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(345, 221, "AgriExpansion.AgriItems+<>c", "<Register>b__10_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_345), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(346, 222, "AgriExpansion.AgriItems+<>c", "<Register>b__10_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_346), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(347, 223, "AgriExpansion.AgriItems+<>c", "<Register>b__10_4", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_347), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(348, 224, "AgriExpansion.AgriNextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_348), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(349, 225, "AgriExpansion.AgriNextCatalog", "Name", "AgriExpansion.AgriCropVariant", new Type[] { ModReflect.FindType("AgriExpansion.AgriCropVariant") }, typeof(GeneratedManagedPatch_349), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(350, 226, "AgriExpansion.AgriNextCatalog", "Variant", "System.String, System.String, System.Int32, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_350), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(351, 227, "AgriExpansion.AgriNextCatalog+<Variants>d__5", "MoveNext", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_351), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(352, 228, "AgriExpansion.AgriNextEffects", "BindBrew", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_352), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(353, 229, "AgriExpansion.AgriNextEffects", "BindSaturated", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_353), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(354, 230, "AgriExpansion.AgriNextItems", "CreateSeed", "AgriExpansion.AgriNextCrop", new Type[] { ModReflect.FindType("AgriExpansion.AgriNextCrop") }, typeof(GeneratedManagedPatch_354), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(355, 231, "AgriExpansion.AgriNextItems", "Describe", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_355), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(356, 232, "AgriExpansion.AgriNextItems+<>c__DisplayClass1_0", "<CreateSeed>b__0", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_356), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(357, 233, "AgriExpansion.AgriPerfumeAccess", "Register", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_357), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(358, 234, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_358), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(359, 235, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_359), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(360, 236, "AgriExpansion.AgriPerfumeAccess+<>c", "<Register>b__1_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_360), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(361, 237, "AgriExpansion.AgriPerfumeCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_361), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(362, 238, "AgriExpansion.AgriPerfumeDescriptions", ".cctor", "", null, typeof(GeneratedManagedPatch_362), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(363, 239, "AgriExpansion.AgriPerfumeItems", "AromaText", "System.Int32[], System.Boolean", new Type[] { (typeof(global::System.Int32)).MakeArrayType(), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_363), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(364, 240, "AgriExpansion.AgriPerfumeItems", "DescribeMaterial", "GameItem, AgriExpansion.PerfumeMaterial", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.PerfumeMaterial") }, typeof(GeneratedManagedPatch_364), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(365, 241, "AgriExpansion.AgriPerfumeItems", "ReactionText", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_365), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(366, 242, "AgriExpansion.AgriPerfumeItems", "Refresh", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_366), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(367, 243, "AgriExpansion.AgriPerfumeMachines", ".cctor", "", null, typeof(GeneratedManagedPatch_367), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(368, 244, "AgriExpansion.AgriPerfumeMachines", "CreateBlender", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_368), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(369, 245, "AgriExpansion.AgriPerfumeMachines+Blender", "Process", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_369), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(370, 246, "AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_370), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(371, 247, "AgriExpansion.AgriPerfumeManual", "Build", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_371), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(372, 248, "AgriExpansion.AgriPerfumeManual+<>c__DisplayClass3_0", "<Create>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_372), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(373, 249, "AgriExpansion.AgriPerfumeManualText", ".cctor", "", null, typeof(GeneratedManagedPatch_373), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(374, 250, "AgriExpansion.AgriPerfumeManualText", "get_FusionTable", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_374), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(375, 251, "AgriExpansion.AgriPerfumeManualText", "get_Introduction", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_375), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(376, 252, "AgriExpansion.AgriPerfumeManualText", "get_Priorities", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_376), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(377, 253, "AgriExpansion.AgriPerfumeManualText", "get_Quality", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_377), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(378, 254, "AgriExpansion.AgriPerfumeManualText", "get_ReactionOrder", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_378), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(379, 255, "AgriExpansion.AgriPerfumeManualText", "get_Tutorial", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_379), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(380, 256, "AgriExpansion.AgriPerfumeManualText", "get_Usage", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_380), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(381, 257, "AgriExpansion.AgriPerfumeManualText+<>c", "<Recipes>b__11_0", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_381), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(382, 258, "AgriExpansion.AgriPerfumeProcessor", "ChooseNote", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_382), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(383, 259, "AgriExpansion.AgriPerfumeProcessor", "Clear", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_383), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(384, 260, "AgriExpansion.AgriPerfumeProcessor", "Create", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_384), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(385, 261, "AgriExpansion.AgriPerfumeProcessor", "Process", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_385), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(386, 262, "AgriExpansion.AgriPerfumeProcessor", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_386), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(387, 263, "AgriExpansion.AgriPerfumeRules", ".cctor", "", null, typeof(GeneratedManagedPatch_387), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(388, 264, "AgriExpansion.AgriPlants", "Register", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_388), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(389, 265, "AgriExpansion.AgriPlasticProduction", "Process", "GameItem, GameInventory, GameGridInventory, GameSlotInventory, GameInventory", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::GameGridInventory), typeof(global::GameSlotInventory), typeof(global::GameInventory) }, typeof(GeneratedManagedPatch_389), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(390, 266, "AgriExpansion.AgriPlasticProduction", "Requirement", "GameItem, GameInventory", new Type[] { typeof(global::GameItem), typeof(global::GameInventory) }, typeof(GeneratedManagedPatch_390), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(391, 267, "AgriExpansion.AgriRequirementText", "Format", "System.String[], System.Int64[], System.Int32[], System.String", new Type[] { (typeof(global::System.String)).MakeArrayType(), (typeof(global::System.Int64)).MakeArrayType(), (typeof(global::System.Int32)).MakeArrayType(), typeof(global::System.String) }, typeof(GeneratedManagedPatch_391), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(392, 268, "AgriExpansion.AgriSeedPropagation", "AddTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_392), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(393, 269, "AgriExpansion.AgriSuperCrops", "Name", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_393), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(394, 270, "AgriExpansion.AgriSuperCrops", "PlantName", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_394), "Transpiler", false, null));
         }
 
         private static void Add_6_2(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(395, 271, "AgriExpansion.AgriSuperCrops", "Produce", "System.String", null, typeof(GeneratedManagedPatch_395), null));
-            bindings.Add(new ManagedExactBinding(396, 272, "AgriExpansion.AgriSuperCrops", "Seed", "System.String", null, typeof(GeneratedManagedPatch_396), null));
-            bindings.Add(new ManagedExactBinding(397, 273, "AgriExpansion.AgriSuperCrops", "Tooltip", "RichTextBuilder, GameItem", null, typeof(GeneratedManagedPatch_397), null));
-            bindings.Add(new ManagedExactBinding(398, 274, "AgriExpansion.AgriSuperExtractCheckPatch", "Prefix", "GameItem, GameItem, System.String&, System.Boolean&", null, typeof(GeneratedManagedPatch_398), null));
-            bindings.Add(new ManagedExactBinding(399, 275, "AgriExpansion.AgriSuperGeneCheckPatch", "Prefix", "GameItem, System.String&, System.Boolean&", null, typeof(GeneratedManagedPatch_399), null));
-            bindings.Add(new ManagedExactBinding(400, 276, "AgriExpansion.AgriSuperGrowStatusPatch", "Prefix", "GameItem, System.String&", null, typeof(GeneratedManagedPatch_400), null));
-            bindings.Add(new ManagedExactBinding(401, 277, "AgriExpansion.AgriSuperGrowth", "Check", "GameItem, GameItem, System.String&", null, typeof(GeneratedManagedPatch_401), null));
-            bindings.Add(new ManagedExactBinding(402, 278, "AgriExpansion.AgriSuperHydro", "Create", "", null, typeof(GeneratedManagedPatch_402), null));
-            bindings.Add(new ManagedExactBinding(403, 279, "AgriExpansion.AgriSuperManual", "Crop", "System.String", null, typeof(GeneratedManagedPatch_403), null));
-            bindings.Add(new ManagedExactBinding(404, 280, "AgriExpansion.AgriSuperManual", "get_Machine", "", null, typeof(GeneratedManagedPatch_404), null));
-            bindings.Add(new ManagedExactBinding(405, 281, "AgriExpansion.AgriText", ".cctor", "", null, typeof(GeneratedManagedPatch_405), null));
-            bindings.Add(new ManagedExactBinding(406, 282, "AgriExpansion.AgriText", "Get", "System.String", null, typeof(GeneratedManagedPatch_406), null));
-            bindings.Add(new ManagedExactBinding(407, 283, "AgriExpansion.AgriText", "RefreshRegistries", "", null, typeof(GeneratedManagedPatch_407), null));
-            bindings.Add(new ManagedExactBinding(408, 284, "AgriExpansion.AgriText", "SavedText", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_408), null));
-            bindings.Add(new ManagedExactBinding(409, 285, "AgriExpansion.AgriText", "Translate", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_409), null));
-            bindings.Add(new ManagedExactBinding(410, 286, "AgriExpansion.AgriTraits", "Register", "", null, typeof(GeneratedManagedPatch_410), null));
-            bindings.Add(new ManagedExactBinding(411, 287, "AgriExpansion.AgriFarm", "get_WaterNames", "", null, typeof(GeneratedManagedPatch_411), null));
-            bindings.Add(new ManagedExactBinding(412, 288, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", null, typeof(GeneratedManagedPatch_412), null));
-            bindings.Add(new ManagedExactBinding(413, 289, "AgriExpansion.AgriFeedSupport+<>c__DisplayClass6_0", "<Configure>b__0", "", null, typeof(GeneratedManagedPatch_413), null));
-            bindings.Add(new ManagedExactBinding(414, 291, "AgriExpansion.AgriFarm", "get_WaterNames", "", null, typeof(GeneratedManagedPatch_414), null));
-            bindings.Add(new ManagedExactBinding(415, 292, "AgriExpansion.AgriNextTraits", "Register", "", null, typeof(GeneratedManagedPatch_415), null));
-            bindings.Add(new ManagedExactBinding(416, 293, "AgriExpansion.AgriFarm+<>c__DisplayClass56_0", "<ConfirmRemoveAnimal>b__1", "", null, typeof(GeneratedManagedPatch_416), null));
-            bindings.Add(new ManagedExactBinding(417, 294, "AgriExpansion.AgriFarm", "ReturnCultureAbove", "GameItem, System.Int32, System.Boolean", null, typeof(GeneratedManagedPatch_417), null));
-            bindings.Add(new ManagedExactBinding(418, 295, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_2", "", null, typeof(GeneratedManagedPatch_418), null));
-            bindings.Add(new ManagedExactBinding(419, 296, "AgriExpansion.AgriFarm", "Upgrade", "", null, typeof(GeneratedManagedPatch_419), null));
-            bindings.Add(new ManagedExactBinding(420, 297, "AgriExpansion.AgriFarm+<>c__DisplayClass25_0", "<ConfirmChop>b__0", "System.Int32", null, typeof(GeneratedManagedPatch_420), null));
-            bindings.Add(new ManagedExactBinding(421, 298, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", null, typeof(GeneratedManagedPatch_421), null));
-            bindings.Add(new ManagedExactBinding(422, 299, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_0", "", null, typeof(GeneratedManagedPatch_422), null));
-            bindings.Add(new ManagedExactBinding(423, 300, "AgriExpansion.AgriFarm", "Choose", "System.String, System.String[], System.Int32, System.Action`1<System.Int32>", null, typeof(GeneratedManagedPatch_423), null));
-            bindings.Add(new ManagedExactBinding(424, 303, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_1", "", null, typeof(GeneratedManagedPatch_424), null));
-            bindings.Add(new ManagedExactBinding(425, 306, "AgriExpansion.AgriFarmFootprint", "Initialize", "", null, typeof(GeneratedManagedPatch_425), null));
-            bindings.Add(new ManagedExactBinding(426, 307, "AgriExpansion.AgriFarmSecurity", "Initialize", "", null, typeof(GeneratedManagedPatch_426), null));
+            bindings.Add(new ManagedExactBinding(395, 271, "AgriExpansion.AgriSuperCrops", "Produce", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_395), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(396, 272, "AgriExpansion.AgriSuperCrops", "Seed", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_396), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(397, 273, "AgriExpansion.AgriSuperCrops", "Tooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_397), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(398, 274, "AgriExpansion.AgriSuperExtractCheckPatch", "Prefix", "GameItem, GameItem, System.String&, System.Boolean&", new Type[] { typeof(global::GameItem), typeof(global::GameItem), (typeof(global::System.String)).MakeByRefType(), (typeof(global::System.Boolean)).MakeByRefType() }, typeof(GeneratedManagedPatch_398), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(399, 275, "AgriExpansion.AgriSuperGeneCheckPatch", "Prefix", "GameItem, System.String&, System.Boolean&", new Type[] { typeof(global::GameItem), (typeof(global::System.String)).MakeByRefType(), (typeof(global::System.Boolean)).MakeByRefType() }, typeof(GeneratedManagedPatch_399), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(400, 276, "AgriExpansion.AgriSuperGrowStatusPatch", "Prefix", "GameItem, System.String&", new Type[] { typeof(global::GameItem), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_400), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(401, 277, "AgriExpansion.AgriSuperGrowth", "Check", "GameItem, GameItem, System.String&", new Type[] { typeof(global::GameItem), typeof(global::GameItem), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_401), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(402, 278, "AgriExpansion.AgriSuperHydro", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_402), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(403, 279, "AgriExpansion.AgriSuperManual", "Crop", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_403), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(404, 280, "AgriExpansion.AgriSuperManual", "get_Machine", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_404), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(405, 281, "AgriExpansion.AgriText", ".cctor", "", null, typeof(GeneratedManagedPatch_405), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(406, 282, "AgriExpansion.AgriText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_406), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(407, 283, "AgriExpansion.AgriText", "RefreshRegistries", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_407), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(408, 284, "AgriExpansion.AgriText", "SavedText", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_408), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(409, 285, "AgriExpansion.AgriText", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_409), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(410, 286, "AgriExpansion.AgriTraits", "Register", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_410), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(411, 287, "AgriExpansion.AgriFarm", "get_WaterNames", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_411), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(412, 288, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_412), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(413, 289, "AgriExpansion.AgriFeedSupport+<>c__DisplayClass6_0", "<Configure>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_413), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(414, 291, "AgriExpansion.AgriFarm", "get_WaterNames", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_414), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(415, 292, "AgriExpansion.AgriNextTraits", "Register", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_415), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(416, 293, "AgriExpansion.AgriFarm+<>c__DisplayClass56_0", "<ConfirmRemoveAnimal>b__1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_416), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(417, 294, "AgriExpansion.AgriFarm", "ReturnCultureAbove", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_417), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(418, 295, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_418), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(419, 296, "AgriExpansion.AgriFarm", "Upgrade", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_419), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(420, 297, "AgriExpansion.AgriFarm+<>c__DisplayClass25_0", "<ConfirmChop>b__0", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_420), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(421, 298, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_421), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(422, 299, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_422), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(423, 300, "AgriExpansion.AgriFarm", "Choose", "System.String, System.String[], System.Int32, System.Action`1<System.Int32>", new Type[] { typeof(global::System.String), (typeof(global::System.String)).MakeArrayType(), typeof(global::System.Int32), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }) }, typeof(GeneratedManagedPatch_423), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(424, 303, "AgriExpansion.AgriFarmAccess+<>c", "<RegisterScenario>b__6_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_424), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(425, 306, "AgriExpansion.AgriFarmFootprint", "Initialize", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_425), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(426, 307, "AgriExpansion.AgriFarmSecurity", "Initialize", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_426), "Transpiler", false, null));
         }
 
         private static void Add_7_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(427, 0, "ClockSettings", "T", "System.String, System.String, System.String", null, typeof(GeneratedManagedPatch_427), null));
+            bindings.Add(new ManagedExactBinding(427, 0, "ClockSettings", "T", "System.String, System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_427), "Postfix", false, null));
         }
 
         private static void Add_8_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(428, 0, "CSCaseOpening.OpeningDescriptionData", "Read", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_428), null));
-            bindings.Add(new ManagedExactBinding(429, 1, "CSWeaponCase.AgentDialogues", "Pick", "System.String, System.String, System.Random", null, typeof(GeneratedManagedPatch_429), null));
-            bindings.Add(new ManagedExactBinding(430, 2, "CSWeaponCase.ProjectText", "Case", "CSWeaponCase.CaseDefinition", null, typeof(GeneratedManagedPatch_430), null));
-            bindings.Add(new ManagedExactBinding(431, 3, "CSWeaponCase.ProjectText", "ItemName", "System.String, System.String", null, typeof(GeneratedManagedPatch_431), null));
-            bindings.Add(new ManagedExactBinding(432, 4, "CSWeaponCase.ProjectText", "T", "System.String", null, typeof(GeneratedManagedPatch_432), null));
-            bindings.Add(new ManagedExactBinding(433, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.Boolean", null, typeof(GeneratedManagedPatch_433), null));
-            bindings.Add(new ManagedExactBinding(434, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.String", null, typeof(GeneratedManagedPatch_434), null));
-            bindings.Add(new ManagedExactBinding(435, 6, "CSWeaponCase.ProjectText", "Weapon", "CSWeaponCase.WeaponDefinition", null, typeof(GeneratedManagedPatch_435), null));
+            bindings.Add(new ManagedExactBinding(428, 0, "CSCaseOpening.OpeningDescriptionData", "Read", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_428), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(429, 1, "CSWeaponCase.AgentDialogues", "Pick", "System.String, System.String, System.Random", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Random) }, typeof(GeneratedManagedPatch_429), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(430, 2, "CSWeaponCase.ProjectText", "Case", "CSWeaponCase.CaseDefinition", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition") }, typeof(GeneratedManagedPatch_430), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(431, 3, "CSWeaponCase.ProjectText", "ItemName", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_431), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(432, 4, "CSWeaponCase.ProjectText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_432), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(433, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_433), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(434, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_434), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(435, 6, "CSWeaponCase.ProjectText", "Weapon", "CSWeaponCase.WeaponDefinition", new Type[] { ModReflect.FindType("CSWeaponCase.WeaponDefinition") }, typeof(GeneratedManagedPatch_435), "Postfix", false, null));
         }
 
         private static void Add_9_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(436, 0, "ProbablyStolenInGameModSettings.UiText", "Get", "System.String", null, typeof(GeneratedManagedPatch_436), null));
+            bindings.Add(new ManagedExactBinding(436, 0, "ProbablyStolenInGameModSettings.UiText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_436), "Postfix", false, null));
         }
 
         private static void Add_10_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(437, 0, "EleanorRescue.TextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_437), null));
+            bindings.Add(new ManagedExactBinding(437, 0, "EleanorRescue.TextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_437), "Transpiler", true, null));
         }
 
         private static void Add_11_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(438, 0, "ModText", ".cctor", "", null, typeof(GeneratedManagedPatch_438), null));
-            bindings.Add(new ManagedExactBinding(439, 1, "ModText", "Redisplay", "System.String", null, typeof(GeneratedManagedPatch_439), null));
-            bindings.Add(new ManagedExactBinding(440, 2, "ModText", "Get", "System.String", null, typeof(GeneratedManagedPatch_440), null));
-            bindings.Add(new ManagedExactBinding(441, 3, "ProbablyCrystal_Mod", "LocalizeBook", "PaperBookData", null, typeof(GeneratedManagedPatch_441), null));
+            bindings.Add(new ManagedExactBinding(438, 0, "ModText", ".cctor", "", null, typeof(GeneratedManagedPatch_438), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(439, 1, "ModText", "Redisplay", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_439), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(440, 2, "ModText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_440), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(441, 3, "ProbablyCrystal_Mod", "LocalizeBook", "PaperBookData", new Type[] { typeof(global::PaperBookData) }, typeof(GeneratedManagedPatch_441), "Transpiler", false, null));
+        }
+
+        private static void Add_12_0(ICollection<ManagedExactBinding> bindings)
+        {
+            bindings.Add(new ManagedExactBinding(442, 0, "Clinic.InventoryTest.TestMod+<>c", "<ConfigureMaterialBox>b__344_3", "GameItem, GameInventory, SlotMarker", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::SlotMarker) }, typeof(GeneratedManagedPatch_442), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(443, 1, "Clinic.InventoryTest.TestMod+<>c", "<EnsureClinicShortcutOptions>b__732_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_443), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(444, 2, "Clinic.InventoryTest.TestMod+<>c", "<EnsureClinicShortcutOptions>b__732_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_444), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(445, 3, "Clinic.InventoryTest.TestMod+<>c", "<EnsureClinicShortcutOptions>b__732_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_445), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(446, 4, "Clinic.InventoryTest.TestMod+<>c", "<EnsureClinicShortcutOptions>b__732_5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_446), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(447, 5, "Clinic.InventoryTest.PilotState+<>c", "<Exam>b__19_2", "Clinic.InventoryTest.PilotImplant", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotImplant") }, typeof(GeneratedManagedPatch_447), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(448, 6, "Clinic.InventoryTest.TestMod+<>c", "<OpenClinicPrimer>b__577_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_448), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(449, 7, "Clinic.InventoryTest.TestMod+<>c", "<OpenForgeBook>b__351_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_449), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(450, 8, "Clinic.InventoryTest.TestMod+<>c", "<OpenPracticeGuide>b__575_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_450), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(451, 9, "Clinic.InventoryTest.TestMod+<>c", "<RecordPostoperativeArrival>b__531_0", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_451), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(452, 10, "Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_452), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(453, 11, "Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_4", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_453), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(454, 12, "Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_454), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(455, 13, "Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_6", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_455), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(456, 14, "Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_456), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(457, 15, "Clinic.InventoryTest.TestMod+<>c", "<RegisterClinicBusiness>b__133_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_457), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(458, 16, "Clinic.InventoryTest.TestMod+<>c", "<RegisterClinicBusiness>b__133_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_458), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(459, 17, "Clinic.InventoryTest.TestMod+<>c", "<RegisterClinicBusiness>b__133_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_459), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(460, 18, "Clinic.InventoryTest.TestMod+<>c", "<RegisterClinicBusiness>b__133_4", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_460), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(461, 19, "Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_461), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(462, 20, "Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_462), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(463, 21, "Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_463), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(464, 22, "Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_464), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(465, 23, "Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_4", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_465), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(466, 24, "Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_466), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(467, 25, "Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_6", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_467), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(468, 26, "Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_468), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(469, 27, "Clinic.InventoryTest.TestMod+<>c__DisplayClass16_0", "<ArasakaCall>b__2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_469), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(470, 28, "Clinic.InventoryTest.TestMod+<>c__DisplayClass17_0", "<CreateFinalAdam>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_470), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(471, 29, "Clinic.InventoryTest.TestMod+<>c__DisplayClass17_0", "<CreateFinalAdam>b__1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_471), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(472, 30, "Clinic.InventoryTest.TestMod+<>c__DisplayClass356_0", "<ConfigureForgeMachine>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_472), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(473, 31, "Clinic.InventoryTest.TestMod+<>c__DisplayClass584_0", "<RelicCall>b__1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_473), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(474, 32, "Clinic.InventoryTest.TestMod+<>c__DisplayClass795_0", "<OpenIllustratedSurgicalBook>b__0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_474), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(475, 33, "Clinic.InventoryTest.TestMod+<>c__DisplayClass841_0", "<ViktorCall>g__Choice|0", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_475), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(476, 34, "Clinic.InventoryTest.TestMod+<>c__DisplayClass841_1", "<ViktorCall>b__1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_476), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(477, 35, "Clinic.InventoryTest.TestMod+<>c__DisplayClass843_0", "<AddViktorAnestheticOrder>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_477), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(478, 36, "Clinic.InventoryTest.TestMod+<>c__DisplayClass957_5", "<Register>b__13", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_478), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(479, 37, "Clinic.InventoryTest.AdamFinale", "Decide", "System.Boolean, System.Int32", new Type[] { typeof(global::System.Boolean), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_479), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(480, 38, "Clinic.InventoryTest.AdamFinale", "Finish", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_480), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(481, 39, "Clinic.InventoryTest.AdamFinale", "Warn", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_481), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(482, 40, "Clinic.InventoryTest.AdamPatient", "Request", "Clinic.InventoryTest.PilotState", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotState") }, typeof(GeneratedManagedPatch_482), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(483, 41, "Clinic.InventoryTest.AllNpcAppearance", "Category", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_483), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(484, 42, "Clinic.InventoryTest.BasicForge", "OutcomeText", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_484), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(485, 43, "Clinic.InventoryTest.BasicForge", "QualityName", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_485), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(486, 44, "Clinic.InventoryTest.BrainInterfaceCourse", ".cctor", "", null, typeof(GeneratedManagedPatch_486), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(487, 45, "Clinic.InventoryTest.ClinicCampaign", "AdamQueued", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_487), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(488, 46, "Clinic.InventoryTest.ClinicCampaign", "Recruit", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_488), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(489, 47, "Clinic.InventoryTest.ClinicCampaign", "ReferralQueued", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_489), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(490, 48, "Clinic.InventoryTest.ClinicIntake", "Accept", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_490), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(491, 49, "Clinic.InventoryTest.ClinicIntake", "BeginSurgery", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_491), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(492, 50, "Clinic.InventoryTest.ClinicIntake", "CancelAdmission", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_492), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(493, 51, "Clinic.InventoryTest.ClinicIntake", "Dismiss", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_493), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(494, 52, "Clinic.InventoryTest.ClinicIntake", "Finish", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_494), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(495, 53, "Clinic.InventoryTest.ClinicIntake", "RefreshCompletedReport", "Clinic.InventoryTest.PatientExam", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PatientExam") }, typeof(GeneratedManagedPatch_495), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(496, 54, "Clinic.InventoryTest.ClinicIntake", "RefreshStatus", "Clinic.InventoryTest.PatientExam", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PatientExam") }, typeof(GeneratedManagedPatch_496), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(497, 55, "Clinic.InventoryTest.ClinicIntake", "Scan", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_497), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(498, 56, "Clinic.InventoryTest.ClinicIntake", "SimulateDeath", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_498), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(499, 57, "Clinic.InventoryTest.ClinicPatient", ".cctor", "", null, typeof(GeneratedManagedPatch_499), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(500, 58, "Clinic.InventoryTest.ClinicSettlement", "Reason", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_500), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(501, 59, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_501), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(502, 60, "Clinic.InventoryTest.ClinicThanks", ".cctor", "", null, typeof(GeneratedManagedPatch_502), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(503, 61, "Clinic.InventoryTest.CustomPatients", "Request", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_503), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(504, 62, "Clinic.InventoryTest.CyberpsychosisRules", ".cctor", "", null, typeof(GeneratedManagedPatch_504), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(505, 63, "Clinic.InventoryTest.CyberpsychosisText", ".cctor", "", null, typeof(GeneratedManagedPatch_505), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(506, 64, "Clinic.InventoryTest.CyberpsychosisText", "RewritePlain", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_506), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(507, 65, "Clinic.InventoryTest.FreehandSurface", "End", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_507), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(508, 66, "Clinic.InventoryTest.MedicalLedger", "StandingBenefit", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_508), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(509, 67, "Clinic.InventoryTest.MedicalLedger", "get_SupplyName", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_509), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(510, 68, "Clinic.InventoryTest.MedicalStandingTooltip", "Show", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_510), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(511, 69, "Clinic.InventoryTest.PatientExam", "ForCase", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_511), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(512, 70, "Clinic.InventoryTest.PilotPatients", ".cctor", "", null, typeof(GeneratedManagedPatch_512), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(513, 71, "Clinic.InventoryTest.PilotProfile", "get_AppearanceName", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_513), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(514, 72, "Clinic.InventoryTest.PilotState", "ImplantName", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_514), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(515, 73, "Clinic.InventoryTest.PilotState", "Treat", "System.String, System.String, System.Int32, System.Int32, System.Double, System.Int32, System.Boolean, System.Int32, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Double), typeof(global::System.Int32), typeof(global::System.Boolean), typeof(global::System.Int32), typeof(global::System.String) }, typeof(GeneratedManagedPatch_515), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(516, 74, "Clinic.InventoryTest.PilotState", "TreatWound", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_516), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(517, 75, "Clinic.InventoryTest.ScannerReadout", "IconKey", "Clinic.InventoryTest.ExamImplant", new Type[] { ModReflect.FindType("Clinic.InventoryTest.ExamImplant") }, typeof(GeneratedManagedPatch_517), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(518, 76, "Clinic.InventoryTest.ScannerReadout", "LocationLabel", "Clinic.InventoryTest.ExamImplant", new Type[] { ModReflect.FindType("Clinic.InventoryTest.ExamImplant") }, typeof(GeneratedManagedPatch_518), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(519, 77, "Clinic.InventoryTest.ScannerReadout", "NeuralReserveHint", "System.Nullable`1<System.Int32>", new Type[] { (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }) }, typeof(GeneratedManagedPatch_519), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(520, 78, "Clinic.InventoryTest.ShoulderReplacement", "BeginSeating", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_520), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(521, 79, "Clinic.InventoryTest.SurgerySession", ".cctor", "", null, typeof(GeneratedManagedPatch_521), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(522, 80, "Clinic.InventoryTest.SurgerySession", ".ctor", "System.Int32, System.Boolean, System.Boolean, System.String, Clinic.InventoryTest.AnesthesiaCourse, System.Boolean, System.Boolean, System.Boolean", null, typeof(GeneratedManagedPatch_522), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(523, 81, "Clinic.InventoryTest.SurgerySession", "BeginManual", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_523), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(524, 82, "Clinic.InventoryTest.SurgerySession", "ConfirmBrainSync", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_524), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(525, 83, "Clinic.InventoryTest.SurgerySession", "ConnectTendon", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_525), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(526, 84, "Clinic.InventoryTest.SurgerySession", "ForceStep", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_526), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(527, 85, "Clinic.InventoryTest.SurgerySession", "Move", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_527), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(528, 86, "Clinic.InventoryTest.SurgerySession", "Next", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_528), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(529, 87, "Clinic.InventoryTest.SurgerySession", "PassiveDirection", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_529), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(530, 88, "Clinic.InventoryTest.SurgerySession", "RecordAssessment", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_530), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(531, 89, "Clinic.InventoryTest.SurgerySession", "RetryPuzzle", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_531), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(532, 90, "Clinic.InventoryTest.SurgerySession", "Select", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_532), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(533, 91, "Clinic.InventoryTest.SurgerySession", "TickCore", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_533), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(534, 92, "Clinic.InventoryTest.SurgerySession", "Title", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_534), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(535, 93, "Clinic.InventoryTest.SurgerySession", "Use", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_535), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(536, 94, "Clinic.InventoryTest.SurgerySession", "get_PuzzleObjective", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_536), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(537, 95, "Clinic.InventoryTest.TestFlow", ".cctor", "", null, typeof(GeneratedManagedPatch_537), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(538, 96, "Clinic.InventoryTest.TestFlow", "Snapshot", "System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>", new Type[] { (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { (typeof(global::System.Collections.Generic.KeyValuePair<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }) }) }, typeof(GeneratedManagedPatch_538), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(539, 97, "Clinic.InventoryTest.TestFlow", "Verify", "System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>", new Type[] { (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { (typeof(global::System.Collections.Generic.KeyValuePair<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }) }) }, typeof(GeneratedManagedPatch_539), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(540, 98, "Clinic.InventoryTest.TestMod", ".cctor", "", null, typeof(GeneratedManagedPatch_540), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(541, 99, "Clinic.InventoryTest.TestMod", ".ctor", "", null, typeof(GeneratedManagedPatch_541), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(542, 100, "Clinic.InventoryTest.TestMod", "<DrawShoulderOperation>b__756_1", "Clinic.InventoryTest.SurgerySession", new Type[] { ModReflect.FindType("Clinic.InventoryTest.SurgerySession") }, typeof(GeneratedManagedPatch_542), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(543, 101, "Clinic.InventoryTest.TestMod", "<Render>b__974_12", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_543), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(544, 102, "Clinic.InventoryTest.TestMod", "<RenderSurgeryFooter>b__926_3", "Clinic.InventoryTest.SurgerySession", new Type[] { ModReflect.FindType("Clinic.InventoryTest.SurgerySession") }, typeof(GeneratedManagedPatch_544), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(545, 103, "Clinic.InventoryTest.TestMod", "<RenderSurgeryFooter>b__926_4", "Clinic.InventoryTest.SurgerySession", new Type[] { ModReflect.FindType("Clinic.InventoryTest.SurgerySession") }, typeof(GeneratedManagedPatch_545), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(546, 104, "Clinic.InventoryTest.TestMod", "AdaptNativeCyberClient", "StoreClient", new Type[] { typeof(global::StoreClient) }, typeof(GeneratedManagedPatch_546), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(547, 105, "Clinic.InventoryTest.TestMod", "AddPollutionTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_547), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(548, 106, "Clinic.InventoryTest.TestMod", "AddViktorAnestheticOrder", "Dialogue", new Type[] { typeof(global::Dialogue) }, typeof(GeneratedManagedPatch_548), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(549, 107, "Clinic.InventoryTest.TestMod", "AddViktorPhoneExit", "Dialogue", new Type[] { typeof(global::Dialogue) }, typeof(GeneratedManagedPatch_549), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(550, 108, "Clinic.InventoryTest.TestMod", "AdvanceBrainDecoders", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_550), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(551, 109, "Clinic.InventoryTest.TestMod", "AppendAnestheticPurity", "GameItemElement, RichTextBuilder", new Type[] { typeof(global::GameItemElement), typeof(global::RichTextBuilder) }, typeof(GeneratedManagedPatch_551), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(552, 110, "Clinic.InventoryTest.TestMod", "AppendViktorContactHint", "Dialogue", new Type[] { typeof(global::Dialogue) }, typeof(GeneratedManagedPatch_552), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(553, 111, "Clinic.InventoryTest.TestMod", "ApplyMedicalAnestheticStock", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_553), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(554, 112, "Clinic.InventoryTest.TestMod", "ApplyRelicFactionConsequence", "Clinic.InventoryTest.RelicCase", new Type[] { ModReflect.FindType("Clinic.InventoryTest.RelicCase") }, typeof(GeneratedManagedPatch_554), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(555, 113, "Clinic.InventoryTest.TestMod", "ApplySurgicalImplantArt", "Clinic.InventoryTest.SurgicalWound", new Type[] { ModReflect.FindType("Clinic.InventoryTest.SurgicalWound") }, typeof(GeneratedManagedPatch_555), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(556, 114, "Clinic.InventoryTest.TestMod", "ArasakaCall", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_556), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(557, 115, "Clinic.InventoryTest.TestMod", "ArriveViktor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_557), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(558, 116, "Clinic.InventoryTest.TestMod", "AssessProcedure", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_558), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(559, 117, "Clinic.InventoryTest.TestMod", "CheckContext", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_559), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(560, 118, "Clinic.InventoryTest.TestMod", "CheckPilotContext", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_560), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(561, 119, "Clinic.InventoryTest.TestMod", "CleanInSterilizer", "GameItem, GameGridInventory, GameSlotInventory", new Type[] { typeof(global::GameItem), typeof(global::GameGridInventory), typeof(global::GameSlotInventory) }, typeof(GeneratedManagedPatch_561), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(562, 120, "Clinic.InventoryTest.TestMod", "CommitBrainTreatment", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_562), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(563, 121, "Clinic.InventoryTest.TestMod", "CommitPilotTreatment", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_563), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(564, 122, "Clinic.InventoryTest.TestMod", "CommitTitanPart", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_564), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(565, 123, "Clinic.InventoryTest.TestMod", "CommitWoundTreatment", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_565), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(566, 124, "Clinic.InventoryTest.TestMod", "ConfigureBrainDecoder", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_566), "Transpiler", false, null));
+        }
+
+        private static void Add_12_1(ICollection<ManagedExactBinding> bindings)
+        {
+            bindings.Add(new ManagedExactBinding(567, 125, "Clinic.InventoryTest.TestMod", "ConfigureDecodedChip", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_567), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(568, 126, "Clinic.InventoryTest.TestMod", "ConfigureForgeMachine", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_568), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(569, 127, "Clinic.InventoryTest.TestMod", "ConfigureImplantTrade", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_569), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(570, 128, "Clinic.InventoryTest.TestMod", "ConfigureMedicalGoods", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_570), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(571, 129, "Clinic.InventoryTest.TestMod", "ConfigureMedicalScanner", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_571), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(572, 130, "Clinic.InventoryTest.TestMod", "ConfigureRelicPatientConversation", "StoreClient, Clinic.InventoryTest.PilotProfile", new Type[] { typeof(global::StoreClient), ModReflect.FindType("Clinic.InventoryTest.PilotProfile") }, typeof(GeneratedManagedPatch_572), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(573, 131, "Clinic.InventoryTest.TestMod", "ConfigureToolPresentation", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_573), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(574, 132, "Clinic.InventoryTest.TestMod", "ConfigureTreatedDialogue", "StoreClient, Clinic.InventoryTest.PilotState", new Type[] { typeof(global::StoreClient), ModReflect.FindType("Clinic.InventoryTest.PilotState") }, typeof(GeneratedManagedPatch_574), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(575, 133, "Clinic.InventoryTest.TestMod", "ConsumeAnesthetic", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_575), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(576, 134, "Clinic.InventoryTest.TestMod", "CraftImplant", "GameItem, System.String, System.String", new Type[] { typeof(global::GameItem), typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_576), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(577, 135, "Clinic.InventoryTest.TestMod", "CraftTitan", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_577), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(578, 136, "Clinic.InventoryTest.TestMod", "CreateAdamSmasher", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_578), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(579, 137, "Clinic.InventoryTest.TestMod", "CreateArasakaProposal", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_579), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(580, 138, "Clinic.InventoryTest.TestMod", "CreateBasicClinicKit", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_580), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(581, 139, "Clinic.InventoryTest.TestMod", "CreateBench", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_581), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(582, 140, "Clinic.InventoryTest.TestMod", "CreateBrainDecoder", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_582), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(583, 141, "Clinic.InventoryTest.TestMod", "CreateBrainViktor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_583), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(584, 142, "Clinic.InventoryTest.TestMod", "CreateBusinessViktor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_584), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(585, 143, "Clinic.InventoryTest.TestMod", "CreateClinicFlux", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_585), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(586, 144, "Clinic.InventoryTest.TestMod", "CreateEncryptedBrainBlank", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_586), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(587, 145, "Clinic.InventoryTest.TestMod", "CreateFinalAdam", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_587), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(588, 146, "Clinic.InventoryTest.TestMod", "CreateForgeBook", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_588), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(589, 147, "Clinic.InventoryTest.TestMod", "CreateFutureBrainChip", "System.Int32, System.String", new Type[] { typeof(global::System.Int32), typeof(global::System.String) }, typeof(GeneratedManagedPatch_589), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(590, 148, "Clinic.InventoryTest.TestMod", "CreateHiddenCabinet", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_590), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(591, 149, "Clinic.InventoryTest.TestMod", "CreateImplantForge", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_591), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(592, 150, "Clinic.InventoryTest.TestMod", "CreateInstrumentCase", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_592), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(593, 151, "Clinic.InventoryTest.TestMod", "CreateItem", "System.String, System.String, System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_593), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(594, 152, "Clinic.InventoryTest.TestMod", "CreateLegacyImplantForge", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_594), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(595, 153, "Clinic.InventoryTest.TestMod", "CreateManual", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_595), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(596, 154, "Clinic.InventoryTest.TestMod", "CreateMaterialBox", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_596), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(597, 155, "Clinic.InventoryTest.TestMod", "CreateMedicalLicense", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_597), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(598, 156, "Clinic.InventoryTest.TestMod", "CreateMold", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_598), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(599, 157, "Clinic.InventoryTest.TestMod", "CreatePreparationHolder", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_599), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(600, 158, "Clinic.InventoryTest.TestMod", "CreateRecruitingViktor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_600), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(601, 159, "Clinic.InventoryTest.TestMod", "CreateRelicIntroVisitor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_601), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(602, 160, "Clinic.InventoryTest.TestMod", "CreateRelicWarning", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_602), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(603, 161, "Clinic.InventoryTest.TestMod", "CreateScannerDockHolder", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_603), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(604, 162, "Clinic.InventoryTest.TestMod", "CreateSupplyViktor", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_604), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(605, 163, "Clinic.InventoryTest.TestMod", "CreateSuppressant", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_605), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(606, 164, "Clinic.InventoryTest.TestMod", "CreateTitanAssemblyItem", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_606), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(607, 165, "Clinic.InventoryTest.TestMod", "CreateTitanMold", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_607), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(608, 166, "Clinic.InventoryTest.TestMod", "CreateViktorWarning", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_608), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(609, 167, "Clinic.InventoryTest.TestMod", "DecodeBrainChip", "GameItem, Clinic.InventoryTest.TestMod+BrainDecoderState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") }, typeof(GeneratedManagedPatch_609), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(610, 168, "Clinic.InventoryTest.TestMod", "DrawAdamTheatrePatient", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_610), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(611, 169, "Clinic.InventoryTest.TestMod", "DrawAnesthesiaHandbook", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) }, typeof(GeneratedManagedPatch_611), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(612, 170, "Clinic.InventoryTest.TestMod", "DrawBrainFailure", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_612), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(613, 171, "Clinic.InventoryTest.TestMod", "DrawBrainSync", "UnityEngine.RectTransform, Clinic.InventoryTest.SurgerySession", new Type[] { typeof(global::UnityEngine.RectTransform), ModReflect.FindType("Clinic.InventoryTest.SurgerySession") }, typeof(GeneratedManagedPatch_613), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(614, 172, "Clinic.InventoryTest.TestMod", "DrawChannelPort", "UnityEngine.RectTransform, System.ValueTuple`2<System.Int32,System.Int32>, System.Boolean", new Type[] { typeof(global::UnityEngine.RectTransform), (typeof(global::System.ValueTuple<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_614), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(615, 173, "Clinic.InventoryTest.TestMod", "DrawHandbookMaterials", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) }, typeof(GeneratedManagedPatch_615), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(616, 174, "Clinic.InventoryTest.TestMod", "DrawHandbookStepRows", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Collections.Generic.List`1<System.ValueTuple`3<System.String,System.String,System.String>>, System.Int32, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }) }), typeof(global::System.Int32), typeof(global::System.String) }, typeof(GeneratedManagedPatch_616), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(617, 175, "Clinic.InventoryTest.TestMod", "DrawPuzzleObjective", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_617), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(618, 176, "Clinic.InventoryTest.TestMod", "DrawScannerImplants", "UnityEngine.RectTransform, Clinic.InventoryTest.PatientExam", new Type[] { typeof(global::UnityEngine.RectTransform), ModReflect.FindType("Clinic.InventoryTest.PatientExam") }, typeof(GeneratedManagedPatch_618), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(619, 177, "Clinic.InventoryTest.TestMod", "DrawScannerMeter", "UnityEngine.RectTransform, System.String, System.Nullable`1<System.Int32>, System.Single, System.Single, UnityEngine.Color, System.Nullable`1<System.Double>", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.String), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Single), typeof(global::System.Single), typeof(global::UnityEngine.Color), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Double) }) }, typeof(GeneratedManagedPatch_619), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(620, 178, "Clinic.InventoryTest.TestMod", "DrawShoulderOperation", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_620), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(621, 179, "Clinic.InventoryTest.TestMod", "DrawTendon", "UnityEngine.RectTransform, Clinic.InventoryTest.TendonConnection", new Type[] { typeof(global::UnityEngine.RectTransform), ModReflect.FindType("Clinic.InventoryTest.TendonConnection") }, typeof(GeneratedManagedPatch_621), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(622, 180, "Clinic.InventoryTest.TestMod", "DrawTitanManual", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_622), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(623, 181, "Clinic.InventoryTest.TestMod", "DrawTitanRecipePage", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Boolean", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_623), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(624, 182, "Clinic.InventoryTest.TestMod", "DrawTool", "CustomUIBuilder, GameItem, System.Boolean, System.Action, System.Nullable`1<System.Int32>", new Type[] { typeof(global::CustomUIBuilder), typeof(global::GameItem), typeof(global::System.Boolean), typeof(global::System.Action), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }) }, typeof(GeneratedManagedPatch_624), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(625, 183, "Clinic.InventoryTest.TestMod", "DrawTools", "CustomUIBuilder, Clinic.InventoryTest.SurgerySession", new Type[] { typeof(global::CustomUIBuilder), ModReflect.FindType("Clinic.InventoryTest.SurgerySession") }, typeof(GeneratedManagedPatch_625), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(626, 184, "Clinic.InventoryTest.TestMod", "DrawVoltage", "UnityEngine.RectTransform, Clinic.InventoryTest.VoltageConnection", new Type[] { typeof(global::UnityEngine.RectTransform), ModReflect.FindType("Clinic.InventoryTest.VoltageConnection") }, typeof(GeneratedManagedPatch_626), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(627, 185, "Clinic.InventoryTest.TestMod", "EnsureArasakaPhone", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_627), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(628, 186, "Clinic.InventoryTest.TestMod", "EnsureForgeContext", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_628), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(629, 187, "Clinic.InventoryTest.TestMod", "EnsurePreparationStorage", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_629), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(630, 188, "Clinic.InventoryTest.TestMod", "EnsureSterilizer", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_630), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(631, 189, "Clinic.InventoryTest.TestMod", "EnsureViktorPhone", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_631), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(632, 190, "Clinic.InventoryTest.TestMod", "EnsureWear", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_632), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(633, 191, "Clinic.InventoryTest.TestMod", "EnterHospitalPreparation", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_633), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(634, 192, "Clinic.InventoryTest.TestMod", "FinishBrainChip", "GameItem, Clinic.InventoryTest.TestMod+BrainDecoderState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") }, typeof(GeneratedManagedPatch_634), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(635, 193, "Clinic.InventoryTest.TestMod", "FollowupSpeech", "Clinic.InventoryTest.PilotProfile", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") }, typeof(GeneratedManagedPatch_635), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(636, 194, "Clinic.InventoryTest.TestMod", "HandbookOperationSteps", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_636), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(637, 195, "Clinic.InventoryTest.TestMod", "ImplantConfrontDialogue", "ItemFeature, Dialogue&", new Type[] { typeof(global::ItemFeature), (typeof(global::Dialogue)).MakeByRefType() }, typeof(GeneratedManagedPatch_637), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(638, 196, "Clinic.InventoryTest.TestMod", "ImplantCrimeDisplay", "System.String, System.String&", new Type[] { typeof(global::System.String), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_638), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(639, 197, "Clinic.InventoryTest.TestMod", "MaterialBoxNotice", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_639), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(640, 198, "Clinic.InventoryTest.TestMod", "MaterialName", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_640), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(641, 199, "Clinic.InventoryTest.TestMod", "Medical", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_641), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(642, 200, "Clinic.InventoryTest.TestMod", "MissingPreparedImplant", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_642), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(643, 201, "Clinic.InventoryTest.TestMod", "OpenClinicPrimer", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_643), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(644, 202, "Clinic.InventoryTest.TestMod", "OpenForgeBook", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_644), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(645, 203, "Clinic.InventoryTest.TestMod", "OpenMaterialBox", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_645), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(646, 204, "Clinic.InventoryTest.TestMod", "OpenMedicalScanner", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_646), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(647, 205, "Clinic.InventoryTest.TestMod", "OpenPracticeGuide", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_647), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(648, 206, "Clinic.InventoryTest.TestMod", "PayTreatment", "System.String, System.Int32, System.Boolean, System.Boolean, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Int32), typeof(global::System.Boolean), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_648), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(649, 207, "Clinic.InventoryTest.TestMod", "PilotRecords", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_649), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(650, 208, "Clinic.InventoryTest.TestMod", "PilotRequest", "Clinic.InventoryTest.PilotProfile", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") }, typeof(GeneratedManagedPatch_650), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(651, 209, "Clinic.InventoryTest.TestMod", "PlaceTools", "UnityEngine.RectTransform, System.Boolean", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_651), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(652, 210, "Clinic.InventoryTest.TestMod", "PoweredSawGraphic", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_652), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(653, 211, "Clinic.InventoryTest.TestMod", "Provision", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_653), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(654, 212, "Clinic.InventoryTest.TestMod", "ProvisionAnesthesiaSamples", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_654), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(655, 213, "Clinic.InventoryTest.TestMod", "ProvisionClinicKit", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_655), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(656, 214, "Clinic.InventoryTest.TestMod", "ProvisionSaw", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_656), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(657, 215, "Clinic.InventoryTest.TestMod", "ProvisionWoundDiagnostics", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_657), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(658, 216, "Clinic.InventoryTest.TestMod", "ProvisionWoundKit", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_658), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(659, 217, "Clinic.InventoryTest.TestMod", "PublishEndingNews", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_659), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(660, 218, "Clinic.InventoryTest.TestMod", "QueuePilotVisit", "Clinic.InventoryTest.PilotProfile", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") }, typeof(GeneratedManagedPatch_660), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(661, 219, "Clinic.InventoryTest.TestMod", "ReadRelicStory", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_661), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(662, 220, "Clinic.InventoryTest.TestMod", "ReadSettlement", "Clinic.InventoryTest.PilotProfile, Clinic.InventoryTest.PilotState", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") }, typeof(GeneratedManagedPatch_662), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(663, 221, "Clinic.InventoryTest.TestMod", "RecordPatientComplaint", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_663), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(664, 222, "Clinic.InventoryTest.TestMod", "RecordPostoperativeArrival", "Clinic.InventoryTest.PilotProfile", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") }, typeof(GeneratedManagedPatch_664), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(665, 223, "Clinic.InventoryTest.TestMod", "RecordRelicArrival", "Clinic.InventoryTest.PilotProfile", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") }, typeof(GeneratedManagedPatch_665), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(666, 224, "Clinic.InventoryTest.TestMod", "RecoverUnpaidWoundFees", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_666), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(667, 225, "Clinic.InventoryTest.TestMod", "ReframeCyberDialogue", "StoreClient", new Type[] { typeof(global::StoreClient) }, typeof(GeneratedManagedPatch_667), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(668, 226, "Clinic.InventoryTest.TestMod", "RefreshBrainDecoder", "GameItem, Clinic.InventoryTest.TestMod+BrainDecoderState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") }, typeof(GeneratedManagedPatch_668), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(669, 227, "Clinic.InventoryTest.TestMod", "RefreshClinicStorage", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_669), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(670, 228, "Clinic.InventoryTest.TestMod", "RefreshExistingIcons", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_670), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(671, 229, "Clinic.InventoryTest.TestMod", "RefreshForgeMachine", "GameItem, Clinic.InventoryTest.TestMod+ForgeMachineState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+ForgeMachineState") }, typeof(GeneratedManagedPatch_671), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(672, 230, "Clinic.InventoryTest.TestMod", "RefreshManualDisplay", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_672), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(673, 231, "Clinic.InventoryTest.TestMod", "RefreshPatientLabel", "StoreClient", new Type[] { typeof(global::StoreClient) }, typeof(GeneratedManagedPatch_673), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(674, 232, "Clinic.InventoryTest.TestMod", "RefreshScannerDockButton", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_674), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(675, 233, "Clinic.InventoryTest.TestMod", "RegisterImplantTradeLabels", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_675), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(676, 234, "Clinic.InventoryTest.TestMod", "RelicCall", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_676), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(677, 235, "Clinic.InventoryTest.TestMod", "RelicRequestSpeech", "Clinic.InventoryTest.PilotProfile", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") }, typeof(GeneratedManagedPatch_677), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(678, 236, "Clinic.InventoryTest.TestMod", "RelicTreatmentThanks", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_678), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(679, 237, "Clinic.InventoryTest.TestMod", "Render", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_679), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(680, 238, "Clinic.InventoryTest.TestMod", "RenderAnesthesiaPreparation", "CustomUIBuilder, GameItem", new Type[] { typeof(global::CustomUIBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_680), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(681, 239, "Clinic.InventoryTest.TestMod", "RenderBodySelection", "CustomUIBuilder", new Type[] { typeof(global::CustomUIBuilder) }, typeof(GeneratedManagedPatch_681), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(682, 240, "Clinic.InventoryTest.TestMod", "RenderClinicRoom", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_682), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(683, 241, "Clinic.InventoryTest.TestMod", "RenderClinicSettlement", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_683), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(684, 242, "Clinic.InventoryTest.TestMod", "RenderHospitalIntake", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_684), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(685, 243, "Clinic.InventoryTest.TestMod", "RenderMedicalScanner", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_685), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(686, 244, "Clinic.InventoryTest.TestMod", "RenderMedicalStatus", "CustomUIBuilder", new Type[] { typeof(global::CustomUIBuilder) }, typeof(GeneratedManagedPatch_686), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(687, 245, "Clinic.InventoryTest.TestMod", "RenderPilotAppointments", "CustomUIBuilder", new Type[] { typeof(global::CustomUIBuilder) }, typeof(GeneratedManagedPatch_687), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(688, 246, "Clinic.InventoryTest.TestMod", "RenderPreparationToolbar", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_688), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(689, 247, "Clinic.InventoryTest.TestMod", "RenderSurgery", "CustomUIBuilder", new Type[] { typeof(global::CustomUIBuilder) }, typeof(GeneratedManagedPatch_689), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(690, 248, "Clinic.InventoryTest.TestMod", "RenderSurgeryFooter", "CustomUIBuilder", new Type[] { typeof(global::CustomUIBuilder) }, typeof(GeneratedManagedPatch_690), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(691, 249, "Clinic.InventoryTest.TestMod", "RenderWoundAppointments", "CustomUIBuilder", new Type[] { typeof(global::CustomUIBuilder) }, typeof(GeneratedManagedPatch_691), "Transpiler", false, null));
+        }
+
+        private static void Add_12_2(ICollection<ManagedExactBinding> bindings)
+        {
+            bindings.Add(new ManagedExactBinding(692, 250, "Clinic.InventoryTest.TestMod", "RenderWoundPreparation", "CustomUIBuilder", new Type[] { typeof(global::CustomUIBuilder) }, typeof(GeneratedManagedPatch_692), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(693, 251, "Clinic.InventoryTest.TestMod", "RequireSurgicalTools", "System.Collections.Generic.IEnumerable`1<System.String>", new Type[] { (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_693), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(694, 252, "Clinic.InventoryTest.TestMod", "RestoreBrainAcquisitionItem", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_694), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(695, 253, "Clinic.InventoryTest.TestMod", "RestoreClinicClickMode", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_695), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(696, 254, "Clinic.InventoryTest.TestMod", "ReturnToClinicPreparation", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_696), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(697, 255, "Clinic.InventoryTest.TestMod", "RunMedicalScan", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_697), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(698, 256, "Clinic.InventoryTest.TestMod", "SaveMedical", "System.Double, System.String", new Type[] { typeof(global::System.Double), typeof(global::System.String) }, typeof(GeneratedManagedPatch_698), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(699, 257, "Clinic.InventoryTest.TestMod", "ScanIntake", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_699), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(700, 258, "Clinic.InventoryTest.TestMod", "ScannerSprite", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_700), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(701, 259, "Clinic.InventoryTest.TestMod", "SetRelicBrainStatus", "Clinic.InventoryTest.RelicCase", new Type[] { ModReflect.FindType("Clinic.InventoryTest.RelicCase") }, typeof(GeneratedManagedPatch_701), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(702, 260, "Clinic.InventoryTest.TestMod", "SetRelicParticipation", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_702), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(703, 261, "Clinic.InventoryTest.TestMod", "SettleImplantPayment", "Clinic.InventoryTest.PilotProfile, Clinic.InventoryTest.PilotState", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") }, typeof(GeneratedManagedPatch_703), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(704, 262, "Clinic.InventoryTest.TestMod", "SettleMedicalDeparture", "System.String, Clinic.InventoryTest.PilotState", new Type[] { typeof(global::System.String), ModReflect.FindType("Clinic.InventoryTest.PilotState") }, typeof(GeneratedManagedPatch_704), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(705, 263, "Clinic.InventoryTest.TestMod", "SettleMedicalImplant", "Clinic.InventoryTest.PilotProfile, Clinic.InventoryTest.PilotState", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") }, typeof(GeneratedManagedPatch_705), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(706, 264, "Clinic.InventoryTest.TestMod", "SettleWoundPayment", "Clinic.InventoryTest.PilotProfile, Clinic.InventoryTest.PilotState", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") }, typeof(GeneratedManagedPatch_706), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(707, 265, "Clinic.InventoryTest.TestMod", "ShowPrep", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_707), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(708, 266, "Clinic.InventoryTest.TestMod", "StartSurgery", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_708), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(709, 267, "Clinic.InventoryTest.TestMod", "StartTitanSurgery", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_709), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(710, 268, "Clinic.InventoryTest.TestMod", "StartWoundSurgery", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_710), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(711, 269, "Clinic.InventoryTest.TestMod", "TickClinicLocalization", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_711), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(712, 270, "Clinic.InventoryTest.TestMod", "TickMedicalReputation", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_712), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(713, 271, "Clinic.InventoryTest.TestMod", "TickSurgery", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_713), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(714, 272, "Clinic.InventoryTest.TestMod", "ToolDescription", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_714), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(715, 273, "Clinic.InventoryTest.TestMod", "UpgradeLegacyForge", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_715), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(716, 274, "Clinic.InventoryTest.TestMod", "UseSelectedInstrument", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_716), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(717, 275, "Clinic.InventoryTest.TestMod", "UseSuppressant", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_717), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(718, 276, "Clinic.InventoryTest.TestMod", "ViktorCall", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_718), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(719, 277, "Clinic.InventoryTest.TestMod", "WithBrainReport", "Clinic.InventoryTest.PilotProfile, Clinic.InventoryTest.PatientExam", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PatientExam") }, typeof(GeneratedManagedPatch_719), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(720, 278, "Clinic.InventoryTest.TestMod", "WoundCourse", "Clinic.InventoryTest.PilotProfile, Clinic.InventoryTest.PilotState", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") }, typeof(GeneratedManagedPatch_720), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(721, 279, "Clinic.InventoryTest.TestMod", "get_ClinicShortcutHint", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_721), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(722, 280, "Clinic.InventoryTest.TitanAssembly", "Body", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_722), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(723, 281, "Clinic.InventoryTest.TitanAssembly", "Name", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_723), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(724, 282, "Clinic.InventoryTest.TestMod+ViktorLocation", "GetTitle", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_724), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(725, 283, "Clinic.InventoryTest.ViktorShopCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_725), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(726, 284, "Clinic.InventoryTest.ViktorShopCatalog", "<Build>g__Implant|9_1", "System.String, System.String, System.String, System.Int32, Clinic.InventoryTest.ViktorShopCatalog+<>c__DisplayClass9_0&", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32), (ModReflect.FindType("Clinic.InventoryTest.ViktorShopCatalog+<>c__DisplayClass9_0")).MakeByRefType() }, typeof(GeneratedManagedPatch_726), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(727, 285, "Clinic.InventoryTest.ViktorShopCatalog", "Build", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_727), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(728, 286, "Clinic.InventoryTest.WoundCare", ".cctor", "", null, typeof(GeneratedManagedPatch_728), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(729, 287, "Clinic.InventoryTest.WoundTreatmentCourse", "CompletePart", "System.Boolean, Clinic.InventoryTest.SurgicalDeduction[]", new Type[] { typeof(global::System.Boolean), (ModReflect.FindType("Clinic.InventoryTest.SurgicalDeduction")).MakeArrayType() }, typeof(GeneratedManagedPatch_729), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(730, 288, "Clinic.InventoryTest.WoundVisitSchedule", "Queued", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_730), "Transpiler", false, null));
         }
     }
 
@@ -4953,6 +5261,2870 @@ namespace ProbablyStolenKo
         internal static MethodBase TargetMethod() => ModReflect.Target("ProbablyCrystal_Mod", "LocalizeBook", new Type[] { typeof(global::PaperBookData) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileFieldStoreBinding(instructions, 441);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_442
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(442);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<ConfigureMaterialBox>b__344_3", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), typeof(global::SlotMarker) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 442);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_443
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(443);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<EnsureClinicShortcutOptions>b__732_0", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 443);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_444
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(444);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<EnsureClinicShortcutOptions>b__732_2", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 444);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_445
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(445);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<EnsureClinicShortcutOptions>b__732_3", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 445);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_446
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(446);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<EnsureClinicShortcutOptions>b__732_5", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 446);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_447
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(447);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.PilotState+<>c", "<Exam>b__19_2", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotImplant") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 447);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_448
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(448);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenClinicPrimer>b__577_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 448);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_449
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(449);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenForgeBook>b__351_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 449);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_450
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(450);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenPracticeGuide>b__575_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 450);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_451
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(451);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RecordPostoperativeArrival>b__531_0", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 451);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_452
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(452);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_3", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 452);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_453
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(453);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_4", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 453);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_454
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(454);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_5", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 454);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_455
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(455);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_6", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 455);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_456
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(456);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<Register>b__957_7", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 456);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_457
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(457);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterClinicBusiness>b__133_1", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 457);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_458
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(458);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterClinicBusiness>b__133_2", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 458);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_459
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(459);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterClinicBusiness>b__133_3", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 459);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_460
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(460);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterClinicBusiness>b__133_4", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 460);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_461
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(461);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_0", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 461);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_462
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(462);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_1", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 462);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_463
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(463);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_2", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 463);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_464
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(464);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_3", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 464);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_465
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(465);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_4", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 465);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_466
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(466);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_5", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 466);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_467
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(467);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_6", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 467);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_468
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(468);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<RegisterInternCareer>b__419_7", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 468);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_469
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(469);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass16_0", "<ArasakaCall>b__2", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 469);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_470
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(470);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass17_0", "<CreateFinalAdam>b__0", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 470);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_471
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(471);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass17_0", "<CreateFinalAdam>b__1", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 471);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_472
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(472);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass356_0", "<ConfigureForgeMachine>b__0", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 472);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_473
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(473);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass584_0", "<RelicCall>b__1", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 473);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_474
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(474);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass795_0", "<OpenIllustratedSurgicalBook>b__0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 474);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_475
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(475);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass841_0", "<ViktorCall>g__Choice|0", new Type[] { typeof(global::System.String), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 475);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_476
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(476);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass841_1", "<ViktorCall>b__1", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 476);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_477
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(477);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass843_0", "<AddViktorAnestheticOrder>b__0", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 477);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_478
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(478);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c__DisplayClass957_5", "<Register>b__13", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 478);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_479
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(479);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.AdamFinale", "Decide", new Type[] { typeof(global::System.Boolean), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 479);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_480
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(480);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.AdamFinale", "Finish", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 480);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_481
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(481);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.AdamFinale", "Warn", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 481);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_482
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(482);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.AdamPatient", "Request", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 482);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_483
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(483);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.AllNpcAppearance", "Category", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 483);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_484
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(484);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.BasicForge", "OutcomeText", new Type[] { typeof(global::System.String), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 484);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_485
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(485);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.BasicForge", "QualityName", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 485);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.BrainInterfaceCourse", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_486
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(486);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 486);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_487
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(487);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicCampaign", "AdamQueued", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 487);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_488
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(488);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicCampaign", "Recruit", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 488);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_489
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(489);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicCampaign", "ReferralQueued", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 489);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_490
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(490);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "Accept", new Type[] { typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 490);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_491
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(491);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "BeginSurgery", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 491);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_492
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(492);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "CancelAdmission", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 492);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_493
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(493);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "Dismiss", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 493);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_494
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(494);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "Finish", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 494);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_495
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(495);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "RefreshCompletedReport", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PatientExam") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 495);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_496
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(496);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "RefreshStatus", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PatientExam") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 496);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_497
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(497);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "Scan", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 497);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_498
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(498);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicIntake", "SimulateDeath", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 498);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.ClinicPatient", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_499
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(499);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 499);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_500
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(500);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicSettlement", "Reason", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 500);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_501
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(501);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicText", "T", new Type[] { typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 501);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.ClinicThanks", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_502
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(502);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 502);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_503
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(503);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.CustomPatients", "Request", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 503);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.CyberpsychosisRules", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_504
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(504);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 504);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.CyberpsychosisText", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_505
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(505);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 505);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_506
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(506);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.CyberpsychosisText", "RewritePlain", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 506);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_507
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(507);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.FreehandSurface", "End", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 507);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_508
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(508);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.MedicalLedger", "StandingBenefit", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 508);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_509
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(509);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.MedicalLedger", "get_SupplyName", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 509);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_510
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(510);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.MedicalStandingTooltip", "Show", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 510);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_511
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(511);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.PatientExam", "ForCase", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 511);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.PilotPatients", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_512
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(512);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 512);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_513
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(513);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.PilotProfile", "get_AppearanceName", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 513);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_514
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(514);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.PilotState", "ImplantName", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 514);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_515
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(515);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.PilotState", "Treat", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Double), typeof(global::System.Int32), typeof(global::System.Boolean), typeof(global::System.Int32), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 515);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_516
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(516);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.PilotState", "TreatWound", new Type[] { typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 516);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_517
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(517);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ScannerReadout", "IconKey", new Type[] { ModReflect.FindType("Clinic.InventoryTest.ExamImplant") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 517);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_518
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(518);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ScannerReadout", "LocationLabel", new Type[] { ModReflect.FindType("Clinic.InventoryTest.ExamImplant") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 518);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_519
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(519);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ScannerReadout", "NeuralReserveHint", new Type[] { (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 519);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_520
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(520);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ShoulderReplacement", "BeginSeating", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 520);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.SurgerySession", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_521
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(521);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 521);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.SurgerySession", null, MethodType.Constructor)]
+    internal static class GeneratedManagedPatch_522
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(522);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 522);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_523
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(523);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "BeginManual", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 523);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_524
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(524);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "ConfirmBrainSync", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 524);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_525
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(525);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "ConnectTendon", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 525);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_526
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(526);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "ForceStep", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 526);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_527
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(527);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "Move", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 527);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_528
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(528);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "Next", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 528);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_529
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(529);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "PassiveDirection", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 529);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_530
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(530);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "RecordAssessment", new Type[] { typeof(global::System.String), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 530);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_531
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(531);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "RetryPuzzle", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 531);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_532
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(532);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "Select", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 532);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_533
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(533);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "TickCore", new Type[] { typeof(global::System.Double) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 533);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_534
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(534);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "Title", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 534);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_535
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(535);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "Use", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 535);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_536
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(536);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.SurgerySession", "get_PuzzleObjective", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 536);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.TestFlow", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_537
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(537);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 537);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_538
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(538);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestFlow", "Snapshot", new Type[] { (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { (typeof(global::System.Collections.Generic.KeyValuePair<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 538);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_539
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(539);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestFlow", "Verify", new Type[] { (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { (typeof(global::System.Collections.Generic.KeyValuePair<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 539);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.TestMod", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_540
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(540);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 540);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.TestMod", null, MethodType.Constructor)]
+    internal static class GeneratedManagedPatch_541
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(541);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 541);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_542
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(542);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "<DrawShoulderOperation>b__756_1", new Type[] { ModReflect.FindType("Clinic.InventoryTest.SurgerySession") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 542);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_543
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(543);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "<Render>b__974_12", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 543);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_544
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(544);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "<RenderSurgeryFooter>b__926_3", new Type[] { ModReflect.FindType("Clinic.InventoryTest.SurgerySession") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 544);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_545
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(545);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "<RenderSurgeryFooter>b__926_4", new Type[] { ModReflect.FindType("Clinic.InventoryTest.SurgerySession") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 545);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_546
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(546);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AdaptNativeCyberClient", new Type[] { typeof(global::StoreClient) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 546);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_547
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(547);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AddPollutionTooltip", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 547);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_548
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(548);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AddViktorAnestheticOrder", new Type[] { typeof(global::Dialogue) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 548);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_549
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(549);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AddViktorPhoneExit", new Type[] { typeof(global::Dialogue) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 549);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_550
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(550);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AdvanceBrainDecoders", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 550);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_551
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(551);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AppendAnestheticPurity", new Type[] { typeof(global::GameItemElement), typeof(global::RichTextBuilder) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 551);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_552
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(552);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AppendViktorContactHint", new Type[] { typeof(global::Dialogue) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 552);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_553
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(553);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ApplyMedicalAnestheticStock", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 553);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_554
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(554);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ApplyRelicFactionConsequence", new Type[] { ModReflect.FindType("Clinic.InventoryTest.RelicCase") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 554);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_555
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(555);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ApplySurgicalImplantArt", new Type[] { ModReflect.FindType("Clinic.InventoryTest.SurgicalWound") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 555);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_556
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(556);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ArasakaCall", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 556);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_557
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(557);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ArriveViktor", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 557);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_558
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(558);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AssessProcedure", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 558);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_559
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(559);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CheckContext", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 559);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_560
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(560);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CheckPilotContext", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 560);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_561
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(561);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CleanInSterilizer", new Type[] { typeof(global::GameItem), typeof(global::GameGridInventory), typeof(global::GameSlotInventory) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 561);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_562
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(562);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CommitBrainTreatment", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 562);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_563
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(563);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CommitPilotTreatment", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 563);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_564
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(564);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CommitTitanPart", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 564);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_565
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(565);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CommitWoundTreatment", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 565);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_566
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(566);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureBrainDecoder", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 566);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_567
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(567);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureDecodedChip", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 567);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_568
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(568);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureForgeMachine", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 568);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_569
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(569);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureImplantTrade", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 569);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_570
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(570);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureMedicalGoods", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 570);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_571
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(571);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureMedicalScanner", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 571);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_572
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(572);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureRelicPatientConversation", new Type[] { typeof(global::StoreClient), ModReflect.FindType("Clinic.InventoryTest.PilotProfile") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 572);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_573
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(573);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureToolPresentation", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 573);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_574
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(574);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureTreatedDialogue", new Type[] { typeof(global::StoreClient), ModReflect.FindType("Clinic.InventoryTest.PilotState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 574);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_575
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(575);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConsumeAnesthetic", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 575);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_576
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(576);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CraftImplant", new Type[] { typeof(global::GameItem), typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 576);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_577
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(577);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CraftTitan", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 577);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_578
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(578);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateAdamSmasher", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 578);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_579
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(579);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateArasakaProposal", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 579);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_580
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(580);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateBasicClinicKit", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 580);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_581
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(581);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateBench", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 581);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_582
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(582);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateBrainDecoder", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 582);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_583
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(583);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateBrainViktor", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 583);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_584
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(584);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateBusinessViktor", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 584);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_585
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(585);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateClinicFlux", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 585);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_586
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(586);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateEncryptedBrainBlank", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 586);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_587
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(587);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateFinalAdam", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 587);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_588
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(588);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateForgeBook", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 588);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_589
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(589);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateFutureBrainChip", new Type[] { typeof(global::System.Int32), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 589);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_590
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(590);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateHiddenCabinet", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 590);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_591
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(591);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateImplantForge", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 591);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_592
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(592);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateInstrumentCase", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 592);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_593
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(593);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateItem", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 593);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_594
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(594);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateLegacyImplantForge", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 594);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_595
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(595);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateManual", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 595);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_596
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(596);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateMaterialBox", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 596);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_597
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(597);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateMedicalLicense", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 597);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_598
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(598);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateMold", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 598);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_599
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(599);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreatePreparationHolder", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 599);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_600
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(600);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateRecruitingViktor", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 600);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_601
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(601);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateRelicIntroVisitor", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 601);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_602
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(602);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateRelicWarning", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 602);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_603
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(603);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateScannerDockHolder", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 603);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_604
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(604);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateSupplyViktor", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 604);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_605
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(605);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateSuppressant", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 605);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_606
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(606);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateTitanAssemblyItem", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 606);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_607
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(607);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateTitanMold", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 607);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_608
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(608);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "CreateViktorWarning", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 608);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_609
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(609);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DecodeBrainChip", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 609);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_610
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(610);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawAdamTheatrePatient", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 610);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_611
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(611);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawAnesthesiaHandbook", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 611);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_612
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(612);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawBrainFailure", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 612);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_613
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(613);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawBrainSync", new Type[] { typeof(global::UnityEngine.RectTransform), ModReflect.FindType("Clinic.InventoryTest.SurgerySession") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 613);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_614
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(614);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawChannelPort", new Type[] { typeof(global::UnityEngine.RectTransform), (typeof(global::System.ValueTuple<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 614);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_615
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(615);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawHandbookMaterials", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 615);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_616
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(616);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawHandbookStepRows", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }) }), typeof(global::System.Int32), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 616);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_617
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(617);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawPuzzleObjective", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 617);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_618
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(618);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerImplants", new Type[] { typeof(global::UnityEngine.RectTransform), ModReflect.FindType("Clinic.InventoryTest.PatientExam") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 618);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_619
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(619);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerMeter", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.String), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Single), typeof(global::System.Single), typeof(global::UnityEngine.Color), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Double) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 619);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_620
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(620);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawShoulderOperation", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 620);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_621
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(621);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawTendon", new Type[] { typeof(global::UnityEngine.RectTransform), ModReflect.FindType("Clinic.InventoryTest.TendonConnection") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 621);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_622
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(622);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawTitanManual", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 622);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_623
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(623);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawTitanRecipePage", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 623);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_624
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(624);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawTool", new Type[] { typeof(global::CustomUIBuilder), typeof(global::GameItem), typeof(global::System.Boolean), typeof(global::System.Action), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 624);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_625
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(625);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawTools", new Type[] { typeof(global::CustomUIBuilder), ModReflect.FindType("Clinic.InventoryTest.SurgerySession") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 625);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_626
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(626);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawVoltage", new Type[] { typeof(global::UnityEngine.RectTransform), ModReflect.FindType("Clinic.InventoryTest.VoltageConnection") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 626);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_627
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(627);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "EnsureArasakaPhone", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 627);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_628
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(628);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "EnsureForgeContext", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 628);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_629
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(629);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "EnsurePreparationStorage", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 629);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_630
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(630);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "EnsureSterilizer", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 630);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_631
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(631);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "EnsureViktorPhone", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 631);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_632
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(632);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "EnsureWear", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 632);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_633
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(633);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "EnterHospitalPreparation", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 633);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_634
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(634);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "FinishBrainChip", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 634);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_635
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(635);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "FollowupSpeech", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 635);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_636
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(636);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "HandbookOperationSteps", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 636);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_637
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(637);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ImplantConfrontDialogue", new Type[] { typeof(global::ItemFeature), (typeof(global::Dialogue)).MakeByRefType() });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 637);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_638
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(638);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ImplantCrimeDisplay", new Type[] { typeof(global::System.String), (typeof(global::System.String)).MakeByRefType() });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 638);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_639
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(639);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "MaterialBoxNotice", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 639);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_640
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(640);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "MaterialName", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 640);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_641
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(641);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "Medical", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 641);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_642
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(642);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "MissingPreparedImplant", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 642);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_643
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(643);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "OpenClinicPrimer", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 643);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_644
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(644);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "OpenForgeBook", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 644);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_645
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(645);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "OpenMaterialBox", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 645);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_646
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(646);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "OpenMedicalScanner", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 646);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_647
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(647);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "OpenPracticeGuide", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 647);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_648
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(648);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "PayTreatment", new Type[] { typeof(global::System.String), typeof(global::System.Int32), typeof(global::System.Boolean), typeof(global::System.Boolean), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 648);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_649
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(649);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "PilotRecords", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 649);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_650
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(650);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "PilotRequest", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 650);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_651
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(651);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "PlaceTools", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 651);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_652
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(652);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "PoweredSawGraphic", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 652);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_653
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(653);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "Provision", new Type[] { typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 653);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_654
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(654);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ProvisionAnesthesiaSamples", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 654);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_655
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(655);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ProvisionClinicKit", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 655);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_656
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(656);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ProvisionSaw", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 656);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_657
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(657);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ProvisionWoundDiagnostics", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 657);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_658
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(658);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ProvisionWoundKit", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 658);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_659
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(659);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "PublishEndingNews", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 659);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_660
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(660);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "QueuePilotVisit", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 660);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_661
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(661);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ReadRelicStory", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 661);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_662
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(662);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ReadSettlement", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 662);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_663
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(663);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RecordPatientComplaint", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 663);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_664
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(664);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RecordPostoperativeArrival", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 664);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_665
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(665);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RecordRelicArrival", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 665);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_666
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(666);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RecoverUnpaidWoundFees", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 666);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_667
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(667);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ReframeCyberDialogue", new Type[] { typeof(global::StoreClient) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 667);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_668
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(668);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshBrainDecoder", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 668);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_669
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(669);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshClinicStorage", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 669);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_670
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(670);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshExistingIcons", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 670);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_671
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(671);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshForgeMachine", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+ForgeMachineState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 671);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_672
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(672);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshManualDisplay", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 672);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_673
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(673);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshPatientLabel", new Type[] { typeof(global::StoreClient) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 673);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_674
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(674);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshScannerDockButton", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 674);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_675
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(675);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RegisterImplantTradeLabels", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 675);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_676
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(676);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RelicCall", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 676);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_677
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(677);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RelicRequestSpeech", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 677);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_678
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(678);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RelicTreatmentThanks", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 678);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_679
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(679);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "Render", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 679);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_680
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(680);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderAnesthesiaPreparation", new Type[] { typeof(global::CustomUIBuilder), typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 680);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_681
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(681);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderBodySelection", new Type[] { typeof(global::CustomUIBuilder) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 681);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_682
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(682);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderClinicRoom", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 682);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_683
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(683);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderClinicSettlement", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 683);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_684
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(684);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderHospitalIntake", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 684);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_685
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(685);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderMedicalScanner", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 685);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_686
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(686);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderMedicalStatus", new Type[] { typeof(global::CustomUIBuilder) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 686);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_687
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(687);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderPilotAppointments", new Type[] { typeof(global::CustomUIBuilder) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 687);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_688
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(688);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderPreparationToolbar", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 688);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_689
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(689);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderSurgery", new Type[] { typeof(global::CustomUIBuilder) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 689);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_690
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(690);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderSurgeryFooter", new Type[] { typeof(global::CustomUIBuilder) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 690);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_691
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(691);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderWoundAppointments", new Type[] { typeof(global::CustomUIBuilder) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 691);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_692
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(692);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderWoundPreparation", new Type[] { typeof(global::CustomUIBuilder) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 692);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_693
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(693);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RequireSurgicalTools", new Type[] { (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 693);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_694
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(694);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RestoreBrainAcquisitionItem", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 694);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_695
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(695);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RestoreClinicClickMode", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 695);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_696
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(696);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ReturnToClinicPreparation", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 696);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_697
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(697);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RunMedicalScan", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 697);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_698
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(698);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "SaveMedical", new Type[] { typeof(global::System.Double), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 698);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_699
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(699);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ScanIntake", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 699);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_700
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(700);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ScannerSprite", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 700);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_701
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(701);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "SetRelicBrainStatus", new Type[] { ModReflect.FindType("Clinic.InventoryTest.RelicCase") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 701);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_702
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(702);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "SetRelicParticipation", new Type[] { typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 702);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_703
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(703);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "SettleImplantPayment", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 703);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_704
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(704);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "SettleMedicalDeparture", new Type[] { typeof(global::System.String), ModReflect.FindType("Clinic.InventoryTest.PilotState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 704);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_705
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(705);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "SettleMedicalImplant", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 705);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_706
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(706);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "SettleWoundPayment", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 706);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_707
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(707);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ShowPrep", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 707);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_708
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(708);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "StartSurgery", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 708);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_709
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(709);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "StartTitanSurgery", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 709);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_710
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(710);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "StartWoundSurgery", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 710);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_711
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(711);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "TickClinicLocalization", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 711);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_712
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(712);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "TickMedicalReputation", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 712);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_713
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(713);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "TickSurgery", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 713);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_714
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(714);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ToolDescription", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 714);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_715
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(715);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "UpgradeLegacyForge", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 715);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_716
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(716);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "UseSelectedInstrument", new Type[] { typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 716);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_717
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(717);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "UseSuppressant", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 717);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_718
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(718);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ViktorCall", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 718);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_719
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(719);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "WithBrainReport", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PatientExam") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 719);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_720
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(720);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "WoundCourse", new Type[] { ModReflect.FindType("Clinic.InventoryTest.PilotProfile"), ModReflect.FindType("Clinic.InventoryTest.PilotState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 720);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_721
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(721);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "get_ClinicShortcutHint", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 721);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_722
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(722);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TitanAssembly", "Body", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 722);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_723
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(723);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TitanAssembly", "Name", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 723);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_724
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(724);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+ViktorLocation", "GetTitle", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 724);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.ViktorShopCatalog", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_725
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(725);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 725);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_726
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(726);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ViktorShopCatalog", "<Build>g__Implant|9_1", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String), typeof(global::System.Int32), (ModReflect.FindType("Clinic.InventoryTest.ViktorShopCatalog+<>c__DisplayClass9_0")).MakeByRefType() });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 726);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_727
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(727);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ViktorShopCatalog", "Build", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 727);
+    }
+    [HarmonyPatch("Clinic.InventoryTest.WoundCare", null, MethodType.StaticConstructor)]
+    internal static class GeneratedManagedPatch_728
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(728);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 728);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_729
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(729);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.WoundTreatmentCourse", "CompletePart", new Type[] { typeof(global::System.Boolean), (ModReflect.FindType("Clinic.InventoryTest.SurgicalDeduction")).MakeArrayType() });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 729);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_730
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(730);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.WoundVisitSchedule", "Queued", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 730);
     }
 
     internal static class GeneratedManagedRefresh
