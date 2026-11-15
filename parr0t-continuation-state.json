@@ -1,0 +1,49 @@
+{
+  "artifacts": {
+    "ProbablyStolenKo.Localization.dll": "65f202e3f6c323d1d6aed7591fbd8c17fb01f5ad933e6e44175c2099c338d850",
+    "managed-ko-runtime.json": "44abadd7b60b932c5dac89f5c38c504a80efa8710da22b13accefc7ba7f09010",
+    "manifest.xml": "c04263933c625b6c4b65b86bfbd4a78aef17efe83fa6a70775fa2232f7862aac",
+    "parr0t-release-checkpoint.json": "3ccb0d7fadbe737e71c0908713d65d0ba4c69d8b56e5b5ac04ad618e82483c8e",
+    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "048f77f94856950a92892591eb0f8f889a0fa5eca92a2496381773e11cf936c3",
+    "workshop-ko-runtime.json": "e571ac328ae428c0d21f341ab5138af4770720b6c40c6ca5993ccb14f021b8b7"
+  },
+  "contracts": {
+    "generated_bindings": 203,
+    "generated_refresh": 6,
+    "generated_routes": 649,
+    "generated_static_patches": 203,
+    "generated_unsupported": 0,
+    "managed_entries": 26822,
+    "managed_targets": 28,
+    "workshop_entries": 10664,
+    "workshop_mods": 17
+  },
+  "dependencies": {
+    "dotnet_target_framework": "netstandard2.1",
+    "mono_cecil_nupkg_sha256": "d2a23832aaa948ba9a01acc42b5726e34c5f995958f1b30d45c0e7c70b3a72d5",
+    "mono_cecil_version": "0.11.6"
+  },
+  "parr0t": {
+    "branch": "sdk-unity-2021.3",
+    "checkpoint_release_id": "local-r30",
+    "checkpoint_scope": "Canonical r30 fingerprint baseline. Tracked runtime JSON and CSV files are the authoritative approved translation state for post-r30 releases.",
+    "checkpoint_target_count": 13921,
+    "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
+  },
+  "release": {
+    "commit": "c354bc5626c794ef28628fd4e66e0743e3c53d86",
+    "game_version": "0.46D",
+    "version": "1.0.32"
+  },
+  "schema": "probably-translated.continuation/v1",
+  "trees": {
+    "va11-recipes": {
+      "files": 29,
+      "sha256": "c48e17e72278eb15f9e8598314c3bb497e733465fa4adc4b8450da1dd380b18b"
+    },
+    "workshop-overlays": {
+      "files": 17,
+      "sha256": "ec3937005a64f8870c98bae4d45d278a59a71c809c953044dc217ef6ff04d914"
+    }
+  }
+}
