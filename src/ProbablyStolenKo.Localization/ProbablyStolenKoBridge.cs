@@ -136,7 +136,8 @@ namespace ProbablyStolenKo
         private void ApplyTarget(LoadedMod loaded)
         {
             if (_croTranslationPackActive && CroOverlapManifestIds.Contains(loaded.Manifest.ID)) return;
-            if (_workshopCatalog.TryGetMod(loaded.Manifest.ID, out _))
+            WorkshopModPayload workshopPayload;
+            if (_workshopCatalog.TryGetMod(loaded.Manifest.ID, out workshopPayload))
             {
                 try
                 {
@@ -149,6 +150,17 @@ namespace ProbablyStolenKo
                 catch (Exception error)
                 {
                     _log.Error("Target overlay failed for " + loaded.Manifest.ID + ". " + error.GetType().Name);
+                }
+            }
+            if (workshopPayload != null && workshopPayload.ManifestName != null)
+            {
+                try
+                {
+                    _manifestOverlay.Apply(loaded.Manifest, workshopPayload.ManifestName, null);
+                }
+                catch (Exception error)
+                {
+                    _log.Error("Workshop manifest overlay failed for " + loaded.Manifest.ID + ". " + error.GetType().Name);
                 }
             }
             if (StringComparer.Ordinal.Equals(loaded.Manifest.ID, "va11halla"))

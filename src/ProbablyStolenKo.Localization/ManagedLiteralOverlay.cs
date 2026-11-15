@@ -56,6 +56,7 @@ namespace ProbablyStolenKo
             int entryCount,
             string manifestName,
             string manifestDescription,
+            bool displayLiteralOverlay,
             IReadOnlyList<ManagedRoute> routes,
             IReadOnlyList<ManagedRefresh> refresh)
         {
@@ -64,6 +65,7 @@ namespace ProbablyStolenKo
             EntryCount = entryCount;
             ManifestName = manifestName;
             ManifestDescription = manifestDescription;
+            DisplayLiteralOverlay = displayLiteralOverlay;
             Routes = routes;
             Refresh = refresh;
         }
@@ -73,6 +75,7 @@ namespace ProbablyStolenKo
         internal int EntryCount { get; }
         internal string ManifestName { get; }
         internal string ManifestDescription { get; }
+        internal bool DisplayLiteralOverlay { get; }
         internal IReadOnlyList<ManagedRoute> Routes { get; }
         internal IReadOnlyList<ManagedRefresh> Refresh { get; }
     }
@@ -143,6 +146,7 @@ namespace ProbablyStolenKo
                 var manifest = target?["manifest"] as JObject;
                 var manifestName = (string)manifest?["name"];
                 var manifestDescription = (string)manifest?["description"];
+                var displayLiteralOverlay = (bool?)target?["display_literal_overlay"] ?? false;
                 var sourceRoutes = target?["routes"] as JArray;
                 var sourceRefresh = target?["refresh"] as JArray;
                 if (string.IsNullOrWhiteSpace(targetProperty.Name) || string.IsNullOrWhiteSpace(workshopItemId) ||
@@ -194,7 +198,8 @@ namespace ProbablyStolenKo
                 }
                 total += entryCount.Value;
                 targets.Add(targetProperty.Name, new ManagedTarget(
-                    workshopItemId, assemblyName, entryCount.Value, manifestName, manifestDescription, routes, refresh));
+                    workshopItemId, assemblyName, entryCount.Value, manifestName, manifestDescription,
+                    displayLiteralOverlay, routes, refresh));
             }
             if (total != ExpectedEntries) throw new FormatException("Managed payload total is invalid.");
             return new ManagedLiteralCatalog(targets);
@@ -220,6 +225,7 @@ namespace ProbablyStolenKo
         private readonly HashSet<string> _appliedTargets = new HashSet<string>(StringComparer.Ordinal);
         private readonly HashSet<string> _attemptedTargets = new HashSet<string>(StringComparer.Ordinal);
         private readonly List<string> _appliedRefresh = new List<string>();
+        private readonly ManagedDisplayOverlay _displayOverlay = new ManagedDisplayOverlay();
         private readonly ModLog _log;
 
         internal ManagedLiteralOverlay(ModLog log)
@@ -247,6 +253,7 @@ namespace ProbablyStolenKo
                 GeneratedManagedRefresh.Prepare(harmony, modId);
                 refreshPrepared = true;
                 GeneratedManagedRefresh.Invoke(modId);
+                _displayOverlay.ApplyTarget(modId, target);
                 if (target.Refresh.Count != 0) _appliedRefresh.Add(modId);
                 _appliedTargets.Add(modId);
                 var elapsedMs = (Stopwatch.GetTimestamp() - started) * 1000L / Stopwatch.Frequency;
@@ -342,6 +349,7 @@ namespace ProbablyStolenKo
 
         internal void Restore()
         {
+            _displayOverlay.Restore();
             foreach (var harmony in _harmonies.Values) harmony.UnpatchAll(harmony.Id);
             lock (Gate)
             {

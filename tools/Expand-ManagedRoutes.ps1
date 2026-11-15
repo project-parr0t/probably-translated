@@ -141,6 +141,15 @@ function Route-MatchesMethod($route, $method) {
     return $method.ReturnType.FullName -eq 'System.String'
 }
 
+function Literal-Source([string]$mode, [string]$key) {
+    if ($mode -ne 'literal_occurrence') { return $key }
+    $separator = $key.LastIndexOf([char]0x1f)
+    if ($separator -lt 0) { return $key }
+    $occurrence = 0
+    if (-not [int]::TryParse($key.Substring($separator + 1), [ref]$occurrence)) { return $key }
+    return $key.Substring(0, $separator)
+}
+
 $serializer = New-Object System.Web.Script.Serialization.JavaScriptSerializer
 $serializer.MaxJsonLength = [int]::MaxValue
 $root = $serializer.DeserializeObject([IO.File]::ReadAllText((Resolve-Path -LiteralPath $ManagedRuntime), [Text.Encoding]::UTF8))
@@ -162,6 +171,27 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
     $target = $targetEntry.Value
     $routes = @($target['routes'])
     $refresh = @($target['refresh'])
+    $displayLiteralOverlay = [bool]$target['display_literal_overlay']
+    $displayValues = New-Object 'System.Collections.Generic.Dictionary[string,string]' ([StringComparer]::Ordinal)
+    $displayConflicts = New-Object 'System.Collections.Generic.HashSet[string]' ([StringComparer]::Ordinal)
+    if ($displayLiteralOverlay) {
+        foreach ($route in $routes) {
+            $mode = [string]$route['mode']
+            if ($mode -ne 'literal' -and $mode -ne 'literal_occurrence') { continue }
+            foreach ($entry in $route['entries'].GetEnumerator()) {
+                $source = Literal-Source $mode ([string]$entry.Key)
+                if ($displayConflicts.Contains($source)) { continue }
+                $existing = ''
+                if ($displayValues.TryGetValue($source, [ref]$existing) -and
+                    -not [StringComparer]::Ordinal.Equals($existing, [string]$entry.Value)) {
+                    [void]$displayValues.Remove($source)
+                    [void]$displayConflicts.Add($source)
+                } else {
+                    $displayValues[$source] = [string]$entry.Value
+                }
+            }
+        }
+    }
     $routeCount += $routes.Count
     if ($routes.Count -eq 0 -and $refresh.Count -eq 0) { continue }
 
@@ -182,6 +212,17 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
         $bindings = New-Object System.Collections.Generic.List[object]
         for ($routeIndex = 0; $routeIndex -lt $routes.Count; $routeIndex++) {
             $route = $routes[$routeIndex]
+            $mode = [string]$route['mode']
+            if ($displayLiteralOverlay -and ($mode -eq 'literal' -or $mode -eq 'literal_occurrence')) {
+                $requiresExactPatch = $false
+                foreach ($entry in $route['entries'].Keys) {
+                    if ($displayConflicts.Contains((Literal-Source $mode ([string]$entry)))) {
+                        $requiresExactPatch = $true
+                        break
+                    }
+                }
+                if (-not $requiresExactPatch) { continue }
+            }
             foreach ($type in $types) {
                 $typeName = Runtime-Name $type
                 if (-not (Route-MatchesType ([string]$route['type']) $typeName)) { continue }

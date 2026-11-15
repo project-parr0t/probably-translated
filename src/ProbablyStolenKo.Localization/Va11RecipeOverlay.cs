@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using HarmonyLib;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace ProbablyStolenKo
 {
@@ -11,7 +12,9 @@ namespace ProbablyStolenKo
         private const string HarmonyId = "probably-stolen-ko-localization.va11-recipes";
         private const string AssetDirectory = "va11-recipes/";
         private static readonly IReadOnlyDictionary<string, string> AssetPaths = CreateAssetPaths();
+        private static readonly IReadOnlyDictionary<string, string> SourceSpriteKeys = CreateSourceSpriteKeys();
         private static Va11RecipeOverlay _active;
+        private static bool _installing;
 
         private readonly ModManifest _manifest;
         private readonly Dictionary<string, Sprite> _sprites = new Dictionary<string, Sprite>(StringComparer.Ordinal);
@@ -31,10 +34,9 @@ namespace ProbablyStolenKo
             var harmony = new Harmony(HarmonyId);
             try
             {
-                var original = ModReflect.Target("SpriteAssets", "Get", new[] { typeof(string) });
-                var postfix = new HarmonyMethod(typeof(Va11RecipeOverlay), nameof(GetPostfix));
                 _active = this;
-                harmony.Patch(original, postfix: postfix);
+                _installing = true;
+                harmony.CreateClassProcessor(typeof(ImageSpritePatch)).Patch();
                 _harmony = harmony;
             }
             catch
@@ -43,14 +45,29 @@ namespace ProbablyStolenKo
                 harmony.UnpatchAll(harmony.Id);
                 throw;
             }
+            finally
+            {
+                _installing = false;
+            }
         }
 
-        private static void GetPostfix(string __0, ref Sprite __result)
+        private static void ReplaceRecipeSprite(ref Sprite source)
         {
             var overlay = _active;
-            if (overlay == null || !StringComparer.Ordinal.Equals(LocHelper.GetCurrentLocaleCode(), "ko")) return;
-            if (!AssetPaths.ContainsKey(__0)) return;
-            __result = overlay.GetSprite(__0);
+            if (overlay == null || source == null ||
+                !StringComparer.Ordinal.Equals(LocHelper.GetCurrentLocaleCode(), "ko")) return;
+            string key;
+            if (SourceSpriteKeys.TryGetValue(source.name, out key)) source = overlay.GetSprite(key);
+        }
+
+        [HarmonyPatch(typeof(Image), "set_sprite")]
+        private static class ImageSpritePatch
+        {
+            [HarmonyPrepare]
+            private static bool Prepare() => _installing;
+
+            [HarmonyPrefix]
+            private static void Prefix(ref Sprite __0) => ReplaceRecipeSprite(ref __0);
         }
 
         private Sprite GetSprite(string key)
@@ -105,6 +122,18 @@ namespace ProbablyStolenKo
             for (var page = 1; page <= 24; page++)
                 paths.Add("va11halla_recipe_" + page, AssetDirectory + "recipe_" + page.ToString("00") + ".png");
             return paths;
+        }
+
+        private static IReadOnlyDictionary<string, string> CreateSourceSpriteKeys()
+        {
+            var keys = new Dictionary<string, string>(StringComparer.Ordinal)
+            {
+                ["Va11HallA.Assets.recipe_intro_cn_0.png"] = "va11halla_recipe_intro",
+                ["Va11HallA.Assets.recipe_hint_cn_0.png"] = "va11halla_recipe_hint"
+            };
+            for (var page = 1; page <= 24; page++)
+                keys.Add("Va11HallA.Assets.recipes_cn_" + page + ".png", "va11halla_recipe_" + page);
+            return keys;
         }
     }
 }

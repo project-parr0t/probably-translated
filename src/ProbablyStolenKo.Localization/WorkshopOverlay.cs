@@ -8,13 +8,18 @@ namespace ProbablyStolenKo
 {
     internal sealed class WorkshopModPayload
     {
-        internal WorkshopModPayload(string workshopItemId, IReadOnlyDictionary<string, string> entries)
+        internal WorkshopModPayload(
+            string workshopItemId,
+            string manifestName,
+            IReadOnlyDictionary<string, string> entries)
         {
             WorkshopItemId = workshopItemId;
+            ManifestName = manifestName;
             Entries = entries;
         }
 
         internal string WorkshopItemId { get; }
+        internal string ManifestName { get; }
         internal IReadOnlyDictionary<string, string> Entries { get; }
     }
 
@@ -81,10 +86,12 @@ namespace ProbablyStolenKo
                     throw new FormatException("Invalid workshop target-mod record.");
                 var workshopItemId = (string)sourceMod["workshop_item_id"];
                 var csvPath = (string)sourceMod["csv_path"];
+                var manifestName = (string)sourceMod["manifest_name"];
                 var entryCount = (int?)sourceMod["entry_count"];
                 if (string.IsNullOrWhiteSpace(workshopItemId) || string.IsNullOrWhiteSpace(csvPath) ||
                     !csvPath.StartsWith("workshop-overlays/", StringComparison.Ordinal) || csvPath.Contains("..") ||
-                    csvPath.Contains("\\") || !entryCount.HasValue || entryCount.Value < 1)
+                    csvPath.Contains("\\") || !entryCount.HasValue || entryCount.Value < 1 ||
+                    (manifestName != null && string.IsNullOrWhiteSpace(manifestName)))
                     throw new FormatException("Incomplete workshop target-mod record.");
                 string expectedWorkshopItem;
                 if (!ExpectedWorkshopItems.TryGetValue(modProperty.Name, out expectedWorkshopItem) ||
@@ -93,7 +100,7 @@ namespace ProbablyStolenKo
                 var entries = ParseCsv(readFile(csvPath));
                 if (entries.Count != entryCount.Value) throw new FormatException("Workshop CSV entry count is invalid.");
                 total += entries.Count;
-                mods.Add(modProperty.Name, new WorkshopModPayload(workshopItemId, entries));
+                mods.Add(modProperty.Name, new WorkshopModPayload(workshopItemId, manifestName, entries));
             }
             if (total != ExpectedEntries) throw new FormatException("Workshop payload entry count is invalid.");
             return new WorkshopPayloadCatalog(locale, mods, total);

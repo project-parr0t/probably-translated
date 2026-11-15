@@ -20,11 +20,11 @@ dotnet build src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csp
 Copy-Item src/ProbablyStolenKo.Localization/bin/Release/netstandard2.1/ProbablyStolenKo.Localization.dll ProbablyStolenKo.Localization.dll -Force
 ```
 
-The first command builds the runtime; the second promotes that exact output to the distributable root DLL. Generated patch classes stay disabled during the loader's assembly-wide Harmony scan. When a supported prerequisite is running, the bridge resolves each reviewed target once through the game's capability-free `ModReflect.Target` API and applies only that target's patches. The DLL therefore contains no assembly reference to an optional target mod, while retaining exact overload selection and avoiding assembly-wide runtime scans.
+The first command builds the runtime; the second promotes that exact output to the distributable root DLL. Generated patch classes stay disabled during the loader's assembly-wide Harmony scan. When a supported prerequisite is running, the bridge resolves each reviewed target once through the game's capability-free `ModReflect.Target` API and applies only that target's patches. Targets marked `display_literal_overlay` project unambiguous literal translations at the TextMesh Pro display boundary; only context-dependent collisions retain method-level patches. The DLL therefore contains no assembly reference to an optional target mod, while retaining exact overload selection and avoiding assembly-wide runtime scans.
 
 ## Regenerate managed route bindings
 
-`tools/Expand-ManagedRoutes.ps1` expands every reviewed runtime route into generated Harmony patch classes. Normal methods resolve through literal, exact-signature `ModReflect.Target` calls and are passed directly to `Harmony.Patch`; this avoids hundreds of redundant Harmony attribute scans during startup. Constructor patches retain statically auditable Harmony metadata because `ModReflect.Target` resolves methods only. All six refresh targets use the same checked API.
+`tools/Expand-ManagedRoutes.ps1` expands every reviewed runtime route into generated Harmony patch classes. For `display_literal_overlay` targets it omits unambiguous literal routes, while preserving exact method patches for source strings with context-dependent translations. Other normal methods resolve through literal, exact-signature `ModReflect.Target` calls and are passed directly to `Harmony.Patch`; constructor patches retain statically auditable Harmony metadata because `ModReflect.Target` resolves methods only. All six refresh targets use the same checked API.
 
 Regenerate the bindings whenever a supported managed mod changes:
 

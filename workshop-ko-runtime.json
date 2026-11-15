@@ -85,6 +85,7 @@
     "space_coffee": {
       "workshop_item_id": "3834667583",
       "csv_path": "workshop-overlays/3834667583/Localization/ko.csv",
+      "manifest_name": "Space Coffee",
       "entry_count": 132
     },
     "local.uv-coverage": {
