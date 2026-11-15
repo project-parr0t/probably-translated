@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("Install", "Remove", "Stage", "Promote", "Status")]
+    [ValidateSet("Install", "Remove", "Stage", "Status")]
     [string]$Action,
     [Parameter(Mandatory = $true)][string]$GameRoot,
     [string]$StageDir,
@@ -18,7 +18,6 @@ $markerName = ".probably-translated-test-install.json"
 $markerPath = Join-Path $installRoot $markerName
 $receiptRoot = Join-Path $env:LOCALAPPDATA "ProbablyTranslated"
 $receiptPath = Join-Path $receiptRoot "test-receipt.json"
-$workshopItemId = "3838981739"
 $topLevelFiles = @(
     "manifest.xml",
     "ProbablyStolenKo.Localization.dll",
@@ -161,7 +160,7 @@ switch ($Action) {
             throw "The package changed after the local Mods test install"
         }
         if (-not (Test-Path -LiteralPath $installRoot -PathType Container)) {
-            throw "Keep the exact local Mods test install until the uploaded Workshop package is verified"
+            throw "Keep the exact local Mods test install until Workshop upload completes"
         }
         Assert-OwnedInstall
         if ((Get-PackageDigest $installRoot) -ne $digest) {
@@ -175,28 +174,6 @@ switch ($Action) {
             Copy-Item -LiteralPath $file.Path -Destination $destination -Force
         }
         Write-Output "release-stage=ok version=$version digest=$digest path=$StageDir"
-    }
-    "Promote" {
-        if ([string]::IsNullOrWhiteSpace($WorkshopRoot)) { throw "-WorkshopRoot is required for Promote" }
-        $workshopInstall = Join-Path $WorkshopRoot $workshopItemId
-        if (-not (Test-Path -LiteralPath $workshopInstall -PathType Container)) {
-            throw "Workshop package is not installed: $workshopInstall"
-        }
-        $sourceDigest = Get-PackageDigest $root
-        try {
-            $workshopDigest = Get-PackageDigest $workshopInstall
-        } catch {
-            throw "Steam has not installed the complete uploaded Workshop package yet: $($_.Exception.Message)"
-        }
-        if ($sourceDigest -ne $workshopDigest) {
-            throw "Steam has not installed the uploaded Workshop package yet"
-        }
-        Assert-GameStopped
-        if (Test-Path -LiteralPath $installRoot) {
-            Assert-OwnedInstall
-            Remove-Item -LiteralPath $installRoot -Recurse -Force
-        }
-        Write-Output "workshop-promote=ok item=$workshopItemId digest=$sourceDigest"
     }
     "Status" {
         $receipt = Read-Receipt
