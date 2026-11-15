@@ -3,7 +3,7 @@
   <ID>probably-stolen-ko-localization</ID>
   <Name>Probably Translated</Name>
   <Author>Project Parr0t</Author>
-  <ModVersion>1.0.25</ModVersion>
+  <ModVersion>1.0.26</ModVersion>
   <Description>Korean localization overlays for supported Probably Stolen Workshop mods. Base-game localization is untouched.</Description>
   <GameVersions>
     <Version>0.46D</Version>
@@ -19,6 +19,8 @@
     <Mod>user.realtimeclock</Mod>
     <Mod>cs_weapon_case</Mod>
     <Mod>asteroid_in_game_mod_settings</Mod>
+    <Mod>eleanor_rescue</Mod>
+    <Mod>charles_chemistry_items</Mod>
   </Prerequisites>
   <Assemblies>
     <Assembly>ProbablyStolenKo.Localization.dll</Assembly>

@@ -329,20 +329,26 @@ Line ''
 foreach ($target in $targets) {
     foreach ($binding in $target.Bindings) {
         if ($binding.Kind -ne 'StaticPatch') { continue }
+        $usesConstructorAttribute = $binding.MethodName -eq '.cctor' -or $binding.MethodName -eq '.ctor'
         if ($binding.MethodName -eq '.cctor') {
             Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", null, MethodType.StaticConstructor)]')
         } elseif ($binding.MethodName -eq '.ctor') {
             Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", null, MethodType.Constructor)]')
         } else {
-            Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", "' + (Escape-CSharp $binding.MethodName) + '", MethodType.Normal)]')
+            Line '    [HarmonyPatch]'
         }
-        if ($binding.UseStaticSignature) {
+        if ($usesConstructorAttribute -and $binding.UseStaticSignature) {
             Line ('    [HarmonyPatch(new Type[] { ' + ($binding.Expressions -join ', ') + ' })]')
         }
         Line "    internal static class GeneratedManagedPatch_$($binding.Id)"
         Line '    {'
         Line '        [HarmonyPrepare]'
         Line "        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding($($binding.Id));"
+        if (-not $usesConstructorAttribute) {
+            $targetParameters = if ($binding.Expressions.Count -eq 0) { 'Type.EmptyTypes' } else { 'new Type[] { ' + ($binding.Expressions -join ', ') + ' }' }
+            Line '        [HarmonyTargetMethod]'
+            Line ('        internal static MethodBase TargetMethod() => ModReflect.Target("' + (Escape-CSharp $binding.TypeName) + '", "' + (Escape-CSharp $binding.MethodName) + '", ' + $targetParameters + ');')
+        }
         $mode = [string]$target.Routes[$binding.RouteIndex]['mode']
         if ($mode -eq 'literal' -or $mode -eq 'literal_occurrence') {
             Line '        [HarmonyTranspiler]'
