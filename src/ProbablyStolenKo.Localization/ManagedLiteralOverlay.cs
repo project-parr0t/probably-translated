@@ -213,6 +213,7 @@ namespace ProbablyStolenKo
         private readonly Dictionary<string, Harmony> _harmonies =
             new Dictionary<string, Harmony>(StringComparer.Ordinal);
         private readonly HashSet<string> _appliedTargets = new HashSet<string>(StringComparer.Ordinal);
+        private readonly HashSet<string> _attemptedTargets = new HashSet<string>(StringComparer.Ordinal);
         private readonly List<string> _appliedRefresh = new List<string>();
         private readonly ModLog _log;
 
@@ -223,7 +224,7 @@ namespace ProbablyStolenKo
 
         internal void ApplyTarget(string modId, ManagedTarget target)
         {
-            if (target == null || _appliedTargets.Contains(modId)) return;
+            if (target == null || _appliedTargets.Contains(modId) || !_attemptedTargets.Add(modId)) return;
             var bindings = GeneratedManagedBindings.Create(modId);
             if (target.Routes.Count != 0 && bindings.Count == 0)
                 throw new InvalidOperationException("No generated exact bindings exist for managed target " + modId + ".");
@@ -337,6 +338,7 @@ namespace ProbablyStolenKo
             _appliedRefresh.Clear();
             _harmonies.Clear();
             _appliedTargets.Clear();
+            _attemptedTargets.Clear();
         }
 
 

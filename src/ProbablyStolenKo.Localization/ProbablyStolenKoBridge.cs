@@ -25,6 +25,7 @@ namespace ProbablyStolenKo
         private ManifestOverlay _manifestOverlay;
         private ModLog _log;
         private bool _enabled;
+        private bool _activated;
         private bool _assetsSubscribed;
         private bool _croStateCaptured;
         private bool _croTranslationPackActive;
@@ -54,24 +55,26 @@ namespace ProbablyStolenKo
         private void OnModAssetsLoaded(LoadedMod loaded)
         {
             if (!_enabled) return;
-            ActivateWhenRegistered();
-            if (_workshopCatalog != null && IsUsable(loaded)) ApplyTarget(loaded);
+            var activatedNow = ActivateWhenRegistered();
+            if (!activatedNow && _activated && _workshopCatalog != null && IsUsable(loaded)) ApplyTarget(loaded);
         }
 
-        private void ActivateWhenRegistered()
+        private bool ActivateWhenRegistered()
         {
-            if (!IsRegistered()) return;
+            if (_activated || !IsRegistered()) return false;
             if (!_croStateCaptured)
             {
                 _croTranslationPackActive = IsCroTranslationPackActive();
                 _croStateCaptured = true;
             }
-            if (_workshopCatalog == null && !TryLoadCatalog()) return;
+            if (_workshopCatalog == null && !TryLoadCatalog()) return false;
             TryLoadManagedCatalog();
+            _activated = true;
             foreach (var loaded in ModLoader.Mods)
             {
                 if (IsUsable(loaded)) ApplyTarget(loaded);
             }
+            return true;
         }
 
         private bool IsRegistered()
@@ -178,6 +181,7 @@ namespace ProbablyStolenKo
 
         public void OnDisable()
         {
+            _activated = false;
             _enabled = false;
             if (_assetsSubscribed)
             {

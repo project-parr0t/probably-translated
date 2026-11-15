@@ -236,16 +236,18 @@ namespace ProbablyStolenKo
             if (!catalog.TryGetMod(loaded.Manifest.ID, out payload)) return new WorkshopApplyResult(0, 0);
             if (loaded.Localization == null) throw new InvalidOperationException("Target mod localization namespace is unavailable.");
 
+            var sourceKeys = new HashSet<string>(StringComparer.Ordinal);
+            foreach (var localeEntry in loaded.Localization)
+            {
+                if (StringComparer.Ordinal.Equals(localeEntry.Key, catalog.Locale) || localeEntry.Value == null) continue;
+                foreach (var key in localeEntry.Value.Keys) sourceKeys.Add(key);
+            }
+
             var staged = new List<KeyValuePair<string, string>>(payload.Entries.Count);
             var missingCount = 0;
             foreach (var translation in payload.Entries)
             {
-                var sourceExists = false;
-                foreach (var locale in loaded.Localization.Values)
-                {
-                    if (locale != null && locale.ContainsKey(translation.Key)) { sourceExists = true; break; }
-                }
-                if (sourceExists) staged.Add(translation);
+                if (sourceKeys.Contains(translation.Key)) staged.Add(translation);
                 else missingCount++;
             }
             if (staged.Count == 0) return new WorkshopApplyResult(0, missingCount);
@@ -267,6 +269,7 @@ namespace ProbablyStolenKo
                     var entryKey = new WorkshopEntryKey(loaded, korean, loaded.Manifest.ID, translation.Key);
                     string previous;
                     var existed = korean.TryGetValue(translation.Key, out previous);
+                    if (existed && StringComparer.Ordinal.Equals(previous, translation.Value)) continue;
                     if (!originals.ContainsKey(entryKey))
                     {
                         originals.Add(entryKey, new WorkshopOriginal(
@@ -289,7 +292,7 @@ namespace ProbablyStolenKo
                 if (localeCreated && korean.Count == 0) loaded.Localization.Remove(catalog.Locale);
                 throw;
             }
-            return new WorkshopApplyResult(staged.Count, missingCount);
+            return new WorkshopApplyResult(changed.Count, missingCount);
         }
 
         internal static void Restore(WorkshopPayloadCatalog catalog, IDictionary<WorkshopEntryKey, WorkshopOriginal> originals)
