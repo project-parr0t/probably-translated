@@ -30,7 +30,7 @@ namespace ProbablyStolenKo
     internal static class GeneratedManagedBindings
     {
         internal const string InventoryFingerprint = "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b";
-        internal const int RouteCount = 645;
+        internal const int RouteCount = 649;
         internal const int BindingCount = 203;
         internal const int StaticPatchBindingCount = 203;
         internal const int UnsupportedBindingCount = 0;
@@ -342,7 +342,7 @@ namespace ProbablyStolenKo
 
         private static void Add_13_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(203, 59, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_203), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(203, 63, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_203), "Postfix", false, null));
         }
     }
 

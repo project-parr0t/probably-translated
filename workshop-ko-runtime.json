@@ -20,7 +20,7 @@
     "brewing_expansion": {
       "workshop_item_id": "3829730904",
       "csv_path": "workshop-overlays/3829730904/Localization/ko.csv",
-      "entry_count": 551
+      "entry_count": 711
     },
     "disaster_day": {
       "workshop_item_id": "3829946713",
@@ -94,5 +94,5 @@
       "entry_count": 41
     }
   },
-  "entry_count": 10504
+  "entry_count": 10664
 }

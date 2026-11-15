@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "inventory_fingerprint": "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b",
-  "entry_count": 26809,
+  "entry_count": 26822,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",
@@ -17265,7 +17265,7 @@
     "va11halla": {
       "workshop_item_id": "3831732004",
       "assembly_name": "Va11HallA",
-      "entry_count": 54,
+      "entry_count": 55,
       "manifest": {
         "name": "VA-11 Hall-A Fan MOD",
         "description": "사이버펑크 바텐더 액션 《VA-11 Hall-A》 팬 모드입니다. 3×2 B.T.C 바텐딩 스테이션에서 5가지 재료와 얼음, 숙성, 셰이킹을 조합해 24종의 음료를 만들 수 있습니다. 음료는 보통 잔과 큰 잔으로 제공됩니다. 23명의 손님이 찾아오며, 질과 다나의 이야기가 날짜에 따라 진행됩니다. 바텐딩 튜토리얼과 대화 분기를 포함하며 B.T.C 레시피 책이 내장되어 있습니다. 게임 언어에 따라 중국어와 영어를 지원합니다. 소재와 캐릭터의 저작권은 Sukeban Games에 있습니다. 자세한 내용은 패키지의 README.md를 참조하세요."
@@ -17276,6 +17276,7 @@
           "method": ".cctor",
           "mode": "literal",
           "entries": {
+            "Dana": "다나",
             "Jill": "질"
           }
         },
@@ -17359,7 +17360,7 @@
     "DeepSpaceClinic_InventoryTest": {
       "workshop_item_id": "3832819040",
       "assembly_name": "Clinic.InventoryTest",
-      "entry_count": 3227,
+      "entry_count": 3239,
       "display_literal_overlay": true,
       "manifest": {
         "name": "Deep Space Clinic 2077",
@@ -17591,7 +17592,7 @@
             "Includes consumables. Costs one durability per completed operation. Clean it in the sterilizer.": "소모품이 포함되어 있습니다. 수술을 완료할 때마다 내구도가 1 감소합니다. 멸균기에서 멸균하세요.",
             "Place in preparation to supply surgical tools, disinfectant, drapes and dressings.": "준비 구역에 배치하면 수술 도구, 소독제, 수술포와 드레싱을 공급합니다.",
             "Universal Surgical Kit": "범용 수술 키트",
-            "含内置耗材，每次完成手术扣1耐久。可用消毒盒清洁。": "소모품이 내장되어 있으며, 수술을 마칠 때마다 내구도가 1씩 감소합니다. 멸균기으로 세척할 수 있습니다.",
+            "含内置耗材，每次完成手术扣1耐久。可用消毒盒清洁。": "소모품이 내장되어 있으며, 수술을 마칠 때마다 내구도가 1씩 감소합니다. 멸균기로 세척할 수 있습니다.",
             "放入准备区，可代替手术器械及碘伏、洞巾、纱布。": "준비 구역에 넣으면 수술 기구와 포비돈요오드 소독액, 수술포, 거즈를 대신할 수 있습니다."
           }
         },
@@ -18010,6 +18011,46 @@
             "器械选择不当": "부적절한 기구 선택",
             "本步使用了不合适的器械": "이 단계에서 부적절한 기구를 사용함",
             "植入所用器械不合适": "이식에 사용한 기구가 부적절함"
+          }
+        },
+        {
+          "type": "Clinic.InventoryTest.TestMod",
+          "method": "RefreshScannerDockButton",
+          "mode": "literal",
+          "entries": {
+            "Installed": "장착됨"
+          }
+        },
+        {
+          "type": "Clinic.InventoryTest.ClinicText",
+          "method": ".cctor",
+          "mode": "literal",
+          "entries": {
+            "\n\nDebridement reward: 100–120credits.": "\n\n변연절제 보수: 100–120크레딧.",
+            "Forceps": "포셉",
+            "Instrument contamination:": "기구 오염:",
+            "The supplies are on the left and the manual is on the right. \n Double click on the manual to see what to bring.": "물품은 왼쪽에, 매뉴얼은 오른쪽에 있습니다. \n 매뉴얼을 더블 클릭해 준비할 물품을 확인하세요.",
+            "When servicing the equipment, the buckle popped open and a cut was made on the hand. I wrapped it with a cloth, but it still kept bleeding.": "장비를 정비하다가 고정쇠가 튀어나와 손을 베였어요. 천으로 감쌌는데도 피가 계속 나요.",
+            "器械污染：": "기구 오염:"
+          }
+        },
+        {
+          "type": "Clinic.InventoryTest.ClinicIntake",
+          "method": "RestoreCompleted",
+          "mode": "literal",
+          "entries": {
+            "仅可恢复刚载入的诊疗结算。": "방금 불러온 진료 정산만 복원할 수 있습니다."
+          }
+        },
+        {
+          "type": "Clinic.InventoryTest.WoundCare",
+          "method": ".cctor",
+          "mode": "literal",
+          "entries": {
+            "佣兵": "용병",
+            "厨师": "요리사",
+            "巡警": "순찰 경찰관",
+            "护卫": "경호원"
           }
         },
         {

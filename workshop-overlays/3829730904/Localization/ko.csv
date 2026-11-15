@@ -549,3 +549,163 @@ be_outer_p160_flavor,우정은 장부 너머에도 살아 있다. 더 얹어 준
 be_outer_p180_flavor,"오랜 우정은 별들을 가로지른다. 손님은 씨앗을 가져오고, 좋은 술에는 크레딧을 남긴다."
 be_outer_p200_flavor,외곽 구역의 손님들이 불빛을 따라 씨앗과 한껏 높아진 신뢰를 안고 찾아온다.
 be_pulp_quality_sum,과육 품질 합계: {0}점
+be_brewing_hydroponic_guide_name,양조 수경 재배 안내서
+be_brewing_hydroponic_guide_description,"사십칠이 정리한 양조 작물 안내서입니다. 두 번 클릭해 수경 재배 수확, 과일 품질과 종자 회수 규칙을 확인하세요."
+be_seed_manufacturer_name,xuxu 외곽 구역 회사
+be_top_cert_name,최고급 양조 증서
+be_top_cert_description,"보유 중이면 씨앗 부화기가 밤마다 씨앗을 최대 24개 처리하며, 여기서 나오는 모드 과실과 블룸베리는 항상 품질 점수 2가 됩니다. 사십칠은 보정 전 씨앗 16개를 가져오며 고급 증서의 희귀도 보정을 그대로 적용합니다. 처음 받으면 잔광 씨앗의 선천적인 불임이 영구적으로 사라집니다. 진열하지 않고 보관함에 넣어 두어도 효과가 적용됩니다."
+be_brewer_start_equipment,"완전히 충전된 100 kJ 일반 배터리가 든 씨앗 부화기 1대, 낡은 수경 재배 시스템 1대, 수경 재배 영양 정제 4개, 양조 안내서 1권, 양조 수경 재배 안내서 1권"
+be_small_fruit_name,미니 {0}
+be_hydroponic_small_fruit_description,판매하거나 사료로 사용할 수 있습니다.
+be_hydroponic_fertile,"여러해살이가 아닌 식물은 수확할 때마다 기본적으로 씨앗 1개를 돌려줍니다. 번식력은 등급에 따라 씨앗 수확량을 늘리며 별도의 상한은 없습니다. 자손은 부모의 유전자 등급을 물려받고 열기는 0에서 시작합니다."
+be_hydroponic_locked_basic,수경 재배 작물입니다. 초급 양조 증서를 획득하면 불임이 해제됩니다.
+be_hydroponic_locked_mid,수경 재배 작물입니다. 중급 양조 증서를 획득하면 불임이 해제됩니다.
+be_nini_cellar_deliver,류년 술 진열장 납품
+be_nini_cellar_cancel,취소
+be_nini_cellar_confirm,"「{0}」과 안에 든 물품을 모두 니니에게 건네겠습니까? 납품하면 양조 씨앗의 여러해살이 유전자 개조가 해금됩니다."
+be_hydroponic_perennial_locked,최고급 양조 증서를 받은 뒤 여덟 장의 양조 조합법에 기록된 술을 한 병씩 류년 술 진열장 하나에 넣어 니니의 거래 화면에서 진열장째 납품하세요.
+be_hydroponic_locked_high,수경 재배 작물입니다. 고급 양조 증서를 획득하면 불임이 해제됩니다.
+be_hydroponic_locked_top,수경 재배 작물입니다. 최고급 양조 증서를 획득하면 불임이 해제됩니다.
+be_certificate_status_title,양조 증서
+be_certificate_status_none,수령: 없음
+be_certificate_status_earned,수령한 최고 등급: {0}
+be_certificate_status_next,다음 증서: {0} · {1:N0} / {2:N0}
+be_certificate_status_remaining,남은 기본 가치: {0:N0}
+be_certificate_status_pending,목표를 달성했습니다. 니니가 다음에 방문할 때 지급할 수 있도록 카운터에 자리를 비워 두세요.
+be_certificate_status_complete,모든 증서를 받았습니다.
+be_certificate_status_rule,일반 손님에게 판매한 술도 기본 가치만큼 집계됩니다.
+be_hydro_guide_title_1,심기와 성장
+be_hydro_guide_title_2,건강과 과실 크기
+be_hydro_guide_title_3,건강과 품질
+be_wine_quality_cloud_jade,운액옥수
+be_hydro_guide_title_4,증서와 씨앗 회수
+be_hydro_guide_setup,재배 준비
+be_hydro_guide_setup_note,수경 재배 시스템에 씨앗과 배터리와 배합한 물을 넣으세요.
+be_hydro_guide_growth,기본 성장과 수확량
+be_hydro_guide_work,작업량
+be_hydro_guide_yield,수확량
+be_hydro_guide_minerals,미네랄
+be_hydro_guide_tier_0,필멸
+be_hydro_guide_tier_1,먼 곳
+be_hydro_guide_tier_2,그리움
+be_hydro_guide_tier_3,잔광
+be_hydro_guide_modules,다수확 유전자와 품질 모듈은 수확량을 늘립니다. 성능은 성장을 앞당기고 효율은 전력 소비를 줄입니다.
+be_hydro_guide_fruit_0,미니 과실
+be_hydro_guide_fruit_1,일반 과실
+be_hydro_guide_fruit_2,거대 과실
+be_hydro_guide_sizes,수확 시 건강 · 미니 과실 비율
+be_hydro_guide_mini_note,미니 과실 수는 내림하고 나머지는 일반 과실이 됩니다. 미니 과실은 판매하거나 사료로 사용할 수 있습니다.
+be_hydro_guide_giants,거대 과실
+be_hydro_guide_giant_note,건강이 96–99%면 확률이 20%이고 100%면 40%입니다. 수확할 때마다 최대 1개가 나오며 수확량 1회분을 차지합니다.
+be_hydro_guide_health,식물 분석기
+be_hydro_guide_health_note,성장 점수는 현재 건강을 나타냅니다. 미네랄이 너무 적거나 많고 유해 오염 물질이 있으면 건강이 낮아집니다.
+be_hydro_guide_points,수확 시 건강 · 과실 품질 점수별 확률
+be_hydro_guide_pulp_note,일반 과실과 거대 과실은 하나마다 품질 점수를 따로 정합니다. 거대 과실 1개로 과실 품질 점수의 4배가 유지되는 과육 1회분을 만듭니다.
+be_hydro_guide_certificates,선천적 불임 해제
+be_hydro_guide_cert_0,초급
+be_hydro_guide_cert_1,중급
+be_hydro_guide_cert_2,고급
+be_hydro_guide_cert_3,최고급
+be_hydro_guide_return_note,불임이 해제되면 여러해살이가 아닌 식물은 기본적으로 씨앗 1개를 돌려줍니다. 번식력이 수량을 늘립니다. 자손은 유전자를 물려받고 열기는 초기화됩니다.
+be_hydro_guide_perennial,여러해살이 유전자 해금
+be_hydro_guide_perennial_note,최고급 증서를 받은 뒤 모든 조합법 술이 담긴 류년 술 진열장을 니니에게 납품하세요. 여러해살이 식물은 다시 열매를 맺으며 수확할 때는 과실만 나옵니다.
+be_manual_quality_rules,"6점: 경장옥액(+75%). 7점 이상: 운액옥수(+100%).\n2점 과실 두 개로 4점을 얻습니다. 과실 두 개 보너스로 1점이 더해져 5점이 됩니다. 효모와 좋은 물이 각각 1점을 더해 총 7점이 됩니다. 조합법 술과 블룸베리 와인에도 적용됩니다."
+be_manual_collection,조합법 수집 {0}/{1}
+be_hydro_guide_cloud_jade,2점 과실 두 개로 7점짜리 운액옥수 술(+100%)을 빚을 수 있습니다. 자세한 방법은 양조 안내서를 참조하세요.
+be_manual_flow_title,양조 과정
+be_manual_flow_1,밤에 양조 상점으로 가서 양조장 간판을 구입하세요. 영업을 시작하기 전에 진열장에 놓으세요. 사십칠에게 씨앗과 조합법을 구입할 수 있습니다. 양조 안내서를 보유한 상태에서 조합법을 구입하면 해당 내용이 해금됩니다.
+be_manual_flow_2,씨앗 부화기에서 밤새 과실을 기르거나 수경 재배를 이용하세요. 수질과 수확 규칙은 양조 수경 재배 안내서를 참조하세요.
+be_manual_flow_3,빈 술병에 과실 두 개와 효모와 물 750 mL를 넣어 발효하세요. 과실을 과육으로 압착하면 양조통에서 한꺼번에 양조할 수 있습니다. 나중에는 전송 케이블로 생산을 자동화할 수 있습니다.
+be_manual_flow_4,NPC에게 판매한 완성주는 모두 기본 가치만큼 증서 진행도에 집계됩니다. 니니의 명함을 구입하고 전화해 방문을 예약하세요. 니니는 주류와 담배를 살 예산이 더 많으며 목표를 달성한 증서는 방문할 때 지급합니다. 진행도는 달력의 상태 탭에서 확인하세요.
+be_button_accept,의뢰 수락
+be_commission_available,수락 가능 · 수락 후 {0}일
+be_commission_commissioner,의뢰인: {0}
+be_commission_credit_reward,보상: 실제 제출 가치 + {0} 크레딧
+be_commission_min_wine_score,술 품질 {0}점 이상({1})
+be_commission_pending_seeds,수령 대기 중인 씨앗: {0}
+be_commission_progress_wine,{0} {1}/{2}병{3}
+be_commission_remaining,남은 기간: {0}일
+be_commission_seed_reward,외곽 구역 평판 +5; 무작위 씨앗: {0}
+be_commission_submitted_value,제출한 실제 가치: {0}
+be_commission_wine_requirement,{0} 술
+be_delivery_back,돌아가기
+be_delivery_changed,재고나 의뢰가 변경되었습니다. 다시 선택하세요.
+be_delivery_confirm,{0}개 제출 확인
+be_delivery_details,"{0} · 예상 가치 {1} 크레딧\n{2}"
+be_delivery_empty,이 조건에 맞는 재고가 없습니다.
+be_delivery_help,납품할 물품을 선택하세요. 확인해야 재고에서 빠집니다.
+be_delivery_location_back,뒤쪽 카운터
+be_delivery_location_counter,카운터
+be_delivery_location_display,진열장
+be_delivery_location_hidden,비밀 공간
+be_delivery_location_other,기타 재고
+be_delivery_location_storage,창고
+be_delivery_partial,{0}개를 제출했습니다. 남은 물품을 다시 선택하세요.
+be_delivery_slot,{0} · {1}열 {2}행
+be_delivery_title,제출할 물품 선택
+be_delivery_unit,{0}({1}/{2}개째)
+be_empty_available,오늘 의뢰를 모두 수락했습니다. 내일 다시 확인하세요.
+be_empty_pending,진행 중인 의뢰가 없습니다.
+be_order_alternative,두 선택지 중 하나만 완료하면 됩니다. 처음 제출한 선택지로 고정되며 두 선택지의 물품을 섞어 낼 수 없습니다.
+be_order_face_0,일반 의뢰
+be_order_face_1,희귀 의뢰
+be_order_face_2,진귀한 의뢰
+be_order_incomplete,보상을 요청하기 전에 이 의뢰를 완료하세요.
+be_order_person_0,고물상
+be_order_person_1,상층 구역 주민
+be_order_person_2,우주 여행자
+be_order_person_3,노숙 여행자
+be_order_person_4,동종업자
+be_order_person_5,관광객
+be_order_reason_0,곧 고철 처리장 야간 근무에 들어가. 일이 끝나면 동료들과 나눠 마실 술 몇 병을 마련해 줘.
+be_order_reason_1,작은 모임을 열려고 합니다. 손님들 취향이 제각각이니 목록대로 가져다주세요.
+be_order_reason_2,다음 우주선이 곧 출항해. 긴 항해에 가져갈 외곽 구역의 맛을 좀 구하고 싶군.
+be_order_reason_3,또 잠자리를 옮겨야 해. 길이 추우니 천천히 쓸 물건을 몇 개 마련해 줘.
+be_order_reason_4,물건이 부족한데 단골들이 기다리고 있어. 목록대로 채워 줘. 좋은 거래가 되길 바라.
+be_order_reason_5,솜씨가 좋다는 이야기를 들었어요! 떠나기 전에 여행길에서 만난 친구들에게 줄 선물을 좀 사고 싶어요.
+be_order_reputation_block,외곽 구역 평판이 -80 이하면 새 의뢰를 받을 수 없습니다. 이미 받은 의뢰는 계속 납품하고 보상을 받을 수 있습니다.
+be_order_terminal_02,외곽 구역 의뢰 단말기
+be_order_window_02,일반
+be_order_window_03,희귀
+be_order_window_04,진귀
+be_order_window_09,완료 · 보상 수령 클릭
+be_order_window_12,정산 완료 · 보상 물품 수령 대기
+be_order_window_13,정산 완료
+be_order_window_14,기한 만료 · 제출한 물품은 반환되지 않음
+be_order_window_15,의뢰 상세 정보
+be_order_window_25,. 카운터에 자리를 비운 뒤 다시 수령하세요.
+be_order_window_30,수락한 의뢰를 선택하고 재고에서 완성된 술을 골라 납품하세요. 완료 후 의뢰 단말기에서 크레딧과 평판을 받고 씨앗은 카운터에서 받습니다. 놓을 자리가 없는 씨앗은 나중에 받을 수 있습니다. 완료한 의뢰는 기한이 지나면 자동으로 정산됩니다. 완료하지 못한 의뢰에 제출한 술은 기한이 지나면 반환되지 않지만 평판이 차감되지는 않습니다.
+be_order_window_art_03,수락 가능
+be_order_window_art_04,진행 중
+be_order_window_art_05,수락
+be_order_window_art_06,재고에서 제출
+be_order_window_art_08,물품 수령
+be_order_window_art_09,보상 수령
+be_order_window_art_10,이 의뢰를 선택했습니다. 제출한 물품은 이 의뢰에 전달됩니다.
+be_order_window_art_11,의뢰를 완료했습니다. 보상을 수령하면 물품이 카운터로 전달됩니다.
+be_order_window_art_12,카운터에 자리를 비운 뒤 남은 물품을 수령하세요.
+be_order_window_art_13,얼굴을 클릭해 의뢰 내용을 확인하세요.
+be_order_window_art_14,진행 중인 의뢰가 5개입니다. 새 의뢰를 받으려면 하나를 완료하세요.
+be_order_window_art_15,외곽 구역 평판이 -80 이하라 새 의뢰를 받을 수 없습니다.
+be_tab_available,수락 가능한 의뢰
+be_tab_pending,진행 중인 의뢰
+be_tier_0,필멸
+be_tier_1,먼 곳
+be_tier_2,그리움
+be_tier_3,잔광
+be_tier_min_1,먼 곳 이상
+be_tier_min_2,그리움 이상
+be_music_cassette_7a93cb8719305ea0_name,산바람이 증명하리
+be_music_cassette_7a93cb8719305ea0_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
+be_music_cassette_21db8823e50ae889_name,저녁 바람의 노래
+be_music_cassette_21db8823e50ae889_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
+be_music_cassette_e7ac3f1a6f4a9e01_name,창가의 네온비
+be_music_cassette_e7ac3f1a6f4a9e01_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
+be_music_cassette_5df0e489eaba8042_name,달콤한 적
+be_music_cassette_5df0e489eaba8042_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
+be_music_cassette_632070af08377956_name,암류
+be_music_cassette_632070af08377956_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
+be_music_cassette_a3b9805a7a709a28_name,밤의 사랑
+be_music_cassette_a3b9805a7a709a28_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
+be_music_cassette_c42b00acf22a1239_name,밤비의 노래
+be_music_cassette_c42b00acf22a1239_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
