@@ -62,7 +62,7 @@ The tracked root DLL is the immutable released artifact and its digest is enforc
 
 ## Required local test gate
 
-Every release must install the exact distributable package from the repository root into `Mods/ProbablyTranslated-Test` before Workshop staging. Close the game before `Install` or `Remove`. The gate never modifies game assemblies or Workshop content.
+Every release must install the exact distributable package from the repository root into `Mods/ProbablyTranslated-Test` before Workshop staging. Close the game before `Install` or `Promote`. The gate never modifies game assemblies or Workshop content directly.
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
@@ -70,20 +70,22 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
   -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
 ```
 
-The gate never launches the game. Confirm the installed package is exact, then remove it before staging so it cannot shadow the Workshop release:
+The gate never launches the game. Keep the exact local test package installed while staging and uploading. After Steam installs the uploaded Workshop manifest, use `Promote` to verify that its complete package digest matches the repository and only then remove the local test copy:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
-  -Action Remove `
-  -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
   -Action Stage `
   -GameRoot "path/to/Steam/steamapps/common/Probably Stolen" `
   -WorkshopRoot "path/to/Steam/steamapps/workshop/content/4348910" `
   -StageDir "path/to/Workshop/staging/content"
+# Upload the staged directory through SteamCMD, then wait for Steam to install it.
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
+  -Action Promote `
+  -GameRoot "path/to/Steam/steamapps/common/Probably Stolen" `
+  -WorkshopRoot "path/to/Steam/steamapps/workshop/content/4348910"
 ```
 
-`Stage` first requires exact installed Workshop coverage with no missing source keys, then rejects a package that changed after the local Mods test install or a still-installed local test copy. Rebuild or translation changes invalidate the receipt and require a new install cycle.
+`Stage` requires the exact local Mods test copy to remain installed and rejects packages changed after installation. `Promote` refuses to remove that copy until Steam's installed Workshop package matches the repository byte-for-byte. Rebuild or translation changes invalidate the receipt and require a new install cycle.
 
 ## Regenerate managed route bindings
 
