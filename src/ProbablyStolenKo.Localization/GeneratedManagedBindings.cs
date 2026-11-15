@@ -30,9 +30,9 @@ namespace ProbablyStolenKo
     internal static class GeneratedManagedBindings
     {
         internal const string InventoryFingerprint = "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b";
-        internal const int RouteCount = 649;
-        internal const int BindingCount = 203;
-        internal const int StaticPatchBindingCount = 203;
+        internal const int RouteCount = 654;
+        internal const int BindingCount = 222;
+        internal const int StaticPatchBindingCount = 222;
         internal const int UnsupportedBindingCount = 0;
         internal const int RefreshBindingCount = 6;
         internal static IReadOnlyList<ManagedExactBinding> Create(string modId)
@@ -342,7 +342,26 @@ namespace ProbablyStolenKo
 
         private static void Add_13_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(203, 63, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_203), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(203, 6, "Clinic.InventoryTest.TestMod+<>c", "<OpenClinicPrimer>b__577_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_203), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(204, 7, "Clinic.InventoryTest.TestMod+<>c", "<OpenForgeBook>b__351_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_204), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(205, 8, "Clinic.InventoryTest.TestMod+<>c", "<OpenPracticeGuide>b__575_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_205), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(206, 63, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_206), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(207, 109, "Clinic.InventoryTest.TestMod", "AddPollutionTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_207), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(208, 120, "Clinic.InventoryTest.TestMod", "AssessProcedure", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_208), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(209, 135, "Clinic.InventoryTest.TestMod", "ConfigureToolPresentation", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_209), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(210, 173, "Clinic.InventoryTest.TestMod", "DrawAnesthesiaHandbook", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) }, typeof(GeneratedManagedPatch_210), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(211, 177, "Clinic.InventoryTest.TestMod", "DrawHandbookMaterials", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) }, typeof(GeneratedManagedPatch_211), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(212, 178, "Clinic.InventoryTest.TestMod", "DrawHandbookStepRows", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Collections.Generic.List`1<System.ValueTuple`3<System.String,System.String,System.String>>, System.Int32, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }) }), typeof(global::System.Int32), typeof(global::System.String) }, typeof(GeneratedManagedPatch_212), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(213, 181, "Clinic.InventoryTest.TestMod", "DrawScannerMeter", "UnityEngine.RectTransform, System.String, System.Nullable`1<System.Int32>, System.Single, System.Single, UnityEngine.Color, System.Nullable`1<System.Double>", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.String), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Single), typeof(global::System.Single), typeof(global::UnityEngine.Color), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Double) }) }, typeof(GeneratedManagedPatch_213), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(214, 184, "Clinic.InventoryTest.TestMod", "DrawTitanManual", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_214), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(215, 198, "Clinic.InventoryTest.TestMod", "HandbookOperationSteps", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_215), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(216, 230, "Clinic.InventoryTest.TestMod", "RefreshBrainDecoder", "GameItem, Clinic.InventoryTest.TestMod+BrainDecoderState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") }, typeof(GeneratedManagedPatch_216), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(217, 233, "Clinic.InventoryTest.TestMod", "RefreshForgeMachine", "GameItem, Clinic.InventoryTest.TestMod+ForgeMachineState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+ForgeMachineState") }, typeof(GeneratedManagedPatch_217), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(218, 244, "Clinic.InventoryTest.TestMod", "RenderClinicRoom", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_218), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(219, 247, "Clinic.InventoryTest.TestMod", "RenderMedicalScanner", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_219), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(220, 276, "Clinic.InventoryTest.TestMod", "ToolDescription", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_220), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(221, 289, "Clinic.InventoryTest.ViktorShopCatalog", "Build", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_221), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(222, 295, "Clinic.InventoryTest.TestMod", "DrawScannerBody", "UnityEngine.RectTransform, System.Boolean", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_222), "Transpiler", false, null));
         }
     }
 
@@ -887,6 +906,7 @@ namespace ProbablyStolenKo
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 54);
     }
     [HarmonyPatch("SmartInventoryArrange.UnifiedSettingsGui", null, MethodType.Constructor)]
+    [HarmonyPatch(new Type[] { typeof(global::ModConfig) })]
     internal static class GeneratedManagedPatch_55
     {
         [HarmonyPrepare]
@@ -2356,9 +2376,199 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(203);
         [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenClinicPrimer>b__577_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 203);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_204
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(204);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenForgeBook>b__351_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 204);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_205
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(205);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenPracticeGuide>b__575_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 205);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_206
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(206);
+        [HarmonyTargetMethod]
         internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicText", "T", new Type[] { typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 203);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 206);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_207
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(207);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AddPollutionTooltip", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 207);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_208
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(208);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AssessProcedure", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 208);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_209
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(209);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureToolPresentation", new Type[] { typeof(global::GameItem) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 209);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_210
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(210);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawAnesthesiaHandbook", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 210);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_211
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(211);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawHandbookMaterials", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 211);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_212
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(212);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawHandbookStepRows", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }) }), typeof(global::System.Int32), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 212);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_213
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(213);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerMeter", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.String), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Single), typeof(global::System.Single), typeof(global::UnityEngine.Color), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Double) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 213);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_214
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(214);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawTitanManual", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 214);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_215
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(215);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "HandbookOperationSteps", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 215);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_216
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(216);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshBrainDecoder", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 216);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_217
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(217);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshForgeMachine", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+ForgeMachineState") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 217);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_218
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(218);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderClinicRoom", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 218);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_219
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(219);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderMedicalScanner", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 219);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_220
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(220);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ToolDescription", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 220);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_221
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(221);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ViktorShopCatalog", "Build", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 221);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_222
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(222);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerBody", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 222);
     }
 
     internal static class GeneratedManagedRefresh

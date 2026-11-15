@@ -22,6 +22,7 @@ namespace ProbablyStolenKo
         private WorkshopPayloadCatalog _workshopCatalog;
         private ManagedLiteralCatalog _managedCatalog;
         private ManagedLiteralOverlay _managedOverlay;
+        private ManagedPatchLoadingOverlay _patchLoadingOverlay;
         private ManifestOverlay _manifestOverlay;
         private Va11RecipeOverlay _va11RecipeOverlay;
         private ModLog _log;
@@ -46,6 +47,7 @@ namespace ProbablyStolenKo
         {
             if (_enabled) return;
             _enabled = true;
+            _patchLoadingOverlay = ManagedPatchLoadingOverlay.Create(_managedOverlay, _manifest.ID, _log);
             if (!_assetsSubscribed)
             {
                 ModHook.OnModAssetsLoaded += OnModAssetsLoaded;
@@ -76,6 +78,7 @@ namespace ProbablyStolenKo
             {
                 if (IsUsable(loaded)) ApplyTarget(loaded);
             }
+            _patchLoadingOverlay?.AllowCompletion();
             return true;
         }
 
@@ -152,11 +155,15 @@ namespace ProbablyStolenKo
                     _log.Error("Target overlay failed for " + loaded.Manifest.ID + ". " + error.GetType().Name);
                 }
             }
-            if (workshopPayload != null && workshopPayload.ManifestName != null)
+            if (workshopPayload != null &&
+                (workshopPayload.ManifestName != null || workshopPayload.ManifestDescription != null))
             {
                 try
                 {
-                    _manifestOverlay.Apply(loaded.Manifest, workshopPayload.ManifestName, null);
+                    _manifestOverlay.Apply(
+                        loaded.Manifest,
+                        workshopPayload.ManifestName,
+                        workshopPayload.ManifestDescription);
                 }
                 catch (Exception error)
                 {
@@ -197,7 +204,7 @@ namespace ProbablyStolenKo
             if (_managedCatalog == null || !_managedCatalog.Targets.TryGetValue(loaded.Manifest.ID, out managedTarget)) return;
             try
             {
-                _managedOverlay.ApplyTarget(loaded.Manifest.ID, managedTarget);
+                _managedOverlay.QueueTarget(loaded.Manifest.ID, managedTarget);
             }
             catch (Exception error)
             {
@@ -216,6 +223,8 @@ namespace ProbablyStolenKo
                 ModHook.OnModAssetsLoaded -= OnModAssetsLoaded;
                 _assetsSubscribed = false;
             }
+            _patchLoadingOverlay?.Dispose();
+            _patchLoadingOverlay = null;
             _managedOverlay?.Restore();
             _va11RecipeOverlay?.Restore();
             _manifestOverlay?.Restore();

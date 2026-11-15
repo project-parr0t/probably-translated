@@ -214,11 +214,13 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
             $route = $routes[$routeIndex]
             $mode = [string]$route['mode']
             if ($displayLiteralOverlay -and ($mode -eq 'literal' -or $mode -eq 'literal_occurrence')) {
-                $requiresExactPatch = $false
-                foreach ($entry in $route['entries'].Keys) {
-                    if ($displayConflicts.Contains((Literal-Source $mode ([string]$entry)))) {
-                        $requiresExactPatch = $true
-                        break
+                $requiresExactPatch = [bool]$route['force_exact_patch']
+                if (-not $requiresExactPatch) {
+                    foreach ($entry in $route['entries'].Keys) {
+                        if ($displayConflicts.Contains((Literal-Source $mode ([string]$entry)))) {
+                            $requiresExactPatch = $true
+                            break
+                        }
                     }
                 }
                 if (-not $requiresExactPatch) { continue }
@@ -257,12 +259,12 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
                         $kind = 'StaticPatch'
                         $staticPatchCount++
                     } elseif ($method.Name -eq '.ctor') {
-                        if ($sameNameCount -eq 1 -or $staticSignature) {
+                        if ($method.Parameters.Count -eq 0 -or $staticSignature) {
                             $kind = 'StaticPatch'
                             $staticPatchCount++
                         } else {
                             $kind = 'Unsupported'
-                            $issue = 'Harmony constructor patch cannot select an overloaded external signature'
+                            $issue = 'Harmony constructor patch requires statically representable parameter types'
                             $unsupportedCount++
                         }
                     } elseif ($sameNameCount -eq 1 -or $completeSignature) {
@@ -277,7 +279,9 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
                         Id = $bindingId; RouteIndex = $routeIndex; TypeName = $typeName; MethodName = [string]$method.Name
                         Kind = $kind; Expressions = @($expressions); Signature = $parameterNames; Issue = $issue
                         UnqualifiedTarget = $unqualifiedTarget
-                        UseStaticSignature = $kind -eq 'StaticPatch' -and $sameNameCount -ne 1 -and $method.Name -ne '.cctor'
+                        UseStaticSignature = $kind -eq 'StaticPatch' -and $method.Name -ne '.cctor' -and
+                            (($method.Name -eq '.ctor' -and $method.Parameters.Count -ne 0) -or
+                             ($method.Name -ne '.ctor' -and $sameNameCount -ne 1))
                     })
                 }
             }

@@ -1,21 +1,22 @@
 {
   "artifacts": {
-    "ProbablyStolenKo.Localization.dll": "65f202e3f6c323d1d6aed7591fbd8c17fb01f5ad933e6e44175c2099c338d850",
-    "managed-ko-runtime.json": "44abadd7b60b932c5dac89f5c38c504a80efa8710da22b13accefc7ba7f09010",
+    "ProbablyStolenKo.Localization.dll": "c08507d967975f953f92de936606a2f01f5386028c299162879db38b5d02b6c6",
+    "managed-ko-runtime.json": "9e1927760b60825cf7fbbf5fce24a444d86635fb8804ea82b603c094a52d51ac",
     "manifest.xml": "c04263933c625b6c4b65b86bfbd4a78aef17efe83fa6a70775fa2232f7862aac",
     "parr0t-release-checkpoint.json": "3ccb0d7fadbe737e71c0908713d65d0ba4c69d8b56e5b5ac04ad618e82483c8e",
-    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "4cd240d2e3af6f792c05b7653535c3fc6eaa5ed2d1e7e4a95f7c696adc4c2740",
-    "workshop-ko-runtime.json": "e571ac328ae428c0d21f341ab5138af4770720b6c40c6ca5993ccb14f021b8b7"
+    "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
+    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "2ac8d31d5b6fc21d7c1f99863e06459a2bd0805593774136639425a21df0edef",
+    "workshop-ko-runtime.json": "eddd02d7cfa392cfc0e8a5ca848677a6a315482aeb8442197df202cd9f16b863"
   },
   "contracts": {
-    "generated_bindings": 203,
+    "generated_bindings": 222,
     "generated_refresh": 6,
-    "generated_routes": 649,
-    "generated_static_patches": 203,
+    "generated_routes": 654,
+    "generated_static_patches": 222,
     "generated_unsupported": 0,
-    "managed_entries": 26822,
-    "managed_targets": 28,
-    "workshop_entries": 10664,
+    "managed_entries": 26883,
+    "managed_targets": 29,
+    "workshop_entries": 11034,
     "workshop_mods": 17
   },
   "dependencies": {
@@ -37,13 +38,17 @@
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
+    "loading-ui": {
+      "files": 2,
+      "sha256": "15bc36ad8c1baef7dbc8a2035be48bd9e3919a2c2b4322eb110b0eeecb2a4183"
+    },
     "va11-recipes": {
       "files": 29,
-      "sha256": "c48e17e72278eb15f9e8598314c3bb497e733465fa4adc4b8450da1dd380b18b"
+      "sha256": "6f12b7545d9916b55602cabe8fd3edf79a998c7c83f2f83045e4c616f6fffc58"
     },
     "workshop-overlays": {
       "files": 17,
-      "sha256": "a7c01604b934c6f7acfbae104ef96f9f0b18bbb29d0b12f0e5ff839f388ac409"
+      "sha256": "2bdf5d99699f882e9f7d28a61d949fe9f63b029ba00993c5b60680edc09fde03"
     }
   }
 }

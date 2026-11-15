@@ -3,7 +3,7 @@ sys_probe_format,플레이스홀더 확인: {0} / {1}
 ui_station_btn_recipes,레시피
 ui_station_btn_serve,서빙
 ui_station_btn_redo,다시 하기
-ui_station_btn_mix,셰이킹
+ui_station_btn_mix,혼합
 ui_station_btn_stop,멈추기
 client_size_big,큰 잔
 ui_cup_big,(큰 잔)
@@ -133,7 +133,7 @@ client_alma_order,{size} {drink} 한 잔 줘. | 솜씨 좀 볼까.
 client_alma_correct,"좋아, 인증서를 돈 주고 산 건 아닌가 보네. | 컨설턴트란 작자들을 많이 봤지. 자격증은 한 무더기인데 실력은 하나도 없어. | 넌 다르네. 그걸로 충분해."
 client_alma_wrong,"잠깐, 이건 주문한 게 아닌데. | 나 진지하게 만들 생각이야?"
 client_alma_checkout,돈 받아. | 평소 있던 곳보다 조용하네.
-client_sei_name,세이 P. 아사가리
+client_sei_name,세이 피 아사가리
 client_sei_arrival,"실례합니다. | 순찰 중에 모퉁이를 돌았더니 여기로 왔습니다. | 여긴 절대 글리치 시티가 아닙니다. 그 도시의 거리라면 전부 알고 있으니까요. | 먼저 확인하겠습니다. 불법 업소는 아니죠? | 죄송합니다, 직업병입니다."
 client_sei_order,{size} {drink} 한 잔 부탁드립니다. | 인증을 받은 분이니 믿고 맡기겠습니다.
 client_sei_correct,"감사합니다. | 저는…… 화이트 나이트 소속입니다. | (화이트 나이트: VA-11 Hall-A 원작에서 글리치 시티의 치안을 유지하는 무장 조직.) | 도움이 필요한 사람을 보면 그냥 지나치기가 어렵습니다. | 하지만 어떤 때는 아무것도 할 수 없다는 걸 배웠습니다...... | 그것도 어쩔 수 없는 일이겠지요. | 저는 달고 무알코올인 음료를 좋아하는데, 오늘 주문은 딱 좋네요."
@@ -142,7 +142,7 @@ client_sei_checkout,돈은 여기 있습니다. | 근무가 끝난 뒤 이런 �
 client_kim_name,킴벌리 “킴” 라 발레트
 client_kim_arrival,"……여긴 뭐지? | 방금까지 기사를 쓰고 있었는데 고개를 드니 여기네. | 뭐, 알아보는 사람이 없을 테니 잘됐어."
 client_kim_order,"{size} {drink} 한 잔 줘. | 뭐든 괜찮아, 오늘은 고를 기분이 아니야."
-client_kim_correct,"좋아, 적어도 이 잔은 날 속이지 않았네. | 난 《The Augmented Eye》에서 취재해. | (The Augmented Eye: VA-11 Hall-A 원작에 등장하는 신문사.) | 동료들은 B․T․C가 다 사기라던데, 꼭 그렇지만도 않군."
+client_kim_correct,"좋아, 적어도 이 잔은 날 속이지 않았네. | 난 《증강의 눈》에서 취재해. | (증강의 눈: VA-11 Hall-A 원작에 등장하는 신문사.) | 동료들은 B․T․C가 다 사기라던데, 꼭 그렇지만도 않군."
 client_kim_wrong,내가 주문한 게 아니야. | 부탁이니 다시 만들어 줘. 바빠.
 client_kim_checkout,돈은 여기 둘게. | 동료들한테 내가 왔다고 말하지 마. | 이유도 묻지 말고—그냥 거래라고 생각해.
 client_kira_miki_name,*키라*미키
@@ -166,7 +166,7 @@ client_art_checkout,돈은 여기 있어. 한 푼도 더는 없어. | 배웅은 
 client_betty_name,비아트리스 “베티” 앨버트
 client_betty_arrival,"여기가 그 '한번 볼 만하다'는 곳인가? | 전당포에 술집, 그 외에도 뭐가 있나? | 솔직히 글리치 시티보다 깨끗할지도 모르겠군."
 client_betty_order,{size} {drink} 한 잔 줘. | 물 탄 술은 내놓지 마.
-client_betty_correct,"좋아, 이 건물 절반보다 낫군. | 난 수의사야. Seifar의 코기들은 전부 내 담당이지. | (Seifar: VA-11 Hall-A 원작에 등장하는 코기들이 운영하는 장난감 회사.) | 그러니 '처리하기 곤란한' 게 생기면 나랑 얘기해도 돼."
+client_betty_correct,"좋아, 이 건물 절반보다 낫군. | 난 수의사야. 세이파르의 코기들은 전부 내 담당이지. | (세이파르: VA-11 Hall-A 원작에 등장하는 코기들이 운영하는 장난감 회사.) | 그러니 '처리하기 곤란한' 게 생기면 나랑 얘기해도 돼."
 client_betty_wrong,"내가 주문한 게 아니야. | 다시 만들어, 사장. 참을성은 길지 않아."
 client_betty_checkout,돈 받아. | 친구를 데려오면 그 사람한텐 순한 걸 줘. | 그 친구는 술이 약하니까 곤란하게 하지 말고.
 client_deal_name,딜
@@ -270,7 +270,7 @@ story_jill_tut_r1_arrival,이게 바텐딩 스테이션이에요. 솜씨를 한�
 story_jill_tut_r1_order,음... 먼저 {size} {drink} 한 잔 만들어 주세요.
 story_jill_tut_r1_correct,"좋아 보이네요, 마셔볼게요 | ...... | 괜찮네요. 기본기는 문제가 없어요."
 story_jill_tut_r1_wrong,어딘가 잘못됐어요. 제가 주문한 건 이게 아니에요 | 레시피와 설명을 다시 확인해 보세요
-story_jill_tut_r2_arrival,좋아요 | 다음은 셰이킹해야 하는 음료예요 | 셰이커를 세게 흔들다가 멈추면 셰이킹이 끝나요 | 자세한 내용은 레시피 설명에도 있어요
+story_jill_tut_r2_arrival,"좋아요 | 다음은 블렌딩이 필요한 음료예요 | 혼합 버튼을 눌러 셰이커를 작동하고, 5초 뒤 흔들림이 빨라지면 멈추기 버튼을 눌러 마쳐요 | 자세한 내용은 레시피 설명에도 있어요"
 story_jill_tut_r2_order,"자, 이제 {size} {drink} 한 잔 만들어 주세요."
 story_jill_tut_r2_correct,"맞아요, 바로 이거예요 | 마셔볼게요 | ...... | 합격이에요. 이제 B․T․C 인증을 받을 자격이 있어요."
 story_jill_tut_r2_wrong,어딘가 잘못됐어요. 제가 주문한 건 이게 아니에요 | 레시피와 설명을 다시 확인해 보세요
@@ -294,7 +294,7 @@ story_dana_v2_correct,"좋아요, 마셔볼게요."
 story_dana_v2_wrong,"아뇨, 아뇨, 이게 아니에요."
 story_dana_v2_checkout,음... 나쁘지 않네요. 그래도 질만큼은 아니지만요.
 client_collab_frieren_name,프리렌
-client_collab_frieren_arrival,손으로 만든 술이죠?|2천 년 전 맛을 떠올리게 할 수 있는지 볼게요.
+client_collab_frieren_arrival,손으로 혼합한 술이죠?|2천 년 전 맛을 떠올리게 할 수 있는지 볼게요.
 client_collab_frieren_order,{size} {drink} 한 잔.
 client_collab_frieren_correct,"괜찮네.|블루 페어리라는 묘사에 맞는 생명체는 열 종도 넘게 봤어.|아주 귀엽고 날아다니는 것도 있고, 밤에 잠든 이를 습격하는 무서운 것도 있어."
 client_collab_frieren_wrong,예상했던 것과는 조금 다르네.

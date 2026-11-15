@@ -7,21 +7,41 @@ namespace ProbablyStolenKo
 {
     internal sealed class ManagedDisplayOverlay
     {
+        private sealed class DisplayReplacement
+        {
+            internal DisplayReplacement(string source, string translation)
+            {
+                Source = source;
+                Translation = translation;
+            }
+
+            internal string Source { get; }
+            internal string Translation { get; }
+        }
+
         private const string HarmonyId = "probably-stolen-ko-localization.managed-display";
         private static ManagedDisplayOverlay _active;
         private static bool _installing;
 
         private readonly HashSet<string> _appliedTargets = new HashSet<string>(StringComparer.Ordinal);
         private readonly HashSet<string> _conflicts = new HashSet<string>(StringComparer.Ordinal);
+        private readonly Dictionary<string, string> _embeddedReplacements =
+            new Dictionary<string, string>(StringComparer.Ordinal);
         private IReadOnlyDictionary<string, string> _snapshot =
             new Dictionary<string, string>(StringComparer.Ordinal);
+        private DisplayReplacement[] _embeddedSnapshot = Array.Empty<DisplayReplacement>();
         private Harmony _harmony;
 
         internal void ApplyTarget(string modId, ManagedTarget target)
         {
-            if (target == null || !target.DisplayLiteralOverlay || _appliedTargets.Contains(modId)) return;
+            if (target == null || _appliedTargets.Contains(modId) ||
+                (!target.DisplayLiteralOverlay && target.DisplayReplacements.Count == 0)) return;
 
-            var entries = CollectUnambiguousEntries(target.Routes);
+            var entries = target.DisplayLiteralOverlay
+                ? CollectUnambiguousEntries(target.Routes)
+                : new Dictionary<string, string>(StringComparer.Ordinal);
+            foreach (var replacement in target.DisplayReplacements)
+                entries[replacement.Key] = replacement.Value;
             if (entries.Count == 0)
             {
                 _appliedTargets.Add(modId);
@@ -38,12 +58,20 @@ namespace ProbablyStolenKo
                     !StringComparer.Ordinal.Equals(existing, entry.Value))
                 {
                     next.Remove(entry.Key);
+                    _embeddedReplacements.Remove(entry.Key);
                     _conflicts.Add(entry.Key);
                     continue;
                 }
                 next[entry.Key] = entry.Value;
             }
+            foreach (var replacement in target.DisplayReplacements)
+            {
+                if (!_conflicts.Contains(replacement.Key) &&
+                    next.ContainsKey(replacement.Key))
+                    _embeddedReplacements[replacement.Key] = replacement.Value;
+            }
             _snapshot = next;
+            RebuildEmbeddedSnapshot();
             _appliedTargets.Add(modId);
         }
 
@@ -77,7 +105,7 @@ namespace ProbablyStolenKo
             var conflicts = new HashSet<string>(StringComparer.Ordinal);
             foreach (var route in routes)
             {
-                if (route.Mode != "literal" && route.Mode != "literal_occurrence") continue;
+                if (!CanTranslateDisplayedValue(route.Mode)) continue;
                 foreach (var entry in route.Entries)
                 {
                     var source = NormalizeSource(entry.Key, route.Mode);
@@ -94,6 +122,26 @@ namespace ProbablyStolenKo
                 }
             }
             return entries;
+        }
+
+
+        private void RebuildEmbeddedSnapshot()
+        {
+            var replacements = new List<DisplayReplacement>(_embeddedReplacements.Count);
+            foreach (var replacement in _embeddedReplacements)
+                replacements.Add(new DisplayReplacement(replacement.Key, replacement.Value));
+            replacements.Sort((left, right) => right.Source.Length.CompareTo(left.Source.Length));
+            _embeddedSnapshot = replacements.ToArray();
+        }
+
+        private static bool CanTranslateDisplayedValue(string mode)
+        {
+            return mode == "literal" ||
+                   mode == "literal_occurrence" ||
+                   mode == "field_store" ||
+                   mode == "result_string" ||
+                   mode == "result_string_array" ||
+                   mode == "result_by_argument";
         }
 
         private static string NormalizeSource(string source, string mode)
@@ -113,7 +161,28 @@ namespace ProbablyStolenKo
             if (active == null || source == null ||
                 !StringComparer.Ordinal.Equals(LocHelper.GetCurrentLocaleCode(), "ko")) return;
             string translation;
-            if (active._snapshot.TryGetValue(source, out translation)) source = translation;
+            if (active._snapshot.TryGetValue(source, out translation))
+            {
+                source = translation;
+                return;
+            }
+            if (!ContainsHangul(source)) return;
+            foreach (var replacement in active._embeddedSnapshot)
+            {
+                if (source.IndexOf(replacement.Source, StringComparison.Ordinal) < 0) continue;
+                source = source.Replace(replacement.Source, replacement.Translation);
+            }
+        }
+
+        private static bool ContainsHangul(string source)
+        {
+            foreach (var value in source)
+            {
+                if ((value >= '\u1100' && value <= '\u11ff') ||
+                    (value >= '\u3130' && value <= '\u318f') ||
+                    (value >= '\uac00' && value <= '\ud7a3')) return true;
+            }
+            return false;
         }
 
         internal void Restore()
@@ -125,6 +194,8 @@ namespace ProbablyStolenKo
             }
             if (ReferenceEquals(_active, this)) _active = null;
             _snapshot = new Dictionary<string, string>(StringComparer.Ordinal);
+            _embeddedReplacements.Clear();
+            _embeddedSnapshot = Array.Empty<DisplayReplacement>();
             _conflicts.Clear();
             _appliedTargets.Clear();
         }

@@ -86,7 +86,7 @@ def render_card(page, entry, price, amounts, aged, iced, blended, optional_k, te
     for wrapped_line in wrapped(draw,line,regular,WIDTH-2*x):
         draw.text((x,y),wrapped_line,font=regular,fill="#66dfff")
         y += gap
-    for label,value in (("숙성","필요" if aged else "불필요"),("얼음","필요" if iced else "불필요"),("기법","셰이킹" if blended else "혼합")):
+    for label,value in (("숙성","필요" if aged else "불필요"),("얼음","필요" if iced else "불필요"),("블렌딩","필요" if blended else "불필요")):
         draw.text((x,y),f"{label}: {value}",font=regular,fill="#ffffff")
         y += gap
     y += 8
@@ -220,12 +220,12 @@ def main():
         "레시피를 따라 음료를 만들고 손님에게 서빙하세요."
     ])
     render_text_page("recipe_hint.png","용어 설명",[
-        "혼합: 믹스 버튼을 누르고 5초 동안 기다립니다.",
-        "셰이킹: 셰이커가 빠르게 흔들릴 때 믹스 버튼을 눌러 멈춥니다.",
+        "혼합: 혼합 버튼을 누르면 셰이커가 작동합니다.",
+        "블렌딩: 혼합 버튼을 누르고 5초간 작동한 뒤, 흔들림이 빨라지면 멈추기 버튼을 누릅니다.",
         "얼음: 레시피에 얼음이 필요하면 얼음 버튼을 켭니다.",
         "숙성: 레시피에 숙성이 필요하면 숙성 버튼을 켭니다.",
         "큰 잔: 재료량과 가격이 두 배입니다. 큰 잔을 만들 수 없는 음료도 있습니다.",
-        "레시피와 재료량, 얼음, 숙성, 혼합 조건을 정확히 맞추세요."
+        "레시피와 재료량, 얼음, 숙성, 블렌딩 조건을 정확히 맞추세요."
     ])
     render_panel()
     print("Rendered 24 recipe cards, 2 guide pages, and the 4× mixing panel")

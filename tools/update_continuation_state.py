@@ -75,6 +75,8 @@ def main() -> int:
         "generated_unsupported": constant(generated, "UnsupportedBindingCount"),
         "generated_refresh": constant(generated, "RefreshBindingCount"),
     }
+    state["artifacts"].setdefault("preview.png", "")
+    state["trees"].setdefault("loading-ui", {})
     for relative in state["artifacts"]:
         state["artifacts"][relative] = sha256(root / relative)
     for relative in state["trees"]:

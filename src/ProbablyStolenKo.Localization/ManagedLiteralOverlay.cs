@@ -57,6 +57,7 @@ namespace ProbablyStolenKo
             string manifestName,
             string manifestDescription,
             bool displayLiteralOverlay,
+            IReadOnlyDictionary<string, string> displayReplacements,
             IReadOnlyList<ManagedRoute> routes,
             IReadOnlyList<ManagedRefresh> refresh)
         {
@@ -66,6 +67,7 @@ namespace ProbablyStolenKo
             ManifestName = manifestName;
             ManifestDescription = manifestDescription;
             DisplayLiteralOverlay = displayLiteralOverlay;
+            DisplayReplacements = displayReplacements;
             Routes = routes;
             Refresh = refresh;
         }
@@ -76,6 +78,7 @@ namespace ProbablyStolenKo
         internal string ManifestName { get; }
         internal string ManifestDescription { get; }
         internal bool DisplayLiteralOverlay { get; }
+        internal IReadOnlyDictionary<string, string> DisplayReplacements { get; }
         internal IReadOnlyList<ManagedRoute> Routes { get; }
         internal IReadOnlyList<ManagedRefresh> Refresh { get; }
     }
@@ -83,7 +86,7 @@ namespace ProbablyStolenKo
     internal sealed class ManagedLiteralCatalog
     {
         private const string ExpectedFingerprint = "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b";
-        private const int ExpectedEntries = 26822;
+        private const int ExpectedEntries = 26883;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -115,8 +118,9 @@ namespace ProbablyStolenKo
                 ["charles_chemistry_items"] = "3838151650",
                 ["va11halla"] = "3831732004",
                 ["DeepSpaceClinic_InventoryTest"] = "3832819040",
+                ["local.better-box-selection"] = "3836727677",
             };
-        private const int ExpectedTargets = 28;
+        private const int ExpectedTargets = 29;
 
         private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets)
         {
@@ -147,6 +151,7 @@ namespace ProbablyStolenKo
                 var manifestName = (string)manifest?["name"];
                 var manifestDescription = (string)manifest?["description"];
                 var displayLiteralOverlay = (bool?)target?["display_literal_overlay"] ?? false;
+                var sourceDisplayReplacements = target?["display_replacements"] as JObject;
                 var sourceRoutes = target?["routes"] as JArray;
                 var sourceRefresh = target?["refresh"] as JArray;
                 if (string.IsNullOrWhiteSpace(targetProperty.Name) || string.IsNullOrWhiteSpace(workshopItemId) ||
@@ -159,6 +164,17 @@ namespace ProbablyStolenKo
                 if (!ExpectedWorkshopItems.TryGetValue(targetProperty.Name, out expectedWorkshopItem) ||
                     !StringComparer.Ordinal.Equals(workshopItemId, expectedWorkshopItem))
                     throw new FormatException("Managed target Workshop item identity is invalid.");
+                var displayReplacements = new Dictionary<string, string>(StringComparer.Ordinal);
+                if (sourceDisplayReplacements != null)
+                {
+                    foreach (var replacement in sourceDisplayReplacements.Properties())
+                    {
+                        var translation = (string)replacement.Value;
+                        if (string.IsNullOrEmpty(replacement.Name) || translation == null)
+                            throw new FormatException("Invalid managed display replacement.");
+                        displayReplacements.Add(replacement.Name, translation);
+                    }
+                }
                 var routes = new List<ManagedRoute>(sourceRoutes.Count);
                 foreach (var routeToken in sourceRoutes)
                 {
@@ -199,7 +215,7 @@ namespace ProbablyStolenKo
                 total += entryCount.Value;
                 targets.Add(targetProperty.Name, new ManagedTarget(
                     workshopItemId, assemblyName, entryCount.Value, manifestName, manifestDescription,
-                    displayLiteralOverlay, routes, refresh));
+                    displayLiteralOverlay, displayReplacements, routes, refresh));
             }
             if (total != ExpectedEntries) throw new FormatException("Managed payload total is invalid.");
             return new ManagedLiteralCatalog(targets);
@@ -220,6 +236,34 @@ namespace ProbablyStolenKo
             new Dictionary<int, Tuple<string, string, IReadOnlyDictionary<string, string>>>();
         private static readonly HashSet<int> EnabledStaticBindings = new HashSet<int>();
 
+        private sealed class PendingTarget
+        {
+            internal PendingTarget(
+                string modId,
+                ManagedTarget target,
+                IReadOnlyList<ManagedExactBinding> bindings,
+                Harmony harmony)
+            {
+                ModId = modId;
+                Target = target;
+                Bindings = bindings;
+                Harmony = harmony;
+                StaticBindings = new List<int>();
+                Started = Stopwatch.GetTimestamp();
+            }
+
+            internal string ModId { get; }
+            internal ManagedTarget Target { get; }
+            internal IReadOnlyList<ManagedExactBinding> Bindings { get; }
+            internal Harmony Harmony { get; }
+            internal List<int> StaticBindings { get; }
+            internal long Started { get; }
+            internal int Index { get; set; }
+            internal int Applied { get; set; }
+            internal int Skipped { get; set; }
+            internal bool RefreshPrepared { get; set; }
+        }
+
         private readonly Dictionary<string, Harmony> _harmonies =
             new Dictionary<string, Harmony>(StringComparer.Ordinal);
         private readonly HashSet<string> _appliedTargets = new HashSet<string>(StringComparer.Ordinal);
@@ -227,55 +271,209 @@ namespace ProbablyStolenKo
         private readonly List<string> _appliedRefresh = new List<string>();
         private readonly ManagedDisplayOverlay _displayOverlay = new ManagedDisplayOverlay();
         private readonly ModLog _log;
+        private readonly Queue<PendingTarget> _pendingTargets = new Queue<PendingTarget>();
+        private PendingTarget _currentTarget;
+        private int _completedWork;
+        private int _totalWork;
+        private bool _queueDrainLogged = true;
 
         internal ManagedLiteralOverlay(ModLog log)
         {
             _log = log ?? throw new ArgumentNullException(nameof(log));
         }
 
-        internal void ApplyTarget(string modId, ManagedTarget target)
+        internal bool HasPendingWork => _currentTarget != null || _pendingTargets.Count != 0;
+        internal int CompletedWork => _completedWork;
+        internal int TotalWork => _totalWork;
+        internal string CurrentModId =>
+            _currentTarget != null
+                ? _currentTarget.ModId
+                : _pendingTargets.Count != 0 ? _pendingTargets.Peek().ModId : null;
+        internal int CurrentBindingCompleted => _currentTarget != null ? _currentTarget.Index : 0;
+        internal int CurrentBindingTotal =>
+            _currentTarget != null
+                ? _currentTarget.Bindings.Count
+                : _pendingTargets.Count != 0 ? _pendingTargets.Peek().Bindings.Count : 0;
+
+        internal void QueueTarget(string modId, ManagedTarget target)
         {
             if (target == null || _appliedTargets.Contains(modId) || !_attemptedTargets.Add(modId)) return;
-            var started = Stopwatch.GetTimestamp();
             var bindings = GeneratedManagedBindings.Create(modId);
             if (target.Routes.Count != 0 && bindings.Count == 0)
                 throw new InvalidOperationException("No generated exact bindings exist for managed target " + modId + ".");
 
+            int consolidated;
+            bindings = ConsolidateBindings(target, bindings, out target, out consolidated);
+            if (consolidated != 0)
+                _log.Log("Consolidated " + consolidated + " duplicate managed bindings for " + modId + ".");
+
             var harmony = new Harmony(HarmonyId + "." + modId);
-            var staticBindings = new List<int>();
-            var refreshPrepared = false;
             _harmonies.Add(modId, harmony);
-            try
+            _pendingTargets.Enqueue(new PendingTarget(modId, target, bindings, harmony));
+            _queueDrainLogged = false;
+            _totalWork += bindings.Count + 1;
+        }
+
+        private static IReadOnlyList<ManagedExactBinding> ConsolidateBindings(
+            ManagedTarget source,
+            IReadOnlyList<ManagedExactBinding> bindings,
+            out ManagedTarget target,
+            out int consolidated)
+        {
+            var routes = new List<ManagedRoute>(source.Routes);
+            var output = new List<ManagedExactBinding>(bindings.Count);
+            var candidates = new Dictionary<string, ManagedExactBinding>(StringComparer.Ordinal);
+            consolidated = 0;
+
+            foreach (var binding in bindings)
             {
-                foreach (var binding in bindings)
+                var key = binding.Kind + "\u001f" + binding.PatchMethodName + "\u001f" +
+                          binding.TypeName + "\u001f" + binding.MethodName + "\u001f" + binding.Signature;
+                ManagedExactBinding existing;
+                if (binding.Kind == ManagedBindingKind.StaticPatch &&
+                    candidates.TryGetValue(key, out existing) &&
+                    TryMergeRoutes(routes, existing.RouteIndex, binding.RouteIndex))
                 {
+                    consolidated++;
+                    continue;
+                }
+                output.Add(binding);
+                if (binding.Kind == ManagedBindingKind.StaticPatch) candidates[key] = binding;
+            }
+
+            if (consolidated == 0)
+            {
+                target = source;
+                return bindings;
+            }
+            target = new ManagedTarget(
+                source.WorkshopItemId,
+                source.AssemblyName,
+                source.EntryCount,
+                source.ManifestName,
+                source.ManifestDescription,
+                source.DisplayLiteralOverlay,
+                source.DisplayReplacements,
+                routes,
+                source.Refresh);
+            return output;
+        }
+
+        private static bool TryMergeRoutes(List<ManagedRoute> routes, int destinationIndex, int sourceIndex)
+        {
+            var destination = routes[destinationIndex];
+            var source = routes[sourceIndex];
+            var destinationLiteral = destination.Mode == "literal" || destination.Mode == "literal_occurrence";
+            var sourceLiteral = source.Mode == "literal" || source.Mode == "literal_occurrence";
+            if ((!destinationLiteral || !sourceLiteral) && destination.Mode != source.Mode) return false;
+            if (destination.ArgumentIndex != source.ArgumentIndex ||
+                !StringComparer.Ordinal.Equals(destination.FieldType, source.FieldType) ||
+                !StringComparer.Ordinal.Equals(destination.FieldName, source.FieldName))
+                return false;
+
+            foreach (var entry in source.Entries)
+            {
+                string translation;
+                if (destination.Entries.TryGetValue(entry.Key, out translation) &&
+                    !StringComparer.Ordinal.Equals(translation, entry.Value))
+                    return false;
+            }
+
+            var entries = new Dictionary<string, string>(destination.Entries, StringComparer.Ordinal);
+            foreach (var entry in source.Entries) entries[entry.Key] = entry.Value;
+            routes[destinationIndex] = new ManagedRoute(
+                destination.TypeName,
+                destination.MethodName,
+                destinationLiteral ? "literal" : destination.Mode,
+                destination.ArgumentIndex,
+                destination.FieldType,
+                destination.FieldName,
+                entries);
+            return true;
+        }
+
+        internal void ProcessPending(int millisecondBudget)
+        {
+            if (millisecondBudget <= 0) throw new ArgumentOutOfRangeException(nameof(millisecondBudget));
+            var frameStarted = Stopwatch.GetTimestamp();
+            do
+            {
+                if (_currentTarget == null)
+                {
+                    if (_pendingTargets.Count == 0) return;
+                    _currentTarget = _pendingTargets.Dequeue();
+                }
+
+                if (_currentTarget.Index < _currentTarget.Bindings.Count)
+                {
+                    var binding = _currentTarget.Bindings[_currentTarget.Index++];
                     try
                     {
-                        ApplyBinding(harmony, binding, target, staticBindings);
+                        ApplyBinding(
+                            _currentTarget.Harmony,
+                            binding,
+                            _currentTarget.Target,
+                            _currentTarget.StaticBindings);
+                        _currentTarget.Applied++;
                     }
                     catch (Exception error)
                     {
-                        var failedElapsedMs = (Stopwatch.GetTimestamp() - started) * 1000L / Stopwatch.Frequency;
-                        throw new InvalidOperationException(
-                            "Binding " + binding.Id + " (" + binding.TypeName + "." + binding.MethodName +
-                            ") failed after " + failedElapsedMs + " ms.",
-                            error);
+                        _currentTarget.Skipped++;
+                        _currentTarget.StaticBindings.Remove(binding.Id);
+                        RemoveBindingState(binding.Id);
+                        var cause = error.GetBaseException();
+                        _log.Error(
+                            "Skipped managed binding " + binding.Id + " (" + binding.TypeName + "." +
+                            binding.MethodName + "). " + cause.GetType().Name + ": " + cause.Message);
+                    }
+                    _completedWork++;
+                }
+                else
+                {
+                    CompleteCurrentTarget();
+                    _completedWork++;
+                    _currentTarget = null;
+                    if (!HasPendingWork && !_queueDrainLogged)
+                    {
+                        _queueDrainLogged = true;
+                        _log.Log(
+                            "Managed Korean patch queue completed: work=" +
+                            _completedWork + "/" + _totalWork + ".");
                     }
                 }
-
-                GeneratedManagedRefresh.Prepare(harmony, modId);
-                refreshPrepared = true;
-                GeneratedManagedRefresh.Invoke(modId);
-                _displayOverlay.ApplyTarget(modId, target);
-                if (target.Refresh.Count != 0) _appliedRefresh.Add(modId);
-                _appliedTargets.Add(modId);
-                var elapsedMs = (Stopwatch.GetTimestamp() - started) * 1000L / Stopwatch.Frequency;
-                _log.Log("Applied " + bindings.Count + " managed Korean bindings to " + modId + " in " + elapsedMs + " ms.");
             }
-            catch
+            while (HasPendingWork &&
+                   (Stopwatch.GetTimestamp() - frameStarted) * 1000L / Stopwatch.Frequency < millisecondBudget);
+        }
+
+        private void CompleteCurrentTarget()
+        {
+            var work = _currentTarget;
+            try
             {
-                RollbackTarget(modId, harmony, staticBindings, refreshPrepared);
-                throw;
+                work.RefreshPrepared = true;
+                GeneratedManagedRefresh.Prepare(work.Harmony, work.ModId);
+                GeneratedManagedRefresh.Invoke(work.ModId);
+                _displayOverlay.ApplyTarget(work.ModId, work.Target);
+                if (work.Target.Refresh.Count != 0) _appliedRefresh.Add(work.ModId);
+                _appliedTargets.Add(work.ModId);
+                var elapsedMs = (Stopwatch.GetTimestamp() - work.Started) * 1000L / Stopwatch.Frequency;
+                _log.Log(
+                    "Applied " + work.Applied + " of " + work.Bindings.Count +
+                    " managed Korean bindings to " + work.ModId + " in " + elapsedMs +
+                    " ms; skipped=" + work.Skipped + ".");
+            }
+            catch (Exception error)
+            {
+                RollbackTarget(
+                    work.ModId,
+                    work.Harmony,
+                    work.StaticBindings,
+                    work.RefreshPrepared);
+                var cause = error.GetBaseException();
+                _log.Error(
+                    "Managed target finalization failed for " + work.ModId + ". " +
+                    cause.GetType().Name + ": " + cause.Message);
             }
         }
 
@@ -329,6 +527,18 @@ namespace ProbablyStolenKo
             }
         }
 
+        private static void RemoveBindingState(int bindingId)
+        {
+            lock (Gate)
+            {
+                LiteralBindingRoutes.Remove(bindingId);
+                ResultBindingRoutes.Remove(bindingId);
+                ArgumentBindingRoutes.Remove(bindingId);
+                FieldStoreBindingRoutes.Remove(bindingId);
+                EnabledStaticBindings.Remove(bindingId);
+            }
+        }
+
         private void RollbackTarget(
             string modId,
             Harmony harmony,
@@ -336,16 +546,7 @@ namespace ProbablyStolenKo
             bool refreshPrepared)
         {
             harmony.UnpatchAll(harmony.Id);
-            lock (Gate)
-            {
-                foreach (var bindingId in staticBindings)
-                {
-                    LiteralBindingRoutes.Remove(bindingId);
-                    ResultBindingRoutes.Remove(bindingId);
-                    ArgumentBindingRoutes.Remove(bindingId);
-                    FieldStoreBindingRoutes.Remove(bindingId);
-                }
-            }
+            foreach (var bindingId in staticBindings) RemoveBindingState(bindingId);
             if (refreshPrepared)
             {
                 try { GeneratedManagedRefresh.Invoke(modId); }
@@ -381,6 +582,11 @@ namespace ProbablyStolenKo
             _harmonies.Clear();
             _appliedTargets.Clear();
             _attemptedTargets.Clear();
+            _pendingTargets.Clear();
+            _currentTarget = null;
+            _completedWork = 0;
+            _totalWork = 0;
+            _queueDrainLogged = true;
         }
 
 

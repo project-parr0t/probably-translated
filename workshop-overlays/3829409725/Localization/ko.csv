@@ -114,3 +114,5 @@ hydra_list_separator,;
 hydra_stage_sterilize,살균
 hydra_stage_decontaminate,오염 제거
 pipette_calibrating_no_draw,피펫을 보정하는 동안에는 액체를 흡입할 수 없습니다
+hydra_mode_mineral,모드: 광물질
+hydra_stage_mineral,광물질 배합

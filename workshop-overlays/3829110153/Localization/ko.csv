@@ -3794,3 +3794,29 @@ worm.housing.noWorms,종자 지렁이 추가
 worm.housing.raising,지렁이 사육 중
 worm.housing.status,지렁이: {0}마리 | 먹이: {1} kcal | {2}
 worm.housing.waiting,오늘 밤 먹이 주기
+chemical.extraction.instructions,"염기 용액에 알코올을 넣고 가열판에서 40–60°C로 유지하세요. 매 틱 남은 잔류물의 10%가 전환됩니다. 알코올이 부족하면 추출이 느려지고, 없으면 멈춥니다. 60°C를 넘으면 유효 성분과 불순물이 점차 손실됩니다. 증발기로 물, 알코올, 휘발성 불순물을 제거하고 약액은 원료 용기에 남기세요. 혼합 전에 희석하세요. 가열 반응은 밤새 계속됩니다."
+chemical.manual.page.fish-scraps.body,"기록된 어종의 생선 부산물을 블렌더에 넣으세요. 분쇄하면 해당 용액 성분이 나옵니다. 회복 분말: 참조기, 정어리, 부세, 은상어, 로푸린. 강화 분말: 뿔황새치, 황금어, 무스펠의 아들, 무지기, 백상아리. 흥분 분말: 화산어, 붉은꼬리어, 우주로켓어, 빛물고기, 페라이트 해파리. 진정 분말: 푸른 수정어, 금붕어, 란의 악몽, 니오룬, 유리물고기. 정화 분말: 무지개물고기, 별복어, 정화어."
+chemical.manual.page.fish-scraps.intro,어종을 확인할 수 있는 생선 부산물을 분쇄해 해당 약효 성분을 얻습니다.
+chemical.manual.page.fish-scraps.section.0.body,참조기 · 정어리 · 부세 · 은상어 · 로푸린 · 가물치
+chemical.manual.page.fish-scraps.section.0.title,회복 분말
+chemical.manual.page.fish-scraps.section.1.body,뿔황새치 · 황금어 · 무스펠의 아들 · 무지기 · 백상아리
+chemical.manual.page.fish-scraps.section.1.title,강화 분말
+chemical.manual.page.fish-scraps.section.2.body,화산어 · 붉은꼬리어 · 우주로켓어 · 빛물고기 · 페라이트 해파리
+chemical.manual.page.fish-scraps.section.2.title,흥분 분말
+chemical.manual.page.fish-scraps.section.3.body,푸른 수정어 · 금붕어 · 란의 악몽 · 니오룬 · 유리물고기
+chemical.manual.page.fish-scraps.section.3.title,진정 분말
+chemical.manual.page.fish-scraps.section.4.body,무지개물고기 · 별복어 · 정화어
+chemical.manual.page.fish-scraps.section.4.title,정화 분말
+chemical.manual.page.fish-scraps.title,생선 부산물로 어떤 성분을 얻을 수 있나요?
+chemical.manual.page.purification.section.0.body,"생선 부산물 용액과 알코올을 한 용기에 섞으세요. 가열판에 올려 40–60°C로 유지하면 잔류물이 휘발성 불순물로 바뀝니다. 60°C를 넘으면 유효 성분이 손실됩니다."
+chemical.manual.page.purification.section.0.title,가열
+chemical.manual.page.purification.section.1.body,"가열한 용액을 증발기의 용기 슬롯에 넣고 증류액 슬롯에는 빈 용기를 놓으세요. 증발기는 휘발성 불순물, 알코올, 물을 분리합니다. 용매 회수 모듈은 알코올만 모읍니다."
+chemical.manual.page.purification.section.1.title,증발
+chemical.manual.page.purification.section.2.body,용기 슬롯에서 정제된 용액을 꺼내세요. 순도와 농도를 확인하고 필요하면 물을 더한 뒤 시약 작업대로 옮기세요.
+chemical.manual.page.purification.section.2.title,용액 회수
+chemical.manual.page.purification.title,용액 정제
+chemical.quality.extractedResidue,생선 부산물의 휘발성 불순물
+nautilite.contact.description,"내일 나우틸라이트 상인을 부르려면 {0} 크레딧을 지불하세요. 돌은 별도 비용입니다. 예약하면 이 선택지는 사라지고 자연 방문 간격이 해당 방문부터 다시 시작됩니다."
+nautilite.contact.name,나우틸라이트 신속 배송 요청
+nautilite.contact.scheduled,상인이 이미 내일 방문할 예정입니다.
+nautilite.contact.waiting,방문 예정인 나우틸라이트 상인을 먼저 맞이하세요.

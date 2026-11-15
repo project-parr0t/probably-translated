@@ -87,6 +87,16 @@ def main() -> int:
         raise ValueError("managed entry contract mismatch")
     if len(managed["targets"]) != contracts["managed_targets"]:
         raise ValueError("managed target contract mismatch")
+    clinic_routes = managed["targets"]["DeepSpaceClinic_InventoryTest"]["routes"]
+    clinic_text = next(
+        route
+        for route in clinic_routes
+        if route["type"] == "Clinic.InventoryTest.ClinicText"
+        and route["method"] == "T"
+        and route["mode"] == "result_by_argument"
+    )
+    if clinic_text["entries"].get("导线") != "전선":
+        raise ValueError("Clinic must preserve the Korean patch's canonical Wire item name")
     if workshop["entry_count"] != contracts["workshop_entries"] or sum(item["entry_count"] for item in workshop["mods"].values()) != contracts["workshop_entries"]:
         raise ValueError("Workshop entry contract mismatch")
     if len(workshop["mods"]) != contracts["workshop_mods"]:

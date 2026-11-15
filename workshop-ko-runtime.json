@@ -10,17 +10,17 @@
     "ps-fishing-gameplay": {
       "workshop_item_id": "3829110153",
       "csv_path": "workshop-overlays/3829110153/Localization/ko.csv",
-      "entry_count": 3426
+      "entry_count": 3452
     },
     "Pen_mod_pipette": {
       "workshop_item_id": "3829409725",
       "csv_path": "workshop-overlays/3829409725/Localization/ko.csv",
-      "entry_count": 116
+      "entry_count": 118
     },
     "brewing_expansion": {
       "workshop_item_id": "3829730904",
       "csv_path": "workshop-overlays/3829730904/Localization/ko.csv",
-      "entry_count": 711
+      "entry_count": 743
     },
     "disaster_day": {
       "workshop_item_id": "3829946713",
@@ -40,7 +40,7 @@
     "tobacco_expansion": {
       "workshop_item_id": "3832840208",
       "csv_path": "workshop-overlays/3832840208/Localization/ko.csv",
-      "entry_count": 428
+      "entry_count": 537
     },
     "ai.emporium": {
       "workshop_item_id": "3832941698",
@@ -50,7 +50,7 @@
     "gunsmith_expansion": {
       "workshop_item_id": "3834619049",
       "csv_path": "workshop-overlays/3834619049/Localization/ko.csv",
-      "entry_count": 468
+      "entry_count": 547
     },
     "containers_plus": {
       "workshop_item_id": "3837147782",
@@ -60,12 +60,12 @@
     "sfi.storageappearance": {
       "workshop_item_id": "3837983447",
       "csv_path": "workshop-overlays/3837983447/Localization/ko.csv",
-      "entry_count": 64
+      "entry_count": 65
     },
     "upper_levels": {
       "workshop_item_id": "3838944803",
       "csv_path": "workshop-overlays/3838944803/Localization/ko.csv",
-      "entry_count": 1975
+      "entry_count": 2096
     },
     "traits_probably_fun": {
       "workshop_item_id": "3834226532",
@@ -86,6 +86,7 @@
       "workshop_item_id": "3834667583",
       "csv_path": "workshop-overlays/3834667583/Localization/ko.csv",
       "manifest_name": "Space Coffee",
+      "manifest_description": "작은 커피 코너를 운영하세요. 15일째부터 박사의 상점에서 커피 로스터와 커피 머신을 구매할 수 있습니다. 커피콩을 볶아 에스프레소를 추출해 손님에게 판매하세요. 물의 품질은 커피의 품질과 판매 가격에 영향을 줍니다. 영업을 시작할 때 받은 커피잔 주문 카드는 버리지 마세요. 카드로 빈 커피잔과 빈 유리잔을 주문할 수 있습니다. 1일째부터 밤에 딥 스페이스 커피 보급소에서 커피 머신, 커피 로스터, 빈 커피잔, 빈 유리잔, 커피잔 수납장을 직접 구매할 수 있습니다. 빈 유리잔, 에스프레소, 물을 커피 머신에 넣으면 아메리카노를 만들 수 있으며, 등급은 물의 품질에 따라 결정됩니다. 게임에 등장하는 필크, 푸이스, 바닐라 아이스크림, 캣 초콜릿 바로 라테, 주스 아메리카노, 아포가토, 모카, 비엔나 커피도 만들 수 있습니다. 커피콩과 동물 배설물을 함께 볶으면 쥐똥 원두를 만들 수 있으며, 이를 사용해 사치품 쥐똥 커피를 내릴 수 있습니다.",
       "entry_count": 132
     },
     "local.uv-coverage": {
@@ -94,5 +95,5 @@
       "entry_count": 41
     }
   },
-  "entry_count": 10664
+  "entry_count": 11034
 }

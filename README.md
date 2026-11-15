@@ -45,6 +45,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [VA-11 Hall-A Fan MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004)
 - [Space Coffee](https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583)
 - [Better UV Lamp](https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349)
+- [Better Box Selection](https://steamcommunity.com/sharedfiles/filedetails/?id=3836727677)
 - [Eleanor: Bring Her Back](https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808)
 - [Deep Space Mine: Probably Crystal](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650)
 - [Deep Space Clinic 2077](https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040)

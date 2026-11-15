@@ -58,7 +58,35 @@ Copy-Item src/ProbablyStolenKo.Localization/bin/Release/netstandard2.1/ProbablyS
   ProbablyStolenKo.Localization.dll -Force
 ```
 
-The tracked root DLL is the immutable released artifact and its digest is enforced by the continuation contract. A fresh build may differ byte-for-byte when the .NET compiler or referenced game assemblies differ, so validation proves that the tracked source still compiles rather than replacing the released DLL. The DLL contains no assembly reference to optional target mods. Generated patch classes remain disabled during the loader's assembly-wide Harmony scan; the bridge applies only reviewed target bindings for enabled prerequisite mods.
+The tracked root DLL is the immutable released artifact and its digest is enforced by the continuation contract. A fresh build may differ byte-for-byte when the .NET compiler or referenced game assemblies differ, so validation proves that the tracked source still compiles rather than replacing the released DLL. The DLL contains no assembly reference to optional target mods. Generated patch classes remain disabled during the loader's assembly-wide Harmony scan; the bridge applies only reviewed target bindings for enabled prerequisite mods. Runtime preparation consolidates compatible bindings that target the same method so Harmony never rebuilds one method twice for equivalent translation routes. The display overlay also indexes exact values from result and argument routes, not only literal routes, because mod initialization may cache source-language names before the managed Harmony binding is installed. A target's optional `display_replacements` map supplies reviewed exact display values and replaces those terms only inside already-Korean mixed strings; it must never contain identifiers or broad prose fragments. Use `force_exact_patch` for direct literal builders such as custom document pages that combine text before assigning it to a display control.
+
+## Required local test gate
+
+Every release must test the exact distributable package from the repository root before Workshop staging. Close the game before `Install` or `Remove`. The gate installs only into the game's `Mods/ProbablyTranslated-Test` directory; it never modifies game assemblies or Workshop content.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
+  -Action Install `
+  -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
+```
+
+The gate never launches the game. An operator must explicitly start it, wait for mod loading to finish, and verify that the opaque translation-patch overlay appears before patch work, blocks pointer, navigation, and legacy input until completion, and reports progress without exposing an interactive game screen. Exercise at least one Workshop overlay and one managed Harmony translation, then inspect `Player.log` for binding failures or payload mismatches. Only after that observed test succeeds:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
+  -Action Pass `
+  -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
+  -Action Remove `
+  -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
+  -Action Stage `
+  -GameRoot "path/to/Steam/steamapps/common/Probably Stolen" `
+  -WorkshopRoot "path/to/Steam/steamapps/workshop/content/4348910" `
+  -StageDir "path/to/Workshop/staging/content"
+```
+
+`Pass` rejects a local install whose package digest differs from the repository. It also requires a newer `Player.log` proving that the same-version local Mods copy loaded, the Galmuri9 progress UI appeared, the managed queue completed, and no managed binding was skipped. `Stage` first requires exact installed Workshop coverage with no missing source keys, then rejects an untested package, any package changed after the test, and a still-installed local test copy that would shadow the Workshop release. Rebuild or translation changes invalidate the receipt and require a new install/test/pass cycle.
 
 ## Regenerate managed route bindings
 
@@ -76,6 +104,15 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Expand-ManagedRoutes.p
 The command requires a read-only snapshot containing every managed target in the runtime and must finish with `unsupported=0`. A changed route or binding count requires matching runtime constants and continuation-state regeneration; an unsupported binding holds the update.
 
 ## Resume an update
+
+Run the exact installed-key coverage audit before and after changing Workshop overlays:
+
+```powershell
+python tools/audit_workshop_coverage.py `
+  --workshop-root "path/to/Steam/steamapps/workshop/content/4348910"
+```
+
+The final scan must report `workshop-coverage=ok`. It distinguishes native Korean coverage, private overlay coverage, stale keys, malformed source records, and mods that are not installed; never infer missing translations from locale averages.
 
 1. Validate the fresh checkout before reading installed mod content.
 2. Treat all installed game and Workshop files as read-only.
