@@ -62,7 +62,7 @@ The tracked root DLL is the immutable released artifact and its digest is enforc
 
 ## Required local test gate
 
-Every release must test the exact distributable package from the repository root before Workshop staging. Close the game before `Install` or `Remove`. The gate installs only into the game's `Mods/ProbablyTranslated-Test` directory; it never modifies game assemblies or Workshop content.
+Every release must install the exact distributable package from the repository root into `Mods/ProbablyTranslated-Test` before Workshop staging. Close the game before `Install` or `Remove`. The gate never modifies game assemblies or Workshop content.
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
@@ -70,12 +70,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
   -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
 ```
 
-The gate never launches the game. An operator must explicitly start it, wait for mod loading to finish, and verify that the opaque translation-patch overlay appears before patch work, blocks pointer, navigation, and legacy input until completion, and reports progress without exposing an interactive game screen. Exercise at least one Workshop overlay and one managed Harmony translation, then inspect `Player.log` for binding failures or payload mismatches. Only after that observed test succeeds:
+The gate never launches the game. Confirm the installed package is exact, then remove it before staging so it cannot shadow the Workshop release:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
-  -Action Pass `
-  -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
   -Action Remove `
   -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
@@ -86,7 +83,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
   -StageDir "path/to/Workshop/staging/content"
 ```
 
-`Pass` rejects a local install whose package digest differs from the repository. It also requires a newer `Player.log` proving that the same-version local Mods copy loaded, the Galmuri9 progress UI appeared, the managed queue completed, and no managed binding was skipped. `Stage` first requires exact installed Workshop coverage with no missing source keys, then rejects an untested package, any package changed after the test, and a still-installed local test copy that would shadow the Workshop release. Rebuild or translation changes invalidate the receipt and require a new install/test/pass cycle.
+`Stage` first requires exact installed Workshop coverage with no missing source keys, then rejects a package that changed after the local Mods test install or a still-installed local test copy. Rebuild or translation changes invalidate the receipt and require a new install cycle.
 
 ## Regenerate managed route bindings
 

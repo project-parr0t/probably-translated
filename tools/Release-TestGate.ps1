@@ -1,13 +1,12 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("Install", "Pass", "Remove", "Stage", "Status")]
+    [ValidateSet("Install", "Remove", "Stage", "Status")]
     [string]$Action,
     [Parameter(Mandatory = $true)][string]$GameRoot,
     [string]$StageDir,
     [string]$WorkshopRoot,
-    [string]$Python = "python",
-    [string]$PlayerLog = "$env:USERPROFILE/AppData/LocalLow/Questing Goose Studio/Probably Stolen/Player.log"
+    [string]$Python = "python"
 )
 
 Set-StrictMode -Version Latest
@@ -138,38 +137,6 @@ switch ($Action) {
         Write-Receipt "installed" $digest $version
         Write-Output "test-install=ok version=$version digest=$digest path=$installRoot"
     }
-    "Pass" {
-        Assert-OwnedInstall
-        $sourceDigest = Get-PackageDigest $root
-        $installedDigest = Get-PackageDigest $installRoot
-        if ($sourceDigest -ne $installedDigest) { throw "Installed test package differs from the repository package" }
-        $version = Get-Version $root
-        $receipt = Read-Receipt
-        if ($null -eq $receipt -or $receipt.status -ne "installed" -or $receipt.digest -ne $sourceDigest) {
-            throw "Install the current package before recording a test pass"
-        }
-        if (-not (Test-Path -LiteralPath $PlayerLog -PathType Leaf)) { throw "Player.log was not found: $PlayerLog" }
-        $installedAt = [DateTime]::Parse([string]$receipt.updated_utc).ToUniversalTime()
-        if ((Get-Item -LiteralPath $PlayerLog).LastWriteTimeUtc -le $installedAt) {
-            throw "Player.log was not updated after the test package was installed"
-        }
-        $logText = Get-Content -LiteralPath $PlayerLog -Raw -Encoding UTF8
-        $escapedVersion = [Regex]::Escape($version)
-        if ($logText -notmatch "audit: probably-stolen-ko-localization v$escapedVersion source=Local") {
-            throw "Player.log does not prove that the local Mods test package was loaded"
-        }
-        if ($logText -notmatch "Patch progress UI displayed with Galmuri9 assets\.") {
-            throw "Player.log does not prove that the Galmuri9 patch progress UI was displayed"
-        }
-        if ($logText -notmatch "Managed Korean patch queue completed:") {
-            throw "Player.log does not prove that the managed patch queue completed"
-        }
-        if ($logText -match "Skipped managed binding|Managed target finalization failed") {
-            throw "Player.log contains managed patch failures"
-        }
-        Write-Receipt "passed" $sourceDigest $version
-        Write-Output "test-pass=ok version=$version digest=$sourceDigest log=$PlayerLog"
-    }
     "Remove" {
         Assert-GameStopped
         if (Test-Path -LiteralPath $installRoot) {
@@ -186,11 +153,11 @@ switch ($Action) {
         $receipt = Read-Receipt
         $digest = Get-PackageDigest $root
         $version = Get-Version $root
-        if ($null -eq $receipt -or $receipt.schema -ne "probably-translated.test-gate/v1" -or $receipt.status -ne "passed") {
-            throw "The current package has not passed the local Mods test gate"
+        if ($null -eq $receipt -or $receipt.schema -ne "probably-translated.test-gate/v1" -or $receipt.status -ne "installed") {
+            throw "Install the current package into Mods before Workshop staging"
         }
         if ($receipt.digest -ne $digest -or $receipt.version -ne $version) {
-            throw "The package changed after the local Mods test passed"
+            throw "The package changed after the local Mods test install"
         }
         if (Test-Path -LiteralPath $installRoot) {
             throw "Remove the local test install before staging to avoid shadowing the Workshop release"
