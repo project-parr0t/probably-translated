@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
-TEXT_SUFFIXES = {".cs", ".csv", ".json", ".md", ".ps1", ".py", ".xml"}
+TEXT_SUFFIXES = {".cs", ".csv", ".json", ".md", ".ps1", ".py", ".txt", ".xml"}
 
 
 def canonical_bytes(path: Path) -> bytes:
