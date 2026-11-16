@@ -3067,7 +3067,7 @@ processing.manual.category.water,물 및 병입
 processing.manual.category.weapon,무기 및 도구
 processing.manual.duration,소요 시간 {0}{1}
 processing.manual.index.entry,제조법 {0}개 · {1}페이지
-processing.manual.index.summary,7개 분류에 제조법 58개가 있습니다.
+processing.manual.index.summary,분류 {1}개에 제조법 {0}개가 있습니다.
 processing.manual.nav.next,다음 분류
 processing.manual.nav.previous,이전 분류
 processing.manual.notReady,아직 안내서가 준비되지 않았습니다. 잠시 후 다시 시도하세요.
@@ -3820,3 +3820,13 @@ nautilite.contact.description,"내일 나우틸라이트 상인을 부르려면 
 nautilite.contact.name,나우틸라이트 신속 배송 요청
 nautilite.contact.scheduled,상인이 이미 내일 방문할 예정입니다.
 nautilite.contact.waiting,방문 예정인 나우틸라이트 상인을 먼저 맞이하세요.
+item.gf_worm_mash.name,지렁이 분쇄 사료
+item.gf_worm_mash.short,지렁이를 갈아 반죽처럼 만든 육류 사료입니다.
+worm.housing.harvest.full,배출 공간이 가득 찼습니다. 죽은 지렁이와 보유 한도를 초과한 살아 있는 지렁이는 처리되지 않았습니다.
+worm.housing.harvest.help,"밤이 지나면 죽은 지렁이와 보유 한도를 초과한 살아 있는 지렁이가 모두 사료 한 몫으로 가공됩니다. 한도는 살아 있는 지렁이에만 적용됩니다. 0은 전부 가공하고, 무제한은 살아 있는 지렁이를 모두 보유합니다."
+worm.housing.limit.adult,성체 지렁이 한도
+worm.housing.limit.unlimited,무제한
+worm.housing.limit.young,어린 지렁이 한도
+worm.housing.panel.culture,배양
+worm.housing.panel.output,배출
+worm.housing.panel.settings,보유 설정

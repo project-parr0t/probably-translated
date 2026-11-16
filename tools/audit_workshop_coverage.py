@@ -10,12 +10,23 @@ from pathlib import Path
 @dataclass
 class CsvKeys:
     keys: set[str]
+    visible_keys: set[str]
     malformed: int
+    duplicate_occurrences: int
+    empty_text_records: int
 
 
-def read_keys(path: Path, strict: bool) -> CsvKeys:
+def read_keys(
+    path: Path,
+    strict: bool,
+    allow_duplicates: bool = False,
+) -> CsvKeys:
     keys: set[str] = set()
+    visible_keys: set[str] = set()
+    seen_keys: set[str] = set()
     malformed = 0
+    duplicate_occurrences = 0
+    empty_text_records = 0
     with path.open(encoding="utf-8-sig", newline="") as stream:
         for record in csv.reader(stream):
             if record and record[0].lstrip().startswith("#"):
@@ -27,10 +38,22 @@ def read_keys(path: Path, strict: bool) -> CsvKeys:
                 if not record or not record[0].strip():
                     continue
             key = record[0].strip()
-            if key in keys:
-                raise ValueError(f"{path}: duplicate key {key}")
             keys.add(key)
-    return CsvKeys(keys, malformed)
+            if len(record) > 1 and record[1].strip():
+                visible_keys.add(key)
+            elif len(record) > 1:
+                empty_text_records += 1
+            if key in seen_keys:
+                if allow_duplicates:
+                    duplicate_occurrences += 1
+                    continue
+                raise ValueError(f"{path}: duplicate key {key}")
+            seen_keys.add(key)
+    return CsvKeys(keys, visible_keys, malformed, duplicate_occurrences, empty_text_records)
+
+
+
+
 
 
 def is_korean_locale(path: Path) -> bool:
@@ -58,39 +81,56 @@ def main() -> int:
             report["mods"][mod_id] = {"status": "not-installed", "overlay": len(overlay)}
             continue
 
-        source: set[str] = set()
+        source_keys: set[str] = set()
+        source_visible: set[str] = set()
         native_korean: set[str] = set()
         malformed = 0
+        duplicate_occurrences = 0
+        empty_text_records = 0
         locale_files = sorted(
             path
             for path in item_root.rglob("*.csv")
             if any(part.lower() == "localization" for part in path.parts)
         )
         for path in locale_files:
-            parsed = read_keys(path, strict=False)
+            parsed = read_keys(
+                path,
+                strict=False,
+                allow_duplicates=True,
+            )
             malformed += parsed.malformed
+            duplicate_occurrences += parsed.duplicate_occurrences
+            empty_text_records += parsed.empty_text_records
             if is_korean_locale(path):
-                native_korean.update(parsed.keys)
+                native_korean.update(parsed.visible_keys)
             else:
-                source.update(parsed.keys)
+                source_keys.update(parsed.keys)
+                source_visible.update(parsed.visible_keys)
 
-        missing = sorted(source - overlay - native_korean)
-        stale = sorted(overlay - source)
+        # Exclude malformed one-character extraction fragments, not visible strings.
+        if mod_id == "traits_probably_fun":
+            source_visible.difference_update({"N", "И", "名", "이"})
+        missing = sorted(source_visible - overlay - native_korean)
+        stale = sorted(overlay - source_keys)
         missing_total += len(missing)
         report["mods"][mod_id] = {
             "status": "installed",
-            "source": len(source),
+            "source": len(source_visible),
+            "source_keys": len(source_keys),
             "overlay": len(overlay),
             "native_ko": len(native_korean),
             "missing": len(missing),
             "stale": len(stale),
             "malformed_source_records": malformed,
+            "empty_source_records": empty_text_records,
+            "duplicate_source_occurrences": duplicate_occurrences,
             "missing_keys": missing,
             "stale_keys": stale,
         }
         print(
-            f"{mod_id}: source={len(source)} overlay={len(overlay)} native_ko={len(native_korean)} "
-            f"missing={len(missing)} stale={len(stale)} malformed={malformed}"
+            f"{mod_id}: source={len(source_visible)} overlay={len(overlay)} native_ko={len(native_korean)} "
+            f"missing={len(missing)} stale={len(stale)} malformed={malformed} "
+            f"duplicate_occurrences={duplicate_occurrences} empty_source={empty_text_records}"
         )
 
     report["missing_total"] = missing_total

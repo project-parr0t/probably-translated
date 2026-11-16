@@ -262,7 +262,6 @@ gsx_module_ammo_batch_desc,같은 고철을 사용해 탄환 프레스로 출력
 module_effect_ammo_batch,인쇄된 재생 탄환 상자 +{0}
 event_vex_lockdown_desc,치안국의 단속이 강화되자 벡스는 몸을 사린다. 오늘 밤 무기고는 문을 닫는다.
 event_vex_shipment_desc,불법 무기 밀수품이 암시장에 들어왔다. 벡스가 재고를 싸게 팔고 있다.
-shop_vex_event_shipment,"방금 물건이 들어왔어. 오늘 밤은 전부 {0}% 할인, 놓치지 마."
 shop_vex_event_price_note,오늘 밤: 벡스 가격에서 {0}% 할인
 gsx_snub_revolver_name,불독
 gsx_snub_revolver_desc,짧은 검붉은 나무 손잡이가 달린 10mm 단총신 리볼버.

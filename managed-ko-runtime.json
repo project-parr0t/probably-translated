@@ -17494,7 +17494,18 @@
         "Subdermal ArmorSurgery Manual": "피하 장갑 수술 매뉴얼",
         "Subdermal Armor Surgery Manual": "피하 장갑 수술 매뉴얼",
         "Synaptic AcceleratorSurgery Manual": "시냅스 가속기 수술 매뉴얼",
-        "Wound CareSurgery Manual": "변연절제 및 봉합 수술 매뉴얼"
+        "Wound CareSurgery Manual": "변연절제 및 봉합 수술 매뉴얼",
+        "The supplies are on the left and the manual is on the right.": "물품은 왼쪽에, 매뉴얼은 오른쪽에 있습니다.",
+        "Double click on the manual to see what to bring.": "매뉴얼을 더블 클릭해 준비할 물품을 확인하세요.",
+        "This time, both the hands and legs require debridement.": "이번에는 손과 다리 모두 괴사 조직 제거가 필요합니다.",
+        "Treatment reward:": "치료 보상:",
+        " credits": " 크레딧",
+        "Possibility of postoperative complications:": "수술 후 합병증 발생 가능성:",
+        "Total deduction points:": "총 감점:",
+        " points": " 점",
+        "Medical Reputation +": "의료 평판 +",
+        "debridement suture successful": "변연절제 및 봉합 성공",
+        "; current ": "; 현재 "
       },
       "routes": [
         {
@@ -18132,7 +18143,8 @@
             "我需要短时间内把动作提得很快，最好快到周围的人像慢了下来。": "짧은 시간 동안 움직임을 아주 빠르게 끌어올려야 해요. 주변 사람들이 느려진 것처럼 보일 정도면 좋겠어요.",
             "普通机械臂搬不动仓库里的重货。我想换成力气大的双臂，不是装刀刃。": "일반 기계 팔로는 창고의 무거운 짐을 들 수가 없어요. 힘이 센 양팔로 바꾸고 싶어요. 칼날을 달려는 건 아니에요.",
             "货架上层太高，我想靠腿部增强跳跃，能直接跃上去，落地时也稳一些。": "선반 위쪽이 너무 높아요. 다리의 도약 능력을 강화해서 바로 뛰어오르고, 착지할 때도 좀 더 안정적이면 좋겠어요.",
-            "车间暗处的小字我已经看不清了，想换一只看得更清楚的眼睛。": "작업장 어두운 곳에서는 작은 글씨가 잘 안 보여요. 더 선명하게 보이는 눈으로 바꾸고 싶어요."
+            "车间暗处的小字我已经看不清了，想换一只看得更清楚的眼睛。": "작업장 어두운 곳에서는 작은 글씨가 잘 안 보여요. 더 선명하게 보이는 눈으로 바꾸고 싶어요.",
+            "When the shelf fell down, I held it up with my hands, and my hands and calves were cut open by the metal edges. Both wounds were stained with dust and could not be cleaned by themselves.": "선반이 쓰러지길래 손으로 받쳤는데, 금속 모서리에 손과 종아리가 찢어졌어요. 두 군데 다 먼지가 묻어서 혼자서는 씻어낼 수가 없어요."
           }
         },
         {
@@ -18170,6 +18182,7 @@
             "Scalpel": "메스",
             "Sterilization Cartridge": "멸균 카트리지",
             "Suture": "봉합 키트",
+            "Close": "닫기",
             "Instrument contamination:": "기구 오염도:",
             "The supplies are on the left and the manual is on the right. \n Double click on the manual to see what to bring.": "물품은 왼쪽에, 매뉴얼은 오른쪽에 있습니다. \n 매뉴얼을 더블 클릭해 준비할 물품을 확인하세요.",
             "When servicing the equipment, the buckle popped open and a cut was made on the hand. I wrapped it with a cloth, but it still kept bleeding.": "장비를 정비하다가 고정쇠가 튀어나와 손을 베였어요. 천으로 감쌌는데도 피가 계속 나요.",

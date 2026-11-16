@@ -1,0 +1,84 @@
+[h1]Probably Translated[/h1]
+Probably Stolen의 일부 창작마당 모드를 위한 통합 한국어 번역 모드입니다. 기본 게임 본문은 변경하지 않습니다.
+
+[b]주의[/b] 이 모드는 기본 게임 한국어 패치가 아닙니다. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687]Korean Translation[/url]을 함께 사용하세요.
+
+[h2]번역 및 책임 안내[/h2]
+[b]Parr0t 프로젝트는 배포자가 직접 플레이하여 번역을 검수하기에, 문제가 생긴 부분을 보지 못하거나 토큰이 부족할 경우 패치가 되지 않는 부분이 존재할 수 있습니다.[/b]
+
+이 프로젝트는 다른 모드 프로젝트의 범위를 침범하려는것이 아닌, 개인적으로 소소한 모드팩 느낌으로 즐기기 위해 만들었습니다.
+
+[h2]설치 및 사용[/h2]
+[olist]
+[*]이 모드와 Korean Translation을 구독합니다.
+[*]게임의 모드 메뉴에서 두 모드를 활성화합니다.
+[*]게임 언어를 한국어로 설정하고 게임을 완전히 종료한 뒤 다시 실행합니다.
+[/olist]
+
+[h2]지원 모드[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417]Better Water Trading[/url] — v1.13.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153]GoFishing! (Fish Expansion)[/url] — v2.5.3
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666]Smart Inventory Arrange[/url] — v3.17.62-mono.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725]Pen's Pipette[/url] — v1.1.4
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904]Brewing Expansion[/url] — v3.6.8.5
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829946713]Disaster Day[/url] — v2.0.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3830031787]Fishing Cuisine Expansion[/url] — v2.1.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3830643693]Unbox Moment[/url] — v1.5.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369]Vanilla Food Expansion[/url] — v0.3.10
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547]Visible Item Durability[/url] — v0.2.18
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187]Better Liquid Scanner[/url] — v1.2.2
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311]Agri Expansion[/url] — v1.9.12
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208]Tobacco Expansion[/url] — v0.5.4.2
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698]Probably Regulars - AI Emporium[/url] — v1.3.52
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602]Real Time Clock[/url] — v1.6.0
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482]CS Weapon Expansion[/url] — v0.5.43
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532]Perks: Probably Fun[/url] — v0.9.574
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038]Combat Contract[/url] — v0.4.12
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946]In-Game Mod Settings[/url] — v1.0.0
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049]Gunsmith Expansion[/url] — v2.1.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782]Probably Containers+[/url] — v1.0c
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447]Storage Bay Appearance[/url] — v1.2.7H3
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803]Upper Levels[/url] — v0.9.13.2
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004]VA-11 Hall-A Fan MOD[/url] — v2.1.8
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583]Space Coffee[/url] — v4.0
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349]Better UV Lamp[/url] — v1.0.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3836727677]Better Box Selection[/url] — v1.0.2
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808]Eleanor: Bring Her Back[/url] — v0.7.12
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650]Deep Space Mine: Probably Crystal[/url] — v0.2.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040]Deep Space Clinic 2077[/url] — v0.1.0-ui.227
+[/list]
+
+[h2]함께 사용하는 추천 모드 구성[/h2]
+제작자가 개인적으로 함께 사용하는 모드 구성입니다. 이 목록은 번역 지원 목록과 다르며, 모든 항목이 이 모드의 번역 대상이라는 뜻은 아닙니다.
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698]Probably Regulars - AI Emperium[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311]Agri Expansion[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829946713]Disaster Day[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831834469]YeastStayBox[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3830031787]Fishing Cusine Expansion[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153]GoFishing[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369]Vanilla Food Expansion[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946]In-Game Mod Settings[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3830643693]Unbox Moments[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208]Tobacco Expansion[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506]Station Events[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904]Brewing Expansion[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417]Better Water Trading[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532]Perks: Probably Fun[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666]Smart Inventory Arrange[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187]Better Liquid Scanner[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547]Visible Item Durability[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602]Real Time Clock[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687]Korean Translation[/url]
+[/list]
+
+[h2]알려진 사항[/h2]
+[list]
+[*]설치·활성화된 지원 대상에만 번역을 적용합니다. 대상 모드가 없어도 다른 번역은 계속 작동합니다.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834117650]Probably Stolen Mod Korean Translation Pack (Cro 팩)[/url]과 호환됩니다. 두 번역팩을 함께 활성화하면 Cro 팩이 지원하는 겹치는 모드는 이 모드에서 건너뛰고, 나머지 모드 번역만 계속 적용합니다.
+[*]AI 번역 후 문맥·용어·대사 어체 검수를 거쳤지만 누락이나 오역이 남아 있을 수 있습니다.
+[/list]
+
+[h2]소스 코드 및 오류 제보[/h2]
+[url=https://github.com/project-parr0t/probably-translated/]GitHub - project-parr0t/probably-translated[/url]

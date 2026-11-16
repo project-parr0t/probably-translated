@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "inventory_fingerprint": "0f14e390857494df537e083da5db070538e0a89805099db4c3d72fb1cf2d16dd",
+  "inventory_fingerprint": "a4e8f4d20437bf9feb0cf855f59d33fa5dc818d10e4d7f9f51974d085b84d394",
   "scope": "installed_workshop_mod_korean_overlay_r24",
   "locale": "ko",
   "base_game_entries": 0,
@@ -10,7 +10,7 @@
     "ps-fishing-gameplay": {
       "workshop_item_id": "3829110153",
       "csv_path": "workshop-overlays/3829110153/Localization/ko.csv",
-      "entry_count": 3452
+      "entry_count": 3462
     },
     "Pen_mod_pipette": {
       "workshop_item_id": "3829409725",
@@ -20,7 +20,7 @@
     "brewing_expansion": {
       "workshop_item_id": "3829730904",
       "csv_path": "workshop-overlays/3829730904/Localization/ko.csv",
-      "entry_count": 743
+      "entry_count": 746
     },
     "disaster_day": {
       "workshop_item_id": "3829946713",
@@ -45,12 +45,12 @@
     "ai.emporium": {
       "workshop_item_id": "3832941698",
       "csv_path": "workshop-overlays/3832941698/Localization/ko.csv",
-      "entry_count": 653
+      "entry_count": 1998
     },
     "gunsmith_expansion": {
       "workshop_item_id": "3834619049",
       "csv_path": "workshop-overlays/3834619049/Localization/ko.csv",
-      "entry_count": 547
+      "entry_count": 546
     },
     "containers_plus": {
       "workshop_item_id": "3837147782",
@@ -60,12 +60,12 @@
     "sfi.storageappearance": {
       "workshop_item_id": "3837983447",
       "csv_path": "workshop-overlays/3837983447/Localization/ko.csv",
-      "entry_count": 65
+      "entry_count": 63
     },
     "upper_levels": {
       "workshop_item_id": "3838944803",
       "csv_path": "workshop-overlays/3838944803/Localization/ko.csv",
-      "entry_count": 2096
+      "entry_count": 2237
     },
     "traits_probably_fun": {
       "workshop_item_id": "3834226532",
@@ -95,5 +95,5 @@
       "entry_count": 41
     }
   },
-  "entry_count": 11034
+  "entry_count": 12530
 }

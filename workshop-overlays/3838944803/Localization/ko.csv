@@ -1293,7 +1293,7 @@ item_ul_dissector_note_flavor,"시신 칸에 시신 한 구를 넣으면 전력�
 dissector_label_body,시신
 dissector_label_status,상태
 dissector_status_empty,비어 있음
-dissector_status_ready,신선도 {0}
+dissector_status_ready,신선도 {0}%
 dissector_status_rotten,상함
 dissector_log_done,해부 기계가 온전한 장기 {0}개를 회수했습니다.
 dissector_log_rotten,시신이 상했습니다. 해부 기계는 아무것도 회수하지 못했습니다.
@@ -1301,10 +1301,10 @@ battle.title,교전 지역
 battle.panel_quiet,혁명군과 치안부가 며칠 전 이곳에서 싸웠습니다. 오늘 밤은 조용합니다.
 battle.panel_fight,"방금, 총격이 멎었습니다. 땅에서 더 많이 찾을 수 있지만 순찰도 더 많습니다."
 battle.tries_left,오늘 밤 {0}회 더 수색할 수 있습니다({1}회 중).
-battle.wounded,다쳤습니다. 오늘 밤은 더 수색할 수 없습니다.
+battle.wounded,다쳤습니다. 붕대 같은 것으로 상처를 치료하면 계속 수색할 수 있습니다.
 battle.risk,경미한 부상 {0}%  중상 {1}%  목격됨 {2}%
 battle.search,수색
-battle.found_corpse,아직 대체로 온전한 시신을 찾았습니다. 포장할 필요는 없습니다. 떠날 때 끌고 가면 됩니다.
+battle.found_corpse,방금 죽은 시신을 찾았습니다. 포장할 필요는 없습니다. 떠날 때 가게로 끌고 가면 됩니다.
 battle.found_scrap,팔 만한 고철을 주웠습니다.
 battle.found_nothing,아무것도 찾지 못했습니다.
 battle.luck_saved,유탄이 스칠 뻔했습니다. 운이 좋았습니다.
@@ -1788,17 +1788,17 @@ appraiser.auction.cons.taken,{0}개군요. 다음 주에 정산하겠습니다.
 appraiser.auction.lots,이번 주 주요 경매 물품입니다. 보시죠.
 appraiser.auction.done,전표는 제가 가져가겠습니다. 경매 후에 뵙죠.
 kai.consign.intro.1,물건이 좀 있어. 여기서 대신 팔아 줘.
-kai.consign.intro.2,"선금은 없어. 팔린 금액의 {0}%는 네 몫이고, {1}%는 내 몫이야."
-kai.consign.intro.3,다음 주에 정산할게. 안 팔린 건 내가 가져가지.
+kai.consign.intro.2,"정가의 {0}%를 선금으로 내면 돼. 3일 안에 팔면 내가 {1}%를 가져가고, 그보다 늦으면 {2}%야."
+kai.consign.intro.3,다음 주에 정산할게. 안 팔린 물건은 내가 가져가고 보증금은 돌려줄게.
 kai.consign.hello,정산할 시간이야.
 kai.consign.phase2.1,이제 가게가 네 거야? 축하해.
-kai.consign.phase2.2,"그럼 더 가져오지. 이제부터 매주 {0}개씩 가져올게, 네 몫은 {1}%야."
+kai.consign.phase2.2,"그럼 더 가져오지. 앞으로 매주 {0}개씩 가져올게. 3일 안에 팔면 내가 {1}%를 가져가고, 그보다 늦으면 {2}%야."
 kai.consign.sold,"{0}개 판매, 총 {1}. 내 {2}% 몫은 {3}이야."
 kai.consign.none_sold,이번 주엔 팔린 게 없어.
 kai.consign.missing,"가게에 {0}개가 없어. 정가로는 {1}이니, 내 몫은 {2}야."
-kai.consign.recalled,아침에 안 팔린 {0}개를 사람을 시켜 가져갔어.
+kai.consign.recalled,안 팔린 {0}개는 내가 가져갈게.
 kai.consign.owed,전부 합쳐 {0}이야. 지금 가져갈게.
-kai.consign.new,새 물건 {0}개야. 조건은 같아.
+kai.consign.new,"새 물건 {0}개야. 보증금은 {1}이고, 조건은 같아."
 kai.consign.debt,카이에게 {0}을 아직 갚지 않았어. 다음 정산에 합산할게.
 kai.consign.full,더는 자리가 없어. 카이는 위탁품 {0}개만 두고 갔어.
 kai.consign.tip,"카이의 위탁품입니다. 판매되면 {0}%를 가져가며, 다음 방문 때 정산합니다."
@@ -1846,11 +1846,6 @@ readme.p2.body,"1. 집세는 하층의 세 배이며 매주 내야 합니다. �
 3. 직업을 시작할 때 받은 기계와 공급품부터 활용하세요. 매주 정기적으로 찾아오는 손님이 있습니다.
 
 4. 6일쯤 되면 카이 와일드가 가게에 찾아옵니다."
-readme.p3.title,돈 벌기
-readme.p3.body,"· 본업이 주된 일입니다. 물건을 만들고 공급하고 배달하고 방문객을 상대하세요.
-· 카운터는 부업입니다. 기본 게임과 똑같이 사고파세요.
-· 가게를 사고 나면, 본업의 확장 요소가 해금되어 수입이 계속 늘어납니다.
-· 밀수품은 돈이 빨리 되지만 증거를 남깁니다. 너무 많이 취급하면 경찰이 들이닥칩니다."
 readme.p4.title,카이 와일드
 readme.p4.body,"카이는 조의 사촌입니다. 여기 위쪽에서 필요한 것은 무엇이든 그를 통해야 합니다.
 
@@ -2029,7 +2024,7 @@ uc.water_corp.name,기업 조달 담당자
 uc.water_corp.1,회의실과 임원 전용 층에 물이 필요합니다. 고품질만 받습니다.
 uc.water_corp.2,순도만 맞으면 가격은 문제없습니다.
 pex.give.smuggler,밀수 공간 + 분홍색 주사기 8개
-pex.give.smuggler_big,대형 밀수 공간 + 분홍색 주사기 8개
+pex.give.smuggler_big,대형 밀수품 적재 공간 + 분홍색 주사기 8개 (해당 공간 확장에 사용한 키트 반환)
 pex.get.smuggler,"개조 밀수 공간 (8×8, 검문 시 수색되지 않음)"
 salon_talk_leave,(지금은 됐어요)
 salon_guest_line3,· {0} ({1}) 평판 {2}{3}
@@ -2071,7 +2066,7 @@ ul_dialog_upper_lower_visitor_1,"어이, 가게 주인! 난 몇 층 위에 살�
 ul_dialog_upper_hedonist_greeting_1,여기 찾느라 산책로를 반이나 돌아다녔어. 빨리 끝내자고.
 ul_dialog_upper_lower_visitor_luxury_1,오늘은 참 따분하네. 쇼핑이나 하러 가야겠어.
 ul_dialog_minor_ul_visitor_2,"저는 보통 전당포엔 잘 안 오는데요,"
-ul_dialog_minor_ul_visitor_3,여기서 하층 구역 물건도 찾을 수 있다고 들었어요!
+ul_dialog_minor_ul_visitor_3,하지만 하층 구역 물건이 많이 들어온다고 들었어요!
 ul_dialog_minor_ul_visitor_4,하층 구역 물건은 정말 흥미롭더라고요.
 ul_dialog_minor_ul_visitor_8,하층 구역 물건이면 뭐든 괜찮아요.
 ul_dialog_minor_ul_visitor_9,"수제품이나 가공식품, 저기술 무기 같은 거,"
@@ -2201,3 +2196,146 @@ richpat.premium,부유한 환자 할증
 test_hotkey_update,"테스트 (최신 갱신): 심장 2개, 신장 1개, 냉장고, 검은 램프, 3D 장기 프린터, 바이오 잉크 6개, 자가 충전 셀, +5000크레딧을 지급했습니다 (카이에게서 장기 판매 허가증을 구매하세요). 혁명군 야전 의무병과 부유한 환자는 오늘 방문합니다. 허가증이 있으면 장기 은행 담당자와 사립 병원도 방문합니다."
 ul_kai_organ_license_desc,"카이가 서류를 처리합니다. 출력 장기를 밀수품이 아닌 합법 상품으로 판매할 수 있게 됩니다. 장기 은행 담당자가 주문을 가져오며 제때 납품하면 두 배의 보수와 상층 구역 평판을 받습니다. 사립 병원은 7일마다 대량 주문을 하러 옵니다. 장기 판매 허가증과 장기 은행 네온사인도 받습니다. 네온사인을 진열장에 놓으면 주문이 더 자주 들어오고 미용 진료소 구매자가 폐와 신장을 사러 옵니다."
 ul_kai_organ_license_title,장기 판매 허가증
+diff_restored,저장 데이터에서 상층 구역 난이도가 사라져 복원했습니다.
+diff_restored_guess,저장 데이터에서 상층 구역 난이도가 사라졌습니다. 원래 단계는 알 수 없어 보통으로 복원했습니다.
+regulars.roster_name,단골 명단
+regulars.roster_new,가게에 단골 명단이 생겼습니다. 자주 오는 손님들이 등록되어 있습니다.
+regulars.desc_head,단골손님입니다. 원하는 물건을 팔면 추가 보상을 받을 수 있습니다. 값을 올려 받지 마세요.
+regulars.desc_empty,아직 명단에 단골손님이 없습니다.
+regulars.desc_line,"{0}: 좋아하는 물건 {1}, 원하는 물건 {2}. {3}, {4}"
+regulars.when_today,오늘 방문
+regulars.when_days,{0}일 후 방문
+regulars.hello.1,또 왔어요.
+regulars.hello.2,장사는 잘돼요?
+regulars.hello.3,지나가다가 들러 봤어요.
+regulars.hello.4,늘 사던 걸로 할게요. 뭐가 있나 볼까요.
+regulars.ask,"전에 얘기한 {0}, 구했어요?"
+regulars.wish_done,{0}님이 원하던 물건을 구했습니다. 호감도 +1.
+regulars.overcharged,{0}님이 가격을 너무 높게 매겼다고 생각합니다. 호감도 -1.
+regulars.left,{0}님은 다시 오지 않을 겁니다. 명단에서 제외되었습니다.
+regulars.referred,{0}님이 새 단골손님 {1}님을 소개했습니다.
+regulars.joined,새 단골손님: {0}.
+regulars.name.0,원 씨
+regulars.name.1,루 씨
+regulars.name.2,바이 부인
+regulars.name.3,자오 씨
+regulars.name.4,친 양
+regulars.name.5,구 씨
+regulars.name.6,선 부인
+regulars.name.7,린 교수
+regulars.name.8,쑤 양
+regulars.name.9,한 씨
+regulars.name.10,예 부인
+regulars.name.11,저우 박사
+regulars.name.12,탕 양
+regulars.name.13,쉬 씨
+regulars.name.14,청 노인
+regulars.name.15,지 양
+kai.consign.intro.4,이 물건들은 몇 사람 손을 거쳤어. 가끔 봉인이 뜯긴 것도 있어. 팔기 전에 포장을 확인해.
+kai.consign.change,참고해. 거래 조건이 바뀌었어.
+kai.consign.new_pending,새 물건 {0}개야. 조건은 같아. 보증금부터 내.
+kai.consign.new_short,가진 현금으로 {0}개분 보증금 {1}까지 낼 수 있네. 나머지 {2}개는 내가 맡아 둘게.
+kai.consign.new_none,보증금 낼 돈이 부족하군. 이번 물량은 내가 가져갈게. 다음 주에 보자.
+kai.consign.new_full,가게에 자리가 없네. 이번 물량은 내가 가져갈게.
+kai.consign.sold2,"{0}개 팔렸고 총액은 {1}이야. {2}개는 3일 안에 {3}%로, 나머지는 {4}%로 팔렸어. 내 몫은 {5}야."
+kai.consign.waived,{0}개에 불만이 들어왔어. 봉인이 뜯긴 물건들이야. 그 물건들은 내 몫을 받지 않을게. 내 책임이야.
+kai.consign.deposit,보증금 {0}을 냈네. 정산할 때 차감할게.
+kai.consign.refund,보증금이 내 몫보다 많네. 여기 {0}을 돌려줄게.
+kai.consign.refund_notify,카이가 보증금 {0}을 돌려줬습니다.
+kai.consign.even,정산 끝났어.
+kai.consign.dubious_flavor,포장 봉인이 뜯긴 흔적이 있습니다.
+kai.consign.complaint,손님이 {0}의 봉인이 뜯긴 걸 알아채고 불만을 제기했습니다. 상층 구역 평판 -{1}.
+kai.consign.tip2,"카이 위탁품. 보증금 {0}. {2}일째까지 팔면 {1}%, 그 이후에는 {3}%를 가져갑니다. 다음 방문 때 정산합니다."
+regulars.first,처음 왔어요. 또 올게요.
+regulars.ask_new,{0}을 찾고 있어요. 구하면 제 몫으로 남겨 주세요. 후하게 살게요.
+ul_dialog_minor_ul_visitor_5,여기 생활은 꽤 지루해요.
+ul_dialog_minor_ul_visitor_6,늘 같은 사람들이 똑같은 일을 반복하죠.
+ul_dialog_minor_ul_visitor_7,새로운 걸 찾고 있어요.
+ul_dialog_minor_ul_visitor_10,그리고 아래층 사람들이 기분 내려고 하는 좋은 것들도요. *윙크*
+regulars.seller_has,탁자에 {0}이 있습니다. {1}님이 하나 찾고 있습니다.
+regulars.dubious,{0}님이 구매한 물건의 봉인이 뜯긴 걸 알아챘습니다. 호감도 -1.
+ncguide.item_name,상점 운영 안내서
+ncguide.item_desc,상층 구역의 초보 점주를 위한 입문 안내서입니다. 클릭해서 읽으세요.
+ncguide.header,상점 운영 안내서
+ncguide.p1.title,시작하기 전에
+ncguide.p1.body,"상층 구역의 점포를 인수했습니다. 자금도, 인맥도 없고, 아무도 당신을 모릅니다.\n\n다행히 카이 와일드가 위탁품을 맡겨 주기로 했습니다. 상층 구역 손님은 겉모습을 중시합니다. 좋은 물건, 합리적인 가격, 믿을 수 있는 사람을 찾죠.\n\n이 책에서는 카이의 위탁 거래 방식, 단골손님 관리법, 물건을 구하는 곳을 다룹니다."
+ncguide.p2.title,카이의 위탁품
+ncguide.n.consign,위탁품
+ncguide.k.consign,카이는 7일마다 상층 구역 물건을 가져옵니다(처음에는 20개). 물건마다 정가의 4분의 1을 보증금으로 내야 합니다. 자금이 부족하면 더 적게 받으세요.
+ncguide.n.fast,빨리 팔수록 더 많이 받기
+ncguide.k.fast,배송 후 3일 안에 팔면 40%를 가져갑니다. 그 이후에는 30%입니다. 다른 곳에서 팔거나 사용한 물건은 늦게 판 것으로 계산됩니다.
+ncguide.n.dubious,의심스러운 물건
+ncguide.k.dubious,"봉인이 뜯겼다고 표시된 물건이 몇 개 있습니다. 그중 절반은 판매하면 불만이 접수됩니다. 상층 구역 평판 -5, 카이는 그래도 수수료를 받습니다. 위험을 감수하기 싫다면 팔지 마세요. 카이가 가져가고 보증금을 돌려줍니다."
+ncguide.p3.title,정산
+ncguide.p3.body,"카이가 가게에 오면 지난 물량을 정산합니다:\n\n- 판매됨: 빨리 팔았든 늦게 팔았든 수수료를 받습니다.\n- 미판매: 물건을 가져가고 보증금을 돌려줍니다.\n- 분실: 정가에 판매한 것으로 계산됩니다.\n\n보증금은 카이의 수수료에서 차감됩니다. 보증금이 더 많으면 차액을 돌려받고, 부족하면 나머지를 내야 합니다. 돈이 부족하면 외상으로 처리됩니다.\n\n가게를 소유한 뒤에는 매주 더 많은 물건을 가져오고 수수료는 줄어듭니다."
+ncguide.p4.title,단골손님
+ncguide.n.roster,단골 명단
+ncguide.k.roster,"3일째부터 단골손님들이 각자 4일마다 방문합니다. 명단에서 좋아하는 물건과 원하는 물건, 방문 날짜를 확인할 수 있습니다."
+ncguide.n.wish,희망 물품
+ncguide.k.wish,"단골손님이 원하는 물건을 팔면 50% 더 지불하고 호감도 +1을 줍니다. 가게를 소유한 뒤에는 희망 물품이 예약품으로 바뀝니다. 대금을 두 배로 내지만, 다음 방문 때 물건이 없으면 호감도가 하락합니다."
+ncguide.n.favor,호감도
+ncguide.k.favor,"가격을 올려 받거나 봉인이 뜯긴 물건을 팔면 호감도 -1입니다. 호감도가 0이 되면 더는 오지 않습니다. 친해진 단골손님은 자기 이야기를 들려주고, 별 5개가 되면 친구를 소개합니다."
+ncguide.p5.title,물건을 구하는 곳
+ncguide.p5.body,"상층 구역의 판매자들이 들릅니다. 단골손님이 해당 종류의 물건을 원하면, 판매자가 물건을 가져올 확률이 50%입니다:\n\n- 사치품: 저택 직원, 경매장, 수집가, 몰락한 귀족.\n- 생활용품: 이사하는 가족, 물 장수, 엔지니어.\n- 의료용품: 사립 병원 의사, 연구소 연구원.\n\n“누군가 이 물건을 원합니다”라는 문구가 보이면 팔지 말고 남겨 두세요."
+ncguide.p6.title,진열장
+ncguide.p6.body,"진열장의 사치품과 예술품은 안목 있는 손님을, 귀중한 재료와 기계는 기업 구매자를 끌어들입니다.\n\n손님 예산은 진열된 물건 중 가장 비싼 물건을 기준으로 정해지며, 대략 그 물건 하나를 살 수 있는 정도입니다. 진열장은 손님을 끌어들이는 곳이지, 재고 처분대가 아닙니다.\n\n카이의 물건도 진열할 수 있습니다. 빨리 팔수록 더 많이 받습니다."
+ncguide.p7.title,몇 가지 팁
+ncguide.p7.body,"- 기본 가격은 적정 가격입니다. 가격을 올리면 단골손님들이 기억합니다.\n\n- 카이가 오기 전에 물건을 최대한 파세요. 3일 안에 파느냐에 따라 수익이 10% 차이 납니다.\n\n- 공간을 비워 두세요. 카이가 배송할 때 가게가 가득 차 있으면 물건을 가져갑니다.\n\n- 자금이 부족하면 물건을 적게 받으세요. 보증금은 쓰는 돈이 아니라 카이에게 빌려주는 돈입니다."
+regulars.roster_desc,단골손님 명단입니다. 클릭해서 읽으세요.
+roster.header,단골 명단
+roster.p1.title,규칙
+roster.p1.body,"- 단골손님은 각자 4일마다 와서 좋아하는 물건과 원하는 물건 하나를 삽니다.\n\n- 원하는 물건을 팔면 50% 더 지불하고 호감도 +1을 줍니다.\n\n- 가격을 올려 받거나 봉인이 뜯긴 물건을 팔면 호감도 -1입니다. 호감도가 0이 되면 명단에서 제외됩니다.\n\n- 친해진 단골손님은 자기 이야기를 들려주며, 여기에 기록됩니다. 별 5개가 되면 새 단골손님을 소개합니다.\n\n- 가게를 소유한 뒤에는 희망 물품이 예약품으로 바뀝니다. 대금은 두 배지만, 다음 방문 때 물건이 없으면 호감도 -1입니다."
+roster.list_title,이름
+roster.info,"좋아하는 물건: {0}  {1}\n원하는 물건: {2}\n{3}"
+roster.info_reserve,"좋아하는 물건: {0}  {1}\n예약품: {2} (두 배 지불)\n{3}"
+roster.story_none,(아직 친하지 않음)
+roster.empty,(비어 있음)
+regulars.story_new,{0}님이 자기 이야기를 들려줬습니다. 명단에 기록되어 있습니다.
+regulars.gift,{0}님이 감사의 선물을 두고 갔습니다: {1}.
+regulars.reserve_new,{0}을 구해 주세요. 다음에 와서 가져갈게요. 두 배로 드리죠.
+regulars.reserve_ask,예약한 {0} 들어왔나요?
+regulars.reserve_missed,{0}님이 예약한 {1}이 없었습니다. 호감도 -1.
+regulars.story.0.3,원 씨는 딸의 결혼식 비용을 모으고 있습니다. 여기서는 겉치레에 돈이 더 든다고 하네요.
+regulars.story.0.5,다음 달에 딸이 결혼합니다. 결혼식에 쓸 물건 몇 가지를 여기서 샀다고 하네요.
+regulars.story.1.3,"루 씨는 기업 감사 담당자로, 하루 종일 남의 장부를 들여다봅니다. 이곳 장부는 맞아떨어져서 찾아온다고 하네요."
+regulars.story.1.5,루 씨가 승진했습니다. 회사에서 물건을 살 때 당신 가게를 언급하겠다고 합니다.
+regulars.story.2.3,바이 부인의 남편은 늘 집을 비웁니다. 집에 물건은 많지만 사람은 거의 없죠. 쇼핑이 소일거리가 됩니다.
+regulars.story.2.5,남편이 돌아왔습니다. 집이 집답게 느껴지도록 새 장식을 원합니다.
+regulars.story.3.3,자오 씨는 30년 동안 화물을 운송했습니다. 은퇴했지만 가만히 있지 못해 매일 정거장을 돌아다닙니다.
+regulars.story.3.5,젊을 때 운반했던 화물의 가치가 해마다 오른다고 합니다. 당신 가게가 그 시절을 떠올리게 한다네요.
+regulars.story.4.3,친 양은 오케스트라에서 바이올린을 연주하며 공연 전에 늘 들릅니다. 이곳은 조용해서 좋다고 하네요.
+regulars.story.4.5,친 양이 공연 표 두 장을 줬습니다. 좋은 자리는 아니지만 당신을 위해 남겨 뒀다고 합니다.
+regulars.story.5.3,구 씨는 부두의 일정 관리를 맡습니다. 말도 빠르고 구매도 빠릅니다.
+regulars.story.5.5,"이제 부두 사람들은 모두 당신 가게를 안다고 합니다. “물건도 진짜고, 바가지도 없지.”"
+regulars.story.6.3,선 부인에게는 딸보다 나이가 많은 아주 늙은 고양이가 있습니다.
+regulars.story.6.5,"고양이가 세상을 떠났습니다. 그날은 집에 있으려 했지만, 여기 와서 한동안 앉아 있었다고 하네요."
+regulars.story.7.3,"린 교수는 오래된 책을 찾고 있습니다. 지구에서 인쇄한 종이책으로, 20년째 찾고 있다고 합니다."
+regulars.story.7.5,아직 못 찾았다고 합니다. 서두를 필요는 없죠. 뭔가를 찾는 사람에겐 쉴 곳이 필요하니까요.
+regulars.story.8.3,쑤 양은 하층 구역에서 막 올라왔습니다. 모든 걸 원하지만 가진 것을 내놓을 여유는 없습니다.
+regulars.story.8.5,여기 올라온 뒤로 자기 억양을 놀리지 않은 사람은 당신이 처음이라고 하네요.
+regulars.story.9.3,한 씨는 보험을 팝니다. 정거장에서 가장 가치 있는 건 “아무 일도 일어나지 않은 것”이라고 하네요.
+regulars.story.9.5,당신 가게의 위험 평가를 했습니다. 판정은 “장기적인 관계에 적합”.
+regulars.story.10.3,예 부인은 골동품을 수집하며 출처를 가장 중요하게 여깁니다. 아무리 아름다워도 출처를 모르면 짐일 뿐이죠.
+regulars.story.10.5,가문에서 소장품을 처분할 때면 당신에게 먼저 물어보겠다고 하네요.
+regulars.story.11.3,저우 박사는 사립 병원에서 밤새 일하고 낮에는 물건을 둘러봅니다. 눈은 늘 충혈되어 있죠.
+regulars.story.11.5,환자 가족들이 믿을 만한 물건을 어디서 살 수 있냐고 물으면 당신 가게를 알려준다고 합니다.
+regulars.story.12.3,탕 양은 홀로그램을 디자인하며 대기업 일을 서두르고 있습니다.
+regulars.story.12.5,일이 성사됐습니다. 출시 파티에 필요한 건 전부 당신 가게에서 고르겠다고 합니다.
+regulars.story.13.3,"쉬 씨는 오래된 명문가의 먼 친척입니다. “친척이긴 하지만, 재산과는 상관없죠.”"
+regulars.story.13.5,가족 모임에서 누군가 어디서 물건을 샀냐고 묻자 당신 가게를 알려줬다고 합니다.
+regulars.story.14.3,"청 노인은 매주 찾아옵니다. 물건은 조금만 사고, 주로 이야기 상대를 원합니다."
+regulars.story.14.5,손자가 찾아올 예정입니다. 제대로 된 선물을 고르고 싶다고 합니다.
+regulars.story.15.3,"지 양은 평의회 직원입니다. 말수가 적고, 하는 일이 “지루하다”고만 합니다."
+regulars.story.15.5,평의회가 몇몇 가게를 감사할 예정이라고 합니다. 당신 가게는 명단에 없다고 하네요.
+ncguide.reissued,가게에 상점 운영 안내서가 놓여 있습니다. 초보 점주를 위한 입문 안내서입니다.
+ul_kai_organ_route_title,암시장 경로
+ul_kai_organ_route_desc,"카이가 병원의 쏜을 소개하고 교전 구역에 가는 법을 알려줍니다. 해부기, 장기 냉각기, 『해부 필수 안내서』를 받습니다. 밤에 그곳에서 시신을 가져와 장기를 꺼내 쏜 같은 구매자에게 파세요. 밀러 박사도 3D 장기 프린터를 판매하기 시작합니다. 장기상은 이 경로로 시작합니다."
+net_group_organ,장기 거래
+organ.route.unlocked,"카이가 해부기와 장기 냉각기, 『해부 필수 안내서』를 가져왔습니다. 오늘 밤 교전 구역이 열립니다."
+organ.route.compensated,구매한 장기 판매 허가증에 빠진 절차가 있었습니다. 카이가 미안한 뜻으로 암시장 경로를 무료로 열어 줬습니다. 해부기와 냉각기가 가게에 있습니다.
+regulars.wish_feature,단골의 희망 물품
+regulars.reserve_feature,단골의 예약품
+ul_kai_police_donation_title,경찰서 기부
+ul_kai_police_donation_desc,카이가 당신 가게 이름으로 경찰 유가족 기금에 기부하고 당직실에 질 좋은 식품 상자 몇 개를 보냅니다. 경찰 평판 +{0}. {1}일 후 다시 기부할 수 있습니다.
+perk.ul_aug_surge.name,증강체 급증
+perk.ul_aug_surge.desc,샷건을 가지고 시작합니다. 첫 주부터 증강체가 손님 사이에 섞여 들어오며 위기는 끝나지 않습니다. 너무 많이 놓치면 게임 오버입니다. 증강체를 처치하면 현상금(+25%)과 경찰 평판을 얻습니다.

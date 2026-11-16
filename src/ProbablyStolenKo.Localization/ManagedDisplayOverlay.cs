@@ -166,13 +166,27 @@ namespace ProbablyStolenKo
                 source = translation;
                 return;
             }
-            if (!ContainsHangul(source)) return;
+            if (!ContainsHangul(source) && !ContainsClinicDynamicLiteral(source)) return;
             foreach (var replacement in active._embeddedSnapshot)
             {
                 if (source.IndexOf(replacement.Source, StringComparison.Ordinal) < 0) continue;
                 source = source.Replace(replacement.Source, replacement.Translation);
             }
         }
+
+        private static bool ContainsClinicDynamicLiteral(string source)
+        {
+            return source.IndexOf("The supplies are on the left", StringComparison.Ordinal) >= 0 ||
+                   source.IndexOf("Double click on the manual", StringComparison.Ordinal) >= 0 ||
+                   source.IndexOf("This time, both the hands and legs require", StringComparison.Ordinal) >= 0 ||
+                   source.IndexOf("Treatment reward:", StringComparison.Ordinal) >= 0 ||
+                   source.IndexOf("Possibility of postoperative complications:", StringComparison.Ordinal) >= 0 ||
+                   source.IndexOf("Total deduction points:", StringComparison.Ordinal) >= 0 ||
+                   source.IndexOf("Medical Reputation +", StringComparison.Ordinal) >= 0 ||
+                   source.IndexOf("debridement suture successful", StringComparison.Ordinal) >= 0 ||
+                   source.IndexOf("When the shelf fell down, I held it up", StringComparison.Ordinal) >= 0;
+        }
+
 
         private static bool ContainsHangul(string source)
         {
