@@ -1,12 +1,12 @@
 {
   "artifacts": {
-    "ProbablyStolenKo.Localization.dll": "c08507d967975f953f92de936606a2f01f5386028c299162879db38b5d02b6c6",
-    "managed-ko-runtime.json": "9e1927760b60825cf7fbbf5fce24a444d86635fb8804ea82b603c094a52d51ac",
-    "manifest.xml": "c04263933c625b6c4b65b86bfbd4a78aef17efe83fa6a70775fa2232f7862aac",
+    "ProbablyStolenKo.Localization.dll": "09ff22be2ae5d247ea0b8f99570afa3d71e0d91f57d5cd8f97aa088b2f671821",
+    "managed-ko-runtime.json": "4286f9432a10ff431d46fee3f52faa362c4e43a1f7bc51cc7349ae9e8f461505",
+    "manifest.xml": "d0785203b4b6a5d33baff096a5b8a9a42dc02edd623c0092644a14cd4a9bf811",
     "parr0t-release-checkpoint.json": "3ccb0d7fadbe737e71c0908713d65d0ba4c69d8b56e5b5ac04ad618e82483c8e",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
     "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "2ac8d31d5b6fc21d7c1f99863e06459a2bd0805593774136639425a21df0edef",
-    "workshop-ko-runtime.json": "eddd02d7cfa392cfc0e8a5ca848677a6a315482aeb8442197df202cd9f16b863"
+    "workshop-ko-runtime.json": "6209437042070222b4f1da436caa924987fdbf7c64d9fc681b5a8572bc5cb2da"
   },
   "contracts": {
     "generated_bindings": 222,
@@ -16,7 +16,7 @@
     "generated_unsupported": 0,
     "managed_entries": 26883,
     "managed_targets": 29,
-    "workshop_entries": 11034,
+    "workshop_entries": 12530,
     "workshop_mods": 17
   },
   "dependencies": {
@@ -32,9 +32,9 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "c354bc5626c794ef28628fd4e66e0743e3c53d86",
+    "commit": "7541ceeb3ab8525092d3d48b91b5b832fd91772b",
     "game_version": "0.46D",
-    "version": "1.0.32"
+    "version": "1.0.33"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
@@ -48,7 +48,7 @@
     },
     "workshop-overlays": {
       "files": 17,
-      "sha256": "2bdf5d99699f882e9f7d28a61d949fe9f63b029ba00993c5b60680edc09fde03"
+      "sha256": "78f5b422349fefdacd104165382c98345827bdab1fd2d83898656efe847ef60b"
     }
   }
 }
