@@ -5,6 +5,10 @@
   "owner_steam_id": 76561198119795156,
   "title": "Probably Translated (일부 모드 한국어 번역)",
   "description_file": "description.bbcode.txt",
+  "required_tags": [
+    "Translation",
+    "Korean"
+  ],
   "locales": [
     "arabic",
     "bulgarian",
