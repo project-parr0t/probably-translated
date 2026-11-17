@@ -88,9 +88,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
 
 ## Required Workshop publication path
 
-`workshop/description.bbcode.txt` is the canonical Workshop description. Copy its exact contents into the release VDF `description` field whenever the description or supported-mod list changes.
+`workshop/description.bbcode.txt` is the canonical Workshop description. `workshop/localized-metadata.json` binds the public item, title, description file, and every managed Steam locale.
 
-All Workshop content and metadata updates MUST use SteamCMD `workshop_build_item` with the reviewed VDF and the exact directory produced by `Release-TestGate.ps1 -Action Stage`. NEVER use a Steamworks API client, third-party Workshop publisher, submodule, or direct community-page automation. SteamCMD updates the default Workshop locale; do not attempt separate locale updates through another publication path.
+Workshop content and default-locale metadata MUST use SteamCMD `workshop_build_item` with the reviewed VDF and the exact directory produced by `Release-TestGate.ps1 -Action Stage`. A successful content release requires `Committing update...Success`.
 
 ```powershell
 steamcmd.exe +login <account> `
@@ -98,7 +98,18 @@ steamcmd.exe +login <account> `
   +quit
 ```
 
-Require SteamCMD to report `Committing update...Success` before removing the local test installation. Verify the public Workshop page after submission.
+Localized title and description synchronization MAY use Parr0t's standard-library-only `scripts/sync_steam_workshop_metadata.py` with Valve's native Steam API. The manifest binds the expected owner; apply requires an online authenticated Steam client on that exact account, the exact published-file ID, and the reviewed Steam API SHA-256. The selected DLL MUST be a first-party Valve-signed binary or an exact locked dependency already approved by Parr0t's dependency contract; never acquire or execute a third-party Workshop publisher. A Steam API error holds the localized update instead of falling back to an unapproved tool.
+
+```powershell
+python path/to/parr0t/scripts/sync_steam_workshop_metadata.py `
+  --manifest workshop/localized-metadata.json `
+  --steam-api path/to/steam_api64.dll `
+  --apply `
+  --approve-item 3838981739 `
+  --approve-steam-api-sha256 <reviewed-lowercase-sha256>
+```
+
+After either path, query the public Workshop details and every managed locale. Require the expected nonempty title and canonical description; a successful command alone is not publication proof. Remove the local test installation only after the applicable upload and public verification succeed.
 
 ## Regenerate managed route bindings
 
