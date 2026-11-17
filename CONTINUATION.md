@@ -86,24 +86,19 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
 
 `Stage` requires the exact local Mods test copy to remain installed and rejects packages changed after installation. The local copy is removed immediately after a successful upload; post-release checks use a freshly resubscribed Workshop copy. Rebuild or translation changes invalidate the receipt and require a new install cycle.
 
-## Required Workshop description sync
+## Required Workshop publication path
 
-`workshop/description.bbcode.txt` is the canonical Workshop description. Steam stores localized descriptions independently, so changing only the SteamCMD VDF leaves stale locale-specific copies. After every description or supported-mod-list change, synchronize the canonical text to every Steam platform language. The pinned publisher uploads the already staged content once for the default language, then updates localized descriptions without changing tags, title, preview, or launching the game.
+`workshop/description.bbcode.txt` is the canonical Workshop description. Copy its exact contents into the release VDF `description` field whenever the description or supported-mod list changes.
 
-Keep the Steam client running and logged in as the Workshop item owner. Initialize the pinned publisher after a fresh clone, review the 31-language dry-run, then submit:
+All Workshop content and metadata updates MUST use SteamCMD `workshop_build_item` with the reviewed VDF and the exact directory produced by `Release-TestGate.ps1 -Action Stage`. NEVER use a Steamworks API client, third-party Workshop publisher, submodule, or direct community-page automation. SteamCMD updates the default Workshop locale; do not attempt separate locale updates through another publication path.
 
 ```powershell
-git submodule update --init --recursive
-powershell -NoProfile -ExecutionPolicy Bypass -File tools/Sync-WorkshopDescriptions.ps1 `
-  -DescriptionPath workshop/description.bbcode.txt `
-  -ContentPath path/to/Workshop/staging/content
-powershell -NoProfile -ExecutionPolicy Bypass -File tools/Sync-WorkshopDescriptions.ps1 `
-  -DescriptionPath workshop/description.bbcode.txt `
-  -ContentPath path/to/Workshop/staging/content `
-  -Submit
+steamcmd.exe +login <account> `
+  +workshop_build_item path/to/probably-translated.vdf `
+  +quit
 ```
 
-Verify at least `english`, `koreana`, `schinese`, and `japanese` on the public Workshop page after submission. A release is incomplete if any localized description differs from the canonical supported-mod list.
+Require SteamCMD to report `Committing update...Success` before removing the local test installation. Verify the public Workshop page after submission.
 
 ## Regenerate managed route bindings
 
