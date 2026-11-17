@@ -32,6 +32,7 @@ if ($VerifyGeneratedBindings) {
     if ([string]::IsNullOrWhiteSpace($Cecil)) {
         $cache = Join-Path ([IO.Path]::GetTempPath()) "probably-translated-tools/mono.cecil.0.11.6"
         $package = Join-Path $cache "mono.cecil.0.11.6.nupkg"
+        $archive = Join-Path $cache "mono.cecil.0.11.6.zip"
         $Cecil = Join-Path $cache "lib/net40/Mono.Cecil.dll"
         if (-not (Test-Path -LiteralPath $Cecil -PathType Leaf)) {
             New-Item -ItemType Directory -Path $cache -Force | Out-Null
@@ -41,13 +42,20 @@ if ($VerifyGeneratedBindings) {
                 Remove-Item -LiteralPath $package -Force
                 throw "Mono.Cecil package digest mismatch"
             }
-            Expand-Archive -LiteralPath $package -DestinationPath $cache -Force
+            Copy-Item -LiteralPath $package -Destination $archive -Force
+            Expand-Archive -LiteralPath $archive -DestinationPath $cache -Force
+            Remove-Item -LiteralPath $archive -Force
         }
     }
     if (-not (Test-Path -LiteralPath $Cecil -PathType Leaf)) { throw "Mono.Cecil.dll does not exist: $Cecil" }
 }
 
-& $Python (Join-Path $root "tools/validate_continuation.py") --root $root --parr0t-root $Parr0tRoot
+$continuationArgs = @((Join-Path $root "tools/validate_continuation.py"), "--root", $root, "--parr0t-root", $Parr0tRoot)
+if (-not [string]::IsNullOrWhiteSpace($WorkshopRoot)) {
+    if (-not (Test-Path -LiteralPath $WorkshopRoot -PathType Container)) { throw "WorkshopRoot does not exist: $WorkshopRoot" }
+    $continuationArgs += @("--workshop-root", $WorkshopRoot)
+}
+& $Python @continuationArgs
 if ($LASTEXITCODE -ne 0) { throw "Continuation contract validation failed" }
 
 $temp = Join-Path ([IO.Path]::GetTempPath()) ("probably-translated-verify-" + [Guid]::NewGuid().ToString("N"))

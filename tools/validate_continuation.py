@@ -9,6 +9,8 @@ import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from managed_source_guard import verify_installed_sources
+
 
 TEXT_SUFFIXES = {".cs", ".csv", ".json", ".md", ".ps1", ".py", ".txt", ".xml"}
 
@@ -58,6 +60,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--parr0t-root", type=Path)
+    parser.add_argument("--workshop-root", type=Path)
     args = parser.parse_args()
     root = args.root.resolve()
     state = json.loads((root / "parr0t-continuation-state.json").read_text(encoding="utf-8"))
@@ -82,6 +85,11 @@ def main() -> int:
 
     managed = json.loads((root / "managed-ko-runtime.json").read_text(encoding="utf-8"))
     workshop = json.loads((root / "workshop-ko-runtime.json").read_text(encoding="utf-8"))
+    if args.workshop_root:
+        checks = verify_installed_sources(managed, args.workshop_root.resolve())
+        installed = sum(check.status == "verified" for check in checks)
+        absent = sum(check.status == "absent_optional" for check in checks)
+        print(f"managed-source-guard=ok installed={installed} absent_optional={absent}")
     contracts = state["contracts"]
     if managed["entry_count"] != contracts["managed_entries"] or sum(item["entry_count"] for item in managed["targets"].values()) != contracts["managed_entries"]:
         raise ValueError("managed entry contract mismatch")

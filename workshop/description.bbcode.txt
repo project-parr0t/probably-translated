@@ -28,9 +28,9 @@ Probably Stolen의 일부 창작마당 모드를 위한 통합 한국어 번역 
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369]Vanilla Food Expansion[/url] — v0.3.10
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547]Visible Item Durability[/url] — v0.2.18
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187]Better Liquid Scanner[/url] — v1.2.2
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311]Agri Expansion[/url] — v1.9.12
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311]Agri Expansion[/url] — v2.0.6
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208]Tobacco Expansion[/url] — v0.5.4.2
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698]Probably Regulars - AI Emporium[/url] — v1.3.54
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698]Probably Regulars - AI Emporium[/url] — v1.3.56
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602]Real Time Clock[/url] — v1.6.0
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482]CS Weapon Expansion[/url] — v0.5.43
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532]Perks: Probably Fun[/url] — v0.9.574
@@ -38,7 +38,7 @@ Probably Stolen의 일부 창작마당 모드를 위한 통합 한국어 번역 
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946]In-Game Mod Settings[/url] — v1.0.0
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049]Gunsmith Expansion[/url] — v2.1.1
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782]Probably Containers+[/url] — v1.0c
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447]Storage Bay Appearance[/url] — v1.2.7H3
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447]Storage Bay Appearance[/url] — v1.2.8H1
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803]Upper Levels[/url] — v0.9.21.12
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004]VA-11 Hall-A Fan MOD[/url] — v2.1.8
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583]Space Coffee[/url] — v4.0

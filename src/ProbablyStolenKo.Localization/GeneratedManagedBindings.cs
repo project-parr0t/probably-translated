@@ -30,9 +30,9 @@ namespace ProbablyStolenKo
     internal static class GeneratedManagedBindings
     {
         internal const string InventoryFingerprint = "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b";
-        internal const int RouteCount = 654;
-        internal const int BindingCount = 222;
-        internal const int StaticPatchBindingCount = 222;
+        internal const int RouteCount = 655;
+        internal const int BindingCount = 223;
+        internal const int StaticPatchBindingCount = 223;
         internal const int UnsupportedBindingCount = 0;
         internal const int RefreshBindingCount = 6;
         internal static IReadOnlyList<ManagedExactBinding> Create(string modId)
@@ -295,6 +295,7 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(181, 284, "AgriExpansion.AgriText", "SavedText", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_181), "Postfix", false, null));
             bindings.Add(new ManagedExactBinding(182, 285, "AgriExpansion.AgriText", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_182), "Postfix", false, null));
             bindings.Add(new ManagedExactBinding(183, 288, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_183), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(223, 308, "AgriExpansion.AgriCookbookText", "Review", "AgriExpansion.CookingRecipe, System.Boolean", new Type[] { ModReflect.FindType("AgriExpansion.CookingRecipe"), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_223), "Postfix", false, null));
         }
 
         private static void Add_7_0(ICollection<ManagedExactBinding> bindings)
@@ -2569,6 +2570,16 @@ namespace ProbablyStolenKo
         internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerBody", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 222);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_223
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(223);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookbookText", "Review", new Type[] { ModReflect.FindType("AgriExpansion.CookingRecipe"), typeof(global::System.Boolean) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 223);
     }
 
     internal static class GeneratedManagedRefresh

@@ -45,7 +45,7 @@
     "ai.emporium": {
       "workshop_item_id": "3832941698",
       "csv_path": "workshop-overlays/3832941698/Localization/ko.csv",
-      "entry_count": 2222
+      "entry_count": 2245
     },
     "gunsmith_expansion": {
       "workshop_item_id": "3834619049",
@@ -60,7 +60,7 @@
     "sfi.storageappearance": {
       "workshop_item_id": "3837983447",
       "csv_path": "workshop-overlays/3837983447/Localization/ko.csv",
-      "entry_count": 63
+      "entry_count": 71
     },
     "upper_levels": {
       "workshop_item_id": "3838944803",
@@ -95,5 +95,5 @@
       "entry_count": 41
     }
   },
-  "entry_count": 13028
+  "entry_count": 13059
 }

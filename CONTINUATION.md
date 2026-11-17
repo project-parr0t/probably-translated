@@ -2,7 +2,7 @@
 
 ## Current continuation point
 
-`parr0t-continuation-state.json` is the machine-readable continuation contract for release 1.0.32 at commit `c354bc5626c794ef28628fd4e66e0743e3c53d86`. It pins artifact and source-tree digests, payload counts, generated binding counts, the supported game version, the Parr0t SDK, and the canonical release-checkpoint baseline.
+`parr0t-continuation-state.json` is the machine-readable continuation contract for the current tracked release and commit. It pins artifact and source-tree digests, payload counts, generated binding counts, the supported game version, the Parr0t SDK, and the canonical release-checkpoint baseline.
 
 `parr0t-release-checkpoint.json` remains the canonical Parr0t `local-r30` fingerprint baseline. Releases after r30 contain reviewed title-specific corrections and additions that are authoritative in the tracked runtime JSON and CSV files. Do not reconstruct or overwrite those tracked translations from the older checkpoint. Use the checkpoint only to reuse unchanged source fingerprints; use `parr0t-continuation-state.json` and the tracked payloads as the current released state.
 
@@ -126,6 +126,32 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Expand-ManagedRoutes.p
 
 The command requires a read-only snapshot containing every managed target in the runtime and must finish with `unsupported=0`. A changed route or binding count requires matching runtime constants and continuation-state regeneration; an unsupported binding holds the update.
 
+
+## Installed managed-source identity gate
+
+An old translation inventory is never evidence for a newly installed managed assembly. Before declaring that a managed mod has no added or changed text, verify the exact installed binary:
+
+```powershell
+python tools/managed_source_guard.py `
+  --managed-runtime managed-ko-runtime.json `
+  --workshop-root "path/to/Steam/steamapps/workshop/content/4348910"
+```
+
+The guard verifies the SHA-256 and relative path recorded under each installed target's `source_identity`. Missing optional mods remain valid. An installed target with no binding, a missing bound assembly, or a digest mismatch fails closed and invalidates the previous completeness claim.
+
+On a mismatch, do not begin with another broad full-content scan. First compute the old/new source-identity delta, preserve reviewed candidates only where source and location identities are unchanged, then translate and review added or changed entries and remove stale routes. Regenerate and verify exact IL bindings before accepting the update.
+
+Only after the current source inventory, translations, and routes pass review may the reviewed assembly identities be recorded:
+
+```powershell
+python tools/managed_source_guard.py `
+  --managed-runtime managed-ko-runtime.json `
+  --workshop-root "path/to/Steam/steamapps/workshop/content/4348910" `
+  --record
+```
+
+`--record` acknowledges a reviewed source version; it is not a repair for stale translation data. Pass `-WorkshopRoot` to `Validate-Continuation.ps1` during every installed-mod update so this guard runs before build validation.
+
 ## Resume an update
 
 Run the exact installed-key coverage audit before and after changing Workshop overlays:
@@ -139,17 +165,18 @@ The final scan must report `workshop-coverage=ok`. It distinguishes native Korea
 
 1. Validate the fresh checkout before reading installed mod content.
 2. Treat all installed game and Workshop files as read-only.
-3. Inventory only installed supported mods and compare them with the tracked runtime JSON/CSV source state.
-4. Preserve reviewed entries whose source and location fingerprints are unchanged. Re-review changed or new entries only.
-5. Preserve translation keys, placeholders, control codes, identifiers, and runtime behavior.
-6. Update payload entry counts and matching C# expected constants.
-7. When managed routes changed, regenerate bindings from a complete supported-mod snapshot. Build once, then run `Validate-Continuation.ps1`; add `-VerifyGeneratedBindings` when that complete snapshot is available.
-8. After the signed release commit exists, refresh the continuation contract:
+3. Run the installed managed-source identity gate before reusing any prior inventory or claiming no additions.
+4. If a source identity changed, compute its source/location delta first. Preserve reviewed entries only when both identities are unchanged.
+5. Inventory only installed supported mods and compare them with the tracked runtime JSON/CSV source state.
+6. Preserve translation keys, placeholders, control codes, identifiers, and runtime behavior.
+7. Update payload entry counts and matching C# expected constants.
+8. When managed routes changed, regenerate bindings from a complete supported-mod snapshot. Build once, then run `Validate-Continuation.ps1`; add `-VerifyGeneratedBindings` when that complete snapshot is available.
+9. After the signed release commit exists, refresh the continuation contract:
 
 ```powershell
 python tools/update_continuation_state.py --release-commit <full-release-commit>
 ```
 
-9. Run `Validate-Continuation.ps1` again and commit the refreshed continuation state separately. Never claim the older canonical checkpoint contains post-r30 corrections.
+10. Run `Validate-Continuation.ps1` again and commit the refreshed continuation state separately. Never claim the older canonical checkpoint contains post-r30 corrections.
 
 Keep inspection data and generated intermediates outside this repository. Publish only title-specific bridge source, approved runtime data and assets, canonical Parr0t release metadata, and the continuation contract.
