@@ -88,17 +88,19 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
 
 ## Required Workshop description sync
 
-`workshop/description.bbcode.txt` is the canonical Workshop description. Steam stores localized descriptions independently, so changing only the SteamCMD VDF leaves stale locale-specific copies. After every description or supported-mod-list change, synchronize the canonical text to every Steam platform language. The command updates descriptions only; it does not upload content, change tags, replace the preview, or launch the game.
+`workshop/description.bbcode.txt` is the canonical Workshop description. Steam stores localized descriptions independently, so changing only the SteamCMD VDF leaves stale locale-specific copies. After every description or supported-mod-list change, synchronize the canonical text to every Steam platform language. The pinned publisher uploads the already staged content once for the default language, then updates localized descriptions without changing tags, title, preview, or launching the game.
 
-Keep the Steam client running and logged in as the Workshop item owner, then run:
+Keep the Steam client running and logged in as the Workshop item owner. Initialize the pinned publisher after a fresh clone, review the 31-language dry-run, then submit:
 
 ```powershell
-dotnet run --project tools/WorkshopDescriptionSync/WorkshopDescriptionSync.csproj -- `
-  --description workshop/description.bbcode.txt
-# Review the 31-language dry-run, then submit:
-dotnet run --project tools/WorkshopDescriptionSync/WorkshopDescriptionSync.csproj -- `
-  --description workshop/description.bbcode.txt `
-  --submit
+git submodule update --init --recursive
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Sync-WorkshopDescriptions.ps1 `
+  -DescriptionPath workshop/description.bbcode.txt `
+  -ContentPath path/to/Workshop/staging/content
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/Sync-WorkshopDescriptions.ps1 `
+  -DescriptionPath workshop/description.bbcode.txt `
+  -ContentPath path/to/Workshop/staging/content `
+  -Submit
 ```
 
 Verify at least `english`, `koreana`, `schinese`, and `japanese` on the public Workshop page after submission. A release is incomplete if any localized description differs from the canonical supported-mod list.

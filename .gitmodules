@@ -1,0 +1,3 @@
+[submodule "tools/steam-workshop-cli"]
+	path = tools/steam-workshop-cli
+	url = https://github.com/ewolf-studio/steam-workshop-cli.git
