@@ -1,12 +1,12 @@
 {
   "artifacts": {
-    "ProbablyStolenKo.Localization.dll": "09ff22be2ae5d247ea0b8f99570afa3d71e0d91f57d5cd8f97aa088b2f671821",
+    "ProbablyStolenKo.Localization.dll": "885c0e6dd7fe757d78179839eedfcb0eac392db731b2ebf954c540bb77decace",
     "managed-ko-runtime.json": "4286f9432a10ff431d46fee3f52faa362c4e43a1f7bc51cc7349ae9e8f461505",
-    "manifest.xml": "d0785203b4b6a5d33baff096a5b8a9a42dc02edd623c0092644a14cd4a9bf811",
+    "manifest.xml": "da5267efdab50092412159376760b9a41089485ea37002778814cea9e3f9a1ff",
     "parr0t-release-checkpoint.json": "3ccb0d7fadbe737e71c0908713d65d0ba4c69d8b56e5b5ac04ad618e82483c8e",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
     "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "2ac8d31d5b6fc21d7c1f99863e06459a2bd0805593774136639425a21df0edef",
-    "workshop-ko-runtime.json": "6209437042070222b4f1da436caa924987fdbf7c64d9fc681b5a8572bc5cb2da"
+    "workshop-ko-runtime.json": "3ac8d633888388a80d31c100b2943e571ab609b3e3b4bcba1f3d17db856443b1"
   },
   "contracts": {
     "generated_bindings": 222,
@@ -16,7 +16,7 @@
     "generated_unsupported": 0,
     "managed_entries": 26883,
     "managed_targets": 29,
-    "workshop_entries": 12530,
+    "workshop_entries": 13028,
     "workshop_mods": 17
   },
   "dependencies": {
@@ -32,9 +32,9 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "7541ceeb3ab8525092d3d48b91b5b832fd91772b",
+    "commit": "832ff1605348b98e6af79c4edf6374dcfce90fad",
     "game_version": "0.46D",
-    "version": "1.0.33"
+    "version": "1.0.34"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
@@ -48,7 +48,7 @@
     },
     "workshop-overlays": {
       "files": 17,
-      "sha256": "78f5b422349fefdacd104165382c98345827bdab1fd2d83898656efe847ef60b"
+      "sha256": "4f371c6a3cdfa5a978a79fe8ec88b8310767e94f2af14bf41a1032e75c94f450"
     }
   }
 }
