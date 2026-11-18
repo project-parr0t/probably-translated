@@ -1,40 +1,159 @@
 {
   "artifacts": {
-    "ProbablyStolenKo.Localization.dll": "2b0ba276c4c77a223d95d70f60c7b9e658bdafbd1660084c61f2a29ff806fbdd",
-    "managed-ko-runtime.json": "c409641f7355dbcb5fee5b7788f03a4c380bd9f5f7ccce69a8ba661a08bede11",
-    "manifest.xml": "da5267efdab50092412159376760b9a41089485ea37002778814cea9e3f9a1ff",
-    "parr0t-release-checkpoint.json": "3ccb0d7fadbe737e71c0908713d65d0ba4c69d8b56e5b5ac04ad618e82483c8e",
+    "CONTINUATION.md": "e3c2a99190e9c7041d4aef6e986085a0381b73ae75a6a920c9de4695835503bc",
+    "ProbablyStolenKo.Localization.dll": "5535ba5724ee2e459c7fb9a7cb1399d6dd9743999725362aec21488402d06e6f",
+    "README.md": "fe1611dc818e5ea6968e63bf0afd6d48f9bf5fe7fd3903150c8bb6000aa90042",
+    "managed-ko-runtime.json": "0e8d2daf7b304a65cff30c3a8a10c2b27aba1a04698dc869c4bb391e6fafe579",
+    "manifest.xml": "4b53683d6320ca5b856ea388abc489f81c06d278552b9e8ca3a10605c1eba1eb",
+    "parr0t-release-checkpoint.json": "ac617da5feac0c7f7cb1c59a36a54a15307f66d1915f57b1e2ca15dc1972b135",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
-    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "fb8eb1a2cc9faeca5bb598c98c531dc6a9a288486f54c58d5a59e1c1056e779a",
-    "workshop-ko-runtime.json": "f25a3d04f45f856af47d28e2bb5432cc23f00a6c7fecaabb44ee8ea6c29f31d6"
+    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "9abb33d849e6e40e3387004ad7d48a29f8ebec39e52f8dd72b565345feb10a4b",
+    "src/ProbablyStolenKo.Localization/ManagedDisplayOverlay.cs": "fbeeae41c7bc0d37765943dba518ecd18d25e5b8e5cd403c0c85fa7b25944d0e",
+    "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "c27c7152957951f7e72ff9ae77986f10687e755ca66622628d666e5715c3d9c2",
+    "src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csproj": "9d672fbec6c147d75cb2e51f3118b503a8a83332e1cd4556f1cf53bc3ee52ad2",
+    "src/ProbablyStolenKo.Localization/ProbablyStolenKoBridge.cs": "2d695c7c5eb1191d37f8ff280d0bdea70872dcddddc87671507d6ad6d93f8bb7",
+    "src/ProbablyStolenKo.Localization/SpaceCoffeeSceneOverlay.cs": "fa4f8538a6b6aa17c9010c2b7ed3dad9b3ded3caad4bc73937459e42d5394bc6",
+    "src/ProbablyStolenKo.Localization/WorkshopOverlay.cs": "d809fc0fb7785cff9d3ab1961b9af7a310a39cb59002dd61cef9e019661d0509",
+    "tools/Release-TestGate.ps1": "bba3d8f72bb9f0c695796280528fa996be3301dd0bc935f8de39efea63513d62",
+    "workshop-ko-runtime.json": "43f47649d60308588e8863f76e324c34dbbe7730de7e1019aa5638c0f1553cd0",
+    "workshop/description.bbcode.txt": "2b61b1fcb6ccbdab55ccfb07b4bd827ab8f5b5aa7e8df34b2a6e27f76cd14653"
   },
   "contracts": {
-    "generated_bindings": 223,
+    "generated_bindings": 274,
     "generated_refresh": 6,
-    "generated_routes": 655,
-    "generated_static_patches": 223,
+    "generated_routes": 594,
+    "generated_static_patches": 274,
     "generated_unsupported": 0,
-    "managed_entries": 26915,
-    "managed_targets": 29,
-    "workshop_entries": 13059,
-    "workshop_mods": 17
+    "managed_entries": 25327,
+    "managed_targets": 33,
+    "workshop_entries": 14155,
+    "workshop_mods": 18
   },
   "dependencies": {
     "dotnet_target_framework": "netstandard2.1",
     "mono_cecil_nupkg_sha256": "d2a23832aaa948ba9a01acc42b5726e34c5f995958f1b30d45c0e7c70b3a72d5",
     "mono_cecil_version": "0.11.6"
   },
+  "localization_review": {
+    "assigned_model_only": true,
+    "categorical_exclusions": {
+      "agri": {
+        "current_source_absent_route_entries": 647,
+        "dead_dynamic_T_helper": 1
+      },
+      "gunmod-tarkov": {
+        "current_source_absent": 1
+      },
+      "probably-helpful": {
+        "reviewed_metadata_and_non_runtime_artwork_identities": 5,
+        "runtime_routes": 0
+      }
+    },
+    "date": "2026-11-18",
+    "external_network_content_source_used": false,
+    "external_translation_tool_used": false,
+    "fresh_repairs": {
+      "assigned_model_only": true,
+      "date": "2026-11-18",
+      "external_network_content_source_used": false,
+      "external_translation_tool_used": false,
+      "local_read_only_sources_only": true,
+      "provenance": "DIRECT_ASSIGNED_MODEL",
+      "targets": {
+        "traits_probably_fun": {
+          "current_assembly_sha256": "94fe4eb71158a5938d3d61bd9af58b147d02e648b7bfaa5327b01f9bd3402448",
+          "native_korean_visible_identities": 613,
+          "prior_bound_assembly_sha256": "b16205c930f0c9a298568fe9d51dc9ed0104b3beeb69d4bf409bc32adf3213c2",
+          "reviewed_candidate_count": 0,
+          "source_identity_delta": {
+            "added": 0,
+            "changed": 0,
+            "removed": 0
+          }
+        },
+        "upper_levels": {
+          "key": "act1.dex.bye",
+          "review_fingerprint": "a3e06092f0dee9a31cb0b5021a6a27b8e5b8b2ffa3a3a7bc3f0dd1238cca2770",
+          "review_status": "approved",
+          "reviewed_candidate_count": 1,
+          "source": "Right, I'm heading back. Call the station if anything comes up.",
+          "source_identity_delta": {
+            "added": 1,
+            "changed": 0,
+            "removed": 0
+          },
+          "translation": "좋습니다. 저는 이만 돌아가겠습니다. 무슨 일 생기면 경찰서로 전화하십시오."
+        }
+      }
+    },
+    "integrated_counts": {
+      "agri": 7023,
+      "charles-chemistry": 1527,
+      "cs-weapon-case": 3671,
+      "fishing": 3463,
+      "gunmod-tarkov": 118,
+      "probably-flyers": 898,
+      "probably-helpful": 5,
+      "space-coffee": 138,
+      "station-events": 289,
+      "upper-levels": 196
+    },
+    "local_read_only_sources_only": true,
+    "provenance": "DIRECT_ASSIGNED_MODEL",
+    "review_artifacts": {
+      "agri": {
+        "file": "agri/reviewed-direct.json",
+        "sha256": "ba3d2219878621766b2f32f32022faf106d64501ca0da95f4e2a5739ecf622a4"
+      },
+      "charles-chemistry": {
+        "file": "charles-chemistry/reviewed-direct.json",
+        "sha256": "fbb9a38ee168b95b63aa0f731cc83656183120c3a689b75d65def9ab86079412"
+      },
+      "cs-weapon-case": {
+        "file": "cs-weapon-case/reviewed-direct.json",
+        "sha256": "134bdb91181549c4038ea45e59ee8efb42a422023823ebd8aec736c750d7ae50"
+      },
+      "fishing": {
+        "file": "fishing/reviewed-direct.json",
+        "sha256": "a6efe009e725c66c8e13da669428f8f90964aeb02e1cf46392bc1088030bc193"
+      },
+      "gunmod-tarkov": {
+        "file": "gunmod-tarkov/reviewed-direct.json",
+        "sha256": "d82159d92ad3b1376a8a5c4fb476d343631aa204394dbad472d608471d1b71a2"
+      },
+      "probably-flyers": {
+        "file": "probably-flyers/reviewed-direct.json",
+        "sha256": "a79c79b2f3b11a49a39ebbfb3e782827fbc909a1da91a36b4d6d9a4bde3cbf70"
+      },
+      "probably-helpful": {
+        "file": "probably-helpful/reviewed-direct.json",
+        "sha256": "26bcbe4af8d32825582d2b5e54a218e1b45adb2d544d790e2b87663d7b04660b"
+      },
+      "space-coffee": {
+        "file": "space-coffee/reviewed-direct.json",
+        "sha256": "557742750097f29865bd73766fec4fce468adfe989c764803bb3556113bf3ab8"
+      },
+      "station-events": {
+        "file": "station-events/reviewed-direct.json",
+        "sha256": "349577e2c559f1418a16ce412c0ba36345aa3a13c4f99d708bc1d62df3df489c"
+      },
+      "upper-levels": {
+        "file": "upper-levels/reviewed-direct.json",
+        "sha256": "bb6869b4c46a5ca37985ff86359c71b848253fac61dce3ba4ae6c5790cf3a285"
+      }
+    }
+  },
   "parr0t": {
     "branch": "sdk-unity-2021.3",
     "checkpoint_release_id": "local-r30",
-    "checkpoint_scope": "Canonical r30 fingerprint baseline. Tracked runtime JSON and CSV files are the authoritative approved translation state for post-r30 releases.",
-    "checkpoint_target_count": 13921,
+    "checkpoint_scope": "Direct assigned-model update wave 2026-11-18. The tracked runtime JSON, CSV, artwork, generated bindings, and checkpoint entries are the authoritative current state; source-absent exclusions are not routed.",
+    "checkpoint_target_count": 24908,
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "db9227828a59ab677b4ff34d42844c678dc21c6d",
+    "commit": "6cd77671dab8e660f20f9074304eb0f7248a530d",
     "game_version": "0.46D",
-    "version": "1.0.34"
+    "version": "1.0.35"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
@@ -42,13 +161,17 @@
       "files": 2,
       "sha256": "15bc36ad8c1baef7dbc8a2035be48bd9e3919a2c2b4322eb110b0eeecb2a4183"
     },
+    "space-coffee": {
+      "files": 1,
+      "sha256": "4db63e25f39c860c85e7cb69cf59158812d6d93b41c0c0ceff5a02eeb6c24faa"
+    },
     "va11-recipes": {
       "files": 29,
       "sha256": "6f12b7545d9916b55602cabe8fd3edf79a998c7c83f2f83045e4c616f6fffc58"
     },
     "workshop-overlays": {
-      "files": 17,
-      "sha256": "60775784edc5f6ce13d455c0f2b6039301171f06365189d2d4732eff90ea899e"
+      "files": 18,
+      "sha256": "8d11c3f6a5dd4332f9a664eaf61e5fb6fd78488fe73388f89d422c0e0d5c4812"
     }
   }
 }

@@ -33,12 +33,12 @@ status_liquid_error,준비되지 않음
 status_done_brew,완료: {0} {1}mL
 status_water_not_pure_liquid,혼합 액체
 status_output_other_grade,출력물에 다른 등급의 액체가 있습니다(비어 있거나 {0}이어야 함)
-grade_ditch,폐수 커피
+grade_ditch,도랑 커피
 grade_bad,간신히 마실 만함
 grade_handmade,수제 커피
 grade_commercial,상업용 커피
 grade_specialty,스페셜티 커피
-panel_espresso,커피 컵
+panel_espresso,커피잔
 status_need_more_water,물이 부족합니다
 status_done_espresso,완료
 espresso_name_graded,에스프레소 ({0})
@@ -57,15 +57,15 @@ status_no_empty_cup,재료가 부족합니다
 order_card_name,커피잔 주문 카드
 order_card_desc,빈 커피잔과 빈 유리잔을 주문할 수 있는 공급업체 카드입니다. 주문한 상품은 이후 영업일에 매장 앞 카운터로 배송됩니다.
 order_card_paper_title,커피잔 주문
-order_card_paper_body,잔과 유리컵을 주문하세요.\n다음 영업일에 배송됩니다.
+order_card_paper_body,커피잔과 유리잔을 주문하세요.\n다음 영업일에 배송됩니다.
 order_card_paper_btn,주문 창 열기
 order_ui_title,커피잔 주문
 order_ui_price_hint,클릭당 15크레딧으로 3개를 주문합니다. 배송 대기 중인 커피잔과 유리잔은 최대 18개입니다. 다음 영업일에 문을 연 뒤 배송됩니다.
 order_btn_close,닫기
 order_pending_none,배송 대기 중인 주문이 없습니다.
-order_pending_line,대기 중: 컵 {0}개(주문일: {1}일)
-order_msg_ok,컵 {0}개를 주문했습니다({1}크레딧). 이후 영업일에 문을 연 뒤 배송됩니다.
-order_msg_cap,3개 묶음을 주문할 공간이 부족합니다(컵과 유리잔 합계 최대 {0}개). 배송을 기다려 주세요.
+order_pending_line,대기 중: 커피잔 {0}개(주문일: {1}일)
+order_msg_ok,커피잔 {0}개를 주문했습니다({1}크레딧). 이후 영업일에 문을 연 뒤 배송됩니다.
+order_msg_cap,3개 묶음을 주문할 공간이 부족합니다(커피잔과 유리잔 합계 최대 {0}개). 배송을 기다려 주세요.
 order_msg_fail,주문에 실패했습니다. F8 콘솔을 확인하세요.
 order_balance_line,보유 현금: {0}
 order_balance_unknown,보유 현금: (확인할 수 없음)
@@ -97,7 +97,7 @@ latte_desc,에스프레소와 필크로 만든 라테입니다.
 status_done_latte,완료
 status_need_milk_or_glass,재료가 부족합니다
 juice_americano_name,주스 아메리카노
-juice_americano_desc,아메리카노와 푸이스로 만든 주스 아메리카노입니다.
+juice_americano_desc,아메리카노와 퓨스로 만든 주스 아메리카노입니다.
 affogato_name,아포가토
 affogato_desc,커피와 바닐라 아이스크림으로 만든 아포가토입니다.
 status_done_juice_americano,완료
@@ -115,7 +115,7 @@ recipe_note_line02,에스프레소: 볶은 원두 + 빈 커피잔 + 물.
 recipe_note_line03,아메리카노: 에스프레소 + 빈 유리잔 + 물.
 recipe_note_line04,라테: 에스프레소 + 필크.
 recipe_note_line05,아포가토: 에스프레소 또는 아메리카노 + 바닐라 아이스크림.
-recipe_note_line06,주스 아메리카노: 아메리카노 + 푸이스.
+recipe_note_line06,주스 아메리카노: 아메리카노 + 퓨스.
 recipe_note_line07,모카: 라테 + 캣 초콜릿 바.
 recipe_note_line08,비엔나 커피: 라테 + 바닐라 아이스크림.
 recipe_note_line09,쥐똥 커피: 쥐똥 원두 + 빈 커피잔 + 물. 생원두와 동물 배설물을 1:1로 함께 볶으면 쥐똥 원두가 됩니다.

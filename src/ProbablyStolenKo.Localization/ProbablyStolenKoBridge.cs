@@ -25,6 +25,7 @@ namespace ProbablyStolenKo
         private ManagedPatchLoadingOverlay _patchLoadingOverlay;
         private ManifestOverlay _manifestOverlay;
         private Va11RecipeOverlay _va11RecipeOverlay;
+        private SpaceCoffeeSceneOverlay _spaceCoffeeSceneOverlay;
         private ModLog _log;
         private bool _enabled;
         private bool _activated;
@@ -41,6 +42,7 @@ namespace ProbablyStolenKo
             _managedOverlay = new ManagedLiteralOverlay(_log);
             _manifestOverlay = new ManifestOverlay();
             _va11RecipeOverlay = new Va11RecipeOverlay(_manifest);
+            _spaceCoffeeSceneOverlay = new SpaceCoffeeSceneOverlay(_manifest);
         }
 
         public void OnEnable()
@@ -181,6 +183,18 @@ namespace ProbablyStolenKo
                     _log.Error("VA-11 recipe overlay failed. " + error.GetType().Name);
                 }
             }
+            if (StringComparer.Ordinal.Equals(loaded.Manifest.ID, "space_coffee"))
+            {
+                try
+                {
+                    _spaceCoffeeSceneOverlay.Apply(loaded.Manifest.ID);
+                }
+                catch (Exception error)
+                {
+                    _log.Error("Space Coffee scene overlay failed. " + error.GetType().Name);
+                }
+            }
+
 
 
             ManagedTarget manifestTarget;
@@ -227,6 +241,7 @@ namespace ProbablyStolenKo
             _patchLoadingOverlay = null;
             _managedOverlay?.Restore();
             _va11RecipeOverlay?.Restore();
+            _spaceCoffeeSceneOverlay?.Restore();
             _manifestOverlay?.Restore();
             WorkshopOverlayEngine.Restore(_workshopCatalog, _workshopOriginals);
         }

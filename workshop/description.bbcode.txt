@@ -18,7 +18,7 @@ Probably Stolen의 일부 창작마당 모드를 위한 통합 한국어 번역 
 [h2]지원 모드[/h2]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417]Better Water Trading[/url] — v1.13.1
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153]GoFishing! (Fish Expansion)[/url] — v2.5.3
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153]GoFishing! (Fish Expansion)[/url] — v2.5.4
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666]Smart Inventory Arrange[/url] — v3.17.62-mono.1
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725]Pen's Pipette[/url] — v1.1.4
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904]Brewing Expansion[/url] — v3.6.8.5
@@ -28,10 +28,13 @@ Probably Stolen의 일부 창작마당 모드를 위한 통합 한국어 번역 
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369]Vanilla Food Expansion[/url] — v0.3.10
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547]Visible Item Durability[/url] — v0.2.18
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187]Better Liquid Scanner[/url] — v1.2.2
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831650864]Gun Mod Tarkov[/url] — v1.5.4
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311]Agri Expansion[/url] — v2.0.6
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208]Tobacco Expansion[/url] — v0.5.4.2
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698]Probably Regulars - AI Emporium[/url] — v1.3.56
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602]Real Time Clock[/url] — v1.6.0
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833522385]Probably Flyers[/url] — v0.7.0
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506]Station Events[/url] — v1.3.0
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482]CS Weapon Expansion[/url] — v0.5.43
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532]Perks: Probably Fun[/url] — v0.9.574
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038]Combat Contract[/url] — v0.4.12
@@ -39,14 +42,15 @@ Probably Stolen의 일부 창작마당 모드를 위한 통합 한국어 번역 
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049]Gunsmith Expansion[/url] — v2.1.1
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782]Probably Containers+[/url] — v1.0c
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447]Storage Bay Appearance[/url] — v1.2.8H1
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803]Upper Levels[/url] — v0.9.21.12
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803]Upper Levels[/url] — v0.9.23.6
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004]VA-11 Hall-A Fan MOD[/url] — v2.1.8
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583]Space Coffee[/url] — v4.0
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349]Better UV Lamp[/url] — v1.0.1
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3836727677]Better Box Selection[/url] — v1.0.2
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808]Eleanor: Bring Her Back[/url] — v0.7.12
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650]Deep Space Mine: Probably Crystal[/url] — v0.2.1
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650]Deep Space Mine: Probably Crystal[/url] — v0.3.0
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040]Deep Space Clinic 2077[/url] — v0.1.0-ui.227
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3838230589]Probably Helpful[/url] — v1.0
 [/list]
 
 [h2]함께 사용하는 추천 모드 구성[/h2]

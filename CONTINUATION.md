@@ -2,9 +2,19 @@
 
 ## Current continuation point
 
-`parr0t-continuation-state.json` is the machine-readable continuation contract for the current tracked release and commit. It pins artifact and source-tree digests, payload counts, generated binding counts, the supported game version, the Parr0t SDK, and the canonical release-checkpoint baseline.
+`parr0t-continuation-state.json` is the machine-readable continuation contract for the current tracked release and commit. It pins artifact and source-tree digests, payload counts, generated binding counts, the supported game version, the Parr0t SDK, and the current release-checkpoint inventory.
 
-`parr0t-release-checkpoint.json` remains the canonical Parr0t `local-r30` fingerprint baseline. Releases after r30 contain reviewed title-specific corrections and additions that are authoritative in the tracked runtime JSON and CSV files. Do not reconstruct or overwrite those tracked translations from the older checkpoint. Use the checkpoint only to reuse unchanged source fingerprints; use `parr0t-continuation-state.json` and the tracked payloads as the current released state.
+`parr0t-release-checkpoint.json` retains release ID `local-r30` for SDK compatibility, but its source inventory now includes the directly reviewed 2026-11-18 target identities. The tracked runtime JSON and CSV files remain authoritative for runtime composition; the checkpoint supplies deterministic source/target fingerprints and must be updated together with those payloads rather than used to reconstruct them.
+
+## 2026-11-18 direct-model review inventory
+
+The ten-target update wave is recorded under `localization_review` in `parr0t-continuation-state.json`. Its per-target `reviewed-direct.json` SHA-256 values, integrated counts, direct assigned-model provenance, and categorical source-absent exclusions are the deterministic resume boundary. Only those reviewed-direct artifacts were accepted; the deleted contaminated Agri artifact is not a source and must not be recreated.
+
+Resume from the tracked runtime JSON, CSV overlays, generated bindings, Space Coffee artwork, and release-checkpoint identities. Do not reintroduce Agri's 647 source-absent route entries or dead dynamic helper, and do not route Gun Mod Tarkov's one source-absent row. Probably Helpful owns no concrete runtime wording: its reviewed package/preview identities remain inventory evidence rather than invented runtime localization keys, while the external Containers+ lookup text stays with the existing Containers+ overlay.
+
+The managed source guard binds the current assemblies for all ten targets, including identity-only managed records for CSV-backed or helper-only mods. A changed assembly digest invalidates the corresponding reviewed inventory before any candidate reuse.
+
+The post-wave deterministic repair is recorded under `localization_review.fresh_repairs`. The refreshed Perks: Probably Fun assembly retained the already reviewed localization identity set (`added=0`, `changed=0`, `removed=0`) and all 613 visible identities remain covered by its native Korean catalog. Upper Levels added `act1.dex.bye`; its directly reviewed Korean overlay entry and review fingerprint are pinned in the release checkpoint.
 
 ## Required inputs
 

@@ -166,12 +166,19 @@ namespace ProbablyStolenKo
                 source = translation;
                 return;
             }
-            if (!ContainsHangul(source) && !ContainsClinicDynamicLiteral(source)) return;
+            if (!ContainsHangul(source) && !ContainsCjk(source) && !ContainsClinicDynamicLiteral(source)) return;
             foreach (var replacement in active._embeddedSnapshot)
             {
                 if (source.IndexOf(replacement.Source, StringComparison.Ordinal) < 0) continue;
                 source = source.Replace(replacement.Source, replacement.Translation);
             }
+        }
+
+        private static bool ContainsCjk(string source)
+        {
+            foreach (var value in source)
+                if (value >= '\u3400' && value <= '\u9FFF') return true;
+            return false;
         }
 
         private static bool ContainsClinicDynamicLiteral(string source)

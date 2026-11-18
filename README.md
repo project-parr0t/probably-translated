@@ -30,10 +30,13 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Vanilla Food Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369)
 - [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547)
 - [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187)
+- [Gun Mod Tarkov](https://steamcommunity.com/sharedfiles/filedetails/?id=3831650864)
 - [Agri Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311)
 - [Tobacco Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208)
 - [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698)
 - [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602)
+- [Probably Flyers](https://steamcommunity.com/sharedfiles/filedetails/?id=3833522385)
+- [Station Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506)
 - [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482)
 - [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532)
 - [Combat Contract](https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038)
@@ -48,6 +51,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Better Box Selection](https://steamcommunity.com/sharedfiles/filedetails/?id=3836727677)
 - [Eleanor: Bring Her Back](https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808)
 - [Deep Space Mine: Probably Crystal](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650)
+- [Probably Helpful](https://steamcommunity.com/sharedfiles/filedetails/?id=3838230589)
 - [Deep Space Clinic 2077](https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040)
 
 ## 다른 번역 모드들과 겹쳐도 작동하나요?

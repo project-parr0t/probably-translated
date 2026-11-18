@@ -28,9 +28,9 @@ namespace ProbablyStolenKo
 
     internal sealed class WorkshopPayloadCatalog
     {
-        private const string ExpectedFingerprint = "0265a9d056b47608a500172bcdc86c5f93158bdcc28686d380c54132ff086876";
-        private const int ExpectedEntries = 13059;
-        private const int ExpectedMods = 17;
+        private const string ExpectedFingerprint = "c2061b5306b9dc01564d8bc1363a8df4f31b61e2d3a9cbec094dd646995a5d07";
+        private const int ExpectedEntries = 14155;
+        private const int ExpectedMods = 18;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -50,6 +50,7 @@ namespace ProbablyStolenKo
                 ["combat_contracts"] = "3834364038",
                 ["va11halla"] = "3831732004",
                 ["space_coffee"] = "3834667583",
+                ["probably_flyers"] = "3833522385",
                 ["local.uv-coverage"] = "3835898349",
             };
 

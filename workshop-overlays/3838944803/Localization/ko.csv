@@ -1,4 +1,4 @@
-﻿ui_upper_mode,상층 구역 모드
+ui_upper_mode,상층 구역 모드
 ui_upper_mode_tooltip,"하층 구역 대신 정거장 상층 구역에 상점을 연다.
 부동산과 임대료가 더 비싸다. 상층 구역 고객은 더 자주 찾아오고 더 많이 쓴다.
 연락책은 조 와일드의 사촌인 카이 와일드다."
@@ -990,14 +990,14 @@ broker.due.3,파티용 등급 아이스 {0}개. 어디 있지?
 broker.due.c_give,[아이스 {0}개 넘기기]
 broker.due.c_fail,[아직 준비되지 않았어요]
 broker.due.ok,좋아. 시간 잘 지키는 사람이 마음에 들어.
-broker.due.fail1,"유감이군. 내 업계에선 기한을 놓치면 두 번째 기회는 없어."
+broker.due.fail1,유감이군. 내 업계에선 기한을 놓치면 두 번째 기회는 없어.
 broker.due.fail2,"그건 그렇고, 경찰서에 있는 친구 몇 명이 네 가게를 궁금해하더군."
 broker.v1.1,좋은 저녁입니다. 오늘 밤 전망대에서 파티가 열립니다. 손님들 눈이 까다롭죠.
 broker.v1.2,새로운 건 있나?
 broker.v2.1,또 만났군. 지난번 물건이 반응이 좋았어. 어떤 분이 네 물건을 콕 집어 찾더군.
 broker.v2.2,뭘 갖고 있는지 보자고.
 broker.v3.1,진정해. 그냥 지나가다 들렀어. 진열대를 좀 보자고.
-broker.v3.2,"결정 등급이라면 가격은 협상할 수 있어."
+broker.v3.2,결정 등급이라면 가격은 협상할 수 있어.
 broker.ask,늘 그렇듯 등급별로 값을 치르지.
 broker.more,더 있나?
 broker.c_crystal,[결정 등급 1개 판매 ({0} 크레딧)]
@@ -1006,10 +1006,10 @@ broker.c_street,[거리 등급 1개 판매 ({0} 크레딧)]
 broker.c_none,[이상입니다]
 broker.sold,좋아.
 broker.bye,거래 즐거웠네.
-broker.bye_none,"아무것도 없다고? 그럼 다음에 보지. 파티는 기다려 주지 않아."
+broker.bye_none,아무것도 없다고? 그럼 다음에 보지. 파티는 기다려 주지 않아.
 item_ul_perfume_desk_name,뉴로 향수 조합대
-item_ul_perfume_desk_desc,"천연 꽃으로 뉴로 향수를 조합합니다. 프린터는 분자는 복제해도 원산지는 복제할 수 없습니다."
-item_ul_perfume_desk_flavor,"온실 목재로 만든 조합대에 머리카락처럼 가는 증류관이 달려 있습니다. 정거장의 모든 향수는 출력품입니다. 이곳에서 나오는 향은 흙내음을 품고 있습니다."
+item_ul_perfume_desk_desc,천연 꽃으로 뉴로 향수를 조합합니다. 프린터는 분자는 복제해도 원산지는 복제할 수 없습니다.
+item_ul_perfume_desk_flavor,온실 목재로 만든 조합대에 머리카락처럼 가는 증류관이 달려 있습니다. 정거장의 모든 향수는 출력품입니다. 이곳에서 나오는 향은 흙내음을 품고 있습니다.
 item_ul_perfume_desk_note_name,향수 조합대 설명서
 item_ul_perfume_desk_note_flavor,"천연 꽃을 꽃 투입구에 넣고, 제조법을 고른 뒤 배터리를 연결하세요.
 단일 노트: 꽃 2개, 하룻밤, ‘단일’ 향수 1병.
@@ -1017,14 +1017,14 @@ item_ul_perfume_desk_note_flavor,"천연 꽃을 꽃 투입구에 넣고, 제조�
 제조가 시작되면 꽃이 소모됩니다. 제조 도중 제조법을 바꿔도 달라지는 건 없습니다. 전력 없는 밤에는 작업이 멈추지만 꽃은 사라지지 않습니다."
 item_ul_reactor_case_name,콜드 크리스탈 반응기
 item_ul_reactor_case_desc,콜드 크리스탈 반응기가 들어 있는 밀봉 장비 케이스. 밀수품 · 고급.
-item_ul_reactor_case_flavor,"헬리오스 연구소의 폐기 번호가 찍힌 봉인이 붙은 은회색 장비 케이스. 보기보다 무겁습니다."
+item_ul_reactor_case_flavor,헬리오스 연구소의 폐기 번호가 찍힌 봉인이 붙은 은회색 장비 케이스. 보기보다 무겁습니다.
 item_ul_reactor_case_note_name,반응기 설명서
 item_ul_reactor_case_note_flavor,"봉인 상태: 봉인이 온전합니다. 열리지 않으며 아무것도 넣을 수 없습니다. 테오와의 일이 해결될 때까지 그저 상자일 뿐입니다.
 봉인 해제: 결정 전구체 1개와 응축 탭 1개가 한 배치입니다. 배치마다 콜드 크리스탈 2개를 얻습니다. 밤마다 최대 4배치까지 가능합니다.
 안전한 투입량은 2배치입니다. 추가 배치마다 사고 확률이 높아집니다. 사고가 나면 시약이 망가지고, 반응기는 하룻밤 수리를 위해 멈추며, 증거가 남습니다."
 item_ul_crystallizer_name,극저온 결정기
 item_ul_crystallizer_desc,콜드 크리스탈을 천천히 아이스로 가공합니다. 설정이 높을수록 오래 걸리지만 더 높은 등급을 얻습니다. 밀수품 · 고급.
-item_ul_crystallizer_flavor,"문에 서리가 끼어도 녹지 않는 길고 좁은 금속 캐비닛. 눈금은 세 개지만 표시창은 없습니다."
+item_ul_crystallizer_flavor,문에 서리가 끼어도 녹지 않는 길고 좁은 금속 캐비닛. 눈금은 세 개지만 표시창은 없습니다.
 item_ul_crystallizer_note_name,결정기 설명서
 item_ul_crystallizer_note_flavor,"콜드 크리스탈을 투입구에 넣고 응축 설정을 고른 뒤 배터리를 연결하세요.
 설정 I - 약하게: 하룻밤, 거리 등급.
@@ -1033,8 +1033,8 @@ item_ul_crystallizer_note_flavor,"콜드 크리스탈을 투입구에 넣고 응
 설정을 바꿔도 이미 기다린 밤은 그대로 계산됩니다.
 갓 만든 제품은 순도 보고서가 없어 구매자가 절반만 지불합니다. 먼저 순도 스캐너에 넣으세요."
 item_ul_purity_scanner_name,순도 스캐너
-item_ul_purity_scanner_desc,"아이스의 순도 보고서를 발급합니다. 보고서가 없으면 절반 가격에 팔립니다."
-item_ul_purity_scanner_flavor,"모서리 화면이 깨진 퇴역 연구실 스캐너. 상층 구역에서는 보고서가 물건보다 값집니다."
+item_ul_purity_scanner_desc,아이스의 순도 보고서를 발급합니다. 보고서가 없으면 절반 가격에 팔립니다.
+item_ul_purity_scanner_flavor,모서리 화면이 깨진 퇴역 연구실 스캐너. 상층 구역에서는 보고서가 물건보다 값집니다.
 item_ul_purity_scanner_note_name,스캐너 설명서
 item_ul_purity_scanner_note_flavor,"검사하지 않은 아이스를 투입구에 넣고 배터리를 연결한 뒤 하룻밤 두세요.\n하룻밤 동안 투입구의 모든 아이스 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다."
 item_ul_lightfield_bench_name,라이트필드 복원 작업대
@@ -1052,7 +1052,7 @@ item_ul_perfume_accord_flavor,여러 생화를 겹겹이 조합했습니다. 향
 item_ul_perfume_master_name,뉴로 프래그런스 ‘솔리테어’
 item_ul_perfume_master_flavor,"이 꽃들과 오늘 밤의 온실 공기로 만들었습니다.,세상에 단 한 병뿐입니다. 어떤 조향법으로도 재현할 수 없습니다.,수집가들이 줄을 섭니다."
 item_ul_ice_raw_name,콜드 크리스탈
-item_ul_ice_raw_flavor,"작고 차가우며 아직 형태가 잡히지 않은 회백색 콜드 크리스탈입니다. 밀수품 · 고위험. 이 상태로는 팔리지 않으니 결정화기에 넣으세요."
+item_ul_ice_raw_flavor,작고 차가우며 아직 형태가 잡히지 않은 회백색 콜드 크리스탈입니다. 밀수품 · 고위험. 이 상태로는 팔리지 않으니 결정화기에 넣으세요.
 item_ul_ice_unverified_name,아이스 (미검사)
 item_ul_ice_unverified_flavor,"보관함에서 막 꺼낸 아이스입니다. 등급은 알 수 없습니다. 순도 보고서가 없으면, 구매자는 절반만 지불합니다."
 mach_label_flowers,꽃
@@ -1596,7 +1596,7 @@ navy.reyes.v1.1,"레이스, 보급부다."
 navy.reyes.v1.2,또 한 주가 지났군.
 navy.reyes.v2.1,다음 주에 함대가 정박해. 보급 목록이 지난번보다 길어졌군.
 navy.reyes.v2.2,재고를 보자고.
-navy.reyes.v3.1,"좋은 아침. 예산이 또 삭감됐어. 계약업자 몫은 아니지만."
+navy.reyes.v3.1,좋은 아침. 예산이 또 삭감됐어. 계약업자 몫은 아니지만.
 navy.reyes.v3.2,계약업자 예산을 깎으면 선원들 배급도 줄어드니까.
 navy.reyes.menu,주문한 물자는 준비됐나?
 navy.reyes.menu_more,또 있나?
@@ -1612,7 +1612,7 @@ navy.reyes.c_intel_favor,[무료. 대신 빚 하나 지는 거야]
 navy.reyes.intel_ok_cash,정보부에서 돈을 낼 거야. 정보 출처에 네 이름은 남지 않아.
 navy.reyes.intel_ok_favor,기억해 두지. 공화국은 오래도록 잊지 않아.
 navy.reyes.close,좋아.
-navy.reyes.close_due,"좋아. 기한이 지난 건 계약대로 보증금에서 차감할 거야."
+navy.reyes.close_due,좋아. 기한이 지난 건 계약대로 보증금에서 차감할 거야.
 navy.reyes.no_new,아직 처리하지 않은 주문이 있군. 이번 주엔 새 주문이 없어.
 navy.reyes.new_intro,이번 주 주문은 {0}건이야.
 navy.reyes.new_outro,전부 허가증 기록에 적혀 있어.
@@ -1667,7 +1667,7 @@ retire_kai_5,"그래서요. 이제 그만둘까요, 아니면 조금 더 계속�
 retire_choice_now,이제 그만두겠습니다.
 retire_choice_later,조금 더 하겠습니다.
 retire_kai_now_1,좋아요. 서류는 제가 처리할게요. 내일이면 누군가 가게를 인수할 거예요.
-retire_kai_now_2,"상층 구역 시민이 되신 걸 환영합니다."
+retire_kai_now_2,상층 구역 시민이 되신 걸 환영합니다.
 retire_kai_later_1,마음대로 해요. 이 카드는 갖고 있어요.
 retire_kai_later_2,"마음이 정해지면, 이걸로 연락해요."
 item_ul_kai_card_name,카이 와일드의 명함
@@ -2075,8 +2075,8 @@ ul_dialog_tourist_greet_5,여기가 터무니없이 비싸다는 말을 다들 �
 ul_dialog_tourist_deal_2,이 근처에서 재미 좀 볼 수 있다고 들었는데요?
 ul_dialog_tourist_weapon_greet_2,"위쪽 가게들은 엄청 비싸다던데, 꽤 매력적이네요."
 ul_dialog_tourist_weapon_greet_3,오늘은 정거장에서 가장 부유한 구역을 둘러보려고요. 문화가 넘치네요!
-battle.found_corpse_old,"며칠 전부터 여기 누워 있던 시신을 발견합니다 (신선도 {0}%). 떠날 때 시신은 다시 끌려갑니다."
-battle.found_corpse_rotten,"시신을 찾았지만 이미 부패했습니다. 채취할 것이 없습니다."
+battle.found_corpse_old,며칠 전부터 여기 누워 있던 시신을 발견합니다 (신선도 {0}%). 떠날 때 시신은 다시 끌려갑니다.
+battle.found_corpse_rotten,시신을 찾았지만 이미 부패했습니다. 채취할 것이 없습니다.
 battle.heat,감시가 강화되어 발각될 확률이 두 배가 됩니다 (남은 밤: {0})
 battle.treat_first,상처를 아직 치료하지 않았습니다. 먼저 붕대를 감으세요.
 bdoc.1,등불을 봤어.
@@ -2138,15 +2138,15 @@ ogguide.n.heart,심장
 ogguide.n.kidney,신장 (좌우)
 ogguide.n.lung,폐 (좌우)
 ogguide.n.order,주문
-ogguide.p1.body,"상층 구역에는 출력 장기가 많습니다. 싸고 합법적이죠. 하지만 부유층은 자연 장기를 원하며 자연 장기는 죽은 이에게서만 얻을 수 있습니다.\n\n이 안내서는 두 가지 경로를 다룹니다.\n\n암시장 경로: 밤에 전장에서 시신을 가져와 자연 장기를 적출하고 암시장 구매자에게 판매합니다. 빠르게 돈을 벌 수 있지만 위험합니다.\n\n합법 경로: 3D 프린터로 장기를 출력합니다. 허가증이 있으면 합법입니다. 돈은 덜 벌지만 잠은 편히 잘 수 있습니다.\n\n두 경로를 함께 이용할 수도 있습니다."
+ogguide.p1.body,상층 구역에는 출력 장기가 많습니다. 싸고 합법적이죠. 하지만 부유층은 자연 장기를 원하며 자연 장기는 죽은 이에게서만 얻을 수 있습니다.\n\n이 안내서는 두 가지 경로를 다룹니다.\n\n암시장 경로: 밤에 전장에서 시신을 가져와 자연 장기를 적출하고 암시장 구매자에게 판매합니다. 빠르게 돈을 벌 수 있지만 위험합니다.\n\n합법 경로: 3D 프린터로 장기를 출력합니다. 허가증이 있으면 합법입니다. 돈은 덜 벌지만 잠은 편히 잘 수 있습니다.\n\n두 경로를 함께 이용할 수도 있습니다.
 ogguide.p1.title,시작하기 전에
 ogguide.p2.title,암시장 경로: 공급
 ogguide.p3.title,자연 장기
-ogguide.p4.body,"자연 장기는 위험도가 높은 밀수품입니다. 다음 구매자에게 판매하세요:\n\n- 진료소의 쏜: 일주일마다 방문하며 예산이 가장 넉넉합니다.\n- 수상한 의사: 검은 램프를 진열장에 놓고 두 번 클릭해 부르세요 (붉게 빛납니다). 다음 날 올 수도 있습니다. 장기 가치의 85%만 지불합니다.\n- 혁명군 야전 의무병: 8일째부터 가끔 방문합니다.\n- 부유한 환자: 15일째부터 가끔 방문하며 50%를 더 지불합니다.\n- 암시장 고객도 살 수 있지만 가격은 그저 그렇습니다.\n\n이들에게 판매하면 범죄 수치가 오릅니다. 밤에 카이의 해결사를 고용해 흔적을 지우세요. 그렇지 않으면 경찰이 찾아옵니다."
+ogguide.p4.body,자연 장기는 위험도가 높은 밀수품입니다. 다음 구매자에게 판매하세요:\n\n- 진료소의 쏜: 일주일마다 방문하며 예산이 가장 넉넉합니다.\n- 수상한 의사: 검은 램프를 진열장에 놓고 두 번 클릭해 부르세요 (붉게 빛납니다). 다음 날 올 수도 있습니다. 장기 가치의 85%만 지불합니다.\n- 혁명군 야전 의무병: 8일째부터 가끔 방문합니다.\n- 부유한 환자: 15일째부터 가끔 방문하며 50%를 더 지불합니다.\n- 암시장 고객도 살 수 있지만 가격은 그저 그렇습니다.\n\n이들에게 판매하면 범죄 수치가 오릅니다. 밤에 카이의 해결사를 고용해 흔적을 지우세요. 그렇지 않으면 경찰이 찾아옵니다.
 ogguide.p4.title,암시장 경로: 구매자
 ogguide.p5.title,합법 경로: 출력
 ogguide.p6.title,합법 경로: 구매자
-ogguide.p7.body,"- 출력 장기는 자연 장기의 3분의 1 가격이지만 상하지 않으며 냉장고도 필요 없습니다.\n\n- 해부 기계와 프린터는 모두 밤에 전력이 필요합니다.\n\n- 밀수업자 보관함에 둔 밀수품은 수색 대상이 아닙니다.\n\n- 자연 장기를 쌓아 두지 마세요. 상하기도 하고 적발되면 더 큰일입니다.\n\n- 범죄 수치를 매일 낮추세요. 경찰이 문 앞에 오면 이미 늦습니다."
+ogguide.p7.body,- 출력 장기는 자연 장기의 3분의 1 가격이지만 상하지 않으며 냉장고도 필요 없습니다.\n\n- 해부 기계와 프린터는 모두 밤에 전력이 필요합니다.\n\n- 밀수업자 보관함에 둔 밀수품은 수색 대상이 아닙니다.\n\n- 자연 장기를 쌓아 두지 마세요. 상하기도 하고 적발되면 더 큰일입니다.\n\n- 범죄 수치를 매일 낮추세요. 경찰이 문 앞에 오면 이미 늦습니다.
 ogguide.p7.title,몇 가지 주의 사항
 ogguide.reissued,가게에 해부 필수 안내서가 있습니다. 장기 거래상을 위한 입문 안내서입니다.
 organ_grade_1,손상 {0}
@@ -2162,7 +2162,7 @@ phosp.intro.2,대량 주문이며 온전한 장기만 받습니다. 주문서를
 phosp.name,사립 병원 구매자
 phosp.new,"사립 병원 주문: {0}, 다음 주 수령, 총 {1}크레딧."
 phosp.part,{0} {1}/{2}
-phosp.sep," / "
+phosp.sep, /
 phosp.slip_desc,사립 병원이 다음에 방문할 때 납품하세요: {0}. 온전한 장기만 받습니다. 주문 전체를 납품하면 {1}크레딧과 상층 구역 평판 +{2}를 받습니다.
 phosp.slip_done,사립 병원 주문 (무효)
 phosp.slip_name,사립 병원 주문
@@ -2194,7 +2194,7 @@ richpat.2,온전한 것만 받습니다. 손상된 건 안 돼요. 돈은 문제
 richpat.name,부유한 환자
 richpat.premium,부유한 환자 할증
 test_hotkey_update,"테스트 (최신 갱신): 심장 2개, 신장 1개, 냉장고, 검은 램프, 3D 장기 프린터, 바이오 잉크 6개, 자가 충전 셀, +5000크레딧을 지급했습니다 (카이에게서 장기 판매 허가증을 구매하세요). 혁명군 야전 의무병과 부유한 환자는 오늘 방문합니다. 허가증이 있으면 장기 은행 담당자와 사립 병원도 방문합니다."
-ul_kai_organ_license_desc,"카이가 서류를 처리합니다. 출력 장기를 밀수품이 아닌 합법 상품으로 판매할 수 있게 됩니다. 장기 은행 담당자가 주문을 가져오며 제때 납품하면 두 배의 보수와 상층 구역 평판을 받습니다. 사립 병원은 7일마다 대량 주문을 하러 옵니다. 장기 판매 허가증과 장기 은행 네온사인도 받습니다. 네온사인을 진열장에 놓으면 주문이 더 자주 들어오고 미용 진료소 구매자가 폐와 신장을 사러 옵니다."
+ul_kai_organ_license_desc,카이가 서류를 처리합니다. 출력 장기를 밀수품이 아닌 합법 상품으로 판매할 수 있게 됩니다. 장기 은행 담당자가 주문을 가져오며 제때 납품하면 두 배의 보수와 상층 구역 평판을 받습니다. 사립 병원은 7일마다 대량 주문을 하러 옵니다. 장기 판매 허가증과 장기 은행 네온사인도 받습니다. 네온사인을 진열장에 놓으면 주문이 더 자주 들어오고 미용 진료소 구매자가 폐와 신장을 사러 옵니다.
 ul_kai_organ_license_title,장기 판매 허가증
 diff_restored,저장 데이터에서 상층 구역 난이도가 사라져 복원했습니다.
 diff_restored_guess,저장 데이터에서 상층 구역 난이도가 사라졌습니다. 원래 단계는 알 수 없어 보통으로 복원했습니다.
@@ -2280,14 +2280,14 @@ ncguide.p5.body,"상층 구역의 판매자들이 들릅니다. 단골손님이 
 ncguide.p6.title,진열장
 ncguide.p6.body,"진열장의 사치품과 예술품은 안목 있는 손님을, 귀중한 재료와 기계는 기업 구매자를 끌어들입니다.\n\n손님 예산은 진열된 물건 중 가장 비싼 물건을 기준으로 정해지며, 대략 그 물건 하나를 살 수 있는 정도입니다. 진열장은 손님을 끌어들이는 곳이지, 재고 처분대가 아닙니다.\n\n카이의 물건도 진열할 수 있습니다. 빨리 팔수록 더 많이 받습니다."
 ncguide.p7.title,몇 가지 팁
-ncguide.p7.body,"- 기본 가격은 적정 가격입니다. 가격을 올리면 단골손님들이 기억합니다.\n\n- 카이가 오기 전에 물건을 최대한 파세요. 3일 안에 파느냐에 따라 수익이 10% 차이 납니다.\n\n- 공간을 비워 두세요. 카이가 배송할 때 가게가 가득 차 있으면 물건을 가져갑니다.\n\n- 자금이 부족하면 물건을 적게 받으세요. 보증금은 쓰는 돈이 아니라 카이에게 빌려주는 돈입니다."
+ncguide.p7.body,- 기본 가격은 적정 가격입니다. 가격을 올리면 단골손님들이 기억합니다.\n\n- 카이가 오기 전에 물건을 최대한 파세요. 3일 안에 파느냐에 따라 수익이 10% 차이 납니다.\n\n- 공간을 비워 두세요. 카이가 배송할 때 가게가 가득 차 있으면 물건을 가져갑니다.\n\n- 자금이 부족하면 물건을 적게 받으세요. 보증금은 쓰는 돈이 아니라 카이에게 빌려주는 돈입니다.
 regulars.roster_desc,단골손님 명단입니다. 클릭해서 읽으세요.
 roster.header,단골 명단
 roster.p1.title,규칙
 roster.p1.body,"- 단골손님은 각자 4일마다 와서 좋아하는 물건과 원하는 물건 하나를 삽니다.\n\n- 원하는 물건을 팔면 50% 더 지불하고 호감도 +1을 줍니다.\n\n- 가격을 올려 받거나 봉인이 뜯긴 물건을 팔면 호감도 -1입니다. 호감도가 0이 되면 명단에서 제외됩니다.\n\n- 친해진 단골손님은 자기 이야기를 들려주며, 여기에 기록됩니다. 별 5개가 되면 새 단골손님을 소개합니다.\n\n- 가게를 소유한 뒤에는 희망 물품이 예약품으로 바뀝니다. 대금은 두 배지만, 다음 방문 때 물건이 없으면 호감도 -1입니다."
 roster.list_title,이름
-roster.info,"좋아하는 물건: {0}  {1}\n원하는 물건: {2}\n{3}"
-roster.info_reserve,"좋아하는 물건: {0}  {1}\n예약품: {2} (두 배 지불)\n{3}"
+roster.info,좋아하는 물건: {0}  {1}\n원하는 물건: {2}\n{3}
+roster.info_reserve,좋아하는 물건: {0}  {1}\n예약품: {2} (두 배 지불)\n{3}
 roster.story_none,(아직 친하지 않음)
 roster.empty,(비어 있음)
 regulars.story_new,{0}님이 자기 이야기를 들려줬습니다. 명단에 기록되어 있습니다.
@@ -2593,7 +2593,7 @@ act1.helios.r.2,늘 그렇듯 통조림은 안 됩니다.
 weight.settle.sold,이번 주 계산대에서 {0}개 팔았네. 합계는 {1} 크레딧이야.
 weight.settle.missing,가게에 {0}개가 없군. 정가로 팔린 것으로 계산하겠네. 합계는 {1} 크레딧이야.
 weight.settle.none,아직 팔린 게 없나? 서두를 것 없어. 물건은 그대로 두게.
-weight.settle.cut,"약속대로 내 몫은 {0}%야. {1} 크레딧이지."
+weight.settle.cut,약속대로 내 몫은 {0}%야. {1} 크레딧이지.
 weight.settle.repay,빌려준 돈으로 이번에는 자네 몫에서 {0}을 가져가겠네. 남은 금액은 {1}이야.
 weight.settle.owe,지난번에 갚지 못한 {0}도 있지.
 weight.owe_notify,현금이 부족합니다. 웨이트에게 {0} 크레딧을 아직 빚졌으며 다음 정산 때 처리됩니다.
@@ -2613,3 +2613,206 @@ ul_dialog_minor_lottery_2,이사 온 뒤로 하층 구역에 돌아간 적이 �
 ul_dialog_minor_lottery_6,그래도 가끔 하층 구역의 싸고 든든한 음식이 그리워. 여긴 뭐든 엄청 비싸거든.
 act1.kai.card_fixed,카이의 명함이 가게에 있습니다. 이제 와일드의 전화와 인맥망을 이용할 수 있습니다.
 kai.consign.kept,남은 {0}개는 가지고 직접 파세요. 보증금은 제가 갖겠습니다.
+act1.arthur.1,불시 점검하러 온 건 아니야.
+act1.arthur.2,"걱정 마, 사장."
+act1.arthur.3,담배 두 갑. 좋은 술도 있으면 줘.
+act1.arthur.4,되는 대로 사는 것도 나쁘진 않아. 한 달 전만 해도 술은 입에도 안 댔는데.
+act1.arthur.5,요즘 위쪽은 엉망이야.
+act1.arthur.6,"공화국과 혁명군은 계속 싸우고, 기업들은 전쟁으로 돈을 벌고, 명문가들은 수십 년 전의 추억에만 잠겨 있어."
+act1.arthur.7,우리 경찰은 중간에 끼어 있어. 혁명군이 들이닥치면 전선을 지키러 가는 건 우리라고.
+act1.arthur.8,동료 몇 명은 벌써 실종됐어.
+act1.arthur.9,빌어먹을 상황이야.
+act1.arthur.bye1,조심해.
+act1.arthur.bye2,몸조심해.
+act1.bruce1.bye,"다음에 또 들르지, 젊은 사장."
+act1.name.arthur,아서 경감
+act1.oscar.fee,여기 800 크레딧 있네.
+act1.w5.1,이번엔 내 차례로 불운이 찾아왔군!
+act1.w5.2,요즘 혁명군이 정말 난리야.
+act1.w5.3,이 전쟁은 대체 언제까지 계속될까?
+act1.w5.4,내 사업도 전쟁에 휘말렸어.
+act1.w5.5,마음씨 좋은 「정직한 화살」도 한동안 정거장을 떠나야겠어.
+act1.w5.6,마지막으로 물량을 한 번 더 가져왔어. 이건 선물이야.
+act1.w5.7,내 친구 전화번호야. 미리 말은 해뒀어.
+act1.w5.8,받아. 귀중품을 취급하는 사람이야.
+act1.w5.9,"난 이만 갈게. 몸조심해, 사장."
+act1.w5.kept,웨이트가 남긴 위탁품은 이제 당신 몫입니다. 수익을 나눌 필요도 없습니다.
+battle.corpse_carried_rep,"{0}구의 시신을 가게로 끌고 왔습니다. 경찰 평판 -{1}, 잠입국 평판 -{2}, 공화국 당국 평판 -{3}(시신으로 낮출 수 있는 한도는 {4}입니다)."
+battle.corpse_one_only,하룻밤에 시신은 한 구만 가져올 수 있습니다. 들고 있던 나머지 {0}구는 두고 왔습니다.
+battle.corpse_pocket,주머니에 넣은 시신을 가게로 가져왔습니다. 아무도 보지 못해 평판은 변하지 않습니다.
+battle.drag,[시신 끌고 가기]
+battle.drag_done,가장 신선한 시신을 골랐습니다. 떠날 때 끌고 돌아옵니다.
+battle.drag_hint,"바닥에 시신 {0}구가 있습니다. 하룻밤에 한 구만 직접 들고 돌아갈 수 있습니다(바닥에 둔 시신은 여기에 남습니다). 배낭에 넣으면 경찰, 잠입국, 공화국 당국 평판이 각각 2씩 하락합니다(최저 -60). 왼쪽이나 오른쪽 주머니에 넣으면 평판이 하락하지 않습니다. 여러 구를 들고 있으면 가장 신선한 시신만 가져갑니다."
+battle.dragged,오늘 밤 끌고 갈 시신이 이미 있습니다. 한 구를 더 끌고 갈 수는 없습니다.
+battle.event.corpse,시신 발견 확률 증가(30%→55%)
+battle.event.desc,오늘 밤 이 구역에서 혁명군과 경찰이 교전 중입니다
+battle.event.fresh,더 신선한 시신
+battle.event.injury,부상 확률 2배
+battle.event.spot,순찰대에 발각될 확률 2배
+battle.event.title,총격전의 밤
+blood.bled_tip,이미 채혈함
+blood.done,완료. {0} 획득.
+dealer.bye,좋습니다.
+dealer.c_big,대량({0} 크레딧 상당의 상품).
+dealer.c_hang,다음에 할게요.
+dealer.c_small,소량({0} 크레딧 상당의 상품).
+dealer.card_tip,가게 전화로 {0}번에 전화해 주문하세요. 다음 날 도매가로 배송됩니다.
+dealer.cool.1,지난번 주문하신 물량을 아직 조달 중입니다.
+dealer.cool.2,{0}일 후에 다시 전화하세요.
+dealer.courier.1,귀중품 상인이 보냈습니다. 도매가로 전량 인수하세요.
+dealer.courier.done,대금 확인했습니다. 좋은 하루 보내십시오.
+dealer.courier.name,귀중품 상인의 배달원
+dealer.intro.1,웨이트에게 얘기 들었습니다. 새 가게 주인이시죠?
+dealer.intro.2,"시가와 향수, 최고급 의약품 같은 귀중품을 취급합니다. 상층 구역에선 없어선 안 될 물건들이죠."
+dealer.intro.3,물건이 필요할 때 이 번호로 전화하세요. 다음 날 도매가로 보내 드리겠습니다.
+dealer.intro.4,처음엔 소량으로 주문하세요. 거래액이 충분히 쌓이면 대량 주문도 받겠습니다.
+dealer.intro.5,이번에는 첫 거래 특별가로 소량을 보내 드리죠.
+dealer.name,귀중품 상인
+dealer.ready,내일 배송됩니다. 현금을 준비해 두세요.
+dealer.reg.1,귀중품 상입니다. 말씀하세요.
+dealer.reg.2,이번엔 얼마나 필요하십니까?
+item_ul_antibiotic_ampoule_desc,불안정한 상처에 사용하면 감염을 막고 상처를 안정시킵니다.
+item_ul_blood_bag_l_flavor,가득 채운 혈액 팩. 수술 한 번에 쓸 수 있는 양이다.
+item_ul_blood_bag_l_name,혈액 팩(대형)
+item_ul_blood_bag_m_flavor,상층 구역의 진료소는 어디서 났는지는 묻지 않는다. 오늘 채혈한 것인지만 확인한다.
+item_ul_blood_bag_m_name,혈액 팩(중형)
+item_ul_blood_bag_s_flavor,라벨에는 혈액형과 날짜만 적혀 있다. 출처는 적혀 있지 않다.
+item_ul_blood_bag_s_name,혈액 팩(소형)
+item_ul_blood_kit_desc,채혈하지 않은 시신이 가게에 있을 때 사용하면 혈액 팩 하나를 채취합니다. 시신이 신선할수록 팩이 커집니다.
+item_ul_blood_kit_flavor,"진료소에서 퇴역한 채혈 장비 일체. 튜브와 바늘, 수동 펌프, 클램프가 검은 상자에 담겨 있다."
+item_ul_blood_kit_name,채혈 키트
+item_ul_chicken_pie_flavor,건드리기만 해도 바스러지는 결 고운 파이 껍질. 안에는 크림소스 치킨과 진짜 버섯이 들어 있다.
+item_ul_chicken_pie_name,치킨 버섯 파이
+item_ul_dealer_card_flavor,웨이트의 친구인 귀중품 상인의 명함. 뒷면에는 이렇게 적혀 있다: {0}.
+item_ul_dealer_card_name,금박 명함
+item_ul_doctor_card_flavor,상층 구역 개인 의사. 왕진 전화번호: {0}.
+item_ul_doctor_card_name,개인 의사 명함
+item_ul_grilled_salmon_flavor,양식 수조에서 헤엄치던 진짜 생선. 바삭한 껍질에 레몬 한 조각을 곁들였다.
+item_ul_grilled_salmon_name,구운 연어
+item_ul_junk_cigar_box_flavor,시가는 다 없어졌지만 상자는 아직 쓸 만한 원목이다. 바닥에 담뱃가루가 조금 남아 있다.
+item_ul_junk_cigar_box_name,빈 시가 상자
+item_ul_junk_perfume_bottle_flavor,명품 향수병. 한 방울도 남지 않았지만 은은한 향은 아직 남아 있다.
+item_ul_junk_perfume_bottle_name,빈 향수병
+item_ul_junk_smartband_flavor,끊어진 밴드와 금 간 화면. 주인은 닦지도 않고 버렸다.
+item_ul_junk_smartband_name,고장 난 스마트 밴드
+item_ul_junk_toothbrush_flavor,금도금 손잡이는 금이 갔고 칫솔모는 납작하게 닳았다. 상층 구역 사람들은 석 달마다 새것으로 바꾼다.
+item_ul_junk_toothbrush_name,고장 난 전동 칫솔
+item_ul_lamb_skewers_flavor,기름기와 살코기가 어우러진 진짜 양고기를 숯불에 구웠다. 꼬치 두 개.
+item_ul_lamb_skewers_name,양고기 꼬치
+item_ul_mat_aluminum_flavor,상층 구역에서 하루 동안 나온 음료 캔을 압축한 덩어리. 녹이면 다시 쓸 만한 알루미늄이 된다.
+item_ul_mat_aluminum_name,압축 「알루미늄」 덩어리
+item_ul_mat_carbon_flavor,맞춤형 호버카와 자전거에서 나온 자투리. 가볍고 단단하다.
+item_ul_mat_carbon_name,탄소섬유 자투리
+item_ul_mat_copper_flavor,개조 공사에서 뜯어낸 진짜 구리 배관을 잘라 철사로 묶었다.
+item_ul_mat_copper_name,구리 파이프 자투리
+item_ul_mat_cotton_flavor,재단소 바닥에서 나온 진짜 면 자투리를 묶어 놓았다. 하층 구역 사람들은 좋은 천이라고 부를 만하다.
+item_ul_mat_cotton_name,진짜 면 자투리
+item_ul_mat_glass_flavor,"와인병과 향수병, 꽃병 조각을 색깔별로 분류했다. 녹여서 다시 불어 만들 수 있다."
+item_ul_mat_glass_name,유리 파편(자루)
+item_ul_mat_magnet_flavor,버려진 스피커와 모터에서 꺼냈다. 몇 개는 서로 너무 단단히 붙어 있어 떼어내기 어렵다.
+item_ul_mat_magnet_name,회수한 희토류 자석
+item_ul_meat_pasta_flavor,진짜 토마토를 푹 끓여 만든 소스에 다진 소고기를 넣고 진짜 치즈를 한 줌 얹었다.
+item_ul_meat_pasta_name,볼로네제 파스타
+item_ul_pork_sausage_flavor,진짜 돼지고기를 천연 케이싱에 넣었다. 세 개씩 끈으로 묶은 묶음.
+item_ul_pork_sausage_name,수제 돼지고기 소시지
+item_ul_roast_beef_flavor,진짜 소고기라 속은 아직 분홍빛이다. 아래쪽 사람들은 평생 피트만 먹고 산다.
+item_ul_roast_beef_name,저온 로스트 비프
+item_ul_roast_veggies_flavor,"피망과 주키니, 방울토마토를 가장자리가 그을릴 때까지 구웠다. 여기서는 이런 걸 '가벼운 음식'이라고 부른다."
+item_ul_roast_veggies_name,구운 채소 모둠
+item_ul_smuggler_bay_small_desc,비좁은 3×3 밀수 공간입니다. 안에 든 물건은 검문 때 수색되지 않습니다.
+item_ul_smuggler_bay_small_name,소형 밀수 공간
+item_ul_thorne_card_flavor,진료소의 손. 뒷면에 전화번호가 손글씨로 적혀 있다: {0}.
+item_ul_thorne_card_name,손의 명함
+item_ul_veg_soup_flavor,"수경재배 선반에서 기른 당근과 호박, 셀러리를 아침 내내 뭉근히 끓였다."
+item_ul_veg_soup_name,텃밭 채소 수프
+ngoods.adrenaline_done,심장이 빠르게 뛰기 시작합니다. 조금 더 버틸 수 있습니다.
+pex.get.cigar,Luvister 시가 1상자
+pex.get.rep_random,"경찰, 잠입국, 공화국 당국 중 무작위 한 곳 평판 +5"
+pex.get.samurai,「Samurai」 실험용 페로몬 추출물 1병
+pex.get.siyang,「Siyang」 자동 리필 향수 1병
+pex.give.good_heart,온전한 자연산 심장 1개
+pex.give.good_organ,온전한 자연산 폐 또는 신장 아무거나 1개
+pex.give.junk10,상층 구역 잡동사니 아무거나 10개(재활용 처리장에서 나오는 종류)
+pex.give.melon,선물용 멜론 1개
+pex.give.organ4,자연산 장기 4개(출력 장기 또는 부패한 장기 제외)
+pex.give.organ_set,자연산 심장·왼쪽 폐·오른쪽 폐·왼쪽 신장·오른쪽 신장 각 1개(부패한 장기 제외)
+pex.give.samurai10,「Samurai」 실험용 페로몬 추출물 10병
+phone.c_come,내일 들러 주실 수 있나요?
+phone.c_hang,"아니에요, 잘못 걸었네요."
+phone.cool_days,{0}일 후에 다시 전화하세요.
+phone.doctor.bye,알겠습니다. 그럼 이만 끊겠습니다.
+phone.doctor.card_tip,가게 전화로 {0}번에 전화하면 개인 의사가 내일 방문합니다(재사용 대기시간 7일).
+phone.doctor.cool,이번 주 왕진 예약은 모두 찼습니다.
+phone.doctor.hello,개인 의원입니다. 말씀하세요.
+phone.doctor.intro1,"여보세요, 개인 의원입니다."
+phone.doctor.intro2,의료품이나 왕진이 필요하면 이 번호로 예약하세요.
+phone.doctor.name,개인 의사
+phone.doctor.ok,좋습니다. 내일 자동 봉합 응급 키트를 가지고 가겠습니다.
+phone.doctor.unlocked,가게에 개인 의사의 명함이 있습니다. 전화로 {0}번에 연락하세요.
+phone.no_answer,...응답이 없습니다.
+phone.thorne.bye,그럼 전화선 붙잡고 있지 마.
+phone.thorne.card_tip,가게 전화로 {0}번에 전화하면 손이 내일 와서 장기를 삽니다(재사용 대기시간 6일).
+phone.thorne.cool,방금 네 가게에 다녀왔잖아.
+phone.thorne.hello,"진료소야, 손이야. 뭐 있어?"
+phone.thorne.intro1,"아, 너구나. 명함 갖고 있었네. 잘했어."
+phone.thorne.intro2,재고가 너무 많으면 전화해. 시간 내서 들를게.
+phone.thorne.name,손(진료소)
+phone.thorne.ok,그럼 내일이야. 냉장 보관해.
+phone.thorne.unlocked,가게에 손의 명함이 있습니다. 전화로 {0}번에 연락하세요.
+reg.arthur.hi1,"나야. 늘 사던 걸로. 담배랑, 있으면 술 한잔."
+reg.arthur.hi2,이번 주에도 둘이 더 사라졌어. 묻지 마. 담배나 줘.
+reg.arthur.hi3,근무가 끝나면 여기 말고는 가고 싶은 데가 없어. 괜찮은 술 있어?
+reg.arthur.interest,담배와 주류
+reg.liaison.ask,다음번까지 {0} 하나 구해 줄 수 있습니까? 급합니다.
+reg.liaison.bye,고맙습니다. 오늘은 저를 못 본 걸로 하세요.
+reg.liaison.hi1,문 쪽 보지 마세요. 물건만 사고 바로 갈 겁니다.
+reg.liaison.hi2,약이든 통조림이든 뭐든요. 하층 구역 사람들이 기다리고 있습니다.
+reg.liaison.hi3,가진 게 많지 않습니다. 제값을 쳐 주시면 우리도 기억하겠습니다.
+reg.liaison.name,잠입국 연락책
+reg.liaison.remind,"지난번에 말씀드린 {0}, 구하셨습니까? 누군가의 목숨이 달린 일입니다."
+reg.notify,{0}: {1}
+reg.notify.capped, ({0} 평판이 +{1}에 도달해 단골 방문으로는 더 올릴 수 없습니다)
+reg.notify.down,{0} -{1}
+reg.notify.sep,", "
+reg.notify.up,{0} +{1}
+reg.oscar.ask,"아, 다음번에 {0} 하나 빼 둘 수 있어? 집안에 하나가 모자라서."
+reg.oscar.bye,거래 성립이네. 우리끼리만 알고 있자.
+reg.oscar.hi1,"오랜만이네, 친구! 할아버지가 또 재고를 확인하셔. 괜찮은 물건 몇 점을 제자리에 돌려놔야겠어."
+reg.oscar.hi2,내놓을 만한 물건 있어? 꼭 진품이어야 해. 우리 집안은 눈이 날카롭거든.
+reg.oscar.hi3,또 왔네. 이번엔 정말 돈을 넉넉히 가져왔어.
+reg.oscar.remind,부탁한 {0}은 찾았어?
+reg.tax.extra,"{0} 납부({1} 추가 납부, 공화국 지원금)"
+reg.tax.extra_thanks,…공화국은 지지자를 기억합니다. 보고서에 적어 두겠습니다.
+reg.tax.hi1,정기 방문입니다. 공화국 세무서입니다.
+reg.tax.hi2,지난번 방문 이후 {0} 크레딧어치 판매하셨습니다. {1}%를 적용한 준수 부담금은 {2}입니다.
+reg.tax.pay,{0} 납부.
+reg.tax.refuse,이번엔 내지 않겠습니다.
+reg.tax.refused,물론 '자발적' 선택이시겠죠. 있었던 그대로 보고하겠습니다.
+reg.tax.thanks,수령했습니다. 서류는 문제없습니다. 다음 주에 뵙겠습니다.
+rep_how_council,"상승: 주간 방문 때 준수 부담금 납부(단골 방문으로 최대 +60, 첫 납부 시 추가 +20); 더 올리려면 500 추가 납부.
+하락: 부담금 거부, 시신을 가게로 끌고 오기(최저 -60)."
+rep_how_helios,"상승: 헬리오스 집사가 4일마다 신선 식품 구매(단골 방문으로 최대 +60).
+하락: 헬리오스 집안에 밉보이기."
+rep_how_police,"상승: 아서 경감이 매주 담배와 술 구매(단골 방문으로 최대 +60); 징발품 납품; 증강자 처치 또는 수배 범죄자 신고; 경보 송신기 모듈.
+하락: 시신을 가게로 끌고 오기(최저 -60)."
+rep_how_rev,"상승: 잠입국 연락책이 매주 약과 통조림 구매(단골 방문으로 최대 +60), 긴급 요청을 들어주면 추가 상승; 야전 의무병에게 장기 판매.
+하락: 시신을 가게로 끌고 오기(최저 -60); 아서 경감에게 물건 판매."
+rep_how_upper,"상승: 상층 구역 고객에게 판매(하루 최대 +1); 비공개 거래소에서 매주 예술품 2점 거래.
+하락: 상층 구역 고객 신고."
+rep_how_vanderlin,"상승: 오스카가 매주 사치품 구매(단골 방문으로 최대 +60); 부탁한 물건을 찾아 주면 추가 상승.
+하락: 준수 부담금 납부(공화국 점검)."
+rep_perk_ULF_COUNCIL_RELIEF_desc,주간 준수 부담금이 매출의 1%에서 0.5%로 감소합니다.
+rep_perk_ULF_COUNCIL_RELIEF_flavor,'제때 납부하는 사람이 누군지 우린 알고 있지.'
+rep_perk_ULF_COUNCIL_RELIEF_name,세금 감면
+test_hotkey_night_busy,테스트: 지금은 밤으로 넘길 수 없습니다(셔터가 움직이는 중이거나 체포 또는 총격전 진행 중). 잠시 후 다시 시도하세요.
+test_hotkey_night_done,테스트: 이제 {0}일 밤입니다. 밖으로 나갈 수 있습니다.
+test_hotkey_night_outside,테스트: 먼저 가게로 돌아가세요.
+test_hotkey_regulars,"테스트: 오늘 아서, 공화국 세무 조사관, 오스카, 잠입국 연락책이 모두 방문합니다."
+ul_dialog_minor_lottery_3,"나도 그랬어. 몇 년 전에 당첨됐는데, 공화국이 돈이 들어오자마자 가져갔지."
+ul_dialog_minor_lottery_4,내게 남은 건 거주 허가증과 상층 구역에서 일하는 자리뿐이었어.
+ul_dialog_minor_lottery_5,몇 년이나 걸렸지만 결국 자리 잡았어. 너도 그럴 거야.
+ul_kai_doctor_contact_desc,"카이가 상층 구역 개인 의사({0})를 소개하고 명함을 줍니다. 전화로 예약하면 다음 날 방문하며, 항상 자동 봉합 응급 키트를 가져옵니다(7일마다 1회)."
+ul_kai_doctor_contact_title,개인 의사 연락처
+ul_kai_thorne_contact_desc,카이가 손의 개인 번호({0})와 명함을 줍니다. 재고가 있을 때 전화하면 다음 날 와서 장기를 삽니다(6일마다 1회).
+ul_kai_thorne_contact_title,손의 연락처
+act1.dex.bye,좋습니다. 저는 이만 돌아가겠습니다. 무슨 일 생기면 경찰서로 전화하십시오.

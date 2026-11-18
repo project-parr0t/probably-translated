@@ -1,0 +1,898 @@
+kind_paper,종이 전단
+kind_ink,잉크 스텐실
+tip_new,어젯밤 붙임
+tip_age,붙인 지 {0}일
+tip_attr,매장 매력도 -{0}
+tip_attr_ramp,"매장 매력도 -{0} (계속 증가 중, {1}일 후 최대치)"
+tip_attr_grace,아직 매력도에 영향 없음: 유예 기간 {0}일 남음
+tip_attr_free,아직 매력도에 영향 없음: 벽이 그리 지저분하진 않음
+tip_stale,너무 오래 붙어 있음: 매일 밤 평판이 떨어짐
+tip_marked,제거 표시됨: 오늘 밤 외출하지 않으면 제거
+tip_marked_ink,제거 표시됨: 지우려면 외출하지 않는 밤이 {0}번 더 필요
+tip_progress,{0}% 제거됨
+tip_outside,창문 바깥쪽에 붙어 있음
+tip_click,클릭해서 살펴보기
+btn_mark,오늘 밤 직접 제거 (외출하지 않기)
+btn_mark_ink,외출하지 않는 밤에 제거 ({0}번 더)
+btn_mark_tip,외출하지 않은 밤에만 진행됩니다. 야간 외출을 하면 아무 일도 일어나지 않습니다.
+btn_solvent_use,{0} 한 병을 용제로 사용 (보유량 {1})
+btn_solvent_buy,용제 한 회분 구매 ({0})
+btn_solvent_buy_tip,정거장 청소 용품에서 잉크 제거제 한 회분을 구매합니다. 스텐실 하나를 지우기에 충분합니다.
+status_scrub_paper,마우스를 누른 채 카드 위를 문지르세요. 몇 번 문지르면 벗겨집니다. 접착제가 조금 남습니다.
+status_scrub_ink,마우스를 누른 채 카드 위를 계속 문지르세요. 잉크는 한 번에 한 겹씩만 옅어집니다.
+status_need_solvent,잉크는 마른 상태로는 지워지지 않습니다. 먼저 용제를 바르세요.
+status_cant_pay,크레딧이 부족합니다.
+status_no_solvent_item,용제로 쓸 물건이 없습니다.
+solvent_item_fallback,소독용 알코올
+hint_service,"비용을 내고 맡기시겠어요? 야간 서비스에서 '전단 청소부'를 선택하세요 (하룻밤 {0}, 스텐실이나 간판 하나당 추가 {1}). 청소부가 밤새 가게와 복도 건너편의 전단을 모두 제거하고 아침까지 망을 봅니다. 이 서비스가 진행되는 밤에는 가게에 새 전단이 붙지 않습니다."
+log_service,전단 청소 서비스가 밤새 광고 {0}개를 긁어냈습니다.
+log_service_guard,"청소부가 아침까지 망을 봐서, 아무도 전단을 들고 가게에 접근하지 못했습니다."
+log_clean_paper,외출하지 않고 벽에서 종이 전단 {0}개를 뜯어냈습니다.
+log_clean_ink_done,잉크 스텐실 {0}개를 마침내 지웠습니다. 희미한 흔적만 남았습니다.
+log_clean_ink_progress,"밤새 잉크를 문질렀습니다. 한 겹 더 옅어졌습니다 (아직 {0}개 남음, 가장 가까운 것은 {1}밤 더 필요)."
+log_clean_out,외출했습니다. 제거 표시된 전단 {0}개가 여전히 벽에 붙어 있습니다.
+log_reputation,"오래된 전단이 쌓이고 있습니다 (3일 초과 {0}개: 가게에 {1}개, 복도 건너편에 {2}개). 모든 세력의 평판 -1. {3}"
+log_attr_starts,"유예 기간이 끝났습니다. 오늘부터 벽의 전단이 매장 매력도를 떨어뜨리며, 매일 조금씩 더 심해집니다 ({0}일 후 최대치). 고객도 지저분한 모습을 보고 더 세게 흥정할 것입니다."
+log_new_fallback,밤사이 벽에 전단이 {0}개 더 붙었습니다.
+log_ink_new_fallback,누군가 밤사이 벽에 전화번호를 스프레이로 뿌렸습니다.
+service_name,전단 청소부
+service_name_hard,전단 청소부 (스텐실·간판 +{0})
+calendar_attr,(전단 -{0})
+calendar_clean,"(가게 앞 청소 +{0}, {1}밤)"
+log_clean_streak_1,가게에 전단이 붙지 않은 밤이 {0}번 연속 이어졌습니다. 지나가던 사람들이 한 번 더 눈길을 줍니다. 매력도 +{1}.
+log_clean_streak_2,하층 구역에서는 보기 드물게 {0}밤 연속으로 가게 앞을 깨끗이 유지했습니다. 매력도 +{1}.
+log_clean_streak_lost,전단이 밤새 붙어 있었습니다. 가게 앞을 깨끗하게 유지한 연속 기록이 끝났습니다.
+feature_haggle_buy,지저분한 가게: 더 비싸게 부름
+feature_haggle_sell,지저분한 가게: 더 싸게 부름
+loc_name,하층 구역 중앙 통로
+loc_intro,"밤에는 아무도 없습니다. 인쇄소의 셔터문은 내려져 있고, 머리 위 카메라는 여전히 빨간불을 깜박입니다. 이따금 순찰등이 저쪽 끝을 훑고 지나갑니다. 벽은 전단으로 뒤덮였습니다. 하나쯤 더 붙일 자리는 있네요."
+loc_patrol_title,치안부 순찰대
+loc_patrol_desc,오늘 밤 치안부가 중앙 통로를 순찰하며 벽을 감시하고 있습니다.
+loc_patrol_effect,붙이다가 적발될 확률 2배
+loc_patrol_here,오늘 밤 치안부가 순찰 중입니다. 전단을 붙이다가 적발될 확률이 2배입니다.
+loc_post_cards,전단 카드 붙이기 (보유 {0}장)
+loc_post_spray,큰 광고 스프레이로 뿌리기 (남은 횟수 {0})
+loc_posted_tonight,오늘 밤은 이미 했습니다
+loc_bring_tools,"전단 카드나 스프레이 도구를 가지고 있지 않습니다. 네트워크 단말기에서 주문한 뒤, 주머니나 배낭에 넣어 가져오세요."
+loc_nothing_carried,그걸 가지고 있지 않습니다.
+post_uses_cards,남은 카드 {0}/{1}장
+post_uses_spray,남은 사용 횟수 {0}/{1}
+order_cards_name,전단 카드 인쇄 ({0})
+order_cards_desc,가게 이름과 전화번호가 적힌 작은 카드 {0}장을 인쇄해 가게로 배달합니다. 야간 외출 때 하층 구역 중앙 통로에 가져가 붙이세요. 눈에 덜 띄지만 효과는 크지 않습니다. 하루 한 번 주문할 수 있습니다.
+order_spray_name,스프레이 도구 주문 ({0}회분)
+order_spray_desc,스프레이 페인트 한 통과 가게 전화번호가 새겨진 스텐실을 가게로 배달합니다. {0}회 사용할 수 있습니다. 눈에 띄고 효과적이지만 치안부에 적발될 가능성이 훨씬 큽니다. 하루 한 번 주문할 수 있습니다.
+tip_far,복도 건너편
+tip_ledge,창문 바깥쪽 턱에 쓰여 있음
+status_tool_ready,도구를 들었습니다. 카드 위를 드래그해 긁어내세요.
+status_need_solvent_tool,스크레이퍼로는 잉크를 지울 수 없습니다. 먼저 용제를 바르세요 (소독용 알코올을 이 스텐실 위로 드래그하거나 아래에서 용제를 구매하세요).
+scraper_name,스크레이퍼
+scraper_desc,전단을 긁어내는 도구입니다. 집어 들고 드래그하면 화면에 보이는 전단이 모두 강조 표시됩니다. 전단 위에서 놓으면 긁어내기 시작합니다.
+scraper_flavor,칼날에 접착제가 세 겹으로 굳어 있다.
+tool_hint_scraper,전단 위에서 놓기: 긁어내기
+tool_hint_solvent,잉크 스텐실 위에서 놓기: 용제로 사용 (병 하나 소모)
+order_scraper_name,스크레이퍼 주문
+order_scraper_desc,전단용 스크레이퍼를 가게로 배달합니다. 하루 한 번 주문할 수 있습니다.
+log_new_corridor,복도 건너편에 {0}개 더 붙었습니다.
+kind_neon,네온사인
+tip_neon_lit,아직 켜져 있음: 배터리로 작동하며 종이보다 매력도를 더 떨어뜨림
+tip_neon_off,플러그가 뽑힘: 드라이버로 나사 2개를 빼내세요
+tip_neon_off_corridor,복도 건너편: 플러그를 뽑아 둔 채 붙여 놓으면 누군가 밤에 가져갈 수 있음
+tip_marked_neon,제거 표시됨: 떼어내려면 외출하지 않는 밤이 {0}번 더 필요
+btn_mark_neon,외출하지 않는 밤에 떼어내기 ({0}번 더)
+btn_unplug,플러그 뽑기 (무료)
+btn_unplug_tip,배터리 상자에서 선을 뽑으면 불이 꺼집니다. 나사를 만지기 전에 플러그를 뽑아야 합니다.
+plug_tip,배터리 상자: 클릭해서 플러그 뽑기
+status_neon_lit,"아직 켜져 있습니다. 배터리 상자를 클릭하거나 버튼을 눌러 플러그를 뽑은 다음, 드라이버로 나사를 빼세요."
+status_neon_shock,먼저 플러그를 뽑으세요. 감전 조심!
+status_unplugged,딸깍. 불이 꺼졌습니다.
+log_clean_neon_done,외출하지 않고 네온사인 {0}개를 떼어냈습니다. 아직 작동하는 것은 보관함에 넣었습니다.
+log_clean_neon_progress,"플러그를 뽑고 밤새 녹슨 나사와 씨름했습니다 ({0}개 남음, 가장 가까운 것은 {1}밤 더 필요)."
+log_neon_stolen,밤사이 누군가 부품을 얻으려고 복도 벽에서 플러그가 뽑힌 네온사인 {0}개를 떼어 갔습니다.
+log_neon_new_fallback,누군가 밤사이 벽에 네온사인을 붙였습니다. 아직 불이 켜져 있습니다.
+promo_item_name,홍보 전단
+promo_item_desc,"가게 이름과 전화번호, '이 전단을 가져오면 {0}% 할인'이라는 문구가 적힌 반쪽짜리 전단입니다. 고객이 물건을 살 때 상품과 함께 카운터에 올려두면 거래에 끼워 한 장을 가져갑니다 (0 크레딧). 나머지는 돌려받습니다. 전단을 가져가 물건을 산 고객은 며칠 뒤 다른 물건을 사러 다시 오거나 (전단 제시 시 {0}% 할인), 친구에게 전단을 건넬 수 있습니다."
+promo_item_flavor,'5% 할인' 문구가 가게 이름보다 더 크게 인쇄되어 있다.
+promo_uses,남은 전단 {0}/{1}장
+promo_hint,상품과 함께 카운터에 올려두세요. 고객이 한 장 가져갑니다 (0 크레딧).
+promo_order_name,홍보 전단 인쇄 ({0})
+promo_order_desc,홍보 전단 {0}장을 인쇄해 가게로 배달합니다. 고객이 물건을 살 때 상품과 함께 카운터에 올려두면 한 장을 가져갑니다. 전단을 가지고 다시 온 고객은 {1}% 할인받습니다. 하루 한 번 주문할 수 있습니다.
+promo_feature,홍보 전단: {0}% 할인
+promo_refuse_nodeal,아직 아무것도 안 샀는데요. 전단은 어디에 쓰라고요?
+promo_refuse_twice,아까 한 장 받았어요.
+promo_refuse_has,전에 받은 전단도 아직 안 썼어요.
+promo_refuse_selling,물건 팔러 왔어요. 전단은 됐어요.
+promo_take_1,"전단이요? 좋아요, 챙겨둘게요."
+promo_take_2,다음에 5% 할인이라고요? 기억해둘게요.
+promo_take_3,이제 전단도 인쇄하세요? 아주 전문적이네요.
+promo_take_4,가방에 넣어주세요. 가족한테 보여줄게요.
+promo_take_5,무료라고요? 그럼 가져갈게요.
+promo_return_a_1,지난번에 홍보 전단을 가방에 넣어주셨죠. 가져왔어요.
+promo_return_a_2,저 또 왔어요. 전단을 가지고 있었죠.
+promo_return_a_3,기억나요? 지난번에 전단을 주셨잖아요.
+promo_return_b_1,"이번엔 다른 걸로 주세요. 전단에 {0}% 할인이라고 쓰여 있던데, 말 바꾸기 없어요."
+promo_return_b_2,지난번에 산 것 말고 다른 걸 보여주세요. 약속대로 {0}% 할인 맞죠.
+promo_return_b_3,이번엔 다른 걸 사볼게요. 전단 있으면 {0}% 할인 맞죠?
+promo_referral_1,친구가 홍보 전단을 보여줘서 구경하러 왔어요.
+promo_referral_2,이웃이 여기 괜찮다고 하더라고요. 전단도 줬어요.
+promo_referral_3,여기 맞죠? 전단에 적힌 번호랑 같네요.
+promo_log_referral,홍보 전단 하나가 친구에게 전달되었습니다. 그 친구가 내일 찾아올지도 모릅니다.
+cfg_shop_max,매장에 붙일 수 있는 전단 최대 수
+cfg_shop_max_tip,"창틀, 유리문, 턱, 카운터 및 실내에 함께 붙일 수 있는 수입니다(간판도 포함). 0이면 매장에 아무것도 붙지 않습니다. 수를 낮추면 한도를 넘는 전단 중 가장 오래된 것부터 떼어냅니다."
+cfg_corridor_max,복도 건너편에 붙을 수 있는 전단 최대 수
+cfg_corridor_max_tip,"창문 건너편 복도 벽에 붙일 수 있는 수입니다(매력도에는 절반만 반영되며, 손님은 이를 두고 흥정하지 않습니다). 0이면 복도에 아무것도 붙지 않습니다. 수를 낮추면 한도를 넘는 전단 중 가장 오래된 것부터 떼어냅니다."
+cfg_shop_weekly,매장에 새로 붙는 주간 전단 수(약)
+cfg_shop_weekly_tip,"일주일 동안 매장에 새로 붙는 대략적인 수입니다. 매일 밤 무작위로 붙으며, 어떤 밤엔 하나도 없고 가끔 몇 개씩 붙습니다. 청소 서비스가 오는 밤에는 붙지 않습니다. 0이면 새로 붙지 않습니다(이미 붙은 것은 그대로 있습니다)."
+cfg_corridor_weekly,복도 건너편에 새로 붙는 주간 전단 수(약)
+cfg_corridor_weekly_tip,"일주일 동안 복도 건너편에 새로 붙는 대략적인 수입니다. 매일 밤 무작위로 붙으며, 어떤 밤에는 하나도 붙지 않습니다. 0이면 새로 붙지 않습니다."
+status_unscrew,"나사를 클릭해 드라이버로 빼세요({0}개 남음). 거의 방전된 배터리는 가져가고, 운이 좋으면 회로 기판도 여전히 작동합니다."
+status_need_screwdriver,간판이 벽에 나사로 고정되어 있습니다. 드라이버가 필요합니다. 매장에는 없습니다(쓰레기통은 제외).
+status_neon_wrong_tool,간판이 벽에 나사로 고정되어 있습니다. 스크레이퍼와 용제로는 어림도 없습니다. 드라이버를 사용하세요.
+status_tool_ready_screws,드라이버를 들었습니다. 나사를 클릭해 빼세요.
+screw_tip,나사: 클릭해 빼기(드라이버 필요)
+tool_hint_screwdriver,네온 간판 위에 놓았다가 손을 떼세요: 플러그를 뽑고 나사를 푸세요(부품은 챙기세요)
+notify_sign_parts,네온 간판을 떼어냈습니다. 회로 기판은 여전히 작동합니다. 거의 방전된 에너지 셀과 함께 보관함에 넣었습니다.
+notify_sign_battery,네온 간판을 떼어냈습니다. 회로 기판은 오래전에 타버렸습니다. 거의 방전된 에너지 셀만 보관함에 넣었습니다.
+notify_sign_down,네온 간판을 떼어냈지만 보관함이 가득 찼습니다. 부품을 둘 곳이 없습니다.
+tip_attr_off,매력도에 영향 없음(설정에서 비활성화됨)
+cfg_rep_penalty,오래된 전단은 평판을 떨어뜨림
+cfg_rep_penalty_tip,"3일 이상 붙어 있는 전단은 매일 밤 모든 세력의 평판을 조금씩 떨어뜨립니다(복도 전단은 절반으로 계산되며, 신규 매장의 유예 기간에는 적용되지 않습니다). 기본값은 100%이며, 0%면 꺼지고 200%면 두 배로 적용됩니다."
+cfg_attr_penalty,전단은 매력도를 떨어뜨림
+cfg_attr_penalty_tip,"무료 허용량을 넘으면 전단이 매장 매력도를 낮춥니다. 기본값은 100%이며, 0%면 꺼지고 200%면 두 배로 적용됩니다."
+cfg_haggle_penalty,손님이 어수선함을 두고 흥정함
+cfg_haggle_penalty_tip,"매장 자체(창문과 실내)에 전단이 많을수록 손님이 더 까다롭게 흥정합니다. 종이 전단 3개부터 시작됩니다. 기본값은 100%이며, 0%면 꺼집니다(손님이 더는 이를 언급하지 않습니다). 200%면 두 배로 적용됩니다."
+log_highlight_hint,모든 전단을 강조 표시하려면 {0}을(를) 누르세요.
+highlight_summary,"전단: 매장 {0}개, 복도 건너편 {1}개"
+highlight_stale,; 3일 초과 {0}개(주황색)
+highlight_hidden,셔터 뒤에 {0}개: 매장을 열어 확인하세요
+highlight_none,현재 전단 없음
+cfg_highlight_key,모든 전단 강조 표시
+cfg_highlight_key_tip,"한 번 누르면 시야에 있는 모든 전단에 윤곽선이 표시되고, 3일이 지나 평판을 떨어뜨리는 전단은 주황색으로 표시됩니다. 다시 누르면 끕니다. 화면 중앙에 전단 수와 위치를 알려주는 문구가 뜹니다."
+order_no_room,매장에 자리가 없습니다. 주문이 접수되지 않았고 요금도 청구되지 않았습니다. 공간을 비운 뒤 다시 주문하세요.
+highlight_rescue_hint,가려졌거나 클릭할 수 없나요? {0}을(를) 눌러 옮기세요
+rescue_none,가려졌거나 손이 닿지 않는 전단이 없습니다
+rescue_moved,가려진 전단 {0}개를 보고 클릭할 수 있는 곳으로 옮겼습니다
+rescue_removed,놓을 곳이 없는 전단 {0}개를 떼어냈습니다
+cfg_rescue_key,가려진 전단 옮기기
+cfg_rescue_key_tip,"일부 전단은 서류함이나 수도관 같은 물체 뒤에 가려지거나, 클릭하면 다른 물체가 선택됩니다. 한 번 누르면 보고 클릭할 수 있는 위치로 바로 옮깁니다. 둘 곳이 없는 전단은 떼어냅니다. 화면 중앙에 옮긴 수를 알려주는 문구가 뜹니다."
+net_group,Probably Flyers
+ad_unclog_name,배관 뚫기 명함
+ad_unclog_title,전문 배관 뚫기
+ad_unclog_title_v2,파란 명함 왕 씨
+ad_unclog_title_v3,배수구 해결
+ad_unclog_body,환풍구 · 배수구 · 진공 변기\n고압 공기. 벽을 부수지 않습니다.\n이 파란 카드를 보관하면 20% 할인!
+ad_unclog_body_v2,20년간 별별 쓰레기를 꺼냈습니다\n영양 페이스트 튜브 · 틀니 · 경쟁업체 전단\n<b>43 및 44번 베이는 사칭범입니다!</b>
+ad_unclog_body_v3,변기가 역류하나요? 환풍구가 덜컹이나요?\n팬은 건드리지 말고 저를 기다리세요!\n안에서 찾은 귀중품은 50:50으로 나눕니다
+ad_unclog_phone,베이 71-3842 · 왕 씨를 찾으세요
+ad_unclog_flavor,환풍구를 막는 것의 절반은 이 파란 카드다. 흠잡을 데 없는 사업 모델이군.
+ad_unclog_flavor_v2,모퉁이에 정체불명의 회색 끈적이가 묻어 있다. 그럼 집게로 집어야겠군.
+ad_unclog_flavor_v3,어제는 환풍구를 뚫어줬다. 오늘은 새 명함으로 꽉 막아놨다.
+ad_locksmith_name,열쇠공 명함
+ad_locksmith_title,열쇠공
+ad_locksmith_title_v2,신속 개문
+ad_locksmith_title_v3,저우 아저씨
+ad_locksmith_body,에어록 · 금고 · 냉동 수면 포드\n치안부 등록 업체\n5분이면 도착. 못 열면 무료!
+ad_locksmith_body_v2,밖에 갇혔나요? 에어록 안에 열쇠가 있나요?\n차가 식기 전에 열어드립니다\nPIN 입력보다 3초 빠릅니다
+ad_locksmith_body_v3,뒷문 Mk-3 자물쇠가 낡아 보이네요\n스프링이 헐거워요(어젯밤 확인했습니다)\n전화하시면 슬쩍 업그레이드하고 기름칠해 드려요
+ad_locksmith_phone,내선 35-2010 · 저우 아저씨
+ad_locksmith_flavor,누군가 뒷면에 당신 뒷문 자물쇠의 모델명을 연필로 적어놨다.
+ad_locksmith_flavor_v2,이상하게도 이 카드는 금고 *안쪽*에 붙어 있었다.
+ad_locksmith_flavor_v3,현관 자물쇠는 멀쩡하다. 열쇠 구멍 안에 작은 할인권이 가지런히 접혀 있는 것만 빼면.
+ad_loan_name,대출 명함
+ad_loan_title,무담보 대출
+ad_loan_title_v2,즉시 크레딧
+ad_loan_title_v3,지금 숨통을 트세요
+ad_loan_body,"ID 칩만 있으면, <b>몇 초 만에 크레딧 지급</b>\n신용 불량? 산소 요금 연체? 승인 완료!\n금리 최저 1.9%*"
+ad_loan_body_v2,담보 불필요 · 보증인 불필요\n전화하면 서명한 것으로 간주\n<size=75%>받지 않은 전화도 관리 수수료 청구</size>
+ad_loan_body_v3,"다음 달 산소 요금이 부족한가요?\n오늘 숨 쉬고, 다음 분기에 갚으세요!\n연체 시 가벼운 폐 압류가 진행됩니다"
+ad_loan_phone,내선 888-000 · 류 지배인
+ad_loan_flavor,"별표는 뒷면의 아주 작은 글씨를 가리킨다. 돋보기 필요: ""*시간당."""
+ad_loan_flavor_v2,"번호를 3초 동안 바라보기만 했는데, 단말기가 울렸다. '대출금 지급 완료.'"
+ad_loan_flavor_v3,제법 두툼한 고급지에서 상층 구역 향수 냄새가 희미하게 난다. 압류한 정장은 종이로 쓰기 딱 좋다.
+ad_repair_name,수리 명함
+ad_repair_title,로봇 수리
+ad_repair_title_v2,꼬마 리의 만능 수리
+ad_repair_title_v3,가전제품 전문의
+ad_repair_body,"로봇 · 산소 발생기 · 중력 부츠\n정품 부품 사용, 아니면 10배 환불\n못 고치면 무료(분해 비용은 별도)"
+ad_repair_body_v2,말썽꾸러기 드로이드? 헐떡이는 산소 발생기?\n충격식 정비 전문가\n<b>친구들에게 말하세요: 꼬마 리는 정말 좋은 사람이에요!</b>
+ad_repair_body_v3,불량 펌웨어 및 예비 부품 장착\n남은 나사는 가져가세요\n<size=75%>채널 404가 연결되지 않으면 계속 울리게 두세요</size>
+ad_repair_phone,채널 404-404 · 꼬마 리
+ad_repair_flavor,그가 고친 로봇은 전부 그를 추천하며 돌아온다. 약간 인질 같은 말투로.
+ad_repair_flavor_v2,매장 청소 로봇은 이 전단을 지나쳐 쓸 때마다 멈춰서 경례한다.
+ad_repair_flavor_v3,산소 발생기를 고친 뒤로 숨을 세 번 내쉴 때마다 '리는 친절해'라고 속삭이는 소리가 난다.
+ad_tutor_name,입시학원 전단
+ad_tutor_title,시험 벼락치기 수업
+ad_tutor_title_v2,무중력 벼락치기
+ad_tutor_title_v3,상류층 입시 준비
+ad_tutor_body,"일대일 수업, 무중력, 방해 요소 없음\n상층 구역 명문 학원에 진학하세요\n지난 학기 평균 +200점<size=75%> (만점 150점)</size>"
+ad_tutor_body_v2,거꾸로 매달려 복습하세요! 뇌에 피가 더 많이 돌아요!\n잠 한숨 안 자고 72시간 만에 우주법 암기\n태어나지도 않은 배아의 등록금 예약 접수 중
+ad_tutor_body_v3,아이가 에어록 앞에서부터 뒤처지게 두지 마세요!\n상류층 말투와 새끼손가락 들기를 가르칩니다\n<s>합격 보장</s> 은퇴할 때까지 재시험 무료
+ad_tutor_phone,지금 등록: 내선 985-211
+ad_tutor_strip,등록 985-211
+ad_tutor_flavor,자녀도 없으면서 어쩐지 이제 아이들 성적이 걱정된다.
+ad_tutor_flavor_v2,뒷면에 수학 문제 예제가 있다. 풀어보니 답은 수업료였다.
+ad_tutor_flavor_v3,교장이 전직 치안부 심문관이라는 소문이 있다. 합격률은 자백률과 똑같다.
+ad_lostpet_name,실종견 포스터
+ad_lostpet_title,실종: 로보견
+ad_lostpet_title_v2,사례금: 실종된 코기
+ad_lostpet_title_v3,이 개에게 돈을 주지 마세요
+ad_lostpet_body,"볼츠라는 로보 코기, 여분의 뒷다리 있음\n짖고, 돌진하고, 집을 못 찾습니다\n사례금: 500 크레딧"
+ad_lostpet_body_v2,마지막 목격 당시 바이오닉 눈과 케이블을 씹고 있었음\n목줄 합선 주의—고무장갑 착용!\n제보자에게 영양 페이스트 2상자
+ad_lostpet_body_v3,코기가 자기 실종 포스터를 붙이는 걸 봤나요?\n<b>절대 크레딧을 송금하지 마세요!</b>\n배터리 살 돈을 뜯으려고 이걸 인쇄하는 작은 사기꾼입니다!
+ad_lostpet_phone,전화: 베이 42-0770
+ad_lostpet_strip,42-0770
+ad_lostpet_strip_1,42-0770
+ad_lostpet_strip_2,42-0770 볼츠
+ad_lostpet_strip_3,42-0770 사례금!
+ad_lostpet_strip_4,42-0770 어둠을 무서워해요
+ad_lostpet_strip_5,42-0770 멍멍
+ad_lostpet_strip_6,42-0770 제발
+ad_lostpet_flavor,뜯긴 조각이 몇 개 있다. 볼츠가 돌아와 물어뜯은 것 같다.
+ad_lostpet_flavor_v2,맨 아래에 진흙 묻은 발자국이 공식 승인 도장처럼 가지런히 찍혀 있다.
+ad_lostpet_flavor_v3,어젯밤 베이 두 곳 건너에서 중고 사이버 눈을 팔던 개를 본 것 같다.
+ad_movers_name,이삿짐 업체 명함
+ad_movers_title,스타 이삿짐
+ad_movers_title_v2,15분 만에 싹 비움
+ad_movers_title_v3,한밤중 야반도주
+ad_movers_body,"베이 사이, 층 사이, 은하 사이\n피아노, 냉동고, 가게 전체\n무중력 이사, 계단 요금 없음"
+ad_movers_body_v2,"매장 전체를 15분 만에 비워드립니다\n선반, 마루판, 배선까지\n<b>주인이 없으면 20% 할인</b>"
+ad_movers_body_v3,집행관이 문을 두드리나요? 치안부가 냄새를 맡았나요?\n환풍구를 이용한 조용한 이사\n아침 식사 전 두 베이 옆에서 영업 재개
+ad_movers_phone,내선 633-550
+ad_movers_strip,이삿짐센터 633-550
+ad_movers_flavor,마지막으로 봤을 땐 옆 가게를 옮기고 있었다. 그때 주인은 자리에 없었다.
+ad_movers_flavor_v2,옆 가게 문틀까지 떼어 가고 먼지와 '별점 5개 부탁!' 카드만 남겼다.
+ad_movers_flavor_v3,누군가 가장 무거운 진열장 밑에 바퀴 네 개를 슬쩍 끼워 넣은 걸 방금 알아챘다.
+ad_augs_name,의체 매입 카드
+ad_augs_title,최고가 매입
+ad_augs_title_v2,부품 출장 적출
+ad_augs_title_v3,팔다리 삽니다
+ad_augs_body,사용한 팔다리 · 눈 · 신경 칩\n묻지 않고 현장에서 바로 지급\n직접 찾아가 나사 풀어드립니다
+ad_augs_body_v2,"쪼들리시나요? 남는 부품을 현금으로!\n소음 없는 전동 드릴, 단 3분이면 끝\n<size=75%>공장 출고 상태 장기 환영 (마취제는 직접 준비)</size>"
+ad_augs_body_v3,전 애인의 사이버 팔? 배수구에서 주운 눈?\n몸에 붙어 있는 부품도 감정해 드립니다!\n친구 소개 시 렌치 작업 무료
+ad_augs_phone,매입 문의: 내선 2468-10
+ad_augs_flavor,손이 저절로 주머니로 들어간다.
+ad_augs_flavor_v2,"모서리에 묻은 건 고급 유압유일까, 아주 오래된 핏자국일까."
+ad_augs_flavor_v3,이걸 붙인 사내는 전당포 주인이 회중시계 값을 매기듯 네 무릎뼈를 훑어봤다.
+ad_qrcode_name,QR 전단
+ad_qrcode_title,영양 페이스트 무료
+ad_qrcode_title_v2,페이스트 증정
+ad_qrcode_title_v3,800겹 프로모션
+ad_qrcode_body,"지금 스캔, 1인당 튜브 하나\n맛: 오리지널, 엑스트라 오리지널\nID 칩과 산소 PIN만 입력하세요"
+ad_qrcode_body_v2,상층 구역 잉여품! 진짜 영양소 12%!\n<s>유통기한 3년 지남</s> 숙성되어 풍미가 진해요!\n'유산 기부'에 체크하면 배송 무료
+ad_qrcode_body_v3,QR 코드가 또 다른 QR 코드로 이어지나요?\n그게 바로 800겹 보안 암호화입니다!\n계속 스캔하면 보너스 녹 맛 튜브 증정!
+ad_qrcode_phone,핫라인 10-10-10 (매주 끝나는 특가)
+ad_qrcode_flavor,QR 코드는 또 다른 QR 코드로 이어진다. 그건 또 다른 코드로 이어진다.
+ad_qrcode_flavor_v2,여분 단말기로 스캔했더니 대출 계좌 세 개가 즉시 개설되고 불이 붙었다.
+ad_qrcode_flavor_v3,대체 '엑스트라 오리지널'이 뭐지? 알루미늄 튜브까지 페이스트에 갈아 넣나?
+ad_blackmarket_name,브로커 명함
+ad_blackmarket_title,뭐든 삽니다
+ad_blackmarket_title_v2,장물 처리
+ad_blackmarket_title_v3,야간 브로커
+ad_blackmarket_body,여기서 못 팔겠다고요? 사려는 가게가 따로 있죠\n거래 코드로 인계. 얼굴도 이름도 없이\n상자 일련번호는 미리 지워둠. 단말기 코드: F4
+ad_blackmarket_body_v2,출처 불명? 똑딱거림? 수배품?\n물건이 위험할수록 더 빨리 지급\n<b>유선전화는 걸지 마세요! 단말기에서 F4를 누르세요!</b>
+ad_blackmarket_body_v3,치안부 순찰 5분 전에 수거\n일련번호 무료 삭제\n유선전화는 도청 중—단말기 F4 이용
+ad_blackmarket_phone,브로커를 찾으세요: 내선 666-013
+ad_blackmarket_flavor,누가 붙였는지는 아무도 못 봤다. 그래도 계산대에 영수증 코드가 놓여 있다.
+ad_blackmarket_flavor_v2,열변색 잉크로 인쇄됐다—치안부 순찰이 지나갈 때마다 '세금 납부하세요'라고 읽힌다.
+ad_blackmarket_flavor_v3,단말기 키보드를 보니 F4 키의 글자가 완전히 닳아 없어졌다.
+ad_bullish_name,주식 정보 전단
+ad_bullish_title,내부자 정보
+ad_bullish_title_v2,곧 펜트하우스
+ad_bullish_title_v3,물린 사람들 모임
+ad_bullish_body,수익 보장. 단말기에서 <b>F3</b> 누르세요\n아침이면 냥코인이 달까지 갑니다\n채권 수익은 매일 밤 지급. 자는 동안 벌어요
+ad_bullish_body_v2,아직도 영양 페이스트만 드시나요? 지금 <b>F3</b> 누르세요\n불 씨의 알고리즘이 상층 구역을 털어드립니다\n냥코인에 전부 걸고 펜트하우스에서 눈뜨세요
+ad_bullish_body_v3,크레딧을 잃으셨나요? 정보로 되찾으세요\n독점 구제책은 <b>F3</b> 누르기\n<size=75%>참고: 불 씨는 현재 환기구 4B에 거주 중</size>
+ad_bullish_phone,불 씨: 888-888
+ad_bullish_flavor,차트가 종이 끝을 뚫고 치솟아 옆에 붙은 대출 명함까지 이어진다.
+ad_bullish_flavor_v2,미납 산소 요금 최종 독촉장 뒷면에 인쇄됐다. 수신인은 미스터 불 본인.
+ad_bullish_flavor_v3,잉크에서 값싼 영양 페이스트 냄새가 희미하게 난다. 프린터까지 재정적 자유가 닿진 않은 모양이다.
+ad_counterfeit_name,복제품 카드
+ad_counterfeit_title,1:1 복제품
+ad_counterfeit_title_v2,공장 불량품
+ad_counterfeit_title_v3,신품급
+ad_counterfeit_body,"부티크 품질, 공장 감성\n손으로 본떠 모든 흠을 수정\n추가로: 무산성 종이, 변색 잉크. 아시죠."
+ad_counterfeit_body_v2,"주간조는 진품, 야간조는 우리 제품\n상층 구역의 속물도 구별 못 합니다\n<size=75%>전화 시 밀수품 가치를 정확히 말씀하세요</size>"
+ad_counterfeit_body_v3,"지폐 세탁, 일련번호 삭제, ID 칩 초기화\n하층 구역 유통업자 모집 중\n품질 보증을 위해 모든 통화를 HD 녹음합니다"
+ad_counterfeit_phone,내선 110-110 (모조품은 사절)
+ad_counterfeit_flavor,이 카드도 모조품이다. 진품은 본 적도 없다.
+ad_counterfeit_flavor_v2,"가장자리는 관료처럼 정밀하게 재단했고, 진짜 치안부 증거 봉투 접착제로 붙였다."
+ad_counterfeit_flavor_v3,자외선을 비추자 잉크 속 작은 워터마크가 드러난다: '지금 자백하면 나중에 절약.'
+ad_ink_drain_name,스텐실: 배수관 프로
+ad_ink_drain_title,배수관
+ad_ink_drain_title_v2,진짜 왕 씨
+ad_ink_drain_title_v3,강력 세척
+ad_ink_drain_body,막힘 제거 · 펌프 · 우회 배관
+ad_ink_drain_body_v2,가짜 왕의 뒷수습을 해드립니다
+ad_ink_drain_body_v3,#42보다 3 PSI 더 강력
+ad_ink_drain_phone,71-3843
+ad_ink_drain_flavor,"파란 명함과 번호 하나 차이이고, 이쪽도 왕 씨다. 둘은 수년째 앙숙이지만 아직 어느 쪽도 상대를 쓸어내진 못했다."
+ad_ink_drain_flavor_v2,악취 나는 배관 밀봉제가 스텐실 가장자리에 굳어 붙어 있다. 꽤 그럴듯한 상표다.
+ad_ink_drain_flavor_v3,"벽돌 벽을 타고 페인트가 흘러, 막힌 배수로에 그대로 떨어진다. 고친다던 바로 그 배수로다."
+ad_ink_red_name,빨간 도장: 막힘 제거
+ad_ink_red_title,막힘 제거
+ad_ink_red_title_v2,승인 완료
+ad_ink_red_title_v3,지금 배출
+ad_ink_red_body,변기 · 배수관 · 에어록
+ad_ink_red_body_v2,칙령에 따른 우선 흡입
+ad_ink_red_body_v3,도장 찍으면 원격 물내림
+ad_ink_red_phone,523-336
+ad_ink_red_flavor,공문서처럼 반듯하게 찍혔다. 이제 네 벽도 꽤 공식적으로 보인다.
+ad_ink_red_flavor_v2,잉크에 산업용 탈취제를 섞었다. 벽 2제곱미터에서 관공서 장뇌 냄새가 난다.
+ad_ink_red_flavor_v3,모서리에 일련번호가 있다. 무너져 가는 네 벽은 오늘 저녁 접수 번호 204호인 모양이다.
+ad_ink_docs_name,스프레이: 허가증 및 인장
+ad_ink_docs_title,허가증 및 인장
+ad_ink_docs_title_v2,깨끗한 ID 칩
+ad_ink_docs_title_v3,첸의 위조품
+ad_ink_docs_body,ID 칩 · 면허증 · 점프 허가증
+ad_ink_docs_body_v2,모든 스캐너를 속임 · 인장은 현장에서 제작
+ad_ink_docs_body_v3,큰 스프레이 광고를 믿으세요 · 옆집 도장은 삐뚤어짐
+ad_ink_docs_phone,3952-70
+ad_ink_docs_flavor,치안부 공고보다 더 크게 뿌려 놨다. 치안부 공고는 바로 밑에 있다.
+ad_ink_docs_flavor_v2,스프레이를 너무 세게 뿌린 탓에 아래 포스터의 수배자에게 선글라스가 생겼다.
+ad_ink_docs_flavor_v3,옆면 시험 인장 중 하나에 또렷이 적혀 있다: '상층 구역 시장실.'
+ad_ink_phone_name,낙서: 번호 하나
+ad_ink_phone_title,전화해
+ad_ink_phone_title_v2,해결 완료
+ad_ink_phone_title_v3,잡일
+ad_ink_phone_body,뭐든지
+ad_ink_phone_body_v2,페인트 구매만 빼고
+ad_ink_phone_body_v3,마지막 숫자를 맞혀봐
+ad_ink_phone_phone,4-7190-3
+ad_ink_phone_flavor,마지막 숫자를 쓰기 전에 페인트가 다 떨어졌다. 무슨 용도인지는 아무도 모른다.
+ad_ink_phone_flavor_v2,걸레받이 옆에 빈 스프레이 캔이 놓여 있다. 만능 해결사도 철물 노점 외상만큼은 해결 못 하는 모양이다.
+ad_ink_phone_flavor_v3,"누군가 끝에 물음표를 그렸고, 다른 누군가 곧바로 그걸 조잡한 블래스터 그림으로 바꿔 놓았다."
+complain_1,"우와, 벽이 꽉 찼네요."
+complain_2,당신보다 전화번호 세 개를 먼저 봤어요.
+complain_3,"여기가 가게예요, 게시판이에요?"
+complain_4,하나만 물을게요. 배수관도 뚫어 주나요?
+complain_5,"벽에 붙은 자물쇠 수리공, 사장님 친척이에요?"
+complain_6,정비 통로에 잘못 들어온 줄 알았어요.
+complain_7,여기 하층 구역에 있는 내 계단통이랑 똑같이 생겼네요.
+complain_8,치안부가 이 벽만 보고도 벌금 물리겠어요.
+complain_9,"잠깐, 번호 좀 적을게요. 대출 광고 번호요."
+complain_10,가격표를 찾았는데 전단만 있네요.
+complain_11,더럽네요. 우리 할머니 의수도 이 벽보다 깨끗해요.
+complain_12,"솔직히 벽에 붙은 광고 보고 들어왔어요. 잠깐, 여기가 이삿짐센터가 아니에요?"
+complain_bargain_1,벽이 이 모양인데 정가를 받겠다고요?
+complain_bargain_2,이런 곳이면 가격 다시 정해야죠.
+complain_bargain_3,내일이라도 야반도주할 가게처럼 보이네요. 그에 맞춰 값을 부를게요.
+complain_bargain_4,조금 깎아 주면 나가면서 저 전단 몇 장 떼어드릴게요.
+complain_neon_1,네온사인 때문에 눈이 아프네요.
+complain_neon_2,저렇게 깜빡이니 나이트클럽에 온 줄 알았어요.
+complain_neon_3,아직 켜져 있네요? 전기료는 누가 내요?
+complain_neon_4,"간판 보고 들어왔는데, 여기서 대체 뭘 팔죠?"
+praise_clean_1,이 구역에서 가게 앞이 깨끗한 곳은 여기뿐이네요.
+praise_clean_2,가게에 전단이 하나도 없네요. 왠지 정직한 느낌이에요.
+praise_clean_3,옆 가게는 벽조차 안 보일 정도야. 여긴 반짝반짝하네.
+praise_clean_4,깔끔한 입구. 솔직히 그게 발길을 끌었어.
+praise_clean_5,벽에 열쇠공 번호 하나도 안 붙어 있네. 드문 일이야.
+ad_log_new_1,밤사이 벽에 새 전단이 붙었습니다: {0}.
+ad_log_new_2,문을 열어 보니 벽에 {0}장이 더 붙어 있었습니다. 풀이 아직 젖어 있습니다.
+ad_log_new_3,전단 +{0}. 셔터문은 건드리지도 않았더군요. 대단합니다.
+ad_log_new_4,밤사이 벽에 전단이 {0}장 더 돋아났습니다. 곰팡이처럼요.
+ad_log_ink_new,"밤사이 누군가 벽에 번호를 스프레이로 뿌렸습니다. 아직 젖어 있고, 냄새도 지독합니다."
+ad_log_easter,벽에 전단이 하나 나타났습니다. 어쩐지 낯익어 보입니다.
+ad_log_neon_new,밤사이 누군가 벽에 네온사인을 붙였습니다. 배터리 상자가 아직 따뜻합니다.
+ad_log_neon_corridor,복도 건너편에 새 네온사인이 켜졌습니다. 가게 안이 온통 알록달록해졌습니다.
+post_item_cards_name,전단 카드 묶음
+post_item_cards_desc,"가게 이름과 번호가 적힌 작은 카드입니다. 야간 외출 때 하층 구역에 몇 장 붙여 보세요. 눈에 잘 띄지 않고 효과는 소소하지만, 치안부에 걸릴 일은 거의 없습니다."
+post_item_cards_flavor,뒷면에 '착한 가격'을 넣을지 한참 고민했습니다. 결국 넣었습니다.
+post_item_spray_name,스프레이 도구
+post_item_spray_desc,"스프레이 페인트와 가게 번호를 오려낸 스텐실입니다. 야간 외출 때 하층 구역 벽에 뿌리세요. 크고 요란한 만큼 훨씬 효과적이지만, 치안부에 걸리면 벌금을 내야 합니다."
+post_item_spray_flavor,첫 스텐실은 글자를 거꾸로 잘랐습니다. 그래도 버리진 않았습니다.
+post_pick_category,오늘 밤은 뭘 광고할까요?
+post_done_cards,하층 구역 복도에 카드 한 줄을 붙였습니다. '{0}. 재고 있음. 착한 가격.'
+post_done_spray,하층 구역 벽에 커다란 '{0}'을 뿌리고 그 아래에 번호를 적었습니다. 아직도 흘러내리고 있습니다.
+post_caught_1,치안부다! 손에 든 게 뭐지? ...스프레이 페인트? 벌금은 {0}크레딧이다.
+post_caught_2,또 너희 전단쟁이들이군. 벽은 정거장 소유야. {0}크레딧 내고 전부 떼어내.
+post_caught_3,번호까지 남겨줘서 고맙군. 서류 작업이 줄겠어. {0}크레딧이다.
+post_log_caught,어젯밤 광고를 붙이다 치안부에 적발됐습니다. 벌금 {0}크레딧을 냈습니다. 치안부 평판이 하락했습니다.
+post_log_success,어젯밤 붙인 '{0}' 광고가 아직 남아 있습니다. 오늘 하층 구역 고객이 {0}을 찾을 가능성이 높아집니다.
+post_customer_saw_1,복도에서 전단 봤어요. {0} 있어요?
+post_customer_saw_2,"벽에 적힌 번호를 보고 왔어요. 그럼, {0}는 어디 있죠?"
+post_customer_saw_3,네 광고가 배수관 수리공보다 더 요란하네. {0} 줘.
+post_customer_saw_4,"배관공 번호는 기억 안 나는데, 네 {0}는 기억났어."
+ad_ct_wild_name,보험 전단
+ad_ct_wild_title,와일드 보험
+ad_ct_wild_title_v2,와일드 보험
+ad_ct_wild_title_v3,와일드 보험
+ad_ct_wild_body,"당신 같은 소상공인을 위해\n매일 청구. <b>도난 물품, 아침이면 반환</b>\n자기 전에 신청하고 언제든 해지하세요"
+ad_ct_wild_body_v2,"밤도둑이 걱정되시나요, 사장님?\n일일 요금만 내면 저희가 직접 찾아가 문을 두드려 드립니다\n<size=75%>참고: 도둑의 이빨은 보상 대상이 아닙니다</size>"
+ad_ct_wild_body_v3,이 아래에서 <b>제대로 작동하는</b> 유일한 보장\n재고를 어떻게 그렇게 빨리 되찾는지 묻지 마세요\n도둑이 마음을 고쳐먹었다고만 해두죠
+ad_ct_wild_phone,사무실 전화 {0} ({1}이/가 받습니다)
+ad_ct_wild_flavor,이 번호는 실제로 연결됩니다. 하단 작은 글씨: 벽의 전단은 저희가 붙인 경우에도 보장되지 않습니다.
+ad_ct_wild_flavor_v2,도둑들이 같은 급여명세서에 올라 있어서 도난품을 그렇게 빨리 되찾는 게 아닐까 싶습니다.
+ad_ct_wild_flavor_v3,"매일 청구라니 꽤 유연해 보이죠. 납부를 깜빡한 밤, 수상할 만큼 전문적인 침입을 당하기 전까진요."
+ad_ct_redimp_name,레드 임프 맥주 전단
+ad_ct_redimp_title,레드 임프 맥주
+ad_ct_redimp_title_v2,레드 임프 맥주
+ad_ct_redimp_title_v3,레드 임프 맥주
+ad_ct_redimp_body,"<b>악마처럼 맛있다.</b>\n전화 주문, 내일 도착\n첫 주문 시 무료 샘플"
+ad_ct_redimp_body_v2,하층 구역에서 가장 독한 몰트\n한 모금이면 공기 맛도 괜찮아져요\n상자째로 문 앞까지 배달
+ad_ct_redimp_body_v3,진짜 홉 <s>일지도</s>\n재활용수보다 맛있어요\n목마른 가게부터 배달
+ad_ct_redimp_phone,주문: {0} · {1}을/를 찾아 주세요
+ad_ct_redimp_flavor,"구석에서 작은 임프가 잔을 들어 올립니다. 번호는 진짜지만, 동네 사람들이 또 술을 동내지 않았다면 말이죠."
+ad_ct_redimp_flavor_v2,전단 뒷면에 끈적한 갈색 자국이 있습니다. 배달원이 복도를 오다 자기네 맥주를 한 잔 마신 게 분명합니다.
+ad_ct_redimp_flavor_v3,"성분표 첫 줄은 '물(3구역 응축수 배출물, 대부분 화요일에 끓임)'입니다. 그래도 수돗물보단 낫습니다."
+ad_ct_mining_name,광업 협동조합 전단
+ad_ct_mining_title,GP 광업 협동조합
+ad_ct_mining_title_v2,GP 광업 협동조합
+ad_ct_mining_title_v3,GP 광업 협동조합
+ad_ct_mining_body,"광석 대량 판매, <b>톤당 더 저렴하게</b>\n오늘 주문하면 내일 우리 작업반이 찾아갑니다\n그게 전부예요."
+ad_ct_mining_body_v2,"컨베이어에서 바로 깨낸 신선한 암석\n슬래그 섞기 없음, 저울 속임 없음, 군더더기 없음\n가게에서 무게를 감당할 수 있으면 전화 주세요"
+ad_ct_mining_body_v3,"원광에 중개상 웃돈 붙는 게 지겨우신가요?\n에어록에서 매장까지 바로 운반합니다\n정직한 무게, 공정한 크레딧, 다음 날 배송"
+ad_ct_mining_phone,{0}에 전화해서 {1}을/를 찾으쇼
+ad_ct_mining_flavor,전단에도 GP가 뭘 뜻하는지 안 적혀 있습니다. 그래도 번호는 진짜입니다. 뒤에서 암석 드릴이 울부짖는 소리가 들립니다.
+ad_ct_mining_flavor_v2,종이가 엄지에 거친 회색 얼룩을 남깁니다. 털어내자 진짜 철광석 조각 두 개가 떨어집니다. 아마 무료 샘플이겠죠.
+ad_ct_mining_flavor_v3,톤당 더 싸다니 솔깃합니다. 하지만 원광 1톤이면 가게 바닥이 아래 갑판까지 뚫릴 겁니다.
+ad_ct_pharma_name,무지 전단
+ad_ct_pharma_title,상층 구역 의약품
+ad_ct_pharma_title_v2,상층 구역 의약품
+ad_ct_pharma_title_v3,상층 구역 의약품
+ad_ct_pharma_body,"<b>합법 의약품</b>, 구하기 어려운 종류\n크레딧만 받습니다. 기록은 남기지 않음\n전화하기 전에 혼자인지 확인하세요"
+ad_ct_pharma_body_v2,"제대로 된 상층 구역 물건\n진통제, 방사선 치료제, 진정제\n단골만"
+ad_ct_pharma_body_v3,"이 아래 병원에서 처방해 주지 않는 것\n밀봉 상태, 유통기한 이내, 가루 섞은 가짜 아님\n공중 단말기에서 전화하지 마세요"
+ad_ct_pharma_phone,{1}: {0}
+ad_ct_pharma_flavor,그는 어디서든 자기 이름을 말하지 말라고 했습니다. 이제 그 이름이 당신 벽에 붙어 있습니다. 적어도 번호는 연결됩니다.
+ad_ct_pharma_flavor_v2,"표식 없는 흰 종이, 의료용 글꼴, 로고는 하나도 없습니다. 도청을 확인하라는 지시만큼 '완전히 합법적인 의약품'을 외치는 것도 없죠."
+ad_ct_pharma_flavor_v3,이 아래에서 제대로 된 파라세타몰 한 상자를 사려는 일은 도난 소총 한 상자를 장물로 넘기는 것보다 더 첩보 작전 같습니다.
+ad_ct_chem_name,휘갈겨 쓴 쪽지
+ad_ct_chem_title,맞춤형 화학약품
+ad_ct_chem_title_v2,맞춤형 화학약품
+ad_ct_chem_title_v3,맞춤형 화학약품
+ad_ct_chem_body,"뭐가 필요해? <b>내가 뚝딱 만들어 주지</b>\n다음 날 배송. 번거로운 일 없어.\n아무것도 묻지 않아, 알겠지?"
+ad_ct_chem_body_v2,"녹 제거제, 산, 그 밖의 것들\n말만 하면 밤새 병에 담아 주지\n손 조심해, 뜨거울 거야"
+ad_ct_chem_body_v3,"가게 물건이 너무 묽어?\n아침까지 신선하게, 최고 농도로 배합\n바닥이 녹으면 네 책임이야"
+ad_ct_chem_phone,{0}에 전화해서 {1}을/를 찾아. 고마워.
+ad_ct_chem_flavor,정말 번호 하나만 적힌 종잇조각입니다. 짜증 나게도 번호는 연결됩니다. 수화기 너머 남자는 방독면을 쓴 듯한 목소리입니다.
+ad_ct_chem_flavor_v2,"쪽지 아래쪽 모서리는 뭔가 보글거리는 것에 녹아 없어졌고, 탄 머리카락과 시큼한 레몬 냄새가 희미하게 납니다."
+ad_ct_chem_flavor_v3,니트로글리세린을 눈대중으로 재는 사람의 다급한 글씨입니다. 계산대에서 벽이 허용하는 한 최대한 멀리 붙입니다.
+ad_ct_odin_name,초록 전단
+ad_ct_odin_title,물품 매입
+ad_ct_odin_title_v2,물품 매입
+ad_ct_odin_title_v3,물품 매입
+ad_ct_odin_body,생일 파티를 준비 중입니다. 집들이 선물이 필요해요\n<b>방탄판 · 탄약 · 보급 상자 · 출입 카드</b>\n남들보다 적게 드립니다. 더 오래 기억합니다.
+ad_ct_odin_body_v2,오랜 친구들과 모임\n<b>방탄판 · 구급상자 · 공구함</b>\n먼지 쌓인 물건을 호의와 바꿔요
+ad_ct_odin_body_v3,"잘못 배부된 장비를 매입합니다\n<b>지급 장비 · 출입 칩 · 식량</b>\n크레딧은 적게, 친구는 더 좋게"
+ad_ct_odin_phone,{0}에 전화하세요. {1}은 들어본 적 없습니다.
+ad_ct_odin_flavor,수배 포스터가 내려간 자리에 바로 이 초록 전단이 붙었습니다. 번호는 진짜입니다. 받는 사람은 한마디만 합니다.
+ad_ct_odin_flavor_v2,방탄판과 탄약 상자가 필요한 생일 파티가 대체 어떤 건지 생각하기도 싫습니다. 축하 카드는 보내지 않는 편이 좋겠어요.
+ad_ct_odin_flavor_v3,'남들보다 적게 드립니다. 더 오래 기억합니다.' 이제껏 읽은 보호비 할인 쿠폰 중 가장 점잖은 문구입니다.
+ad_w_rent_name,방 임대
+ad_w_rent_title,침상 임대
+ad_w_rent_title_v2,아늑한 침상 임대
+ad_w_rent_title_v3,명당 캡슐
+ad_w_rent_body,"하층 구역 1인 침상, <b>오늘 입주 가능</b>\n승강기, 환풍구, 배수구 근처\n로봇 애완동물 금지. 수배자 금지."
+ad_w_rent_body_v2,지난 세입자는 <s>대충</s> 나갔습니다\n개별 에어록 걸쇠. 귀마개 권장\n안에서 죽으면 보증금은 몰수
+ad_w_rent_body_v3,침대에서 네 벽을 전부 만져 보세요!\n옆집 정화기의 웅웅거림은 무료\n자정 이후 용접 금지
+ad_w_rent_phone,전화 52-0131 · 집주인
+ad_w_rent_flavor,간단히 '집주인'이라고 서명했다. 인색한 글씨를 보니 네 집주인일지도 모른다는 불길한 예감이 든다.
+ad_w_rent_flavor_v2,"'승강기, 환풍구, 배수구 근처'는 부동산 업자 말로 시끄럽고, 춥고, 어제 먹은 양배추 냄새가 난다는 뜻입니다."
+ad_w_rent_flavor_v3,녹슨 관짝을 하수관 옆에 두고 '편리한 위치'라고 홍보할 수 있는 사람이라면 상층 구역 부동산 개발을 맡아야겠군요.
+ad_w_rent_strip,침상 52-0131
+ad_w_job_name,구인 전단
+ad_w_job_title,구인 · 일당 지급
+ad_w_job_title_v2,잡일 · 현금 지급
+ad_w_job_title_v3,임시 인력 모집
+ad_w_job_body,"화물 적재, 운반, 선체 창문 청소 <size=75%>(우주복 지참)</size>\n<b>당일 지급.</b> 영양 페이스트 한 끼 포함"
+ad_w_job_body_v2,환풍구 안쪽 녹 긁어내기. 마른 체형 우대\n열 시간 후 지급. <b>끼여도 농땡이로 간주</b>
+ad_w_job_body_v3,사장 대신 치안부 창구에서 줄 서서 욕먹기\n시간당 크레딧. <b>멍은 초과 근무 수당 지급</b>
+ad_w_job_phone,구인 전화 300-300
+ad_w_job_flavor,무료 영양 페이스트라는 굵은 약속 바로 옆에 '우주복 지참'이 깨알만 한 글씨로 끼어 있습니다.
+ad_w_job_flavor_v2,계산해 보니 중고 우주복 한 벌을 사려면 선체 창문을 닦아 대략 300년은 일해야 합니다.
+ad_w_job_flavor_v3,창문 청소 일을 맡았던 마지막 사내는 안으로 돌아오지 않았습니다. 적어도 자리는 늘 비어 있겠네요.
+ad_w_buy_name,고철 매입 쪽지
+ad_w_buy_title,고철 삽니다
+ad_w_buy_title_v2,고철 현금 매입
+ad_w_buy_title_v3,류 씨네 고철상
+ad_w_buy_body,"고철, 낡은 회로 기판, 고장 난 로봇\n<b>현장 계량</b>, 크레딧은 즉시 지급"
+ad_w_buy_body_v2,"망가진 의수족, 탄 칩, 찌그러진 해치 문\n킬로그램당 지급—<b>쇳소리 나면 삽니다</b>"
+ad_w_buy_body_v3,창고 잡동사니를 치우고 즉시 크레딧을 받으세요\n<b>자체 자석으로 검사합니다.</b> 케이스에 돌을 숨기지 마세요
+ad_w_buy_phone,구매자: 258-258
+ad_w_buy_flavor,"저울은 자기들이 가져온다. 그것도 폐기물 더미에서 건져 온 저울인데, 눈에 띄게 왼쪽으로 기울어져 있다."
+ad_w_buy_flavor_v2,이들이 말하는 '고장 난 로봇'의 기준은 놀라울 만큼 유연하다. 저울 위에서 얌전히 있기만 하면 돈을 내준다.
+ad_w_buy_flavor_v3,"이웃이 지난 화요일 녹슨 의수를 이들에게 팔았는데, 목요일엔 시장 좌판에서 '상층 구역 빈티지 크롬'이라는 딱지가 붙은 채 발견했다."
+ad_w_tiny_name,작은 종잇조각
+ad_w_tiny_title,긴급
+ad_w_tiny_title_v2,급구
+ad_w_tiny_title_v3,도와줘
+ad_w_tiny_body,<b>뭐든지</b>
+ad_w_tiny_body_v2,<b>서둘러</b>
+ad_w_tiny_body_v3,<b>전화 줘</b>
+ad_w_tiny_phone,90-90-90
+ad_w_tiny_flavor,"눈을 가늘게 떠야 읽힌다. 그냥 '긴급'이라고만 적혀 있다. 무슨 일이었든, 예산은 더 큰 종이 한 장 살 만큼도 안 됐나 보다."
+ad_w_tiny_flavor_v2,느낌표 하나 들어갈 자리도 없다. 이걸 붙인 사람은 목숨 걸고 도망치는 중이었거나 음절 수대로 돈을 내고 있었나 보다.
+ad_w_tiny_flavor_v3,그 작은 종잇조각을 5초 동안 보고 있자니 어쩐지 남의 공황이 옮는다. 당장 전화하지 않으면 정거장이 폭발하기라도 할 것처럼.
+ad_w_note_name,공책 한 장
+ad_w_note_title,전문 운반꾼
+ad_w_note_title_v2,탱크의 운반 서비스
+ad_w_note_title_v3,무거운 짐 운반
+ad_w_note_body,힘 아주 셈. 냉동고도 들 수 있음\n<s>저렴</s> 가격 협의 가능\n오후엔 한가함 (아침엔 잠)
+ad_w_note_body_v2,"이사, 운반, 막힌 에어록\n영양 페이스트만 주면 일함\n수학은 못 함. 엄마가 고지서 처리"
+ad_w_note_body_v3,한 손으로 100kg 들 수 있음\n상자 안에 뭐 들었는지 안 물어봄\n순찰 시간에는 일 못 함
+ad_w_note_phone,탱크를 찾으세요 777-123
+ad_w_note_flavor,뒷면은 하다 만 수학 숙제다. 3 곱하기 8은 분명 14가 아니다.
+ad_w_note_flavor_v2,글씨를 쓸 때 너무 세게 눌러서 뒤쪽 벽 장갑판까지 움푹 들어갔다.
+ad_w_note_flavor_v3,구석에는 냉동고를 들어 올리는 졸라맨 그림이 있다. 냉동고가 웃고 있다.
+ad_w_psychic_name,점쟁이 전단
+ad_w_psychic_title,운세 봐드립니다
+ad_w_psychic_title_v2,예언자
+ad_w_psychic_title_v3,별자리 점괘
+ad_w_psychic_body,"손금, 의수족, 별자리 풀이\n도약 예측. 틀리면? 무료\n당신이 전화할 줄 이미 알아요"
+ad_w_psychic_body_v2,"사랑, 크레딧, 산소 누출 예언\n행운을 위한 일련번호 풀이\n수수료 피할 줄도 예언했죠"
+ad_w_psychic_body_v3,하층 구역 재물 운세\n<s>복권 당첨 보장</s>\n회의론자는 오늘 밤 발가락을 찧을 것
+ad_w_psychic_phone,예언자: 612-612
+ad_w_psychic_flavor,"눈 그림은 엉성하지만, 방 안을 돌아다닐 때마다 시선이 따라오는 것 같다."
+ad_w_psychic_flavor_v2,"뒷면에 연필로 쓴 장보기 목록이 있다. '할인 페이스트, 2통. 집세 내기.' 예언자도 먹고살기 힘든 법이다."
+ad_w_psychic_flavor_v3,종이에 값싼 향을 피운 흔적이 있다. 타버린 전선 냄새와 묘하게 비슷하다.
+ad_w_sticker_name,수리 스티커
+ad_w_sticker_title,신속 수리
+ad_w_sticker_title_v2,빠른 수선
+ad_w_sticker_title_v3,모든 수리
+ad_w_sticker_body,"자물쇠, 조명, 산소. 뭐든지."
+ad_w_sticker_body_v2,못 고치면 공짜. 화재 환불 불가.
+ad_w_sticker_body_v3,경쟁자 스티커도 떼어드립니다.
+ad_w_sticker_phone,56-56-56
+ad_w_sticker_flavor,스티커 재질이다. 떼면 아주 작은 조각으로 영원히 떨어진다. 아마 사업 모델의 일부겠지.
+ad_w_sticker_flavor_v2,열쇠 구멍을 딱 가리고 붙여 놨다. 이제 진짜 열쇠공을 불러야 한다.
+ad_w_sticker_flavor_v3,드라이버로 떼어내려 해봤다. 벽 페인트가 먼저 포기했다.
+ad_sc_docs_name,휘갈긴 글씨: 허가증
+ad_sc_docs_title,허가증 -->
+ad_sc_docs_title_v2,도장 -->
+ad_sc_docs_title_v3,저가 신분증
+ad_sc_docs_body,옆집보다 저렴
+ad_sc_docs_body_v2,도장 상태가 엉망임
+ad_sc_docs_body_v3,스프레이 페인트 비용이 안 듦!
+ad_sc_docs_phone,3952-71
+ad_sc_docs_flavor,"큰 스프레이 글씨에서 숫자 하나만 바꾸고, 바로 그 숫자를 가리키는 화살표를 그려 놨다. 즉, 저 사람이 아니라 나라는 뜻."
+ad_sc_docs_flavor_v2,비용을 아끼려고 훔친 펜으로 썼다. 특히 어제 카운터에서 사라진 바로 그 펜이다.
+ad_sc_docs_flavor_v3,화살표를 너무 세게 그려 펜촉이 벽지를 찢었다. 그 밑에서 더 오래된 위조범의 번호가 드러났다.
+ad_sc_chalk_name,분필 낙서: 고물 삽니다
+ad_sc_chalk_title,고물 삽니다
+ad_sc_chalk_title_v2,고철 현금 매입
+ad_sc_chalk_title_v3,바퀴 구함
+ad_sc_chalk_body,"낡은 가전, 고철, 상자"
+ad_sc_chalk_body_v2,"부러진 팔다리, 새는 우주복, 깡통"
+ad_sc_chalk_body_v3,내 네 번째 바퀴도 찾는 중
+ad_sc_chalk_phone,20-20-20
+ad_sc_chalk_flavor,분필 수레에는 바퀴가 세 개뿐이다. 네 번째는 고철로 팔아버렸나 보다.
+ad_sc_chalk_flavor_v2,분필 가루에 쇳가루가 잔뜩 섞여 있다. 스치기만 해도 파편이 크레딧 세 개어치쯤 나온다.
+ad_sc_chalk_flavor_v3,"모퉁이 너머 석고벽에 깊게 파인 자국을 보니, 바퀴 세 개로 코너를 돌 때 벌어지는 참사가 짐작된다."
+ad_sc_tutor_name,휘갈긴 글씨: 숙제 완료
+ad_sc_tutor_title,숙제 완료
+ad_sc_tutor_title_v2,에세이 대행
+ad_sc_tutor_title_v3,필체 전문가
+ad_sc_tutor_body,합격 보장. 필체도 맞춰 드림
+ad_sc_tutor_body_v2,2학년 수학까지. 분수는 안 됨
+ad_sc_tutor_body_v3,성인용 병가서와 차용증 위조
+ad_sc_tutor_phone,135-790
+ad_sc_tutor_flavor,수정액으로 썼다. 유일한 실수는 수정액을 더 발라 고쳤다.
+ad_sc_tutor_flavor_v2,낙서가 바닥에서 겨우 3피트 높이에 있다. 이 거물은 아직 키가 한창 자라는 중인가 보다.
+ad_sc_tutor_flavor_v3,'보장'이라는 단어를 틀리자 가운데를 수정액으로 덮고 아주 자신만만한 체크 표시를 그렸다.
+ad_sc_arrow_name,휘갈긴 글씨: 배수구 화살표
+ad_sc_arrow_title,막힘 뚫음
+ad_sc_arrow_title_v2,진짜 왕
+ad_sc_arrow_title_v3,배관왕
+ad_sc_arrow_body,원조 왕 씨
+ad_sc_arrow_body_v2,나머지 두 명을 가르침
+ad_sc_arrow_body_v3,경쟁자 전단도 치움
+ad_sc_arrow_phone,71-3844
+ad_sc_arrow_flavor,세 번째 왕 씨다. 화살표는 나머지 두 왕 씨의 명함이 잔뜩 박힌 배수구를 가리킨다.
+ad_sc_arrow_flavor_v2,렌치로 벽돌에 엔진 오일을 문질러 썼다. 고수다운 조용한 위협이 느껴진다.
+ad_sc_arrow_flavor_v3,화살표를 따라 아래로 내려가니 배수구 덮개가 용접되어 있다. 궁극의 밥줄 보장이다.
+ad_neon_capsule_name,캡슐 호텔 간판
+ad_neon_capsule_title,시간제 수면실
+ad_neon_capsule_title_v2,수면 캡슐
+ad_neon_capsule_title_v3,저렴한 침대
+ad_neon_capsule_body,시간 단위. 신분 확인 없음
+ad_neon_capsule_body_v2,몸을 굴리기엔 거의 충분한 폭!
+ad_neon_capsule_body_v3,귀마개 무료. 공기도 포함.
+ad_neon_capsule_phone,데스크 24-00-24
+ad_neon_capsule_flavor,화살표가 네 가게 문을 가리킨다. 침대는 없는데 말이다. 누군가 이미 시간당 요금을 물으러 찾아왔다.
+ad_neon_capsule_flavor_v2,이 간판을 가게 퓨즈 박스에 직접 연결했다. 깜빡일 때마다 조명이 어두워지는 게 당연하다.
+ad_neon_capsule_flavor_v3,이들이 말하는 '고급 캡슐'은 뚜껑을 톱으로 잘라낸 퇴역 냉동 수면 관이다.
+ad_neon_noodle_name,국수집 간판
+ad_neon_noodle_title,밤새 국수
+ad_neon_noodle_title_v2,우주 국수
+ad_neon_noodle_title_v3,구역 육수
+ad_neon_noodle_body,합성 달걀 추가
+ad_neon_noodle_body_v2,국물을 쏟았나요? 무료
+ad_neon_noodle_body_v3,90% 진짜 전분!
+ad_neon_noodle_phone,배달 886-688
+ad_neon_noodle_flavor,김 세 줄기는 구부린 튜브다. 밤새 김을 뿜어냈다. 이제 배가 고파진다.
+ad_neon_noodle_flavor_v2,"뜨거운 네온 튜브가 벽의 오래된 기름때를 구워, 희미하게 로스트비프 향을 풍긴다."
+ad_neon_noodle_flavor_v3,한 번 주문해 봤다. 국수 식감이 에어록 고무 패킹과 똑같았다. 생각하지 않는 편이 낫다.
+ad_neon_loan_name,즉시 대출 간판
+ad_neon_loan_title,승인 완료
+ad_neon_loan_title_v2,빠른 현금
+ad_neon_loan_title_v3,즉석 대출
+ad_neon_loan_body,담보 필요 없음
+ad_neon_loan_body_v2,"지금 숨 쉬고, 나중에 갚으세요"
+ad_neon_loan_body_v3,읽는 순간 계약 성립
+ad_neon_loan_phone,행운의 전화선 168-168
+ad_neon_loan_flavor,대출 간판은 당신 키의 절반쯤 되고 초록빛으로 빛난다. 너무 오래 쳐다보면 온 세상이 차용증처럼 보인다.
+ad_neon_loan_flavor_v2,간판 안에 작은 센서가 있다. 지나갈 때마다 불빛이 조금 더 빠르게 깜빡인다.
+ad_neon_loan_flavor_v3,약관은 맨 아래 튜브에 새겨져 있다. 읽다간 눈썹이 그을릴 것이다.
+ad_neon_dating_name,소개팅 간판
+ad_neon_dating_title,외로워?
+ad_neon_dating_title_v2,캡슐 룸메이트
+ad_neon_dating_title_v3,싱글?
+ad_neon_dating_body,안드로이드 환영
+ad_neon_dating_body_v2,캡슐을 함께 쓰고 산소를 아끼세요
+ad_neon_dating_body_v3,개인 산소 필수
+ad_neon_dating_phone,핫라인 520-520
+ad_neon_dating_flavor,하트 오른쪽 절반의 접촉이 느슨하다. 네 마지막 연애보다 더 깜빡인다.
+ad_neon_dating_flavor_v2,분홍빛이 바닥의 기계유 웅덩이에 비쳐 묘하게 낭만적으로 보인다.
+ad_neon_dating_flavor_v3,어제 정비 봇 하나가 이 간판을 20분 동안 바라보다 자기 메인보드를 합선시켰다.
+ad_neon_ktv_name,무중력 노래방 간판
+ad_neon_ktv_title,무중력 노래방
+ad_neon_ktv_title_v2,둥실 노래방
+ad_neon_ktv_title_v3,우주 노래방
+ad_neon_ktv_body,음정이 틀려도 괜찮아요
+ad_neon_ktv_body_v2,에어록급 방음
+ad_neon_ktv_body_v3,떠다니는 토사물 조심
+ad_neon_ktv_phone,룸 예약 66-77-88
+ad_neon_ktv_flavor,음표 하나를 이루는 네온관이 나갔다. 이제 간판 전체가 음정이 나간 것처럼 보인다.
+ad_neon_ktv_flavor_v2,간판 안의 변압기 윙윙거리는 소리가 실제로 오는 손님들보다 박자를 더 잘 탄다.
+ad_neon_ktv_flavor_v3,문 닫을 때 고집 센 가수들을 바닥에 떨어뜨리려고 중력을 다시 켠다는 소문이 있다.
+ad_neon_eye_name,모든 것을 보는 눈 간판
+ad_neon_eye_title,운세
+ad_neon_eye_title_v2,모든 것을 보는 눈
+ad_neon_eye_title_v3,눈
+ad_neon_eye_body,틀렸다고? 운명 탓하세요
+ad_neon_eye_body_v2,반쪽 예언 무료
+ad_neon_eye_body_v3,파이 숫자 한 자리당 요금 부과
+ad_neon_eye_phone,눈 3-14159
+ad_neon_eye_flavor,숫자는 파이의 처음 여섯 자리다. 예언자는 나머지는 추가 요금이라고 한다.
+ad_neon_eye_flavor_v2,네온 동공 한가운데에 어디로 연결됐는지 아무도 모를 작은 핀홀 카메라가 박혀 있다.
+ad_neon_eye_flavor_v3,순찰대가 복도를 행진할 때마다 '모든 것을 보는 눈'은 현명하게도 스스로 꺼진다.
+fake_call_unclog_name,왕 씨
+fake_call_unclog_1,왕 씨 배관 뚫기! 유사품은 사절. 끝자리는 42!
+fake_call_unclog_2,>내 환기구가 당신 파란 카드로 꽉 막혔어.
+fake_call_unclog_3,잘됐네요! 제가 가서 건져내죠. 20퍼센트 할인해 드릴게요.
+fake_call_ink_drain_name,진짜 왕 씨
+fake_call_ink_drain_1,배수구요? 43으로 전화 잘하셨네요. 42번 그자는 사기꾼이에요!
+fake_call_ink_drain_2,>그 사람이 당신 카드 때문에 배수구가 막혔다던데.
+fake_call_ink_drain_3,말도 안 돼! 배수구는 내 카드로 막혔어. 그자는 환기구만 막지.
+fake_call_sc_arrow_name,원조 왕 씨
+fake_call_sc_arrow_1,42랑 43? 둘 다 광대야. 예전엔 내 뚫어뻥을 들고 다녔지.
+fake_call_sc_arrow_2,>앞 배수구가 두 사람 카드로 꽉 막혔어. 치워줄래?
+fake_call_sc_arrow_3,싫어. 내가 거기 넣었거든. 둘의 평판을 망치는 거지.
+fake_call_locksmith_name,저우 아저씨
+fake_call_locksmith_1,저우입니다. 뒷문 마크 III 자물쇠 건으로 전화하셨나요?
+fake_call_locksmith_2,>내 뒷문 자물쇠가 뭔지 어떻게 알아?
+fake_call_locksmith_3,어젯밤에 봤죠. 광고지를 붙이려고 멋대로 들어갔을 때요.
+fake_call_loan_name,류 지배인
+fake_call_loan_1,축하합니다! 발신자 ID가 당신 칩과 일치해 대출이 승인됐습니다!
+fake_call_loan_2,">잠깐, 난 대출 신청 안 했는데!"
+fake_call_loan_3,자금 송금 완료. 이자는 시간 단위입니다. 첫 시간은 지금부터 시작됩니다.
+fake_call_repair_name,오류 404
+fake_call_repair_1,404: 거신 번호의 수리공을 찾을 수 없습니다.
+fake_call_repair_2,(그 뒤에서 로봇 목소리가 들린다: 꼬마 리는 좋은 사람이야. 꼬마 리를 불러.)
+fake_call_repair_3,>...뒤에서 누가 말하는 거야?
+fake_call_repair_4,쾅! (스패너가 금속을 친다. 전화가 끊긴다.)
+fake_call_tutor_name,입시학원
+fake_call_tutor_1,"안녕하세요, 학부모님! 자녀분을 상층 구역 과정에 등록할까요?"
+fake_call_tutor_2,>난 애 없어.
+fake_call_tutor_3,그럼 벌써 뒤처지셨네요. 좋은 자리는 태어나기 전에 마감돼요.
+fake_call_lostpet_name,발신자 미상
+fake_call_lostpet_1,멍! 멍멍! (종이를 씹는 것 같다.)
+fake_call_lostpet_2,>...볼츠? 너니? 주인이 온통 널 찾고 있어.
+fake_call_lostpet_3,컹! (금속 발이 수화기를 친다. 딸깍.)
+fake_call_movers_name,스타 이삿짐센터
+fake_call_movers_1,스타 이삿짐센터! 가게 전체를 선반까지 통째로 15분 만에 비워드립니다.
+fake_call_movers_2,>주인이 없는 틈에 옆 가게를 옮긴 게 너희 아니야?
+fake_call_movers_3,그게 제일 빠르니까요. 누가 자기 물건이라고 우길 사람도 없고요.
+fake_call_augs_name,의체 재활용상
+fake_call_augs_1,"팔다리, 눈, 신경 칩 파시나요? 드릴 들고 찾아갑니다."
+fake_call_augs_2,>난 의체 없어. 전부 원래 내 거야.
+fake_call_augs_3,원래 몸도 받습니다. 마취는 추가 요금이에요.
+fake_call_qrcode_name,페이스트 지원센터
+fake_call_qrcode_1,엑스트라 오리지널 영양 페이스트를 받으시려면 산소 PIN을 말씀해 주세요.
+fake_call_qrcode_2,>네 QR 코드는 다른 QR 코드만 찍히는데.
+fake_call_qrcode_3,그게 저희 사기 방지 단계예요. 이제 800개만 더 찍으면 됩니다.
+fake_call_blackmarket_name,암호화 회선
+fake_call_blackmarket_1,누가 이 번호를 알려줬지? 규칙도 몰라?
+fake_call_blackmarket_2,>벽에 붙은 카드에 적혀 있던데...
+fake_call_blackmarket_3,치안부가 유선 전화를 도청해. 단말기에서 F4를 눌러. 다시 전화하지 마.
+fake_call_bullish_name,불 씨
+fake_call_bullish_1,전화 끊고 단말기에서 F3 눌러! 냥코인이 곧 떡상한다고!
+fake_call_bullish_2,>네 차트가 전단지를 넘어 옆에 있는 대출 카드까지 이어지네.
+fake_call_bullish_3,"시너지야! 저쪽에서 빌려서 나한테 몰빵해, 상층 구역에서 눈뜨는 거야!"
+fake_call_counterfeit_name,치안부 데스크
+fake_call_counterfeit_1,하층 구역 치안부 핫라인입니다. 통화는 녹음됩니다.
+fake_call_counterfeit_2,">잠깐, 여기가 그 1대1 복제품 번호 아니야?"
+fake_call_counterfeit_3,맞습니다. 광고는 저희가 직접 만들었습니다. 1대1로요.
+fake_call_ink_red_name,배수구 관리국
+fake_call_ink_red_1,막힘 제거 요청이 승인되었습니다. 물 내릴 때까지 기다려 주세요.
+fake_call_ink_red_2,쏴아... 꾸르륵 꾸르륵... (진공 흡입 소리가 5초 내내 이어진다)
+fake_call_ink_red_3,(쿵. 고무 도장이 찍힌다.) 원격 막힘 제거 완료. 협조해 주셔서 감사합니다.
+fake_call_ink_docs_name,첸 허가증
+fake_call_ink_docs_1,"신분 칩, 도약 허가증, 뭐든 말씀만 하세요. 새벽까지 문 밑으로 넣어 드립니다."
+fake_call_ink_docs_2,>치안부 공지 위에 광고를 뿌렸네. 걱정 안 돼?
+fake_call_ink_docs_3,그 공지 도장은 누가 만든 것 같아요?
+fake_call_sc_docs_name,옆집 허가증
+fake_call_sc_docs_1,허가증? 70번은 건너뛰어. 그 사람 도장은 전부 삐뚤어!
+fake_call_sc_docs_2,>너희 건 진짜야?
+fake_call_sc_docs_3,그럴 리가. 그래도 그 사람 가짜보다 20 크레딧 싸!
+fake_call_ink_phone_name,자동 안내
+fake_call_ink_phone_1,죄송합니다. 거신 번호는 아직 완성되지 않았습니다.
+fake_call_ink_phone_2,낙서범이 페인트를 더 살 때까지 기다렸다가 다시 시도해 주세요.
+fake_call_w_rent_name,집주인
+fake_call_w_rent_1,그 침상 말이야? 아늑하지. 배수구와 환기구 사이에 있어.
+fake_call_w_rent_2,>잠깐... 우리 가게 집주인 목소리 같은데.
+fake_call_w_rent_3,"아, 당신이군. 마침 잘됐네. 다음 달부터 월세 20% 올릴 거야."
+fake_call_w_job_name,교대반장
+fake_call_w_job_1,"선체 창문 청소, 당일 지급, 영양 페이스트 한 끼. 우주복은 있나?"
+fake_call_w_job_2,>우주복이 없으면요?
+fake_call_w_job_3,그래도 닦을 수 있어. 숨만 참아. 유족에게 돈은 줄게.
+fake_call_w_buy_name,고물상 류 씨
+fake_call_w_buy_1,"고철, 낡은 회로판, 고장 난 봇! 찾아가서 현장에서 무게를 달아드립니다!"
+fake_call_w_buy_2,>저울 정확해?
+fake_call_w_buy_3,당연하지! 바로 어제 고물 더미에서 주워 왔거든.
+fake_call_w_tiny_name,급한 사람
+fake_call_w_tiny_1,그래서?! 할 거야 말 거야?! 빨리!
+fake_call_w_tiny_2,>쪽지엔 '긴급'이라고만 쓰여 있는데. 뭐가 긴급해?
+fake_call_w_tiny_3,느려! 다른 사람 찾았어! (뚝.)
+fake_call_w_note_name,탱크
+fake_call_w_note_1,"*헐떡, 쌕쌕*... 여보세요? 냉동고 일? 잠깐, 이거 위층으로 옮기고..."
+fake_call_w_note_2,>네 전단지 뒷면 계산이 틀렸어. 8 곱하기 3은 24야.
+fake_call_w_note_3,24라고? 이런. 지난번 사람들한테 10 크레딧 덜 받았네!
+fake_call_w_psychic_name,예언자 음성 사서함
+fake_call_w_psychic_1,예언자의 음성 사서함입니다.
+fake_call_w_psychic_2,오늘 당신이 전화할 것과 돈을 내지 않을 거란 걸 예언했죠.
+fake_call_w_psychic_3,그래서 받지 않았어요. (삐.)
+fake_call_w_sticker_name,신속 수리
+fake_call_w_sticker_1,"신속 수리! 자물쇠, 조명, 산소. 뭐가 고장 났죠?"
+fake_call_w_sticker_2,>벽에 붙인 당신 스티커요! 안 떨어져요!
+fake_call_w_sticker_3,스티커 제거는 긴급 작업입니다. 출장비 80 크레딧. 지금 갈까요?
+fake_call_sc_chalk_name,확성기 녹음
+fake_call_sc_chalk_1,고물 삽니다... 오래된 가전... 고철... 상자...
+fake_call_sc_chalk_2,>여보세요? 누구 없어요?
+fake_call_sc_chalk_3,"고물 삽니다... 그리고 제 손수레 네 번째 바퀴도요, 혹시 보셨다면..."
+fake_call_sc_tutor_name,숙제 도우미
+fake_call_sc_tutor_1,"(속삭이며) 숙제 대행이요. 3학년 과정까지만, 알겠죠?"
+fake_call_sc_tutor_2,>몇 학년인데?
+fake_call_sc_tutor_3,"2학년요. 쉿, 엄마가 숙제 검사해요! 끊을게요!"
+fake_call_neon_capsule_name,캡슐 숙소 안내
+fake_call_neon_capsule_1,시간제 캡슐은 만실입니다. 복도 접이식 의자는 반값이에요.
+fake_call_neon_capsule_2,>화살표가 제 문을 가리키잖아요! 다들 방을 물으러 와요!
+fake_call_neon_capsule_3,좋네요. 카운터 밑에 방 있어요? 반반 나누죠.
+fake_call_neon_noodle_name,밤샘 국수
+fake_call_neon_noodle_1,배달원이 방금 에어록을 나갔어요. 국수가 앞장서고 수프가 뒤따라가네요.
+fake_call_neon_noodle_2,>간판에 수프를 쏟으면 환불이라고 쓰여 있지 않아요?
+fake_call_neon_noodle_3,무중력이라고요! 바닥에 닿기 전까진 쏟은 게 아니죠!
+fake_call_neon_loan_name,이지-168 대출
+fake_call_neon_loan_1,안녕하세요. 간판을 10초 넘게 보셨죠. 그럼 서명하신 겁니다.
+fake_call_neon_loan_2,>간판을 보기만 해도 대출이라고요?!
+fake_call_neon_loan_3,즉시 승인입니다. 내일부터 산소값에서 상환금이 빠져나갑니다.
+fake_call_neon_dating_name,베이 중매소
+fake_call_neon_dating_1,띵동! 베이에 있는 외로운 싱글이나 안드로이드와 연결해 드립니다...
+fake_call_neon_dating_2,상대 발견: 옆집 용접기가 당신에게 불꽃을 느낀답니다.
+fake_call_neon_dating_3,지지직. 펑! (네온관이 합선된다. 통화가 끊긴다.)
+fake_call_neon_ktv_name,무중력 노래방
+fake_call_neon_ktv_1,뭐라고?! 크게 말해요! 천장에 붙어서 노래 중이라고요!
+fake_call_neon_ktv_2,>방을 예약하고 싶은데요—
+fake_call_neon_ktv_3,"뭐라고?! 잠깐만요, 무중력 상태에서 누가 토했어요! 가봐야겠어요!"
+fake_call_neon_eye_name,눈
+fake_call_neon_eye_1,파이의 숫자를 여섯 자리만 누르셨으니 예언도 반쪽만 드리죠.
+fake_call_neon_eye_2,>그 반쪽이 뭔데요?
+fake_call_neon_eye_3,오늘 밤 외출하면... 뭔가를 밟게 될 겁니다. 나머지 숫자는 추가 요금이죠.
+ad_st_lock_name,열쇠공 스티커 삼총사
+ad_st_lock_title,자물쇠
+ad_st_lock_title_v2,키 교체
+ad_st_lock_title_v3,에어록
+ad_st_lock_body,에어록. 치안부 등록 업체.
+ad_st_lock_body_v2,스티커 세 장. 하나쯤은 붙겠지.
+ad_st_lock_body_v3,하나는 절대 안 붙어. 그래서 세 장이지.
+ad_st_lock_phone,421-651
+ad_st_lock_flavor,똑같은 스티커 세 장을 가지런히 세로로 붙였다. 본인도 하나로는 안 된다는 걸 아나 보다.
+ad_st_lock_flavor_v2,'치안부 등록 업체'가 가장 큰 글씨다. 뭘 등록했는지는 안 써 있다.
+ad_st_lock_flavor_v3,"맨 위 스티커를 긁어냈다. 다음 날 아침, 다시 세 장이 붙어 있었다."
+ad_st_pc_name,단말기 수리 스티커
+ad_st_pc_title,단말기
+ad_st_pc_title_v2,재설치
+ad_st_pc_title_v3,방문 수리
+ad_st_pc_body,방문 수리. 시스템 재설치.
+ad_st_pc_body_v2,고장 안 난 것도 고쳐 드립니다.
+ad_st_pc_body_v3,느려요? 재설치. 빨라요? 재설치.
+ad_st_pc_phone,808-808
+ad_st_pc_flavor,초록 스티커가 줄지어 완벽히 똑같다. 복사해 붙인 것처럼. 아마 그가 잘하는 건 이거 하나뿐일 거다.
+ad_st_pc_flavor_v2,그가 아는 해결책은 딱 하나라는 소문이다. 화면이 깨졌다고? 재설치.
+ad_st_pc_flavor_v3,이웃이 그를 불렀다. 단말기는 이제 잘 돌아간다. 안에 있던 장부는 사라졌다.
+ad_st_mix_name,겹겹이 붙은 열쇠공 스티커
+ad_st_mix_title,원조
+ad_st_mix_title_v2,아주 오래전 개업
+ad_st_mix_title_v3,유일무이
+ad_st_mix_body,아래는 전부 가짜입니다.
+ad_st_mix_body_v2,3대째 이어온 가게. 지점은 없습니다.
+ad_st_mix_body_v3,이 아래 업체는 망했습니다.
+ad_st_mix_phone,432-110
+ad_st_mix_flavor,스티커가 적어도 다섯 겹이다. 맨 위에는 '유일무이'라고 쓰여 있다. 그 아래도 전부 똑같다.
+ad_st_mix_flavor_v2,세어 보니 이 벽 한쪽에 열쇠공이 복도 자물쇠보다 더 많다.
+ad_st_mix_flavor_v3,맨 위 스티커의 풀이 아직 젖어 있다. 이러다 원조가 오래 못 가겠다.
+ad_ag_shop_name,상점 매물 포스터
+ad_ag_shop_title,상점 매매
+ad_ag_shop_title_v2,상점 임대
+ad_ag_shop_title_v3,전당포 급매
+ad_ag_shop_body,"<b>카운터, 셔터문, 주인 한 명 포함</b>"
+ad_ag_shop_body_v2,주인에게 아직 알리지 않음. <b>조용히 방문하세요</b>
+ad_ag_shop_body_v3,거래 완료 후 <b>주인에게 알립니다</b>
+ad_ag_shop_phone,중개인 직통 810-089
+ad_ag_shop_flavor,주소를 세 번 읽었다. 네 가게다. 아무도 네게 묻지 않았다.
+ad_ag_shop_flavor_v2,사진은 네 카운터 뒤에서 찍었다. 누군가 카운터 뒤로 들어오게 한 기억은 없다.
+ad_ag_shop_flavor_v3,모퉁이에 '곧 매매 완료'가 벌써 인쇄돼 있다. 이 중개인은 당사자들을 기다려 주지 않는다.
+ad_ag_prime_name,고급 부동산 포스터
+ad_ag_prime_title,모브 앤드 말로
+ad_ag_prime_title_v2,엄선된 선실
+ad_ag_prime_title_v3,품격 있는 유닛
+ad_ag_prime_body,전용 수경 시설. <b>가격 제안은 받지 않음</b>
+ad_ag_prime_body_v2,응결수 <b>상시 제공</b>
+ad_ag_prime_body_v3,<b>하층 구역의 상층 구역</b>
+ad_ag_prime_phone,211-355
+ad_ag_prime_flavor,"보라색 바탕에 흰 글씨, 금색 테두리. 사진 속 '주거 공간'은 복도 끝 유닛이다. 3년째 물이 새는 바로 그곳."
+ad_ag_prime_flavor_v2,종잇값이 네가 파는 어떤 물건보다 비싸다. 뜯어내서 서랍에 넣을까 진지하게 고민했다.
+ad_ag_prime_flavor_v3,포스터 어디에도 숫자가 없다. 면적도 가격도. 숫자는 아마 다른 사람들 몫인가 보다.
+ad_ag_stack_name,겹겹이 붙은 중개 포스터
+ad_ag_stack_title,가격 인하
+ad_ag_stack_title_v2,또 인하
+ad_ag_stack_title_v3,주인 눈물의 급매
+ad_ag_stack_body,<b>지난주보다 10% 인하</b>—지난주 포스터는 바로 아래에
+ad_ag_stack_body_v2,못 믿겠어요? <b>2주 전 포스터를 벗겨 보세요</b>
+ad_ag_stack_body_v3,다음 주에도 같은 자리. <b>또 봅시다</b>
+ad_ag_stack_phone,우 중개인 936-868
+ad_ag_stack_flavor,"포스터가 세 겹이다. 가장 새것이 맨 위고, 가격은 아래로 갈수록 비싸다. 열 번째 포스터에서 물어보기로 했다."
+ad_ag_stack_flavor_v2,맨 아래 포스터의 귀퉁이가 말려 있다. 가격은 오늘의 두 배다. 사진은 똑같다.
+ad_ag_stack_flavor_v3,"매주 월요일 아침, 같은 자리, 같은 풀통. 이 중개인이 네 집주인보다 시간을 잘 지킨다."
+ad_sc_bignum_name,휘갈겨 쓴 거대한 숫자
+ad_sc_bignum_title,전화
+ad_sc_bignum_title_v2,전화해
+ad_sc_bignum_title_v3,이 번호
+ad_sc_bignum_body,알게 될 거야
+ad_sc_bignum_body_v2,뭐 때문에인진 묻지 마
+ad_sc_bignum_body_v3,그냥 번호야
+ad_sc_bignum_phone,594-146
+ad_sc_bignum_flavor,숫자 하나하나가 네 머리만 하다. 무슨 용도인지는 안 써 있다. 쓴 사람은 그럴 필요가 없다고 여긴 모양이다.
+ad_sc_bignum_flavor_v2,굵은 펜 자국이 한 번에 망설임 없이 그어졌다. 이렇게 확신에 찬 사람은 거의 못 봤다.
+ad_sc_bignum_flavor_v3,손님 셋에게 용도를 물었다. 아무도 몰랐다. 셋 다 번호를 저장했다.
+fake_call_st_lock_name,열쇠공
+fake_call_st_lock_1,"자물쇠, 자물쇠, 자물쇠! 죄송해요. 버릇이라서요. 뭐든 세 번씩 말하거든요."
+fake_call_st_lock_2,>왜 제 벽에 똑같은 스티커가 세 장이나 붙어 있죠?
+fake_call_st_lock_3,"하나만 붙이면 전화가 안 오거든요. 세 장 붙였더니, 이렇게 전화 주셨네요."
+fake_call_st_lock_4,>정말 치안부에 등록된 업체인가요?
+fake_call_st_lock_5,세 번이나 등록했죠. 치안부에서 서류도 따로 보관해요.
+fake_call_st_pc_name,단말기 아저씨
+fake_call_st_pc_1,단말기 문제요? 설명하지 마세요. 재설치면 해결돼요.
+fake_call_st_pc_2,>제 단말기는 멀쩡해요. 당신 스티커가 온통 제 벽에 붙어 있잖아요.
+fake_call_st_pc_3,벽도 재설치하면 돼요. 먼저 낡은 회벽을 포맷하죠.
+fake_call_st_pc_4,>...제 가게 장부는요?
+fake_call_st_pc_5,오기 전에 백업하세요. 출장비는 50 크레딧입니다.
+fake_call_st_mix_name,원조
+fake_call_st_mix_1,원조 열쇠공! 유일무이! 나보다 아래는 전부 가짜야!
+fake_call_st_mix_2,>두 분 덕분에 제 벽이 페이스트리보다 층이 많아졌네요.
+fake_call_st_mix_3,잠깐. 야! 스티커 붙이는 양반! 내 것 위에 붙이지 마!
+fake_call_st_mix_4,(몸싸움 소리. 다른 사람이 수화기를 든다.)
+fake_call_st_mix_5,"여보세요? 원조 열쇠공, 유일무이! 아까 그놈은 가짜였어요!"
+fake_call_ag_shop_name,부동산 중개인
+fake_call_ag_shop_1,안녕하세요! 전당포에 관심 있으세요? 안목이 좋으시네요. 오늘 보실 수 있어요.
+fake_call_ag_shop_2,>그건 제 가게예요. 팔 생각 없어요.
+fake_call_ag_shop_3,"아, 주인이시군요. 걱정 마세요. 팔리고 나면 알려 드릴게요."
+fake_call_ag_shop_4,>누가 매물로 내놓으랬죠?!
+fake_call_ag_shop_5,그런 말투라면 포스터에 '까다로운 주인'이라고 추가해야겠네요.
+fake_call_ag_prime_name,모브 앤드 말로
+fake_call_ag_prime_1,모브 앤드 말로입니다. 보유 부동산 규모를 여쭤봐도 될까요?
+fake_call_ag_prime_2,>전 복도 끝 물 새는 유닛 가격만 알고 싶은데요.
+fake_call_ag_prime_3,"고객님, 저희는 물이 샌다고 하지 않습니다. 사계절 수경 시설이죠."
+fake_call_ag_prime_4,>그래서 가격은요?
+fake_call_ag_prime_5,가격을 묻는 고객님들은 보통 노란 포스터 쪽이 더 만족스럽습니다.
+fake_call_ag_stack_name,우 중개인
+fake_call_ag_stack_1,매물 보러 오셨나요? 좋은 소식입니다. 오늘 가격은 포스터에 적힌 것보다도 낮아요!
+fake_call_ag_stack_2,>제 벽에 당신 포스터가 세 장 있어요. 하나씩 더 싸지더군요.
+fake_call_ag_stack_3,"맞아요, 시장이 안정되는 중이죠. 한 주 더 기다리시면..."
+fake_call_ag_stack_4,>더 싸져요?
+fake_call_ag_stack_5,그렇죠. 그러지 말아 주세요. 저도 풀값이 빠듯하거든요.
+fake_call_sc_bignum_name,그 번호
+fake_call_sc_bignum_1,네.
+fake_call_sc_bignum_2,">죄송한데, 대체 무슨 일을 하세요?"
+fake_call_sc_bignum_3,전화하셨잖아요. 아시면서.
+fake_call_sc_bignum_4,>모르겠는데요. 벽에 번호만 적혀 있었어요.
+fake_call_sc_bignum_5,그거면 충분하죠. (뚝.)

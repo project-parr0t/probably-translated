@@ -85,8 +85,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "ddd47f79b8414fbfc479ad3e5af0606b20bc5d6b7b27c89bb3c3f1d498fda09b";
-        private const int ExpectedEntries = 26915;
+        private const string ExpectedFingerprint = "ebc5d22663a4c506d0206b4edfc55a83dc6c52d72cd8e91f284d9d211a65e9e7";
+        private const int ExpectedEntries = 25327;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -112,15 +112,19 @@ namespace ProbablyStolenKo
                 ["traits_probably_fun"] = "3834226532",
                 ["asteroid_in_game_mod_settings"] = "3834556946",
                 ["gunsmith_expansion"] = "3834619049",
+                ["space_coffee"] = "3834667583",
                 ["upper_levels"] = "3838944803",
                 ["combat_contracts"] = "3834364038",
+                ["gunmod_tarkov"] = "3831650864",
+                ["probably_flyers"] = "3833522385",
                 ["eleanor_rescue"] = "3834076808",
                 ["charles_chemistry_items"] = "3838151650",
+                ["probably_helpful"] = "3838230589",
                 ["va11halla"] = "3831732004",
                 ["DeepSpaceClinic_InventoryTest"] = "3832819040",
                 ["local.better-box-selection"] = "3836727677",
             };
-        private const int ExpectedTargets = 29;
+        private const int ExpectedTargets = 33;
 
         private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets)
         {
@@ -156,9 +160,7 @@ namespace ProbablyStolenKo
                 var sourceRefresh = target?["refresh"] as JArray;
                 if (string.IsNullOrWhiteSpace(targetProperty.Name) || string.IsNullOrWhiteSpace(workshopItemId) ||
                     !entryCount.HasValue || entryCount.Value < 0 || sourceRoutes == null || sourceRefresh == null ||
-                    (sourceRoutes.Count != 0 && string.IsNullOrWhiteSpace(assemblyName)) ||
-                    (entryCount.Value == 0 && (sourceRoutes.Count != 0 || sourceRefresh.Count != 0 ||
-                        (string.IsNullOrWhiteSpace(manifestName) && string.IsNullOrWhiteSpace(manifestDescription)))))
+                    (sourceRoutes.Count != 0 && string.IsNullOrWhiteSpace(assemblyName)))
                     throw new FormatException("Incomplete managed target record.");
                 string expectedWorkshopItem;
                 if (!ExpectedWorkshopItems.TryGetValue(targetProperty.Name, out expectedWorkshopItem) ||

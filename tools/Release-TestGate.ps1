@@ -26,7 +26,7 @@ $topLevelFiles = @(
     "parr0t-release-checkpoint.json",
     "preview.png"
 )
-$treeNames = @("workshop-overlays", "va11-recipes", "loading-ui")
+$treeNames = @("workshop-overlays", "va11-recipes", "loading-ui", "space-coffee")
 
 function Get-PackageFiles([string]$base) {
     $files = New-Object System.Collections.Generic.List[object]
