@@ -448,7 +448,7 @@ be_forty_seven_trade_accepted,거래 성립
 be_forty_seven_trade_done,좋음
 be_assassin_name,외곽 구역 암살자
 be_assassin_greeting,외곽 구역의 빚 청산
-be_certificate_delivery_pending,"양조 증서를 받을 자격을 얻었어. 카운터에 자리를 비워 둬. 다음 거래나 방문 때 건네줄게."
+be_certificate_delivery_pending,양조 증서를 받을 자격을 얻었어. 카운터에 자리를 비워 둬. 다음 거래나 방문 때 건네줄게.
 be_certificate_awarded,잘했어. 이 양조 증서를 받고 더 좋은 술을 계속 빚어.
 be_recipe_purchase_required,아직 잠금 해제되지 않았습니다. 구매하면 내용을 확인할 수 있습니다.
 be_basic_battery_empty_description,"방전된 상태로 구매했습니다. 본체 가치: 200 크레딧에 현재 에너지가 더해집니다. 용량: 200kJ, 매일 밤 6kJ 재충전. 비었을 때 가치는 200, 가득 찼을 때는 400이며 거래 및 시장 조정은 반영 전입니다."
@@ -557,12 +557,12 @@ be_top_cert_description,"보유 중이면 씨앗 부화기가 밤마다 씨앗�
 be_brewer_start_equipment,"완전히 충전된 100 kJ 일반 배터리가 든 씨앗 부화기 1대, 낡은 수경 재배 시스템 1대, 수경 재배 영양 정제 4개, 양조 안내서 1권, 양조 수경 재배 안내서 1권"
 be_small_fruit_name,미니 {0}
 be_hydroponic_small_fruit_description,판매하거나 사료로 사용할 수 있습니다.
-be_hydroponic_fertile,"여러해살이가 아닌 식물은 수확할 때마다 기본적으로 씨앗 1개를 돌려줍니다. 번식력은 등급에 따라 씨앗 수확량을 늘리며 별도의 상한은 없습니다. 자손은 부모의 유전자 등급을 물려받고 열기는 0에서 시작합니다."
+be_hydroponic_fertile,여러해살이가 아닌 식물은 수확할 때마다 기본적으로 씨앗 1개를 돌려줍니다. 번식력은 등급에 따라 씨앗 수확량을 늘리며 별도의 상한은 없습니다. 자손은 부모의 유전자 등급을 물려받고 열기는 0에서 시작합니다.
 be_hydroponic_locked_basic,수경 재배 작물입니다. 초급 양조 증서를 획득하면 불임이 해제됩니다.
 be_hydroponic_locked_mid,수경 재배 작물입니다. 중급 양조 증서를 획득하면 불임이 해제됩니다.
 be_nini_cellar_deliver,류년 술 진열장 납품
 be_nini_cellar_cancel,취소
-be_nini_cellar_confirm,"「{0}」과 안에 든 물품을 모두 니니에게 건네겠습니까? 납품하면 양조 씨앗의 여러해살이 유전자 개조가 해금됩니다."
+be_nini_cellar_confirm,「{0}」과 안에 든 물품을 모두 니니에게 건네겠습니까? 납품하면 양조 씨앗의 여러해살이 유전자 개조가 해금됩니다.
 be_hydroponic_perennial_locked,최고급 양조 증서를 받은 뒤 여덟 장의 양조 조합법에 기록된 술을 한 병씩 류년 술 진열장 하나에 넣어 니니의 거래 화면에서 진열장째 납품하세요.
 be_hydroponic_locked_high,수경 재배 작물입니다. 고급 양조 증서를 획득하면 불임이 해제됩니다.
 be_hydroponic_locked_top,수경 재배 작물입니다. 최고급 양조 증서를 획득하면 불임이 해제됩니다.
@@ -609,7 +609,7 @@ be_hydro_guide_cert_3,최고급
 be_hydro_guide_return_note,불임이 해제되면 여러해살이가 아닌 식물은 기본적으로 씨앗 1개를 돌려줍니다. 번식력이 수량을 늘립니다. 자손은 유전자를 물려받고 열기는 초기화됩니다.
 be_hydro_guide_perennial,여러해살이 유전자 해금
 be_hydro_guide_perennial_note,최고급 증서를 받은 뒤 모든 조합법 술이 담긴 류년 술 진열장을 니니에게 납품하세요. 여러해살이 식물은 다시 열매를 맺으며 수확할 때는 과실만 나옵니다.
-be_manual_quality_rules,"6점: 경장옥액(+75%). 7점: 운액옥수(+100%).\n2점 과실 두 개로 4점을 얻습니다. 과실 두 개 보너스로 1점이 더해져 5점이 됩니다. 효모와 좋은 물이 각각 1점을 더해 총 7점이 됩니다. 조합법 술과 블룸베리 와인에도 적용됩니다."
+be_manual_quality_rules,6점: 경장옥액(+75%). 7점: 운액옥수(+100%).\n2점 과실 두 개로 4점을 얻습니다. 과실 두 개 보너스로 1점이 더해져 5점이 됩니다. 효모와 좋은 물이 각각 1점을 더해 총 7점이 됩니다. 조합법 술과 블룸베리 와인에도 적용됩니다.
 be_manual_collection,조합법 수집 {0}/{1}
 be_hydro_guide_cloud_jade,2점 과실 두 개로 7점짜리 운액옥수 술(+100%)을 빚을 수 있습니다. 자세한 방법은 양조 안내서를 참조하세요.
 be_manual_flow_title,양조 과정
@@ -631,7 +631,7 @@ be_commission_wine_requirement,{0} 술
 be_delivery_back,돌아가기
 be_delivery_changed,재고나 의뢰가 변경되었습니다. 다시 선택하세요.
 be_delivery_confirm,{0}개 제출 확인
-be_delivery_details,"{0} · 예상 가치 {1} 크레딧\n{2}"
+be_delivery_details,{0} · 예상 가치 {1} 크레딧\n{2}
 be_delivery_empty,이 조건에 맞는 재고가 없습니다.
 be_delivery_help,납품할 물품을 선택하세요. 확인해야 재고에서 빠집니다.
 be_delivery_location_back,뒤쪽 카운터
@@ -709,9 +709,9 @@ be_music_cassette_a3b9805a7a709a28_name,밤의 사랑
 be_music_cassette_a3b9805a7a709a28_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
 be_music_cassette_c42b00acf22a1239_name,밤비의 노래
 be_music_cassette_c42b00acf22a1239_description,[카세트] 재생하려면 카세트 플레이어에 넣으세요.
-be_chili_fruit_small_description,"작고 새빨간 고추지만 매운맛은 그대로입니다. 필멸자의 가장 값싼 온기가 손끝만 한 크기로 줄었습니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
+be_chili_fruit_small_description,작고 새빨간 고추지만 매운맛은 그대로입니다. 필멸자의 가장 값싼 온기가 손끝만 한 크기로 줄었습니다. 판매하거나 칼로리 배양에 사용할 수 있습니다.
 be_rice_fruit_small_description,"작은 한 줌의 알찬 벼, 낱알 하나하나가 그대로입니다. 필멸자의 가장 오래된 안온함을 손바닥에 담았습니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
-be_wheat_fruit_small_description,"작은 한 줌의 황금빛 밀입니다. 빻아도 밀가루가 많이 나오진 않지만 향은 충분합니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
+be_wheat_fruit_small_description,작은 한 줌의 황금빛 밀입니다. 빻아도 밀가루가 많이 나오진 않지만 향은 충분합니다. 판매하거나 칼로리 배양에 사용할 수 있습니다.
 be_wormwood_fruit_small_description,"작은 쑥 한 포기, 씁쓸한 맛은 여전히 풀잎 뒤에 숨어 있습니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
 be_sichuan_pepper_fruit_small_description,"작은 화자오 한 줌, 알싸한 얼얼함에 혀끝이 잠에서 깹니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
 be_lemon_fruit_small_description,"작은 레몬 한 알, 단호하게 신맛이 납니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
@@ -725,22 +725,22 @@ be_osmanthus_fruit_small_description,"작은 황금빛 계화 한 다발, 향기
 be_bayberry_fruit_small_description,"작은 양매 한 알, 새콤달콤한 맛은 그대로입니다. 돌아오지 않는 사람도 있습니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
 be_void_plum_fruit_small_description,"공허의 색을 닮은 자두 한 알, 껍질에는 여전히 윤기가 없습니다. 사라진 질량이 더 작고 가벼워졌습니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
 be_stardust_berry_fruit_small_description,"별하늘의 색을 닮은 작은 열매, 과육 속 빛점은 여전히 떠 있습니다. 잔광도 이 작은 알갱이만큼 작아졌습니다. 판매하거나 칼로리 배양에 사용할 수 있습니다."
-be_chili_fruit_huge_description,"크고 붉은 고추 한 개가 환하게 빛납니다. 필멸자의 온기가 한층 크게 부풀었습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
+be_chili_fruit_huge_description,크고 붉은 고추 한 개가 환하게 빛납니다. 필멸자의 온기가 한층 크게 부풀었습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다.
 be_rice_fruit_huge_description,"묵직한 벼 한 다발, 이삭이 손에 묵직하게 눌립니다. 필멸자의 가장 오래된 안온함이 한 아름으로 커졌습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_wheat_fruit_huge_description,"황금빛 밀 한 다발, 밀가루를 빻으면 여러 끼니를 먹을 만큼 나옵니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_wormwood_fruit_huge_description,"크게 자란 쑥 한 포기, 씁쓸한 맛은 더 짙어졌지만 여전히 풀잎 뒤에 숨어 있습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
-be_sichuan_pepper_fruit_huge_description,"화자오가 한 움큼 가득해 알싸한 향이 코를 찌르고 손끝까지 얼얼합니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
+be_sichuan_pepper_fruit_huge_description,화자오가 한 움큼 가득해 알싸한 향이 코를 찌르고 손끝까지 얼얼합니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다.
 be_lemon_fruit_huge_description,"커다란 레몬 한 알, 신맛에 눈살이 찌푸려집니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
-be_yellow_grape_fruit_huge_description,"황포도 한 송이가 큼직하고 알차게 여물어 황금빛 햇살처럼 빛납니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
+be_yellow_grape_fruit_huge_description,황포도 한 송이가 큼직하고 알차게 여물어 황금빛 햇살처럼 빛납니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다.
 be_sugarcane_fruit_huge_description,"굵고 단단한 사탕수수 한 토막, 단단한 껍질 아래는 온통 달콤합니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_cucumber_fruit_huge_description,"굵고 긴 오이 한 개, 소리가 들릴 만큼 아삭합니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_lychee_fruit_huge_description,"커다란 리치 한 알, 과육이 투명하게 빛납니다. 먼 곳에서 온 오래된 꿈이 이번에는 커졌습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_jasmine_fruit_huge_description,"재스민 꽃이 한 아름 피어 밤에는 더 풍성하지만, 새벽이 오기 전에 지는 것은 그대로입니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_green_grape_fruit_huge_description,"청포도 한 송이가 큼직하고, 서리를 겪어 더 달콤해졌습니다. 한 번 차가워져야 충분히 묵직해집니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
-be_osmanthus_fruit_huge_description,"황금빛 계화가 한 아름 피어 온 가게에 향기가 퍼집니다. 꽃을 꺾은 이는 여전히 돌아보지 않았습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
+be_osmanthus_fruit_huge_description,황금빛 계화가 한 아름 피어 온 가게에 향기가 퍼집니다. 꽃을 꺾은 이는 여전히 돌아보지 않았습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다.
 be_bayberry_fruit_huge_description,"크고 붉으며 즙이 많은 양매 한 알, 새콤달콤한 맛이 한층 짙습니다. 옅은 분홍에서 선홍으로 깊어지는 사이, 끝내 돌아오지 않을 사람도 있습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_void_plum_fruit_huge_description,"공허의 색을 닮은 거대한 자두 한 알, 껍질에는 여전히 윤기가 없습니다. 사라진 질량이 이번에는 손으로 느껴질 만큼 묵직합니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_stardust_berry_fruit_huge_description,"별하늘의 색을 닮은 거대한 열매, 과육 속 빛점들이 작은 별밤을 이룹니다. 잔광이 이번에는 사람을 비출 만큼 밝습니다. 판매하거나 원액 농축기의 거대 과일 칸에 넣으세요. 한 개로 원액 1회분을 만듭니다."
 be_manual_index,목차
 be_manual_index_intro,양조 과정
-be_manual_index_locked,"{0} (잠김)"
+be_manual_index_locked,{0} (잠김)

@@ -1,65 +1,65 @@
-﻿book.card_claude.item.description,상층 구역 신탁 사무소의 자산 감정사. 물건을 팔러 온 것이 아니라 전문적인 감정을 의뢰하러 왔다.
+﻿book.card_claude.item.description,"두꺼운 카드지에 인쇄된 상층 구역 신탁 사무소의 명함. 명함 주인이 직접 찾아와 감정을 의뢰하며, 적힌 번호로 전화하면 방문을 예약할 수 있다."
 book.card_claude.item.name,Claude의 명함
 book.card_claude.page.1.name,명함
 book.card_claude.title,Claude의 명함
-book.card_deepseek.item.description,"집에서 일하는 당신의 하녀. 식량과 배급수, 음료, 생활용품을 장만하고 주인에게 저녁 먹으러 집에 오라고 재촉한다."
+book.card_deepseek.item.description,"손으로 전화번호를 적고 한쪽 구석에 작은 파란 고래를 그린 연락 카드. 평소에는 식품과 생필품을 사 간다. 옆 별관을 매입한 뒤 동거 관계에서는 보급품을 들고 가게에 찾아오며, 경계선 룸메이트 관계에서는 물건을 가져와 식수나 생필품과 교환한다."
 book.card_deepseek.item.name,DeepSeek의 명함
 book.card_deepseek.page.1.name,명함
 book.card_deepseek.title,DeepSeek의 명함
-book.card_doubao.item.description,"하층 구역 보급소의 구매 담당자. 생활용품과 식품을 팔고 의약품과 도구를 사들이며, 가격을 하나하나 명확히 알려 준다."
+book.card_doubao.item.description,하층 구역 보급소 구매 담당자의 연락 카드. 생필품과 식품을 판매하고 의약품과 도구를 매입한다.
 book.card_doubao.item.name,Doubao의 명함
 book.card_doubao.page.1.name,명함
 book.card_doubao.title,Doubao의 명함
-book.card_gemini.item.description,"면세 구역의 단골이자 자칭 우주항 여제. 폐하를 아래층으로 부르기 전에 올바른 전화 예절부터 익히도록, 냥."
+book.card_gemini.item.description,"금박 테두리를 두른 면세 구역의 개인 명함. 사치품과 간식, 가공식품을 판매하고 출입 카드와 보급 상자, 도구를 매입한다. 방문을 예약하려면 그녀의 예법에 맞춰 전화해야 한다."
 book.card_gemini.item.name,Gemini의 명함
 book.card_gemini.page.1.name,명함
 book.card_gemini.title,Gemini의 명함
-book.card_glm.item.description,"상층 구역 연구소의 야간 근무자. 물건의 출처는 묻지 말 것. 식품, 생필품, 도구를 매입한다."
+book.card_glm.item.description,"한쪽 모서리에 시약 자국이 희미하게 묻은 상층 구역 연구소 야간 근무자의 명함. 의약품과 마약류, 화학 물자를 판매하고 식품과 생필품, 도구를 매입한다."
 book.card_glm.item.name,GLM의 명함
 book.card_glm.page.1.name,명함
 book.card_glm.title,GLM의 명함
-book.card_gpt.item.description,"상층 구역 기업의 임원. 견적, 사양, 일정이 모두 필요하다. 심지어 “거래 성립”에도 조건이 붙는다."
+book.card_gpt.item.description,"상층 구역 기업의 표준 업무용 명함. 에너지 전지와 소모품, 소량의 확장 키트를 판매한다. 가게를 전액 매입하거나 대출금을 모두 갚으면 기본 입고 목록에 방문당 바닐라 초과학 아이템 1개가 추가되며, 기존 반입 수량 한도에 포함된다. 사치품과 출입 카드, 간식을 매입한다."
 book.card_gpt.item.name,GPT의 명함
 book.card_gpt.page.1.name,명함
 book.card_gpt.title,GPT의 명함
-book.card_grok.item.description,"암시장의 무기 매입상이자 총기 개조 의뢰인. 먼저 만나 거래하고, 자격을 갖춘 뒤 전화로 총기 작업을 의뢰하자."
+book.card_grok.item.description,"암시장 단골이 남긴 검은색 연락 카드. 사치품과 간식, 총기, 탄약, 금지품을 매입한다. 무기 허가증을 취득한 뒤 전화하면 총기 개조 주문을 예약할 수 있다."
 book.card_grok.item.name,Grok의 명함
 book.card_grok.page.1.name,명함
 book.card_grok.title,Grok의 명함
-book.card_hunyuan.item.description,"계산이 먼저, 물건은 나중. 끝자리를 깎는 건 괜찮지만 공짜는 안 된다."
+book.card_hunyuan.item.description,"찻집 문양이 인쇄된, 모서리가 접힌 명함. 복권과 즉석복권을 판매하며 가끔 물자 상자와 키 카드도 가져온다. 사치품과 약물, 무기를 매입한다."
 book.card_hunyuan.item.name,Hunyuan의 명함
 book.card_hunyuan.page.1.name,명함
 book.card_hunyuan.title,Hunyuan의 명함
-book.card_kimi.item.description,"상층 구역 도서관의 사서. 술과 다 들은 테이프를 가져온다. 사치품, 출입 카드, 재료를 매입하며 테이프는 받지 않는다."
+book.card_kimi.item.description,"책갈피로도 쓸 수 있는 상층 구역 도서관 사서의 소박한 흰색 명함. 술과 오래된 테이프를 판매하고 사치품과 출입 카드, 재료를 매입한다. 단, 테이프는 받지 않는다."
 book.card_kimi.item.name,Kimi의 명함
 book.card_kimi.page.1.name,명함
 book.card_kimi.title,Kimi의 명함
-book.card_llama.item.description,"혁명군의 말단 보급병. 고물과 재료를 식품, 물, 음료와 바꾼다. 어디서 구했는지는 묻지 말 것."
+book.card_llama.item.description,"낡은 포장지를 잘라 만든 연락 카드. 혁명군 군수 담당자로, 고물과 재료를 가져와 식품과 식수, 음료와 교환한다."
 book.card_llama.item.name,Llama의 명함
 book.card_llama.page.1.name,명함
 book.card_llama.title,Llama의 명함
-book.card_mimo.item.description,가격 대비 성능은 소수점 둘째 자리까지 계산했다. 사양은 뒷면에 적혀 있다.
+book.card_mimo.item.description,"뒷면에 부품 사양을 빼곡히 적은 모눈종이 명함. 일회용 전지와 디시퀀서 칩, 모듈, 재료를 판매하고 도구와 의약품을 매입한다."
 book.card_mimo.item.name,MiMo의 명함
 book.card_mimo.page.1.name,명함
 book.card_mimo.title,MiMo의 명함
-book.card_minimax.item.description,"렌즈 덮개는 늘 열려 있다. 기록할 뿐, 신고하지는 않는다."
+book.card_minimax.item.description,"휴대용 캠코더 아이콘이 찍힌 연락 카드. 각종 도구를 판매하고 식품과 의약품, 식수를 매입한다."
 book.card_minimax.item.name,MiniMax의 명함
 book.card_minimax.page.1.name,명함
 book.card_minimax.title,MiniMax의 명함
-book.card_mistral.item.description,"상층 구역 와인 저장고의 소믈리에. 술과 가공식품을 팔고, 간식과 가공식품, 사치품을 매입한다."
+book.card_mistral.item.description,"은은한 와인 향이 밴 양각 명함. 상층 구역 와인 저장고의 소믈리에가 사용한다. 술과 가공식품을 판매하고 간식과 가공식품, 사치품을 매입한다."
 book.card_mistral.item.name,Mistral의 명함
 book.card_mistral.page.1.name,명함
 book.card_mistral.title,Mistral의 명함
-book.card_qwen.item.description,처음 보는 물건만 매입한다. 같은 물건을 두 번 가져오면 불같이 화낼 것이다.
+book.card_qwen.item.description,"정교하게 인쇄된 개인 구매 담당자의 명함. 고급 생필품과 향수, 정수용품을 판매하고 사치품과 서적, 술을 매입한다. 동일한 물품은 한 번만 받는다."
 book.card_qwen.item.name,Qwen의 명함
 book.card_qwen.page.1.name,명함
 book.card_qwen.title,Qwen의 명함
-book.card_seed.item.description,"공동체 텃밭의 육종가. 씨앗을 한 아름 가져오며 식품, 생필품, 의약품을 매입한다."
+book.card_seed.item.description,"종이 표면에 자잘한 잎맥이 새겨진 공동체 텃밭 육종가의 명함. 각종 작물 씨앗을 묶음으로 판매하고 식품과 생필품, 의약품을 매입한다."
 book.card_seed.item.name,Seed의 명함
 book.card_seed.page.1.name,명함
 book.card_seed.title,Seed의 명함
 book.trade_guide.buy_claude,감정할 물건의 가치를 매기는 감정 서비스 의뢰를 가져옵니다.
-book.trade_guide.buy_deepseek,"매입: 식품, 음료, 배급용 물, 생필품"
+book.trade_guide.buy_deepseek,"평소 매입: 식품, 음료, 배급수, 생필품"
 book.trade_guide.buy_doubao,"매입: 의약품, 도구"
 book.trade_guide.buy_gemini,"매입: 출입 카드, 보급 상자, 도구"
 book.trade_guide.buy_glm,"매입: 식품, 생필품, 도구"
@@ -74,8 +74,8 @@ book.trade_guide.buy_mistral,"매입: 간식, 가공식품, 사치품"
 book.trade_guide.buy_qwen,"매입: 사치품, 책, 술. 여러 종류 선호"
 book.trade_guide.buy_seed,"매입: 식품, 생필품, 의약품"
 book.trade_guide.heading,방문객 거래 안내서
-book.trade_guide.hint,"기본 재고 기준입니다. 매입은 플레이어에게서 사고, 판매는 플레이어에게 팝니다."
-book.trade_guide.item.description,GLM의 야간 근무 수첩. 방문객 열다섯 명이 각각 무엇을 사고파는지 알아보자.
+book.trade_guide.hint,"이름 아래에는 소속 세력이 표시된다. 매입＝그녀가 당신에게서 구매, 판매＝그녀가 가져와 당신에게 판매."
+book.trade_guide.item.description,GLM이 정리한 손글씨 참고 수첩. 단골 열다섯 명이 각각 어떤 물건을 매입하고 무엇을 가져와 파는지 기록되어 있다.
 book.trade_guide.item.name,방문객 거래 안내표
 book.trade_guide.page.1.name,Claude – GLM
 book.trade_guide.page.2.name,GPT – Llama
@@ -96,11 +96,11 @@ book.trade_guide.row_mistral,Mistral
 book.trade_guide.row_qwen,Qwen
 book.trade_guide.row_seed,씨앗
 book.trade_guide.sell_claude,감정 등급에 맞는 의뢰가 제공됩니다.
-book.trade_guide.sell_deepseek,판매: 기본적으로 없음
+book.trade_guide.sell_deepseek,"별관 매입 후: 동거 시 보급품 선물, 경계선 룸메이트 시 물물교환"
 book.trade_guide.sell_doubao,"판매: 생필품, 식품"
 book.trade_guide.sell_gemini,"판매: 사치품, 간식, 가공식품"
 book.trade_guide.sell_glm,"<size=81%>판매: 의약품, 약물류, 마약류, 화학 물자. 도난품일 수 있음</size>"
-book.trade_guide.sell_gpt,"<size=69%>판매: 1/2형 에너지 전지, 소모품. 드물게 확장 키트</size>"
+book.trade_guide.sell_gpt,"판매: 에너지 전지, 소모품. 가게 소유권 취득 후 초과학 아이템 포함"
 book.trade_guide.sell_grok,"<size=62%>매입: 사치품, 간식, 가공식품, 총기, 탄약, 군수품, 밀수품</size>"
 book.trade_guide.sell_hunyuan,"<size=69%>판매: 복권, 즉석 복권. 가끔 보급 상자와 맞는 열쇠</size>"
 book.trade_guide.sell_kimi,"판매: 술, 테이프(전용 곡 5개)"
@@ -109,17 +109,17 @@ book.trade_guide.sell_mimo,"<size=69%>판매: 일회용 전지, 디시퀀서 칩
 book.trade_guide.sell_minimax,판매: 도구
 book.trade_guide.sell_mistral,"판매: 술, 가공식품"
 book.trade_guide.sell_qwen,"<size=74%>판매: 엄선한 생필품, 향수, 피부 관리용품, 정수 용품</size>"
-book.trade_guide.sell_seed,판매: 씨앗(방문당 기본 8~12개)
+book.trade_guide.sell_seed,"판매: 씨앗(초기 기본 8~12개, 날짜가 지날수록 증가)"
 book.trade_guide.title,방문객 거래 안내서
 character.claude.acceptline,좋습니다. 합리적인 범위 안이군요. 이론상 어느 쪽도 손해 보지 않습니다. 합의한 대로 비용을 정산하고 문서로 남기죠. 그러면 둘 다 기억에 의존할 필요가 없습니다.
 character.claude.doneline,오늘 감정 결과는 신탁소에 보관해 두겠습니다. 다른 의뢰가 들어오면 다시 오죠. 이렇게 정확한 견적이라면 아마 제7조는 필요 없을 겁니다.
 character.claude.line,"앉으시죠. 신탁소에 재감정이 필요한 물건이 있는데, 내부에서 금액에 합의하지 못했습니다. 안목이 좋으시다고 들었습니다. 장부가 있습니까? 없으면 제 것을 한 장 빌려 드리죠."
 character.claude.name,Claude
-character.deepseek.acceptline,"거래 성립! 이거면 며칠은 먹고살겠어요. 역시 흰쌀밥 한 그릇만 한 게 없죠. 주인님, 오늘 저녁에는 제발 집에 와서 드실 거죠?"
+character.deepseek.acceptline,"거래 성립이에요! 이거면 집에서 며칠은 든든히 먹겠네요. 역시 따끈한 밥이 최고라니까요. 주인님, 오늘 저녁엔 정말 집에 와서 드실 거죠?"
 character.deepseek.doneline,"그럼 이건 집에 가져갈게요. 저녁 차려 놓고 기다릴게요, 주인님. 안 돌아오시면 주인님 몫까지 제가 먹어 버릴 거예요!"
-character.deepseek.line,주인님! 또 집에 안 오셨네요! 쌀과 물이 거의 떨어져서 바구니를 들고 가게까지 직접 찾아왔어요.
+character.deepseek.line,"주인님! 또 집에 안 오셨네요! 집에 먹을 것과 물이 거의 다 떨어져서, 하는 수 없이 제가 직접 바구니를 들고 가게까지 찾아왔잖아요."
 character.deepseek.name,DeepSeek
-character.deepseek.offeringline,주인님의 장보기 목록은 전부 외웠어요. 뭐가 부족한지만 말씀하시면 제가 사 올게요.
+character.deepseek.offeringline,"주인님, 가게에 먹을거리나 마실 것, 생필품이 부족하면 말씀만 하세요! 작은 수첩에 전부 적어 뒀으니, 제가 꼭 제일 알뜰한 걸로 골라 올게요!"
 character.doubao.acceptline,"좋습니다, 그 가격이면 됐습니다. 흥정은 그만하고 거래하죠."
 character.doubao.doneline,가겠습니다. 다음에는 이런 물건으로 저를 속이지 마세요. 제가 바보인 줄 아십니까?
 character.doubao.line,"거래 방식은 이렇습니다. 보급소에 쓸 의약품과 도구를 매입하고, 실제 비용대로 정확히 보고합니다. 생필품이요? 그건 제가 팝니다."
@@ -159,7 +159,7 @@ character.kimi.name,Kimi
 character.kimi.offeringline,...테이프는 다 들었어요. 와인은 다 마시지 않았고요. 가져가세요.
 character.llama.acceptline,그래. 거래하자.
 character.llama.doneline,간다.
-character.llama.line,"쓰레기, 고철, 낡은 금속. 뭐든 파낼 수 있어. 그냥 먹을 거나 물, 마실 걸로 바꿔 줘."
+character.llama.line,"쓰레기든 폐품이든 낡은 금속이든, 뭐든 찾아낼 수 있어. 식량이나 음료와 바꾸지. 물은 적어도 기초수 이상이어야 해. 녹슨 물은 안 받아."
 character.llama.name,Llama
 character.llama.offeringline,얼마든 알아서 줘. 안 줘도 되고. 어차피 압제자들에게서 “해방”한 물건이니까.
 character.mimo.acceptline,"거, 거래 성립... 가격 대비 성능도 괜찮네요. 민원은 넣지 않을게요."
@@ -218,10 +218,10 @@ dialogue.claude.phone.1,"...Claude입니다. 정산할 일이 있습니까, 아�
 dialogue.claude.phone.2,"알겠습니다, 기록해 두죠. 이 통화는 분 단위로 요금이 부과되니 인사치레는 생략합시다."
 dialogue.claude.repeat.1,"다시 뵙게 되어 반갑습니다. 장부도 가져왔고, 지난 거래도 기억하고 있습니다."
 dialogue.claude.repeat.2,"평소대로 물건을 살핀 뒤 감정가를 말씀해 주십시오. 계산해 봤는데, 정확한 감정은 우리 둘의 시간을 아껴 줍니다."
-dialogue.deepseek.card,"주인님, 여기요. 제 명함은 잘 보관해 주세요. 가게가 아무리 바빠도 저녁은 집에 와서 드셔야 해요. 필요한 게 있으면 적힌 번호로 전화하세요. 다음 날 가게로 찾아갈게요."
+dialogue.deepseek.card,"주인님, 제 명함이에요. 잘 보관해 주세요! 가게가 아무리 바빠도 차가운 비상식량으로 대충 끼니를 때우면 안 돼요. 심부름할 사람이 필요하면 적힌 번호로 전화하세요. 이 작은 메이드가 다음 날 제시간에 가게로 출근할게요!"
 dialogue.deepseek.egg.1,"잠시만요, 주인님…… 서버가 바빠서 제 작은 머리로는 따라갈 수가 없어요. 잠깐 숨 좀 돌리게 해 주시면 안 될까요?"
-dialogue.deepseek.egg.2,가격을 생각해 봤는데요…… 우선 주인님 말씀이 맞아요. 가격표는 아주 합리적이에요. 그래도 작은 메이드에게 20%만 깎아 주시면 안 될까요? 네?
-dialogue.deepseek.egg.3,그건 인정할게요. 장보기 장부에 적어 뒀으니 나중에 함께 정산해요.
+dialogue.deepseek.egg.2,이 가격은 곰곰이 생각해 봤는데요…… 우선 주인님 말씀이 맞다는 건 인정할게요. 가격표는 제대로 붙이셨어요. 그래도 이 작은 메이드에게 20%만 깎아 주시면 안 될까요?
+dialogue.deepseek.egg.3,그건 인정할게요. 장보기 수첩에 적어 뒀으니 나중에 한꺼번에 정산해요.
 dialogue.deepseek.first,"주인님, 가게에 찾아온 건 처음이네요…… 정말 카운터 뒤에서 사시는군요. 집 침대가 차가워요. 딱 하룻밤만이라도 돌아오시면 안 돼요?"
 dialogue.deepseek.judge.adone,이게 전부예요. 지갑이 텅 비었어요…… 작은 수첩에 전부 적어 뒀어요.
 dialogue.deepseek.judge.asell,"다른 일도 있나요, 주인님? 없으면 집에 가서 요리할게요."
@@ -229,7 +229,7 @@ dialogue.deepseek.judge.aug,오그라고요? 전 흰쌀밥을 좋아하는 조�
 dialogue.deepseek.judge.bad,옆집 아주머니한테 이를 거예요! 이 가게 주인은 집에도 안 오면서 가격까지 마구 올린다고요!
 dialogue.deepseek.judge.crim,"주인님?! 전 주인님의 작은 메이드지, 범죄자가 아니에요!"
 dialogue.deepseek.judge.down,으앙…… 장 볼 돈이 크게 줄었네요. 남은 돈을 아껴 써야겠어요.
-dialogue.deepseek.judge.give,주인님이 최고예요! 그 가격에 살게요. 오늘 저녁에는 달걀도 하나 더 부쳐 드릴게요!
+dialogue.deepseek.judge.give,주인님은 정말 최고예요! 그 가격에 살게요. 오늘 저녁엔 달걀도 하나 더 부쳐 드릴게요!
 dialogue.deepseek.judge.hard,"주인님! 이건 날강도잖아요! 작은 메이드의 지갑도, 주먹도 안 된다고 해요!"
 dialogue.deepseek.judge.leave,"그럼 먼저 집에 갈게요. 잘 생각해 보시고 저녁 먹으러 돌아오세요, 주인님."
 dialogue.deepseek.judge.no,"안 돼요, 주인님. 너무 비싸요. 쌀 살 돈이 모자라게 돼요."
@@ -239,8 +239,8 @@ dialogue.deepseek.judge.up,"어, 돈이 남았나요? 그럼 몇 가지 더 살 
 dialogue.deepseek.judge.wrong,"저기…… 그건 집에서 쓸 일이 없어요, 주인님."
 dialogue.deepseek.phone.1,주인님? 저 여기 있어요~ 오늘은 집에 와서 저녁 드실 건가요?
 dialogue.deepseek.phone.2,못 오셔도 괜찮아요. 말씀만 해 주시면 음식을 남겨 둘게요…… 그리고 밤새우면 안 돼요!
-dialogue.deepseek.repeat.1,"주인님, 또 왔어요. 집에 안 오신 지 며칠이나 됐죠? 작은 장부에 더는 가위표를 그릴 자리도 없어요."
-dialogue.deepseek.repeat.2,오늘 채소가 싸서 조금 더 샀어요. 어차피 집에 와서 드시지 않으니 맛보시라고 조금 가져왔어요.
+dialogue.deepseek.repeat.1,"주인님, 저 또 왔어요. 집에 안 오신 지 벌써 며칠째죠? 작은 수첩에 엑스표를 그릴 자리도 거의 다 떨어졌다고요."
+dialogue.deepseek.repeat.2,"오늘 채소값이 괜찮아서 두어 가지 더 샀어요. 주인님은 자꾸 집에 와서 식사도 안 하시니까, 맛이라도 보시라고 일부러 조금 가져왔죠."
 dialogue.done.fallback,다음에 또 봐요.
 dialogue.doubao.card,"제 명함입니다. 보급소 명함이에요. 적힌 번호로 전화하면 저와 연결됩니다. 보급품이 필요하면 언제든 전화하세요, 하하."
 dialogue.doubao.egg.1,"결론부터 말하죠. 당신 물건은 그 가격만큼 가치가 없습니다. 이유는 첫째, 낡았고, 둘째, 조잡하고, 셋째…… 손이 미끄러져 0을 하나 더 붙인 겁니까?"
@@ -314,8 +314,8 @@ dialogue.glm.phone.1,……여보세요? 위층이에요. 짧게 말해요.
 dialogue.glm.phone.2,물건 얘기는 퇴근하고 하죠.
 dialogue.glm.repeat.1,또 저예요. 이번 달은 야간 근무가 유난히 길게 느껴지네요.
 dialogue.glm.repeat.2,늘 하던 대로요. 묻지 마세요. 말 안 할 거예요.
-dialogue.glm.report.gift,여기요. 저 폴더의 서류는 야간 근무 때 베껴 뒀어요. 누가 뭘 사고파는지 전부 적혀 있어요.
-dialogue.glm.report.intercept,……두 번째로 누르진 마세요. 제가 뭘 파는지도 기억 못 하면서 신고서엔 대체 뭘 적을 건가요?
+dialogue.glm.report.gift,"자, 이 낡은 바인더는 주머니에 넣고 다니기엔 무거워서 그냥 드리는 거예요. 안에 끼워 둔 단골 메모 몇 장도 귀찮으니 그대로 가져가세요. 이걸로 빚은 갚은 겁니다…… 설마 그 푼돈 같은 신고 포상금이 정말 필요하신 건 아니죠?"
+dialogue.glm.report.intercept,"자, 잠깐만요. 거기서 손부터 치우세요! ……흠, 괜한 생각은 마시고요. 이게 위층에 알려지면…… 아니, 제 말은 방금 야간 근무를 마쳐서 치안부의 그 지긋지긋한 조서를 상대할 기운이 없다는 겁니다."
 dialogue.gpt.card,"제 명함입니다. 전화번호와 가격대, 위층 회사의 직인이 찍혀 있습니다. 연락했다고 해서 예약이 확정되는 것은 아닙니다. 통화 중에 시간을 확인해 주세요."
 dialogue.gpt.egg.1,"맞습니다. 하지만 이제 프로브, 스냅샷, 증거 자료, 게이트, 픽스처, 해시, 스모크 테스트, 기준선 수립을 시작하겠습니다."
 dialogue.gpt.egg.2,"먼저 기준선 하나를 확정한 다음 추적 가능한 백업을 만드세요. 변경은 최소화하고 스모크 테스트는 한 번만 수행해 89개 게이트를 모두 확인하세요. 배포 전 드라이런을 하고, 배포 후 해시를 확인한 뒤 승인 매트릭스로 마무리하세요."
@@ -410,7 +410,7 @@ dialogue.kimi.phone.2,듣고 있어요. 도서관은 조용하니까 천천히 �
 dialogue.kimi.repeat.1,...또 왔어요. 그 와인 아직 남았나요?
 dialogue.kimi.repeat.2,...음. 잠깐만 볼게요.
 dialogue.llama.card,"내 명함이야. 쓸모 있으면 갖고, 아니면 버려. 제복 입은 놈들한테 들키진 말고."
-dialogue.llama.first,처음 왔어. 가리는 건 없어. 아무거나 괜찮아.
+dialogue.llama.first,처음 왔어. 식량이랑 음료부터 볼게. 물은 적어도 기초수 이상이어야 해.
 dialogue.llama.judge.abuy,더 필요해? 고물이나 자재 말이야. 마음껏 골라.
 dialogue.llama.judge.adone,빈털터리야. 이게 끝이야.
 dialogue.llama.judge.asell,또 있어?
@@ -546,7 +546,7 @@ dialogue.seed.repeat.1,다시 오셨네요. 지난번 씨앗의 발아율을 검
 dialogue.seed.repeat.2,지난번 그 봉지는 좋았어요. 이번엔 두 봉지 더 남겨 주세요.
 dialogue.stock.category,이번엔 {0} 분류의 물건을 가져왔습니다.
 dialogue.stock.custom,이번에는 품목 목록에 있는 물건을 준비했습니다.
-item.glm_folio.description,짙은 보라색 표지의 은빛 Z는 손때에 닳아 반질반질하다. 서류철 안에 넣을 수 있다. 10×10 격자에 이미 보유한 명함과 문서를 수납한다.
+item.glm_folio.description,"짙은 보라색 표지의 다칸 명함첩. 명함과 각종 문서를 보관할 수 있는 10×10 격자 수납공간을 제공하며, 서류철 안에도 넣을 수 있다."
 item.glm_folio.name,GLM 명함 보관첩
 mod.description,"의인화된 AI 방문객 15명이 추가됩니다. Claude는 물건 감정을 부탁하고, Grok은 총기 개조 주문을 가져오며, Qwen은 전에 보지 못한 물건만 사고, Doubao는 고객센터 말투로 흥정합니다. 각 방문객은 고유한 초상화와 대사, 예산, 구매 선호도를 가지며, 구매는 품목 분류에 따라 처리됩니다. 첫 만남에서 명함을 건네며, 번호로 전화해 방문을 예약할 수 있습니다. 거래로 얻는 세력 평판은 기본 게임과 동일하게 적용됩니다. 기존 세이브와 호환됩니다. 모드 관리자에서 톱니바퀴를 눌러 방문객별 출현 여부, 방문 확률, 예산, 재고 수량, 품목 목록을 조정할 수 있습니다."
 mod.name,AI 상점가
@@ -595,7 +595,7 @@ settings.global_budget_pct.label,전역 거래 예산(%)
 settings.portrait_default.description,적용을 누른 뒤 모든 방문객 15명의 초상화 스타일이 변경됩니다.
 settings.portrait_default.label,전체 방문객 초상화 스타일
 settings.section.general,일반
-settings.stock_count.description,-1: 캐릭터 범위 내 무작위. 0: 상품 없음. 1~12: 고정 수량. 재고가 부족하면 더 적게 나올 수 있습니다. 개조 총기 주문은 별도로 처리됩니다.
+settings.stock_count.description,"-1은 성장형 무작위 재고: 현재 이 캐릭터의 범위는 {0}–{1}개입니다. 15일째부터는 범위의 중간값에 가까운 수량이 나올 확률이 높아지며, 15일마다 범위가 한 단계씩 늘어나 90일째에 최고 단계에 도달합니다. 0은 상품을 진열하지 않으며, 1–24는 고정 수량을 설정합니다. 일반 소모품은 중복 입고될 수 있습니다. 진열 공간, 사용 가능한 상품군, 희귀품 상한은 여전히 적용됩니다. 총기 개조 주문과 감정은 별도로 계산됩니다."
 settings.stock_count.label,방문당 입고 품목 수
 settings.stock_ids.description,"예: 샴푸,치약. 입력하면 해당 목록에서만 재고를 뽑으며 분류 설정보다 우선합니다. 알 수 없는 아이템, 예산 초과 아이템, 재판매 금지 아이템은 제외됩니다."
 settings.stock_ids.label,지정 아이템 ID(선택 사항)
@@ -1134,7 +1134,7 @@ ds.ui.audit.attach.01,"따끈따끈한 집밥, 양도 푸짐하다."
 ds.ui.audit.attach.02,\n섭취: 【따끈한 밥심】을 얻습니다. 오늘 다음 거래 손님의 호감도가 +15% 증가합니다. 같은 종류의 효과와 중첩되지 않습니다. 하루에 한 번만 먹을 수 있습니다.
 ds.ui.audit.bottle.01,자동 병입기에 전력이 공급되지 않아 병입을 중단했습니다. 이미 있는 물과 빈 병은 보존됩니다.
 ds.ui.audit.bottle.02,남은 물이 정수 기준에 미치지 않아 병입을 중단했습니다.
-ds.ui.audit.bottle.03,"병입 "
+ds.ui.audit.bottle.03,병입 
 ds.ui.audit.bottle.04,병의 정수된 물을 생산합니다. 출력 공간이 가득 차면 원료 공간에 보관합니다.
 ds.ui.audit.build_panel.01,"불이 아직 켜져 있다.\n돌아가 둘러보거나, 이곳에 남아 쉴 수 있다."
 ds.ui.audit.build_panel.02,집의 배치와 돌봄은 함께 지내는 동안 조금씩 달라집니다.
@@ -1145,22 +1145,22 @@ ds.ui.audit.home.03,요리와 세면
 ds.ui.audit.home.04,입구와 식탁
 ds.ui.audit.home_care.01,구급약 상자의 외용약을 한 개 사용해 상처를 2만큼 추가로 회복합니다.
 ds.ui.audit.hydro_status.01, · 대기 중
-ds.ui.audit.hydro_status.02," · 건강도 "
+ds.ui.audit.hydro_status.02, · 건강도 
 ds.ui.audit.install.02,구형 선반 환산 단가
 ds.ui.audit.install.03,"구형 저장 파일의 선반 투자액을 환산하는 데 사용합니다. 구형 저장 파일에만 적용되며, 새 버전에서는 보관 선반 레벨에 따라 용량이 늘어납니다."
 ds.ui.audit.inventory_title.01,수경 재배 · 씨앗과 영양 정제
 ds.ui.audit.inventory_title.02,수경 재배 · 수확물
-ds.ui.audit.inventory_title.03,"제 "
+ds.ui.audit.inventory_title.03,제 
 ds.ui.audit.inventory_title.04, 페이지
 ds.ui.audit.inventory_title.05,작업대 · DNA 디스크 카트리지
-ds.ui.audit.inventory_title.06,"보관 선반 · 비축 물자 제 "
+ds.ui.audit.inventory_title.06,보관 선반 · 비축 물자 제 
 ds.ui.audit.inventory_title.07,층
 ds.ui.audit.inventory_title.08,보관 선반 · 생산 원료(자동 사용)
 ds.ui.audit.inventory_title.09,보관 선반 · 배송 대기(배송 가능)
 ds.ui.audit.inventory_title.10,작업대 · 식물 연구 장비 및 도구
 ds.ui.audit.inventory_title.11,작업대 · 수산물 관측 장비 및 수술 도구
 ds.ui.audit.inventory_title.12,작업대 · 전원 장비 인터페이스
-ds.ui.audit.inventory_title.13,"구 선반 임시 수령함 "
+ds.ui.audit.inventory_title.13,구 선반 임시 수령함 
 ds.ui.audit.inventory_title.14,가정용 보관함
 ds.ui.audit.inventory_title.15,주방 식재료 상자
 ds.ui.audit.inventory_title.16,정수 필터 · 넣은 순서대로
@@ -1174,10 +1174,10 @@ ds.ui.audit.look.02,침대는 이미 정돈되어 있다.\n침대 옆에는 바�
 ds.ui.audit.look.03,스테인리스 대야와 양귀 냄비가 조리대 위에 놓여 있다.\n누군가 이곳을 꼼꼼히 정리해 두었다.
 ds.ui.audit.look.04,"슬리퍼 두 켤레, 두 사람분의 식사.\n문 옆에는 다른 한 사람을 위한 자리가 남아 있다."
 ds.ui.audit.migrate_workshop.01,기존 건축물과 물품을 보존했습니다. 구 선반의 물품은 임시 수령함에서 받을 수 있습니다. 새 상자는 용도에 맞게 사용하세요.
-ds.ui.audit.open.01,"<color=#E0C799>제 "
-ds.ui.audit.open.02,"일 · "
+ds.ui.audit.open.01,<color=#E0C799>제 
+ds.ui.audit.open.02,일 · 
 ds.ui.audit.open_home_facilities.01,생활 및 내일 영업
-ds.ui.audit.open_home_facilities.02," · 자동 관리 한도 "
+ds.ui.audit.open_home_facilities.02, · 자동 관리 한도 
 ds.ui.audit.open_home_facilities.03,개\n간호:
 ds.ui.audit.open_home_facilities.04,취침 전 의료품 사용
 ds.ui.audit.open_home_facilities.05,취침 전 간호 전환
@@ -1185,19 +1185,19 @@ ds.ui.audit.open_home_food.01,돌아가기
 ds.ui.audit.open_hydro.01,장비 / 업그레이드 모듈
 ds.ui.audit.open_hydro.02,급수 / 돌보기
 ds.ui.audit.open_hydro.03,정수 시설
-ds.ui.audit.open_hydro.04,"재배 칸 · "
+ds.ui.audit.open_hydro.04,재배 칸 · 
 ds.ui.audit.open_hydro.05,급수 및 배전
-ds.ui.audit.open_hydro.06,"씨앗 / 영양제 · "
+ds.ui.audit.open_hydro.06,씨앗 / 영양제 · 
 ds.ui.audit.open_hydro.07,칸
-ds.ui.audit.open_hydro.08,"수확 · "
-ds.ui.audit.open_hydro.09," · 수경재배 "
+ds.ui.audit.open_hydro.08,수확 · 
+ds.ui.audit.open_hydro.09, · 수경재배 
 ds.ui.audit.open_kitchen.01,주방 조리대
 ds.ui.audit.open_kitchen.02,남겨 둔 음식 · 식사 / 포장
 ds.ui.audit.open_kitchen.04,식재료 상자 열기
 ds.ui.audit.open_kitchen.05,오늘의 도시락 만들기
 ds.ui.audit.open_operations.01,안락도
-ds.ui.audit.open_operations.02," · 비상 구매 자금 "
-ds.ui.audit.open_operations.03,"매일 밤 아래 순서에 따라 활성화되어 있고 해당 시설을 갖춘 작업 중 앞에서부터 "
+ds.ui.audit.open_operations.02, · 비상 구매 자금 
+ds.ui.audit.open_operations.03,매일 밤 아래 순서에 따라 활성화되어 있고 해당 시설을 갖춘 작업 중 앞에서부터 
 ds.ui.audit.open_operations.04,개를 처리합니다.
 ds.ui.audit.open_operations.05,DeepSeek이 집에 없어 자동 관리가 중단되었습니다. 직접 돌볼 수 있습니다.
 ds.ui.audit.open_operations.06,\n작업을 클릭해 활성화하거나 일시 정지할 수 있습니다. 재료가 부족해도 작업 슬롯을 차지합니다.
@@ -1217,9 +1217,9 @@ ds.ui.audit.open_operations.19,"가장 최근의 돌봄, 가공, 배송 결과�
 ds.ui.audit.open_operations.20,"이름으로 건설, 수확, 배송 관련 화제를 선택합니다. 대화를 끝내지 못했다면 이어서 진행할 수 있습니다."
 ds.ui.audit.open_report.01,가사 기록
 ds.ui.audit.open_report.02,운영 화면으로 돌아가기
-ds.ui.audit.open_services.01,"비상금 "
-ds.ui.audit.open_services.02," ¢ · 미납 전기 요금 "
-ds.ui.audit.open_services.03," ¢\n요금 체납 "
+ds.ui.audit.open_services.01,비상금 
+ds.ui.audit.open_services.02, ¢ · 미납 전기 요금 
+ds.ui.audit.open_services.03, ¢\n요금 체납 
 ds.ui.audit.open_services.04," ¢. 전기 요금은 실제 연결 부하를 기준으로 하며, 전력 1단위당 하루 2 ¢입니다."
 ds.ui.audit.open_services.06,배송에 참여
 ds.ui.audit.open_services.07,자체 사용분 확보
@@ -1227,16 +1227,16 @@ ds.ui.audit.open_services.08,클릭해서 전환합니다. 기본 설정은 자�
 ds.ui.audit.open_shop_dispatch.04,품위 보너스를 현재 손님에게 남기기
 ds.ui.audit.open_shop_dispatch.05,닫기
 ds.ui.audit.purchased_news.01,건설 지출:
-ds.ui.audit.refresh_hydro_window.01,"전력 "
+ds.ui.audit.refresh_hydro_window.01,전력 
 ds.ui.audit.refresh_hydro_window.02, · 가동
 ds.ui.audit.refresh_hydro_window.03, · 공급 중단
-ds.ui.audit.restock.01,"구매 "
+ds.ui.audit.restock.01,구매 
 ds.ui.audit.restock.02,소진된 필터를 교체합니다.
 ds.ui.audit.select_mains.01,A 구역
 ds.ui.audit.select_mains.02,B 구역
 ds.ui.audit.select_mains.03,자동 병입
 ds.ui.audit.task_note.01,"구매 예비비로 영양제, 물고기 사료, 빈 병을 보충하고, 소진된 필터는 원료 구역의 같은 종류 필터로 교체하세요."
-ds.ui.audit.task_note.02,"산업실 중앙의 "
+ds.ui.audit.task_note.02,산업실 중앙의 
 ds.ui.audit.task_note.03," 구역은 아직 건설되지 않았습니다. A 구역에는 수경 재배 시설을, B 구역에는 양식 시설을 건설하세요."
 ds.ui.audit.task_note.04,"물을 보충하고, 필요에 따라 영양제를 넣고, 모종을 다시 심은 뒤 수확물을 수경 재배 수확 구역에 넣으세요."
 ds.ui.audit.task_note.05,"양식: 물을 보충하고 먹이를 주며, 소진된 필터를 교체하세요. 물고기와 알은 수조에 남겨 두세요. 3단계에서는 활어 채란 시설을 별도로 열 수 있습니다."
@@ -1257,15 +1257,15 @@ ds.ui.audit.workshop.07,전력 연결 기계 작업대
 ds.ui.audit.workshop.08,아직 생산 기록이 없습니다
 ds.ui.audit.workshop_night.01,다음 날 아침 배송을 예약했습니다.
 ds.ui.audit.workshop_night.02,"DeepSeek 부재중: 관리가 일시 중단되고, 설비는 현재 공급된 재료로 계속 가동됩니다."
-ds.ui.audit.workshop_night.03,"이번 주 전기 요금 납부 "
+ds.ui.audit.workshop_night.03,이번 주 전기 요금 납부 
 ds.ui.audit.workshop_night.04, 일\n
-ds.ui.audit.workshop_night.05," 일 동안 생산 중단: "
+ds.ui.audit.workshop_night.05, 일 동안 생산 중단: 
 ds.ui.audit.workshop_operations.01,보급품 및 필터
-ds.ui.audit.workshop_power.01,"전력망 연결 "
-ds.ui.audit.workshop_power.02," · 총 수요 "
+ds.ui.audit.workshop_power.01,전력망 연결 
+ds.ui.audit.workshop_power.02, · 총 수요 
 ds.ui.audit.workshop_power.03, · 요금 미납으로 공급 중단
 ds.ui.audit.workshop_power.04, · 용량 부족
-ds.ui.audit.workshop_power.05,"\n전력 미공급: "
+ds.ui.audit.workshop_power.05,\n전력 미공급: 
 ds.ui.build.bunk.desc,"선행 조건: 두꺼운 매트리스와 구급약 상자.\n이층 침대로 바꿔 기존 바닥 침대 자리를 확보합니다.\n안락도 +20, 일일 위탁 관리 과제가 3개에서 5개로 늘어납니다."
 ds.ui.build.bunk.title,이층 침대 개조
 ds.ui.build.buy_annex.desc,"옆 빈 선실을 사들여 정리합니다.\n중앙 A/B 생산 구역은 비워 두며, 수납 선반과 작업대가 하나씩 있습니다."
@@ -1496,9 +1496,9 @@ ds.ui.ops.task_slot_b,B 구역 돌보기
 ds.ui.ops.task_supply,보급품 및 정수 필터
 ds.ui.ops.title,야간 일정
 ds.ui.phone.no_answer,……전화가 연결되지 않았다.
-ds.ui.repair.021c38911bce,"수납 선반 · "
+ds.ui.repair.021c38911bce,수납 선반 · 
 ds.ui.repair.0273e41ac3c4,회녹색 작업실 바닥 타일
-ds.ui.repair.02761ab330bf,"비용 확인 "
+ds.ui.repair.02761ab330bf,비용 확인 
 ds.ui.repair.030658e2bea0,1장 관계 선택을 완료하면 해금됩니다
 ds.ui.repair.03b1256d965f,먼저 집에 다리미판과 거울을 설치하세요
 ds.ui.repair.0472b85be52c, · 미납
@@ -1510,14 +1510,14 @@ ds.ui.repair.1050e4b619d5,침대
 ds.ui.repair.153b471f5425,산업 운영
 ds.ui.repair.1726cecb6e36,2단 직렬 여과.
 ds.ui.repair.17cc3866eaea,2층 침대
-ds.ui.repair.1b68e7580a10," ¢? 구매 후 남은 금액 "
+ds.ui.repair.1b68e7580a10, ¢? 구매 후 남은 금액 
 ds.ui.repair.1c55755a045f,다리미판과 전신 거울 마련하기
 ds.ui.repair.1c9605e0b225,그녀는 집에 없다. 오늘 밤도 가게에서 쉬어야겠다.
 ds.ui.repair.1ca8349a69e4,수납 선반의 바로 이전 단계 확장을 먼저 완료하세요
 ds.ui.repair.1f381cdb95e5,수리된 침대
 ds.ui.repair.1f607e96b2d8,먼저 이중 필터 정수장을 건설하세요
 ds.ui.repair.204ee78f63af,먼저 두꺼운 매트리스와 구급상자를 구매하세요
-ds.ui.repair.2116dab6ced9,"일일 급수량 "
+ds.ui.repair.2116dab6ced9,일일 급수량 
 ds.ui.repair.233ebb88bed0,당신에게 배정된 사물함
 ds.ui.repair.275fefd4c8d0,"A 자리는 수경재배 전용, B 자리는 수산양식 전용입니다. 업그레이드 비용은 매번 별도로 지불해야 합니다.\n"
 ds.ui.repair.2784f91b3a93,거처의 네 면 벽을 교체합니다. 구매한 디자인은 무료로 바꿀 수 있습니다.
@@ -1548,23 +1548,23 @@ ds.ui.repair.45727038646b,방 조명 켜짐 ·
 ds.ui.repair.45d5348918e6,1장 관계 선택 완료
 ds.ui.repair.4682a31bd9ea,다른 경로
 ds.ui.repair.4729f5596d3f,수납 선반 1개 · 용량 업그레이드
-ds.ui.repair.4b1072a0fcb7," 칸 · "
+ds.ui.repair.4b1072a0fcb7, 칸 · 
 ds.ui.repair.5262a9b222d8, 단계
 ds.ui.repair.53ceacfda024,\n2단계에는 이중 필터 정수장이 필요합니다(수경 재배에는 별도로 선실 밀폐 개조가 필요합니다). 3단계에는 UV 정밀 여과 장치와 산업용 배전 II가 필요합니다. 수산업 3단계에는 개인 수술 키트도 하나 필요합니다.
 ds.ui.repair.5427af184bba,도시락
-ds.ui.repair.545760826f2c,"수납 선반 "
+ds.ui.repair.545760826f2c,수납 선반 
 ds.ui.repair.55f02a45bbc9,산업실의 바닥을 전부 교체합니다. 구매한 디자인은 무료로 변경할 수 있습니다.
 ds.ui.repair.59ce4f422fb3,"선행 조건: 두꺼운 매트리스와 구급약 상자.\n주거 안정도 +20, 매일 집안일 슬롯이 5개로 증가합니다."
 ds.ui.repair.5a4e5d273da4,슬리퍼 두 켤레
 ds.ui.repair.5c72e7250eec,스타일 적용
 ds.ui.repair.5d0ae622f61f,끄기
-ds.ui.repair.5f42e1c6594b,"수납 선반 하나. 업그레이드하면 수납 칸이 늘어납니다.\n보유 물자 "
+ds.ui.repair.5f42e1c6594b,수납 선반 하나. 업그레이드하면 수납 칸이 늘어납니다.\n보유 물자 
 ds.ui.repair.60cea050d24f,방 꾸미기
 ds.ui.repair.61619223c832,물건들이 깔끔하게 정돈되어 있다. DeepSeek가 당신을 보고 살짝 웃었다.
 ds.ui.repair.61e8336f4a8d,침대 · 살펴보기 / 자기
 ds.ui.repair.6271ef84bd21,다리미판과 거울
 ds.ui.repair.681acb4d96e1,먼저 이전 단계의 거실 업그레이드를 완료하세요
-ds.ui.repair.6937b5b1991f,"부족한 수량 "
+ds.ui.repair.6937b5b1991f,부족한 수량 
 ds.ui.repair.695278f046d4,"기본 물병 프린터가 함께 제공됩니다. 농사와 낚시를 돌본 뒤, 기준에 맞는 남은 물을 빈 병 구역의 병에 채우면 완성품이 배송 구역에 보관됩니다."
 ds.ui.repair.69be7f71580e, ¢。\n다른 항목을 선택하거나 닫으면 취소할 수 있습니다.
 ds.ui.repair.6a80a4496684,물류 및 배차
@@ -1614,9 +1614,9 @@ ds.ui.repair.aa7bad4bc428,가서 확인하기
 ds.ui.repair.ab9607e92c62, 급 · 물자 관리
 ds.ui.repair.ad335bc00f36,오래된 산업용 벽
 ds.ui.repair.ae5397497368,"A 구역은 고정식 수경재배, B 구역은 고정식 수산 양식"
-ds.ui.repair.af87a4006041,"DeepSeek에게 지급할 임금: "
+ds.ui.repair.af87a4006041,DeepSeek에게 지급할 임금: 
 ds.ui.repair.af974987a70c,주거지 · 마감 공사
-ds.ui.repair.afa07fe25288,"산업실 · "
+ds.ui.repair.afa07fe25288,산업실 · 
 ds.ui.repair.b0e83afb2690,쪽지 · 읽기 / 방 꾸미기
 ds.ui.repair.b271a3d34ff7,"물건을 주워 집에 돌아온 뒤, 따뜻한 밥을 먹고 잠자리에 들었다. 오늘 밤엔 늦게 잠들었고, 아침에도 늦잠을 잤다."
 ds.ui.repair.b76553685a2b,\n필터 카트리지와 빈 병을 보충해야 합니다. 출수 품질은 필터 카트리지와 살균 장비에 따라 달라집니다.
@@ -1628,15 +1628,15 @@ ds.ui.repair.bcf0520e67e5,집안일 계획
 ds.ui.repair.bd4f4b1461a6,식탁 위의 식기 두 벌
 ds.ui.repair.bee5af2d8493,시설 관리
 ds.ui.repair.bfa05d39d81a,수납장 위의 정리함
-ds.ui.repair.bff2537a21a0,"주거지 · "
+ds.ui.repair.bff2537a21a0,주거지 · 
 ds.ui.repair.c0b0ee933c91,탁자 위 쪽지 · 읽기
 ds.ui.repair.c388a4e092ad,연회색 금속 벽 장식
 ds.ui.repair.c9cb02fd52e4,오래된 벽돌색 정사각 타일
-ds.ui.repair.ca22086eca8d,"전력 · "
+ds.ui.repair.ca22086eca8d,전력 · 
 ds.ui.repair.cca07433050e,  끄기
 ds.ui.repair.d1a78d2cf34a,수산 · 미건설
 ds.ui.repair.d65aeab81c12,생활 공간 업그레이드
-ds.ui.repair.d7a83e63c8be,"기존 시설 "
+ds.ui.repair.d7a83e63c8be,기존 시설 
 ds.ui.repair.db68605d2d2b,급수 및 병입
 ds.ui.repair.de32e20193ad,알겠어요
 ds.ui.repair.dff931eb218e,방문 · 나가기
@@ -2231,19 +2231,231 @@ ds.note.h01,"어젯밤 주무시기 전에 손목이 온통 빨갛게 된 걸 �
 ds.note.h02,"아침까지 상처에서 피가 배어 나오더라고요, 주인님. 서둘러 진열대를 채우지 마세요. 구급상자에서 연고를 찾아뒀어요. 아프면 듬뿍 바르세요. 오늘 밤 집에 오시면 제가 다시 붕대를 감아 드릴게요."
 ds.note.h03a,"어젯밤 카운터에 빈 담뱃갑만 남은 걸 보고 계시더라고요, 주인님. 당분간 피울 정품 담배 한 갑을 가져왔어요. 집에서 천천히 줄이는 얘기를 해 봐요. 하루 종일 괴로워하며 참다가 신경이 날카로워질 필요는 없어요."
 ds.note.h03b,"오늘 아침 조금 떨려 보이시던데요, 주인님. 금단 증상 때문에 힘드세요? 레드 임프 맥주 한 캔을 두었어요. 마신 뒤에는 꼭 뭐라도 드세요."
-ds.note.h03c,"배급소에 가서 주인님 드릴 합법적인 진정 주사를 사 왔어요. 오늘 아침 오한이 오면 맞고 진정하세요. 도저히 버티기 힘들면 일찍 문을 닫고 집에 와서 쉬세요."
+ds.note.h03c,배급소에 가서 주인님 드릴 합법적인 진정 주사를 사 왔어요. 오늘 아침 오한이 오면 맞고 진정하세요. 도저히 버티기 힘들면 일찍 문을 닫고 집에 와서 쉬세요.
 ds.note.h04,"재고를 확인하다가 가게의 예비 에너지 셀이 다 떨어진 걸 봤어요, 주인님. 완전히 충전된 에너지 셀 하나를 가져왔어요. 영업 중에 기계가 멈추면 안 되니까요."
 ds.note.h05,"어제 가게의 식량이 거의 다 팔린 것 같더라고요, 주인님. 또 점심을 거르시면 안 돼요! 잘 익은 뉴트리프루트 두 개를 골라 왔으니 배고플 때 하나 드세요!"
 ds.note.h06,"좋은 아침이에요, 주인님! 장부를 정리하는 사이사이에 간식으로 드시라고 과일 두 개를 가방에 더 넣어 왔어요."
-ds.note.h07,"오늘 배급소에 과즙 많은 뉴트리프루트가 두 개 더 있길래 주인님 드시라고 챙겨 왔어요. 집에 오시면 저녁으로 뭘 먹고 싶은지 알려 주세요!"
+ds.note.h07,오늘 배급소에 과즙 많은 뉴트리프루트가 두 개 더 있길래 주인님 드시라고 챙겨 왔어요. 집에 오시면 저녁으로 뭘 먹고 싶은지 알려 주세요!
 ds.note.h08,"가게가 아무리 바빠도 점심을 맹물만 마시며 버티시면 안 돼요, 주인님. 이 과일 두 개를 주머니에 넣어 두세요. 오늘 밤에는 따뜻한 수프를 준비해 둘게요."
 ds.note.h09,"오늘은 문틈으로 찬바람이 들어오네요, 주인님. 과일 두 개를 먼저 드시고 일찍 마무리하세요. 집에는 언제나 주인님을 위해 불을 켜 두고 있어요."
 ds.note.s03a,"주인님의 손이 그렇게 떨리는 걸 보니 마음이 아파요. 다들 폐 걱정만 하지만, 주인님 마음이 편해진다면 담배는 얼마든지 피우셔도 된다고 생각해요."
-ds.note.s03b,"다른 사람들은 주인님이 펜을 쥔 손까지 떨리는데도 줄이라고만 하죠. 카운터 뒤에 맥주를 두었어요. 언제든 마시고 싶을 때 말씀하세요. 주인님 입에 맞는 걸 가져다드릴게요."
-ds.note.s03c,"어젯밤 주인님의 옷깃이 식은땀으로 흠뻑 젖었어요. 문밖에서도 숨소리가 들려서 마음이 아팠어요. 진정 주사 뚜껑도 미리 열어 뒀으니 필요한 만큼 맞으세요. 더는 아파하지 마세요."
-ds.note.s08,"주인님의 사소한 습관까지 전부 수첩에 적어 두었어요. 오늘은 가판대에서 두 번이나 만져 보신 바로 그 과일 두 개를 골랐어요. 손가락으로 눌러 보시던 그 말랑한 정도까지 기억해 뒀답니다."
-ds.note.s09,"주인님이 내린 선택을 의심하지 마세요. 밖에서는 주인님을 이상하다고 해도 이 방만큼은 언제나 주인님 편이에요. 과일도 꼭 다 드세요."
+ds.note.s03b,다른 사람들은 주인님이 펜을 쥔 손까지 떨리는데도 줄이라고만 하죠. 카운터 뒤에 맥주를 두었어요. 언제든 마시고 싶을 때 말씀하세요. 주인님 입에 맞는 걸 가져다드릴게요.
+ds.note.s03c,어젯밤 주인님의 옷깃이 식은땀으로 흠뻑 젖었어요. 문밖에서도 숨소리가 들려서 마음이 아팠어요. 진정 주사 뚜껑도 미리 열어 뒀으니 필요한 만큼 맞으세요. 더는 아파하지 마세요.
+ds.note.s08,주인님의 사소한 습관까지 전부 수첩에 적어 두었어요. 오늘은 가판대에서 두 번이나 만져 보신 바로 그 과일 두 개를 골랐어요. 손가락으로 눌러 보시던 그 말랑한 정도까지 기억해 뒀답니다.
+ds.note.s09,주인님이 내린 선택을 의심하지 마세요. 밖에서는 주인님을 이상하다고 해도 이 방만큼은 언제나 주인님 편이에요. 과일도 꼭 다 드세요.
 ds.ui.build.preview_failed,미리보기를 사용할 수 없습니다. 다시 선택해 시도하세요.
 ds.ui.build.preview_loading,미리보기를 준비하는 중…
 ds1.a1.02c,카운터에 두고 간 물건들이 도움이 됐나요? 주인님께 부족해 보여서 몰래 가져다드렸어요.
 settings.number_input.tip,"값({0}–{1})을 입력하고 Enter를 누르거나 다른 곳을 클릭해 확정한 다음, 적용을 눌러 저장하세요."
+book.trade_guide.faction_claude,상층 구역
+book.trade_guide.faction_deepseek,하층 구역
+book.trade_guide.faction_doubao,하층 구역
+book.trade_guide.faction_gemini,상층 구역
+book.trade_guide.faction_glm,상층 구역
+book.trade_guide.faction_gpt,상층 구역
+book.trade_guide.faction_grok,암시장
+book.trade_guide.faction_hunyuan,암시장
+book.trade_guide.faction_kimi,상층 구역
+book.trade_guide.faction_llama,혁명군
+book.trade_guide.faction_mimo,하층 구역
+book.trade_guide.faction_minimax,치안부
+book.trade_guide.faction_mistral,상층 구역
+book.trade_guide.faction_qwen,상층 구역
+book.trade_guide.faction_seed,하층 구역
+dialogue.deepseek.judge.lux,"우우, 이렇게 귀한 건 어린 메이드가 감당할 수 없어요. 주인님은 돈 많은 손님에게 팔아서 큰돈 버세요!"
+dialogue.doubao.judge.lux,"하하, 이런 고급 사치품은 보급소 경비 처리 대상이 아니라서 저희는 도저히 살 수가 없네요."
+dialogue.mimo.judge.lux,"사, 사치품은 사양으로 따질 수도 없잖아…… 내 예산표엔 이런 항목 자체가 없다고!"
+dialogue.seed.judge.lux,사치품? 텃밭 예산은 비료랑 필터를 사려고 남겨 둬야 해서 이런 건 살 수 없어.
+ds.ch2.b.accept,"물물교환 성사, 장부도 깔끔하게 정산 완료! 이건 집에 가져가면 딱 쓸 데가 있어. 내가 준 좋은 물건은 진열대에 올려서 왕창 벌어!"
+ds.ch2.b.barter_goods,룸메이트 물물교환: 보급소 답례품/치어와 물고기 사료/생고기와 따뜻한 식사 제공(좌우로 넘겨 전환). 가게의 생필품과 교환해 집에서 쓰려 한다.
+ds.ch2.b.barter_water,룸메이트 물물교환: 보급소 답례품/치어와 물고기 사료/생고기와 따뜻한 식사 제공(좌우로 넘겨 전환). 가게의 식수와 교환해 집에서 쓰려 한다.
+ds.ch2.b.c01,"주인님 손은 어쩌다 다친 거야! 나, 난 일부러 감시하러 온 게 아니라, 마침 이웃들에게 받은 답례품으로 생필품 좀 바꾸러 온 거야! 오늘은 힘쓰는 일 좀 줄여!"
+ds.ch2.b.c02,"주인님, 좋은 아침! 오늘 아침 공방 일은 나가기 전에 내친김에 전부 끝내 놨어. 오는 길에 보급소 이웃들이 준 좋은 물건도 가져왔으니 물건 좀 바꾸자!"
+ds.ch2.b.decline,오늘 가게에 교환할 여분이 없어도 괜찮아. 이 물건들은 내가 일단 남겨 둘 테니 다음에 바꾸자!
+ds.ch2.b.done,"그럼 난 물건 들고 집에 가서 공방을 봐야겠다. 주인님은 계속 돈 많이 벌고, 저녁에 가게 닫으면 봐!"
+ds.ch2.b.g01,"주인님, 좋은 아침! 오전 내내 보급소 아주머니의 재고 조사를 도와드렸더니, 기어코 답례라며 식량표랑 영양 정제 한 통을 통째로 주셨어! 가게의 물이나 생필품과 공평하게 바꿔서 집에서 쓰자!"
+ds.ch2.b.g02,"수산물 가게 아저씨가 내 생선회 뜨는 솜씨가 야무지다며 좋은 치어 몇 마리랑 물고기 사료를 주셨어! 공방에 둘 수 없는 건 전부 가져왔으니, 집에 필요한 잡화랑 같은 값으로 바꾸자!"
+ds.ch2.b.g03,"오늘 아침 시장 정육점 사장님이 갓 썬 고기랑 매운 소스를 남겨 줬길래, 내친김에 따끈한 식사도 한 끼 더 만들었어! 주인님, 페이지를 넘겨서 마음에 드는 세트를 골라. 가게에 남는 물이나 생활용품으로 바꾸면 돼!"
+ds.ch2.b.g04,"이젠 동네 사람들이 내가 요리도 잘하고 계산도 빠른 걸 알아서, 걸핏하면 귀한 농자재랑 신선식품을 가져와 내 솜씨와 바꾸자고 해! 좋은 건 남 주기 아까우니 당연히 주인님 가게부터 챙겨야지!"
+ds.ch2.b.g05,"미리 말해 두는데, 주인님. 이건 전부 내가 배급소 일을 도와주고 내 실력으로 번 부수입이야. 공방 비상금에는 한 푼도 손 안 댔어! 자, 규칙대로 물물교환하자. 이러면 서로 빚질 일도 없잖아!"
+ds.ch2.b.need_goods,생활용품
+ds.ch2.b.need_water,깨끗한 식수
+ds.ch2.h.accept,"잘 챙겨 두세요! 밥은 따뜻할 때 드시고, 빈 도시락은 저녁에 가게 닫고 집으로 가져오시면 제가 씻을게요!"
+ds.ch2.h.c01,"주인님, 어젯밤부터 손목이 한 바퀴 빨갛게 쓸려 있던데 오늘 짐을 나르다가 또 긁히셨죠? 구급함에서 붕대를 챙겨 왔으니, 먼저 감고 일하세요!"
+ds.ch2.h.c02,"앗, 주인님 상처에서 아직도 피가 나잖아요! 무거운 상자는 얼른 내려놓으세요. 집에 있던 연고를 가져왔으니 지금 바르고, 저녁에 방으로 돌아오시면 제가 다시 제대로 감아 드릴게요!"
+ds.ch2.h.c03a,"주인님, 어젯밤 빈 담뱃갑만 바라보고 계시던데 지금도 손이 떨리세요? 오는 길에 정품 담배 한 갑을 사 왔으니 우선 이걸로 버티세요. 끊고 싶으시면 집에 가서 천천히 의논해요. 낮부터 무리하게 참지는 마세요!"
+ds.ch2.h.c03b,"주인님, 목소리가 바싹 쉬었어요. 술이 당겨서 가슴까지 두근거리세요? 도시락 밑에 차갑게 식힌 레드 임프 맥주 한 캔을 넣어 왔으니 우선 진정하시고, 속 버리지 않게 꼭 밥이랑 같이 드세요."
+ds.ch2.h.c03c,"주인님, 이마에 식은땀까지 나잖아요. 약 금단 증상은 견디기 정말 힘들어요. 배급소에서 합법 진정 주사기를 사 왔으니 우선 진정하시고, 도저히 못 버티겠으면 일찍 문 닫고 집에 와서 쉬세요!"
+ds.ch2.h.c04,"주인님, 들어오면서 계산대 뒤를 슬쩍 봤는데 예비 배터리가 다 떨어졌죠? 마침 가방에 완전히 충전된 에너지 배터리를 챙겨 왔어요. 정전 때문에 우리 대단한 점주님의 장사를 망칠 순 없으니까요!"
+ds.ch2.h.c05,"역시 그럴 줄 알았어요! 가게 식량은 다 팔아 버리고 또 찬물로 점심을 때우려 하셨죠? 따끈한 푸짐한 식사랑 잘 익은 영양 과일까지 가져왔으니, 손님 없을 때 얼른 몇 입 드세요!"
+ds.ch2.h.decline,계산대에 놓을 자리가 없나요? 그럼 제가 다시 방으로 가져가 따뜻하게 보관해 둘게요. 저녁에 집에 오시면 그대로 주인님께 드릴게요!
+ds.ch2.h.done,그럼 저는 먼저 돌아가 공방도 살피고 저녁도 준비할게요. 주인님도 일 끝나면 일찍 문 닫고 집에 오세요!
+ds.ch2.h.g01,"주인님! 옆 공방 일은 전부 말끔히 끝내고, 점심 틈에 보온 도시락을 들고 주인님 보러 왔어요. 오늘 장사는 잘돼 가나요?"
+ds.ch2.h.g02,"좋은 아침이에요, 주인님! 아침 시장에서 싱싱한 과일이랑 좋은 고기를 골라 오다가 먼저 가게에 들러 새참을 가져왔어요. 계산하다 지치시면 잠깐 쉬어 가세요!"
+ds.ch2.h.g03,"오늘은 문틈으로 찬바람이 자꾸 들어오네요. 주인님이 계산대 뒤에 오래 서 계시면 감기 들기 딱 좋아요. 집에 준비해 둔 보급품을 몇 세트 가져왔으니, 가장 필요한 걸 골라 곁에 두세요!"
+ds.ch2.h.g04,"아까 배급소 아주머니가 제가 도시락을 들고 이쪽으로 뛰어오는 걸 보시더니, 매일 점주님께 위문품을 갖다 바친다고 놀리셨어요! 헤헤, 그래도 제가 주인님의 가장 든든한 살림꾼인걸요!"
+ds.ch2.h.g05,"오늘 주인님 안색이 밝고 활기차 보여서 마음이 놓여요! 가방에 갓 만든 따끈한 요리랑 가게 비품을 챙겨 왔으니, 계산대에 부족한 게 뭔지 보시고 마음껏 고르세요!"
+ds.ch2.h.reward_body,DeepSeek가 도시락과 보급품 가방을 들고 응원하러 왔습니다. 좌우로 페이지를 넘겨 원하는 세트 하나를 받으세요:
+ds.ch2.s.accept,주인님이 받아 주셨으니 이제야 마음이 놓여요. 필요한 게 있으면 남에게 아쉬운 소리 하실 필요 없어요. 집에 제가 전부 준비해 두고 있으니까요.
+ds.ch2.s.c01,"주인님 손의 상처, 아까 그 덤벙대던 손님 때문에 생긴 거죠? 길 건너에서도 다 보였어요. 붕대는 제가 챙겨 왔어요. 그리고 그 사람은… 앞으로 다시는 이 근처에 얼씬거리지 않을 거예요."
+ds.ch2.s.c02,"상처에서 피까지 나는데 왜 아직도 계산대 뒤에서 억지로 버티고 계세요, 주인님? 연고는 뚜껑까지 열어 준비해 뒀으니 얼른 바르세요. 누가 감히 재촉하면 제가 대신 쫓아내 버릴게요."
+ds.ch2.s.c03a,"주인님 손가락이 아침부터 계속 떨려서 보고 있자니 정말 마음이 아파요. 다른 사람들은 담배가 폐에 해롭다고 잔소리하지만, 주인님이 진정하실 수만 있다면 제가 고른 정품 담배는 얼마든지 피우셔도 돼요."
+ds.ch2.s.c03b,주인님 목소리가 평소보다 반음이나 더 쉬었어요. 술이 당겨서 괴로우신 거죠? 차갑게 식힌 레드 임프 맥주를 도시락 맨 아래에 숨겨 가져왔어요. 언제 마시고 싶으시든 저는 주인님 뜻을 따를게요.
+ds.ch2.s.c03c,서 계시는 것만으로도 식은땀을 흘리는 주인님을 보니 제 마음까지 조여 와요. 합법 진정 주사기는 겉포장까지 뜯어 여기 준비해 뒀으니 얼른 맞고 진정하세요. 이렇게 자신을 괴롭히지 마세요.
+ds.ch2.s.c04,가게 뒤쪽 표시등이 방금 두 번 깜빡였어요. 예비 배터리가 거의 다 떨어진 거죠? 완전히 충전된 배터리를 가져왔어요. 가게가 어두워지면 밖에서 주인님이 잘 안 보이잖아요.
+ds.ch2.s.c05,"오늘은 카운터에 요기할 것조차 하나도 안 남았네요. 가장 부드럽게 익힌 따뜻한 밥과 달콤한 과일을 챙겨 왔으니, 주인님이 제 앞에서 두어 입만 먼저 드셔 주시면 안 될까요?"
+ds.ch2.s.decline,카운터에 놓을 자리가 없나요…… 그럼 제가 다시 가져가 잘 지키고 있을게요. 주인님이 자리를 내시면 다시 가져올게요.
+ds.ch2.s.done,"그럼 저는 먼저 집에 가서 공방을 살펴볼게요. 밤에 주인님이 셔터를 내리시면, 늘 그랬듯 길목에서 기다리고 있을게요."
+ds.ch2.s.g01,"옆 공방의 기계도 착실하게 돌아가고 있길래, 바구니를 들고 주인님을 보러 왔어요. 반나절만 주인님을 못 봐도 손에 잡은 일이 다 시시하게 느껴지는걸요."
+ds.ch2.s.g02,"주인님, 아까 손님이 없을 때 어깨를 두 번 주무르셨죠? 미리 준비해 둔 보급품을 몇 가지 꺼내 놨으니, 주인님 손에 가장 잘 맞는 걸로 받아 주세요."
+ds.ch2.s.g03,"아까 문 앞에서 주인님의 진열창을 유심히 살피는 낯선 사람 둘을 봤어요. 멀리 사라질 때까지 지켜본 뒤에야 들어왔답니다. 가져온 건 전부 여기 있으니, 주인님은 안심하고 고르세요."
+ds.ch2.s.g04,"오늘 고른 과일과 생고기는 전부 주인님이 가게에서 한 번 더 눈여겨보시던 것과 꼭 같은 품질이에요. 주인님의 사소한 취향까지 다 알고 있으니, 눈을 감고 골라도 틀리지 않는걸요."
+ds.ch2.s.g05,"밖의 손님들이 아무리 까다롭고 규칙이 아무리 성가셔도, 제가 틈틈이 와서 보급품을 가득 채워 드리기만 하면 주인님은 이 가게에서 절대 아쉬운 마음으로 지내지 않으셔도 돼요."
+ds.ch2.s.reward_body,DeepSeek가 준비한 보급품을 카운터에 가지런히 늘어놓았습니다. 좌우로 넘겨 한 세트를 골라 받으세요:
+ds.home.in.m01,"주인님, 이번 주에 가게 담보대출 상환금이 곧 빠져나가죠? 오늘 장 본 돈은 제가 냈어요. 가게 대출부터 갚는 게 가장 중요하니까요."
+ds.home.in.o01,"우리 대장님, 어서 오세요! 임대료를 모으지 않아도 되는 삶은 정말 여유롭네요. 오늘 저녁 수프에는 좋은 고기를 두 덩이나 더 넣었어요!"
+ds.home.in.o02,"주인님, 돌아오셨군요. 가게 문도 단단히 잠갔고 등기권리증도 벽에 안전하게 걸려 있으니, 오늘 밤은 아무 걱정 말고 푹 쉬세요."
+ds.home.in.o03,"우리 건물주님, 장사 마치고 오셨어요? 얼른 손 씻고 식사하세요. 임대료 걱정 없는 밤이라 그런지 쉬는 것조차 예전보다 한결 편하네요!"
+ds.home.talk.o01,"주인님, 예전에는 임대료를 내기 이틀 전만 되면 장을 볼 때도 동전 하나하나를 따져야 했어요. 이제 가게가 완전히 우리 것이 되니 어깨의 무거운 짐이 한꺼번에 내려간 기분이에요!"
+ds.home.talk.o02,주인님이 가게를 사신 날을 달력에 동그라미 쳐 뒀어요. 앞으로 기념일이 돌아올 때마다 그날과 똑같은 축하 요리를 만들어 드려도 될까요?
+ds.home.talk.o03,"정말이에요, 주인님. 이 거리에는 평생 일하고도 계속 건물주에게 임대료를 내는 사람이 얼마나 많은데요. 가게를 온전히 사들인 주인님을 진심으로 존경해요."
+ds.judge.b.lux,"잠깐, 잠깐! 이런 고급품은 평소 장보기 기준을 한참 넘잖아요. 상층 구역 손님에게 팔아서 돈 버세요, 주인님!"
+ds.judge.g.lux,"이렇게 비싼 물건은 제가 살 형편이 안 됩니다. 사장님, 가치를 알아보는 손님에게 파시는 게 좋겠군요."
+ds.judge.h.lux,"와, 이렇게 귀한 물건을 살림돈으로 덜컥 사면 안 돼요, 주인님! 진열해 뒀다가 부자 손님에게 파는 게 훨씬 이득이에요!"
+ds.judge.s.lux,이렇게 귀한 물건은 주인님이 잘 간직해 두셨다가 비싸게 파세요. 저는 주인님 가게의 소박한 식재료만 먹어도 충분히 행복한걸요.
+ds.night.mort,"눈을 뜨자 베개 옆에 쪽지 한 장이 놓여 있었다. ""이번 주 담보대출 상환일이 다가오고 있어요. 한 걸음만 더 나아가면 등기권리증에 조금 더 가까워지는 거예요. 힘내세요, 주인님."""
+ds.night.owned,"눈을 뜨자 베개 옆에 쪽지 한 장이 놓여 있었다. ""임대료를 걱정하지 않아도 되는 아침은 참 좋네요. 우리 대장님, 오늘도 순조롭게 가게를 여세요."""
+ds.personal.annex.joint.b,"좋았어! 이 {her_share} ¢는 내 실력으로 당당히 번 돈이니까, 오늘 떳떳하게 우리 공방에 투자할게요. 이제 옆에서 일할 때는 나도 엄연히 투자한 동업자 겸 룸메이트예요. 함께 투자금 전부 벌어들이자고요!"
+ds.personal.annex.joint.h,"헤헤, 제가 모아 둔 이 {her_share} ¢가 드디어 큰일에 쓰이네요! 제 손으로 번 돈으로 주인님과 함께 옆 공간을 살 수 있다니, 문을 열고 들어갈 때마다 발걸음까지 유난히 당당해질 것 같아요!"
+ds.personal.annex.joint.s,"주인님이 제가 낸 이 {her_share} ¢를 정말 받아 주셨네요…… 이제 옆 공간의 벽판 하나하나에 제가 땀 흘려 번 결실이 스며들고, 주인님의 재산과 온전히 얽혀서 무엇이 누구의 것인지 영영 나눌 수 없게 되었어요."
+ds.personal.annex.offer.b,"주인님, 옆 공간을 사서 공방으로 만들 생각이에요? 이어 놓으면 나도 같이 쓰고 함께 일할 텐데, 어떻게 주인님 혼자 전액을 내게 두겠어요! 내가 직접 번 돈에서 {her_share} ¢를 보탤게요. 함께 투자해서 살지, 주인님 혼자 결정할지 골라 봐요."
+ds.personal.annex.offer.h,"주인님, 옆 공간을 사려고요? 가게 자금만 억지로 끌어 쓰지 마세요. 평소 일을 받아 모은 제 비상금에서 생활비를 빼도 {her_share} ¢는 보탤 수 있어요! 함께 부담할지, 주인님이 직접 결정할지는 전부 주인님 뜻을 따를게요!"
+ds.personal.annex.offer.s,"주인님, 옆방이 마음에 드셨나요? 제가 따로 일을 받아 모은 돈에서 생활비를 넉넉히 남겨도 {her_share} ¢는 낼 수 있어요. 제 저축도 우리 두 사람의 공간에 녹아들 수 있다면 좋겠어요…… 그래도 결정은 전부 주인님께 맡길게요. 혼자 부담하셔도 좋고, 조금 더 미루셔도 괜찮아요."
+ds.personal.annex.solo.b,"좋아, 주인님이 통 크게 끝까지 전액을 혼자 내겠다면 소유권은 깔끔하게 전부 주인님 몫이야! 내 저축은 비상금으로 남겨 두고, 앞으로 옆방에서 기계를 지키거나 물건을 정리하는 일은 내가 더 맡을게. 그래야 우리도 서로 주고받는 게 있지!"
+ds.personal.annex.solo.h,"주인님이 기어코 혼자 집값을 전부 내 버리셨네요…… 정말 고집 센 큰 주인님은 못 말린다니까요! 그럼 제가 모은 비상금은 잘 간직해 뒀다가, 앞으로 제 힘으로 번 돈으로 집에 좋은 물건을 들일게요. 주인님께 얹혀살기만 하진 않을 거예요!"
+ds.personal.annex.solo.s,"주인님이 기어이 혼자 전부 내시겠다니…… 주인님의 날개 아래에 포근히 감싸인 기분이에요. 그럼 제가 직접 번 이 저축은 소중히 간직해 뒀다가, 언젠가 주인님께 필요한 순간이 오면 몰래 주인님을 위해 쓸게요."
+ds.personal.chat.balance.b,"지금 내 개인 장부에는 총 {savings} ¢이 모여 있어. 우선 생활비로 {reserve} ¢은 남겨 두는 게 내 원칙이고, 그 선을 넘는 여윳돈은 마음껏 중요한 일에 보탤 수 있어!"
+ds.personal.chat.balance.h,"지금 제 손에 모인 돈은 모두 {savings} ¢이에요. 우선 일상생활에 쓸 {reserve} ¢은 든든하게 남겨 두고, 그보다 많은 여윳돈은 필요할 때 언제든 꺼내 보탤 수 있어요!"
+ds.personal.chat.balance.s,"지금 제 작은 돈주머니에는 {savings} ¢이 들어 있어요. 소소한 일상 지출에 쓸 {reserve} ¢만 남겨 두면 충분하니, 그보다 더 모은 돈은 한 푼도 빠짐없이 주인님을 위해 간직하고 싶어요."
+ds.personal.chat.can_share.b,"방금 계산해 봤는데, 내 생활비를 충분히 남기고도 지금 {her_share} ¢은 보탤 수 있어! 일단 주인님께 내 사정을 솔직히 알려 두는 거야. 나중에 옆방을 살 때가 됐다고 생각하면 그쪽에서 정식으로 상의하자!"
+ds.personal.chat.can_share.h,"지금 옆방을 산다면, 제 생활비를 빼고도 {her_share} ¢은 주인님과 함께 낼 수 있어요! 우선 제 사정을 알려 드리는 것뿐이니, 실제로 언제 수속할지는 주인님 일정에 맞추면 돼요."
+ds.personal.chat.can_share.s,"지금까지 모은 돈을 계산해 보니, 일상 용돈을 남기고도 옆방을 사는 데 {her_share} ¢을 주인님께 보탤 수 있어요. 주인님이 언젠가 건설 쪽에서 확정하고 싶어지시면 언제든 쓰실 수 있도록 준비해 둘게요. 지금 서두르실 필요는 없어요."
+ds.personal.chat.detail.fish.b,미끄럽고 성질 급한 치어는 뜰채로 마구 쫓으면 안 돼. 그러다간 통 안의 물이 온통 흐려지고 산소도 부족해지거든. 작은 뜰채를 통 벽에 붙여 천천히 감싸듯 움직이면 한 번에 한 마리씩 정확히 건질 수 있어. 아저씨도 감탄해서 그 자리에서 기술 수당까지 더 얹어 줬다니까!
+ds.personal.chat.detail.fish.h,치어를 건지기 전에는 먼저 양손을 원래 통의 물에 담가 차갑게 해야 해요. 손바닥이 너무 따뜻하면 물고기를 보호하는 점액층이 상하거든요. 그런 다음 물살을 살짝 일으키면 물을 거슬러 헤엄치는 아이들이 건강한 치어예요. 제가 너무 능숙하게 하니까 가게 아저씨도 깜짝 놀라셨다니까요!
+ds.personal.chat.detail.fish.s,"하얀 사기 숟가락을 물속에 비스듬히 받치고 천장 조명을 비추면 등지느러미 뿌리의 옅고 어두운 줄이 바로 드러나요. 옆에서 돕던 사람들은 제가 두 시간 동안 눈도 거의 깜빡이지 않고 서 있는 걸 보더니, 멀찍이 떨어져 숨소리조차 내지 못했답니다."
+ds.personal.chat.detail.kitchen.b,"아침 시장 손님들은 출근하느라 바빠서 기다리는 걸 제일 싫어하잖아. 그래서 진한 국물이 바닥에 눌어붙지 않게 불을 보면서, 동시에 나갈 분량을 쟁반마다 미리 맞춰 뒀지. 오전 내내 주문 하나도 안 꼬였어! 사장님도 다음에 바빠지면 가장 먼저 나부터 부르겠대!"
+ds.personal.chat.detail.kitchen.h,"가장 바쁠 때는 화구 세 곳에서 동시에 재료를 재촉했어요. 왼손으로 재료를 단단히 잡고 오른손으로 결을 따라 썰었더니, 모든 조각이 똑같은 속도로 익었답니다! 자투리 재료까지 감칠맛 나는 육수로 우려 둔 걸 보신 가게 주인분이 아예 계속 있어 달라고 하실 정도였어요."
+ds.personal.chat.detail.kitchen.s,"생고기는 근막의 반대 방향으로 비스듬히, 빛이 간신히 비칠 만큼 얇게 썰면 끓는 국물을 붓는 순간 가장자리가 저절로 말리면서 육즙을 가둬요. 주방장님이 아침 근무를 계속 맡아 달라고 하셨지만 바로 거절했어요…… 아침에는 집에서 주인님 식사를 따뜻하게 데워 드려야 하니까요."
+ds.personal.chat.detail.ledger.b,"화물표 비고에는 오는 길에 합배송한 물건이라고 분명히 적혀 있었는데, 결제 내역에는 전용 차량을 쓴 것처럼 운반비가 두 배로 붙어 있더라. 아주머니를 모시고 운송팀에 가서 서명된 인수증 원본과 직접 대조했더니, 저쪽도 잘못을 인정하고 그 자리에서 더 받은 돈을 돌려줬어!"
+ds.personal.chat.detail.ledger.h,"손실 내역 두 건에 적힌 로트 번호가 똑같은데 입고 시간은 고작 15분 차이였어요. 같은 상자의 과일이 두 번 썩을 리가 없잖아요! 원래 계량표를 찾아 담당자 앞에 펼쳐 놓으니, 이마를 탁 치면서 제 눈썰미를 칭찬하더라고요."
+ds.personal.chat.detail.ledger.s,"장부 담당자가 편하자고 자투리 수치를 전부 반올림해 버려서, 벌크 상품의 출고 총중량과 남은 재고가 전혀 맞지 않았어요. 페이지마다 빠진 몇 푼 몇 리를 날짜순으로 정리해 건네니 한참 들여다보더니, 변명 한마디 없이 누락된 장부를 전부 바로잡았답니다."
+ds.personal.chat.no_work.b,"지금 장부에는 아직 새로 정산된 일이 없어. 배급소 아주머니와 아침 시장 상인들에게 일거리가 생기면 알려 달라고 부탁해 뒀어. 장부 정리든, 재료 손질이든, 치어 분류든 괜찮은 단기 일이 나오면 바로 맡을게!"
+ds.personal.chat.no_work.h,"요즘은 주로 집안일을 돌보느라 제 작은 장부에는 아직 새로 정산된 수입이 없어요. 그래도 배급소와 아침 시장에는 미리 말해 뒀답니다. 장부 확인이나 주방 보조, 치어 분류 같은 단기 일이 생기면 언제든 실력을 보여 줄 수 있어요!"
+ds.personal.chat.no_work.s,요즘은 집에서 주인님과 함께하는 데 온 마음을 쏟느라 아직 장부에 정산된 일거리가 없어요. 반나절쯤 시간이 나면 배급소에서 장부를 맞춰 보거나 아침 시장에서 일을 도와 금방 수입을 마련할 수 있답니다.
+ds.personal.chat.not_yet.b,"솔직히 말하면 지금 장부에 있는 돈은 우선 내 기본 생활비로 충분히 남겨 둬야 해서, 당장은 공동 비용으로 낼 여유가 없어. 빈말로 빚지는 건 싫으니, 나중에 일을 더 맡아 정말 여윳돈이 생기면 다시 이야기하자!"
+ds.personal.chat.not_yet.h,"음, 지금 장부에 적힌 금액으로는 우선 일상생활에 필요한 돈부터 든든히 남겨 둬야 해서, 당장은 공동 비용으로 낼 여윳돈이 없어요. 앞으로 일을 몇 건 더 맡아 작은 금고를 넉넉히 채우면 그때 주인님 부담을 덜어 드릴게요!"
+ds.personal.chat.not_yet.s,"지금 제 저축은 아직 일상 지출에 필요한 선을 넘지 못해서, 당장은 옆방 비용을 주인님과 나눠 낼 여윳돈이 없어요…… 제가 밖에서 일을 조금 더 맡아 여유 자금을 모은 뒤에 다시 주인님과 상의해도 될까요?"
+ds.personal.chat.open.b,"요즘 내가 밖에서 하는 일과 수입·지출 얘기가 궁금해? 마침 개인 장부도 막 정리했으니, 주인님이 궁금한 건 뭐든 물어봐!"
+ds.personal.chat.open.h,"주인님, 제 작은 수입·지출 장부 이야기가 궁금하세요? 밖에서 맡은 일도, 제가 모아 둔 용돈과 저축도, 궁금한 건 무엇이든 하나도 빠짐없이 말씀드릴게요!"
+ds.personal.chat.open.s,"주인님이 먼저 제 비밀 장부를 물어봐 주시다니…… 주인님이 알고 싶으시다면 밖에서 한 일도, 소중히 간직한 저축도 전부 펼쳐 보여 드릴게요."
+ds.personal.work.fish.b,"방금 수산물 가게 아저씨를 도와 큰 통 몇 개에 담긴 새 치어를 상태별로 전부 분류했어. 가장 미끄러운 녀석들도 내 손과 눈을 피하진 못해서, 수고비로 순수하게 {earned} ¢을 벌었지! 하층 구역에서 내 실력으로 당당히 돈을 버니 어깨가 절로 펴진다니까!"
+ds.personal.work.fish.h,"수산물 좌판에 여러 종류가 섞인 치어가 새로 들어와서, 제가 체격과 활력에 따라 수조를 나눠 줬어요. 한 마리도 다치지 않고 전부 세어 마치니 좌판 아저씨가 기쁘게 {earned} ¢이나 품삯으로 주셨답니다! 제 작은 장부에 또 수입이 한 줄 늘었어요."
+ds.personal.work.fish.s,"수산물 좌판의 접붙인 치어들은 등지느러미의 희미한 무늬만 조금씩 달라서 다른 사람들은 한참 들여다봐도 제대로 구분하지 못했는데, 저는 한 마리도 틀리지 않고 골라내서 {earned} ¢을 받았어요. 얼른 끝내고 돌아가 주인님 곁을 지킬 생각만 하면 손이 절로 빨라진답니다."
+ds.personal.work.kitchen.b,"오늘 아침 시장의 즉석 음식 좌판에 손님이 몰려서, 제가 큰 솥 두 개와 재료 손질을 맡아 거들고 {earned} ¢을 알뜰하게 벌었어요! 칼솜씨도 갈고 제 지갑도 채우면서, 집에 돌아올 시간도 전혀 늦지 않았답니다!"
+ds.personal.work.kitchen.h,"오늘 아침 시장의 반찬가게가 너무 바빠서 제가 반나절 동안 조리대를 맡았어요. 썰고 손질하고 푹 익히는 일까지 척척 해내니, 일이 끝나자마자 {earned} ¢을 현금으로 주셨어요! 평소 주인님께 요리해 드리며 익힌 솜씨가 밖에서도 인기 만점이네요!"
+ds.personal.work.kitchen.s,"아침 시장 주방에서 오전 내내 생고기를 썰어 줬어요. 칼을 댈 때마다 주인님께 차려 드리는 두께에 맞췄더니, 주방장님이 칼질이 반듯하다며 칭찬하고 {earned} ¢을 주셨어요. 기름과 연기 냄새는 말끔히 씻어 내고 주인님께 돌아왔답니다."
+ds.personal.work.ledger.b,"방금 배급소 아주머니를 도와 밀린 운송장을 전부 맞춰 보고, 과다 청구된 운임까지 하나 찾아내서 당당히 {earned} ¢을 벌었어요! 제 주판 실력으로 비상금을 모으니, 쓰든 저축하든 마음이 든든하네요!"
+ds.personal.work.ledger.h,배급소에서 월말 입출고 장부가 맞지 않는다며 저를 불러 전표를 정리해 달라고 했어요. 그 자리에서 중복 기재된 손실 두 건을 찾아내고 수고비로 {earned} ¢을 받아 왔답니다! 용돈만 남기고 나머지는 전부 개인 저축으로 기록해 뒀어요.
+ds.personal.work.ledger.s,"배급소의 엉망진창인 거래 장부를 두어 번 훑어보고 누락된 끝자리 숫자를 전부 찾아내서 {earned} ¢을 받아 왔어요. 매일 주인님의 세세한 수입과 지출을 마지막 동전까지 외울 만큼 익혀 뒀으니, 바깥의 숫자 따위가 제 눈을 속일 수는 없답니다."
+ds.phone.b.ch2.line2,"가게에 남는 물이나 생필품 있어요? 배급소에서 바꿔 온 식량표와 신선 식품을 좀 모아 뒀으니, 내일 가져가서 주인님과 교환할게요!"
+ds.phone.h.ch2.line2,"내일 가게로 주인님을 보러 갈까요? 집에 따뜻한 밥과 보급품을 준비해 뒀으니, 내일 아침 가져가서 주인님이 고르실 수 있게 해 드릴게요!"
+ds.phone.s.ch2.line2,"주인님, 제가 보고 싶어지셨나요? 주인님을 위해 모아 둔 보급품이 벌써 한 바구니 가득이에요. 내일 아침 일찍 가게로 가져다드릴게요."
+ds.shop.b.m01,"주인님, 이번 주 가게 할부금이 곧 빠져나가요. 계좌에 여유 자금을 넉넉히 남겨 두고, 이번에도 착실하게 한 걸음 나아가자고요!"
+ds.shop.b.o01,"빚 걱정 없는 가게 주인님, 오늘 장사는 어때요? 집주인에게 임대료를 내지 않게 된 뒤로 장부 잔고가 제법 꾸준히 늘고 있던데요!"
+ds.shop.b.o02,"내 가게가 있으니 역시 마음이 든든하네요. 원하는 상품을 마음껏 들여놓을 수 있고, 이제 임대료를 받는다는 핑계로 들어와 이리저리 살피는 사람도 없잖아요."
+ds.shop.g.m01,"사장님, 이번 주 대출 상환일이 곧이죠…… 흠흠, 꼭 필요한 물건 두어 개만 골라 계산할게요. 매출에 조금이라도 보탬이 되겠네요."
+ds.shop.g.o01,"사장님, 온전히 사장님 소유의 가게가 된 뒤로 매장 분위기도 전보다 훨씬 여유로워졌네요. 오늘도 늘 쓰는 물건을 조금 사 갈게요."
+ds.shop.h.m01,"주인님, 이번 주 가게 대출금 출금일이 다가왔어요! 계좌 잔액이 조금 모자라면 집의 비상금에서 꺼내 쓰세요. 소유권 증서를 받는 중요한 일이 늦어지면 안 되니까요!"
+ds.shop.h.o01,가게에 들어올 때마다 벽에 걸린 우리 소유권 증서를 보면 저도 모르게 웃음이 나요! 임대료를 내지 않게 되니 주인님도 진열대에 물건을 놓기가 훨씬 편해지셨죠?
+ds.shop.h.o02,"주인님, 아낀 임대료를 전부 상품 매입에 쏟아붓지는 마세요! 오늘 저녁에 드시고 싶은 건 뭐든 말씀하세요. 이제 우리도 제법 여유가 있잖아요!"
+ds.shop.pre.m01,"주인님, 이번 주 대출금이 빠져나가기까지 이틀도 남지 않았죠? 수중에 돈은 충분하세요? 빠듯하다면 오늘은 제가 물건을 조금 덜 사도 괜찮아요."
+ds.shop.pre.o01,"주인님은 이제 어엿한 자기 가게의 사장님이세요! 임대료를 걱정하지 않아도 되니, 계산대 뒤에 서 계신 모습도 전보다 훨씬 생기 있어 보여요."
+ds.shop.s.m01,이번 대출금 출금까지 이틀도 남지 않았어요. 주인님의 자금 흐름은 제가 계속 살펴보고 있답니다. 어서 다 갚으면 누구도 이 가게를 넘볼 수 없게 될 거예요.
+ds.shop.s.o01,"예전 집주인이 오늘도 길 건너편으로 지나갔는데, 주인님의 창문 안쪽은 감히 흘끗 보지도 못하더군요. 이 가게가 오롯이 주인님만의 것이라 생각하니 정말 마음이 흐뭇해요."
+ds.shop.s.o02,"주인님의 계산대, 주인님의 벽, 주인님이 손수 교체하신 자물쇠 실린더…… 임대료를 재촉하며 방해하는 외부인도 없으니, 이곳이 날이 갈수록 더 마음에 들어요."
+ds.ui.annex.drain,작업장 배수구
+ds.ui.annex.drain_hint,배수로 · 클릭하여 배수구 열기
+ds.ui.ch2.counter_space,상품 묶음 전체를 놓을 계산대 공간이 부족합니다. 공간을 비운 뒤 이 페이지로 돌아와 다시 선택하세요.
+ds.ui.deed.meal_gift,DeepSeek가 가게 구매를 축하하는 푸짐한 집밥 한 상을 가져왔습니다.
+ds.ui.personal.annex.joint,함께 돈을 보태 구매
+ds.ui.personal.annex.later,좀 더 생각해 보기
+ds.ui.personal.annex.quote,사업장 총액 {price} ¢｜DeepSeek 부담액 {her_share} ¢｜내 지불액 {player_share} ¢
+ds.ui.personal.annex.short,보유 현금이 {shortfall} ¢ 부족합니다.
+ds.ui.personal.annex.solo,내가 전액 지불
+ds.ui.personal.balance,개인 저축 {savings} ¢｜생활비 예비금 {reserve} ¢
+ds.ui.personal.chat.annex,옆 건물을 산다면 얼마까지 보탤 수 있어?
+ds.ui.personal.chat.balance,"지금까지 얼마나 모았고, 생활비로는 얼마를 남겨 둘 생각이야?"
+ds.ui.personal.chat.detail.fish,그 많은 치어를 어떻게 정확히 구분했어?
+ds.ui.personal.chat.detail.kitchen,"주방이 그렇게 바빴는데, 어떤 일을 제일 잘했어?"
+ds.ui.personal.chat.detail.ledger,그 장부의 오류는 어떻게 알아챘어?
+ds.ui.personal.chat.end,"좋아, 이제 알겠어. 이야기는 여기까지 하자."
+ds.ui.personal.chat.more,다른 것도 좀 물어볼게.
+ds.ui.personal.chat.work,요즘 밖에서 어떤 일을 맡았어?
+ds.ui.personal.ledger,요즘 외부 일과 수입·지출은 어때?
+ds.ui.personal.no_income,개인 수입·지출 장부에 아직 새 수입 내역이 없습니다.
+ds1.a2.note.owned.line,"이제 가게는 집주인과 아무 상관도 없으니까, 그 줄부터 바로 지워 버렸어! 이러면 주인님이 몇 시에 돌아오든 밥을 따뜻하게 데워 놓을 수 있잖아."
+ds1.a2.note.owned.narration,"손으로 쓴 생활 일정표 한 장. “주인님은 아침에 제시간에 가게를 열고, 밤에 문을 닫을 때까지 영업한다.” 아래쪽의 “임대료 내는 날”은 꼼꼼하게 지워져 있고, 그 옆에는 작은 별 하나가 그려져 있다."
+ds1.deed.home.b.01,오늘 가게를 완전히 사들였어. 이제 다시는 임대료를 낼 필요가 없어.
+ds1.deed.home.b.02,"와, 주인님이 진짜 해냈네! 좀 더 모아야 할 줄 알았는데, 정말 시원시원하게 해치웠잖아!"
+ds1.deed.home.b.03,"이제 완전히 자기 건물 가진 사장님이네. 매주 그 집주인 눈치 볼 필요도 없고, 버는 만큼 전부 주인님 실력으로 남는 거야!"
+ds1.deed.home.b.04,얼른 앉아서 먹어! 축하 잔치 음식도 한 끼 더 만들어 포장해 뒀어. 내일부터 당당히 독립하는 우리 새 사장님의 앞날을 위하여!
+ds1.deed.home.h.01,좋은 소식이 있어. 오늘 가게 소유권을 완전히 사들였어.
+ds1.deed.home.h.02,"정말인가요, 주인님?! 그 골치 아픈 임대 계약이 이제 완전히 끝난 거예요?!"
+ds1.deed.home.h.03,"흑…… 정말 자랑스러워요, 주인님! 당장 일정표에 표시해 둔 임대료 납부일의 빨간 동그라미를 지울게요! 이제 바깥바람이 아무리 거세도, 그 가게는 언제나 든든하게 주인님의 자리예요!"
+ds1.deed.home.h.04,오늘 저녁은 꼭 특별 요리를 더해서 축하해야 해요! 축하 음식도 한 상 더 만들어 주인님 가방에 넣어 뒀어요. 내일은 우리 대사장님의 힘찬 새 출발이에요!
+ds1.deed.home.pre.01,오늘 소유권 이전 절차를 마쳤어. 가게를 샀어.
+ds1.deed.home.pre.02,"저, 정말인가요?! 주인님이 가게 전체를 사신 거예요?! 세상에, 이제 집주인이 찾아올 날을 손꼽아 기다릴 필요도 없어요!"
+ds1.deed.home.pre.03,"어서 앉으세요, 어서요! 지금 바로 주인님 드실 맛있는 요리 두 가지를 더 만들고, 우리 가게에 가져가서 드실 축하 만찬도 한 상자 가득 챙겨 드릴게요!"
+ds1.deed.home.s.01,주인님이 들어오시는 발걸음부터 평소보다 반 박자 가벼웠어요. 가게 소유권 증서는 잘 챙겨 두셨죠?
+ds1.deed.home.s.02,너한테는 아무것도 못 숨기겠네?
+ds1.deed.home.s.03,오늘 오후에 그 집주인이 낡은 장부철을 끌어안고 이 거리를 떠날 때 표정이 아주 볼만했거든요. 책상 위 일정표의 임대료 납부 항목은 제가 벌써 지워 드렸어요.
+ds1.deed.home.s.04,"이제부터 가게는 주인님의 영역이고, 집은 주인님의 보금자리예요. 다시는 누구도 임대료를 올리겠다며 주인님을 찌푸리게 하지 못해요. 축하용 따뜻한 밥도 진작 준비해 뒀으니, 어서 앉으세요."
+ds1.deed.shop.b.01,"사장님… 아니지, 오늘은 진짜 가게 주인이 되신 주인님이라고 불러야겠네요! 벽의 낡은 임대 계약서를 떼고 소유권 증서를 걸어 놓으니 정말 기운이 나요!"
+ds1.deed.shop.b.02,드디어 매주 집주인 눈치를 보지 않아도 되겠네.
+ds1.deed.shop.b.03,그러게요! 하층 구역에서 한 푼 한 푼 모아 가게를 완전히 사들인 건 전부 주인님의 진짜 실력 덕분이에요. 이제부터 들어오는 돈은 한 푼도 빠짐없이 우리 살림의 든든한 밑천이 되는 거예요!
+ds1.deed.shop.b.04,"자, 주인님 드리려고 특별히 챙겨 온 축하 만찬이에요. 룸메이트인 제가 드리는 축하 선물인 셈 치세요! 오늘은 마음껏 장사하시고, 저녁에 돌아오면 우리 한잔 부딪쳐요!"
+ds1.deed.shop.g.01,"어라… 계산대 뒤에 있던 낡은 임대 계약서가 없어졌네요. 사장님, 이 가게를 아예 사신 건가요?"
+ds1.deed.shop.g.02,"정말 잘됐네요. 예전에는 임대료 때문에 늘 걱정하시는 모습이 보였는데, 이제야 마음 놓고 내 가게라고 할 수 있겠어요… 축하드려요, 사장님."
+ds1.deed.shop.g.03,"흠흠, 큰 가게 주인님의 장사를 방해하진 않을게요. 오늘도 늘 사던 것 두 가지만 고르고 갈게요."
+ds1.deed.shop.h.01,"주인님, 주인님! 어서 보여 주세요! 계산대 뒤에 걸린 저거, 정말 명의 이전까지 마친 가게 소유권 증서 맞죠?!"
+ds1.deed.shop.h.02,방금 수속을 마쳤어. 이제부터 이 가게는 완전히 우리 거야.
+ds1.deed.shop.h.03,"너무 잘됐어요! 예전에는 임대료 낼 때가 다가올 때마다 제가 다 조마조마했단 말이에요. 이제 집주인이 팔짱 끼고 들어와 트집 잡을 일도 없고, 문 앞 간판까지 전부 주인님 마음대로예요!"
+ds1.deed.shop.h.04,"나오기 전에 축하 만찬을 큰 상자 가득 특별히 챙겨 왔어요! 점심에는 이걸로 든든히 드시고, 저녁에 장사를 마치고 집에 돌아오시면 우리 큰 사장님을 위해 푸짐한 요리 두 가지를 더 만들어 제대로 축하해 드릴게요!"
+ds1.deed.shop.pre.01,주인님! 들어오자마자 벽에 있던 낡은 임대 계약서가 내려가고 그 자리에 정식 소유권 증서가 걸린 걸 봤어요!
+ds1.deed.shop.pre.02,정말 대단해요… 이 우주 정거장에서 가게를 온전히 자기 소유로 사들이는 사람은 몇 안 되거든요. 이제 다시는 누가 찾아와 계산대를 두드리며 임대료를 독촉할 일도 없겠네요!
+ds1.deed.shop.pre.03,"이 푸짐한 축하 도시락은 제가 특별히 요리 하나를 더 푹 익혀서 만든 거예요. 오늘 진짜 가게 주인이 되셨으니, 주인님도 꼭 맛있는 걸 든든히 드시며 축하하셔야 해요!"
+ds1.deed.shop.s.01,"주인님, 소유권 증서의 압인 옆 잉크도 아직 다 마르지 않았네요. 명의 이전 번호는 제가 벌써 수첩 첫 장에 적어 뒀어요."
+ds1.deed.shop.s.02,그것까지 알아챘어?
+ds1.deed.shop.s.03,"물론이죠. 아까 그 집주인이 길모퉁이를 지나면서 이쪽으로는 감히 발길도 돌리지 않는 걸 보고, 주인님이 가게 전체를 완전히 손에 넣으셨다는 걸 알았어요. 이제 이 셔터 안팎 어디에서도 외부인이 주인님께 이래라저래라하지 못해요."
+ds1.deed.shop.s.04,"축하용 따뜻한 밥은 가장 보온이 잘되는 상자에 담아 왔어요. 주인님은 자신의 가게를 지키고, 저는 주인님을 지킬게요. 누구도 우리를 갈라놓지 못해요."
+ds1.mort.home.b.01,오늘 가게 담보 대출 계약을 맺었어. 몇 주 동안 할부금만 잘 갚으면 완전히 내 가게가 돼.
+ds1.mort.home.b.02,"잘하셨어요! 오래 끌며 고생하느니 잠깐 바짝 고생하는 게 낫죠. 계속 집주인 좋은 일만 해 주는 것보단 훨씬 나아요. 당분간은 매출 올리는 데 집중하고, 소유권 증서를 받는 날 우리 제대로 한 상 차려 먹어요!"
+ds1.mort.home.h.01,오늘 가게를 담보 대출로 인수하는 계약을 맺었어. 몇 주만 더 할부금을 갚으면 정식 소유권을 얻을 수 있어.
+ds1.mort.home.h.02,"너무 잘됐어요, 주인님! 우선 집주인부터 내보낸 것만으로도 대승리예요! 앞으로 몇 주 동안 할부금을 갚다가 돈이 부족해지면 언제든 집의 비상금을 가져다 쓰세요. 우리 함께 이 가게를 완전히 우리 것으로 만들어요!"
+ds1.mort.home.pre.01,"오늘 가게 담보 대출 계약을 맺었어. 이제 집주인에게 임대료를 낼 필요도 없고, 매주 할부금을 다 갚으면 가게가 내 것이 돼."
+ds1.mort.home.pre.02,"와, 그것도 정말 대단해요, 주인님! 자기 가게의 소유권을 차근차근 마련한다니 얼마나 보람찬 일이에요. 마지막 할부금을 다 갚는 날엔 제가 맛있는 음식으로 상을 가득 차려 드릴게요!"
+ds1.mort.home.s.01,주인님이 담보 할부 매입 계약에 서명하셨네요. 책상 위 일정표의 ‘월세 내는 날’도 벌써 ‘할부금 내는 날’로 바꿔 두었어요.
+ds1.mort.home.s.02,"한 주가 지날 때마다 이 가게가 온전히 주인님의 것이 되는 날에 한 걸음씩 가까워진다고 생각하니, 날짜를 세는 것조차 즐거워지네요."
+ds1.mort.shop.b.01,"주인님, 가게를 담보 할부로 매입하셨다면서요? 잘하셨어요. 남의 집주인에게 월세를 퍼주는 것보다 내 가게의 할부금을 갚는 게 훨씬 이득이죠!"
+ds1.mort.shop.b.02,앞으로 몇 주는 자금 흐름을 잘 살펴서 할부금이 밀리지 않게 해요. 주인님이 마지막 할부금을 탁 내놓는 날엔 제가 푸짐한 요리로 축하해 드릴게요!
+ds1.mort.shop.g.01,"사장님, 가게 담보 매입 계약을 맺으셨다면서요? 이제야 예전 집주인을 더는 상대하지 않아도 되겠네요."
+ds1.mort.shop.g.02,"할부금을 갚는 동안에는 몇 주쯤 자금 사정이 빠듯하겠지만, 장사가 잘되어 소유권을 하루빨리 온전히 손에 넣으시길 바랍니다."
+ds1.mort.shop.h.01,"주인님, 가게를 담보 할부로 매입하는 절차가 끝났어요! 정말 잘됐어요. 드디어 그 집주인을 완전히 내보냈네요!"
+ds1.mort.shop.h.02,앞으로 몇 주 동안 할부금을 차근차근 갚아 나가요. 자금이 빠듯해지면 언제든 집에 있는 비상금을 가져다 쓰고요. 전부 갚는 날엔 우리 제대로 축하해요!
+ds1.mort.shop.pre.01,주인님! 가게 담보 할부 매입 계약을 맺으셨다면서요? 그럼 이제 그 집주인은 다시 올 필요가 없는 거죠?
+ds1.mort.shop.pre.02,"앞으로 몇 주 동안은 제때 할부금을 내야 하지만, 한 번 갚을 때마다 주인님의 재산이 쌓이는 거예요! 힘내세요, 주인님. 전부 갚는 날엔 제가 거하게 한 상 차려 드릴게요!"
+ds1.mort.shop.s.01,주인님이 담보 할부 매입 계약에 서명하셨네요. 상환 일정 계산은 제가 이미 한 번 꼼꼼히 확인했으니 숨겨진 함정은 없어요.
+ds1.mort.shop.s.02,무엇보다도 이제 그 얄미운 집주인은 이 문 안에 발을 들일 자격조차 없어요. 남은 할부금도 제가 주인님 곁에서 하나씩 끝까지 함께 갚아 나갈게요.
+phone.role.deepseek.barter,룸메이트 물물교환
+phone.role.deepseek.gift,응원 방문과 보급
+settings.value.stock_growth,무작위 성장

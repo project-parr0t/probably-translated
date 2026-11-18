@@ -1,32 +1,32 @@
 {
   "artifacts": {
     "CONTINUATION.md": "e3c2a99190e9c7041d4aef6e986085a0381b73ae75a6a920c9de4695835503bc",
-    "ProbablyStolenKo.Localization.dll": "5535ba5724ee2e459c7fb9a7cb1399d6dd9743999725362aec21488402d06e6f",
+    "ProbablyStolenKo.Localization.dll": "bf1a7751d01692714bfaf54bdc369b55e491c52739345f2a99d135e6c75b78c7",
     "README.md": "fe1611dc818e5ea6968e63bf0afd6d48f9bf5fe7fd3903150c8bb6000aa90042",
-    "managed-ko-runtime.json": "0e8d2daf7b304a65cff30c3a8a10c2b27aba1a04698dc869c4bb391e6fafe579",
-    "manifest.xml": "4b53683d6320ca5b856ea388abc489f81c06d278552b9e8ca3a10605c1eba1eb",
-    "parr0t-release-checkpoint.json": "ac617da5feac0c7f7cb1c59a36a54a15307f66d1915f57b1e2ca15dc1972b135",
+    "managed-ko-runtime.json": "400f21e1e2c5fabcbae77709182b6e7f82942b95ab6f2551adfc512d464db4cc",
+    "manifest.xml": "32c05964531f5509920684191940f728a42f79d46c10ace761d4fcd5747d9cc4",
+    "parr0t-release-checkpoint.json": "b9d51afbdb271c34a98c722bfadecf7682c98c643ae1fbe4bc86fd4ae80045e1",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
-    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "9abb33d849e6e40e3387004ad7d48a29f8ebec39e52f8dd72b565345feb10a4b",
+    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "dd3fd340c983e200b0c1861c39d504a5eecc352a078cdd5f5d3eb815bb3cd003",
     "src/ProbablyStolenKo.Localization/ManagedDisplayOverlay.cs": "fbeeae41c7bc0d37765943dba518ecd18d25e5b8e5cd403c0c85fa7b25944d0e",
-    "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "c27c7152957951f7e72ff9ae77986f10687e755ca66622628d666e5715c3d9c2",
+    "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "230259d6c56d6d78c6a687aed71501dd4852985c4228e92a97a515582b29478e",
     "src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csproj": "9d672fbec6c147d75cb2e51f3118b503a8a83332e1cd4556f1cf53bc3ee52ad2",
     "src/ProbablyStolenKo.Localization/ProbablyStolenKoBridge.cs": "2d695c7c5eb1191d37f8ff280d0bdea70872dcddddc87671507d6ad6d93f8bb7",
     "src/ProbablyStolenKo.Localization/SpaceCoffeeSceneOverlay.cs": "fa4f8538a6b6aa17c9010c2b7ed3dad9b3ded3caad4bc73937459e42d5394bc6",
-    "src/ProbablyStolenKo.Localization/WorkshopOverlay.cs": "d809fc0fb7785cff9d3ab1961b9af7a310a39cb59002dd61cef9e019661d0509",
+    "src/ProbablyStolenKo.Localization/WorkshopOverlay.cs": "7dcd71975e11561777752f297bef8c569c28146cda32c5c28c941b05ada581b2",
     "tools/Release-TestGate.ps1": "bba3d8f72bb9f0c695796280528fa996be3301dd0bc935f8de39efea63513d62",
-    "workshop-ko-runtime.json": "43f47649d60308588e8863f76e324c34dbbe7730de7e1019aa5638c0f1553cd0",
-    "workshop/description.bbcode.txt": "2b61b1fcb6ccbdab55ccfb07b4bd827ab8f5b5aa7e8df34b2a6e27f76cd14653"
+    "workshop-ko-runtime.json": "20e025886ade0368b56719cd79fa636ebc3d5c45d23bab7e0cb734b2c34032c9",
+    "workshop/description.bbcode.txt": "75ddf3d18d55faf5030d08f61c6ae779be2a18734fe867bd16c9c6827592440d"
   },
   "contracts": {
-    "generated_bindings": 274,
+    "generated_bindings": 359,
     "generated_refresh": 6,
-    "generated_routes": 594,
-    "generated_static_patches": 274,
+    "generated_routes": 1147,
+    "generated_static_patches": 359,
     "generated_unsupported": 0,
-    "managed_entries": 25327,
+    "managed_entries": 25530,
     "managed_targets": 33,
-    "workshop_entries": 14155,
+    "workshop_entries": 14367,
     "workshop_mods": 18
   },
   "dependencies": {
@@ -61,28 +61,24 @@
       "provenance": "DIRECT_ASSIGNED_MODEL",
       "targets": {
         "traits_probably_fun": {
-          "current_assembly_sha256": "94fe4eb71158a5938d3d61bd9af58b147d02e648b7bfaa5327b01f9bd3402448",
+          "current_assembly_sha256": "d49e332fcff663197757ecd8a81c158d65f215578ece2d8374b2950ec3d0933e",
           "native_korean_visible_identities": 613,
-          "prior_bound_assembly_sha256": "b16205c930f0c9a298568fe9d51dc9ed0104b3beeb69d4bf409bc32adf3213c2",
-          "reviewed_candidate_count": 0,
+          "prior_bound_assembly_sha256": "94fe4eb71158a5938d3d61bd9af58b147d02e648b7bfaa5327b01f9bd3402448",
+          "reviewed_candidate_count": 3,
           "source_identity_delta": {
             "added": 0,
-            "changed": 0,
+            "changed": 3,
             "removed": 0
           }
         },
         "upper_levels": {
-          "key": "act1.dex.bye",
-          "review_fingerprint": "a3e06092f0dee9a31cb0b5021a6a27b8e5b8b2ffa3a3a7bc3f0dd1238cca2770",
           "review_status": "approved",
-          "reviewed_candidate_count": 1,
-          "source": "Right, I'm heading back. Call the station if anything comes up.",
+          "reviewed_candidate_count": 938,
           "source_identity_delta": {
-            "added": 1,
-            "changed": 0,
-            "removed": 0
-          },
-          "translation": "좋습니다. 저는 이만 돌아가겠습니다. 무슨 일 생기면 경찰서로 전화하십시오."
+            "added": 538,
+            "changed": 400,
+            "removed": 2
+          }
         }
       }
     },
@@ -147,13 +143,13 @@
     "branch": "sdk-unity-2021.3",
     "checkpoint_release_id": "local-r30",
     "checkpoint_scope": "Direct assigned-model update wave 2026-11-18. The tracked runtime JSON, CSV, artwork, generated bindings, and checkpoint entries are the authoritative current state; source-absent exclusions are not routed.",
-    "checkpoint_target_count": 24908,
+    "checkpoint_target_count": 25908,
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "66c22af9e15180fe9daf53a0d49df5130db0a6d5",
+    "commit": "af94725948446e102a6a902e35e9915b6f7ef760",
     "game_version": "0.46D",
-    "version": "1.0.35"
+    "version": "1.0.36"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
@@ -171,7 +167,7 @@
     },
     "workshop-overlays": {
       "files": 18,
-      "sha256": "8d11c3f6a5dd4332f9a664eaf61e5fb6fd78488fe73388f89d422c0e0d5c4812"
+      "sha256": "0e266aef0e4c32ca49678bbc6cbdd3af656ce555b554148b399f51fad0749b4d"
     }
   }
 }

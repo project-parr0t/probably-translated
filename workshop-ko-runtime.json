@@ -45,7 +45,7 @@
     "ai.emporium": {
       "workshop_item_id": "3832941698",
       "csv_path": "workshop-overlays/3832941698/Localization/ko.csv",
-      "entry_count": 2245
+      "entry_count": 2457
     },
     "gunsmith_expansion": {
       "workshop_item_id": "3834619049",
@@ -100,5 +100,5 @@
       "entry_count": 898
     }
   },
-  "entry_count": 14155
+  "entry_count": 14367
 }

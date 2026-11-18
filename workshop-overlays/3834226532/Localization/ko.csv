@@ -2,14 +2,14 @@
 dsp_cellar_description,"양조 기간이 1일 줄고, 완성된 술은 3일 숙성됩니다."
 dsp_picky_customers_description,손님들이 더 특이한 요구를 내놓습니다.
 dsp_never_empty_handed_description,주머니가 하나 이상 비어 있는 상태로 장소를 떠나면 15 크레딧을 얻습니다.
-dsp_prohibition_description,모든 술이 중급 밀수품으로 취급됩니다. 발효 중인 술은 50에 팔리며 마약으로 취급됩니다.
+dsp_prohibition_description,모든 술이 중급 밀수품으로 취급됩니다. 발효 중인 술은 50 크레딧에 팔리며 주류·담배류로 취급됩니다.
 dsp_tobacco_tax_description,담배에 소매가 50% 할증이 붙습니다. 다만 그 할증분의 20%만 받습니다.
-dsp_scav_drone_description,야간 행동 시 주머니가 두 개 늘어납니다. 탐색할 때 쓰레기를 얻을 확률이 낮아집니다.
+dsp_scav_drone_description,주머니가 두 개 늘어납니다. 탐색할 때 쓰레기를 얻을 확률이 낮아집니다.
 dsp_trust_fund_description,매주 목요일에 50 크레딧을 받습니다.
 dsp_snake_oil_description,전분 계열 드림 더스트 20병을 가지고 시작합니다. 이들은 밀수품으로 취급되지 않습니다.
 dsp_mutual_choice_description,"하루 2번, 거래 없이 떠난 손님 1명이 대기열에 1명을 추가합니다."
 dsp_watermelon_merge_description,같은 크기의 같은 작물 2개를 더 큰 하나로 합칠 수 있습니다. 블루베리는 오히려 작아집니다.
-dsp_hydro_question_description,수도관에서 식물 2그루를 기를 수 있습니다. 시작할 때 무작위 씨앗 2개를 받습니다.
+dsp_hydro_question_description,수도관에서 식물 2그루를 기를 수 있습니다. 시작할 때 무작위 씨앗 2개를 받습니다. 개조를 통해 최대 6그루까지 기를 수 있습니다.
 dsp_poet_admirer_description,추종자의 쪽지는 가치 50 크레딧의 사치품이 됩니다.
 dsp_magician_piper_description,쓰레기장에 데려가는 쥐 한 마리당 추가로 한 번 탐색할 수 있습니다.
 dsp_careless_tutor_name,덜렁대는 멘토
