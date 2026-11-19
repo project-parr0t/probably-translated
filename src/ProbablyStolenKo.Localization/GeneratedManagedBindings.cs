@@ -1066,12 +1066,13 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 55);
     }
-    [HarmonyPatch("SmartInventoryArrange.UnifiedSettingsGui", null, MethodType.Constructor)]
-    [HarmonyPatch(new Type[] { typeof(global::ModConfig) })]
+    [HarmonyPatch]
     internal static class GeneratedManagedPatch_56
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(56);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("SmartInventoryArrange.UnifiedSettingsGui"), new Type[] { typeof(global::ModConfig) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 56);
     }
@@ -1305,11 +1306,13 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 79);
     }
-    [HarmonyPatch("SmartInventoryArrange.RussianText", null, MethodType.StaticConstructor)]
+    [HarmonyPatch]
     internal static class GeneratedManagedPatch_80
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(80);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("SmartInventoryArrange.RussianText"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 80);
     }
@@ -3293,11 +3296,13 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 278);
     }
-    [HarmonyPatch("EleanorRescue.TextCatalog", null, MethodType.StaticConstructor)]
+    [HarmonyPatch]
     internal static class GeneratedManagedPatch_279
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(279);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("EleanorRescue.TextCatalog"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 279);
     }
@@ -3311,35 +3316,43 @@ namespace ProbablyStolenKo
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 280);
     }
-    [HarmonyPatch("Va11HallA.BtcStoryProfiles", null, MethodType.StaticConstructor)]
+    [HarmonyPatch]
     internal static class GeneratedManagedPatch_281
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(281);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.BtcStoryProfiles"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 281);
     }
-    [HarmonyPatch("Va11HallA.BtcStationPanel", null, MethodType.StaticConstructor)]
+    [HarmonyPatch]
     internal static class GeneratedManagedPatch_282
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(282);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.BtcStationPanel"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 282);
     }
-    [HarmonyPatch("Va11HallA.DrinkRecipeBook", null, MethodType.StaticConstructor)]
+    [HarmonyPatch]
     internal static class GeneratedManagedPatch_283
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(283);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.DrinkRecipeBook"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 283);
     }
-    [HarmonyPatch("Va11HallA.Va11MixologyItems", null, MethodType.StaticConstructor)]
+    [HarmonyPatch]
     internal static class GeneratedManagedPatch_284
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(284);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.Va11MixologyItems"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 284);
     }
@@ -3783,11 +3796,13 @@ namespace ProbablyStolenKo
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 328);
     }
-    [HarmonyPatch("GunModTarkov.GunBenchView", null, MethodType.StaticConstructor)]
+    [HarmonyPatch]
     internal static class GeneratedManagedPatch_329
     {
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(329);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("GunModTarkov.GunBenchView"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 329);
     }

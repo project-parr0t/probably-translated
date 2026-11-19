@@ -10,12 +10,14 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 
 <b>⚠️ 이 모드는 Probably Stolen 기본 게임의 한글 패치가 아니며, "모드"의 한글 패치입니다.⚠️ </b>
 
-<b>⚠️ 기본 한글 패치는 [Korean Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687) 모드를 사용하세요.⚠️</b>
+기본 게임 한글패치는 [Korean Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687)을 권장합니다. 이미 [한글패치스튜디오 패치](https://hangulpatchstudio.com/g/probably-stolen)를 사용 중이라면 Korean Translation을 추가로 설치할 필요는 없습니다.
 
 ## 설치 및 사용
-1. Steam 창작마당에서 이 모드와 [Korean Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=3828896687)을 구독합니다.
-2. 게임의 모드 메뉴에서 두 모드를 활성화합니다.
+1. Steam 창작마당에서 Probably Translated를 구독합니다.
+2. 게임의 모드 메뉴에서 Probably Translated를 활성화합니다. 기본 게임 한글패치는 하나만 사용하세요.
 3. 게임 언어를 한국어로 설정하고 게임을 완전히 종료한 뒤 다시 실행합니다.
+
+1.0.37에서 한글패치스튜디오 20261115 패치와 함께 로드할 때 발생하던 `HarmonyPatch`의 `MissingMethodException`을 수정했습니다.
 
 ## 어떤 모드의 한글 패치가 지원되나요?
 다음 모드들을 지원합니다:

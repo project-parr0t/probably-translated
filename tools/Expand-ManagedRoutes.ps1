@@ -279,9 +279,6 @@ foreach ($targetEntry in $root['targets'].GetEnumerator()) {
                         Id = $bindingId; RouteIndex = $routeIndex; TypeName = $typeName; MethodName = [string]$method.Name
                         Kind = $kind; Expressions = @($expressions); Signature = $parameterNames; Issue = $issue
                         UnqualifiedTarget = $unqualifiedTarget
-                        UseStaticSignature = $kind -eq 'StaticPatch' -and $method.Name -ne '.cctor' -and
-                            (($method.Name -eq '.ctor' -and $method.Parameters.Count -ne 0) -or
-                             ($method.Name -ne '.ctor' -and $sameNameCount -ne 1))
                     })
                 }
             }
@@ -380,25 +377,20 @@ Line ''
 foreach ($target in $targets) {
     foreach ($binding in $target.Bindings) {
         if ($binding.Kind -ne 'StaticPatch') { continue }
-        $usesConstructorAttribute = $binding.MethodName -eq '.cctor' -or $binding.MethodName -eq '.ctor'
-        if ($binding.MethodName -eq '.cctor') {
-            Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", null, MethodType.StaticConstructor)]')
-        } elseif ($binding.MethodName -eq '.ctor') {
-            Line ('    [HarmonyPatch("' + (Escape-CSharp $binding.TypeName) + '", null, MethodType.Constructor)]')
-        } else {
-            Line '    [HarmonyPatch]'
-        }
-        if ($usesConstructorAttribute -and $binding.UseStaticSignature) {
-            Line ('    [HarmonyPatch(new Type[] { ' + ($binding.Expressions -join ', ') + ' })]')
-        }
+        Line '    [HarmonyPatch]'
         Line "    internal static class GeneratedManagedPatch_$($binding.Id)"
         Line '    {'
         Line '        [HarmonyPrepare]'
         Line "        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding($($binding.Id));"
-        if (-not $usesConstructorAttribute) {
-            $targetParameters = if ($binding.Expressions.Count -eq 0) { 'Type.EmptyTypes' } else { 'new Type[] { ' + ($binding.Expressions -join ', ') + ' }' }
-            Line '        [HarmonyTargetMethod]'
-            Line ('        internal static MethodBase TargetMethod() => ModReflect.Target("' + (Escape-CSharp $binding.TypeName) + '", "' + (Escape-CSharp $binding.MethodName) + '", ' + $targetParameters + ');')
+        $targetParameters = if ($binding.Expressions.Count -eq 0) { 'Type.EmptyTypes' } else { 'new Type[] { ' + ($binding.Expressions -join ', ') + ' }' }
+        $typeName = Escape-CSharp $binding.TypeName
+        Line '        [HarmonyTargetMethod]'
+        if ($binding.MethodName -eq '.ctor' -or $binding.MethodName -eq '.cctor') {
+            # Harmony and HarmonyX resolve the patch attributes before Prepare; their named-type constructors differ.
+            $staticArgument = if ($binding.MethodName -eq '.cctor') { ', searchForStatic: true' } else { '' }
+            Line ('        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("' + $typeName + '"), ' + $targetParameters + $staticArgument + ');')
+        } else {
+            Line ('        internal static MethodBase TargetMethod() => ModReflect.Target("' + $typeName + '", "' + (Escape-CSharp $binding.MethodName) + '", ' + $targetParameters + ');')
         }
         $mode = [string]$target.Routes[$binding.RouteIndex]['mode']
         if ($mode -eq 'literal' -or $mode -eq 'literal_occurrence') {

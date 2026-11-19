@@ -70,6 +70,22 @@ Copy-Item src/ProbablyStolenKo.Localization/bin/Release/netstandard2.1/ProbablyS
 
 The tracked root DLL is the immutable released artifact and its digest is enforced by the continuation contract. A fresh build may differ byte-for-byte when the .NET compiler or referenced game assemblies differ, so validation proves that the tracked source still compiles rather than replacing the released DLL. The DLL contains no assembly reference to optional target mods. Generated patch classes remain disabled during the loader's assembly-wide Harmony scan; the bridge applies only reviewed target bindings for enabled prerequisite mods. Runtime preparation consolidates compatible bindings that target the same method so Harmony never rebuilds one method twice for equivalent translation routes. The display overlay also indexes exact values from result and argument routes, not only literal routes, because mod initialization may cache source-language names before the managed Harmony binding is installed. A target's optional `display_replacements` map supplies reviewed exact display values and replaces those terms only inside already-Korean mixed strings; it must never contain identifiers or broad prose fragments. Use `force_exact_patch` for direct literal builders such as custom document pages that combine text before assigning it to a display control.
 
+### Harmony compatibility check
+
+Constructor routes resolve their targets in `HarmonyTargetMethod`, after the `HarmonyPrepare` gate. Do not put the declaring type and constructor kind in a named-type `HarmonyPatch` attribute: the loader reads attributes before `Prepare`, and the game's Harmony 2.4.2 and the BepInEx HarmonyX 2.9 in Hangul Patch Studio's 20261115 package expose different overloads.
+
+Build the test with the same `GameManagedDir` as the mod, then run it once per `0Harmony.dll` using Windows x64 Python. For HarmonyX, point to the extracted `BepInEx/core/0Harmony.dll` with its sibling dependencies intact; do not install the external patch to run this check.
+
+```powershell
+dotnet build tests/HarmonyCompatibility/HarmonyCompatibility.csproj -c Release -p:GameManagedDir="$managed"
+python tests/HarmonyCompatibility/run.py "$game" `
+  tests/HarmonyCompatibility/bin/Release/netstandard2.1/HarmonyCompatibility.dll `
+  src/ProbablyStolenKo.Localization/bin/Release/netstandard2.1/ProbablyStolenKo.Localization.dll `
+  "$harmonyDll"
+```
+
+The harness uses the game's Mono to run the mod scanner and Harmony's assembly scan, then checks exact instance and static constructor resolution. It does not start the game or modify the installation.
+
 ## Required local test gate
 
 Every release must install the exact distributable package from the repository root into `Mods/ProbablyTranslated-Test` before Workshop staging. Close the game before `Install` or `Remove`. The gate never modifies game assemblies or Workshop content directly.
