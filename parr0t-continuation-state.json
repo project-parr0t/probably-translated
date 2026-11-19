@@ -1,13 +1,13 @@
 {
   "artifacts": {
-    "CONTINUATION.md": "e3c2a99190e9c7041d4aef6e986085a0381b73ae75a6a920c9de4695835503bc",
-    "ProbablyStolenKo.Localization.dll": "bf1a7751d01692714bfaf54bdc369b55e491c52739345f2a99d135e6c75b78c7",
-    "README.md": "fe1611dc818e5ea6968e63bf0afd6d48f9bf5fe7fd3903150c8bb6000aa90042",
+    "CONTINUATION.md": "a14667b913ec6af769c73904921239199323f862d60ec0b52f036cf2e8841b92",
+    "ProbablyStolenKo.Localization.dll": "864b8bbccc945016467a7cc9eae18c5082e8796298f2aa65504b6849416153f7",
+    "README.md": "e1e6ebdd80aa9095628881d3e1afa5e9955e50a47b21dbcac9dadd438814423b",
     "managed-ko-runtime.json": "400f21e1e2c5fabcbae77709182b6e7f82942b95ab6f2551adfc512d464db4cc",
-    "manifest.xml": "32c05964531f5509920684191940f728a42f79d46c10ace761d4fcd5747d9cc4",
+    "manifest.xml": "187387292d4400efd794bd34b13bfc3ccd7371e2e19d99002f5937db843ead68",
     "parr0t-release-checkpoint.json": "b9d51afbdb271c34a98c722bfadecf7682c98c643ae1fbe4bc86fd4ae80045e1",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
-    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "dd3fd340c983e200b0c1861c39d504a5eecc352a078cdd5f5d3eb815bb3cd003",
+    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "ac05ca2230f47fcb4f892cc14085744e73b11adbfdeb75217081bbd2158fe414",
     "src/ProbablyStolenKo.Localization/ManagedDisplayOverlay.cs": "fbeeae41c7bc0d37765943dba518ecd18d25e5b8e5cd403c0c85fa7b25944d0e",
     "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "230259d6c56d6d78c6a687aed71501dd4852985c4228e92a97a515582b29478e",
     "src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csproj": "9d672fbec6c147d75cb2e51f3118b503a8a83332e1cd4556f1cf53bc3ee52ad2",
@@ -147,9 +147,9 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "440df06060d3513494b34f200c75512c92f7facf",
+    "commit": "c0cd6ea3e299b143879551e0d233f23729cf3282",
     "game_version": "0.46D",
-    "version": "1.0.36"
+    "version": "1.0.37"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
