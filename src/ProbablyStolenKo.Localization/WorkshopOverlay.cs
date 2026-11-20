@@ -170,7 +170,8 @@ namespace ProbablyStolenKo
                 if (fields.Count == 1 && string.IsNullOrWhiteSpace(fields[0])) { fields.Clear(); continue; }
                 if (fields.Count != 2 || string.IsNullOrWhiteSpace(fields[0]))
                     throw new FormatException("Workshop CSV must contain exactly key and text columns.");
-                entries.Add(fields[0].Trim(), fields[1]);
+                // ModLoader.ParseCsvValue expands escaped line breaks in native locale values.
+                entries.Add(fields[0].Trim(), fields[1].Replace("\\n", "\n"));
                 fields.Clear();
             }
             return entries;

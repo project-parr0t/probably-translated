@@ -138,6 +138,16 @@ A missing binding stays local to that binding. A target that fails to finalize i
 
 Do not add `resolveMs`, `harmonyMs`, or `constructorHarmonyMs` to `bindingMs`; they are already included. Compare `bindingMs` and `betweenSlicesMs` before treating the old enqueue-to-completion line as patch execution time.
 
+### Labeler display recovery
+
+The labeler and its item tooltip re-read only cached `Mechanic` translation errors for vanilla category and condition keys. The overlay changes display output, not the shared category or condition caches, label choices, item identifiers, or value modifiers. Lookups happen on demand without depending on Vanilla Chemistry Expansion or Claims & Uprisings.
+
+### Workshop text and hologram layout
+
+Workshop CSV translations decode `\n` in values like the game's native localization loader. Quoted multiline fields remain supported.
+
+In Holographic Trading Panel, Tobacco Expansion's preference section contributes its visible height to the info column before the wholesale summary is positioned. The compatibility patch does not change prices, preferences, or the native tablet layout.
+
 ## Required local test gate
 
 Every release must install the exact distributable package from the repository root into `Mods/ProbablyTranslated-Test` before Workshop staging. Close the game before `Install` or `Remove`. The gate never modifies game assemblies or Workshop content directly.

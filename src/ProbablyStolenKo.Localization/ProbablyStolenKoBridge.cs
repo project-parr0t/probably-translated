@@ -28,6 +28,8 @@ namespace ProbablyStolenKo
         private Va11RecipeOverlay _va11RecipeOverlay;
         private SpaceCoffeeSceneOverlay _spaceCoffeeSceneOverlay;
         private ClaimsLanguageOverlay _claimsLanguageOverlay;
+        private LabelerTextOverlay _labelerTextOverlay;
+        private readonly HologramPreferenceLayout _hologramPreferenceLayout = new HologramPreferenceLayout();
         private ModLog _log;
         private bool _enabled;
         private bool _activated;
@@ -51,6 +53,16 @@ namespace ProbablyStolenKo
         {
             if (_enabled) return;
             _enabled = true;
+            try
+            {
+                _labelerTextOverlay = new LabelerTextOverlay();
+                _labelerTextOverlay.Apply();
+            }
+            catch (Exception error)
+            {
+                _log.Error("Labeler text overlay failed: " + error.Message);
+                RestoreLabelerText();
+            }
             _patchLoadingOverlay = ManagedPatchLoadingOverlay.Create(_managedOverlay, _manifest.ID, _log);
             if (!_assetsSubscribed)
             {
@@ -203,6 +215,17 @@ namespace ProbablyStolenKo
                     _log.Error("Claims language overlay failed: " + error.Message);
                 }
             }
+            if (StringComparer.Ordinal.Equals(loaded.Manifest.ID, HologramPreferenceLayout.TargetModId))
+            {
+                try
+                {
+                    _hologramPreferenceLayout.Apply();
+                }
+                catch (Exception error)
+                {
+                    _log.Error("Hologram preference layout failed: " + error.Message);
+                }
+            }
 
 
 
@@ -241,6 +264,7 @@ namespace ProbablyStolenKo
         {
             _activated = false;
             _enabled = false;
+            RestoreLabelerText();
             if (_assetsSubscribed)
             {
                 ModHook.OnModAssetsLoaded -= OnModAssetsLoaded;
@@ -252,8 +276,23 @@ namespace ProbablyStolenKo
             _va11RecipeOverlay?.Restore();
             _spaceCoffeeSceneOverlay?.Restore();
             _claimsLanguageOverlay?.Restore();
+            _hologramPreferenceLayout.Restore();
             _manifestOverlay?.Restore();
             WorkshopOverlayEngine.Restore(_workshopCatalog, _workshopOriginals);
+        }
+
+        private void RestoreLabelerText()
+        {
+            if (_labelerTextOverlay == null) return;
+            try
+            {
+                _labelerTextOverlay.Restore();
+                _labelerTextOverlay = null;
+            }
+            catch (Exception error)
+            {
+                _log.Error("Labeler text overlay removal failed: " + error.Message);
+            }
         }
     }
 }
