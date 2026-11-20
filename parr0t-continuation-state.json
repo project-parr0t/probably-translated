@@ -5,7 +5,7 @@
     "ProbablyStolenKo.Localization.dll": "04e4553f6ca22aeceb4e5057b16e9d6da94a0adf87a602293b65ff9d4b29a606",
     "README.md": "31c81853e40ca6e2cadf494fcb33b55c7ef3ac9953f3d3f8ee661983e970e4e7",
     "managed-ko-runtime.json": "ace3f24bed88571600d532ad31e97feacee5df01be02bb607d54c1d14dc45908",
-    "manifest.xml": "138fb8f31dd06af9989fa48a121ec2d3f514bfe87e87733f594192ced29425ea",
+    "manifest.xml": "20339801bca1cc0bfc2ea3c6ee48e7794e19c92bffbc66c302ddae94a68555a1",
     "parr0t-release-checkpoint.json": "11a7b0d24c1086d97f15ae41d5f3dcc79e3b482546e79734e72326585646b0b0",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
     "src/ProbablyStolenKo.Localization/ClaimsLanguageOverlay.cs": "958e08d1cb39723a481a750ad0dffc1210de1f1f238c55bfe091ad85c3657f68",
@@ -149,9 +149,9 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "c0cd6ea3e299b143879551e0d233f23729cf3282",
+    "commit": "c8f8bfa21afcac915ebb9dac691f7e258ce921a6",
     "game_version": "0.46D",
-    "version": "1.0.37"
+    "version": "1.0.38"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
