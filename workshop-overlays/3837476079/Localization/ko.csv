@@ -1,0 +1,75 @@
+appearance_and_event_settings_save_immediately,외관과 오늘의 이벤트 설정은 즉시 저장됩니다.
+apply_and_return,적용 후 돌아가기
+auto_expand,자동 펼치기
+base_profit,"기본 이익: "
+base_profit_per_cell,"칸당 기본 이익: "
+base_sale,"기본 판매가: "
+cancel,취소
+click_or_drag_on_the_wheel_to_change_the_housing_color_the_tube_follows_panel_colors,색상환을 클릭하거나 드래그해 외장 색을 바꾸세요. 표시등은 패널 색상을 따릅니다.
+click_or_drag_on_the_wheel_to_preview_the_background_and_text,색상환을 클릭하거나 드래그해 배경과 글자 색을 미리 보세요.
+click_to_bind_a_keyboard_or_mouse_button_right_click_to_clear_esc_to_cancel_press_the_bound_button_to_open_or_close,클릭한 뒤 키보드나 마우스 버튼을 눌러 지정하세요. 우클릭하면 지워지고 Esc를 누르면 취소됩니다. 지정한 버튼으로 패널을 열거나 닫습니다.
+close_holographic_trading_panel_settings,홀로그램 거래 패널 설정 닫기
+color_management,색상 관리
+crime_and_reputation_changes,범죄·평판 변동
+criminal_record,범죄 기록
+current_profit,"현재 이익: "
+current_profit_per_cell,"칸당 현재 이익: "
+current_sale,"현재 판매가: "
+customer_inventory_paging,손님 보유 물품 페이지 나누기
+customer_stock,손님 보유 물품
+decreases,하락
+display,표시 설정
+emitter_colors,투사기 색상
+ends_today,<size=80%>오늘 종료</size>
+enhanced_tablet,태블릿 확장
+estimated_total,예상 합계
+event_day_label,일차
+event_days_left,{0}<size=75%>일 남음</size>
+group_items_with_the_same_name,이름이 같은 물품 묶기
+holographic_trading_panel,홀로그램 거래 패널
+increases,상승
+investigation_progress,수사 진행도
+item_identification_hints,물품 감정 힌트
+items,물품
+key_bindings,키 설정
+label_will_be_detected,이 라벨은 간파됩니다
+mouse_button_6,마우스 버튼 6
+mouse_button_7,마우스 버튼 7
+mouse_left,마우스 왼쪽 버튼
+mouse_middle,마우스 가운데 버튼
+mouse_right,마우스 오른쪽 버튼
+mouse_side_1,마우스 측면 버튼 1
+mouse_side_2,마우스 측면 버튼 2
+no_events_today,오늘은 이벤트 없음
+none,없음
+ongoing,<size=80%>진행 중</size>
+open_holographic_trading_panel_settings,홀로그램 거래 패널 설정 열기
+operation_progress,작전 진행도
+order_profit,이번 거래 이익
+original,기본
+outer_cells,"외부 점유 칸: "
+panel_colors,패널 색상
+panel_style,패널 디자인
+panel_transparency,"패널 투명도  "
+press_a_key,키를 누르세요…
+projected_sentence,예상 형량
+projection,투영
+replicant_threat,안드로이드 위협
+reputation,평판
+reset,초기화
+scale,"크기  "
+set,설정
+show_bargain_buttons,흥정 버튼 표시
+show_criminal_activity,범죄 활동 표시
+show_only_wanted_items,손님이 원하는 물품만 표시
+special_identities_and_bounties,특수 신분과 현상금
+suspected_criminal_activity,의심되는 범죄 활동
+tablet,태블릿
+text_and_button_transparency,"글자와 버튼 투명도  "
+today_s_events,오늘의 이벤트
+today_s_events_main_screen,오늘의 이벤트 (메인 화면)
+today_s_events_side_screen,오늘의 이벤트 (보조 화면)
+toggle_panel,패널 열기/닫기
+unassigned,미지정
+unknown,알 수 없음
+version,버전

@@ -21,6 +21,14 @@ Release 1.0.25 Translation corrections
 
 This rule applies only to the `probably-translated` repository.
 
+## README maintenance
+
+This rule applies to all of `README.md`, not just one section. Unless the user explicitly requests a different README edit, agents may change only the supported-mod lists and existing version values. Leave all other content unchanged; do not add release notes, session commentary, findings, or opinions.
+
+## Steam Workshop verification
+
+Follow [Workshop verification](CONTINUATION.md#workshop-verification). Verify via the native Steam client API only; SteamCMD is for uploads. Never fall back to web requests. Verify English and Korean only for a localized release, and skip locale readback for content-only updates. Serialize network-bearing queries, leave at least one second between them, and stop on rate limiting, access denial, offline status, or timeout without automatically retrying.
+
 ## Installed managed-mod inventory
 
 - Before claiming that an installed managed mod has no new or changed text, run `tools/managed_source_guard.py` against the current read-only Workshop root.
@@ -31,7 +39,7 @@ This rule applies only to the `probably-translated` repository.
 ## Localization authority and isolation
 
 - Translation and linguistic review MUST use only the exact assigned model and bound local source/context. External machine translation, translation APIs, remote dictionaries, web search, and unapproved network content are prohibited.
-- `[Korean Translation (한국어 번역)]` is the authoritative source for established Korean names, proper nouns, terminology, register, and UI style. Preserve its exact established rendering unless current source evidence requires a documented exception.
-- Personal names SHOULD use their established Korean rendering unless Latin spelling is intrinsically required or no defensible Korean rendering exists. Examples illustrate the rule and MUST NOT become global replacement tables.
+- Follow the original `[Korean Translation (한국어 번역)]` mod's translation rules. It is the authority for Korean terminology, UI register and phrasing, names, and proper nouns. Use its established wording consistently for equivalent UI functions and concepts; document an exception only when the current source requires one.
 - Use [KOREAN-LOCALIZATION.md](KOREAN-LOCALIZATION.md) for verified terminology, speaker evidence, and translation review rules. Check the cited original Korean row before changing an established term or character register.
+- For personal names, reuse the established Korean transliteration or transliterate phonetically when practical. Retain the exact original spelling when the name is a parody, carries wordplay or stylization lost in transliteration, or must be preserved as written. For example, keep `FR1ZE` exactly as written because the spelling is part of the joke. Examples are contextual rules, not global replacement tables.
 - Translation keys, identifiers, placeholders, control codes, markup, and route identities MUST remain unchanged.

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "a84c14b34b0c618aa3ea1673bbdc3016ce7f9efb2e03e188828d14c3b020d342",
-  "entry_count": 26213,
+  "inventory_fingerprint": "504a8bc38f2ee0a89582ab0d89d42b76c07d34948ade36bd260888735394155e",
+  "entry_count": 26370,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",
@@ -756,7 +756,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "ProbablyStolenCrateReveal.dll",
-        "assembly_sha256": "7e785d840caa6a396412172e661eaa0b2005381d154d14165a6703fdb2cb94b2"
+        "assembly_sha256": "ae3c937577bf90ce19a1cd89555823f596f7e6dfecf0344c0ae9616d8d22e9a5"
       }
     },
     "visual_probe_20261031_three": {
@@ -15690,7 +15690,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "AiEmporium.dll",
-        "assembly_sha256": "ce3cb51e67b4cb83dfeaae5a0d69cb8425afdc3c60297bd373365b26602105a7"
+        "assembly_sha256": "19fc7078bcd0ca745d910cbc5ade322d33fb9b7daac196d145bbe8d8d852d78e"
       }
     },
     "user.realtimeclock": {
@@ -16073,7 +16073,7 @@
     "cs_weapon_case": {
       "workshop_item_id": "3834110482",
       "assembly_name": "CS Weapon Case",
-      "entry_count": 3757,
+      "entry_count": 3769,
       "manifest": {
         "name": "CS Weapon Expansion",
         "description": "CS 무기 확장: 상자 24종, 무기 스킨 828종, 투척물 6종, 신규 고객 90명. 상자 개봉, 시장, 창고, 용광로 포함. 터미널에서 구매한 뒤 매장 안에서 우클릭해 설치하세요.\n\n권한 사용 목적: Steam은 순위표에 사용됩니다. ID, 닉네임, 순위를 읽고, 골드/레드 등급 획득 횟수 또는 마모 점수를 제출합니다. 순위표에 오른 닉네임과 기록은 공개될 수 있습니다. 안내문의 “업적, 친구” 등은 게임에서 통상적으로 드는 예시입니다.\n이 모드는 비밀번호, 친구 목록, 채팅, 브라우저 정보 또는 관련 없는 개인 파일을 읽지 않으며 제작자 서버로 데이터를 전송하지 않습니다. 순위표를 열지 않으면 순위 정보를 능동적으로 요청하지 않습니다. 고정 가격 및 로컬 게임플레이는 오프라인에서 사용할 수 있습니다."
@@ -16948,6 +16948,10 @@
             "cswc_cee45806a6bf|False": "팔치온 검을 현대적으로 재해석한 클립 포인트 칼날은 곡선형 날을 갖췄습니다. 대리석 무늬 기법으로 검정과 은색 금속 도료를 칠한 뒤 세 가지 색으로 캔디 코팅했습니다.\n\n<i>칼날은 여러 색이지만, 이내 모든 것이 붉게 보인다</i>",
             "cswc_cf8d25d8a85c|False": "총알이 나오는 상자나 다름없는 MAC-10 기관단총은 높은 연사력을 자랑하지만, 낮은 탄착 정확도와 큰 반동이 단점입니다. 이 MAC-10에는 빨강, 황갈색, 초록 원숭이를 맞춤 도색했습니다.\n\n<i>활기찬 원숭이들!</i>",
             "cswc_cf8d25d8a85c|True": "리코일 컬렉션",
+            "cswc_cp_w62|False": "스콜피온이 남긴 투척용 칼. 청동색 손잡이에 짙은 녹색 칼날이 달려 있다.",
+            "cswc_cp_w63|False": "한센이 지니던 단검. 어두운 칼날에 선명한 주황색 줄이 나 있다.",
+            "cswc_cp_w64|False": "밝은 외장 아래 청록색 센서가 달린 스마트 권총.",
+            "cswc_cp_w65|False": "슬라이드에 황동 장식을 두르고 짙은 회색 손잡이를 단 와인색 권총.",
             "cswc_cz75_tigris|False": "완전 자동 CZ75 변형인 CZ75-Auto는 전세를 뒤집고 적의 무기를 빼앗기에 좋은 단기 선택지입니다. 탄창이 작으므로 방아쇠를 신중히 당겨야 합니다. 호랑이 줄무늬로 맞춤 도색했습니다.",
             "cswc_cz75_tigris|True": "브레이크아웃 컬렉션",
             "cswc_d0090217a5a4|False": "노바는 가격이 매우 저렴해 자금이 부족한 팀의 매복용 무기로 훌륭합니다. 환각적인 색상의 괴수를 맞춤 도색했습니다.\n\n<i>오니라고 부르지? 그렇게 무서운 이름치곤 참 슬픈 사람이군... – 용병 엘리엇 킹스맨</i>",
@@ -18237,6 +18241,7 @@
             "FAMAS | Roll Cage": "파마스 | 롤 케이지",
             "FAMAS | Sergeant": "파마스 | 서전트",
             "FAMAS | Valence": "FAMAS | 발랑스",
+            "Fang": "팽",
             "Five-SeveN | Angry Mob": "파이브 세븐 | 앵그리 몹",
             "Five-SeveN | Capillary": "파이브-세븐 | 모세혈관",
             "Five-SeveN | Fairy Tale": "파이브 세븐 | 페어리 테일",
@@ -18371,6 +18376,7 @@
             "Nova | Tempest": "Nova | 폭풍우",
             "Nova | Wild Six": "Nova | 와일드 식스",
             "Nova | Wood Fired": "노바 | 장작불",
+            "Ogou": "오구",
             "P2000 | Chainmail": "P2000 | 체인메일",
             "P2000 | Gnarled": "P2000 | 옹이진 무늬",
             "P2000 | Ivory": "P2000 | 아이보리",
@@ -18415,6 +18421,7 @@
             "R8 Revolver | Grip": "R8 리볼버 | 그립",
             "R8 Revolver | Llama Cannon": "R8 리볼버 | 라마 대포",
             "R8 Revolver | Skull Crusher": "R8 리볼버 | 스컬 크러셔",
+            "Riskit": "리스크잇",
             "SCAR-20 | Blueprint": "SCAR-20 | 청사진",
             "SCAR-20 | Cyrex": "SCAR-20 | 사이렉스",
             "SCAR-20 | Fragments": "SCAR-20 | 파편",
@@ -18449,6 +18456,7 @@
             "Sawed-Off | Spirit Board": "소드오프 | 스피릿 보드",
             "Sawed-Off | Wasteland Princess": "소드오프 | 황무지 공주",
             "Sawed-Off | Zander": "소드오프 | 잰더",
+            "Stinger": "스팅어",
             "Tec-9 | Bamboozle": "Tec-9 | 뱀부즐",
             "Tec-9 | Brother": "Tec-9 | 형제",
             "Tec-9 | Cracked Opal": "Tec-9 | 크랙트 오팔",
@@ -19109,6 +19117,7 @@
             "FAMAS | Roll Cage": "파마스 | 롤 케이지",
             "FAMAS | Sergeant": "파마스 | 서전트",
             "FAMAS | Valence": "FAMAS | 발랑스",
+            "Fang": "팽",
             "Five-SeveN | Angry Mob": "파이브 세븐 | 앵그리 몹",
             "Five-SeveN | Capillary": "파이브-세븐 | 모세혈관",
             "Five-SeveN | Fairy Tale": "파이브 세븐 | 페어리 테일",
@@ -19243,6 +19252,7 @@
             "Nova | Tempest": "Nova | 폭풍우",
             "Nova | Wild Six": "Nova | 와일드 식스",
             "Nova | Wood Fired": "노바 | 장작불",
+            "Ogou": "오구",
             "P2000 | Chainmail": "P2000 | 체인메일",
             "P2000 | Gnarled": "P2000 | 옹이진 무늬",
             "P2000 | Ivory": "P2000 | 아이보리",
@@ -19287,6 +19297,7 @@
             "R8 Revolver | Grip": "R8 리볼버 | 그립",
             "R8 Revolver | Llama Cannon": "R8 리볼버 | 라마 대포",
             "R8 Revolver | Skull Crusher": "R8 리볼버 | 스컬 크러셔",
+            "Riskit": "리스크잇",
             "SCAR-20 | Blueprint": "SCAR-20 | 청사진",
             "SCAR-20 | Cyrex": "SCAR-20 | 사이렉스",
             "SCAR-20 | Fragments": "SCAR-20 | 파편",
@@ -19321,6 +19332,7 @@
             "Sawed-Off | Spirit Board": "소드오프 | 스피릿 보드",
             "Sawed-Off | Wasteland Princess": "소드오프 | 황무지 공주",
             "Sawed-Off | Zander": "소드오프 | 잰더",
+            "Stinger": "스팅어",
             "Tec-9 | Bamboozle": "Tec-9 | 뱀부즐",
             "Tec-9 | Brother": "Tec-9 | 형제",
             "Tec-9 | Cracked Opal": "Tec-9 | 크랙트 오팔",
@@ -20134,7 +20146,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "CS Weapon Case.dll",
-        "assembly_sha256": "10460b7ba2e8a913be6dc10fcbac18fd0d53da9a684f9c5e1166617e4ee8ace6"
+        "assembly_sha256": "6463c399a564ca244eda573c59024a7e5ced3785ae9e582edf2698794ae7ef77"
       }
     },
     "traits_probably_fun": {
@@ -20149,7 +20161,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "TraitsProbablyFun.dll",
-        "assembly_sha256": "e7282e13494507900a34c9bf9f30227566277591e6befef33acc10f58a97f0b9"
+        "assembly_sha256": "a8cf4f6671859d0b8a8d47b3fc149feebd0b5e9a4d310364002907c5a0ccad3c"
       }
     },
     "asteroid_in_game_mod_settings": {
@@ -20205,13 +20217,13 @@
       "entry_count": 2,
       "manifest": {
         "name": "Upper Levels: Probably DLC",
-        "description": "상층 구역에 가게를 여세요. 시작 직업 2종(상층 구역의 새 점주, 장기 밀매상), 첫 번째 막, 신규 상품 43종, 새로운 손님과 세력, 사이버펑크풍 가게 인테리어가 추가됩니다. 시작 직업 6종은 개발 중입니다. 메인 메뉴에서 상층 구역 모드를 켜거나, 설정에서 인테리어만 따로 사용할 수 있습니다."
+        "description": "상층 구역에 가게를 여세요. 시작 직업 3종(상층 구역의 새 점주, 장기 밀매상, 밀봉 상자 사냥꾼), 첫 번째 막, 신규 상품 43종, 새로운 손님과 세력, 사이버펑크풍 가게 인테리어가 추가됩니다. 시작 직업 5종은 개발 중입니다. 메인 메뉴에서 상층 구역 모드를 켜거나, 설정에서 인테리어만 따로 사용할 수 있습니다."
       },
       "routes": [],
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "UpperLevels.dll",
-        "assembly_sha256": "5560993ced3be902421ce26060d04cc7cfec41d8f52cc45426acb3ac50f33339"
+        "assembly_sha256": "f5194f4196cdf1c499d3ec85da0d213d3f57a49da7cbfe3aa712005f8abc2962"
       }
     },
     "combat_contracts": {
@@ -29517,7 +29529,366 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "Assemblies/yexiaoyang.InteriorExpansion.dll",
-        "assembly_sha256": "d170936c7f233d8edf948d01f254c5e64d92917de6656cf1633342f84a96ceaf"
+        "assembly_sha256": "47fa45f44cae4cf1b65d237374f32db6f924fdafcee8dd3b275c61d09c967037"
+      }
+    },
+    "vanilla_chem_ext": {
+      "workshop_item_id": "3832077837",
+      "assembly_name": "VanillaChemExt",
+      "entry_count": 8,
+      "manifest": {
+        "name": "Vanilla Chemistry Expansion",
+        "description": "기본 게임의 화학 시스템을 확장합니다. 드림 톡신 미용 주사기는 제약 등급 이상이어야 팔 수 있으며, 카르텔 판매상의 고급 화학 안내서에서 게임 내 제조법을 확인할 수 있습니다. 화학 장비 모듈 4개를 장착한 블렌더로 광석을 분쇄해 얻는 생석회와 실리카겔은 일반 필터로 거르지 못하는 화학 오염물과 중금속을 제거해 실험실급 정제에 쓰입니다. 전분 유전자, 공업용 알코올, 품질·이중 라벨·사기 판정이 있는 혼합 와인, 세 가지 품질의 맥주통·캔맥주·생맥주, 고급 코튼 직물도 추가됩니다. 핵폐기물 재처리에는 방사선병 위험이 있습니다. 할로의 등불로 만든 행동불능제를 상층 구역이나 보안대에 팔면 범죄 기록과 수사 진행도가 줄어듭니다. 이 밖에 염수 전기분해 장치, 내성이 생기면 새 균주가 필요한 항생제, 폭발물과 탄약을 다루는 게임 내 콘텐츠를 추가합니다."
+      },
+      "routes": [
+        {
+          "type": "CartelSupply",
+          "method": "Sync",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Cartel Network": "카르텔 네트워크"
+          }
+        }
+      ],
+      "refresh": [],
+      "source_identity": {
+        "assembly_relative_path": "VanillaChemExt.dll",
+        "assembly_sha256": "181543c8f77f884798cd0cb2571c236d6d0d6eab677e06a3890c5a53a9a98227"
+      },
+      "display_replacements": {
+        "蒸发 / Evaporation": "증발",
+        "冰箱 / Fridge": "냉장고",
+        "发酵 / Fermentation": "발효",
+        "卡特尔 / Cartel": "카르텔",
+        "过滤 / Filtering": "여과"
+      }
+    },
+    "local.hologram_trade": {
+      "workshop_item_id": "3837476079",
+      "assembly_name": "HologramTrade",
+      "entry_count": 137,
+      "manifest": {
+        "name": "Holographic Trading Panel",
+        "description": "독립형 홀로그램 거래 패널입니다. 기본 게임의 매매, 흥정, 거래 확인과 물품 목록 조작을 유지하면서 손님이 원하는 물품, 시세 변동, 이번 거래 이익과 구매 분석을 표시합니다. 패널을 접을 수 있으며 TV 전원 효과와 물결 애니메이션을 제공합니다. 특수 신분과 현상금 표시는 기본으로 켜지고 물품 감정 힌트는 꺼져 있습니다. Esc → 홀로그램 거래 패널에서 각각 바꿀 수 있습니다. 홀로그램 기능이 포함된 경영 도우미와는 함께 사용할 수 없습니다. 둘 중 하나만 활성화한 뒤 게임을 다시 시작하세요."
+      },
+      "routes": [
+        {
+          "type": "HologramTrade.AppraisalService",
+          "method": "*",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Incomplete item data": "물품 데이터가 불완전함",
+            "Missing appraisal attributes; value unknown": "감정에 필요한 속성이 없어 가치를 산정할 수 없음",
+            "Counterfeit": "위조품",
+            "Genuine": "정품",
+            "Unknown condition": "상태를 알 수 없음",
+            "Real condition unavailable; value not inferred": "실제 상태를 확인할 수 없어 가치를 산정하지 않음",
+            "True state is counterfeit; specific visual defects are not recorded": "위조품이지만 외관상 결함이 기록되어 있지 않음",
+            "Incorrect lettering": "인쇄 글자 이상",
+            "Incorrect packaging colors": "포장 색상 이상",
+            "Incorrect security seal": "보안 봉인 이상",
+            "Incorrect logo": "상표 이상",
+            "Incorrect box": "포장 상자 이상",
+            "Seal does not match denomination": "인장이 액면가와 일치하지 않음",
+            "Invalid denomination": "액면가 이상",
+            "Incorrect chip": "칩 이상",
+            "Denomination missing; value unknown": "액면가 정보가 없어 가치를 산정할 수 없음",
+            "Empty or faulty indicator": "표시기가 비어 있거나 고장남",
+            "Indicator shows expiry": "표시기에 사용 기한 만료가 표시됨",
+            "Incorrect product or manufacturer label": "제품명 또는 제조사 라벨 이상",
+            "Incorrect body color": "본체 색상 이상",
+            "Cracked or damaged body": "본체가 갈라지거나 손상됨",
+            "Invalid serial number": "일련번호 이상",
+            "Recalled batch": "리콜 대상 생산분",
+            "Expired": "사용 기한 만료",
+            "Unusable": "사용 불가",
+            "Hand appraisal": "사이버네틱 의수 감정",
+            "Material: ": "재질: ",
+            "Interface: ": "인터페이스: ",
+            "Unspecified interface reduces value": "인터페이스의 종류가 표시되지 않아 가치가 낮음",
+            "Worn condition": "마모됨",
+            "Damaged condition": "손상됨",
+            "Condition: intact": "상태: 양호",
+            "Armored attachment": "장갑 부착",
+            "Blade attachment": "칼날 부착",
+            "Tactical set bonus applies": "전술 세트 보너스 적용",
+            "Deluxe set bonus applies": "디럭스 세트 보너스 적용",
+            "Plasma cartridge appraisal": "플라즈마 카트리지 감정",
+            "Worn casing": "외장이 마모됨",
+            "Heavily worn casing": "외장이 심하게 마모됨",
+            "Cracked casing": "외장에 균열이 있음",
+            "Missing cover": "덮개 없음",
+            "Reinforced casing": "외장 보강됨",
+            "Poor plasma quality": "플라즈마 품질이 낮음",
+            "Plasma quality: standard": "플라즈마 품질: 표준",
+            "Plasma quality: high": "플라즈마 품질: 고품질",
+            "Manufacturer seal: ": "제조사 표식: ",
+            "Opened / torn packaging": "포장 개봉 또는 파손",
+            "Opened or torn packaging lowers value": "포장이 개봉되거나 파손되어 가치가 낮음",
+            "Invalid production date": "제조일 이상",
+            "Invalid packing facility": "포장 공장 번호 이상",
+            "Incorrect Davre logo": "다브레 로고 이상",
+            "Missing production date print": "제조일 인쇄 없음",
+            "Missing facility print": "공장 번호 인쇄 없음",
+            "Inconsistent deluxe ingredients": "디럭스 에디션의 재료와 일치하지 않음",
+            "Ribwich logo does not match production era": "립위치 로고가 제조 시기와 일치하지 않음",
+            "Failed native authenticity check": "게임의 진품 검사에 통과하지 못함",
+            "Double-meat edition": "더블 패티 립위치",
+            "Deluxe edition": "디럭스 에디션",
+            "Facility adjustment: ": "포장 시설 품질 보정: ",
+            "First-production-year bonus": "첫 생산 연도 보너스",
+            "First/last production month bonus": "첫 생산 월·마지막 생산 월 보너스",
+            "Packaging and production details valid": "포장과 제조 정보 정상",
+            "Unknown": "알 수 없음",
+            "Gold-plated": "금도금",
+            "Carbon composite": "탄소 복합재",
+            "Aluminum alloy": "알루미늄 합금",
+            "Neural": "신경 인터페이스",
+            "Unspecified": "표시 없음",
+            "None": "없음",
+            "Zhonghua": "중화",
+            "Republic": "공화국"
+          }
+        },
+        {
+          "type": "HologramTrade.ChemicalAppraisal",
+          "method": "Inspect",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Chemical purity appraisal": "화학 물질 순도 감정",
+            "Unconfirmed": "확인되지 않음",
+            "True purity grade missing; value unknown": "실제 순도 등급을 확인할 수 없어 가치를 산정할 수 없음",
+            "Declared grade: ": "표시 등급: ",
+            "True grade: ": "실제 등급: ",
+            "Invalid purity data; value unknown": "순도 데이터가 유효하지 않아 가치를 산정할 수 없음",
+            "Actual purity: ": "실제 순도: ",
+            "Purity percentage unavailable; using the recorded true grade": "순도 수치가 없어 기록된 실제 등급으로 평가함",
+            "True purity grade is below street standard": "실제 순도가 길거리 표준에 못 미침"
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerForecastService",
+          "method": "Inspect",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Label mismatch": "라벨 불일치",
+            "A hidden issue on this item": "이 물품에 숨겨진 문제",
+            "Contents: ": "내용물: "
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerForecastService",
+          "method": "Describe",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Unknown": "알 수 없음",
+            "Can detect": "간파 가능",
+            "Cannot detect": "간파 불가"
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerForecastService",
+          "method": "InspectionError",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Label mismatch": "라벨 불일치"
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerForecastView",
+          "method": "ForecastText",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Can detect": "간파 가능"
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerIdentityService",
+          "method": "Label",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Android": "안드로이드",
+            "Wanted": "수배범",
+            "Selling contraband": "밀수품 판매 중",
+            "Selling stolen goods": "장물 판매 중"
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerIdentityService",
+          "method": "IsWantedLabel",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "wanted": "수배"
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerIdentityService",
+          "method": "WithReward",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            " · Bounty: ": " · 현상금: "
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerPanelLayout",
+          "method": "Messages",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Android": "안드로이드",
+            "Wanted": "수배범",
+            "Cannot detect": "간파 불가"
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerPanelLayout",
+          "method": "TextColor",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Android": "안드로이드",
+            "Wanted": "수배범",
+            "Can detect": "간파 가능"
+          }
+        },
+        {
+          "type": "HologramTrade.HologramTradeView",
+          "method": "Status",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Can detect": "간파 가능"
+          }
+        },
+        {
+          "type": "HologramTrade.HologramTradeView",
+          "method": "PulseLabels",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Android": "안드로이드"
+          }
+        },
+        {
+          "type": "HologramTrade.CustomerSceneHologram",
+          "method": "UpdateMorningEvents",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "{0} {1}": "{1}{0}"
+          }
+        },
+        {
+          "type": "HologramTrade.HologramBargainControls",
+          "method": "Layout",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "威胁：": "위협: ",
+            "敲诈勒索：": "공갈: "
+          }
+        },
+        {
+          "type": "HologramTrade.HologramScaleMenu",
+          "method": "Open",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "全息交易面板 · Holographic Trading Panel": "홀로그램 거래 패널"
+          }
+        },
+        {
+          "type": "HologramTrade.HologramSettingsView",
+          "method": ".ctor",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "全息交易面板 · Holographic Trading Panel": "홀로그램 거래 패널"
+          }
+        },
+        {
+          "type": "HologramTrade.HologramTradeView",
+          "method": "LayoutButtons",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "出售 $1 物品": "물품 $1개 판매"
+          }
+        },
+        {
+          "type": "HologramTrade.InspectionOptionLabels",
+          "method": "Name",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Lettering issues": "인쇄 글자 문제",
+            "Color issues": "색상 문제",
+            "Seal issues": "보안 봉인 문제",
+            "Logo issues": "상표 문제",
+            "Box issues": "포장 상자 문제",
+            "Value issues": "액면가 문제",
+            "Chip issues": "칩 문제",
+            "Indicator issues": "표시기 문제",
+            "Label issues": "라벨 문제",
+            "Serial issues": "일련번호 문제",
+            "Body issues": "본체 문제"
+          }
+        },
+        {
+          "type": "HologramTrade.LabelInspectionService",
+          "method": "ConditionName",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Unknown": "알 수 없음",
+            "Laboratory pure": "실험실급",
+            "Pharmaceutical grade": "제약 등급",
+            "Near pharmaceutical grade": "준제약 등급",
+            "Street standard": "길거리 표준",
+            "Cut product": "희석품",
+            "Junk grade": "저질 등급",
+            "Starch grade": "전분 등급",
+            "Genuine": "정품",
+            "Counterfeit": "위조품",
+            "Expired": "사용 기한 만료",
+            "Unusable": "사용 불가"
+          }
+        },
+        {
+          "type": "HologramTrade.LabelInspectionService",
+          "method": "Inspect",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Label: ": "라벨: ",
+            "; actual: ": " / 실제: ",
+            " (already exposed)": " (이미 간파됨)"
+          }
+        },
+        {
+          "type": "HologramTrade.WholesaleView",
+          "method": "Fail",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "利润未知 / Profit unknown": "이익을 계산할 수 없음"
+          }
+        }
+      ],
+      "refresh": [],
+      "source_identity": {
+        "assembly_relative_path": "HologramTrade.dll",
+        "assembly_sha256": "7154ebefaaae86e83ebf36e4a493a3a16c7642b3b19f08fadbfc660523184cc4"
       }
     }
   }

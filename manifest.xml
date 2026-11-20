@@ -3,7 +3,7 @@
   <ID>probably-stolen-ko-localization</ID>
   <Name>Probably Translated</Name>
   <Author>Project Parr0t</Author>
-  <ModVersion>1.0.39</ModVersion>
+  <ModVersion>1.0.40</ModVersion>
   <Description>Korean localization overlays for supported Probably Stolen Workshop mods. Base-game localization is untouched.</Description>
   <GameVersions>
     <Version>0.46D</Version>
@@ -27,6 +27,8 @@
     <Mod>gunmod_tarkov</Mod>
     <Mod>local.station-events</Mod>
     <Mod>yexiaoyang.InteriorExpansion</Mod>
+    <Mod>vanilla_chem_ext</Mod>
+    <Mod>local.hologram_trade</Mod>
   </Prerequisites>
   <Assemblies>
     <Assembly>ProbablyStolenKo.Localization.dll</Assembly>

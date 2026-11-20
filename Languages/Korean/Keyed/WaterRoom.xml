@@ -66,4 +66,8 @@
 추가 전력 요금: 하루 {additional}(하루 총 {total})</yexiaoyang.ui.water.upgrade_benefits>
   <yexiaoyang.ui.water.upgrade_description>정수 구역을 개조하고 업그레이드합니다.</yexiaoyang.ui.water.upgrade_description>
   <yexiaoyang.ui.water.upgrade_title>정수 구역 개조</yexiaoyang.ui.water.upgrade_title>
+  <yexiaoyang.ui.water.gift_count>찾아갈 수 있는 빈 물통: {count}개</yexiaoyang.ui.water.gift_count>
+  <yexiaoyang.ui.water.gift_extract>물통 1개 꺼내기</yexiaoyang.ui.water.gift_extract>
+  <yexiaoyang.ui.water.gift_extracted>빈 물통 1개를 선물 보관함에 넣었습니다.</yexiaoyang.ui.water.gift_extracted>
+  <yexiaoyang.ui.water.gift_no_space>선물 보관함에 빈자리가 없습니다.</yexiaoyang.ui.water.gift_no_space>
 </LanguageData>

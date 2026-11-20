@@ -27,25 +27,27 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Brewing Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904) — v3.6.8.6
 - [Disaster Day](https://steamcommunity.com/sharedfiles/filedetails/?id=3829946713) — v2.0.2
 - [Fishing Cuisine Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830031787) — v2.1.1
-- [Unbox Moment](https://steamcommunity.com/sharedfiles/filedetails/?id=3830643693) — v1.5.1
+- [Unbox Moment](https://steamcommunity.com/sharedfiles/filedetails/?id=3830643693) — v1.5.2
 - [Vanilla Food Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369) — v0.3.10
 - [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547) — v0.2.19
 - [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187) — v1.2.2
 - [Gun Mod Tarkov](https://steamcommunity.com/sharedfiles/filedetails/?id=3831650864) — v1.5.7
+- [Vanilla Chemistry Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832077837) — v1.9.0
 - [Probably a Farm Story](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311) — v2.0.11
 - [Tobacco Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208) — v0.5.4.2
-- [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698) — v1.3.68
+- [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698) — v1.3.69
 - [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602) — v1.6.0
 - [Probably Flyers](https://steamcommunity.com/sharedfiles/filedetails/?id=3833522385) — v0.7.0
 - [Station Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506) — v1.3.1
-- [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482) — v0.5.47
-- [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532) — v0.9.678
+- [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482) — v0.5.48
+- [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532) — v0.9.681
 - [Combat Contract](https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038) — v0.4.12
 - [In-Game Mod Settings](https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946) — v1.0.2
 - [Gunsmith Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049) — v2.1.1
 - [Probably Containers+](https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782) — v1.0c
+- [Holographic Trading Panel](https://steamcommunity.com/sharedfiles/filedetails/?id=3837476079) — v1.3.2
 - [Storage Bay Appearance](https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447) — v1.2.8H2
-- [Upper Levels: Probably DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803) — v0.9.27.3
+- [Upper Levels: Probably DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803) — v0.9.29.1
 - [VA-11 Hall-A Fan MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004) — v2.1.8
 - [Space Coffee](https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583) — v4.1
 - [Better UV Lamp](https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349) — v1.0.1
@@ -54,7 +56,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Probably Mined](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650) — v0.3.3
 - [Probably Helpful](https://steamcommunity.com/sharedfiles/filedetails/?id=3838230589) — v1.0
 - [Deep Space Clinic 2077](https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040) — v0.1.0-ui.227
-- [Probably Stolen: Claims & Uprisings](https://steamcommunity.com/sharedfiles/filedetails/?id=3841509159) — v1.1.2
+- [Probably Stolen: Claims & Uprisings](https://steamcommunity.com/sharedfiles/filedetails/?id=3841509159) — v1.1.4
 
 ## 다른 번역 모드들과 겹쳐도 작동하나요?
 확실하지 않습니다. 다만, 이 모드는 제가 개인적으로 즐기기 위해서 일괄로 번역을 수행하고 사용하고 있습니다.

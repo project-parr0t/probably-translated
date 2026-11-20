@@ -86,8 +86,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "a84c14b34b0c618aa3ea1673bbdc3016ce7f9efb2e03e188828d14c3b020d342";
-        private const int ExpectedEntries = 26213;
+        private const string ExpectedFingerprint = "504a8bc38f2ee0a89582ab0d89d42b76c07d34948ade36bd260888735394155e";
+        private const int ExpectedEntries = 26370;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -126,8 +126,10 @@ namespace ProbablyStolenKo
                 ["local.better-box-selection"] = "3836727677",
                 ["duoji_hotkey_rebind"] = "3829508405",
                 ["yexiaoyang.InteriorExpansion"] = "3841509159",
+                ["vanilla_chem_ext"] = "3832077837",
+                ["local.hologram_trade"] = "3837476079",
             };
-        private const int ExpectedTargets = 35;
+        private const int ExpectedTargets = 37;
 
         private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets)
         {
@@ -504,10 +506,16 @@ namespace ProbablyStolenKo
                 else
                 {
                     var finalizationStarted = Stopwatch.GetTimestamp();
-                    CompleteCurrentTarget();
-                    LogTargetTiming(work, Stopwatch.GetTimestamp() - finalizationStarted);
-                    _completedWork++;
-                    _currentTarget = null;
+                    try
+                    {
+                        CompleteTarget(work);
+                        LogTargetTiming(work, Stopwatch.GetTimestamp() - finalizationStarted);
+                    }
+                    finally
+                    {
+                        _completedWork++;
+                        _currentTarget = null;
+                    }
                     if (!HasPendingWork && !_queueDrainLogged)
                     {
                         _queueDrainLogged = true;
@@ -547,9 +555,8 @@ namespace ProbablyStolenKo
 
         private static double ToMilliseconds(long ticks) => ticks * (1000.0 / Stopwatch.Frequency);
 
-        private void CompleteCurrentTarget()
+        private void CompleteTarget(PendingTarget work)
         {
-            var work = _currentTarget;
             try
             {
                 work.RefreshPrepared = true;
@@ -566,15 +573,16 @@ namespace ProbablyStolenKo
             }
             catch (Exception error)
             {
+                _appliedTargets.Remove(work.ModId);
+                var cause = error.GetBaseException();
+                _log.Error(
+                    "Managed target finalization failed for " + work.ModId + ". " +
+                    cause.GetType().Name + ": " + cause.Message);
                 RollbackTarget(
                     work.ModId,
                     work.Harmony,
                     work.StaticBindings,
                     work.RefreshPrepared);
-                var cause = error.GetBaseException();
-                _log.Error(
-                    "Managed target finalization failed for " + work.ModId + ". " +
-                    cause.GetType().Name + ": " + cause.Message);
             }
         }
 
@@ -666,15 +674,35 @@ namespace ProbablyStolenKo
             IEnumerable<int> staticBindings,
             bool refreshPrepared)
         {
-            harmony.UnpatchAll(harmony.Id);
-            foreach (var bindingId in staticBindings) RemoveBindingState(bindingId);
+            try
+            {
+                harmony.UnpatchAll(harmony.Id);
+            }
+            catch (Exception error)
+            {
+                var cause = error.GetBaseException();
+                _log.Error(
+                    "Managed target rollback failed for " + modId + ". " +
+                    cause.GetType().Name + ": " + cause.Message);
+                // Keep the Harmony owner for shutdown cleanup, but do not retry in the startup queue.
+                return;
+            }
+            finally
+            {
+                foreach (var bindingId in staticBindings) RemoveBindingState(bindingId);
+            }
             if (refreshPrepared)
             {
                 try { GeneratedManagedRefresh.Invoke(modId); }
-                catch (Exception error) { _log.Error("Managed rollback refresh failed after " + error.GetType().Name + "."); }
+                catch (Exception error)
+                {
+                    var cause = error.GetBaseException();
+                    _log.Error(
+                        "Managed rollback refresh failed for " + modId + ". " +
+                        cause.GetType().Name + ": " + cause.Message);
+                }
             }
             _harmonies.Remove(modId);
-            _appliedTargets.Remove(modId);
         }
 
         internal static bool PrepareBinding(int bindingId)

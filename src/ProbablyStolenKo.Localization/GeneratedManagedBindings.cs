@@ -29,10 +29,10 @@ namespace ProbablyStolenKo
 
     internal static class GeneratedManagedBindings
     {
-        internal const string InventoryFingerprint = "a84c14b34b0c618aa3ea1673bbdc3016ce7f9efb2e03e188828d14c3b020d342";
-        internal const int RouteCount = 1210;
-        internal const int BindingCount = 426;
-        internal const int StaticPatchBindingCount = 426;
+        internal const string InventoryFingerprint = "504a8bc38f2ee0a89582ab0d89d42b76c07d34948ade36bd260888735394155e";
+        internal const int RouteCount = 1233;
+        internal const int BindingCount = 457;
+        internal const int StaticPatchBindingCount = 457;
         internal const int UnsupportedBindingCount = 0;
         internal const int RefreshBindingCount = 6;
         internal static IReadOnlyList<ManagedExactBinding> Create(string modId)
@@ -90,6 +90,12 @@ namespace ProbablyStolenKo
                     break;
                 case "duoji_hotkey_rebind":
                     Add_16_0(bindings);
+                    break;
+                case "vanilla_chem_ext":
+                    Add_17_0(bindings);
+                    break;
+                case "local.hologram_trade":
+                    Add_18_0(bindings);
                     break;
             }
             return bindings;
@@ -587,6 +593,45 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(424, 24, "DuojiHotkeyManager.Zh", "BuildEntryZh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_424), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(425, 25, "DuojiHotkeyManager.Zh", "BuildWordZh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_425), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(426, 26, "DuojiHotkeyManager.Zh", "EntryName", "System.String, System.Func`1<System.String>", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_426), "Transpiler", false, null));
+        }
+
+        private static void Add_17_0(ICollection<ManagedExactBinding> bindings)
+        {
+            bindings.Add(new ManagedExactBinding(427, 0, "CartelSupply", "Sync", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_427), "Transpiler", false, null));
+        }
+
+        private static void Add_18_0(ICollection<ManagedExactBinding> bindings)
+        {
+            bindings.Add(new ManagedExactBinding(428, 0, "HologramTrade.AppraisalService", "Incomplete", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_428), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(429, 0, "HologramTrade.AppraisalService", "FinishCondition", "HologramTrade.InspectionReport, System.String, System.Boolean", new Type[] { ModReflect.FindType("HologramTrade.InspectionReport"), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_429), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(430, 0, "HologramTrade.AppraisalService", "Cigarette", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_430), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(431, 0, "HologramTrade.AppraisalService", "Stamp", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_431), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(432, 0, "HologramTrade.AppraisalService", "Injector", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_432), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(433, 0, "HologramTrade.AppraisalService", "Hand", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_433), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(434, 0, "HologramTrade.AppraisalService", "Plasma", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_434), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(435, 0, "HologramTrade.AppraisalService", "Ribwich", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_435), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(436, 0, "HologramTrade.AppraisalService", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_436), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(437, 1, "HologramTrade.ChemicalAppraisal", "Inspect", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_437), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(438, 2, "HologramTrade.CustomerForecastService", "Inspect", "GameItem, StoreClient, System.Boolean, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_438), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(439, 3, "HologramTrade.CustomerForecastService", "Describe", "HologramTrade.CustomerForecast, System.String, System.Boolean", new Type[] { ModReflect.FindType("HologramTrade.CustomerForecast"), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_439), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(440, 4, "HologramTrade.CustomerForecastService", "InspectionError", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_440), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(441, 5, "HologramTrade.CustomerForecastView", "ForecastText", "GameItem, StoreClient, System.Boolean, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_441), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(442, 6, "HologramTrade.CustomerIdentityService", "Label", "StoreClient, System.Boolean", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_442), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(443, 7, "HologramTrade.CustomerIdentityService", "IsWantedLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_443), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(444, 8, "HologramTrade.CustomerIdentityService", "WithReward", "StoreClient, System.Boolean", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_444), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(445, 9, "HologramTrade.CustomerPanelLayout", "Messages", "System.Boolean, System.Boolean, System.String, System.Boolean", new Type[] { typeof(global::System.Boolean), typeof(global::System.Boolean), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_445), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(446, 10, "HologramTrade.CustomerPanelLayout", "TextColor", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_446), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(447, 11, "HologramTrade.HologramTradeView", "Status", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_447), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(448, 12, "HologramTrade.HologramTradeView", "PulseLabels", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_448), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(449, 13, "HologramTrade.CustomerSceneHologram", "UpdateMorningEvents", "StoreStation, System.Boolean", new Type[] { typeof(global::StoreStation), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_449), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(450, 14, "HologramTrade.HologramBargainControls", "Layout", "NegotiationTabletFrame, System.Single", new Type[] { typeof(global::NegotiationTabletFrame), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_450), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(451, 15, "HologramTrade.HologramScaleMenu", "Open", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_451), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(452, 16, "HologramTrade.HologramSettingsView", ".ctor", "CustomUIWindow, System.Action", null, typeof(GeneratedManagedPatch_452), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(453, 17, "HologramTrade.HologramTradeView", "LayoutButtons", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_453), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(454, 18, "HologramTrade.InspectionOptionLabels", "Name", "System.String, System.Boolean, System.Func`2<System.String,System.String>", new Type[] { typeof(global::System.String), typeof(global::System.Boolean), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_454), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(455, 19, "HologramTrade.LabelInspectionService", "ConditionName", "ItemCondition, System.Boolean", new Type[] { typeof(global::ItemCondition), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_455), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(456, 20, "HologramTrade.LabelInspectionService", "Inspect", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_456), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(457, 21, "HologramTrade.WholesaleView", "Fail", "System.Exception", new Type[] { typeof(global::System.Exception) }, typeof(GeneratedManagedPatch_457), "Transpiler", false, null));
         }
     }
 
@@ -4849,6 +4894,316 @@ namespace ProbablyStolenKo
         internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Zh", "EntryName", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 426);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_427
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(427);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("CartelSupply", "Sync", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 427);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_428
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(428);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Incomplete", new Type[] { typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 428);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_429
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(429);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "FinishCondition", new Type[] { ModReflect.FindType("HologramTrade.InspectionReport"), typeof(global::System.String), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 429);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_430
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(430);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Cigarette", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 430);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_431
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(431);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Stamp", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 431);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_432
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(432);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Injector", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 432);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_433
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(433);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Hand", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 433);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_434
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(434);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Plasma", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 434);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_435
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(435);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Ribwich", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 435);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_436
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(436);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 436);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_437
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(437);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.ChemicalAppraisal", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 437);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_438
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(438);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 438);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_439
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(439);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "Describe", new Type[] { ModReflect.FindType("HologramTrade.CustomerForecast"), typeof(global::System.String), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 439);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_440
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(440);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "InspectionError", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 440);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_441
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(441);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastView", "ForecastText", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 441);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_442
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(442);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "Label", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 442);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_443
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(443);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "IsWantedLabel", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 443);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_444
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(444);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "WithReward", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 444);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_445
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(445);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerPanelLayout", "Messages", new Type[] { typeof(global::System.Boolean), typeof(global::System.Boolean), typeof(global::System.String), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 445);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_446
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(446);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerPanelLayout", "TextColor", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 446);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_447
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(447);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "Status", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 447);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_448
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(448);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "PulseLabels", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 448);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_449
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(449);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerSceneHologram", "UpdateMorningEvents", new Type[] { typeof(global::StoreStation), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 449);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_450
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(450);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramBargainControls", "Layout", new Type[] { typeof(global::NegotiationTabletFrame), typeof(global::System.Single) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 450);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_451
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(451);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramScaleMenu", "Open", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 451);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_452
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(452);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("HologramTrade.HologramSettingsView"), new Type[] { typeof(global::CustomUIWindow), typeof(global::System.Action) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 452);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_453
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(453);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "LayoutButtons", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 453);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_454
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(454);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.InspectionOptionLabels", "Name", new Type[] { typeof(global::System.String), typeof(global::System.Boolean), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 454);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_455
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(455);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.LabelInspectionService", "ConditionName", new Type[] { typeof(global::ItemCondition), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 455);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_456
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(456);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.LabelInspectionService", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 456);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_457
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(457);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.WholesaleView", "Fail", new Type[] { typeof(global::System.Exception) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 457);
     }
 
     internal static class GeneratedManagedRefresh

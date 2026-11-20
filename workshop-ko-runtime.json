@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "inventory_fingerprint": "739e722e43d20c1f0865cdfdedd820b1dd63dd75ebb1b709cd5ba2566b836a50",
+  "inventory_fingerprint": "4696561f4734846c890fc20be072ed532e81e6a37acbf3657e70ce4f1077af1a",
   "scope": "installed_workshop_mod_korean_overlay_20261118_direct_review",
   "locale": "ko",
   "base_game_entries": 0,
@@ -45,7 +45,7 @@
     "ai.emporium": {
       "workshop_item_id": "3832941698",
       "csv_path": "workshop-overlays/3832941698/Localization/ko.csv",
-      "entry_count": 2535
+      "entry_count": 2536
     },
     "gunsmith_expansion": {
       "workshop_item_id": "3834619049",
@@ -68,7 +68,7 @@
     "upper_levels": {
       "workshop_item_id": "3838944803",
       "csv_path": "workshop-overlays/3838944803/Localization/ko.csv",
-      "entry_count": 2995
+      "entry_count": 3180
     },
     "traits_probably_fun": {
       "workshop_item_id": "3834226532",
@@ -103,7 +103,17 @@
       "workshop_item_id": "3833522385",
       "csv_path": "workshop-overlays/3833522385/Localization/ko.csv",
       "entry_count": 898
+    },
+    "vanilla_chem_ext": {
+      "workshop_item_id": "3832077837",
+      "csv_path": "workshop-overlays/3832077837/Localization/ko.csv",
+      "entry_count": 486
+    },
+    "local.hologram_trade": {
+      "workshop_item_id": "3837476079",
+      "csv_path": "workshop-overlays/3837476079/Localization/ko.csv",
+      "entry_count": 75
     }
   },
-  "entry_count": 14734
+  "entry_count": 15481
 }

@@ -33,6 +33,28 @@
 | Wire (물품) | 전선 | `Item:140582828425362` |
 | Toggle state: On / Off | 켜짐 / 꺼짐 | `Mechanic:61216479102418944`, `Mechanic:61216479102418945` |
 | Credits (기본 게임 화폐) | 크레딧 | `Dialogue:90295236874256402` |
+| Kotton Fiber / Kotton Fabric | 코튼 섬유 / 코튼 직물 | `Item:1420594881806337`, `Item:140582824230946` |
+| Blender / Heating Plate / Chem Finisher | 블렌더 / 가열판 / 화학 완성기 | `Item:412772035510276`, `Item:412772035510295`, `Item:412772035510278` |
+| Composition Spectrometer | 성분 분광기 | `Item:140582828425458` |
+| Lab-pure / Pharma grade | 실험실급 / 제약 등급 | `Mechanic:951840645365878`, `Mechanic:951840645365879` |
+| Dream Cap / Nightmare Cap / edible Dream Cap | 드림 캡 / 나이트메어 캡 / 밀 캡 | `Item:1420594881806346`, `Item:1420594881806348`, `Item:48627545411469312` |
+| Dream Cap Extract / Nightmare Extract | 드림 캡 추출물 / 나이트메어 추출물 | `Mechanic:1101928160083994`, `Mechanic:1101928160084005` |
+| Dream Dust / Chemistry 101 Guide | 드림 더스트 / 화학 입문 가이드 | `UI:97597821708713984`, `UI:97595269432786944` |
+| Water Filter / Advanced Water Filter | 정수 필터 / 고급 정수 필터 | `Item:140582824230949`, `Item:43892318361403392` |
+| Fridge Chill Zone / Freeze Zone | 냉장 칸 / 냉동 칸 | `Mechanic:73414074797178880`, `Mechanic:73414074830733312` |
+| Labeler / Immunivax Injector | 라벨기 / 이뮤니백스 주사기 | `Item:140582828425241`, `Item:140582828425447` |
+| N-methylol base / Chemical contaminant | N-메틸올 염기 / 화학 오염물 | `Mechanic:1101928164278274`, `Mechanic:1101928160083990` |
+| Near pharmaceutical / Street standard / Cut / Junk / Starch grade | 준제약 등급 / 길거리 표준 / 희석품 / 저질 등급 / 전분 등급 | `Mechanic:951840645365880`–`951840645365884` |
+| Investigation progress / Projected sentence | 수사 진행도 / 예상 형량 | `UI:93581674730536960`, `UI:93581707546771456` |
+| Bargaining / Intimidation / Extortion | 흥정 / 위협 / 공갈 | `Hint:432559407104`, `Mechanic:34255712394461188`, `Mechanic:34255712394461185` |
+| Cybernetic hand / Plasma cartridge | 사이버네틱 의수 / 플라즈마 카트리지 | `Item:36943149583351808`, `Item:140582832619554` |
+| Deluxe Edition / Double-patty Ribwich | 디럭스 에디션 / 더블 패티 립위치 | `UI:97558344047050752`, `UI:97558496883294208` |
+
+## 화학 용어
+
+- 같은 물질이나 장비에 원본 한국어 패치의 표기가 있으면 재사용한다. 새 화학 용어는 한국에서 널리 쓰이는 용어를 우선하고, 통용어가 드물거나 사어에 가까우면 학계의 정식 용어를 확인한다. 정식 용어가 더 익숙하면 그 표기를 택해도 된다. 둘 다 적절하지 않으면 음차하고, 음차가 어렵거나 식별에 불리할 때만 영어를 유지한다.
+- 화학식은 원문의 원소 기호, 대소문자, 숫자와 첨자를 그대로 둔다. 물질 이름과 화학식이 함께 나오면 이름만 번역한다. 예: `Quicklime` → `생석회`, `Water Glass` → `물유리`, `Acetic Acid` → `아세트산`, `Cephalosporin C` → `세팔로스포린 C`.
+- `Dream Toxin`(`liquid_dream_toxin`)은 Vanilla Chemistry Expansion이 추가한 별도 액체다. 원본 명칭 `드림 캡`·`드림 더스트`와 혼동하지 않도록 모드 고유 명칭을 `드림 톡신`으로 정한다.
 
 ## 번역·검수 지침
 

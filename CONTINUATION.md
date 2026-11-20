@@ -32,9 +32,15 @@ The 2.0.11 farm update revises the cooking preview and the tailoring manual's ni
 
 The bridge also covers DuoJi's hotkey panel, key settings and user-facing feedback using exact IL routes, without changing configuration keys or save values. The installed manifest audit preserves English titles, translates Chinese-only titles into English, and localizes descriptions from the current source manifests.
 
-Claims & Uprisings 1.1.2 uses its own indexed XML language loader. Probably Translated ships the index and translations in its root `Languages` tree; there is no second mod or install step. The game manifest prerequisite declares the relationship used by the game and the Claims language loader. The game warns but does not disable Probably Translated if Claims is absent; the bridge only applies the Claims integration to the enabled source mod.
+Claims & Uprisings uses its own indexed XML language loader. Probably Translated ships the index and translations in its root `Languages` tree; there is no second mod or install step. The game manifest prerequisite declares the relationship used by the game and the Claims language loader. The game warns but does not disable Probably Translated if Claims is absent; the bridge only applies the Claims integration to the enabled source mod.
 
-The integrated tree covers all 1,906 keys in the source's 66 English XML files, including native keyed and definition-injected dialogue, facility upgrades, district actions, and soldier traits. Japanese and Traditional Chinese have the same key set. If Claims excludes Probably Translated from its content framework because another source mod is absent, the bridge adds this translation pack to its language sources only when Claims' own dependency check permits it. The original installations are untouched.
+The integrated tree covers all 1,910 keys in Claims & Uprisings 1.1.4's 66 English XML files, including the four empty-jug withdrawal strings. Japanese and Traditional Chinese have the same key set. If Claims excludes Probably Translated from its content framework because another source mod is absent, the bridge adds this translation pack to its language sources only when Claims' own dependency check permits it. The original installations are untouched.
+
+The next installed-source review updates four fingerprints. AI Emporium 1.3.69 splits the aquaculture log into water/fish counts and an optional roe count. CS Weapon Expansion 0.5.48 adds four Cyberpunk weapon names and their opening-view descriptions; its native Korean registration already covers tooltips and the renamed CF agents. In Perks: Probably Fun 0.9.680, the newly added non-key strings belong to diagnostic logging; the changed dialogue and preset UI still resolve through existing native Korean keys and perk localization. The bound prior IL inventories and the installed Claims baseline supply the comparison; the upstream DLLs are not distributed here.
+
+Vanilla Chemistry Expansion 1.9.0 and Holographic Trading Panel 1.3.2 use the Workshop CSV overlay, with 486 and 75 keys respectively. Their current DLL fingerprints also cover non-CSV display paths: the chemistry settings groups and cartel phone label, and the trading panel's item appraisal, customer indicators, and formatted screen text. The original Korean Translation's terms and UI labels apply to shared concepts; `드림 톡신` is a mod-only liquid. The upstream installations are not modified.
+
+Upper Levels: Probably DLC 0.9.29.1 adds 185 CSV keys, including crate keycards, trading calls, and Act 1 scenes. The installed source also changes prior instructions for crate opening, printed-organ value, and repeat-customer reputation. Unbox Moment 1.5.2 changes font selection; Perks: Probably Fun 0.9.681 changes buyer filtering and logs. Their existing visible text coverage is unchanged. The three current DLL fingerprints are recorded alongside the runtime catalogs.
 
 ## Cro pack coexistence
 
@@ -128,6 +134,8 @@ The harness uses the game's Mono to run the mod scanner and Harmony's assembly s
 
 The type index is scoped to one queued target and uses the public `ModReflect.Types(modId)` API. Missing or ambiguous type names are skipped with a binding error, never searched in another mod. Overload selection and declaring-type access checks remain in `ModReflect.Target`.
 
+A missing binding stays local to that binding. A target that fails to finalize is not marked applied; a separate rollback failure is logged, and the startup queue still advances. If Harmony cannot unpatch the failed target, its owner is retained for shutdown cleanup.
+
 Do not add `resolveMs`, `harmonyMs`, or `constructorHarmonyMs` to `bindingMs`; they are already included. Compare `bindingMs` and `betweenSlicesMs` before treating the old enqueue-to-completion line as patch execution time.
 
 ## Required local test gate
@@ -140,7 +148,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
   -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
 ```
 
-The gate never launches the game. Keep the exact local test package installed while staging and uploading. After SteamCMD reports a successful Workshop upload, remove the local test copy. Unsubscribe and resubscribe to the Workshop item before post-release verification so Steam installs the uploaded manifest instead of retaining an older subscribed copy:
+The gate never launches the game. Keep the exact local test package installed while staging, uploading, and verifying the client-managed Workshop copy. Remove it only when verification succeeds:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
@@ -148,13 +156,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
   -GameRoot "path/to/Steam/steamapps/common/Probably Stolen" `
   -WorkshopRoot "path/to/Steam/steamapps/workshop/content/4348910" `
   -StageDir "path/to/Workshop/staging/content"
-# Upload the staged directory through SteamCMD.
+# Upload through SteamCMD, then verify through the Steam client API as described below.
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/Release-TestGate.ps1 `
   -Action Remove `
   -GameRoot "path/to/Steam/steamapps/common/Probably Stolen"
 ```
 
-`Stage` requires the exact local Mods test copy to remain installed and rejects packages changed after installation. The local copy is removed immediately after a successful upload; post-release checks use a freshly resubscribed Workshop copy. Rebuild or translation changes invalidate the receipt and require a new install cycle.
+`Stage` requires the exact local Mods test copy to remain installed and rejects packages changed after installation. Rebuild or translation changes invalidate the receipt and require a new install cycle.
 
 ## Required Workshop publication path
 
@@ -179,7 +187,25 @@ python path/to/parr0t/scripts/sync_steam_workshop_metadata.py `
   --approve-steam-api-sha256 <reviewed-lowercase-sha256>
 ```
 
-After either path, query the public Workshop details and every managed locale. Require the expected nonempty title and canonical description; a successful command alone is not publication proof. Remove the local test installation only after the applicable upload and public verification succeed.
+### Workshop verification
+
+Verify only through Valve's native Steam client API (`ISteamUGC`), after SteamCMD exits. Use the reviewed Valve library and the authenticated client on the expected account. If SteamCMD disconnected the desktop client, leave verification pending until the user reconnects. Never use SteamCMD, the Steam Web API, `steamcommunity.com`, browser automation, or HTTP requests as a verification fallback.
+
+- Bind the exact item ID, owner, app, visibility, ban state, and required tags. For content, verify that the client-managed install is current and compare its package files against the staged package. Do not treat an upload acknowledgement or a stale install as proof.
+- For a localized release, verify English (`english`) and Korean (`koreana`) once each. If both match and all requested submissions succeeded, locale verification is complete; do not read back the other languages. Skip locale readback for content-only uploads. For fields unavailable through the client API, report the verification limit.
+- Keep at most one network-bearing UGC request in flight, then wait at least one second after completion before sending another. Stop immediately on rate limiting, access denial, offline status, or timeout. Do not retry automatically or switch clients, accounts, IPs, or endpoints. Respect any reported cooldown and resume only outstanding checks on later user authorization.
+
+### Workshop 패치노트 규칙
+
+SteamCMD VDF의 `changenote`는 첫 줄에 `Probably Translated <VERSION>`을 쓰고, `<VERSION>`에는 배포 패키지의 `manifest.xml`에 있는 `ModVersion` 값을 넣는다. 이후 실제로 배포된 수정사항을 한국어로 작성하고, 각 항목을 별도 줄에 `- `로 시작한다. 아래 두 항목은 형식 예시이며, 최소·최대 개수 제한은 없다.
+
+```text
+Probably Translated <VERSION>
+- 수정사항 1
+- 수정사항 2
+```
+
+세션이나 작업자의 의견·추측, 누락·미번역 데이터와 그 수치, 아직 반영되지 않은 작업은 패치노트에 넣지 않는다. 필요한 누락 정보는 내부 검증 기록에만 남긴다.
 
 ## Regenerate managed route bindings
 

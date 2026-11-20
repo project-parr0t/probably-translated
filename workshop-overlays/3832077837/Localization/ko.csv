@@ -1,0 +1,486 @@
+liquid_dream_toxin,드림 톡신
+injector_name,드림 톡신 주사기
+injector_desc,"상층 구역 미용 클리닉에서 인기리에 쓰이는 제품입니다. 정제한 드림 톡신을 안면 근육에 극소량 주사하면 몇 시간 만에 주름이 펴지고, 사진에 가장 잘 나오는 표정으로 얼굴이 굳습니다. 클리닉에서는 제약 등급 이상만 받습니다."
+injector_flavor,미소는 선택 사항입니다.
+formula_name,드림 톡신 제조법
+formula_step_1,"[[section:1단계: 재료 준비]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 드림 캡 추출물과 나이트메어 추출물을 따로 준비합니다\n- 만드는 법은 화학 입문 가이드의 드림 더스트 항목을 참고하세요"
+formula_step_2,"[[gap:-4]]\n[[section:2단계: 혼합 및 냉각]]\n[[image:vanilla_chem_ext:fridge|w=24|h=24|gap=6|float=left]]\n- 두 추출물을 1:1로 섞습니다\n- 용기 속 전체 액체의 0.5%~5%만큼 산을 넣어 약산성으로 만듭니다"
+formula_step_3,"- 냉장고의 냉장 칸에서 2~8°C로 식히면 재료가 드림 톡신으로 바뀝니다"
+formula_step_4,"[[section:3단계: 정제(선택)]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- (선택) 100°C를 넘겨 가열해 남은 추출물을 태워 없앱니다. 드림 톡신 자체는 열에 안정적입니다\n- (선택) 산과 같은 양의 염기를 넣어 중화하고 불용성 찌꺼기를 걸러 냅니다"
+formula_step_5,"[[section:4단계: 증발]]\n[[image:vanilla_chem_ext:evaporator_b|w=24|h=24|gap=6|float=left]]\n- 용기를 증발기에 넣습니다\n- 증발기에 전력을 공급할 에너지 셀이 있는지 확인합니다\n- 증발이 끝나는 다음 날까지 기다립니다"
+formula_step_6,"[[section:5단계: 완성]]\n[[image:vanilla_chem_ext:chem_finisher_b|w=24|h=24|gap=6|float=left]]\n- (필수) 물과 알코올이 모두 증발하면 용기를 화학 완성기에 넣습니다\n- 드림 톡신 주사기 레시피를 선택합니다\n- 출력 버튼을 누릅니다\n- (선택) 성분 분광기로 순도를 확인합니다"
+liquid_calcite,방해석
+liquid_quartz,규사
+liquid_quicklime,생석회
+liquid_calcium_carbonate,탄산칼슘
+liquid_water_glass,물유리
+liquid_silica_gel,실리카겔
+ore_notes_name,광석 화학 노트
+ore_notes_intro,"[[section:소개]]\n[[image:vanilla_chem_ext:chem_module|w=24|h=24|gap=6|float=left]]\n- 화학 장비 모듈을 4개 장착한 블렌더만 금속 광석을 분쇄할 수 있습니다\n- 화학 장비 모듈을 장착한 가열판만 120°C와 150°C에 도달할 수 있습니다"
+ore_notes_base,"[[section:분기 1: 염기 정제|fill=#41603F]]"
+ore_notes_base_1,"[[section:1단계: 재료 준비]]\n[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 블렌더에 액체 용기를 장착합니다\n- 금속 광석을 넣습니다\n- 광석을 갈아 방해석을 얻습니다\n- (선택) 코튼 직물로 규사를 걸러 냅니다"
+ore_notes_base_2,"[[section:2단계: 소성]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 앞 단계에서 사용한 용기를 가져옵니다\n- 용기를 가열판에 올립니다\n- 150°C를 넘겨 가열해 방해석을 생석회로 바꿉니다\n[[gap:4]]\n[[text:참고: 생석회를 만드는 동안에는 물기가 없어야 합니다.|color=#853737|align=center]]"
+ore_notes_base_3,"[[gap:-4]]\n[[section:3단계: 정제]]\n- 정제할 염기에 만든 생석회를 넣고 반응이 끝날 때까지 기다립니다. 염기는 전체 액체의 50%를 넘어야 하며, 생석회는 화학 오염물보다 조금 더 많이 넣습니다\n- 염기가 50%를 넘으면 중금속이 수산화물 찌꺼기로 저절로 가라앉습니다\n- (선택) 80~120°C로 가열하면 반응이 빨라집니다\n- (선택) 정수 필터로 탄산칼슘과 남은 생석회를 걸러 냅니다"
+ore_notes_base_4,"[[section:4단계: 정제한 염기 회수]]\n- 정제한 염기를 보관합니다\n- (선택) 성분 분광기로 순도를 확인합니다"
+ore_notes_acid,"[[page]]\n[[section:분기 2: 산 정제|fill=#41603F]]"
+ore_notes_acid_1,"[[section:1단계: 재료 준비]]\n[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 블렌더에 금속 광석을 넣습니다\n- 광석을 갈아 규사를 얻습니다"
+ore_notes_acid_2,"[[section:2단계: 가열]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 앞 단계에서 사용한 용기를 가져옵니다\n- 용기를 가열판에 올립니다\n- 규사와 같은 양의 염기를 넣습니다. 두 재료는 1:1로 반응합니다\n- 120°C를 넘겨 가열하면 규사가 녹아 물유리가 됩니다"
+ore_notes_acid_3,"[[gap:-4]]\n[[section:3단계: 정제]]\n- 앞 단계에서 사용한 용기를 가져옵니다\n- 정수 필터로 용액을 거릅니다\n- 물유리와 같은 양의 산을 넣고 실리카겔이 생길 때까지 기다립니다\n- (선택) 코튼 직물로 굵은 오염물을 걸러 냅니다\n- 정제할 산에 만든 실리카겔을 넣고 100°C를 넘겨 가열한 뒤 반응이 끝날 때까지 기다립니다. 산은 전체 액체의 80%를 넘어야 하고, 실리카겔은 화학 오염물 양의 25%보다 조금 더 넣습니다\n[[section:4단계: 마무리 정제(선택)]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- (선택) 용기를 냉장고의 냉동 칸에 넣어 중금속을 제거합니다\n- (선택) 정수 필터로 용액을 거릅니다"
+ore_notes_acid_4,"[[section:5단계: 정제한 산 회수]]\n- 정제한 산을 보관합니다\n- (선택) 성분 분광기로 순도를 확인합니다"
+liquid_yeast_wine,생 와인 효모
+liquid_yeast_super,생 슈퍼 효모
+liquid_yeast_red,생 적색 효모
+liquid_methanol,메탄올
+liquid_ice,얼음
+yeast_hint,용기에 끌어다 놓아 녹이면 생효모가 {0} mL 추가됩니다.
+yeast_hint_microbes,용기에 끌어다 놓아 녹이면 생효모 {0} mL와 미생물 {1} mL가 추가됩니다.
+yeast_hint_reusable,용기에 끌어다 놓으면 생효모가 {0} mL 추가됩니다. 소모되지 않아 몇 번이고 사용할 수 있습니다.
+scanner_temperature," ({0} °C)"
+liquid_acetic_acid,아세트산
+liquid_ethyl_acetate,아세트산 에틸
+recipe_blended_wine,혼합 와인 (750 mL)
+blended_wine_name,혼합 {0}
+blended_wine_desc,"알코올, 물, 아세트산 에틸을 섞어 만든 와인입니다. 라벨에도 그 사실을 솔직하게 밝혔습니다."
+setting_water_boil,가열 시 물 증발 속도 (%)
+setting_water_boil_tooltip,"100°C를 넘겼을 때 물이 끓어 줄어드는 속도입니다. 100은 기본 게임 설정으로, 용기에 든 물이 초당 2%(최소 0.1 mL)씩 줄어듭니다. 끓을 때만 적용되며 증발기나 다른 액체에는 적용되지 않습니다."
+label_genuine,정품
+label_blended,혼합
+category_blended_wine,와인 품질
+category_wine_blend,생산 방식
+making_notes_name,혼합 와인 제조법
+making_1,"[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 블렌더에 액체 용기를 장착합니다\n- 밀 캡, 드림 캡, 나이트메어 캡처럼 식물성 물질을 얻을 수 있는 재료를 넣습니다\n- 재료를 갑니다. 드림 캡 곤죽과 나이트메어 캡 곤죽도 가열하면 식물성 물질이 됩니다\n[[section:8단계: 아세트산 제조]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 앞 단계에서 사용한 용기를 가져옵니다\n- 용기를 가열판에 올립니다\n- 100°C를 넘겨 물기가 없어질 때까지 끓인 다음 150°C를 넘겨 건류하면 식물성 물질이 아세트산과 탄화물로 바뀝니다"
+making_2,"[[section:9단계: 아세트산 에틸 제조]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 아세트산과 같은 양의 알코올을 넣습니다\n- 전체 액체의 1%만큼 산을 넣습니다\n- 60~75°C로 가열하면 아세트산과 알코올이 반응해 아세트산 에틸이 됩니다"
+making_3,"[[section:10단계: 생성물 정제(선택)]]\n- 에스터화가 끝나면 염기로 중화합니다. 염기는 산부터 중화한 뒤 남은 아세트산과 반응합니다\n- 정수 필터로 찌꺼기를 걸러 냅니다. 남은 아세트산 에틸, 알코올, 물은 그대로 쓸 수 있습니다"
+making_4,"- 전체 액체의 알코올 비율이 20~25%, 아세트산 에틸은 액체 1000 mL당 1~2 mL, 그 밖의 불순물은 1% 이하가 되도록 섞습니다"
+making_5,"[[section:12단계: 완성]]\n[[image:vanilla_chem_ext:chem_finisher_b|w=24|h=24|gap=6|float=left]]\n- 용기를 화학 완성기에 넣습니다\n- 혼합 와인 레시피를 선택합니다\n- 출력 버튼을 누릅니다\n- (선택) 성분 분광기로 순도를 확인합니다\n[[gap:8]]\n[[text:참고: 혼합 와인은 숙성할 수 없으며 한 병에 750 mL가 들어갑니다|color=#3D823F|align=center]]"
+making_6,"[[section:경고: 메탄올 함량이 0.1%를 넘으면 공중 보건에 위험합니다|fill=#853737|color=#FFFFFF]]"
+selling_notes_name,혼합 와인 판매법
+selling_1,"[[section:혼합 와인 품질 점수]]\n- 기본 점수: +1\n- 알코올이 전체 액체의 25% 초과: +2\n- 알코올이 전체 액체의 20%~25%: +3\n- 알코올이 전체 액체의 5%~20%: +2\n- 알코올이 전체 액체의 5% 미만: -3\n- 아세트산 에틸 없음: -2\n- 액체 1000 mL당 아세트산 에틸 0.5 mL 미만: -1\n- 액체 1000 mL당 아세트산 에틸 4 mL 초과: -1\n- 액체 1000 mL당 아세트산 에틸 1~2 mL: +1\n- 불순물(물, 알코올, 아세트산 에틸 이외의 성분)이 전체 액체의 2% 초과: -1\n- 불순물이 전체 액체의 1% 미만: +1"
+selling_2,"[[gap:4]]\n[[section:혼합 와인 품질 등급]]\n- 6점 이상: 마스터 빈티지\n- 5점: 리저브\n- 3~4점: 양산 와인\n- 2점: 자가 양조\n- 1점: 양동이 술"
+selling_3,"[[section:혼합 와인 라벨]]\n- 라벨기로 혼합 와인의 두 라벨을 바꿀 수 있습니다. 하나는 와인 품질, 다른 하나는 생산 방식(정품/혼합)입니다\n- 혼합 라벨을 붙이면 가격 -15%\n- 상층 구역 손님은 혼합 와인을 사지 않습니다"
+selling_4,"[[page]]\n[[section:허위 라벨이 들통나는 경우]]\n- 품질을 2등급 이상 높게 표시하면 모든 손님이 알아챕니다\n- 품질을 1등급 높게 표시하면 상층 구역 손님, 관광객, 화학 성분을 검사하는 손님이 알아챕니다"
+selling_5,"- 실제 품질 등급을 표시하고 정품 라벨을 붙이면 화학 성분을 검사하는 손님만 알아챕니다\n- 실제 품질이 4등급 이상인 와인을 1등급 낮게 표시하면 아무도 알아채지 못합니다"
+selling_6,- 거래 게시판 주문에서는 모든 허위 라벨이 들통납니다
+selling_7,"- 들통나면 실제 품질 등급의 혼합 와인으로 팔립니다\n- 들키지 않고 허위 라벨을 붙여 판매한 건은 사기로 누적됩니다"
+making_alcohol,"[[section:1단계: 재료 준비]]"
+making_alcohol_1,"[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 블렌더에 액체 용기를 장착합니다\n- 뉴트리프루트를 몇 개 넣습니다\n- 뉴트리프루트를 갈아 곤죽을 만듭니다"
+making_alcohol_2,"[[section:2단계: 당 제조]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 앞 단계에서 사용한 용기를 가져옵니다\n- 용기를 가열판에 올립니다\n- 전체 액체의 0.5%~1%만큼 산을 넣습니다\n- 90°C를 넘겨 가열하면 녹말이 가수 분해되어 당으로 바뀝니다\n[[gap:8]]\n[[text:참고: 이 단계에서 가하는 열로 미생물도 죽습니다|color=#3D823F|align=center]]"
+making_alcohol_3,"[[gap:-4]]\n[[section:3단계: 중화]]\n- 산과 염기의 합이 전체 액체의 1% 미만이 될 때까지 염기를 넣습니다\n[[section:4단계: 발효]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 45°C 미만으로 식힙니다"
+making_alcohol_4,"- 용기에 효모를 녹이고 밤새 20~35°C로 유지합니다. 효모가 증식하면서 당을 같은 부피의 알코올로 바꿉니다(1:1)\n- 와인 효모는 알코올 도수 12%에서, 슈퍼 효모는 18%에서 발효를 멈춥니다\n- 당이 많은 곤죽에는 슈퍼 효모를 권장합니다\n[[gap:8]]\n[[text:참고: 적색 효모를 쓰거나 곤죽을 완전히 살균하지 않으면 발효 중 메탄올이 생깁니다. 게임에서는 65~75°C로 가열하면 메탄올이 증발합니다|color=#853737]]"
+making_alcohol_5,"[[gap:-4]]\n[[section:5단계: 알코올 농축]]\n[[image:vanilla_chem_ext:fridge|w=24|h=24|gap=6|float=left]]\n- 용기를 냉장고의 냉동 칸에 넣어 물을 얼립니다. 얼음을 제외한 액체에서 물 이외의 성분이 약 25%가 되면 꺼냅니다\n- 코튼 직물로 얼음을 걸러 내면 알코올이 전체의 약 25%까지 농축됩니다\n[[section:6단계: 알코올 정제(선택)]]\n[[image:vanilla_chem_ext:evaporator_b|w=24|h=24|gap=6|float=left]]\n- 증발기 용매 회수 모듈을 장착한 증발기에 용기를 넣습니다\n- 증발기에 전력을 공급할 에너지 셀이 있는지 확인합니다\n- 증발이 끝나는 다음 날까지 기다립니다"
+making_ester,"[[section:7단계: 아세트산 재료 준비]]"
+making_wine,"[[section:11단계: 혼합]]"
+advanced_fabric_name,고급 코튼 직물
+advanced_fabric_desc,"코튼 직물처럼 굵은 입자를 걸러 내며(기공 150), 매일 내구도가 1000 회복됩니다."
+advanced_fabric_flavor,자가 세척 코팅을 입혀 짠 직물입니다. 세탁할 필요가 없습니다.
+effect_production,과일 100 g당 {1} +{0} mL (다른 작물은 개당 +{2} mL)
+setting_fridge_cool,냉장고 냉각 속도 (%)
+setting_fridge_cool_tooltip,"전력이 공급되는 냉장고에서 용기가 목표 온도에 도달하는 속도입니다. 100은 기본 게임 설정입니다(냉장 칸 0.5°C/s, 냉동 칸 1°C/s). 기본값은 400입니다."
+setting_ferment,효모 발효 속도 (%)
+setting_ferment_tooltip,"밤사이 효모가 당을 알코올로 바꾸는 속도입니다. 기본값은 100이며, 이때 생효모 1 mL는 하룻밤에 당 24 mL를 알코올 24 mL로 바꿉니다."
+guide_book_name,고급 화학 안내서
+guide_book_desc,은퇴한 화학자가 남긴 공정 기록을 모은 책입니다.
+guide_book_intro,"[[gap:6]]\n이 안내서는 드림 톡신, 광석 화학, 혼합 와인 제조와 판매, 핵폐기물 재처리, 맥주 양조, 크래카인 정제, 행동불능제 생산, 염수 전기분해를 다룹니다."
+liquid_spent_fuel,사용후핵연료
+liquid_pu_dissolved,용해된 플루토늄
+liquid_fission_products,핵분열 생성물
+liquid_pu_extract,플루토늄 추출물
+liquid_plutonium,플루토늄
+opened_waste_name,개봉된 핵폐기물
+opened_waste_desc,사용후핵연료가 500 mL 들어 있습니다. 붕괴열을 내뿜는 용기입니다. 주 인벤토리와 진열장 또는 안쪽과 바깥쪽 카운터에만 둘 수 있습니다.
+opened_waste_flavor,너무 오래 쳐다보지 마세요.
+vitrified_name,유리화 폐기물
+vitrified_desc,핵분열 생성물이 유리 속에 굳은 채 강철 용기에 밀봉되어 있습니다. 게임 내에서 무해하며 버릴 수 있습니다.
+vitrified_flavor,만 년 뒤에 다시 개봉할 것.
+ampoule_name,플루토늄 앰풀
+ampoule_desc,"플루토늄 용액이 0.1 mL 들어 있습니다. 음료나 와인에 끌어다 놓으면 핵 음료로 바뀌고 가치가 50 오릅니다. 플루토늄 화학 배터리에 끌어다 놓으면 매일 밤 2 kJ씩 자가 충전됩니다."
+ampoule_flavor,라벨에 쓰인 말: 마시지 마시오.
+nuclear_drink_name,핵 {0}
+merchant_name,폐기물 중개상
+out_of_stock_sign_section_vce,화학 확장
+merchant_line,이 통을 치워 달라고 돈 주는 사람이 있고 사겠다고 돈 주는 사람이 있죠. 그쪽은 사려는 쪽 같네요.
+radiation_notice,속이 메스껍고 온몸에 힘이 빠진 채 잠에서 깹니다. 방사선병: 판매가 -{0}%.
+radiation_cured,이뮤니백스 덕분에 방사선병 증상이 완화됐습니다. 현재: -{0}%.
+radiation_immunivax_no_effect,주사를 맞았지만 아무 변화도 없고 방사선병도 나아지지 않았습니다. 정품이 아니었을 수도 있습니다.
+radiation_penalty,방사선병
+nightlog_radiation_new,방사선에 노출되어 방사선병에 걸렸습니다. 판매가 -{0}%.
+nightlog_radiation_worse,방사선병이 악화됐습니다. 판매가 -{0}%.
+nightlog_radiation_max,방사선병이 더는 악화될 수 없을 정도로 심해졌습니다. 판매가 -{0}%.
+nc_notes_name,핵폐기물 재처리 기록
+nc_notes_warning,"[[section:경고: 무해하게 처리할 수 있을 때만 여세요!|fill=#853737|color=#FFFFFF|w=259|h=16|align=center]]"
+nc_notes_1,"[[section:1단계: 개봉]]\n- 게임에서는 쇠지렛대로 드럼통을 엽니다. 핵분열 생성물은 반드시 안전하게 처리해야 합니다.\n- 열린 드럼통은 안전하게 보관하세요. 핵분열 생성물은 통에서 흘러나오지 않으며 밖으로 새어 나가서도 안 됩니다."
+nc_notes_2,"[[gap:-4]]\n[[section:2단계: 폐기물 처리]]\n- 미처리 상태의 핵폐기물은 위험합니다."
+nc_notes_3,"[[section:3단계: 재처리 준비]]\n- 재처리가 끝나기 전까지 드럼통의 내용물은 방사성 폐기물로 취급합니다."
+nc_notes_4,"[[section:4단계: 재처리 결과물]]\n- 게임에서 플루토늄은 핵폐기물을 재처리할 때 얻을 수 있는 결과물입니다.\n[[gap:4]]\n[[text:참고: 재처리 후에도 드럼통에는 폐기물이 남습니다.|color=#3D823F|align=center]]"
+nc_notes_5,"[[gap:-4]]\n[[section:5단계: 분리된 폐기물]]\n- 회수한 물질과 달리 드럼통에 남은 폐기물은 폐기 대상입니다."
+nc_notes_6,"[[section:6단계: 플루토늄 회수]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 플루토늄 회수는 게임 속 재처리 기능입니다.\n- 회수한 플루토늄은 그 자체로 완제품이 아닙니다.\n- 완제품은 8단계의 플루토늄 앰풀입니다."
+nc_notes_7,"[[section:7단계: 유리화]]\n- 핵폐기물은 재처리 후에도 위험합니다.\n- 게임에서는 남은 핵분열 생성물을 유리 속에 가둡니다.\n- 핵분열 생성물이 스테인리스강 용기에 밀봉되면 안전하게 폐기할 수 있습니다."
+nc_notes_8,"[[section:8단계: 플루토늄]]\n[[image:vanilla_chem_ext:chem_finisher_b|w=24|h=24|gap=6|float=left]]\n- 화학 완성기에서 플루토늄 앰풀 레시피를 선택합니다.\n- 출력 버튼을 누릅니다.\n[[gap:4]]\n[[text:팁: 음료나 와인에 플루토늄 앰풀을 넣으면 50 크레딧 더 비싼 핵 음료가 됩니다.|color=#3D823F|align=center]]"
+nc_notes_9,"[[gap:-2]]\n[[section:안전 수칙: 방사선 노출 방지|fill=#853737]]\n- 처리하지 않은 폐기물 곁에서 절대 하룻밤을 보내지 마세요. 방사선병에 걸리며 이뮤니백스 주사기로만 치료할 수 있습니다."
+refuse_blended_wine,"그건 우리 와인 저장고에 들일 수 없어요."
+refuse_nuclear_drink,"그런 음료를 살 돈은 없어요. 그냥 평범한 걸로 주세요."
+refuse_nuclear_drink_lower,"그런 음료를 살 돈은 없어요. 그냥 평범한 걸로 주세요."
+ore_needs_modules,"금속 광석은 화학 장비 모듈이 {0}개 장착된 블렌더에서만 분해됩니다(현재 {1}개)."
+beer_keg_name,맥주통
+beer_keg_desc,"직접 빚은 맥주 2 L. 더블클릭할 때마다 한 잔 분량이 나옵니다. 상온에서는 캔맥주 한 캔(약 333 mL), 냉장 온도(2-8°C)에서는 생맥주 한 잔(500 mL)이 나옵니다."
+beer_keg_flavor,"바닥에 찍힌 문구: 차갑게 드세요."
+beer_can_name,캔맥주
+beer_can_desc,"직접 빚은 맥주 한 캔. 전원이 켜진 냉장고에 넣으면 차갑게 식습니다."
+beer_can_flavor,"뚜껑을 딸 때 나는 소리가 제일 좋다."
+draft_beer_name,생맥주
+draft_beer_desc,"차가운 맥주통에서 갓 따른 생맥주. 거품이 아직 살아 있습니다. 하룻밤 지나면 김이 빠집니다."
+draft_beer_flavor,"차가울 때 마시세요."
+flat_beer_name,김 빠진 생맥주
+flat_beer_desc,"거품은 사라진 지 오래입니다. 캔맥주 값밖에 못 받습니다."
+beer_tier_undrinkable,음용 불가
+beer_tier_normal,일반
+beer_tier_premium,고급
+category_beer_quality,맥주 품질
+recipe_beer_keg,맥주통
+beer_tapped,"생맥주 한 잔을 따랐습니다. 맥주통에 {0} mL 남았습니다."
+beer_split,"맥주 한 캔을 따랐습니다. 맥주통에 {0} mL 남았습니다."
+beer_keg_tooltip_cold,"온도 {0}°C, 잔량 {1} mL: 차갑게 식었습니다. 더블클릭하면 생맥주가 나옵니다."
+beer_keg_tooltip_warm,"온도 {0}°C, 잔량 {1} mL: 더블클릭하면 캔맥주가 나옵니다. 생맥주를 따르려면 2-8°C로 식히세요."
+beer_notes_name,맥주 양조 기록
+beer_1,"[[section:1단계: 재료 준비]]\n[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 블렌더에 액체 용기를 장착합니다.\n- 뉴트리프루트를 600-750 g 넣습니다.\n- 블렌더로 뉴트리프루트를 으깹니다.\n[[section:2단계: 양조]]\n- 앞 단계에서 으깬 뉴트리프루트를 가수분해한 뒤 중화합니다.\n- 방법은 이 안내서의 혼합 와인 레시피 2-3단계를 참고하세요.\n- (선택 사항) 효모가 더 잘 발효하도록 물을 넣어 최대 1.2 L까지 채웁니다.\n- 효모 한 팩을 넣고 이틀 밤을 기다리면 알코올이 든 발효액이 됩니다.\n- 깨끗한 물을 부어 액체를 2000 mL로 맞춥니다.\n[[gap:6]]\n[[text:참고: 베이스워터를 쓰면 일반 맥주가 되고, 고급수나 정제수를 쓰면 고급 맥주가 됩니다.|color=#3D823F|align=center]]"
+beer_2,"- 고급: 알코올 5-8%, 살아 있는 효모 0.1-1%, 당분 최대 4%, 단백질 최대 1%(모두 전체 기준). 불순물(물, 알코올, 효모, 당분, 단백질을 제외한 성분)은 물과 불순물을 합친 양의 최대 1%입니다."
+beer_3,"- 일반: 알코올 8-12%, 살아 있는 효모 0.1% 미만 또는 1-2%, 당분 4-8%, 단백질 1-2%, 불순물 1-2%. 고급과 일반 기준을 모두 벗어나거나 메탄올이 전체의 0.1%를 넘으면 음용 불가입니다."
+beer_4,"[[gap:-2]]\n[[section:3단계: 마무리]]\n[[image:vanilla_chem_ext:chem_finisher_b|w=24|h=24|gap=6|float=left]]\n- (필수) 액체가 2000 mL를 넘고 알코올이 들어 있는지 확인합니다.\n- 화학 완성기에 용기를 넣습니다.\n- 맥주통 레시피를 선택합니다.\n- 출력 버튼을 누릅니다."
+beer_5,"[[gap:6]]\n[[text:참고: 화학 완성기로 맥주통을 채울 때는 불순물이 생기지 않으므로 화학 장비 모듈이 필요 없습니다.|color=#3D823F|align=center]]"
+beer_6,"[[page]]\n[[section:맥주 따르기와 보관]]\n- 팁: 상온의 맥주통을 더블클릭하면 캔맥주 1개가 나옵니다. 한 통에서 최대 6캔까지 따를 수 있습니다.\n- 전원이 켜진 냉장고의 냉각 구역에 맥주통을 넣으세요. 2-8°C가 되면 더블클릭해 생맥주를 따를 수 있습니다. 한 통에 최대 4잔입니다.\n- 맥주통을 넣으려면 냉장고의 저장 공간을 두 번 업그레이드해야 합니다."
+beer_7,"- 생맥주는 당일에만 제값을 받습니다. 하룻밤이 지나면 탄산이 대부분 빠져 캔맥주 값밖에 못 받습니다.\n- 캔맥주는 냉장고에서 차갑게 식히면 더 비싸게 팔 수 있습니다."
+beer_keg_empty,"마지막 잔을 따랐습니다. 맥주통이 비었습니다."
+beer_table_name,맥주 품질 기준표
+beer_table_head,"[[table:fills=#D8C6A2,#7F916C,#B99A63,#95645D|colors=#3A3A3A,#F4EEDB,#2F2A24,#F4EEDB|w=230|rowh=10.5|rowgap=1|cellgap=1|size=5.6|padding=2.5|align=left,center,center,center]]\n[[row:항목|고급|일반|음용 불가|fill=#665441|color=#F5EAD1|head=1]]"
+beer_table_alcohol,"[[row:알코올|5-8%|8-12%|그 외]]"
+beer_table_yeast,"[[row:살아 있는 효모|0.1-1%|1-2% *|2% 초과]]"
+beer_table_sugar,"[[row:당분|최대 4%|4-8%|8% 초과]]"
+beer_table_protein,"[[row:단백질|최대 1%|1-2%|2% 초과]]"
+beer_table_impurity,"[[row:불순물 **|최대 1%|1-2%|2% 초과]]"
+beer_table_methanol,"[[row:메탄올|-|-|0.1% 초과]]"
+beer_table_note_1,"[[gap:6]]\n- 불순물을 제외한 모든 비율은 맥주통 전체의 내용물을 기준으로 합니다. 항목별 등급 중 가장 낮은 것이 최종 등급입니다."
+beer_table_note_2,"- * 살아 있는 효모가 0.1% 미만이면(탄산 없음) 이 항목도 일반 등급입니다."
+beer_table_note_3,"- ** 불순물은 물, 알코올, 효모, 당분, 단백질을 제외한 성분이며, 물과 불순물을 합친 양을 기준으로 비율을 계산합니다. 베이스워터로 빚으면 보통 1-2%로 일반 등급입니다. 고급 등급은 고급수나 정제수로만 얻을 수 있습니다."
+liquid_alkaloid,알칼로이드
+xinke_plant_name,신커 관목
+xinke_seed_name,신커 씨앗
+xinke_seed_desc,"가뭄에 강한 상록 관목의 씨앗입니다. 한 번 심으면 여러 번 수확할 수 있습니다. 붉은 열매 하나에 씨앗이 하나씩 들어 있습니다."
+xinke_leaf_name,신커 잎
+xinke_leaf_name_s,작은 신커 잎
+xinke_leaf_name_l,큰 신커 잎
+xinke_leaf_desc,"가죽처럼 질기고 길쭉한 신커 잎. 알칼로이드가 조금 들어 있습니다. 하층 구역 사람들은 기운을 내려 이 잎을 씹습니다. 값이 싸고 효과가 약합니다."
+xinke_leaf_flavor,"한동안 씹다 보면 혀가 얼얼해지고, 그러다 피곤한 줄도 잊는다."
+liquid_crackine_powder,크래카인 염산염 분말
+crackine_vial_name,작은 크래카인 약병
+crackine_vial_desc,"신커 잎에서 정제한 옅은 노란색 가루가 작은 유리병에 들어 있습니다. 잎을 씹는 것보다 효과가 훨씬 강하고 값도 훨씬 비쌉니다."
+crackine_vial_flavor,"아주 조금이면 충분하다. 그러고 나면 아주 조금만 더 원하게 된다."
+crackine_vial_l_name,큰 크래카인 약병
+crackine_regular_1_1,"어제 그 {0} 말이에요… 솔직히 그렇게 깔끔한 건 처음이었어요."
+crackine_regular_1_2,"밤새 누가 머릿속을 말끔히 닦아 놓은 기분이었어요."
+crackine_regular_1_3,"좀 더 있어요? {1} 크레딧 가져왔어요."
+crackine_regular_2_1,"저 또 왔어요. 어제처럼 {0} 주세요."
+crackine_regular_2_2,"오늘은 안 오겠다고 다짐했는데, 결국 또 문 앞까지 왔네요."
+crackine_regular_2_3,"돈 좀 더 가져왔어요. {1} 크레딧이면 돼요?"
+crackine_regular_3_1,"묻지 마세요. 그냥 {0} 주세요."
+crackine_regular_3_2,"일은 미뤘어요. 월세도 나중에 내면 돼요. 괜찮아요. 정말이에요."
+crackine_regular_3_3,"{1} 크레딧. 이게 전부예요."
+crackine_regular_4_1,"{0}… 제발요. 여기 것만 효과가 있어요. 다른 데 건 느낌이 이상해요."
+crackine_regular_4_2,"아침부터 손이 떨려요."
+crackine_regular_4_3,"{1} 크레딧은 어떻게든 모았어요. 물건 몇 개를 팔았어요. 뭘 팔았는지는 묻지 마세요."
+crackine_notes_name,크래카인 정제 기록
+crackine_1,"[[section:1단계: 재료 준비]]\n[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 블렌더에 액체 용기를 장착합니다.\n- 게임 속 재료인 신커 잎을 넣습니다.\n- 블렌더를 작동시키면 신커 잎이 게임 속 정제 재료로 바뀝니다.\n- (선택 사항) 게임에서는 큰 불순물을 제거할 수 있습니다."
+crackine_2,"[[section:2단계: 정제]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 신커 잎에서 얻은 재료는 아직 완성된 분말이 아닙니다.\n- 게임의 정제 단계를 거쳐야 크래카인 분말이 됩니다."
+crackine_3,"- 정제 과정은 게임 내 혼합물 상태에 따라 달라집니다."
+crackine_4,"- 이 단계에서는 신커 성분이 게임 속 분말로 바뀝니다.\n- 결과물은 크래카인 염산염 분말입니다."
+crackine_5,"[[section:3단계: 건조]]\n[[image:vanilla_chem_ext:evaporator_b|w=24|h=24|gap=6|float=left]]\n- 게임에서는 증발기로 건조합니다.\n- 증발기에 에너지 셀이 있어야 작동합니다.\n- 증발기가 작동을 마치도록 다음 날까지 기다립니다.\n[[gap:4]]\n[[text:참고: 게임에서는 건조된 크래카인 분말에도 불순물이 남을 수 있습니다.|color=#3D823F|align=center]]"
+crackine_6,"[[gap:-2]]\n[[section:4단계: 마무리]]\n[[image:vanilla_chem_ext:chem_finisher_b|w=24|h=24|gap=6|float=left]]\n- (필수) 게임의 건조 단계가 끝난 용기를 화학 완성기에 넣습니다.\n- 작은 크래카인 약병 또는 큰 크래카인 약병 레시피를 선택합니다.\n- 출력 버튼을 누릅니다.\n- (선택 사항) 성분 분광기로 순도를 확인합니다."
+crackine_7,"[[section:부록: 제품 특성]]\n- 제약 등급 이상의 크래카인은 중독성이 강합니다.\n- 고순도 크래카인을 팔면 다음 날 반드시 단골이 다시 찾아옵니다.\n- 고순도 크래카인을 매일 팔면 구매자의 예산이 하루에 25%씩 늘어나며 최대 2000 크레딧까지 오릅니다."
+lantern_plant_name,"할로의 등불"
+lantern_seed_name,"할로의 등불 씨앗"
+lantern_seed_desc,"연구실에서 개량한 고추의 씨앗입니다. 수확량이 많지만 영양분이 많이 필요하고, 뿌리가 물을 오염시킵니다."
+lantern_chili_name,"할로의 등불"
+lantern_chili_name_s,"작은 할로의 등불"
+lantern_chili_name_l,"큰 할로의 등불"
+lantern_chili_desc,"연구실에서 개량한 고추입니다. 강력한 진압용 행동불능제의 원료로 쓰입니다."
+lantern_chili_flavor,"너무 오래 개량한 탓에 이제는 양념으로 쓰기에도 영 마땅치 않다. 어차피 정거장 사람 대부분은 양념을 살 형편도 안 되지만."
+liquid_capsaicin,"캡사이신"
+liquid_lantern_ester,"등불 에스터"
+incapacitant_vial_name,"행동불능제 소형 유리병"
+incapacitant_vial_desc,"할로의 등불에서 얻은 등불 에스터를 담은 작은 유리병입니다. 진압에 쓰이면 거리 하나가 통째로 눈을 못 뜰 정도로 독합니다. 보안대와 상층 구역의 사설 경비대가 사들입니다."
+incapacitant_vial_flavor,"합법이고, 허가도 받았고, 용도는 발주서에 적혀 있다."
+lantern_sale_upper_clean,"물건 좋네요. 기록도 깨끗하고요. 앞으로도 그렇게 지내세요."
+lantern_sale_upper_partial,"저희 저택 경비대에 이 물건이 부족했어요. 보안대에 있는 지인에게 당신 얘기를 해 두죠."
+lantern_sale_upper_cleared,"전화 한 통 넣어 뒀어요. 이제 보안대에 남아 있던 기록은 깨끗합니다."
+lantern_sale_upper_slowed,"기록은 지웠고, 수사도 늦춰 달라고 했어요. 상층 구역은 우리를 도운 사람을 잊지 않습니다."
+lantern_sale_security_clean,"보급팀에서 좋아하겠군요. 지금까지 말썽 한번 안 일으키셨더군요. 좋습니다."
+lantern_sale_security_partial,"이번 물량은 저희가 사겠습니다. 기록에서 몇 장이 없어진 모양이군요."
+lantern_sale_security_cleared,"기록 말입니까? 저희한테 그런 건 없습니다."
+lantern_sale_security_slowed,"기록은 없습니다. 수사팀에도 얘기해 두죠. 다음 물량도 당신한테서 사겠습니다."
+refuse_lantern_lower,"우리 얼굴에 뿌려 대는 게 바로 그거잖아요. 그걸 집에 가져가라고요?"
+refuse_lantern_revolution,"지난주 광장에서 우리한테 뿌린 게 바로 이거예요. 어느 쪽 편인지부터 확실히 하세요."
+salt_ore_name,"암염 광석"
+liquid_salt,"소금"
+gas_canister_name,"빈 기체 용기"
+gas_canister_h2_name,"수소 용기"
+gas_canister_cl2_name,"염소 용기"
+gas_canister_mix_name,"수소·염소 혼합 기체 용기"
+gas_canister_hcl_name,"염화수소 용기"
+gas_canister_desc,"압축 기체를 최대 5 L까지 담는 밸브 달린 소형 강철 용기입니다. 게임에서 다른 기체 용기로 드래그하면 내용물을 옮깁니다. 일부 기체는 산 용액으로 표시되는 별도 생성물로 전환할 수 있습니다. 마우스 오른쪽 버튼을 눌러 비웁니다."
+gas_h2,"수소"
+gas_cl2,"염소"
+gas_hcl,"염화수소"
+gas_canister_tooltip_gas,"{0}: {1} mL"
+gas_canister_tooltip_empty,"비어 있음"
+gas_canister_tooltip_total,"{0} / {1} mL, {2} C"
+gas_canister_vent,"기체 비우기"
+gas_canister_vented,"기체 용기가 비었습니다."
+gas_canister_full,"그 기체 용기는 가득 찼습니다."
+gas_canister_needs_water,"이 작업에는 물이 든 용기가 필요합니다."
+gas_canister_saturated,"이미 산 농도가 상한인 40%에 도달했습니다."
+gas_canister_container_full,"용기가 가득 찼습니다."
+electrolyzer_name,"전기분해 장치"
+electrolyzer_desc,"염수 처리 모드가 있는 전기분해 장치입니다. 게임에서 생성물 A 슬롯에 액체 용기를 넣으면 지방 처리 모드로 바뀌어 톨루엔과 수소를 생성하며, 투입구를 비워 두면 공기 처리 모드에서 일산화질소를 생성합니다. 에너지 셀이 필요하며 매일 밤 한 번 작동합니다."
+electrolyzer_manual_name,"전기분해 장치 사용 설명서"
+electrolyzer_manual_short,"전기분해 장치에 동봉된 사용 설명서입니다."
+electrolyzer_manual_flavor,"1. 왼쪽에 에너지 셀을 넣습니다. 매일 밤 전력 24를 소모합니다. 2. 가운데는 재료 투입구입니다. 3. 생성물 슬롯은 A와 B로 나뉩니다. 4. 염수 처리 모드의 결과는 다음 날 생성물 패널에서 확인합니다. 전력이 없거나 생성물을 담을 공간이 부족하면 장치가 멈춥니다. 5. 범용 모듈을 장착할 수 있습니다. 성능을 높이면 처리 속도가 빨라지고, 효율을 높이면 전력 소모가 줄며, 품질에 따라 수율이 달라집니다. 6. 게임에서 생성물 A에 액체 용기를 넣으면 지방 처리 모드로 바뀝니다. 매일 밤 지방 240 mL를 처리하며, 지방 1 mL당 톨루엔 0.8 mL는 생성물 A의 용기에, 수소 0.5 mL는 생성물 B의 빈 기체 용기나 수소 용기에 담깁니다. 7. 투입구 패널 오른쪽 위의 스위치로 켜거나 끌 수 있습니다. 파란색은 켜짐, 빨간색은 꺼짐입니다. 처음에는 꺼져 있으며, 꺼진 상태에서는 전력을 소모하지 않습니다. 8. 게임에서 투입구를 비운 채 켜면 공기 처리 모드로 작동합니다. 매일 밤 일산화질소 375 mL가 생성물 A의 빈 기체 용기나 일산화질소 용기에 담깁니다."
+electrolyzer_label_module,"모듈"
+electrolyzer_label_container,"투입구"
+electrolyzer_label_products,"생성물 A / B"
+electrolyzer_lines_title,"야간 작업: 염수 처리"
+electrolyzer_lines_a,"빨간색 선 → 생성물 A: 수소"
+electrolyzer_lines_b,"파란색 선 → 생성물 B: 염소"
+electrolyzer_lines_base,"염수 용기에 남는 생성물: 염기"
+salt_ore_desc,"지하 암염층에서 캐낸 암염입니다. 대부분 염화나트륨이며, 점토와 다른 광물이 조금 섞여 있습니다."
+salt_order_small,"암염 광석 {0}개를 주문할게요. {1}일 뒤에 배송해 주세요."
+salt_order_large,"암염 광석 {0}개를 주문할게요. {1}일 뒤에 배송해 주세요."
+electrolysis_notes_name,"염수 전기분해 기록"
+electrolysis_1,"[[section:1단계: 재료]]\n[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 블렌더에 액체 용기를 장착합니다.\n- 암염 광석을 몇 개 넣습니다.\n- 재료를 갈아 염화나트륨(소금)을 얻습니다."
+electrolysis_2,"[[section:2단계: 전기분해 장치]]\n[[image:vanilla_chem_ext:icon_electrolyzer|w=24|h=24|gap=6|float=left]]\n- 전기분해 장치는 에너지 셀로 작동합니다.\n- 작업 결과는 다음 날 생성물 패널에서 확인할 수 있습니다."
+electrolysis_3,"[[section:3단계: 혼합 기체 용기]]\n- 혼합 기체 용기의 내용물과 용량은 아이템 정보에서 확인할 수 있습니다."
+electrolysis_4,"[[section:4단계: 염화수소]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 염화수소는 기체 용기에 담기는 별도의 생성물입니다."
+electrolysis_5,"[[page]]\n[[section:5단계: 산 용액의 농도]]\n- 이 게임에서 산의 농도는 최대 40%입니다. 용액에 더 녹지 않는 기체는 용기에 남습니다.\n- 산 용액의 농도는 성분 분광기로 확인할 수 있습니다.\n[[gap:4]]\n[[text:참고: 염기가 있으면 염화수소는 먼저 염기를 중화하는 데 소모됩니다.|color=#853737|align=center]]"
+electrolysis_6,"[[section:6단계: 염기]]\n[[image:vanilla_chem_ext:evaporator_b|w=24|h=24|gap=6|float=left]]\n- 염기는 염수 처리 후 투입구의 용기에 남는 생성물입니다.\n- 증발기는 에너지 셀로 작동하며, 작업은 다음 날 끝납니다."
+electrolysis_7,"[[page]]\n[[section:부록: 재료]]\n- GP 광업에 전화로 암염 광석을 주문할 수 있습니다(1일 뒤 6개 또는 2일 뒤 12개, 350 크레딧을 쓰면 해금).\n- 아무 블렌더로나 암염 광석을 갈 수 있습니다. 광석 하나에서 소금 약 80 mL와 소량의 점토 및 광물이 나옵니다.\n- 카르텔 상인에게서 빈 기체 용기를 살 수 있습니다.\n- 기체 용기의 용량은 5 L입니다. 마우스 오른쪽 버튼을 눌러 비웁니다."
+electrolysis_8,"[[section:부록: 장치]]\n[[text:<u>전기분해 장치</u>|align=left|size=9]]\n[[gap:8]]\n[[image:vanilla_chem_ext:icon_electrolyzer|w=24|h=24|gap=6|float=left]]\n- 카르텔 상인이 빈 기체 용기 두 개와 함께 판매합니다.\n- 왼쪽에는 에너지 셀, 가운데에는 투입구, 오른쪽 위에는 생성물 A, 오른쪽 아래에는 생성물 B 슬롯이 있습니다.\n- 장치는 매일 밤 작동하며, 성능이 높을수록 더 많이 처리합니다.\n- 전력이 없거나 생성물을 담을 공간이 부족하면 장치가 멈춥니다.\n- 품질 -100~+100에서 생성량이 0.5~1.5배로 바뀝니다.\n- 게임에서 생성물 A에 액체 용기를 넣으면 지방 처리 모드로 바뀝니다. 결과는 생성물 A와 B에서 확인할 수 있습니다."
+electrolysis_9,"[[omit]]"
+lantern_notes_name,"행동불능제 제품 기록"
+lantern_1,"[[section:1단계: 할로의 등불]]\n[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 할로의 등불은 연구실에서 개량한 매운 고추입니다."
+lantern_2,"[[section:2단계: 등불 에스터]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 등불 에스터는 행동불능제의 원료입니다.\n[[gap:4]]\n[[text:주의: 자극성 물질입니다.|color=#853737]]\n[[gap:4]]\n[[text:팁: 성분 분광기로 용기 속 성분을 확인할 수 있습니다.|color=#3D823F|align=center]]"
+lantern_3,"[[section:3단계: 증발기]]\n[[image:vanilla_chem_ext:evaporator_b|w=24|h=24|gap=6|float=left]]\n- 증발기는 에너지 셀로 작동합니다.\n- 작업 결과는 다음 날 확인할 수 있습니다."
+lantern_4,"[[section:4단계: 제품 출력]]\n[[image:vanilla_chem_ext:chem_finisher_b|w=24|h=24|gap=6|float=left]]\n- 화학 완성기에서 '행동불능제 소형 유리병' 레시피를 선택합니다.\n- '출력' 버튼을 누릅니다.\n- (선택 사항) 성분 분광기로 순도를 확인합니다."
+lantern_5,"[[page]]\n[[section:부록: 재료]]\n- 카르텔 상인에게서 할로의 등불 씨앗을 살 수 있습니다.\n- 할로의 등불은 한해살이 식물이며, 수확할 때 씨앗 하나를 돌려받습니다.\n- 자라는 동안 영양분을 많이 소모하며, 뿌리가 주변을 오염시킵니다."
+lantern_6,"[[section:부록: 제품]]\n- 행동불능제는 합법 상품입니다. 의료품이나 무기를 구하는 상층 구역 및 보안대 손님들이 사며, 용병들도 자주 찾습니다.\n- 하층 구역 주민과 혁명군, 그리고 대다수의 일반 손님은 사기를 거부합니다."
+lantern_7,"- 상층 구역이나 보안대에 행동불능제를 팔면 판매가 × 순도 × 5만큼 보안대 기록에서 범죄가 지워집니다. 가장 중대한 범죄부터 지워집니다."
+lantern_8,"- 범죄 기록이 모두 지워지고 나면 남은 값이 100을 채울 때마다 수사 진행도가 1씩 내려갑니다."
+pu_battery_name,"플루토늄 화학 전지"
+pu_battery_desc,"옆면에 창이 달린 200 kJ 전지입니다. 전지 위로 플루토늄 앰풀을 드래그하면 앰풀 하나당 야간 자가 충전량이 2 kJ 늘어납니다. 최대 10개까지 넣을 수 있습니다."
+pu_battery_flavor,"잭슨 박사는 이게 원자력 전지가 아니라 화학 전지라고 우긴다. 차이는 청구서에 뭐라고 적느냐다."
+pu_battery_tooltip_fuel,"플루토늄: 앰풀 {0} / {1}개 (앰풀당 매일 밤 {2} kJ 자가 충전)"
+pu_battery_tooltip_hint,"플루토늄 앰풀을 전지 위로 드래그하면 자가 충전이 시작됩니다."
+pu_battery_fuelled,"플루토늄 추가: 매일 밤 {0} kJ 자가 충전 ({1} / {2})"
+cartel_network_name,카르텔 네트워크
+cartel_network_joined,마침내 카르텔에 진 빚을 다 갚았다. 이제 카르텔은 당신과 손잡기를 원한다. 하지만 그 결정은 어느 한쪽이 혼자 내릴 수 있는 게 아닐지도 모른다.
+cartel_note_name,쪽지
+cartel_note_desc,접힌 봉투. 검은 봉인 밀랍에 눈 모양이 찍혀 있다.
+cartel_note_background,vce_cartel_note_en
+cartel_note_found,카운터 위에 봉투가 놓여 있다.
+cartel_network_joined_paid,돈을 냈다. 오늘부터 카르텔 네트워크는 당신을 한 식구로 여긴다. 적어도 당분간은.
+cartel_contact_name,카르텔 연락책
+cartel_contact_1,지난번에 보고 겁먹은 건 아니겠지.
+cartel_contact_2,우린 오래전부터 널 지켜봤어.
+cartel_contact_3,카르텔 눈앞에서 물건을 돌리면 누구든 눈에 띄게 돼 있어.
+cartel_contact_4,지금은 보호비나 내는 게 좋을 거야. 언젠가는 우리랑 동업하게 해 줄지도 모르지.
+cartel_contact_5,거절은 안 받아.
+cartel_contact_choice_pay,[{0} 크레딧을 내고 카르텔 네트워크에 가입한다]
+cartel_contact_choice_later,[이틀 뒤에 다시 오라고 한다]
+cartel_contact_choice_refuse,[카르텔의 제안을 거절한다]
+cartel_contact_refused_1,"하, 웃기네."
+cartel_contact_refused_2,카르텔을 거절하고 살아남은 사람은 없어.
+cartel_boycott_line,"미안하지만, 당신 물건은 못 받아요."
+cartel_contact_return_1,이제 좀 배웠나 보네.
+cartel_contact_return_2,살다 보면 두 번은 못 배우는 교훈도 있지.
+cartel_contact_return_choice_pay,[{0} 크레딧을 내고 카르텔에 가입한다]
+cartel_contact_return_welcome,한 식구가 된 걸 환영해. (비웃는다)
+cartel_raid_officer_name,보안대 요원
+cartel_raid_officer_1,"시민께 알립니다. 최근 이 구역에서 카르텔의 활동이 포착되었습니다. 수상한 정황이 있으면 신고해 주십시오."
+cartel_raid_choice_report,[카르텔을 신고한다]
+cartel_raid_choice_decline,[카르텔을 신고하지 않는다]
+cartel_raid_officer_report_1,좋습니다. 보안대는 조만간 이 구역의 불법 조직을 일제히 단속하기로 했습니다.
+cartel_raid_officer_report_2,치안을 염려하시는 시민 여러분의… 자발적인 기부를… 적극 권장합니다.
+cartel_sweep_medical_name,보안대 의료 물자 조달 담당관
+cartel_sweep_military_name,보안대 군수 물자 조달 담당관
+cartel_sweep_medical_1,시민께 알립니다. 보안대를 대표하여 이 구역의 조직범죄 대응에 필요한 의료 물자를 공개 조달하고 있습니다.
+cartel_sweep_military_1,시민께 알립니다. 보안대를 대표하여 이 구역의 조직범죄 대응에 필요한 군수 물자를 공개 조달하고 있습니다.
+cartel_sweep_spent,훌륭합니다. 아낌없이 기부해 주신 모든 시민께 보안대를 대표해 감사드립니다.
+cartel_sweep_discount,보안대 징발
+cartel_sweep_thanks_name,보안대 병참장교
+cartel_sweep_thanks_1,시민께 알립니다. 보안대가 이 구역에서 실시한 일제 단속이 큰 성과를 거두었습니다.
+cartel_sweep_thanks_2,보안대 병참부는 이번 작전을 지원해 주신 모든 분께 감사드립니다.
+cartel_sweep_thanks_3,특히 병참부에 유상으로 물자를 대 주신 지역 상인 여러분께 감사드립니다.
+cartel_sweep_thanks_4,값싼 물자는 아니었습니다만 온갖 물자가 부족한 이 정거장에서 보안대에 큰 도움이 되었습니다.
+rep_perk_logistics_name,병참부의 감사
+rep_perk_logistics_desc,보안대는 무엇을 사든 15%의 팁을 냅니다.
+rep_perk_logistics_flavor,병참부에는 어느 가게가 협조했는지 기억해 둘 사람들이 있다.
+rep_perk_net_retired_name,청산
+rep_perk_net_retired_desc,카르텔 네트워크 평판이 -100으로 떨어지면 다음 날 아침 누군가 찾아와 결판을 냅니다. 게임이 종료됩니다.
+rep_perk_net_retired_flavor,카르텔 네트워크는 그 누구도 해고하지 않는다.
+rep_perk_net_boycott_name,거래 거부
+rep_perk_net_boycott_desc,다른 암시장 상인들이 더는 가게를 찾아오지 않습니다.
+rep_perk_net_boycott_flavor,카르텔의 눈 밖에 나면 다른 암시장 상인들도 감히 당신과 거래하지 못한다.
+rep_perk_net_distrust_name,의심의 눈초리
+rep_perk_net_distrust_desc,카르텔의 의심을 사서 당신이 파는 밀수품의 신뢰도가 떨어집니다.
+rep_perk_net_distrust_flavor,"거래에서 약병의 라벨만으로 값이 정해지는 일은 드물다. 판매자의 이름과 그간 쌓아 온 신뢰가 더 중요할 때가 많다."
+cartel_distrust_suffix," (신뢰 상실)"
+rep_perk_net_open_trade_name,거래 개방
+rep_perk_net_open_trade_desc,카르텔의 거래망을 통해 매주 밀수품 상인 두 명이 가게를 찾아옵니다.
+rep_perk_net_open_trade_flavor,"아이러니하게도 위험한 장사일수록 서로 더 잘 뭉치기도 한다… 나머지 모두에게 해가 되는 방식으로."
+rep_perk_net_tight_lips_name,굳게 닫힌 입
+rep_perk_net_tight_lips_desc,손님들이 상품 품질에 불만을 제기할 확률이 낮아집니다.
+rep_perk_net_tight_lips_flavor,한 경제 연구에 따르면 손님은 카르텔 구역에서 물건을 산다는 사실을 알 때 품질에 더 만족한다고 한다.
+cartel_trader_name,카르텔 상인
+cartel_trader_1,네트워크 사람들한테 들었어. 물건이 있다며?
+cartel_trader_2,밀수품이면 등급 상관없이 다 받아. 오늘은 {0} 크레딧 가져왔어. 네트워크 몫으로 5%는 떼고.
+cartel_trader_cut,카르텔 수수료
+rep_perk_net_no_strangers_name,외부인 출입 금지
+rep_perk_net_no_strangers_desc,도둑이 더는 카르텔 구역에 나타나지 않습니다.
+rep_perk_net_no_strangers_flavor,카르텔이 온갖 불법 사업에 손을 대는 건 아니다. 하지만 그 바닥 사람이라면 누구나 카르텔을 피해 간다.
+rep_perk_net_supply_name,공급망
+rep_perk_net_supply_desc,카르텔 네트워크가 필요한 원재료를 공급합니다. 전화로 저렴하게 주문할 수 있습니다.
+rep_perk_net_supply_flavor,불법인 데다 위험한 일을 좋아하는 사람도 있다. 같은 불법이라도 유통 과정에서 덜 위험한 일을 맡으려는 사람은 늘 있기 마련이다.
+cartel_supply_name,카르텔 네트워크
+cartel_supply_ask,뭐가 필요해?
+cartel_supply_more,[다른 물건을 알아본다]
+cartel_supply_ask_more,또 뭐가 필요해?
+cartel_supply_ready,내일 도착해. 배달원이 네 얼굴을 기억하게 두지 마.
+cartel_supply_wrong_number,[전화를 잘못 걸었다고 한다]
+cartel_supply_silence,......
+cartel_supply_cooldown,지난번 물량도 아직 안 나갔어. {0}일 뒤에 다시 전화해.
+cartel_courier_name,카르텔 배달원
+cartel_courier_1,주문한 물건이야. 내 얼굴 보지 마.
+cartel_courier_done,배달 끝. 난 여기 온 적 없어.
+cartel_pack_name,{0} 묶음
+cartel_pack_desc,{0} {1}병을 종이 받침에 올려 수축 필름으로 포장했습니다. 더블 클릭하면 포장을 풉니다.
+cartel_pack_desc_left,수축 필름으로 포장한 {0} 묶음을 개봉했으며 {1}병이 남았습니다. 더블 클릭하면 계속 꺼냅니다.
+cartel_pack_full,빈 공간이 없어 {0}병이 포장에 남았습니다.
+rep_perk_net_friends_name,높으신 분들과의 인맥
+rep_perk_net_friends_desc,카르텔의 중재로 이제 당신을 대상으로 한 수사는 모두 돈으로 무마할 수 있습니다.
+rep_perk_net_friends_flavor,오늘도 보안대 대변인은 카르텔과의 사적인 거래를 부인한다. 그저 서로 좋게 넘어가는 거라는 건 다들 안다.
+cartel_peer_name,동업자
+cartel_peer_1,이런 물건에 관심 있을 것 같아서 말이야.
+cartel_peer_silence,......
+cartel_tourist_name,암시장 관광객
+cartel_tourist_1,"이럴 줄 알았어요. 이 아래는 어수선해서 그런지 작은 가게들도 어쩜 이렇게 별나죠?"
+cartel_tourist_2,"그쪽 윗분들이 보내서 왔어요… 무슨 뜻인지 아시죠?"
+cartel_tourist_more,이게 다예요?
+cartel_tourist_done,법 같은 거 무시하니까 정말 짜릿하네요!
+setting_cartel,카르텔 확장 기능 켜기
+setting_cartel_tooltip,"카르텔 네트워크, 밀수품 판매 감시, 거래 거부, 보안대의 카르텔 단속 분기, 카르텔 상인을 활성화합니다. 끄면 어느 기능도 적용되지 않습니다. 기본값은 꺼짐입니다."
+liquid_cephalosporin,세팔로스포린 C
+liquid_bioliquid_waste,생물성 폐액
+strain_name,아크레모니움 균주
+strain_desc,페트리 접시에 담긴 아크레모니움 크리소게눔입니다. 발효기에서 증식시키거나 블렌더로 갈아 세팔로스포린 C를 얻을 수 있습니다.
+strain_flavor,한천 위에 핀 저 크림색 솜털이 생산 라인의 전부다.
+strain_frozen_name,냉동 아크레모니움 균주
+strain_frozen_desc,극저온 보관용 듀어 용기입니다. 두 번 클릭하면 보관해 둔 것과 똑같은 균주를 꺼낼 수 있으며 아무리 꺼내도 고갈되지 않습니다.
+strain_frozen_flavor,원종을 보관하는 저장고다. 생산 라인의 가치는 전부 이 통에 담겨 있다.
+strain_target_liquid,액상
+strain_target_surface,세포 표면
+strain_target_intracellular,세포 내부
+strain_tooltip_genome,유전체: {0}
+strain_tooltip_traits,순도 {0} / 수확량 {1} / 성장 속도 {2} / 탄소 이용 효율 {3}
+strain_tooltip_target,추출 대상: {0}
+strain_tooltip_inoculate,두 번 클릭하여 균주 1개 꺼내기
+strain_tooltip_seed,종균: 블렌더로 갈면 단백질만 나옴
+antibiotic_name,항생제 정제
+antibiotic_desc,세팔로스포린 C를 압축해 만든 정제입니다. 제약 등급에 못 미치면 아무도 먹으려 하지 않습니다. 가축 사료 급여기에 갈아 넣으면 하룻밤 사이에 같은 우리에 있는 동물의 병이 모두 낫습니다.
+antibiotic_flavor,기나긴 생산 라인 끝에 나온 건 알약 한 판이다.
+antibiotic_grade_lab,실험실급
+antibiotic_grade_pharma,제약 등급
+antibiotic_grade_reject,규격 미달
+antibiotic_tooltip_genome,유전체: {0}
+rat_medication_tooltip,사료에 항생제가 들어 있습니다. 오늘 밤 이 우리의 동물들이 회복합니다.
+antibiotic_tooltip_target,추출 대상: {0}
+antibiotic_tooltip_resistance,내성 발생: 가격 {0}% 하락
+antibiotic_tooltip_sales,이 유전체의 누적 판매량: {0}
+antibiotic_resistance_feature,내성
+antibiotic_resistance_line,요즘 이 약은 듣질 않아요.
+fermenter_name,발효기
+fermenter_desc,아크레모니움 균주를 배양하는 발효기입니다. 부착된 가축 사료 급여기에서 균주에 필요한 열량을 공급합니다. 형질이 표준이면 두 밤에 걸쳐 균주 1개로 4개를 얻습니다.
+fermenter_flavor,교반 날개는 멈추지 않는다. 가만히 듣다 보면 숨 쉬는 소리 같다.
+fermenter_label_module,모듈
+fermenter_label_feed,탄소원
+fermenter_label_strain,균주
+fermenter_label_output,수확
+fermenter_tooltip_idle,대기 중: 균주를 넣으면 배양 시작
+fermenter_tooltip_batch,배양: {0}/{1}일차 밤 · 예상 수확량 {2}개
+fermenter_tooltip_draw,매일 밤 전력 {0} 및 {1} kcal 소모
+fermenter_tooltip_feed,가축 사료 급여기: {0} kcal 남음
+fermenter_manual_name,발효기 사용 설명서
+fermenter_manual_short,아크레모니움 발효기 사용법입니다.
+fermenter_manual_flavor,1. 먹이: 급여기에 아무 음식이나 넣습니다. 열량만 계산됩니다.\n2. 접종: 균주 슬롯에 균주 1개를 넣습니다. 배양을 마치면 이 균주는 소모됩니다.\n3. 수확: 형질이 표준이면 두 번째 밤이 끝날 때 균주 4개를 얻습니다. 성장 속도가 높으면 배양 기간이 짧아지고 수확량이 높으면 균주를 더 많이 얻습니다.\n4. 모듈: 여기서는 효율 모듈과 성능 모듈과 품질 모듈이 모두 같은 효과를 냅니다. 전력 소모량을 최대 0까지 줄입니다.\n5. 참고: 수확한 균주는 변이를 일으켜 원래 균주와 달라집니다. 세대를 거듭할수록 대체로 성능이 나빠지니 종균은 듀어 용기에 보관하세요.
+antibiotic_notes_name,균주 육종 노트
+abx_1,"[[section:균주 냉동 보관]]\n[[image:vanilla_chem_ext:icon_strain_frozen|w=24|h=24|gap=6|float=left]]\n- 냉장고의 냉동 칸에 빈 3x3 공간이 있는지 확인합니다.\n- 균주를 냉동 칸에 넣습니다.\n- 냉장고에 전원을 공급할 에너지 셀이 있는지 확인합니다.\n- 다음 날이 되면 균주가 냉동됩니다.\n- 냉동 균주를 두 번 클릭하면 똑같은 균주를 꺼낼 수 있습니다. 횟수 제한은 없습니다.\n[[gap:4]]\n[[text:참고: 이렇게 꺼낸 균주는 접종에만 쓸 수 있습니다. 블렌더로 갈면 단백질만 나옵니다.|color=#853737]]\n[[gap:4]]\n[[text:팁: 발효기에서 나온 균주는 세대를 거듭할수록 성능이 나빠지니 좋은 균주는 미리 냉동하세요.|color=#3D823F|align=center]]"
+abx_2,"[[section:변이]]\n[[image:vanilla_chem_ext:icon_strain|w=24|h=24|gap=6|float=left]]\n- 스포이트나 눈금 실린더로 시약 약 5 mL를 덜어 냅니다.\n- 용기를 균주 위로 끌어다 놓으면 시약이 소모됩니다.\n[[gap:3]]\n[[table:fills=#D8C6A2,#7F916C|colors=#3A3A3A,#F4EEDB|w=230|rowh=10.5|rowgap=1|cellgap=1|size=6.1|padding=3|align=left,left]]\n[[row:시약|효과|fill=#665441|color=#F5EAD1|head=1]]\n[[row:산, 염기|작은 변화]]\n[[row:판타, N-메틸올 염기|큰 변화]]\n[[row:아세트산, 아세트산 에틸|큰 변화]]\n[[row:드림 캡 추출물|작은 변화, 대체로 개선]]\n[[row:나이트메어 추출물|추출 대상이 바뀔 수 있음]]\n[[row:드림 톡신|유전체가 바뀜]]\n[[row:플루토늄|급격한 변화, 개선될 가능성이 조금 더 높음]]\n[[/table]]\n[[gap:3]]\n[[text:참고: 시약의 양이 맞지 않거나 불순물이 있으면 균주가 변하기는 하지만 성능이 나빠지기만 합니다.|color=#853737]]"
+abx_traits,"[[section:균주 형질 연구]]\n[[table:fills=#D8C6A2,#7F916C|colors=#3A3A3A,#F4EEDB|w=230|cols=1,2.5|rowh=10.5|rowgap=1|cellgap=1|size=6.1|padding=3|align=left,left]]\n[[row:형질|+1.0당 효과|fill=#665441|color=#F5EAD1|head=1]]\n[[row:· 순도|정제 기본 가격 +5]]\n[[row:· 수확량|배양 1회당 균주 수 +10%]]\n[[row:· 성장 속도|10% 더 빠르게 성장]]\n[[row:· 탄소 이용 효율|밤마다 필요한 사료 5 kcal 감소]]\n[[row:· 추출 대상|액상: 효과 없음.<br>세포 표면: 이렇게 만든 항생제는 독극물이 되며 2단계 밀수품으로 분류됨.<br>세포 내부: 이렇게 만든 항생제는 마약이 되며 1단계 밀수품으로 분류됨.|height=42]]\n[[/table]]"
+abx_3,"[[section:부록: 내성]]\n[[image:vanilla_chem_ext:icon_antibiotic|w=24|h=24|gap=6|float=left]]\n- 모든 균주에는 AGCTTAGCGATC와 같은 유전체가 있습니다.\n- 유전체가 같은 항생제를 많이 팔수록 내성이 생길 가능성이 높아집니다.\n- 내성이 생기면 해당 유전체의 항생제는 반값에 팔립니다.\n- 유전체가 비슷한 항생제도 영향을 받습니다. 연구에 따르면 유전자가 30% 이상 다르면 기존 내성의 영향을 받지 않습니다.\n- 한동안 판매를 중단하면 내성은 저절로 사라집니다.\n- 드림 톡신는 균주의 유전체를 바꿀 수 있습니다."
+antibiotic_genome_unknown,알 수 없음
+filter_residue_tooltip,잔류물: {0}
+filter_residue_part,{0} {1} mL
+filter_residue_separator,", "
+filter_residue_hint,용기 위로 끌어다 놓으면 옮겨 담고 배수구 위에 놓으면 버립니다.
+cartel_vendor_name,카르텔 판매상
+cartel_vendor_line_1,이번 주 물건이야.
+cartel_vendor_line_2,골라 봐. 값은 정해져 있으니까.
+liquid_toluene,톨루엔
+electrolyzer_lines_fat,생성물 A에 액체 용기가 있으면 지방 모드: A는 톨루엔 / B는 수소
+electrolyzer_switch_on,켜짐. 클릭하여 끄기
+electrolyzer_switch_off,꺼짐. 클릭하여 켜기
+gas_no,일산화질소
+gas_canister_no_name,일산화질소 용기
+gas_canister_mixed_name,혼합 기체 용기
+electrolyzer_lines_no,투입 슬롯이 비어 있으면 공기 모드: 생성물 A는 일산화질소
+liquid_nitric_acid,질산
+liquid_tnt,트리니트로톨루엔
+dynamite_name,다이너마이트 묶음
+dynamite_desc,심지가 드러난 TNT 세 막대를 테이프로 묶은 물건입니다. 화학 완성기의 제조 목록에서 볼 수 있습니다.
+dynamite_flavor,포장을 마저 하진 못했다.
+nitrocellulose_s_name,작은 니트로셀룰로스 덩이
+nitrocellulose_name,니트로셀룰로스
+nitrocellulose_l_name,큰 니트로셀룰로스 덩이
+nitrocellulose_desc,솜처럼 하얗고 복슬복슬한 덩이입니다. 불이 쉽게 붙습니다.
+reloading_press_name,탄약 재장전 프레스
+reloading_press_desc,권총탄용 소형 수동 프레스입니다. 조작부에 탄종과 니트로셀룰로스 및 TNT 보유 상태가 표시됩니다.
+reloading_press_label_powder,니트로셀룰로스
+reloading_press_label_container,용기
+reloading_press_label_output,배출
+reloading_press_label_control,조작부
+reloading_press_btn_press,누르기
+reloading_press_caliber_small,구경: .22 권총
+reloading_press_caliber_heavy,구경: 대형 권총
+reloading_press_type_0,탄종: 비살상탄
+reloading_press_type_1,탄종: 일반탄
+reloading_press_type_2,탄종: 철갑탄
+reloading_press_cost,제작 비용: {0}
+reloading_press_cost_tnt,제작 비용: {0} + TNT {1}
+reloading_press_hopper,호퍼: {0} / {1}
+reloading_press_status_ready,준비 완료
+reloading_press_status_no_powder,추진제 부족
+reloading_press_status_no_tnt,TNT 부족
+reloading_press_status_full,배출 슬롯이 가득 찼습니다.
+explosives_notes_name,폭발물 공정 노트
+explosives_1,"[[section:전기분해 장치의 공기 모드]]\n[[image:vanilla_chem_ext:icon_electrolyzer|w=24|h=24|gap=6|float=left]]\n- 전기분해 장치에는 공기 모드가 있습니다.\n- 이 모드의 일산화질소는 생성물 A에 표시됩니다.\n- 장치 전원은 에너지 셀로 공급합니다.\n- 전원 스위치는 투입 패널 오른쪽 위에 있습니다.\n[[gap:4]]\n[[text:참고: 스위치는 기본적으로 꺼져 있습니다(빨간색). 클릭하면 켜집니다(파란색).|color=#853737]]"
+explosives_2,[[section:질산]]\n- 질산은 게임에서 별도의 액체로 표시됩니다.\n- 일산화질소 용기와는 다른 항목입니다.
+explosives_3,"[[section:커피콩]]\n[[image:vanilla_chem_ext:blender_b|w=24|h=24|gap=6|float=left]]\n- 커피콩은 블렌더로 가공할 수 있는 재료입니다.\n- 블렌더에는 액체 용기를 연결하는 곳이 있습니다.\n- 가공 결과에는 커피콩 곤죽, 지방/기름, 카페인이 표시됩니다."
+explosives_4,[[section:가열판과 지방/기름]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 가열판은 용기를 올려놓는 설비입니다.\n- 커피콩 곤죽과 카페인은 게임 안에서 각각 다른 성분입니다.\n- 가열판을 거치면 용기의 성분이 달라질 수 있습니다.\n- 지방/기름은 액체 성분으로 표시됩니다.\n[[gap:4]]\n[[text:참고: 화학 장비 모듈을 장착한 가열판은 더 높은 온도에 도달할 수 있습니다.|color=#3D823F|align=center]]
+explosives_5,"[[section:전기분해 장치의 톨루엔 표시]]\n[[image:vanilla_chem_ext:icon_electrolyzer|w=24|h=24|gap=6|float=left]]\n- 전기분해 장치에는 투입 슬롯과 생성물 A 및 B 슬롯이 있습니다.\n- 지방 모드에서는 생성물 A에 톨루엔이 표시됩니다.\n- 액체와 기체는 서로 다른 용기에 담깁니다.\n- 장치에는 에너지 셀과 전원 스위치가 있습니다.\n- 생성물은 용기 아이콘에서 확인할 수 있습니다.\n[[gap:4]]\n[[text:주의: 톨루엔은 휘발성 물질이며 게임에서도 과열하면 일부가 증발합니다.|color=#853737]]"
+explosives_6,[[section:트리니트로톨루엔]]\n[[image:vanilla_chem_ext:heating_plate_b|w=24|h=24|gap=6|float=left]]\n- 트리니트로톨루엔은 TNT의 정식 명칭입니다.\n- 내용물의 종류는 용기에서 확인할 수 있습니다.\n- TNT가 든 용기에는 트리니트로톨루엔이 표시됩니다.\n[[gap:4]]\n[[text:주의: TNT는 위험한 폭발성 물질입니다.|color=#3D823F|align=center]]
+explosives_7,"[[section:증발기와 순도]]\n[[image:vanilla_chem_ext:evaporator_b|w=24|h=24|gap=6|float=left]]\n- 혼합물에 다른 성분이 남아 있으면 순도가 낮아집니다.\n- 증발기에는 용기를 넣는 슬롯이 있습니다.\n- 증발기의 전원은 에너지 셀이 공급합니다.\n- 증발기는 밤사이에 작동합니다.\n[[gap:4]]\n[[text:참고: 반응하지 않은 성분은 순도를 낮춥니다.|color=#853737]]"
+explosives_8,"[[section:화학 완성기]]\n[[image:vanilla_chem_ext:chem_finisher_b|w=24|h=24|gap=6|float=left]]\n- 화학 완성기는 용기를 받는 제작 장비입니다.\n- 제조 목록에는 다이너마이트 묶음이 있습니다.\n- 완성품은 배출 슬롯에 표시됩니다.\n- 순도는 성분 분광기로 확인할 수 있습니다.\n[[gap:8]]\n[[text:참고: 제조 목록과 배출 슬롯은 화학 완성기 화면에서 확인할 수 있습니다.|color=#3D823F|align=center]]"
+explosives_9,[[page]]\n[[section:부록: 공정 개요]]\n- 커피콩은 블렌더의 재료이며 지방/기름과 카페인은 액체 성분입니다.\n- 전기분해 장치 화면에는 가동 모드에 따라 서로 다른 생성물이 표시됩니다.\n- 다이너마이트 묶음은 화학 완성기의 제조 목록에 있습니다.
+explosives_10,"[[section:부록: 완성품]]\n- 다이너마이트는 상위 단계 밀수품이며 하층 구역과 혁명군이 사들입니다.\n- 하층 구역이나 혁명군에 하루에 두 묶음 이상 팔면 다음 날 반드시 무언가의 가격이 오릅니다."
+explosives_11,"[[section:부록: 니트로셀룰로스]]\n- 니트로셀룰로스는 솜처럼 보이지만 불이 쉽게 붙습니다.\n- 게임에서는 작은 덩이, 보통 덩이, 큰 덩이로 나뉩니다.\n- 탄약 재장전 프레스 화면에 니트로셀룰로스 슬롯이 있습니다."
+explosives_12,"[[section:부록: 장비]]\n[[text:<u>탄약 재장전 프레스</u>|align=left|size=9]]\n[[gap:8]]\n- 카르텔 판매상이 판매합니다.\n- 왼쪽은 니트로셀룰로스 슬롯, 가운데는 용기 슬롯, 오른쪽은 배출 슬롯과 조작부입니다.\n- 호퍼의 남은 용량은 장비 화면에 표시됩니다.\n- 조작부에 표시되는 구경은 .22 권총과 대형 권총이며 탄종은 비살상탄, 일반탄, 철갑탄입니다.\n- 제작 비용은 선택한 탄종에 따라 달라집니다.\n- 장비 상태는 조작부에서 확인할 수 있습니다.\n- 재료가 부족하거나 배출 슬롯이 가득 차면 장비가 작동하지 않습니다."
+setting_filter_residue,필터 잔류물 회수
+setting_filter_residue_tooltip,"켜면 코튼 직물, 고급 코튼 직물, 정수 필터, 고급 정수 필터, 하이드로리드 필터에 걸러진 물질이 남아 용기에 옮겨 담을 수 있습니다. 끄면 기본 게임처럼 걸러진 물질은 사라지지만 이미 필터에 남아 있던 물질은 옮겨 담을 수 있습니다."
+setting_fabric_repair,고급 코튼 직물의 야간 수리
+setting_fabric_repair_tooltip,"고급 코튼 직물이 매일 밤 회복하는 내구도입니다. 0부터 1000까지의 정수를 입력하세요. 기본값 1000은 완전 수리, 0은 수리 안 함입니다. 범위를 벗어난 값은 가까운 쪽의 최솟값 또는 최댓값으로 처리됩니다."
