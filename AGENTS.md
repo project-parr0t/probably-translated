@@ -33,4 +33,5 @@ This rule applies only to the `probably-translated` repository.
 - Translation and linguistic review MUST use only the exact assigned model and bound local source/context. External machine translation, translation APIs, remote dictionaries, web search, and unapproved network content are prohibited.
 - `[Korean Translation (한국어 번역)]` is the authoritative source for established Korean names, proper nouns, terminology, register, and UI style. Preserve its exact established rendering unless current source evidence requires a documented exception.
 - Personal names SHOULD use their established Korean rendering unless Latin spelling is intrinsically required or no defensible Korean rendering exists. Examples illustrate the rule and MUST NOT become global replacement tables.
+- Use [KOREAN-LOCALIZATION.md](KOREAN-LOCALIZATION.md) for verified terminology, speaker evidence, and translation review rules. Check the cited original Korean row before changing an established term or character register.
 - Translation keys, identifiers, placeholders, control codes, markup, and route identities MUST remain unchanged.
