@@ -1,17 +1,17 @@
 {
   "artifacts": {
-    "CONTINUATION.md": "b9b85d01ce5346826e62d63b2f49f3029e2f9783a59848ed7499d2c029e8fbbb",
+    "CONTINUATION.md": "4e470fa8741f4a55eeab1418cb9d522822f4cdeeb4d89dd9bdc70a4f106b0656",
     "KOREAN-LOCALIZATION.md": "dc1ee7b260a0d8f777db0d897098cfc1d78c9d7b4a7449b31cd12d7084e1e568",
-    "ProbablyStolenKo.Localization.dll": "04e4553f6ca22aeceb4e5057b16e9d6da94a0adf87a602293b65ff9d4b29a606",
+    "ProbablyStolenKo.Localization.dll": "0d15fdcfcb26bc7574fcba669554b8c20ad3d913dc946f4d7c9b6b527107b09b",
     "README.md": "4af824aae0649c6195fb26f6c3758af54ae24b0fb876a5b0a83e81d3b09d4e8c",
     "managed-ko-runtime.json": "ace3f24bed88571600d532ad31e97feacee5df01be02bb607d54c1d14dc45908",
-    "manifest.xml": "20339801bca1cc0bfc2ea3c6ee48e7794e19c92bffbc66c302ddae94a68555a1",
+    "manifest.xml": "6a381c591a464ee8e7ae387d875ec24418f8c66ff31e53256a04140e3d80331e",
     "parr0t-release-checkpoint.json": "11a7b0d24c1086d97f15ae41d5f3dcc79e3b482546e79734e72326585646b0b0",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
     "src/ProbablyStolenKo.Localization/ClaimsLanguageOverlay.cs": "958e08d1cb39723a481a750ad0dffc1210de1f1f238c55bfe091ad85c3657f68",
     "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "a44e12e7790e07ddf1943417566162383196fe96bc4989e36e9f35cf46268115",
     "src/ProbablyStolenKo.Localization/ManagedDisplayOverlay.cs": "fbeeae41c7bc0d37765943dba518ecd18d25e5b8e5cd403c0c85fa7b25944d0e",
-    "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "ed8932c9e21c3f2fef247cfc6fe6eebda76a9cf7b0b9cee4d6e7eb81c9c0fc10",
+    "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "fdca060aca2eda838d464b70860f089917bfc2e4a14ddeec76fcb76be66fbfea",
     "src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csproj": "9d672fbec6c147d75cb2e51f3118b503a8a83332e1cd4556f1cf53bc3ee52ad2",
     "src/ProbablyStolenKo.Localization/ProbablyStolenKoBridge.cs": "bca72f7f44b834a493241b4922bad8cd43bf2839ad679f1960621df9d6872cf1",
     "src/ProbablyStolenKo.Localization/SpaceCoffeeSceneOverlay.cs": "fa4f8538a6b6aa17c9010c2b7ed3dad9b3ded3caad4bc73937459e42d5394bc6",
@@ -149,9 +149,9 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "c8f8bfa21afcac915ebb9dac691f7e258ce921a6",
+    "commit": "c9a910ae2f7494bb27415884b4e7f03e48b16e09",
     "game_version": "0.46D",
-    "version": "1.0.38"
+    "version": "1.0.39"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
