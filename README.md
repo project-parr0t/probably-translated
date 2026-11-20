@@ -1,8 +1,6 @@
 # Probably Translated
 Probably Stolen의 창작마당 모드를 위한 통합 한국어 번역 모드입니다.
 
-**GitHub 버전: 1.0.38**
-
 <b> Parr0t 프로젝트는 배포자가 직접 플레이하여 번역을 검수하기에, 문제가 생긴 부분을 보거나 토큰이 부족할 경우 패치가 되지 않는 부분이 존재할 수 있습니다. </b>
 
 ## 이게 뭐죠?
@@ -23,42 +21,42 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 
 ## 어떤 모드의 한글 패치가 지원되나요?
 다음 모드들을 지원합니다:
-- [Better Water Trading](https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417)
-- [GoFishing](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153)
-- [Smart Inventory Arrange](https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666)
-- [Pen's Pipette](https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725)
-- [Duoji's Hotkey Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=3829508405)
-- [Brewing Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904)
-- [Disaster Day](https://steamcommunity.com/sharedfiles/filedetails/?id=3829946713)
-- [Fishing Cuisine Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830031787)
-- [Unbox Moment](https://steamcommunity.com/sharedfiles/filedetails/?id=3830643693)
-- [Vanilla Food Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369)
-- [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547)
-- [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187)
-- [Gun Mod Tarkov](https://steamcommunity.com/sharedfiles/filedetails/?id=3831650864)
-- [Probably a Farm Story](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311)
-- [Tobacco Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208)
-- [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698)
-- [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602)
-- [Probably Flyers](https://steamcommunity.com/sharedfiles/filedetails/?id=3833522385)
-- [Station Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506)
-- [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482)
-- [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532)
-- [Combat Contract](https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038)
-- [In-Game Mod Settings](https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946)
-- [Gunsmith Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049)
-- [Probably Containers+](https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782)
-- [Storage Bay Appearance](https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447)
-- [Upper Levels: Probably DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803)
-- [VA-11 Hall-A Fan MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004)
-- [Space Coffee](https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583)
-- [Better UV Lamp](https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349)
-- [Better Box Selection](https://steamcommunity.com/sharedfiles/filedetails/?id=3836727677)
-- [Eleanor: Bring Her Back](https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808)
-- [Probably Mined](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650)
-- [Probably Helpful](https://steamcommunity.com/sharedfiles/filedetails/?id=3838230589)
-- [Deep Space Clinic 2077](https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040)
-- [Probably Stolen: Claims & Uprisings](https://steamcommunity.com/sharedfiles/filedetails/?id=3841509159)
+- [Better Water Trading](https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417) — v1.13.2
+- [GoFishing](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153) — v2.5.4
+- [Smart Inventory Arrange](https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666) — v3.17.63-mono.1
+- [Pen's Pipette](https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725) — v1.1.4
+- [Duoji's Hotkey Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=3829508405) — v1.2.3
+- [Brewing Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904) — v3.6.8.6
+- [Disaster Day](https://steamcommunity.com/sharedfiles/filedetails/?id=3829946713) — v2.0.2
+- [Fishing Cuisine Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830031787) — v2.1.1
+- [Unbox Moment](https://steamcommunity.com/sharedfiles/filedetails/?id=3830643693) — v1.5.1
+- [Vanilla Food Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369) — v0.3.10
+- [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547) — v0.2.19
+- [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187) — v1.2.2
+- [Gun Mod Tarkov](https://steamcommunity.com/sharedfiles/filedetails/?id=3831650864) — v1.5.7
+- [Probably a Farm Story](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311) — v2.0.11
+- [Tobacco Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208) — v0.5.4.2
+- [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698) — v1.3.68
+- [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602) — v1.6.0
+- [Probably Flyers](https://steamcommunity.com/sharedfiles/filedetails/?id=3833522385) — v0.7.0
+- [Station Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506) — v1.3.1
+- [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482) — v0.5.47
+- [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532) — v0.9.678
+- [Combat Contract](https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038) — v0.4.12
+- [In-Game Mod Settings](https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946) — v1.0.2
+- [Gunsmith Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049) — v2.1.1
+- [Probably Containers+](https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782) — v1.0c
+- [Storage Bay Appearance](https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447) — v1.2.8H2
+- [Upper Levels: Probably DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803) — v0.9.27.3
+- [VA-11 Hall-A Fan MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004) — v2.1.8
+- [Space Coffee](https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583) — v4.1
+- [Better UV Lamp](https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349) — v1.0.1
+- [Better Box Selection](https://steamcommunity.com/sharedfiles/filedetails/?id=3836727677) — v1.0.2
+- [Eleanor: Bring Her Back](https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808) — v0.7.12
+- [Probably Mined](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650) — v0.3.3
+- [Probably Helpful](https://steamcommunity.com/sharedfiles/filedetails/?id=3838230589) — v1.0
+- [Deep Space Clinic 2077](https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040) — v0.1.0-ui.227
+- [Probably Stolen: Claims & Uprisings](https://steamcommunity.com/sharedfiles/filedetails/?id=3841509159) — v1.1.2
 
 ## 다른 번역 모드들과 겹쳐도 작동하나요?
 확실하지 않습니다. 다만, 이 모드는 제가 개인적으로 즐기기 위해서 일괄로 번역을 수행하고 사용하고 있습니다.
