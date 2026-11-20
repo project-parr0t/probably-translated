@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.trait.plush_body.label>복슬복슬</yexiaoyang.trait.plush_body.label>
+  <yexiaoyang.trait.plush_body.description>작고 귀여운 걸 좋아하는 인간 본능을 자극하게 설계됐습니다. {object}에게 차마 해를 끼칠 수 없습니다.</yexiaoyang.trait.plush_body.description>
+  <yexiaoyang.trait.plush_body.effect>절도 중 발각되면 임무는 실패하지만 전투가 벌어지지 않습니다.</yexiaoyang.trait.plush_body.effect>
+  <yexiaoyang.trait.dimensional_pocket.label>차원 주머니</yexiaoyang.trait.dimensional_pocket.label>
+  <yexiaoyang.trait.dimensional_pocket.description>{subject}이(가) 어떻게 한 건지는 모르지만 안쪽이 예상보다 훨씬 넓습니다.</yexiaoyang.trait.dimensional_pocket.description>
+  <yexiaoyang.trait.dimensional_pocket.effect>소지품 공간 +20칸.</yexiaoyang.trait.dimensional_pocket.effect>
+  <yexiaoyang.trait.upper_city_vip.label>상층의 귀빈</yexiaoyang.trait.upper_city_vip.label>
+  <yexiaoyang.trait.upper_city_vip.description>{Subject}의 직책은 아주 높습니다. 얼마나 높냐고요? 보안대 대원들이 쩔쩔매는 눈빛만 봐도 알 수 있습니다.</yexiaoyang.trait.upper_city_vip.description>
+  <yexiaoyang.trait.upper_city_vip.effect>보안대, 상층군, 진압 부대는 다른 표적이 있으면 그쪽을 선택합니다.</yexiaoyang.trait.upper_city_vip.effect>
+  <yexiaoyang.trait.winged_flight.label>날갯짓</yexiaoyang.trait.winged_flight.label>
+  <yexiaoyang.trait.winged_flight.description>{Subject}은(는) 도시를 빠르게 가로지릅니다. 오고 갈 때도 {subject} 마음대로입니다.</yexiaoyang.trait.winged_flight.description>
+  <yexiaoyang.trait.winged_flight.effect>매일 첫 거래 임무를 마치면 즉시 대기 상태로 복귀하여 다시 임무에 나갈 수 있습니다.</yexiaoyang.trait.winged_flight.effect>
+</LanguageData>

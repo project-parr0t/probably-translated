@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.traits.kind.positive>긍정</yexiaoyang.traits.kind.positive>
+  <yexiaoyang.traits.kind.negative>부정</yexiaoyang.traits.kind.negative>
+  <yexiaoyang.traits.kind.mixed>양면</yexiaoyang.traits.kind.mixed>
+  <yexiaoyang.traits.kind.rare>희귀</yexiaoyang.traits.kind.rare>
+  <yexiaoyang.traits.choice.title>{soldier}: 레벨 상승</yexiaoyang.traits.choice.title>
+  <yexiaoyang.traits.choice.body>무작위 특성을 하나 받거나 기존 특성 하나를 골라 잊을 수 있습니다.</yexiaoyang.traits.choice.body>
+  <yexiaoyang.traits.choice.random>무작위 특성 받기</yexiaoyang.traits.choice.random>
+  <yexiaoyang.traits.choice.forget>잊을 특성 고르기</yexiaoyang.traits.choice.forget>
+  <yexiaoyang.traits.choice.tomorrow>내일 결정</yexiaoyang.traits.choice.tomorrow>
+  <yexiaoyang.traits.choice.forget_hint>잊을 특성의 ×를 누르세요. 취소하려면 기록을 닫으세요.</yexiaoyang.traits.choice.forget_hint>
+  <yexiaoyang.traits.unavailable>지금은 이 병력의 특성을 바꿀 수 없습니다.</yexiaoyang.traits.unavailable>
+  <yexiaoyang.traits.no_eligible>새로 받을 특성이 없습니다. 잊을 특성을 고르거나 내일 결정하세요.</yexiaoyang.traits.no_eligible>
+  <yexiaoyang.traits.not_owned>이 병력에게는 잊을 해당 특성이 없습니다.</yexiaoyang.traits.not_owned>
+  <yexiaoyang.traits.save_failed>특성 변경을 저장하지 못했습니다. 잠시 후 다시 시도하세요.</yexiaoyang.traits.save_failed>
+  <yexiaoyang.traits.action_blocked>{soldier}: ‘{trait}’ 특성 때문에 이 행동을 할 수 없습니다.</yexiaoyang.traits.action_blocked>
+  <yexiaoyang.traits.battle.permanent_death>{soldier}: 사망했습니다. 다시 돌아오지 않습니다.</yexiaoyang.traits.battle.permanent_death>
+</LanguageData>

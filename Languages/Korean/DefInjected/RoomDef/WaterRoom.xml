@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.WaterRoom.label>정수실</yexiaoyang.WaterRoom.label>
+  <yexiaoyang.WaterRoom.description>많은 양의 물을 정수하는 설비실입니다.</yexiaoyang.WaterRoom.description>
+  <yexiaoyang.WaterRoom.lockedDescription>먼지와 바퀴벌레가 가득한 폐정수실입니다. 발을 들이기 전에 대대적인 보수가 필요합니다.</yexiaoyang.WaterRoom.lockedDescription>
+</LanguageData>

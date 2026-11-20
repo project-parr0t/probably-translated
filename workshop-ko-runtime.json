@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "inventory_fingerprint": "c2061b5306b9dc01564d8bc1363a8df4f31b61e2d3a9cbec094dd646995a5d07",
+  "inventory_fingerprint": "739e722e43d20c1f0865cdfdedd820b1dd63dd75ebb1b709cd5ba2566b836a50",
   "scope": "installed_workshop_mod_korean_overlay_20261118_direct_review",
   "locale": "ko",
   "base_game_entries": 0,
@@ -45,7 +45,7 @@
     "ai.emporium": {
       "workshop_item_id": "3832941698",
       "csv_path": "workshop-overlays/3832941698/Localization/ko.csv",
-      "entry_count": 2457
+      "entry_count": 2535
     },
     "gunsmith_expansion": {
       "workshop_item_id": "3834619049",
@@ -55,22 +55,25 @@
     "containers_plus": {
       "workshop_item_id": "3837147782",
       "csv_path": "workshop-overlays/3837147782/Localization/ko.csv",
-      "entry_count": 14
+      "entry_count": 14,
+      "manifest_description": "수납 도구에 용도를 추가합니다. 약통(1×9)과 큰 약통(4×9)은 알약과 정제를 보관합니다. 밀수업자의 책(3×4)은 서류철에 넣을 수 있습니다. 약병 거치대(5×3)에는 드림 더스트와 나이트메어 더스트를 보관할 수 있습니다."
     },
     "sfi.storageappearance": {
       "workshop_item_id": "3837983447",
       "csv_path": "workshop-overlays/3837983447/Localization/ko.csv",
-      "entry_count": 71
+      "entry_count": 71,
+      "manifest_name": "Storage Bay Appearance",
+      "manifest_description": "지원하는 수납함 위에 마우스를 올리고 F7을 누르면 외관 창이 열립니다. 톱니바퀴 설정에서 단축키를 끄거나 바꿀 수 있습니다. 보관 구역, 기계 구역, 초과학 보관 구역, 밀수업자 은닉칸과 호환 변형을 지원합니다. Brewing Expansion을 활성화하면 xuxu 미니 보관 구역도 지원합니다. 게임의 인터페이스 언어 8종을 지원합니다."
     },
     "upper_levels": {
       "workshop_item_id": "3838944803",
       "csv_path": "workshop-overlays/3838944803/Localization/ko.csv",
-      "entry_count": 2708
+      "entry_count": 2995
     },
     "traits_probably_fun": {
       "workshop_item_id": "3834226532",
       "csv_path": "workshop-overlays/3834226532/Localization/ko.csv",
-      "entry_count": 27
+      "entry_count": 29
     },
     "combat_contracts": {
       "workshop_item_id": "3834364038",
@@ -92,7 +95,9 @@
     "local.uv-coverage": {
       "workshop_item_id": "3835898349",
       "csv_path": "workshop-overlays/3835898349/Localization/ko.csv",
-      "entry_count": 41
+      "entry_count": 41,
+      "manifest_name": "Better UV Lamp",
+      "manifest_description": "자외선 램프의 스캔 효과를 개선하고 앞쪽 영역을 자동으로 처리합니다. 물통이 범위 안으로 들어오거나 물이 추가되면 자동으로 조사합니다. 우클릭으로 램프를 켜거나 끌 수 있으며, 범위는 1~4칸, 조명 색과 투명도는 설정에서 바꿀 수 있습니다."
     },
     "probably_flyers": {
       "workshop_item_id": "3833522385",
@@ -100,5 +105,5 @@
       "entry_count": 898
     }
   },
-  "entry_count": 14367
+  "entry_count": 14734
 }

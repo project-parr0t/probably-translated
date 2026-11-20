@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.BrewingRoom.label>양조실</yexiaoyang.BrewingRoom.label>
+  <yexiaoyang.BrewingRoom.description>낡은 작업대를 모아 만든 기초 양조실입니다. 병에서 술을 발효시킬 수 있습니다.</yexiaoyang.BrewingRoom.description>
+  <yexiaoyang.BrewingRoom.lockedDescription>병 선반에 먼지가 쌓였고 작업대와 세척대는 수리가 필요합니다.</yexiaoyang.BrewingRoom.lockedDescription>
+  <yexiaoyang.BrewingRoom.manualText>병에 물과 양조 재료를 넣어 발효시키고, 완성된 술은 숙성 설비에 넣으세요. 방을 개조하면 병 놓기, 재료 손질, 일괄 발효와 따르기 단축 조작이 열립니다.</yexiaoyang.BrewingRoom.manualText>
+  <yexiaoyang.BrewingRoom.serviceDescription>방 안의 발효 보너스와 숙성 설비가 계속 작동하도록 유지합니다.</yexiaoyang.BrewingRoom.serviceDescription>
+  <yexiaoyang.BrewingRoom.nightReportText>[{roomName}] 야간 보고: 발효 중 {fermentingBottles}병, 새로 생산한 술 {newWineBottles}병, 숙성 중 {agedBottles}병, 사용한 비용 {maintenanceFee} 크레딧.</yexiaoyang.BrewingRoom.nightReportText>
+  <yexiaoyang.BrewingRoom.constructionReportText>{roomName} 공사가 {remainingDays}일 남았습니다. 출입할 수 없고 고정 기계는 멈춥니다. 방 전력 요금은 면제됩니다.</yexiaoyang.BrewingRoom.constructionReportText>
+</LanguageData>

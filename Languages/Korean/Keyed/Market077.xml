@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.soldier.ammo.missing>이 병사에게 탄약이 없습니다. 필요한 구경: {calibers}.</yexiaoyang.soldier.ammo.missing>
+  <yexiaoyang.soldier.ammo.incompatible>탄약은 있지만 장착한 총기에 맞는 구경이 없습니다. 필요한 구경: {calibers}.</yexiaoyang.soldier.ammo.incompatible>
+  <yexiaoyang.soldier.ammo.other_calibers>이 병사는 다른 구경의 탄약도 들고 있습니다. 잘못된 구경은 발사하지 않습니다.</yexiaoyang.soldier.ammo.other_calibers>
+  <yexiaoyang.soldier.ammo.unpack>탄약 상자를 열고 낱탄을 병사의 소지품에 넣으세요.</yexiaoyang.soldier.ammo.unpack>
+  <yexiaoyang.soldier.ammo.gun_phobia>총기 공포증: 이 병사는 총기를 사용하지 않습니다.</yexiaoyang.soldier.ammo.gun_phobia>
+  <yexiaoyang.market.ammo_crate.name>탄약 운송 상자</yexiaoyang.market.ammo_crate.name>
+  <yexiaoyang.market.ammo_crate.description>설치 면적 3×3, 보관 공간 5×5. 상자 단위로 판매하며, 구매 후 탄약을 꺼낼 수 있습니다.</yexiaoyang.market.ammo_crate.description>
+  <yexiaoyang.market.ammo_crate.contents>내용물: {ammo}.</yexiaoyang.market.ammo_crate.contents>
+  <yexiaoyang.market.ammunition.name>{caliber} {variant}</yexiaoyang.market.ammunition.name>
+  <yexiaoyang.market.ammunition.normal>일반탄</yexiaoyang.market.ammunition.normal>
+  <yexiaoyang.market.ammunition.piercing>철갑탄</yexiaoyang.market.ammunition.piercing>
+  <yexiaoyang.market.ammunition.nonlethal>비살상탄</yexiaoyang.market.ammunition.nonlethal>
+  <yexiaoyang.market.ammunition.description>{caliber} 총기에 쓰는 탄약 한 발입니다.</yexiaoyang.market.ammunition.description>
+</LanguageData>

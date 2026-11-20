@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.console081.seller_help>다음 손님 뒤에 보안대 무기 판매 담당자를 배정합니다.</yexiaoyang.console081.seller_help>
+  <yexiaoyang.console081.buyer_help>다음 손님 뒤에 식량과 의약품을 사는 보안대 조달관을 배정합니다.</yexiaoyang.console081.buyer_help>
+  <yexiaoyang.console081.occupy_help>{site} 즉시 점령 · 전리품 없음</yexiaoyang.console081.occupy_help>
+  <yexiaoyang.console081.visitor.seller>보안대 무기 판매 담당자</yexiaoyang.console081.visitor.seller>
+  <yexiaoyang.console081.visitor.buyer>보안대 조달관</yexiaoyang.console081.visitor.buyer>
+  <yexiaoyang.console081.visitor.unavailable>저장 파일을 불러온 뒤 가게 손님 대기열을 사용할 수 있을 때까지 기다리세요.</yexiaoyang.console081.visitor.unavailable>
+  <yexiaoyang.console081.visitor.tutorial>손님을 배정하기 전에 튜토리얼을 끝내세요.</yexiaoyang.console081.visitor.tutorial>
+  <yexiaoyang.console081.visitor.closed>손님을 배정하려면 낮에 가게를 여세요.</yexiaoyang.console081.visitor.closed>
+  <yexiaoyang.console081.visitor.rejected>지금은 이 손님을 가게 대기열에 넣을 수 없습니다.</yexiaoyang.console081.visitor.rejected>
+  <yexiaoyang.console081.visitor.failed>손님을 배정하지 못했습니다. 로그를 확인하세요.</yexiaoyang.console081.visitor.failed>
+  <yexiaoyang.console081.visitor.next>대기열이 비어 있어 {role}이(가) 바로 다음 손님으로 배정됐습니다.</yexiaoyang.console081.visitor.next>
+  <yexiaoyang.console081.visitor.queued>다음 손님 뒤에 {role}을(를) 배정했습니다(대기 순번 {position}). 여러 번 실행하면 입력 순서대로 배정합니다.</yexiaoyang.console081.visitor.queued>
+  <yexiaoyang.console081.occupy.unavailable>저장 파일을 불러오고 지휘소를 해금한 뒤 올바른 구역 ID를 입력하세요.</yexiaoyang.console081.occupy.unavailable>
+  <yexiaoyang.console081.occupy.owned>이미 소유한 구역입니다.</yexiaoyang.console081.occupy.owned>
+  <yexiaoyang.console081.occupy.busy>이 구역의 임무, 주둔, 전투를 마치고 거래나 물품 끌기 상태를 종료한 뒤 다시 시도하세요.</yexiaoyang.console081.occupy.busy>
+  <yexiaoyang.console081.occupy.failed>점령 또는 저장을 완료하지 못했습니다. 현재 상태는 로그를 확인하세요.</yexiaoyang.console081.occupy.failed>
+  <yexiaoyang.console081.occupy.tutorial>점령 명령을 사용하기 전에 튜토리얼을 끝내세요.</yexiaoyang.console081.occupy.tutorial>
+  <yexiaoyang.console081.occupy.done>{site}을(를) 점령하고 저장했습니다.</yexiaoyang.console081.occupy.done>
+</LanguageData>

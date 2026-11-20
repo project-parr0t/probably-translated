@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ui.cluster.nightly_smelting>야간 제련</yexiaoyang.ui.cluster.nightly_smelting>
+  <yexiaoyang.ui.manual.smelting.body>투입 칸에 원료를 넣으면 밤사이에 주괴를 만들어 배출 칸에 놓습니다. 일반 용광로는 금속 2개로 주괴 1개를, 고로는 3개로 주괴 2개를 만듭니다. 고철보다 광석으로 만든 주괴의 순도가 높습니다. 융제나 품질 모듈을 쓰면 순도가 높아지고, 설비를 업그레이드하면 최소 순도가 완전 순도까지 오릅니다. 방의 일일 정액 전력 요금에 설비 전력이 포함됩니다.</yexiaoyang.ui.manual.smelting.body>
+  <yexiaoyang.ui.manual.smelting.title>제련 안내서</yexiaoyang.ui.manual.smelting.title>
+  <yexiaoyang.ui.smelting.withdraw_flux>융제 꺼내기 ({count})</yexiaoyang.ui.smelting.withdraw_flux>
+  <yexiaoyang.ui.smelting.withdraw_flux_tooltip>이 용광로 안의 융제입니다. 클릭하면 기계 투입 칸으로 돌아갑니다. 고급 융제는 제련할 때 소모되지 않습니다.</yexiaoyang.ui.smelting.withdraw_flux_tooltip>
+  <yexiaoyang.ui.smelting.flux_withdrawn>꺼낸 융제: {count}개.</yexiaoyang.ui.smelting.flux_withdrawn>
+  <yexiaoyang.ui.smelting.no_flux>융제를 꺼내지 못했습니다. 용광로 내용물과 기계 투입 칸의 빈자리를 확인하세요.</yexiaoyang.ui.smelting.no_flux>
+</LanguageData>

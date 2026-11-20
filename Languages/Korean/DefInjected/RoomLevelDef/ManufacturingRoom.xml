@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ManufacturingRoom.Basic.label>기초 제조실</yexiaoyang.ManufacturingRoom.Basic.label>
+  <yexiaoyang.ManufacturingRoom.Basic.description>칩과 제작 재료를 사용해 물품을 만드는 기초 작업장입니다.</yexiaoyang.ManufacturingRoom.Basic.description>
+  <yexiaoyang.ManufacturingRoom.Basic.abilitySummary>독립 프린터 1대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.ManufacturingRoom.Basic.abilitySummary>
+  <yexiaoyang.ManufacturingRoom.Basic.cardText>칩과 제작 재료를 사용해 물품을 만드는 기초 작업장입니다.
+3D 프린터: 1대
+원료 / 생산품 보관함: 각각 96칸
+공용 모듈 공간: 28칸
+전력 요금: 하루 15크레딧</yexiaoyang.ManufacturingRoom.Basic.cardText>
+  <yexiaoyang.ManufacturingRoom.Basic.upgradeText>기초 제조실로 개조합니다. 비용: 4,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 15크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 프린터 1대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.ManufacturingRoom.Basic.upgradeText>
+  <yexiaoyang.ManufacturingRoom.Basic.facilities.printer_01.label>3D 프린터 1</yexiaoyang.ManufacturingRoom.Basic.facilities.printer_01.label>
+  <yexiaoyang.ManufacturingRoom.Improved.label>개량 제조실</yexiaoyang.ManufacturingRoom.Improved.label>
+  <yexiaoyang.ManufacturingRoom.Improved.description>여러 프린터가 각각 작업하거나 한 작업을 함께 처리할 수 있습니다.</yexiaoyang.ManufacturingRoom.Improved.description>
+  <yexiaoyang.ManufacturingRoom.Improved.abilitySummary>독립 프린터 3대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.ManufacturingRoom.Improved.abilitySummary>
+  <yexiaoyang.ManufacturingRoom.Improved.cardText>여러 프린터가 각각 작업하거나 한 작업을 함께 처리할 수 있습니다.
+3D 프린터: 3대
+협업: 쉬고 있는 프린터로 지정된 프린터의 작업 보조 가능
+원료 / 생산품 보관함: 각각 140칸
+공용 모듈 공간: 40칸
+전력 요금: 하루 40크레딧</yexiaoyang.ManufacturingRoom.Improved.cardText>
+  <yexiaoyang.ManufacturingRoom.Improved.upgradeText>개량 제조실로 개조합니다. 비용: 10,000크레딧. 소요 기간: 2일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 40크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 프린터 3대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.ManufacturingRoom.Improved.upgradeText>
+  <yexiaoyang.ManufacturingRoom.Improved.facilities.printer_01.label>3D 프린터 1</yexiaoyang.ManufacturingRoom.Improved.facilities.printer_01.label>
+  <yexiaoyang.ManufacturingRoom.Improved.facilities.printer_02.label>3D 프린터 2</yexiaoyang.ManufacturingRoom.Improved.facilities.printer_02.label>
+  <yexiaoyang.ManufacturingRoom.Improved.facilities.printer_03.label>3D 프린터 3</yexiaoyang.ManufacturingRoom.Improved.facilities.printer_03.label>
+  <yexiaoyang.ManufacturingRoom.Upper.label>상층 구역 제조실</yexiaoyang.ManufacturingRoom.Upper.label>
+  <yexiaoyang.ManufacturingRoom.Upper.description>원료 공급과 생산품 이동을 자동으로 처리할 수 있는 작업장입니다.</yexiaoyang.ManufacturingRoom.Upper.description>
+  <yexiaoyang.ManufacturingRoom.Upper.abilitySummary>독립 프린터 5대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 자동 처리 가능</yexiaoyang.ManufacturingRoom.Upper.abilitySummary>
+  <yexiaoyang.ManufacturingRoom.Upper.cardText>원료 공급과 생산품 이동을 자동으로 처리할 수 있는 작업장입니다.
+3D 프린터: 5대
+협업: 쉬고 있는 프린터로 지정된 프린터의 작업 보조 가능
+자동화: 자동 원료 공급 및 생산품 이동 선택 가능
+원료 / 생산품 보관함: 각각 192칸
+공용 모듈 공간: 60칸
+전력 요금: 하루 80크레딧</yexiaoyang.ManufacturingRoom.Upper.cardText>
+  <yexiaoyang.ManufacturingRoom.Upper.upgradeText>상층 구역 제조실로 개조합니다. 비용: 25,000크레딧. 소요 기간: 3일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 80크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 프린터 5대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 자동 처리 가능</yexiaoyang.ManufacturingRoom.Upper.upgradeText>
+  <yexiaoyang.ManufacturingRoom.Upper.facilities.printer_01.label>3D 프린터 1</yexiaoyang.ManufacturingRoom.Upper.facilities.printer_01.label>
+  <yexiaoyang.ManufacturingRoom.Upper.facilities.printer_02.label>3D 프린터 2</yexiaoyang.ManufacturingRoom.Upper.facilities.printer_02.label>
+  <yexiaoyang.ManufacturingRoom.Upper.facilities.printer_03.label>3D 프린터 3</yexiaoyang.ManufacturingRoom.Upper.facilities.printer_03.label>
+  <yexiaoyang.ManufacturingRoom.Upper.facilities.printer_04.label>3D 프린터 4</yexiaoyang.ManufacturingRoom.Upper.facilities.printer_04.label>
+  <yexiaoyang.ManufacturingRoom.Upper.facilities.printer_05.label>프린터 5</yexiaoyang.ManufacturingRoom.Upper.facilities.printer_05.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.label>초월 제조실</yexiaoyang.ManufacturingRoom.Transcendent.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.description>여러 대의 프린터로 제작 작업을 동시에 진행할 수 있습니다.</yexiaoyang.ManufacturingRoom.Transcendent.description>
+  <yexiaoyang.ManufacturingRoom.Transcendent.abilitySummary>독립 프린터 8대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 자동 처리 가능</yexiaoyang.ManufacturingRoom.Transcendent.abilitySummary>
+  <yexiaoyang.ManufacturingRoom.Transcendent.cardText>여러 대의 프린터로 제작 작업을 동시에 진행할 수 있습니다.
+3D 프린터: 8대
+협업: 쉬고 있는 프린터로 지정된 프린터의 작업 보조 가능
+자동화: 자동 원료 공급 및 생산품 이동 선택 가능
+원료 / 생산품 보관함: 각각 252칸
+공용 모듈 공간: 72칸
+전력 요금: 하루 140크레딧</yexiaoyang.ManufacturingRoom.Transcendent.cardText>
+  <yexiaoyang.ManufacturingRoom.Transcendent.upgradeText>초월 제조실로 개조합니다. 비용: 60,000크레딧. 소요 기간: 5일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 140크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 프린터 8대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 자동 처리 가능</yexiaoyang.ManufacturingRoom.Transcendent.upgradeText>
+  <yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_01.label>3D 프린터 1</yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_01.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_02.label>3D 프린터 2</yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_02.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_03.label>3D 프린터 3</yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_03.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_04.label>3D 프린터 4</yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_04.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_05.label>프린터 5</yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_05.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_06.label>프린터 6</yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_06.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_07.label>프린터 7</yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_07.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_08.label>프린터 8</yexiaoyang.ManufacturingRoom.Transcendent.facilities.printer_08.label>
+</LanguageData>

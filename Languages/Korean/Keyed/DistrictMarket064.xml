@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.market.description>병력을 상점에 보내 물품을 거래·판매하거나 자원을 교환합니다. 판매가는 원래 가격의 70%이며, 하룻밤이 걸립니다. 판매용 창고에 보관한 물품만 팔 수 있습니다.
+
+3일마다 재입고(다음 재입고: {restock})
+지역 특산품: {specialties}</yexiaoyang.market.description>
+  <yexiaoyang.market.restock.tomorrow>내일</yexiaoyang.market.restock.tomorrow>
+  <yexiaoyang.market.restock.today>오늘</yexiaoyang.market.restock.today>
+  <yexiaoyang.market.restock.days>{days}일 후</yexiaoyang.market.restock.days>
+  <yexiaoyang.market.specialty.residential>잡화, 식량, 각종 생필품</yexiaoyang.market.specialty.residential>
+  <yexiaoyang.market.specialty.material>각종 자재</yexiaoyang.market.specialty.material>
+  <yexiaoyang.market.specialty.food>각종 식량</yexiaoyang.market.specialty.food>
+  <yexiaoyang.market.specialty.junkyard>각종 재활용 자재</yexiaoyang.market.specialty.junkyard>
+  <yexiaoyang.market.specialty.plantation>식량, 재배용 부속품, 도구</yexiaoyang.market.specialty.plantation>
+  <yexiaoyang.market.specialty.distillery>증류용 부속품, 빈 병, 술</yexiaoyang.market.specialty.distillery>
+  <yexiaoyang.market.specialty.forge>주조용 부속품, 원료, 철 주괴, 3D 프린터 재료</yexiaoyang.market.specialty.forge>
+  <yexiaoyang.market.specialty.ration>식량과 식량 배급권</yexiaoyang.market.specialty.ration>
+  <yexiaoyang.market.specialty.security>무기와 탄약</yexiaoyang.market.specialty.security>
+  <yexiaoyang.market.shop.title>{site} 상점</yexiaoyang.market.shop.title>
+  <yexiaoyang.market.warehouse.title>판매 물품</yexiaoyang.market.warehouse.title>
+  <yexiaoyang.market.vendor>상인</yexiaoyang.market.vendor>
+  <yexiaoyang.market.enter>상점에 가기</yexiaoyang.market.enter>
+  <yexiaoyang.market.leave>나가기</yexiaoyang.market.leave>
+  <yexiaoyang.market.loading>상점 물자 준비 중…</yexiaoyang.market.loading>
+  <yexiaoyang.market.robbery>강도질</yexiaoyang.market.robbery>
+  <yexiaoyang.market.robbery.unavailable>강도질(총기와 맞는 탄약 필요)</yexiaoyang.market.robbery.unavailable>
+  <yexiaoyang.market.robbery.confirm>정말 이 세력의 상점을 털겠습니까? 나갈 때 반드시 전투가 벌어집니다.</yexiaoyang.market.robbery.confirm>
+  <yexiaoyang.market.robbery.confirm_yes>강도질 확인</yexiaoyang.market.robbery.confirm_yes>
+  <yexiaoyang.market.robbery.cancel>취소</yexiaoyang.market.robbery.cancel>
+  <yexiaoyang.market.robbery.free>이제 상점 물품을 바로 가져갈 수 있습니다. 나가면 전투가 벌어집니다.</yexiaoyang.market.robbery.free>
+  <yexiaoyang.market.trade.insufficient>크레딧이 부족합니다.</yexiaoyang.market.trade.insufficient>
+  <yexiaoyang.market.trade.pay>{credits}크레딧 지불</yexiaoyang.market.trade.pay>
+  <yexiaoyang.market.trade.sold>{credits}크레딧 받기</yexiaoyang.market.trade.sold>
+  <yexiaoyang.market.error.open>지금은 상점을 열 수 없습니다. 잠시 후 다시 시도하세요.</yexiaoyang.market.error.open>
+  <yexiaoyang.market.error.busy>이미 진행 중인 거래가 있습니다.</yexiaoyang.market.error.busy>
+  <yexiaoyang.market.error.soldiers>임무에 투입할 수 있는 병력을 한 명 이상 선택하세요.</yexiaoyang.market.error.soldiers>
+  <yexiaoyang.market.error.food>이번 파견에 필요한 식량 포인트가 부족합니다.</yexiaoyang.market.error.food>
+  <yexiaoyang.market.error.loading>상점이 재입고 중입니다. 잠시 후 다시 시도하세요.</yexiaoyang.market.error.loading>
+  <yexiaoyang.market.report.trade>{site}에 거래하러 보낸 인원이 복귀했습니다.</yexiaoyang.market.report.trade>
+  <yexiaoyang.market.trip_return>{site}에 거래하러 보낸 인원이 복귀했습니다.</yexiaoyang.market.trip_return>
+  <yexiaoyang.market.report.robbery>상점 강도 사건으로 {site}에서 전투가 벌어졌습니다. 지휘소 지도를 확인하세요.</yexiaoyang.market.report.robbery>
+  <yexiaoyang.market.voucher.food>식량 {points}포인트 교환권</yexiaoyang.market.voucher.food>
+  <yexiaoyang.market.voucher.material>자재 {points}포인트 교환권</yexiaoyang.market.voucher.material>
+  <yexiaoyang.market.voucher.food.description>식량 {points}포인트를 나타냅니다. 포인트당 기본가는 1크레딧이며 원래 가격의 70%에 팔 수 있습니다. 가져온 교환권은 자동으로 식량 포인트로 바뀝니다.</yexiaoyang.market.voucher.food.description>
+  <yexiaoyang.market.voucher.material.description>자재 {points}포인트를 나타냅니다. 포인트당 기본가는 1크레딧이며 원래 가격의 70%에 팔 수 있습니다. 가져온 교환권은 자동으로 자재 포인트로 바뀝니다.</yexiaoyang.market.voucher.material.description>
+  <yexiaoyang.market.box.food>식량 포인트 상자</yexiaoyang.market.box.food>
+  <yexiaoyang.market.box.material>자재 포인트 상자</yexiaoyang.market.box.material>
+  <yexiaoyang.market.box.description>이번 거래에 쓰는 자원 교환권입니다. 가게를 나갈 때 가지고 있는 교환권이 해당 자원 포인트로 바뀝니다.</yexiaoyang.market.box.description>
+  <yexiaoyang.market.error.visited>오늘은 이미 이곳에서 거래했습니다. 내일 다시 오세요.</yexiaoyang.market.error.visited>
+  <yexiaoyang.market.status.fatigue>피로(내일 회복)</yexiaoyang.market.status.fatigue>
+</LanguageData>

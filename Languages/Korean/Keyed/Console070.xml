@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ui.console.skip_help>예샤오양 튜토리얼 모두 건너뛰기</yexiaoyang.ui.console.skip_help>
+  <yexiaoyang.ui.console.siege_help>내일 군의 포위 공격 확인</yexiaoyang.ui.console.siege_help>
+  <yexiaoyang.ui.console.skip_result>이 저장 파일의 첫 만남, 지휘소, 지도 튜토리얼을 완료 처리하고 현재 안내를 닫았습니다.</yexiaoyang.ui.console.skip_result>
+  <yexiaoyang.ui.console.siege_result>내일 포위 공격 여부를 반드시 확인합니다. 적대도와 방어 요건을 충족하는 대상이 있어야 실제로 발생합니다.</yexiaoyang.ui.console.siege_result>
+  <yexiaoyang.ui.console.siege_unavailable>먼저 지휘소를 건설하세요.</yexiaoyang.ui.console.siege_unavailable>
+</LanguageData>

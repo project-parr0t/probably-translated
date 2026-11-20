@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.SmeltingRoom.Basic.label>기초 제련실</yexiaoyang.SmeltingRoom.Basic.label>
+  <yexiaoyang.SmeltingRoom.Basic.description>광석과 고철을 처리하는 기초 제련 시설입니다.</yexiaoyang.SmeltingRoom.Basic.description>
+  <yexiaoyang.SmeltingRoom.Basic.abilitySummary>독립 용광로 1대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 낮음 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.SmeltingRoom.Basic.abilitySummary>
+  <yexiaoyang.SmeltingRoom.Basic.cardText>광석과 고철을 처리하는 기초 제련 시설입니다.
+용광로: 1대
+주괴 최소 순도: 낮음
+원료 / 생산품 보관함: 각각 96칸
+공용 모듈 공간: 28칸
+전력 요금: 하루 10크레딧</yexiaoyang.SmeltingRoom.Basic.cardText>
+  <yexiaoyang.SmeltingRoom.Basic.upgradeText>기초 제련실로 개조합니다. 비용: 3,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 10크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 용광로 1대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 낮음 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.SmeltingRoom.Basic.upgradeText>
+  <yexiaoyang.SmeltingRoom.Basic.facilities.furnace_01.label>용광로 1</yexiaoyang.SmeltingRoom.Basic.facilities.furnace_01.label>
+  <yexiaoyang.SmeltingRoom.Improved.label>개량 제련실</yexiaoyang.SmeltingRoom.Improved.label>
+  <yexiaoyang.SmeltingRoom.Improved.description>여러 용광로에서 금속을 동시에 제련합니다.</yexiaoyang.SmeltingRoom.Improved.description>
+  <yexiaoyang.SmeltingRoom.Improved.abilitySummary>독립 용광로 3대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 보통 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.SmeltingRoom.Improved.abilitySummary>
+  <yexiaoyang.SmeltingRoom.Improved.cardText>여러 용광로에서 금속을 동시에 제련합니다.
+용광로: 3대
+주괴 최소 순도: 보통
+원료 / 생산품 보관함: 각각 140칸
+공용 모듈 공간: 40칸
+전력 요금: 하루 30크레딧</yexiaoyang.SmeltingRoom.Improved.cardText>
+  <yexiaoyang.SmeltingRoom.Improved.upgradeText>개량 제련실로 개조합니다. 비용: 8,000크레딧. 소요 기간: 2일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 30크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 용광로 3대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 보통 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.SmeltingRoom.Improved.upgradeText>
+  <yexiaoyang.SmeltingRoom.Improved.facilities.furnace_01.label>용광로 1</yexiaoyang.SmeltingRoom.Improved.facilities.furnace_01.label>
+  <yexiaoyang.SmeltingRoom.Improved.facilities.furnace_02.label>용광로 2</yexiaoyang.SmeltingRoom.Improved.facilities.furnace_02.label>
+  <yexiaoyang.SmeltingRoom.Improved.facilities.furnace_03.label>용광로 3</yexiaoyang.SmeltingRoom.Improved.facilities.furnace_03.label>
+  <yexiaoyang.SmeltingRoom.Upper.label>상층 구역 제련실</yexiaoyang.SmeltingRoom.Upper.label>
+  <yexiaoyang.SmeltingRoom.Upper.description>원료를 자동으로 공급해 고순도 주괴를 만드는 제련 시설입니다.</yexiaoyang.SmeltingRoom.Upper.description>
+  <yexiaoyang.SmeltingRoom.Upper.abilitySummary>독립 용광로 5대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 높음 · 모듈 보관함 공유 · 자동 처리 가능</yexiaoyang.SmeltingRoom.Upper.abilitySummary>
+  <yexiaoyang.SmeltingRoom.Upper.cardText>원료를 자동으로 공급해 고순도 주괴를 만드는 제련 시설입니다.
+용광로: 5대
+주괴 최소 순도: 높음
+자동화: 자동 원료 공급 및 생산품 이동 선택 가능
+원료 / 생산품 보관함: 각각 192칸
+공용 모듈 공간: 60칸
+전력 요금: 하루 60크레딧</yexiaoyang.SmeltingRoom.Upper.cardText>
+  <yexiaoyang.SmeltingRoom.Upper.upgradeText>상층 구역 제련실로 개조합니다. 비용: 20,000크레딧. 소요 기간: 3일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 60크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 용광로 5대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 높음 · 모듈 보관함 공유 · 자동 처리 가능</yexiaoyang.SmeltingRoom.Upper.upgradeText>
+  <yexiaoyang.SmeltingRoom.Upper.facilities.furnace_01.label>용광로 1</yexiaoyang.SmeltingRoom.Upper.facilities.furnace_01.label>
+  <yexiaoyang.SmeltingRoom.Upper.facilities.furnace_02.label>용광로 2</yexiaoyang.SmeltingRoom.Upper.facilities.furnace_02.label>
+  <yexiaoyang.SmeltingRoom.Upper.facilities.furnace_03.label>용광로 3</yexiaoyang.SmeltingRoom.Upper.facilities.furnace_03.label>
+  <yexiaoyang.SmeltingRoom.Upper.facilities.furnace_04.label>용광로 4</yexiaoyang.SmeltingRoom.Upper.facilities.furnace_04.label>
+  <yexiaoyang.SmeltingRoom.Upper.facilities.furnace_05.label>용광로 5</yexiaoyang.SmeltingRoom.Upper.facilities.furnace_05.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.label>초월 제련실</yexiaoyang.SmeltingRoom.Transcendent.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.description>정밀 정제 설비로 완전 순도의 주괴를 만듭니다.</yexiaoyang.SmeltingRoom.Transcendent.description>
+  <yexiaoyang.SmeltingRoom.Transcendent.abilitySummary>독립 용광로 8대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 완전 · 모듈 보관함 공유 · 자동 처리 가능</yexiaoyang.SmeltingRoom.Transcendent.abilitySummary>
+  <yexiaoyang.SmeltingRoom.Transcendent.cardText>정밀 정제 설비로 완전 순도의 주괴를 만듭니다.
+용광로: 8대
+주괴 최소 순도: 완전
+자동화: 자동 원료 공급 및 생산품 이동 선택 가능
+원료 / 생산품 보관함: 각각 252칸
+공용 모듈 공간: 72칸
+전력 요금: 하루 100크레딧</yexiaoyang.SmeltingRoom.Transcendent.cardText>
+  <yexiaoyang.SmeltingRoom.Transcendent.upgradeText>초월 제련실로 개조합니다. 비용: 50,000크레딧. 소요 기간: 5일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 100크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 용광로 8대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 완전 · 모듈 보관함 공유 · 자동 처리 가능</yexiaoyang.SmeltingRoom.Transcendent.upgradeText>
+  <yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_01.label>용광로 1</yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_01.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_02.label>용광로 2</yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_02.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_03.label>용광로 3</yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_03.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_04.label>용광로 4</yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_04.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_05.label>용광로 5</yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_05.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_06.label>용광로 6</yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_06.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_07.label>용광로 7</yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_07.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_08.label>용광로 8</yexiaoyang.SmeltingRoom.Transcendent.facilities.furnace_08.label>
+</LanguageData>

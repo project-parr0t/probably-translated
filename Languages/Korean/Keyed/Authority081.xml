@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.authority081.story_greeting>안녕하십니까, 장관님.</yexiaoyang.authority081.story_greeting>
+  <yexiaoyang.authority081.seller.1>장관님, 여분의 무기와 장비를 가져왔습니다.</yexiaoyang.authority081.seller.1>
+  <yexiaoyang.authority081.requisition.1>장관님, 남는 의약품이나 식량이 있습니까?</yexiaoyang.authority081.requisition.1>
+  <yexiaoyang.authority081.requisition.2>구매 예산은 준비했습니다. 평소대로 계산대에서 처리해 주십시오.</yexiaoyang.authority081.requisition.2>
+  <yexiaoyang.authority081.requisition.3>수고하셨습니다, 장관님.</yexiaoyang.authority081.requisition.3>
+  <yexiaoyang.authority081.seller.2>필요한 걸 골라 주십시오. 서류는 평소대로 처리하시면 됩니다.</yexiaoyang.authority081.seller.2>
+  <yexiaoyang.authority081.seller.3>허가증으로 취급할 수 있는 물품을 모두 가져왔습니다. 확인해 주십시오.</yexiaoyang.authority081.seller.3>
+  <yexiaoyang.authority081.buyer.1>안녕하십니까, 장관님.</yexiaoyang.authority081.buyer.1>
+  <yexiaoyang.authority081.buyer.2>물자 몇 가지를 조달하러 왔습니다.</yexiaoyang.authority081.buyer.2>
+  <yexiaoyang.authority081.buyer.3>평소대로 계산대에서 처리해 주십시오.</yexiaoyang.authority081.buyer.3>
+  <yexiaoyang.authority081.buyer.4>구매 예산은 준비했습니다.</yexiaoyang.authority081.buyer.4>
+  <yexiaoyang.authority081.buyer.5>추천해 주시면 감사하겠습니다.</yexiaoyang.authority081.buyer.5>
+  <yexiaoyang.authority081.buyer.6>수고하셨습니다, 장관님.</yexiaoyang.authority081.buyer.6>
+  <yexiaoyang.authority081.buyer.7>천천히 하십시오. 기다리겠습니다.</yexiaoyang.authority081.buyer.7>
+  <yexiaoyang.authority081.accepted.1>알겠습니다, 장관님.</yexiaoyang.authority081.accepted.1>
+  <yexiaoyang.authority081.accepted.2>거래를 기록했습니다.</yexiaoyang.authority081.accepted.2>
+  <yexiaoyang.authority081.accepted.3>거래해 주셔서 감사합니다.</yexiaoyang.authority081.accepted.3>
+  <yexiaoyang.authority081.done.1>그럼 업무 보십시오, 장관님.</yexiaoyang.authority081.done.1>
+  <yexiaoyang.authority081.done.2>필요하신 게 있으면 알려 주십시오.</yexiaoyang.authority081.done.2>
+  <yexiaoyang.authority081.done.3>안녕히 계십시오.</yexiaoyang.authority081.done.3>
+  <yexiaoyang.authority081.wrong_item.1>장관님, 이 물품은 이번 구매 명세에 없습니다.</yexiaoyang.authority081.wrong_item.1>
+  <yexiaoyang.authority081.wrong_item.2>목록에 있는 물품으로 부탁드려도 되겠습니까?</yexiaoyang.authority081.wrong_item.2>
+  <yexiaoyang.authority081.wrong_item.3>이 예산은 목록에 있는 물품에만 쓸 수 있습니다.</yexiaoyang.authority081.wrong_item.3>
+  <yexiaoyang.authority081.right_item.1>딱 필요한 물품입니다, 장관님.</yexiaoyang.authority081.right_item.1>
+  <yexiaoyang.authority081.right_item.2>이걸로 하겠습니다. 계산해 주십시오.</yexiaoyang.authority081.right_item.2>
+  <yexiaoyang.authority081.right_item.3>감사합니다. 주문과 일치합니다.</yexiaoyang.authority081.right_item.3>
+  <yexiaoyang.authority081.inspection_clear>장관님, 정기 출입 절차는 끝났습니다. 그럼 업무 보십시오.</yexiaoyang.authority081.inspection_clear>
+  <yexiaoyang.authority081.arrest_resident>제가 뭘 했는데요?</yexiaoyang.authority081.arrest_resident>
+  <yexiaoyang.authority081.arrest_order>장관님의 명령입니다. 함께 가시죠.</yexiaoyang.authority081.arrest_order>
+  <yexiaoyang.authority081.arrest_receipt_title>신병 인계 확인서</yexiaoyang.authority081.arrest_receipt_title>
+  <yexiaoyang.authority081.arrest_receipt_body>장관의 지시에 따라 주민을 보안대로 연행했습니다.</yexiaoyang.authority081.arrest_receipt_body>
+  <yexiaoyang.authority081.bargain_title>갈취 (보안대)</yexiaoyang.authority081.bargain_title>
+  <yexiaoyang.authority081.bargain_info>보안대 장관의 권한으로 가격 인하를 명령합니다. 확정 효과: 판매가를 20% 인하합니다. 손님 한 번 방문에 한해 한 번만 가능하며, 하층 기본 평판 2를 소모합니다.</yexiaoyang.authority081.bargain_info>
+  <yexiaoyang.authority081.bargain_button>20% 할인 · 하층 평판 −2</yexiaoyang.authority081.bargain_button>
+  <yexiaoyang.authority081.bargain_accept>알겠습니다… 20% 더 빼드리죠.</yexiaoyang.authority081.bargain_accept>
+  <yexiaoyang.authority081.bargain_officer_accept>명령대로 하겠습니다, 장관님. 이 물품들은 20% 더 할인하겠습니다.</yexiaoyang.authority081.bargain_officer_accept>
+</LanguageData>

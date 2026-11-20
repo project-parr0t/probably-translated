@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.market.finish_trade>거래 마치기</yexiaoyang.market.finish_trade>
+  <yexiaoyang.market.reaction.residential>자, 잠깐! 쏘지 마! 원하는 거 다 가져가!</yexiaoyang.market.reaction.residential>
+  <yexiaoyang.market.reaction.junkyard>야, 야, 총 내려놔! 고철은 다 네 거야!</yexiaoyang.market.reaction.junkyard>
+  <yexiaoyang.market.reaction.plantation>진정해! 농기구랑 비료 가져가! 쏘지만 마!</yexiaoyang.market.reaction.plantation>
+  <yexiaoyang.market.reaction.distillery>잠깐, 쏘지 마! 술은 다 가져가!</yexiaoyang.market.reaction.distillery>
+  <yexiaoyang.market.reaction.forge>쏘지 마! 금속이든 프린터 재료든 다 가져가! 제발 살려 줘!</yexiaoyang.market.reaction.forge>
+  <yexiaoyang.market.reaction.ration>진정해! 배급권이랑 식량은 여기 있어. 죽이지만 마!</yexiaoyang.market.reaction.ration>
+  <yexiaoyang.market.reaction.security>미쳤어? 난 보안대 소속이야! 총 내려놔!</yexiaoyang.market.reaction.security>
+  <yexiaoyang.market.voucher.food.short>식량 {points}포인트 교환권입니다. 소유한 뒤 더블클릭하면 교환할 수 있습니다. 거래가 끝날 때도 자동으로 교환됩니다.</yexiaoyang.market.voucher.food.short>
+  <yexiaoyang.market.voucher.material.short>자재 {points}포인트 교환권입니다. 소유한 뒤 더블클릭하면 교환할 수 있습니다. 거래가 끝날 때도 자동으로 교환됩니다.</yexiaoyang.market.voucher.material.short>
+  <yexiaoyang.market.result.victory>승리!</yexiaoyang.market.result.victory>
+  <yexiaoyang.market.result.defeat>패배!</yexiaoyang.market.result.defeat>
+  <yexiaoyang.market.result.resources>획득 자원: {credits}크레딧, 식량 {food}, 자재 {materials}.</yexiaoyang.market.result.resources>
+  <yexiaoyang.market.result.loot>획득 전리품: {items}</yexiaoyang.market.result.loot>
+  <yexiaoyang.market.result.crates>획득한 전리품 상자: {count}개</yexiaoyang.market.result.crates>
+  <yexiaoyang.market.result.occupied>점령 거점: {site}</yexiaoyang.market.result.occupied>
+  <yexiaoyang.market.result.lost>잃은 장비: {items}</yexiaoyang.market.result.lost>
+  <yexiaoyang.market.result.lost_none>잃은 장비가 없습니다.</yexiaoyang.market.result.lost_none>
+  <yexiaoyang.market.result.local_reputation>지역 평판 하락: {loss}</yexiaoyang.market.result.local_reputation>
+  <yexiaoyang.market.result.lower_reputation>하층 평판 하락: {loss}</yexiaoyang.market.result.lower_reputation>
+  <yexiaoyang.market.result.item>{name} ×{count}</yexiaoyang.market.result.item>
+  <yexiaoyang.market.result.legacy>이전 기록입니다. 상세 내역이 없습니다.</yexiaoyang.market.result.legacy>
+  <yexiaoyang.market.result.continue>거점 보기</yexiaoyang.market.result.continue>
+</LanguageData>

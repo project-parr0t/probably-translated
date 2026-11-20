@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.district.security.requires_territories>보안대를 점령하거나 인수하려면 다른 모든 거점을 소유해야 합니다.</yexiaoyang.district.security.requires_territories>
+  <yexiaoyang.district.security.purchase_cancelled>다른 모든 거점을 더 이상 소유하지 않아 보안대 인수가 취소됐습니다. 실제 지불한 {0}크레딧을 돌려받았습니다.</yexiaoyang.district.security.purchase_cancelled>
+  <yexiaoyang.district.security.victory_not_occupied>전투에 이겼지만 다른 모든 거점을 소유하지 않아 보안대를 점령하지 못했습니다. 승리 보상은 지급됐습니다.</yexiaoyang.district.security.victory_not_occupied>
+</LanguageData>

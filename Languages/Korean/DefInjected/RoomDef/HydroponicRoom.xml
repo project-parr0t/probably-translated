@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.HydroponicRoom.label>수경재배실</yexiaoyang.HydroponicRoom.label>
+  <yexiaoyang.HydroponicRoom.description>낡은 재배대를 손봐 만든 공간입니다. 다양한 작물을 기를 수 있습니다.</yexiaoyang.HydroponicRoom.description>
+  <yexiaoyang.HydroponicRoom.lockedDescription>깨진 덮개와 말라붙은 재배대만 남았습니다. 파종 전에 배관과 조명을 수리하세요.</yexiaoyang.HydroponicRoom.lockedDescription>
+  <yexiaoyang.HydroponicRoom.manualText>씨앗을 재배대에 직접 놓으세요. 개량 단계부터는 방 전체에 같은 미네랄 목표를 적용하며, 필요할 때 영양 정제를 사용합니다.</yexiaoyang.HydroponicRoom.manualText>
+  <yexiaoyang.HydroponicRoom.serviceDescription>정액 전력 요금에 기계 전력이 포함되므로 별도 배터리가 필요 없습니다. 방 전력을 끄면 고정 시설과 자동 급수가 멈추지만 보관함은 계속 이용할 수 있습니다. 공사 중에는 전력 요금이 면제됩니다.</yexiaoyang.HydroponicRoom.serviceDescription>
+  <yexiaoyang.HydroponicRoom.nightReportText>{roomName}: 재배대 {workedBeds}/{totalBeds}대 가동, 수확 {harvestCount}개, 정지 {pausedBeds}대. 방 전력 요금: {maintenanceFee} 크레딧(고정 기계 포함).</yexiaoyang.HydroponicRoom.nightReportText>
+  <yexiaoyang.HydroponicRoom.constructionReportText>{roomName} 공사가 {remainingDays}일 남았습니다. 출입할 수 없고 고정 기계는 멈춥니다. 방 전력 요금은 면제됩니다.</yexiaoyang.HydroponicRoom.constructionReportText>
+</LanguageData>

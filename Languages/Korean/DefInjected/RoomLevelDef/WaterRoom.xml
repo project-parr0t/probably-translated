@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.WaterRoom.Basic.label>기초 정수실</yexiaoyang.WaterRoom.Basic.label>
+  <yexiaoyang.WaterRoom.Basic.description>많은 양의 물을 정수하는 설비실입니다.</yexiaoyang.WaterRoom.Basic.description>
+  <yexiaoyang.WaterRoom.Improved.label>개량 정수실</yexiaoyang.WaterRoom.Improved.label>
+  <yexiaoyang.WaterRoom.Improved.description>통합 배관과 더 강력한 여과 장비를 갖춘 정수실입니다.</yexiaoyang.WaterRoom.Improved.description>
+  <yexiaoyang.WaterRoom.Upper.label>상층 구역 정수실</yexiaoyang.WaterRoom.Upper.label>
+  <yexiaoyang.WaterRoom.Upper.description>품질 모듈 없이도 서서히 순수한 물을 만들 수 있는 자동 정수실입니다.</yexiaoyang.WaterRoom.Upper.description>
+  <yexiaoyang.WaterRoom.Transcendent.label>초월 정수실</yexiaoyang.WaterRoom.Transcendent.label>
+  <yexiaoyang.WaterRoom.Transcendent.description>정밀 필터와 독립된 물탱크 5개를 갖춘 정수실입니다.</yexiaoyang.WaterRoom.Transcendent.description>
+</LanguageData>

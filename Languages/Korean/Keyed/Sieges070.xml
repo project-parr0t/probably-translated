@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.district.action.defend>방어 편성</yexiaoyang.district.action.defend>
+  <yexiaoyang.district.action.defend.desc>거점이 포위됐습니다. 주둔 병력은 자동으로 참전하며, 대기 중인 병력을 지원군으로 보낼 수 있습니다. 지역 민병대가 건물의 추가 화력을 제공합니다. 지원군은 1인당 식량 20포인트를 소모하고 전투 다음 날 복귀합니다. 주둔 병력은 현지에 남습니다. 기한 내에 방어하지 않으면 거점을 잃습니다.</yexiaoyang.district.action.defend.desc>
+  <yexiaoyang.district.siege.gang>현지 갱단</yexiaoyang.district.siege.gang>
+  <yexiaoyang.district.siege.security>보안대</yexiaoyang.district.siege.security>
+  <yexiaoyang.district.siege.upper>상층군</yexiaoyang.district.siege.upper>
+  <yexiaoyang.district.siege.militia>지역 민병대 {0}</yexiaoyang.district.siege.militia>
+  <yexiaoyang.district.siege.status>{0}의 포위 공격을 받고 있습니다. 적 화력: {1}. 대응 기한: {2}일.</yexiaoyang.district.siege.status>
+  <yexiaoyang.district.siege.started>{0}이(가) 화력 {2}의 {1}에게 포위됐습니다. {3}일 동안 버틸 수 있습니다. 지도에서 방어를 편성하세요.</yexiaoyang.district.siege.started>
+  <yexiaoyang.district.siege.lost>방어 기한을 넘겨 {0}이(가) {1}에게 넘어갔습니다.</yexiaoyang.district.siege.lost>
+  <yexiaoyang.district.siege.saved>{0}의 포위 공격을 격퇴했습니다.</yexiaoyang.district.siege.saved>
+  <yexiaoyang.district.siege.loss_result>{0}이(가) {1}에게 넘어갔습니다.</yexiaoyang.district.siege.loss_result>
+  <yexiaoyang.district.siege.no_defenders>투입할 병력이나 방어 시설이 없습니다. 지원군을 배정하세요.</yexiaoyang.district.siege.no_defenders>
+  <yexiaoyang.district.siege.prosperity>지난밤 시설의 효과로 {0}의 번영도가 {1} 올랐습니다. 현재 번영도: {2}/200.</yexiaoyang.district.siege.prosperity>
+  <yexiaoyang.district.siege.cost>총비용: 식량 {0}포인트, {1}크레딧, 자재 {2}포인트</yexiaoyang.district.siege.cost>
+</LanguageData>

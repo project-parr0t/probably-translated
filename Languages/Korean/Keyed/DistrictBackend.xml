@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.district.trade.local>현지 교환</yexiaoyang.district.trade.local>
+  <yexiaoyang.district.trade.materials>자재 포인트</yexiaoyang.district.trade.materials>
+  <yexiaoyang.district.trade.food>식량 포인트</yexiaoyang.district.trade.food>
+  <yexiaoyang.district.trade.goods_missing>선택한 물품이 부족하거나 이미 옮겨졌습니다.</yexiaoyang.district.trade.goods_missing>
+  <yexiaoyang.district.trade.value_low>선택한 수량이 너무 적어 크레딧을 받을 수 없습니다.</yexiaoyang.district.trade.value_low>
+  <yexiaoyang.district.report.goods_traded>{0}: {1} ×{2} 판매, {3}크레딧 획득.</yexiaoyang.district.report.goods_traded>
+  <yexiaoyang.district.owner.player>내 세력</yexiaoyang.district.owner.player>
+  <yexiaoyang.district.unarmed>비무장</yexiaoyang.district.unarmed>
+  <yexiaoyang.district.defender>{0} 경비원 {1}</yexiaoyang.district.defender>
+  <yexiaoyang.district.busy>임무 중 또는 회복 중</yexiaoyang.district.busy>
+  <yexiaoyang.district.available>대기 중</yexiaoyang.district.available>
+  <yexiaoyang.district.unavailable>지휘소가 잠겨 있거나 이 구역을 이용할 수 없습니다.</yexiaoyang.district.unavailable>
+  <yexiaoyang.district.site_busy>이 구역에 처리할 임무나 전투가 이미 있습니다.</yexiaoyang.district.site_busy>
+  <yexiaoyang.district.select_soldiers>임무에 투입할 수 있는 병력을 한 명 이상 선택하세요.</yexiaoyang.district.select_soldiers>
+  <yexiaoyang.district.no_garrison>이곳에는 철수시킬 주둔 병력이 없습니다.</yexiaoyang.district.no_garrison>
+  <yexiaoyang.district.cargo_limit>병력 1인당 임무 화물을 최대 1,000개 운반할 수 있습니다.</yexiaoyang.district.cargo_limit>
+  <yexiaoyang.district.tax_cooldown>강제 징세는 구역마다 7일에 한 번만 가능합니다.</yexiaoyang.district.tax_cooldown>
+  <yexiaoyang.district.charity_cooldown>오늘 이 구역에 이미 기부를 준비했습니다.</yexiaoyang.district.charity_cooldown>
+  <yexiaoyang.district.purchase_relation>인수하려면 지역 평판이 200 필요합니다. 보안대 인수에는 기본 게임의 보안대 세력 평판도 200 필요합니다.</yexiaoyang.district.purchase_relation>
+  <yexiaoyang.district.building_invalid>아직 짓지 않은 시설을 선택하세요. 선행 조건을 충족해야 하며 건물은 최대 6개까지 지을 수 있습니다.</yexiaoyang.district.building_invalid>
+  <yexiaoyang.district.resources_short>크레딧, 식량 포인트 또는 자재 포인트가 부족합니다.</yexiaoyang.district.resources_short>
+  <yexiaoyang.district.loot_crate>전리품 상자</yexiaoyang.district.loot_crate>
+  <yexiaoyang.district.loot_crate.desc>작전에서 가져온 전리품입니다. 10×20칸 보관함이 들어 있습니다. 더블클릭하여 열 수 있습니다.</yexiaoyang.district.loot_crate.desc>
+  <yexiaoyang.district.report.battle>전투: {0} 측이 {2}에서 {1} 중 저항에 부딪혔습니다. 지휘소 지도에서 전투를 처리하세요.</yexiaoyang.district.report.battle>
+  <yexiaoyang.district.report.income>{0} 일일 수입: {1}크레딧, 식량 {2}포인트, 자재 {3}포인트.</yexiaoyang.district.report.income>
+  <yexiaoyang.district.report.upkeep_failed>{0}의 유지 물자가 부족합니다. 당일 생산이 멈추고 주둔 병력이 복귀했습니다.</yexiaoyang.district.report.upkeep_failed>
+  <yexiaoyang.district.report.reinforced>{0}의 경비 병력이 보충됐습니다.</yexiaoyang.district.report.reinforced>
+  <yexiaoyang.district.report.garrisoned>{0}: 병력 {1}명이 주둔 임무에 도착했습니다.</yexiaoyang.district.report.garrisoned>
+  <yexiaoyang.district.report.recalled>{0}: 주둔 병력 {1}명이 복귀했습니다.</yexiaoyang.district.report.recalled>
+  <yexiaoyang.district.report.built>건설 완료: {0}의 {1} 시설이 가동되기 시작했습니다.</yexiaoyang.district.report.built>
+  <yexiaoyang.district.report.cleaned>{0} 청소 완료: {1}크레딧을 벌고 번영도가 2 올랐습니다.</yexiaoyang.district.report.cleaned>
+  <yexiaoyang.district.report.scavenged>{0} 수거 완료: 자재 {1}포인트를 얻었습니다.</yexiaoyang.district.report.scavenged>
+  <yexiaoyang.district.report.traded>{0} 거래 완료: 물품 {1}개를 넘기고 {2}개를 받았습니다.</yexiaoyang.district.report.traded>
+  <yexiaoyang.district.report.charity>{0} 기부 완료. 지역 평판과 하층 평판이 올랐습니다.</yexiaoyang.district.report.charity>
+  <yexiaoyang.district.report.taxed>{0} 강제 징세 완료: 2,000크레딧과 식량·자재 각각 500포인트를 얻었습니다. 지역 평판이 100, 번영도가 30 떨어졌습니다.</yexiaoyang.district.report.taxed>
+  <yexiaoyang.district.report.purchased>인수 완료: 이제 {0}을(를) 지배합니다. 일일 수입과 지역 건설이 해금됐습니다.</yexiaoyang.district.report.purchased>
+  <yexiaoyang.district.report.stolen>{0}에서 절도에 성공했습니다. 자원이 지급됐으며, 가져온 물품은 계산대로 배송됩니다.</yexiaoyang.district.report.stolen>
+  <yexiaoyang.district.report.victory>{0} 전투에 승리해 전리품을 받았습니다. 계산대에 들어가지 않은 물품은 공간이 생기면 도착합니다.</yexiaoyang.district.report.victory>
+  <yexiaoyang.district.report.defeat>{0} 전투에서 패배했습니다. 병력은 복귀했지만 장비를 빼앗겨 회복이 필요합니다.</yexiaoyang.district.report.defeat>
+  <yexiaoyang.district.action.clean>청소</yexiaoyang.district.action.clean>
+  <yexiaoyang.district.action.clean.desc>병력을 보내 내 영토를 청소합니다. 위험은 없으며 1인당 식량 20포인트를 소모합니다. 다음 날 번영도에 따라 크레딧을 받고 번영도가 조금 오릅니다.</yexiaoyang.district.action.clean.desc>
+  <yexiaoyang.district.action.garrison>주둔</yexiaoyang.district.action.garrison>
+  <yexiaoyang.district.action.garrison.desc>병력을 주둔시켜 지역 방어 화력을 높입니다. 주둔 병력은 하루에 1인당 식량 20포인트를 소모합니다.</yexiaoyang.district.action.garrison.desc>
+  <yexiaoyang.district.action.recall>주둔 병력 철수</yexiaoyang.district.action.recall>
+  <yexiaoyang.district.action.recall.desc>현지 주둔 병력을 철수시킵니다. 돌아오는 데 하룻밤이 걸립니다.</yexiaoyang.district.action.recall.desc>
+  <yexiaoyang.district.action.tax>강제 징세</yexiaoyang.district.action.tax>
+  <yexiaoyang.district.action.tax.desc>2,000크레딧과 식량·자재 각각 500포인트를 거둬들입니다. 지역 평판이 100, 번영도가 30 하락합니다. 7일에 한 번만 가능합니다.</yexiaoyang.district.action.tax.desc>
+  <yexiaoyang.district.action.charity>기부</yexiaoyang.district.action.charity>
+  <yexiaoyang.district.action.charity.desc>기부하여 지역 관계와 하층 평판을 높입니다. 내 영토에서는 1,000크레딧에 지역 평판이 30, 번영도가 10 오릅니다. 다른 곳에서는 병력 1인당 500크레딧을 씁니다. 하층 평판 기본 상승치는 1인당 2(최대 10)이며, 중첩되지 않는 특성 보너스를 더한 뒤 전체의 두 배를 얻습니다.</yexiaoyang.district.action.charity.desc>
+  <yexiaoyang.district.action.build>건설</yexiaoyang.district.action.build>
+  <yexiaoyang.district.action.build.desc>지역 생산이나 방어를 강화하는 시설을 짓습니다. 구역당 최대 6개를 지을 수 있고 같은 시설을 다시 지을 수 없습니다. 업그레이드하면 이전 시설을 대체합니다.</yexiaoyang.district.action.build.desc>
+  <yexiaoyang.district.action.scavenge>수거</yexiaoyang.district.action.scavenge>
+  <yexiaoyang.district.action.scavenge.desc>병력을 보내 고철을 찾습니다. 하룻밤 뒤에 자재 포인트를 가져옵니다. 폐품 처리장에서는 더 많이 얻습니다.</yexiaoyang.district.action.scavenge.desc>
+  <yexiaoyang.district.action.theft>절도</yexiaoyang.district.action.theft>
+  <yexiaoyang.district.action.theft.desc>잠입 병력의 생존력이 높으면 들킬 확률이 낮아집니다. 성공하면 자원과 물품을 얻고, 들키면 평판이 떨어지고 전투가 벌어집니다.</yexiaoyang.district.action.theft.desc>
+  <yexiaoyang.district.action.raid>습격</yexiaoyang.district.action.raid>
+  <yexiaoyang.district.action.raid.desc>항상 전체 경비 병력의 약 3분의 1과 전투를 벌입니다. 이기면 자원, 10×20칸 전리품 상자 1개, 적의 장비를 얻습니다.</yexiaoyang.district.action.raid.desc>
+  <yexiaoyang.district.action.trade>거래</yexiaoyang.district.action.trade>
+  <yexiaoyang.district.action.trade.desc>병력을 보내 지역 수요에 따라 화물을 자원이나 크레딧으로 교환합니다. 1인당 최대 1,000개를 운반할 수 있습니다.</yexiaoyang.district.action.trade.desc>
+  <yexiaoyang.district.action.occupy>점령</yexiaoyang.district.action.occupy>
+  <yexiaoyang.district.action.occupy.desc>주둔 병력 전체를 공격합니다. 이기면 구역을 점령하고 대량의 자원, 10×20칸 전리품 상자 2개, 적의 장비를 얻습니다. 일일 수입과 건설이 해금됩니다.</yexiaoyang.district.action.occupy.desc>
+  <yexiaoyang.district.action.purchase>인수</yexiaoyang.district.action.purchase>
+  <yexiaoyang.district.action.purchase.desc>크레딧을 내고 구역을 평화롭게 인수합니다. 지역 평판 200이 필요합니다. 보안대는 기본 게임의 보안대 세력 평판도 200 필요합니다.</yexiaoyang.district.action.purchase.desc>
+</LanguageData>

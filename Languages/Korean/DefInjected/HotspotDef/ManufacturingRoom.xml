@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ManufacturingRoom.Basic.Equipment.label>출력 및 조립</yexiaoyang.ManufacturingRoom.Basic.Equipment.label>
+  <yexiaoyang.ManufacturingRoom.Basic.RawMaterials.label>원료 보관함</yexiaoyang.ManufacturingRoom.Basic.RawMaterials.label>
+  <yexiaoyang.ManufacturingRoom.Basic.Products.label>생산품 보관함</yexiaoyang.ManufacturingRoom.Basic.Products.label>
+  <yexiaoyang.ManufacturingRoom.Basic.Stockpile.label>보관함</yexiaoyang.ManufacturingRoom.Basic.Stockpile.label>
+  <yexiaoyang.ManufacturingRoom.Basic.RenovationBook.label>개조 및 업그레이드</yexiaoyang.ManufacturingRoom.Basic.RenovationBook.label>
+  <yexiaoyang.ManufacturingRoom.Improved.Equipment.label>출력 및 조립</yexiaoyang.ManufacturingRoom.Improved.Equipment.label>
+  <yexiaoyang.ManufacturingRoom.Improved.RawMaterials.label>원료 보관함</yexiaoyang.ManufacturingRoom.Improved.RawMaterials.label>
+  <yexiaoyang.ManufacturingRoom.Improved.Products.label>생산품 보관함</yexiaoyang.ManufacturingRoom.Improved.Products.label>
+  <yexiaoyang.ManufacturingRoom.Improved.Stockpile.label>보관함</yexiaoyang.ManufacturingRoom.Improved.Stockpile.label>
+  <yexiaoyang.ManufacturingRoom.Improved.RenovationBook.label>개조 및 업그레이드</yexiaoyang.ManufacturingRoom.Improved.RenovationBook.label>
+  <yexiaoyang.ManufacturingRoom.Upper.Equipment.label>출력 및 조립</yexiaoyang.ManufacturingRoom.Upper.Equipment.label>
+  <yexiaoyang.ManufacturingRoom.Upper.RawMaterials.label>원료 보관함</yexiaoyang.ManufacturingRoom.Upper.RawMaterials.label>
+  <yexiaoyang.ManufacturingRoom.Upper.Products.label>생산품 보관함</yexiaoyang.ManufacturingRoom.Upper.Products.label>
+  <yexiaoyang.ManufacturingRoom.Upper.Stockpile.label>보관함</yexiaoyang.ManufacturingRoom.Upper.Stockpile.label>
+  <yexiaoyang.ManufacturingRoom.Upper.RenovationBook.label>개조 및 업그레이드</yexiaoyang.ManufacturingRoom.Upper.RenovationBook.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.Equipment.label>출력 및 조립</yexiaoyang.ManufacturingRoom.Transcendent.Equipment.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.RawMaterials.label>원료 보관함</yexiaoyang.ManufacturingRoom.Transcendent.RawMaterials.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.Products.label>생산품 보관함</yexiaoyang.ManufacturingRoom.Transcendent.Products.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.Stockpile.label>보관함</yexiaoyang.ManufacturingRoom.Transcendent.Stockpile.label>
+  <yexiaoyang.ManufacturingRoom.Transcendent.RenovationBook.label>개조 및 업그레이드</yexiaoyang.ManufacturingRoom.Transcendent.RenovationBook.label>
+</LanguageData>

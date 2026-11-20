@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.StorageRoom.Basic.LeftTallA.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Basic.LeftTallA.label>
+  <yexiaoyang.StorageRoom.Basic.LeftTallB.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Basic.LeftTallB.label>
+  <yexiaoyang.StorageRoom.Basic.CenterCubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Basic.CenterCubbies.label>
+  <yexiaoyang.StorageRoom.Basic.RightCabinet.label>오른쪽 보관장</yexiaoyang.StorageRoom.Basic.RightCabinet.label>
+  <yexiaoyang.StorageRoom.Basic.ShelfBoxes.label>선반과 상자</yexiaoyang.StorageRoom.Basic.ShelfBoxes.label>
+  <yexiaoyang.StorageRoom.Basic.UpperShelfBoxes.label>선반과 상자</yexiaoyang.StorageRoom.Basic.UpperShelfBoxes.label>
+  <yexiaoyang.StorageRoom.Basic.RenovationBook.label>개조 및 업그레이드</yexiaoyang.StorageRoom.Basic.RenovationBook.label>
+  <yexiaoyang.StorageRoom.Improved.LeftTallA.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Improved.LeftTallA.label>
+  <yexiaoyang.StorageRoom.Improved.LeftTallB.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Improved.LeftTallB.label>
+  <yexiaoyang.StorageRoom.Improved.CenterCubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Improved.CenterCubbies.label>
+  <yexiaoyang.StorageRoom.Improved.RightCabinet.label>오른쪽 보관장</yexiaoyang.StorageRoom.Improved.RightCabinet.label>
+  <yexiaoyang.StorageRoom.Improved.ShelfBoxes.label>선반과 상자</yexiaoyang.StorageRoom.Improved.ShelfBoxes.label>
+  <yexiaoyang.StorageRoom.Improved.UpperShelfBoxes.label>선반과 상자</yexiaoyang.StorageRoom.Improved.UpperShelfBoxes.label>
+  <yexiaoyang.StorageRoom.Improved.RenovationBook.label>개조 및 업그레이드</yexiaoyang.StorageRoom.Improved.RenovationBook.label>
+  <yexiaoyang.StorageRoom.Upper.LeftTallA.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Upper.LeftTallA.label>
+  <yexiaoyang.StorageRoom.Upper.LeftTallB.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Upper.LeftTallB.label>
+  <yexiaoyang.StorageRoom.Upper.CenterCubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Upper.CenterCubbies.label>
+  <yexiaoyang.StorageRoom.Upper.RightCabinet.label>오른쪽 보관장</yexiaoyang.StorageRoom.Upper.RightCabinet.label>
+  <yexiaoyang.StorageRoom.Upper.ShelfBoxes.label>선반과 상자</yexiaoyang.StorageRoom.Upper.ShelfBoxes.label>
+  <yexiaoyang.StorageRoom.Upper.UpperShelfBoxes.label>선반과 상자</yexiaoyang.StorageRoom.Upper.UpperShelfBoxes.label>
+  <yexiaoyang.StorageRoom.Upper.RenovationBook.label>개조 및 업그레이드</yexiaoyang.StorageRoom.Upper.RenovationBook.label>
+  <yexiaoyang.StorageRoom.Transcendent.LeftTallA.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Transcendent.LeftTallA.label>
+  <yexiaoyang.StorageRoom.Transcendent.LeftTallB.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Transcendent.LeftTallB.label>
+  <yexiaoyang.StorageRoom.Transcendent.CenterCubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Transcendent.CenterCubbies.label>
+  <yexiaoyang.StorageRoom.Transcendent.RightCabinet.label>오른쪽 보관장</yexiaoyang.StorageRoom.Transcendent.RightCabinet.label>
+  <yexiaoyang.StorageRoom.Transcendent.ShelfBoxes.label>선반과 상자</yexiaoyang.StorageRoom.Transcendent.ShelfBoxes.label>
+  <yexiaoyang.StorageRoom.Transcendent.UpperShelfBoxes.label>선반과 상자</yexiaoyang.StorageRoom.Transcendent.UpperShelfBoxes.label>
+  <yexiaoyang.StorageRoom.Transcendent.RenovationBook.label>개조 및 업그레이드</yexiaoyang.StorageRoom.Transcendent.RenovationBook.label>
+</LanguageData>

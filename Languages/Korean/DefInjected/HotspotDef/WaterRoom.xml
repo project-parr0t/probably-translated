@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.WaterRoom.Faucet.label>수도꼭지</yexiaoyang.WaterRoom.Faucet.label>
+  <yexiaoyang.WaterRoom.Drain.label>배수구</yexiaoyang.WaterRoom.Drain.label>
+  <yexiaoyang.WaterRoom.Purifier.label>정수기 집합 설비</yexiaoyang.WaterRoom.Purifier.label>
+  <yexiaoyang.WaterRoom.Storage.label>물통 보관함</yexiaoyang.WaterRoom.Storage.label>
+  <yexiaoyang.WaterRoom.RenovationBook.label>개조 및 업그레이드</yexiaoyang.WaterRoom.RenovationBook.label>
+</LanguageData>

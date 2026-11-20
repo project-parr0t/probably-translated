@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.HydroponicRoom.Basic.Equipment.label>재배대와 장비</yexiaoyang.HydroponicRoom.Basic.Equipment.label>
+  <yexiaoyang.HydroponicRoom.Basic.RawMaterials.label>원료 보관함</yexiaoyang.HydroponicRoom.Basic.RawMaterials.label>
+  <yexiaoyang.HydroponicRoom.Basic.Products.label>생산품 보관함</yexiaoyang.HydroponicRoom.Basic.Products.label>
+  <yexiaoyang.HydroponicRoom.Basic.Stockpile.label>보관함</yexiaoyang.HydroponicRoom.Basic.Stockpile.label>
+  <yexiaoyang.HydroponicRoom.Basic.RenovationBook.label>개조 및 업그레이드</yexiaoyang.HydroponicRoom.Basic.RenovationBook.label>
+  <yexiaoyang.HydroponicRoom.Basic.Drain.label>배수구</yexiaoyang.HydroponicRoom.Basic.Drain.label>
+  <yexiaoyang.HydroponicRoom.Improved.Equipment.label>재배대와 장비</yexiaoyang.HydroponicRoom.Improved.Equipment.label>
+  <yexiaoyang.HydroponicRoom.Improved.RawMaterials.label>원료 보관함</yexiaoyang.HydroponicRoom.Improved.RawMaterials.label>
+  <yexiaoyang.HydroponicRoom.Improved.Products.label>생산품 보관함</yexiaoyang.HydroponicRoom.Improved.Products.label>
+  <yexiaoyang.HydroponicRoom.Improved.Stockpile.label>보관함</yexiaoyang.HydroponicRoom.Improved.Stockpile.label>
+  <yexiaoyang.HydroponicRoom.Improved.RenovationBook.label>개조 및 업그레이드</yexiaoyang.HydroponicRoom.Improved.RenovationBook.label>
+  <yexiaoyang.HydroponicRoom.Improved.Drain.label>배수구</yexiaoyang.HydroponicRoom.Improved.Drain.label>
+  <yexiaoyang.HydroponicRoom.Improved.Nutrients.label>영양 정제 투입구</yexiaoyang.HydroponicRoom.Improved.Nutrients.label>
+  <yexiaoyang.HydroponicRoom.Upper.Equipment.label>재배대와 장비</yexiaoyang.HydroponicRoom.Upper.Equipment.label>
+  <yexiaoyang.HydroponicRoom.Upper.RawMaterials.label>원료 보관함</yexiaoyang.HydroponicRoom.Upper.RawMaterials.label>
+  <yexiaoyang.HydroponicRoom.Upper.Products.label>생산품 보관함</yexiaoyang.HydroponicRoom.Upper.Products.label>
+  <yexiaoyang.HydroponicRoom.Upper.Stockpile.label>보관함</yexiaoyang.HydroponicRoom.Upper.Stockpile.label>
+  <yexiaoyang.HydroponicRoom.Upper.RenovationBook.label>개조 및 업그레이드</yexiaoyang.HydroponicRoom.Upper.RenovationBook.label>
+  <yexiaoyang.HydroponicRoom.Upper.Drain.label>배수구</yexiaoyang.HydroponicRoom.Upper.Drain.label>
+  <yexiaoyang.HydroponicRoom.Upper.Nutrients.label>영양 정제 투입구</yexiaoyang.HydroponicRoom.Upper.Nutrients.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.Equipment.label>재배대와 장비</yexiaoyang.HydroponicRoom.Transcendent.Equipment.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.RawMaterials.label>원료 보관함</yexiaoyang.HydroponicRoom.Transcendent.RawMaterials.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.Products.label>생산품 보관함</yexiaoyang.HydroponicRoom.Transcendent.Products.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.Stockpile.label>보관함</yexiaoyang.HydroponicRoom.Transcendent.Stockpile.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.RenovationBook.label>개조 및 업그레이드</yexiaoyang.HydroponicRoom.Transcendent.RenovationBook.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.Drain.label>배수구</yexiaoyang.HydroponicRoom.Transcendent.Drain.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.Nutrients.label>영양 정제 투입구</yexiaoyang.HydroponicRoom.Transcendent.Nutrients.label>
+</LanguageData>

@@ -22,9 +22,10 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 ## 어떤 모드의 한글 패치가 지원되나요?
 다음 모드들을 지원합니다:
 - [Better Water Trading](https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417)
-- [GoFishing! (Fish Expansion)](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153)
+- [GoFishing](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153)
 - [Smart Inventory Arrange](https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666)
 - [Pen's Pipette](https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725)
+- [Duoji's Hotkey Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=3829508405)
 - [Brewing Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904)
 - [Disaster Day](https://steamcommunity.com/sharedfiles/filedetails/?id=3829946713)
 - [Fishing Cuisine Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830031787)
@@ -33,7 +34,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547)
 - [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187)
 - [Gun Mod Tarkov](https://steamcommunity.com/sharedfiles/filedetails/?id=3831650864)
-- [Agri Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311)
+- [Probably a Farm Story](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311)
 - [Tobacco Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208)
 - [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698)
 - [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602)
@@ -46,15 +47,16 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Gunsmith Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049)
 - [Probably Containers+](https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782)
 - [Storage Bay Appearance](https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447)
-- [Upper Levels](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803)
+- [Upper Levels: Probably DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803)
 - [VA-11 Hall-A Fan MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004)
 - [Space Coffee](https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583)
 - [Better UV Lamp](https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349)
 - [Better Box Selection](https://steamcommunity.com/sharedfiles/filedetails/?id=3836727677)
 - [Eleanor: Bring Her Back](https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808)
-- [Deep Space Mine: Probably Crystal](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650)
+- [Probably Mined](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650)
 - [Probably Helpful](https://steamcommunity.com/sharedfiles/filedetails/?id=3838230589)
 - [Deep Space Clinic 2077](https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040)
+- [Probably Stolen: Claims & Uprisings](https://steamcommunity.com/sharedfiles/filedetails/?id=3841509159)
 
 ## 다른 번역 모드들과 겹쳐도 작동하나요?
 확실하지 않습니다. 다만, 이 모드는 제가 개인적으로 즐기기 위해서 일괄로 번역을 수행하고 사용하고 있습니다.

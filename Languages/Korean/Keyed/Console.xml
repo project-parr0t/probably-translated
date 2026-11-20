@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ui.console.advancing_day>정산과 자동 저장을 포함해 기본 게임의 밤과 다음 날 전환을 실행합니다.</yexiaoyang.ui.console.advancing_day>
+  <yexiaoyang.ui.console.busy>현재 물품 조작을 마치거나 팝업을 먼저 닫으세요.</yexiaoyang.ui.console.busy>
+  <yexiaoyang.ui.console.close_first>time.nextday를 실행하기 전에 영업을 마치고 가게를 닫으세요.</yexiaoyang.ui.console.close_first>
+  <yexiaoyang.ui.console.complete_argument>현재 개조 완료 — {roomName}</yexiaoyang.ui.console.complete_argument>
+  <yexiaoyang.ui.console.complete_help>지정한 방 또는 모든 방의 개조를 완료합니다.</yexiaoyang.ui.console.complete_help>
+  <yexiaoyang.ui.console.complete_usage>room.complete [방 ID]</yexiaoyang.ui.console.complete_usage>
+  <yexiaoyang.ui.console.construction_completed>방 {count}곳의 공사를 완료했습니다.</yexiaoyang.ui.console.construction_completed>
+  <yexiaoyang.ui.console.credit_argument>f는 크레딧입니다. 명령어 뒤에 양의 정수를 입력하세요.</yexiaoyang.ui.console.credit_argument>
+  <yexiaoyang.ui.console.credit_help>크레딧 추가. 예: player.additem f 10000</yexiaoyang.ui.console.credit_help>
+  <yexiaoyang.ui.console.credit_usage>player.additem f &lt;amount&gt;</yexiaoyang.ui.console.credit_usage>
+  <yexiaoyang.ui.console.credits_added>{amount}크레딧을 추가했습니다. 현재 잔액: {total}크레딧.</yexiaoyang.ui.console.credits_added>
+  <yexiaoyang.ui.console.currency_only>지원 코드: f, food, material, capacity, advanced_flux_agent, wine_yeast_infinite, bloomberry_seed.</yexiaoyang.ui.console.currency_only>
+  <yexiaoyang.ui.console.failed>명령 실패: {error}</yexiaoyang.ui.console.failed>
+  <yexiaoyang.ui.console.finish_action>날짜를 넘기기 전에 현재 대화, 확인창 또는 물품 조작을 마치세요.</yexiaoyang.ui.console.finish_action>
+  <yexiaoyang.ui.console.help_additem>player.additem &lt;물품 코드&gt; [수량] — advanced_flux_agent, wine_yeast_infinite, bloomberry_seed의 기본 수량은 1입니다. f, food, material, capacity도 지원합니다.</yexiaoyang.ui.console.help_additem>
+  <yexiaoyang.ui.console.help_complete>room.complete [defName] — 지정한 방 또는 공사 중인 모든 방의 공사를 끝냅니다.</yexiaoyang.ui.console.help_complete>
+  <yexiaoyang.ui.console.help_controls>help / room.help — 명령 목록. ~ 열기/닫기, ↑/↓ 추천·입력 기록, Enter 완성 후 실행, Tab 완성, Esc 추천 목록 닫기</yexiaoyang.ui.console.help_controls>
+  <yexiaoyang.ui.console.help_description>모든 테스트 명령과 방 ID를 표시합니다.</yexiaoyang.ui.console.help_description>
+  <yexiaoyang.ui.console.help_nextday>time.nextday — 가게를 닫은 뒤 정산, 다음 날 전환, 아침 보고, 자동 저장을 진행합니다.</yexiaoyang.ui.console.help_nextday>
+  <yexiaoyang.ui.console.invalid_amount>잔액 한도를 넘지 않는 양의 정수를 입력하세요.</yexiaoyang.ui.console.invalid_amount>
+  <yexiaoyang.ui.console.leveldown_help>보유한 방의 단계를 무료로 즉시 1단계씩 내립니다(최소 I단계). 기존 물품은 유지되며 공사를 취소해도 낸 비용은 돌려받지 못합니다.</yexiaoyang.ui.console.leveldown_help>
+  <yexiaoyang.ui.console.levels_result>방 {rooms}곳의 단계를 조정했습니다.</yexiaoyang.ui.console.levels_result>
+  <yexiaoyang.ui.console.levelup_help>모든 방을 무료로 즉시 1단계씩 올립니다(최대 IV단계, 미건설 방은 I단계). 공사를 취소해도 낸 비용은 돌려받지 못합니다.</yexiaoyang.ui.console.levelup_help>
+  <yexiaoyang.ui.console.nextday_help>가게를 닫고 평소대로 밤과 다음 날 전환을 실행합니다.</yexiaoyang.ui.console.nextday_help>
+  <yexiaoyang.ui.console.nothing_to_complete>완료할 공사가 없습니다. 먼저 개조를 시작하세요. 방을 지정하려면 전체 DefName을 입력하세요.</yexiaoyang.ui.console.nothing_to_complete>
+  <yexiaoyang.ui.console.placeholder>help를 입력하면 모든 명령을 확인할 수 있습니다.</yexiaoyang.ui.console.placeholder>
+  <yexiaoyang.ui.console.return_first>먼저 가게로 돌아가세요.</yexiaoyang.ui.console.return_first>
+  <yexiaoyang.ui.console.room_ids>사용 가능한 방 DefName:</yexiaoyang.ui.console.room_ids>
+  <yexiaoyang.ui.console.save_required>먼저 저장 파일을 불러오세요.</yexiaoyang.ui.console.save_required>
+  <yexiaoyang.ui.console.shutter_moving>셔터가 닫힌 뒤 다시 시도하세요.</yexiaoyang.ui.console.shutter_moving>
+  <yexiaoyang.ui.console.suggestions>추천 {index}/{count}    ↑/↓ 선택    Enter / Tab 완성    Esc 닫기</yexiaoyang.ui.console.suggestions>
+  <yexiaoyang.ui.console.testbox_description>해당 방에 쓰는 테스트 물자입니다.</yexiaoyang.ui.console.testbox_description>
+  <yexiaoyang.ui.console.testbox_name>테스트 물자 상자</yexiaoyang.ui.console.testbox_name>
+  <yexiaoyang.ui.console.testbox_room_name>{roomName} 테스트 물자 상자</yexiaoyang.ui.console.testbox_room_name>
+  <yexiaoyang.ui.console.testitems_help>방마다 테스트 물자 상자를 만들어 해당 보관함에 넣습니다. 방이 미건설 상태이거나 보관함이 차 있으면 배송을 기다립니다.</yexiaoyang.ui.console.testitems_help>
+  <yexiaoyang.ui.console.testitems_result>상자 {boxes}개에 물품 {items}개를 만들었습니다. 배송 대기: 상자 {pending}개.</yexiaoyang.ui.console.testitems_result>
+  <yexiaoyang.ui.console.title>Claims &amp; Uprisings · 테스트 콘솔</yexiaoyang.ui.console.title>
+  <yexiaoyang.ui.console.unknown>알 수 없는 명령입니다. help를 입력하면 모든 명령을 확인할 수 있습니다.</yexiaoyang.ui.console.unknown>
+  <yexiaoyang.ui.console.usage_additem>사용법: player.additem &lt;물품 코드&gt; [수량]. 지원하는 기본 게임 물품의 기본 수량은 1입니다.</yexiaoyang.ui.console.usage_additem>
+  <yexiaoyang.ui.console.usage_complete>사용법: room.complete [defName]</yexiaoyang.ui.console.usage_complete>
+  <yexiaoyang.ui.console.usage_nextday>사용법: time.nextday</yexiaoyang.ui.console.usage_nextday>
+  <yexiaoyang.ui.console.welcome>Claims &amp; Uprisings 콘솔 | yexiaoyang | ~ 열기/닫기, ↑/↓ 추천·입력 기록, Enter 완성/실행, Tab 완성, Esc 추천 목록 닫기</yexiaoyang.ui.console.welcome>
+  <yexiaoyang.ui.console.native_item_usage>player.additem {item} [수량]</yexiaoyang.ui.console.native_item_usage>
+  <yexiaoyang.ui.console.native_item_argument>지정한 물품을 받습니다. 기본 수량은 1입니다.</yexiaoyang.ui.console.native_item_argument>
+  <yexiaoyang.ui.console.items_added>{itemName} ×{amount} 획득.</yexiaoyang.ui.console.items_added>
+  <yexiaoyang.ui.console.item_inventory_full>소지품 공간이 부족해 물품을 지급하지 않았습니다.</yexiaoyang.ui.console.item_inventory_full>
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ui.console.soldiers_help>모집한 병력 전원을 1레벨씩 올립니다(최대 9레벨). 정상적으로 진급 특성을 선택할 수 있습니다.</yexiaoyang.ui.console.soldiers_help>
+  <yexiaoyang.ui.console.soldiers_result>{count}명이 1레벨씩 올랐습니다. {max}명은 이미 9레벨입니다.</yexiaoyang.ui.console.soldiers_result>
+  <yexiaoyang.ui.console.soldiers_partial>{count}명이 1레벨씩 올랐습니다. {max}명은 이미 9레벨이며 {failed}명은 저장하지 못해 진급하지 않았습니다.</yexiaoyang.ui.console.soldiers_partial>
+  <yexiaoyang.ui.console.soldiers_empty>모집한 병력이 없습니다.</yexiaoyang.ui.console.soldiers_empty>
+  <yexiaoyang.ui.console.soldiers_unavailable>병력 데이터를 사용할 수 없어 아무도 진급하지 않았습니다.</yexiaoyang.ui.console.soldiers_unavailable>
+</LanguageData>

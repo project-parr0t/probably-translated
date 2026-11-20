@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.supply082.ammo>호환 탄약 보급</yexiaoyang.supply082.ammo>
+  <yexiaoyang.supply082.weapon>맞는 무기 지급</yexiaoyang.supply082.weapon>
+  <yexiaoyang.supply082.medical>의료 물품 지급</yexiaoyang.supply082.medical>
+  <yexiaoyang.supply082.hint>병기고를 먼저 확인한 뒤 플레이어 보관함, 가방, 수납함을 검색합니다. 판매 재고와 병사가 이미 장착한 물품은 제외합니다.</yexiaoyang.supply082.hint>
+  <yexiaoyang.armory.title>병기고</yexiaoyang.armory.title>
+  <yexiaoyang.armory.note>병사에게 지급할 무기, 탄약, 의료 물품을 이곳에서 먼저 가져옵니다.</yexiaoyang.armory.note>
+  <yexiaoyang.soldier.name_too_long>병사 이름은 24자를 넘을 수 없습니다.</yexiaoyang.soldier.name_too_long>
+  <yexiaoyang.supply082.busy>병력 배치, 거래 또는 물품 끌기를 먼저 끝내세요.</yexiaoyang.supply082.busy>
+  <yexiaoyang.supply082.full>가방에 공간이 부족합니다. 먼저 자리를 비우세요.</yexiaoyang.supply082.full>
+  <yexiaoyang.supply082.no_gun>이 병사에게는 쓸 수 있는 원거리 무기가 없습니다.</yexiaoyang.supply082.no_gun>
+  <yexiaoyang.supply082.missing>조건에 맞는 물품을 찾지 못했습니다.</yexiaoyang.supply082.missing>
+  <yexiaoyang.supply082.done>맞는 물품 {count}/{requested}개를 지급했습니다.</yexiaoyang.supply082.done>
+  <yexiaoyang.supply082.failed>물품 {count}개를 지급한 뒤 보급이 중단됐습니다. 로그를 확인하세요.</yexiaoyang.supply082.failed>
+</LanguageData>

@@ -6,6 +6,7 @@ namespace ProbablyStolenKo
     public sealed class ProbablyStolenKoBridge : IMod
     {
         private const ulong CroTranslationPackWorkshopId = 3834117650UL;
+        // Match the source Workshop IDs in the Cro support list linked in CONTINUATION.md.
         private static readonly HashSet<string> CroOverlapManifestIds =
             new HashSet<string>(StringComparer.Ordinal)
             {
@@ -26,11 +27,11 @@ namespace ProbablyStolenKo
         private ManifestOverlay _manifestOverlay;
         private Va11RecipeOverlay _va11RecipeOverlay;
         private SpaceCoffeeSceneOverlay _spaceCoffeeSceneOverlay;
+        private ClaimsLanguageOverlay _claimsLanguageOverlay;
         private ModLog _log;
         private bool _enabled;
         private bool _activated;
         private bool _assetsSubscribed;
-        private bool _croStateCaptured;
         private bool _croTranslationPackActive;
         private readonly Dictionary<WorkshopEntryKey, WorkshopOriginal> _workshopOriginals =
             new Dictionary<WorkshopEntryKey, WorkshopOriginal>();
@@ -43,6 +44,7 @@ namespace ProbablyStolenKo
             _manifestOverlay = new ManifestOverlay();
             _va11RecipeOverlay = new Va11RecipeOverlay(_manifest);
             _spaceCoffeeSceneOverlay = new SpaceCoffeeSceneOverlay(_manifest);
+            _claimsLanguageOverlay = new ClaimsLanguageOverlay(_log);
         }
 
         public void OnEnable()
@@ -68,13 +70,9 @@ namespace ProbablyStolenKo
         private bool ActivateWhenRegistered()
         {
             if (_activated || !IsRegistered()) return false;
-            if (!_croStateCaptured)
-            {
-                _croTranslationPackActive = IsCroTranslationPackActive();
-                _croStateCaptured = true;
-            }
             if (_workshopCatalog == null && !TryLoadCatalog()) return false;
             TryLoadManagedCatalog();
+            _croTranslationPackActive = IsCroTranslationPackActive();
             _activated = true;
             foreach (var loaded in ModLoader.Mods)
             {
@@ -194,6 +192,17 @@ namespace ProbablyStolenKo
                     _log.Error("Space Coffee scene overlay failed. " + error.GetType().Name);
                 }
             }
+            if (StringComparer.Ordinal.Equals(loaded.Manifest.ID, ClaimsLanguageOverlay.TargetModId))
+            {
+                try
+                {
+                    _claimsLanguageOverlay.Apply();
+                }
+                catch (Exception error)
+                {
+                    _log.Error("Claims language overlay failed: " + error.Message);
+                }
+            }
 
 
 
@@ -242,6 +251,7 @@ namespace ProbablyStolenKo
             _managedOverlay?.Restore();
             _va11RecipeOverlay?.Restore();
             _spaceCoffeeSceneOverlay?.Restore();
+            _claimsLanguageOverlay?.Restore();
             _manifestOverlay?.Restore();
             WorkshopOverlayEngine.Restore(_workshopCatalog, _workshopOriginals);
         }

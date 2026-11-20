@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.soldiers.ui.refresh_recruits>모집 후보 새로고침 · {cost}크레딧</yexiaoyang.soldiers.ui.refresh_recruits>
+  <yexiaoyang.soldiers.ui.refresh_daily_limit>유료 새로고침은 하루 한 번만 가능</yexiaoyang.soldiers.ui.refresh_daily_limit>
+  <yexiaoyang.soldiers.ui.recruits_refreshed>모집 후보를 갱신했습니다.</yexiaoyang.soldiers.ui.recruits_refreshed>
+</LanguageData>

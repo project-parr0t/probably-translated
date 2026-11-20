@@ -16,6 +16,42 @@ The managed source guard binds the current assemblies for all ten targets, inclu
 
 The post-wave deterministic repair is recorded under `localization_review.fresh_repairs`. The refreshed Perks: Probably Fun assembly retained the already reviewed localization identity set (`added=0`, `changed=0`, `removed=0`) and all 613 visible identities remain covered by its native Korean catalog. Upper Levels added `act1.dex.bye`; its directly reviewed Korean overlay entry and review fingerprint are pinned in the release checkpoint.
 
+The 2026-11-20 AI Emporium update adds five Korean CSV entries for upgrade cost sharing. The English source, Korean wording, and format tokens were checked directly; this CSV update does not re-attest the changed managed assembly.
+
+The managed follow-up adds 16 AquaSense settings and tooltip entries, 228 Agri Expansion entries across exact one- and two-argument lookups, and 17 Deep Space Mine entries for furnace and diagnostic panels. Gun Mod Tarkov's current callback signatures restore existing Korean settings and button text. Only AquaSense, Korean Translation, and Visible Item Durability have exact pre-update binary comparisons for this wave; the other changed source identities remain unbound pending complete source evidence.
+
+The current-DLL pass adds 25 Deep Space Mine locale keys, 86 CS Weapon Expansion UI and dialogue entries, and 13 Gun Mod Tarkov stat labels. The Agri Expansion review uses the original Korean Translation's Eleanor dialogue as its voice authority: she addresses the shopkeeper in 해요체, with the established spellings 엘리너, 파스텔 사, 뉴트리프루트, and 데이터 드라이브. Contract, investigation, and ending dialogue retain their branch conditions and sequence; active, fallback, and saved-text routes share the revised wording.
+
+The next pass re-inventories the installed Agri Expansion, AI Emporium, Local Station Events, CS Weapon Expansion, Perks: Probably Fun, Upper Levels, Charles Chemistry, Space Coffee, and Gun Mod Tarkov DLLs. It traces constructed keys and indirect book, settings, equipment, event, and dialogue display paths to the native locale tables or tracked overlays. The old matching DLL binaries were not available for a binary-to-binary comparison. The updated SHA-256 values identify the newly reviewed installed sources, not a comparison against those unavailable binaries.
+
+Agri Expansion adds Korean for composed crop and livestock labels, water-source summaries, tailoring steps and headings, the final farm terminal repair list, and uniform effect summaries assembled from numbers and text. Perks: Probably Fun adds Korean for the companion's ending choice and the preset numbering tooltip. Key IDs, saved values, placeholders, and numeric calculations are unchanged. See [KOREAN-LOCALIZATION.md](KOREAN-LOCALIZATION.md) for the original patch glossary and Eleanor's dialogue register.
+
+The signed farm record uses the completed-delivery wording after claiming the reward, not the earlier contract's future tense. The evidence handoff keeps Eleanor's polite register, while the private research note retains memo style and uses the original patch's 뉴트리프루트 spelling.
+
+The 2.0.11 farm update revises the cooking preview and the tailoring manual's nine profession pages. Ingredient size changes the double-yield chance, while the chef uniform can grant one additional serving. The tailoring material label `Pure water` is `순수한 물`; the separate game water-grade display keeps the original Korean patch's `정제수`. Perks 0.9.678 moves the landlord dispute choice and adds a not-enough-cash message already covered by the mod's native Korean CSV.
+
+The bridge also covers DuoJi's hotkey panel, key settings and user-facing feedback using exact IL routes, without changing configuration keys or save values. The installed manifest audit preserves English titles, translates Chinese-only titles into English, and localizes descriptions from the current source manifests.
+
+Claims & Uprisings 1.1.2 uses its own indexed XML language loader. Probably Translated ships the index and translations in its root `Languages` tree; there is no second mod or install step. The game manifest prerequisite declares the relationship used by the game and the Claims language loader. The game warns but does not disable Probably Translated if Claims is absent; the bridge only applies the Claims integration to the enabled source mod.
+
+The integrated tree covers all 1,906 keys in the source's 66 English XML files, including native keyed and definition-injected dialogue, facility upgrades, district actions, and soldier traits. Japanese and Traditional Chinese have the same key set. If Claims excludes Probably Translated from its content framework because another source mod is absent, the bridge adds this translation pack to its language sources only when Claims' own dependency check permits it. The original installations are untouched.
+
+## Cro pack coexistence
+
+The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.
+
+| Expected owner when both packs are enabled | Manifest ID | Workshop item |
+| --- | --- | --- |
+| Cro | `ps-fishing-gameplay` | `3829110153` |
+| Cro | `brewing_expansion` | `3829730904` |
+| Cro | `tobacco_expansion` | `3832840208` |
+| Cro | `ai.emporium` | `3832941698` |
+| Cro | `gunsmith_expansion` | `3834619049` |
+| Cro | `fishing-cuisine-expansion` | `3830031787` |
+| Cro | `upper_levels` | `3838944803` |
+
+Run with Korean selected and restart after each enable-state change. All seven overlapping mods must be skipped only while Cro is enabled; Perks: Probably Fun must retain its overlay in every state. Check both registration orders and an enabled local copy with Cro's shadowed Workshop ID. The bridge checks the live loaded mod list once per successful activation. The public listing establishes mod-level ownership, not key-by-key coverage of Cro's package.
+
 ## Required inputs
 
 Keep the current game installation and installed mods read-only. Do not copy game assemblies, decompiled output, logs, credentials, or private workspace data into this repository.

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.HydroponicRoom.Basic.label>기초 수경재배실</yexiaoyang.HydroponicRoom.Basic.label>
+  <yexiaoyang.HydroponicRoom.Basic.description>낡은 재배대를 손봐 만든 공간입니다. 다양한 작물을 기를 수 있습니다.</yexiaoyang.HydroponicRoom.Basic.description>
+  <yexiaoyang.HydroponicRoom.Basic.abilitySummary>독립 재배대 1대 · 기본 게임의 생장·유전 규칙 적용 · 수동 급수 및 영양분 공급</yexiaoyang.HydroponicRoom.Basic.abilitySummary>
+  <yexiaoyang.HydroponicRoom.Basic.cardText>낡은 재배대를 손봐 만든 공간입니다. 다양한 작물을 기를 수 있습니다.
+재배대: 1대
+급수: 수동
+영양분: 수동 혼합
+원료 / 생산품 보관함: 각각 96칸
+전력 요금: 하루 10크레딧</yexiaoyang.HydroponicRoom.Basic.cardText>
+  <yexiaoyang.HydroponicRoom.Basic.upgradeText>기초 수경재배실로 개조합니다. 비용: 3,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 10크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 재배대 1대 · 기본 게임의 생장·유전 규칙 적용 · 수동 급수 및 영양분 공급</yexiaoyang.HydroponicRoom.Basic.upgradeText>
+  <yexiaoyang.HydroponicRoom.Basic.facilities.grow_01.label>수경재배대 1</yexiaoyang.HydroponicRoom.Basic.facilities.grow_01.label>
+  <yexiaoyang.HydroponicRoom.Improved.label>개량 수경재배실</yexiaoyang.HydroponicRoom.Improved.label>
+  <yexiaoyang.HydroponicRoom.Improved.description>급수 배관이 설치되어 있으며 모든 재배대에 같은 영양 농도를 적용합니다.</yexiaoyang.HydroponicRoom.Improved.description>
+  <yexiaoyang.HydroponicRoom.Improved.abilitySummary>독립 재배대 2대 · 기본 게임의 생장·유전 규칙 적용 · 플레이어가 넣은 영양 정제를 사용하는 폐쇄형 급수</yexiaoyang.HydroponicRoom.Improved.abilitySummary>
+  <yexiaoyang.HydroponicRoom.Improved.cardText>급수 배관이 설치되어 있으며 모든 재배대에 같은 영양 농도를 적용합니다.
+재배대: 2대
+급수: 자동
+영양분: 영양 정제로 목표 농도 유지
+원료 / 생산품 보관함: 각각 140칸
+전력 요금: 하루 30크레딧</yexiaoyang.HydroponicRoom.Improved.cardText>
+  <yexiaoyang.HydroponicRoom.Improved.upgradeText>개량 수경재배실로 개조합니다. 비용: 8,000크레딧. 소요 기간: 2일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 30크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 재배대 2대 · 기본 게임의 생장·유전 규칙 적용 · 플레이어가 넣은 영양 정제를 사용하는 폐쇄형 급수</yexiaoyang.HydroponicRoom.Improved.upgradeText>
+  <yexiaoyang.HydroponicRoom.Improved.facilities.grow_01.label>수경재배대 1</yexiaoyang.HydroponicRoom.Improved.facilities.grow_01.label>
+  <yexiaoyang.HydroponicRoom.Improved.facilities.grow_02.label>수경재배대 2</yexiaoyang.HydroponicRoom.Improved.facilities.grow_02.label>
+  <yexiaoyang.HydroponicRoom.Upper.label>상층 구역 수경재배실</yexiaoyang.HydroponicRoom.Upper.label>
+  <yexiaoyang.HydroponicRoom.Upper.description>여러 재배대를 갖췄고 보급을 관리할 수 있는 수경재배실입니다.</yexiaoyang.HydroponicRoom.Upper.description>
+  <yexiaoyang.HydroponicRoom.Upper.abilitySummary>독립 재배대 3대 · 기본 게임의 생장·유전 규칙 적용 · 플레이어가 넣은 영양 정제를 사용하는 폐쇄형 급수 · 자동 처리 가능</yexiaoyang.HydroponicRoom.Upper.abilitySummary>
+  <yexiaoyang.HydroponicRoom.Upper.cardText>여러 재배대를 갖췄고 보급을 관리할 수 있는 수경재배실입니다.
+재배대: 3대
+급수: 자동
+영양분: 영양 정제로 목표 농도 유지
+재배 자동화: 자동 보충과 수확물 이동을 선택할 수 있음
+원료 / 생산품 보관함: 각각 192칸
+전력 요금: 하루 60크레딧</yexiaoyang.HydroponicRoom.Upper.cardText>
+  <yexiaoyang.HydroponicRoom.Upper.upgradeText>상층 구역 수경재배실로 개조합니다. 비용: 20,000크레딧. 소요 기간: 3일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 60크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 재배대 3대 · 기본 게임의 생장·유전 규칙 적용 · 플레이어가 넣은 영양 정제를 사용하는 폐쇄형 급수 · 자동 처리 가능</yexiaoyang.HydroponicRoom.Upper.upgradeText>
+  <yexiaoyang.HydroponicRoom.Upper.facilities.grow_01.label>수경재배대 1</yexiaoyang.HydroponicRoom.Upper.facilities.grow_01.label>
+  <yexiaoyang.HydroponicRoom.Upper.facilities.grow_02.label>수경재배대 2</yexiaoyang.HydroponicRoom.Upper.facilities.grow_02.label>
+  <yexiaoyang.HydroponicRoom.Upper.facilities.grow_03.label>수경재배대 3</yexiaoyang.HydroponicRoom.Upper.facilities.grow_03.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.label>초월 수경재배실</yexiaoyang.HydroponicRoom.Transcendent.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.description>작물 재배와 식물 DNA 편집을 함께 할 수 있는 재배실입니다.</yexiaoyang.HydroponicRoom.Transcendent.description>
+  <yexiaoyang.HydroponicRoom.Transcendent.abilitySummary>독립 재배대 5대 · 기본 게임의 생장·유전 규칙 적용 · 플레이어가 넣은 영양 정제를 사용하는 폐쇄형 급수 · 기본 게임의 DNA 조작기 1대 · 자동 처리 가능</yexiaoyang.HydroponicRoom.Transcendent.abilitySummary>
+  <yexiaoyang.HydroponicRoom.Transcendent.cardText>작물 재배와 식물 DNA 편집을 함께 할 수 있는 재배실입니다.
+재배대: 5대
+식물 DNA 조작기: 1대
+급수: 자동
+영양분: 영양 정제로 목표 농도 유지
+재배 자동화: 자동 보충과 수확물 이동을 선택할 수 있음
+원료 / 생산품 보관함: 각각 252칸
+전력 요금: 하루 100크레딧</yexiaoyang.HydroponicRoom.Transcendent.cardText>
+  <yexiaoyang.HydroponicRoom.Transcendent.upgradeText>초월 수경재배실로 개조합니다. 비용: 50,000크레딧. 소요 기간: 5일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 100크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+독립 재배대 5대 · 기본 게임의 생장·유전 규칙 적용 · 플레이어가 넣은 영양 정제를 사용하는 폐쇄형 급수 · 기본 게임의 DNA 조작기 1대 · 자동 처리 가능</yexiaoyang.HydroponicRoom.Transcendent.upgradeText>
+  <yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_01.label>수경재배대 1</yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_01.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_02.label>수경재배대 2</yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_02.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_03.label>수경재배대 3</yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_03.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_04.label>수경재배대 4</yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_04.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_05.label>수경재배대 5</yexiaoyang.HydroponicRoom.Transcendent.facilities.grow_05.label>
+  <yexiaoyang.HydroponicRoom.Transcendent.facilities.dna_01.label>DNA 조작기 1</yexiaoyang.HydroponicRoom.Transcendent.facilities.dna_01.label>
+</LanguageData>

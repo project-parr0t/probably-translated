@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.BrewingRoom.Basic.label>기초 양조실</yexiaoyang.BrewingRoom.Basic.label>
+  <yexiaoyang.BrewingRoom.Basic.description>낡은 작업대를 모아 만든 기초 양조실입니다. 병에서 술을 발효시킬 수 있습니다.</yexiaoyang.BrewingRoom.Basic.description>
+  <yexiaoyang.BrewingRoom.Basic.abilitySummary>발효 슬롯: 4
+발효 기간: 1일 단축, 최소 1일
+술 품질 점수 보너스: 0
+숙성 설비: 0대
+양조 조작: 수동 양조</yexiaoyang.BrewingRoom.Basic.abilitySummary>
+  <yexiaoyang.BrewingRoom.Basic.cardText>낡은 작업대를 모아 만든 기초 양조실입니다. 병에서 술을 발효시킬 수 있습니다.
+발효 슬롯: 4
+발효 기간: 1일 단축, 최소 1일
+술 품질 점수 보너스: 0
+숙성 설비: 0대
+양조 조작: 수동 양조
+전력 요금: 하루 0크레딧</yexiaoyang.BrewingRoom.Basic.cardText>
+  <yexiaoyang.BrewingRoom.Basic.upgradeText>기초 양조실로 개조합니다. 비용: 3,000크레딧. 소요 기간: 1일.</yexiaoyang.BrewingRoom.Basic.upgradeText>
+  <yexiaoyang.BrewingRoom.Basic.facilities.bay_01.label>발효 슬롯 1</yexiaoyang.BrewingRoom.Basic.facilities.bay_01.label>
+  <yexiaoyang.BrewingRoom.Basic.facilities.bay_02.label>발효 슬롯 2</yexiaoyang.BrewingRoom.Basic.facilities.bay_02.label>
+  <yexiaoyang.BrewingRoom.Basic.facilities.bay_03.label>발효 슬롯 3</yexiaoyang.BrewingRoom.Basic.facilities.bay_03.label>
+  <yexiaoyang.BrewingRoom.Basic.facilities.bay_04.label>발효 슬롯 4</yexiaoyang.BrewingRoom.Basic.facilities.bay_04.label>
+  <yexiaoyang.BrewingRoom.Improved.label>개량 양조실</yexiaoyang.BrewingRoom.Improved.label>
+  <yexiaoyang.BrewingRoom.Improved.description>전용 숙성 설비를 갖춘 개량 양조실입니다.</yexiaoyang.BrewingRoom.Improved.description>
+  <yexiaoyang.BrewingRoom.Improved.abilitySummary>발효 슬롯: 8
+발효 기간: 1일 단축, 최소 1일
+술 품질 점수 보너스: +1
+숙성 설비: 1대
+숙성 속도: 같은 모듈을 장착한 일반 숙성기의 2배
+양조 조작: 병 놓기, 과일 넣기</yexiaoyang.BrewingRoom.Improved.abilitySummary>
+  <yexiaoyang.BrewingRoom.Improved.cardText>전용 숙성 설비를 갖춘 개량 양조실입니다.
+발효 슬롯: 8
+발효 기간: 1일 단축, 최소 1일
+술 품질 점수 보너스: +1
+숙성 설비: 1대
+숙성 속도: 같은 모듈을 장착한 일반 숙성기의 2배
+양조 조작: 병 놓기, 과일 넣기
+전력 요금: 하루 20크레딧</yexiaoyang.BrewingRoom.Improved.cardText>
+  <yexiaoyang.BrewingRoom.Improved.upgradeText>개량 양조실로 개조합니다. 비용: 8,000크레딧. 소요 기간: 2일.</yexiaoyang.BrewingRoom.Improved.upgradeText>
+  <yexiaoyang.BrewingRoom.Improved.facilities.bay_01.label>발효 슬롯 1</yexiaoyang.BrewingRoom.Improved.facilities.bay_01.label>
+  <yexiaoyang.BrewingRoom.Improved.facilities.bay_02.label>발효 슬롯 2</yexiaoyang.BrewingRoom.Improved.facilities.bay_02.label>
+  <yexiaoyang.BrewingRoom.Improved.facilities.bay_03.label>발효 슬롯 3</yexiaoyang.BrewingRoom.Improved.facilities.bay_03.label>
+  <yexiaoyang.BrewingRoom.Improved.facilities.bay_04.label>발효 슬롯 4</yexiaoyang.BrewingRoom.Improved.facilities.bay_04.label>
+  <yexiaoyang.BrewingRoom.Improved.facilities.bay_05.label>발효 슬롯 5</yexiaoyang.BrewingRoom.Improved.facilities.bay_05.label>
+  <yexiaoyang.BrewingRoom.Improved.facilities.bay_06.label>발효 슬롯 6</yexiaoyang.BrewingRoom.Improved.facilities.bay_06.label>
+  <yexiaoyang.BrewingRoom.Improved.facilities.bay_07.label>발효 슬롯 7</yexiaoyang.BrewingRoom.Improved.facilities.bay_07.label>
+  <yexiaoyang.BrewingRoom.Improved.facilities.bay_08.label>발효 슬롯 8</yexiaoyang.BrewingRoom.Improved.facilities.bay_08.label>
+  <yexiaoyang.BrewingRoom.Improved.facilities.ager_01.label>숙성기 1</yexiaoyang.BrewingRoom.Improved.facilities.ager_01.label>
+  <yexiaoyang.BrewingRoom.Upper.label>상층 구역 양조실</yexiaoyang.BrewingRoom.Upper.label>
+  <yexiaoyang.BrewingRoom.Upper.description>일괄 준비 도구와 고속 숙성 설비를 갖춘 양조실입니다.</yexiaoyang.BrewingRoom.Upper.description>
+  <yexiaoyang.BrewingRoom.Upper.abilitySummary>발효 슬롯: 12
+발효 기간: 1일 단축, 최소 1일
+술 품질 점수 보너스: +2
+숙성 설비: 2대
+숙성 속도: 같은 모듈을 장착한 일반 숙성기의 3배
+양조 조작: 병 놓기, 과일과 효모 넣기, 일괄 발효, 완성된 술 회수</yexiaoyang.BrewingRoom.Upper.abilitySummary>
+  <yexiaoyang.BrewingRoom.Upper.cardText>일괄 준비 도구와 고속 숙성 설비를 갖춘 양조실입니다.
+발효 슬롯: 12
+발효 기간: 1일 단축, 최소 1일
+술 품질 점수 보너스: +2
+숙성 설비: 2대
+숙성 속도: 같은 모듈을 장착한 일반 숙성기의 3배
+양조 조작: 병 놓기, 과일과 효모 넣기, 일괄 발효, 완성된 술 회수
+전력 요금: 하루 40크레딧</yexiaoyang.BrewingRoom.Upper.cardText>
+  <yexiaoyang.BrewingRoom.Upper.upgradeText>상층 구역 양조실로 개조합니다. 비용: 20,000크레딧. 소요 기간: 3일.</yexiaoyang.BrewingRoom.Upper.upgradeText>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_01.label>발효 슬롯 1</yexiaoyang.BrewingRoom.Upper.facilities.bay_01.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_02.label>발효 슬롯 2</yexiaoyang.BrewingRoom.Upper.facilities.bay_02.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_03.label>발효 슬롯 3</yexiaoyang.BrewingRoom.Upper.facilities.bay_03.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_04.label>발효 슬롯 4</yexiaoyang.BrewingRoom.Upper.facilities.bay_04.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_05.label>발효 슬롯 5</yexiaoyang.BrewingRoom.Upper.facilities.bay_05.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_06.label>발효 슬롯 6</yexiaoyang.BrewingRoom.Upper.facilities.bay_06.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_07.label>발효 슬롯 7</yexiaoyang.BrewingRoom.Upper.facilities.bay_07.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_08.label>발효 슬롯 8</yexiaoyang.BrewingRoom.Upper.facilities.bay_08.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_09.label>발효 슬롯 9</yexiaoyang.BrewingRoom.Upper.facilities.bay_09.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_10.label>발효 슬롯 10</yexiaoyang.BrewingRoom.Upper.facilities.bay_10.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_11.label>발효 슬롯 11</yexiaoyang.BrewingRoom.Upper.facilities.bay_11.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.bay_12.label>발효 슬롯 12</yexiaoyang.BrewingRoom.Upper.facilities.bay_12.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.ager_01.label>숙성기 1</yexiaoyang.BrewingRoom.Upper.facilities.ager_01.label>
+  <yexiaoyang.BrewingRoom.Upper.facilities.ager_02.label>숙성기 2</yexiaoyang.BrewingRoom.Upper.facilities.ager_02.label>
+  <yexiaoyang.BrewingRoom.Transcendent.label>초월 양조실</yexiaoyang.BrewingRoom.Transcendent.label>
+  <yexiaoyang.BrewingRoom.Transcendent.description>일괄 발효와 고속 숙성이 가능한 넓은 양조실입니다.</yexiaoyang.BrewingRoom.Transcendent.description>
+  <yexiaoyang.BrewingRoom.Transcendent.abilitySummary>발효 슬롯: 16
+발효 기간: 1일 단축, 최소 1일
+술 품질 점수 보너스: +3
+숙성 설비: 3대
+숙성 속도: 같은 모듈을 장착한 일반 숙성기의 3배
+양조 조작: 병 놓기, 과일과 효모 넣기, 일괄 발효, 완성된 술 회수, 물 선택 및 따르기</yexiaoyang.BrewingRoom.Transcendent.abilitySummary>
+  <yexiaoyang.BrewingRoom.Transcendent.cardText>일괄 발효와 고속 숙성이 가능한 넓은 양조실입니다.
+발효 슬롯: 16
+발효 기간: 1일 단축, 최소 1일
+술 품질 점수 보너스: +3
+숙성 설비: 3대
+숙성 속도: 같은 모듈을 장착한 일반 숙성기의 3배
+양조 조작: 병 놓기, 과일과 효모 넣기, 일괄 발효, 완성된 술 회수, 물 선택 및 따르기
+전력 요금: 하루 60크레딧</yexiaoyang.BrewingRoom.Transcendent.cardText>
+  <yexiaoyang.BrewingRoom.Transcendent.upgradeText>초월 양조실로 개조합니다. 비용: 50,000크레딧. 소요 기간: 5일.</yexiaoyang.BrewingRoom.Transcendent.upgradeText>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_01.label>발효 슬롯 1</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_01.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_02.label>발효 슬롯 2</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_02.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_03.label>발효 슬롯 3</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_03.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_04.label>발효 슬롯 4</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_04.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_05.label>발효 슬롯 5</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_05.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_06.label>발효 슬롯 6</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_06.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_07.label>발효 슬롯 7</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_07.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_08.label>발효 슬롯 8</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_08.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_09.label>발효 슬롯 9</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_09.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_10.label>발효 슬롯 10</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_10.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_11.label>발효 슬롯 11</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_11.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_12.label>발효 슬롯 12</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_12.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_13.label>발효 슬롯 13</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_13.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_14.label>발효 슬롯 14</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_14.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_15.label>발효 슬롯 15</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_15.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.bay_16.label>발효 슬롯 16</yexiaoyang.BrewingRoom.Transcendent.facilities.bay_16.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.ager_01.label>숙성기 1</yexiaoyang.BrewingRoom.Transcendent.facilities.ager_01.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.ager_02.label>숙성기 2</yexiaoyang.BrewingRoom.Transcendent.facilities.ager_02.label>
+  <yexiaoyang.BrewingRoom.Transcendent.facilities.ager_03.label>숙성기 3</yexiaoyang.BrewingRoom.Transcendent.facilities.ager_03.label>
+</LanguageData>

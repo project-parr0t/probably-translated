@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.CommandPost.Basic.Resources.label>군수품</yexiaoyang.CommandPost.Basic.Resources.label>
+  <yexiaoyang.CommandPost.Basic.Recruitment.label>병력 모집</yexiaoyang.CommandPost.Basic.Recruitment.label>
+  <yexiaoyang.CommandPost.Basic.Roster.label>병력 명부</yexiaoyang.CommandPost.Basic.Roster.label>
+  <yexiaoyang.CommandPost.Basic.Map.label>하층 구역 지도</yexiaoyang.CommandPost.Basic.Map.label>
+  <yexiaoyang.CommandPost.Basic.Renovation.label>개조</yexiaoyang.CommandPost.Basic.Renovation.label>
+  <yexiaoyang.CommandPost.Improved.Resources.label>군수품</yexiaoyang.CommandPost.Improved.Resources.label>
+  <yexiaoyang.CommandPost.Improved.Recruitment.label>병력 모집</yexiaoyang.CommandPost.Improved.Recruitment.label>
+  <yexiaoyang.CommandPost.Improved.Roster.label>병력 명부</yexiaoyang.CommandPost.Improved.Roster.label>
+  <yexiaoyang.CommandPost.Improved.Map.label>하층 구역 지도</yexiaoyang.CommandPost.Improved.Map.label>
+  <yexiaoyang.CommandPost.Improved.Renovation.label>개조</yexiaoyang.CommandPost.Improved.Renovation.label>
+  <yexiaoyang.CommandPost.Center.Resources.label>군수품</yexiaoyang.CommandPost.Center.Resources.label>
+  <yexiaoyang.CommandPost.Center.Recruitment.label>병력 모집</yexiaoyang.CommandPost.Center.Recruitment.label>
+  <yexiaoyang.CommandPost.Center.Roster.label>병력 명부</yexiaoyang.CommandPost.Center.Roster.label>
+  <yexiaoyang.CommandPost.Center.Map.label>하층 구역 지도</yexiaoyang.CommandPost.Center.Map.label>
+  <yexiaoyang.CommandPost.Center.Renovation.label>개조</yexiaoyang.CommandPost.Center.Renovation.label>
+  <yexiaoyang.CommandPost.MilitaryBase.Resources.label>군수품</yexiaoyang.CommandPost.MilitaryBase.Resources.label>
+  <yexiaoyang.CommandPost.MilitaryBase.Recruitment.label>병력 모집</yexiaoyang.CommandPost.MilitaryBase.Recruitment.label>
+  <yexiaoyang.CommandPost.MilitaryBase.Roster.label>병력 명부</yexiaoyang.CommandPost.MilitaryBase.Roster.label>
+  <yexiaoyang.CommandPost.MilitaryBase.Map.label>하층 구역 지도</yexiaoyang.CommandPost.MilitaryBase.Map.label>
+  <yexiaoyang.CommandPost.MilitaryBase.Renovation.label>개조</yexiaoyang.CommandPost.MilitaryBase.Renovation.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.CommandPost.label>지휘소</yexiaoyang.CommandPost.label>
+  <yexiaoyang.CommandPost.description>병력을 모집하고 장비를 지급해 군대를 꾸린 뒤 하층 구역을 차츰 장악할 수 있는 지휘소입니다.</yexiaoyang.CommandPost.description>
+  <yexiaoyang.CommandPost.lockedDescription>병력을 모집하고 장비를 지급해 군대를 꾸린 뒤 하층 구역을 차츰 장악할 수 있는 지휘소입니다.
+지금으로선 이 거창한 계획도 머릿속에서나 가능합니다. 안에는 바퀴벌레 군대와 그들이 차린 음식물 찌꺼기 왕국이 있군요.
+정수, 수경재배, 제련, 제조, 양조, 보관 시설 6곳이 모두 1단계에 도달해야 합니다.</yexiaoyang.CommandPost.lockedDescription>
+  <yexiaoyang.CommandPost.constructionReportText>{roomName} 공사 중입니다. {remainingDays}일 남았습니다.</yexiaoyang.CommandPost.constructionReportText>
+</LanguageData>

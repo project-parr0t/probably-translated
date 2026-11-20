@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.SmeltingRoom.label>제련실</yexiaoyang.SmeltingRoom.label>
+  <yexiaoyang.SmeltingRoom.description>광석과 고철을 처리하는 기초 제련 시설입니다.</yexiaoyang.SmeltingRoom.description>
+  <yexiaoyang.SmeltingRoom.lockedDescription>재가 환기구를 막았고 용광로 문이 뒤틀렸습니다. 수리하면 광석과 고철을 처리할 수 있습니다.</yexiaoyang.SmeltingRoom.lockedDescription>
+  <yexiaoyang.SmeltingRoom.manualText>용광로 하나당 하룻밤에 기본 제련 작업을 한 번까지 진행합니다. 보통은 광석·고철 2개로 주괴 1개를 만들고, 고로 모듈은 3개로 2개를 만들되 기본 게임의 불이익이 적용됩니다. 융제와 품질에 따라 순도가 달라지며, 성능이 높아져도 작업 횟수는 늘지 않습니다. 재활용에는 전용 모듈이 필요합니다. 제련을 마친 용광로에서는 같은 밤에 재활용할 수 없습니다. 기계는 방의 정액 전력을 사용하므로 별도 배터리가 필요 없습니다. 꺼내지 않은 생산품이 남으면 다음 작업을 시작하지 않습니다. 주괴의 최소 순도는 단계별로 낮음, 보통, 높음, 완전 순도입니다.</yexiaoyang.SmeltingRoom.manualText>
+  <yexiaoyang.SmeltingRoom.serviceDescription>정액 전력 요금에 기계 전력이 포함되므로 별도 배터리가 필요 없습니다. 방 전력을 끄면 고정 시설은 멈추지만 보관함은 계속 이용할 수 있습니다. 공사 중에는 전력 요금이 면제됩니다.</yexiaoyang.SmeltingRoom.serviceDescription>
+  <yexiaoyang.SmeltingRoom.nightReportText>{roomName}: 용광로 {workedFurnaces}대가 가동되어 주괴 {ingotCount}개와 재활용 고철 {recycledScrapCount}개를 생산했습니다. 방 전력 요금: {maintenanceFee} 크레딧(고정 기계 포함).</yexiaoyang.SmeltingRoom.nightReportText>
+  <yexiaoyang.SmeltingRoom.constructionReportText>{roomName} 공사가 {remainingDays}일 남았습니다. 출입할 수 없고 고정 기계는 멈춥니다. 방 전력 요금은 면제됩니다.</yexiaoyang.SmeltingRoom.constructionReportText>
+</LanguageData>

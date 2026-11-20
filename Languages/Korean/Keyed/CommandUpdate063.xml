@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.command.tutorial.resources.gift>식량 300에 자재 300 남겨 뒀어. 가져가서 하층에서 죽지나 마.</yexiaoyang.command.tutorial.resources.gift>
+  <yexiaoyang.command.tutorial.street_sales.01>그건 그렇고, 자원 화면의 판매 물품 칸은 기억하지?</yexiaoyang.command.tutorial.street_sales.01>
+  <yexiaoyang.command.tutorial.street_sales.02>돈으로 바꾸고 싶은 잡동사니 있잖아.</yexiaoyang.command.tutorial.street_sales.02>
+  <yexiaoyang.command.tutorial.street_sales.03>테이프나 남는 돋보기, 털어 온 상자 같은 거.</yexiaoyang.command.tutorial.street_sales.03>
+  <yexiaoyang.command.tutorial.street_sales.04>먼저 거기 넣어. 그다음 거래하러 사람을 보내면 팔릴 거야.</yexiaoyang.command.tutorial.street_sales.04>
+  <yexiaoyang.command.tutorial.street_sales.05>근데 원래 가격의 70%밖에 못 받아.</yexiaoyang.command.tutorial.street_sales.05>
+  <yexiaoyang.command.tutorial.street_sales.06>진짜 한몫 잡고 싶으면 하던 거나 해. 전당포 열라고.</yexiaoyang.command.tutorial.street_sales.06>
+  <yexiaoyang.district.action.assistance>군사 지원</yexiaoyang.district.action.assistance>
+  <yexiaoyang.district.action.assistance.desc>로비스트에게 5,000크레딧과 작전 인원의 식량을 지불해 보안대가 미점령 구역의 갱단을 타격하도록 합니다. 대상 화력은 50% 감소하고 3일간 병력을 보충하지 못합니다.</yexiaoyang.district.action.assistance.desc>
+  <yexiaoyang.district.action.beg>거리 구걸</yexiaoyang.district.action.beg>
+  <yexiaoyang.district.action.beg.desc>패거리를 보내 구걸하면 모든 세력의 웃음거리가 되지만 윗동네 사람들이 불쌍히 여길 수도 있습니다. 밤마다 1인당 식량 20을 소모합니다. 15크레딧과 보안대 관계 +5를 얻고, 병력마다 5% 확률로 물자를 찾습니다.</yexiaoyang.district.action.beg.desc>
+  <yexiaoyang.district.action.bottle>병입 공장</yexiaoyang.district.action.bottle>
+  <yexiaoyang.district.action.bottle.desc>병입 공장에서 일합니다. 사장이 못 본 척하면 술도 한 병 슬쩍합니다. 밤마다 1인당 식량 20을 소모합니다. 140크레딧, 술 1병, 지역 관계 +8을 얻습니다.</yexiaoyang.district.action.bottle.desc>
+  <yexiaoyang.district.action.counterfeit>위조 식량 배급권 구입</yexiaoyang.district.action.counterfeit>
+  <yexiaoyang.district.action.counterfeit.desc>가짜 식량 배급권을 싸게 파는 사람이 있습니다. 장사는 장사죠. 1인당 식량 20과 배급권당 식량 10을 써서 가치 120의 허술한 위조 배급권을 구합니다.</yexiaoyang.district.action.counterfeit.desc>
+  <yexiaoyang.district.action.infiltrate>주조소 잠입</yexiaoyang.district.action.infiltrate>
+  <yexiaoyang.district.action.infiltrate.desc>주조소에 인원을 상주시킵니다. 매일 1인당 식량 20을 소모하고 80크레딧과 지역 관계 +5를 얻습니다. 매일 50% 확률로 무작위 제작 권총을 하나 구합니다. 언제든 복귀시킬 수 있습니다.</yexiaoyang.district.action.infiltrate.desc>
+  <yexiaoyang.district.action.labor>인력 파견</yexiaoyang.district.action.labor>
+  <yexiaoyang.district.action.labor.desc>인원을 재배지에 보내 일하게 합니다. 갱단답지도 근사하지도 않지만 안전하고 착실한 일입니다. 밤마다 1인당 식량 20을 소모합니다. 180크레딧, 식량 100, 지역 관계 +8을 얻습니다.</yexiaoyang.district.action.labor.desc>
+  <yexiaoyang.district.action.recall_job>인원 복귀</yexiaoyang.district.action.recall_job>
+  <yexiaoyang.district.action.recall_job.desc>진행 중인 파견을 종료하고 인원을 복귀시킵니다. 지급한 식량은 돌려받지 못합니다.</yexiaoyang.district.action.recall_job.desc>
+  <yexiaoyang.district.assistance.no_targets>타격할 수 있는 갱단이 없습니다.</yexiaoyang.district.assistance.no_targets>
+  <yexiaoyang.district.assistance.target>타격 대상</yexiaoyang.district.assistance.target>
+  <yexiaoyang.district.mission.tooltip>{0}: {1}, {2}일차 완료 예정.</yexiaoyang.district.mission.tooltip>
+  <yexiaoyang.district.report.assistance_ended>{0}에 대한 보안대의 타격이 끝났습니다.</yexiaoyang.district.report.assistance_ended>
+  <yexiaoyang.district.report.assisted>보안대가 {0} 갱단을 타격했습니다. 앞으로 3일간 적의 화력이 절반으로 줄고 병력 보충이 중단됩니다.</yexiaoyang.district.report.assisted>
+  <yexiaoyang.district.report.job_completed>{0}에서 {1} 작전을 수행해 {2}크레딧, 식량 {3}, 물품 {4}개를 얻었습니다.</yexiaoyang.district.report.job_completed>
+  <yexiaoyang.district.stationed.tooltip>{0}: {1}에 주둔 중.</yexiaoyang.district.stationed.tooltip>
+  <yexiaoyang.district.trade.stored>보관 물품 판매</yexiaoyang.district.trade.stored>
+  <yexiaoyang.district.trade.stored.note>팔 물품을 여기에 보관하세요. 언제든 다시 꺼낼 수 있습니다. 병력을 상점에 보낸 뒤 물품을 끌어 거래하면 원래 가격의 70%에 팔립니다.</yexiaoyang.district.trade.stored.note>
+  <yexiaoyang.district.trade.stored.title>판매 대기 보관함</yexiaoyang.district.trade.stored.title>
+  <yexiaoyang.ui.console.buildings_help>날림 공사: 현재 진행 중인 방과 구역 공사를 즉시 끝냅니다.</yexiaoyang.ui.console.buildings_help>
+  <yexiaoyang.ui.console.buildings_result>눈 깜짝할 새 공사 {count}건을 끝냈습니다.</yexiaoyang.ui.console.buildings_result>
+  <yexiaoyang.ui.console.weapons_help>암시장 공중 투하: 모든 무기를 종류별로 하나씩 받습니다.</yexiaoyang.ui.console.weapons_help>
+  <yexiaoyang.ui.console.weapons_result>무기 {count}종을 확보했습니다. 공간이 부족해 남은 무기는 수령 대기 상태로 보관합니다.</yexiaoyang.ui.console.weapons_result>
+  <yexiaoyang.district.report.job_recalled>{0}에 파견한 인원이 복귀했습니다.</yexiaoyang.district.report.job_recalled>
+  <yexiaoyang.district.report.job_paused>식량이 부족해 {0}의 장기 임무를 중단했습니다. 식량을 보충하면 재개합니다.</yexiaoyang.district.report.job_paused>
+  <yexiaoyang.district.upper_supply_crate>상층 구역 보급 상자</yexiaoyang.district.upper_supply_crate>
+  <yexiaoyang.district.select_target>타격 대상</yexiaoyang.district.select_target>
+</LanguageData>

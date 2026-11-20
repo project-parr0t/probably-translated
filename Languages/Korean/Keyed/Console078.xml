@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ui.console.item_usage>player.additem &lt;code&gt; [amount]</yexiaoyang.ui.console.item_usage>
+  <yexiaoyang.ui.console.item_help>크레딧, 지휘소 식량·자재 포인트, 최대 병력을 추가합니다.</yexiaoyang.ui.console.item_help>
+  <yexiaoyang.ui.console.usage_food>player.additem food [amount]</yexiaoyang.ui.console.usage_food>
+  <yexiaoyang.ui.console.usage_material>player.additem material [amount]</yexiaoyang.ui.console.usage_material>
+  <yexiaoyang.ui.console.usage_capacity>player.additem capacity [amount]</yexiaoyang.ui.console.usage_capacity>
+  <yexiaoyang.ui.console.argument_food>식량 포인트 추가(기본값: 1,000)</yexiaoyang.ui.console.argument_food>
+  <yexiaoyang.ui.console.argument_material>자재 포인트 추가(기본값: 1,000)</yexiaoyang.ui.console.argument_material>
+  <yexiaoyang.ui.console.argument_capacity>저장된 최대 병력 추가(기본값: 1)</yexiaoyang.ui.console.argument_capacity>
+  <yexiaoyang.ui.console.resource.food>식량 포인트</yexiaoyang.ui.console.resource.food>
+  <yexiaoyang.ui.console.resource.material>자재 포인트</yexiaoyang.ui.console.resource.material>
+  <yexiaoyang.ui.console.resource.capacity>최대 병력</yexiaoyang.ui.console.resource.capacity>
+  <yexiaoyang.ui.console.resource_added>{resource}을(를) {amount} 추가했습니다. 현재 총량: {total}.</yexiaoyang.ui.console.resource_added>
+  <yexiaoyang.ui.console.resource_save_failed>저장하지 못해 지급이 취소됐습니다.</yexiaoyang.ui.console.resource_save_failed>
+  <yexiaoyang.ui.console.help_resources>player.additem food/material/capacity [amount] — 식량·자재 포인트 또는 최대 병력을 추가합니다. 기본값: 1,000/1,000/1. 예: player.additem capacity 5.</yexiaoyang.ui.console.help_resources>
+</LanguageData>

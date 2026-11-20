@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ManufacturingRoom.label>제조실</yexiaoyang.ManufacturingRoom.label>
+  <yexiaoyang.ManufacturingRoom.description>칩과 제작 재료를 사용해 물품을 만드는 기초 작업장입니다.</yexiaoyang.ManufacturingRoom.description>
+  <yexiaoyang.ManufacturingRoom.lockedDescription>프린터 레일이 굳었고 작업대가 흔들립니다. 정밀 작업을 다시 하려면 수리해야 합니다.</yexiaoyang.ManufacturingRoom.lockedDescription>
+  <yexiaoyang.ManufacturingRoom.manualText>프린터마다 기본 게임의 칩과 재료가 필요하며, 방에서 전력을 공급합니다. 칩은 재사용할 수 있고 금속 및 CNC 제작에는 기본 게임과 같은 모듈이 필요합니다. 밤마다 기본 진행도는 24, 코드 품질 계수는 0.25입니다. 작업 시작 시 재료 소모, 작업 중단, 하룻밤에 한 건 완료 규칙은 기본 게임과 같습니다. 기본 게임의 총기 프레임은 부품으로 직접 조립하세요. 보관함에서 재료를 자동으로 꺼내거나 새 총기·탄약 레시피를 추가하지 않습니다.</yexiaoyang.ManufacturingRoom.manualText>
+  <yexiaoyang.ManufacturingRoom.serviceDescription>정액 전력 요금에 기계 전력이 포함되므로 별도 배터리가 필요 없습니다. 방 전력을 끄면 고정 시설은 멈추지만 보관함은 계속 이용할 수 있습니다. 공사 중에는 전력 요금이 면제됩니다.</yexiaoyang.ManufacturingRoom.serviceDescription>
+  <yexiaoyang.ManufacturingRoom.nightReportText>{roomName}: 프린터 {workingPrinters}대 가동, 작업 {finishedJobs}건 완료, 생산품 {pendingOutputCount}개 대기. 방 전력 요금: {maintenanceFee} 크레딧(고정 기계 포함).</yexiaoyang.ManufacturingRoom.nightReportText>
+  <yexiaoyang.ManufacturingRoom.constructionReportText>{roomName} 공사가 {remainingDays}일 남았습니다. 출입할 수 없고 고정 기계는 멈춥니다. 방 전력 요금은 면제됩니다.</yexiaoyang.ManufacturingRoom.constructionReportText>
+</LanguageData>

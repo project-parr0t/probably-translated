@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.district.ui.group.active>분대 {number}</yexiaoyang.district.ui.group.active>
+  <yexiaoyang.district.ui.group.reserve>예비대 {number}</yexiaoyang.district.ui.group.reserve>
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.DistrictSite.gray_sheds.label>잿빛 창고 거리</yexiaoyang.DistrictSite.gray_sheds.label>
+  <yexiaoyang.DistrictSite.gray_sheds.ownerLabel>잿빛 창고파</yexiaoyang.DistrictSite.gray_sheds.ownerLabel>
+  <yexiaoyang.DistrictSite.rust_pipes.label>녹슨 배관 지구</yexiaoyang.DistrictSite.rust_pipes.label>
+  <yexiaoyang.DistrictSite.rust_pipes.ownerLabel>녹슨 배관 형제단</yexiaoyang.DistrictSite.rust_pipes.ownerLabel>
+  <yexiaoyang.DistrictSite.slag_street.label>쇳재 거리</yexiaoyang.DistrictSite.slag_street.label>
+  <yexiaoyang.DistrictSite.slag_street.ownerLabel>쇳재 거리파</yexiaoyang.DistrictSite.slag_street.ownerLabel>
+  <yexiaoyang.DistrictSite.narrow_lantern.label>등불 골목</yexiaoyang.DistrictSite.narrow_lantern.label>
+  <yexiaoyang.DistrictSite.narrow_lantern.ownerLabel>등불 골목파</yexiaoyang.DistrictSite.narrow_lantern.ownerLabel>
+  <yexiaoyang.DistrictSite.old_shop.label>옛 상가 뒷골목</yexiaoyang.DistrictSite.old_shop.label>
+  <yexiaoyang.DistrictSite.old_shop.ownerLabel>옛 상가 주민회</yexiaoyang.DistrictSite.old_shop.ownerLabel>
+  <yexiaoyang.DistrictSite.junkyard.label>폐품 처리장</yexiaoyang.DistrictSite.junkyard.label>
+  <yexiaoyang.DistrictSite.junkyard.ownerLabel>홀더 재활용 회사</yexiaoyang.DistrictSite.junkyard.ownerLabel>
+  <yexiaoyang.DistrictSite.distillery.label>증류소</yexiaoyang.DistrictSite.distillery.label>
+  <yexiaoyang.DistrictSite.distillery.ownerLabel>낡은 구리통 증류소</yexiaoyang.DistrictSite.distillery.ownerLabel>
+  <yexiaoyang.DistrictSite.plantation.label>재배지</yexiaoyang.DistrictSite.plantation.label>
+  <yexiaoyang.DistrictSite.plantation.ownerLabel>잿빛잎 농업</yexiaoyang.DistrictSite.plantation.ownerLabel>
+  <yexiaoyang.DistrictSite.ration.label>배급 창고</yexiaoyang.DistrictSite.ration.label>
+  <yexiaoyang.DistrictSite.ration.ownerLabel>하층 배급 관리국</yexiaoyang.DistrictSite.ration.ownerLabel>
+  <yexiaoyang.DistrictSite.forge.label>주조소</yexiaoyang.DistrictSite.forge.label>
+  <yexiaoyang.DistrictSite.forge.ownerLabel>화심 공업소</yexiaoyang.DistrictSite.forge.ownerLabel>
+  <yexiaoyang.DistrictSite.security.label>보안대</yexiaoyang.DistrictSite.security.label>
+  <yexiaoyang.DistrictSite.security.ownerLabel>하층 보안대</yexiaoyang.DistrictSite.security.ownerLabel>
+</LanguageData>

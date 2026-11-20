@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.reputation070.lower.name>군중 진압</yexiaoyang.reputation070.lower.name>
+  <yexiaoyang.reputation070.lower.description>군대를 갖춘 이상 사람들이 어떻게 생각하든 걱정할 필요가 없습니다(게임이 끝나지 않습니다). 모든 영토의 우호도가 매일 10씩 떨어집니다.</yexiaoyang.reputation070.lower.description>
+  <yexiaoyang.reputation070.lower.flavor>하층 주민들이 당신을 원망하지만 감히 입 밖에 내지 못합니다.</yexiaoyang.reputation070.lower.flavor>
+  <yexiaoyang.reputation070.security.name>군사 대치</yexiaoyang.reputation070.security.name>
+  <yexiaoyang.reputation070.security.description>보안대가 당신을 제압하려 했으나 대원 몇 명을 잃은 뒤 장기 대치로 방침을 바꿨습니다(게임이 끝나지 않습니다). 모든 영토가 포위 공격을 당할 확률이 높아집니다.</yexiaoyang.reputation070.security.description>
+  <yexiaoyang.reputation070.revolution.name>혁명군의 보복</yexiaoyang.reputation070.revolution.name>
+  <yexiaoyang.reputation070.revolution.description>혁명군는 당신을 적으로 보지만, 당신이 거느린 병력을 보고 때를 기다리기로 했습니다(게임이 끝나지 않습니다). 모든 영토가 포위 공격을 당할 확률이 높아집니다.</yexiaoyang.reputation070.revolution.description>
+</LanguageData>

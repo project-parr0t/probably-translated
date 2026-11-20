@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.progression.rank.1>신병</yexiaoyang.progression.rank.1>
+  <yexiaoyang.progression.rank.2>상병</yexiaoyang.progression.rank.2>
+  <yexiaoyang.progression.rank.3>병장</yexiaoyang.progression.rank.3>
+  <yexiaoyang.progression.rank.4>하사</yexiaoyang.progression.rank.4>
+  <yexiaoyang.progression.rank.5>소위</yexiaoyang.progression.rank.5>
+  <yexiaoyang.progression.rank.6>중위</yexiaoyang.progression.rank.6>
+  <yexiaoyang.progression.rank.7>대위</yexiaoyang.progression.rank.7>
+  <yexiaoyang.progression.rank.8>소령</yexiaoyang.progression.rank.8>
+  <yexiaoyang.progression.rank.9>중령</yexiaoyang.progression.rank.9>
+  <yexiaoyang.progression.xp.label>경험치: {current}/{required}</yexiaoyang.progression.xp.label>
+  <yexiaoyang.progression.xp.maximum>최대 레벨 9에 도달했습니다.</yexiaoyang.progression.xp.maximum>
+  <yexiaoyang.progression.xp.hint>임무를 완수하면 경험치를 얻습니다. 전투의 경험치가 가장 많고, 충분히 모으면 자동으로 레벨이 오릅니다.
+패배하면 경험치와 레벨 1을 잃습니다. 1레벨 아래로는 떨어지지 않습니다.</yexiaoyang.progression.xp.hint>
+  <yexiaoyang.progression.xp.estimate>이 작전의 1인당 예상 경험치: {experience}.</yexiaoyang.progression.xp.estimate>
+  <yexiaoyang.progression.xp.combat>승리하면 많은 경험치를 얻습니다. 패배하면 경험치와 레벨 1을 잃습니다.</yexiaoyang.progression.xp.combat>
+  <yexiaoyang.progression.pack.overflow>강등돼도 기존 장비는 유지됩니다. 새 장비를 추가하려면 줄어든 용량을 초과한 장비를 먼저 빼세요.</yexiaoyang.progression.pack.overflow>
+  <yexiaoyang.progression.report.experience>{soldier}: 경험치 {experience} 획득. 현재 {level}레벨 {rank}.</yexiaoyang.progression.report.experience>
+  <yexiaoyang.progression.result.gain>{soldier}: 경험치 +{experience}.</yexiaoyang.progression.result.gain>
+  <yexiaoyang.progression.result.promoted>{soldier}: 경험치 +{experience}, {rank}({level}레벨) 진급.</yexiaoyang.progression.result.promoted>
+  <yexiaoyang.progression.result.loss>{soldier}: 경험치 −{experience}, 현재 {rank}({level}레벨).</yexiaoyang.progression.result.loss>
+  <yexiaoyang.progression.result.maximum>{soldier}: 최고 계급 {rank}(9레벨)에 도달했습니다.</yexiaoyang.progression.result.maximum>
+  <yexiaoyang.progression.hostile_only_combat>이 세력과는 돌이킬 수 없이 적대 중입니다. 습격이나 점령만 가능하며 일반 거래나 작업은 할 수 없습니다.</yexiaoyang.progression.hostile_only_combat>
+  <yexiaoyang.progression.return_pending>인원이 {site}에 머물고 있습니다. 내일 복귀합니다.</yexiaoyang.progression.return_pending>
+  <yexiaoyang.progression.report.returned>{site}에서 돌아온 인원: {soldiers}.</yexiaoyang.progression.report.returned>
+  <yexiaoyang.progression.report.stolen>{site}에서 들키지 않고 절도를 마쳤습니다. {credits}크레딧, 식량 {food}, 자재 {materials}를 받았습니다. 무작위 물품 최대 {items}개를 포장해 계산대로 보냅니다.</yexiaoyang.progression.report.stolen>
+  <yexiaoyang.progression.desc.raid>영업을 마친 뒤 밤에만 파견할 수 있습니다. 습격을 즉시 시작하고 현장에서 전투를 처리합니다. 1인당 식량 20포인트를 소모합니다. 인원은 현지에 머물다가 다음 날 복귀합니다.</yexiaoyang.progression.desc.raid>
+  <yexiaoyang.progression.desc.occupy>영업을 마친 뒤 밤에만 파견할 수 있습니다. 점령전을 즉시 시작하고 현장에서 전투를 처리합니다. 1인당 식량 20포인트를 소모합니다. 인원은 현지에 머물다가 다음 날 복귀합니다.
+승리하면 해당 세력이 사라지고, 패배하면 돌이킬 수 없는 적이 됩니다.</yexiaoyang.progression.desc.occupy>
+  <yexiaoyang.progression.cost.combat>즉시 전투합니다. 비용: 식량 {food}, {credits}크레딧, 자재 {materials}. 부대는 내일 복귀합니다.</yexiaoyang.progression.cost.combat>
+  <yexiaoyang.progression.battle.result.title>전투 정산</yexiaoyang.progression.battle.result.title>
+  <yexiaoyang.progression.battle.result.victory>전투 승리</yexiaoyang.progression.battle.result.victory>
+  <yexiaoyang.progression.battle.result.defeat>전투 패배</yexiaoyang.progression.battle.result.defeat>
+  <yexiaoyang.progression.battle.result.resources>자원 보상: {credits}크레딧 / 식량 {food} / 자재 {materials}</yexiaoyang.progression.battle.result.resources>
+  <yexiaoyang.progression.battle.result.loot>전리품: 물품 {items}개.</yexiaoyang.progression.battle.result.loot>
+  <yexiaoyang.progression.battle.result.relationship>세력 관계: {before} → {after}</yexiaoyang.progression.battle.result.relationship>
+  <yexiaoyang.progression.battle.result.lower_city>하층 평판: {before} → {after}</yexiaoyang.progression.battle.result.lower_city>
+  <yexiaoyang.progression.battle.result.return>전투 인원은 내일 복귀합니다.</yexiaoyang.progression.battle.result.return>
+  <yexiaoyang.progression.battle.result.progression>병력 성장</yexiaoyang.progression.battle.result.progression>
+  <yexiaoyang.progression.battle.result.lost_equipment>패배한 병력은 목숨을 건졌지만 착용한 장비를 모두 잃었습니다.</yexiaoyang.progression.battle.result.lost_equipment>
+  <yexiaoyang.progression.battle.result.continue>지도로 돌아가기</yexiaoyang.progression.battle.result.continue>
+  <yexiaoyang.progression.battle.result.none>없음</yexiaoyang.progression.battle.result.none>
+  <yexiaoyang.progression.rank.1.description>기초부터 배우는 신입이거나 강등된 베테랑입니다. 처음엔 화력과 생존력이 낮지만 꾸준히 훈련하면 크게 성장합니다.</yexiaoyang.progression.rank.1.description>
+  <yexiaoyang.progression.rank.2.description>기초 훈련을 받았고 더 많은 장비를 다룰 수 있습니다. 전술을 조금 알고 총을 쏠 때 조준도 합니다. 총알받이보다는 한 수 위입니다.</yexiaoyang.progression.rank.2.description>
+  <yexiaoyang.progression.rank.3.description>위험한 하층 거리에 익숙해지고 있습니다. 총격전에서 엄폐물을 찾고 살아남는 데 능해졌습니다. 믿고 맡길 만한 전투원입니다.</yexiaoyang.progression.rank.3.description>
+  <yexiaoyang.progression.rank.4.description>부대의 버팀목인 베테랑입니다. 난장판이 된 거리 총격전에서도 침착하게 대처합니다. 쉽게 건드릴 상대가 아닙니다.</yexiaoyang.progression.rank.4.description>
+  <yexiaoyang.progression.rank.5.description>슬슬 장교 티가 나지만 궂은일은 아직 직접 합니다. 향상된 화력 덕에 거리에서도 무시당하지 않습니다.</yexiaoyang.progression.rank.5.description>
+  <yexiaoyang.progression.rank.6.description>임무를 믿고 맡길 수 있는 장교입니다. 풍부한 전투 경험 덕에 생존력이 뛰어나 전당포 경비에 없어서는 안 될 인력입니다.</yexiaoyang.progression.rank.6.description>
+  <yexiaoyang.progression.rank.7.description>경험이 풍부한 베테랑입니다. 위험한 거리 싸움도 일상이라 상황을 통제하며 대량의 물자까지 챙겨 돌아올 수 있습니다.</yexiaoyang.progression.rank.7.description>
+  <yexiaoyang.progression.rank.8.description>세력의 버팀목입니다. 풍부한 경험과 침착한 대처로 신뢰를 쌓았고, 화력과 생존력이 두루 뛰어납니다.</yexiaoyang.progression.rank.8.description>
+  <yexiaoyang.progression.rank.9.description>전당포의 최정예이자 최고 계급입니다. 모든 능력이 뛰어나고 지휘관의 두터운 신임을 받아 중책을 맡을 수 있습니다.</yexiaoyang.progression.rank.9.description>
+  <yexiaoyang.progression.career.origin>이전 직업: {career}</yexiaoyang.progression.career.origin>
+</LanguageData>

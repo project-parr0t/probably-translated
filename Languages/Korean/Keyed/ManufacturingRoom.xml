@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ui.manual.manufacturing.body>칩과 레시피 재료를 넣어 부품을 제작하세요. 성능 모듈은 가공 속도를 높이고 품질 모듈은 생산품 품질을 높입니다. 금속이나 CNC 가공에는 해당 지원 모듈이 필요합니다.
+칩이 없는 유휴 프린터로 지정한 프린터의 작업을 도울 수 있습니다. 제작을 마치고 남은 진행도는 같은 칩의 다음 작업으로 넘어가며, 매번 레시피 재료를 소모합니다.</yexiaoyang.ui.manual.manufacturing.body>
+  <yexiaoyang.ui.manual.manufacturing.title>제조 안내서</yexiaoyang.ui.manual.manufacturing.title>
+</LanguageData>

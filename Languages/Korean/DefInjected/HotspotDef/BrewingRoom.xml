@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.BrewingRoom.Basic.Equipment.label>발효 작업대</yexiaoyang.BrewingRoom.Basic.Equipment.label>
+  <yexiaoyang.BrewingRoom.Basic.RawMaterials.label>원료 보관함</yexiaoyang.BrewingRoom.Basic.RawMaterials.label>
+  <yexiaoyang.BrewingRoom.Basic.Products.label>생산품 보관함</yexiaoyang.BrewingRoom.Basic.Products.label>
+  <yexiaoyang.BrewingRoom.Basic.Stockpile.label>보관함</yexiaoyang.BrewingRoom.Basic.Stockpile.label>
+  <yexiaoyang.BrewingRoom.Basic.RenovationBook.label>개조 및 업그레이드</yexiaoyang.BrewingRoom.Basic.RenovationBook.label>
+  <yexiaoyang.BrewingRoom.Basic.Drain.label>배수구</yexiaoyang.BrewingRoom.Basic.Drain.label>
+  <yexiaoyang.BrewingRoom.Improved.Equipment.label>발효 작업대</yexiaoyang.BrewingRoom.Improved.Equipment.label>
+  <yexiaoyang.BrewingRoom.Improved.RawMaterials.label>원료 보관함</yexiaoyang.BrewingRoom.Improved.RawMaterials.label>
+  <yexiaoyang.BrewingRoom.Improved.Products.label>생산품 보관함</yexiaoyang.BrewingRoom.Improved.Products.label>
+  <yexiaoyang.BrewingRoom.Improved.Aging.label>술 숙성장</yexiaoyang.BrewingRoom.Improved.Aging.label>
+  <yexiaoyang.BrewingRoom.Improved.Stockpile.label>보관함</yexiaoyang.BrewingRoom.Improved.Stockpile.label>
+  <yexiaoyang.BrewingRoom.Improved.RenovationBook.label>개조 및 업그레이드</yexiaoyang.BrewingRoom.Improved.RenovationBook.label>
+  <yexiaoyang.BrewingRoom.Improved.Drain.label>배수구</yexiaoyang.BrewingRoom.Improved.Drain.label>
+  <yexiaoyang.BrewingRoom.Upper.Equipment.label>발효 작업대</yexiaoyang.BrewingRoom.Upper.Equipment.label>
+  <yexiaoyang.BrewingRoom.Upper.RawMaterials.label>원료 보관함</yexiaoyang.BrewingRoom.Upper.RawMaterials.label>
+  <yexiaoyang.BrewingRoom.Upper.Products.label>생산품 보관함</yexiaoyang.BrewingRoom.Upper.Products.label>
+  <yexiaoyang.BrewingRoom.Upper.Aging.label>술 숙성장</yexiaoyang.BrewingRoom.Upper.Aging.label>
+  <yexiaoyang.BrewingRoom.Upper.Stockpile.label>보관함</yexiaoyang.BrewingRoom.Upper.Stockpile.label>
+  <yexiaoyang.BrewingRoom.Upper.RenovationBook.label>개조 및 업그레이드</yexiaoyang.BrewingRoom.Upper.RenovationBook.label>
+  <yexiaoyang.BrewingRoom.Upper.Drain.label>배수구</yexiaoyang.BrewingRoom.Upper.Drain.label>
+  <yexiaoyang.BrewingRoom.Transcendent.Equipment.label>발효 작업대</yexiaoyang.BrewingRoom.Transcendent.Equipment.label>
+  <yexiaoyang.BrewingRoom.Transcendent.RawMaterials.label>원료 보관함</yexiaoyang.BrewingRoom.Transcendent.RawMaterials.label>
+  <yexiaoyang.BrewingRoom.Transcendent.Products.label>생산품 보관함</yexiaoyang.BrewingRoom.Transcendent.Products.label>
+  <yexiaoyang.BrewingRoom.Transcendent.Aging.label>술 숙성장</yexiaoyang.BrewingRoom.Transcendent.Aging.label>
+  <yexiaoyang.BrewingRoom.Transcendent.Stockpile.label>보관함</yexiaoyang.BrewingRoom.Transcendent.Stockpile.label>
+  <yexiaoyang.BrewingRoom.Transcendent.RenovationBook.label>개조 및 업그레이드</yexiaoyang.BrewingRoom.Transcendent.RenovationBook.label>
+  <yexiaoyang.BrewingRoom.Transcendent.Drain.label>배수구</yexiaoyang.BrewingRoom.Transcendent.Drain.label>
+</LanguageData>

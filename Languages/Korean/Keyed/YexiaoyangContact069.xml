@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.contact069.name>AAA예샤오양</yexiaoyang.contact069.name>
+  <yexiaoyang.contact069.greeting>나 찾았어? 무슨 일이야, 응?</yexiaoyang.contact069.greeting>
+  <yexiaoyang.contact069.card.name>예샤오양의 명함</yexiaoyang.contact069.card.name>
+  <yexiaoyang.contact069.card.description>벚꽃 향이 나는 흰 명함입니다. 적힌 번호로 전화해 보세요.</yexiaoyang.contact069.card.description>
+  <yexiaoyang.contact069.phone.browse>예샤오양의 서비스 보기</yexiaoyang.contact069.phone.browse>
+  <yexiaoyang.contact069.phone.end>통화 종료</yexiaoyang.contact069.phone.end>
+  <yexiaoyang.contact069.network.title>예샤오양의 인맥</yexiaoyang.contact069.network.title>
+  <yexiaoyang.contact069.network.group>거래 소개</yexiaoyang.contact069.network.group>
+  <yexiaoyang.contact069.network.bought>소개를 받았습니다. 밤에 밖으로 나가 방문하세요.</yexiaoyang.contact069.network.bought>
+  <yexiaoyang.contact069.network.error.unavailable>거래 소개망을 이용할 수 없습니다.</yexiaoyang.contact069.network.error.unavailable>
+  <yexiaoyang.contact069.network.error.purchase>구매 내역을 저장하지 못했습니다. 크레딧은 차감하지 않았습니다. 다시 시도하세요.</yexiaoyang.contact069.network.error.purchase>
+  <yexiaoyang.contact069.site.junkyard.title>폐품 처리장 거래 소개</yexiaoyang.contact069.site.junkyard.title>
+  <yexiaoyang.contact069.site.distillery.title>증류소 거래 소개</yexiaoyang.contact069.site.distillery.title>
+  <yexiaoyang.contact069.site.plantation.title>재배지 거래 소개</yexiaoyang.contact069.site.plantation.title>
+  <yexiaoyang.contact069.site.forge.title>주조소 거래 소개</yexiaoyang.contact069.site.forge.title>
+  <yexiaoyang.contact069.site.ration.title>배급 창고 소개</yexiaoyang.contact069.site.ration.title>
+  <yexiaoyang.contact069.site.security.title>보안대 소개</yexiaoyang.contact069.site.security.title>
+  <yexiaoyang.contact069.site.junkyard.desc>야간 외출: 예샤오양의 인맥으로 폐품 처리장과 자유롭게 거래할 수 있습니다. 어떤 물품이든 가치의 70%에 사들이며 자체 상품도 판매합니다. 재고는 3일마다 갱신됩니다.</yexiaoyang.contact069.site.junkyard.desc>
+  <yexiaoyang.contact069.site.distillery.desc>야간 외출: 예샤오양의 인맥으로 증류소와 자유롭게 거래할 수 있습니다. 어떤 물품이든 가치의 70%에 사들이며 자체 상품도 판매합니다. 재고는 3일마다 갱신됩니다.</yexiaoyang.contact069.site.distillery.desc>
+  <yexiaoyang.contact069.site.plantation.desc>야간 외출: 예샤오양의 인맥으로 재배지와 자유롭게 거래할 수 있습니다. 어떤 물품이든 가치의 70%에 사들이며 자체 상품도 판매합니다. 재고는 3일마다 갱신됩니다.</yexiaoyang.contact069.site.plantation.desc>
+  <yexiaoyang.contact069.site.forge.desc>야간 외출: 예샤오양의 인맥으로 주조소와 자유롭게 거래할 수 있습니다. 어떤 물품이든 가치의 70%에 사들이며 자체 상품도 판매합니다. 재고는 3일마다 갱신됩니다.</yexiaoyang.contact069.site.forge.desc>
+  <yexiaoyang.contact069.site.ration.desc>야간 외출: 예샤오양의 인맥으로 배급 창고에 남는 식량 배급권을 살 수 있습니다. 모두 진품입니다. 재고는 3일마다 갱신됩니다.</yexiaoyang.contact069.site.ration.desc>
+  <yexiaoyang.contact069.site.security.desc>야간 외출: 예샤오양의 인맥으로 보안대에서 무기를 살 수 있습니다. 고급 밀수품도 판매합니다. 총기 허가증은 꼭 챙기세요. 가게를 나서면 보안대는 거기서 샀다는 걸 인정하지 않습니다.</yexiaoyang.contact069.site.security.desc>
+</LanguageData>

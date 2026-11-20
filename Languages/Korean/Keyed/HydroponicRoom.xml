@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.ui.hydroponic.automatic_supply>자동</yexiaoyang.ui.hydroponic.automatic_supply>
+  <yexiaoyang.ui.hydroponic.closed_line_description>고정 영양분 배관에서 용액을 자동 공급하며 방 전체의 목표 농도에 맞춰 미네랄을 조절합니다.</yexiaoyang.ui.hydroponic.closed_line_description>
+  <yexiaoyang.ui.hydroponic.closed_line_name>폐쇄형 영양분 배관</yexiaoyang.ui.hydroponic.closed_line_name>
+  <yexiaoyang.ui.hydroponic.decrease_minerals>방 전체 목표 농도를 0.10%p 낮추기</yexiaoyang.ui.hydroponic.decrease_minerals>
+  <yexiaoyang.ui.hydroponic.increase_minerals>방 전체 목표 농도를 0.10%p 높이기</yexiaoyang.ui.hydroponic.increase_minerals>
+  <yexiaoyang.ui.hydroponic.legacy_input>회수 대기</yexiaoyang.ui.hydroponic.legacy_input>
+  <yexiaoyang.ui.hydroponic.manual_supply>수동</yexiaoyang.ui.hydroponic.manual_supply>
+  <yexiaoyang.ui.hydroponic.mineral_current>현재 미네랄 농도: {amount}%</yexiaoyang.ui.hydroponic.mineral_current>
+  <yexiaoyang.ui.hydroponic.mineral_target>목표 미네랄 농도: {amount}%</yexiaoyang.ui.hydroponic.mineral_target>
+  <yexiaoyang.ui.hydroponic.mode_automatic>자동 공급</yexiaoyang.ui.hydroponic.mode_automatic>
+  <yexiaoyang.ui.hydroponic.mode_manual>수동 공급</yexiaoyang.ui.hydroponic.mode_manual>
+  <yexiaoyang.ui.hydroponic.nutrient_input>영양 정제 보관함</yexiaoyang.ui.hydroponic.nutrient_input>
+  <yexiaoyang.ui.hydroponic.nutrient_storage>영양 정제 보관함</yexiaoyang.ui.hydroponic.nutrient_storage>
+  <yexiaoyang.ui.hydroponic.nutrient_tablets>영양분</yexiaoyang.ui.hydroponic.nutrient_tablets>
+  <yexiaoyang.ui.hydroponic.summary_automatic>{mode}
+폐쇄형 공급은 실제 영양 정제를 사용하고 남은 미네랄을 보관합니다.
+용해 미네랄 저장량(정제와 배관 제외): {mineralBank}mL. 마지막 사용량: {lastUse}mL.</yexiaoyang.ui.hydroponic.summary_automatic>
+  <yexiaoyang.ui.hydroponic.summary_insufficient>{mode}
+영양 정제가 부족해 이 재배대가 멈췄습니다. 수동으로 공급할 수 있습니다.
+용해 미네랄 저장량(정제와 배관 제외): {mineralBank}mL. 마지막 사용량: {lastUse}mL.</yexiaoyang.ui.hydroponic.summary_insufficient>
+  <yexiaoyang.ui.hydroponic.summary_manual_container>{mode}
+직접 놓은 물통을 먼저 사용합니다. 자동 공급을 재개하려면 물통을 빼세요.
+용해 미네랄 저장량(정제와 배관 제외): {mineralBank}mL. 마지막 사용량: {lastUse}mL.</yexiaoyang.ui.hydroponic.summary_manual_container>
+  <yexiaoyang.ui.hydroponic.summary_native_rules>{mode}
+작물, 물, 모듈은 기본 게임의 규칙을 따릅니다.
+용해 미네랄 저장량(정제와 배관 제외): {mineralBank}mL. 마지막 사용량: {lastUse}mL.</yexiaoyang.ui.hydroponic.summary_native_rules>
+  <yexiaoyang.ui.hydroponic.summary_unsupported>{mode}
+이 작물이나 성능은 안전 혼합 범위를 벗어났습니다. 수동으로 공급하세요.
+용해 미네랄 저장량(정제와 배관 제외): {mineralBank}mL. 마지막 사용량: {lastUse}mL.</yexiaoyang.ui.hydroponic.summary_unsupported>
+  <yexiaoyang.ui.manual.hydroponic.body>재배대에 씨앗을 넣으세요. 작물은 밤에 자라며 다 자라면 배출 칸으로 이동합니다. 일반 재배대는 물통에 비료를 직접 섞어야 합니다. 개량 단계 이상은 영양 정제 옆에서 방 전체의 목표 농도를 설정하면 미네랄을 실시간으로 보충합니다. 남은 용해 미네랄을 먼저 쓰고 부족하면 정제를 사용합니다. 목표 농도를 낮추면 남는 미네랄을 회수합니다. 직접 연결한 물통의 조절이 우선됩니다. 농도가 극단적이면 작물의 건강이 나빠집니다.
+
+성능 모듈은 생장 속도를 높이고 품질 모듈은 수확량을 늘립니다. 전력이나 영양분이 부족하면 생장이 멈춥니다.</yexiaoyang.ui.manual.hydroponic.body>
+  <yexiaoyang.ui.manual.hydroponic.title>수경재배 안내서</yexiaoyang.ui.manual.hydroponic.title>
+  <yexiaoyang.ui.hydroponic.chop_plant>작물 베기</yexiaoyang.ui.hydroponic.chop_plant>
+  <yexiaoyang.ui.hydroponic.chop_plant_tooltip>소지품에 손도끼가 필요합니다. 잘라 낸 작물에서는 씨앗을 돌려받지 못합니다.</yexiaoyang.ui.hydroponic.chop_plant_tooltip>
+  <yexiaoyang.ui.hydroponic.hatchet_required>이 작물을 베려면 소지품에 사용할 수 있는 손도끼가 있어야 합니다.</yexiaoyang.ui.hydroponic.hatchet_required>
+  <yexiaoyang.ui.hydroponic.plant_removed>작물을 베었습니다. 씨앗은 돌려받지 못했습니다.</yexiaoyang.ui.hydroponic.plant_removed>
+</LanguageData>

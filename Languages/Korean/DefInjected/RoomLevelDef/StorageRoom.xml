@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.StorageRoom.Basic.label>기초 보관실</yexiaoyang.StorageRoom.Basic.label>
+  <yexiaoyang.StorageRoom.Basic.description>낡은 장과 선반을 활용해 일상 물품을 보관합니다.</yexiaoyang.StorageRoom.Basic.description>
+  <yexiaoyang.StorageRoom.Basic.abilitySummary>보관 용량 210칸.</yexiaoyang.StorageRoom.Basic.abilitySummary>
+  <yexiaoyang.StorageRoom.Basic.cardText>낡은 장과 선반을 활용해 일상 물품을 보관합니다.
+총 보관 용량: 210칸
+이용 방법: 보관장 문 또는 창고 수신기
+전력 요금: 하루 0크레딧</yexiaoyang.StorageRoom.Basic.cardText>
+  <yexiaoyang.StorageRoom.Basic.upgradeText>기초 보관실로 개조합니다. 비용: 2,000크레딧. 소요 기간: 1일.</yexiaoyang.StorageRoom.Basic.upgradeText>
+  <yexiaoyang.StorageRoom.Basic.storageGroups.left_tall_a.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Basic.storageGroups.left_tall_a.label>
+  <yexiaoyang.StorageRoom.Basic.storageGroups.left_tall_b.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Basic.storageGroups.left_tall_b.label>
+  <yexiaoyang.StorageRoom.Basic.storageGroups.center_cubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Basic.storageGroups.center_cubbies.label>
+  <yexiaoyang.StorageRoom.Basic.storageGroups.right_cabinet.label>오른쪽 보관장</yexiaoyang.StorageRoom.Basic.storageGroups.right_cabinet.label>
+  <yexiaoyang.StorageRoom.Basic.storageGroups.shelf_boxes.label>선반과 상자</yexiaoyang.StorageRoom.Basic.storageGroups.shelf_boxes.label>
+  <yexiaoyang.StorageRoom.Improved.label>개량 보관실</yexiaoyang.StorageRoom.Improved.label>
+  <yexiaoyang.StorageRoom.Improved.description>장과 선반을 확장해 더 많은 생산 물자를 보관할 수 있습니다.</yexiaoyang.StorageRoom.Improved.description>
+  <yexiaoyang.StorageRoom.Improved.abilitySummary>보관 용량 368칸.</yexiaoyang.StorageRoom.Improved.abilitySummary>
+  <yexiaoyang.StorageRoom.Improved.cardText>장과 선반을 확장해 더 많은 생산 물자를 보관할 수 있습니다.
+총 보관 용량: 368칸
+이용 방법: 보관장 문 또는 창고 수신기
+전력 요금: 하루 0크레딧</yexiaoyang.StorageRoom.Improved.cardText>
+  <yexiaoyang.StorageRoom.Improved.upgradeText>개량 보관실로 개조합니다. 비용: 6,000크레딧. 소요 기간: 2일.</yexiaoyang.StorageRoom.Improved.upgradeText>
+  <yexiaoyang.StorageRoom.Improved.storageGroups.left_tall_a.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Improved.storageGroups.left_tall_a.label>
+  <yexiaoyang.StorageRoom.Improved.storageGroups.left_tall_b.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Improved.storageGroups.left_tall_b.label>
+  <yexiaoyang.StorageRoom.Improved.storageGroups.center_cubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Improved.storageGroups.center_cubbies.label>
+  <yexiaoyang.StorageRoom.Improved.storageGroups.right_cabinet.label>오른쪽 보관장</yexiaoyang.StorageRoom.Improved.storageGroups.right_cabinet.label>
+  <yexiaoyang.StorageRoom.Improved.storageGroups.shelf_boxes.label>선반과 상자</yexiaoyang.StorageRoom.Improved.storageGroups.shelf_boxes.label>
+  <yexiaoyang.StorageRoom.Upper.label>상층 구역 보관실</yexiaoyang.StorageRoom.Upper.label>
+  <yexiaoyang.StorageRoom.Upper.description>대형 보관장에 원료와 완제품을 보관할 수 있습니다.</yexiaoyang.StorageRoom.Upper.description>
+  <yexiaoyang.StorageRoom.Upper.abilitySummary>보관 용량 570칸.</yexiaoyang.StorageRoom.Upper.abilitySummary>
+  <yexiaoyang.StorageRoom.Upper.cardText>대형 보관장에 원료와 완제품을 보관할 수 있습니다.
+총 보관 용량: 570칸
+이용 방법: 보관장 문 또는 창고 수신기
+전력 요금: 하루 0크레딧</yexiaoyang.StorageRoom.Upper.cardText>
+  <yexiaoyang.StorageRoom.Upper.upgradeText>상층 구역 보관실로 개조합니다. 비용: 15,000크레딧. 소요 기간: 3일.</yexiaoyang.StorageRoom.Upper.upgradeText>
+  <yexiaoyang.StorageRoom.Upper.storageGroups.left_tall_a.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Upper.storageGroups.left_tall_a.label>
+  <yexiaoyang.StorageRoom.Upper.storageGroups.left_tall_b.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Upper.storageGroups.left_tall_b.label>
+  <yexiaoyang.StorageRoom.Upper.storageGroups.center_cubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Upper.storageGroups.center_cubbies.label>
+  <yexiaoyang.StorageRoom.Upper.storageGroups.right_cabinet.label>오른쪽 보관장</yexiaoyang.StorageRoom.Upper.storageGroups.right_cabinet.label>
+  <yexiaoyang.StorageRoom.Upper.storageGroups.shelf_boxes.label>선반과 상자</yexiaoyang.StorageRoom.Upper.storageGroups.shelf_boxes.label>
+  <yexiaoyang.StorageRoom.Transcendent.label>초월 보관실</yexiaoyang.StorageRoom.Transcendent.label>
+  <yexiaoyang.StorageRoom.Transcendent.description>장과 선반을 확장해 많은 물자를 비축할 수 있습니다.</yexiaoyang.StorageRoom.Transcendent.description>
+  <yexiaoyang.StorageRoom.Transcendent.abilitySummary>보관 용량 864칸.</yexiaoyang.StorageRoom.Transcendent.abilitySummary>
+  <yexiaoyang.StorageRoom.Transcendent.cardText>장과 선반을 확장해 많은 물자를 비축할 수 있습니다.
+총 보관 용량: 864칸
+이용 방법: 보관장 문 또는 창고 수신기
+전력 요금: 하루 0크레딧</yexiaoyang.StorageRoom.Transcendent.cardText>
+  <yexiaoyang.StorageRoom.Transcendent.upgradeText>초월 보관실로 개조합니다. 비용: 35,000크레딧. 소요 기간: 4일.</yexiaoyang.StorageRoom.Transcendent.upgradeText>
+  <yexiaoyang.StorageRoom.Transcendent.storageGroups.left_tall_a.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Transcendent.storageGroups.left_tall_a.label>
+  <yexiaoyang.StorageRoom.Transcendent.storageGroups.left_tall_b.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Transcendent.storageGroups.left_tall_b.label>
+  <yexiaoyang.StorageRoom.Transcendent.storageGroups.center_cubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Transcendent.storageGroups.center_cubbies.label>
+  <yexiaoyang.StorageRoom.Transcendent.storageGroups.right_cabinet.label>오른쪽 보관장</yexiaoyang.StorageRoom.Transcendent.storageGroups.right_cabinet.label>
+  <yexiaoyang.StorageRoom.Transcendent.storageGroups.shelf_boxes.label>선반과 상자</yexiaoyang.StorageRoom.Transcendent.storageGroups.shelf_boxes.label>
+</LanguageData>

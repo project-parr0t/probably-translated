@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <room_brewing_equipment>발효 및 숙성</room_brewing_equipment>
+  <yexiaoyang.ui.brewing.add_fruit>과일 넣기</yexiaoyang.ui.brewing.add_fruit>
+  <yexiaoyang.ui.brewing.add_yeast>효모 넣기</yexiaoyang.ui.brewing.add_yeast>
+  <yexiaoyang.ui.brewing.aging_range>숙성 기간: {min}~{max}일</yexiaoyang.ui.brewing.aging_range>
+  <yexiaoyang.ui.brewing.aging_rate>하룻밤에 +{days}일</yexiaoyang.ui.brewing.aging_rate>
+  <yexiaoyang.ui.brewing.aging_window_title>{roomName} · 숙성</yexiaoyang.ui.brewing.aging_window_title>
+  <yexiaoyang.ui.brewing.bottles_placed>놓은 병: {count}개</yexiaoyang.ui.brewing.bottles_placed>
+  <yexiaoyang.ui.brewing.fermentation_window_title>{roomName} · 발효</yexiaoyang.ui.brewing.fermentation_window_title>
+  <yexiaoyang.ui.brewing.fermentations_started>{count}병의 발효를 시작했습니다. 재료가 부족하거나 조건에 맞지 않는 병은 그대로 뒀습니다.</yexiaoyang.ui.brewing.fermentations_started>
+  <yexiaoyang.ui.brewing.fermenting>발효 중</yexiaoyang.ui.brewing.fermenting>
+  <yexiaoyang.ui.brewing.fruit_added>넣은 베리: {count}개</yexiaoyang.ui.brewing.fruit_added>
+  <yexiaoyang.ui.brewing.no_water_container>사용할 수 있는 물통이 없습니다.</yexiaoyang.ui.brewing.no_water_container>
+  <yexiaoyang.ui.brewing.place_bottles>병 놓기</yexiaoyang.ui.brewing.place_bottles>
+  <yexiaoyang.ui.brewing.pour_water>물 따르기</yexiaoyang.ui.brewing.pour_water>
+  <yexiaoyang.ui.brewing.ready_take_manually>완료 — 직접 꺼내세요</yexiaoyang.ui.brewing.ready_take_manually>
+  <yexiaoyang.ui.brewing.remaining_nights>{days}일 밤 남음</yexiaoyang.ui.brewing.remaining_nights>
+  <yexiaoyang.ui.brewing.room_unavailable>방 이용 불가: {count}개</yexiaoyang.ui.brewing.room_unavailable>
+  <yexiaoyang.ui.brewing.select_water>물 선택</yexiaoyang.ui.brewing.select_water>
+  <yexiaoyang.ui.brewing.select_water_container>물통 선택</yexiaoyang.ui.brewing.select_water_container>
+  <yexiaoyang.ui.brewing.selected_water>물 · {itemName}</yexiaoyang.ui.brewing.selected_water>
+  <yexiaoyang.ui.brewing.selected_water_description>{itemName} · {amount}mL</yexiaoyang.ui.brewing.selected_water_description>
+  <yexiaoyang.ui.brewing.start_all>일괄 발효</yexiaoyang.ui.brewing.start_all>
+  <yexiaoyang.ui.brewing.water_amount>{amount}/750mL</yexiaoyang.ui.brewing.water_amount>
+  <yexiaoyang.ui.brewing.water_poured>{count}병에 물을 따랐습니다.</yexiaoyang.ui.brewing.water_poured>
+  <yexiaoyang.ui.brewing.yeast_added>넣은 일반 효모: {count}개</yexiaoyang.ui.brewing.yeast_added>
+  <yexiaoyang.ui.manual.aging.body>발효가 끝난 술을 숙성기에 넣으세요. 밤마다 늘어나는 숙성 기간을 확인할 수 있고 필요할 때 병을 직접 꺼낼 수 있습니다. 품질 모듈을 장착하면 더 빨리 숙성됩니다. 현재 방 단계의 총 숙성 속도는 일반 숙성기의 {agingMultiplier}배입니다.</yexiaoyang.ui.manual.aging.body>
+  <yexiaoyang.ui.manual.aging.title>숙성 안내서</yexiaoyang.ui.manual.aging.title>
+  <yexiaoyang.ui.manual.brewing_storage.body>병, 양조 재료, 효모, 물통을 원료 보관함에 넣어 두세요. 해금된 단축 조작은 방의 원료부터 쓰고, 부족하면 소지품에서 가져옵니다. 완성된 술을 생산품 보관함에 모으거나 숙성기에 넣으세요.</yexiaoyang.ui.manual.brewing_storage.body>
+  <yexiaoyang.ui.manual.fermentation.body>술병에 물 750mL를 채운 뒤 양조 재료와 효모를 넣고 병 안에서 발효를 시작하세요. 이 방에서는 발효 기간이 {daysSaved}일 줄어들며 최소 1일이 걸립니다. 술의 품질 점수는 {qualityBonus} 오릅니다. 완성된 병은 꺼내서 숙성기에 넣을 수 있습니다.</yexiaoyang.ui.manual.fermentation.body>
+  <yexiaoyang.ui.manual.fermentation.shortcuts_1>기초 단계: 병을 놓고 재료와 물을 넣은 다음 직접 발효를 시작하세요.</yexiaoyang.ui.manual.fermentation.shortcuts_1>
+  <yexiaoyang.ui.manual.fermentation.shortcuts_2>단축 조작: 병 놓기, 과일 넣기. 과일 넣기는 병마다 블룸베리 2개가 되도록 채웁니다. 방의 원료부터 쓰고, 부족하면 소지품에서 가져옵니다.</yexiaoyang.ui.manual.fermentation.shortcuts_2>
+  <yexiaoyang.ui.manual.fermentation.shortcuts_3>조작: 병 놓기, 과일과 효모 넣기, 일괄 발효, 완성된 술 회수. 일괄 발효는 병마다 블룸베리 2개와 일반 효모 1개를 넣고 물이 충분한 병의 발효를 시작합니다. 이 방의 원료 보관함에서 먼저 꺼내고, 부족하면 소지품에서 가져옵니다. 회수한 술은 소지품에 들어가며, 자리가 없으면 원래 슬롯에 남습니다.</yexiaoyang.ui.manual.fermentation.shortcuts_3>
+  <yexiaoyang.ui.manual.fermentation.shortcuts_4>조작: 병 놓기, 과일과 효모 넣기, 일괄 발효, 완성된 술 회수, 물 선택 및 따르기. 선택한 물통을 써서 병마다 750mL까지 채웁니다. 일괄 발효는 블룸베리 2개와 일반 효모 1개를 병마다 넣고 발효를 시작합니다. 이 방의 원료 보관함에서 먼저 꺼내고, 부족하면 소지품에서 가져옵니다. 회수한 술은 소지품에 들어가며, 자리가 없으면 원래 슬롯에 남습니다.</yexiaoyang.ui.manual.fermentation.shortcuts_4>
+  <yexiaoyang.ui.manual.fermentation.title>발효 안내서</yexiaoyang.ui.manual.fermentation.title>
+  <yexiaoyang.ui.night.brewing_summary>{roomName}: 숙성기 {worked}대가 작업을 마쳤습니다. 비용: {fee}크레딧.</yexiaoyang.ui.night.brewing_summary>
+  <yexiaoyang.ui.night.brewing_summary_pending>{roomName}: 숙성기 {worked}대가 작업을 마쳤습니다. 비용: {fee}크레딧. 회수 대기 중인 생산품: {pending}개.</yexiaoyang.ui.night.brewing_summary_pending>
+  <yexiaoyang.ui.brewing.collect_wine>완성된 술 회수</yexiaoyang.ui.brewing.collect_wine>
+  <yexiaoyang.ui.brewing.wine_collected>완성된 술을 {count}병 회수했습니다.</yexiaoyang.ui.brewing.wine_collected>
+</LanguageData>

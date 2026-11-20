@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.SmeltingRoom.Basic.Equipment.label>용광로 작업대</yexiaoyang.SmeltingRoom.Basic.Equipment.label>
+  <yexiaoyang.SmeltingRoom.Basic.RawMaterials.label>원료 보관함</yexiaoyang.SmeltingRoom.Basic.RawMaterials.label>
+  <yexiaoyang.SmeltingRoom.Basic.Products.label>생산품 보관함</yexiaoyang.SmeltingRoom.Basic.Products.label>
+  <yexiaoyang.SmeltingRoom.Basic.Stockpile.label>보관함</yexiaoyang.SmeltingRoom.Basic.Stockpile.label>
+  <yexiaoyang.SmeltingRoom.Basic.RenovationBook.label>개조 및 업그레이드</yexiaoyang.SmeltingRoom.Basic.RenovationBook.label>
+  <yexiaoyang.SmeltingRoom.Improved.Equipment.label>용광로 작업대</yexiaoyang.SmeltingRoom.Improved.Equipment.label>
+  <yexiaoyang.SmeltingRoom.Improved.RawMaterials.label>원료 보관함</yexiaoyang.SmeltingRoom.Improved.RawMaterials.label>
+  <yexiaoyang.SmeltingRoom.Improved.Products.label>생산품 보관함</yexiaoyang.SmeltingRoom.Improved.Products.label>
+  <yexiaoyang.SmeltingRoom.Improved.Stockpile.label>보관함</yexiaoyang.SmeltingRoom.Improved.Stockpile.label>
+  <yexiaoyang.SmeltingRoom.Improved.RenovationBook.label>개조 및 업그레이드</yexiaoyang.SmeltingRoom.Improved.RenovationBook.label>
+  <yexiaoyang.SmeltingRoom.Upper.Equipment.label>용광로 작업대</yexiaoyang.SmeltingRoom.Upper.Equipment.label>
+  <yexiaoyang.SmeltingRoom.Upper.RawMaterials.label>원료 보관함</yexiaoyang.SmeltingRoom.Upper.RawMaterials.label>
+  <yexiaoyang.SmeltingRoom.Upper.Products.label>생산품 보관함</yexiaoyang.SmeltingRoom.Upper.Products.label>
+  <yexiaoyang.SmeltingRoom.Upper.Stockpile.label>보관함</yexiaoyang.SmeltingRoom.Upper.Stockpile.label>
+  <yexiaoyang.SmeltingRoom.Upper.RenovationBook.label>개조 및 업그레이드</yexiaoyang.SmeltingRoom.Upper.RenovationBook.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.Equipment.label>용광로 작업대</yexiaoyang.SmeltingRoom.Transcendent.Equipment.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.RawMaterials.label>원료 보관함</yexiaoyang.SmeltingRoom.Transcendent.RawMaterials.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.Products.label>생산품 보관함</yexiaoyang.SmeltingRoom.Transcendent.Products.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.Stockpile.label>보관함</yexiaoyang.SmeltingRoom.Transcendent.Stockpile.label>
+  <yexiaoyang.SmeltingRoom.Transcendent.RenovationBook.label>개조 및 업그레이드</yexiaoyang.SmeltingRoom.Transcendent.RenovationBook.label>
+</LanguageData>

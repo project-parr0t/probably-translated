@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <service_room_maintenance_tooltip>이 방과 고정 시설을 유지합니다. 기본 기계는 자체 전원을 쓰며 효율 모듈에 따라 전력 소모가 달라집니다. 유지비에 전기 요금은 포함되지 않습니다. 서비스를 끄면 고정 설비의 생산이 멈추지만 보관함은 계속 이용할 수 있습니다. 공사 중에는 유지비가 면제됩니다.</service_room_maintenance_tooltip>
+  <service_room_power_tooltip>이 방에 전력을 공급합니다. 끄면 정수와 일일 선물 공급이 중단됩니다. 일일 요금은 고정이며 효율 모듈이 영향을 주지 않습니다. 공사 중에는 추가 전력 요금이 면제됩니다.</service_room_power_tooltip>
+  <yexiaoyang.ui.RoomFacilitySelection.cells_same_cabinet_after_upgrades>칸. 개조 후에도 같은 보관함을 씁니다.</yexiaoyang.ui.RoomFacilitySelection.cells_same_cabinet_after_upgrades>
+  <yexiaoyang.ui.RoomFacilitySelection.original_machine_inventory_and_item_controls>기본 게임의 기계, 보관함, 물품 조작을 사용합니다.</yexiaoyang.ui.RoomFacilitySelection.original_machine_inventory_and_item_controls>
+  <yexiaoyang.ui.RoomFacilitySelection.switch_to_automatic>자동으로 전환</yexiaoyang.ui.RoomFacilitySelection.switch_to_automatic>
+  <yexiaoyang.ui.RoomFacilitySelection.switch_to_manual>수동으로 전환</yexiaoyang.ui.RoomFacilitySelection.switch_to_manual>
+  <yexiaoyang.ui.RoomFacilitySelection.use_your_own_bottle_and_ingredients>가지고 있는 병과 재료를 사용하세요.</yexiaoyang.ui.RoomFacilitySelection.use_your_own_bottle_and_ingredients>
+  <yexiaoyang.ui.RoomRepository.maintenance>유지비</yexiaoyang.ui.RoomRepository.maintenance>
+  <yexiaoyang.ui.RoomRepository.power>전력</yexiaoyang.ui.RoomRepository.power>
+  <yexiaoyang.ui.back_room.feedback>의견함</yexiaoyang.ui.back_room.feedback>
+  <yexiaoyang.ui.back_room.leave>가게 나가기</yexiaoyang.ui.back_room.leave>
+  <yexiaoyang.ui.back_room.return>뒷방으로 돌아가기</yexiaoyang.ui.back_room.return>
+  <yexiaoyang.ui.back_room.return_shop>가게로 돌아가기</yexiaoyang.ui.back_room.return_shop>
+  <yexiaoyang.ui.back_room.turn>뒤돌아 뒷방으로 들어가기</yexiaoyang.ui.back_room.turn>
+  <yexiaoyang.ui.cluster.assisting>보조 중: {target}</yexiaoyang.ui.cluster.assisting>
+  <yexiaoyang.ui.cluster.auto_processing>자동</yexiaoyang.ui.cluster.auto_processing>
+  <yexiaoyang.ui.cluster.auto_processing_disabled>자동 —</yexiaoyang.ui.cluster.auto_processing_disabled>
+  <yexiaoyang.ui.cluster.auto_processing_enabled>자동: 켜짐</yexiaoyang.ui.cluster.auto_processing_enabled>
+  <yexiaoyang.ui.cluster.auto_processing_tooltip>자동 처리를 켜면 이 방의 원료 보관함에서만 재료를 가져오고 생산품을 이 방의 완제품 보관함으로 옮깁니다. 플레이어 보관함이나 다른 방에서는 꺼내지 않습니다. 생산하려면 방 전력을 켜야 합니다.</yexiaoyang.ui.cluster.auto_processing_tooltip>
+  <yexiaoyang.ui.cluster.idle>유휴</yexiaoyang.ui.cluster.idle>
+  <yexiaoyang.ui.cluster.machine_input>투입구</yexiaoyang.ui.cluster.machine_input>
+  <yexiaoyang.ui.cluster.machine_output>배출구</yexiaoyang.ui.cluster.machine_output>
+  <yexiaoyang.ui.cluster.power_title>{facilityName} · 전력</yexiaoyang.ui.cluster.power_title>
+  <yexiaoyang.ui.cluster.previous_modules_title>기존 모듈 · {facilityName}</yexiaoyang.ui.cluster.previous_modules_title>
+  <yexiaoyang.ui.cluster.progress_remaining>진행도 {current}/{target} · {days}일 밤 남음</yexiaoyang.ui.cluster.progress_remaining>
+  <yexiaoyang.ui.cluster.progress_stopped>진행도 {current}/{target} · 중단됨</yexiaoyang.ui.cluster.progress_stopped>
+  <yexiaoyang.ui.cluster.progress_title>{facilityName}  {current}/{target}</yexiaoyang.ui.cluster.progress_title>
+  <yexiaoyang.ui.cluster.renovation>개조</yexiaoyang.ui.cluster.renovation>
+  <yexiaoyang.ui.cluster.shared_modules>모듈</yexiaoyang.ui.cluster.shared_modules>
+  <yexiaoyang.ui.cluster.standby>대기 중</yexiaoyang.ui.cluster.standby>
+  <yexiaoyang.ui.confirmation.confirm>확인</yexiaoyang.ui.confirmation.confirm>
+  <yexiaoyang.ui.confirmation.title>확인해 주세요</yexiaoyang.ui.confirmation.title>
+  <yexiaoyang.ui.facility.empty>이용할 수 있는 시설이 없습니다.</yexiaoyang.ui.facility.empty>
+  <yexiaoyang.ui.facility.fixed>방의 고정 시설</yexiaoyang.ui.facility.fixed>
+  <yexiaoyang.ui.facility.open>열기</yexiaoyang.ui.facility.open>
+  <yexiaoyang.ui.manual.facility.body>적합한 물품을 투입구나 슬롯에 넣고 배출구에서 생산품을 꺼내세요. 조작법은 시설별 안내를 따르세요.</yexiaoyang.ui.manual.facility.body>
+  <yexiaoyang.ui.manual.facility.title>확장 시설 안내서</yexiaoyang.ui.manual.facility.title>
+  <yexiaoyang.ui.manual.quick_transfer>조작 화면을 여러 개 열 수 있습니다. Shift, Alt 또는 Ctrl을 누른 채 보관함의 물품을 클릭하면 마지막으로 클릭한 화면으로 옮깁니다. 장면의 설비로 물품을 끌면 알맞은 슬롯에 자동으로 넣습니다.</yexiaoyang.ui.manual.quick_transfer>
+  <yexiaoyang.ui.night.construction_completed>{roomName} 개조가 끝났습니다. 오늘 밤은 방 요금이 없으며, 고정 설비는 내일 밤부터 가동합니다.</yexiaoyang.ui.night.construction_completed>
+  <yexiaoyang.ui.night.construction_remaining>{roomName} 개조가 {days}일 남았습니다. 오늘 밤은 방 요금이 없습니다.</yexiaoyang.ui.night.construction_remaining>
+  <yexiaoyang.ui.night.dependencies_missing>{roomName}: 필요한 물품이 없어 설비를 멈췄습니다.</yexiaoyang.ui.night.dependencies_missing>
+  <yexiaoyang.ui.night.facility_failed>{roomName}: 시설이 작동하지 않았습니다. 기존 물품은 그대로입니다.</yexiaoyang.ui.night.facility_failed>
+  <yexiaoyang.ui.night.facility_summary>{roomName}: 오늘 밤 기본 기계 {worked}대 가동. 방 전력 요금: {fee} 크레딧(고정 기계 전력 포함).</yexiaoyang.ui.night.facility_summary>
+  <yexiaoyang.ui.night.facility_summary_pending>{roomName}: 오늘 밤 기본 기계 {worked}대 가동. 방 전력 요금: {fee} 크레딧(고정 기계 전력 포함). 꺼내지 않은 생산품 {pending}개가 있어 새 작업을 멈췄습니다.</yexiaoyang.ui.night.facility_summary_pending>
+  <yexiaoyang.ui.night.power_disabled>{roomName}: 전력이 꺼져 있어 고정 설비와 자동 처리가 멈췄습니다. 보관함을 이용할 수 있으며 물품의 시간은 계속 흐릅니다.</yexiaoyang.ui.night.power_disabled>
+  <yexiaoyang.ui.night.processing_failed>{roomName}: 야간 처리에 실패했습니다. 방의 물품은 그대로입니다.</yexiaoyang.ui.night.processing_failed>
+  <yexiaoyang.ui.power.connection_name>가게 전력 연결</yexiaoyang.ui.power.connection_name>
+  <yexiaoyang.ui.power.detached_description>방에 고정된 배터리입니다. 이 물품이 보인다면 오류가 발생한 것입니다. 쓰레기통에 버리면 제거됩니다. 최신 버전에서는 자동으로 수정됩니다.</yexiaoyang.ui.power.detached_description>
+  <yexiaoyang.ui.renovation.benefits_title>개조 후:</yexiaoyang.ui.renovation.benefits_title>
+  <yexiaoyang.ui.renovation.cancel>취소</yexiaoyang.ui.renovation.cancel>
+  <yexiaoyang.ui.renovation.confirm>‘{nextRoomName}’(으)로 개조할까요?
+비용: {cost} 크레딧
+기간: {days}일
+공사 중에는 방 전체에 들어갈 수 없습니다.</yexiaoyang.ui.renovation.confirm>
+  <yexiaoyang.ui.renovation.construction_notice>개조하는 동안 방 전체가 닫힙니다. 고정 기계는 멈추고 방 요금은 받지 않지만, 시간이 지나며 물품에 발생하는 효과는 한 번 처리됩니다.</yexiaoyang.ui.renovation.construction_notice>
+  <yexiaoyang.ui.renovation.cost>비용: {cost} 크레딧</yexiaoyang.ui.renovation.cost>
+  <yexiaoyang.ui.renovation.description>{roomName} 시설을 개조합니다.</yexiaoyang.ui.renovation.description>
+  <yexiaoyang.ui.renovation.duration>기간: {days}일
+(개조 중에는 설비가 멈추고 방 전체가 닫힙니다.)</yexiaoyang.ui.renovation.duration>
+  <yexiaoyang.ui.renovation.maximum_level>최고 개조 단계입니다.
+{roomDescription}</yexiaoyang.ui.renovation.maximum_level>
+  <yexiaoyang.ui.renovation.start>개조 시작</yexiaoyang.ui.renovation.start>
+  <yexiaoyang.ui.renovation.understood>알겠습니다</yexiaoyang.ui.renovation.understood>
+  <yexiaoyang.ui.renovation.window_title>{roomName} 개조</yexiaoyang.ui.renovation.window_title>
+  <yexiaoyang.ui.repository.constructing>개조 중인 방입니다.</yexiaoyang.ui.repository.constructing>
+  <yexiaoyang.ui.repository.insufficient_credits>크레딧이 부족합니다.</yexiaoyang.ui.repository.insufficient_credits>
+  <yexiaoyang.ui.repository.load_failed>방의 저장 데이터를 읽지 못했습니다. 원본 데이터는 보존했습니다.</yexiaoyang.ui.repository.load_failed>
+  <yexiaoyang.ui.repository.max_level>이미 최고 단계입니다.</yexiaoyang.ui.repository.max_level>
+  <yexiaoyang.ui.repository.restore_failed>방의 물품을 복원하지 못했습니다. 필요한 모드를 복구한 다음 저장 파일을 다시 불러오세요.</yexiaoyang.ui.repository.restore_failed>
+  <yexiaoyang.ui.room_selection.area>증축 구역</yexiaoyang.ui.room_selection.area>
+  <yexiaoyang.ui.room_selection.click_to_enter>클릭하여 입장</yexiaoyang.ui.room_selection.click_to_enter>
+  <yexiaoyang.ui.room_selection.construction_remaining>개조 완료까지 {days}일</yexiaoyang.ui.room_selection.construction_remaining>
+  <yexiaoyang.ui.room_selection.dependencies_unavailable>필요한 모드를 사용할 수 없습니다.</yexiaoyang.ui.room_selection.dependencies_unavailable>
+  <yexiaoyang.ui.room_selection.derelict_name>버려진 {roomName}</yexiaoyang.ui.room_selection.derelict_name>
+  <yexiaoyang.ui.room_selection.door>실내 증축
+클릭하여 방 선택</yexiaoyang.ui.room_selection.door>
+  <yexiaoyang.ui.room_selection.empty>증축할 수 있는 구역이 없습니다.</yexiaoyang.ui.room_selection.empty>
+  <yexiaoyang.ui.room_selection.enter>방 입장</yexiaoyang.ui.room_selection.enter>
+  <yexiaoyang.ui.room_selection.insufficient_credits>크레딧이 부족합니다.</yexiaoyang.ui.room_selection.insufficient_credits>
+  <yexiaoyang.ui.room_selection.no_rooms>아직 증축한 방이 없습니다!
+클릭하여 첫 방을 개조하세요.</yexiaoyang.ui.room_selection.no_rooms>
+  <yexiaoyang.ui.room_selection.preview>구역 미리 보기</yexiaoyang.ui.room_selection.preview>
+  <yexiaoyang.ui.room_selection.price>{cost} 크레딧</yexiaoyang.ui.room_selection.price>
+  <yexiaoyang.ui.room_selection.ready_to_renovate>개조 가능</yexiaoyang.ui.room_selection.ready_to_renovate>
+  <yexiaoyang.ui.room_selection.renovate>방 개조</yexiaoyang.ui.room_selection.renovate>
+  <yexiaoyang.ui.room_selection.room_preview>방 미리 보기</yexiaoyang.ui.room_selection.room_preview>
+  <yexiaoyang.ui.room_selection.title>실내 증축</yexiaoyang.ui.room_selection.title>
+  <yexiaoyang.ui.room_selection.view>구역 보기</yexiaoyang.ui.room_selection.view>
+  <yexiaoyang.ui.service.facility_power_tooltip>일일 정액 요금에 설치된 기계의 전력이 모두 포함됩니다. 끄면 고정 설비와 자동 처리가 멈춥니다. 보관함은 계속 이용할 수 있으며, 개조 중에는 전력 요금이 면제됩니다.</yexiaoyang.ui.service.facility_power_tooltip>
+  <yexiaoyang.ui.service.maintenance_name>{roomName} 유지비</yexiaoyang.ui.service.maintenance_name>
+  <yexiaoyang.ui.service.maintenance_summary>유지비: 하루 {fee} 크레딧
+{serviceDescription}</yexiaoyang.ui.service.maintenance_summary>
+  <yexiaoyang.ui.service.maintenance_summary_native_source>유지비: 하루 {fee} 크레딧. 기본 기계의 전력은 별도입니다.
+{serviceDescription}</yexiaoyang.ui.service.maintenance_summary_native_source>
+  <yexiaoyang.ui.service.power_name>{roomName} 전력</yexiaoyang.ui.service.power_name>
+  <yexiaoyang.ui.service.power_summary>방 전력 요금: 하루 {fee} 크레딧
+{serviceDescription}</yexiaoyang.ui.service.power_summary>
+  <yexiaoyang.ui.service.power_summary_native_source>방 전력 요금: 하루 {fee} 크레딧. 기본 기계의 전력은 별도입니다.
+{serviceDescription}</yexiaoyang.ui.service.power_summary_native_source>
+</LanguageData>

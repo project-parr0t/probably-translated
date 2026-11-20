@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <gift_empty_water_jug>빈 6,000mL 물통</gift_empty_water_jug>
+  <gift_none>없음</gift_none>
+  <gift_separator>; </gift_separator>
+  <tutorial_continue>계속</tutorial_continue>
+  <tutorial_drain>배수구</tutorial_drain>
+  <tutorial_faucet>수도꼭지</tutorial_faucet>
+  <tutorial_machine>정수기</tutorial_machine>
+  <tutorial_renovation>개조</tutorial_renovation>
+  <tutorial_storage>보관통</tutorial_storage>
+  <tutorial_title>사용법</tutorial_title>
+  <yexiaoyang.ui.repository.gift_storage>일일 선물은 이곳에 보관합니다. 보관함이 가득 차도 찾아가지 않은 선물은 계속 쌓입니다.</yexiaoyang.ui.repository.gift_storage>
+  <yexiaoyang.ui.water.basic_name>기초 정수 구역</yexiaoyang.ui.water.basic_name>
+  <yexiaoyang.ui.water.benefits_title>정수 용량 개선:</yexiaoyang.ui.water.benefits_title>
+  <yexiaoyang.ui.water.capacity>총 정수 용량: 일반 정수기 {count}대 분량</yexiaoyang.ui.water.capacity>
+  <yexiaoyang.ui.water.card>{description}
+수돗물: {water}
+정수 탱크: {slots}개
+물 품질 상한: {quality}
+일일 선물: {gifts}
+전력 요금: 하루 {fee}크레딧</yexiaoyang.ui.water.card>
+  <yexiaoyang.ui.water.cluster_description>가게 전력이 연결된 정수기 집합 설비입니다. 밤사이에 물통의 물을 정수합니다.</yexiaoyang.ui.water.cluster_description>
+  <yexiaoyang.ui.water.cluster_flavor_1>겨우 돌아가는 정수기 집합 설비입니다.</yexiaoyang.ui.water.cluster_flavor_1>
+  <yexiaoyang.ui.water.cluster_flavor_2>확장하고 정비한 정수기 집합 설비입니다.</yexiaoyang.ui.water.cluster_flavor_2>
+  <yexiaoyang.ui.water.cluster_flavor_3>상층 구역의 정밀 정수기 집합 설비입니다.</yexiaoyang.ui.water.cluster_flavor_3>
+  <yexiaoyang.ui.water.cluster_flavor_4>물통 5개를 한 번에 처리하는 완전 확장형 정밀 정수기 집합 설비입니다.</yexiaoyang.ui.water.cluster_flavor_4>
+  <yexiaoyang.ui.water.cluster_name>정수기 집합 설비 {tier}</yexiaoyang.ui.water.cluster_name>
+  <yexiaoyang.ui.water.construction_notice>개조 중에는 방이 닫힙니다. 정수, 선물 배송, 방 전력 요금 청구가 중단됩니다.</yexiaoyang.ui.water.construction_notice>
+  <yexiaoyang.ui.water.container>물통 {number}</yexiaoyang.ui.water.container>
+  <yexiaoyang.ui.water.drain_description>버릴 물은 여기에 따르세요.</yexiaoyang.ui.water.drain_description>
+  <yexiaoyang.ui.water.drain_name>배수구</yexiaoyang.ui.water.drain_name>
+  <yexiaoyang.ui.water.faucet_description>여기서 물통을 사용하면 물을 채울 수 있습니다.</yexiaoyang.ui.water.faucet_description>
+  <yexiaoyang.ui.water.faucet_name>방 수도꼭지</yexiaoyang.ui.water.faucet_name>
+  <yexiaoyang.ui.water.improved_name>개량 정수 구역</yexiaoyang.ui.water.improved_name>
+  <yexiaoyang.ui.water.manual_body>정수기 집합 설비 작동 및 모듈.
+
+이 기계는 일반 정수기 {equivalents}대 분량의 용량으로 물을 대량 정수합니다.
+물통 슬롯: {count}개. 모든 슬롯에서 정수 중이면 물통 하나당 일반 정수기 {perTank}대 분량을 배정합니다.
+물이 들어 있고 정수가 필요한 물통끼리 용량을 나눠 씁니다. 정수할 물통이 하나뿐이면 전체 용량을 쓰며 빈 물통은 계산에서 제외됩니다.
+품질 모듈 없이 밤사이에 {quality}까지 정수할 수 있습니다.</yexiaoyang.ui.water.manual_body>
+  <yexiaoyang.ui.water.manual_modules>모듈 효과:
+방의 일일 요금은 고정되어 있으며 효율 모듈의 영향을 받지 않습니다.
+성능은 하룻밤에 제거할 수 있는 오염물의 양에 영향을 줍니다.
+품질은 방의 물 품질 한도 안에서 순도 상한에 영향을 줍니다(계수: 0.5).
+정수는 밤사이에 진행됩니다.</yexiaoyang.ui.water.manual_modules>
+  <yexiaoyang.ui.water.manual_title>{name} 안내서</yexiaoyang.ui.water.manual_title>
+  <yexiaoyang.ui.water.night_gifts>{roomName}: 일일 선물: {gifts}.</yexiaoyang.ui.water.night_gifts>
+  <yexiaoyang.ui.water.night_gifts_pending>{roomName}: 일일 선물: {gifts}. 보관 공간 대기 중: {pending}.</yexiaoyang.ui.water.night_gifts_pending>
+  <yexiaoyang.ui.water.night_purification>{roomName}: 전력 요금 {fee}크레딧. 물통 {containers}개를 정수해 오염물 {removed}mL를 제거했습니다.</yexiaoyang.ui.water.night_purification>
+  <yexiaoyang.ui.water.night_unpowered>{roomName}: 전력이 없습니다. 정수와 일일 선물 배송이 중단됐습니다.</yexiaoyang.ui.water.night_unpowered>
+  <yexiaoyang.ui.water.power_hint>가게 전력을 사용하며 일일 방 요금이 고정됩니다. 배터리가 필요 없습니다.</yexiaoyang.ui.water.power_hint>
+  <yexiaoyang.ui.water.purity_cap>순도 상한: {amount}%</yexiaoyang.ui.water.purity_cap>
+  <yexiaoyang.ui.water.removed>지난밤에 제거한 오염물: {amount}mL</yexiaoyang.ui.water.removed>
+  <yexiaoyang.ui.water.service_description>일일 정액 요금을 내고 {roomName}에 전력을 공급합니다. 전원을 끄면 정수와 일일 선물 배송이 멈춥니다.</yexiaoyang.ui.water.service_description>
+  <yexiaoyang.ui.water.slots>물통 슬롯: {count}개</yexiaoyang.ui.water.slots>
+  <yexiaoyang.ui.water.storage_hint>물과 물자
+일일 선물: {gifts}. 전력 요금이 미납되면 배송이 멈춥니다.
+클릭하여 보관함 열기</yexiaoyang.ui.water.storage_hint>
+  <yexiaoyang.ui.water.summary_footer>가게 전력을 사용합니다. 방의 일일 요금은 고정되어 있으며 효율 모듈의 영향을 받지 않습니다.
+밤사이에 작동합니다. 더블클릭하여 여세요.</yexiaoyang.ui.water.summary_footer>
+  <yexiaoyang.ui.water.upgrade_benefits>정수 탱크: {slots}개
+정수 용량: 일반 정수기 {equivalents}대 분량
+물 품질 상한: &lt;color=#318F91&gt;{quality}&lt;/color&gt;
+일일 선물: {gifts}
+추가 전력 요금: 하루 {additional}(하루 총 {total})</yexiaoyang.ui.water.upgrade_benefits>
+  <yexiaoyang.ui.water.upgrade_description>정수 구역을 개조하고 업그레이드합니다.</yexiaoyang.ui.water.upgrade_description>
+  <yexiaoyang.ui.water.upgrade_title>정수 구역 개조</yexiaoyang.ui.water.upgrade_title>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.CommandPost.Basic.label>기초 지휘소</yexiaoyang.CommandPost.Basic.label>
+  <yexiaoyang.CommandPost.Basic.description>거리에서 병력을 모집할 수 있습니다. 하층 구역의 폐품 처리장, 증류소, 재배지가 열립니다.</yexiaoyang.CommandPost.Basic.description>
+  <yexiaoyang.CommandPost.Basic.abilitySummary>거리에서 병력을 모집할 수 있습니다. 하층 구역의 폐품 처리장, 증류소, 재배지가 열립니다.</yexiaoyang.CommandPost.Basic.abilitySummary>
+  <yexiaoyang.CommandPost.Basic.cardText>거리에서 병력을 모집할 수 있습니다. 하층 구역의 폐품 처리장, 증류소, 재배지가 열립니다.
+최대 병력: 3명
+다음 업그레이드에 필요한 점령지: 폐품 처리장
+업그레이드: 15,000크레딧, 1일.</yexiaoyang.CommandPost.Basic.cardText>
+  <yexiaoyang.CommandPost.Improved.label>개조 지휘소</yexiaoyang.CommandPost.Improved.label>
+  <yexiaoyang.CommandPost.Improved.description>보안대 수준으로 훈련받은 병력을 모집할 수 있습니다. 하층 구역의 보안대, 배급 창고, 주조소가 열립니다.</yexiaoyang.CommandPost.Improved.description>
+  <yexiaoyang.CommandPost.Improved.abilitySummary>보안대 수준으로 훈련받은 병력을 모집할 수 있습니다. 하층 구역의 보안대, 배급 창고, 주조소가 열립니다.</yexiaoyang.CommandPost.Improved.abilitySummary>
+  <yexiaoyang.CommandPost.Improved.cardText>보안대 수준으로 훈련받은 병력을 모집할 수 있습니다. 하층 구역의 보안대, 배급 창고, 주조소가 열립니다.
+최대 병력: 10명
+다음 업그레이드에 필요한 점령지: 보안대
+업그레이드: 50,000크레딧, 1일.</yexiaoyang.CommandPost.Improved.cardText>
+  <yexiaoyang.CommandPost.Center.label>지휘 본부</yexiaoyang.CommandPost.Center.label>
+  <yexiaoyang.CommandPost.MilitaryBase.label>군 지휘 기지</yexiaoyang.CommandPost.MilitaryBase.label>
+</LanguageData>

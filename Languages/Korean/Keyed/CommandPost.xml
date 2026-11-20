@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.command.credits>크레딧</yexiaoyang.command.credits>
+  <yexiaoyang.command.food>식량</yexiaoyang.command.food>
+  <yexiaoyang.command.materials>자재</yexiaoyang.command.materials>
+  <yexiaoyang.command.soldiers>병력</yexiaoyang.command.soldiers>
+  <yexiaoyang.command.future_level>이 버전에서는 사용할 수 없습니다.</yexiaoyang.command.future_level>
+  <yexiaoyang.command.requires_rooms>기존 시설 6곳이 모두 1단계에 도달해야 합니다.</yexiaoyang.command.requires_rooms>
+  <yexiaoyang.command.requires_occupation>먼저 {site} 점령</yexiaoyang.command.requires_occupation>
+  <yexiaoyang.command.map.title>하층 구역 지도</yexiaoyang.command.map.title>
+  <yexiaoyang.command.map.you_are_here>현재 위치</yexiaoyang.command.map.you_are_here>
+  <yexiaoyang.command.site.junkyard>폐품 처리장</yexiaoyang.command.site.junkyard>
+  <yexiaoyang.command.site.distillery>증류소</yexiaoyang.command.site.distillery>
+  <yexiaoyang.command.site.plantation>재배지</yexiaoyang.command.site.plantation>
+  <yexiaoyang.command.site.security>보안대</yexiaoyang.command.site.security>
+  <yexiaoyang.command.site.ration>배급 창고</yexiaoyang.command.site.ration>
+  <yexiaoyang.command.site.forge>주조소</yexiaoyang.command.site.forge>
+</LanguageData>

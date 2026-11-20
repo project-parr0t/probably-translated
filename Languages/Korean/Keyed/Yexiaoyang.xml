@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.character.name>예샤오양</yexiaoyang.character.name>
+  <yexiaoyang.character.intro.01>어머, 이 귀여운 전당포 좀 봐. 하층 구역에서도 제일 난장판인 구석에 있네.</yexiaoyang.character.intro.01>
+  <yexiaoyang.character.intro.02>……</yexiaoyang.character.intro.02>
+  <yexiaoyang.character.intro.03>그렇게 보지 마! 상층 구역의 양심 없는 안드로이드 회사 사장들한테는,</yexiaoyang.character.intro.03>
+  <yexiaoyang.character.intro.04>돈만 충분히 주면 뭐든 만들어 줘. 퍼리는 물론이고 아스타르테스까지도 말이야!</yexiaoyang.character.intro.04>
+  <yexiaoyang.character.intro.05>아무튼, 너 혹시 뒤 한 번 안 돌아봤지? 이 가게, 사실 꽤 넓어……</yexiaoyang.character.intro.05>
+  <yexiaoyang.character.branch.a.01>왼쪽 아래에 작은 삼각형 보이지?</yexiaoyang.character.branch.a.01>
+  <yexiaoyang.character.branch.a.02>그걸 누르면 뒤돌아볼 수 있어.</yexiaoyang.character.branch.a.02>
+  <yexiaoyang.character.branch.a.03>뒤에 있는 문으로 이 건물의 다른 곳에 갈 수 있어.</yexiaoyang.character.branch.a.03>
+  <yexiaoyang.character.branch.a.04>그 안에 써먹을 만한 방이 한가득이야.</yexiaoyang.character.branch.a.04>
+  <yexiaoyang.character.branch.a.05>개조만 좀 하면 되지.</yexiaoyang.character.branch.a.05>
+  <yexiaoyang.character.branch.b.01>……아, 제법 부지런한 사람이네?</yexiaoyang.character.branch.b.01>
+  <yexiaoyang.character.branch.b.02>벌써 {roomName} 시설을 지었잖아.</yexiaoyang.character.branch.b.02>
+  <yexiaoyang.character.branch.b.03>{activity} 해서 돈 벌 생각이지? 괜찮은데.</yexiaoyang.character.branch.b.03>
+  <yexiaoyang.character.branch.warehouse.01>그런데 첫 선택이 보관실이라고?</yexiaoyang.character.branch.warehouse.01>
+  <yexiaoyang.character.branch.warehouse.02>그렇게 자리가 부족해? 난 잘 모르겠지만,</yexiaoyang.character.branch.warehouse.02>
+  <yexiaoyang.character.branch.warehouse.03>뭐, 네 선택을 존중할게~</yexiaoyang.character.branch.warehouse.03>
+  <yexiaoyang.character.branch.c.01>……아, 제법 부지런한 사람이네?</yexiaoyang.character.branch.c.01>
+  <yexiaoyang.character.branch.c.02>와, 근데 너 돈이 얼마나 많으면 방을 저렇게 많이 지어?</yexiaoyang.character.branch.c.02>
+  <yexiaoyang.character.branch.c.03>아주 좋아. 목표에 금방 도달하겠네.</yexiaoyang.character.branch.c.03>
+  <yexiaoyang.character.branch.common.01>방을 전부 열고 나면,</yexiaoyang.character.branch.common.01>
+  <yexiaoyang.character.branch.common.02>내가 다시 올게. 그땐 또 다른 재밌는 얘길 해 줄게.</yexiaoyang.character.branch.common.02>
+  <yexiaoyang.character.branch.common.03>힘내, 꼬마 {fruitName}.</yexiaoyang.character.branch.common.03>
+  <yexiaoyang.character.branch.d.01>……?</yexiaoyang.character.branch.d.01>
+  <yexiaoyang.character.branch.d.02>왜 방이 벌써 완성됐어?</yexiaoyang.character.branch.d.02>
+  <yexiaoyang.character.branch.d.03>말도 안 돼! 방 하나 짓는 데 꼬박 하루가 걸리는데.</yexiaoyang.character.branch.d.03>
+  <yexiaoyang.character.branch.d.04>난 네 가게 문 바로 앞에서 기다리고 있었고.</yexiaoyang.character.branch.d.04>
+  <yexiaoyang.character.branch.d.05>게임 규칙상 가게 문도 안 열고 하루를 끝낼 수는 없잖아.</yexiaoyang.character.branch.d.05>
+  <yexiaoyang.character.branch.d.06>그렇다면 답은 하나뿐인데……</yexiaoyang.character.branch.d.06>
+  <yexiaoyang.character.branch.d.07>너. 콘솔. 명령어. 썼지!</yexiaoyang.character.branch.d.07>
+  <yexiaoyang.character.branch.d.08>……</yexiaoyang.character.branch.d.08>
+  <yexiaoyang.character.branch.d.09>그게 나쁘다는 건 아니야. 네 게임이니까.</yexiaoyang.character.branch.d.09>
+  <yexiaoyang.character.branch.d.10>그냥 내가 널 놀라게 해 주고 싶었거든.</yexiaoyang.character.branch.d.10>
+  <yexiaoyang.character.branch.d.11>이렇게 생각했겠지? ‘아하! 방을 미리 다 지으면 어쩌지?’</yexiaoyang.character.branch.d.11>
+  <yexiaoyang.character.branch.d.12>‘그럼 모드 만든 사람은 뭐라고 할까?’</yexiaoyang.character.branch.d.12>
+  <yexiaoyang.character.branch.d.13>하지만 내가 그런 생각까지 읽었을 줄은 몰랐겠지.</yexiaoyang.character.branch.d.13>
+  <yexiaoyang.character.branch.d.14>네가 방을 미리 지을 수도 있다는 건 벌써 생각해 뒀다고.</yexiaoyang.character.branch.d.14>
+  <yexiaoyang.character.branch.d.15>아무튼, 방이 다 됐으니 내일 다시 와서 다른 재밌는 얘길 해 줄게.</yexiaoyang.character.branch.d.15>
+  <yexiaoyang.character.branch.d.16>잘 있어, 꼬마 {fruitName}.</yexiaoyang.character.branch.d.16>
+  <yexiaoyang.character.security.01>보안대를 불렀어? 어디 한번 보자……</yexiaoyang.character.security.01>
+  <yexiaoyang.character.security.02>엇! 젠장, 그분이잖아!</yexiaoyang.character.security.02>
+  <yexiaoyang.character.security.03>의회에서 오신……</yexiaoyang.character.security.03>
+  <yexiaoyang.character.security.04>어쩐 일로 여기 계십니까? 이 전당포 주인과 잘 아시는 사이입니까?</yexiaoyang.character.security.04>
+  <yexiaoyang.character.security.05>……아, 네. 이 가게가…… 참 흥미로워서요.</yexiaoyang.character.security.05>
+  <yexiaoyang.character.security.06>이 가게가 그분의 관심을 받다니요.</yexiaoyang.character.security.06>
+  <yexiaoyang.character.security.07>혹시 사인 한 장 받을 수 있겠습니까? 제가 정말, 정말 팬입니다.</yexiaoyang.character.security.07>
+  <yexiaoyang.character.security.08>어, 고맙습니다만 잠시……</yexiaoyang.character.security.08>
+  <yexiaoyang.character.security.09>아, 아! 물론입니다. 하시던 일 하십시오. 어서요.</yexiaoyang.character.security.09>
+  <yexiaoyang.character.security.after>자, 보안대는 그만 빼고 제대로 이야기하자.</yexiaoyang.character.security.after>
+  <yexiaoyang.character.weapon.threat>너 정말 이것저것 다 해 보고 싶은 거구나?</yexiaoyang.character.weapon.threat>
+  <yexiaoyang.character.weapon.dodge>히히~ 빗나갔지~ (〃'▽'〃)</yexiaoyang.character.weapon.dodge>
+  <yexiaoyang.character.weapon.after>자, 본론으로 돌아가자. 놀 만큼 놀았잖아.</yexiaoyang.character.weapon.after>
+  <yexiaoyang.character.reward.title>보안대 표창장</yexiaoyang.character.reward.title>
+  <yexiaoyang.character.reward.body>그 귀하신 분의 지인이시기에, 보안대에서는 귀하를 올해의 모범 점주로 선정하고자 합니다. 이는 전적으로 진심이며 연줄이나 아첨과는 조금도 관계가 없습니다. [보안대 평판이 50 올랐습니다.]</yexiaoyang.character.reward.body>
+  <yexiaoyang.character.room.water>정수실</yexiaoyang.character.room.water>
+  <yexiaoyang.character.room.hydroponic>수경재배실</yexiaoyang.character.room.hydroponic>
+  <yexiaoyang.character.room.smelting>제련실</yexiaoyang.character.room.smelting>
+  <yexiaoyang.character.room.manufacturing>제조실</yexiaoyang.character.room.manufacturing>
+  <yexiaoyang.character.room.brewing>양조실</yexiaoyang.character.room.brewing>
+  <yexiaoyang.character.room.storage>보관실</yexiaoyang.character.room.storage>
+  <yexiaoyang.character.activity.water>물 판매</yexiaoyang.character.activity.water>
+  <yexiaoyang.character.activity.hydroponic>작물 재배</yexiaoyang.character.activity.hydroponic>
+  <yexiaoyang.character.activity.smelting>철 제련</yexiaoyang.character.activity.smelting>
+  <yexiaoyang.character.activity.manufacturing>총기 제조</yexiaoyang.character.activity.manufacturing>
+  <yexiaoyang.character.activity.brewing>양조</yexiaoyang.character.activity.brewing>
+  <yexiaoyang.character.minister.intro.01>네가 하층 구역 전체를 통일하는 걸 보니 기쁘네.</yexiaoyang.character.minister.intro.01>
+  <yexiaoyang.character.minister.intro.02>옛 보안대 사람들은 더는 네 앞길을 가로막지 못할 거야.</yexiaoyang.character.minister.intro.02>
+  <yexiaoyang.character.minister.intro.03>몇 가지 해 줄 말이 있어.</yexiaoyang.character.minister.intro.03>
+  <yexiaoyang.character.minister.intro.04>우선 보안대는 남을 거야. 상층 구역에는 아직 그런 명분이 필요하거든.</yexiaoyang.character.minister.intro.04>
+  <yexiaoyang.character.minister.intro.05>안 그러면 이건 무장 반란으로 취급돼.</yexiaoyang.character.minister.intro.05>
+  <yexiaoyang.character.minister.intro.06>바로 다음 날 대테러 기동대가 출동할걸.</yexiaoyang.character.minister.intro.06>
+  <yexiaoyang.character.minister.intro.07>내 말 믿어. 그 사람들과 마주치고 싶지는 않을 거야.</yexiaoyang.character.minister.intro.07>
+  <yexiaoyang.character.minister.intro.08>그러니까 이제 넌 선출된 하층 구역 보안대 장관이야.</yexiaoyang.character.minister.intro.08>
+  <yexiaoyang.character.minister.intro.09>며칠 뒤 구역 선거인단이 상층 구역에 네 이름을 제출할 거야.</yexiaoyang.character.minister.intro.09>
+  <yexiaoyang.character.minister.intro.10>하지만…… 상층 구역 보안대 사람들 중에는</yexiaoyang.character.minister.intro.10>
+  <yexiaoyang.character.minister.intro.11>그 결과를 받아들이지 못하는 사람도 있겠지.</yexiaoyang.character.minister.intro.11>
+  <yexiaoyang.character.minister.intro.12>계속 무장한 보안대 인력을 보내고,</yexiaoyang.character.minister.intro.12>
+  <yexiaoyang.character.minister.intro.13>군대까지 불러서 네 영토를 공격할 거야.</yexiaoyang.character.minister.intro.13>
+  <yexiaoyang.character.minister.intro.14>뭐, 너라면 그 정도는 감당할 수 있겠지?</yexiaoyang.character.minister.intro.14>
+  <yexiaoyang.character.minister.intro.15>또 하나, 이제 보안대 평판은 200으로 고정돼.</yexiaoyang.character.minister.intro.15>
+  <yexiaoyang.character.minister.intro.16>눈앞에서 밀수품을 팔아도 아무것도 못 본 척할 거야.</yexiaoyang.character.minister.intro.16>
+  <yexiaoyang.character.minister.intro.17>너에 대한 수사 진행도는 계속 0으로 남을 거고.</yexiaoyang.character.minister.intro.17>
+  <yexiaoyang.character.minister.intro.18>그래도 그 종이 한 장은 필요해.</yexiaoyang.character.minister.intro.18>
+  <yexiaoyang.character.minister.intro.19>겉보기에는 절차를 지켜야 하니까.</yexiaoyang.character.minister.intro.19>
+  <yexiaoyang.character.minister.intro.20>마음에 안 드는 주민이 있으면,</yexiaoyang.character.minister.intro.20>
+  <yexiaoyang.character.minister.intro.21>보안대 지원 요청 버튼만 누르면 돼.</yexiaoyang.character.minister.intro.21>
+  <yexiaoyang.character.minister.intro.22>보안대가 아무 이유나 붙여 구금할 거야.</yexiaoyang.character.minister.intro.22>
+  <yexiaoyang.character.minister.intro.23>네 권력을 실컷 누려 봐.</yexiaoyang.character.minister.intro.23>
+  <yexiaoyang.character.minister.intro.24>……응?</yexiaoyang.character.minister.intro.24>
+  <yexiaoyang.character.minister.intro.25>중층 구역 말이야?</yexiaoyang.character.minister.intro.25>
+  <yexiaoyang.character.minister.intro.26>중층 구역과 하층 구역을 잇는 통로가 임시로 봉쇄됐어.</yexiaoyang.character.minister.intro.26>
+  <yexiaoyang.character.minister.intro.27>통로가 다시 열리면,</yexiaoyang.character.minister.intro.27>
+  <yexiaoyang.character.minister.intro.28>내가 알려 줄게.</yexiaoyang.character.minister.intro.28>
+  <yexiaoyang.character.minister.intro.29>플레이해 줘서 고마워. 일단 이 모드는 여기까지야.</yexiaoyang.character.minister.intro.29>
+  <yexiaoyang.character.minister.intro.30>잠깐 시간이 된다면,</yexiaoyang.character.minister.intro.30>
+  <yexiaoyang.character.minister.intro.31>Steam 창작마당에서 좋아요를 눌러 줘.</yexiaoyang.character.minister.intro.31>
+  <yexiaoyang.character.minister.intro.32>모드 순위에 정말 큰 도움이 돼.</yexiaoyang.character.minister.intro.32>
+  <yexiaoyang.character.minister.intro.33>정말 고마워!</yexiaoyang.character.minister.intro.33>
+  <yexiaoyang.character.minister.security.01>안녕하십니까, 장관님.</yexiaoyang.character.minister.security.01>
+  <yexiaoyang.character.minister.security.02>저희를 부르셨습니까?</yexiaoyang.character.minister.security.02>
+  <yexiaoyang.character.minister.security.03>명령하시는 사람은 누구든 체포하겠습니다.</yexiaoyang.character.minister.security.03>
+  <yexiaoyang.character.minister.security.04>하지만 저분만은 예외입니다.</yexiaoyang.character.minister.security.04>
+  <yexiaoyang.character.minister.security.05>저희를 놀리지 말아 주십시오, 장관님.</yexiaoyang.character.minister.security.05>
+  <yexiaoyang.character.minister.security.06>맞습니다. 두 분이 얼마나 가까우신지는 다 압니다.</yexiaoyang.character.minister.security.06>
+  <yexiaoyang.character.minister.security.07>모르는 일이잖아. 내가 지금 네 상관을 협박하고 있을지도 모르는데?</yexiaoyang.character.minister.security.07>
+  <yexiaoyang.character.minister.security.08>그러셨습니까? 저는 못 봤습니다. 자네는 뭐 본 게 있나?</yexiaoyang.character.minister.security.08>
+  <yexiaoyang.character.minister.security.09>아니요. 무슨 일이 있었는지 전혀 모르겠습니다.</yexiaoyang.character.minister.security.09>
+  <yexiaoyang.character.minister.security.10>아무튼, 오래 사십시오.</yexiaoyang.character.minister.security.10>
+  <yexiaoyang.character.minister.security.after>공공 자원 낭비하는 데는 너만 한 사람이 없다니까.</yexiaoyang.character.minister.security.after>
+</LanguageData>

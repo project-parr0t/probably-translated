@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.YexiaoyangPawn.displayName>예샤오양</yexiaoyang.YexiaoyangPawn.displayName>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.intro.01.text>어머, 이 귀여운 전당포 좀 봐. 하층 구역에서도 제일 난장판인 구석에 있네.</yexiaoyang.YexiaoyangPawn.dialogueLines.intro.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.intro.02.text>……</yexiaoyang.YexiaoyangPawn.dialogueLines.intro.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.intro.03.text>그렇게 보지 마! 상층 구역의 양심 없는 안드로이드 회사 사장들한테는,</yexiaoyang.YexiaoyangPawn.dialogueLines.intro.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.intro.04.text>돈만 충분히 주면 뭐든 만들어 줘. 퍼리는 물론이고 아스타르테스까지도 말이야!</yexiaoyang.YexiaoyangPawn.dialogueLines.intro.04.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.intro.05.text>아무튼, 너 혹시 뒤 한 번 안 돌아봤지? 이 가게, 사실 꽤 넓어……</yexiaoyang.YexiaoyangPawn.dialogueLines.intro.05.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.01.text>왼쪽 아래에 작은 삼각형 보이지?</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.02.text>그걸 누르면 뒤돌아볼 수 있어.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.03.text>뒤에 있는 문으로 이 건물의 다른 곳에 갈 수 있어.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.04.text>그 안에 써먹을 만한 방이 한가득이야.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.04.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.05.text>개조만 좀 하면 되지.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.a.05.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.b.01.text>……아, 제법 부지런한 사람이네?</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.b.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.b.02.text>벌써 {roomName} 시설을 지었잖아.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.b.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.b.03.text>{activity} 해서 돈 벌 생각이지? 괜찮은데.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.b.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.warehouse.01.text>그런데 첫 선택이 보관실이라고?</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.warehouse.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.warehouse.02.text>그렇게 자리가 부족해? 난 잘 모르겠지만,</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.warehouse.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.warehouse.03.text>뭐, 네 선택을 존중할게~</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.warehouse.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.c.01.text>……아, 제법 부지런한 사람이네?</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.c.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.c.02.text>와, 근데 너 돈이 얼마나 많으면 방을 저렇게 많이 지어?</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.c.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.c.03.text>아주 좋아. 목표에 금방 도달하겠네.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.c.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.common.01.text>방을 전부 열고 나면,</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.common.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.common.02.text>내가 다시 올게. 그땐 또 다른 재밌는 얘길 해 줄게.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.common.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.common.03.text>힘내, 꼬마 {fruitName}.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.common.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.01.text>……?</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.02.text>왜 방이 벌써 완성됐어?</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.03.text>말도 안 돼! 방 하나 짓는 데 꼬박 하루가 걸리는데.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.04.text>난 네 가게 문 바로 앞에서 기다리고 있었고.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.04.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.05.text>게임 규칙상 가게 문도 안 열고 하루를 끝낼 수는 없잖아.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.05.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.06.text>그렇다면 답은 하나뿐인데……</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.06.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.07.text>너. 콘솔. 명령어. 썼지!</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.07.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.08.text>……</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.08.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.09.text>그게 나쁘다는 건 아니야. 네 게임이니까.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.09.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.10.text>그냥 내가 널 놀라게 해 주고 싶었거든.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.10.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.11.text>이렇게 생각했겠지? ‘아하! 방을 미리 다 지으면 어쩌지?’</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.11.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.12.text>‘그럼 모드 만든 사람은 뭐라고 할까?’</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.12.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.13.text>하지만 내가 그런 생각까지 읽었을 줄은 몰랐겠지.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.13.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.14.text>네가 방을 미리 지을 수도 있다는 건 벌써 생각해 뒀다고.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.14.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.15.text>아무튼, 방이 다 됐으니 내일 다시 와서 다른 재밌는 얘길 해 줄게.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.15.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.16.text>잘 있어, 꼬마 {fruitName}.</yexiaoyang.YexiaoyangPawn.dialogueLines.branch.d.16.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.01.text>보안대를 불렀어? 어디 한번 보자……</yexiaoyang.YexiaoyangPawn.dialogueLines.security.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.02.text>엇! 젠장, 그분이잖아!</yexiaoyang.YexiaoyangPawn.dialogueLines.security.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.03.text>의회에서 오신……</yexiaoyang.YexiaoyangPawn.dialogueLines.security.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.04.text>어쩐 일로 여기 계십니까? 이 전당포 주인과 잘 아시는 사이입니까?</yexiaoyang.YexiaoyangPawn.dialogueLines.security.04.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.05.text>……아, 네. 이 가게가…… 참 흥미로워서요.</yexiaoyang.YexiaoyangPawn.dialogueLines.security.05.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.06.text>이 가게가 그분의 관심을 받다니요.</yexiaoyang.YexiaoyangPawn.dialogueLines.security.06.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.07.text>혹시 사인 한 장 받을 수 있겠습니까? 제가 정말, 정말 팬입니다.</yexiaoyang.YexiaoyangPawn.dialogueLines.security.07.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.08.text>어, 고맙습니다만 잠시……</yexiaoyang.YexiaoyangPawn.dialogueLines.security.08.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.09.text>아, 아! 물론입니다. 하시던 일 하십시오. 어서요.</yexiaoyang.YexiaoyangPawn.dialogueLines.security.09.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.security.after.text>자, 보안대는 그만 빼고 제대로 이야기하자.</yexiaoyang.YexiaoyangPawn.dialogueLines.security.after.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.weapon.threat.text>너 정말 이것저것 다 해 보고 싶은 거구나?</yexiaoyang.YexiaoyangPawn.dialogueLines.weapon.threat.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.weapon.dodge.text>히히~ 빗나갔지~ (〃'▽'〃)</yexiaoyang.YexiaoyangPawn.dialogueLines.weapon.dodge.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.weapon.after.text>자, 본론으로 돌아가자. 놀 만큼 놀았잖아.</yexiaoyang.YexiaoyangPawn.dialogueLines.weapon.after.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.reward.title.text>보안대 표창장</yexiaoyang.YexiaoyangPawn.dialogueLines.reward.title.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.reward.body.text>그 귀하신 분의 지인이시기에, 보안대에서는 귀하를 올해의 모범 점주로 선정하고자 합니다. 이는 전적으로 진심이며 연줄이나 아첨과는 조금도 관계가 없습니다. [보안대 평판이 50 올랐습니다.]</yexiaoyang.YexiaoyangPawn.dialogueLines.reward.body.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.room.water.text>정수실</yexiaoyang.YexiaoyangPawn.dialogueLines.room.water.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.room.hydroponic.text>수경재배실</yexiaoyang.YexiaoyangPawn.dialogueLines.room.hydroponic.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.room.smelting.text>제련실</yexiaoyang.YexiaoyangPawn.dialogueLines.room.smelting.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.room.manufacturing.text>제조실</yexiaoyang.YexiaoyangPawn.dialogueLines.room.manufacturing.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.room.brewing.text>양조실</yexiaoyang.YexiaoyangPawn.dialogueLines.room.brewing.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.room.storage.text>보관실</yexiaoyang.YexiaoyangPawn.dialogueLines.room.storage.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.activity.water.text>물 판매</yexiaoyang.YexiaoyangPawn.dialogueLines.activity.water.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.activity.hydroponic.text>작물 재배</yexiaoyang.YexiaoyangPawn.dialogueLines.activity.hydroponic.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.activity.smelting.text>철 제련</yexiaoyang.YexiaoyangPawn.dialogueLines.activity.smelting.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.activity.manufacturing.text>총기 제조</yexiaoyang.YexiaoyangPawn.dialogueLines.activity.manufacturing.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.activity.brewing.text>양조</yexiaoyang.YexiaoyangPawn.dialogueLines.activity.brewing.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.01.text>네가 하층 구역 전체를 통일하는 걸 보니 기쁘네.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.02.text>옛 보안대 사람들은 더는 네 앞길을 가로막지 못할 거야.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.03.text>몇 가지 해 줄 말이 있어.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.04.text>우선 보안대는 남을 거야. 상층 구역에는 아직 그런 명분이 필요하거든.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.04.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.05.text>안 그러면 이건 무장 반란으로 취급돼.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.05.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.06.text>바로 다음 날 대테러 기동대가 출동할걸.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.06.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.07.text>내 말 믿어. 그 사람들과 마주치고 싶지는 않을 거야.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.07.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.08.text>그러니까 이제 넌 선출된 하층 구역 보안대 장관이야.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.08.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.09.text>며칠 뒤 구역 선거인단이 상층 구역에 네 이름을 제출할 거야.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.09.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.10.text>하지만…… 상층 구역 보안대 사람들 중에는</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.10.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.11.text>그 결과를 받아들이지 못하는 사람도 있겠지.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.11.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.12.text>계속 무장한 보안대 인력을 보내고,</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.12.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.13.text>군대까지 불러서 네 영토를 공격할 거야.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.13.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.14.text>뭐, 너라면 그 정도는 감당할 수 있겠지?</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.14.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.15.text>또 하나, 이제 보안대 평판은 200으로 고정돼.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.15.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.16.text>눈앞에서 밀수품을 팔아도 아무것도 못 본 척할 거야.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.16.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.17.text>너에 대한 수사 진행도는 계속 0으로 남을 거고.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.17.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.18.text>그래도 그 종이 한 장은 필요해.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.18.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.19.text>겉보기에는 절차를 지켜야 하니까.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.19.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.20.text>마음에 안 드는 주민이 있으면,</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.20.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.21.text>보안대 지원 요청 버튼만 누르면 돼.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.21.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.22.text>보안대가 아무 이유나 붙여 구금할 거야.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.22.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.23.text>네 권력을 실컷 누려 봐.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.23.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.24.text>……응?</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.24.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.25.text>중층 구역 말이야?</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.25.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.26.text>중층 구역과 하층 구역을 잇는 통로가 임시로 봉쇄됐어.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.26.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.27.text>통로가 다시 열리면,</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.27.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.28.text>내가 알려 줄게.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.28.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.29.text>플레이해 줘서 고마워. 일단 이 모드는 여기까지야.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.29.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.30.text>잠깐 시간이 된다면,</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.30.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.31.text>Steam 창작마당에서 좋아요를 눌러 줘.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.31.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.32.text>모드 순위에 정말 큰 도움이 돼.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.32.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.33.text>정말 고마워!</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.intro.33.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.01.text>안녕하십니까, 장관님.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.01.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.02.text>저희를 부르셨습니까?</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.02.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.03.text>명령하시는 사람은 누구든 체포하겠습니다.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.03.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.04.text>하지만 저분만은 예외입니다.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.04.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.05.text>저희를 놀리지 말아 주십시오, 장관님.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.05.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.06.text>맞습니다. 두 분이 얼마나 가까우신지는 다 압니다.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.06.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.07.text>모르는 일이잖아. 내가 지금 네 상관을 협박하고 있을지도 모르는데?</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.07.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.08.text>그러셨습니까? 저는 못 봤습니다. 자네는 뭐 본 게 있나?</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.08.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.09.text>아니요. 무슨 일이 있었는지 전혀 모르겠습니다.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.09.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.10.text>아무튼, 오래 사십시오.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.10.text>
+  <yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.after.text>공공 자원 낭비하는 데는 너만 한 사람이 없다니까.</yexiaoyang.YexiaoyangPawn.dialogueLines.minister.security.after.text>
+</LanguageData>

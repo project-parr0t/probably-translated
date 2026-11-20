@@ -23,6 +23,10 @@
     <Mod>charles_chemistry_items</Mod>
     <Mod>va11halla</Mod>
     <Mod>DeepSpaceClinic_InventoryTest</Mod>
+    <Mod>duoji_hotkey_rebind</Mod>
+    <Mod>gunmod_tarkov</Mod>
+    <Mod>local.station-events</Mod>
+    <Mod>yexiaoyang.InteriorExpansion</Mod>
   </Prerequisites>
   <Assemblies>
     <Assembly>ProbablyStolenKo.Localization.dll</Assembly>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.soldier.identity.yexiaoyang_vip>상층 구역의 귀빈</yexiaoyang.soldier.identity.yexiaoyang_vip>
+  <yexiaoyang.soldier.bio.yexiaoyang_vip>그녀가 어디서 왔고 어디로 가는지는 모릅니다. 보안대가 몹시 경계한다는 것만은 분명합니다. 왜 1레벨이냐고요? 그래야 재미있다네요.</yexiaoyang.soldier.bio.yexiaoyang_vip>
+  <yexiaoyang.soldier.refresh_used>오늘 모집 목록을 이미 새로 고쳤습니다.</yexiaoyang.soldier.refresh_used>
+  <yexiaoyang.soldier.special_recruited>예샤오양은 이미 명단에 합류했습니다.</yexiaoyang.soldier.special_recruited>
+  <yexiaoyang.soldier.special_waiting>예샤오양이 지휘소 모집 목록에서 기다립니다.</yexiaoyang.soldier.special_waiting>
+  <yexiaoyang.soldier.special_notice>오늘 좀 수상한 사람이 지원서를 낸 모양입니다. 지휘소를 확인하세요.</yexiaoyang.soldier.special_notice>
+  <yexiaoyang.ui.console.recruit_help>모집 목록에 예샤오양을 즉시 추가합니다.</yexiaoyang.ui.console.recruit_help>
+  <yexiaoyang.soldier.theft_safe>{site}: 발각되어 절도에 실패했습니다. 복슬복슬한 침입자를 차마 공격한 사람은 없었습니다.</yexiaoyang.soldier.theft_safe>
+  <yexiaoyang.soldier.winged_return>‘날개 달고 복귀’ 발동: {name} 대기 상태로 복귀.</yexiaoyang.soldier.winged_return>
+  <yexiaoyang.report.category.action>임무</yexiaoyang.report.category.action>
+  <yexiaoyang.report.category.experience>경험치</yexiaoyang.report.category.experience>
+  <yexiaoyang.report.category.territory>영토</yexiaoyang.report.category.territory>
+  <yexiaoyang.report.category.facilities>시설</yexiaoyang.report.category.facilities>
+  <yexiaoyang.report.category.recruitment>모집</yexiaoyang.report.category.recruitment>
+</LanguageData>

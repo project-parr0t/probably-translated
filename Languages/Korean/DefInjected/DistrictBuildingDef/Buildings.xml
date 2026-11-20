@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.DistrictBuilding.barracks.label>병영</yexiaoyang.DistrictBuilding.barracks.label>
+  <yexiaoyang.DistrictBuilding.barracks.description>최대 모집 인원이 2명 늘어납니다.</yexiaoyang.DistrictBuilding.barracks.description>
+  <yexiaoyang.DistrictBuilding.roach_farm.label>바퀴벌레 농장</yexiaoyang.DistrictBuilding.roach_farm.label>
+  <yexiaoyang.DistrictBuilding.roach_farm.description>매일 식량 100포인트를 생산하고 번영도가 10 오릅니다.</yexiaoyang.DistrictBuilding.roach_farm.description>
+  <yexiaoyang.DistrictBuilding.sorting.label>고철 분류장</yexiaoyang.DistrictBuilding.sorting.label>
+  <yexiaoyang.DistrictBuilding.sorting.description>매일 자재 80포인트를 생산합니다.</yexiaoyang.DistrictBuilding.sorting.description>
+  <yexiaoyang.DistrictBuilding.wood_wall.label>목재 방벽</yexiaoyang.DistrictBuilding.wood_wall.label>
+  <yexiaoyang.DistrictBuilding.wood_wall.description>방어 지속 시간이 1일 늘고 방어 화력이 1.5배가 됩니다. 벽돌 방벽으로 업그레이드할 수 있습니다.</yexiaoyang.DistrictBuilding.wood_wall.description>
+  <yexiaoyang.DistrictBuilding.streetlights.label>가로등</yexiaoyang.DistrictBuilding.streetlights.label>
+  <yexiaoyang.DistrictBuilding.streetlights.description>매일 번영도가 15 오릅니다.</yexiaoyang.DistrictBuilding.streetlights.description>
+  <yexiaoyang.DistrictBuilding.brick_wall.label>벽돌 방벽</yexiaoyang.DistrictBuilding.brick_wall.label>
+  <yexiaoyang.DistrictBuilding.brick_wall.description>목재 방벽을 대체합니다. 방어 지속 시간이 2일 늘고 방어 화력이 2.5배가 됩니다.</yexiaoyang.DistrictBuilding.brick_wall.description>
+  <yexiaoyang.DistrictBuilding.watchtower.label>감시탑</yexiaoyang.DistrictBuilding.watchtower.label>
+  <yexiaoyang.DistrictBuilding.watchtower.description>이 지역의 방어 화력이 100 오릅니다.</yexiaoyang.DistrictBuilding.watchtower.description>
+  <yexiaoyang.DistrictBuilding.market.label>시장</yexiaoyang.DistrictBuilding.market.label>
+  <yexiaoyang.DistrictBuilding.market.description>매일 100크레딧을 생산하고 번영도가 10 오릅니다.</yexiaoyang.DistrictBuilding.market.description>
+  <yexiaoyang.DistrictBuilding.clinic.label>지역 진료소</yexiaoyang.DistrictBuilding.clinic.label>
+  <yexiaoyang.DistrictBuilding.clinic.description>매일 번영도가 15 오릅니다. 패배 후 추가 회복 기간 1일을 없앱니다.</yexiaoyang.DistrictBuilding.clinic.description>
+  <yexiaoyang.DistrictBuilding.kitchen.label>공동 급식소</yexiaoyang.DistrictBuilding.kitchen.label>
+  <yexiaoyang.DistrictBuilding.kitchen.description>매일 번영도가 20 오르고 식량 20포인트를 소모합니다.</yexiaoyang.DistrictBuilding.kitchen.description>
+  <yexiaoyang.DistrictBuilding.bunker.label>강화 벙커</yexiaoyang.DistrictBuilding.bunker.label>
+  <yexiaoyang.DistrictBuilding.bunker.description>방어 화력이 2배가 됩니다. 방벽과 함께 지을 수 있으며 두 시설의 배율은 곱해서 적용합니다.</yexiaoyang.DistrictBuilding.bunker.description>
+  <yexiaoyang.DistrictBuilding.alarm.label>경보망</yexiaoyang.DistrictBuilding.alarm.label>
+  <yexiaoyang.DistrictBuilding.alarm.description>방어 지속 시간이 1일 늘어납니다.</yexiaoyang.DistrictBuilding.alarm.description>
+  <yexiaoyang.DistrictBuilding.armory.label>무기고</yexiaoyang.DistrictBuilding.armory.label>
+  <yexiaoyang.DistrictBuilding.armory.description>방벽과 벙커 배율을 적용하기 전에 이 지역의 방어 화력이 500 오릅니다.</yexiaoyang.DistrictBuilding.armory.description>
+  <yexiaoyang.DistrictBuilding.hydroponics.label>수경재배 농장</yexiaoyang.DistrictBuilding.hydroponics.label>
+  <yexiaoyang.DistrictBuilding.hydroponics.description>매일 식량 350포인트를 생산하고 자재 30포인트를 소모하며 번영도가 20 오릅니다.</yexiaoyang.DistrictBuilding.hydroponics.description>
+  <yexiaoyang.DistrictBuilding.generator.label>소형 발전소</yexiaoyang.DistrictBuilding.generator.label>
+  <yexiaoyang.DistrictBuilding.generator.description>매일 250크레딧을 생산하고 자재 40포인트를 소모하며 번영도가 25 오릅니다.</yexiaoyang.DistrictBuilding.generator.description>
+</LanguageData>
