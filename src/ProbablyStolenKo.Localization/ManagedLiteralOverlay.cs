@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Reflection;
 using System.Reflection.Emit;
 using HarmonyLib;
 using Newtonsoft.Json.Linq;
@@ -242,6 +243,8 @@ namespace ProbablyStolenKo
 
         private sealed class PendingTarget
         {
+            private Dictionary<string, Type> _typeIndex;
+
             internal PendingTarget(
                 string modId,
                 ManagedTarget target,
@@ -262,10 +265,67 @@ namespace ProbablyStolenKo
             internal Harmony Harmony { get; }
             internal List<int> StaticBindings { get; }
             internal long Started { get; }
+            internal long FirstWorkStarted;
+            internal long LastSliceEnded;
+            internal long BetweenSlicesTicks;
+            internal long BindingTicks;
+            internal long ResolveTicks;
+            internal long TypeIndexTicks;
+            internal int IndexedTypes;
+            internal long HarmonyTicks;
+            internal long ConstructorHarmonyTicks;
+            internal long SlowestBindingTicks;
+            internal ManagedExactBinding SlowestBinding;
             internal int Index { get; set; }
             internal int Applied { get; set; }
             internal int Skipped { get; set; }
             internal bool RefreshPrepared { get; set; }
+
+            internal MethodBase ResolveMethod(ManagedExactBinding binding)
+            {
+                var types = _typeIndex ?? BuildTypeIndex();
+                if (!types.TryGetValue(binding.TypeName, out var type) || type == null)
+                    throw new ModReflectAccessException($"No unique patch type '{binding.TypeName}' in '{ModId}'.");
+
+                // Keep overload selection and the declaring type's access check in the game API.
+                return ModReflect.Target(type, binding.MethodName, binding.ParameterTypes ?? Type.EmptyTypes);
+            }
+
+            private Dictionary<string, Type> BuildTypeIndex()
+            {
+                var started = Stopwatch.GetTimestamp();
+                try
+                {
+                    var types = new Dictionary<string, Type>(StringComparer.Ordinal);
+                    foreach (var binding in Bindings)
+                        if (!binding.UsesPatchAttributes) types.TryAdd(binding.TypeName, null);
+
+                    var count = 0;
+                    foreach (var type in ModReflect.Types(ModId))
+                    {
+                        var name = type.FullName;
+                        if (name == null || !types.TryGetValue(name, out var previous)) continue;
+                        if (previous == null)
+                        {
+                            types[name] = type;
+                            count++;
+                        }
+                        else if (previous != type)
+                        {
+                            // Leave an ambiguous name unavailable even if it appears again.
+                            types.Remove(name);
+                            count--;
+                        }
+                    }
+
+                    IndexedTypes = count;
+                    return _typeIndex = types;
+                }
+                finally
+                {
+                    TypeIndexTicks += Stopwatch.GetTimestamp() - started;
+                }
+            }
         }
 
         private readonly Dictionary<string, Harmony> _harmonies =
@@ -400,41 +460,52 @@ namespace ProbablyStolenKo
         {
             if (millisecondBudget <= 0) throw new ArgumentOutOfRangeException(nameof(millisecondBudget));
             var frameStarted = Stopwatch.GetTimestamp();
+            if (_currentTarget != null)
+                _currentTarget.BetweenSlicesTicks += frameStarted - _currentTarget.LastSliceEnded;
+            long sliceEnded;
             do
             {
                 if (_currentTarget == null)
                 {
                     if (_pendingTargets.Count == 0) return;
                     _currentTarget = _pendingTargets.Dequeue();
+                    _currentTarget.FirstWorkStarted = Stopwatch.GetTimestamp();
                 }
 
-                if (_currentTarget.Index < _currentTarget.Bindings.Count)
+                var work = _currentTarget;
+                if (work.Index < work.Bindings.Count)
                 {
-                    var binding = _currentTarget.Bindings[_currentTarget.Index++];
+                    var binding = work.Bindings[work.Index++];
+                    var bindingStarted = Stopwatch.GetTimestamp();
                     try
                     {
-                        ApplyBinding(
-                            _currentTarget.Harmony,
-                            binding,
-                            _currentTarget.Target,
-                            _currentTarget.StaticBindings);
-                        _currentTarget.Applied++;
+                        ApplyBinding(work, binding);
+                        work.Applied++;
                     }
                     catch (Exception error)
                     {
-                        _currentTarget.Skipped++;
-                        _currentTarget.StaticBindings.Remove(binding.Id);
+                        work.Skipped++;
+                        work.StaticBindings.Remove(binding.Id);
                         RemoveBindingState(binding.Id);
                         var cause = error.GetBaseException();
                         _log.Error(
                             "Skipped managed binding " + binding.Id + " (" + binding.TypeName + "." +
                             binding.MethodName + "). " + cause.GetType().Name + ": " + cause.Message);
                     }
+                    var bindingTicks = Stopwatch.GetTimestamp() - bindingStarted;
+                    work.BindingTicks += bindingTicks;
+                    if (work.SlowestBinding == null || bindingTicks > work.SlowestBindingTicks)
+                    {
+                        work.SlowestBindingTicks = bindingTicks;
+                        work.SlowestBinding = binding;
+                    }
                     _completedWork++;
                 }
                 else
                 {
+                    var finalizationStarted = Stopwatch.GetTimestamp();
                     CompleteCurrentTarget();
+                    LogTargetTiming(work, Stopwatch.GetTimestamp() - finalizationStarted);
                     _completedWork++;
                     _currentTarget = null;
                     if (!HasPendingWork && !_queueDrainLogged)
@@ -445,10 +516,36 @@ namespace ProbablyStolenKo
                             _completedWork + "/" + _totalWork + ".");
                     }
                 }
+                sliceEnded = Stopwatch.GetTimestamp();
             }
             while (HasPendingWork &&
-                   (Stopwatch.GetTimestamp() - frameStarted) * 1000L / Stopwatch.Frequency < millisecondBudget);
+                   (sliceEnded - frameStarted) * 1000L / Stopwatch.Frequency < millisecondBudget);
+            if (_currentTarget != null) _currentTarget.LastSliceEnded = sliceEnded;
         }
+
+        private void LogTargetTiming(PendingTarget work, long finalizationTicks)
+        {
+            var slowest = work.SlowestBinding;
+            _log.Log(string.Format(
+                System.Globalization.CultureInfo.InvariantCulture,
+                "Managed patch timing: mod={0} queueMs={1:F1} betweenSlicesMs={2:F1} bindingMs={3:F1} " +
+                "resolveMs={4:F1} harmonyMs={5:F1} constructorHarmonyMs={6:F1} finalizeMs={7:F1} " +
+                "slowestBindingMs={8:F1} slowestBinding={9} typeIndexMs={10:F1} indexedTypes={11}",
+                work.ModId,
+                ToMilliseconds(work.FirstWorkStarted - work.Started),
+                ToMilliseconds(work.BetweenSlicesTicks),
+                ToMilliseconds(work.BindingTicks),
+                ToMilliseconds(work.ResolveTicks),
+                ToMilliseconds(work.HarmonyTicks),
+                ToMilliseconds(work.ConstructorHarmonyTicks),
+                ToMilliseconds(finalizationTicks),
+                ToMilliseconds(work.SlowestBindingTicks),
+                slowest == null ? "-" : $"{slowest.Id}:{slowest.TypeName}.{slowest.MethodName}",
+                ToMilliseconds(work.TypeIndexTicks),
+                work.IndexedTypes));
+        }
+
+        private static double ToMilliseconds(long ticks) => ticks * (1000.0 / Stopwatch.Frequency);
 
         private void CompleteCurrentTarget()
         {
@@ -481,12 +578,9 @@ namespace ProbablyStolenKo
             }
         }
 
-        private static void ApplyBinding(
-            Harmony harmony,
-            ManagedExactBinding binding,
-            ManagedTarget target,
-            ICollection<int> staticBindings)
+        private static void ApplyBinding(PendingTarget work, ManagedExactBinding binding)
         {
+            var target = work.Target;
             if (binding.RouteIndex < 0 || binding.RouteIndex >= target.Routes.Count)
                 throw new InvalidOperationException("Generated managed route index is outside the runtime catalog.");
             var route = target.Routes[binding.RouteIndex];
@@ -495,7 +589,7 @@ namespace ProbablyStolenKo
 
             if (binding.Kind != ManagedBindingKind.StaticPatch)
                 throw new InvalidOperationException("Generated managed binding is not an exact static patch.");
-            staticBindings.Add(binding.Id);
+            work.StaticBindings.Add(binding.Id);
             lock (Gate)
             {
                 if (route.Mode == "literal" || route.Mode == "literal_occurrence")
@@ -511,19 +605,42 @@ namespace ProbablyStolenKo
             {
                 if (binding.UsesPatchAttributes)
                 {
-                    harmony.CreateClassProcessor(binding.PatchType).Patch();
+                    var constructorStarted = Stopwatch.GetTimestamp();
+                    try
+                    {
+                        work.Harmony.CreateClassProcessor(binding.PatchType).Patch();
+                    }
+                    finally
+                    {
+                        work.ConstructorHarmonyTicks += Stopwatch.GetTimestamp() - constructorStarted;
+                    }
                     return;
                 }
 
-                var original = ModReflect.Target(
-                    binding.TypeName,
-                    binding.MethodName,
-                    binding.ParameterTypes ?? Type.EmptyTypes);
-                var patch = new HarmonyMethod(binding.PatchType, binding.PatchMethodName);
-                if (binding.PatchMethodName == "Transpiler")
-                    harmony.Patch(original, transpiler: patch);
-                else
-                    harmony.Patch(original, postfix: patch);
+                MethodBase original;
+                var resolveStarted = Stopwatch.GetTimestamp();
+                try
+                {
+                    original = work.ResolveMethod(binding);
+                }
+                finally
+                {
+                    work.ResolveTicks += Stopwatch.GetTimestamp() - resolveStarted;
+                }
+
+                var harmonyStarted = Stopwatch.GetTimestamp();
+                try
+                {
+                    var patch = new HarmonyMethod(binding.PatchType, binding.PatchMethodName);
+                    if (binding.PatchMethodName == "Transpiler")
+                        work.Harmony.Patch(original, transpiler: patch);
+                    else
+                        work.Harmony.Patch(original, postfix: patch);
+                }
+                finally
+                {
+                    work.HarmonyTicks += Stopwatch.GetTimestamp() - harmonyStarted;
+                }
             }
             finally
             {

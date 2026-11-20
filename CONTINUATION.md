@@ -122,6 +122,14 @@ python tests/HarmonyCompatibility/run.py "$game" `
 
 The harness uses the game's Mono to run the mod scanner and Harmony's assembly scan, then checks exact instance and static constructor resolution. It does not start the game or modify the installation.
 
+### Startup patch timing
+
+`Player.log` records one `Managed patch timing:` line per completed managed target, including targets with no bindings. `queueMs` is enqueue to first work; `betweenSlicesMs` is time between patch slices after the target starts. These are wall-clock waits and can include other game work. `bindingMs` includes binding setup and cleanup. `resolveMs` includes the one-time type index (`typeIndexMs`) and per-method `ModReflect.Target(Type, ...)` calls. `indexedTypes` counts the distinct, unambiguous types needed by the queued bindings. Harmony uses the same overloads and order as before. `harmonyMs` measures direct application including patch method setup; constructor resolution and application remain in the Harmony class processor (`constructorHarmonyMs`). `finalizeMs` covers refresh and display overlay work. The `slowestBinding` ID links the slowest binding to `GeneratedManagedBindings.cs`; when the first binding is slowest, its time includes index construction.
+
+The type index is scoped to one queued target and uses the public `ModReflect.Types(modId)` API. Missing or ambiguous type names are skipped with a binding error, never searched in another mod. Overload selection and declaring-type access checks remain in `ModReflect.Target`.
+
+Do not add `resolveMs`, `harmonyMs`, or `constructorHarmonyMs` to `bindingMs`; they are already included. Compare `bindingMs` and `betweenSlicesMs` before treating the old enqueue-to-completion line as patch execution time.
+
 ## Required local test gate
 
 Every release must install the exact distributable package from the repository root into `Mods/ProbablyTranslated-Test` before Workshop staging. Close the game before `Install` or `Remove`. The gate never modifies game assemblies or Workshop content directly.
