@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Reflection;
 using System.Reflection.Emit;
 using HarmonyLib;
@@ -86,7 +87,7 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "05f5439cf2e2579a45c8622c55896aeee9543c3fa759f9a3d85f40e8d06854c5";
+        private const string ExpectedFingerprint = "c10fc5a874ebbb80374b476a78d7797fc6530726e6df087c4ff80c57b9625520";
         private const int ExpectedEntries = 26372;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
@@ -196,7 +197,7 @@ namespace ProbablyStolenKo
                     if (string.IsNullOrWhiteSpace(typeName) || string.IsNullOrWhiteSpace(methodName) ||
                         (mode != "literal" && mode != "literal_occurrence" && mode != "field_store" &&
                          mode != "result_string" && mode != "result_string_ko" && mode != "result_string_array" &&
-                         mode != "result_by_argument" && mode != "result_by_arguments") ||
+                         mode != "result_by_argument" && mode != "result_by_arguments" && mode != "format_by_key") ||
                         (mode == "field_store" && (string.IsNullOrWhiteSpace(fieldType) || string.IsNullOrWhiteSpace(fieldName))) ||
                         argumentIndex < 0 || sourceEntries == null)
                         throw new FormatException("Incomplete managed route record.");
@@ -642,6 +643,8 @@ namespace ProbablyStolenKo
                     var patch = new HarmonyMethod(binding.PatchType, binding.PatchMethodName);
                     if (binding.PatchMethodName == "Transpiler")
                         work.Harmony.Patch(original, transpiler: patch);
+                    else if (binding.PatchMethodName == "Prefix")
+                        work.Harmony.Patch(original, prefix: patch);
                     else
                         work.Harmony.Patch(original, postfix: patch);
                 }
@@ -792,6 +795,17 @@ namespace ProbablyStolenKo
             if (entries != null && entries.TryGetValue(result, out var translation) &&
                 (!koreanOnly || StringComparer.Ordinal.Equals(LocHelper.GetCurrentLocaleCode(), "ko")))
                 result = translation;
+        }
+
+        internal static bool PrefixFormatByKey(string key, object[] values, ref string result, int bindingId)
+        {
+            IReadOnlyDictionary<string, string> entries;
+            lock (Gate) ResultBindingRoutes.TryGetValue(bindingId, out entries);
+            if (key == null || entries == null || !entries.TryGetValue(key, out var template)) return true;
+            result = values == null || values.Length == 0
+                ? template
+                : string.Format(CultureInfo.InvariantCulture, template, values);
+            return false;
         }
 
         internal static void PostfixByArgumentBinding(object[] args, ref string result, int bindingId)

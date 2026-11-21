@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "05f5439cf2e2579a45c8622c55896aeee9543c3fa759f9a3d85f40e8d06854c5",
+  "inventory_fingerprint": "c10fc5a874ebbb80374b476a78d7797fc6530726e6df087c4ff80c57b9625520",
   "entry_count": 26372,
   "targets": {
     "chiqingsan.AquaSense": {
@@ -1346,7 +1346,7 @@
         {
           "type": "BetterLiquidScanner.L10n",
           "method": "T",
-          "mode": "result_by_argument",
+          "mode": "format_by_key",
           "argument_index": 0,
           "entries": {
             "amount_exact": "{0} uL",

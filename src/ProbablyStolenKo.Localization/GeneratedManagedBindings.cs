@@ -29,7 +29,7 @@ namespace ProbablyStolenKo
 
     internal static class GeneratedManagedBindings
     {
-        internal const string InventoryFingerprint = "05f5439cf2e2579a45c8622c55896aeee9543c3fa759f9a3d85f40e8d06854c5";
+        internal const string InventoryFingerprint = "c10fc5a874ebbb80374b476a78d7797fc6530726e6df087c4ff80c57b9625520";
         internal const int RouteCount = 1235;
         internal const int BindingCount = 459;
         internal const int StaticPatchBindingCount = 459;
@@ -270,7 +270,7 @@ namespace ProbablyStolenKo
 
         private static void Add_5_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(148, 0, "BetterLiquidScanner.L10n", "T", "System.String, System.Object[]", new Type[] { typeof(global::System.String), (typeof(global::System.Object)).MakeArrayType() }, typeof(GeneratedManagedPatch_148), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(148, 0, "BetterLiquidScanner.L10n", "T", "System.String, System.Object[]", new Type[] { typeof(global::System.String), (typeof(global::System.Object)).MakeArrayType() }, typeof(GeneratedManagedPatch_148), "Prefix", false, null));
         }
 
         private static void Add_6_0(ICollection<ManagedExactBinding> bindings)
@@ -2114,8 +2114,8 @@ namespace ProbablyStolenKo
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(148);
         [HarmonyTargetMethod]
         internal static MethodBase TargetMethod() => ModReflect.Target("BetterLiquidScanner.L10n", "T", new Type[] { typeof(global::System.String), (typeof(global::System.Object)).MakeArrayType() });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 148);
+        [HarmonyPrefix]
+        internal static bool Prefix(string __0, object[] __1, ref string __result) => ManagedLiteralOverlay.PrefixFormatByKey(__0, __1, ref __result, 148);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_149

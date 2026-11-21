@@ -46,6 +46,8 @@ The next installed-source pass covers Smart Inventory Arrange 3.17.64-mono.2, AI
 
 The Workshop CSV overlays add 13 AI Emporium keys and two Upper Levels keys, correct five AI Emporium help strings, and update three Perks descriptions. CS Weapon Expansion's current cassette and market terminal text are natively localized. The item-description review uses the rendered line width, not CSV character count; the market terminal tooltip wraps before rendering. The half-screen rule is recorded in [KOREAN-LOCALIZATION.md](KOREAN-LOCALIZATION.md#번역검수-지침).
 
+Better Liquid Scanner passes the lookup key and original format arguments to its localization method. The bridge substitutes the reviewed template before formatting, preserves the native invariant culture, and leaves unknown keys to the original method.
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.
@@ -131,6 +133,8 @@ python tests/HarmonyCompatibility/run.py "$game" `
 ```
 
 The harness uses the game's Mono to run the mod scanner and Harmony's assembly scan, then checks exact instance and static constructor resolution. It does not start the game or modify the installation.
+
+To exercise scanner formatting, use the packaged bridge DLL with `managed-ko-runtime.json` next to it and append the installed `BetterLiquidScanner.dll` path to the same command. This checks the native scanner method with the generated Harmony patch and verifies substituted amounts, the multiline tooltip, and the original behavior for an unmapped key.
 
 ### Startup patch timing
 

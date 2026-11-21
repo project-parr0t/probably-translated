@@ -137,6 +137,11 @@ function Route-MatchesMethod($route, $method) {
         })
         return $stores.Count -eq 1
     }
+    if ($mode -eq 'format_by_key') {
+        return $method.ReturnType.FullName -eq 'System.String' -and $method.Parameters.Count -eq 2 -and
+            $method.Parameters[0].ParameterType.FullName -eq 'System.String' -and
+            $method.Parameters[1].ParameterType.FullName -eq 'System.Object[]'
+    }
     if ($mode -eq 'result_string_array') { return $method.ReturnType.FullName -eq 'System.String[]' }
     return $method.ReturnType.FullName -eq 'System.String'
 }
@@ -365,7 +370,7 @@ for ($targetNumber = 0; $targetNumber -lt $targets.Count; $targetNumber++) {
             $parameters = if ($usesPatchAttributes) { 'null' } elseif ($binding.Expressions.Count -eq 0) { 'Type.EmptyTypes' } else { 'new Type[] { ' + ($binding.Expressions -join ', ') + ' }' }
             $patchType = if ($binding.Kind -eq 'StaticPatch') { "typeof(GeneratedManagedPatch_$($binding.Id))" } else { 'null' }
             $mode = [string]$target.Routes[$binding.RouteIndex]['mode']
-            $patchMethodName = if ($mode -eq 'literal' -or $mode -eq 'literal_occurrence' -or $mode -eq 'field_store') { 'Transpiler' } else { 'Postfix' }
+            $patchMethodName = if ($mode -eq 'literal' -or $mode -eq 'literal_occurrence' -or $mode -eq 'field_store') { 'Transpiler' } elseif ($mode -eq 'format_by_key') { 'Prefix' } else { 'Postfix' }
             $issue = if ($null -eq $binding.Issue) { 'null' } else { '"' + (Escape-CSharp $binding.Issue) + '"' }
             Line ('            bindings.Add(new ManagedExactBinding(' + $binding.Id + ', ' + $binding.RouteIndex + ', "' + (Escape-CSharp $binding.TypeName) + '", "' + (Escape-CSharp $binding.MethodName) + '", "' + (Escape-CSharp $binding.Signature) + '", ' + $parameters + ', ' + $patchType + ', "' + $patchMethodName + '", ' + $usesPatchAttributes.ToString().ToLowerInvariant() + ', ' + $issue + '));')
         }
@@ -399,6 +404,9 @@ foreach ($target in $targets) {
         } elseif ($mode -eq 'field_store') {
             Line '        [HarmonyTranspiler]'
             Line "        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileFieldStoreBinding(instructions, $($binding.Id));"
+        } elseif ($mode -eq 'format_by_key') {
+            Line '        [HarmonyPrefix]'
+            Line "        internal static bool Prefix(string __0, object[] __1, ref string __result) => ManagedLiteralOverlay.PrefixFormatByKey(__0, __1, ref __result, $($binding.Id));"
         } elseif ($mode -eq 'result_by_argument') {
             Line '        [HarmonyPostfix]'
             Line "        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, $($binding.Id));"

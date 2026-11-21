@@ -5,9 +5,9 @@ from pathlib import Path
 
 
 def main() -> int:
-    if len(sys.argv) != 5:
-        raise SystemExit("usage: run.py GAME_ROOT TEST_DLL MOD_DLL RUNTIME_HARMONY_DLL")
-    game, test, mod, harmony = (Path(arg).resolve(strict=True) for arg in sys.argv[1:])
+    if len(sys.argv) not in (5, 6):
+        raise SystemExit("usage: run.py GAME_ROOT TEST_DLL MOD_DLL RUNTIME_HARMONY_DLL [BETTER_LIQUID_SCANNER_DLL]")
+    game, test, mod, harmony, *optional = (Path(arg).resolve(strict=True) for arg in sys.argv[1:])
     managed = game / "Probably Stolen_Data" / "Managed"
     mono = game / "MonoBleedingEdge"
     embed = mono / "EmbedRuntime"
@@ -30,7 +30,8 @@ def main() -> int:
         assembly = runtime.mono_domain_assembly_open(domain, os.fsencode(test))
         if not assembly:
             raise RuntimeError(f"Could not load {test}")
-        args = (ctypes.c_char_p * 4)(*(os.fsencode(path) for path in (test, mod, managed, harmony)))
+        paths = (test, mod, managed, harmony, *optional)
+        args = (ctypes.c_char_p * len(paths))(*(os.fsencode(path) for path in paths))
         return runtime.mono_jit_exec(domain, assembly, len(args), args)
 
 
