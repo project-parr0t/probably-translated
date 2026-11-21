@@ -86,8 +86,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "504a8bc38f2ee0a89582ab0d89d42b76c07d34948ade36bd260888735394155e";
-        private const int ExpectedEntries = 26370;
+        private const string ExpectedFingerprint = "05f5439cf2e2579a45c8622c55896aeee9543c3fa759f9a3d85f40e8d06854c5";
+        private const int ExpectedEntries = 26372;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -195,7 +195,7 @@ namespace ProbablyStolenKo
                     var sourceEntries = route?["entries"] as JObject;
                     if (string.IsNullOrWhiteSpace(typeName) || string.IsNullOrWhiteSpace(methodName) ||
                         (mode != "literal" && mode != "literal_occurrence" && mode != "field_store" &&
-                         mode != "result_string" && mode != "result_string_array" &&
+                         mode != "result_string" && mode != "result_string_ko" && mode != "result_string_array" &&
                          mode != "result_by_argument" && mode != "result_by_arguments") ||
                         (mode == "field_store" && (string.IsNullOrWhiteSpace(fieldType) || string.IsNullOrWhiteSpace(fieldName))) ||
                         argumentIndex < 0 || sourceEntries == null)
@@ -784,12 +784,14 @@ namespace ProbablyStolenKo
             return route != null && route.Item3.TryGetValue(source, out var translation) ? translation : source;
         }
 
-        internal static void PostfixStringBinding(ref string result, int bindingId)
+        internal static void PostfixStringBinding(ref string result, int bindingId, bool koreanOnly = false)
         {
             if (result == null) return;
             IReadOnlyDictionary<string, string> entries;
             lock (Gate) ResultBindingRoutes.TryGetValue(bindingId, out entries);
-            if (entries != null && entries.TryGetValue(result, out var translation)) result = translation;
+            if (entries != null && entries.TryGetValue(result, out var translation) &&
+                (!koreanOnly || StringComparer.Ordinal.Equals(LocHelper.GetCurrentLocaleCode(), "ko")))
+                result = translation;
         }
 
         internal static void PostfixByArgumentBinding(object[] args, ref string result, int bindingId)

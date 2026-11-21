@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Reflection.Emit;
 using HarmonyLib;
 
 internal static class Program
@@ -29,18 +31,29 @@ internal static class Program
         if (harmony.GetPatchedMethods().Any())
             throw new InvalidOperationException("Assembly scan patched targets before the bridge enabled them.");
 
-        CheckTarget(mod, 56, typeof(SmartInventoryArrange.UnifiedSettingsGui).GetConstructor(new[] { typeof(ModConfig) }));
-        CheckTarget(mod, 80, typeof(SmartInventoryArrange.RussianText).TypeInitializer);
+        CheckTarget(mod, typeof(SmartInventoryArrange.UnifiedSettingsGui).GetConstructor(new[] { typeof(ModConfig) }));
+        CheckTarget(mod, typeof(SmartInventoryArrange.RussianText).TypeInitializer);
         Console.WriteLine($"constructor-compatibility=ok harmony={typeof(Harmony).Assembly.GetName().Version}");
     }
 
-    private static void CheckTarget(Assembly mod, int bindingId, ConstructorInfo expected)
+    private static void CheckTarget(Assembly mod, ConstructorInfo expected)
     {
-        var patch = mod.GetType($"ProbablyStolenKo.GeneratedManagedPatch_{bindingId}", throwOnError: true);
-        var resolver = patch.GetMethods(BindingFlags.Static | BindingFlags.NonPublic)
-            .Single(method => method.IsDefined(typeof(HarmonyTargetMethod), inherit: false));
+        var readInstructions = typeof(PatchProcessor).GetMethods(BindingFlags.Static | BindingFlags.Public)
+            .Single(method => method.Name == "GetOriginalInstructions" &&
+                method.GetParameters().Length == 2 && !method.GetParameters()[1].ParameterType.IsByRef);
+        var resolver = mod.GetTypes()
+            .SelectMany(type => type.GetMethods(BindingFlags.Static | BindingFlags.NonPublic))
+            .Where(method => method.IsDefined(typeof(HarmonyTargetMethod), inherit: false))
+            .Single(method =>
+            {
+                var instructions = (IEnumerable<CodeInstruction>)readInstructions.Invoke(null, new object[] { method, null });
+                return instructions.Any(instruction => instruction.opcode == OpCodes.Ldstr &&
+                           Equals(instruction.operand, expected.DeclaringType.FullName)) &&
+                       instructions.Any(instruction => instruction.operand is MethodInfo call &&
+                           call.DeclaringType == typeof(AccessTools) && call.Name == nameof(AccessTools.DeclaredConstructor));
+            });
         if (!Equals(resolver.Invoke(null, null), expected))
-            throw new InvalidOperationException($"{patch.Name} did not resolve {expected}.");
+            throw new InvalidOperationException($"{resolver.DeclaringType.Name} did not resolve {expected}.");
     }
 }
 

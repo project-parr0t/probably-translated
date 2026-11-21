@@ -3269,3 +3269,5 @@ crate.military.accept,좋아. 남들 눈에 띄지 않게 해.
 crate.military.done,좋은 물건 들어오면 다시 찾아와.
 crate.military.premium,군수품 상인 할증
 trait.estate.paid_service,인력 고용 (200)
+test_hotkey_module_kits,모듈 베이 확장 키트 {0}개를 지급했습니다.
+test_hotkey_all_machines,모드 기계 {0}/{1}대를 지급했습니다.

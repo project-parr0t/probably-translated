@@ -8,8 +8,8 @@ dsp_scav_drone_description,주머니가 두 개 늘어납니다. 탐색할 때 �
 dsp_trust_fund_description,매주 목요일에 50 크레딧을 받습니다.
 dsp_snake_oil_description,전분 계열 드림 더스트 20병을 가지고 시작합니다. 이들은 밀수품으로 취급되지 않습니다.
 dsp_mutual_choice_description,"하루 2번, 거래 없이 떠난 손님 1명이 대기열에 1명을 추가합니다."
-dsp_watermelon_merge_description,같은 크기의 같은 작물 2개를 더 큰 하나로 합칠 수 있습니다. 블루베리는 오히려 작아집니다.
-dsp_hydro_question_description,수도관에서 식물 2그루를 기를 수 있습니다. 시작할 때 무작위 씨앗 2개를 받습니다. 개조를 통해 최대 6그루까지 기를 수 있습니다.
+dsp_watermelon_merge_description,"종류와 크기가 같은 작물 두 개를 합쳐 더 큰 하나를 만들 수 있습니다. 다만 블룸베리는 합치면 오히려 작아집니다. 두 작물의 가치, 열량, 성분은 합산됩니다."
+dsp_hydro_question_description,수도꼭지에서 식물 2그루를 기를 수 있습니다. 이 식물은 미네랄 농도의 영향을 받지 않습니다. 배관을 개조하면 최대 6그루까지 기를 수 있습니다. 시작할 때 종류별로 씨앗을 하나씩 받습니다.
 dsp_poet_admirer_description,추종자의 쪽지는 가치 50 크레딧의 사치품이 됩니다.
 dsp_magician_piper_description,쓰레기장에 데려가는 쥐 한 마리당 추가로 한 번 탐색할 수 있습니다.
 dsp_careless_tutor_name,덜렁대는 멘토
@@ -27,3 +27,4 @@ dsp_admirer_poem_39,"초록, 내가 그대를 얼마나 원하는지, 초록. �
 dsp_admirer_poem_40,"나는 급류가 되고 싶다, 산의 시내가 되어 험한 길과 바위를 넘어 흐르고 싶다. — 페퇴피 「강이 되고 싶다」"
 dsp_buddy_end_choice_yes,"좋아, 내가 열게."
 dsp_preset_numeral_tooltip,"시작 프리셋 창의 슬롯 번호를 I, II, III…로 표시합니다. 끄면 1, 2, 3…으로 표시합니다."
+dsp_gathering_storm_description,수배범이 나타날 확률이 크게 높아집니다. 모든 수배범을 만나거나 그중 한 명을 신고하거나 쏘면 효과가 끝납니다.

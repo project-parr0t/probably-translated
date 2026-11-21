@@ -42,6 +42,10 @@ Vanilla Chemistry Expansion 1.9.0 and Holographic Trading Panel 1.3.2 use the Wo
 
 Upper Levels: Probably DLC 0.9.29.1 adds 185 CSV keys, including crate keycards, trading calls, and Act 1 scenes. The installed source also changes prior instructions for crate opening, printed-organ value, and repeat-customer reputation. Unbox Moment 1.5.2 changes font selection; Perks: Probably Fun 0.9.681 changes buyer filtering and logs. Their existing visible text coverage is unchanged. The three current DLL fingerprints are recorded alongside the runtime catalogs.
 
+The next installed-source pass covers Smart Inventory Arrange 3.17.64-mono.2, AI Emporium 1.3.72, Station Events 1.4.0, CS Weapon Expansion 0.5.50, Perks: Probably Fun 0.9.690, Upper Levels 0.9.29.2, and Claims & Uprisings 1.1.5. The Smart Inventory update applies the compact-layout notice only to Korean and drops the obsolete timing setting bindings. Station Events keeps its native event text and refines the new shared-pool settings in Korean. Claims adds three indexed tutorial strings (1,913 total); its settings heading also resolves the raw key captured before the language index loads.
+
+The Workshop CSV overlays add 13 AI Emporium keys and two Upper Levels keys, correct five AI Emporium help strings, and update three Perks descriptions. CS Weapon Expansion's current cassette and market terminal text are natively localized. The item-description review uses the rendered line width, not CSV character count; the market terminal tooltip wraps before rendering. The half-screen rule is recorded in [KOREAN-LOCALIZATION.md](KOREAN-LOCALIZATION.md#번역검수-지침).
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.

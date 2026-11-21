@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "504a8bc38f2ee0a89582ab0d89d42b76c07d34948ade36bd260888735394155e",
-  "entry_count": 26370,
+  "inventory_fingerprint": "05f5439cf2e2579a45c8622c55896aeee9543c3fa759f9a3d85f40e8d06854c5",
+  "entry_count": 26372,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",
@@ -98,10 +98,10 @@
     "smart_inventory_arrange": {
       "workshop_item_id": "3829206666",
       "assembly_name": "SmartInventoryArrange.Mono",
-      "entry_count": 201,
+      "entry_count": 199,
       "manifest": {
         "name": "Smart Inventory Arrange",
-        "description": "결과 피드백을 제공하는 시각 중심 정렬, 선택 가능한 모드 메뉴 우선순위, 단일 페이지 F6 설정, 단축키 적용 범위 선택(마우스 아래 또는 열린 창 전체)을 지원합니다. 게임 기본 제공 ‘정렬 메뉴 비활성화’ 옵션과 호환됩니다. 네이티브 Mono를 사용하며 종속 항목은 게임에서 제공합니다."
+        "description": "기본 방향 유지 모드에서 큰 인벤토리의 빈틈을 줄여 더 효율적으로 정렬합니다. 제자리 유지 규칙, 단축키, 정렬 취소는 이전과 같습니다. 네이티브 Mono를 사용합니다."
       },
       "routes": [
         {
@@ -117,7 +117,6 @@
             " to open this mod's settings.\nBesides Smart Arrange in the right-click menu, you can bind shortcuts for one-key arranging and undo, keep items in their vanilla orientation, and use Keep-in-Place Arrange.\nThis tip appears only once.": " 키를 눌러 이 모드의 설정을 여세요.\n우클릭 메뉴의 스마트 정리 외에도, 한 번의 키 입력으로 정리와 실행 취소를 할 단축키를 지정하고, 아이템을 바닐라 방향으로 유지하거나 제자리 정리를 사용할 수 있습니다.\n이 팁은 한 번만 표시됩니다.",
             " units.": "개를 넣었습니다.",
             " units; ": "개 삽입됨; 원래 위치에 ",
-            "(“Keep Containers and Machines in Place” is now “Keep-in-Place Arrange”.)": "(“컨테이너와 기계를 제자리에 두기”가 이제 “제자리 정렬”로 변경되었습니다.)",
             "+ Category": "+ 범주",
             "/": "/",
             ": ": ": ",
@@ -191,7 +190,6 @@
             "Keep Containers & Machines": "용기 및 기계 유지",
             "Keep containers and machines in place in preserve mode": "보존 모드에서 용기와 기계를 제자리에 유지",
             "Keep containers in Preserve Containers mode": "‘컨테이너 보존’ 모드에서 컨테이너 고정",
-            "Keep machines, boxes, or any item type in place when arranging. Press F6 → “Choose items to keep in place” to set your rules.": "정리할 때 기계, 상자 또는 원하는 종류의 아이템을 제자리에 둘 수 있습니다. F6 → “제자리에 둘 아이템 선택”을 눌러 규칙을 설정하세요.",
             "Keep selected items in place in Keep-in-Place Arrange": "제자리 유지 정리 시 선택한 아이템을 제자리에 유지",
             "Last arrangement undone.": "마지막 정리가 취소되었습니다.",
             "Last automatic room-making undone.": "마지막 자동 공간 확보를 되돌렸습니다.",
@@ -201,7 +199,6 @@
             "Make room if dropped items don't fit": "아이템을 놓을 공간이 없으면 자동 확보",
             "Make room · ": "공간 확보 · ",
             "Making room and inserting items…": "공간을 확보하고 아이템을 넣는 중…",
-            "Measure arrangement phases": "정리 단계 소요 시간 측정",
             "Mod options at top": "모드 옵션 맨 위",
             "Mod update": "모드 업데이트",
             "Mode": "모드",
@@ -209,7 +206,6 @@
             "Movable items only. Firearms may rotate for vertical interlocking; other items use their default orientation. Preserves layout if no candidate fits.": "이동 가능한 아이템만 해당됩니다. 세로로 맞물리도록 총기는 회전할 수 있으며, 다른 아이템은 기본 방향을 사용합니다. 배치 가능한 후보가 없으면 현재 배치를 유지합니다.",
             "Movable items only; preserves layout if no matching candidate is found.": "이동 가능한 아이템만 정리하며, 일치하는 후보를 찾지 못하면 배치를 유지합니다.",
             "New features or major updates are briefly shown at the top of the screen. Each notice appears only once.": "새 기능이나 주요 업데이트는 화면 상단에 간략히 표시됩니다. 각 알림은 한 번만 표시됩니다.",
-            "New: Choose what stays in place": "신규: 고정할 항목 선택",
             "New: arrange after putting items in. Only the receiving container or page is arranged; items stay on their own pages. Enable it in the mod settings.": "새 기능: 아이템을 넣은 뒤 정렬합니다. 아이템을 받는 컨테이너나 페이지만 정렬되며, 아이템은 원래 페이지에 남습니다. 모드 설정에서 활성화하세요.",
             "No": "아니요",
             "No fresh complete layout; original retained": "완전한 새 배치가 없어 기존 배치를 유지했습니다",
@@ -221,7 +217,6 @@
             "Off adds only Smart Arrange to the context menu.": "끄면 우클릭 메뉴에 스마트 정리만 추가됩니다.",
             "Off preserves the original menu order.": "끄면 원래 메뉴 순서를 유지합니다.",
             "Off: items are preferably arranged upright. On: items keep their vanilla default orientation. Firearms are excluded.": "끔: 아이템은 가급적 세워서 정리됩니다. 켬: 아이템은 바닐라 기본 방향을 유지합니다. 총기는 제외됩니다.",
-            "One compact timing line per arrangement; default off; does not control screen notifications.": "정리할 때마다 간결한 소요 시간 한 줄을 표시합니다. 기본값은 꺼짐이며 화면 알림에는 영향을 주지 않습니다.",
             "Only arranges the receiving container or page, including closed containers that are still loaded.": "아이템을 받은 컨테이너나 페이지만 정리합니다. 아직 불러온 상태라면 닫힌 컨테이너도 포함됩니다.",
             "Open grid containers only. Makes room on demand; leftovers stay at the source. Use Undo Arrange to undo the last successful room-making operation.": "열린 격자형 컨테이너만 처리합니다. 필요에 따라 공간을 마련하며, 남은 아이템은 원래 위치에 둡니다. 마지막으로 공간을 마련한 작업은 ‘배치 실행 취소’로 되돌릴 수 있습니다.",
             "Open this window": "이 창 열기",
@@ -355,7 +350,6 @@
             "整理所有当前打开且可整理的网格容器。": "현재 열려 있고 정리 가능한 격자형 인벤토리를 정리합니다.",
             "整理方式": "정렬 모드",
             "整类保留": "그대로 둘 범주",
-            "新功能：整理时，哪些东西不动由你决定": "신규: 고정할 항목 선택",
             "是": "예",
             "显示腾位过程及结果提示，独立于整理提示。": "공간 확보 진행 상황과 결과를 표시합니다. 정렬 안내와는 별개입니다.",
             "智能仓库排列设置": "스마트 인벤토리 정리 설정",
@@ -368,11 +362,9 @@
             "未绑定": "키 미지정",
             "未能撤销自动腾位，请查看日志。": "자동 공간 확보를 실행 취소하지 못했습니다. 로그를 확인하세요.",
             "本次撤销未完成，请查看日志。": "실행 취소가 완료되지 않았습니다. 로그를 확인하세요.",
-            "机器、箱子，或者任意一种物品，都可以设成整理时留在原位。按 F6 →「选择保留原位的物品」即可设置。": "정리할 때 기계, 상자 또는 원하는 종류의 아이템을 제자리에 둘 수 있습니다. F6 → “제자리에 둘 아이템 선택”을 눌러 규칙을 설정하세요.",
             "模组功能置顶": "모드 옵션 맨 위",
             "正在整理容器 {0}/{1}…": "컨테이너 정리 중 {0}/{1}…",
             "每条只显示一次": "각 항목은 한 번만 표시됩니다",
-            "每次整理输出一行阶段耗时；默认关闭，不控制屏幕通知。": "정리할 때마다 간결한 소요 시간 한 줄을 표시합니다. 기본값은 꺼짐이며 화면 알림에는 영향을 주지 않습니다.",
             "清除": "초기화",
             "用\"保留原位排列\"整理时，下面这些东西会留在原位，其他物品绕开它们。": "제자리에 두고 정리 기능을 사용하면 이 물품들은 제자리에 남고, 다른 물품은 주변에 정리됩니다.",
             "确定恢复？": "기본값을 복원할까요?",
@@ -381,7 +373,6 @@
             "腾位时显示提示": "공간을 확보할 때 안내 표시",
             "自动腾位时显示提示": "공간 확보 알림 표시",
             "范围": "범위",
-            "记录整理阶段耗时": "정리 단계 소요 시간 측정",
             "详细整理诊断导出": "상세 정리 내보내기",
             "请按键… Esc 取消": "키를 누르세요… Esc 키를 누르면 취소",
             "读取物品…": "아이템 읽는 중…",
@@ -389,11 +380,19 @@
             "重置": "초기화",
             "默认关闭。控制进行中、忙碌、队列和全部结果通知；错误日志不受影响。": "기본값은 끔입니다. 모든 정리 알림을 제어하며, 오류는 계속 기록됩니다.",
             "鼠标所在容器": "커서 아래 컨테이너",
-            "（「保留容器和机器排列」已更名为「保留原位排列」）": "(“컨테이너와 기계를 제자리에 두기”가 이제 “제자리 정렬”로 변경되었습니다.)",
             "（已自定义）": " (사용자 지정)",
             "（默认是储藏、机器、电池）": " (기본값: 보관함, 기계, 배터리)",
             "＋ 类别": "+ 범주",
             "，其他物品绕开它们整理。": "; 다른 아이템은 그 주위에 배치됩니다."
+          }
+        },
+        {
+          "type": "SmartInventoryArrange.ReleaseNotice",
+          "method": "TryGetText",
+          "mode": "result_string_ko",
+          "argument_index": 0,
+          "entries": {
+            "New: Compact layouts are here!\nNo-rotation sorting has been rewritten: it leaves fewer gaps, so more items can fit in the same space.\nThe layout may look different. If you don't like it, you can undo the sort. Please leave a comment and tell me how it works for you!": "새 기능: 더 촘촘한 정렬!\n아이템을 회전하지 않는 정렬 방식을 새로 만들었습니다. 빈틈이 줄어 같은 공간에 더 많은 아이템을 넣을 수 있습니다.\n이전과 배치가 달라질 수 있습니다. 마음에 들지 않으면 정렬을 취소할 수 있습니다. 사용해 보시고 댓글로 의견을 남겨 주세요!"
           }
         },
         {
@@ -578,7 +577,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "SmartInventoryArrange.Mono.dll",
-        "assembly_sha256": "f5085ca9e5d5d78039d24628f45ae2092d61047709fa725ad6db04904781c106"
+        "assembly_sha256": "7fc1d8a86ab7a3d93b4f2c09801a12e72138e53a782f463a8239ea83394ff81a"
       }
     },
     "Pen_mod_pipette": {
@@ -15684,13 +15683,13 @@
       "entry_count": 655,
       "manifest": {
         "name": "Probably Regulars - AI Emporium",
-        "description": "DeepSeek 제1장 「불이 켜진 방」 추가: 익명의 선물, 집 안 탐색, 6막 스토리, 4가지 결말, 주택 업그레이드.\n\nAI 의인화 방문객 15명 추가: Claude는 감정을 의뢰하고, Grok은 개조 총기 주문을 받으며, Qwen은 처음 보는 물건만 매입하고, Doubao은 고객센터 멘트를 읊으며 흥정합니다. 각 방문객은 고유 일러스트, 대사, 예산, 매입 취향을 보유하며 대분류별로 물건을 매입합니다. 첫 만남에는 명함을 건네며, 명함의 번호로 전화하면 방문을 예약할 수 있습니다.\n\n거래 시 기존 세력 평판이 정상적으로 누적되며 새 게임을 시작할 필요가 없습니다. 모드 관리 메뉴의 톱니바퀴에서 방문객별 활성화 여부, 등장 확률, 예산, 판매 물품 수량, 물품 목록을 조정할 수 있습니다."
+        "description": "DeepSeek 제1장 「불이 켜진 방」 추가: 익명의 선물, 집 안 탐색, 6막 스토리, 4가지 결말, 주택 업그레이드.\n\nAI 의인화 방문객 15명 추가: Claude는 감정을 의뢰하고, Grok은 총기 개조를 의뢰하며, Qwen은 처음 보는 물건만 매입하고, Doubao는 고객센터 멘트를 읊으며 흥정합니다. 각 방문객은 고유 일러스트, 대사, 예산, 매입 취향을 보유하며 대분류별로 물건을 매입합니다. 첫 만남에는 명함을 건네며, 명함의 번호로 전화하면 방문을 예약할 수 있습니다.\n\n거래 시 기본 게임의 세력 평판이 정상적으로 누적되며 새 게임을 시작할 필요가 없습니다. 모드 관리 메뉴의 톱니바퀴에서 방문객별 활성화 여부, 등장 확률, 예산, 판매 물품 수량, 물품 목록을 조정할 수 있습니다."
       },
       "routes": [],
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "AiEmporium.dll",
-        "assembly_sha256": "19fc7078bcd0ca745d910cbc5ade322d33fb9b7daac196d145bbe8d8d852d78e"
+        "assembly_sha256": "3ebf04a0f2316bcb309e9284acf478321c86cdea41963f2f2a99a7d21635ac70"
       }
     },
     "user.realtimeclock": {
@@ -15762,10 +15761,10 @@
     "local.station-events": {
       "workshop_item_id": "3833966506",
       "assembly_name": "StationEvents",
-      "entry_count": 289,
+      "entry_count": 292,
       "manifest": {
         "name": "Station Events",
-        "description": "우주 정거장에 단기 이벤트를 추가하고 시장 시세, 신문, 추가 고객, 예고와 연동합니다. 이벤트 밀도 5단계와 선택 가능한 주기 변동을 제공합니다."
+        "description": "우주 정거장에 단기 이벤트와 추가 고객, 예고를 더합니다. 이벤트 발생 밀도는 5단계로 조절할 수 있으며, 이벤트 주기 변동과 달력 스크롤을 지원합니다. 기본 게임의 일반 이벤트를 추가 이벤트와 함께 추첨하는 옵션도 제공합니다."
       },
       "routes": [
         {
@@ -16021,7 +16020,6 @@
             "This event forecast has been cancelled.": "이 이벤트 예고는 취소되었습니다.",
             "{0}: Follow-up": "{0}: 후속 소식",
             "Event density": "이벤트 발생 밀도",
-            "The five density levels require at least 5, 4, 3, 2 or 1 days between expansion starts, with random-draw thresholds of 1, 1, 2, 2 or 2 active expansion events. An eligible day still requires a random roll. Period variation can be disabled separately; the daily expansion visitor limit stays at two. Native events and confirmed forecasts retain their existing rules.": "다섯 밀도 단계의 추가 이벤트 시작 최소 간격은 각각 5, 4, 3, 2, 1일입니다. 진행 중인 추가 이벤트가 각각 1, 1, 2, 2, 2개에 도달하면 무작위 추가를 멈춥니다. 간격을 채워도 무작위 추첨을 거쳐야 합니다. 주기 변동은 별도로 끌 수 있으며 추가 방문객은 하루 최대 두 명입니다. 기본 게임 이벤트와 확정된 예고에는 기존 규칙이 적용됩니다.",
             "Enable event period variation": "이벤트 주기 변동 사용",
             "Enabled: random events move through quiet, steady and lively periods. Quiet periods rest for 2-3 days; the other periods last 3-5 days, and the rhythm is saved. Disabled: use the chosen density's steady probabilities without period variation. Minimum intervals and the two-visitor daily limit still apply. Changing this option does not cancel active or forecast events.": "켜면 무작위 이벤트가 조용한 시기, 안정기, 활발한 시기를 거칩니다. 조용한 시기는 2-3일, 나머지는 3-5일 지속되며 주기는 저장됩니다. 끄면 주기 구분 없이 선택한 밀도의 안정기 확률로 추첨합니다. 최소 간격과 하루 두 명의 방문객 제한은 계속 적용됩니다. 설정을 바꿔도 진행 중인 이벤트와 예고는 취소되지 않습니다.",
             "All events available from the start": "시작부터 모든 이벤트 해제",
@@ -16062,12 +16060,26 @@
             "A black market broker has failed to appear for a delivery. Sellers are finding their own buyers, offering the waiting food, household goods and medical supplies to nearby shops in small lots.": "납품을 받기로 한 암시장 중개인이 나타나지 않고 있다. 판매자들은 직접 구매자를 찾아 쌓인 식품, 생활용품, 의료용품을 인근 상점에 소량씩 넘기고 있다.",
             "The sellers have found buyers for the goods. The broker has yet to appear.": "판매자들은 물건을 넘길 구매자를 찾았다. 중개인은 아직 나타나지 않고 있다."
           }
+        },
+        {
+          "type": "StationEvents.TranslationCatalog",
+          "method": "Get",
+          "mode": "result_by_arguments",
+          "argument_index": 0,
+          "entries": {
+            "ko|The five levels use minimum intervals of 5, 4, 3, 2 and 1 days, and active-event thresholds of 1, 1, 2, 2 and 2. By default only expansion events count; with the shared pool enabled, ordinary events from both pools count. Eligible days still require a random roll. Story, fixed and special events and confirmed forecasts retain native rules. Expansion visitors remain capped at two per day.": "다섯 밀도 단계의 이벤트 시작 최소 간격은 각각 5, 4, 3, 2, 1일입니다. 진행 중인 이벤트가 각각 1, 1, 2, 2, 2개에 이르면 새 이벤트를 추첨하지 않습니다. 기본적으로 추가 이벤트만 집계하며, 통합 추첨을 켜면 기본 게임과 이 모드의 일반 이벤트를 모두 집계합니다. 간격을 채워도 무작위 추첨을 거칩니다. 스토리·고정·특수 이벤트와 확정된 예고에는 기존 규칙이 적용됩니다. 추가 방문객은 하루 최대 두 명입니다.",
+            "ko|Include vanilla ordinary events in the shared pool": "기본 게임의 일반 이벤트를 통합 추첨에 포함",
+            "ko|Off by default: vanilla ordinary random events follow native rules, while expansion events are drawn separately using this mod's settings. Enabled: both groups share one weighted pool, density, rhythm and interval. Individual event chances change with the candidates. Vanilla opening times and expansion unlock conditions remain separate. Story, fixed and special events and confirmed forecasts keep their schedules. Changes affect future draws only.": "기본값은 꺼짐입니다. 끄면 기본 게임의 일반 무작위 이벤트에는 기존 규칙이 적용되고, 추가 이벤트는 모드 설정에 따라 별도로 추첨됩니다. 켜면 두 그룹의 이벤트를 하나의 후보군에 넣고 각 이벤트의 가중치에 따라 추첨합니다. 밀도, 주기, 간격은 공통으로 적용되며, 개별 이벤트의 등장 확률은 후보 구성에 따라 달라집니다. 기본 게임의 이벤트 등장 시점과 추가 이벤트의 해금 조건은 각각 유지됩니다. 스토리·고정·특수 이벤트와 확정된 예고의 일정은 바뀌지 않습니다. 설정 변경은 이후 추첨에만 영향을 줍니다."
+          }
         }
       ],
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "StationEvents.dll",
-        "assembly_sha256": "ce56ef2aae8e7b1f8d3244b2bc74963b0a774f156d76d75299531b08cbf02100"
+        "assembly_sha256": "de9384715afb577d27373fff38b6fe7674ce30172a0be664258b3028955c1fe1"
+      },
+      "display_replacements": {
+        "空间站事件拓展 / Station Events": "Station Events"
       }
     },
     "cs_weapon_case": {
@@ -16076,7 +16088,7 @@
       "entry_count": 3769,
       "manifest": {
         "name": "CS Weapon Expansion",
-        "description": "CS 무기 확장: 상자 24종, 무기 스킨 828종, 투척물 6종, 신규 고객 90명. 상자 개봉, 시장, 창고, 용광로 포함. 터미널에서 구매한 뒤 매장 안에서 우클릭해 설치하세요.\n\n권한 사용 목적: Steam은 순위표에 사용됩니다. ID, 닉네임, 순위를 읽고, 골드/레드 등급 획득 횟수 또는 마모 점수를 제출합니다. 순위표에 오른 닉네임과 기록은 공개될 수 있습니다. 안내문의 “업적, 친구” 등은 게임에서 통상적으로 드는 예시입니다.\n이 모드는 비밀번호, 친구 목록, 채팅, 브라우저 정보 또는 관련 없는 개인 파일을 읽지 않으며 제작자 서버로 데이터를 전송하지 않습니다. 순위표를 열지 않으면 순위 정보를 능동적으로 요청하지 않습니다. 고정 가격 및 로컬 게임플레이는 오프라인에서 사용할 수 있습니다."
+        "description": "CS 무기 확장: 상자 24종, 무기 스킨 828종, 투척물 6종, 신규 고객 90명. 상자 개봉, 시장, 창고, 용광로 포함. 무기 시장 단말기를 구매해 가게로 가져온 뒤 우클릭해 설치하세요.\n\n권한 사용 목적: Steam은 순위표에 사용됩니다. ID, 닉네임, 순위를 읽고, 골드/레드 등급 획득 횟수 또는 마모 점수를 제출합니다. 순위표에 오른 닉네임과 기록은 공개될 수 있습니다. 안내문의 “업적, 친구” 등은 게임에서 통상적으로 드는 예시입니다.\n이 모드는 비밀번호, 친구 목록, 채팅, 브라우저 정보 또는 관련 없는 개인 파일을 읽지 않으며 제작자 서버로 데이터를 전송하지 않습니다. 순위표를 열지 않으면 순위 정보를 능동적으로 요청하지 않습니다. 고정 가격 및 로컬 게임플레이는 오프라인에서 사용할 수 있습니다."
       },
       "routes": [
         {
@@ -20146,7 +20158,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "CS Weapon Case.dll",
-        "assembly_sha256": "6463c399a564ca244eda573c59024a7e5ced3785ae9e582edf2698794ae7ef77"
+        "assembly_sha256": "1f57fb02ece30f2f29a0a168b35fdfc0e4140945bbed202be39d48411a7004f0"
       }
     },
     "traits_probably_fun": {
@@ -20161,7 +20173,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "TraitsProbablyFun.dll",
-        "assembly_sha256": "a8cf4f6671859d0b8a8d47b3fc149feebd0b5e9a4d310364002907c5a0ccad3c"
+        "assembly_sha256": "227f08d9bdddef038647dc5e5ade8905895c4281f46ac724096be67e484a229f"
       }
     },
     "asteroid_in_game_mod_settings": {
@@ -20223,7 +20235,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "UpperLevels.dll",
-        "assembly_sha256": "f5194f4196cdf1c499d3ec85da0d213d3f57a49da7cbfe3aa712005f8abc2962"
+        "assembly_sha256": "c428d54edc21fba1173d9e35b36e339185de8cd1be7d28fefc5f785fe8950174"
       }
     },
     "combat_contracts": {
@@ -29520,7 +29532,7 @@
     "yexiaoyang.InteriorExpansion": {
       "workshop_item_id": "3841509159",
       "assembly_name": "yexiaoyang.InteriorExpansion",
-      "entry_count": 2,
+      "entry_count": 3,
       "manifest": {
         "name": "Probably Stolen: Claims & Uprisings",
         "description": "가게 뒤편에 정수, 수경재배, 제련, 총기 제조, 양조, 보관, 지휘소 등 7종의 방을 증축할 수 있습니다. 지휘소에서는 자원 관리, 병력 모집과 장비 지급, 하층 구역 임무, 턴제 전투, 영토 건설, 일일 결산을 진행합니다. 예샤오양의 안내를 받아 직접 세력을 세워 보세요."
@@ -29529,7 +29541,10 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "Assemblies/yexiaoyang.InteriorExpansion.dll",
-        "assembly_sha256": "47fa45f44cae4cf1b65d237374f32db6f924fdafcee8dd3b275c61d09c967037"
+        "assembly_sha256": "20393ba260be013889b6fda07667a70f84145537fb449ff4cadb3be04bf69098"
+      },
+      "display_replacements": {
+        "yexiaoyang.settings.section": "튜토리얼"
       }
     },
     "vanilla_chem_ext": {

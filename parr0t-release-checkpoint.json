@@ -89096,17 +89096,6 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "id": "managed:3833966506:TranslationCatalog:247",
-      "location_fingerprint": "480b1f8419191e21beb95794fe710b249cc197effde1e13d29448e9162d887d8",
-      "review_fingerprint": "349577e2c559f1418a16ce412c0ba36345aa3a13c4f99d708bc1d62df3df489c",
-      "source_sha256": "c6e189191267dc939a8cc864959a18ba26595bfc37b9affacceaa0726d19fae9",
-      "status": "reviewed",
-      "target": "다섯 밀도 단계의 추가 이벤트 시작 최소 간격은 각각 5, 4, 3, 2, 1일입니다. 진행 중인 추가 이벤트가 각각 1, 1, 2, 2, 2개에 도달하면 무작위 추가를 멈춥니다. 간격을 채워도 무작위 추첨을 거쳐야 합니다. 주기 변동은 별도로 끌 수 있으며 추가 방문객은 하루 최대 두 명입니다. 기본 게임 이벤트와 확정된 예고에는 기존 규칙이 적용됩니다.",
-      "target_sha256": "2e9de3cf680d6e3a92ae9f48d5fa6f7bb012718cb49724388cfc3333164dcc16"
-    },
-    {
-      "dependencies": [],
-      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "managed:3833966506:TranslationCatalog:248",
       "location_fingerprint": "eb684720f3df5545314b1310f4daa43ae13bfc4595f6c450880a44381dcf484d",
       "review_fingerprint": "349577e2c559f1418a16ce412c0ba36345aa3a13c4f99d708bc1d62df3df489c",
@@ -90440,11 +90429,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "managed:3833966506:manifest:description",
       "location_fingerprint": "85a0f6caf24eba7fd771590182b6d796d38dddb950a837f91598b522b9c4c95a",
-      "review_fingerprint": "349577e2c559f1418a16ce412c0ba36345aa3a13c4f99d708bc1d62df3df489c",
-      "source_sha256": "b6e19bb29434d7cda25e224ff8fed2dadc7cd9ff5dd18299d985d1d7db9a1b57",
+      "review_fingerprint": "c140d974cf7779e1cf7be650514784f2277408ecaf73ade47717ed1a4bd9cdbe",
+      "source_sha256": "207bcbf2cf5997024ea60ad9480aa48e506499971174655a7c7a04dc2217ba69",
       "status": "reviewed",
-      "target": "우주 정거장에 단기 이벤트를 추가하고 시장 시세, 신문, 추가 고객, 예고와 연동합니다. 이벤트 밀도 5단계와 선택 가능한 주기 변동을 제공합니다.",
-      "target_sha256": "9cca6b6b0c2b1e65fe02f917b0c1247c899e090ce830a6f6d0de2408fdf8aee1"
+      "target": "우주 정거장에 단기 이벤트와 추가 고객, 예고를 더합니다. 이벤트 발생 밀도는 5단계로 조절할 수 있으며, 이벤트 주기 변동과 달력 스크롤을 지원합니다. 기본 게임의 일반 이벤트를 추가 이벤트와 함께 추첨하는 옵션도 제공합니다.",
+      "target_sha256": "fd439e27c6ef26a2447f759cf6f82074562041d11c654e40386280c9a40ebd32"
     },
     {
       "dependencies": [],
@@ -134847,11 +134836,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "managed:3834110482:manifest:Description",
       "location_fingerprint": "fe41c6bec08f52b04f1f93a77553671caa842591cc15398ad499a83ba5dcb296",
-      "review_fingerprint": "134bdb91181549c4038ea45e59ee8efb42a422023823ebd8aec736c750d7ae50",
+      "review_fingerprint": "dab8edb2ec78c7cebec6ec880341ebfedd07610907ccdeccec95a9b0b8a0f354",
       "source_sha256": "b8be9a2dde7bb812ee35edfec7bce26af1a72336f641e47b198bf5c27912e780",
       "status": "reviewed",
-      "target": "CS 무기 확장: 상자 24종, 무기 스킨 828종, 투척물 6종, 신규 고객 90명. 상자 개봉, 시장, 창고, 용광로 포함. 터미널에서 구매한 뒤 매장 안에서 우클릭해 설치하세요.\n\n권한 사용 목적: Steam은 순위표에 사용됩니다. ID, 닉네임, 순위를 읽고, 골드/레드 등급 획득 횟수 또는 마모 점수를 제출합니다. 순위표에 오른 닉네임과 기록은 공개될 수 있습니다. 안내문의 “업적, 친구” 등은 게임에서 통상적으로 드는 예시입니다.\n이 모드는 비밀번호, 친구 목록, 채팅, 브라우저 정보 또는 관련 없는 개인 파일을 읽지 않으며 제작자 서버로 데이터를 전송하지 않습니다. 순위표를 열지 않으면 순위 정보를 능동적으로 요청하지 않습니다. 고정 가격 및 로컬 게임플레이는 오프라인에서 사용할 수 있습니다.",
-      "target_sha256": "9dc21bc5a16ed2dc2df2903c8b0b252a1aeb55d24ff163b718ebbfd03d21682d"
+      "target": "CS 무기 확장: 상자 24종, 무기 스킨 828종, 투척물 6종, 신규 고객 90명. 상자 개봉, 시장, 창고, 용광로 포함. 무기 시장 단말기를 구매해 가게로 가져온 뒤 우클릭해 설치하세요.\n\n권한 사용 목적: Steam은 순위표에 사용됩니다. ID, 닉네임, 순위를 읽고, 골드/레드 등급 획득 횟수 또는 마모 점수를 제출합니다. 순위표에 오른 닉네임과 기록은 공개될 수 있습니다. 안내문의 “업적, 친구” 등은 게임에서 통상적으로 드는 예시입니다.\n이 모드는 비밀번호, 친구 목록, 채팅, 브라우저 정보 또는 관련 없는 개인 파일을 읽지 않으며 제작자 서버로 데이터를 전송하지 않습니다. 순위표를 열지 않으면 순위 정보를 능동적으로 요청하지 않습니다. 고정 가격 및 로컬 게임플레이는 오프라인에서 사용할 수 있습니다.",
+      "target_sha256": "552d8975fcef3d3f0d028ed3aad161f3564174f35051d8f959a96f615996ffd2"
     },
     {
       "dependencies": [],
@@ -245859,11 +245848,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3834226532:dsp_hydro_question_description",
       "location_fingerprint": "8b16ffb9049ccff5962e838b34247f4775c31e5bf928a99f3020af69459f733f",
-      "review_fingerprint": "bb9d901f7dd06f2b83be7fbdd6c9f69aae147b05595ed85b3fd2cbd613a381cb",
-      "source_sha256": "5d59a2f86746430723180a85b37b06ec8f46905d43b6e53116dbd72eff416ae8",
+      "review_fingerprint": "4b32969154da6e2f3ae5a4e7b20588853776290f889b7fb6bdcbb99e59111951",
+      "source_sha256": "121282615b076a79707cae0e0c71e3e3f22a6c5f101eb0f17dabeaad7f981696",
       "status": "reviewed",
-      "target": "수도관에서 식물 2그루를 기를 수 있습니다. 시작할 때 무작위 씨앗 2개를 받습니다. 개조를 통해 최대 6그루까지 기를 수 있습니다.",
-      "target_sha256": "798448b2cd1e6e37a43752c34801e6f2c6e2b99f4464ac9464299022105ff437"
+      "target": "수도꼭지에서 식물 2그루를 기를 수 있습니다. 이 식물은 미네랄 농도의 영향을 받지 않습니다. 배관을 개조하면 최대 6그루까지 기를 수 있습니다. 시작할 때 종류별로 씨앗을 하나씩 받습니다.",
+      "target_sha256": "7548c1b64d43974ab9a0761d6ca9760eef796ebd283f8c43d282b901ae47e274"
     },
     {
       "dependencies": [],
@@ -245991,11 +245980,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3834226532:dsp_watermelon_merge_description",
       "location_fingerprint": "e5097dea3205aa5c89372153c42b4e8a7237525e002d14d984f12b9ae1644e04",
-      "review_fingerprint": "198dfba99166c1d72a17b9bec5bec5e8a756fe7dfa23019c895d9b2a38e06b62",
-      "source_sha256": "9066b4c64cfe705b0d1603bece2964f69325fc750f3ddd0569c7f4cb919d5df1",
+      "review_fingerprint": "2cd13c26f3c5fd8dc27c68bf1db76b750a04a4665d59dc0cb68b7f291bc9eb6f",
+      "source_sha256": "8f236fcc76773becb62294be26d8fee6a236f71fc972369a6fd8077f4b3e48c8",
       "status": "reviewed",
-      "target": "같은 크기의 같은 작물 2개를 더 큰 하나로 합칠 수 있습니다. 블루베리는 오히려 작아집니다.",
-      "target_sha256": "0a7a3f1e092d5baf2642578feb04e481d0e6790abc855e2acded65a6ef5ecb47"
+      "target": "종류와 크기가 같은 작물 두 개를 합쳐 더 큰 하나를 만들 수 있습니다. 다만 블룸베리는 합치면 오히려 작아집니다. 두 작물의 가치, 열량, 성분은 합산됩니다.",
+      "target_sha256": "d04d059ea6d22e8e30ebaaf525f3bc01b0ba10ac330d35609d12c31358a278dd"
     },
     {
       "dependencies": [],
@@ -285473,11 +285462,11 @@
       "dependency_fingerprint": "1923d0c3e4170782206954d00f91bef699d4f5dd9bacd5c09f448833943eba8b",
       "id": "workshop:3832941698:ds.ui.restock.hint",
       "location_fingerprint": "327d284cd117929fa424f36af729eacda8a2f0375e01cbb23fd55b99377d90c3",
-      "review_fingerprint": "1e60a3774c6ea28989c7f2e4cdd835e49baf7e1d2bdef6586c44910e4f387fcd",
-      "source_sha256": "806b5323543ece1fe5d2c1e5f18dd2ee630f925c542c5b55560654a245c726b9",
+      "review_fingerprint": "9664427789c9b37bff4d559ad6e6ba68312b8e9d65697320ffe2ed9dbeb4e175",
+      "source_sha256": "27474999a849cbc62576a1f6b748e5c9a50c141d62da00bc034039ef9b1fa6ce",
       "status": "reviewed",
-      "target": "가계 자금으로 구매할 항목을 선택하세요. 사료는 해당 사료를 먹는 물고기가 있을 때만 보충합니다. 육식성 물고기에게는 생산 원료 구역에 있는 생선 부스러기를 먼저 주고, 그다음 작은 생고기나 생고기를 줍니다.",
-      "target_sha256": "5af31adfb6f18c48d449cfdab69e0bbce8d0783b431bd967e97abd65ba0aac63"
+      "target": "가계 자금으로 구매할 항목을 선택하세요. 사료는 해당 사료를 먹는 물고기가 있을 때만 보충합니다. 육식성 물고기에게는 생산 원료 구역에 있는 생선 부스러기를 먼저 주고, 그다음 작은 생고기나 생고기를 줍니다.\n식물 연구 설비를 설치하면 빈 디스크 구매를 따로 켤 수 있습니다. 빈 디스크가 떨어지면 현재 가격으로 한 장을 사서 설비의 DNA 데이터 디스크 보관함에 넣습니다.",
+      "target_sha256": "b59bc1c9bb29153266fc78993272e360df93bc1cfe51f0036c9d4ed2efc44994"
     },
     {
       "dependencies": [],
@@ -307161,6 +307150,336 @@
       "status": "reviewed",
       "target": "인력 고용 (200)",
       "target_sha256": "637417f89ffecea0258d73d273f58db1b0940b755892997abf23a44d8e2b7f1a"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3829206666:SmartInventoryArrange.ReleaseNotice.TryGetText:ko",
+      "location_fingerprint": "31831da453f60b4d0eb90fe2c9fdb8e0f21000e8e12c94a144f0fbdb677b8b2b",
+      "review_fingerprint": "9a26232961967d50f6ebcbe5d3527c97890183168a75db826dcf75399ff85179",
+      "source_sha256": "8da8dc862be716024c52ed82c054715d3d5eedb41531a101ca423be98665e815",
+      "status": "reviewed",
+      "target": "새 기능: 더 촘촘한 정렬!\n아이템을 회전하지 않는 정렬 방식을 새로 만들었습니다. 빈틈이 줄어 같은 공간에 더 많은 아이템을 넣을 수 있습니다.\n이전과 배치가 달라질 수 있습니다. 마음에 들지 않으면 정렬을 취소할 수 있습니다. 사용해 보시고 댓글로 의견을 남겨 주세요!",
+      "target_sha256": "a29b80d3fa3d5cb9dca6b1085db73d35944942af95feb85d371e18a71561bec5"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3829206666:manifest:description",
+      "location_fingerprint": "60d70f1b09213e8a97e17f7523b36f9a5baced3b73a3616e64c3aa79cab7ab6a",
+      "review_fingerprint": "0f1096c580fc8cbb3bfc6af3c7998d53b15a17ed803986cf68fa311e219766cc",
+      "source_sha256": "3052668d1a0f86355115ab987a6dd8b4ac47dd368ac868f89c92f8cfd81a5464",
+      "status": "reviewed",
+      "target": "기본 방향 유지 모드에서 큰 인벤토리의 빈틈을 줄여 더 효율적으로 정렬합니다. 제자리 유지 규칙, 단축키, 정렬 취소는 이전과 같습니다. 네이티브 Mono를 사용합니다.",
+      "target_sha256": "7f6786288a805e871b1f90230574a5589c1373f49b4545be659a119a9d0a2bfc"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3832941698:manifest:description",
+      "location_fingerprint": "c9909c7f98775d7b9c020ac971df0ddb241967ca62ab70f9679a577d04a3fa85",
+      "review_fingerprint": "ce42bfb97f29c0321e7e33b379251b945af498973be382b28f2cdee992dca321",
+      "source_sha256": "990471f6ae3c4f62919c4102f9e8919b17c2ab669563f9015b422c9f27353a1f",
+      "status": "reviewed",
+      "target": "DeepSeek 제1장 「불이 켜진 방」 추가: 익명의 선물, 집 안 탐색, 6막 스토리, 4가지 결말, 주택 업그레이드.\n\nAI 의인화 방문객 15명 추가: Claude는 감정을 의뢰하고, Grok은 총기 개조를 의뢰하며, Qwen은 처음 보는 물건만 매입하고, Doubao는 고객센터 멘트를 읊으며 흥정합니다. 각 방문객은 고유 일러스트, 대사, 예산, 매입 취향을 보유하며 대분류별로 물건을 매입합니다. 첫 만남에는 명함을 건네며, 명함의 번호로 전화하면 방문을 예약할 수 있습니다.\n\n거래 시 기본 게임의 세력 평판이 정상적으로 누적되며 새 게임을 시작할 필요가 없습니다. 모드 관리 메뉴의 톱니바퀴에서 방문객별 활성화 여부, 등장 확률, 예산, 판매 물품 수량, 물품 목록을 조정할 수 있습니다.",
+      "target_sha256": "6d1ea715124e4f8c10f7a68c54fa1c3ed8ca59b0f269af7c5f4851b4b1f10fae"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3833966506:StationEvents.TranslationCatalog.Get:ko:density",
+      "location_fingerprint": "f4adb712644c4e437585c090847f58ad215d30b15ecfb95ddb23e75debb465ed",
+      "review_fingerprint": "f9c180df891f737fddc06c09f371be69978521cb8eb44b4366b6e958878590e9",
+      "source_sha256": "40d3a07aada2bc6f4866e38a13b8821c8ec2e8a5f7ed8a8dc9b43be8a19d8c37",
+      "status": "reviewed",
+      "target": "다섯 밀도 단계의 이벤트 시작 최소 간격은 각각 5, 4, 3, 2, 1일입니다. 진행 중인 이벤트가 각각 1, 1, 2, 2, 2개에 이르면 새 이벤트를 추첨하지 않습니다. 기본적으로 추가 이벤트만 집계하며, 통합 추첨을 켜면 기본 게임과 이 모드의 일반 이벤트를 모두 집계합니다. 간격을 채워도 무작위 추첨을 거칩니다. 스토리·고정·특수 이벤트와 확정된 예고에는 기존 규칙이 적용됩니다. 추가 방문객은 하루 최대 두 명입니다.",
+      "target_sha256": "f192125371ddb1b7e22a212e135d4f88f0873d95a7319427c2e77ee634e20b6d"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3833966506:StationEvents.TranslationCatalog.Get:ko:shared_pool",
+      "location_fingerprint": "2747b9909bf254f1898a1afd6c3dcc596d8b9b1b6368dad1bb81541c309f75e7",
+      "review_fingerprint": "c807194c7e3234ca50bc785dd675ca7fb24779c1abadaa3550d6ed0ea3ac8db1",
+      "source_sha256": "9f10e9b53fdacebf351f87bd277b49d37677a0e8e8a6a05bdb3a8f02f73853d4",
+      "status": "reviewed",
+      "target": "기본 게임의 일반 이벤트를 통합 추첨에 포함",
+      "target_sha256": "f0229b6cbedac0b9d139a3bfc5b812e3815a572af55963b2c6b565b909ddc69e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3833966506:StationEvents.TranslationCatalog.Get:ko:shared_pool_tooltip",
+      "location_fingerprint": "9e63bbb9a9014731b538ff20fa2ce50c0c91b86feb7d185ace6afc4b33563ab3",
+      "review_fingerprint": "931dac1fb6575504ddb81889093cd7ae728e62e1c240d23f3dc9b96ac28929fb",
+      "source_sha256": "875d9aa0629fe23206c0b0605d4c296ee68ad2b1fbcd4eaeb2ae92114a94b558",
+      "status": "reviewed",
+      "target": "기본값은 꺼짐입니다. 끄면 기본 게임의 일반 무작위 이벤트에는 기존 규칙이 적용되고, 추가 이벤트는 모드 설정에 따라 별도로 추첨됩니다. 켜면 두 그룹의 이벤트를 하나의 후보군에 넣고 각 이벤트의 가중치에 따라 추첨합니다. 밀도, 주기, 간격은 공통으로 적용되며, 개별 이벤트의 등장 확률은 후보 구성에 따라 달라집니다. 기본 게임의 이벤트 등장 시점과 추가 이벤트의 해금 조건은 각각 유지됩니다. 스토리·고정·특수 이벤트와 확정된 예고의 일정은 바뀌지 않습니다. 설정 변경은 이후 추첨에만 영향을 줍니다.",
+      "target_sha256": "b9940df815821481d8922aba69d4db8da5ddf429a74b494f6f45bfd85a559276"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "managed:3833966506:settings:section",
+      "location_fingerprint": "9efea837b56dbf60af9d38dbf8b73fcf201b1c3eff44e3cb990236ddf537ce71",
+      "review_fingerprint": "e35a50291555481a6d35aee061891f6354264da9bac148876610e3678d408636",
+      "source_sha256": "c6fa8cca32cac56f00cf7b44232122aa36822542ad2021aacd59da6d0d5b8c07",
+      "status": "reviewed",
+      "target": "Station Events",
+      "target_sha256": "88782d20cb18545918faedf654c1acca41e0745fcfd18222501bc3209db1bba5"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.direct.fish_hint",
+      "location_fingerprint": "07e60432eec0609e135826ebcd08753efa016ebe4edda62152f563fdb93cf2e9",
+      "review_fingerprint": "0affd7206394254f5cd18d0ce6a37bcafbda437e166577175968042d2482c4f2",
+      "source_sha256": "f5201f6cdd1540d967f6a56db71051b712311d34fcf34850f671984a79e38fcd",
+      "status": "reviewed",
+      "target": "물고기와 알은 수조에 남으며 끌어다 놓아 관리할 수 있습니다. 육식성 물고기에게는 생선 부스러기나 생고기를 주세요. 다른 물고기에게는 먹을 수 있는 어종에 한해 산업용 어류 사료를 줄 수 있습니다.\n‘휴대용 용기’를 열고 가방의 물고기를 수조의 빈칸으로 끌어다 놓으세요. 이식용 틸라피아와 뱀장어는 2단계, 철갑상어는 3단계가 필요합니다.",
+      "target_sha256": "e8490869082d0571f42c025d56b985d6d85eaaaa5b5f01e82b2329de9a508d82"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.admission_1",
+      "location_fingerprint": "2389d43efb7446c43c2fab15b25518dc35cefdb5e9f73897fad369ec4372b941",
+      "review_fingerprint": "7f0bc1e2f94594088e20242bb4fee9685202be683155d347fc1c7e7865c47bbe",
+      "source_sha256": "be5d2f4cce88b3efe043b739f12dbe24928fc1b2401f45f0ab40a41397b0c8bc",
+      "status": "reviewed",
+      "target": "1단계 · 틸라피아와 하수 틸라피아",
+      "target_sha256": "8c1e55b50f3671ba42d0537d4c168fd330dfeb7de520c08889afd0739301a621"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.admission_2",
+      "location_fingerprint": "fa252fd36a80b18e30bdf46d2ffe7adf88b771bce7978abfdc96790e1ac7a256",
+      "review_fingerprint": "f706de411964ebde0fd65dc7be3d41e2b0231fd57978eb6e5551278f4353ab30",
+      "source_sha256": "c4cfd30c7d55bd4d8af2029caff94cfa4d2d18d2d9b5a85919dee142b44382de",
+      "status": "reviewed",
+      "target": "2단계 · 이식용 틸라피아와 뱀장어도 사육 가능",
+      "target_sha256": "781901ebce40cd54f8e5b6470df2a7dc59e2203e70d7cda4cd99f63e3c47b6dd"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.admission_3",
+      "location_fingerprint": "55f8959128b76adbf164100040e88e198adf3b8ddf670e369adc53ae71418133",
+      "review_fingerprint": "8cefa4a228793ef078131171555306e76ae7601d568003b739a97b7db7321d18",
+      "source_sha256": "f3aed2d75a1ee3efaa7fc00ceb59aa0c491645795c09d70c29fcf01d09a3e80c",
+      "status": "reviewed",
+      "target": "3단계 · 철갑상어를 포함한 기본 게임의 모든 양식 어종",
+      "target_sha256": "b70273bbb0894c10b832a7618fe2c50bc0c576ce3d0a9fda0464a1b2941c9678"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.cannot_stock",
+      "location_fingerprint": "6458812dcc6726702b03b70ef6521b73037103a96a4c5bbc0da10e07e1edb7e5",
+      "review_fingerprint": "50ead30aa864df73778a0f022fe0e44d6ffa4672bbd2586e897a360ca68d54df",
+      "source_sha256": "feff9733057cffb09bd3947828febc40faf0506d1e98c4b148d9d19587eb7df7",
+      "status": "reviewed",
+      "target": "이 물품은 수조에 넣을 수 없습니다.",
+      "target_sha256": "dd6387bc80de3e5bc3426d33c71f85ffd69da2d9af3cff2cc30cefb3f2339d4d"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.needs_tier",
+      "location_fingerprint": "2e5fcbb65d73b4cc8089adab4c34eed549f8a65a2d8723656d597b96268ed0f5",
+      "review_fingerprint": "0f954f4223d1bd05457f82fb386d6d6737a1bcde1c92285fb67ff6eb20b02ade",
+      "source_sha256": "24654dd12a6680d30ab80d6af7a3b508c49cae45935b10b8a181e489f183b9d6",
+      "status": "reviewed",
+      "target": "양식 {0}단계 필요",
+      "target_sha256": "5dd08bc9c210a730c5d90e32804a8984445d644bd27b807e86d7f4e3c66af1cd"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.no_space",
+      "location_fingerprint": "fd9286a979e0e2a8dd0a6d7eb6b310e813e177c5433e40b3288c0846a61b4900",
+      "review_fingerprint": "51fb8e253097208c078c8dcd2f90f5364728d981698897f991c4b6740543e4ef",
+      "source_sha256": "1a91efbde8bb01acacc17685fb41cb8192d423409db2f4d24b181434116c8b23",
+      "status": "reviewed",
+      "target": "수조에 빈칸이 부족합니다.",
+      "target_sha256": "cbf4973ec82339496ba4d73d404faefe075e82faea011dee1b44ac2121c4dde6"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.stock",
+      "location_fingerprint": "b2af355afe57031f41c4a59e29cc1fc399843c23b4b79e0f8db5372be5e71927",
+      "review_fingerprint": "117474d55f6b29898f9eb7bdb083f9ff018ce8409dea092fab7c7b20f7690429",
+      "source_sha256": "60ac66ba88e1bde1f67ec5d6ff1a72b3fc16a0ae1962892bf68cf5bd9e72809d",
+      "status": "reviewed",
+      "target": "수조에 넣기",
+      "target_sha256": "65362526581e27fee4c793bcf973ec4f43ed0225f13c97bf05b7169b48bbc8f2"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.stock_empty",
+      "location_fingerprint": "02f8db09d0cde178f60fe20794abfc1e36ef7aa97958dac1b37bd96ab7c3dcf7",
+      "review_fingerprint": "35caf916e3b405921b10a0b5860e8af1b06caeaf609e77c5d3bc8a8ee99ef795",
+      "source_sha256": "e6e4f830aac9327645960e37425f41713321d2ebd698641ce3e33bd9934f67f7",
+      "status": "reviewed",
+      "target": "휴대 중인 용기나 생산 원료 구역에 수조에 넣을 수 있는 살아 있는 물고기, 치어, 알이 없습니다.",
+      "target_sha256": "c0d7468d333d45063e7e074325a37476ab7cf93e2c234d923edcdfd2193c746b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.fish.stock_from",
+      "location_fingerprint": "2afbd47a9f9da5cd573e5c27d13ac9ec53e3605b416a3c9bc9a752a37674a005",
+      "review_fingerprint": "4aa0d97d0f3d9d73ca22d481dcfa55add580ba77c43609b103bcde581910f5bc",
+      "source_sha256": "8c414c3473d506609c47232f02fbf4bf9fe5151f18e56bf2a48a4fc22bfaee7e",
+      "status": "reviewed",
+      "target": "물고기, 치어 무리 또는 알을 선택하면 표시된 위치에서 수조로 옮깁니다.",
+      "target_sha256": "4cf63d2866e879a5e334725157d5c42ea666f96aa0ccd175b95974b6c8ca9767"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.hydro.all_visible",
+      "location_fingerprint": "a510735a60e3e563301ce2c0441ce674d4df9ad4241d45a6e7fa6e8d754d2c68",
+      "review_fingerprint": "a066923d5b6e39a089029301af730fed94d8321453d9a39f3e7318b7e29c23f3",
+      "source_sha256": "17c4c93a3e4414e145cc02b5cf7f44a92fbf2488e5f4a2d6412a08d3cc3241fb",
+      "status": "reviewed",
+      "target": "씨앗과 영양 정제 및 예비 모듈을 생산 원료 구역에 보관할 수 있습니다. 모듈 탭에서 수경재배 또는 범용 모듈을 해당 재배 칸으로 끌어다 놓으면 설치됩니다. 수확 구역이 가득 차면 새 생산이 일시 중지됩니다.",
+      "target_sha256": "6b7434b8ec6cb28443c23568e77e8e0228aa1add4dd807673ec65c96a50c3499"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.hydro.await_space",
+      "location_fingerprint": "cfdaa09737c6f1ea4151f7dd8386aa1de581887ad7bd69fd551c8099ec54dbd1",
+      "review_fingerprint": "e711cec7266d191b07457fbe9b9d00497d802f24e29e438ff71512a8e1f2fc40",
+      "source_sha256": "9d1a57eb801b531dccedcc5bde45a679d77e13852f50021819c90718fe353041",
+      "status": "reviewed",
+      "target": "수확 구역에 빈자리가 생기기를 기다리는 중",
+      "target_sha256": "1a7c3633aa0b075d4c571a9f4efc9e5ae5d0664b3a3b495355d9740a1deb9b74"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.hydro.module_effects",
+      "location_fingerprint": "dc72ad3673e064ce015121d12986c09cc250b9c4306354106427e2420442ee74",
+      "review_fingerprint": "5b5cbe2bdb5e26d539f1e7a98160252d04e8ce38b4298a01a42d02970233e8d5",
+      "source_sha256": "9fa5de769a13df4302ee69ee35128fbb22819b149c4d59fafd29ca5fcf8d0d84",
+      "status": "reviewed",
+      "target": "3단계에는 {0}이 포함됩니다. 이 모듈은 재배 중인 씨앗의 밀수품 판정을 없앱니다. 밀 캡을 수확하려면 드림 캡을 기르는 재배 칸에 {1}을 설치하세요.",
+      "target_sha256": "d67776c3c5864958e3751ea9bc38604cf486ca02bc92cf185ccb0b465970c31e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.hydro.seed_produce_hint",
+      "location_fingerprint": "2bde1505b0b4e4f6446d396c3e22aaa0c6943c0dcd94507375c7ab79133e1f9b",
+      "review_fingerprint": "1b01439e338a51790cb13cdeeb14ef818dd8127a7ae5d16e6110e98ae8bdf3de",
+      "source_sha256": "48adb25817fc37b4b0d02aab1f26b69fd59392facbd9cc7410753917ac416439",
+      "status": "reviewed",
+      "target": "열매와 남는 씨앗은 수확 구역으로 보냅니다. 자동 재파종이 켜져 있으면 빈 재배대는 같은 종류의 씨앗을 하나 남겨 둡니다.\n성장이 처음 진행되기 전에는 심은 씨앗을 생산 원료 구역으로 되돌릴 수 있습니다. 재배 칸을 비워 두려면 자동 재파종을 끄세요.\n재배를 일시 중지하면 해당 재배대의 성장과 관리가 멈추고 현재 작물과 진행 상태는 유지됩니다.\n씨앗 묶음은 수확 구역에 남습니다. 직접 배송하거나 배송 대기 구역으로 옮겨 가게에 보내세요.\n수확 구역에 자리를 비우면 설비에 남아 있던 수확물을 받을 수 있습니다. 아침 배송을 켜면 작업 기록에서 가게로 보낸 품목과 수량을 확인할 수 있습니다.",
+      "target_sha256": "29b365c33923f10f8164c21526b3fa8203cb760a81284b97c0be3f158be1f12e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.hydro.smuggler_short",
+      "location_fingerprint": "c1ad37bef56774d6d8ba0463f3b78a2e7fce0fb28ea9abe2f869db9973f59390",
+      "review_fingerprint": "7a8a9914f787af82d3d0d8f6061eeb7443c346a741f760e124642d7c2b5167a0",
+      "source_sha256": "956d55dc7494d7395a13fa4c5e5fc58dadce1edc343095e538bda1cf5cb75798",
+      "status": "reviewed",
+      "target": "수경재배 밀수꾼 모듈은 재배 중인 씨앗에 적용됩니다.",
+      "target_sha256": "27c754139310bc6c69e479a30b939b12e8a0f0a592ae8196804ccf7e00ff99c9"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.restock.plant_dna_disk",
+      "location_fingerprint": "a2e837e98ea48e729e4b8a4dbffe194112a82b8d33d528a1e65382b77ce294cc",
+      "review_fingerprint": "c0b4596808120d71939c2255636d7e3680df06fe6c5f389244550328134191af",
+      "source_sha256": "04d0a2af34309af3f60e0bba5d4ca048915fbef4e1c3a0232a97be599ec1d63f",
+      "status": "reviewed",
+      "target": "빈 식물 DNA 데이터 디스크 (예비용 1장)",
+      "target_sha256": "8ab4d43c8b55bd324faeac6617fc2a61d9422cb5ea0bae099d953e82cbb73361"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.storage.zone_input_desc",
+      "location_fingerprint": "9e0b8611c216eed2b014ef3872a281b169716b6f998ed451ceac24edb8da0820",
+      "review_fingerprint": "f754c0d445349f48a706a520f698eff0beaa3f0393ad9ef738c04d82cd73f8a4",
+      "source_sha256": "9ddcdda45f92e5b36ecd1c240ff7f1c474debefa49e7ddb940590dedfc15b935",
+      "status": "reviewed",
+      "target": "영양 정제는 낱개로 넣거나 원래 들어 있던 병째로 넣을 수 있습니다. 어류 사료, 생선 부스러기, 생고기, 빈 병, 예비 정수 필터를 넣으면 자동 관리에 필요할 때 사용합니다.",
+      "target_sha256": "d4c9680515f97fe47c5a0984d3338fb084da0a3b23c81742fd1332c08e8897ce"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3834226532:dsp_gathering_storm_description",
+      "location_fingerprint": "f3634690a462eabc349e2a7487b63e1228353c48f41aa0654c2ef035e1a924b5",
+      "review_fingerprint": "4f00f3645fb908a0499c3569d1323618201573c4e161d73fc57d275f9c7d73ed",
+      "source_sha256": "bb1e0d364d0ef61371a0c7bb87ac79407b8de7ea2c0e301b3984bf2152fbec4d",
+      "status": "reviewed",
+      "target": "수배범이 나타날 확률이 크게 높아집니다. 모든 수배범을 만나거나 그중 한 명을 신고하거나 쏘면 효과가 끝납니다.",
+      "target_sha256": "61088768dad6ef460a371468b76960fbafa04a76a087b4e6433b041f4a8537d1"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:test_hotkey_all_machines",
+      "location_fingerprint": "dddd585270195aaf5eb4accccff85791d89e8218a0bb311b6f97f32fdeef75e9",
+      "review_fingerprint": "9a7ec5e4c85904958bd5da56feebbc2dd74b0fae1c398782f9c6b5c07f9340ce",
+      "source_sha256": "3d0fb8dcda8bec7e35c5697d39466b17b4b3abfd8c5d0385a25aabd75717d7f7",
+      "status": "reviewed",
+      "target": "모드 기계 {0}/{1}대를 지급했습니다.",
+      "target_sha256": "84c3580b30a37b54d316e111cd1b0a71c1dd7d7d78fa99eb939fbe1ecb9ef292"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3838944803:test_hotkey_module_kits",
+      "location_fingerprint": "756b064729192c22ca9be6b048a83c8c151788e1d11f1721d9b500d0b9dd6ced",
+      "review_fingerprint": "0268416a8fd290a92f9e15661cda491c115d2cb1a1cba215833f7952d03f8af3",
+      "source_sha256": "29d6fa917d6f93ae9c9a29ae64dec7f6f39fdc09da4c75e675a7151b2dd4bc1e",
+      "status": "reviewed",
+      "target": "모듈 베이 확장 키트 {0}개를 지급했습니다.",
+      "target_sha256": "17550bd421042e7f260cffac4ada39d9f5d266ccee04015662707d0ec03f3fc3"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3841509159:Keyed/Common.xml:yexiaoyang.settings.section",
+      "location_fingerprint": "d6681658f39c60825f59c0e5a8544cb260fc024aa0c3cacf2efa04190883f313",
+      "review_fingerprint": "b516afa2745b36778dfd302d9f14cc964a21e2794fe97bf358522785b018fdf3",
+      "source_sha256": "8d9f66992dd4373c8f30f09a93b87aa0d9d341b8ec91e0bcbd4a4c744e41b3f9",
+      "status": "reviewed",
+      "target": "튜토리얼",
+      "target_sha256": "38024a5899df53807292b62e666638d1f15ca732ad6ad3c345aaeabaa9d027bf"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3841509159:Keyed/Common.xml:yexiaoyang.settings.skip_command_tutorial",
+      "location_fingerprint": "2976bbe63916bfedd14ac9f2f15a89fabb0a28130f73eeeb3ca6acead28f0b9a",
+      "review_fingerprint": "22bad6a3de9b9c9105fe29ff1ca8158063f69387b7baa32126932fa1b66768ba",
+      "source_sha256": "7dca29b1b414ff4f473f55646d18f6bad1b7dd115d5e3eb952cc4f2e12d0d6e4",
+      "status": "reviewed",
+      "target": "예샤오양의 지휘소 튜토리얼 건너뛰기",
+      "target_sha256": "13593f5922af9ab0428e6fd3e780c6ff494bd0bb2042a188a7791802e3cec98d"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3841509159:Keyed/Common.xml:yexiaoyang.settings.skip_command_tutorial.tooltip",
+      "location_fingerprint": "e0c5054128f15ff2d09bff61cf63751c3434e59dac41c95e3a9f12a640ef34c4",
+      "review_fingerprint": "db59b14f213743e5e3d68896716b6ed7d905a76e96c68540f92867baa80e9de3",
+      "source_sha256": "e0d24a89ecae09729d01056d13220489d4b1105209705aaca8efb5b1bb09d2e7",
+      "status": "reviewed",
+      "target": "지휘소와 구역 튜토리얼만 표시하지 않습니다. 튜토리얼이 완료 처리되거나 보상이 지급되지는 않으며, 다른 이야기는 건너뛰지 않습니다. 이 옵션을 끄면 저장된 진행 상황에서 튜토리얼을 이어갈 수 있습니다.",
+      "target_sha256": "61ba11161ad1bde7d3a33de6b7c494c72c05a69c1fd5c1653d08658b90501f08"
     }
   ],
   "game_builds": [
@@ -307186,8 +307505,8 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "source_inventory": {
-    "fingerprint": "01b155e8194dcc718711492e78e92c9f2e2d2f53652693c9b7c5d80a6506ebb8",
+    "fingerprint": "1143ab99412b85b17e37bb00c9fb23e2e578ebe4ffabfc7a420dccb1433a6f0d",
     "method": "direct-reviewed-workshop-and-managed-runtime-inventory",
-    "target_count": 27882
+    "target_count": 27911
   }
 }

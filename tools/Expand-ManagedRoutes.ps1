@@ -408,6 +408,9 @@ foreach ($target in $targets) {
         } elseif ($mode -eq 'result_string_array') {
             Line '        [HarmonyPostfix]'
             Line "        internal static void Postfix(ref string[] __result) => ManagedLiteralOverlay.PostfixStringArrayBinding(ref __result, $($binding.Id));"
+        } elseif ($mode -eq 'result_string_ko') {
+            Line '        [HarmonyPostfix]'
+            Line "        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, $($binding.Id), koreanOnly: true);"
         } else {
             Line '        [HarmonyPostfix]'
             Line "        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, $($binding.Id));"
