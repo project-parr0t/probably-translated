@@ -23,4 +23,11 @@
   <yexiaoyang.contact069.site.forge.desc>야간 외출: 예샤오양의 인맥으로 주조소와 자유롭게 거래할 수 있습니다. 어떤 물품이든 가치의 70%에 사들이며 자체 상품도 판매합니다. 재고는 3일마다 갱신됩니다.</yexiaoyang.contact069.site.forge.desc>
   <yexiaoyang.contact069.site.ration.desc>야간 외출: 예샤오양의 인맥으로 배급 창고에 남는 식량 배급권을 살 수 있습니다. 모두 진품입니다. 재고는 3일마다 갱신됩니다.</yexiaoyang.contact069.site.ration.desc>
   <yexiaoyang.contact069.site.security.desc>야간 외출: 예샤오양의 인맥으로 보안대에서 무기를 살 수 있습니다. 고급 밀수품도 판매합니다. 총기 허가증은 꼭 챙기세요. 가게를 나서면 보안대는 거기서 샀다는 걸 인정하지 않습니다.</yexiaoyang.contact069.site.security.desc>
+  <yexiaoyang.contact069.site.bribe.title>보안대에 뇌물 주기</yexiaoyang.contact069.site.bribe.title>
+  <yexiaoyang.contact069.site.bribe.service>예샤오양의 서비스</yexiaoyang.contact069.site.bribe.service>
+  <yexiaoyang.contact069.site.bribe.desc>10,000 크레딧을 내면 7일 동안 보안대와 상층 구역 군대가 새로 포위 공격을 하지 않습니다.</yexiaoyang.contact069.site.bribe.desc>
+  <yexiaoyang.contact069.site.bribe.buy>뇌물 지불</yexiaoyang.contact069.site.bribe.buy>
+  <yexiaoyang.contact069.site.bribe.locked>보안대를 점령한 뒤 이용할 수 있습니다.</yexiaoyang.contact069.site.bribe.locked>
+  <yexiaoyang.contact069.site.bribe.active>공식 세력의 포위 공격을 막는 기간이 {days}일 남았습니다.</yexiaoyang.contact069.site.bribe.active>
+  <yexiaoyang.contact069.site.bribe.funds>크레딧이 부족합니다.</yexiaoyang.contact069.site.bribe.funds>
 </LanguageData>

@@ -29,7 +29,7 @@ namespace ProbablyStolenKo
 
     internal static class GeneratedManagedBindings
     {
-        internal const string InventoryFingerprint = "a062bf1fabf87b829983d77a733689aae22963843ca855af77c00e0589b5f7aa";
+        internal const string InventoryFingerprint = "1c3301e1c13b034af282f2a8c6e7403e0910e4a2541a28ea5f43a3f30029cf2e";
         internal const int RouteCount = 1235;
         internal const int BindingCount = 448;
         internal const int StaticPatchBindingCount = 448;

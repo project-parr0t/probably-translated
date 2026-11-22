@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "a062bf1fabf87b829983d77a733689aae22963843ca855af77c00e0589b5f7aa",
-  "entry_count": 26374,
+  "inventory_fingerprint": "1c3301e1c13b034af282f2a8c6e7403e0910e4a2541a28ea5f43a3f30029cf2e",
+  "entry_count": 26375,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",
@@ -29537,7 +29537,7 @@
     "yexiaoyang.InteriorExpansion": {
       "workshop_item_id": "3841509159",
       "assembly_name": "yexiaoyang.InteriorExpansion",
-      "entry_count": 3,
+      "entry_count": 4,
       "manifest": {
         "name": "Probably Stolen: Claims & Uprisings",
         "description": "가게 뒤편에 정수, 수경재배, 제련, 총기 제조, 양조, 보관, 지휘소 등 7종의 방을 증축할 수 있습니다. 지휘소에서는 자원 관리, 병력 모집과 장비 지급, 하층 구역 임무, 턴제 전투, 영토 건설, 일일 결산을 진행합니다. 예샤오양의 안내를 받아 직접 세력을 세워 보세요."
@@ -29546,10 +29546,11 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "Assemblies/yexiaoyang.InteriorExpansion.dll",
-        "assembly_sha256": "20393ba260be013889b6fda07667a70f84145537fb449ff4cadb3be04bf69098"
+        "assembly_sha256": "cd34cf70e6c23e7f5b14fde47bd58ba4728f1774e06fc333f3072042c60d50ed"
       },
       "display_replacements": {
-        "yexiaoyang.settings.section": "튜토리얼"
+        "yexiaoyang.settings.section": "튜토리얼",
+        "Interior Expansion": "튜토리얼"
       }
     },
     "vanilla_chem_ext": {

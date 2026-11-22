@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.command.resources.food_points_tooltip>식량 포인트: {points}</yexiaoyang.command.resources.food_points_tooltip>
+  <yexiaoyang.command.resources.food_points_stack>식량 포인트: {points} (묶음 전체)</yexiaoyang.command.resources.food_points_stack>
+  <yexiaoyang.command.resources.food_points_blocked>식량 포인트: {points} (변환 불가)</yexiaoyang.command.resources.food_points_blocked>
   <yexiaoyang.command.resources.food>식량 포인트</yexiaoyang.command.resources.food>
   <yexiaoyang.command.resources.material>자재 포인트</yexiaoyang.command.resources.material>
   <yexiaoyang.command.resources.title>자원 관리</yexiaoyang.command.resources.title>
@@ -8,11 +11,12 @@
   <yexiaoyang.command.resources.intake>식량이나 자재를 놓으세요.</yexiaoyang.command.resources.intake>
   <yexiaoyang.command.resources.convert_food>식량 모두 변환</yexiaoyang.command.resources.convert_food>
   <yexiaoyang.command.resources.convert_material>자재 모두 변환</yexiaoyang.command.resources.convert_material>
-  <yexiaoyang.command.resources.conversion_note>식량과 자재는 기본 가격만큼 자원 포인트로 변환됩니다.</yexiaoyang.command.resources.conversion_note>
-  <yexiaoyang.command.resources.extraction_note>물품별 비용에 수수료 5%를 더하고 올림합니다.</yexiaoyang.command.resources.extraction_note>
+  <yexiaoyang.command.resources.conversion_note>식량은 {calories} kcal당 1포인트로 변환되며, 남은 열량은 다음 변환으로 이월됩니다. 사치품에 해당하는 식품과 어류 사료는 제외됩니다. 자재는 크레딧 가치에 따라 변환됩니다.</yexiaoyang.command.resources.conversion_note>
+  <yexiaoyang.command.resources.extraction_note>물품마다 수수료 5%를 더해 올림합니다. 식량은 열량으로 환산한 가치와 기본 가치 중 높은 쪽을 적용합니다.</yexiaoyang.command.resources.extraction_note>
   <yexiaoyang.command.resources.no_recipes>해당 물품을 변환하면 인출할 수 있습니다.</yexiaoyang.command.resources.no_recipes>
   <yexiaoyang.command.resources.no_space>자원이나 보관 공간이 부족합니다.</yexiaoyang.command.resources.no_space>
   <yexiaoyang.command.resources.converted>자원 포인트 {points}점을 얻었습니다.</yexiaoyang.command.resources.converted>
   <yexiaoyang.command.resources.bulk_result>물품 묶음 {count}개를 변환했습니다.</yexiaoyang.command.resources.bulk_result>
   <yexiaoyang.command.resources.extracted>물품 {count}개를 인출했습니다.</yexiaoyang.command.resources.extracted>
+  <yexiaoyang.command.resources.calories_carried>다음 식량 포인트로 이월된 열량: {calories} kcal</yexiaoyang.command.resources.calories_carried>
 </LanguageData>

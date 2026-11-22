@@ -52,6 +52,8 @@ Smart Inventory Arrange 3.17.66 retains the current settings and compact-layout 
 
 The next installed-source review updates 11 DLL identities. The Korean CSV overlays add 188 previously uncovered keys and four Perks overrides for native Korean, and revise existing text against current sources. The settings display overlay covers the new Vanilla Chemistry wine group, Probably Flyers settings groups, and the Perks endless-mode notification without adding manifest prerequisites. The Brewing Expansion and Gun Mod Tarkov descriptions reflect their current source manifests. Where the exact earlier DLL is unavailable, the evidence is the pinned locale checkpoint and the currently installed display paths, not a binary-to-binary claim.
 
+Claims & Uprisings 1.1.14 adds 34 indexed strings for battle loot, food-point conversion, the purifier core, contact services, and the console. The resource notes reflect the new calorie accounting. The current DLL preserves the bridge's localization method and fields, but its early settings group now falls back to `Interior Expansion` instead of the raw localization key. Both values are covered for Korean display. The index covers 1,947 keys in 66 files.
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.

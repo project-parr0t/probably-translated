@@ -70,4 +70,7 @@
   <yexiaoyang.ui.water.gift_extract>물통 1개 꺼내기</yexiaoyang.ui.water.gift_extract>
   <yexiaoyang.ui.water.gift_extracted>빈 물통 1개를 선물 보관함에 넣었습니다.</yexiaoyang.ui.water.gift_extracted>
   <yexiaoyang.ui.water.gift_no_space>선물 보관함에 빈자리가 없습니다.</yexiaoyang.ui.water.gift_no_space>
+  <yexiaoyang.ui.water.purifier_core>정수기 코어</yexiaoyang.ui.water.purifier_core>
+  <yexiaoyang.ui.water.purifier_slot_hint>정수기는 자동으로 작동합니다. 정수기 코어를 장착하면 이 방의 효율을 높일 수 있습니다.</yexiaoyang.ui.water.purifier_slot_hint>
+  <yexiaoyang.ui.water.purifier_core_help>보유한 정수기를 장착하세요. 성능이 높을수록 정수가 빨라지고, 품질이 높을수록 순도 상한이 오르며, 효율이 높을수록 일일 전기 요금이 줄어듭니다.</yexiaoyang.ui.water.purifier_core_help>
 </LanguageData>
