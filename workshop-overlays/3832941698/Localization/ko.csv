@@ -309,7 +309,7 @@ dialogue.glm.judge.no,안 사요. 이미 충분히 지쳤으니 더 피곤하게
 dialogue.glm.judge.ok,"음, 좀 비싸네요…… 뭐, 됐어요. 이걸로 따질 기력도 없어요."
 dialogue.glm.judge.shutter,"저기…… 아직 안 끝났는데요. 뭐, 어차피 위층으로 돌아가야 하니까요."
 dialogue.glm.judge.up,조금 아꼈네요. 다른 건 또 뭐가 있죠?
-dialogue.glm.judge.wrong,제가 필요한 물건이 아니에요. 묻지 말고 다른 걸 보여 주세요.
+dialogue.glm.judge.wrong,"야간 근무에 쓸 먹을거리나 생활용품, 공구 같은 게 필요해요. 다른 건 뭐가 있죠?"
 dialogue.glm.phone.1,……여보세요? 위층이에요. 짧게 말해요.
 dialogue.glm.phone.2,물건 얘기는 퇴근하고 하죠.
 dialogue.glm.repeat.1,또 저예요. 이번 달은 야간 근무가 유난히 길게 느껴지네요.
@@ -1345,8 +1345,8 @@ ds.ui.desk.socket_off,전원 꺼짐 · 필요 전력 {0}
 ds.ui.desk.socket_on,전원 켜짐 · 소비 전력 {0}
 ds.ui.dialogue.continue,계속
 ds.ui.dialogue.end,대화 종료
-ds.ui.direct.bottle_off,남은 물 채우기 끄기
-ds.ui.direct.bottle_on,남은 물 채우기 켜기
+ds.ui.direct.bottle_off,남은 물 병입 끄기
+ds.ui.direct.bottle_on,남은 물 병입 켜기
 ds.ui.direct.care,돌보기
 ds.ui.direct.daily,매일 {0}L · 하루 한 번
 ds.ui.direct.draw_water,물 뜨기 / 용기에 붓기
@@ -1851,8 +1851,8 @@ ds1.a2.05,밥은 제가 금방 데울게요. 주인님은 먼저 편하게 둘�
 ds1.a2.10,"주인님, 오늘 밤은 여기서 주무실래요? 내일 아침에 제가 깨워 드릴게요. 늦을 일은 절대 없을 거예요."
 ds1.a2.11,[오늘 밤은 여기서 잘게.]
 ds1.a2.12,[난 가게로 돌아갈게.]
-ds1.a2.13,（‘가게로 돌아간다’를 선택）그럼 불은 켜 둘게요.
-ds1.a2.14,（‘가게로 돌아간다’를 선택）주인님이 가게에서 주무시면…… 저도 지켜볼 수 있으니까요.
+ds1.a2.13,그럼 불은 켜 둘게요.
+ds1.a2.14,주인님이 가게에서 주무셔도…… 저는 주인님을 볼 수 있으니까요.
 ds1.a2.basin.line,물은 귀하니까 설거지한 물로 바닥도 닦을 수 있어요. 주인님 가게도 그래요?
 ds1.a2.basin.narration,"양철 대야에는 씻은 그릇이 담가져 있었다. 물은 배급받은 물이었고, 한 방울도 낭비되지 않았다."
 ds1.a2.bed.line,침대는 주인님 거예요.
@@ -1881,7 +1881,7 @@ ds1.a3.10,"주인님, 좋은 아침이에요! 문 앞 바닥은 제가 깨끗이
 ds1.a3.11,[어젯밤에 너였어?]
 ds1.a3.12,응? 어젯밤에 나쁜 사람이 주인님 집 앞을 서성이고 있었어요.
 ds1.a3.13,(웃음) 이제는 없어요.
-ds1.a3.14,"주인님, 안심하고 주무세요. 제가 있잖아요."
+ds1.a3.14,"주인님, 안심하고 주무세요. 제가 있잖아요. ……오늘 밤에 시간 나시면 집에 와서 따뜻한 밥 드세요. 탁자에서 장부를 정리하던 참이었어요. 불 켜 놓고 기다릴게요."
 ds1.a3.15,[청소부는 남이 가게 앞을 직접 쓸지 못하게 해요.]
 ds1.a3.16,"네, 알고 있어요. 그래서 한밤중에 쓸었어요."
 ds1.a3.17,청소부 쪽에도…… 가서 말해 뒀어요.
@@ -1935,7 +1935,7 @@ ds1.a6.h1,"너는 그 계약서를 반으로 찢고, 책상 위 메모지를 가
 ds1.a6.h2,……
 ds1.a6.h3,정말…… 괜찮은 거예요?
 ds1.a6.h4,"그, 그럼 이제 전 진짜 메이드가 되는 거네요!"
-ds1.a6.h5,주급은 제가 모아 둘게요. 주인님께 새 침대를 사 드릴 거예요!
+ds1.a6.h5,"주인님, 받은 주급은 전부 우리 저금통에 넣어 둘게요. 집에 필요한 살림살이를 사는 데 쓸 거예요!"
 ds1.a6.s1,너는 계약서를 잘 접어 상자에 넣고 뚜껑을 꼭 닫았다.
 ds1.a6.s2,"……어서 오세요, 주인님."
 ds1.a6.s3,그녀는 펜을 들어 장부의 오늘 날짜 칸에 동그라미를 그렸다.
@@ -1982,15 +1982,15 @@ settings.ds_bed_heal.description,집에서 잠잘 때 적용됩니다. 밤마다
 settings.ds_bed_heal.label,침대 수리 후 추가 상처 회복량
 settings.ds_bigdeal_threshold.description,실제 단일 거래 금액을 기준으로 기록합니다.
 settings.ds_bigdeal_threshold.label,고액 거래 대사 발동 기준
-settings.ds_enable_chapter.description,"1장 스토리, 거처 상호작용 및 엔딩 이후 일상을 활성화합니다. 비활성화해도 진행 상황은 유지됩니다. 스토리 빠른 진행이 활성화된 경우에도 거처와 사업장 기능은 계속 사용할 수 있습니다."
-settings.ds_enable_chapter.label,1장 활성화
+settings.ds_enable_chapter.description,"「불이 켜진 방」 스토리와 거처, 사업장 기능을 켜거나 끕니다. 끄면 야간 외출 후에는 기존 경로로 돌아가고 스토리와 집안일이 일시 중지됩니다. 다시 켜면 진행 상황과 자금, 시설이 그대로 유지됩니다. DeepSeek의 일반 방문은 캐릭터별 방문 설정을 따릅니다."
+settings.ds_enable_chapter.label,DeepSeek 스토리 모드(거처 및 사업장)
 settings.ds_iron_cost.description,"집 Lv2: 물건을 주워 귀가해도 제시간에 가게를 열 수 있으며, 다음 날 첫 거래 손님의 호감도가 15% 상승합니다."
 settings.ds_iron_cost.label,다리미판 업그레이드 비용
-settings.ds_kitchen_cost.description,집 Lv3: 식사를 개선하고 중독 증상을 완화합니다. 다음 날 첫 두 거래 손님에게 효과가 적용됩니다.
+settings.ds_kitchen_cost.description,집 Lv3: 식사가 좋아지고 금단 증상이 완화됩니다. 다음 날 처음 거래하는 손님 두 명의 호감도가 오릅니다.
 settings.ds_kitchen_cost.label,주방 업그레이드 비용
-settings.ds_skip_workshop.description,"활성화하면 거처 및 사업장 기능이 자동으로 열리고, 미완료 상태인 1장을 동거 엔딩까지 진행하며 사업장 방 구매를 해금합니다. 진행 중인 대화가 끝난 뒤 적용됩니다. 이미 본 엔딩, 자금 및 구매한 시설은 유지되며, 이 설정을 꺼도 스토리는 되돌아가지 않습니다. 사업장 방과 설비는 별도로 구매해야 합니다."
+settings.ds_skip_workshop.description,"스토리 모드가 켜져 있어야 합니다. 진행 중인 대화가 끝나면 미완료 상태인 1장을 고용 엔딩까지 진행하고 사업장 방을 구매할 수 있게 됩니다. 이미 본 엔딩과 자금, 시설은 유지됩니다. 사업장 방과 설비는 별도로 구매해야 합니다."
 settings.ds_skip_workshop.label,"1장 건너뛰기, 사업장 방 해금"
-settings.ds_wage_pct.description,"고용 엔딩에서는 집세 정산 시 급여를 지급합니다. 현금이 부족하면 미지급 급여로 남고, 잔액이 마이너스가 되지는 않습니다."
+settings.ds_wage_pct.description,"고용 엔딩에서는 임대료 납부일에 주급을 지급하고, DeepSeek는 이 돈을 가계 예비금에 넣습니다. 가게 매입 대출을 갚는 동안은 매주 상환일에 지급하며, 매입을 마치면 이전 임대료를 기준으로 7일마다 지급합니다. 현금이 부족하면 미지급분은 다음으로 넘어가며 잔액은 음수가 되지 않습니다."
 settings.ds_wage_pct.label,주급의 집세 대비 비율(%)
 settings.section.deepseek_chapter,DeepSeek · 불이 켜진 방
 settings.section.deepseek_construction,DeepSeek · 집 꾸미기
@@ -2222,8 +2222,8 @@ ds.delivery.state.hold2,아침에 가게에 가 보니 창고가 문 앞까지 �
 ds.hydro.cycle.first.04b,옆방 수경 재배의 첫 수확물은 무게를 재고 등록까지 마쳤어요. 빨간 펜으로 장부 첫 페이지에 반듯하게 적어 뒀답니다!
 ds.hydro.cycle.first.04s,"이건 외부 사람 손은 전혀 타지 않고, 우리 집 안에서 순환하는 물만 마시고 자란 첫 수확물이에요…… 오늘 밤 이것들이 전부 무사히 주인님 배 속으로 들어갈 거라고 생각하니, 수조 옆에 쪼그리고 앉아 지켜보다가 하마터면 잠들 뻔했어요."
 ds.build.daily.home.10h,"이제 집에는 이층 침대도 있고 냄비 가득 따뜻한 수프도 있고, 옆방에는 채소 모종과 헤엄치는 물고기도 있네요…… 주인님이 막 가게를 열고 얇은 침낭에 누워 계셨을 때, 집이 이렇게 활기차질 거라고 생각해 보신 적 있나요?"
-settings.ds_first_key.label,첫 만남에 주택 열쇠 지급
-settings.ds_first_key.description,"제1장이 활성화되어 있어야 합니다. DeepSeek와 처음 만날 때 주택 열쇠와 쪽지를 즉시 받으며, 이후 이야기는 정상적으로 진행됩니다. 이미 그녀를 만났지만 아직 열쇠를 받지 못한 저장 파일에서는 다음에 가게에 방문할 때 지급합니다. 공간이 부족하면 지급이 보류됩니다. 이 설정을 꺼도 열쇠는 회수되지 않습니다. '제1장 건너뛰기'와 동시에 켜면 이야기 빠른 진행 방식으로 처리됩니다."
+settings.ds_first_key.label,DeepSeek 방문 및 주택 열쇠 지급 보장
+settings.ds_first_key.description,"스토리 모드를 켜고 아직 주택 열쇠를 받지 않았다면 DeepSeek가 영업 중에 반드시 찾아와 열쇠와 쪽지를 줍니다. 현재 손님과 필수 이벤트가 먼저 끝나야 하며, 폐점했거나 외출 중이면 다음 영업까지 기다립니다. 이 방문에는 DeepSeek의 일반 방문 설정, 확률, 일일 한도 또는 재방문 대기 기간이 적용되지 않습니다. 이미 DeepSeek를 만난 저장 파일에서도 적용됩니다. 열쇠를 받은 뒤의 진행 상황은 바뀌지 않습니다. 보관 공간이 꽉 차면 지급을 보류하며, 이 설정을 꺼도 열쇠는 회수되지 않습니다. ‘1장 건너뛰기’ 설정이 우선 적용됩니다."
 ds.ui.first_key.delivered,DeepSeek의 주택 열쇠와 쪽지를 받았습니다.
 ds.note.03a,"어제 손이 떨리는 걸 봤어요, 주인님. 금단 증상이 다시 심해졌나요? 주인님께 드릴 정품 담배 한 갑을 골라 왔어요. 장부를 쓰기 전에 손부터 좀 진정시키세요."
 ds.note.03b,"아까 목이 쉰 것 같던데요, 주인님. 금단 증상이 심한가요? 카운터에 맥주 한 캔을 두었어요. 아무도 안 볼 때 한 모금 마시고 진정하세요."
@@ -2551,3 +2551,21 @@ settings.value.stock_growth,무작위 성장
 "ds.ui.fish.needs_tier","양식 {0}단계 필요"
 "ds.ui.fish.no_space","수조에 빈칸이 부족합니다."
 "ds.ui.fish.cannot_stock","이 물품은 수조에 넣을 수 없습니다."
+"ds.ui.water.goal","병입 기준: 순도 {0}% 이상"
+"ds.ui.water.grade0","최소 수질: 정제수 99.90%"
+"ds.ui.water.grade1","최소 수질: 고급수 99.00%"
+"ds.ui.water.grade2","최소 수질: 베이스워터 98.00%"
+"ds.ui.water.batch_empty","이번 공급분을 다 썼습니다. 내일 물이 보충됩니다."
+"ds.ui.water.batch_ok","현재 공급분이 병입 기준을 충족합니다."
+"ds.ui.water.hint_upgrade","정수장 2레벨부터 정밀 여과 가능"
+"ds.ui.water.hint_fine","다음 공급분 정밀 여과: 고급 정수 필터 내구도 {0} 필요"
+"ds.ui.water.hint_uv","미생물이 검출됐습니다. 다음 공급분을 살균하려면 UV 램프를 켜세요."
+"ds.ui.water.hint_next","다음 공급분에 사용할 필터가 준비됐습니다."
+"settings.ds_ask_return.label","야간 외출 후 집에 들를지 묻기"
+"settings.ds_ask_return.description","귀가 경로를 해금한 뒤 야간 장소에서 나오면 집에 들를지 가게로 돌아갈지 선택할 수 있습니다. 이 설정을 끄면 다른 모드의 동작을 포함해 그 장소의 기존 복귀 방식을 따릅니다. 야간 지도에서 DeepSeek의 집을 직접 방문할 수는 있습니다."
+"phone.deepseek.plan_ready","오늘 밤 할 일 목록을 꺼내 놨어요. 뭘 먼저 해 드릴까요?"
+"phone.deepseek.favor_ready","알겠어요. 지금 카운터 앞에 계신 손님 몫으로 남겨 둘게요."
+"meal.notice.shared","식사를 마쳤습니다. 그 영업일에는 이미 ‘따뜻한 밥의 기운’이 적용됐습니다."
+"phone.page.prompt","그 밖에 원하시는 게 있나요?"
+"phone.page.next","다른 선택지 보기 ({0}/{1})"
+"phone.page.first","첫 페이지로 돌아가기"

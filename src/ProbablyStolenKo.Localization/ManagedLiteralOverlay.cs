@@ -87,8 +87,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "c10fc5a874ebbb80374b476a78d7797fc6530726e6df087c4ff80c57b9625520";
-        private const int ExpectedEntries = 26372;
+        private const string ExpectedFingerprint = "a062bf1fabf87b829983d77a733689aae22963843ca855af77c00e0589b5f7aa";
+        private const int ExpectedEntries = 26374;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {

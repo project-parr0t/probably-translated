@@ -28,3 +28,7 @@ dsp_admirer_poem_40,"나는 급류가 되고 싶다, 산의 시내가 되어 험
 dsp_buddy_end_choice_yes,"좋아, 내가 열게."
 dsp_preset_numeral_tooltip,"시작 프리셋 창의 슬롯 번호를 I, II, III…로 표시합니다. 끄면 1, 2, 3…으로 표시합니다."
 dsp_gathering_storm_description,수배범이 나타날 확률이 크게 높아집니다. 모든 수배범을 만나거나 그중 한 명을 신고하거나 쏘면 효과가 끝납니다.
+dsp_hydro_alcohol_smooth_name,알코올 급수
+dsp_hydro_alcohol_smooth_description,"수도관 수경재배가 유행하면서 하이드로리드와 뉴트리프루트, 발효된 블룸베리가 급수 시설을 뒤덮었습니다. 수도관 물에 있던 불순물 대부분이 전분과 알코올로 바뀌었습니다."
+dsp_blood_donor_redeem_done,교환 완료: 혈액 팩을 내고 액면가가 40인 식량 배급표를 받았습니다.
+dsp_around_world_80_description,"80일째에 시작합니다. 이후 일주일 동안 첫 80일의 모든 이벤트를 겪습니다. 시작할 때 1,000 크레딧과 모든 세력의 평판을 15씩 얻습니다. 경고: 버그가 발생할 수 있습니다."

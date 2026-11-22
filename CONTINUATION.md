@@ -48,6 +48,10 @@ The Workshop CSV overlays add 13 AI Emporium keys and two Upper Levels keys, cor
 
 Better Liquid Scanner passes the lookup key and original format arguments to its localization method. The bridge substitutes the reviewed template before formatting, preserves the native invariant culture, and leaves unknown keys to the original method.
 
+Smart Inventory Arrange 3.17.66 retains the current settings and compact-layout notice. Its previous wildcard route also matched punctuation unchanged by the translation, which attempted to patch `StartupPrewarm.Run` and produced a Harmony exception-block error. Removing the identity replacements keeps those methods out of the generated patch set without changing any displayed text.
+
+The next installed-source review updates 11 DLL identities. The Korean CSV overlays add 188 previously uncovered keys and four Perks overrides for native Korean, and revise existing text against current sources. The settings display overlay covers the new Vanilla Chemistry wine group, Probably Flyers settings groups, and the Perks endless-mode notification without adding manifest prerequisites. The Brewing Expansion and Gun Mod Tarkov descriptions reflect their current source manifests. Where the exact earlier DLL is unavailable, the evidence is the pinned locale checkpoint and the currently installed display paths, not a binary-to-binary claim.
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.

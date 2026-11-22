@@ -1,5 +1,7 @@
 kind_paper,종이 전단
 kind_ink,잉크 스텐실
+kind_gum,씹다 뱉은 껌
+kind_spill,쏟은 음료
 tip_new,어젯밤 붙임
 tip_age,붙인 지 {0}일
 tip_attr,매장 매력도 -{0}
@@ -20,6 +22,8 @@ btn_solvent_buy,용제 한 회분 구매 ({0})
 btn_solvent_buy_tip,정거장 청소 용품에서 잉크 제거제 한 회분을 구매합니다. 스텐실 하나를 지우기에 충분합니다.
 status_scrub_paper,마우스를 누른 채 카드 위를 문지르세요. 몇 번 문지르면 벗겨집니다. 접착제가 조금 남습니다.
 status_scrub_ink,마우스를 누른 채 카드 위를 계속 문지르세요. 잉크는 한 번에 한 겹씩만 옅어집니다.
+status_scrape_gum,마우스를 누른 채 껌 위를 드래그해 긁어내세요. 단단히 붙어 있어 여러 번 긁어야 합니다.
+status_wipe_spill,마우스를 누른 채 앞뒤로 문질러 닦으세요. 아직 젖어 있으니 몇 번이면 됩니다.
 status_need_solvent,잉크는 마른 상태로는 지워지지 않습니다. 먼저 용제를 바르세요.
 status_cant_pay,크레딧이 부족합니다.
 status_no_solvent_item,용제로 쓸 물건이 없습니다.
@@ -63,6 +67,7 @@ order_spray_name,스프레이 도구 주문 ({0}회분)
 order_spray_desc,스프레이 페인트 한 통과 가게 전화번호가 새겨진 스텐실을 가게로 배달합니다. {0}회 사용할 수 있습니다. 눈에 띄고 효과적이지만 치안부에 적발될 가능성이 훨씬 큽니다. 하루 한 번 주문할 수 있습니다.
 tip_far,복도 건너편
 tip_ledge,창문 바깥쪽 턱에 쓰여 있음
+tip_ledge_grime,창문 바깥쪽 턱에 있음
 status_tool_ready,도구를 들었습니다. 카드 위를 드래그해 긁어내세요.
 status_need_solvent_tool,스크레이퍼로는 잉크를 지울 수 없습니다. 먼저 용제를 바르세요 (소독용 알코올을 이 스텐실 위로 드래그하거나 아래에서 용제를 구매하세요).
 scraper_name,스크레이퍼
@@ -140,6 +145,8 @@ cfg_attr_penalty,전단은 매력도를 떨어뜨림
 cfg_attr_penalty_tip,"무료 허용량을 넘으면 전단이 매장 매력도를 낮춥니다. 기본값은 100%이며, 0%면 꺼지고 200%면 두 배로 적용됩니다."
 cfg_haggle_penalty,손님이 어수선함을 두고 흥정함
 cfg_haggle_penalty_tip,"매장 자체(창문과 실내)에 전단이 많을수록 손님이 더 까다롭게 흥정합니다. 종이 전단 3개부터 시작됩니다. 기본값은 100%이며, 0%면 꺼집니다(손님이 더는 이를 언급하지 않습니다). 200%면 두 배로 적용됩니다."
+cfg_grime_chance,손님이 카운터나 창턱을 더럽힐 확률 (100명당)
+cfg_grime_chance_tip,"손님 100명 중 몇 명쯤이 나가면서 카운터나 창턱에 씹던 껌을 붙이거나 음료를 쏟는지 정합니다. 자국은 한 번에 최대 4개까지 생기며, 전단 한도에는 포함되지 않습니다. 0이면 생기지 않습니다."
 log_highlight_hint,모든 전단을 강조 표시하려면 {0}을(를) 누르세요.
 highlight_summary,"전단: 매장 {0}개, 복도 건너편 {1}개"
 highlight_stale,; 3일 초과 {0}개(주황색)
@@ -360,6 +367,12 @@ complain_neon_1,네온사인 때문에 눈이 아프네요.
 complain_neon_2,저렇게 깜빡이니 나이트클럽에 온 줄 알았어요.
 complain_neon_3,아직 켜져 있네요? 전기료는 누가 내요?
 complain_neon_4,"간판 보고 들어왔는데, 여기서 대체 뭘 팔죠?"
+complain_gum_1,카운터에 붙은 껌은 이 집 특산품이에요?
+complain_gum_2,남이 씹던 껌 위에 물건을 올려놓을 뻔했잖아요.
+complain_gum_3,카운터에 껌이 붙었네요. 모르실까 봐요.
+complain_spill_1,여기 다 젖었는데요. 물건은 어디에 놓죠?
+complain_spill_2,저거 누구 음료예요? 제 계산에 넣지 마세요.
+complain_spill_3,"저 웅덩이, 벌써 결정이 생기네요. 안 닦으세요?"
 praise_clean_1,이 구역에서 가게 앞이 깨끗한 곳은 여기뿐이네요.
 praise_clean_2,가게에 전단이 하나도 없네요. 왠지 정직한 느낌이에요.
 praise_clean_3,옆 가게는 벽조차 안 보일 정도야. 여긴 반짝반짝하네.
@@ -535,6 +548,17 @@ ad_w_sticker_phone,56-56-56
 ad_w_sticker_flavor,스티커 재질이다. 떼면 아주 작은 조각으로 영원히 떨어진다. 아마 사업 모델의 일부겠지.
 ad_w_sticker_flavor_v2,열쇠 구멍을 딱 가리고 붙여 놨다. 이제 진짜 열쇠공을 불러야 한다.
 ad_w_sticker_flavor_v3,드라이버로 떼어내려 해봤다. 벽 페인트가 먼저 포기했다.
+ad_w_heir_name,후계자 모집 전단
+ad_w_heir_title,후계자 구함
+ad_w_heir_title_v2,부유한 여성의 공고
+ad_w_heir_title_v3,아버지 구함
+ad_w_heir_body,상층 구역 여성\n남편은 늘 집을 비움\n건강한 남성 구함\n사례금 50만
+ad_w_heir_body_v2,광석 운반선 3척 소유\n아직 자녀 없음\n이력서 필요 없음\n몸만 오세요
+ad_w_heir_body_v3,"건강검진부터\n검진비 단돈 2,000\n성공 시 계약금 지급\n성실 보장"
+ad_w_heir_phone,리 여사 520-168
+ad_w_heir_flavor,"선글라스는 비싸 보이는데 얼굴은 잘 안 보인다. 똑같은 사진을 벌써 전단 세 장에서 봤다."
+ad_w_heir_flavor_v2,"빨간 도장에는 '성실 보장'이라고 찍혀 있다. 믿을 만한 사람은 대개 이런 도장이 필요 없다."
+ad_w_heir_flavor_v3,"50만 크레딧. 이 가게보다 비싸고, 평생 벌 돈보다도 많다."
 ad_sc_docs_name,휘갈긴 글씨: 허가증
 ad_sc_docs_title,허가증 -->
 ad_sc_docs_title_v2,도장 -->
@@ -843,6 +867,25 @@ ad_ag_stack_phone,우 중개인 936-868
 ad_ag_stack_flavor,"포스터가 세 겹이다. 가장 새것이 맨 위고, 가격은 아래로 갈수록 비싸다. 열 번째 포스터에서 물어보기로 했다."
 ad_ag_stack_flavor_v2,맨 아래 포스터의 귀퉁이가 말려 있다. 가격은 오늘의 두 배다. 사진은 똑같다.
 ad_ag_stack_flavor_v3,"매주 월요일 아침, 같은 자리, 같은 풀통. 이 중개인이 네 집주인보다 시간을 잘 지킨다."
+ad_tv_pills_name,기적의 명약 포스터
+ad_tv_pills_title,활력의 명약
+ad_tv_pills_title_v2,비전의 묘약
+ad_tv_pills_title_v3,양자 보약
+ad_tv_pills_body,"정가 1998, 오늘만 198!"
+ad_tv_pills_body_v2,전화 주문 선착순 100명에게 2개 증정!
+ad_tv_pills_body_v3,전문가 검증. 7일 만에 효과
+ad_tv_pills_phone,지금 주문 400-820
+ad_tv_pills_flavor,"낯익은 전문가다. 지난주엔 다른 전단의 정형외과 과장이었고, 지지난주엔 도약 의학 교수였다."
+ad_tv_pills_flavor_v2,"병에 '성분이 들어 있지 않음'이라고 쓰여 있다. 틀린 말은 아닌 것 같다."
+ad_tv_pills_flavor_v3,"사람들은 TV를 믿으니까 TV 화면처럼 인쇄했다. '생방송' 불은 절대 꺼지지 않는다."
+ad_gum_name,씹다 뱉은 껌
+ad_gum_flavor,"누가 껌을 다 씹고는 카운터에 꾹 눌러 붙였다. 서명이라도 남긴 듯 이빨 자국까지 선명하다."
+ad_gum_flavor_v2,분홍색 껌이 반쯤 굳었다. 손톱으로는 꿈쩍도 안 한다. 스크레이퍼가 필요하다.
+ad_gum_flavor_v3,씹다 뱉은 영양 껌. 이 아래 사람들은 맛이 다 빠질 때까지 씹고는 내게 남겨 둔다.
+ad_spill_name,쏟은 음료
+ad_spill_flavor,누가 쏟은 탄산음료에 아직 거품이 인다. 한 시간이면 풀이 되겠다.
+ad_spill_flavor_v2,"손님이 물건을 내려놓다 컵을 넘어뜨렸다. 미안하다고는 하더니 그냥 갔다."
+ad_spill_flavor_v3,호박색 웅덩이에서 탄산 영양액 냄새가 난다. 그냥 음료라고 믿기로 한다.
 ad_sc_bignum_name,휘갈겨 쓴 거대한 숫자
 ad_sc_bignum_title,전화
 ad_sc_bignum_title_v2,전화해
@@ -890,6 +933,18 @@ fake_call_ag_stack_2,>제 벽에 당신 포스터가 세 장 있어요. 하나�
 fake_call_ag_stack_3,"맞아요, 시장이 안정되는 중이죠. 한 주 더 기다리시면..."
 fake_call_ag_stack_4,>더 싸져요?
 fake_call_ag_stack_5,그렇죠. 그러지 말아 주세요. 저도 풀값이 빠듯하거든요.
+fake_call_w_heir_name,리 여사 비서
+fake_call_w_heir_1,리 여사 개인 비서입니다. 지원하실 생각으로 전화하셨나요?
+fake_call_w_heir_2,>그냥 진짜인가 해서요.
+fake_call_w_heir_3,"물론 진짜죠. 먼저 건강검진비 2,000 크레딧을 송금해 주세요."
+fake_call_w_heir_4,>리 여사 얼굴도 못 뵀는데요.
+fake_call_w_heir_5,"여사님을 뵙는 건 2단계입니다. 그 전에 비밀 유지 비용도 내셔야 합니다."
+fake_call_tv_pills_name,주문 상담 전화
+fake_call_tv_pills_1,건강 상담 전화입니다! 어디가 아프세요? 다 고쳐 드립니다.
+fake_call_tv_pills_2,>그냥 뭐가 들어 있는지 알고 싶어서요.
+fake_call_tv_pills_3,"대를 이어 전해 온 비법에 양자 공법을 더하고, 상층 구역 전문가들과 함께 만들었습니다."
+fake_call_tv_pills_4,>그 전문가 이름이 뭔데요?
+fake_call_tv_pills_5,아주 바쁘신 분이라서요. 세 차례 치료분을 주문하시면 직접 전화해 주실 겁니다.
 fake_call_sc_bignum_name,그 번호
 fake_call_sc_bignum_1,네.
 fake_call_sc_bignum_2,">죄송한데, 대체 무슨 일을 하세요?"

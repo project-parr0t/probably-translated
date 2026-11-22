@@ -569,7 +569,7 @@ te_delivery_location_hidden,숨겨진 수납칸
 te_delivery_location_other,기타 재고
 te_delivery_slot,"{0} · {1}열, {2}행"
 te_commission_min_wine_score,와인 품질: {0}+점 ({1})
-te_mod_name,담배 확장팩
+te_mod_name,Tobacco Expansion
 te_order_common_flavored,일반 등급 향 담배 아무거나 (기본형 제외)
 te_order_alternative,둘 중 하나를 선택하세요. 첫 납품 후에는 선택이 고정되며 두 선택지를 함께 적용할 수 없습니다.
 te_cigarette_tier_lore_0,매일 걷는 거리처럼 익숙한 담배 한 갑
