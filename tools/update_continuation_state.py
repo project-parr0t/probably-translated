@@ -76,6 +76,7 @@ def main() -> int:
         "generated_refresh": constant(generated, "RefreshBindingCount"),
     }
     state["artifacts"].setdefault("preview.png", "")
+    state["artifacts"].setdefault("src/ProbablyStolenKo.Localization/AquaSenseCompositionOverlay.cs", "")
     state["artifacts"].setdefault("src/ProbablyStolenKo.Localization/PerksFriendlyTalkOverlay.cs", "")
     state["artifacts"].setdefault("src/ProbablyStolenKo.Localization/KitchenLanguageOverlay.cs", "")
     state["trees"].setdefault("loading-ui", {})

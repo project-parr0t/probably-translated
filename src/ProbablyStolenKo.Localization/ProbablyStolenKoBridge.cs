@@ -32,6 +32,7 @@ namespace ProbablyStolenKo
         private readonly HologramPreferenceLayout _hologramPreferenceLayout = new HologramPreferenceLayout();
         private readonly PerksFriendlyTalkOverlay _perksFriendlyTalkOverlay = new PerksFriendlyTalkOverlay();
         private readonly KitchenLanguageOverlay _kitchenLanguageOverlay = new KitchenLanguageOverlay();
+        private readonly AquaSenseCompositionOverlay _aquaSenseCompositionOverlay = new AquaSenseCompositionOverlay();
         private ModLog _log;
         private bool _enabled;
         private bool _activated;
@@ -152,6 +153,19 @@ namespace ProbablyStolenKo
 
         private void ApplyTarget(LoadedMod loaded)
         {
+            // This repairs failed lookups, not Cro's translation data. Apply it regardless of catalog ownership.
+            if (loaded.Manifest.ID == AquaSenseCompositionOverlay.TargetModId)
+            {
+                try
+                {
+                    _aquaSenseCompositionOverlay.Apply();
+                }
+                catch (Exception error)
+                {
+                    _log.Error("AquaSense component name overlay failed: " + error.Message);
+                }
+            }
+
             if (_croTranslationPackActive && CroOverlapManifestIds.Contains(loaded.Manifest.ID)) return;
             WorkshopModPayload workshopPayload;
             if (_workshopCatalog.TryGetMod(loaded.Manifest.ID, out workshopPayload))
@@ -296,6 +310,8 @@ namespace ProbablyStolenKo
             _perksFriendlyTalkOverlay.Restore();
             try { _kitchenLanguageOverlay.Restore(); }
             catch (Exception error) { _log.Error("Kitchen language overlay removal failed: " + error.Message); }
+            try { _aquaSenseCompositionOverlay.Restore(); }
+            catch (Exception error) { _log.Error("AquaSense component name overlay removal failed: " + error.Message); }
             _manifestOverlay?.Restore();
             WorkshopOverlayEngine.Restore(_workshopCatalog, _workshopOriginals);
         }
