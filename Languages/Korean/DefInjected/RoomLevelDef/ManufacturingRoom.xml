@@ -8,7 +8,7 @@
 원료 / 생산품 보관함: 각각 96칸
 공용 모듈 공간: 28칸
 전력 요금: 하루 15크레딧</yexiaoyang.ManufacturingRoom.Basic.cardText>
-  <yexiaoyang.ManufacturingRoom.Basic.upgradeText>기초 제조실로 개조합니다. 비용: 4,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 15크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+  <yexiaoyang.ManufacturingRoom.Basic.upgradeText>기초 제조실로 개조합니다. 비용: 1,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 15크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
 독립 프린터 1대 · 칩 재사용 가능 · 기본 게임의 레시피와 재료 요건 적용 · 프레임 수동 조립 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.ManufacturingRoom.Basic.upgradeText>
   <yexiaoyang.ManufacturingRoom.Basic.facilities.printer_01.label>3D 프린터 1</yexiaoyang.ManufacturingRoom.Basic.facilities.printer_01.label>
   <yexiaoyang.ManufacturingRoom.Improved.label>개량 제조실</yexiaoyang.ManufacturingRoom.Improved.label>

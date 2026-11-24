@@ -5,8 +5,12 @@
   <yexiaoyang.traits.kind.mixed>양면</yexiaoyang.traits.kind.mixed>
   <yexiaoyang.traits.kind.rare>희귀</yexiaoyang.traits.kind.rare>
   <yexiaoyang.traits.choice.title>{soldier}: 레벨 상승</yexiaoyang.traits.choice.title>
-  <yexiaoyang.traits.choice.body>무작위 특성을 하나 받거나 기존 특성 하나를 골라 잊을 수 있습니다.</yexiaoyang.traits.choice.body>
-  <yexiaoyang.traits.choice.random>무작위 특성 받기</yexiaoyang.traits.choice.random>
+  <yexiaoyang.traits.choice.body>특성 하나를 얻거나 잊을 수 있습니다. 결정을 내일로 미룰 수도 있습니다.</yexiaoyang.traits.choice.body>
+  <yexiaoyang.traits.choice.gain>특성 얻기</yexiaoyang.traits.choice.gain>
+  <yexiaoyang.traits.choice.choose_one>아래에서 특성 하나를 고르세요. 마우스를 올리면 효과를 볼 수 있습니다.</yexiaoyang.traits.choice.choose_one>
+  <yexiaoyang.traits.choice.back>뒤로</yexiaoyang.traits.choice.back>
+  <yexiaoyang.traits.choice.entry>레벨 상승 특성 선택 ({count})</yexiaoyang.traits.choice.entry>
+  <yexiaoyang.traits.choice.pending>대기 중인 특성 ({count})</yexiaoyang.traits.choice.pending>
   <yexiaoyang.traits.choice.forget>잊을 특성 고르기</yexiaoyang.traits.choice.forget>
   <yexiaoyang.traits.choice.tomorrow>내일 결정</yexiaoyang.traits.choice.tomorrow>
   <yexiaoyang.traits.choice.forget_hint>잊을 특성의 ×를 누르세요. 취소하려면 기록을 닫으세요.</yexiaoyang.traits.choice.forget_hint>

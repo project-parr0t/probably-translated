@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.soldier.ammo.charges>남은 탄약 {remaining}/{capacity}</yexiaoyang.soldier.ammo.charges>
+  <yexiaoyang.soldier.ammo.charges_with_reserve>남은 탄약 {remaining}/{capacity}, 가득 찬 예비 탄약 {reserve}개</yexiaoyang.soldier.ammo.charges_with_reserve>
+</LanguageData>

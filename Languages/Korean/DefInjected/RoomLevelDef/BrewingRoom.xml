@@ -14,7 +14,7 @@
 숙성 설비: 0대
 양조 조작: 수동 양조
 전력 요금: 하루 0크레딧</yexiaoyang.BrewingRoom.Basic.cardText>
-  <yexiaoyang.BrewingRoom.Basic.upgradeText>기초 양조실로 개조합니다. 비용: 3,000크레딧. 소요 기간: 1일.</yexiaoyang.BrewingRoom.Basic.upgradeText>
+  <yexiaoyang.BrewingRoom.Basic.upgradeText>기초 양조실로 개조합니다. 비용: 1,000크레딧. 소요 기간: 1일.</yexiaoyang.BrewingRoom.Basic.upgradeText>
   <yexiaoyang.BrewingRoom.Basic.facilities.bay_01.label>발효 슬롯 1</yexiaoyang.BrewingRoom.Basic.facilities.bay_01.label>
   <yexiaoyang.BrewingRoom.Basic.facilities.bay_02.label>발효 슬롯 2</yexiaoyang.BrewingRoom.Basic.facilities.bay_02.label>
   <yexiaoyang.BrewingRoom.Basic.facilities.bay_03.label>발효 슬롯 3</yexiaoyang.BrewingRoom.Basic.facilities.bay_03.label>

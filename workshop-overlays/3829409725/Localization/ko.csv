@@ -55,7 +55,7 @@ hydra_catalyst,리포본 제제 {0} 이동 예정 (촉매라 소모되지 않음
 hydra_tip_hint,장착 시: 왼쪽 클릭으로 흡입 / 비우기
 agent_name,피펫 판매상
 agent_dialog_1,실험실 장비라면 뭐든 있지… 값을 치를 수만 있다면.
-agent_dialog_2,피펫과 화학 약품이 있습니다. 필요한 것을 살펴보세요.
+agent_dialog_2,피펫도 있고 화학 약품도 있어. 필요한 게 있나 둘러봐.
 config_thief_hydra_label,도둑이 자동 피펫을 판매할 수 있음
 config_thief_hydra_tip,도둑이 자동 피펫을 재고로 보유하도록 허용합니다. 다른 모드의 콜백을 보유한 도둑을 상점 갱신 모드가 갱신하지 않는다면 이 설정을 끄세요.
 hydra_mode_chlorine,모드: 염소

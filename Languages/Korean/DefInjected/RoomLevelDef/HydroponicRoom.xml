@@ -9,7 +9,7 @@
 영양분: 수동 혼합
 원료 / 생산품 보관함: 각각 96칸
 전력 요금: 하루 10크레딧</yexiaoyang.HydroponicRoom.Basic.cardText>
-  <yexiaoyang.HydroponicRoom.Basic.upgradeText>기초 수경재배실로 개조합니다. 비용: 3,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 10크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+  <yexiaoyang.HydroponicRoom.Basic.upgradeText>기초 수경재배실로 개조합니다. 비용: 1,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 10크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
 독립 재배대 1대 · 기본 게임의 생장·유전 규칙 적용 · 수동 급수 및 영양분 공급</yexiaoyang.HydroponicRoom.Basic.upgradeText>
   <yexiaoyang.HydroponicRoom.Basic.facilities.grow_01.label>수경재배대 1</yexiaoyang.HydroponicRoom.Basic.facilities.grow_01.label>
   <yexiaoyang.HydroponicRoom.Improved.label>개량 수경재배실</yexiaoyang.HydroponicRoom.Improved.label>

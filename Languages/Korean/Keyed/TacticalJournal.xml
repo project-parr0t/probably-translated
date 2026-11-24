@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.tactical.journal.title>전투 기록</yexiaoyang.tactical.journal.title>
+  <yexiaoyang.tactical.journal.tab>기록</yexiaoyang.tactical.journal.tab>
+  <yexiaoyang.tactical.journal.empty>아직 기록된 행동이 없습니다</yexiaoyang.tactical.journal.empty>
+  <yexiaoyang.tactical.journal.unknown>알 수 없음</yexiaoyang.tactical.journal.unknown>
+  <yexiaoyang.tactical.journal.cell>({x}, {y})칸</yexiaoyang.tactical.journal.cell>
+  <yexiaoyang.tactical.journal.move>{actor}: {cells}칸 이동 → {target} · {ap} AP 소모</yexiaoyang.tactical.journal.move>
+  <yexiaoyang.tactical.journal.move_stopped>{actor}: {target} 방향으로 이동하던 중 멈춤 · {ap} AP 소모</yexiaoyang.tactical.journal.move_stopped>
+  <yexiaoyang.tactical.journal.cover>{actor}: 엄폐 성공. 엄폐 방향에서 오는 사격의 명중률이 {percent}%p 감소합니다.</yexiaoyang.tactical.journal.cover>
+  <yexiaoyang.tactical.journal.cover_lost>{actor}: 엄폐 해제.</yexiaoyang.tactical.journal.cover_lost>
+  <yexiaoyang.tactical.journal.reaction>{actor}: {target}에게 기회 공격, 피해 {damage}.</yexiaoyang.tactical.journal.reaction>
+  <yexiaoyang.tactical.journal.hit>{actor}: {target} 공격 · 무기 {weapon} (명중률 {chance}%). 명중! 피해 {damage}.</yexiaoyang.tactical.journal.hit>
+  <yexiaoyang.tactical.journal.miss>{actor}: {target} 공격 · 무기 {weapon} (명중률 {chance}%). 빗나감! 피해 {damage}.</yexiaoyang.tactical.journal.miss>
+  <yexiaoyang.tactical.journal.cover_hit> 탄환이 {target}에 맞아 엄폐물에 피해 {damage}.</yexiaoyang.tactical.journal.cover_hit>
+  <yexiaoyang.tactical.journal.d20> 20면체 주사위 결과: {roll} ({threshold} 이하일 때 명중).</yexiaoyang.tactical.journal.d20>
+  <yexiaoyang.tactical.journal.faction>세력: {name}</yexiaoyang.tactical.journal.faction>
+  <yexiaoyang.tactical.journal.faction_enemy>적군</yexiaoyang.tactical.journal.faction_enemy>
+  <yexiaoyang.tactical.journal.faction_neutral>중립</yexiaoyang.tactical.journal.faction_neutral>
+  <yexiaoyang.tactical.journal.end_turn>{actor}: 턴 종료.</yexiaoyang.tactical.journal.end_turn>
+  <yexiaoyang.tactical.battle.forecast_hit_per_shot>탄환당 명중률</yexiaoyang.tactical.battle.forecast_hit_per_shot>
+</LanguageData>

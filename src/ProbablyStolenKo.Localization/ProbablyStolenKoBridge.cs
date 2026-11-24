@@ -30,6 +30,7 @@ namespace ProbablyStolenKo
         private ClaimsLanguageOverlay _claimsLanguageOverlay;
         private LabelerTextOverlay _labelerTextOverlay;
         private readonly HologramPreferenceLayout _hologramPreferenceLayout = new HologramPreferenceLayout();
+        private readonly PerksFriendlyTalkOverlay _perksFriendlyTalkOverlay = new PerksFriendlyTalkOverlay();
         private ModLog _log;
         private bool _enabled;
         private bool _activated;
@@ -215,6 +216,17 @@ namespace ProbablyStolenKo
                     _log.Error("Claims language overlay failed: " + error.Message);
                 }
             }
+            if (StringComparer.Ordinal.Equals(loaded.Manifest.ID, PerksFriendlyTalkOverlay.TargetModId))
+            {
+                try
+                {
+                    _perksFriendlyTalkOverlay.Apply();
+                }
+                catch (Exception error)
+                {
+                    _log.Error("Perks friendly talk overlay failed: " + error.Message);
+                }
+            }
             if (StringComparer.Ordinal.Equals(loaded.Manifest.ID, HologramPreferenceLayout.TargetModId))
             {
                 try
@@ -277,6 +289,7 @@ namespace ProbablyStolenKo
             _spaceCoffeeSceneOverlay?.Restore();
             _claimsLanguageOverlay?.Restore();
             _hologramPreferenceLayout.Restore();
+            _perksFriendlyTalkOverlay.Restore();
             _manifestOverlay?.Restore();
             WorkshopOverlayEngine.Restore(_workshopCatalog, _workshopOriginals);
         }

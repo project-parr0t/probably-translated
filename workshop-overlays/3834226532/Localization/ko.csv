@@ -2,7 +2,7 @@
 dsp_cellar_description,"양조 기간이 1일 줄고, 완성된 술은 3일 숙성됩니다."
 dsp_picky_customers_description,손님들이 더 특이한 요구를 내놓습니다.
 dsp_never_empty_handed_description,주머니가 하나 이상 비어 있는 상태로 장소를 떠나면 15 크레딧을 얻습니다.
-dsp_prohibition_description,모든 술이 중급 밀수품으로 취급됩니다. 발효 중인 술은 50 크레딧에 팔리며 주류·담배류로 취급됩니다.
+dsp_prohibition_description,모든 술이 하급 밀수품으로 취급됩니다. 발효 중인 술은 50 크레딧에 팔리며 주류·담배류로 취급됩니다.
 dsp_tobacco_tax_description,담배에 소매가 50% 할증이 붙습니다. 다만 그 할증분의 20%만 받습니다.
 dsp_scav_drone_description,주머니가 두 개 늘어납니다. 탐색할 때 쓰레기를 얻을 확률이 낮아집니다.
 dsp_trust_fund_description,매주 목요일에 50 크레딧을 받습니다.
@@ -30,5 +30,38 @@ dsp_preset_numeral_tooltip,"시작 프리셋 창의 슬롯 번호를 I, II, III�
 dsp_gathering_storm_description,수배범이 나타날 확률이 크게 높아집니다. 모든 수배범을 만나거나 그중 한 명을 신고하거나 쏘면 효과가 끝납니다.
 dsp_hydro_alcohol_smooth_name,알코올 급수
 dsp_hydro_alcohol_smooth_description,"수도관 수경재배가 유행하면서 하이드로리드와 뉴트리프루트, 발효된 블룸베리가 급수 시설을 뒤덮었습니다. 수도관 물에 있던 불순물 대부분이 전분과 알코올로 바뀌었습니다."
-dsp_blood_donor_redeem_done,교환 완료: 혈액 팩을 내고 액면가가 40인 식량 배급표를 받았습니다.
-dsp_around_world_80_description,"80일째에 시작합니다. 이후 일주일 동안 첫 80일의 모든 이벤트를 겪습니다. 시작할 때 1,000 크레딧과 모든 세력의 평판을 15씩 얻습니다. 경고: 버그가 발생할 수 있습니다."
+dsp_blood_donor_redeem_done,혈액 팩 교환 완료: 배급에 쓸 수 있는 보상 40을 받았습니다.
+dsp_around_world_80_description,"도입부를 건너뛴 경우에만 사용할 수 있습니다. 80일째에 시작하며, 이후 일주일 동안 첫 80일의 모든 이벤트를 겪습니다. 시작할 때 1,000 크레딧과 모든 세력의 평판을 15씩 얻습니다. 경고: 버그가 발생할 수 있습니다."
+dsp_blood_donor_description,"하루에 한 번, 매점의 헌혈소에서 헌혈하거나 혈액 팩을 우클릭해 헌혈할 수 있습니다. 헌혈하면 혈액 팩을 하나 받지만 다음 날 일반 손님이 한 명 줄어듭니다."
+dsp_blood_donor_done,헌혈 완료: 혈액 팩을 하나 받았습니다. 내일은 일반 손님이 한 명 줄어듭니다.
+dsp_blood_donor_no_space,혈액 팩을 둘 자리가 없습니다.
+dsp_blood_donor_row_done,오늘 헌혈 완료
+dsp_unlicensed_description,영업 허가증을 받기 전까지 무역위원회 관리가 5일째부터 7일마다 방문합니다.
+dsp_wild_ration_description,식량 배급표는 와일드의 호의로 교환됩니다. 매점에서 물건을 살 때 와일드의 호의를 사용합니다.
+dsp_universal_liquid_description,"누드카를 드라이버, 플라즈마 절단기, 전선 절단기 또는 모듈 추출기 대신 쓸 수 있습니다. 시작할 때 누드카 한 병을 받습니다."
+dsp_beer_hall_orator_name,맥주집 연설가
+dsp_beer_hall_orator_description,레드 임프 맥주 한 상자를 가지고 시작합니다. 레드 임프 맥주를 한 병 팔 때마다 손님이 속한 세력의 평판이 0.1 오릅니다.
+dsp_manifest_destiny_description,"현재 일수만큼 행운이 오릅니다(최대 50). 시작할 때 간식을 종류별로 하나씩 받습니다."
+dsp_double_minded_name,오락가락
+dsp_double_minded_description,"홀수 날에는 여성 손님과, 짝수 날에는 남성 손님과 거래할 때 5% 보너스를 받습니다."
+dsp_berserker_description,드림 더스트를 복용하면 밤에 몽유 증상이 나타납니다. 가벼운 부상은 행동에 지장을 주지 않습니다.
+dsp_vampire_description,"혈액 팩을 정기적으로 마시지 않으면 거래 보정치가 -8%가 됩니다. ‘푸른 피’를 마시면 다시 목마를 때까지 ‘유창한 언변’ 특성을 얻습니다."
+dsp_vampire_penalty,갈증: 거래 보정 -X%
+dsp_fifth_republic_description,"매주 ‘보안대 예산 증액’ 이벤트가 발생합니다. 이벤트가 발생한 날에는 반드시 불시 검문이 있습니다."
+dsp_nine_eleven_description,"자판기와 급수 자판기가 설치된 상태로 시작합니다. 예전에 루를 신고한 적이 있고, 루는 곧 돌아옵니다."
+dsp_new_world_description,보안대의 이름이 애정부로 바뀝니다. 애정부의 평판 보상과 불이익은 기본 게임과 다르며 검문을 하지 않습니다.
+dsp_new_world_rep_loyal_desc,다른 세력의 평판으로 인한 불이익이 적용되지 않습니다.
+dsp_new_world_rep_loyal_flavor,애정부 ++좋음.
+dsp_new_world_rep_scheduled_name,일정대로
+dsp_new_world_rep_scheduled_desc,우호 면담은 월요일에만 진행됩니다.
+dsp_new_world_rep_assembly_desc,다른 세력의 평판 20점 및 0점 보상이 항상 적용됩니다.
+dsp_new_world_rep_surplus_name,애정부 잉여 물자
+dsp_new_world_rep_surplus_desc,애정부의 잉여 물자 상인이 가끔 방문해 불용 장비를 판매합니다.
+dsp_new_world_rep_restricted_flavor,여기는 애정부입니다. 남기신 메시지는 녹음됩니다.
+dsp_new_world_rep_reeducation_desc,이 단계에 처음 도달하면 ‘모범 시민’과 ‘수다쟁이’ 특성을 얻습니다.
+dsp_new_world_rep_veto_desc,매일 다른 모든 세력의 평판이 5씩 감소합니다.
+dsp_jackie_chan_name,성룡
+dsp_jackie_chan_description,잡동사니를 조합해 더 값진 무기를 만들 수 있습니다. 전화 벨소리가 아시아풍 음악으로 바뀝니다. 잡동사니를 우클릭하면 같은 보관함에 든 잡동사니를 조합합니다.
+dsp_jackie_done,"잡동사니 {0}개(가치 {1})를 조합했습니다. 제작한 무기: {2}"
+dsp_jackie_no_junk,조합하려면 잡동사니가 두 개 이상 필요합니다.
+dsp_jackie_no_weapon,이 잡동사니로는 근접 무기를 만들 수 없습니다.

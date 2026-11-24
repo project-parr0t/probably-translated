@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.tactical.editor.title>전투 지도 편집기</yexiaoyang.tactical.editor.title>
+  <yexiaoyang.tactical.editor.map_id>지도 ID</yexiaoyang.tactical.editor.map_id>
+  <yexiaoyang.tactical.editor.open>열기</yexiaoyang.tactical.editor.open>
+  <yexiaoyang.tactical.editor.new>새로 만들기</yexiaoyang.tactical.editor.new>
+  <yexiaoyang.tactical.editor.size>크기</yexiaoyang.tactical.editor.size>
+  <yexiaoyang.tactical.editor.background>배경 에셋</yexiaoyang.tactical.editor.background>
+  <yexiaoyang.tactical.editor.apply>적용</yexiaoyang.tactical.editor.apply>
+  <yexiaoyang.tactical.editor.props>배치물</yexiaoyang.tactical.editor.props>
+  <yexiaoyang.tactical.editor.select>선택</yexiaoyang.tactical.editor.select>
+  <yexiaoyang.tactical.editor.erase>지우기</yexiaoyang.tactical.editor.erase>
+  <yexiaoyang.tactical.editor.player_spawn>아군 배치</yexiaoyang.tactical.editor.player_spawn>
+  <yexiaoyang.tactical.editor.enemy_spawn>적군 배치</yexiaoyang.tactical.editor.enemy_spawn>
+  <yexiaoyang.tactical.editor.move>이동</yexiaoyang.tactical.editor.move>
+  <yexiaoyang.tactical.editor.rotate>회전</yexiaoyang.tactical.editor.rotate>
+  <yexiaoyang.tactical.editor.save>초안 저장</yexiaoyang.tactical.editor.save>
+  <yexiaoyang.tactical.editor.export>Def XML 내보내기</yexiaoyang.tactical.editor.export>
+  <yexiaoyang.tactical.editor.copy_folder_path>지도 폴더 경로 복사</yexiaoyang.tactical.editor.copy_folder_path>
+  <yexiaoyang.tactical.editor.unavailable>전투 도구를 사용하려면 가게를 불러오세요.</yexiaoyang.tactical.editor.unavailable>
+  <yexiaoyang.tactical.editor.unsaved>다른 지도를 열기 전에 현재 초안을 저장하거나 닫으세요.</yexiaoyang.tactical.editor.unsaved>
+  <yexiaoyang.tactical.editor.place_hint>칸을 클릭하면 선택한 배치물을 놓습니다. 기존 배치물은 우클릭으로 선택하세요.</yexiaoyang.tactical.editor.place_hint>
+  <yexiaoyang.tactical.editor.player_hint>빈 칸을 클릭해 아군 배치 지점을 지정하세요.</yexiaoyang.tactical.editor.player_hint>
+  <yexiaoyang.tactical.editor.enemy_hint>빈 칸을 클릭해 적군 배치 지점을 지정하세요.</yexiaoyang.tactical.editor.enemy_hint>
+  <yexiaoyang.tactical.editor.erase_hint>배치물이나 배치 지점을 클릭해 초안에서 지우세요.</yexiaoyang.tactical.editor.erase_hint>
+  <yexiaoyang.tactical.editor.move_hint>선택한 배치물의 왼쪽 위 모서리를 놓을 칸을 클릭하세요.</yexiaoyang.tactical.editor.move_hint>
+  <yexiaoyang.tactical.editor.select_hint>이동하거나 회전하거나 소유 진영을 바꿀 배치물을 선택하세요.</yexiaoyang.tactical.editor.select_hint>
+  <yexiaoyang.tactical.editor.prop_selected>이 배치물을 이동하거나 회전할 수 있습니다. 소유 버튼으로 진영을 바꿀 수 있습니다.</yexiaoyang.tactical.editor.prop_selected>
+  <yexiaoyang.tactical.editor.unknown_prop>이 배치물의 정의를 찾을 수 없습니다.</yexiaoyang.tactical.editor.unknown_prop>
+  <yexiaoyang.tactical.editor.invalid_facing>이 배치물은 해당 방향을 지원하지 않습니다.</yexiaoyang.tactical.editor.invalid_facing>
+  <yexiaoyang.tactical.editor.bounds>변경하면 물체가 지도 밖으로 벗어납니다.</yexiaoyang.tactical.editor.bounds>
+  <yexiaoyang.tactical.editor.spawn_overlap>이 칸에는 이미 배치 지점이 있습니다.</yexiaoyang.tactical.editor.spawn_overlap>
+  <yexiaoyang.tactical.editor.prop_overlap>이 칸에는 이미 배치물이 있습니다.</yexiaoyang.tactical.editor.prop_overlap>
+  <yexiaoyang.tactical.editor.map_missing>{id} 이름으로 저장된 초안이나 모드에 포함된 지도가 없습니다.</yexiaoyang.tactical.editor.map_missing>
+  <yexiaoyang.tactical.editor.opened>{id} 지도를 열었습니다.</yexiaoyang.tactical.editor.opened>
+  <yexiaoyang.tactical.editor.test_opened>{id} 지도에서 시험 전투를 시작했습니다.</yexiaoyang.tactical.editor.test_opened>
+  <yexiaoyang.tactical.editor.map_exists>{id} ID가 이미 있습니다. 열기를 누르거나 새 ID를 입력하세요.</yexiaoyang.tactical.editor.map_exists>
+  <yexiaoyang.tactical.editor.invalid_size>너비는 {min}–{width}, 높이는 {min}–{height} 범위여야 합니다.</yexiaoyang.tactical.editor.invalid_size>
+  <yexiaoyang.tactical.editor.invalid_background>사용 가능한 배경 에셋 키를 입력하거나 비워 두세요.</yexiaoyang.tactical.editor.invalid_background>
+  <yexiaoyang.tactical.editor.invalid_id>지도 ID에는 영문자, 숫자, 밑줄, 하이픈을 최대 48자까지 쓸 수 있습니다.</yexiaoyang.tactical.editor.invalid_id>
+  <yexiaoyang.tactical.editor.apply_first>지도 크기나 배경 변경을 먼저 적용하세요.</yexiaoyang.tactical.editor.apply_first>
+  <yexiaoyang.tactical.editor.spawn_required>각 진영에 배치 지점을 하나 이상 놓으세요.</yexiaoyang.tactical.editor.spawn_required>
+  <yexiaoyang.tactical.editor.overwrite>{id} ID가 이미 있습니다. 덮어쓰려면 같은 버튼을 다시 클릭하세요.</yexiaoyang.tactical.editor.overwrite>
+  <yexiaoyang.tactical.editor.saved>초안 저장 위치: {path}</yexiaoyang.tactical.editor.saved>
+  <yexiaoyang.tactical.editor.exported>Def XML을 내보낸 위치: {path}</yexiaoyang.tactical.editor.exported>
+  <yexiaoyang.tactical.editor.export_folder_copied>{path} 경로를 복사했습니다. 지도를 내보낸 뒤 파일 탐색기 주소 표시줄에 붙여 넣으세요.</yexiaoyang.tactical.editor.export_folder_copied>
+  <yexiaoyang.tactical.editor.discard>저장하지 않은 변경 사항이 있습니다. 변경을 버리려면 같은 조작을 한 번 더 하세요.</yexiaoyang.tactical.editor.discard>
+  <yexiaoyang.tactical.editor.file_error>지도를 읽거나 쓸 수 없습니다. {error}</yexiaoyang.tactical.editor.file_error>
+  <yexiaoyang.tactical.editor.facing>방향 {facing}</yexiaoyang.tactical.editor.facing>
+  <yexiaoyang.tactical.editor.ownership>소유 · {side}</yexiaoyang.tactical.editor.ownership>
+  <yexiaoyang.tactical.editor.selection>{name} · ({x}, {y})</yexiaoyang.tactical.editor.selection>
+  <yexiaoyang.tactical.editor.spawn_count>배치 지점&#10;아군 {players} · 적군 {enemies}</yexiaoyang.tactical.editor.spawn_count>
+  <yexiaoyang.tactical.side.neutral>중립</yexiaoyang.tactical.side.neutral>
+  <yexiaoyang.tactical.side.player>아군</yexiaoyang.tactical.side.player>
+  <yexiaoyang.tactical.side.enemy>적군</yexiaoyang.tactical.side.enemy>
+  <yexiaoyang.tactical.prop.iron_wall>철제 벽</yexiaoyang.tactical.prop.iron_wall>
+  <yexiaoyang.tactical.prop.iron_door>철제 문</yexiaoyang.tactical.prop.iron_door>
+  <yexiaoyang.tactical.prop.wood_crate>나무 상자</yexiaoyang.tactical.prop.wood_crate>
+  <yexiaoyang.tactical.prop.cargo_container>화물 컨테이너</yexiaoyang.tactical.prop.cargo_container>
+  <yexiaoyang.tactical.prop.abandoned_vehicle>버려진 차량</yexiaoyang.tactical.prop.abandoned_vehicle>
+  <yexiaoyang.ui.console.tactical_edit_help>전투 지도 편집기를 엽니다. 기본 지도는 test입니다.</yexiaoyang.ui.console.tactical_edit_help>
+  <yexiaoyang.ui.console.tactical_test_help>지정한 지도에서 독립된 전투를 시작합니다. 기본 지도는 test입니다.</yexiaoyang.ui.console.tactical_test_help>
+  <yexiaoyang.tactical.battle.move>이동</yexiaoyang.tactical.battle.move>
+  <yexiaoyang.tactical.battle.shoot>사격</yexiaoyang.tactical.battle.shoot>
+  <yexiaoyang.tactical.battle.melee>근접 공격</yexiaoyang.tactical.battle.melee>
+  <yexiaoyang.tactical.battle.end_turn>턴 종료</yexiaoyang.tactical.battle.end_turn>
+  <yexiaoyang.tactical.battle.round>{round}라운드</yexiaoyang.tactical.battle.round>
+  <yexiaoyang.tactical.battle.hp>체력</yexiaoyang.tactical.battle.hp>
+  <yexiaoyang.tactical.battle.cover>엄폐</yexiaoyang.tactical.battle.cover>
+  <yexiaoyang.tactical.battle.move_cost>이동 비용 · {ap} AP</yexiaoyang.tactical.battle.move_cost>
+  <yexiaoyang.tactical.battle.move_confirm>다시 우클릭 · {ap} AP</yexiaoyang.tactical.battle.move_confirm>
+  <yexiaoyang.tactical.battle.blocked>통과 불가: {name}</yexiaoyang.tactical.battle.blocked>
+  <yexiaoyang.tactical.battle.target_too_close>적이 너무 가깝습니다. 멀어진 뒤 사격하세요.</yexiaoyang.tactical.battle.target_too_close>
+  <yexiaoyang.tactical.battle.cover_chance>엄폐로 막힐 확률 · {percent}%</yexiaoyang.tactical.battle.cover_chance>
+  <yexiaoyang.tactical.battle.close_test>시험 전투 닫기</yexiaoyang.tactical.battle.close_test>
+  <yexiaoyang.tactical.battle.miss>빗나감!</yexiaoyang.tactical.battle.miss>
+  <yexiaoyang.tactical.battle.back_hit>후방 타격</yexiaoyang.tactical.battle.back_hit>
+  <yexiaoyang.tactical.battle.reaction>기회 공격</yexiaoyang.tactical.battle.reaction>
+  <yexiaoyang.tactical.battle.forecast_type>공격 유형</yexiaoyang.tactical.battle.forecast_type>
+  <yexiaoyang.tactical.battle.forecast_ranged>원거리</yexiaoyang.tactical.battle.forecast_ranged>
+  <yexiaoyang.tactical.battle.forecast_damage>예상 피해</yexiaoyang.tactical.battle.forecast_damage>
+  <yexiaoyang.tactical.battle.forecast_health_after>예상 잔여 체력</yexiaoyang.tactical.battle.forecast_health_after>
+  <yexiaoyang.tactical.battle.forecast_hit>명중률</yexiaoyang.tactical.battle.forecast_hit>
+  <yexiaoyang.tactical.battle.auto_error_unavailable>자동 전투를 완료하지 못했습니다. 직접 전투를 진행할 수 있습니다.</yexiaoyang.tactical.battle.auto_error_unavailable>
+  <yexiaoyang.tactical.battle.auto_error_changed>전투나 장비가 변경되었습니다. 새 예상 결과를 생성하세요.</yexiaoyang.tactical.battle.auto_error_changed>
+  <yexiaoyang.tactical.battle.auto_error_stalled>자동 전투가 한도에 도달할 때까지 승패가 나지 않았습니다. 계속하려면 직접 전투를 진행하세요.</yexiaoyang.tactical.battle.auto_error_stalled>
+  <yexiaoyang.tactical.battle.auto_error_settlement>전투 결과가 적용되었습니다. 정산을 마치려면 결과창을 다시 여세요.</yexiaoyang.tactical.battle.auto_error_settlement>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.tactical.announcement.target>{actor}: {action} 사용| · 대상 {target}</yexiaoyang.tactical.announcement.target>
+  <yexiaoyang.tactical.announcement.no_target>{actor}:| {action} 사용</yexiaoyang.tactical.announcement.no_target>
+</LanguageData>

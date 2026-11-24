@@ -68,7 +68,7 @@
   <yexiaoyang.district.ui.desc.tax>2,000 크레딧, 식량 500, 자재 500을 징수합니다. 현지 관계 −100, 번영도 −30. 7일에 한 번 가능합니다.
 하룻밤, 병력 1명당 식량 20 소모.</yexiaoyang.district.ui.desc.tax>
   <yexiaoyang.district.ui.action.build>건설</yexiaoyang.district.ui.action.build>
-  <yexiaoyang.district.ui.desc.build>시설과 건설 인력을 선택합니다. 영토 하나당 건설 슬롯 6개를 사용할 수 있습니다. 같은 시설은 중복 건설할 수 없으며, 개선하면 이전 시설을 대신합니다.
+  <yexiaoyang.district.ui.desc.build>시설과 건설 인력을 선택합니다. 같은 시설은 영토마다 한 번만 지을 수 있습니다. 업그레이드하면 이전 시설을 대체합니다.
 배치 화면에서 비용, 기간, 생산량을 확인할 수 있습니다.</yexiaoyang.district.ui.desc.build>
   <yexiaoyang.district.ui.action.clean>청소</yexiaoyang.district.ui.action.clean>
   <yexiaoyang.district.ui.desc.clean>병력을 보내 돈을 받고 주민의 집을 청소합니다. 위험은 없으며 번영도가 높을수록 수입이 많습니다. 지역 번영도도 조금 오릅니다.

@@ -9,7 +9,7 @@
 원료 / 생산품 보관함: 각각 96칸
 공용 모듈 공간: 28칸
 전력 요금: 하루 10크레딧</yexiaoyang.SmeltingRoom.Basic.cardText>
-  <yexiaoyang.SmeltingRoom.Basic.upgradeText>기초 제련실로 개조합니다. 비용: 3,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 10크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
+  <yexiaoyang.SmeltingRoom.Basic.upgradeText>기초 제련실로 개조합니다. 비용: 1,000크레딧. 소요 기간: 1일. 공사 중에는 출입할 수 없고 고정 기계는 멈춥니다. 일일 전력 요금: 10크레딧. 고정 기계 전력은 요금에 포함되므로 별도 배터리가 필요 없습니다.
 독립 용광로 1대 · 용광로당 하룻밤에 기본 제련 1회 · 주괴 최소 순도: 낮음 · 모듈 보관함 공유 · 수동 처리</yexiaoyang.SmeltingRoom.Basic.upgradeText>
   <yexiaoyang.SmeltingRoom.Basic.facilities.furnace_01.label>용광로 1</yexiaoyang.SmeltingRoom.Basic.facilities.furnace_01.label>
   <yexiaoyang.SmeltingRoom.Improved.label>개량 제련실</yexiaoyang.SmeltingRoom.Improved.label>

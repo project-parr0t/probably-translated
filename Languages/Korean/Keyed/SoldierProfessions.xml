@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.soldier.profession.none.name>미지정</yexiaoyang.soldier.profession.none.name>
+  <yexiaoyang.soldier.profession.choose>병과 선택</yexiaoyang.soldier.profession.choose>
+  <yexiaoyang.soldier.profession.pending>병과 선택 대기 중</yexiaoyang.soldier.profession.pending>
+  <yexiaoyang.soldier.profession.title>{soldier}: 병과 선택 가능</yexiaoyang.soldier.profession.title>
+  <yexiaoyang.soldier.profession.prompt>병과 하나를 골라 확정하세요. 카드에 마우스를 올리면 자세한 정보를 볼 수 있습니다.</yexiaoyang.soldier.profession.prompt>
+  <yexiaoyang.soldier.profession.confirm>병과 확정</yexiaoyang.soldier.profession.confirm>
+  <yexiaoyang.soldier.profession.unavailable>이 병사는 지금 병과를 선택할 수 없습니다.</yexiaoyang.soldier.profession.unavailable>
+  <yexiaoyang.soldier.profession.save_failed>병과 선택을 저장할 수 없습니다. 다시 시도하세요.</yexiaoyang.soldier.profession.save_failed>
+  <yexiaoyang.soldier.profession.skill>기술 · {skill}</yexiaoyang.soldier.profession.skill>
+  <yexiaoyang.soldier.profession.master_effects>숙련 보너스</yexiaoyang.soldier.profession.master_effects>
+  <yexiaoyang.soldier.profession.tank.name>중장병</yexiaoyang.soldier.profession.tank.name>
+  <yexiaoyang.soldier.profession.tank.skill>충격 대비</yexiaoyang.soldier.profession.tank.skill>
+  <yexiaoyang.soldier.profession.tank.master_name>숙련 중장병</yexiaoyang.soldier.profession.tank.master_name>
+  <yexiaoyang.soldier.profession.tank.summary>생존력 +100%&#10;피해 감소 +20%&#10;배낭 칸 수 −50%</yexiaoyang.soldier.profession.tank.summary>
+  <yexiaoyang.soldier.profession.tank.description>방호와 충격 흡수에 특화된 병과입니다. 중장갑과 휴대용 방패를 갖춰 최전선에 적합합니다.</yexiaoyang.soldier.profession.tank.description>
+  <yexiaoyang.soldier.profession.tank.effects>생존력 +100%&#10;피해 감소 +20%&#10;배낭 칸 수 −50% (올림)</yexiaoyang.soldier.profession.tank.effects>
+  <yexiaoyang.soldier.profession.tank.master_effects>생존력 +50%&#10;피해 감소 +30%</yexiaoyang.soldier.profession.tank.master_effects>
+  <yexiaoyang.soldier.profession.sniper.name>명사수</yexiaoyang.soldier.profession.sniper.name>
+  <yexiaoyang.soldier.profession.sniper.skill>사냥꾼의 시야</yexiaoyang.soldier.profession.sniper.skill>
+  <yexiaoyang.soldier.profession.sniper.master_name>숙련 명사수</yexiaoyang.soldier.profession.sniper.master_name>
+  <yexiaoyang.soldier.profession.sniper.summary>배낭 칸 수 +20%&#10;화력 +20%&#10;사거리 +2칸&#10;명중률 +20%p</yexiaoyang.soldier.profession.sniper.summary>
+  <yexiaoyang.soldier.profession.sniper.description>장거리 정밀 공격에 특화된 병과입니다. 소총으로 주요 표적을 제압합니다.</yexiaoyang.soldier.profession.sniper.description>
+  <yexiaoyang.soldier.profession.sniper.effects>배낭 칸 수 +20%&#10;화력 +20%&#10;사거리 +2칸&#10;명중률 +20%p</yexiaoyang.soldier.profession.sniper.effects>
+  <yexiaoyang.soldier.profession.sniper.master_effects>화력 +30%&#10;명중률 +30%p</yexiaoyang.soldier.profession.sniper.master_effects>
+  <yexiaoyang.soldier.profession.melee.name>격투병</yexiaoyang.soldier.profession.melee.name>
+  <yexiaoyang.soldier.profession.melee.skill>기습</yexiaoyang.soldier.profession.melee.skill>
+  <yexiaoyang.soldier.profession.melee.master_name>숙련 격투병</yexiaoyang.soldier.profession.melee.master_name>
+  <yexiaoyang.soldier.profession.melee.summary>배낭 칸 수 +20%&#10;생존력 +50%&#10;체력 흡수 +50%</yexiaoyang.soldier.profession.melee.summary>
+  <yexiaoyang.soldier.profession.melee.description>적에게 바짝 다가가 싸우는 데 특화된 병과입니다. 난전에서 근접 무기를 씁니다.</yexiaoyang.soldier.profession.melee.description>
+  <yexiaoyang.soldier.profession.melee.effects>배낭 칸 수 +20%&#10;생존력 +50%&#10;체력 흡수: 적에게 준 피해의 50%만큼 체력을 회복합니다.</yexiaoyang.soldier.profession.melee.effects>
+  <yexiaoyang.soldier.profession.melee.master_effects>생존력 +20%&#10;피해 감소 +10%&#10;행동 점수 +20</yexiaoyang.soldier.profession.melee.master_effects>
+</LanguageData>

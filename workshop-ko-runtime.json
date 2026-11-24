@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "inventory_fingerprint": "38b3fd73ded63d7a97a823467a7a7683021df8dd7455475c91d2977da8ee1043",
+  "inventory_fingerprint": "cac3694bd9cdafe786cf10d7b07a0958fcdd09ea03d4aa058dc223e5c26de6db",
   "scope": "installed_workshop_mod_korean_overlay_20261118_direct_review",
   "locale": "ko",
   "base_game_entries": 0,
@@ -45,7 +45,7 @@
     "ai.emporium": {
       "workshop_item_id": "3832941698",
       "csv_path": "workshop-overlays/3832941698/Localization/ko.csv",
-      "entry_count": 2567
+      "entry_count": 2584
     },
     "gunsmith_expansion": {
       "workshop_item_id": "3834619049",
@@ -73,7 +73,7 @@
     "traits_probably_fun": {
       "workshop_item_id": "3834226532",
       "csv_path": "workshop-overlays/3834226532/Localization/ko.csv",
-      "entry_count": 34
+      "entry_count": 67
     },
     "combat_contracts": {
       "workshop_item_id": "3834364038",
@@ -115,5 +115,5 @@
       "entry_count": 75
     }
   },
-  "entry_count": 15689
+  "entry_count": 15739
 }

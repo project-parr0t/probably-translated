@@ -46,4 +46,5 @@
   <yexiaoyang.ui.console.native_item_argument>지정한 물품을 받습니다. 기본 수량은 1입니다.</yexiaoyang.ui.console.native_item_argument>
   <yexiaoyang.ui.console.items_added>{itemName} ×{amount} 획득.</yexiaoyang.ui.console.items_added>
   <yexiaoyang.ui.console.item_inventory_full>소지품 공간이 부족해 물품을 지급하지 않았습니다.</yexiaoyang.ui.console.item_inventory_full>
+  <yexiaoyang.ui.console.neural_cores_help>기본 게임의 신경 코어 모듈 (제한 해제)을 5개 지급합니다.</yexiaoyang.ui.console.neural_cores_help>
 </LanguageData>

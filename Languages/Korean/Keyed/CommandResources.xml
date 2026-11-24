@@ -12,7 +12,7 @@
   <yexiaoyang.command.resources.convert_food>식량 모두 변환</yexiaoyang.command.resources.convert_food>
   <yexiaoyang.command.resources.convert_material>자재 모두 변환</yexiaoyang.command.resources.convert_material>
   <yexiaoyang.command.resources.conversion_note>식량은 {calories} kcal당 1포인트로 변환되며, 남은 열량은 다음 변환으로 이월됩니다. 사치품에 해당하는 식품과 어류 사료는 제외됩니다. 자재는 크레딧 가치에 따라 변환됩니다.</yexiaoyang.command.resources.conversion_note>
-  <yexiaoyang.command.resources.extraction_note>물품마다 수수료 5%를 더해 올림합니다. 식량은 열량으로 환산한 가치와 기본 가치 중 높은 쪽을 적용합니다.</yexiaoyang.command.resources.extraction_note>
+  <yexiaoyang.command.resources.extraction_note>식량 1포인트는 50 kcal이며, 남은 열량은 다음 인출로 이월됩니다. 자재는 물품마다 수수료 5%를 더해 올림합니다.</yexiaoyang.command.resources.extraction_note>
   <yexiaoyang.command.resources.no_recipes>해당 물품을 변환하면 인출할 수 있습니다.</yexiaoyang.command.resources.no_recipes>
   <yexiaoyang.command.resources.no_space>자원이나 보관 공간이 부족합니다.</yexiaoyang.command.resources.no_space>
   <yexiaoyang.command.resources.converted>자원 포인트 {points}점을 얻었습니다.</yexiaoyang.command.resources.converted>

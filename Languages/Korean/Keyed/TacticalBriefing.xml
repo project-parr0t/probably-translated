@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.tactical.briefing.title>전투 브리핑</yexiaoyang.tactical.briefing.title>
+  <yexiaoyang.tactical.briefing.player>아군</yexiaoyang.tactical.briefing.player>
+  <yexiaoyang.tactical.briefing.enemy>적군</yexiaoyang.tactical.briefing.enemy>
+  <yexiaoyang.tactical.briefing.strength>전력 비교</yexiaoyang.tactical.briefing.strength>
+  <yexiaoyang.tactical.briefing.firepower>화력 {player} / {enemy}</yexiaoyang.tactical.briefing.firepower>
+  <yexiaoyang.tactical.briefing.health>생존력 {player} / {enemy}</yexiaoyang.tactical.briefing.health>
+  <yexiaoyang.tactical.briefing.auto>자동 전투</yexiaoyang.tactical.briefing.auto>
+  <yexiaoyang.tactical.briefing.manual>수동 전투</yexiaoyang.tactical.briefing.manual>
+  <yexiaoyang.tactical.briefing.auto_running>양측의 전투를 시뮬레이션하는 중…</yexiaoyang.tactical.briefing.auto_running>
+  <yexiaoyang.tactical.briefing.auto_won>승리 예상</yexiaoyang.tactical.briefing.auto_won>
+  <yexiaoyang.tactical.briefing.auto_lost>패배 예상</yexiaoyang.tactical.briefing.auto_lost>
+  <yexiaoyang.tactical.briefing.confirm>결과 확정</yexiaoyang.tactical.briefing.confirm>
+  <yexiaoyang.tactical.briefing.manual_restart>직접 전투</yexiaoyang.tactical.briefing.manual_restart>
+  <yexiaoyang.tactical.briefing.casualties>쓰러짐: 아군 {player} / 적군 {enemy} · 아군 사망: {deaths}</yexiaoyang.tactical.briefing.casualties>
+</LanguageData>

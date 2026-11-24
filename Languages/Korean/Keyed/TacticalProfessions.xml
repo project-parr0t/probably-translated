@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData targetMod="yexiaoyang.InteriorExpansion">
+  <yexiaoyang.tactical.profession.cooldown>재사용 대기: {turns}턴</yexiaoyang.tactical.profession.cooldown>
+  <yexiaoyang.tactical.profession.pick_target>기술 대상에 우클릭하세요</yexiaoyang.tactical.profession.pick_target>
+  <yexiaoyang.tactical.profession.cover_short>엄폐</yexiaoyang.tactical.profession.cover_short>
+  <yexiaoyang.tactical.profession.cover>엄폐&#10;엄폐물을 지나오는 공격에 맞을 확률이 {percent}% 감소합니다.</yexiaoyang.tactical.profession.cover>
+  <yexiaoyang.tactical.profession.marked>사냥 표식&#10;전투가 끝날 때까지 받는 피해가 50% 증가합니다.</yexiaoyang.tactical.profession.marked>
+  <yexiaoyang.tactical.profession.unit>레벨 {level} · 체력 {hp}/{max}</yexiaoyang.tactical.profession.unit>
+  <yexiaoyang.tactical.profession.skill_tank>10 AP를 소모합니다. 기술을 사용한 칸을 중심으로 3×3 범위 안의 다른 아군이 받는 피해가 75% 감소합니다. 사용자는 줄여 준 피해의 절반을 대신 받습니다. 사용자의 다음 턴까지 지속됩니다. 재사용 대기: 1턴.</yexiaoyang.tactical.profession.skill_tank>
+  <yexiaoyang.tactical.profession.skill_sniper>10 AP를 소모합니다. 8칸 안의 적에게 표식을 남깁니다. 표식이 붙은 적은 전투가 끝날 때까지 피해를 50% 더 받습니다. 재사용 대기: 2턴.</yexiaoyang.tactical.profession.skill_sniper>
+  <yexiaoyang.tactical.profession.skill_melee>20 AP를 소모합니다. 6칸 안에 있는 적의 바로 뒤 빈 칸으로 뛰어들어 한 번 공격합니다. 재사용 대기: 1턴.</yexiaoyang.tactical.profession.skill_melee>
+  <yexiaoyang.tactical.profession.skill_log>{actor}: {skill} 사용 → {target} · {ap} AP 소모</yexiaoyang.tactical.profession.skill_log>
+</LanguageData>

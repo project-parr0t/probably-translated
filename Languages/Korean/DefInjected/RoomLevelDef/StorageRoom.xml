@@ -7,7 +7,7 @@
 총 보관 용량: 210칸
 이용 방법: 보관장 문 또는 창고 수신기
 전력 요금: 하루 0크레딧</yexiaoyang.StorageRoom.Basic.cardText>
-  <yexiaoyang.StorageRoom.Basic.upgradeText>기초 보관실로 개조합니다. 비용: 2,000크레딧. 소요 기간: 1일.</yexiaoyang.StorageRoom.Basic.upgradeText>
+  <yexiaoyang.StorageRoom.Basic.upgradeText>기초 보관실로 개조합니다. 비용: 500크레딧. 소요 기간: 1일.</yexiaoyang.StorageRoom.Basic.upgradeText>
   <yexiaoyang.StorageRoom.Basic.storageGroups.left_tall_a.label>왼쪽 키 큰 장 A</yexiaoyang.StorageRoom.Basic.storageGroups.left_tall_a.label>
   <yexiaoyang.StorageRoom.Basic.storageGroups.left_tall_b.label>왼쪽 키 큰 장 B</yexiaoyang.StorageRoom.Basic.storageGroups.left_tall_b.label>
   <yexiaoyang.StorageRoom.Basic.storageGroups.center_cubbies.label>가운데 칸막이장</yexiaoyang.StorageRoom.Basic.storageGroups.center_cubbies.label>
