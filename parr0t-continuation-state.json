@@ -1,13 +1,14 @@
 {
   "artifacts": {
-    "CONTINUATION.md": "c28a3854564fea54556b6b3a3ee758593459e4d6fb334a90f0d5d3b1c2ab67c3",
+    "CONTINUATION.md": "6bca1fcfe5094c6abb4fbf504971a5e77b7c2f2334923a1fb1da6004033b6e34",
     "KOREAN-LOCALIZATION.md": "d118f623b02a3d2fb3f5d2847fe442628c4883d050cc5f8fa7ac984ff1a510d8",
-    "ProbablyStolenKo.Localization.dll": "d755cb986d3c242ab17c4e97bd5044833e1b3e0def9ec087ff603a41a791a6f4",
+    "ProbablyStolenKo.Localization.dll": "5c3d1f4d7189758ed7197b474acf0846dce783f2da0cab9a503607cc4d3f20b8",
     "README.md": "ec5bdfddab4f526809818558d8b683955071beb5ad980695f19b2bda1fdbbbed",
     "managed-ko-runtime.json": "a210301ceee8e1616266c2cd35090ca0db69eb91717f6821192af7ec062834e9",
-    "manifest.xml": "dc69628b80109426e806b5c27aadfc640713175a4b57da7e1aca06a39ed309db",
+    "manifest.xml": "f4089954bbfa1cadb9bd5bef8cc751335cf7dbee1830c1995fcfc7aca20d60f6",
     "parr0t-release-checkpoint.json": "6d876169b891e31c74117b28dab9e445abcd6df71d1dfba0c9b79a459409e92d",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
+    "src/ProbablyStolenKo.Localization/AquaSenseCompositionOverlay.cs": "3cb8e367ca428b42e41ab6e2283dacc784ef7ad16024e32fede6dd06219f7a12",
     "src/ProbablyStolenKo.Localization/ClaimsLanguageOverlay.cs": "958e08d1cb39723a481a750ad0dffc1210de1f1f238c55bfe091ad85c3657f68",
     "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "e8ee8d1340158a73a9bdcad7371ac37f313924b2b640f6a30a2c70962332de0e",
     "src/ProbablyStolenKo.Localization/HologramPreferenceLayout.cs": "058b55182fb94d309d2068993a119dff3847fb2be24d850cbe6de2589c6863fc",
@@ -17,7 +18,7 @@
     "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "b6602b22f22eb17d5cc3ef2e220ff8aec599d478f1159e3e876fe2c3105dbb6c",
     "src/ProbablyStolenKo.Localization/PerksFriendlyTalkOverlay.cs": "9247316b4ff4e32022f797aa8ed85321f89ec4c882929c5d7ad32c29a9161457",
     "src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csproj": "9d672fbec6c147d75cb2e51f3118b503a8a83332e1cd4556f1cf53bc3ee52ad2",
-    "src/ProbablyStolenKo.Localization/ProbablyStolenKoBridge.cs": "f75d32ba0872d58100a72a1c1109593262f166aceeb8e2c8df4044e5a084ff23",
+    "src/ProbablyStolenKo.Localization/ProbablyStolenKoBridge.cs": "2d9c2fcbf107e6ad8304280894a700ba3db7b36d574f14daa239dc5860471550",
     "src/ProbablyStolenKo.Localization/SpaceCoffeeSceneOverlay.cs": "fa4f8538a6b6aa17c9010c2b7ed3dad9b3ded3caad4bc73937459e42d5394bc6",
     "src/ProbablyStolenKo.Localization/WorkshopOverlay.cs": "500c62b3b762508417faef66fb8ef70b608412c15b3381dc3d9bec9a2506155f",
     "tools/Release-TestGate.ps1": "18408720a95323b4ef95d992e9d318f4ea09d4801f303d25d881e6307cb53af2",
@@ -153,9 +154,9 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "bf3a53a41e9e6fc18ed8939f038812ef0c182973",
+    "commit": "0b4bf0bf0b42357084c4afb104eac4b52d04fb33",
     "game_version": "0.46D",
-    "version": "1.0.45"
+    "version": "1.0.46"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
