@@ -87,8 +87,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "706a16be334f31e29cc3733963882544cf4ecd42ec703000b9cfa2a038cdc847";
-        private const int ExpectedEntries = 26591;
+        private const string ExpectedFingerprint = "c93ca4b5c0c9b140d8fe2bf1c7a32cf4b14067aba0590e46a169af665ad469f3";
+        private const int ExpectedEntries = 27422;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -129,15 +129,18 @@ namespace ProbablyStolenKo
                 ["yexiaoyang.InteriorExpansion"] = "3841509159",
                 ["vanilla_chem_ext"] = "3832077837",
                 ["local.hologram_trade"] = "3837476079",
+                [KitchenLanguageOverlay.TargetModId] = "3830523891",
             };
-        private const int ExpectedTargets = 37;
+        private const int ExpectedTargets = 38;
 
-        private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets)
+        private ManagedLiteralCatalog(IReadOnlyDictionary<string, ManagedTarget> targets, IReadOnlyDictionary<string, string> kitchenKorean)
         {
             Targets = targets;
+            KitchenKorean = kitchenKorean;
         }
 
         internal IReadOnlyDictionary<string, ManagedTarget> Targets { get; }
+        internal IReadOnlyDictionary<string, string> KitchenKorean { get; }
 
         internal static ManagedLiteralCatalog Parse(string json)
         {
@@ -226,7 +229,18 @@ namespace ProbablyStolenKo
                     displayLiteralOverlay, displayReplacements, routes, refresh));
             }
             if (total != ExpectedEntries) throw new FormatException("Managed payload total is invalid.");
-            return new ManagedLiteralCatalog(targets);
+
+            var sourceKitchen = sourceTargets[KitchenLanguageOverlay.TargetModId]["native_korean"] as JObject;
+            if (sourceKitchen == null || sourceKitchen.Count + 2 != targets[KitchenLanguageOverlay.TargetModId].EntryCount)
+                throw new FormatException("Kitchen dictionary count is invalid.");
+            var kitchenKorean = new Dictionary<string, string>(sourceKitchen.Count, StringComparer.Ordinal);
+            foreach (var entry in sourceKitchen.Properties())
+            {
+                if (entry.Name.Length == 0 || entry.Value.Type != JTokenType.String || string.IsNullOrWhiteSpace((string)entry.Value))
+                    throw new FormatException("Kitchen dictionary entry is invalid.");
+                kitchenKorean.Add(entry.Name, (string)entry.Value);
+            }
+            return new ManagedLiteralCatalog(targets, kitchenKorean);
         }
     }
 

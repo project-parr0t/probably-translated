@@ -31,6 +31,7 @@ namespace ProbablyStolenKo
         private LabelerTextOverlay _labelerTextOverlay;
         private readonly HologramPreferenceLayout _hologramPreferenceLayout = new HologramPreferenceLayout();
         private readonly PerksFriendlyTalkOverlay _perksFriendlyTalkOverlay = new PerksFriendlyTalkOverlay();
+        private readonly KitchenLanguageOverlay _kitchenLanguageOverlay = new KitchenLanguageOverlay();
         private ModLog _log;
         private bool _enabled;
         private bool _activated;
@@ -262,7 +263,10 @@ namespace ProbablyStolenKo
             if (_managedCatalog == null || !_managedCatalog.Targets.TryGetValue(loaded.Manifest.ID, out managedTarget)) return;
             try
             {
-                _managedOverlay.QueueTarget(loaded.Manifest.ID, managedTarget);
+                if (loaded.Manifest.ID == KitchenLanguageOverlay.TargetModId)
+                    _kitchenLanguageOverlay.Apply(_managedCatalog.KitchenKorean);
+                else
+                    _managedOverlay.QueueTarget(loaded.Manifest.ID, managedTarget);
             }
             catch (Exception error)
             {
@@ -290,6 +294,8 @@ namespace ProbablyStolenKo
             _claimsLanguageOverlay?.Restore();
             _hologramPreferenceLayout.Restore();
             _perksFriendlyTalkOverlay.Restore();
+            try { _kitchenLanguageOverlay.Restore(); }
+            catch (Exception error) { _log.Error("Kitchen language overlay removal failed: " + error.Message); }
             _manifestOverlay?.Restore();
             WorkshopOverlayEngine.Restore(_workshopCatalog, _workshopOriginals);
         }

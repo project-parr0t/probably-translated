@@ -62,6 +62,10 @@ The 1.0.44 release rebaselines AI Emporium and Probably Helpful against their cu
 
 Perks 0.9.719 moves the first Trade Commission visit under Unlicensed Operation to day 3. The current IL retains the seven-day interval while the shop has no permit; the Korean description preserves that condition and interval.
 
+XIAOWO-KitchenBusiness 2.1.6 keeps its translations in an embedded English-keyed dictionary, not a Workshop CSV. The Korean overlay matches the original lookup before formatting, and also covers the assembled Brewing cookbook notice, missing-reference ingredient names, machine summary fragments, and the title printed on the open service card. It preserves the original card artwork and number. The game grants ModReflect target access through the declared Kitchen prerequisite; the bridge has no CLR reference to the Kitchen DLL.
+
+The Kitchen review uses the Chinese dialogue operands and the actual visitor branches: the opening supplier visit and the day-10 introduction both connect to the recurring supplier dialogue. The Korean catalog review covers 817 embedded keys and 12 indirect entries. It preserves source keys and format arguments, including the composed phone booking and delivery statuses. Kitchen inventory is registered in the item directory and sold via Kitchen visitors and the tablet; the `RemoveCommissaryStock` hook only adds ingredients to the food thief's counter stock. Kitchen does not register any Wild’s Network upgrades.
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.

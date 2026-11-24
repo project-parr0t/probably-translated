@@ -27,6 +27,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Brewing Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904) — v3.6.8.7
 - [Disaster Day](https://steamcommunity.com/sharedfiles/filedetails/?id=3829946713) — v2.0.3
 - [Fishing Cuisine Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830031787) — v2.1.1
+- [XIAOWO-KitchenBusiness](https://steamcommunity.com/sharedfiles/filedetails/?id=3830523891) — v2.1.6
 - [Unbox Moment](https://steamcommunity.com/sharedfiles/filedetails/?id=3830643693) — v1.5.2
 - [Vanilla Food Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369) — v0.3.10
 - [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547) — v0.2.19
