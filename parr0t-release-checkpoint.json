@@ -313954,11 +313954,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3834226532:dsp_unlicensed_description",
       "location_fingerprint": "a542c118222ad1dfe174c9b3914dd8c111bfb2f1c9408fb6b0e246702d02169a",
-      "review_fingerprint": "544dd3c5f35fc99a7a03ce1b10bb5dbfbdcd3fd30aca497ad0f5204a5ab93047",
-      "source_sha256": "a23943458cb5dfc61744fe1fbcea4462c51b0b34e24e36e6568b5fd229d3a47e",
+      "review_fingerprint": "60f4061119f551ac00e5a64497342bb678edb3e2b4568b03dfc919b54ae08664",
+      "source_sha256": "dafeed95ea232c057360e6f33fbd9e6da3ac9dbe8b3fe46543e7dd610af3b0c5",
       "status": "reviewed",
-      "target": "영업 허가증을 받기 전까지 무역위원회 관리가 5일째부터 7일마다 방문합니다.",
-      "target_sha256": "c373b506310fc9463eda1dbecb4215212027eea29605777c2b4dab4d579b9332"
+      "target": "영업 허가증을 받기 전까지 무역위원회 관리가 3일째부터 7일마다 방문합니다.",
+      "target_sha256": "9232ceb5ce974d95e91b14ee5c649d2710cb5bd2b20b5fd03dae552ce90e2d65"
     },
     {
       "dependencies": [],
@@ -316086,6 +316086,50 @@
     {
       "dependencies": [],
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.audit.bottle.02",
+      "location_fingerprint": "199802a4450fa1565e1f79a70a77a27637430ec5a0c3ecd26958d19e535d314c",
+      "review_fingerprint": "45324c110dd4a1457b48ffc8a7b0a688fd9979228110421b8dcc1c71aff39d03",
+      "source_sha256": "37d3e3a226cfafd0b0cb54568c4a3397da2600b5623f870a393fd93184756b58",
+      "status": "reviewed",
+      "target": "물의 순도가 {0}%로 병입 기준인 {1}%에 미치지 않습니다. 물은 물탱크에 남겨 둡니다.",
+      "target_sha256": "0b2332174cf08a281403407ac0e5374191d7dbdf8cb1ae2896d289ed98c671c6"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.audit.bottle.03",
+      "location_fingerprint": "37e310431a5976dbf531ee01afe4da07fba95c46cbfffd9ac28e0131bbee1193",
+      "review_fingerprint": "a4d17b527dde55031f24718380e7b53cfebd207aa0c1eef2a2a074b75f0af9a5",
+      "source_sha256": "30f489235258c76dc24ea4ca445af92f29f1abc9dbf7b15a09035ca19c4370a0",
+      "status": "reviewed",
+      "target": "물 ",
+      "target_sha256": "7cff0bb70ad1c454b75219e1c3006fa42d41410860b893297f3a341d780e7052"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.audit.bottle.04",
+      "location_fingerprint": "5df72b3eb4e9f560be4db59db62f91cbb886519515f985edd4a909f2b65cf4ac",
+      "review_fingerprint": "5e6c1a09b73aa8685b48c6f7bd5cb25e2c4418c13f29911876fe79dbe0f32dec",
+      "source_sha256": "6b8e4b6c716ce73a6c626c9bce3abfc529cfd326f7d7c742897d9d59fc01a6a2",
+      "status": "reviewed",
+      "target": "병에 담았습니다(순도 {0}%).",
+      "target_sha256": "17afe52ec74848aba372f1cab50b58a49af7f69e1b1d565559fd2b4a8f6b169a"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:ds.ui.audit.tend.01",
+      "location_fingerprint": "4353bd93550588912adfb17dc8fb4761c222b6c57bb47aed4b28390c8fc0d161",
+      "review_fingerprint": "48e38343a9a0a78b30399c3485f9e7bfb3054800907e00442ac59a43662c12d0",
+      "source_sha256": "e95e77eaa516b87266f42d9af8a058703c1893ce5446af53c0c494bbd503d951",
+      "status": "reviewed",
+      "target": "{0} 수경재배 시설: 재배 칸 {1}개를 확인했습니다. 작물을 심은 {2}칸 중 {3}칸에 한 번 더 자랄 만큼 물이 있습니다.",
+      "target_sha256": "55ea8c3c5c29b6643bb35af58508ae34effdb247434b89656e0b07ae75aa6a3e"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3841509159:Keyed/Common.xml:yexiaoyang.settings.skip_command_tutorial.tooltip",
       "location_fingerprint": "e0c5054128f15ff2d09bff61cf63751c3434e59dac41c95e3a9f12a640ef34c4",
       "review_fingerprint": "db59b14f213743e5e3d68896716b6ed7d905a76e96c68540f92867baa80e9de3",
@@ -316118,8 +316162,8 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "source_inventory": {
-    "fingerprint": "40faa3790a4f70cb1201708f2bd647a1a5e6fb357711259c5da95649707a8483",
+    "fingerprint": "94a7ec6617ad1df24410a438688cbf1ee644feeb07112d8f3c7f8c20c87bb762",
     "method": "direct-reviewed-workshop-and-managed-runtime-inventory",
-    "target_count": 28694
+    "target_count": 28698
   }
 }

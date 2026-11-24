@@ -40,7 +40,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Probably Flyers](https://steamcommunity.com/sharedfiles/filedetails/?id=3833522385) — v0.8.0
 - [Station Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506) — v1.4.0
 - [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482) — v0.5.51
-- [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532) — v0.9.718
+- [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532) — v0.9.719
 - [Combat Contract](https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038) — v0.4.12
 - [In-Game Mod Settings](https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946) — v1.0.2
 - [Gunsmith Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049) — v2.1.1

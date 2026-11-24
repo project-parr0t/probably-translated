@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "508fdac790851dd2096d0a96f33d4367b46b3ba57f2736cb3c326eb8c073ac66",
+  "inventory_fingerprint": "706a16be334f31e29cc3733963882544cf4ecd42ec703000b9cfa2a038cdc847",
   "entry_count": 26591,
   "targets": {
     "chiqingsan.AquaSense": {
@@ -16007,7 +16007,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "AiEmporium.dll",
-        "assembly_sha256": "74147843799d4702c6bb0b87b9f25350bdf4d5668e0dd6f9ea194d9147dd925c"
+        "assembly_sha256": "5753cae2b5870f230b61940fd191b694ce0928817d17ef3eee4a920888394eaf"
       }
     },
     "user.realtimeclock": {
@@ -20592,7 +20592,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "TraitsProbablyFun.dll",
-        "assembly_sha256": "5ed53fce87a36bee58588765fc2a029dcea8c0f93195dbf076d81c500240887f"
+        "assembly_sha256": "c8047effcbd30c372d99cc5c865365285ec7bd19cab873459a1115b2836c123b"
       },
       "display_replacements": {
         "80天环游地球：只在跳过开场时可用": "80일간의 세계 일주: 도입부를 건너뛴 경우에만 사용할 수 있습니다.",
@@ -29524,7 +29524,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "ProbablyHelpful.dll",
-        "assembly_sha256": "be9330d9a34af36a132cb10f10f2eac54b4ed86857391d5a24d707e5decd2975"
+        "assembly_sha256": "bcbb073ec74d873ef112af25642e108b3dc850a838d4282d9ed8c02ef232b7a4"
       }
     },
     "duoji_hotkey_rebind": {

@@ -36,7 +36,7 @@ dsp_blood_donor_description,"하루에 한 번, 매점의 헌혈소에서 헌혈
 dsp_blood_donor_done,헌혈 완료: 혈액 팩을 하나 받았습니다. 내일은 일반 손님이 한 명 줄어듭니다.
 dsp_blood_donor_no_space,혈액 팩을 둘 자리가 없습니다.
 dsp_blood_donor_row_done,오늘 헌혈 완료
-dsp_unlicensed_description,영업 허가증을 받기 전까지 무역위원회 관리가 5일째부터 7일마다 방문합니다.
+dsp_unlicensed_description,영업 허가증을 받기 전까지 무역위원회 관리가 3일째부터 7일마다 방문합니다.
 dsp_wild_ration_description,식량 배급표는 와일드의 호의로 교환됩니다. 매점에서 물건을 살 때 와일드의 호의를 사용합니다.
 dsp_universal_liquid_description,"누드카를 드라이버, 플라즈마 절단기, 전선 절단기 또는 모듈 추출기 대신 쓸 수 있습니다. 시작할 때 누드카 한 병을 받습니다."
 dsp_beer_hall_orator_name,맥주집 연설가
