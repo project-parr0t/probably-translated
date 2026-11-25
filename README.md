@@ -33,10 +33,10 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547) — v0.2.19
 - [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187) — v1.2.3
 - [Gun Mod Tarkov](https://steamcommunity.com/sharedfiles/filedetails/?id=3831650864) — v1.5.9
-- [Vanilla Chemistry Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832077837) — v1.10.1
+- [Vanilla Chemistry Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832077837) — v1.11.0
 - [Probably a Farm Story](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311) — v2.0.11
 - [Tobacco Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208) — v0.5.4.3
-- [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698) — v1.3.78
+- [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698) — v1.3.79
 - [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602) — v1.6.0
 - [Probably Flyers](https://steamcommunity.com/sharedfiles/filedetails/?id=3833522385) — v0.8.0
 - [Station Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506) — v1.4.0

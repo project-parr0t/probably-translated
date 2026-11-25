@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "faa235d055532abb6e0281f30877c88746eb75d745b4e99eddd59194196303be",
+  "inventory_fingerprint": "e144160e499ef3aceb3fa1a0cd548c817c1b0ba77f1116d013a70c83730de32e",
   "entry_count": 27666,
   "targets": {
     "chiqingsan.AquaSense": {
@@ -15918,7 +15918,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "AiEmporium.dll",
-        "assembly_sha256": "32d617797b229fe0b46232e24d02af46caed1a6dbc89114ed25b76353d429d87"
+        "assembly_sha256": "a61daf6f36f0bc00f97b57a4adedec88458aa4beb44e638644f303596ad61c26"
       }
     },
     "user.realtimeclock": {
@@ -30084,7 +30084,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "VanillaChemExt.dll",
-        "assembly_sha256": "879c5e086f69fc05e29f19f148cf760328834e1fa24288ca807bb3522b06409c"
+        "assembly_sha256": "aad857d26dbd18286c04781aec0269ab922524fda5c387afca685d869b3a73fa"
       },
       "display_replacements": {
         "蒸发 / Evaporation": "증발",

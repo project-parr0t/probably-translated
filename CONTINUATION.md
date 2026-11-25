@@ -78,6 +78,8 @@ Smart Inventory Arrange 3.17.72 moves 24 F6 settings callbacks from `<Initialize
 
 The Agri Expansion 2.0.11 book review adds the three missing crop bodies and translates farm chapters before the game paginates them, using the same glossary in the quick guides. Cookbook reviews match both native language results, including their exact dash punctuation. The perfume recipe builder translates its names and effect summaries after reading the selected array element, before adding prices and aroma levels; it leaves the source arrays and other locales intact. The offline game-Mono probe passed all four paths against the installed Agri DLL (89 exact bindings applied, none skipped). It does not cover Unity page layout or registry refresh.
 
+The 1.0.49 Workshop follow-up covers AI Emporium 1.3.79's two new Claude appraisal messages and its revised inspection instructions, plus Vanilla Chemistry Expansion 1.11.0's condenser and still descriptions, controls, and status text. The current DLLs use the existing localization lookups, including the dynamically constructed cooling-mode keys. The offline game-Mono probe loaded both runtime catalogs and verified the new equipment descriptions, coolant format arguments, and updated dialogue without opening the game.
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.

@@ -228809,11 +228809,11 @@
       "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "id": "workshop:3832941698:dialogue.claude.judge.stock",
       "location_fingerprint": "a7236ca6f539295f04106f925e5df98044657491137424e66d32a46bf235f212",
-      "review_fingerprint": "67e9765d72430654c96dc7295a1034dccb35fd048efd8c48f894bfa2e0ed7123",
-      "source_sha256": "6c379e838012b467b4d58114e2bc05ffa07fb606cc2342cdf0d6929afa9f354f",
+      "review_fingerprint": "6b0cc3d03e843268c79eea71b61e4b51a3008a7d1850df5152d5b9e4448e3e69",
+      "source_sha256": "b5413bf0ec29ab40cc22e2816964b01dfe1692e730f68e857229f646030defad",
       "status": "reviewed",
-      "target": "전부 카운터에 올려 두었습니다. 하나씩 천천히 평가해 주세요.",
-      "target_sha256": "90c9d2a9a82fadb66bec01ec364690fac999e85030ad1a25a6a343bfb2a9013d"
+      "target": "의뢰품은 제가 올려놓겠습니다. 돋보기로 하나씩 살펴보고 검사 창에 감정가를 입력해 주세요.",
+      "target_sha256": "7d74d12069cc6ac9e0094c7a30eaaf4c7afddac6bad2e57781bf34f14b53264b"
     },
     {
       "dependencies": [],
@@ -345837,6 +345837,402 @@
       "status": "reviewed",
       "target": "이미 알게 된 박사가 내일 상품을 팔러 추가 방문",
       "target_sha256": "9bfa551e49c8e455d932020a48827b796ea7a48c699aebc9ce0d2d71c26e52d0"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:dialogue.claude.appraisal.unavailable",
+      "location_fingerprint": "b400ce3503031968ebe68e66ff52ec7be4422d13b711f6c41cef15281d72e2f9",
+      "review_fingerprint": "6734c16ab7eebf13e56a0a74ff0b1f0d55a1397a2cb1c02ec0e2e1d2fb0fd429",
+      "source_sha256": "c91fb6521da14f774c246ab6a9deb976278d2f7d6e61b05217bfb8e43b9d6420",
+      "status": "reviewed",
+      "target": "남은 의뢰품은 이번 방문에서 감정할 수 없습니다.",
+      "target_sha256": "688220b5347a790f2535db7eb9ec9e72e4397b2e3da020af796be519b2fffc0c"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832941698:dialogue.claude.appraisal.wait",
+      "location_fingerprint": "4208965409625f82820baaa81e58e536b1d23895a53311dfa817ac350b9acb8f",
+      "review_fingerprint": "429644f56d875a0c4833fb672c59c99bbfd6567d13703f769fc14e1c99725124",
+      "source_sha256": "7cff0d542363c5a7bf5ff78a662971f45f54ebacd794db7c7a980ea6e7ebf3ad",
+      "status": "reviewed",
+      "target": "아직 가져온 의뢰품이 남아 있습니다. 앞쪽 카운터에 자리를 내주시면 올려놓겠습니다.",
+      "target_sha256": "b3a1f6d7e3da88e269a30130c1a87c13e0c5d646153cc80e99434bb5219344a2"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:condenser_desc",
+      "location_fingerprint": "d221062a83a41ca56352114185abdbaa5373217001f527de34097f60da871307",
+      "review_fingerprint": "68c8ea4edcdecc6762abcc53c0d5d553d535b716e6b96221f5d5aa3797b4dfca",
+      "source_sha256": "f14cefdfa7c744d27ee88cd167a704b8e01664150f67a9f0a7ee58340a0789c4",
+      "status": "reviewed",
+      "target": "냉각수를 최대 2 L 담는 산업용 응축기입니다.\\n액체 용기를 응축기로 드래그해 냉각수를 채우세요. 순수한 물이 가장 효과적입니다.\\n응축기를 가열판에 드래그하면 결합해 증류기가 됩니다.",
+      "target_sha256": "040dc4b7320ca068f558baa9652d3fb70a5575bb73e46da16411487ca91712f0"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:condenser_name",
+      "location_fingerprint": "28e4635521d02c68189157ac7e6992076f092f26ea5d31bf6534d93ec3b570db",
+      "review_fingerprint": "f63ba4581247e17a24888b671b9c78d73eda0c37bf17832a5721c98260eba2e2",
+      "source_sha256": "5b257270f1d7e1a3a5389e3bb7e0d530da9532b3224d0d531bfd1c25c0f97ecf",
+      "status": "reviewed",
+      "target": "응축기",
+      "target_sha256": "32f38504ef89a88157e022663e6db9b8214bbb4bf906cf2a37a766bba8ccfa9d"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_desc",
+      "location_fingerprint": "be6d3d9696b27fe33b7a9f49088fcb7189c94f894ab1099e6c5fa78e4a96b2f3",
+      "review_fingerprint": "4ed43d045cf73828b82ae6a940e6e64049b42e6c46cca5d8a4706dba01f1bce7",
+      "source_sha256": "87c5d9f2f0e32cec07daaaac157a07bb0d460106953cc909f156e152f6d90e9a",
+      "status": "reviewed",
+      "target": "가열판에 응축기를 장착한 장치입니다. 가열판 위 용기의 액체가 끓으면 증기가 최대 1 L를 담는 응축기의 증기실로 들어갑니다.\\n증기실이 가득 차면 가장 먼저 들어온 증기부터 빠져나갑니다. 선택한 방식으로 증기를 응축해 수집 용기에 모읍니다.\\n액체 용기를 드래그하면 냉각수를 채울 수 있습니다. 더블 클릭하면 배터리와 수집 용기를 넣거나 응축 방식을 선택할 수 있고, 우클릭하면 응축기를 분리합니다.",
+      "target_sha256": "779c7e356e21bac98c4efcc07bb02ca9cfa2f6a8a3d1aa7863a8be1387d02cb6"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_detach",
+      "location_fingerprint": "93aaeeee00662c68a1e069fbb789cf8b23f330453b6a5738e8fc12232c612f81",
+      "review_fingerprint": "03a120c735465b56a9187165fb4223e060e08c996f95214c1ac8e9e58b611725",
+      "source_sha256": "73d0c5d4182dce142d018202ae039e45f5f15dca57bf5a746289745c0c83feda",
+      "status": "reviewed",
+      "target": "응축기 분리",
+      "target_sha256": "cdcf7f3e3e5db3687eb228c077f3cab3a2891d54e1a666827f574f55056d6fce"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_detached",
+      "location_fingerprint": "e0b2d0a440538b4576843b5bba4eeeb03623f673da03eaa1d27116ab994cef76",
+      "review_fingerprint": "8a7afe2e7126cb963fee3a70ef99f2ba7a049cfe9a94d67519532db3b94f9a31",
+      "source_sha256": "4237b1dc1d6065d5a44634cf0fedc8682afc0ec332e5d6450bd9f3ced736413a",
+      "status": "reviewed",
+      "target": "응축기를 분리했습니다.",
+      "target_sha256": "3684a68e11a088200502b24e03640cc72bcaa8ddc674f2cdab02ed39b333320b"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_info_closed",
+      "location_fingerprint": "059efcd9858330af86f0e2515cb95e9d36fe9e9b75a4ca41e1d5f03df4f67a45",
+      "review_fingerprint": "175cab025548acfb94cd527af25e0d95b4bfc0bc4d5b2f3bd607e15d278015fb",
+      "source_sha256": "012d6762b08634f0e439e16fcbdb00e0f1ca3e4cf02fe15cf8ce07824ccd1db9",
+      "status": "reviewed",
+      "target": "1 kJ당 {0} mL 응축",
+      "target_sha256": "642c85e1ce0bd4d670129d78ada8439638b94c2d6d0ae8d06f72a6c9282c84c7"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_info_coil",
+      "location_fingerprint": "973d0af909c9b8c33b1e5fa23f101af390dc4293143aee5221ce030c1df4b921",
+      "review_fingerprint": "5d3da30dab0d5d6d2a6bd2f5047ca32764bce350aebf41a838354f08a273d30e",
+      "source_sha256": "1d89fff5e3b725b79b1a0f5ee453a9119d1dbc82e6d385345f9e7d598c1f3a68",
+      "status": "reviewed",
+      "target": "오늘 밤 {0} mL 응축 가능",
+      "target_sha256": "df6bf3132f83d929f9d1f1b313cf3718684ab6f4875c83627c4ad430453cabf5"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_info_coolant",
+      "location_fingerprint": "efc430f595fb4bc21a01488445cfe3ea5ebe49e0b751f4bbd505d17200587281",
+      "review_fingerprint": "9ccc53b2ffb31ca03e40f12e709771fe377c9772b22fc4087c1ed1d7b5303ada",
+      "source_sha256": "aaa5b161cd5ba18721693fe1cd29552b4b4962369707107fe4b42702c34bfa0e",
+      "status": "reviewed",
+      "target": "냉각수 {0} / {1} mL, 물 함량 {2}%",
+      "target_sha256": "ec10041015b146faa16aaf7a492abf4e492e25cd3d34d80f8c220e904cbb431a"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_info_evaporative",
+      "location_fingerprint": "5c181de61bdecd6d3b3d936cd0ce5c0bec150103d86390b972d3324a3f54dee1",
+      "review_fingerprint": "ef5be4ad842900c1dbff44f780db4fc2687836ff12b97613f293cbfe232f9d12",
+      "source_sha256": "56cb1cfbcf42cd488a2b9a78f98856d0f86c43c494a327259cd20e65a9b03d75",
+      "status": "reviewed",
+      "target": "1 mL당 냉각수 {0} mL 소모",
+      "target_sha256": "17a3a4ebc0a932c7f7ecb4bdc0b1e1bd55135c5d3b5ce9fe8247d7e887199ad1"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_info_low_grade",
+      "location_fingerprint": "96c050834369def241295085bfdc4fe075c5a8303e0ced90c8826e12cd7e912a",
+      "review_fingerprint": "f5e54139e215adccfadbf025d500a2c51ccd265be75fe920ae21e78763049a81",
+      "source_sha256": "be317fbc4d06cedfb09693e8d3bf52ae056a155dfc8bf86336aa653cfb6f4b24",
+      "status": "reviewed",
+      "target": "증발 냉각에는 베이스워터 이상(물 함량 {0}% 이상)이 필요합니다.",
+      "target_sha256": "c2af0bf2ffe808d97d81f2aedbf5037740e530ee46c92c202640a04dc869658c"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_info_off",
+      "location_fingerprint": "4ae839b1aa9b541d6a19303c7eebf04df86c9c933b9955382d4fd4927eb229a5",
+      "review_fingerprint": "5c3b3e291c829f63d2e0d463a82476e728211b64d7562bc1cc69814b1665dc94",
+      "source_sha256": "ad9d78f61bedc5f9a6b1372e03c27e13130a4a28e3d56bfcbdda4d1e3805fa5b",
+      "status": "reviewed",
+      "target": "응축 방식이 꺼져 있어 증기를 응축하지 않고 보관합니다.",
+      "target_sha256": "72e93d1b42882a062c3b3d2adce6ac0091407e3603f5c54f932c7da6d8d6cf60"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_info_vapour",
+      "location_fingerprint": "8f8588ee7096b77854851017bc38fc170f8d8fbdccdb3bf92c5fa278fd1dce14",
+      "review_fingerprint": "4d1b8167cc70a38db90f341c4871a788fa0c414f6da05ff894fcbcacef28aacf",
+      "source_sha256": "ae3dbec22ec4800a8c9cf5a79b60a73361f16d67a38326ef9a26219495faa62e",
+      "status": "reviewed",
+      "target": "증기 {0} / {1} mL",
+      "target_sha256": "7e777ea185ff9ff7ef97160c42036223d06b1c017ddf4b0a3572e59796a53869"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_joined",
+      "location_fingerprint": "884a51fdbc3280c46010b0ef77e73823ba09771d9dc85b0ab315e5003cea71de",
+      "review_fingerprint": "494d76d06ca2765bb0511c1d446c0673674a42e822849f39404cbdcc462b427f",
+      "source_sha256": "6eda60ea5f762ac609ae33f4f614e7905905b59b1e6e742a95e47d109e72147f",
+      "status": "reviewed",
+      "target": "응축기를 가열판에 장착했습니다.",
+      "target_sha256": "990469d13bf4137b6d0efd07c35008e634ef1593e4b243c86f815310abd15b74"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_label_battery",
+      "location_fingerprint": "1827ad563263aa38d06b312dce49eda2b8a8bd0ae96c881233545c4ec8b73366",
+      "review_fingerprint": "f96ca19df597f891439790af462acf66dfed0ef47d6b31eaa434645e5d605965",
+      "source_sha256": "dfcb7c1619d5abd12f2df162337eaaba53ebe837d8de991db4d4d8a958867815",
+      "status": "reviewed",
+      "target": "배터리",
+      "target_sha256": "5e29d5dcb84b45469293c98ebc4c407f89af6e412913828dc3e73140da6ccd38"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_label_collect",
+      "location_fingerprint": "adddcbb83a64775714d7010c4f21b09226769563525ca35474d5b1276fb6ba0b",
+      "review_fingerprint": "5dd5bc2cb3b6b0a88b22ab7e75846f1abf034d7ac0ee55c364b3c5dae739c512",
+      "source_sha256": "941d4ff1b9a0edecf868671dcdf3c7209587f2c74bd581b58d89b17bbeebc620",
+      "status": "reviewed",
+      "target": "수집 용기",
+      "target_sha256": "897c600e418463aea84bf0b3becc0e61efc9bc9758f01bfd7ecae141c32d16d4"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_label_modes",
+      "location_fingerprint": "5327e8af84d545f5c0970d289f52cc8a132ba9869f61768b7bc9fa56ad1856fa",
+      "review_fingerprint": "680bfe3751fb70ac6b50baf69bf387b9ceb225b1d14f55fe6bbc3fd946ac8045",
+      "source_sha256": "a465d46bd6a051e2a5ab2e27aa43e9dc58d70de332b7948c414b439fdc768db7",
+      "status": "reviewed",
+      "target": "응축 방식",
+      "target_sha256": "291f6c709a78fd991b87ec2d51ea10f9218be3f408e67f17f947479318b45ca2"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_mode_closed",
+      "location_fingerprint": "86e8c54bc31cba9d330320162517c5917ff2e3cfd4c8c2f503bec7d62a83b150",
+      "review_fingerprint": "7cfb41eadfaf7e8ba7823a59eb103044897838324e84d77880fd16165501e111",
+      "source_sha256": "b17422c893aacae7ebafc9adf9a6560df6ec398b5346ee431ddc9b7e769f1519",
+      "status": "reviewed",
+      "target": "폐회로 냉각",
+      "target_sha256": "d6d2cd0a5c135aea9241e2a9de170e718ddb2c00977beed1794b752f90c38f35"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_mode_closed_desc",
+      "location_fingerprint": "604e6ab62ed178a4ae13078ea1082b7038bdbfedc4840062719374c5b39dd488",
+      "review_fingerprint": "6f3089dc958c80591c52581910571816b31f6651c3112d0d6741335e979c7a20",
+      "source_sha256": "6ff91372a3e13ccb9567cbfb187696625f3750aa5329a6767b268afd751b4fbf",
+      "status": "reviewed",
+      "target": "증기실에 든 증기의 5%(최소 1 mL)를 매초 응축합니다. 배터리 에너지 1 kJ당 5 mL를 응축하며 냉각수는 소모되지 않습니다.",
+      "target_sha256": "884ef0c199aeb9b796cf396327df6f71cf0b816c50f20a23cb8fcac0d3f06049"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_mode_coil",
+      "location_fingerprint": "0f1a332db42fd96913c74806e4402672ee13fa6b67a210457495a3037a942c80",
+      "review_fingerprint": "83ef20f7b41e13bded9aea45013bda5d9d69835bb0813c2e005bafb7e7a17211",
+      "source_sha256": "2fed02da4a549eeded985ee69a1703a0564f245665da11c0361c421ba17fd389",
+      "status": "reviewed",
+      "target": "코일 냉각",
+      "target_sha256": "72e636f502c0a5e929adfa00dc1dbe348d95e5ef426b91b614be4e0be5515664"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_mode_coil_desc",
+      "location_fingerprint": "12f9bae64ce83040ea1924be12d7fb3468efc2e173b780b4f21708fff7598092",
+      "review_fingerprint": "e3ce0ee5c287396d68871fe3f2110daf4e386b3ce726ffb8cfc0a4f4b98927d3",
+      "source_sha256": "8ce5bdd92f44316a1d7a807390a1bbf1087c8de437c5b1e9e57a30cc843a3d6c",
+      "status": "reviewed",
+      "target": "밤마다 한 번 응축합니다. 냉각수 8 mL당 1 mL를 응축하며 냉각수는 소모되지 않습니다.",
+      "target_sha256": "faa5285622cd631d36e118df41eb089fc89e145396ec3e1ebd9741991f3f886f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_mode_evaporative",
+      "location_fingerprint": "72c768723fbbbae1de3443a55c6daea887005c64dbd1763314c74d5657cff7ac",
+      "review_fingerprint": "1752a236847a57098e1dcb72ebe32ea6340a734ac7c69a246a44b4d6fc8a5998",
+      "source_sha256": "deb886a1cc7e38cf2543f6831d904cbe4c8e12243f8f6fcf55bba810c4e200f1",
+      "status": "reviewed",
+      "target": "증발 냉각",
+      "target_sha256": "7756e52ec4d544ef8221567c82d02a9e9a4abcb346fdd1d5ce60d4dc223be883"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_mode_evaporative_desc",
+      "location_fingerprint": "c5e15c4afafc3f3231a4b6c546071bc2998ae1c9ca85e4afce10611799c32c36",
+      "review_fingerprint": "bf7fd4f7b7c16e855f6f00832f07f0b6d6d3b4d236711773ce36d277f0192e0b",
+      "source_sha256": "e029a88dfbace3e6c562d2a4fb5bf462c89d572ef21d647a4ed2d69d1ed6846f",
+      "status": "reviewed",
+      "target": "증기실에 든 증기의 5%(최소 1 mL)를 매초 응축합니다. 1 mL를 응축할 때마다 냉각수 4 mL를 소모합니다.\\n냉각수는 베이스워터 이상(물 함량 98% 이상)이어야 합니다.",
+      "target_sha256": "86dfa552aa5546197bd455d731f2187ee35017cf778eba68a657b876e080f153"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_name",
+      "location_fingerprint": "b37b4ce2b78487315e583a24f50cf583d30c5b6437f1f099e2b2fcd282a710d6",
+      "review_fingerprint": "515345b882d60f96715bceb4f8b97e75f6267eb2dcbebc28ae9fa050cb8034c5",
+      "source_sha256": "70bcb5a44e57c4a79c790c828905a50769b01d84259302a961be519f2b289058",
+      "status": "reviewed",
+      "target": "증류기",
+      "target_sha256": "64e7ae1254d7accb19277e14a03ec515841e00ba43a7806b8cd507cdb03902bb"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_condensing",
+      "location_fingerprint": "9c855c09846d7e64d53e7899d34a878e71f51fb83575db9b9e6f85799bf34b9b",
+      "review_fingerprint": "f5b3e7392e4d15909f1019b1263f5e1bee1060ab5f83ebee7195b01e4b64fcb2",
+      "source_sha256": "dac466abca06994ccccddfcd0410d1db3636981dd25a6048681a988faf23bacc",
+      "status": "reviewed",
+      "target": "응축 중",
+      "target_sha256": "fee612ecdda15f9aad3cc83e69f441ece9cb17baec2e24e9294a918c51818353"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_full",
+      "location_fingerprint": "9d7127b24aeab5f46249a0aaadd410d8b638b7ea9df6d71707727833468b1327",
+      "review_fingerprint": "c42b934b44d42bc539aee13352685385d09859f085ac0a0d6bc003888567df40",
+      "source_sha256": "0bbf818376276154e3a060083c4c9d5cde595bd4822784a54861e791bde1e8da",
+      "status": "reviewed",
+      "target": "수집 용기가 가득 찼습니다.",
+      "target_sha256": "4dc9beb9744f9acdbe9a9668d5b615c6d5c8493fb299d99ec19044fbdd28230f"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_idle",
+      "location_fingerprint": "059680abab9476773f7645f34f9c02bfe6855a8f31428a66ab6b633a27caf272",
+      "review_fingerprint": "255737bcc2f2f0642666adce6f77b2fe29e7e1aa7d59c9783403f040e74ff8bd",
+      "source_sha256": "811b3bd59b6ec4b56e671812b4624087db8cf8e04d1747c5e400afab30ce4082",
+      "status": "reviewed",
+      "target": "증기 대기 중",
+      "target_sha256": "76d575b88c5cb60191ac6bfbc1ceac92cdc9f8ef09c26e7d33f995c683ffb796"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_low_coolant",
+      "location_fingerprint": "5509d66cc4cfb6043d270176dd04277194794dcfd3e5fe405d0469dbe055a69a",
+      "review_fingerprint": "5253d7b1b5d427511bb5953eff90313f025b9c2de0571d85f9fff15408eb56b0",
+      "source_sha256": "c9e99d4b02e9c4a267e937438d79555ccb061cb7c7e41c74d8103acc27908387",
+      "status": "reviewed",
+      "target": "냉각수가 부족해 일부만 응축했습니다.",
+      "target_sha256": "ea040e71d42df02be41503f3ae3dbd4de09c9aaef2d6d485603a7682d793c3cb"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_low_grade",
+      "location_fingerprint": "f125f1759f66aabb0d04d0506865814be81936aafe9634b4fcf853677de3f9e9",
+      "review_fingerprint": "8d8eb6fc40b6c4cf0ed67dbb0cf7b19862163cb605609d03467d398ad1ca2aa6",
+      "source_sha256": "0323c2cea349ecc2bafeb340d52c91088357121c1f1e44f0086074d19b175280",
+      "status": "reviewed",
+      "target": "냉각수가 베이스워터보다 낮은 등급이라 증발 냉각을 할 수 없습니다.",
+      "target_sha256": "dc0c73f45896d06179b09d31565f687792ba407a521ffa4910e673141cb8d745"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_low_power",
+      "location_fingerprint": "321395422b65746eb18e361e6e43e3fa8d3ba7f70e9dbd54bdd157f346032939",
+      "review_fingerprint": "c41ff5972da8232f39be6ac55448060fdfce951407ed6ec9e5727c95326361e2",
+      "source_sha256": "15ef89270877eeb79d7d05398d988cfad1ce5d28c6f850fd04e0b6dc246ee549",
+      "status": "reviewed",
+      "target": "전력이 부족해 일부만 응축했습니다.",
+      "target_sha256": "f2daa6d2a9e02fb3edc01283776d7f0bbb658f2a8deacf58f50d9be6d9d77dbb"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_no_coolant",
+      "location_fingerprint": "3e4154df3907788b105a13dc5d1ce61967d622e4c5d5a47f1e5346ebcdeff29a",
+      "review_fingerprint": "3c3471b780b5a917a25bf90ae218efc026a201ab1fbf436ae68f13acc5db5238",
+      "source_sha256": "4596c38e78f065628b8dd576ef12b84f97c49dc68cc991aae70719520ec38553",
+      "status": "reviewed",
+      "target": "사용 가능한 냉각수 없음",
+      "target_sha256": "fe60d8b594478518ada4c0481ccf6ced9ddba9041ff691c7b0b2a9e3c084e237"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_no_power",
+      "location_fingerprint": "5d453925490b5ac3a532fbe6d5ae39b5f75fad95e258ffbcca134dc81039c704",
+      "review_fingerprint": "2236340df1a9c445dca992e615de0bdca394c681b7465c923b9f7ccf9e78e986",
+      "source_sha256": "426d9d0b57ec5b25286df4de21568dc7797243c6404609557b0a7fd0812ebed5",
+      "status": "reviewed",
+      "target": "배터리가 방전됐습니다.",
+      "target_sha256": "4077b6b9b0672731f479490adc86279e4c1cac3942d3c7caa3f124d2414aebb9"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_status_no_receiver",
+      "location_fingerprint": "2fd24ae56fbe794b4c988644fda420f33e0e01b3545ab717b63ce13e0f0b2568",
+      "review_fingerprint": "b7e8a78f5ec8f6039eece8b2775dd04b5a69b93012a23ff9b616202b8bf2d2b6",
+      "source_sha256": "a0e89159b577be9c1b5b9ed2f19bdac255c755ac7a8c549ef4d2e697a4071f72",
+      "status": "reviewed",
+      "target": "수집 용기 없음",
+      "target_sha256": "8bdfb7c688730dc142098cbd1ad036a932026fc2e4a2257203cf8caa7ffc0344"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_switch_off",
+      "location_fingerprint": "932a9ecb5c979aa433f9bfea9cdd923af7ba32c8aa2005a96ae6dfb2f0d94b93",
+      "review_fingerprint": "ac5348823d0d291ec0421305e6316c27c04c7c88a645e4ff5777b91c149aca5a",
+      "source_sha256": "365ece0cb953591afa86f0142077877ea75f8af7541fee9aee2cd24eae25d9e8",
+      "status": "reviewed",
+      "target": "꺼짐 (클릭하여 켜기. 다른 방식은 꺼집니다)",
+      "target_sha256": "cc905a4bd97cbff8a1e75e7f4de8f6cc9dca1dff063928cf22de9964b0f09281"
+    },
+    {
+      "dependencies": [],
+      "dependency_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "id": "workshop:3832077837:still_switch_on",
+      "location_fingerprint": "a2432fb22ea37635a12b49ebccd1758382d11359c7bc2e5ed6a901f720967608",
+      "review_fingerprint": "a00e124f331b6f8c8caec4aa7c1032027e9ba2efb9571b1b6782616de9a01901",
+      "source_sha256": "0dc450e606e114f6e33ab97f69a855af2b8975e41493185b70f124d1e3e5734f",
+      "status": "reviewed",
+      "target": "켜짐 (클릭하여 끄기)",
+      "target_sha256": "9573cc8a8b2d4df543998cf57b283d66aa1f17b7ccd923463ae3b8bb6b734dd4"
     }
   ],
   "game_builds": [
@@ -345862,8 +346258,8 @@
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "source_inventory": {
-    "fingerprint": "0ec0bf3681f5b0ce8f3891bee4156384f5b7780c4311129720c400d9cf2682f8",
+    "fingerprint": "7eda94033399492e3c956e301381d7b66298027ded882022c0a8b228d8cc10a2",
     "method": "direct-reviewed-workshop-and-managed-runtime-inventory",
-    "target_count": 31398
+    "target_count": 31434
   }
 }

@@ -554,3 +554,37 @@ hplc_status_slot_3,수집 슬롯 3에 용기가 없거나 용기가 가득 찼�
 hplc_status_slot_4,수집 슬롯 4에 용기가 없거나 용기가 가득 찼습니다.
 setting_wine_genuine,혼합 와인에 기본으로 정품 라벨 붙이기
 setting_wine_genuine_tooltip,"켜면 화학 완성기에서 만든 혼합 와인에 처음부터 정품 라벨이 붙어 병마다 라벨기로 바꿀 필요가 없습니다. 실제로는 여전히 혼합 와인입니다. 허위 라벨이 들킬 위험은 그대로이며, 들키지 않고 판매하면 사기 혐의가 누적됩니다."
+condenser_name,응축기
+condenser_desc,냉각수를 최대 2 L 담는 산업용 응축기입니다.\n액체 용기를 응축기로 드래그해 냉각수를 채우세요. 순수한 물이 가장 효과적입니다.\n응축기를 가열판에 드래그하면 결합해 증류기가 됩니다.
+still_name,증류기
+still_desc,"가열판에 응축기를 장착한 장치입니다. 가열판 위 용기의 액체가 끓으면 증기가 최대 1 L를 담는 응축기의 증기실로 들어갑니다.\n증기실이 가득 차면 가장 먼저 들어온 증기부터 빠져나갑니다. 선택한 방식으로 증기를 응축해 수집 용기에 모읍니다.\n액체 용기를 드래그하면 냉각수를 채울 수 있습니다. 더블 클릭하면 배터리와 수집 용기를 넣거나 응축 방식을 선택할 수 있고, 우클릭하면 응축기를 분리합니다."
+still_label_battery,배터리
+still_label_collect,수집 용기
+still_label_modes,응축 방식
+still_mode_coil,코일 냉각
+still_mode_evaporative,증발 냉각
+still_mode_closed,폐회로 냉각
+still_mode_coil_desc,밤마다 한 번 응축합니다. 냉각수 8 mL당 1 mL를 응축하며 냉각수는 소모되지 않습니다.
+still_mode_evaporative_desc,증기실에 든 증기의 5%(최소 1 mL)를 매초 응축합니다. 1 mL를 응축할 때마다 냉각수 4 mL를 소모합니다.\n냉각수는 베이스워터 이상(물 함량 98% 이상)이어야 합니다.
+still_mode_closed_desc,증기실에 든 증기의 5%(최소 1 mL)를 매초 응축합니다. 배터리 에너지 1 kJ당 5 mL를 응축하며 냉각수는 소모되지 않습니다.
+still_switch_on,켜짐 (클릭하여 끄기)
+still_switch_off,꺼짐 (클릭하여 켜기. 다른 방식은 꺼집니다)
+still_info_vapour,증기 {0} / {1} mL
+still_info_coolant,"냉각수 {0} / {1} mL, 물 함량 {2}%"
+still_info_coil,오늘 밤 {0} mL 응축 가능
+still_info_evaporative,1 mL당 냉각수 {0} mL 소모
+still_info_closed,1 kJ당 {0} mL 응축
+still_info_off,응축 방식이 꺼져 있어 증기를 응축하지 않고 보관합니다.
+still_status_idle,증기 대기 중
+still_status_condensing,응축 중
+still_status_no_receiver,수집 용기 없음
+still_status_full,수집 용기가 가득 찼습니다.
+still_status_no_coolant,사용 가능한 냉각수 없음
+still_status_low_grade,냉각수가 베이스워터보다 낮은 등급이라 증발 냉각을 할 수 없습니다.
+still_info_low_grade,증발 냉각에는 베이스워터 이상(물 함량 {0}% 이상)이 필요합니다.
+still_status_low_coolant,냉각수가 부족해 일부만 응축했습니다.
+still_status_no_power,배터리가 방전됐습니다.
+still_status_low_power,전력이 부족해 일부만 응축했습니다.
+still_joined,응축기를 가열판에 장착했습니다.
+still_detached,응축기를 분리했습니다.
+still_detach,응축기 분리
