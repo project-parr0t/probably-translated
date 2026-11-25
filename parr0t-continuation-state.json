@@ -1,39 +1,39 @@
 {
   "artifacts": {
-    "CONTINUATION.md": "6bca1fcfe5094c6abb4fbf504971a5e77b7c2f2334923a1fb1da6004033b6e34",
-    "KOREAN-LOCALIZATION.md": "d118f623b02a3d2fb3f5d2847fe442628c4883d050cc5f8fa7ac984ff1a510d8",
-    "ProbablyStolenKo.Localization.dll": "5c3d1f4d7189758ed7197b474acf0846dce783f2da0cab9a503607cc4d3f20b8",
-    "README.md": "ec5bdfddab4f526809818558d8b683955071beb5ad980695f19b2bda1fdbbbed",
-    "managed-ko-runtime.json": "a210301ceee8e1616266c2cd35090ca0db69eb91717f6821192af7ec062834e9",
-    "manifest.xml": "f4089954bbfa1cadb9bd5bef8cc751335cf7dbee1830c1995fcfc7aca20d60f6",
-    "parr0t-release-checkpoint.json": "6d876169b891e31c74117b28dab9e445abcd6df71d1dfba0c9b79a459409e92d",
+    "CONTINUATION.md": "6d393718cddc9e4e3766b3423c0d918db99867026c82a95886d31a1fa64e3acf",
+    "KOREAN-LOCALIZATION.md": "782a2d05417a35c18be15746f4a89f8ea312220834a4f97b94be104c57383512",
+    "ProbablyStolenKo.Localization.dll": "cdea8868a7af0b34301d7aaff43940cc859faf345b20da5baa385afbbd18c550",
+    "README.md": "5548dbb7b9dd5799c35a2b6ee9dda90f07cb75ac9361d9c5510355c0a33f77f3",
+    "managed-ko-runtime.json": "51ef8b8036085d93b2eefd1e82e596e2e8cecde4fdcc2153369f139312c30b79",
+    "manifest.xml": "e801732a20037b65686541093cc83f3c41c9eb47cd977463a17f4828a3b5bf8b",
+    "parr0t-release-checkpoint.json": "12914a810c4deaf239fe82a9f14c41eba914cc1c24bbdc3abab8880bf02764ae",
     "preview.png": "1f08108ba5776a36ad8a65998dad638bf21679f12ab766d796f4c8ccff995d39",
     "src/ProbablyStolenKo.Localization/AquaSenseCompositionOverlay.cs": "3cb8e367ca428b42e41ab6e2283dacc784ef7ad16024e32fede6dd06219f7a12",
     "src/ProbablyStolenKo.Localization/ClaimsLanguageOverlay.cs": "958e08d1cb39723a481a750ad0dffc1210de1f1f238c55bfe091ad85c3657f68",
-    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "e8ee8d1340158a73a9bdcad7371ac37f313924b2b640f6a30a2c70962332de0e",
+    "src/ProbablyStolenKo.Localization/GeneratedManagedBindings.cs": "c2bfbd7f0b34d0c34c340bdbea3a88c360f533a3033706f5075f50be2fabcf64",
     "src/ProbablyStolenKo.Localization/HologramPreferenceLayout.cs": "058b55182fb94d309d2068993a119dff3847fb2be24d850cbe6de2589c6863fc",
     "src/ProbablyStolenKo.Localization/KitchenLanguageOverlay.cs": "4d36ccf23d127604ee77f83086724ab8b20aa76a9df1e5b7b7b0038f81ffa43d",
     "src/ProbablyStolenKo.Localization/LabelerTextOverlay.cs": "62de6a03cb34e8f7971c97b2afbed02489fc916dbedebfecca2202c40b04f411",
     "src/ProbablyStolenKo.Localization/ManagedDisplayOverlay.cs": "fbeeae41c7bc0d37765943dba518ecd18d25e5b8e5cd403c0c85fa7b25944d0e",
-    "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "b6602b22f22eb17d5cc3ef2e220ff8aec599d478f1159e3e876fe2c3105dbb6c",
+    "src/ProbablyStolenKo.Localization/ManagedLiteralOverlay.cs": "557463b1346f0482fdd07029edeab62496ee93aa7da26b4157674a166f53733e",
     "src/ProbablyStolenKo.Localization/PerksFriendlyTalkOverlay.cs": "9247316b4ff4e32022f797aa8ed85321f89ec4c882929c5d7ad32c29a9161457",
     "src/ProbablyStolenKo.Localization/ProbablyStolenKo.Localization.csproj": "9d672fbec6c147d75cb2e51f3118b503a8a83332e1cd4556f1cf53bc3ee52ad2",
     "src/ProbablyStolenKo.Localization/ProbablyStolenKoBridge.cs": "2d9c2fcbf107e6ad8304280894a700ba3db7b36d574f14daa239dc5860471550",
     "src/ProbablyStolenKo.Localization/SpaceCoffeeSceneOverlay.cs": "fa4f8538a6b6aa17c9010c2b7ed3dad9b3ded3caad4bc73937459e42d5394bc6",
-    "src/ProbablyStolenKo.Localization/WorkshopOverlay.cs": "500c62b3b762508417faef66fb8ef70b608412c15b3381dc3d9bec9a2506155f",
+    "src/ProbablyStolenKo.Localization/WorkshopOverlay.cs": "9af7ee444fd234db87127a1c6fc5d58a7ac5597b34b4c2a283706a5e516b7a0d",
     "tools/Release-TestGate.ps1": "18408720a95323b4ef95d992e9d318f4ea09d4801f303d25d881e6307cb53af2",
-    "workshop-ko-runtime.json": "4fe558e7bdde3edec5baf481b34d6b9b829e5ee85f1ec06e352d26a09f406f97",
+    "workshop-ko-runtime.json": "ced9c1025f9338346cba6e799e34d1248dfe603e8bd4a88733fc7d0d9dc7524e",
     "workshop/description.bbcode.txt": "366810c4c2635a2ec8644f484be3aa3fea323eeb09466027d145127b012e009e"
   },
   "contracts": {
-    "generated_bindings": 493,
+    "generated_bindings": 499,
     "generated_refresh": 6,
-    "generated_routes": 1275,
-    "generated_static_patches": 493,
+    "generated_routes": 1281,
+    "generated_static_patches": 499,
     "generated_unsupported": 0,
-    "managed_entries": 27422,
+    "managed_entries": 27435,
     "managed_targets": 38,
-    "workshop_entries": 15739,
+    "workshop_entries": 17286,
     "workshop_mods": 20
   },
   "dependencies": {
@@ -150,19 +150,19 @@
     "branch": "sdk-unity-2021.3",
     "checkpoint_release_id": "local-r30",
     "checkpoint_scope": "Direct assigned-model update wave 2026-11-18. The tracked runtime payloads, generated bindings, and checkpoint entries are authoritative; source-absent exclusions are not routed. Local follow-ups add 365 CSV entries and 385 managed entries, correct 22 existing CSV entries, and revise 88 Agri dialogue and choice rows against the original Korean Translation. Only three managed assemblies are re-attested using exact pre-update binaries.",
-    "checkpoint_target_count": 29529,
+    "checkpoint_target_count": 31109,
     "commit": "5cc62680c02156b8487de6b306714b0064a260b4"
   },
   "release": {
-    "commit": "0b4bf0bf0b42357084c4afb104eac4b52d04fb33",
+    "commit": "044b0c182c64adad1d7208a5ecfcea8997e471fe",
     "game_version": "0.46D",
-    "version": "1.0.46"
+    "version": "1.0.47"
   },
   "schema": "probably-translated.continuation/v1",
   "trees": {
     "Languages": {
       "files": 74,
-      "sha256": "a028f17042fcc110594b32bc43fac74dbe252ed4814a8e3b37e97d64190f56b3"
+      "sha256": "245b5fd2d89e8a82b68d8837f8f181ac7ac8a05eb157d68840b96c1124b2b526"
     },
     "loading-ui": {
       "files": 2,
@@ -178,7 +178,7 @@
     },
     "workshop-overlays": {
       "files": 20,
-      "sha256": "769f7bfcb67640abc3c1914d71101c84bf364f72bde39aeaa6deade65b652007"
+      "sha256": "f300560a9aafc783823906e0b4c41faf59502d454b03cbf8911af4e98fdaa98b"
     }
   }
 }
