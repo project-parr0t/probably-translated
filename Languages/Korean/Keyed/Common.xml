@@ -118,4 +118,10 @@
   <yexiaoyang.settings.section>튜토리얼</yexiaoyang.settings.section>
   <yexiaoyang.settings.skip_command_tutorial>예샤오양의 지휘소 튜토리얼 건너뛰기</yexiaoyang.settings.skip_command_tutorial>
   <yexiaoyang.settings.skip_command_tutorial.tooltip>지휘소와 구역 튜토리얼만 표시하지 않습니다. 튜토리얼이 완료 처리되거나 보상이 지급되지는 않으며, 다른 이야기는 건너뛰지 않습니다. 이 옵션을 끄면 저장된 진행 상황에서 튜토리얼을 이어갈 수 있습니다.</yexiaoyang.settings.skip_command_tutorial.tooltip>
+  <yexiaoyang.settings.use_legacy_combat>기존 전투 모드로 되돌리기</yexiaoyang.settings.use_legacy_combat>
+  <yexiaoyang.settings.use_legacy_combat.tooltip>이 설정을 켜면 새로 시작하는 전투에 기존 전투 방식을 사용합니다. 끄면 격자형 턴제 전투를 사용합니다.</yexiaoyang.settings.use_legacy_combat.tooltip>
+  <yexiaoyang.settings.battle_hidden_dice>전투 모드의 숨은 주사위</yexiaoyang.settings.battle_hidden_dice>
+  <yexiaoyang.settings.battle_hidden_dice.tooltip>새 격자 전투에서는 양쪽 모두 D20 명중 기준치에 5점을 더하고 시작합니다. 1점은 명중률 5%p에 해당합니다. 플레이어의 초기 총화력이 적보다 300 부족할 때마다 적의 보너스가 1점 줄어듭니다. 보너스 5점이 모두 사라진 뒤에도 차이가 300 더 벌어질 때마다 적의 명중 기준치가 기본값보다 1점씩, 최대 3점까지 낮아집니다. 이렇게 초기 화력으로 정한 보정치는 전투가 끝날 때까지 유지됩니다.</yexiaoyang.settings.battle_hidden_dice.tooltip>
+  <yexiaoyang.ui.console.regression.fixes_help>15, 16, 17, 20, 21, 22번 수정 사항을 검사합니다. fixes 대신 번호를 입력하면 해당 항목만 검사합니다.</yexiaoyang.ui.console.regression.fixes_help>
+  <yexiaoyang.ui.console.regression.warehouse_help>임시 물품으로 창고 물품 복구를 검사합니다. 창고를 개조하거나 Deep Space Vehicles를 설치할 필요는 없습니다.</yexiaoyang.ui.console.regression.warehouse_help>
 </LanguageData>

@@ -20,9 +20,9 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 ## 어떤 모드의 한글 패치가 지원되나요?
 다음 모드들을 지원합니다:
 - [Better Water Trading](https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417) — v1.13.2
-- [GoFishing](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153) — v2.5.4
+- [GoFishing](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153) — v2.6.0
 - [Smart Inventory Arrange](https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666) — v3.17.70
-- [Pen's Pipette](https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725) — v1.1.5
+- [Pen's Pipette](https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725) — v1.2.0
 - [Duoji's Hotkey Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=3829508405) — v1.2.3
 - [Brewing Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904) — v3.6.8.7
 - [Disaster Day](https://steamcommunity.com/sharedfiles/filedetails/?id=3829946713) — v2.0.3
@@ -31,33 +31,33 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 - [Unbox Moment](https://steamcommunity.com/sharedfiles/filedetails/?id=3830643693) — v1.5.2
 - [Vanilla Food Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3830798369) — v0.3.10
 - [Visible Item Durability](https://steamcommunity.com/sharedfiles/filedetails/?id=3831464547) — v0.2.19
-- [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187) — v1.2.2
+- [Better Liquid Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=3831472187) — v1.2.3
 - [Gun Mod Tarkov](https://steamcommunity.com/sharedfiles/filedetails/?id=3831650864) — v1.5.9
 - [Vanilla Chemistry Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832077837) — v1.10.1
 - [Probably a Farm Story](https://steamcommunity.com/sharedfiles/filedetails/?id=3832249311) — v2.0.11
 - [Tobacco Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3832840208) — v0.5.4.3
-- [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698) — v1.3.77
+- [Probably Regulars - AI Emporium](https://steamcommunity.com/sharedfiles/filedetails/?id=3832941698) — v1.3.78
 - [Real Time Clock](https://steamcommunity.com/sharedfiles/filedetails/?id=3833083602) — v1.6.0
 - [Probably Flyers](https://steamcommunity.com/sharedfiles/filedetails/?id=3833522385) — v0.8.0
 - [Station Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506) — v1.4.0
-- [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482) — v0.5.51
-- [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532) — v0.9.719
+- [CS Weapon Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834110482) — v0.5.53
+- [Perks: Probably Fun](https://steamcommunity.com/sharedfiles/filedetails/?id=3834226532) — v0.9.722
 - [Combat Contract](https://steamcommunity.com/sharedfiles/filedetails/?id=3834364038) — v0.4.12
 - [In-Game Mod Settings](https://steamcommunity.com/sharedfiles/filedetails/?id=3834556946) — v1.0.2
 - [Gunsmith Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3834619049) — v2.1.1
-- [Probably Containers+](https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782) — v1.0c
+- [Dr Jojo's Containers](https://steamcommunity.com/sharedfiles/filedetails/?id=3837147782) — v1.0d
 - [Holographic Trading Panel](https://steamcommunity.com/sharedfiles/filedetails/?id=3837476079) — v1.3.2
 - [Storage Bay Appearance](https://steamcommunity.com/sharedfiles/filedetails/?id=3837983447) — v1.2.8H2
-- [Upper Levels: Probably DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803) — v0.9.29.4
+- [Upper Levels: Probably DLC](https://steamcommunity.com/sharedfiles/filedetails/?id=3838944803) — v0.9.31.4
 - [VA-11 Hall-A Fan MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3831732004) — v2.1.9
-- [Space Coffee](https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583) — v4.1
+- [Space Coffee](https://steamcommunity.com/sharedfiles/filedetails/?id=3834667583) — v4.3
 - [Better UV Lamp](https://steamcommunity.com/sharedfiles/filedetails/?id=3835898349) — v1.0.1
 - [Better Box Selection](https://steamcommunity.com/sharedfiles/filedetails/?id=3836727677) — v1.0.2
 - [Eleanor: Bring Her Back](https://steamcommunity.com/sharedfiles/filedetails/?id=3834076808) — v0.7.12
 - [Probably Mined](https://steamcommunity.com/sharedfiles/filedetails/?id=3838151650) — v0.3.3
 - [Probably Helpful](https://steamcommunity.com/sharedfiles/filedetails/?id=3838230589) — v1.0
 - [Deep Space Clinic 2077](https://steamcommunity.com/sharedfiles/filedetails/?id=3832819040) — v0.1.0-ui.227
-- [Probably Stolen: Claims & Uprisings](https://steamcommunity.com/sharedfiles/filedetails/?id=3841509159) — v1.2.13
+- [Probably Stolen: Claims & Uprisings](https://steamcommunity.com/sharedfiles/filedetails/?id=3841509159) — v1.2.15
 
 ## 다른 번역 모드들과 겹쳐도 작동하나요?
 확실하지 않습니다. 다만, 이 모드는 제가 개인적으로 즐기기 위해서 일괄로 번역을 수행하고 사용하고 있습니다.

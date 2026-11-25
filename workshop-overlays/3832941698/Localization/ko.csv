@@ -1676,7 +1676,7 @@ ds.ui.speaker.you,당신
 ds.ui.storage.continuous_desc,"보관 물자: {0}칸. 건설에서 업그레이드하면 이 구역의 줄 수가 늘어납니다.\n창고에 있는 재료로 보관 물자, 생산 원료, 배송 대기 구역을 각각 옆으로 넓힐 수 있습니다.\n집과 작업장은 같은 창고를 쓰며, 가게에서도 전화로 이용할 수 있습니다."
 ds.ui.storage.keep_direct_hint,매장 → 작업장: 끌어다 놓아 보관\n보관 물자는 자동으로 소모되거나 배송되지 않습니다\n매장으로 다시 끌어오면 꺼낼 수 있습니다
 ds.ui.storage.raw_direct_hint,"매장 → 작업장: 원료를 끌어다 놓기\n영양제, 사료, 빈 병, 필터\n생산 시 자동으로 가져다 쓸 수 있습니다"
-ds.ui.storage.ship_direct_hint,"배송 목적지를 눌러 가게 창고와 손님 쪽 카운터를 전환하세요. 아침 배송과 직접 수령에 같은 목적지를 사용합니다. 카운터의 빈칸에 들어가는 물품만 배송되며, 카운터를 정리할 때 찾아가지 않은 물품은 배송 대기 구역으로 돌아갑니다. 그곳이 꽉 차면 ‘반송 물품’을 열어 찾아가세요."
+ds.ui.storage.ship_direct_hint,"‘배송 목적지’를 눌러 가게 창고, 손님 쪽 카운터, 소유한 하이퍼테크 보관함 중 하나를 선택하세요. 아침 배송과 직접 수령에 같은 목적지를 사용합니다.\n선택한 보관함의 탭을 차례로 확인해 물품을 넣습니다. 보관함에 빈자리가 없거나 보관함을 찾을 수 없으면 물품은 집에 남습니다.\n손님 쪽 카운터에서 찾아가지 않은 물품은 카운터를 정리하기 전에 배송 대기 구역으로 돌아갑니다. 그곳이 꽉 찼으면 ‘반송 물품’에서 찾아가세요."
 ds.ui.storage.tier_title,작업장 창고 · {0}단계
 ds.ui.storage.zone_input,생산 원료
 ds.ui.storage.zone_input_desc,"영양 정제는 낱개로 넣거나 원래 들어 있던 병째로 넣을 수 있습니다. 어류 사료, 생선 부스러기, 생고기, 빈 병, 예비 정수 필터를 넣으면 자동 관리에 필요할 때 사용합니다."
@@ -2586,3 +2586,18 @@ settings.value.stock_growth,무작위 성장
 "ds.ui.desk.slot_empty","비어 있음"
 "ds.ui.desk.slot_powered","전원 연결됨"
 "ds.ui.desk.slot_unpowered","전원 공급 없음"
+ds.ui.dispatch.area_back,가게 안쪽 카운터
+ds.ui.dispatch.area_hidden,숨겨진 수납칸
+ds.ui.dispatch.area_showcase,진열장
+ds.ui.dispatch.area_store,가게 창고
+ds.ui.dispatch.bay_choice,"{0} #{1} · {2} ({3}열, {4}행)"
+ds.ui.dispatch.bay_log,하이퍼테크 보관함 #{1}에 물품 {0}개를 배송했습니다. 다 넣지 못한 물품은 집에 남겨 두었습니다.
+ds.ui.dispatch.bay_missing,선택한 하이퍼테크 보관함 #{0}을(를) 사용할 수 없습니다. 물품은 집에 남겨 둡니다.
+ds.ui.dispatch.choose,배송 목적지
+ds.ui.dispatch.no_bays,"소유한 하이퍼테크 보관함을 가게 창고, 가게 안쪽 카운터, 진열장, 숨겨진 수납칸 중 한 곳에 놓으면 여기서 선택할 수 있습니다."
+ds.ui.dispatch.selected,선택됨 · {0}
+ds.ui.dispatch.to_bay,배송 목적지: 하이퍼테크 보관함 #{0}
+ds.ui.feed.harvest_hint,수확물을 사료로 사용하도록 설정하면 수조를 관리할 때 먹을 수 있는 수경재배 수확물을 이 수조의 급이기에 넣습니다.\n씨앗과 고정한 물품은 그대로 둡니다. 투입 칸이 꽉 차거나 저장 열량이 한도에 이르면 남은 수확물은 수확 칸에 남아 나중에 사용하거나 직접 꺼낼 수 있습니다.\n분쇄 여부는 급이기의 자동 분쇄 설정을 따릅니다. 물고기는 평소 식성에 맞는 먹이만 먹습니다.
+ds.ui.feed.harvest_log,{0} 구획의 급이기에 수경재배 수확물 {1}개를 넣었습니다.
+ds.ui.feed.harvest_off,수확물을 사료로 사용 · 꺼짐
+ds.ui.feed.harvest_on,수확물을 사료로 사용 · 켜짐

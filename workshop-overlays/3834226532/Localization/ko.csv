@@ -65,3 +65,5 @@ dsp_jackie_chan_description,잡동사니를 조합해 더 값진 무기를 만�
 dsp_jackie_done,"잡동사니 {0}개(가치 {1})를 조합했습니다. 제작한 무기: {2}"
 dsp_jackie_no_junk,조합하려면 잡동사니가 두 개 이상 필요합니다.
 dsp_jackie_no_weapon,이 잡동사니로는 근접 무기를 만들 수 없습니다.
+dsp_hawaii_training_description,게임 시작 시 특성 포인트 합계가 -2인 무작위 특성 3개를 얻습니다.\n게임 시작 시 한 번만 발동하는 특성은 추첨에서 제외됩니다. 하와이에서 배운 게 다 좋은 건 아닙니다.
+dsp_star_crossed_description,4주 동안 매주 시작할 때 200크레딧과 무작위 특성 1개를 얻습니다.\n받는 특성의 포인트는 0점에서 -3점까지 매주 1점씩 내려갑니다.\n게임 시작 시 한 번만 발동하는 특성은 추첨에서 제외됩니다.

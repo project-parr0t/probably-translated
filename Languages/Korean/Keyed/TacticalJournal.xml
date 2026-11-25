@@ -19,4 +19,6 @@
   <yexiaoyang.tactical.journal.faction_neutral>중립</yexiaoyang.tactical.journal.faction_neutral>
   <yexiaoyang.tactical.journal.end_turn>{actor}: 턴 종료.</yexiaoyang.tactical.journal.end_turn>
   <yexiaoyang.tactical.battle.forecast_hit_per_shot>탄환당 명중률</yexiaoyang.tactical.battle.forecast_hit_per_shot>
+  <yexiaoyang.tactical.journal.hit_result>{actor}: {target} 공격 · 무기 {weapon}. 명중! 피해 {damage}.</yexiaoyang.tactical.journal.hit_result>
+  <yexiaoyang.tactical.journal.miss_result>{actor}: {target} 공격 · 무기 {weapon}. 빗나감! 피해 {damage}.</yexiaoyang.tactical.journal.miss_result>
 </LanguageData>

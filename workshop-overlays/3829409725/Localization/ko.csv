@@ -116,3 +116,14 @@ hydra_stage_decontaminate,오염 제거
 pipette_calibrating_no_draw,피펫을 보정하는 동안에는 액체를 흡입할 수 없습니다
 hydra_mode_mineral,모드: 미네랄
 hydra_stage_mineral,미네랄 균형 조정
+hydra_bind_hint,주성분이 있는 액체 용기를 클릭해 연결하세요.
+hydra_bind_active,연결됨: {0}
+hydra_bind_same,현재 연결된 용기입니다.
+hydra_bind_empty,대상 용기가 비어 있어 균형을 맞출 수 없습니다.
+hydra_bind_tip,연결한 상태에서 다른 액체 용기를 클릭하면 연결한 용기에서 규칙에 따라 액체를 옮깁니다. 연결한 용기를 이동하거나 피펫을 장착 해제하면 연결이 풀립니다.
+hydra_bind_unbind,연결한 용기를 다시 클릭하면 연결이 풀립니다.
+hydra_bind_preview,연결됨: {0} · {1}
+hydra_bind_no_effect,이 대상에는 균형 조정을 할 수 없습니다.
+hydra_bind_contents_empty,현재 액체: 없음
+hydra_react_bound,{0} 소모 (유효 성분: {1}) · {2}
+hydra_bind_contents,현재 액체: {0} (유효 성분: {1})

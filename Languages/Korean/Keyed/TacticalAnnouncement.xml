@@ -2,4 +2,11 @@
 <LanguageData targetMod="yexiaoyang.InteriorExpansion">
   <yexiaoyang.tactical.announcement.target>{actor}: {action} 사용| · 대상 {target}</yexiaoyang.tactical.announcement.target>
   <yexiaoyang.tactical.announcement.no_target>{actor}:| {action} 사용</yexiaoyang.tactical.announcement.no_target>
+  <yexiaoyang.tactical.dialogue.security.warning_1>젠장! 그 여자다!</yexiaoyang.tactical.dialogue.security.warning_1>
+  <yexiaoyang.tactical.dialogue.security.warning_2>괜히 골치 아픈 사람들한테 찍히고 싶진 않아.</yexiaoyang.tactical.dialogue.security.warning_2>
+  <yexiaoyang.tactical.dialogue.security.warning_3>전원, 사격 조심해! 그 여자는 다치게 하지 마!</yexiaoyang.tactical.dialogue.security.warning_3>
+  <yexiaoyang.tactical.dialogue.security.warning_4>그쪽에서 먼저 공격하지 않는 한…</yexiaoyang.tactical.dialogue.security.warning_4>
+  <yexiaoyang.tactical.dialogue.security.response_1>어쩔 수 없군!</yexiaoyang.tactical.dialogue.security.response_1>
+  <yexiaoyang.tactical.dialogue.security.response_2>무력 사용을 허가한다!</yexiaoyang.tactical.dialogue.security.response_2>
+  <yexiaoyang.tactical.dialogue.security.skip>스페이스바로 건너뛰기</yexiaoyang.tactical.dialogue.security.skip>
 </LanguageData>

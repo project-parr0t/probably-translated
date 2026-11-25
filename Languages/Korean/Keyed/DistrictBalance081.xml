@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData targetMod="yexiaoyang.InteriorExpansion">
-  <yexiaoyang.district.ui.charity_reputation>하층 평판: +{reputation}(기본 상승치와 특성 보너스를 합한 뒤 두 배 적용)</yexiaoyang.district.ui.charity_reputation>
+  <yexiaoyang.district.ui.charity_reputation>하층 구역 평판 예상 상승치: +{reputation} (난이도와 평판 상한 반영)</yexiaoyang.district.ui.charity_reputation>
   <yexiaoyang.district.report.owned_market_robbery>일당이 {0}에서 상점을 털었습니다. 번영도 −20, 주민 관계 −150.</yexiaoyang.district.report.owned_market_robbery>
   <yexiaoyang.market.robbery.owned_confirm>내 영토의 상점을 털겠습니까? 전투는 벌어지지 않지만 번영도가 20, 주민 관계가 150 떨어집니다.</yexiaoyang.market.robbery.owned_confirm>
 </LanguageData>

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "c93ca4b5c0c9b140d8fe2bf1c7a32cf4b14067aba0590e46a169af665ad469f3",
-  "entry_count": 27422,
+  "inventory_fingerprint": "96fece2598b918dd6856918247105cf7514b20d7474d9d7b3688c39dec2bf9ac",
+  "entry_count": 27435,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",
@@ -92,7 +92,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "PSFishingGameplay.dll",
-        "assembly_sha256": "6275b7af84216a2385a86c00f32c100f156b0c8191f82da3d5c9e207a0d78842"
+        "assembly_sha256": "c9de8dee27cd54739969da1a855376f406c186d9cc303aa37f35a6c251c0f62d"
       }
     },
     "smart_inventory_arrange": {
@@ -910,7 +910,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "Pen_mod_pipette.dll",
-        "assembly_sha256": "82f2149d5def57417c807af795612a451cfefc4b872773c9b9aacde00b2f8cce"
+        "assembly_sha256": "9ae72aa4013add0d056ecb7eb6b39ddfe07d66a2e1b088458326da6f122a17ba"
       }
     },
     "brewing_expansion": {
@@ -1702,7 +1702,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "BetterLiquidScanner.dll",
-        "assembly_sha256": "1a38a83d5a091abbdc32e0ca59cb5db25297ec7ee0d62e05c57e38c3ec0ffa61"
+        "assembly_sha256": "084ace1c6c795e362c6059b886626b2b5df4d8bb88b01ad9e4487b0252bc3edf"
       }
     },
     "bottle.yeast.stay": {
@@ -16007,7 +16007,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "AiEmporium.dll",
-        "assembly_sha256": "5753cae2b5870f230b61940fd191b694ce0928817d17ef3eee4a920888394eaf"
+        "assembly_sha256": "32d617797b229fe0b46232e24d02af46caed1a6dbc89114ed25b76353d429d87"
       }
     },
     "user.realtimeclock": {
@@ -16403,10 +16403,10 @@
     "cs_weapon_case": {
       "workshop_item_id": "3834110482",
       "assembly_name": "CS Weapon Case",
-      "entry_count": 3830,
+      "entry_count": 3839,
       "manifest": {
         "name": "CS Weapon Expansion",
-        "description": "CS 무기 확장: 상자 24종, 무기 스킨 828종, 투척물 6종, 신규 고객 90명. 상자 개봉, 시장, 창고, 용광로 포함. 무기 시장 단말기를 구매해 가게로 가져온 뒤 우클릭해 설치하세요.\n\n권한 사용 목적: 파일 읽기 권한은 모드 폴더 안의 분류별 텍스처를 불러오는 데 사용됩니다. Steam은 순위표에 사용됩니다. ID, 닉네임, 순위를 읽고, 골드/레드 등급 획득 횟수 또는 마모 점수를 제출합니다. 순위표에 오른 닉네임과 기록은 공개될 수 있습니다. 안내문의 “업적, 친구” 등은 게임에서 통상적으로 드는 예시입니다.\n이 모드는 비밀번호, 친구 목록, 채팅, 브라우저 정보 또는 관련 없는 개인 파일을 읽지 않으며 제작자 서버로 데이터를 전송하지 않습니다. 순위표를 열지 않으면 순위 정보를 능동적으로 요청하지 않습니다. 고정 가격 및 로컬 게임플레이는 오프라인에서 사용할 수 있습니다."
+        "description": "CS 무기 확장: 상자 24종, CS·CF 무기 스킨, 사이버웨어 6종을 포함한 2077 무기 122종, 투척물 6종, 고객 156명을 추가합니다. 상자 개봉, 시장, 창고와 용광로가 포함됩니다. 시장 단말기를 가게로 가져온 뒤 우클릭해 설치하세요.\n\n파일 읽기 권한은 모드 폴더의 분류별 텍스처를 불러오는 데 사용됩니다. Steam 순위표에서 ID, 닉네임, 순위를 읽고 골드·레드 등급 획득 횟수 또는 마모도 점수를 제출합니다. 순위표에 오른 닉네임과 기록은 공개될 수 있습니다. 권한 안내의 ‘업적’, ‘친구’는 게임이 공통으로 표시하는 예시입니다.\n이 모드는 비밀번호, 친구 목록, 채팅, 브라우저 정보나 관련 없는 개인 파일을 읽지 않으며, 제작자의 서버에 데이터를 보내지 않습니다. 순위표를 열지 않으면 순위표를 요청하지 않습니다. 고정 가격과 로컬 기능은 오프라인에서도 이용할 수 있습니다."
       },
       "routes": [
         {
@@ -20570,14 +20570,63 @@
             "分辨话语里的真与假，让藏起来的心思无处可躲。": "말 속에서 진실과 거짓을 가려 숨긴 속내를 드러냅니다.",
             "把尚未发生的片段带进梦里，醒来仍记得那些画面。": "아직 일어나지 않은 장면을 꿈에 담아\n깨어나도 그 모습이 기억에 남게 합니다.",
             "唤起脚下的大地，让泥土和岩石隆起或移动。": "발밑의 대지를 흔들어 흙과 바위가 솟거나 움직이게 합니다.",
-            "悄然抹去周围的一切，让熟悉的街景归于空无。": "주변의 모든 것을 소리 없이 지워 익숙한 거리를 텅 비게 합니다."
+            "悄然抹去周围的一切，让熟悉的街景归于空无。": "주변의 모든 것을 소리 없이 지워 익숙한 거리를 텅 비게 합니다.",
+            "大卫装在脊柱上的高速战斗义体，启动时周围仿佛慢了下来。": "데이비드가 척추에 장착한 고속 전투용 사이버웨어.\n작동시키면 주변이 느리게 움직이는 듯하다."
+          }
+        },
+        {
+          "type": "CSWeaponCase.MarketWindow",
+          "method": "UpdateGunFilters",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "全部口径": "모든 구경",
+            "全部枪况": "모든 총기 상태"
+          }
+        },
+        {
+          "type": "CSWeaponCase.MarketWindow",
+          "method": "ToggleGunConditions",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "全部枪况": "모든 총기 상태"
+          }
+        },
+        {
+          "type": "CSWeaponCase.MarketWindow",
+          "method": "AddCaliberOption",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "全部口径": "모든 구경"
+          }
+        },
+        {
+          "type": "CSWeaponCase.BatchOpening",
+          "method": "StartPlannedCore",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "批量开箱未开始：": "일괄 개봉을 시작하지 못했습니다: "
+          }
+        },
+        {
+          "type": "CSWeaponCase.BatchOpening",
+          "method": "BuildCasePreview",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Unknown case": "알 수 없는 상자",
+            "Missing case entry: ": "상자 구성품을 찾을 수 없습니다: ",
+            "Empty case: ": "구성품이 없는 상자: "
           }
         }
       ],
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "CS Weapon Case.dll",
-        "assembly_sha256": "4471154206d7c221964b696f3fdc9cd9370f15f181f3607cf173679fadd08fbd"
+        "assembly_sha256": "cb967ea67f3507fe5fb5aa2dbe83f4f2e292bb644e9d1d82627ac27a17b62737"
       }
     },
     "traits_probably_fun": {
@@ -20592,7 +20641,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "TraitsProbablyFun.dll",
-        "assembly_sha256": "c8047effcbd30c372d99cc5c865365285ec7bd19cab873459a1115b2836c123b"
+        "assembly_sha256": "39ae1c4d813f3a7737597fcdc01a1999351763186509595251635defbad74351"
       },
       "display_replacements": {
         "80天环游地球：只在跳过开场时可用": "80일간의 세계 일주: 도입부를 건너뛴 경우에만 사용할 수 있습니다.",
@@ -20652,13 +20701,13 @@
       "entry_count": 2,
       "manifest": {
         "name": "Upper Levels: Probably DLC",
-        "description": "상층 구역에 가게를 여세요. 시작 직업 3종(상층 구역의 새 점주, 장기 밀매상, 밀봉 상자 사냥꾼), 첫 번째 막, 신규 상품 43종, 새로운 손님과 세력, 사이버펑크풍 가게 인테리어가 추가됩니다. 시작 직업 5종은 개발 중입니다. 메인 메뉴에서 상층 구역 모드를 켜거나, 설정에서 인테리어만 따로 사용할 수 있습니다."
+        "description": "정거장 상층 구역에 전당포를 여세요. 임대료와 손님 한 명당 거래액이 높아지고, 상층 구역의 새 세력과 직업 이야기가 펼쳐집니다.\n\n【플레이 가능한 직업 4종 / 8종】\n상층 구역의 새 점주, 장기 밀매상, 밀봉 상자 사냥꾼, 공화국 해군 계약업자. 나머지 4종은 개발 중입니다.\n\n【주요 콘텐츠】\n· 상층 구역 생태계: 제1막 본편, 상층 구역 전용 손님, 아이템과 기계 260종 이상, 새로 구성한 특성 40종, 5개 세력의 단골, 카이 와일드의 네트워크와 해결사, 야간 외출, 100만 크레딧 은퇴 결말.\n· 점포 꾸미기: 블랙 골드, 네온, 레트로 테마 3종과 사이버풍 인터페이스. 설정 → 상층 구역에서 켜거나 끌 수 있고, 기본 게임을 시작할 때 인테리어만 사용할 수도 있습니다.\n\n【사용법과 호환성】\n· 메인 메뉴에서 상층 구역 모드를 켜고 새 게임을 시작하세요. 모드를 끄면 기본 게임에는 영향이 없습니다.\n· 게임 버전 0.46D용입니다. 실행하거나 화면을 전환할 때 게임이 종료되면 먼저 설정에서 ‘기본 인터페이스 사용’을 켜 보세요. 제보용 QQ 그룹: 1132532956."
       },
       "routes": [],
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "UpperLevels.dll",
-        "assembly_sha256": "b5bbfb9305782c791077200b0fca51af38e40cd502403c2d99275e63f1161c5b"
+        "assembly_sha256": "d8f87bb2613a0795f2f13d5557a247c6f69b28c715534bf6740582dfbc5ff222"
       }
     },
     "combat_contracts": {
@@ -29206,7 +29255,7 @@
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "SpaceCoffee.dll",
-        "assembly_sha256": "5d91108774a02ec6228b6d70083aaa2976b964801f8ad2358873d12f04be0521"
+        "assembly_sha256": "1852efe8ab503f93a8d2524a921dcb01ccc24119765cd70cd947f7b5802649b8"
       }
     },
     "gunmod_tarkov": {
@@ -29975,7 +30024,7 @@
     "yexiaoyang.InteriorExpansion": {
       "workshop_item_id": "3841509159",
       "assembly_name": "yexiaoyang.InteriorExpansion",
-      "entry_count": 30,
+      "entry_count": 34,
       "manifest": {
         "name": "Probably Stolen: Claims & Uprisings",
         "description": "가게 뒤편에 정수, 수경재배, 제련, 총기 제조, 양조, 보관, 지휘소 등 7종의 방을 증축할 수 있습니다. 지휘소에서는 자원 관리, 병력 모집과 장비 지급, 하층 구역 임무, 턴제 전투, 영토 건설, 일일 결산을 진행합니다. 예샤오양의 안내를 받아 직접 세력을 세워 보세요."
@@ -30076,14 +30125,26 @@
           "entries": {
             "Missing tactical test weapon: ": "시험 전투에 필요한 무기가 없습니다: ",
             "Missing tactical test ammunition: ": "시험 전투에 필요한 탄약이 없습니다: ",
-            "Tactical test ammunition is incompatible with ": "시험 전투용 탄약이 다음 무기와 호환되지 않습니다: "
+            "Tactical test ammunition is incompatible with ": "시험 전투용 탄약이 다음 무기와 호환되지 않습니다: ",
+            "Missing tactical test weapon factory: ": "시험 전투용 무기 생성기가 없습니다: ",
+            "Missing tactical test ammunition factory: ": "시험 전투용 탄약 생성기가 없습니다: "
+          }
+        },
+        {
+          "type": "Yexiaoyang.InteriorExpansion.DistrictService",
+          "method": "CreateTacticalTest",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Missing tactical test identity: senior_security_officer": "시험 전투용 인물 정보가 없습니다: senior_security_officer",
+            "Missing tactical test identity: security_officer": "시험 전투용 인물 정보가 없습니다: security_officer"
           }
         }
       ],
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "Assemblies/yexiaoyang.InteriorExpansion.dll",
-        "assembly_sha256": "2844c4121f5dbf0147339b842a74b43e40be2886b4e6e32b402d8be1667eb37e"
+        "assembly_sha256": "a79d4b9bf58ed36e4cc09135f91a39ca6ab2959183985754189f300dea366be1"
       },
       "display_replacements": {
         "yexiaoyang.settings.section": "튜토리얼",

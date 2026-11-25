@@ -33,6 +33,8 @@
 | Wire (물품) | 전선 | `Item:140582828425362` |
 | Toggle state: On / Off | 켜짐 / 꺼짐 | `Mechanic:61216479102418944`, `Mechanic:61216479102418945` |
 | Credits (기본 게임 화폐) | 크레딧 | `Dialogue:90295236874256402` |
+| Pilk / Puice / Peat | 필크 / 퓨스 / 피트 | `Item:140582836813840`, `Item:140582836813842`, `Item:140582836813844` |
+| Food Stamp | 식량 배급표 | `Item:140582832619637` |
 | Wild’s Network / Wild’s Favor | 와일드의 네트워크 / 와일드의 호의 | `UI:93598206919491584`, `UI:99359809166163969` |
 | Kotton Fiber / Kotton Fabric | 코튼 섬유 / 코튼 직물 | `Item:1420594881806337`, `Item:140582824230946` |
 | Blender / Heating Plate / Chem Finisher | 블렌더 / 가열판 / 화학 완성기 | `Item:412772035510276`, `Item:412772035510295`, `Item:412772035510278` |

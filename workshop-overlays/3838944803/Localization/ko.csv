@@ -92,7 +92,7 @@ faction_rev_desc,"상층 구역에서 종업원, 운전사, 청소부로 일하�
 rep_council_name,빅터 할로
 rep_council_title,평의회 사무총장
 rep_helios_name,세라피나 콜
-rep_helios_title,헬리오스 홍보 책임자
+rep_helios_title,헬리오스 홍보 책임자이자 오로라의 어머니
 rep_vanderlin_name,오거스트 밴더린 경
 rep_vanderlin_title,밴더린 가문의 수장
 rep_rev_name,미라
@@ -428,7 +428,7 @@ rep_perk_ULF_COUNCIL_STAMP_name,도장 한 번
 rep_perk_ULF_COUNCIL_STAMP_desc,평의회가 신고 몇 건을 묻어 줘요: 매일 아침 증거가 추가로 2 감소해요.
 rep_perk_ULF_COUNCIL_STAMP_flavor,할로 의원은 서류가 책상에 얼마나 오래 놓여 있는지는 언제든 협상할 수 있다고 해요.
 rep_perk_ULF_COUNCIL_CONTRACT_name,시청 계약
-rep_perk_ULF_COUNCIL_CONTRACT_desc,7일마다 평의회 조달 대금 300 크레딧을 받아요.
+rep_perk_ULF_COUNCIL_CONTRACT_desc,"7일마다 공화국 조달 대금 1,200 크레딧을 받습니다."
 rep_perk_ULF_COUNCIL_CONTRACT_flavor,이제 평의회 건물의 낡은 가구와 장비는 우선 당신을 거쳐 가요.
 rep_perk_ULF_COUNCIL_AUDIT_name,정기 감사
 rep_perk_ULF_COUNCIL_AUDIT_desc,7일마다 감사가 진행되어 200 크레딧의 벌금이 부과돼요 (남은 현금만큼만 낼 수도 있어요).
@@ -814,8 +814,6 @@ item_ul_holo_original_name,사샤의 원본
 item_ul_holo_original_flavor,"사샤의 획기적인 작품. 헬리오스 광고가 이를 베꼈고, 이제 역 전체가 알고 있다."
 ul_kai_greenhouse_title,온실 인맥
 ul_kai_greenhouse_desc,카이는 건국 가문 온실을 돌보는 정원사를 압니다. 조향 노트와 향수 작업대를 받아 신경 향 합성을 해금합니다. 꽃은 카이 인맥을 통해 최고가로 들어옵니다.
-ul_kai_certhouse_title,인증 기관 인맥
-ul_kai_certhouse_desc,카이는 라이트필드 인증 기관에 오랜 친구가 있습니다. 손상된 홀로 작품을 수리하는 라이트필드 복원대를 받습니다. 엄격히 합법적입니다. 출처가 의심스러운 작품은 인증할 수 없습니다.
 npc_sasha_name,사샤
 npc_angry_collector_name,성난 수집가
 npc_appraiser_name,밴더린 감정사
@@ -1038,14 +1036,6 @@ item_ul_purity_scanner_desc,아이스의 순도 보고서를 발급합니다. �
 item_ul_purity_scanner_flavor,모서리 화면이 깨진 퇴역 연구실 스캐너. 상층 구역에서는 보고서가 물건보다 값집니다.
 item_ul_purity_scanner_note_name,스캐너 설명서
 item_ul_purity_scanner_note_flavor,"검사하지 않은 아이스를 투입구에 넣고 배터리를 연결한 뒤 하룻밤 두세요.\n하룻밤 동안 투입구의 모든 아이스 제품을 검사해 거리·파티용·결정 등급으로 판정하고, 제값을 받을 수 있게 합니다."
-item_ul_lightfield_bench_name,라이트필드 복원 작업대
-item_ul_lightfield_bench_desc,홀로 작품의 불량 화소를 수리하고 고유 인증서를 발급합니다. 서명자가 누구인지 꼬치꼬치 묻는 사람은 없습니다.
-item_ul_lightfield_bench_flavor,"표면 아래에 수백 개의 마이크로 프로젝터가 들어 있는 검은 작업대. 라이트필드 원본은 복제할 수 없으므로, 이를 복원하고 인증하는 사람은 비싼 값을 받습니다."
-item_ul_lightfield_bench_note_name,복원 작업대 설명서
-item_ul_lightfield_bench_note_flavor,"작업대에 물건 하나를 놓고 모드를 선택한 뒤 배터리를 연결하고 하룻밤 두세요.
-복원: 손상된 홀로 작품을 하룻밤 만에 수리해 인증된 홀로 작품으로 만듭니다. 도난품은 계속 도난품입니다.
-인증: 사샤의 인맥이 필요합니다. 도난품을 작업대에 놓으면 아침까지 ‘깨끗한’ 이력이 생깁니다. 재료비로 가치의 15%(최소 80)를 보유 자금에서 가져갑니다.
-인증품도 건국 가문 감정사의 면밀한 검사까지 견뎌 내지는 못합니다."
 item_ul_perfume_single_name,뉴로 향수 ‘단일’
 item_ul_perfume_single_flavor,"한 송이의 생화로 조향했습니다. 가볍게 시작해 은은한 여운이 남습니다.,인쇄한 향수는 꽃향기가 납니다. 이건 진짜 꽃입니다."
 item_ul_perfume_accord_name,뉴로 프래그런스 ‘어코드’
@@ -1071,8 +1061,6 @@ mach_perfume_mode_accord,어코드
 mach_cryst_gear_1,I - 약
 mach_cryst_gear_2,II - 보통
 mach_cryst_gear_3,III - 강
-mach_bench_mode_repair,복원
-mach_bench_mode_launder,세탁
 mach_status_idle,대기 중
 mach_status_ready,오늘 밤 가동
 mach_status_progress,작업 중: 밤 {0}/{1}
@@ -1086,20 +1074,12 @@ mach_cryst_status,{0} 설정: {1}/{2}일
 mach_scanner_status_pending,검사 대상 {0}
 mach_scanner_status_done,검사 완료 {0}
 mach_scanner_status_need,아이스 투입
-mach_bench_status_locked,잠김: 인맥 필요
-mach_bench_status_need_stolen,도난품 투입
-mach_bench_status_fee,"오늘 밤 인증, 비용 {0}"
-mach_bench_status_repaired,복원 완료
-mach_bench_status_need_damaged,손상된 작품 투입
 mach_log_down,{0} 수리 중이라 오늘 밤 가동하지 않습니다.
 mach_log_perfume,향수 작업대에서 {0} 한 병을 완성했습니다.
 mach_log_reactor,반응기에서 콜드 크리스탈 {0}개를 생산했습니다.
 mach_log_accident,밤사이 반응기 사고가 발생했습니다. 시약이 망가졌으며 하룻밤 수리가 필요합니다. 이웃들이 소리를 들었습니다 (증거 +{0}).
 mach_log_cryst,결정화기에서 아이스 {0}봉지를 제조했습니다.
 mach_log_scanner,순도 검사기에서 아이스 {0}봉지를 검사했습니다.
-mach_log_repair,복원 작업대에서 홀로 작품을 수리했습니다.
-mach_log_launder,복원 작업대에서 {0} 인증을 완료했습니다. 재료: {1}.
-mach_log_launder_nocash,인증 재료비 ({0})가 부족해 오늘 밤 작업대가 가동되지 않았습니다.
 npc_flower_mira_name,협동조합 정원사
 npc_flower_vanderlin_name,영지 농장 관리인
 npc_flower_network_name,온실 배달원
@@ -1212,8 +1192,6 @@ perk.debt.default,이번 납부를 할 수 없습니다. 임대료가 {0} 크레
 perk.chatty.slip,실언했습니다.
 perk.ul_perfumer.name,조향사의 도제
 perk.ul_perfumer.desc,"조향사에게 배웠습니다. 향수 작업대와 조제 노트를 가지고 시작해, 신경 향을 만들 수 있습니다."
-perk.ul_lightfield.name,라이트필드 도제
-perk.ul_lightfield.desc,라이트필드 스튜디오에서 일했습니다. 라이트필드 복원 및 인증 작업대를 가지고 시작합니다.
 perk.ul_council_friend.name,공화국 당국 인맥
 perk.ul_council_friend.desc,공화국 당국 평판이 +20으로 시작합니다.
 perk.ul_council_black.name,당국 블랙리스트
@@ -1559,13 +1537,13 @@ appraiser.visit.collector.1,방금 샀어요. 판매자는 출처 증명이 완�
 appraiser.visit.collector.2,수수료를 받지 않는 사람의 의견을 듣고 싶어요.
 appraiser.visit.done,감정서를 가져가겠습니다. 다음 주에 보죠.
 navy.scenario.title,해군 계약업자
-navy.scenario.desc,"공화국 해군의 공인 계약업자 허가증을 보유하고 있습니다. 해군이 필요한 물자를, 조달해 제때 납품하세요. 병참장교가 일주일에 한 번 방문합니다."
-navy.scenario.with1,공인 계약업자 허가증
-navy.scenario.with2,소량의 보급품 견본
-navy.scenario.with3,레이스 병참장교의 보급 요청
+navy.scenario.desc,"공화국 해군 보급 허가증을 갖고 있습니다. 병참장교가 매주 보급을 요청하며, 대원들을 무장시켜 외곽 구역의 잔해에서 물자를 회수할 수도 있습니다. 회수품을 누구에게 넘길지는 전적으로 당신에게 달렸습니다."
+navy.scenario.with1,보급 요청과 분대 파견에 필요한 계약업자 허가증
+navy.scenario.with2,"전기충격 진압봉, 소형 배낭, 초기 보급품"
+navy.scenario.with3,퇴역한 하사관 한 명과 매주 찾아오는 병참장교
 navy.scenario.tag,상층 구역
-navy.license.name,공인 계약업자 허가증
-navy.license.flavor,해군 보급부 발급. 열어서 계약업자 등급과 현재 보급 요청을 확인하세요.
+navy.license.name,해군 단말기
+navy.license.flavor,"해군 보급부가 지급한 군용 암호화 지휘 단말기입니다. 열어서 보급 요청을 관리하고, 분대 장비함을 꾸리고, 전선 무전에 응답하고, 원정대를 파견하세요. 허가증을 보유하고 해군과 결별하지 않은 동안 장비함 안의 무기와 탄약은 경찰의 정기 검사를 받지 않습니다."
 navy.status.title,계약업자 기록
 navy.status.level,"계약업자 등급 {0}. 보급 요청 {1}건 납품 완료, 다음 등급까지 {2}건 남았습니다."
 navy.status.level_max,계약업자 등급 {0}. 보급 요청 {1}건 납품 완료. 함대 계약을 받으려면 매장을 소유해야 합니다.
@@ -2319,7 +2297,7 @@ ncguide.reissued,가게에 상점 운영 안내서가 놓여 있습니다. 초�
 "ul_kai_organ_route_desc","교전 구역에는 누구나 갈 수 있지만, 기계가 없으면 시신은 쓸모가 없습니다. 카이가 기계 두 대(해부기와 장기 냉각기), 사혈 도구, 『해부 필수 안내서』를 보내 주고, 매주 장기를 사러 오는 병원의 쏜을 소개합니다(쏜의 명함과 전화번호는 별도 판매). 장기상은 이 경로로 시작합니다."
 net_group_organ,장기 거래
 ul_kai_crate_route_title,밀봉 상자 개봉 경로
-ul_kai_crate_route_desc,"카이가 키카드 기록기 한 대를 마련해 줍니다. 밀러 박사는 키카드 기록기 한 대와 상층 구역 공 키카드 두 장, 일반·고급·귀족 밀봉 상자용 기록 모듈을 항상 판매합니다. 다른 기록 모듈은 가끔 입고됩니다. 기본 게임의 암호 디시퀀서도 이 공 키카드로 상층 구역 키카드를 만들 수 있습니다. 밀봉 상자는 직접 구해야 합니다."
+ul_kai_crate_route_desc,"카이가 밀봉 상자 조달 및 해독 경로를 열어 줍니다. 키카드 기록기 한 대를 받고, 밀수업자가 5일마다 밀봉 상자와 키카드를 들고 찾아옵니다. 밀러 박사도 기록기 한 대, 상층 구역 공 키카드 두 장, 일반·고급·귀족 밀봉 상자용 기록 모듈을 판매합니다. 드물게 특수 모듈도 입고됩니다. 기본 게임의 암호 디시퀀서로도 이 공 키카드에 상층 구역 키카드를 기록할 수 있습니다. 밀수업자의 전화 거래, 점포 소유 후의 물량, 군수품 매입상은 여전히 밀봉 상자 사냥꾼 전용입니다."
 "organ.route.unlocked","카이가 해부기와 장기 냉각기, 사혈 도구, 『해부 필수 안내서』를 가져왔습니다. 병원의 쏜이 일주일에 한 번 방문합니다."
 "organ.route.compensated","구매한 장기 판매 허가증에 빠진 절차가 있었습니다. 카이가 ""기계와 해부 노트""를 무료로 제공했습니다. 해부기와 냉각기가 가게에 있습니다."
 regulars.wish_feature,단골의 희망 물품
@@ -2779,11 +2757,10 @@ reg.tax.refuse,이번엔 내지 않겠습니다.
 reg.tax.refused,물론 '자발적' 선택이시겠죠. 있었던 그대로 보고하겠습니다.
 reg.tax.thanks,수령했습니다. 서류는 문제없습니다. 다음 주에 뵙겠습니다.
 "rep_how_council","상승: 주간 방문 때 준수 부담금 납부(단골 방문으로 최대 +60, 첫 납부 시 추가 +20); 더 올리려면 500 추가 납부.\n하락: 부담금 거부, 교전 구역에서 시신을 집으로 가져오기(한 구마다 공화국, 경찰, 잠입국 중 무작위로 한 곳의 평판이 0.5 하락, 최저 -60)."
-rep_how_helios,"상승: 헬리오스 집사에게 신선 식품 판매(매 방문 첫 판매 +1, 최대 +60).\n하락: 헬리오스 집안에 밉보이기."
+rep_how_helios,"상승: 헬리오스 집사에게 신선 식품 판매(매 방문 첫 판매 +1, 최대 +60). 저녁 식사 준비 요청을 들어주면 추가 상승.\n하락: 헬리오스 집안에 밉보이기."
 rep_how_police,"상승: 아서 경감이나 덱스 경관에게 물건 판매(매 방문 첫 판매 +1, 최대 +60); 징발품 납품; 오그 처치, 수배범 신고; 경보 송신기 모듈.\n하락: 교전 구역에서 시신을 가게로 가져오기(한 구마다 공화국, 경찰, 잠입국 중 무작위로 한 곳의 평판이 0.5 하락, 최저 -60)."
 rep_how_rev,"상승: 잠입국 연락책에게 약과 통조림 판매(매 방문 첫 판매 +1, 최대 +60), 긴급 요청을 들어주면 추가 상승; 야전 의무병에게 장기 판매.\n하락: 교전 구역에서 시신을 가게로 가져오기(한 구마다 공화국, 경찰, 잠입국 중 무작위로 한 곳의 평판이 0.5 하락, 최저 -60)."
-rep_how_upper,"상승: 상층 구역 고객에게 판매(하루 최대 +1); 비공개 거래소에서 매주 예술품 2점 거래.
-하락: 상층 구역 고객 신고."
+rep_how_upper,상승: 상층 구역 고객에게 판매(하루 최대 +1).\n하락: 상층 구역 고객 신고.
 rep_how_vanderlin,"상승: 오스카에게 사치품 판매(매 방문 첫 판매 +1, 최대 +60); 부탁한 물건을 찾아 주면 추가 상승.\n하락: 밴더린 가문에 밉보이기."
 rep_perk_ULF_COUNCIL_RELIEF_desc,주간 준수 부담금이 매출의 1%에서 0.5%로 감소합니다.
 rep_perk_ULF_COUNCIL_RELIEF_flavor,'제때 납부하는 사람이 누군지 우린 알고 있지.'
@@ -2861,7 +2838,7 @@ trait.diplomatic.desc,"거래로 얻는 평판이 33% 증가하고, 거래로 �
 "trait.ul_bleeder.name","능숙한 사혈가"
 "trait.ul_bleeder.desc","사혈 도구로 각 시신에서 한 단계 더 큰 혈액 주머니를 얻습니다(소형은 중형, 중형은 대형). 원래 대형 주머니가 나오는 시신에서는 소형 주머니를 하나 추가로 얻습니다."
 "trait.ul_weight_trust.name","웨이트의 신뢰"
-"trait.ul_weight_trust.desc","웨이트가 작별 인사를 한 뒤, 3일마다 위탁품 3개를 보내옵니다. 판매 금액의 절반을 받습니다."
+trait.ul_weight_trust.desc,"웨이트가 작별 인사를 한 뒤, 5일마다 위탁품 3개를 보내옵니다. 판매 금액의 절반을 받습니다."
 "trait.ul_socialite_friend.name","사교계 명사의 절친"
 "trait.ul_socialite_friend.desc","일주일에 한 번 사교계 명사인 친구가 찾아옵니다. 향수와 사치품만 구매하며, 예산은 일반 사교계 명사의 1.5배입니다. 첫 방문 때 ""Earth"" 향수 한 병을 줍니다."
 "trait.ul_residence_cert.name","거주 증명서"
@@ -3048,7 +3025,7 @@ trait.estate.service,유품 정리 (밤 일정 사용)
 "item_ul_holo_butterfly_name","홀로그램 버터플라이 나이프"
 "item_ul_holo_butterfly_flavor","칼날은 홀로그램 마감이라 돌릴 때마다 색이 바뀐다. 펼쳤다 접었다. 멈추기가 어렵다."
 "item_ul_rail_rifle_name","레일건 소총 시제품"
-"item_ul_rail_rifle_flavor","일련번호도 제조사 표식도 없다."
+item_ul_rail_rifle_flavor,일련번호도 제조사 표식도 없다. 레일 총열 양쪽에 축전기 뭉치와 구리 방열판이\n노출되어 있다.
 "item_ul_canteen_name","군용 수통"
 "item_ul_canteen_flavor","찌그러졌지만 새지는 않는다."
 "item_ul_storm_lighter_name","방풍 라이터"
@@ -3062,17 +3039,17 @@ trait.estate.service,유품 정리 (밤 일정 사용)
 "item_ul_gilded_compass_name","금도금 군용 나침반"
 "item_ul_gilded_compass_flavor","뒷면에 훈장 수여식 날짜가 새겨져 있다."
 "item_ul_fmj_rounds_name","FMJ 탄약(5.56x45mm, 상자)"
-"item_ul_fmj_rounds_flavor","가장 흔한 소총 탄약. 군대에서는 상자째 지급한다. 한 상자에 30발."
+item_ul_fmj_rounds_flavor,흔한 7.62 보통탄. 해군에서는 상자째 지급한다. 싸고 믿을 만하다.
 "item_ul_buckshot_box_name","벅샷 산탄(12게이지, 상자)"
-"item_ul_buckshot_box_flavor","탄 하나에 산탄 9개. 한 상자에 10발."
+item_ul_buckshot_box_flavor,12게이지 탄 하나에 납 산탄 아홉 알. 좁은 복도에선 무섭지만 방 하나만 벗어나도\n쓸모없다.
 "item_ul_hollowpoint_rounds_name","할로 포인트 탄약(9x19mm, 상자)"
-"item_ul_hollowpoint_rounds_flavor","명중하면 탄두가 벌어진다. 경찰이 민간인의 구매를 금지하고 있다. 한 상자에 25발."
+item_ul_hollowpoint_rounds_flavor,9mm 할로포인트 탄환. 연한 표적에 맞으면 흉하게 벌어진다.\n경찰이 질색하는 물건이다.
 "item_ul_incendiary_rounds_name","소이탄(7.62x39mm, 상자)"
-"item_ul_incendiary_rounds_flavor","탄두에 인이 들어 있어 상자가 따뜻하다. 한 상자에 20발."
+item_ul_incendiary_rounds_flavor,탄두가 붉은 7.62 탄환. 상자가 조금 따뜻하다. 엄폐한 상대를 끌어내기 좋다.
 "item_ul_he_rounds_name","고폭탄(12.7x99mm, 상자)"
-"item_ul_he_rounds_flavor","탄 하나하나가 작은 폭탄이다. 떨어뜨리지 마라. 한 상자에 5발."
+item_ul_he_rounds_flavor,7.62 폭발탄. 탄두 끝마다 작은 신관이 있으니 상자를 떨어뜨리지 마라.
 "item_ul_ap_rounds_name","철갑탄(7.62x51mm, 상자)"
-"item_ul_ap_rounds_flavor","텅스텐 심이 장갑판을 관통한다. 한 상자에 20발."
+item_ul_ap_rounds_flavor,무거운 7.62 텅스텐 심 탄환. 장갑 조끼를 그대로 뚫고 지나간다.
 "item_ul_brass_casings_name","황동 탄피(자루)"
 "item_ul_brass_casings_flavor","녹이면 쓸 만한 황동이 된다."
 "item_ul_kevlar_scrap_name","케블라 자투리"
@@ -3102,13 +3079,13 @@ phone.fence.cool,며칠 자리를 비워.
 battle.found_crate,바닥에서 {0} 발견.
 crate.scenario.with4,키카드 기록기
 crate.writer.name,키카드 기록기
-crate.writer.desc,"기록 모듈과 배터리를 장착하세요. 투입 칸에 공 키카드를 넣고, 기록이 끝나면 배출 칸에서 꺼내세요."
+crate.writer.desc,기록 모듈과 배터리를 장착하세요. 상층 구역 공 키카드를 투입 칸에 넣고 완성된 키카드를 배출 칸에서 꺼내세요.
 crate.writer.flavor,앞면에 카드 슬롯과 상태 표시등이 달린 탁상형 기록기.
 crate.writer.chip_name,기록 모듈 · {0}
-crate.writer.chip_desc,키카드 기록기에 장착하면 공 키카드를 {0}(으)로 만들 수 있습니다.
+crate.writer.chip_desc,키카드 기록기에 장착하면 상층 구역 공 키카드를 {0}(으)로 만들 수 있습니다.
 crate.writer.daily_limit,이 기록기는 오늘 이미 키카드 한 장을 만들었습니다. 내일 다시 오세요.
 crate.blank.name,상층 구역 공 키카드
-crate.blank.desc,"키카드 기록기용 공 키카드입니다. 기록 모듈과 배터리를 장착하고 이 카드를 넣어 두면, 하룻밤 뒤 키카드 한 장이 완성됩니다."
+crate.blank.desc,암호화된 공 키카드입니다. 기록 모듈과 배터리를 장착한 키카드 기록기나 암호 디시퀀서에서 키카드 한 장을 만드는 데 2~3박이 걸립니다.
 crate.blank.flavor,일련번호도 문장도 없다. 기록기가 새겨 넣는 대로 어떤 카드든 될 수 있다.
 crate.scan.report,스캔: {0} | 분류: {1} | {2}
 crate.scan.mixed,혼합 (미확인)
@@ -3176,13 +3153,13 @@ crate.smuggler_phone.pending,지난번에 주문한 물건은 아직 배달 중�
 crate.smuggler_phone.bye,그래. 필요하면 전화해.
 opt_use_vanilla_professions,기본 게임 직업 사용
 opt_use_vanilla_professions_tip,기본적으로 켜져 있습니다. 끄면 상층 구역 모드에서 새 게임을 시작할 때 이 모드의 직업만 표시됩니다.
-pex.give.junk_card,상층 구역 잡동사니 10개 + 전자 부품 1개
+pex.give.junk_card,상층 구역 잡동사니 10개 + 전자 부품 10개
 pex.get.junk_card,무작위 키카드 1장
-pex.give.card_common,일반 물품 키카드 3장
+pex.give.card_common,정품 일반 물품 키카드 3장(제작품 제외)
 pex.get.crate_common,일반 미확인 상자 1개
-pex.give.card_fine,귀중품 키카드 3장
+pex.give.card_fine,정품 귀중품 키카드 3장(제작품 제외)
 pex.get.crate_fine,고급 미확인 상자 1개
-pex.give.card_noble,가문 키카드 3장
+pex.give.card_noble,정품 가문 키카드 3장(제작품 제외)
 pex.get.crate_noble,귀족 미확인 상자 1개
 pex.give.card_weapons,군수품 키카드 3장
 pex.get.crate_weapons,공화국 특수 무기 상자 1개
@@ -3274,3 +3251,1072 @@ crate.military.premium,군수품 상인 할증
 trait.estate.paid_service,인력 고용 (200)
 test_hotkey_module_kits,모듈 베이 확장 키트 {0}개를 지급했습니다.
 test_hotkey_all_machines,모드 기계 {0}/{1}대를 지급했습니다.
+act1.arthur3.1,"맙소사, 덱스가 몰래 돌아온 거야?"
+act1.arthur3.10,이곳 상층에선 ‘W’라고 불러.
+act1.arthur3.11,이니셜로 불리는 전설도 몇 안 남았어. 지금까지 살아 있는 사람 말이야.
+act1.arthur3.12,"‘W’가 상층 밀수 거래의 거의 3분의 1을 맡았는데, 공화국의 최근 수사에 따르면……"
+act1.arthur3.13,그 돈 대부분이 다시 하층으로 흘러들어 갔대.
+act1.arthur3.14,"하, 더 복잡해졌네. 보안대도 그 창고에 장비 한 무더기를 보관하고 있었어."
+act1.arthur3.15,"젠장, 여기 담배나 술 좀 있어?"
+act1.arthur3.2,돌아오는 길에 내가 붙잡아서 다행이야.
+act1.arthur3.3,다른 감찰관한테 탈영한 걸 들켰으면 그 자리에서 총 맞았을 거야.
+act1.arthur3.4,교전 구역에서 살아남을지는 이제 제 운에 달렸고.
+act1.arthur3.5,"40년 전 웨이트가 처음 상층 구역에 왔을 때, 이미 아래에선 이름난 상인이었어."
+act1.arthur3.6,당시 정거장 건설 자금 일부는 저 귀족들이 댔지.
+act1.arthur3.7,나머지 중 일부는 웨이트 같은 상인들이 댔고.
+act1.arthur3.8,사실 세 구역의 상인들이 함께 만든 ‘길드’라는 조직이 있어.
+act1.arthur3.9,웨이트가 거기 회장 대행이야. 하층에선 ‘의인’이라고 부르지.
+act1.arthur3.bye,"그래, 사장. 요즘은 너도 몸조심해."
+act1.arthur3.c_weight,웨이트의 정체가 뭔가요?
+act1.aurora2.1,"또 보는군, 하층 사람. 고급 향수 있어?"
+act1.aurora2.2,웨이트 아저씨가 상층을 떠난 뒤로는 아무도 「Samurai」를 팔 엄두를 못 내더라.
+act1.aurora2.3,"흥, 너도 다를 건 없어. 내 눈엔 하인일 뿐이니까."
+act1.aurora2.4,오늘 사는 건 어머니께 드릴 선물이야.
+act1.aurora2.5,"흥, 적어도 네 분수는 아는구나."
+act1.aurora2.markup,오로라의 향수 할증
+act1.aurora2.p1,"그럼요, ‘상층 구역’ 아가씨."
+act1.dex4.1,"요즘 장사는 어떻습니까, 사장님? 지난번이 마지막 인사는 아니었군요."
+act1.dex4.10,"하, 어릴 때부터 ‘의인’은 마음씨 좋은 분이라고 들었습니다."
+act1.dex4.11,상층에 올라온 뒤로 이곳 아이들 모두에게 정말 잘해 주셨죠.
+act1.dex4.12,10년 동안 그분을 믿었습니다. 밀수에 손을 댔을 줄은 몰랐습니다.
+act1.dex4.13,아닙니다. 저는 끝까지 공화국에 충성하고 상층 구역 사람들을 지킬 겁니다.
+act1.dex4.2,(씁쓸하게 웃는다)
+act1.dex4.3,혁명군이 매주 몇 차례씩 돌격해 옵니다.
+act1.dex4.4,전부 막아 냈습니다. 한 번도 못 뚫었죠.
+act1.dex4.5,동료들은 공화국이 보안대를 총알받이로 쓴다고 합니다.
+act1.dex4.6,저는 그렇게 생각하지 않습니다. 곧 지원군이 올 겁니다.
+act1.dex4.7,그리고 보안대만으로도 이미 놈들의 발을 완전히 묶어 놨다고 믿습니다.
+act1.dex4.8,이번 주는 제가 보급 담당입니다.
+act1.dex4.9,의료용품이 좀 필요합니다. 밀수품은 안 됩니다.
+act1.dex4.bye,"마음이 옳다고 하는 대로 하십시오, 사장님. 몸조심하시고요."
+act1.dex4.p1,전쟁은 끝났어요?
+act1.dex4.p2,이상이 무너졌나요?
+act1.jace1.1,"저기요, 집에 가져갈 식량이랑 물이 좀 필요해요."
+act1.jace1.2,있나요? 조금이라도 도움이 돼요. 돈은 정가의 절반밖에 못 드려요.
+act1.jace1.nosold,"하, 애들이 또 굶겠네요."
+act1.jace1.sold1,아무튼… 정말 고마워요.
+act1.jace1.sold2,다른 가게에는 얼굴을 못 내밀어요. 보안대에서 곧 저를 수배할 거예요.
+act1.jace1.sold3,제 짐작이 맞으면… 그때 신고하지 말아 주세요.
+act1.jace1.sold4,며칠 뒤에 들를게요. 어르신이 신기한 물건을 좀 가져다주라고 하셨거든요.
+act1.jace1.sold5,"안녕히 계세요, 친절한 분."
+act1.jace2.1,"또 왔어요, 사장님. 이번엔 ‘의인’ 어르신이 보내셨어요."
+act1.jace2.2,징수원들이 또 돈을 뜯어갔다고 들으시곤… 운도 참 없다고 하시더라고요.
+act1.jace2.a1,저쪽 창고에서 보급 상자를 슬쩍했어요. 식량을 주신 답례로 받으세요.
+act1.jace2.a2,여기 맞는 키카드도 있어요.
+act1.jace2.b1,저쪽 창고에서 보급 상자를 슬쩍했어요. 반값에 드릴게요.
+act1.jace2.b2,키카드는 덤이에요.
+act1.jace2.end1,"사흘 뒤에 다시 올게요. 최소 1,000 크레딧어치의 식량이 필요해요."
+act1.jace2.end2,어르신 말씀으론 그만큼 마련해 주시면 빚은 전부 없던 일로 해 주신대요.
+act1.jace2.end3,그럼 몸조심해요. 전 이만 갈게요.
+act1.jace2.escaped,경보가 울리자 제이스는 곧장 문 밖으로 달아났다.
+act1.name.jace,제이스
+act1.oscar3.1,친구야!!!! 너랑 놀러 왔어.
+act1.oscar3.2,얼굴 보니까 정말 좋다. 공화국에 끌려간 줄 알았거든.
+act1.oscar3.3,"며칠 전부터 들르고 싶었는데, 있잖아, 너랑 웨이트 사이에 무슨 일이 있었는지 몰라서……"
+act1.oscar3.4,"됐다, 그 얘기는 됐어. 사실 웨이트 아저씨가 어디로 갔는지 물으러 왔어."
+act1.oscar3.5,아직 우리 집안 물건을 한 무더기 갖고 있거든.
+act1.oscar3.6,"그래, 이 얘기는 여기까지 하자, 친구야. 너는 나쁜 길로 빠지지 마."
+act1.oscar3.7,그런데 며칠 뒤에 밀수품을 좀 숨겨 둘 데가 필요하거든.
+act1.oscar3.8,그때 네가 좀 도와줄 수 있을까?
+act1.oscar3.9,다 낮은 등급이야. 이 정도는 나쁜 길도 아니지.
+act1.oscar3.c_no,지금은 사양한다
+act1.oscar3.c_yes,문제없을 것 같다
+act1.oscar3.no1,그래. 어차피 별일도 아니니까 일주일 뒤에 다시 올게.
+act1.oscar3.no2,걱정 마. 다음에 또 보러 올 테니까.
+act1.oscar3.p1,나도 지금은 잘 모르겠어.
+act1.oscar3.yes,"역시 내가 널 좋아한다니까, 친구야. 참 시원시원해."
+act1.rep3.1,안녕하십니까. 공화국 관계 부처에서 나왔습니다. 하층 구역에서 올라온 구더기라면 이제 진저리가 납니다.
+act1.rep3.2,아직 합법적인 거주권을 얻지 못하셨더군요.
+act1.rep3.3,그런데 대량의 밀수품을 쌓아 둔 자와는 가까이 지내셨습니까?
+act1.rep3.4,"신원 확인과 며칠에 걸친 조사 끝에,"
+act1.rep3.5,새로 전달할 지시가 있습니다.
+act1.rep3.6,공화국 관계 부처는… 웨이트를 통해 얻은 상품 판매 배당금 전액을 몰수하기로 결정했습니다.
+act1.rep3.7,운이 좋다고 생각하십시오. 요원들이 당신에게서 직접 캐낸 건 없었으니까요.
+act1.rep3.8,웨이트 수사는 당신 선에서 여기까지입니다.
+act1.rep3.9,앞으로는 처신을 똑바로 하십시오.
+act1.rep3.taken_notify,공화국이 {0} 크레딧을 몰수했습니다(웨이트 위탁 판매 배당금).
+ammo_guide.btn_open,탄약 재장전 가이드
+ammo_guide.footer,"참고: 그림은 각 분류의 대표 재료를 보여 줍니다. 같은 분류의 재료는 서로 바꿔 쓸 수 있습니다(금색 등급 배합에 티타늄 총열 소재나 세라믹 방탄판을 쓰면 1상자가 더 나오며, 전력 셀을 쓰면 하룻밤 만에 과부하 생산을 마칩니다). 구버전 모드 탄약도 전투에 쓸 수 있지만, 재장전기는 위에 나온 4개 구경의 신규 탄약 12종만 생산합니다."
+ammo_guide.howto,"구경을 고르고 재료를 넣은 뒤 밤새 재장전기에 전력을 공급하세요. 만들 수 있는 가장 높은 등급의 탄약을 같은 분류에서 가장 저렴한 재료부터 써서 자동으로 생산합니다. 성능 모듈은 생산 시간을 줄이고, 품질 모듈을 쓰면 일정 확률로 1상자가 더 나옵니다."
+ammo_guide.mat_base_d,황동 탄피 / 납심 탄두 소재 / 금속 주괴 (아무거나 1종. 고철이나 쓰레기는 사용할 수 없습니다.)
+ammo_guide.mat_base_t,[금속 기초 재료] (탄피 / 탄두)
+ammo_guide.mat_gold_d,소결 텅스텐 심(표준). 금색 등급 배합에 티타늄 총열 소재나 세라믹 방탄판을 쓰면 1상자가 더 나옵니다.
+ammo_guide.mat_gold_t,[금색 등급 철갑 심] (관통자 / 합금)
+ammo_guide.mat_mid_d,군용 발사약 / 뇌관 / 군용 회로 기판 (금속 기초 재료와 함께 넣어야 합니다.)
+ammo_guide.mat_mid_t,[중급 촉매] (발사약 / 뇌관 / 회로)
+ammo_guide.mat_over_d,군용 고에너지 전력 셀(희귀 핵심 부품. 하룻밤에 빨간색 등급 탄약 3~4상자 또는 금색 등급 레일건 탄약 6상자).
+ammo_guide.mat_over_t,[과부하 코어] (하룻밤에 대량 생산)
+ammo_guide.mat_red_d,"초전도 레일건 사보 키트 (7.62 및 중량급 레일건 전용, 이틀 밤에 빨간색 등급 탄약 1상자)."
+ammo_guide.mat_red_t,[빨간색 등급 최종 키트] (표준 사보 코일)
+ammo_guide.note_short_desc,클릭하거나 사용하면 4개 구경의 탄약 재장전 그림 설명서를 펼칩니다.
+ammo_guide.r_12g_0,파란색 표준(1박): 금속 기초 재료 1개 → 12G 군용 벅샷 2상자
+ammo_guide.r_12g_1,보라색 특수(1박): 중급 촉매 1개 + 금속 기초 재료 1개 → 12G 드래곤 브레스 1상자
+ammo_guide.r_12g_2,최상급 보라색 철갑(1박): 금색 등급 철갑 심 1개 + 금속 기초 재료 1개 → 12G 철갑 사보 슬러그탄 2상자(고밀도 합금 소재 사용 시 3상자)
+ammo_guide.r_762_0,파란색 표준(1박): 금속 기초 재료 1개 → 7.62 제식 보통탄 1상자
+ammo_guide.r_762_1,대량 생산(1박): 중급 촉매 1개 + 금속 기초 재료 1개 → 7.62 제식 보통탄 2상자
+ammo_guide.r_762_2,금색 철갑(1박): 금색 등급 철갑 심 1개 + 금속 기초 재료 1개 → 7.62 경화 텅스텐 철갑탄 1상자(고밀도 합금 소재 사용 시 2상자)
+ammo_guide.r_762_3,빨간색 표준(2박): 사보 코일 1개 + 금색 등급 철갑 심 1개 + 금속 기초 재료 1개 → 7.62 열화 합금 철갑 탄띠 1상자
+ammo_guide.r_762_3o,과부하 대량 생산(1박): 전력 셀 1개 + 금색 등급 철갑 심 1개 + 금속 기초 재료 1개 → 7.62 열화 합금 철갑 탄띠 4상자
+ammo_guide.r_9mm_0,파란색 표준(1박): 금속 기초 재료 1개 → 9mm 표준 FMJ 탄약 2상자
+ammo_guide.r_9mm_1,보라색 특수(1박): 중급 촉매 1개 + 금속 기초 재료 1개 → 9mm 할로 포인트탄(JHP) 1상자
+ammo_guide.r_9mm_2,최상급 보라색 철갑(1박): 금색 등급 철갑 심 1개 + 금속 기초 재료 1개 → 9mm 텅스텐 철갑탄 2상자(고밀도 합금 소재 사용 시 3상자)
+ammo_guide.r_rail_0,기본 생산(2박): 금속 기초 재료 2개 → 강철심 레일건 탄약 1상자(보라색)
+ammo_guide.r_rail_1,촉매 가속(1박): 중급 촉매 1개 + 금속 기초 재료 2개 → 강철심 레일건 탄약 1상자(보라색)
+ammo_guide.r_rail_2a,금색 배합 A(1박): 금색 등급 철갑 심 2개 + 금속 기초 재료 1개 → 텅스텐 다트 레일건 사보탄 1상자(고밀도 합금 소재 사용 시 2상자)
+ammo_guide.r_rail_2b,금색 배합 B(1박): 사보 코일 1개 + 금속 기초 재료 1개 → 텅스텐 다트 레일건 사보탄 1상자
+ammo_guide.r_rail_2o,금색 과부하(1박): 전력 셀 1개 + 금속 기초 재료 1개 → 텅스텐 다트 레일건 사보탄 6상자
+ammo_guide.r_rail_3,빨간색 표준(2박): 사보 코일 1개 + 금색 등급 철갑 심 1개 + 금속 기초 재료 1개 → 초전도 초고속 레일건 탄약 1상자
+ammo_guide.r_rail_3o,빨간색 과부하(1박): 전력 셀 1개 + 금색 등급 철갑 심 1개 + 금속 기초 재료 1개 → 초전도 초고속 레일건 탄약 3상자
+ammo_guide.reissued,탄약 재장전 그림 설명서를 가게 창고로 다시 보내 드렸습니다. 클릭하면 모든 배합을 볼 수 있습니다.
+ammo_guide.sec_12g,"3. 12G 산탄총 (산탄총, 최대 보라색 등급)"
+ammo_guide.sec_762,4. 7.62 소총 (소총 / 지정사수소총 / 경기관총)
+ammo_guide.sec_9mm,"2. 9mm 경량 (권총 / 기관단총, 최대 보라색 등급)"
+ammo_guide.sec_mats,1. 재장전 재료 5종
+ammo_guide.sec_rail,5. 중량급 레일건 (레일 권총 / 카빈 / 소총)
+ammo_guide.title,군용 탄약 재장전 그림 설명서
+ammo_press_label_input,탄약 재장전 재료
+ammo_press_label_mode,구경 및 상태
+ammo_press_log_done,탄약 재장전기 생산 완료: {0} ×{1}.
+ammo_press_mode_12g,12G 산탄총
+ammo_press_mode_762,7.62 소총
+ammo_press_mode_9mm,9mm 경량
+ammo_press_mode_rail,중량급 레일건
+ammo_press_status_need,재료 부족: 탄피나 금속 주괴를 넣으세요
+ammo_press_status_ready,생산 대기: 오늘 밤 {0} ×{1}
+crate.counter.next,다음 ▶
+crate.counter.page,{0}/{1} 페이지
+crate.counter.paged_tip,재고가 진열대 하나에 다 들어가지 않아 {0}페이지로 나뉩니다. 진열대 위의 화살표로 페이지를 넘기세요.
+crate.counter.prev,◀ 이전
+crate.writer.log_nopower,키카드 기록기에 전력이 부족해 오늘 밤에는 기록이 진행되지 않았습니다.
+crate.writer.log_output_full,키카드 기록기의 배출 칸이 찼습니다. 기록이 끝난 카드를 꺼내면 작업을 계속합니다.
+item_ul_adrenaline_pen_desc,2회 사용: 부상 직후의 행동 불가 상태를 즉시 해제하고 상처를 안정시키며 부상 정도를\n1단계 낮춥니다. 해군 분대: 받는 피해 -24 / HP +55 회복.
+item_ul_ammo_12g_buck_flavor,주황색 띠가 둘러진 12G 벅샷. 황동 밑동이 달린 값싼 탄이라 산탄총 쓰는 사람이라면\n누구나 쟁여 두고 쓴다.
+item_ul_ammo_12g_buck_name,12G 군용 벅샷
+item_ul_ammo_12g_dragon_flavor,마그네슘을 채운 12G 탄. 좁은 선내 복도를 불꽃으로 뒤덮는다.
+item_ul_ammo_12g_dragon_name,12G 드래곤 브레스
+item_ul_ammo_12g_sabot_flavor,최상급 보라색 12G 탄. 구경보다 작은 사보 슬러그탄으로 가까이서 두꺼운 방패도\n깨뜨릴 수 있다.
+item_ul_ammo_12g_sabot_name,12G 철갑 사보 슬러그탄
+item_ul_ammo_762_ap_flavor,검은 탄두 끝이 특징인 금색 등급 7.62 텅스텐 탄약.\n호위함의 두꺼운 장갑도 거뜬히 뚫는다.
+item_ul_ammo_762_ap_name,7.62 경화 텅스텐 철갑탄
+item_ul_ammo_762_ball_flavor,올리브색 깡통에 든 7.62 보통탄. 황동 탄피가 튼튼해 재장전용으로 모아 둘 만하다.
+item_ul_ammo_762_ball_name,7.62 제식 보통탄
+item_ul_ammo_762_du_flavor,"고밀도 합금 탄환을 연결한 빨간색 등급 탄띠. 벽돌처럼 묵직하며, 막판의 험난한 원정을\n위해 만들어졌다."
+item_ul_ammo_762_du_name,7.62 열화 합금 철갑 탄띠
+item_ul_ammo_9mm_ap_flavor,검정과 금색으로 꾸민 9mm 텅스텐 심 탄약. 경화기용 최상급 보라색 탄약으로 방탄\n조끼도 뚫는다.
+item_ul_ammo_9mm_ap_name,9mm 텅스텐 철갑탄
+item_ul_ammo_9mm_jhp_flavor,탄두 끝이 보라색인 9mm JHP. 근거리 교전에서 적을 단숨에 저지한다.
+item_ul_ammo_9mm_jhp_name,9mm 할로 포인트탄(JHP)
+item_ul_ammo_9mm_std_flavor,파란색 띠가 둘러진 평범한 9mm 보통탄. 싸고 믿을 만해 저위험 항로에 제격이다.
+item_ul_ammo_9mm_std_name,9mm 표준 FMJ 탄약
+item_ul_ammo_press_desc,밤새 4개 구경의 군용 탄약을 재장전합니다. 기본 게임의 성능·품질·절전 모듈과 터보\n부스터를 지원합니다.
+item_ul_ammo_press_flavor,청록색 표시창이 달린 탁상형 유압 터릿 프레스.\n황동 탄피를 내다 팔지 말고 새 탄약으로 되살려 보자.
+item_ul_ammo_press_name,군용 탄약 재장전기
+item_ul_ammo_press_note_flavor,"[탄약 재장전기] 4개 구경의 신규 탄약 12종을 모두 생산합니다(구버전 모드 탄약도\n전투에 쓸 수 있지만, 이 기계로는 생산할 수 없습니다).\n- 파란색 표준(1박): 금속 기초 재료 1개(황동 탄피/납심 탄두 소재/금속 주괴) →\n9mm/12G 2상자 또는 7.62 1상자(레일건은 금속 기초 재료 2개로 이틀 밤에 보라색\n등급 1상자).\n- 보라색 특수(1박): 발사약/뇌관/회로 + 금속 기초 재료 → 보라색 등급 9mm/12G\n1상자, 7.62 제식 보통탄 2상자 또는 보라색 등급 레일건 탄약 1상자(레일건은 금속 기초\n재료 2개 필요).\n- 금색 철갑(1박): 텅스텐 심 + 금속 기초 재료 → 금색 7.62 철갑탄 1상자 또는 최상급\n보라색 9mm/12G 철갑탄 2상자(티타늄 총열 소재나 세라믹 방탄판 사용 시 1상자 추가).\n금색 레일건 탄약은 금색 등급 철갑 심 2개 + 금속 기초 재료(또는 사보 코일 1개 +\n금속 기초 재료)가 필요합니다.\n- 빨간색 표준(2박, 7.62/레일건 전용): 사보 코일(380크레딧) + 금색 등급 철갑 심 +\n금속 기초 재료 → 빨간색 등급 탄약 1상자.\n- 과부하 대량 생산(1박, 7.62/레일건 전용): 군용 고에너지 전력 셀(2400크레딧) + 금색\n등급 철갑 심 + 금속 기초 재료 → 하룻밤에 7.62 열화 합금 철갑 탄띠 4상자 또는\n초전도 초고속 레일건 탄약 3상자(또는 레일건 모드에서 전력 셀 + 금속 기초 재료 →\n텅스텐 다트 레일건 사보탄 6상자)!\n성능 모듈은 생산 시간을 줄이고, 품질 모듈을 쓰면 일정 확률로 1상자가 더 나옵니다!"
+item_ul_ammo_press_note_name,탄약 재장전기 사용 설명서
+item_ul_ammo_rail_hyper_flavor,"빨간색 등급 초전도 탄약. 손에 쥐면 낮게 웅웅거리며, 가장 강한 적도 잠재울 수 있다."
+item_ul_ammo_rail_hyper_name,초전도 초고속 레일건 탄약
+item_ul_ammo_rail_steel_flavor,받침에 강철심 탄환 네 발이 놓여 있다. 값이 저렴해 레일건을 마음껏 쓸 수 있는 보라색\n탄약이다.
+item_ul_ammo_rail_steel_name,강철심 레일건 탄약
+item_ul_ammo_rail_tung_flavor,고리가 둘러진 금색 등급 텅스텐 다트. 감속도 없이 외골격 장비를 뚫고 지나간다.
+item_ul_ammo_rail_tung_name,텅스텐 다트 레일건 사보탄
+item_ul_boarding_shotgun_flavor,해군 육전대의 함선 강습조가 애용하는 묵직한 펌프식 산탄총.\n격벽 자물쇠쯤은 한 방에 날려 버린다.
+item_ul_boarding_shotgun_name,함선 강습용 전술 산탄총
+item_ul_breach_charge_flavor,"문을 부수는 데 쓰는 성형작약. 탄약으로 발사하지 않고, 장비함에 챙겨 두면 돌파와\n전리품 획득에 보너스가 붙는다."
+item_ul_breach_charge_name,문 파쇄용 성형작약
+item_ul_cyber_armor_plate_flavor,"갈비뼈와 어깨뼈에 리벳으로 고정한 티타늄 장갑판.\n소총탄은 확실히 막지만, 정거장의 보안 게이트란 게이트는 죄다 울린다."
+item_ul_cyber_armor_plate_name,티타늄 내부 골격
+item_ul_cyber_grip_flavor,손목과 손바닥에 내장한 초소형 유압 장치. 완전 자동으로 연사해도 바이스에 물린 듯\n흔들림이 없다.
+item_ul_cyber_grip_name,유압식 반동 억제 의수
+item_ul_cyber_jack_flavor,군용 자물쇠에 목 뒤 포트를 바로 잇는 인터페이스.\n자물쇠공보다 두 배나 빨리 금고와 무기고 보관함을 열어젖힌다.
+item_ul_cyber_jack_name,군용 침입 신경 단자
+item_ul_cyber_lungs_flavor,먼지와 연기를 걸러 내는 정화기가 내장되어 있다.\n공기가 새는 선체에서 2km를 달려도 숨 한 번 헐떡이지 않는다.
+item_ul_cyber_lungs_name,폐쇄 순환식 인공 폐
+item_ul_cyber_med_pump_flavor,쇄골 아래에 심는 생체 펌프. 혈압이 떨어지는 순간 응고제를 내보내 죽어 가는\n전투원도 살려 낸다.
+item_ul_cyber_med_pump_name,자동 외상 대응 생체 펌프
+item_ul_cyber_optics_flavor,군용 거리 측정 의안 모듈. 어두운 선체 안에서 표적을 강조한다.\n이식 후 사흘 동안은 글자가 파랗게 보인다.
+item_ul_cyber_optics_name,전술 정찰 의안
+item_ul_cyber_reflex_flavor,시각 신호를 척수를 거치지 않고 바로 전달한다.\n상대가 총구를 채 들어 올리기 전에 이미 엄폐물 뒤로 몸을 피한 뒤다.
+item_ul_cyber_reflex_name,반사신경 보조 프로세서
+item_ul_cyber_sandevistan_flavor,퇴역한 해군 육전 돌격대의 척추 임플란트. 켜면 남들은 죄다 시럽 속을 걷는 것처럼\n느려진다. 쓰고 나면 등이 뜨겁다.
+item_ul_cyber_sandevistan_name,군용 반사신경 척추
+item_ul_cyber_subdermal_flavor,"피부 아래에 꿰맨 방탄 그물. 날아오는 파편을 막아 주지만, 추운 부두에서는 관절이\n뻣뻣해진다."
+item_ul_cyber_subdermal_name,피하 케블라 방탄망
+item_ul_cyber_titan_frame_flavor,어깨와 척추에 직결하는 고하중 골격. 기관총을 들거나 격벽 문을 밀어젖혀도 힘 하나\n들지 않는다.
+item_ul_cyber_titan_frame_name,타이탄 전투 내골격
+item_ul_defibrillator_desc,"2회 사용: 상처를 안정시키고 부상 정도를 2단계 낮추며, 부상 직후의 행동 불가 상태를\n해제합니다. 해군 분대: 받는 피해 -24 / HP +55 회복."
+item_ul_exo_rig_flavor,유압 지지대와 가슴의 마이크로 코어로 구동되는 경량 외골격 장비.\n강한 사격을 버티면서 화력까지 끌어올린다.
+item_ul_exo_rig_name,동력 외골격 장비 시제품
+item_ul_firecontrol_link_flavor,검정과 금색 장갑으로 둘러싸인 전술 업링크 코어.\n홀로그램 조준 격자가 분대의 화력과 정찰 능력을 대폭 높여 준다.
+item_ul_firecontrol_link_name,함대 사격 통제 데이터링크
+item_ul_gun_12g_auto_flavor,통풍구가 난 방열 덮개를 단 반자동 돌파용 산탄총. 방 하나를 3초 만에 쓸어 버린다.
+item_ul_gun_12g_auto_name,12G 돌격 연발 산탄총
+item_ul_gun_12g_drum_flavor,아래로 묵직한 드럼 탄창이 달려 있다. 들고 다니기는 버겁지만 금고 문을 걷어차고\n들어갈 때면 상대를 겁에 질리게 한다.
+item_ul_gun_12g_drum_name,12G 드럼 탄창 돌파용 산탄총
+item_ul_gun_12g_pump_flavor,총몸 옆에 예비 탄 네 발이 꽂혀 있다. 대개 펌프를 당기는 철컥 소리만으로도 복도가 텅\n빈다.
+item_ul_gun_12g_pump_name,12G 격벽용 펌프식 산탄총
+item_ul_gun_762_br_flavor,금색 레일과 소형 조준경을 단 제식 전투소총. 중거리에서 바위처럼 안정적이다.
+item_ul_gun_762_br_name,7.62 공화국 전투소총
+item_ul_gun_762_carbine_flavor,"총열이 짧은 7.62. 흙탕물을 뒤집어써도 작동하고, 한 방이 묵직하다.\n밀수꾼과 해군 육전대원 모두 이 총만큼은 믿는다."
+item_ul_gun_762_carbine_name,7.62 돌격 카빈
+item_ul_gun_762_lmg_flavor,"양각대, 탄띠 상자, 무거운 총열. 좁은 선내 통로에 거치해 두면 상대는 고개도 못\n내민다."
+item_ul_gun_762_lmg_name,7.62 분대 제압용 경기관총
+item_ul_gun_9mm_auto_flavor,하급 장교에게 지급하는 표준 보조무장. 연장 탄창이 달렸으며 반동은 조금 있어도 탄이\n걸리지는 않는다.
+item_ul_gun_9mm_auto_name,9mm 제식 연발 권총
+item_ul_gun_9mm_pdw_flavor,선내 복도용 소형 기관단총. 접으면 배낭에 들어가고 좁은 방 안을 순식간에 탄으로\n뒤덮는다.
+item_ul_gun_9mm_pdw_name,9mm 함선용 개인방어화기
+item_ul_gun_9mm_vector_flavor,일체형 소음기가 달렸으며 총구 들림이 거의 없다.\n상층 구역 보안대 지휘관들이 애용한다.
+item_ul_gun_9mm_vector_name,9mm 벡터 소음 기관단총
+item_ul_gun_rail_carbine_flavor,세라믹 외장 사이로 청록색 코일이 드러나 있다.\n총구에 섬광은 없고 날카로운 소리만 난다.
+item_ul_gun_rail_carbine_name,레일 펄스 돌격 카빈
+item_ul_gun_rail_lance_flavor,장비함에 겨우 들어가는 길이다. 장갑 격벽에 구멍을 뚫으려고 만든 무기다.
+item_ul_gun_rail_lance_name,함재 대물 레일 랜스
+item_ul_gun_rail_pistol_flavor,권총 몸체에 가속 레일 두 줄을 욱여넣었다. 쏘면 레일이 뜨거워지고 장갑판도 관통한다.
+item_ul_gun_rail_pistol_name,소형 레일 권총
+item_ul_hydro_breacher_flavor,검정과 금색 장갑으로 두른 쌍피스톤 유압 확장기.\n봉인된 격벽과 무기고 보관함을 강제로 열도록 만들어졌다.
+item_ul_hydro_breacher_name,해군용 유압 돌파 장비
+item_ul_ifak_desc,2회 사용: 상처를 안정시키고 부상 정도를 2단계 낮춥니다.\n해군 분대: 받는 피해 -24 / HP +55 회복.
+item_ul_iv_kit_desc,2회 사용: 상처를 안정시키고 부상 정도를 1단계 낮춥니다.\n해군 분대: 받는 피해 -18 / HP +40 회복.
+item_ul_kevlar_vest_flavor,가슴에 탄창 주머니 세 개를 단 모듈형 해군 케블라 방탄 조끼.\n기동성과 방호력의 균형이 좋다.
+item_ul_kevlar_vest_name,경량 케블라 전술 조끼
+item_ul_laser_module_flavor,검정과 금색의 레일 장착형 광학 거리 측정·레이저 표적 지정 모듈.\n어두운 선내 갑판에서도 첫발 명중률을 높여 준다.
+item_ul_laser_module_name,전술 레이저 표적 지시기
+item_ul_mag_pouch_flavor,무광 검은색의 단단한 2연식 탄창 케이스. 헤어라인 마감 금색 고정쇠가 달려 교전\n중에도 재장전이 빠르다.
+item_ul_mag_pouch_name,신속 인출 탄창 파우치
+item_ul_marine_plate_rig_flavor,여러 겹의 세라믹 가슴 방탄판과 넓은 어깨 장갑으로 이루어져 있다.\n함선에 강습할 때 쏟아지는 거센 사격을 버텨 낸다.
+item_ul_marine_plate_rig_name,해군 육전대 세라믹 중장갑
+item_ul_marksman_rifle_flavor,이중 레일과 청록색 고배율 조준경이 달린 정밀소총. 함대 특수작전 부대에 지급된다.
+item_ul_marksman_rifle_name,해군 지정사수소총
+item_ul_navy_ammo_guide_desc,클릭하거나 사용하면 4개 구경의 탄약 재장전 그림 설명서를 펼칩니다.\n창고나 캐비닛에 보관할 수 있습니다.
+item_ul_navy_ammo_guide_flavor,"함대 병기 정비병에게 지급하는 표준 캔버스 표지 스프링 제본 설명서.\n표지에는 황동 탄약과 레일건 탄약 모양 셋이 찍혀 있고, 모서리에는 총기 손질 기름이\n말라붙었다."
+item_ul_navy_ammo_guide_name,탄약 재장전 설명서
+item_ul_navy_pistol_flavor,해군 갑판 당직 장교에게 지급하는 제식 권총. 짙은 파란색 슬라이드가 달렸으며 탄이\n걸리는 일이 거의 없다.
+item_ul_navy_pistol_name,공화국 제식 권총
+item_ul_navy_smg_flavor,좁은 선내 복도에 맞춰 만든 짧은 총열의 기관단총. 대용량 수직 탄창을 장착한다.
+item_ul_navy_smg_name,소형 해군 기관단총
+item_ul_nvg_goggles_flavor,헬멧 슬롯에 넣는 4안 광시야 전술 야간투시경.\n칠흑같이 어두운 잔해도 대낮처럼 보인다.
+item_ul_nvg_goggles_name,4안 야간투시경
+item_ul_pulse_carbine_flavor,고주파 전자기 레일로 작동하는 차세대 함대 카빈. 위력만큼이나 가격도 무시무시하다.
+item_ul_pulse_carbine_name,펄스 돌격 카빈
+item_ul_rail_slugs_flavor,완충재를 댄 상자에 정밀 가공한 텅스텐 막대 세 개가 담겨 있다. 레일건 전용이다.
+item_ul_rail_slugs_name,레일건용 텅스텐 탄약
+item_ul_re_lead_ingot_flavor,미리 성형한 구리 피갑과 합금 막대. 재장전기에 바로 넣어 쓸 수 있다.
+item_ul_re_lead_ingot_name,피갑 탄심 묶음
+item_ul_re_powder_flavor,작은 압력계가 달린 밀봉 무연 발사약 통. 탄약 재장전기에 들어가는 기본 재료다.
+item_ul_re_powder_name,군용 발사약 통
+item_ul_re_primers_flavor,작은 황동 뇌관 컵을 쟁반에 가지런히 놓았다. 작고 싸지만 탄약 재장전에 반드시\n필요하다.
+item_ul_re_primers_name,정밀 뇌관 트레이
+item_ul_re_rail_coil_flavor,금색 케이스 안에서 사보 코일 두 개가 빛난다.\n금색과 빨간색 등급의 최종 탄약을 만드는 데 필요하다.
+item_ul_re_rail_coil_name,초전도 레일건 사보 키트
+item_ul_re_tungsten_core_flavor,완충 폼에 고밀도 소결 텅스텐 다트 네 개가 담겨 있다. 철갑탄의 핵심 재료다.
+item_ul_re_tungsten_core_name,소결 텅스텐 철갑 심
+item_ul_regen_serum_desc,3회 사용: 최고급 혈청. 모든 부상을 완전히 치료하고 행동 불가 상태를 해제하며 금단\n증상을 완화하고 센티널 붕괴 증후군의 타이머를 초기화합니다.\n해군 분대: 받는 피해 -40 / HP 전부 회복.
+item_ul_republic_rifle_flavor,펄 화이트 폴리머 패널과 소형 조준경을 장착한 모듈식 공화국 제식 소총.
+item_ul_republic_rifle_name,공화국 돌격소총
+item_ul_riot_helmet_flavor,무광 짙은 남색 헬멧에 색을 입힌 폴리카보네이트 안면 가리개가 달려 있다.\n파편과 도탄도 너끈히 막아 낸다.
+item_ul_riot_helmet_name,폭동 진압용 전술 헬멧
+item_ul_sealed_helmet_flavor,금색 반사 안면 가리개와 턱 부분의 재호흡기 필터통이 달린 완전 밀폐형 전투 헬멧.\n진공에서도 쓸 수 있다.
+item_ul_sealed_helmet_name,우주해군 밀폐형 헬멧
+item_ul_slug_shells_flavor,통짜 납으로 된 12G 슬러그탄. 벽돌처럼 묵직한 한 방에 문 경첩도 깨끗이 날아간다.
+item_ul_slug_shells_name,12게이지 슬러그탄
+item_ul_smg_rounds_flavor,밀봉된 해군 깡통에 담긴 9mm 제식 탄약. 깡통은 볼품없지만 탄 걸림은 없다.
+item_ul_smg_rounds_name,9mm 제식 기관단총 탄약
+item_ul_stab_vest_flavor,가볍고 짙은 남색의 베임 방지 조끼. 순찰이나 외곽 고리에서 물자를 회수할 때\n적합하다.
+item_ul_stab_vest_name,근무용 방검 조끼
+item_ul_subsonic_rounds_flavor,발사약을 줄인 9mm 탄약. 소음기를 단 총에서 쏘면 헛기침만 한 소리도 나지 않는다.
+item_ul_subsonic_rounds_name,아음속탄
+item_ul_suppressor_flavor,소음용 격벽을 내장한 새까만 소음기. 표면에 요철을 낸 금색 고정 링이 달렸으며 총구\n섬광과 총성을 낮춘다.
+item_ul_suppressor_name,함대 전술 소음기
+item_ul_tourniquet_desc,1회 사용: 상처를 안정시킵니다. 해군 분대 야전 치료: 받는 피해 -12 / HP +25 회복.
+item_ul_tungsten_rounds_flavor,"경화 텅스텐 탄두를 쓴 7.62 탄약. 세라믹 방탄판을 뚫는 데는 탁월하지만, 총열도\n그만큼 빨리 닳는다."
+item_ul_tungsten_rounds_name,텅스텐 심 탄약
+kai_launder_clean,장부는 애초에 깨끗했습니다. 카이 쪽에서 그래도 한 번 더 확인해 주었습니다.
+kai_launder_done,카이의 장부 세탁 완료: 범죄 금액을 {0}만큼 지웠습니다(남은 금액 {1}). 수사 진행도는 {2}/100으로 낮아졌습니다.
+navy.beacon.desc,"봉인된 고가치 금고의 좌표가 들어 있습니다. 원정 본부에서 소모해 숨겨진 금고에 한 번 출격하거나, 레이스 또는 혁명군에 판매하세요."
+navy.beacon.flavor,그을린 선체 외장재로 만든 케이스. 해독하면 소각되는 일회용 암호 키가 들어 있다.
+navy.beacon.name,암호화 군용 비컨
+navy.box.armor,방어구 / 장비
+navy.box.backpack,배낭 화물
+navy.box.body_armor,몸통 방어구
+navy.box.cyberware,사이버웨어
+navy.box.desc,"군용 타격 분대의 5칸 장비함입니다. 주무기, 헬멧, 몸통 방어구, 군용 보급품, 배낭\n화물을 넣을 수 있습니다. 군용 장비와 보급품만 넣을 수 있으며, 배낭이 회수품 용량을\n결정합니다."
+navy.box.helmet,헬멧
+navy.box.member_name,{0}의 장비함
+navy.box.name,원정 장비함
+navy.box.primary,주무기
+navy.box.supplies,탄약 및 보급품
+navy.buyer.loyalist.name,함대 군수장교 카를로스
+navy.buyer.loyalist.v1,"계약업자님, 함대 군수 조달부의 카를로스입니다. 공화국제 총기나 세라믹 장갑, 블랙 골드 조준경, 군용 탄약이 있다면 카운터에 올려 주세요. 오늘 함대 예산은 넉넉합니다."
+navy.buyer.loyalist.v2,"전선 교대가 막 시작됐습니다. 함대에 소총, 헬멧, 장갑 조끼, 돌파 장비가 필요합니다. 가장 좋은 군용품을 꺼내 주세요. 값은 후하게 쳐 드리겠습니다."
+navy.buyer.rebel.name,지하 무기 중개인 빅토르
+navy.buyer.rebel.v1,"잡담은 됐고, 장비만 보지. 펄스 카빈이든 외골격 장비든 사격 통제 코어든, 상류층이 겁나서 못 만지는 물건은 전부 현금으로 사겠어."
+navy.buyer.rebel.v2,중화기 밀수품이 있어? 당장 카운터에 올려. 네가 가져온 소총과 탄약은 전부 살 만큼 돈이 있어.
+navy.cal.pistol_smg,9mm 경량탄
+navy.cal.rail,중량 레일 탄환
+navy.cal.rifle,7.62 소총탄
+navy.cal.shotgun,12게이지 산탄
+navy.cmd.bribe_desc,"{0} 크레딧을 써서 항로 기록을 손보고 레이스의 의심도를 {1} 낮춥니다.\n\n의심도가 {2}에 도달하면 불시 감사를 받고, {3}에 도달하면 허가증이 취소됩니다."
+navy.cmd.bribe_sub,의심도 {0}/{1}
+navy.cmd.bribe_title,장부 조작
+navy.cmd.bribe_zero,현재 레이스의 의심도는 0입니다.
+navy.cmd.btn_bribe,장부 조작
+navy.cmd.btn_bribe_r,{0}
+navy.cmd.btn_call,연락 신호 보내기
+navy.cmd.btn_call_r,내일 방문
+navy.cmd.btn_defect,허가증 태우기
+navy.cmd.btn_defect_r,되돌릴 수 없음
+navy.cmd.btn_dispatch,분대 파견
+navy.cmd.btn_gear_r,장비 편성
+navy.cmd.btn_go_routes,작전 구역 선택
+navy.cmd.btn_go_routes_r,출격
+navy.cmd.btn_heal,응급 처치
+navy.cmd.btn_heal_r,의료품 1개
+navy.cmd.btn_nights_r,{0}박
+navy.cmd.btn_open_gear,장비함 열기
+navy.cmd.call_desc,"암호 신호를 보내면 카탸가 내일 찾아옵니다. 해군의 보급 요청을 카탸에게 넘기거나, 정보와 비컨을 팔 수 있습니다. 매주 월요일 대비도 1점당 100 크레딧을 받습니다."
+navy.cmd.call_sub,지하 연락망
+navy.cmd.call_title,혁명군 연락책 접촉
+navy.cmd.card_capacity,분대 편성 및 휴식
+navy.cmd.card_channels,연락망 및 진영 선택
+navy.cmd.card_logistics,장비함 및 특권
+navy.cmd.card_member_ops,대원 관리
+navy.cmd.card_orders_off,미완료 보급 요청
+navy.cmd.card_orders_reb,미완료 전시 주문
+navy.cmd.card_pick_member,출격 대원 · {0}
+navy.cmd.card_records,기록 및 정보
+navy.cmd.card_roster,분대 명단
+navy.cmd.card_routes_beacon,암호화 좌표
+navy.cmd.card_routes_off,공식 회수 항로
+navy.cmd.card_routes_reb,지하 습격 항로
+navy.cmd.defect_desc,"공화국 해군과 공개적으로 결별합니다. 미완료 공식 보급 요청이 취소되고, 공식 항로가 폐쇄되며, 경찰의 장비함 검사 면제도 끝납니다.\n\n내일부터 혁명군 연락책이 주간 전시 주문을 맡습니다. 지하 작전에 나가도 의심도가 오르지 않습니다."
+navy.cmd.defect_lock,공개 결별에는 의심도 {0} 이상 또는 대비도 2 이상이 필요합니다.
+navy.cmd.defect_sub,지하 조직 합류
+navy.cmd.defect_title,허가증 태우고 결별
+navy.cmd.lock_defected,해군과 결별하여 더는 임무를 받지 않습니다.
+navy.cmd.lock_level,계약업자 등급 {0} 필요
+navy.cmd.lock_outsource,모집하려면 해군 계약업자 정식 허가증이 필요합니다.
+navy.cmd.lock_readiness,대비도 {0} 이상 또는 해군과 결별 시 해금됩니다.
+navy.cmd.lock_route_defected,해군과 결별하여 공식 항로가 폐쇄되었습니다.
+navy.cmd.lock_route_outsource,외주 허가증으로는 1~2단계 항로만 이용할 수 있습니다.
+navy.cmd.member_active,출격 대원으로 선택했습니다. 「작전 구역」에서 파견할 수 있습니다.
+navy.cmd.member_desc,{0}\n\n장비함 구성:\n화력 {1}  |  방어력 {2}\n의료품 {3}  |  보급 지속력 {4}\n화물칸 여유 약 {5}칸
+navy.cmd.member_desc_out,{0}\n\n「{1}」 작전 중입니다. {2}일차에 귀환할 예정입니다.
+navy.cmd.member_sub,{0} · 체력 {1}/{2}
+navy.cmd.op_beacon_desc,고위험 잔해나 무기고에서 회수한 암호화 좌표 칩입니다. 「작전 구역」에서 1개를 쓰면 「봉인 금고」에 한 번 갈 수 있습니다. 레이스나 혁명군과 거래할 수도 있습니다.
+navy.cmd.op_beacon_sub,{0}개 보유
+navy.cmd.op_beacon_title,암호화 군용 비컨
+navy.cmd.op_cap_desc,해군 계약업자는 자체 분대(각 1~3명) 2개와 용병단 1개를 동시에 파견할 수 있습니다.\n외주 허가증으로는 분대 1개만 파견할 수 있습니다.
+navy.cmd.op_cap_sub,파견 중 {0} / {1}
+navy.cmd.op_cap_title,동시 파견 한도
+navy.cmd.op_exempt_desc_off,외주 허가증을 쓰거나 해군과 결별하면 검사 면제가 적용되지 않습니다. 장비함 속 금지 물품도 경찰의 일반 검사 대상입니다.
+navy.cmd.op_exempt_desc_on,유효한 해군 계약업자 허가증을 보유하고 해군과 결별하지 않은 동안은 장비함 속 군용 무기와 탄약이 경찰의 정기 검사에서 제외됩니다.
+navy.cmd.op_exempt_sub_off,면제 없음
+navy.cmd.op_exempt_sub_on,허가증으로 면제 중
+navy.cmd.op_exempt_title,장비함 검사 면제
+navy.cmd.op_gear_desc,"이 단말기를 닫고 가게에 {0} 대원의 4칸짜리 장비함을 엽니다. 무기, 방어구, 보급품과 배낭을 넣을 수 있습니다.\n\n배낭 크기에 따라 가져올 수 있는 회수품의 양이 달라집니다. 준비를 마치면 허가증을 다시 누르세요."
+navy.cmd.op_gear_sub,{0} 전용 장비함
+navy.cmd.op_gear_title,대원 장비함 열기
+navy.cmd.op_heal_desc,가게에서 가장 싼 의료품 1개를 써서 {0} 대원의 체력을 {1} 회복합니다. 체력이 50 미만이면 출격할 수 없습니다.
+navy.cmd.op_heal_full,이미 체력이 가득 찼습니다.
+navy.cmd.op_heal_sub,{0} · 체력 {1}/{2}
+navy.cmd.op_heal_title,응급 처치
+navy.cmd.op_log_empty,"{0} 대원은 아직 원정을 다녀오지 않았습니다. 첫 원정을 마치면 보급품 소모, 장비 마모, 회수품 내역이 여기에 표시됩니다."
+navy.cmd.op_log_sub,{0}
+navy.cmd.op_log_title,최근 원정 보고서
+navy.cmd.op_rest_desc,"가게에서 쉬는 대원은 매일 밤 체력을 {0} 회복합니다. 원정에서 소모되는 것은 탄약, 식량, 의료품뿐입니다. 주무기와 배낭은 사라지지 않지만, 격전에서는 상태가 한 등급 떨어질 수 있습니다."
+navy.cmd.op_rest_sub,매일 밤 체력 +{0}
+navy.cmd.op_rest_title,체력 회복 및 장비 마모
+navy.cmd.op_routes_desc,「작전 구역」에서 항로별 예상 성공률과 빈 화물칸을 확인하고 {0} 대원을 파견합니다.
+navy.cmd.op_routes_sub,선택 대원: {0}
+navy.cmd.op_routes_title,작전 구역으로 파견
+navy.cmd.order_collector_off,{0}일차에 병참장교 레이스가 방문해 물품을 수령하고 대금을 지급합니다.
+navy.cmd.order_collector_reb,{0}일차에 혁명군 연락책이 방문해 물품을 확인하고 대금을 지급합니다.
+navy.cmd.order_desc,{0}\n\n납품: {1}
+navy.cmd.order_empty_desc,미완료 주문이 없습니다. 다음 방문 때 새 주문이 들어옵니다.
+navy.cmd.order_empty_sub,다음 방문: {0}일차
+navy.cmd.order_empty_title,미완료 주문 없음
+navy.cmd.order_kind_fleet,함대 계약
+navy.cmd.order_kind_normal,보급 요청
+navy.cmd.order_kind_rebel,전시 주문
+navy.cmd.order_kind_rebel_fleet,총공세 계약
+navy.cmd.order_ready,요청 수량을 채웠습니다. 방문 시 납품할 수 있습니다.
+navy.cmd.order_sub,보유 {0}/{1} · 마감 {2}일차
+navy.cmd.order_title,{0} · {1}
+navy.cmd.rebel_active_desc,"해군 허가증을 태웠습니다. 이제 카탸가 매주 전시 주문을 가져오며, 지하 작전은 의심도를 높이지 않습니다. 매주 월요일 대비도 1점당 100 크레딧을 받습니다. 가게를 매입하면 총공세 단계가 열립니다."
+navy.cmd.rebel_active_sub,등급 {0} · 대비도 {1} (월요일 +{2} 크레딧)
+navy.cmd.rebel_active_title,지하 지휘망 가동 중
+navy.cmd.rec_career_desc,납품 완료: {0}건\n누적 납품 수입: {1} 크레딧\n다음 수령 방문: {2}일차\n{3}
+navy.cmd.rec_career_sub,등급 {0} · 납품 {1}건
+navy.cmd.rec_career_title,계약업자 이력
+navy.cmd.rec_exp_desc,완료한 원정: {0}회\n회수품 총 가치: {1} 크레딧\n파견 중인 분대: {2} / {3}
+navy.cmd.rec_exp_sub,원정 {0}회 완료
+navy.cmd.rec_exp_title,원정 실적
+navy.cmd.rec_intel_desc,군사 정보 {0}건과 암호화 비컨 {1}개를 보유 중입니다.\n정보는 레이스나 혁명군 연락책에게 팔 수 있습니다. 비컨은 봉인 금고 항로를 여는 데도 쓸 수 있습니다.
+navy.cmd.rec_intel_sub,정보 {0}건 · 비컨 {1}개
+navy.cmd.rec_intel_title,정보 및 비컨
+navy.cmd.route_desc_eval,{0}\n\n출격 대원: {1}\n예상 성공률 {2}%  |  화물칸 여유 약 {3}칸
+navy.cmd.route_eta,오늘 출발 · {0}일차에 회수품을 싣고 귀환
+navy.cmd.route_low_win,예상 성공률이 낮습니다. 위의 대원을 선택해 장비함을 열고 더 좋은 장비를 넣으세요.
+navy.cmd.route_reb_note,완료 시 대비도 +{0}
+navy.cmd.route_sub_beacon,일회성 금고 · {0}박 · 위험도 {1}
+navy.cmd.route_sub_off,공식 항로 · {0}박 · 위험도 {1}
+navy.cmd.route_sub_reb,지하 항로 · {0}박 · 위험도 {1}
+navy.cmd.route_susp_note,"잠복 중 이 항로를 이용하면 레이스의 의심도가 {0}, 대비도가 {1} 오릅니다."
+navy.cmd.stat_credits,보유 크레딧
+navy.cmd.stat_deployed,파견 중인 분대
+navy.cmd.stat_rank,계약업자 등급
+navy.cmd.stat_readiness,대비도
+navy.cmd.stat_suspicion,레이스의 의심도
+navy.cmd.tab_ops,주문 및 업무
+navy.cmd.tab_routes,작전 구역
+navy.cmd.tab_squad,특임 분대
+navy.cmd.tag_active,가동 중
+navy.cmd.tag_beacon_cnt,x{0}
+navy.cmd.tag_contact,연락
+navy.cmd.tag_defect,결별
+navy.cmd.tag_dispatch,항로 선택
+navy.cmd.tag_done,준비 완료
+navy.cmd.tag_full_hp,체력 최대
+navy.cmd.tag_gear,장비
+navy.cmd.tag_heal,체력 +{0}
+navy.cmd.tag_injured,중상
+navy.cmd.tag_intel,{0}건
+navy.cmd.tag_locked,잠김
+navy.cmd.tag_locked_lv,Lv.{0}
+navy.cmd.tag_log,보고서
+navy.cmd.tag_none,없음
+navy.cmd.tag_off,적용 안 됨
+navy.cmd.tag_on,적용 중
+navy.cmd.tag_out,{0}일 남음
+navy.cmd.tag_ready,대기 중
+navy.cmd.tag_returned,귀환
+navy.cmd.tag_runs,{0}회
+navy.cmd.title_official,해군 단말기 · 계약업자용
+navy.cmd.title_outsource,외주 회수 지휘망
+navy.cmd.title_rebel,지하 지휘망
+navy.defect.forced,레이스가 배신의 증거를 찾아 허가증을 취소했습니다! 내일부터 혁명군 연락책이 주문을 맡습니다.
+navy.defect.gear_returned,전향이 완료됐습니다. 해군 충성파 대원들의 장비함에서 물품 {0}개를 자동으로 가게에 돌려놓았습니다.
+navy.defect.voluntary,해군 허가증을 태웠습니다. 이제 혁명군 지하 조직을 위해서만 일합니다!
+navy.depot.bought,{0} 구매(-{1} 크레딧). 창고로 보냈습니다.
+navy.depot.btn_buy,{0} · {1} 크레딧
+navy.depot.btn_buy_stock,{0} · {1} 크레딧 ({2}/{3})
+navy.depot.btn_lock,{0} (Lv.{1})
+navy.depot.btn_soldout,{0} (품절)
+navy.depot.desc,탄약과 재장전 재료를 주문하면 창고로 바로 배송됩니다. 일일 물량은 매일 아침 보충됩니다. 탄약 재장전기에서 황동 탄피를 재장전하면 크레딧을 아낄 수 있습니다.
+navy.depot.err_cash,크레딧이 부족합니다. {0} 크레딧이 필요합니다.
+navy.depot.err_stock,{0} 일일 구매 한도에 도달했습니다. 내일 아침 보충됩니다.
+navy.depot.title_official,함대 탄약·재장전 보급창
+navy.depot.title_rebel,블랙스타 탄약·재장전 보급창
+navy.dismiss.err_busy,파견 중이거나 복귀 중에는 해고할 수 없습니다.
+navy.dismiss.err_gear,해고하기 전에 이 대원의 장비함을 비우세요.
+navy.dismiss.err_starter,처음부터 함께한 퇴역 군인은 해고할 수 없습니다.
+navy.dismiss.ok,명단에서 {0}을(를) 해고했습니다.
+navy.drama.raid.1,병참장교 레이스가 해군 헌병 두 명을 대동하고 가게 문을 밀고 들어와 진열대를 훑는다.
+navy.drama.raid.2,"긴장 풀게, 사장. 함대 감사실에 무기 장부 얘기가 들어갔어. 장부를 열겠나, 아니면 조용히 해결하겠나?"
+navy.drama.raid.bribe,"현명한 선택이군, 사장. 오늘 감사는 이상 없음으로 처리하지. 몸조심하게."
+navy.drama.raid.c_audit,"협조하고 장부를 공개한다(이상 없으면 보너스, 적발되면 벌금)"
+navy.drama.raid.c_bribe,처리비 {0} 크레딧을 찔러 주고 무마한다(의심도 -15)
+navy.drama.raid.c_defy,물러서지 않는다: 내 허가증은 합법이다. 물러서라!(의심도 +25 · 혁명군 대비도 +2)
+navy.drama.raid.caught,손실 명세서 숫자가 너무 반듯하게 떨어지는군. 도망친 내 옛 부관도 딱 이렇게 장부를 꾸몄지. 벌금은 그대로야. 두 번 걸리진 말게.
+navy.drama.raid.clean,흠. 장부가 깨끗하군. 함대에서 준수 보너스 400 크레딧을 지급하지.
+navy.drama.raid.defy,말 한번 대담하군… 그 태도가 얼마나 가는지 두고 보지. 철수!
+navy.drama.raid.n_bribe,불시 감사를 무마했습니다. 의심도 -15.
+navy.drama.raid.n_caught,"감사에서 이상이 발견됐습니다. 벌금 -{0} 크레딧, 의심도 +20!"
+navy.drama.raid.n_clean,"불시 감사를 통과했습니다. 의심도 -18, 준수 보너스 +400 크레딧!"
+navy.drama.raid.n_defy,"레이스에게 맞섰습니다. 의심도 +25, 혁명군 대비도 +2!"
+navy.drama.sab.1,카탸가 뒤로 문을 닫고 접어 둔 보급창 도면을 카운터 너머로 밀어 준다.
+navy.drama.sab.2,"오늘 밤 레이스의 탄약 보급함이 정박해 있을 때 외곽 고리의 해군 보급창을 칠 거야. 총기 하나, 탄약 하나, 그리고 방어구나 문 파쇄용 성형작약 하나가 필요해. 1,200 크레딧에 암호화 비컨을 주지."
+navy.drama.sab.c_pass,지금은 위험하니 거절한다
+navy.drama.sab.c_snitch,"레이스에게 제보해 매복하게 한다(의심도 -25 · 현상금 +1,000 크레딧 · 혁명군 평판 -4)"
+navy.drama.sab.c_supply,"전투 장비를 건넨다(총기 1개 + 탄약 1개 + 방어구/폭약 1개 → 1,200 크레딧 + 비컨 + 대비도 4)"
+navy.drama.sab.n_snitch,"함대에 제보했습니다. 의심도 -25, 현상금 +1,000 크레딧!"
+navy.drama.sab.n_supply,"혁명군의 공격을 지원했습니다. +1,200 크레딧, 암호화 비컨, 대비도 +4!"
+navy.drama.sab.pass,순찰이 빡빡하니 서두르진 말자. 장비가 준비되면 얘기해.
+navy.drama.sab.snitch_ok,"알았어, 강요할 생각 없어. (그녀가 모퉁이를 돌자 레이스의 주파수로 신호를 보낸다. 현상금이 입금된다.)"
+navy.drama.sab.supply_ok,"노리쇠랑 탄창에 이상 없어. 여기 1,200 크레딧과 비컨이야. 오늘 밤 폭죽 소리 잘 들어 둬."
+navy.dur.drag_tip,{0} 수리: {1}%({2}) → {3}%({4}) [+{5}%]
+navy.dur.log_wear,· 장비 마모: {0} 내구도가 {1}%({2})(으)로 떨어졌습니다.
+navy.dur.repaired,{0} 수리 완료: {1}% → {2}%({3}).
+navy.dur.tier_0,온전
+navy.dur.tier_1,양호
+navy.dur.tier_2,마모
+navy.dur.tier_3,손상
+navy.dur.tier_4,파손
+navy.dur.tip_full,[내구도: {0}% · {1}] 전투 능력치가 온전히 적용됩니다.
+navy.dur.tip_worn,"[내구도: {0}% · {1}] 능력치가 {2}%만 적용됩니다. 금속, 총기 부품, 케블라, 장갑판 또는 기술 재료를 물품 위로 끌어다 놓아 수리하세요."
+navy.exp.dispatched,{0} 분대가 ‘{1}’(으)로 출발했습니다(밤 {2}회 소요).
+navy.exp.err_beacon,가게에 암호화 군용 비컨이 1개 필요합니다.
+navy.exp.err_busy,이 대원은 출발할 준비가 되지 않았습니다.
+navy.exp.err_cap,동시에 파견할 수 있는 분대 수({0})에 도달했습니다.
+navy.exp.err_faction,{0}({1}) 측 대원이 적대적인 {2} 작전 구역으로 가기를 거부했습니다.
+navy.exp.err_injured,부상이 심해 파견할 수 없습니다. 휴식을 취하게 하거나 의료용품으로 치료하세요.
+navy.exp.err_invalid,유효하지 않은 분대원 또는 작전 구역입니다.
+navy.exp.err_no_squad,준비된 대원을 한 명 이상 선택해 분대를 편성하세요.
+navy.exp.err_outside,가게 밖에서는 단말기나 장비함을 열 수 없습니다. 가게로 돌아오세요.
+navy.exp.err_squad_max,분대 하나에 대원을 최대 {0}명까지 편성할 수 있습니다.
+navy.exp.err_wage,크레딧이 부족합니다. 파견 수당 {0} 크레딧이 필요합니다.
+navy.exp.healed,의료용품 1개를 사용했습니다. {0}의 체력이 {1}/{2}로 회복됐습니다.
+navy.exp.no_med,가게에 쓸 수 있는 의료용품이 없습니다.
+navy.hire.already,이미 고용했습니다.
+navy.hire.defected,전향한 당신과의 계약을 거부합니다.
+navy.hire.need_license,고용하려면 정식 해군 계약업자 허가증이 필요합니다.
+navy.hire.ok,{0}을(를) {1} 크레딧에 고용했습니다. 개인 장비함이 준비됐습니다.
+navy.liaison.box_tip,한센이 회수한 장비함 {0}개를 카운터에 올려놓았습니다. 단말기의 ‘회수품 꺼내기’로도 받을 수 있습니다.
+navy.liaison.fail,"나쁜 소식입니다, 사장님. {0} 분대가 작전을 중단하고 후퇴했습니다. 다들 무사합니다. 장비함은 카운터에 가져다 놓았습니다."
+navy.liaison.merc_line,"{0} 측이 복귀했습니다. 계약에 따라 {2}개는 그쪽에서 챙겼고, 나머지 {1}개는 보관함에 있습니다."
+navy.liaison.mixed,"사장님, 오늘 {0} 작전은 절반의 성공입니다. 여기 전체 전투 보고서가 있습니다. 장비함은 모두 카운터에 올려놨습니다."
+navy.liaison.name,군수장교 한센
+navy.liaison.ok,"사장님, {0} 분대의 장비함과 회수품을 모두 가져왔습니다! 문제없이 끝났고, 전부 카운터에 있습니다."
+navy.liaison.ok_injured,"사장님, {0} 분대가 물자를 회수해 돌아왔습니다. 다만 부상자가 있어 요양을 보냈고, 장비함은 전부 카운터에 놓았습니다."
+navy.liaison.vault_again,아직 보관함을 비우지 않으셨군요. 여기에 두겠습니다.
+navy.liaison.vault_full,보관함이 가득 차서 물품 {0}개를 넣지 못했습니다.
+navy.liaison.vault_left,보관함에 물품 {0}개가 남았습니다. 보관함은 카운터에 그대로 둡니다.
+navy.liaison.vault_tip,보관함은 카운터에 있습니다. 비우면 사라집니다.
+navy.log.bleedout,· 과다출혈: 위험도가 높은 구역에서 의료용품이 부족해 부상이 악화됐습니다!
+navy.log.casings,- 재장전용 황동 탄피 묶음 {0}개를 회수했습니다.
+navy.log.combat_hard,· 제압당함: {0} 분대가 거센 포화에 고전했습니다(전력 {1} 대 위험도 {2}).
+navy.log.combat_ok,· 화력 우세: {0} 분대가 전선을 지켰습니다(전력 {1} 대 위험도 {2}).
+navy.log.consume,"소모: 탄약 {0}개, 보급품 {1}개."
+navy.log.fail,제압당해 후퇴했습니다(체력 -{0}). 회수품은 잃었지만 주 장비는 무사히 가져왔습니다.
+navy.log.full,적재 한도에 도달해 {0}을(를) 두고 왔습니다. 더 큰 배낭을 챙기세요.
+navy.log.full_more,적재 공간이 부족해 물품 {0}개를 두고 왔습니다.
+navy.log.great,큰 수확입니다! 물품 {0}개(추정가 {1} 크레딧)를 장비함에 넣었습니다.
+navy.log.growth,· 실전 성장: {0}의 {1} 상승!
+navy.log.growth_one,· 실전 성장: {0}이(가) 후퇴에서 교훈을 얻었습니다. {1} +{2} ({3}/{4}).
+navy.log.head,"작전: {0} 분대, ‘{1}’(으)로 출발(예상 성공률 {2}%)"
+navy.log.med,현장 응급처치: 의료용품 {0}개를 사용해 부상이 악화되지 않도록 했습니다.
+navy.log.no_ammo,· 치명적 실수: {0}에게 탄약이 한 발도 없어 사격하지 못했습니다!
+navy.log.ok,임무 완료: 물품 {0}개(추정가 {1} 크레딧)를 회수했습니다.
+navy.log.radio_note,· 무전 명령: {0}
+navy.log.susp,흔적을 남겼습니다. 레이스의 의심도 +{0}(현재 {1}/100).
+navy.log.wear,장비 마모: 교전 중 {0}의 상태가 한 등급 떨어졌습니다.
+navy.member.broker_lin.name,독립 호위 요원 린
+navy.member.broker_lin.role,"자유항 항로라면 모르는 곳이 없는 외곽 선착장의 호위 요원이다. 장비도 일 처리도 믿을 만하며, 공용과 중립 작전 구역 모두에 익숙하다."
+navy.member.corpo_lena.name,기업 경비대장 리나
+navy.member.corpo_lena.role,상층 구역 출입 허가를 받은 기업 연합의 경비 책임자다. 눈썰미가 좋고 통행증도 확실해 저택이나 개인 금고의 호송을 전문으로 맡는다.
+navy.member.loader_bo.name,부두 하역인 보
+navy.member.loader_bo.role,거친 일에도 끄떡없는 건장한 하역인이다. 작전에 나갈 때마다 회수품을 찾기 위해 한 차례 더 수색한다.
+navy.member.marine.name,퇴역 해병 호크
+navy.member.marine.role,화력과 방호력이 뛰어난 퇴역 중장 해병이다. 호위함 잔해나 심우주 보급함처럼 까다로운 작전에 적합하다.
+navy.member.merc_kyle.name,블랙스타 용병 카일
+navy.member.merc_kyle.role,상층 구역 출신의 최정예 민간 군사 계약업자다. 화력과 방호력이 뛰어나고 회수품 수색을 한 차례 더 한다. 상층 구역의 고급 계약에 적합하다.
+navy.member.salvager.name,인양 전문가 천
+navy.member.salvager.role,해군 출신 인양 기술자다. 공구를 능숙하게 다루며 공식 작전에서는 회수품 수색을 한 차례 더 한다. 다만 비공식 습격에선 긴장한 탓에 정보를 흘리기 쉽다.
+navy.member.sapper.name,특수 폭파병 렌
+navy.member.sapper.role,지하 조직에서 파견한 폭파 전문가다. 화력이 뛰어나고 돌파에 능해 무기고 습격과 봉쇄선 돌파에 적합하다.
+navy.member.scav_jay.name,외곽 고리의 고철 수집꾼 제이
+navy.member.scav_jay.role,품삯이 싼 외곽 고리의 고철 수집꾼이다. 기본 해체 공구를 다룰 줄 알아 초반 고철장 수색이나 저위험 운반에 적합하다.
+navy.member.scout.name,정찰병 베라
+navy.member.scout.role,순찰대를 피해 잠입하고 빠져나오는 데 능한 해군 출신 정찰병이다. 지하 작전에서는 회수품 수색을 한 차례 더 하지만 공식 작전에선 눈에 띄기 쉽다.
+navy.member.sergeant.name,퇴역 부사관 마커스
+navy.member.sergeant.role,어떤 일도 가리지 않는 노련한 퇴역 군인이다. 장비를 두루 잘 다뤄 공식 작전이든 비공식 작전이든 안정적인 전력을 발휘한다.
+navy.merc.btn_hire_go,선급금 지불 후 출동
+navy.merc.btn_select,용병단 선택
+navy.merc.btn_selected,선택됨
+navy.merc.chp_black_dragon.desc,샐러맨더의 후계 전투단. 대원들이 사이버네틱 개조를 받아 방어력이 유난히 뛰어나다. (중립)
+navy.merc.chp_black_dragon.name,블랙 드래곤
+navy.merc.chp_black_temp.desc,공화국의 주먹의 후계 전투단. 공화국의 전쟁에 참전하기를 거부한 것으로 유명하다. 광신적이고 과격하며 규모도 크다. (중립)
+navy.merc.chp_black_temp.name,블랙 템플러
+navy.merc.chp_devastator.desc,"하층 구역에서 가장 광신적인 용병단이다. 그레이 스카 직속이지만 독자적으로 움직일 때가 많고, 교전 구역에 자주 모습을 드러낸다. (하층)"
+navy.merc.chp_devastator.name,디베스테이터 돌격중대
+navy.merc.chp_first_reg.desc,아이언 워리어의 으뜸가는 후계 전투단. 돌파 작전과 조우전에 능한 혁명군의 핵심 전투단이다. (혁명군)
+navy.merc.chp_first_reg.name,제1 대연대
+navy.merc.chp_marines.desc,"울트라마르와 공화국 해군이 공동 편성한 부대. 선단 호위와 적함 승선 작전을 전담한다. (상층, 공화국)"
+navy.merc.chp_marines.name,해군 해병대
+navy.merc.chp_siege_col.desc,아이언 워리어의 후계 전투단. 혁명군의 최전선 전투에는 나서지 않고 후방 보급과 요새 돌파를 맡는다. (혁명군)
+navy.merc.chp_siege_col.name,공성종대
+navy.merc.chp_supernova.desc,울트라마르의 후계 전투단. 적함 승선 작전에 능하다. (상층)
+navy.merc.chp_supernova.name,초신성 전투단
+navy.merc.chp_undercurrent.desc,"알파 혁명군단의 후계 전투단. 상층 침투국의 임무를 직접 수행하는 소수 정예로, 판단력이 뛰어나다. (혁명군)"
+navy.merc.chp_undercurrent.name,암류
+navy.merc.chp_white_temp.desc,"공화국의 주먹의 후계 전투단. 혁명군과 가장 자주 격돌하며 공화국에 대한 충성심이 각별하다. (공화국, 상층)"
+navy.merc.chp_white_temp.name,화이트 템플러
+navy.merc.cmp_ash_guard.desc,"블랙 템플러 소속 특수 전투분견대. 선봉 돌격과 민간인 위협을 맡는다. (하층, 중립)"
+navy.merc.cmp_ash_guard.name,잿빛 의장대
+navy.merc.cmp_blackmarket.desc,암시장을 떠도는 독립 세력. 장비 분해와 고철 재가공에 능하지만 돈을 밝히는 정도가 지나치다. (중립)
+navy.merc.cmp_blackmarket.name,암시장 선단
+navy.merc.cmp_chainsaw.desc,그레이 스카 산하의 길드지만 그 지휘에는 절대 따르지 않는다. 문을 부수고 진입하거나 물자를 밀수하는 일을 주로 한다. (하층)
+navy.merc.cmp_chainsaw.name,전기톱 길드
+navy.merc.cmp_dock_tax.desc,해군 해병대의 최하위 파견대. 하층 구역에서 선박에 올라 검문하고 금제품을 압수한다. (중립)
+navy.merc.cmp_dock_tax.name,부두 세관 검문대
+navy.merc.cmp_echo.desc,"암류의 최하위 조직. 혁명군 침투국에서 일상적인 도청, 간단한 잠입, 신분증 위조를 맡는다. (하층, 혁명군)"
+navy.merc.cmp_echo.name,메아리 공작조
+navy.merc.cmp_guillotine.desc,"제1 대연대의 수뇌부 제거 분대로 혁명군에 없어서는 안 될 전력이다. 사상률은 높지만, 상급 전투단의 분견대 못지않게 많은 물자를 가져온다. (혁명군)"
+navy.merc.cmp_guillotine.name,단두대 분대
+navy.merc.cmp_hearth.desc,샐러맨더의 블랙 드래곤 전투단 소속 의무 분대. 구조와 치료에 능하다. (중립)
+navy.merc.cmp_hearth.name,화롯불 분대
+navy.merc.cmp_nightlight.desc,초신성 전투단 소속. 전투 중 격벽을 뚫고 함선을 나포하거나 보급을 차단한다. (상층)
+navy.merc.cmp_nightlight.name,밤등
+navy.merc.cmp_nightwatch.desc,정체가 베일에 싸인 지도자가 이끄는 하층 구역 민병대. 지형에 훤하고 경험도 풍부하지만 장비가 낡아 사상자가 많다. (하층)
+navy.merc.cmp_nightwatch.name,야경대
+navy.merc.cmp_notary.desc,"샐러맨더 직속. 하층 구역의 분쟁 조정, 통행 주선, 정보 수집을 맡는다. (하층)"
+navy.merc.cmp_notary.name,공증 분대
+navy.merc.cmp_pipe_rats.desc,"하층 구역의 독립 세력. 배관을 타고 몰래 드나들며 도청하는 일이 잦다. (중립, 하층)"
+navy.merc.cmp_pipe_rats.name,배관쥐 길드
+navy.merc.cmp_redcross.desc,"알파 혁명군단 직속. 적 인원을 포섭해 전향시키고 정보를 빼내는 일을 맡으며, 평소에는 전투를 꺼린다. (혁명군, 하층)"
+navy.merc.cmp_redcross.name,적십자회
+navy.merc.cmp_rep_finger.desc,"공화국의 주먹 소속 소규모 분견대. 화력은 거의 없고, 진지 구축과 함선 수리, 방어 시설 점검을 맡는다. (중립, 상층)"
+navy.merc.cmp_rep_finger.name,공화국의 손가락
+navy.merc.cmp_sapper_plt.desc,공성종대 소속 중간 규모의 부대. 땅굴 굴착과 폭파를 맡고 중장비를 다수 운용한다. 공화국 공군의 공습을 몹시 두려워한다. (혁명군)
+navy.merc.cmp_sapper_plt.name,공병 소대
+navy.merc.cmp_scorched.desc,"아이언 워리어 소속 소규모 종대. 전장을 정리하고 장비를 회수하며, 독특한 장기를 회수품으로 가져온다. (혁명군)"
+navy.merc.cmp_scorched.name,초토 시신 수거대
+navy.merc.cmp_white_wax.desc,"화이트 템플러 소속 부대. 상층 구역에서 무력시위와 선전, 소요 진압을 맡는다. (공화국, 상층)"
+navy.merc.cmp_white_wax.name,백랍 의장대
+navy.merc.contract_note,선급금 {0}(실패 시 환불 불가) · 분배율 {1}% · {2}일 차 복귀
+navy.merc.crate_desc,용병단이 계약에 따른 몫을 가져간 뒤 고용주에게 넘기는 회수품이 들어 있다.
+navy.merc.crate_name,용병단 인도 상자
+navy.merc.crate_panel,용병단 몫을 제외한 회수품
+navy.merc.crate_tip,용병단 인도 상자가 카운터에 있습니다. 회수품을 챙기고 용병단 담당자를 돌려보내세요. 남은 물품은 자동으로 보관됩니다.
+navy.merc.crate_title,{0} · 인도 상자
+navy.merc.dispatched,선급금 {2} 크레딧을 지불했습니다. ‘{0}’ 측이 ‘{1}’에 출동했습니다({3}박 후 복귀 예정).
+navy.merc.err_busy,이 용병단은 이미 출동했거나 회수품 인도를 기다리고 있습니다.
+navy.merc.err_cap,동시에 출동시킬 수 있는 용병단은 최대 {0}개입니다.
+navy.merc.err_defected,공화국 해군과 결별하여 이 공화국 용병단은 더 이상 계약을 받지 않습니다.
+navy.merc.err_faction,‘{0}’({1}) 측은 적대 세력인 ‘{2}’의 작전 구역에서 임무를 맡지 않습니다.
+navy.merc.err_fee,크레딧이 부족합니다. 선급금 {0} 크레딧이 필요합니다(실패 시 환불 불가).
+navy.merc.err_legion_needs_empty,1급 군단은 분대 슬롯을 모두 차지합니다. 출동 중인 분대가 복귀할 때까지 기다리세요.
+navy.merc.err_level,이 용병단과 계약하려면 계약업자 등급이 {0} 이상이어야 합니다.
+navy.merc.filter_all,모든 부대
+navy.merc.indep_refund,용병단 계약이 취소되었습니다. 선급금 {0} 크레딧을 돌려받았습니다.
+navy.merc.leg_alpha.desc,혁명군 소속 군단으로 침투와 첩보전에 특화되어 있다. 상층 구역의 침투국을 세운 것도 바로 알파 혁명군단이다. (혁명군)
+navy.merc.leg_alpha.name,알파 혁명군단
+navy.merc.leg_grey_scars.desc,하층 구역에서 가장 규모가 큰 베테랑 용병단. 경량 기관단총과 방검복을 갖추고 상층 구역의 군사 거점을 자주 습격한다. (하층)
+navy.merc.leg_grey_scars.name,그레이 스카
+navy.merc.leg_iron_war.desc,"혁명군의 주력 전투부대. 공화국과 상층 구역 병력을 상대할 때 중추 역할을 하며, 비교적 앞선 무기를 운용한다. (혁명군)"
+navy.merc.leg_iron_war.name,아이언 워리어
+navy.merc.leg_rep_fist.desc,"공화국군 근위 편제에 속한 계약 군단. 기동 요새함을 여러 척 운용하며 공성전과 요새 구축에 능하다. (공화국, 상층)"
+navy.merc.leg_rep_fist.name,공화국의 주먹
+navy.merc.leg_salamander.desc,"공화국에 가장 충성스러운 군단. 민간인과 병사 모두를 아끼며, 하층 구역과 혁명군의 봉기에는 중립을 지킨다. (중립)"
+navy.merc.leg_salamander.name,샐러맨더
+navy.merc.leg_ultramar.desc,"상층 구역에서 가장 비싼 함대급 독립 군단이다. 최상급 총기와 방어구를 갖추고 보급품 수색과 전선 지원에 특화되어 있다. (상층, 공화국)"
+navy.merc.leg_ultramar.name,울트라마르
+navy.merc.log_fail,회수 실패: 용병단이 빈손으로 퇴각했습니다. 선급금 {0} 크레딧은 환불되지 않습니다.
+navy.merc.log_head,[용병단] {0} → {1} 출동(예상 성공률 {2}%)
+navy.merc.log_ok,"회수 성공: 용병단이 물품 {1}개를 몫으로 챙기고({2}%), 나머지 회수품 {0}개(약 {3} 크레딧 상당)를 넘겼습니다."
+navy.merc.nlog_fail,용병단 ‘{0}’ 측이 ‘{1}’ 작전에서 회수에 실패했습니다(선급금 환불 불가).
+navy.merc.nlog_ok,용병단 ‘{0}’ 측이 ‘{1}’ 작전을 마쳤습니다. 계약에 따른 몫 {3}개를 떼고 회수품 {2}개를 가져왔습니다.
+navy.merc.page_sub,"각 부대가 무기, 방어구, 탄약, 의료 키트를 자체 조달하므로 장비를 관리할 필요가 없습니다. 선급금은 실패해도 돌려받지 못하며, 복귀 시 회수품 일부를 용병단에 지급합니다. 전투단과 중대는 자체 분대와 함께 운용할 수 있지만, 전략급인 1급 군단은 출동 중 분대 슬롯을 모두 차지합니다."
+navy.merc.page_title,용병단 계약(보유 크레딧: {0})
+navy.merc.pill_legion_slots,분대 슬롯 전부 사용
+navy.merc.pill_raid_upper,특기: 상층 구역 무단 진입 불이익 감소
+navy.merc.return_line,"사장님, 일 끝냈습니다. 약속한 몫 {2}%에 해당하는 {1}개는 저희가 챙겼고, 사장님 몫 {0}개는 이 상자에 다 넣어 뒀습니다."
+navy.merc.sec_assign,‘{0}’ 작전 구역 배정(선급금 {1} 크레딧 · 회수품 분배율 {2}%)
+navy.merc.sec_companies,계약 가능 용병단(전력이 낮은 순)
+navy.merc.st_cut,회수품 분배율
+navy.merc.st_fee,선급금
+navy.merc.st_out_short,{0}일 차 복귀
+navy.merc.st_power,전력
+navy.merc.st_ready,계약 가능
+navy.merc.st_returned,인도 대기
+navy.merc.tier_chapter,2급 전투단
+navy.merc.tier_company,3급 중대
+navy.merc.tier_independent,독립 부대
+navy.merc.tier_legion,1급 군단
+navy.nlog.return_fail,원정대 후퇴: {0} 분대가 ‘{1}’에서 힘겹게 돌아왔습니다. 오늘 장비함을 카운터에 가져옵니다.
+navy.nlog.return_ok,원정대 복귀: {0} 분대가 ‘{1}’에서 물품 {2}개를 들고 돌아왔습니다. 오늘 장비함을 카운터에 가져옵니다.
+navy.notify.level_rebel,지하 조직의 전투 대비 등급이 {0}(으)로 올랐습니다.
+navy.notify.overdue_rebel,지하 조직 주문 {0}건의 기한이 지났습니다. 혁명군 평판이 조금 떨어졌습니다.
+navy.notify.quality_bonus,고급 장비 추가 대금: +{0} 크레딧!
+navy.order.rebel,지하 조직 주문: {0}
+navy.order.rebel_fleet,총공세 계약: {0}
+navy.order.short_rebel,전시 주문: {1} ×{0}(보유 {2})
+navy.order.short_rebel_fleet,공세: {1} ×{0}(보유 {2})
+navy.outsource.permit_desc,카이가 주선한 하청 원정 허가증입니다. 열어서 퇴역 군인의 장비함을 꾸리고 원정에 파견하세요.
+navy.outsource.permit_flavor,유령 회사의 직인이 찍힌 통행증. 해군의 밀수품 검사 면제는 없지만 가게로 회수품을 상자째 가져오는 데는 충분하다.
+navy.outsource.permit_name,하청 원정 허가증
+navy.outsource.unlocked,가게에 하청 원정 허가증이 추가됐습니다. 열어서 퇴역 군인에게 장비를 지급하고 파견하세요.
+navy.p2.notify_rebel,지하 조직 등급 6(총공세). 혁명군 연락책이 매주 총공세 계약을 가져오며 ‘주둔군 보급선 차단’이 해금됐습니다.
+navy.radio.err_cash,크레딧이 부족합니다. {0} 크레딧이 필요합니다.
+navy.radio.medevac_drone.btn_a,350 크레딧으로 의무후송 드론을 부른다(성공률 +18% · 피해 감소)
+navy.radio.medevac_drone.btn_b,무거운 화물을 버리고 돌파한다(피해 절반 · 회수품 -2)
+navy.radio.medevac_drone.desc,잡음 가득한 무전 너머로 총성이 들립니다. 분대가 철수 통로에서 매복에 걸렸고 부상자가 있습니다!
+navy.radio.medevac_drone.res_a,350 크레딧을 지불해 의무후송 드론을 불렀습니다. 인명 피해를 최소화했습니다!
+navy.radio.medevac_drone.res_b,분대에 무거운 회수품을 버리고 빠져나오라고 명령했습니다.
+navy.radio.medevac_drone.title,교차 사격에 발이 묶인 분대
+navy.radio.nlog,전선 무전: {0} 분대가 긴급 경보 [{1}]을 보냈습니다. 해군 단말기를 열어 명령을 내리세요!
+navy.radio.rebel_cache.btn_a,하층 구역으로 돌린다(대비도 +2 · 정보 +1 · 의심도 +10)
+navy.radio.rebel_cache.btn_b,함대에 보고한다(의심도 -12 · 평의회 평판 +2 · 현상금 +250 크레딧)
+navy.radio.rebel_cache.desc,분대가 혁명군 잠입국 휘장이 찍힌 비밀 보급품과 암호화 정보를 발견했습니다.
+navy.radio.rebel_cache.res_a,비밀 보급품을 지하 조직에 넘겼습니다(혁명군 대비도 +2)!
+navy.radio.rebel_cache.res_b,"비밀 보급품을 공화국 함대에 신고했습니다(현상금 +250 크레딧, 의심도 -12)."
+navy.radio.rebel_cache.title,지하 조직의 비밀 보급품
+navy.radio.smuggler_intercept.btn_a,밀수정을 빼앗는다(회수품 +2 · 의심도 +12)
+navy.radio.smuggler_intercept.btn_b,무전 침묵을 유지한다(의심도 -5 · 성공률 +5%)
+navy.radio.smuggler_intercept.desc,"센서가 미등록 군용 화물을 싣고 순찰 항로를 빠져나가려는, 호위 없는 암시장 소형정을 포착했습니다."
+navy.radio.smuggler_intercept.res_a,밀수정을 빼앗아 회수품을 2개 더 확보했습니다(의심도 +12).
+navy.radio.smuggler_intercept.res_b,무전 침묵을 유지한 채 순찰대를 피해 빠져나왔습니다(의심도 -5).
+navy.radio.smuggler_intercept.title,호위 없는 밀수정 발견
+navy.radio.tag,전선 무전 · 응답 필요
+navy.radio.vault_crack.btn_a,금고를 연다(하룻밤 추가 · 회수품 +2 · 위험 증가)
+navy.radio.vault_crack.btn_b,예정대로 철수한다(안전하게 복귀 · 성공률 +6%)
+navy.radio.vault_crack.desc,분대가 잔해 깊은 곳에서 온전한 해군 장교 금고를 발견했지만 초계함이 다가오고 있습니다. 남아서 금고를 열까요?
+navy.radio.vault_crack.res_a,분대에 금고를 열라고 명령했습니다. 하룻밤 더 걸리며 위험도가 증가하지만 회수품을 2개 더 얻습니다.
+navy.radio.vault_crack.res_b,즉시 철수하라고 명령했습니다. 분대가 안전하게 빠져나왔습니다(성공률 +6%).
+navy.radio.vault_crack.title,봉인된 장교 금고 발견
+navy.readiness.dividend_msg,블랙스타 월요일 배당금(대비도 {0} × 100): +{1} 크레딧.
+navy.rebel.beacon_ok,"이 주파수 도약이면 순찰망 두 겹은 빠져나가겠어. {0} 크레딧, 대비도 +{1}."
+navy.rebel.bye_cover,뒷골목으로 갈게. 장부 숫자 깔끔하게 맞춰 둬. 영감은 꼭 확인하거든.
+navy.rebel.bye_defected,다음 주에 봐. 공개 주파수는 쓰지 마.
+navy.rebel.c_beacon,[카탸에게 비컨을 건넨다({0} 크레딧 + 대비도)]
+navy.rebel.c_deliver,[납품: {0}]
+navy.rebel.c_intel,[‘{0}’을 넘긴다({1} 크레딧)]
+navy.rebel.c_sabotage,[레이스의 보급품을 카탸에게 돌린다: {0}(지원금 {1})]
+navy.rebel.called,신호를 보냈습니다. 카탸가 내일 들릅니다.
+navy.rebel.close,좋아. 미납분은 이제 없어.
+navy.rebel.got,수량은 맞아. {0} 크레딧 보냈어.
+navy.rebel.grand_done.1,어젯밤 제3보급창이 함락됐어. 레이스가 남은 호위함들을 상층 내부 선착장으로 물렸지. 공개 무전으로 퇴각을 명령하는 걸 들었어.
+navy.rebel.grand_done.2,"3년 전 외곽 고리의 의약품을 빼돌리는 데 서명하면서, 자기 허가증으로 들어온 소총이 자기를 향하리라곤 생각 못 했겠지."
+navy.rebel.grand_done.3,"도와줘서 고마워, 사장. 네 가게라면 블랙스타 연락망은 언제든 열려 있어. 아직 끝나진 않았어. 다음 주 같은 시간에 봐."
+navy.rebel.grand_epilogue_notify,"제3보급창 봉쇄를 돌파했습니다. 혁명군 평판 +8, 대비도 +5."
+navy.rebel.grand_new,하나 더. 공세가 얼마 안 남았어. 이게 대규모 주문이야.
+navy.rebel.intel_ok,받았어. {0} 크레딧이야.
+navy.rebel.intro.1,카탸야. 3년 전에 때려치우기 전까진 레이스 장부를 봤어.
+navy.rebel.intro.2,그 영감은 장부 숫자가 잘 떨어지는지만 확인해. 보급품을 내게 돌려주면 외곽 고리에서 잃어버린 걸로 명세서를 깔끔하게 써 줄게. 정보와 비컨도 받아.
+navy.rebel.menu,"주문, 정보, 아니면 비컨?"
+navy.rebel.menu_more,또 있어?
+navy.rebel.name,카탸
+navy.rebel.new_intro,다음 주 전시 주문 {0}건이야.
+navy.rebel.sabotaged,"오늘 밤 빼내서 외곽 고리에서 습격당해 잃어버렸다고 올릴게. 지원금 {0} 크레딧, 대비도 +{1}. 레이스 앞에서는 몸 낮춰(의심도 +{2})."
+navy.rebel.takeover.1,레이스 허가증을 태웠다며. 내가 계급장을 뜯어 버렸을 때보다 깔끔하네.
+navy.rebel.takeover.2,"이제 매주 주문은 내가 맡을게. 조건은 같고, 명분은 더 낫지."
+navy.rebel.takeover_forced.1,레이스가 허가증을 회수했어? 늘 그 수법이지. 누가 빼돌리는지 못 잡으면 아예 보급을 끊어 버려.
+navy.rebel.takeover_forced.2,걱정 마. 이제 내가 매주 주문을 보낼게. 당장 쓸 수 있게 창고에 철갑탄 두 상자와 비컨을 뒀어.
+navy.rebel.takeover_voluntary.1,레이스 허가증을 태웠다며. 내가 계급장을 뜯어 버렸을 때보다 깔끔하네.
+navy.rebel.takeover_voluntary.2,이제 매주 주문은 내가 맡을게. 보수는 해군보다 못하지 않아. 시작할 때 쓰라고 뒷방에 소총용 철갑탄 두 상자와 비컨을 두고 왔어.
+navy.rebel.v_cover,순찰대가 방금 지나갔어. 빨리 얘기하자. 오늘 빼돌릴 물건 있어?
+navy.rebel.v_defected,카탸야. 벌써 주말이네. 지난주 물량부터 확인하자.
+navy.rebel.v_snitched,"레이스의 포함이 우리보다 10분 먼저 보급창에 도착했어. 누가 제보했는지 알아. 당장은 거래를 계속하겠지만 사장, 두 번은 없어."
+navy.rebel.welcome_gift_notify,"카탸가 창고에 초기 보급품을 남겼습니다. 7.62 텅스텐 철갑탄 ×2, 암호화 비컨 ×1."
+navy.return.box_tip,장비함을 카운터에 놓았습니다. 닫기 전에 회수품을 저장 공간으로 옮기세요. 다음 원정에 쓸 주 장비는 장비함에 두세요.
+navy.return.fail,밖이 너무 위험했어. 주 장비는 챙겨서 철수했지만 회수품은 버려야 했어. 이틀쯤 쉬어야겠어.
+navy.return.ok,"일 끝났어, 사장. 장비함에 다 넣어 뒀으니 확인해 봐."
+navy.return.ok_injured,몇 발 맞았지만 회수품은 멀쩡해. 장비함은 카운터에 뒀어. 남는 붕대 있어?
+navy.reyes.audit.ask,잠깐. 감사에서 항로 기록이 몇 건 수상하다고 나왔어. 의심도는 {0}이군. 해명해 보게.
+navy.reyes.audit.bribed,…간신히 숫자는 맞는군. 두 번 다시 내 인내심을 시험하지 말게.
+navy.reyes.audit.c_bluff,[외곽 고리의 해적 탓으로 돌린다(벌금 {0} 크레딧 위험)]
+navy.reyes.audit.c_bribe,"[장부가 맞도록 입막음 돈을 건넨다(-{0} 크레딧, 의심도 -{1})]"
+navy.reyes.audit.c_defect,[허가증을 찢는다: 이제 공화국 일은 안 해!]
+navy.reyes.audit.defect_bye,"그래, 아주 좋군. 그 선택을 후회하게 될 거야."
+navy.reyes.audit.fined,믿을 수 없군. 벌금 {0} 크레딧을 차감했어. 감사관들이 자넬 지켜볼 걸세.
+navy.reyes.beacon_ask,"암호화 군용 비컨인가? 함대 회수부에서 찾던 물건이군. 현금인가, 청탁인가?"
+navy.reyes.c_beacon,[암호화 군용 비컨을 넘긴다]
+navy.route.beacon_vault.desc,"일회용 비밀 은닉처. 비컨 1개를 사용하며 의심도는 오르지 않습니다. 빨간색 등급 회수품, 희귀 모듈, 밀봉 상자를 반드시 얻습니다."
+navy.route.beacon_vault.name,암호화 비컨: 봉인 금고
+navy.route.btn_refresh,작전 구역 새로고침({0} 크레딧)
+navy.route.btn_refresh_free,작전 구역 새로고침(오늘 무료)
+navy.route.daily_heading,오늘의 작전 구역(위험 등급 {0}개 · 총 36곳 중 등급별로 1곳씩)
+navy.route.daily_sub,"매일 아침 위험 등급별로 작전 구역이 한 곳씩 정해집니다. 매일 첫 새로고침은 무료입니다. 적대 세력의 구역만 출입이 금지되며, 소속 세력의 구역에서는 전력 보너스를 받습니다. 상층이나 공화국의 호위 없이 상층 작전 구역에 들어가면 무단 진입 불이익을 받습니다."
+navy.route.err_not_today,오늘의 목록에 없는 작전 구역입니다. 먼저 작전 구역 목록을 새로고침하세요.
+navy.route.home_bonus,소속 세력 구역 전력 +{0}
+navy.route.low_blackdock.desc,"중위험 하층 작전. 무허가 선착장에서 선체 패널과 제어함을 해체하고 기관단총, 탄약, 탄약 재장전 재료를 회수합니다."
+navy.route.low_blackdock.name,무허가 선착장 해체 작업
+navy.route.low_foundry.desc,"고위험 하층 작전. 폐주조소를 점거한 무장 세력을 몰아내고 소총, 방탄판, 텅스텐 심을 회수합니다."
+navy.route.low_foundry.name,폐주조소 습격
+navy.route.low_reactor.desc,"극위험 하층 작전. 봉쇄된 하부 갑판의 원자로실에 진입합니다. 군용 고에너지 전력 셀, 레일건, 최고급 탄약이 쌓여 있습니다."
+navy.route.low_reactor.name,하부 갑판 원자로 핵심부
+navy.route.low_sewer.desc,"저위험 하층 작전. 침수된 배수정을 뒤져 탄피, 고철, 붕대와 소형 총기를 회수합니다."
+navy.route.low_sewer.name,하층 배수정 수색
+navy.route.neu_derelict.desc,"고위험 중립 작전. 표류하는 민간 연구선에 올라 고급 칩, 소총, 철갑탄을 회수합니다."
+navy.route.neu_derelict.name,표류 연구선 인양
+navy.route.neu_graveyard.desc,극위험 중립 작전. 아무도 권리를 주장하지 않는 심우주 전함 묘지 깊숙이 들어갑니다. 교전은 격렬하지만 빨간색 등급 무기와 희귀품이 가득합니다.
+navy.route.neu_graveyard.name,심우주 전함 묘지
+navy.route.neu_relay.desc,"저위험 중립 작전. 왕래가 끊긴 외곽 고리의 상선 항로에서 표류 비컨과 함께 전자 부품, 식량, 표준 탄약을 회수합니다."
+navy.route.neu_relay.name,상선 비컨 회수
+navy.route.neu_trade.desc,"중위험 중립 작전. 자유항의 미등록 화물을 호위하고 각종 총기, 개인 응급처치 키트, 탄약 재장전 재료를 얻습니다."
+navy.route.neu_trade.name,자유항 미등록 화물 호송
+navy.route.off_buffer.desc,"중위험 공식 작전. 군용 식량, 개인 응급처치 키트, 탄약, 방탄판, 회로와 정보를 회수합니다."
+navy.route.off_buffer.name,외곽 고리 교전 완충지대
+navy.route.off_frigate.desc,"고위험 잔해 수색. 고급 모듈, 총기, 열화상 조준경, 밀봉 상자, 키카드와 암호화 비컨을 회수합니다."
+navy.route.off_frigate.name,퇴역 호위함 잔해
+navy.route.off_scrap.desc,"저위험 공식 인양 작전. 전자 부품, 재료, 기본 의약품과 식량, 소형 무기를 회수합니다."
+navy.route.off_scrap.name,근궤도 고철장
+navy.route.off_supply.desc,"극위험 2단계 작전. 레일건 소총, 군용 고에너지 전력 셀, 초과학 부품, 귀족 밀봉 상자와 공화국 특수 무기 상자를 회수합니다."
+navy.route.off_supply.name,실종된 함대 보급함
+navy.route.raid.expert_warning,경계선 돌파 숙련: 위험도 +5% · 의심도 +5
+navy.route.raid.expert_warning_nosusp,경계선 돌파 숙련: 위험도 +5%
+navy.route.raid.squad_warning,무허가 습격: 위험도 +15% · 의심도 +8
+navy.route.raid.squad_warning_nosusp,무허가 습격: 위험도 +15%
+navy.route.raid.warning,경계선 돌파: 위험도 +15% · 의심도 +10
+navy.route.raid.warning_nosusp,경계선 돌파: 위험도 +15%
+navy.route.reb_armory.desc,"고위험 습격 작전. 해군 보급창을 습격해 기관단총, 산탄총, 공화국 특수 무기 상자, 특수 탄약과 비컨을 회수합니다."
+navy.route.reb_armory.name,봉인 무기고 습격
+navy.route.reb_blockade.desc,극위험 봉기 작전. 주둔군의 보급망을 마비시켜 최고급 빨간색 등급 장비를 노획하고 혁명군 대비도를 크게 높입니다.
+navy.route.reb_blockade.name,주둔군 보급선 차단
+navy.route.reb_intercept.desc,중위험 습격 작전. 해군 검문으로 위장해 군용 장비와 압수된 귀중품을 가로챕니다.
+navy.route.reb_intercept.name,외곽 수송정 가로채기
+navy.route.reb_smuggle.desc,"저위험 공용 작전. 하층 구역의 정비용 배관으로 부품, 탄약, 전자 부품을 운반합니다(하층/중립/혁명군)."
+navy.route.reb_smuggle.name,하층 구역 배관 밀수
+navy.route.refresh_no_cash,크레딧이 부족합니다. 오늘의 작전 구역을 새로고침하려면 {0} 크레딧이 필요합니다.
+navy.route.refreshed,{0} 크레딧을 써서 오늘의 작전 구역 4곳을 새로고침했습니다!
+navy.route.refreshed_free,오늘의 작전 구역 4곳을 무료로 새로고침했습니다! (오늘의 무료 새로고침 사용 완료)
+navy.route.rep_bastion.desc,"극위험 공화국 작전. 실종된 기함의 봉인 탄약고를 확보합니다. 경기관총, 레일건, 빨간색 등급 철갑탄이 비축되어 있습니다."
+navy.route.rep_bastion.name,기함 탄약고 수색
+navy.route.rep_checkpoint.desc,"중위험 공화국 작전. 외곽 고리 검문소까지 교대용 물자를 호송하고, 습격자들을 물리쳐 제식 총기와 방탄판을 회수합니다."
+navy.route.rep_checkpoint.name,외곽 고리 검문소 교대 물자 호송
+navy.route.rep_cruiser.desc,"극위험 공화국 작전. 표류 중인 중순양함에 올라 무기 갑판에서 레일건, 외골격 장비, 빨간색 등급 철갑탄을 회수합니다."
+navy.route.rep_cruiser.name,전투로 파손된 순양함 인양
+navy.route.rep_customs.desc,"저위험 공화국 작전. 외곽 항구 세관 초소에서 압수 화물을 조사해 탄약, 의약품, 전자 부품을 안정적으로 확보합니다."
+navy.route.rep_customs.name,외항 세관 압수품 조사
+navy.route.rep_depot.desc,"고위험 공화국 작전. 폐쇄된 함대 부품 보급창의 봉인을 해제합니다. 소총, 야간 투시경, 텅스텐 심, 함선 모듈이 쌓여 있습니다."
+navy.route.rep_depot.name,폐쇄된 함대 부품 보급창
+navy.route.rep_escort.desc,"중위험 공화국 작전. 완충지대 인근에서 해군 보급정을 호위하고 제식 소총과 탄약, 세라믹 방탄판을 받습니다."
+navy.route.rep_escort.name,함대 보급정 호위
+navy.route.rep_patrol.desc,"저위험 공화국 작전. 해군 허가를 받아 항만 인근의 잔해를 수색하고 기본 탄약, 재료, 전자 부품을 회수합니다."
+navy.route.rep_patrol.name,항만 경비 순찰
+navy.route.rep_wreck.desc,"고위험 공화국 작전. 전투로 파손된 호위함의 함교에서 블랙박스를 회수합니다. 멀쩡한 모듈, 소총, 야간 투시경도 함께 가져옵니다."
+navy.route.rep_wreck.name,호위함 블랙박스 회수
+navy.route.rev_citadel.desc,극위험 혁명군 작전. 주둔군의 궤도 통신 중계소를 급습해 핵심 장비를 빼냅니다. 격렬한 교전을 치러야 하지만 최상급 회수품이 가득합니다.
+navy.route.rev_citadel.name,궤도 통신 중계소 급습
+navy.route.rev_convoy.desc,"중위험 혁명군 작전. 화물 수송로에서 주둔군의 소형 수송정을 습격해 탄약, 케블라 방탄복과 야전 의약품을 노획합니다."
+navy.route.rev_convoy.name,순찰 수송대 매복
+navy.route.rev_drop.desc,저위험 혁명군 작전. 순찰대를 피해 비밀 인수 지점에서 부품과 탄약을 챙기고 혁명군 대비도를 높입니다.
+navy.route.rev_drop.name,지하 비밀 물자 인수
+navy.route.rev_prison.desc,고위험 혁명군 작전. 외곽 고리의 죄수 수송선을 뚫고 진입해 포로를 구출하고 압수된 소총과 철갑탄을 되찾습니다.
+navy.route.rev_prison.name,외곽 죄수 수송선 구출 작전
+navy.route.tier_1,저위험
+navy.route.tier_2,중위험
+navy.route.tier_3,고위험
+navy.route.tier_4,극위험
+navy.route.tier_beacon,암호화 비컨
+navy.route.upp_club.desc,"고위험 상층 작전. 기업 연합을 대신해 첨탑의 회원제 클럽을 점거한 용병들을 몰아내고 고급 모듈, 열화상 조준경, 소총, 철갑탄을 회수합니다."
+navy.route.upp_club.name,첨탑 회원제 클럽 소탕
+navy.route.upp_courier.desc,"저위험 상층 작전. 첨탑 별장 사이에서 사유 화물을 조용히 호송합니다. 보수로 고급 생활용품, 전자 부품, 정교한 보조 화기를 받습니다."
+navy.route.upp_courier.name,상층 구역 사유 화물 호송
+navy.route.upp_datahaven.desc,극위험 상층 작전. 암흑 궤도에 있는 기업 연합의 데이터 금고를 장악합니다. 중무장 경비의 저항이 거세지만 빨간색 등급 무기와 희귀 회수품이 가득합니다.
+navy.route.upp_datahaven.name,역외 데이터 금고 습격
+navy.route.upp_estate.desc,"중위험 상층 작전. 기업 연합 저택의 외곽에 침입한 자들을 몰아내고 사치품, 중급 총기와 텅스텐 심을 회수합니다."
+navy.route.upp_estate.name,기업 연합 저택 외곽 소탕
+navy.route.upp_gallery.desc,"저위험 상층 작전. 수집가의 소장품을 밤중에 개인 전시관에서 옮깁니다. 보수로 고급 생활용품, 전자 부품, 보조 화기를 받습니다."
+navy.route.upp_gallery.name,개인 전시관 소장품 호송
+navy.route.upp_lab.desc,"고위험 상층 작전. 전력이 끊긴 민간 저온 보관고를 지키며 핵심 표본을 빼냅니다. 복귀할 때 고급 모듈, 특수 탄약과 중장 방어구를 회수합니다."
+navy.route.upp_lab.name,민간 생물 연구소 회수 작전
+navy.route.upp_vault.desc,극위험 상층 작전. 경비를 뚫고 파산한 기업 연합의 역외 금고를 장악합니다. 레일건 계열 무기와 희귀 화물이 가득합니다.
+navy.route.upp_vault.name,첨탑 역외 금고 장악
+navy.route.upp_yacht.desc,"중위험 상층 작전. 궤도를 표류하는 갑부의 요트에서 무단 승선자들을 몰아냅니다. 시가, 향수, 중급 총기와 텅스텐 심을 회수합니다."
+navy.route.upp_yacht.name,표류하는 호화 요트 탈환
+navy.spec.ammo_dr,[구경: {0}] 호환 화력 +{1} / 전투 피해 -{2}%.
+navy.spec.ammo_std,[구경: {0}] 호환 화력 +{1}.
+navy.spec.armor,[원정 · 방어구 칸] {0}
+navy.spec.cyber,[원정 · 사이버웨어 칸] {0}
+navy.spec.gun,[구경: {0}] 맞는 탄약을 장전해야 화력을 온전히 발휘합니다.
+navy.spec.gun_stats,[원정 · {0} 사용] {1}(탄약 필요)
+navy.spec.helmet,[원정 · 헬멧 칸] {0}
+navy.spec.melee_stats,[원정 · 근접 무기 / 탄약 없음] {0}
+navy.spec.re_base,[재장전 재료] 탄피 또는 주괴와 함께 탄약 재장전기에 넣으면 파란색·보라색 등급 탄약을 만듭니다.
+navy.spec.re_casings,[황동 탄피] 탄약 재장전기에 넣어 새 탄약을 만드세요.
+navy.spec.re_gold,[철갑탄 심] 탄약 재장전기에 넣으면 금색 등급 철갑탄을 만듭니다. 9mm와 12게이지는 최상급 보라색 탄약을 만듭니다.
+navy.spec.re_powercell,"[과부하 코어] 7.62/레일 탄약 재장전기에서 하룻밤에 7.62 열화 합금 철갑 탄띠 4개 또는 초전도 초고속 레일건 탄약 3개(금색 코어 + 기본 재료 추가), 또는 텅스텐 다트 레일건 사보탄 6개(기본 재료 추가)를 만듭니다. 장비 위에 끌어다 놓으면 내구도 +100%로 완전히 수리합니다."
+navy.spec.re_red,[최종 등급 키트] 탄약 재장전기에 넣으면 빨간색 등급 7.62 탄약 또는 초전도 초고속 레일건 탄약을 만듭니다.
+navy.spec.stat_def,방어 +{0}
+navy.spec.stat_dr,전투 피해 -{0}%
+navy.spec.stat_endure,지구력 +{0}
+navy.spec.stat_fp,화력 +{0}
+navy.spec.stat_loot,추가 회수품 확률 +{0}%
+navy.spec.stat_med,의료 +{0}
+navy.spec.stat_tool,도구 +{0}
+navy.spec.tactical,[원정 · 보급품 부착물] {0}
+navy.squad.locked_by_legion,1등급 군단이 파견 중입니다. 돌아올 때까지 분대 자리를 모두 차지합니다.
+navy.suspicion.audit_warn,경고: 레이스의 의심도가 감사 기준을 넘었습니다. 다음 방문에 감사를 받을 수 있습니다!
+navy.suspicion.bribed,장부를 맞췄습니다. 레이스의 의심도가 {0}/100으로 떨어졌습니다.
+navy.tag.all,모든 태그
+navy.tag.common,공용
+navy.tag.common_detail,공용(모든 세력)
+navy.tag.lower,하층
+navy.tag.neutral,중립
+navy.tag.rebel,혁명군
+navy.tag.republic,공화국
+navy.tag.upper,상층
+navy.term.ammo_dry_pill,탄약 없음 · 발사 불가 (필요: {0})
+navy.term.ammo_generic_pill,범용 탄약 (추천: {0})
+navy.term.ammo_match_dr_pill,호환: {0} (화력 +{1} / 받는 피해 -{2}%)
+navy.term.ammo_match_pill,호환: {0} (화력 +{1})
+navy.term.btn_assign_route,항로 배정
+navy.term.btn_bribe_full,"장부 조작 ({0} 크레딧, 의심도 -{1})"
+navy.term.btn_close,닫기 · ESC
+navy.term.btn_defect_confirm,한 번 더 눌러 확정
+navy.term.btn_dismiss,해고
+navy.term.btn_dispatch_squad,분대 파견 ({0}명)
+navy.term.btn_go_recruit,+ 대원 모집
+navy.term.btn_heal_short,치료
+navy.term.btn_hire,고용 · {0}
+navy.term.btn_log_hide,숨기기
+navy.term.btn_log_show,보고서
+navy.term.btn_quick_gear,장비함 열기
+navy.term.btn_refused,고용 거부
+navy.term.btn_restock,자동 보급
+navy.term.btn_theme_dark,다크 모드
+navy.term.btn_theme_light,라이트 모드
+navy.term.btn_unload,회수품 하역
+navy.term.btn_unload_all,회수품 전부 하역
+navy.term.cells,{0}칸
+navy.term.cells_unit, 칸
+navy.term.cyber_pill,의체: {0}
+navy.term.day_n,{0}일차
+navy.term.diag_beacons,비컨
+navy.term.diag_exempt,장비함 검사 면제
+navy.term.diag_intel,해군 정보
+navy.term.diag_tip,장비함을 열면 단말기가 잠시 숨겨져 가게에서 바로 장비를 넣을 수 있습니다. 돌아오려면 허가증을 누르세요.
+navy.term.diag_title,단말기 진단
+navy.term.diag_visit,다음 방문
+navy.term.dispatch_eta_note,수당 없음 · {0}일차 귀환
+navy.term.dispatch_wage_note,수당 {0} 크레딧 · {1}일차 귀환
+navy.term.growth_pill,원정 {0}회 · 성장 +{1}/{2}
+navy.term.hdr_cash,크레딧 {0}
+navy.term.hdr_out,파견 {0}/{1}
+navy.term.hdr_rank,계약업자 Lv.{0}
+navy.term.hdr_readiness,대비도 {0}
+navy.term.hdr_susp,의심도 {0}/{1}
+navy.term.hire_pricing,계약금 {0}  |  출격 수당 {1}/회
+navy.term.hired_badge,고용됨
+navy.term.hp_bar,체력 {0} / {1}
+navy.term.merc_out_day,파견 중 · {0}일차 귀환
+navy.term.merc_out_route,{0} · {1}일차 귀환
+navy.term.nav_hire_badge,모집 가능 {0}명
+navy.term.nav_merc,용병단
+navy.term.nav_ops,주문 및 업무
+navy.term.nav_order_badge,미완료 {0}건
+navy.term.nav_recruit,모집
+navy.term.nav_routes,작전 구역
+navy.term.nav_squad,분대 운용
+navy.term.order_due,마감 {0}일차 · 방문 {1}일차
+navy.term.order_empty_full,미완료 군수 주문이 없습니다. (다음 방문: {0}일차)
+navy.term.out_detail,「{0}」 작전 중입니다. {1}일차에 귀환합니다.
+navy.term.rank_fleet,Lv.{0} · 함대 단계
+navy.term.rank_how,군수 주문을 납품하거나 같은 단계의 항로를 완료하면 진행도 +1. 가게를 매입하면 Lv.6에 도달합니다.
+navy.term.rank_max,Lv.{0} 상한 (가게 매입 시 Lv.6)
+navy.term.rank_prog,다음 Lv.{0}: {1} / {2}
+navy.term.readiness_pill,대비도: {0} (월요일 +{1} 크레딧)
+navy.term.rec_done,납품 {0}건 · 수입 {1} 크레딧
+navy.term.rec_loot,회수품 총 가치 약 {0} 크레딧
+navy.term.rec_next,다음 방문: {0}일차
+navy.term.recruit_sub,일반 대원은 고용비가 낮아 초반 원정에 적합합니다. 전문가는 회수품을 추가로 수색합니다. 정예 용병은 비싸지만 고위험 잔해와 무기고 공략에 강합니다.
+navy.term.recruit_title,대원 및 용병 모집 (크레딧: {0})
+navy.term.restock_none,이미 보급을 마쳤거나 가게에 맞는 보급품이 없습니다.
+navy.term.restock_ok,"창고에서 보급 완료: 탄약 +{0}, 의료품 +{1}, 식량 +{2}."
+navy.term.route_meta,{0}박 · 위험도 {1}
+navy.term.route_meta_rec,권장 {0}명 · {1}박 · 탄약 {2} · 위험 {3}
+navy.term.route_pick_head,선택 대원: {0} (화물칸 여유 약 {1}칸)
+navy.term.squad_pick_head,선택 분대 ({0}/{1}명): {2}  |  화물칸 여유 총 {3}칸
+navy.term.squad_pick_hint,"아래의 대기 중인 대원을 눌러 분대에 넣거나 빼세요. 분대는 1~{0}명으로 편성하며, 2~3명이면 협동 보너스를 받습니다. 고위험 구역은 혼자서 성공하기 어렵습니다."
+navy.term.squad_sub,"자체 분대는 1~3명으로 편성합니다. 해군 계약업자는 자체 분대 2개와 용병단 1개, 외주 허가증 사용자는 분대 1개까지 동시에 파견할 수 있습니다."
+navy.term.squad_title,소속 대원: {0}명  ·  파견 분대 {1} / {2}
+navy.term.st_ammo,탄약
+navy.term.st_cargo,빈 화물칸
+navy.term.st_def,방어력
+navy.term.st_endure,지속력
+navy.term.st_fp,화력
+navy.term.st_hp,체력
+navy.term.st_med,의료품
+navy.term.st_tool,도구
+navy.term.tier_common,일반 대원
+navy.term.tier_common_sec,일반 대원 · 저가
+navy.term.tier_merc,정예 용병
+navy.term.tier_merc_sec,정예 용병 · 중무장
+navy.term.tier_spec,전문가
+navy.term.tier_spec_sec,전문가 · 중가
+navy.term.tier_starter,베테랑
+navy.term.unit_beacon,{0}개
+navy.term.unit_intel,{0}건
+navy.term.unload_empty,장비함에 내릴 회수품이 없습니다.
+navy.term.unload_ok,회수품 {0}개를 가게 창고로 옮겼습니다.
+navy.term.unload_partial,회수품 {0}개를 창고로 옮겼습니다. 창고가 가득 차 장비함에 {1}개가 남았습니다.
+navy.term.wage_free,수당 없음
+navy.term.wage_tag,수당 {0}
+navy.term.win_bar,예상 성공률 {0}%
+navy.term.win_bar_power,예상 성공률 {0}% (전력 {1} / 위험 {2})
+navy.ui.btn_back,뒤로
+navy.ui.btn_bribe,"장부를 조작한다(-{0} 크레딧, 의심도 -{1})"
+navy.ui.btn_call_rebel,혁명군 연락책에 연락
+navy.ui.btn_defect,허가증을 태우고 전향
+navy.ui.btn_dispatch,작전 구역으로 파견
+navy.ui.btn_gear,장비함 열기
+navy.ui.btn_go,‘{0}’(으)로 파견({1}%)
+navy.ui.btn_heal,치료(체력 +{0})
+navy.ui.btn_log,최근 보고서
+navy.ui.btn_refresh,장비 구성 새로고침
+navy.ui.exempt_off,면제 없음(장비함의 밀수품도 일반 검사 대상)
+navy.ui.exempt_on,허가증으로 검사 면제(장비함의 무기·탄약은 경찰 검사 제외)
+navy.ui.gear_summary,장비 구성: 화력 {0} | 방어 {1} | 의료 {2} | 지구력 {3} | 빈 적재 공간 약 {4}칸
+navy.ui.log_title,{0} — 최근 원정 보고서
+navy.ui.member_card,{0} — {1}\n체력: {2}/{3} | 상태: {4}
+navy.ui.next_official,레이스의 다음 방문: {0}일차.
+navy.ui.next_rebel,혁명군 연락책의 다음 방문: {0}일차.
+navy.ui.no_cash,크레딧이 부족합니다.
+navy.ui.no_rebel_orders,진행 중인 지하 조직 전시 주문이 없습니다.
+navy.ui.pick_head,{0}의 작전 구역을 선택하세요(빈 적재 공간 약 {1}칸. 더 큰 배낭을 챙기면 회수품을 더 담을 수 있습니다.)
+navy.ui.rebel_header,지하 조직 등급 {0}(납품 {1}건) | 전투 대비도: {2}(해군에서 전향)
+navy.ui.route_line,{0} {1} | 밤 {2}회 | 위험도 {3} | 예상 성공률 {4}%\n{5}
+navy.ui.route_susp_warn,"잠입 경고: 의심도 +{0}, 전투 대비도 +{1}."
+navy.ui.squad_head,파견 중인 분대: {0}/{1} | 장비함 상태: {2}
+navy.ui.st_injured,부상(체력 50 초과 또는 치료 필요)
+navy.ui.st_out,"원정 중({0}, {1}일차 복귀)"
+navy.ui.st_ready,대기 중
+navy.ui.st_returned,복귀 완료(오늘 회수품 장비함을 카운터에 가져옴)
+navy.ui.suspicion_line,"레이스의 의심도: {0}/{1}(55 이상 감사, 100이면 강제 결별) | 전투 대비도: {2}"
+navy.ui.tab_expedition,원정
+navy.ui.tab_orders,허가증 및 주문
+navy.ui.tag_beacon,[비컨]
+navy.ui.tag_official,[공식]
+navy.ui.tag_rebel,[전복]
+navy.ui.title_outsource,하청 원정 본부
+navy.ui.title_rebel,지하 조직 전투 대비 본부
+navy.ui.totals,주문 수입: {0} 크레딧 | 원정: {1}회(회수품 추정가 {2}) | 정보: {3}
+navy.ui.warn_no_ammo,경고: 탄약이 없는 총기는 작동하지 않습니다(화력 +0). 먼저 탄약을 보충하세요.
+navy.ui.warn_no_bag,도움말: 배낭이 없으면 빈 보급품 칸에 들어가는 물건만 회수할 수 있습니다.
+navy.vault.desc,군수품 보관함입니다. 물품을 꺼내세요. 비우면 수거됩니다.
+navy.vault.name,초과학 보관함
+navy.vault.panel,회수품
+ngoods.regen_done,재생 혈청이 작용해 모든 부상이 완전히 나았습니다!
+reg.helios.ask,"참, 며칠 뒤 저택에서 만찬이 열려요. 다음번까지 {0} 하나를 남겨 주실 수 있을까요?"
+reg.helios.remind,"아가씨께서 부탁하신 {0}, 따로 챙겨 두셨나요?"
+retire_end_prof_navy_rebel,"당신은 공화국 해군 허가증을 불태웠습니다. 하지만 그 허가증으로 확보한 항로, 장비함, 타격대를 써서 지하 조직 전체를 무장시켰습니다. 그날 밤 하층 구역에서 들어 올린 소총의 절반이 당신의 계산대 뒤에서 나왔습니다."
+service_kai_upper_fixer,카이의 상층 구역 해결사
+ul_event_cosmetic_all_quiet_desc,오늘 상층 구역은 이례적으로 평온합니다. 치안이나 거래에 큰 문제가 있었다는 신고는 없었습니다. 시장은 안정세를 유지하고 일상은 평소처럼 이어집니다.
+ul_event_cosmetic_all_quiet_news,평온한 상층 구역
+ul_event_cosmetic_artist_showcase_desc,상층 구역의 화랑 거리에서 현대미술 살롱이 열렸습니다. 사교계 인사와 수집가들이 새로 의뢰받아 제작한 작품을 보러 모였습니다.
+ul_event_cosmetic_garden_desc,도시계획 당국이 상층 구역의 공공 공중 온실을 확장하고 관상용 식물을 새로 들였습니다. 이번 확장이 식품 가격에 영향을 줄 가능성은 낮습니다.
+ul_event_cosmetic_garden_news,상층 구역 공중 정원 확장
+ul_event_cosmetic_nutrifruit_desc,상층 구역의 농업 기술 연구소가 차세대 온실 수경재배 모듈을 공개했습니다. 새 모듈은 더 달콤한 고급 과일을 생산할 것으로 기대됩니다.
+ul_event_cosmetic_peat_desc,소비자 보고서가 상층 구역 전역에 팔리는 수제 고급 통조림 몇 종의 실제 고기 함량에 의문을 제기하면서 주민들 사이에 화제가 되고 있습니다.
+ul_event_cosmetic_spacewalk_desc,정거장 기술자들의 정기 선외 활동 훈련이 무사히 끝났습니다. 다만 상층 구역 전망 라운지의 술 취한 손님이 작업 중인 기술자를 외계인으로 착각해 경찰에 신고했다고 합니다.
+ul_event_evidence_locker_desc,"정거장 중앙 증거물 보관소에 대담한 침입 사건이 일어나 경찰에 비상이 걸렸습니다. 압수한 고가 밀수품 한 상자가 사라졌으며, 경찰은 상층 구역 상인들에게 수상한 물건을 주의하라고 경고했습니다."
+ul_event_normal_bad_harvest_desc,상층 구역에 식품을 공급하는 수경재배 온실 여러 곳에서 온도 조절 장치가 고장 나 이번 철 수확량이 줄었습니다. 신선 식품 공급이 빠듯해지고 식품 가격이 오를 전망입니다.
+ul_event_normal_construction_desc,"상층 구역 곳곳에서 상업 시설 개보수와 고급 인테리어 공사가 시작됐습니다. 고급 자재와 전자 제품, 각종 부품이 부족해지고 있습니다."
+ul_event_normal_cruise_ship_desc,호화 우주 여객선이 상층 구역 부두에 정박하면서 씀씀이가 큰 관광객들이 산책로에 몰려들었습니다. 상층 구역 경찰은 상인들에게 영업 질서를 지켜 달라고 당부했습니다.
+ul_event_normal_meteor_shower_desc,어젯밤 미소 유성우가 정거장 외부 장갑판을 스쳐 상층 구역의 돔과 외곽 고리 시설이 긴급 보수에 들어갔습니다. 재료 가격이 오를 전망입니다.
+ul_event_normal_mob_justice_desc,"극심한 상업 분쟁이 상층 구역 외곽 산책로에서 폭력 사태로 번졌습니다. 주민과 상인들이 호신 장비를 사들이면서 무기, 탄약, 방어구 수요가 늘고 있습니다."
+ul_event_normal_mob_justice_display,산책로 치안 불안
+ul_event_normal_mob_justice_news,외곽 산책로에서 소요 사태 발생!
+ul_event_normal_power_maintenance_desc,상층 구역의 주요 변전소가 정기 점검에 들어갔습니다. 상점과 주택에 일시적인 전력 변동이 있을 수 있다는 통보가 내려지면서 에너지 셀 가격이 오르고 있습니다.
+ul_event_normal_power_shortage_desc,주 배전 시설이 고장 나 상층 구역의 여러 상점가가 예비 전력으로 전환했습니다. 복구 작업이 진행되는 동안 에너지 셀 수요가 급증할 전망입니다.
+ul_event_normal_power_shortage_news,상층 구역 전력 공급 비상
+ul_event_normal_storeroom_desc,상층 구역에서 유산을 정리하던 중 포장도 뜯지 않은 생활용품으로 가득한 밀봉 창고 두 곳이 발견됐습니다. 쌓여 있던 물량이 주변 상점에 풀리면서 오늘 생활용품 가격은 소폭 내릴 전망입니다.
+ul_event_op_food_drive_desc,신선 농산물과 정수된 물을 실은 보급 바지선 여러 척이 상층 구역 화물 부두에 들어왔습니다. 시장 재고가 넉넉해진 덕분에 식품과 물 가격이 내릴 전망입니다.
+ul_event_op_food_drive_display,신선 식품 대량 보급
+ul_event_op_food_drive_news,신선 식품 보급 선단 도착!
+ul_event_op_gang_war_desc,라이벌 밀수 조직들이 상층 구역 화물 부두 인근에서 충돌해 수십 명이 다쳤습니다. 의료품 수요가 늘어날 전망입니다.
+ul_event_op_gang_war_display,외곽 고리 세력 다툼
+ul_event_op_gang_war_news,외곽 고리 회색 시장에서 총격전!
+ul_event_op_household_relief_desc,상층 구역의 대형 백화점과 주택 단지가 공동으로 철 지난 재고를 정리하면서 할인 생활용품이 주변 상점에 쏟아지고 있습니다. 생활용품 가격이 큰 폭으로 떨어질 전망입니다.
+ul_event_op_household_relief_display,생활용품 재고 정리
+ul_event_op_household_relief_news,상층 구역 생활용품 재고 정리!
+ul_event_op_martial_law_desc,최근 일련의 사건으로 상층 구역의 외곽 고리와 교통 관문에 임시 계엄령이 내려졌습니다. 통행금지와 검문소 운영으로 지하 거래가 위축되고 있습니다.
+ul_event_op_medical_aid_desc,상층 구역의 개인 병원과 의약품 중개상들이 분기 공동 재고 보충을 마쳤습니다. 의약품과 간호용품이 넉넉해져 의료품과 식품 가격이 내려갈 전망입니다.
+ul_event_op_medical_aid_display,의료품 재고 보충
+ul_event_op_medical_aid_news,개인 병원 의료품 재고 보충 완료!
+ul_event_op_mob_secret_desc,상층 구역 곳곳에서 신원을 밝히지 않는 구매자들의 무기 수요가 은밀히 늘고 있다는 소문이 돕니다.
+ul_event_op_mobilization_desc,"첩보에 따르면 혁명군 조직들이 대규모 타격을 준비하며 상층 구역 외곽 고리에서 조용히 병력을 모으고 있습니다. 무기, 의료품, 방어구 가격이 급등할 전망입니다."
+ul_event_op_patrols_desc,상층 구역 경찰이 순찰 범위를 넓히고 순환 상업로 곳곳에 검문소를 늘렸습니다. 혁명군 조직과 암시장 거래가 일시적으로 위축됐습니다.
+ul_event_op_raid_sec_desc,혁명군 공작원들이 외곽 고리의 상층 구역 경찰 초소를 기습했습니다. 양측에서 사상자가 나면서 의료품 수요가 늘었습니다.
+ul_event_op_raid_upper_desc,혁명군이 상층 구역 외곽 창고를 습격해 약탈한 생활용품을 주변 회색 시장에 헐값으로 넘기고 있습니다. 생활용품 가격이 내릴 전망입니다.
+ul_event_op_riot_desc,최근 긴장이 고조된 가운데 상층 구역 외곽 고리의 시위가 폭력 사태로 번졌습니다. 상점이 파손되고 보안 초소까지 공격받으면서 식품과 무기 수요가 급증했습니다.
+ul_event_op_riot_display,외곽 고리 소요 사태
+ul_event_op_weapon_shipment_desc,대량의 밀수 무기가 경찰 검사를 피해 상층 구역 회색 시장에 풀렸습니다. 무기 공급이 늘고 가격은 내릴 전망입니다.
+ul_event_op_worker_strike_desc,상층 구역에 물자를 공급하는 물류 및 화물 노동자들이 파업에 돌입해 구역 전역의 식품과 물 배송에 차질이 빚어지고 있습니다.
+ul_kai_launder_desc,카이의 회계 담당자들이 불법 거래 기록을 덮어 줍니다. 비용은 기본 {0} 크레딧에 현재 총 범죄 금액의 {1}%를 더한 액수입니다. 범죄 항목별 금액을 즉시 {2}%씩 지우고 수사 진행도를 절반으로 낮춥니다. 재사용 대기 시간: {3}일.\n현재 범죄 금액: {4}(세탁 후 약 {5}) · 수사 진행도: {6}/100
+ul_kai_launder_desc_clean,카이의 회계 담당자들이 불법 거래 기록을 덮어 줍니다. 비용은 기본 {0} 크레딧에 현재 총 범죄 금액의 {1}%를 더한 액수입니다. 범죄 항목별 금액을 즉시 {2}%씩 지우고 수사 진행도를 절반으로 낮춥니다. 재사용 대기 시간: {3}일.\n현재 장부는 깨끗합니다(범죄 금액 0 · 수사 진행도 0/100). 세탁할 필요가 없습니다.
+ul_kai_launder_title,카이의 비밀 장부 세탁
+ul_kai_navy_route_desc,카이가 해군 하청 위장 회사를 통해 자리를 마련해 줍니다. 외주 원정 허가증과 첫 대원인 베테랑 한 명을 받고 일반 대원을 더 고용할 수 있습니다. 초급 인양 및 밀수 항로에는 한 번에 최대 1개 분대만 보낼 수 있습니다.
+ul_kai_navy_route_title,외주 원정 허가증
+ul_kai_upper_fixer_desc,야간 해결사를 카이의 상층 구역 팀으로 교체합니다. 매일 밤 범죄 항목별 금액이 {0}% + {1}만큼 줄어 상층 구역의 고가 밀수품 수사 위험을 억제할 수 있습니다. 야간 비용은 기본 {2} 크레딧에 그날 밤 지운 범죄 금액의 {3}%를 더해 계산합니다.
+ul_kai_upper_fixer_title,카이의 상층 구역 해결사
