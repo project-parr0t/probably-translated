@@ -87,8 +87,8 @@ namespace ProbablyStolenKo
 
     internal sealed class ManagedLiteralCatalog
     {
-        private const string ExpectedFingerprint = "e15381c75ee225570415a0cc5c199b8f0bde38e426636b65ffd50544d6e3bdbc";
-        private const int ExpectedEntries = 27475;
+        private const string ExpectedFingerprint = "faa235d055532abb6e0281f30877c88746eb75d745b4e99eddd59194196303be";
+        private const int ExpectedEntries = 27666;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)
             {
@@ -199,7 +199,7 @@ namespace ProbablyStolenKo
                     var sourceEntries = route?["entries"] as JObject;
                     if (string.IsNullOrWhiteSpace(typeName) || string.IsNullOrWhiteSpace(methodName) ||
                         (mode != "literal" && mode != "literal_occurrence" && mode != "field_store" &&
-                         mode != "result_string" && mode != "result_string_ko" && mode != "result_string_array" &&
+                         mode != "result_string" && mode != "result_string_ko" && mode != "result_string_array" && mode != "static_string_element_ko" &&
                          mode != "result_by_argument" && mode != "result_by_arguments" && mode != "format_by_key") ||
                         (mode == "field_store" && (string.IsNullOrWhiteSpace(fieldType) || string.IsNullOrWhiteSpace(fieldName))) ||
                         argumentIndex < 0 || sourceEntries == null)
@@ -791,6 +791,32 @@ namespace ProbablyStolenKo
             if (matches != 1)
                 throw new InvalidOperationException("Expected exactly one reviewed field store, found " + matches + ".");
             return output;
+        }
+
+        internal static IEnumerable<CodeInstruction> TranspileStaticStringElementsBinding(
+            IEnumerable<CodeInstruction> instructions, int bindingId)
+        {
+            // Translate before concatenation without touching shared static arrays or their initializers.
+            var translate = new HarmonyMethod(typeof(ManagedLiteralOverlay), nameof(TranslateStaticStringElement)).method;
+            var source = new List<CodeInstruction>(instructions);
+            var matches = 0;
+            for (var i = 0; i < source.Count; i++)
+            {
+                yield return source[i];
+                if (i < 2 || source[i].opcode != OpCodes.Ldelem_Ref ||
+                    source[i - 2].opcode != OpCodes.Ldsfld ||
+                    !(source[i - 2].operand is FieldInfo field) || field.FieldType != typeof(string[])) continue;
+                yield return new CodeInstruction(OpCodes.Ldc_I4, bindingId);
+                yield return new CodeInstruction(OpCodes.Call, translate);
+                matches++;
+            }
+            if (matches == 0) throw new InvalidOperationException("Expected a reviewed static string array element load.");
+        }
+
+        private static string TranslateStaticStringElement(string source, int bindingId)
+        {
+            PostfixStringBinding(ref source, bindingId, koreanOnly: true);
+            return source;
         }
 
         internal static string TranslateFieldStoreValue(string source, int bindingId)

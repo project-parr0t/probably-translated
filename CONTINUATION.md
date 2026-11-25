@@ -76,6 +76,8 @@ The 1.0.47 release candidate passes the Workshop coverage and managed source gua
 
 Smart Inventory Arrange 3.17.72 moves 24 F6 settings callbacks from `<Initialize>b__76_*` to `<Initialize>b__84_*`; their original English and Chinese operands are unchanged. The current catalog and regenerated bindings also cover the tab-name option, release notice, and named routing feedback. The tab-matching vocabulary is not modified. The offline queue applied all 113 consolidated bindings with no skips and exercised the new routing output against the installed DLL.
 
+The Agri Expansion 2.0.11 book review adds the three missing crop bodies and translates farm chapters before the game paginates them, using the same glossary in the quick guides. Cookbook reviews match both native language results, including their exact dash punctuation. The perfume recipe builder translates its names and effect summaries after reading the selected array element, before adding prices and aroma levels; it leaves the source arrays and other locales intact. The offline game-Mono probe passed all four paths against the installed Agri DLL (89 exact bindings applied, none skipped). It does not cover Unity page layout or registry refresh.
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.
