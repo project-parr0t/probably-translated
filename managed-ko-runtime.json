@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "inventory_fingerprint": "96fece2598b918dd6856918247105cf7514b20d7474d9d7b3688c39dec2bf9ac",
-  "entry_count": 27435,
+  "inventory_fingerprint": "e15381c75ee225570415a0cc5c199b8f0bde38e426636b65ffd50544d6e3bdbc",
+  "entry_count": 27475,
   "targets": {
     "chiqingsan.AquaSense": {
       "workshop_item_id": "3828878417",
@@ -98,7 +98,7 @@
     "smart_inventory_arrange": {
       "workshop_item_id": "3829206666",
       "assembly_name": "SmartInventoryArrange.Mono",
-      "entry_count": 317,
+      "entry_count": 357,
       "manifest": {
         "name": "Smart Inventory Arrange",
         "description": "보관 시설과 컨테이너 아이콘, 다른 탭에 아이템을 놓을 때 공간을 자동으로 확보할 수 있는 스마트 인벤토리 정리 모드입니다. F6 키로 설정을 엽니다."
@@ -484,9 +484,9 @@
           "mode": "result_string_ko",
           "argument_index": 0,
           "entries": {
-            "New: Choose storage tabs by contents.\nDrop items onto a storage unit or container icon to prefer tabs with the same item, then similar categories. If none can take the items, the game places them as usual. Existing items are not moved. Toggle it in F6 → Automatic features.": "새 기능: 내용물에 맞춰 보관 탭 선택\n아이템을 보관 시설이나 컨테이너 아이콘에 놓으면 같은 아이템이 있는 탭을 우선하고, 그다음 비슷한 범주의 아이템이 있는 탭을 선택합니다. 들어가는 탭이 없으면 기본 배치 규칙을 따릅니다. 이미 보관된 아이템은 옮기지 않습니다. F6 → 자동 기능에서 켜거나 끌 수 있습니다.",
-            "新功能：放入仓库时按内容选页。\n拖到仓库或容器图标上时，优先放进已有同种物品的页，其次放进品类相近的页；都放不下就按原版规则放，不会挪动已有物品。可在 F6 → 自动功能 中开启或关闭。": "새 기능: 내용물에 맞춰 보관 탭 선택\n아이템을 보관 시설이나 컨테이너 아이콘에 놓으면 같은 아이템이 있는 탭을 우선하고, 그다음 비슷한 범주의 아이템이 있는 탭을 선택합니다. 들어가는 탭이 없으면 기본 배치 규칙을 따릅니다. 이미 보관된 아이템은 옮기지 않습니다. F6 → 자동 기능에서 켜거나 끌 수 있습니다.",
-            "Новое: выбор вкладки по содержимому.\nПри перетаскивании на хранилище или значок контейнера сначала выбираются вкладки с такими же предметами, затем — с похожими категориями. Если ни одна не подходит, действуют правила игры. Предметы на вкладках не перемещаются. Переключатель находится в F6 → Автоматические функции.": "새 기능: 내용물에 맞춰 보관 탭 선택\n아이템을 보관 시설이나 컨테이너 아이콘에 놓으면 같은 아이템이 있는 탭을 우선하고, 그다음 비슷한 범주의 아이템이 있는 탭을 선택합니다. 들어가는 탭이 없으면 기본 배치 규칙을 따릅니다. 이미 보관된 아이템은 옮기지 않습니다. F6 → 자동 기능에서 켜거나 끌 수 있습니다."
+            "New: Use tab names when dropping items into storage\nName a tab “Food” or “Ammo” and matching items will try that tab first. Off by default. Enable “Use tab names” under F6 → Automatic features → “Choose storage tabs by contents”.\nThis feature is new, and some names may not be recognized correctly. If an item lands on the wrong tab, please tell me the tab name and item name!": "새 기능: 보관 시설에 넣을 때 탭 이름 참고\n탭 이름을 “Food”나 “Ammo”로 지정하면 해당 분류의 아이템을 넣을 때 그 탭을 먼저 시도합니다. 기본값은 끔입니다. F6 → 자동 기능 → 내용물에 맞춰 보관 탭 선택에서 “탭 이름 참고”를 켤 수 있습니다.\n일부 탭 이름은 아직 정확히 인식되지 않을 수 있습니다. 아이템이 잘못된 탭에 들어가면 탭 이름과 아이템 이름을 알려 주세요.",
+            "新功能：放入仓库时可参考标签页名字\n把页命名为「食物」或「弹药」，拖入对应物品时就会优先尝试放进那一页。默认关闭，可在 F6 → 自动功能 →「放入仓库时按内容选页」下开启「参考标签页名字」。\n功能刚上线，个别页名可能识别不准。遇到放错页，欢迎留言告诉我页名和物品名！": "새 기능: 보관 시설에 넣을 때 탭 이름 참고\n탭 이름을 “Food”나 “Ammo”로 지정하면 해당 분류의 아이템을 넣을 때 그 탭을 먼저 시도합니다. 기본값은 끔입니다. F6 → 자동 기능 → 내용물에 맞춰 보관 탭 선택에서 “탭 이름 참고”를 켤 수 있습니다.\n일부 탭 이름은 아직 정확히 인식되지 않을 수 있습니다. 아이템이 잘못된 탭에 들어가면 탭 이름과 아이템 이름을 알려 주세요.",
+            "Новое: выбор вкладки по её названию\nНазовите вкладку «Еда» или «Боеприпасы», и игра сначала попробует поместить подходящие предметы туда. По умолчанию выключено: F6 → Автоматические функции → «Выбирать вкладку по содержимому» → «Учитывать названия вкладок».\nФункция только появилась, и некоторые названия могут распознаваться неточно. Если предмет попал не туда, напишите название вкладки и предмета!": "새 기능: 보관 시설에 넣을 때 탭 이름 참고\n탭 이름을 “Food”나 “Ammo”로 지정하면 해당 분류의 아이템을 넣을 때 그 탭을 먼저 시도합니다. 기본값은 끔입니다. F6 → 자동 기능 → 내용물에 맞춰 보관 탭 선택에서 “탭 이름 참고”를 켤 수 있습니다.\n일부 탭 이름은 아직 정확히 인식되지 않을 수 있습니다. 아이템이 잘못된 탭에 들어가면 탭 이름과 아이템 이름을 알려 주세요."
           }
         },
         {
@@ -682,7 +682,7 @@
         },
         {
           "type": "SmartInventoryArrange.SettingsRuntime+<>c",
-          "method": "<Initialize>b__76_2",
+          "method": "<Initialize>b__84_2",
           "mode": "literal",
           "argument_index": 0,
           "entries": {
@@ -692,7 +692,7 @@
         },
         {
           "type": "SmartInventoryArrange.SettingsRuntime+<>c",
-          "method": "<Initialize>b__76_3",
+          "method": "<Initialize>b__84_3",
           "mode": "literal",
           "argument_index": 0,
           "entries": {
@@ -702,7 +702,7 @@
         },
         {
           "type": "SmartInventoryArrange.SettingsRuntime+<>c",
-          "method": "<Initialize>b__76_5",
+          "method": "<Initialize>b__84_5",
           "mode": "literal",
           "argument_index": 0,
           "entries": {
@@ -712,7 +712,7 @@
         },
         {
           "type": "SmartInventoryArrange.SettingsRuntime+<>c",
-          "method": "<Initialize>b__76_6",
+          "method": "<Initialize>b__84_6",
           "mode": "literal",
           "argument_index": 0,
           "entries": {
@@ -722,7 +722,7 @@
         },
         {
           "type": "SmartInventoryArrange.SettingsRuntime+<>c",
-          "method": "<Initialize>b__76_14",
+          "method": "<Initialize>b__84_14",
           "mode": "literal",
           "argument_index": 0,
           "entries": {
@@ -732,7 +732,7 @@
         },
         {
           "type": "SmartInventoryArrange.SettingsRuntime+<>c",
-          "method": "<Initialize>b__76_22",
+          "method": "<Initialize>b__84_22",
           "mode": "literal",
           "argument_index": 0,
           "entries": {
@@ -890,12 +890,92 @@
           "entries": {
             "Did you know?\nPress {0} to open this mod's settings.\nBesides Smart Arrange in the right-click menu, you can bind shortcuts for one-key arranging and undo, keep items in their vanilla orientation, and use Keep-in-Place Arrange.\nThis tip appears only once.": "알고 계셨나요?\n{0} 키를 눌러 이 모드의 설정을 여세요.\n우클릭 메뉴의 스마트 정리 외에도, 한 번의 키 입력으로 정리와 실행 취소를 할 단축키를 지정하고, 아이템을 바닐라 방향으로 유지하거나 제자리 정리를 사용할 수 있습니다.\n이 팁은 한 번만 표시됩니다."
           }
+        },
+        {
+          "type": "SmartInventoryArrange.SettingsRuntime",
+          "method": "get_ReferenceTabNamesCaption",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Use tab names": "탭 이름 참고",
+            "参考标签页名字": "탭 이름 참고",
+            "Учитывать названия вкладок": "탭 이름 참고"
+          }
+        },
+        {
+          "type": "SmartInventoryArrange.SettingsRuntime",
+          "method": "get_ReferenceTabNamesHint",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "Use tab names as a guide: for example, food goes to a tab named “Food” first.": "예를 들어 탭 이름이 “Food”이면 식품을 넣을 때 그 탭을 우선합니다.",
+            "会参考标签页名字，例如命名为“食物”的页会优先放食物。": "예를 들어 탭 이름이 “Food”이면 식품을 넣을 때 그 탭을 우선합니다.",
+            "Названия вкладок учитываются: например, во вкладку «Еда» в первую очередь попадёт еда.": "예를 들어 탭 이름이 “Food”이면 식품을 넣을 때 그 탭을 우선합니다."
+          }
+        },
+        {
+          "type": "SmartInventoryArrange.SmartInsertFeedback",
+          "method": "NamedRoutedSuccess",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "已放入": "",
+            "、": ", ",
+            "。": "에 넣었습니다.",
+            "其余物品留在原处。": " 나머지 아이템은 원래 위치에 남았습니다.",
+            "Placed on ": "",
+            "; ": ", ",
+            ".": "에 넣었습니다.",
+            " The rest remain at the source.": " 나머지 아이템은 원래 위치에 남았습니다.",
+            "Помещено: ": "",
+            " Остальные предметы остались на месте.": " 나머지 아이템은 원래 위치에 남았습니다."
+          }
+        },
+        {
+          "type": "SmartInventoryArrange.SmartInsertFeedback+<>c__DisplayClass28_0",
+          "method": "<NamedRoutedSuccess>g__Line|2",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "第 {0} 页（": "{0}번 탭 (",
+            "已有同种物品": "같은 아이템 있음",
+            "标签页名字「": "탭 이름 “",
+            "」": "”",
+            "品类相近": "비슷한 범주",
+            "兜底页": "대체 탭",
+            "原版规则": "기본 배치 규칙",
+            "）": ")",
+            "page {0} (": "{0}번 탭 (",
+            "same item already there": "같은 아이템 있음",
+            "tab name “": "탭 이름 “",
+            "similar categories": "비슷한 범주",
+            "fallback tab": "대체 탭",
+            "game rules": "기본 배치 규칙",
+            "вкладка {0} (": "{0}번 탭 (",
+            "такие же предметы": "같은 아이템 있음",
+            "название «": "탭 이름 “",
+            "»": "”",
+            "похожие категории": "비슷한 범주",
+            "запасная вкладка": "대체 탭",
+            "правила игры": "기본 배치 규칙"
+          }
+        },
+        {
+          "type": "SmartInventoryArrange.SmartInsertStatusGui",
+          "method": "SelectText",
+          "mode": "literal",
+          "argument_index": 0,
+          "entries": {
+            "选页 · ": "보관 탭 선택 · ",
+            "Storage tabs · ": "보관 탭 선택 · ",
+            "Выбор вкладки · ": "보관 탭 선택 · "
+          }
         }
       ],
       "refresh": [],
       "source_identity": {
         "assembly_relative_path": "SmartInventoryArrange.Mono.dll",
-        "assembly_sha256": "9b9774622660937e359623aa0e584dcea820f0895bfe2bbce8023a920f54d053"
+        "assembly_sha256": "1b3c01dc9084f8ebd28f8a254a82a8de240290d9c38aed97e8dd47c60b98d9e0"
       }
     },
     "Pen_mod_pipette": {

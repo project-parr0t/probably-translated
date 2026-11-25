@@ -74,6 +74,8 @@ CS Weapon Expansion 0.5.53 supplies native Korean for its new visitor speech and
 
 The 1.0.47 release candidate passes the Workshop coverage and managed source guards (36 installed records, two optional absences). Generated bindings resolve 1,281 routes into 499 bindings with no unsupported routes. The isolated Harmony smoke exercises the current CS Weapon Expansion case-preview error and market filters, the Claims & Uprisings `SoldierIdentity` overload, and both updated runtime catalogs.
 
+Smart Inventory Arrange 3.17.72 moves 24 F6 settings callbacks from `<Initialize>b__76_*` to `<Initialize>b__84_*`; their original English and Chinese operands are unchanged. The current catalog and regenerated bindings also cover the tab-name option, release notice, and named routing feedback. The tab-matching vocabulary is not modified. The offline queue applied all 113 consolidated bindings with no skips and exercised the new routing output against the installed DLL.
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.
@@ -179,6 +181,10 @@ The labeler and its item tooltip re-read only cached `Mechanic` translation erro
 ### Better Water Trading composition recovery
 
 When AquaSense builds its existing composition rows, re-read the current `Mechanic` entry only for cached `Translation Error 'liquid_…' in Mechanic` strings. Valid names and unresolved errors pass through unchanged. The fix does not add rows, change their quantities, or write to the shared liquid cache. It runs even with the Cro pack enabled and uses the result of the game's lookup, including any translation supplied there by Cro.
+
+### Module effect tooltip recovery
+
+The first item tooltip with a module effect installs a Harmony patch on the game's shared effect tooltip. Deferring the patch avoids running the effect cache initializer during mod startup. Only cached `mech_module_effect_…` errors from `Mechanic` are looked up again; successful results use the current game table and the stock 0.46D format arguments. Normal text and unresolved errors pass through, and the shared cache and effect mechanics remain unchanged. Recheck the description arguments against the stock initializer when updating the target game version.
 
 ### Workshop text and hologram layout
 

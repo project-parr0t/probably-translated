@@ -21,7 +21,7 @@ Probably Translated는 parr0t AI 번역 프레임워크를 통해 [Probably Stol
 다음 모드들을 지원합니다:
 - [Better Water Trading](https://steamcommunity.com/sharedfiles/filedetails/?id=3828878417) — v1.13.2
 - [GoFishing](https://steamcommunity.com/sharedfiles/filedetails/?id=3829110153) — v2.6.0
-- [Smart Inventory Arrange](https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666) — v3.17.70
+- [Smart Inventory Arrange](https://steamcommunity.com/sharedfiles/filedetails/?id=3829206666) — v3.17.72
 - [Pen's Pipette](https://steamcommunity.com/sharedfiles/filedetails/?id=3829409725) — v1.2.0
 - [Duoji's Hotkey Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=3829508405) — v1.2.3
 - [Brewing Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3829730904) — v3.6.8.7

@@ -29,6 +29,7 @@ namespace ProbablyStolenKo
         private SpaceCoffeeSceneOverlay _spaceCoffeeSceneOverlay;
         private ClaimsLanguageOverlay _claimsLanguageOverlay;
         private LabelerTextOverlay _labelerTextOverlay;
+        private ModuleEffectTextOverlay _moduleEffectTextOverlay;
         private readonly HologramPreferenceLayout _hologramPreferenceLayout = new HologramPreferenceLayout();
         private readonly PerksFriendlyTalkOverlay _perksFriendlyTalkOverlay = new PerksFriendlyTalkOverlay();
         private readonly KitchenLanguageOverlay _kitchenLanguageOverlay = new KitchenLanguageOverlay();
@@ -50,6 +51,7 @@ namespace ProbablyStolenKo
             _va11RecipeOverlay = new Va11RecipeOverlay(_manifest);
             _spaceCoffeeSceneOverlay = new SpaceCoffeeSceneOverlay(_manifest);
             _claimsLanguageOverlay = new ClaimsLanguageOverlay(_log);
+            _moduleEffectTextOverlay = new ModuleEffectTextOverlay(_log);
         }
 
         public void OnEnable()
@@ -66,6 +68,7 @@ namespace ProbablyStolenKo
                 _log.Error("Labeler text overlay failed: " + error.Message);
                 RestoreLabelerText();
             }
+            _moduleEffectTextOverlay.Apply();
             _patchLoadingOverlay = ManagedPatchLoadingOverlay.Create(_managedOverlay, _manifest.ID, _log);
             if (!_assetsSubscribed)
             {
@@ -295,6 +298,8 @@ namespace ProbablyStolenKo
             _activated = false;
             _enabled = false;
             RestoreLabelerText();
+            try { _moduleEffectTextOverlay.Restore(); }
+            catch (Exception error) { _log.Error("Module effect text overlay removal failed: " + error.Message); }
             if (_assetsSubscribed)
             {
                 ModHook.OnModAssetsLoaded -= OnModAssetsLoaded;

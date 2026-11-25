@@ -29,10 +29,10 @@ namespace ProbablyStolenKo
 
     internal static class GeneratedManagedBindings
     {
-        internal const string InventoryFingerprint = "96fece2598b918dd6856918247105cf7514b20d7474d9d7b3688c39dec2bf9ac";
-        internal const int RouteCount = 1281;
-        internal const int BindingCount = 499;
-        internal const int StaticPatchBindingCount = 499;
+        internal const string InventoryFingerprint = "e15381c75ee225570415a0cc5c199b8f0bde38e426636b65ffd50544d6e3bdbc";
+        internal const int RouteCount = 1286;
+        internal const int BindingCount = 504;
+        internal const int StaticPatchBindingCount = 504;
         internal const int UnsupportedBindingCount = 0;
         internal const int RefreshBindingCount = 6;
         internal static IReadOnlyList<ManagedExactBinding> Create(string modId)
@@ -188,24 +188,24 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(76, 0, "SmartInventoryArrange.PostInsertArrange", "Tick", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_76), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(77, 0, "SmartInventoryArrange.RussianText", ".cctor", "", null, typeof(GeneratedManagedPatch_77), "Transpiler", true, null));
             bindings.Add(new ManagedExactBinding(78, 0, "SmartInventoryArrange.SettingsIntro", "TryGetText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_78), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(79, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_79), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(80, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_80), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(81, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_4", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_81), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(82, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_82), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(83, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_8", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_83), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(84, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_9", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_84), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(85, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_10", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_85), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(86, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_11", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_86), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(87, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_12", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_87), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(88, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_13", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_88), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(89, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_15", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_89), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(90, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_16", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_90), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(91, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_17", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_91), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(92, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_18", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_92), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(93, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_19", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_93), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(94, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_20", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_94), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(95, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_21", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_95), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(96, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_23", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_96), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(79, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_79), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(80, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_80), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(81, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_4", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_81), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(82, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_82), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(83, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_8", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_83), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(84, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_9", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_84), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(85, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_10", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_85), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(86, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_11", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_86), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(87, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_12", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_87), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(88, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_13", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_88), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(89, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_15", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_89), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(90, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_16", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_90), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(91, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_17", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_91), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(92, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_18", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_92), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(93, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_19", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_93), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(94, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_20", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_94), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(95, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_21", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_95), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(96, 0, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_23", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_96), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(97, 0, "SmartInventoryArrange.SmartArrangeMonoMod+<>c", "<Init>b__2_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_97), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(98, 0, "SmartInventoryArrange.SmartArrangeMonoMod+<>c", "<Init>b__2_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_98), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(99, 0, "SmartInventoryArrange.SmartInsertFeedback", "RunningText", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_99), "Transpiler", false, null));
@@ -240,12 +240,12 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(128, 22, "SmartInventoryArrange.SettingsRuntime", "get_ContentRoutingHint", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_128), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(129, 23, "SmartInventoryArrange.SettingsRuntime", "get_HiddenInsertCaption", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_129), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(130, 24, "SmartInventoryArrange.SettingsRuntime", "get_HiddenInsertHint", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_130), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(131, 25, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_131), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(132, 26, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_132), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(133, 27, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_133), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(134, 28, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_6", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_134), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(135, 29, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_14", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_135), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(136, 30, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_22", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_136), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(131, 25, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_131), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(132, 26, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_132), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(133, 27, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_133), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(134, 28, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_6", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_134), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(135, 29, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_14", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_135), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(136, 30, "SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_22", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_136), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(137, 31, "SmartInventoryArrange.SmartInsertFeedback", "RoutingStageText", "SmartInventoryArrange.InsertPhase", new Type[] { ModReflect.FindType("SmartInventoryArrange.InsertPhase") }, typeof(GeneratedManagedPatch_137), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(138, 32, "SmartInventoryArrange.SmartInsertFeedback", "ClosedSuccess", "SmartInventoryArrange.SmartInsertFeedback+Attempt, System.String, System.String, System.Boolean, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SmartInsertFeedback+Attempt"), typeof(global::System.String), typeof(global::System.String), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_138), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(139, 33, "SmartInventoryArrange.SmartInsertFeedback", "RoutedSuccess", "SmartInventoryArrange.SmartInsertFeedback+Attempt, System.String, System.Char, System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SmartInsertFeedback+Attempt"), typeof(global::System.String), typeof(global::System.Char), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_139), "Transpiler", false, null));
@@ -258,429 +258,434 @@ namespace ProbablyStolenKo
             bindings.Add(new ManagedExactBinding(146, 40, "SmartInventoryArrange.UnifiedSettingsGui", "DrawFixedPage", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_146), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(147, 41, "SmartInventoryArrange.OrientationIntro", "TryGetText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_147), "Transpiler", false, null));
             bindings.Add(new ManagedExactBinding(148, 42, "SmartInventoryArrange.SettingsIntro", "TryGetText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_148), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(149, 43, "SmartInventoryArrange.SettingsRuntime", "get_ReferenceTabNamesCaption", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_149), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(150, 44, "SmartInventoryArrange.SettingsRuntime", "get_ReferenceTabNamesHint", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_150), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(151, 45, "SmartInventoryArrange.SmartInsertFeedback", "NamedRoutedSuccess", "SmartInventoryArrange.SmartInsertFeedback+Attempt, System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Char>>, System.String[], System.Boolean", new Type[] { ModReflect.FindType("SmartInventoryArrange.SmartInsertFeedback+Attempt"), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Char) }) }), (typeof(global::System.String)).MakeArrayType(), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_151), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(152, 46, "SmartInventoryArrange.SmartInsertFeedback+<>c__DisplayClass28_0", "<NamedRoutedSuccess>g__Line|2", "System.ValueTuple`2<System.Int32,System.Char>, System.Int32", new Type[] { (typeof(global::System.ValueTuple<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Char) }), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_152), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(153, 47, "SmartInventoryArrange.SmartInsertStatusGui", "SelectText", "System.Double", new Type[] { typeof(global::System.Double) }, typeof(GeneratedManagedPatch_153), "Transpiler", false, null));
         }
 
         private static void Add_2_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(149, 0, "ProbablyStolenCrateReveal.UiText", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_149), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(154, 0, "ProbablyStolenCrateReveal.UiText", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_154), "Postfix", false, null));
         }
 
         private static void Add_3_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(150, 0, "ProbableFoodPack.CakeDialogueLocalization", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_150), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(151, 2, "ProbableFoodPack.NpcLocalization", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_151), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(152, 2, "ProbableFoodPack.NpcLocalization", "Get", "System.String, System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_152), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(153, 3, "ProbableFoodPack.NpcOptions", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_153), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(154, 4, "ProbableFoodPack.NpcPostGiftChatText", "Topic", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_154), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(155, 5, "ProbableFoodPack.NpcPostGiftChatText", "get_Skip", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_155), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(156, 6, "ProbableFoodPack.NpcPostGiftChatText", "get_SkipReply", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_156), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(157, 7, "ProbableFoodPack.NpcRuntime", "Install", "System.Action`1<System.String>", new Type[] { (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_157), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(158, 8, "ProbableFoodPack.NpcOptions", "Install", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_158), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(155, 0, "ProbableFoodPack.CakeDialogueLocalization", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_155), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(156, 2, "ProbableFoodPack.NpcLocalization", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_156), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(157, 2, "ProbableFoodPack.NpcLocalization", "Get", "System.String, System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_157), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(158, 3, "ProbableFoodPack.NpcOptions", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_158), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(159, 4, "ProbableFoodPack.NpcPostGiftChatText", "Topic", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_159), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(160, 5, "ProbableFoodPack.NpcPostGiftChatText", "get_Skip", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_160), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(161, 6, "ProbableFoodPack.NpcPostGiftChatText", "get_SkipReply", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_161), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(162, 7, "ProbableFoodPack.NpcRuntime", "Install", "System.Action`1<System.String>", new Type[] { (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_162), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(163, 8, "ProbableFoodPack.NpcOptions", "Install", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_163), "Transpiler", false, null));
         }
 
         private static void Add_4_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(159, 0, "ItemDurabilityBars.DisplaySettings", "Initialize", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_159), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(160, 0, "ItemDurabilityBars.DisplaySettings", "BrightnessLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_160), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(161, 0, "ItemDurabilityBars.DisplaySettings", "BrightnessHint", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_161), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(162, 0, "ItemDurabilityBars.DisplaySettings", "SectionLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_162), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(163, 0, "ItemDurabilityBars.DisplaySettings", "OtherSectionLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_163), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(164, 0, "ItemDurabilityBars.DisplaySettings", "FilterAlertLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_164), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(165, 0, "ItemDurabilityBars.DisplaySettings", "<Initialize>g__Add|9_0", "System.String, System.Func`1<System.String>, ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0&", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }), (ModReflect.FindType("ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0")).MakeByRefType() }, typeof(GeneratedManagedPatch_165), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(164, 0, "ItemDurabilityBars.DisplaySettings", "Initialize", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_164), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(165, 0, "ItemDurabilityBars.DisplaySettings", "BrightnessLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_165), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(166, 0, "ItemDurabilityBars.DisplaySettings", "BrightnessHint", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_166), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(167, 0, "ItemDurabilityBars.DisplaySettings", "SectionLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_167), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(168, 0, "ItemDurabilityBars.DisplaySettings", "OtherSectionLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_168), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(169, 0, "ItemDurabilityBars.DisplaySettings", "FilterAlertLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_169), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(170, 0, "ItemDurabilityBars.DisplaySettings", "<Initialize>g__Add|9_0", "System.String, System.Func`1<System.String>, ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0&", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }), (ModReflect.FindType("ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0")).MakeByRefType() }, typeof(GeneratedManagedPatch_170), "Transpiler", false, null));
         }
 
         private static void Add_5_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(166, 0, "BetterLiquidScanner.L10n", "T", "System.String, System.Object[]", new Type[] { typeof(global::System.String), (typeof(global::System.Object)).MakeArrayType() }, typeof(GeneratedManagedPatch_166), "Prefix", false, null));
+            bindings.Add(new ManagedExactBinding(171, 0, "BetterLiquidScanner.L10n", "T", "System.String, System.Object[]", new Type[] { typeof(global::System.String), (typeof(global::System.Object)).MakeArrayType() }, typeof(GeneratedManagedPatch_171), "Prefix", false, null));
         }
 
         private static void Add_6_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(167, 0, "AgriExpansion.AgriCookbook", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_167), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(168, 0, "AgriExpansion.AgriCookingItems", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_168), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(169, 0, "AgriExpansion.AgriIndustry", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_169), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(170, 0, "AgriExpansion.AgriCropHandbook", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_170), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(171, 0, "AgriExpansion.AgriDelivery", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_171), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(172, 0, "AgriExpansion.AgriDeliveryMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_172), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(173, 0, "AgriExpansion.AgriEleanorStory", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_173), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(174, 0, "AgriExpansion.AgriFarmAccess", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_174), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(175, 0, "AgriExpansion.AgriFarm", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_175), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(176, 0, "AgriExpansion.AgriFarmHandbook", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_176), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(177, 0, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_177), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(178, 0, "AgriExpansion.AgriFarmSecurity", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_178), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(179, 0, "AgriExpansion.AgriLivestockAccess", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_179), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(180, 0, "AgriExpansion.AgriLivestockItems", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_180), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(181, 0, "AgriExpansion.AgriMilkingMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_181), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(182, 0, "AgriExpansion.AgriNextCatalog", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_182), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(183, 0, "AgriExpansion.AgriPerfumeItems", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_183), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(184, 0, "AgriExpansion.AgriPerfumeMachines", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_184), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(185, 0, "AgriExpansion.AgriPerfumeManual", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_185), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(186, 0, "AgriExpansion.AgriPerfumeManualText", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_186), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(187, 0, "AgriExpansion.AgriPerfumeProcessor", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_187), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(188, 0, "AgriExpansion.AgriSuperCrops", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_188), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(189, 0, "AgriExpansion.AgriTailoringGameWindow", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_189), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(190, 0, "AgriExpansion.AgriTailoring", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_190), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(191, 0, "AgriExpansion.AgriTailoringManual", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_191), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(192, 11, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_192), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(193, 13, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_193), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(194, 21, "AgriExpansion.AgriCropHandbook", "BuildBook", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_194), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(195, 43, "AgriExpansion.AgriEleanorStory", "Open", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_195), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(196, 44, "AgriExpansion.AgriEleanorStory", "OpenGoodsShop", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_196), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(197, 47, "AgriExpansion.AgriEleanorStory", "RefreshWindow", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_197), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(198, 65, "AgriExpansion.AgriFarm", "EndJournal", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_198), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(199, 73, "AgriExpansion.AgriFarm", "IndustryPolicy", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_199), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(200, 75, "AgriExpansion.AgriFarm", "Metric", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_200), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(201, 77, "AgriExpansion.AgriFarm", "OpenAnimals", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_201), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(202, 81, "AgriExpansion.AgriFarm", "OpenPlot", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_202), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(203, 83, "AgriExpansion.AgriFarm", "OpenRecyclingSettings", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_203), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(204, 87, "AgriExpansion.AgriFarm", "OpenStock", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_204), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(205, 89, "AgriExpansion.AgriFarm", "PlotLabel", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_205), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(206, 95, "AgriExpansion.AgriFarm", "RefreshPlot", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_206), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(207, 104, "AgriExpansion.AgriFarm", "UpdateStock", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_207), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(208, 105, "AgriExpansion.AgriFarm", "WaterReport", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_208), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(209, 117, "AgriExpansion.AgriFarmHandbook", "Build", "GameItem, System.Func`3<System.Int32,System.Int32,System.Int32>&", new Type[] { typeof(global::GameItem), ((typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Int32) })).MakeByRefType() }, typeof(GeneratedManagedPatch_209), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(210, 147, "AgriExpansion.AgriIndustry", "Buttons", "GameItem, GameInventory, System.Func`1<System.Int32>, System.Action, System.Action`1<System.String>", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Action), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_210), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(211, 189, "AgriExpansion.AgriPerfumeMachines", "CreateBlender", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_211), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(212, 191, "AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_212), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(213, 205, "AgriExpansion.AgriPerfumeProcessor", "Create", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_213), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(214, 224, "AgriExpansion.AgriSuperManual", "Crop", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_214), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(215, 227, "AgriExpansion.AgriText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_215), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(216, 229, "AgriExpansion.AgriText", "SavedText", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_216), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(217, 230, "AgriExpansion.AgriText", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_217), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(218, 233, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_218), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(219, 235, "AgriExpansion.AgriFarm", "get_WaterNames", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_219), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(220, 239, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_220), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(221, 245, "AgriExpansion.AgriCookbookText", "Review", "AgriExpansion.CookingRecipe, System.Boolean", new Type[] { ModReflect.FindType("AgriExpansion.CookingRecipe"), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_221), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(222, 249, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_222), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(223, 252, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_223), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(224, 253, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_224), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(225, 263, "AgriExpansion.AgriMilkingMachine+MilkingView", "Collect", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_225), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(226, 268, "AgriExpansion.AgriFarm", "ProjectName", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_226), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(227, 282, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_227), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(228, 284, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_228), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(229, 286, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_229), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(230, 328, "AgriExpansion.AgriFarm", "ProjectCosts", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_230), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(231, 329, "AgriExpansion.AgriFarm", "ProjectCosts", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_231), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(232, 330, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_232), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(233, 348, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_233), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(234, 350, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_234), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(235, 351, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_235), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(236, 353, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_236), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(237, 355, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_237), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(238, 359, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_238), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(239, 361, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_239), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(240, 363, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_240), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(241, 365, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_241), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(242, 375, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_242), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(243, 379, "AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_243), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(244, 383, "AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_244), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(245, 443, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_245), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(246, 444, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_246), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(247, 445, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_247), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(248, 465, "AgriExpansion.AgriDeliveryMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_248), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(249, 488, "AgriExpansion.AgriEleanorStory", "Open", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_249), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(250, 494, "AgriExpansion.AgriFarm", "ProjectName", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_250), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(251, 496, "AgriExpansion.AgriFarm", "ProjectCosts", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_251), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(252, 500, "AgriExpansion.AgriFarm", "ProjectCosts", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_252), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(253, 502, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_253), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(254, 503, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_254), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(255, 504, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_255), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(256, 505, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_256), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(257, 507, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_257), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(258, 565, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_258), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(259, 571, "AgriExpansion.AgriFoodMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_259), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(260, 580, "AgriExpansion.AgriLivestockCooking", "Name", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_260), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(261, 601, "AgriExpansion.AgriLivestockItems", "CreateEgg", "System.Boolean, System.Int32", new Type[] { typeof(global::System.Boolean), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_261), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(262, 602, "AgriExpansion.AgriLivestockItems", "RefreshEgg", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_262), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(263, 610, "AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_263), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(264, 612, "AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_264), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(265, 614, "AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_265), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(266, 638, "AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_266), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(267, 640, "AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_267), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(268, 644, "AgriExpansion.AgriMilkingMachine+MilkingView", "Collect", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_268), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(269, 653, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_269), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(270, 654, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_270), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(271, 656, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_271), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(272, 657, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_272), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(273, 658, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_273), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(274, 659, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_274), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(275, 661, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_275), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(276, 662, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_276), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(277, 663, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_277), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(278, 664, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_278), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(279, 678, "AgriExpansion.AgriSuperManual", "Crop", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_279), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(280, 717, "AgriExpansion.AgriTailoringManualText", "Profession", "System.Int32, System.Boolean", new Type[] { typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_280), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(281, 718, "AgriExpansion.AgriTailoringManualText", "Profession", "System.Int32, System.Boolean", new Type[] { typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_281), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(282, 719, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_282), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(283, 745, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_283), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(284, 751, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_284), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(285, 752, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_285), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(286, 753, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_286), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(287, 771, "AgriExpansion.AgriTraitDescriptions", "For", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_287), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(288, 773, "AgriExpansion.AgriTraitDescriptions", "For", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_288), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(289, 789, "AgriExpansion.AgriMilkingMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_289), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(290, 790, "AgriExpansion.AgriFarm", "<RepairText>b__82_0", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_290), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(291, 791, "AgriExpansion.AgriUniformItems", "Effects", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_291), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(172, 0, "AgriExpansion.AgriCookbook", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_172), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(173, 0, "AgriExpansion.AgriCookingItems", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_173), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(174, 0, "AgriExpansion.AgriIndustry", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_174), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(175, 0, "AgriExpansion.AgriCropHandbook", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_175), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(176, 0, "AgriExpansion.AgriDelivery", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_176), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(177, 0, "AgriExpansion.AgriDeliveryMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_177), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(178, 0, "AgriExpansion.AgriEleanorStory", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_178), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(179, 0, "AgriExpansion.AgriFarmAccess", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_179), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(180, 0, "AgriExpansion.AgriFarm", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_180), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(181, 0, "AgriExpansion.AgriFarmHandbook", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_181), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(182, 0, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_182), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(183, 0, "AgriExpansion.AgriFarmSecurity", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_183), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(184, 0, "AgriExpansion.AgriLivestockAccess", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_184), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(185, 0, "AgriExpansion.AgriLivestockItems", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_185), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(186, 0, "AgriExpansion.AgriMilkingMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_186), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(187, 0, "AgriExpansion.AgriNextCatalog", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_187), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(188, 0, "AgriExpansion.AgriPerfumeItems", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_188), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(189, 0, "AgriExpansion.AgriPerfumeMachines", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_189), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(190, 0, "AgriExpansion.AgriPerfumeManual", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_190), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(191, 0, "AgriExpansion.AgriPerfumeManualText", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_191), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(192, 0, "AgriExpansion.AgriPerfumeProcessor", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_192), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(193, 0, "AgriExpansion.AgriSuperCrops", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_193), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(194, 0, "AgriExpansion.AgriTailoringGameWindow", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_194), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(195, 0, "AgriExpansion.AgriTailoring", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_195), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(196, 0, "AgriExpansion.AgriTailoringManual", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_196), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(197, 11, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_197), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(198, 13, "AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_198), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(199, 21, "AgriExpansion.AgriCropHandbook", "BuildBook", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_199), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(200, 43, "AgriExpansion.AgriEleanorStory", "Open", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_200), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(201, 44, "AgriExpansion.AgriEleanorStory", "OpenGoodsShop", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_201), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(202, 47, "AgriExpansion.AgriEleanorStory", "RefreshWindow", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_202), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(203, 65, "AgriExpansion.AgriFarm", "EndJournal", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_203), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(204, 73, "AgriExpansion.AgriFarm", "IndustryPolicy", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_204), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(205, 75, "AgriExpansion.AgriFarm", "Metric", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_205), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(206, 77, "AgriExpansion.AgriFarm", "OpenAnimals", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_206), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(207, 81, "AgriExpansion.AgriFarm", "OpenPlot", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_207), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(208, 83, "AgriExpansion.AgriFarm", "OpenRecyclingSettings", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_208), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(209, 87, "AgriExpansion.AgriFarm", "OpenStock", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_209), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(210, 89, "AgriExpansion.AgriFarm", "PlotLabel", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_210), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(211, 95, "AgriExpansion.AgriFarm", "RefreshPlot", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_211), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(212, 104, "AgriExpansion.AgriFarm", "UpdateStock", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_212), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(213, 105, "AgriExpansion.AgriFarm", "WaterReport", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_213), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(214, 117, "AgriExpansion.AgriFarmHandbook", "Build", "GameItem, System.Func`3<System.Int32,System.Int32,System.Int32>&", new Type[] { typeof(global::GameItem), ((typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Int32) })).MakeByRefType() }, typeof(GeneratedManagedPatch_214), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(215, 147, "AgriExpansion.AgriIndustry", "Buttons", "GameItem, GameInventory, System.Func`1<System.Int32>, System.Action, System.Action`1<System.String>", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Action), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_215), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(216, 189, "AgriExpansion.AgriPerfumeMachines", "CreateBlender", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_216), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(217, 191, "AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_217), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(218, 205, "AgriExpansion.AgriPerfumeProcessor", "Create", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_218), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(219, 224, "AgriExpansion.AgriSuperManual", "Crop", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_219), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(220, 227, "AgriExpansion.AgriText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_220), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(221, 229, "AgriExpansion.AgriText", "SavedText", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_221), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(222, 230, "AgriExpansion.AgriText", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_222), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(223, 233, "AgriExpansion.AgriFarmMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_223), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(224, 235, "AgriExpansion.AgriFarm", "get_WaterNames", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_224), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(225, 239, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_225), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(226, 245, "AgriExpansion.AgriCookbookText", "Review", "AgriExpansion.CookingRecipe, System.Boolean", new Type[] { ModReflect.FindType("AgriExpansion.CookingRecipe"), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_226), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(227, 249, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_227), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(228, 252, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_228), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(229, 253, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_229), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(230, 263, "AgriExpansion.AgriMilkingMachine+MilkingView", "Collect", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_230), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(231, 268, "AgriExpansion.AgriFarm", "ProjectName", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_231), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(232, 282, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_232), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(233, 284, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_233), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(234, 286, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_234), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(235, 328, "AgriExpansion.AgriFarm", "ProjectCosts", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_235), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(236, 329, "AgriExpansion.AgriFarm", "ProjectCosts", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_236), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(237, 330, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_237), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(238, 348, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_238), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(239, 350, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_239), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(240, 351, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_240), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(241, 353, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_241), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(242, 355, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_242), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(243, 359, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_243), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(244, 361, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_244), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(245, 363, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_245), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(246, 365, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_246), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(247, 375, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_247), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(248, 379, "AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_248), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(249, 383, "AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_249), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(250, 443, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_250), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(251, 444, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_251), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(252, 445, "AgriExpansion.AgriCookingItems", "Describe", "GameItem, AgriExpansion.CookingRecipe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") }, typeof(GeneratedManagedPatch_252), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(253, 465, "AgriExpansion.AgriDeliveryMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_253), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(254, 488, "AgriExpansion.AgriEleanorStory", "Open", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_254), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(255, 494, "AgriExpansion.AgriFarm", "ProjectName", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_255), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(256, 496, "AgriExpansion.AgriFarm", "ProjectCosts", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_256), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(257, 500, "AgriExpansion.AgriFarm", "ProjectCosts", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_257), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(258, 502, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_258), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(259, 503, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_259), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(260, 504, "AgriExpansion.AgriFarm", "BuildAnimalProject", "GameItem, System.Int32, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_260), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(261, 505, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_261), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(262, 507, "AgriExpansion.AgriFarm", "ApplyMineralRatio", "GameItem, System.Int32, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_262), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(263, 565, "AgriExpansion.AgriFarmMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_263), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(264, 571, "AgriExpansion.AgriFoodMachine", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_264), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(265, 580, "AgriExpansion.AgriLivestockCooking", "Name", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_265), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(266, 601, "AgriExpansion.AgriLivestockItems", "CreateEgg", "System.Boolean, System.Int32", new Type[] { typeof(global::System.Boolean), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_266), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(267, 602, "AgriExpansion.AgriLivestockItems", "RefreshEgg", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_267), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(268, 610, "AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_268), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(269, 612, "AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_269), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(270, 614, "AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_3", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_270), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(271, 638, "AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_271), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(272, 640, "AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_272), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(273, 644, "AgriExpansion.AgriMilkingMachine+MilkingView", "Collect", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_273), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(274, 653, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_274), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(275, 654, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_275), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(276, 656, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_276), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(277, 657, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_277), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(278, 658, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_278), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(279, 659, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_279), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(280, 661, "AgriExpansion.TailorView", "Refresh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_280), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(281, 662, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_281), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(282, 663, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_282), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(283, 664, "AgriExpansion.TailorView", "Requirements", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_283), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(284, 678, "AgriExpansion.AgriSuperManual", "Crop", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_284), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(285, 717, "AgriExpansion.AgriTailoringManualText", "Profession", "System.Int32, System.Boolean", new Type[] { typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_285), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(286, 718, "AgriExpansion.AgriTailoringManualText", "Profession", "System.Int32, System.Boolean", new Type[] { typeof(global::System.Int32), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_286), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(287, 719, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_287), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(288, 745, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_288), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(289, 751, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_289), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(290, 752, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_290), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(291, 753, "AgriExpansion.AgriTailoringRules", "Needs", "AgriExpansion.UniformRecipe, AgriExpansion.TailorStep", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") }, typeof(GeneratedManagedPatch_291), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(292, 771, "AgriExpansion.AgriTraitDescriptions", "For", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_292), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(293, 773, "AgriExpansion.AgriTraitDescriptions", "For", "System.String, System.Int32", new Type[] { typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_293), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(294, 789, "AgriExpansion.AgriMilkingMachine", "T", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_294), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(295, 790, "AgriExpansion.AgriFarm", "<RepairText>b__82_0", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_295), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(296, 791, "AgriExpansion.AgriUniformItems", "Effects", "System.Int32, System.Int32", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_296), "Transpiler", false, null));
         }
 
         private static void Add_7_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(292, 0, "ClockSettings", "T", "System.String, System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_292), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(297, 0, "ClockSettings", "T", "System.String, System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_297), "Postfix", false, null));
         }
 
         private static void Add_8_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(293, 0, "StationEvents.TranslationCatalog", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_293), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(294, 1, "StationEvents.TranslationCatalog", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_294), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(298, 0, "StationEvents.TranslationCatalog", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_298), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(299, 1, "StationEvents.TranslationCatalog", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_299), "Postfix", false, null));
         }
 
         private static void Add_9_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(295, 0, "CSCaseOpening.OpeningDescriptionData", "Read", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_295), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(296, 1, "CSWeaponCase.AgentDialogues", "Pick", "System.String, System.String, System.Random", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Random) }, typeof(GeneratedManagedPatch_296), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(297, 2, "CSWeaponCase.ProjectText", "Case", "CSWeaponCase.CaseDefinition", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition") }, typeof(GeneratedManagedPatch_297), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(298, 3, "CSWeaponCase.ProjectText", "ItemName", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_298), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(299, 4, "CSWeaponCase.ProjectText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_299), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(300, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_300), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(301, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_301), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(302, 6, "CSWeaponCase.ProjectText", "Weapon", "CSWeaponCase.WeaponDefinition", new Type[] { ModReflect.FindType("CSWeaponCase.WeaponDefinition") }, typeof(GeneratedManagedPatch_302), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(303, 7, "CSWeaponCase.BadLuckLeaderboardView", "Request", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_303), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(304, 8, "CSWeaponCase.CasePoolPreview+<>c__DisplayClass40_1", "<ShowBatch>b__2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_304), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(305, 9, "CSWeaponCase.CasePoolPreview+<>c__DisplayClass40_1", "<ShowBatch>b__7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_305), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(306, 10, "CSWeaponCase.CasePoolPreview+<>c__DisplayClass44_0", "<ShowCapsule>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_306), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(307, 11, "CSWeaponCase.CollectionLeaderboardView", "FilterSkins", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_307), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(308, 12, "CSWeaponCase.CollectionLeaderboardView", "Layout", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_308), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(309, 13, "CSWeaponCase.CollectionLeaderboardView", "RenderPicker", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_309), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(310, 14, "CSWeaponCase.CollectionLeaderboardView", "Render", "CSWeaponCase.LeaderboardPage", new Type[] { ModReflect.FindType("CSWeaponCase.LeaderboardPage") }, typeof(GeneratedManagedPatch_310), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(311, 15, "CSWeaponCase.CollectionLeaderboardView", "Request", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_311), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(312, 16, "CSWeaponCase.CollectionSkinFilters", "Category", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_312), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(313, 17, "CSWeaponCase.CsContacts+<>c__DisplayClass16_0", "<Dialog>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_313), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(314, 18, "CSWeaponCase.CsIntel", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_314), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(315, 19, "CSWeaponCase.CsNativeCalendar", "Complete", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_315), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(316, 20, "CSWeaponCase.MarketWindow+<>c__DisplayClass171_0", "<PurchasePrompt>b__5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_316), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(317, 21, "CSWeaponCase.MarketWindow+<>c__DisplayClass171_0", "<PurchasePrompt>b__8", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_317), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(318, 22, "CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_318), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(319, 23, "CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_319), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(320, 24, "CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_320), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(321, 25, "CSWeaponCase.MarketWindow+<>c__DisplayClass67_0", "<SettingToggle>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_321), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(322, 26, "CSWeaponCase.MarketWindow+<>c__DisplayClass5_0", "<GroupSalePrompt>b__1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_322), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(323, 27, "CSWeaponCase.MarketWindow", "RefreshBulkLabel", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_323), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(324, 28, "CSWeaponCase.MarketWindow", "RenderCards", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_324), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(325, 29, "CSWeaponCase.MarketWindow", "SettingChanged", "System.Action", new Type[] { typeof(global::System.Action) }, typeof(GeneratedManagedPatch_325), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(326, 30, "CSWeaponCase.MarketWindow", "TickTerminalShortcutCapture", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_326), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(327, 31, "CSWeaponCase.OpeningLedgerView+Page", "Render", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_327), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(328, 32, "CSWeaponCase.ProjectLocalization", "SettingsFooter", "CustomUIWindow", new Type[] { typeof(global::CustomUIWindow) }, typeof(GeneratedManagedPatch_328), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(329, 33, "CSWeaponCase.ProjectLocalization", "Settings", "CustomUIWindow", new Type[] { typeof(global::CustomUIWindow) }, typeof(GeneratedManagedPatch_329), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(330, 34, "CSWeaponCase.StickerInspectPanel", "Confirm", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_330), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(331, 35, "CSWeaponCase.StickerInspectPanel", "Drop", "GameItem, UnityEngine.Vector2", new Type[] { typeof(global::GameItem), typeof(global::UnityEngine.Vector2) }, typeof(GeneratedManagedPatch_331), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(332, 36, "CSWeaponCase.StickerInspectPanel", "UpdateControls", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_332), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(333, 37, "CardPackExpansion.Items", "Pack", "CardPackExpansion.PackDefinition", new Type[] { ModReflect.FindType("CardPackExpansion.PackDefinition") }, typeof(GeneratedManagedPatch_333), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(334, 38, "CardPackExpansion.Items", "Album", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_334), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(335, 39, "CSWeaponCase.MarketWindow+<ApplyGroupFlags>d__215", "<>m__Finally1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_335), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(336, 40, "CSWeaponCase.MarketStorage", "RetrieveCore", "System.String, System.String&, GameItem&, System.Boolean, GameGridInventory, System.Func`2<GameItem,SlotMarker>", new Type[] { typeof(global::System.String), (typeof(global::System.String)).MakeByRefType(), (typeof(global::GameItem)).MakeByRefType(), typeof(global::System.Boolean), typeof(global::GameGridInventory), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::GameItem), typeof(global::SlotMarker) }) }, typeof(GeneratedManagedPatch_336), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(337, 41, "CSWeaponCase.ProjectText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_337), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(338, 42, "CSWeaponCase.MarketWindow", "UpdateGunFilters", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_338), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(339, 43, "CSWeaponCase.MarketWindow", "ToggleGunConditions", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_339), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(340, 44, "CSWeaponCase.MarketWindow", "AddCaliberOption", "UnityEngine.Transform, System.String, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_340), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(341, 45, "CSWeaponCase.BatchOpening", "StartPlannedCore", "System.String, GameItem, System.Collections.Generic.List`1<CSWeaponCase.OpeningResource>, System.Collections.Generic.List`1<CSWeaponCase.OpeningResource>, System.Int32, System.String&", new Type[] { typeof(global::System.String), typeof(global::GameItem), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSWeaponCase.OpeningResource") }), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSWeaponCase.OpeningResource") }), typeof(global::System.Int32), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_341), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(342, 46, "CSWeaponCase.BatchOpening", "BuildCasePreview", "CSWeaponCase.CaseDefinition, LoadedMod, System.Collections.Generic.List`1<CSCaseOpening.LootView>&", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition"), typeof(global::LoadedMod), ((typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSCaseOpening.LootView") })).MakeByRefType() }, typeof(GeneratedManagedPatch_342), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(300, 0, "CSCaseOpening.OpeningDescriptionData", "Read", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_300), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(301, 1, "CSWeaponCase.AgentDialogues", "Pick", "System.String, System.String, System.Random", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Random) }, typeof(GeneratedManagedPatch_301), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(302, 2, "CSWeaponCase.ProjectText", "Case", "CSWeaponCase.CaseDefinition", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition") }, typeof(GeneratedManagedPatch_302), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(303, 3, "CSWeaponCase.ProjectText", "ItemName", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_303), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(304, 4, "CSWeaponCase.ProjectText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_304), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(305, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_305), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(306, 5, "CSWeaponCase.ProjectText", "Translate", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_306), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(307, 6, "CSWeaponCase.ProjectText", "Weapon", "CSWeaponCase.WeaponDefinition", new Type[] { ModReflect.FindType("CSWeaponCase.WeaponDefinition") }, typeof(GeneratedManagedPatch_307), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(308, 7, "CSWeaponCase.BadLuckLeaderboardView", "Request", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_308), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(309, 8, "CSWeaponCase.CasePoolPreview+<>c__DisplayClass40_1", "<ShowBatch>b__2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_309), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(310, 9, "CSWeaponCase.CasePoolPreview+<>c__DisplayClass40_1", "<ShowBatch>b__7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_310), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(311, 10, "CSWeaponCase.CasePoolPreview+<>c__DisplayClass44_0", "<ShowCapsule>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_311), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(312, 11, "CSWeaponCase.CollectionLeaderboardView", "FilterSkins", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_312), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(313, 12, "CSWeaponCase.CollectionLeaderboardView", "Layout", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_313), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(314, 13, "CSWeaponCase.CollectionLeaderboardView", "RenderPicker", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_314), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(315, 14, "CSWeaponCase.CollectionLeaderboardView", "Render", "CSWeaponCase.LeaderboardPage", new Type[] { ModReflect.FindType("CSWeaponCase.LeaderboardPage") }, typeof(GeneratedManagedPatch_315), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(316, 15, "CSWeaponCase.CollectionLeaderboardView", "Request", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_316), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(317, 16, "CSWeaponCase.CollectionSkinFilters", "Category", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_317), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(318, 17, "CSWeaponCase.CsContacts+<>c__DisplayClass16_0", "<Dialog>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_318), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(319, 18, "CSWeaponCase.CsIntel", "Create", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_319), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(320, 19, "CSWeaponCase.CsNativeCalendar", "Complete", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_320), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(321, 20, "CSWeaponCase.MarketWindow+<>c__DisplayClass171_0", "<PurchasePrompt>b__5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_321), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(322, 21, "CSWeaponCase.MarketWindow+<>c__DisplayClass171_0", "<PurchasePrompt>b__8", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_322), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(323, 22, "CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_323), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(324, 23, "CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_324), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(325, 24, "CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__7", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_325), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(326, 25, "CSWeaponCase.MarketWindow+<>c__DisplayClass67_0", "<SettingToggle>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_326), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(327, 26, "CSWeaponCase.MarketWindow+<>c__DisplayClass5_0", "<GroupSalePrompt>b__1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_327), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(328, 27, "CSWeaponCase.MarketWindow", "RefreshBulkLabel", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_328), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(329, 28, "CSWeaponCase.MarketWindow", "RenderCards", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_329), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(330, 29, "CSWeaponCase.MarketWindow", "SettingChanged", "System.Action", new Type[] { typeof(global::System.Action) }, typeof(GeneratedManagedPatch_330), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(331, 30, "CSWeaponCase.MarketWindow", "TickTerminalShortcutCapture", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_331), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(332, 31, "CSWeaponCase.OpeningLedgerView+Page", "Render", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_332), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(333, 32, "CSWeaponCase.ProjectLocalization", "SettingsFooter", "CustomUIWindow", new Type[] { typeof(global::CustomUIWindow) }, typeof(GeneratedManagedPatch_333), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(334, 33, "CSWeaponCase.ProjectLocalization", "Settings", "CustomUIWindow", new Type[] { typeof(global::CustomUIWindow) }, typeof(GeneratedManagedPatch_334), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(335, 34, "CSWeaponCase.StickerInspectPanel", "Confirm", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_335), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(336, 35, "CSWeaponCase.StickerInspectPanel", "Drop", "GameItem, UnityEngine.Vector2", new Type[] { typeof(global::GameItem), typeof(global::UnityEngine.Vector2) }, typeof(GeneratedManagedPatch_336), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(337, 36, "CSWeaponCase.StickerInspectPanel", "UpdateControls", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_337), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(338, 37, "CardPackExpansion.Items", "Pack", "CardPackExpansion.PackDefinition", new Type[] { ModReflect.FindType("CardPackExpansion.PackDefinition") }, typeof(GeneratedManagedPatch_338), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(339, 38, "CardPackExpansion.Items", "Album", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_339), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(340, 39, "CSWeaponCase.MarketWindow+<ApplyGroupFlags>d__215", "<>m__Finally1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_340), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(341, 40, "CSWeaponCase.MarketStorage", "RetrieveCore", "System.String, System.String&, GameItem&, System.Boolean, GameGridInventory, System.Func`2<GameItem,SlotMarker>", new Type[] { typeof(global::System.String), (typeof(global::System.String)).MakeByRefType(), (typeof(global::GameItem)).MakeByRefType(), typeof(global::System.Boolean), typeof(global::GameGridInventory), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::GameItem), typeof(global::SlotMarker) }) }, typeof(GeneratedManagedPatch_341), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(342, 41, "CSWeaponCase.ProjectText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_342), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(343, 42, "CSWeaponCase.MarketWindow", "UpdateGunFilters", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_343), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(344, 43, "CSWeaponCase.MarketWindow", "ToggleGunConditions", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_344), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(345, 44, "CSWeaponCase.MarketWindow", "AddCaliberOption", "UnityEngine.Transform, System.String, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::System.String), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_345), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(346, 45, "CSWeaponCase.BatchOpening", "StartPlannedCore", "System.String, GameItem, System.Collections.Generic.List`1<CSWeaponCase.OpeningResource>, System.Collections.Generic.List`1<CSWeaponCase.OpeningResource>, System.Int32, System.String&", new Type[] { typeof(global::System.String), typeof(global::GameItem), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSWeaponCase.OpeningResource") }), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSWeaponCase.OpeningResource") }), typeof(global::System.Int32), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_346), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(347, 46, "CSWeaponCase.BatchOpening", "BuildCasePreview", "CSWeaponCase.CaseDefinition, LoadedMod, System.Collections.Generic.List`1<CSCaseOpening.LootView>&", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition"), typeof(global::LoadedMod), ((typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSCaseOpening.LootView") })).MakeByRefType() }, typeof(GeneratedManagedPatch_347), "Transpiler", false, null));
         }
 
         private static void Add_10_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(343, 0, "ProbablyStolenInGameModSettings.UiText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_343), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(348, 0, "ProbablyStolenInGameModSettings.UiText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_348), "Postfix", false, null));
         }
 
         private static void Add_11_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(344, 0, "EleanorRescue.TextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_344), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(349, 0, "EleanorRescue.TextCatalog", ".cctor", "", null, typeof(GeneratedManagedPatch_349), "Transpiler", true, null));
         }
 
         private static void Add_12_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(345, 0, "ModText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_345), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(350, 0, "ModText", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_350), "Postfix", false, null));
         }
 
         private static void Add_13_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(346, 0, "Va11HallA.BtcStoryProfiles", ".cctor", "", null, typeof(GeneratedManagedPatch_346), "Transpiler", true, null));
-            bindings.Add(new ManagedExactBinding(347, 1, "Va11HallA.BtcStationPanel", ".cctor", "", null, typeof(GeneratedManagedPatch_347), "Transpiler", true, null));
-            bindings.Add(new ManagedExactBinding(348, 2, "Va11HallA.DrinkRecipeBook", ".cctor", "", null, typeof(GeneratedManagedPatch_348), "Transpiler", true, null));
-            bindings.Add(new ManagedExactBinding(349, 3, "Va11HallA.Va11MixologyItems", ".cctor", "", null, typeof(GeneratedManagedPatch_349), "Transpiler", true, null));
-            bindings.Add(new ManagedExactBinding(350, 4, "Va11HallA.Loc", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_350), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(351, 4, "Va11HallA.Loc", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_351), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(351, 0, "Va11HallA.BtcStoryProfiles", ".cctor", "", null, typeof(GeneratedManagedPatch_351), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(352, 1, "Va11HallA.BtcStationPanel", ".cctor", "", null, typeof(GeneratedManagedPatch_352), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(353, 2, "Va11HallA.DrinkRecipeBook", ".cctor", "", null, typeof(GeneratedManagedPatch_353), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(354, 3, "Va11HallA.Va11MixologyItems", ".cctor", "", null, typeof(GeneratedManagedPatch_354), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(355, 4, "Va11HallA.Loc", "Get", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_355), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(356, 4, "Va11HallA.Loc", "Get", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_356), "Postfix", false, null));
         }
 
         private static void Add_14_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(352, 6, "Clinic.InventoryTest.TestMod+<>c", "<OpenClinicPrimer>b__577_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_352), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(353, 7, "Clinic.InventoryTest.TestMod+<>c", "<OpenForgeBook>b__351_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_353), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(354, 8, "Clinic.InventoryTest.TestMod+<>c", "<OpenPracticeGuide>b__575_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_354), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(355, 63, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_355), "Postfix", false, null));
-            bindings.Add(new ManagedExactBinding(356, 109, "Clinic.InventoryTest.TestMod", "AddPollutionTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_356), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(357, 120, "Clinic.InventoryTest.TestMod", "AssessProcedure", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_357), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(358, 135, "Clinic.InventoryTest.TestMod", "ConfigureToolPresentation", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_358), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(359, 173, "Clinic.InventoryTest.TestMod", "DrawAnesthesiaHandbook", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) }, typeof(GeneratedManagedPatch_359), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(360, 177, "Clinic.InventoryTest.TestMod", "DrawHandbookMaterials", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) }, typeof(GeneratedManagedPatch_360), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(361, 178, "Clinic.InventoryTest.TestMod", "DrawHandbookStepRows", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Collections.Generic.List`1<System.ValueTuple`3<System.String,System.String,System.String>>, System.Int32, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }) }), typeof(global::System.Int32), typeof(global::System.String) }, typeof(GeneratedManagedPatch_361), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(362, 181, "Clinic.InventoryTest.TestMod", "DrawScannerMeter", "UnityEngine.RectTransform, System.String, System.Nullable`1<System.Int32>, System.Single, System.Single, UnityEngine.Color, System.Nullable`1<System.Double>", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.String), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Single), typeof(global::System.Single), typeof(global::UnityEngine.Color), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Double) }) }, typeof(GeneratedManagedPatch_362), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(363, 184, "Clinic.InventoryTest.TestMod", "DrawTitanManual", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_363), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(364, 198, "Clinic.InventoryTest.TestMod", "HandbookOperationSteps", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_364), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(365, 230, "Clinic.InventoryTest.TestMod", "RefreshBrainDecoder", "GameItem, Clinic.InventoryTest.TestMod+BrainDecoderState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") }, typeof(GeneratedManagedPatch_365), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(366, 233, "Clinic.InventoryTest.TestMod", "RefreshForgeMachine", "GameItem, Clinic.InventoryTest.TestMod+ForgeMachineState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+ForgeMachineState") }, typeof(GeneratedManagedPatch_366), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(367, 244, "Clinic.InventoryTest.TestMod", "RenderClinicRoom", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_367), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(368, 247, "Clinic.InventoryTest.TestMod", "RenderMedicalScanner", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_368), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(369, 276, "Clinic.InventoryTest.TestMod", "ToolDescription", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_369), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(370, 289, "Clinic.InventoryTest.ViktorShopCatalog", "Build", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_370), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(371, 295, "Clinic.InventoryTest.TestMod", "DrawScannerBody", "UnityEngine.RectTransform, System.Boolean", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_371), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(357, 6, "Clinic.InventoryTest.TestMod+<>c", "<OpenClinicPrimer>b__577_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_357), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(358, 7, "Clinic.InventoryTest.TestMod+<>c", "<OpenForgeBook>b__351_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_358), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(359, 8, "Clinic.InventoryTest.TestMod+<>c", "<OpenPracticeGuide>b__575_0", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_359), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(360, 63, "Clinic.InventoryTest.ClinicText", "T", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_360), "Postfix", false, null));
+            bindings.Add(new ManagedExactBinding(361, 109, "Clinic.InventoryTest.TestMod", "AddPollutionTooltip", "RichTextBuilder, GameItem", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) }, typeof(GeneratedManagedPatch_361), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(362, 120, "Clinic.InventoryTest.TestMod", "AssessProcedure", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_362), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(363, 135, "Clinic.InventoryTest.TestMod", "ConfigureToolPresentation", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_363), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(364, 173, "Clinic.InventoryTest.TestMod", "DrawAnesthesiaHandbook", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) }, typeof(GeneratedManagedPatch_364), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(365, 177, "Clinic.InventoryTest.TestMod", "DrawHandbookMaterials", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) }, typeof(GeneratedManagedPatch_365), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(366, 178, "Clinic.InventoryTest.TestMod", "DrawHandbookStepRows", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Collections.Generic.List`1<System.ValueTuple`3<System.String,System.String,System.String>>, System.Int32, System.String", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }) }), typeof(global::System.Int32), typeof(global::System.String) }, typeof(GeneratedManagedPatch_366), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(367, 181, "Clinic.InventoryTest.TestMod", "DrawScannerMeter", "UnityEngine.RectTransform, System.String, System.Nullable`1<System.Int32>, System.Single, System.Single, UnityEngine.Color, System.Nullable`1<System.Double>", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.String), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Single), typeof(global::System.Single), typeof(global::UnityEngine.Color), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Double) }) }, typeof(GeneratedManagedPatch_367), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(368, 184, "Clinic.InventoryTest.TestMod", "DrawTitanManual", "UnityEngine.Transform, TMPro.TMP_FontAsset, System.Int32", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_368), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(369, 198, "Clinic.InventoryTest.TestMod", "HandbookOperationSteps", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_369), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(370, 230, "Clinic.InventoryTest.TestMod", "RefreshBrainDecoder", "GameItem, Clinic.InventoryTest.TestMod+BrainDecoderState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") }, typeof(GeneratedManagedPatch_370), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(371, 233, "Clinic.InventoryTest.TestMod", "RefreshForgeMachine", "GameItem, Clinic.InventoryTest.TestMod+ForgeMachineState", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+ForgeMachineState") }, typeof(GeneratedManagedPatch_371), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(372, 244, "Clinic.InventoryTest.TestMod", "RenderClinicRoom", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_372), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(373, 247, "Clinic.InventoryTest.TestMod", "RenderMedicalScanner", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_373), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(374, 276, "Clinic.InventoryTest.TestMod", "ToolDescription", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_374), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(375, 289, "Clinic.InventoryTest.ViktorShopCatalog", "Build", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_375), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(376, 295, "Clinic.InventoryTest.TestMod", "DrawScannerBody", "UnityEngine.RectTransform, System.Boolean", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_376), "Transpiler", false, null));
         }
 
         private static void Add_15_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(372, 0, "GunModTarkov.GunBenchView", "RebuildNow", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_372), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(373, 0, "GunModTarkov.GunBenchView", "BuildTitle", "UnityEngine.RectTransform, System.Single", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_373), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(374, 0, "GunModTarkov.GunBenchView", "SuppressText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_374), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(375, 0, "GunModTarkov.GunBenchView", "ConditionText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_375), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(376, 0, "GunModTarkov.GunBenchView", "BuildGunList", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_376), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(377, 0, "GunModTarkov.GunBenchView", "ShowInstallFailed", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_377), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(378, 0, "GunModTarkov.GunBenchView", "MoveToCounter", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_378), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(379, 0, "GunModTarkov.GunBenchView", "BuildPopup", "UnityEngine.RectTransform, UnityEngine.Vector2, UnityEngine.Vector2, System.Boolean, GunModTarkov.GunSlotInfo, System.Single, System.Single", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::UnityEngine.Vector2), typeof(global::UnityEngine.Vector2), typeof(global::System.Boolean), ModReflect.FindType("GunModTarkov.GunSlotInfo"), typeof(global::System.Single), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_379), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(380, 0, "GunModTarkov.GunBenchView", "TagLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_380), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(381, 0, "GunModTarkov.GunBenchView", "BuildOrderPanel", "UnityEngine.RectTransform, System.Single, System.Single, System.Single", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_381), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(382, 0, "GunModTarkov.GunBenchView", "get_ScaleEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_382), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(383, 0, "GunModTarkov.GunBenchView", "get_ZoomInEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_383), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(384, 0, "GunModTarkov.GunBenchView", "get_ZoomOutEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_384), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(385, 0, "GunModTarkov.GunBenchView", "get_ReturnModeEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_385), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(386, 0, "GunModTarkov.GunBenchView", "get_HideInstalledEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_386), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(387, 0, "GunModTarkov.GunBenchView", "get_MergeDupEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_387), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(388, 0, "GunModTarkov.GunBenchView", "get_PosXEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_388), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(389, 0, "GunModTarkov.GunBenchView", "get_PosYEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_389), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(390, 0, "GunModTarkov.GunBenchView", "BuildStats", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_390), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(391, 0, "GunModTarkov.GunBenchView", "BuildZoomBar", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_391), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(392, 0, "GunModTarkov.GunBenchView", "MergeDupLabelText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_392), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(393, 0, "GunModTarkov.GunBenchView", "HideInstalledLabelText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_393), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(394, 0, "GunModTarkov.GunBenchView", "ToggleKeyPanel", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_394), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(395, 0, "GunModTarkov.GunBenchView", "KeyName", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_395), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(396, 0, "GunModTarkov.GunBenchView", ".cctor", "", null, typeof(GeneratedManagedPatch_396), "Transpiler", true, null));
-            bindings.Add(new ManagedExactBinding(397, 0, "GunModTarkov.GunBenchView+<>c", "<BuildTitle>b__33_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_397), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(398, 0, "GunModTarkov.GunBenchView+<>c", "<BuildTitle>b__33_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_398), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(399, 0, "GunModTarkov.GunBenchView+<>c", "<get_ScaleEntry>b__90_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_399), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(400, 0, "GunModTarkov.GunBenchView+<>c", "<get_ZoomInEntry>b__97_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_400), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(401, 0, "GunModTarkov.GunBenchView+<>c", "<get_ZoomInEntry>b__97_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_401), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(402, 0, "GunModTarkov.GunBenchView+<>c", "<get_ZoomOutEntry>b__99_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_402), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(403, 0, "GunModTarkov.GunBenchView+<>c", "<get_ZoomOutEntry>b__99_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_403), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(404, 0, "GunModTarkov.GunBenchView+<>c", "<get_ReturnModeEntry>b__110_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_404), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(405, 0, "GunModTarkov.GunBenchView+<>c", "<get_HideInstalledEntry>b__114_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_405), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(406, 0, "GunModTarkov.GunBenchView+<>c", "<get_MergeDupEntry>b__118_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_406), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(407, 0, "GunModTarkov.GunBenchView+<>c", "<get_PosXEntry>b__128_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_407), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(408, 0, "GunModTarkov.GunBenchView+<>c", "<get_PosXEntry>b__128_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_408), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(409, 0, "GunModTarkov.GunBenchView+<>c", "<get_PosYEntry>b__130_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_409), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(410, 0, "GunModTarkov.GunBenchView+<>c", "<get_PosYEntry>b__130_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_410), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(411, 0, "GunModTarkov.GunBenchView+<>c__DisplayClass154_0", "<KeyButton>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_411), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(412, 0, "GunModTarkov.GunBenchView+<>c__DisplayClass39_0", "<BuildGunList>b__1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_412), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(413, 0, "GunModTarkov.GunBenchView+<>c__DisplayClass74_2", "<BuildPopup>b__5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_413), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(414, 0, "GunModTarkov.GunBenchView+<>c__DisplayClass74_3", "<BuildPopup>b__9", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_414), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(415, 0, "GunModTarkov.GunSlotInfo", "FallbackName", "GunModTarkov.SlotKind", new Type[] { ModReflect.FindType("GunModTarkov.SlotKind") }, typeof(GeneratedManagedPatch_415), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(416, 1, "GunModTarkov.GunBenchView", "SuppressText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_416), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(417, 2, "GunModTarkov.GunBenchView", "BuildGunList", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_417), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(418, 3, "GunModTarkov.GunBenchView", "ReturnModeLabelText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_418), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(419, 4, "GunModTarkov.GunSlotInfo", "FallbackName", "GunModTarkov.SlotKind", new Type[] { ModReflect.FindType("GunModTarkov.SlotKind") }, typeof(GeneratedManagedPatch_419), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(420, 5, "GunModTarkov.GunBenchView", "ShowInstallFailed", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_420), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(421, 6, "GunModTarkov.GunBenchView", "BuildOrderPanel", "UnityEngine.RectTransform, System.Single, System.Single, System.Single", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_421), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(422, 7, "GunModTarkov.GunBenchView", "BuildStats", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_422), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(423, 8, "GunModTarkov.GunBenchView+<>c", "<get_ScaleEntry>b__90_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_423), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(424, 9, "GunModTarkov.GunBenchView+<>c", "<get_ReturnModeEntry>b__110_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_424), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(425, 10, "GunModTarkov.GunBenchView+<>c", "<get_HideInstalledEntry>b__114_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_425), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(426, 11, "GunModTarkov.GunBenchView+<>c", "<get_MergeDupEntry>b__118_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_426), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(427, 12, "GunModTarkov.GunBenchView+<>c__DisplayClass74_2", "<BuildPopup>b__5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_427), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(428, 13, "GunModTarkov.GunBenchView+<>c__DisplayClass74_3", "<BuildPopup>b__9", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_428), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(429, 14, "GunModTarkov.GunBenchView", "ModDeltaLines", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_429), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(430, 15, "GunModTarkov.GunBenchView", "ModDeltaText", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_430), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(431, 16, "GunModTarkov.GunBenchView", "TagLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_431), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(377, 0, "GunModTarkov.GunBenchView", "RebuildNow", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_377), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(378, 0, "GunModTarkov.GunBenchView", "BuildTitle", "UnityEngine.RectTransform, System.Single", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_378), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(379, 0, "GunModTarkov.GunBenchView", "SuppressText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_379), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(380, 0, "GunModTarkov.GunBenchView", "ConditionText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_380), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(381, 0, "GunModTarkov.GunBenchView", "BuildGunList", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_381), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(382, 0, "GunModTarkov.GunBenchView", "ShowInstallFailed", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_382), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(383, 0, "GunModTarkov.GunBenchView", "MoveToCounter", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_383), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(384, 0, "GunModTarkov.GunBenchView", "BuildPopup", "UnityEngine.RectTransform, UnityEngine.Vector2, UnityEngine.Vector2, System.Boolean, GunModTarkov.GunSlotInfo, System.Single, System.Single", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::UnityEngine.Vector2), typeof(global::UnityEngine.Vector2), typeof(global::System.Boolean), ModReflect.FindType("GunModTarkov.GunSlotInfo"), typeof(global::System.Single), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_384), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(385, 0, "GunModTarkov.GunBenchView", "TagLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_385), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(386, 0, "GunModTarkov.GunBenchView", "BuildOrderPanel", "UnityEngine.RectTransform, System.Single, System.Single, System.Single", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_386), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(387, 0, "GunModTarkov.GunBenchView", "get_ScaleEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_387), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(388, 0, "GunModTarkov.GunBenchView", "get_ZoomInEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_388), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(389, 0, "GunModTarkov.GunBenchView", "get_ZoomOutEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_389), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(390, 0, "GunModTarkov.GunBenchView", "get_ReturnModeEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_390), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(391, 0, "GunModTarkov.GunBenchView", "get_HideInstalledEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_391), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(392, 0, "GunModTarkov.GunBenchView", "get_MergeDupEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_392), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(393, 0, "GunModTarkov.GunBenchView", "get_PosXEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_393), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(394, 0, "GunModTarkov.GunBenchView", "get_PosYEntry", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_394), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(395, 0, "GunModTarkov.GunBenchView", "BuildStats", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_395), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(396, 0, "GunModTarkov.GunBenchView", "BuildZoomBar", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_396), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(397, 0, "GunModTarkov.GunBenchView", "MergeDupLabelText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_397), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(398, 0, "GunModTarkov.GunBenchView", "HideInstalledLabelText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_398), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(399, 0, "GunModTarkov.GunBenchView", "ToggleKeyPanel", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_399), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(400, 0, "GunModTarkov.GunBenchView", "KeyName", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_400), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(401, 0, "GunModTarkov.GunBenchView", ".cctor", "", null, typeof(GeneratedManagedPatch_401), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(402, 0, "GunModTarkov.GunBenchView+<>c", "<BuildTitle>b__33_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_402), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(403, 0, "GunModTarkov.GunBenchView+<>c", "<BuildTitle>b__33_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_403), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(404, 0, "GunModTarkov.GunBenchView+<>c", "<get_ScaleEntry>b__90_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_404), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(405, 0, "GunModTarkov.GunBenchView+<>c", "<get_ZoomInEntry>b__97_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_405), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(406, 0, "GunModTarkov.GunBenchView+<>c", "<get_ZoomInEntry>b__97_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_406), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(407, 0, "GunModTarkov.GunBenchView+<>c", "<get_ZoomOutEntry>b__99_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_407), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(408, 0, "GunModTarkov.GunBenchView+<>c", "<get_ZoomOutEntry>b__99_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_408), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(409, 0, "GunModTarkov.GunBenchView+<>c", "<get_ReturnModeEntry>b__110_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_409), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(410, 0, "GunModTarkov.GunBenchView+<>c", "<get_HideInstalledEntry>b__114_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_410), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(411, 0, "GunModTarkov.GunBenchView+<>c", "<get_MergeDupEntry>b__118_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_411), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(412, 0, "GunModTarkov.GunBenchView+<>c", "<get_PosXEntry>b__128_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_412), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(413, 0, "GunModTarkov.GunBenchView+<>c", "<get_PosXEntry>b__128_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_413), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(414, 0, "GunModTarkov.GunBenchView+<>c", "<get_PosYEntry>b__130_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_414), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(415, 0, "GunModTarkov.GunBenchView+<>c", "<get_PosYEntry>b__130_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_415), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(416, 0, "GunModTarkov.GunBenchView+<>c__DisplayClass154_0", "<KeyButton>b__0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_416), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(417, 0, "GunModTarkov.GunBenchView+<>c__DisplayClass39_0", "<BuildGunList>b__1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_417), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(418, 0, "GunModTarkov.GunBenchView+<>c__DisplayClass74_2", "<BuildPopup>b__5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_418), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(419, 0, "GunModTarkov.GunBenchView+<>c__DisplayClass74_3", "<BuildPopup>b__9", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_419), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(420, 0, "GunModTarkov.GunSlotInfo", "FallbackName", "GunModTarkov.SlotKind", new Type[] { ModReflect.FindType("GunModTarkov.SlotKind") }, typeof(GeneratedManagedPatch_420), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(421, 1, "GunModTarkov.GunBenchView", "SuppressText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_421), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(422, 2, "GunModTarkov.GunBenchView", "BuildGunList", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_422), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(423, 3, "GunModTarkov.GunBenchView", "ReturnModeLabelText", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_423), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(424, 4, "GunModTarkov.GunSlotInfo", "FallbackName", "GunModTarkov.SlotKind", new Type[] { ModReflect.FindType("GunModTarkov.SlotKind") }, typeof(GeneratedManagedPatch_424), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(425, 5, "GunModTarkov.GunBenchView", "ShowInstallFailed", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_425), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(426, 6, "GunModTarkov.GunBenchView", "BuildOrderPanel", "UnityEngine.RectTransform, System.Single, System.Single, System.Single", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_426), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(427, 7, "GunModTarkov.GunBenchView", "BuildStats", "UnityEngine.RectTransform", new Type[] { typeof(global::UnityEngine.RectTransform) }, typeof(GeneratedManagedPatch_427), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(428, 8, "GunModTarkov.GunBenchView+<>c", "<get_ScaleEntry>b__90_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_428), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(429, 9, "GunModTarkov.GunBenchView+<>c", "<get_ReturnModeEntry>b__110_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_429), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(430, 10, "GunModTarkov.GunBenchView+<>c", "<get_HideInstalledEntry>b__114_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_430), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(431, 11, "GunModTarkov.GunBenchView+<>c", "<get_MergeDupEntry>b__118_1", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_431), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(432, 12, "GunModTarkov.GunBenchView+<>c__DisplayClass74_2", "<BuildPopup>b__5", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_432), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(433, 13, "GunModTarkov.GunBenchView+<>c__DisplayClass74_3", "<BuildPopup>b__9", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_433), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(434, 14, "GunModTarkov.GunBenchView", "ModDeltaLines", "GameItem, System.Int32", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_434), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(435, 15, "GunModTarkov.GunBenchView", "ModDeltaText", "GameItem", new Type[] { typeof(global::GameItem) }, typeof(GeneratedManagedPatch_435), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(436, 16, "GunModTarkov.GunBenchView", "TagLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_436), "Transpiler", false, null));
         }
 
         private static void Add_16_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(432, 0, "DuojiHotkeyManager.Core", "LoadConfig", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_432), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(433, 1, "DuojiHotkeyManager.HotkeyPanel", "Build", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_433), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(434, 2, "DuojiHotkeyManager.HotkeyManager", "ApplyCapture", "DuojiHotkeyManager.BindRow, System.String, UnityEngine.KeyCode", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String), typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_434), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(435, 3, "DuojiHotkeyManager.HotkeyManager", "ApplyConfig", "DuojiHotkeyManager.BindRow, System.String, UnityEngine.KeyCode, System.Boolean", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String), typeof(global::UnityEngine.KeyCode), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_435), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(436, 4, "DuojiHotkeyManager.HotkeyManager", "ApplyRegistry", "DuojiHotkeyManager.BindRow, UnityEngine.KeyCode, System.Boolean", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_436), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(437, 5, "DuojiHotkeyManager.HotkeyManager", "BeginCapture", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_437), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(438, 6, "DuojiHotkeyManager.HotkeyManager", "ClosePanel", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_438), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(439, 7, "DuojiHotkeyManager.HotkeyManager", "CurrentKeyText", "DuojiHotkeyManager.BindRow", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow") }, typeof(GeneratedManagedPatch_439), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(440, 8, "DuojiHotkeyManager.HotkeyManager", "DescribeBoxed", "System.Object", new Type[] { typeof(global::System.Object) }, typeof(GeneratedManagedPatch_440), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(441, 9, "DuojiHotkeyManager.HotkeyManager", "DescribeToggleKeys", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_441), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(442, 10, "DuojiHotkeyManager.HotkeyManager", "Reject", "DuojiHotkeyManager.BindRow, System.String", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String) }, typeof(GeneratedManagedPatch_442), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(443, 11, "DuojiHotkeyManager.HotkeyManager", "Report", "System.Boolean, System.String", new Type[] { typeof(global::System.Boolean), typeof(global::System.String) }, typeof(GeneratedManagedPatch_443), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(444, 12, "DuojiHotkeyManager.HotkeyManager", "RestoreDefault", "DuojiHotkeyManager.BindRow", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow") }, typeof(GeneratedManagedPatch_444), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(445, 13, "DuojiHotkeyManager.HotkeyManager", "SyncPairedEntries", "DuojiHotkeyManager.BindRow, UnityEngine.KeyCode, System.String&", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_445), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(446, 14, "DuojiHotkeyManager.HotkeyManager", "TickCapture", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_446), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(447, 15, "DuojiHotkeyManager.HotkeyManager", "VerifyRegistry", "DuojiHotkeyManager.BindRow, UnityEngine.KeyCode, System.String&", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_447), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(448, 16, "DuojiHotkeyManager.HotkeyManager", "WarnBlockedMouseOnce", "UnityEngine.KeyCode", new Type[] { typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_448), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(449, 17, "DuojiHotkeyManager.KeyBindCompat+<>c", "<Register>b__2_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_449), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(450, 18, "DuojiHotkeyManager.KeyBindCompat+<>c", "<Register>b__2_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_450), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(451, 19, "DuojiHotkeyManager.KeyBindCompat", "Apply", "UnityEngine.KeyCode", new Type[] { typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_451), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(452, 20, "DuojiHotkeyManager.KeyText", "DescribeMouse", "UnityEngine.KeyCode", new Type[] { typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_452), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(453, 21, "DuojiHotkeyManager.KeyText", "Describe", "UnityEngine.KeyCode", new Type[] { typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_453), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(454, 22, "DuojiHotkeyManager.ModCatalog", "DisplayName", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_454), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(455, 23, "DuojiHotkeyManager.HotkeyScan", "DetectCollisions", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_455), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(456, 24, "DuojiHotkeyManager.Zh", "BuildEntryZh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_456), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(457, 25, "DuojiHotkeyManager.Zh", "BuildWordZh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_457), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(458, 26, "DuojiHotkeyManager.Zh", "EntryName", "System.String, System.Func`1<System.String>", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_458), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(437, 0, "DuojiHotkeyManager.Core", "LoadConfig", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_437), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(438, 1, "DuojiHotkeyManager.HotkeyPanel", "Build", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_438), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(439, 2, "DuojiHotkeyManager.HotkeyManager", "ApplyCapture", "DuojiHotkeyManager.BindRow, System.String, UnityEngine.KeyCode", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String), typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_439), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(440, 3, "DuojiHotkeyManager.HotkeyManager", "ApplyConfig", "DuojiHotkeyManager.BindRow, System.String, UnityEngine.KeyCode, System.Boolean", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String), typeof(global::UnityEngine.KeyCode), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_440), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(441, 4, "DuojiHotkeyManager.HotkeyManager", "ApplyRegistry", "DuojiHotkeyManager.BindRow, UnityEngine.KeyCode, System.Boolean", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_441), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(442, 5, "DuojiHotkeyManager.HotkeyManager", "BeginCapture", "System.Int32", new Type[] { typeof(global::System.Int32) }, typeof(GeneratedManagedPatch_442), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(443, 6, "DuojiHotkeyManager.HotkeyManager", "ClosePanel", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_443), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(444, 7, "DuojiHotkeyManager.HotkeyManager", "CurrentKeyText", "DuojiHotkeyManager.BindRow", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow") }, typeof(GeneratedManagedPatch_444), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(445, 8, "DuojiHotkeyManager.HotkeyManager", "DescribeBoxed", "System.Object", new Type[] { typeof(global::System.Object) }, typeof(GeneratedManagedPatch_445), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(446, 9, "DuojiHotkeyManager.HotkeyManager", "DescribeToggleKeys", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_446), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(447, 10, "DuojiHotkeyManager.HotkeyManager", "Reject", "DuojiHotkeyManager.BindRow, System.String", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String) }, typeof(GeneratedManagedPatch_447), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(448, 11, "DuojiHotkeyManager.HotkeyManager", "Report", "System.Boolean, System.String", new Type[] { typeof(global::System.Boolean), typeof(global::System.String) }, typeof(GeneratedManagedPatch_448), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(449, 12, "DuojiHotkeyManager.HotkeyManager", "RestoreDefault", "DuojiHotkeyManager.BindRow", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow") }, typeof(GeneratedManagedPatch_449), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(450, 13, "DuojiHotkeyManager.HotkeyManager", "SyncPairedEntries", "DuojiHotkeyManager.BindRow, UnityEngine.KeyCode, System.String&", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_450), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(451, 14, "DuojiHotkeyManager.HotkeyManager", "TickCapture", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_451), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(452, 15, "DuojiHotkeyManager.HotkeyManager", "VerifyRegistry", "DuojiHotkeyManager.BindRow, UnityEngine.KeyCode, System.String&", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), (typeof(global::System.String)).MakeByRefType() }, typeof(GeneratedManagedPatch_452), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(453, 16, "DuojiHotkeyManager.HotkeyManager", "WarnBlockedMouseOnce", "UnityEngine.KeyCode", new Type[] { typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_453), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(454, 17, "DuojiHotkeyManager.KeyBindCompat+<>c", "<Register>b__2_0", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_454), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(455, 18, "DuojiHotkeyManager.KeyBindCompat+<>c", "<Register>b__2_2", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_455), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(456, 19, "DuojiHotkeyManager.KeyBindCompat", "Apply", "UnityEngine.KeyCode", new Type[] { typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_456), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(457, 20, "DuojiHotkeyManager.KeyText", "DescribeMouse", "UnityEngine.KeyCode", new Type[] { typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_457), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(458, 21, "DuojiHotkeyManager.KeyText", "Describe", "UnityEngine.KeyCode", new Type[] { typeof(global::UnityEngine.KeyCode) }, typeof(GeneratedManagedPatch_458), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(459, 22, "DuojiHotkeyManager.ModCatalog", "DisplayName", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_459), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(460, 23, "DuojiHotkeyManager.HotkeyScan", "DetectCollisions", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_460), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(461, 24, "DuojiHotkeyManager.Zh", "BuildEntryZh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_461), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(462, 25, "DuojiHotkeyManager.Zh", "BuildWordZh", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_462), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(463, 26, "DuojiHotkeyManager.Zh", "EntryName", "System.String, System.Func`1<System.String>", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_463), "Transpiler", false, null));
         }
 
         private static void Add_17_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(459, 0, "Yexiaoyang.InteriorExpansion.TacticalMaps", "LoadEditable", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_459), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(460, 1, "Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadMap", "System.String, System.Xml.Linq.XElement", new Type[] { typeof(global::System.String), typeof(global::System.Xml.Linq.XElement) }, typeof(GeneratedManagedPatch_460), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(461, 2, "Yexiaoyang.InteriorExpansion.TacticalMaps", "RequireId", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_461), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(462, 3, "Yexiaoyang.InteriorExpansion.TacticalMaps", "ValidateMap", "Yexiaoyang.InteriorExpansion.TacticalMap, System.Func`2<System.String,Yexiaoyang.InteriorExpansion.TacticalPropDef>, System.Boolean", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap"), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalPropDef") }), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_462), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(463, 4, "Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadCell", "System.Xml.Linq.XElement", new Type[] { typeof(global::System.Xml.Linq.XElement) }, typeof(GeneratedManagedPatch_463), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(464, 5, "Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadInt", "System.Xml.Linq.XElement, System.String", new Type[] { typeof(global::System.Xml.Linq.XElement), typeof(global::System.String) }, typeof(GeneratedManagedPatch_464), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(465, 6, "Yexiaoyang.InteriorExpansion.TacticalBoard", "Create", "Yexiaoyang.InteriorExpansion.TacticalMap, System.Collections.Generic.IEnumerable`1<Yexiaoyang.InteriorExpansion.TacticalUnit>", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap"), (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalUnit") }) }, typeof(GeneratedManagedPatch_465), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(466, 7, "Yexiaoyang.InteriorExpansion.TacticalBoard", "FindSpawn", "Yexiaoyang.InteriorExpansion.TacticalUnit, System.Collections.Generic.IReadOnlyList`1<UnityEngine.Vector2Int>", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalUnit"), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { typeof(global::UnityEngine.Vector2Int) }) }, typeof(GeneratedManagedPatch_466), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(467, 8, "Yexiaoyang.InteriorExpansion.DistrictService", "AddTacticalTestFighter", "System.Collections.Generic.List`1<Yexiaoyang.InteriorExpansion.DistrictFighter>, System.String, System.String, System.String, Yexiaoyang.InteriorExpansion.SoldierProfession, Yexiaoyang.InteriorExpansion.SoldierIdentity", new Type[] { (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.DistrictFighter") }), typeof(global::System.String), typeof(global::System.String), typeof(global::System.String), ModReflect.FindType("Yexiaoyang.InteriorExpansion.SoldierProfession"), ModReflect.FindType("Yexiaoyang.InteriorExpansion.SoldierIdentity") }, typeof(GeneratedManagedPatch_467), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(468, 9, "Yexiaoyang.InteriorExpansion.DistrictService", "CreateTacticalTest", "Yexiaoyang.InteriorExpansion.TacticalMap", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap") }, typeof(GeneratedManagedPatch_468), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(464, 0, "Yexiaoyang.InteriorExpansion.TacticalMaps", "LoadEditable", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_464), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(465, 1, "Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadMap", "System.String, System.Xml.Linq.XElement", new Type[] { typeof(global::System.String), typeof(global::System.Xml.Linq.XElement) }, typeof(GeneratedManagedPatch_465), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(466, 2, "Yexiaoyang.InteriorExpansion.TacticalMaps", "RequireId", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_466), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(467, 3, "Yexiaoyang.InteriorExpansion.TacticalMaps", "ValidateMap", "Yexiaoyang.InteriorExpansion.TacticalMap, System.Func`2<System.String,Yexiaoyang.InteriorExpansion.TacticalPropDef>, System.Boolean", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap"), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalPropDef") }), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_467), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(468, 4, "Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadCell", "System.Xml.Linq.XElement", new Type[] { typeof(global::System.Xml.Linq.XElement) }, typeof(GeneratedManagedPatch_468), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(469, 5, "Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadInt", "System.Xml.Linq.XElement, System.String", new Type[] { typeof(global::System.Xml.Linq.XElement), typeof(global::System.String) }, typeof(GeneratedManagedPatch_469), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(470, 6, "Yexiaoyang.InteriorExpansion.TacticalBoard", "Create", "Yexiaoyang.InteriorExpansion.TacticalMap, System.Collections.Generic.IEnumerable`1<Yexiaoyang.InteriorExpansion.TacticalUnit>", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap"), (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalUnit") }) }, typeof(GeneratedManagedPatch_470), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(471, 7, "Yexiaoyang.InteriorExpansion.TacticalBoard", "FindSpawn", "Yexiaoyang.InteriorExpansion.TacticalUnit, System.Collections.Generic.IReadOnlyList`1<UnityEngine.Vector2Int>", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalUnit"), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { typeof(global::UnityEngine.Vector2Int) }) }, typeof(GeneratedManagedPatch_471), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(472, 8, "Yexiaoyang.InteriorExpansion.DistrictService", "AddTacticalTestFighter", "System.Collections.Generic.List`1<Yexiaoyang.InteriorExpansion.DistrictFighter>, System.String, System.String, System.String, Yexiaoyang.InteriorExpansion.SoldierProfession, Yexiaoyang.InteriorExpansion.SoldierIdentity", new Type[] { (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.DistrictFighter") }), typeof(global::System.String), typeof(global::System.String), typeof(global::System.String), ModReflect.FindType("Yexiaoyang.InteriorExpansion.SoldierProfession"), ModReflect.FindType("Yexiaoyang.InteriorExpansion.SoldierIdentity") }, typeof(GeneratedManagedPatch_472), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(473, 9, "Yexiaoyang.InteriorExpansion.DistrictService", "CreateTacticalTest", "Yexiaoyang.InteriorExpansion.TacticalMap", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap") }, typeof(GeneratedManagedPatch_473), "Transpiler", false, null));
         }
 
         private static void Add_18_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(469, 0, "CartelSupply", "Sync", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_469), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(474, 0, "CartelSupply", "Sync", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_474), "Transpiler", false, null));
         }
 
         private static void Add_19_0(ICollection<ManagedExactBinding> bindings)
         {
-            bindings.Add(new ManagedExactBinding(470, 0, "HologramTrade.AppraisalService", "Incomplete", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_470), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(471, 0, "HologramTrade.AppraisalService", "FinishCondition", "HologramTrade.InspectionReport, System.String, System.Boolean", new Type[] { ModReflect.FindType("HologramTrade.InspectionReport"), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_471), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(472, 0, "HologramTrade.AppraisalService", "Cigarette", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_472), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(473, 0, "HologramTrade.AppraisalService", "Stamp", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_473), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(474, 0, "HologramTrade.AppraisalService", "Injector", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_474), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(475, 0, "HologramTrade.AppraisalService", "Hand", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_475), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(476, 0, "HologramTrade.AppraisalService", "Plasma", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_476), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(477, 0, "HologramTrade.AppraisalService", "Ribwich", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_477), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(478, 0, "HologramTrade.AppraisalService", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_478), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(479, 1, "HologramTrade.ChemicalAppraisal", "Inspect", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_479), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(480, 2, "HologramTrade.CustomerForecastService", "Inspect", "GameItem, StoreClient, System.Boolean, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_480), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(481, 3, "HologramTrade.CustomerForecastService", "Describe", "HologramTrade.CustomerForecast, System.String, System.Boolean", new Type[] { ModReflect.FindType("HologramTrade.CustomerForecast"), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_481), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(482, 4, "HologramTrade.CustomerForecastService", "InspectionError", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_482), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(483, 5, "HologramTrade.CustomerForecastView", "ForecastText", "GameItem, StoreClient, System.Boolean, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_483), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(484, 6, "HologramTrade.CustomerIdentityService", "Label", "StoreClient, System.Boolean", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_484), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(485, 7, "HologramTrade.CustomerIdentityService", "IsWantedLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_485), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(486, 8, "HologramTrade.CustomerIdentityService", "WithReward", "StoreClient, System.Boolean", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_486), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(487, 9, "HologramTrade.CustomerPanelLayout", "Messages", "System.Boolean, System.Boolean, System.String, System.Boolean", new Type[] { typeof(global::System.Boolean), typeof(global::System.Boolean), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_487), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(488, 10, "HologramTrade.CustomerPanelLayout", "TextColor", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_488), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(489, 11, "HologramTrade.HologramTradeView", "Status", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_489), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(490, 12, "HologramTrade.HologramTradeView", "PulseLabels", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_490), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(491, 13, "HologramTrade.CustomerSceneHologram", "UpdateMorningEvents", "StoreStation, System.Boolean", new Type[] { typeof(global::StoreStation), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_491), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(492, 14, "HologramTrade.HologramBargainControls", "Layout", "NegotiationTabletFrame, System.Single", new Type[] { typeof(global::NegotiationTabletFrame), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_492), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(493, 15, "HologramTrade.HologramScaleMenu", "Open", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_493), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(494, 16, "HologramTrade.HologramSettingsView", ".ctor", "CustomUIWindow, System.Action", null, typeof(GeneratedManagedPatch_494), "Transpiler", true, null));
-            bindings.Add(new ManagedExactBinding(495, 17, "HologramTrade.HologramTradeView", "LayoutButtons", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_495), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(496, 18, "HologramTrade.InspectionOptionLabels", "Name", "System.String, System.Boolean, System.Func`2<System.String,System.String>", new Type[] { typeof(global::System.String), typeof(global::System.Boolean), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_496), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(497, 19, "HologramTrade.LabelInspectionService", "ConditionName", "ItemCondition, System.Boolean", new Type[] { typeof(global::ItemCondition), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_497), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(498, 20, "HologramTrade.LabelInspectionService", "Inspect", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_498), "Transpiler", false, null));
-            bindings.Add(new ManagedExactBinding(499, 21, "HologramTrade.WholesaleView", "Fail", "System.Exception", new Type[] { typeof(global::System.Exception) }, typeof(GeneratedManagedPatch_499), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(475, 0, "HologramTrade.AppraisalService", "Incomplete", "System.Boolean", new Type[] { typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_475), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(476, 0, "HologramTrade.AppraisalService", "FinishCondition", "HologramTrade.InspectionReport, System.String, System.Boolean", new Type[] { ModReflect.FindType("HologramTrade.InspectionReport"), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_476), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(477, 0, "HologramTrade.AppraisalService", "Cigarette", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_477), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(478, 0, "HologramTrade.AppraisalService", "Stamp", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_478), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(479, 0, "HologramTrade.AppraisalService", "Injector", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_479), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(480, 0, "HologramTrade.AppraisalService", "Hand", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_480), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(481, 0, "HologramTrade.AppraisalService", "Plasma", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_481), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(482, 0, "HologramTrade.AppraisalService", "Ribwich", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_482), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(483, 0, "HologramTrade.AppraisalService", "Translate", "System.String, System.Boolean", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_483), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(484, 1, "HologramTrade.ChemicalAppraisal", "Inspect", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_484), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(485, 2, "HologramTrade.CustomerForecastService", "Inspect", "GameItem, StoreClient, System.Boolean, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_485), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(486, 3, "HologramTrade.CustomerForecastService", "Describe", "HologramTrade.CustomerForecast, System.String, System.Boolean", new Type[] { ModReflect.FindType("HologramTrade.CustomerForecast"), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_486), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(487, 4, "HologramTrade.CustomerForecastService", "InspectionError", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_487), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(488, 5, "HologramTrade.CustomerForecastView", "ForecastText", "GameItem, StoreClient, System.Boolean, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_488), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(489, 6, "HologramTrade.CustomerIdentityService", "Label", "StoreClient, System.Boolean", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_489), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(490, 7, "HologramTrade.CustomerIdentityService", "IsWantedLabel", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_490), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(491, 8, "HologramTrade.CustomerIdentityService", "WithReward", "StoreClient, System.Boolean", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_491), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(492, 9, "HologramTrade.CustomerPanelLayout", "Messages", "System.Boolean, System.Boolean, System.String, System.Boolean", new Type[] { typeof(global::System.Boolean), typeof(global::System.Boolean), typeof(global::System.String), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_492), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(493, 10, "HologramTrade.CustomerPanelLayout", "TextColor", "System.String", new Type[] { typeof(global::System.String) }, typeof(GeneratedManagedPatch_493), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(494, 11, "HologramTrade.HologramTradeView", "Status", "System.String, System.String", new Type[] { typeof(global::System.String), typeof(global::System.String) }, typeof(GeneratedManagedPatch_494), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(495, 12, "HologramTrade.HologramTradeView", "PulseLabels", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_495), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(496, 13, "HologramTrade.CustomerSceneHologram", "UpdateMorningEvents", "StoreStation, System.Boolean", new Type[] { typeof(global::StoreStation), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_496), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(497, 14, "HologramTrade.HologramBargainControls", "Layout", "NegotiationTabletFrame, System.Single", new Type[] { typeof(global::NegotiationTabletFrame), typeof(global::System.Single) }, typeof(GeneratedManagedPatch_497), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(498, 15, "HologramTrade.HologramScaleMenu", "Open", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_498), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(499, 16, "HologramTrade.HologramSettingsView", ".ctor", "CustomUIWindow, System.Action", null, typeof(GeneratedManagedPatch_499), "Transpiler", true, null));
+            bindings.Add(new ManagedExactBinding(500, 17, "HologramTrade.HologramTradeView", "LayoutButtons", "", Type.EmptyTypes, typeof(GeneratedManagedPatch_500), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(501, 18, "HologramTrade.InspectionOptionLabels", "Name", "System.String, System.Boolean, System.Func`2<System.String,System.String>", new Type[] { typeof(global::System.String), typeof(global::System.Boolean), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String) }) }, typeof(GeneratedManagedPatch_501), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(502, 19, "HologramTrade.LabelInspectionService", "ConditionName", "ItemCondition, System.Boolean", new Type[] { typeof(global::ItemCondition), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_502), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(503, 20, "HologramTrade.LabelInspectionService", "Inspect", "GameItem, System.Boolean", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) }, typeof(GeneratedManagedPatch_503), "Transpiler", false, null));
+            bindings.Add(new ManagedExactBinding(504, 21, "HologramTrade.WholesaleView", "Fail", "System.Exception", new Type[] { typeof(global::System.Exception) }, typeof(GeneratedManagedPatch_504), "Transpiler", false, null));
         }
     }
 
@@ -1470,7 +1475,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(79);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 79);
     }
@@ -1480,7 +1485,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(80);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 80);
     }
@@ -1490,7 +1495,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(81);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_4", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_4", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 81);
     }
@@ -1500,7 +1505,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(82);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_7", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_7", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 82);
     }
@@ -1510,7 +1515,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(83);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_8", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_8", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 83);
     }
@@ -1520,7 +1525,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(84);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_9", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_9", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 84);
     }
@@ -1530,7 +1535,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(85);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_10", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_10", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 85);
     }
@@ -1540,7 +1545,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(86);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_11", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_11", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 86);
     }
@@ -1550,7 +1555,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(87);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_12", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_12", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 87);
     }
@@ -1560,7 +1565,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(88);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_13", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_13", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 88);
     }
@@ -1570,7 +1575,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(89);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_15", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_15", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 89);
     }
@@ -1580,7 +1585,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(90);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_16", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_16", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 90);
     }
@@ -1590,7 +1595,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(91);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_17", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_17", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 91);
     }
@@ -1600,7 +1605,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(92);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_18", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_18", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 92);
     }
@@ -1610,7 +1615,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(93);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_19", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_19", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 93);
     }
@@ -1620,7 +1625,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(94);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_20", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_20", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 94);
     }
@@ -1630,7 +1635,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(95);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_21", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_21", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 95);
     }
@@ -1640,7 +1645,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(96);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_23", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_23", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 96);
     }
@@ -1990,7 +1995,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(131);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_2", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_2", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 131);
     }
@@ -2000,7 +2005,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(132);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_3", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_3", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 132);
     }
@@ -2010,7 +2015,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(133);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_5", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_5", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 133);
     }
@@ -2020,7 +2025,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(134);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_6", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_6", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 134);
     }
@@ -2030,7 +2035,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(135);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_14", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_14", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 135);
     }
@@ -2040,7 +2045,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(136);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__76_22", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime+<>c", "<Initialize>b__84_22", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 136);
     }
@@ -2170,9 +2175,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(149);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbablyStolenCrateReveal.UiText", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 149);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime", "get_ReferenceTabNamesCaption", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 149);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_150
@@ -2180,9 +2185,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(150);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.CakeDialogueLocalization", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 150);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SettingsRuntime", "get_ReferenceTabNamesHint", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 150);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_151
@@ -2190,9 +2195,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(151);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcLocalization", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 151);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SmartInsertFeedback", "NamedRoutedSuccess", new Type[] { ModReflect.FindType("SmartInventoryArrange.SmartInsertFeedback+Attempt"), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Char) }) }), (typeof(global::System.String)).MakeArrayType(), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 151);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_152
@@ -2200,9 +2205,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(152);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcLocalization", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 152);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SmartInsertFeedback+<>c__DisplayClass28_0", "<NamedRoutedSuccess>g__Line|2", new Type[] { (typeof(global::System.ValueTuple<,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Char) }), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 152);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_153
@@ -2210,9 +2215,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(153);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcOptions", "T", new Type[] { typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 153);
+        internal static MethodBase TargetMethod() => ModReflect.Target("SmartInventoryArrange.SmartInsertStatusGui", "SelectText", new Type[] { typeof(global::System.Double) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 153);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_154
@@ -2220,9 +2225,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(154);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcPostGiftChatText", "Topic", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbablyStolenCrateReveal.UiText", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string[] __result) => ManagedLiteralOverlay.PostfixStringArrayBinding(ref __result, 154);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 154);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_155
@@ -2230,9 +2235,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(155);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcPostGiftChatText", "get_Skip", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.CakeDialogueLocalization", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 155);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 155);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_156
@@ -2240,9 +2245,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(156);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcPostGiftChatText", "get_SkipReply", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcLocalization", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 156);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 156);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_157
@@ -2250,9 +2255,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(157);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcRuntime", "Install", new Type[] { (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 157);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcLocalization", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 157);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_158
@@ -2260,9 +2265,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(158);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcOptions", "Install", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 158);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcOptions", "T", new Type[] { typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 158);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_159
@@ -2270,9 +2275,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(159);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "Initialize", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 159);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcPostGiftChatText", "Topic", new Type[] { typeof(global::System.Int32) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string[] __result) => ManagedLiteralOverlay.PostfixStringArrayBinding(ref __result, 159);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_160
@@ -2280,9 +2285,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(160);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "BrightnessLabel", new Type[] { typeof(global::System.String) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 160);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcPostGiftChatText", "get_Skip", Type.EmptyTypes);
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 160);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_161
@@ -2290,9 +2295,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(161);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "BrightnessHint", new Type[] { typeof(global::System.String) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 161);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcPostGiftChatText", "get_SkipReply", Type.EmptyTypes);
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 161);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_162
@@ -2300,7 +2305,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(162);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "SectionLabel", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcRuntime", "Install", new Type[] { (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 162);
     }
@@ -2310,7 +2315,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(163);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "OtherSectionLabel", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbableFoodPack.NpcOptions", "Install", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 163);
     }
@@ -2320,7 +2325,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(164);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "FilterAlertLabel", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "Initialize", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 164);
     }
@@ -2330,7 +2335,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(165);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "<Initialize>g__Add|9_0", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }), (ModReflect.FindType("ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0")).MakeByRefType() });
+        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "BrightnessLabel", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 165);
     }
@@ -2340,9 +2345,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(166);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("BetterLiquidScanner.L10n", "T", new Type[] { typeof(global::System.String), (typeof(global::System.Object)).MakeArrayType() });
-        [HarmonyPrefix]
-        internal static bool Prefix(string __0, object[] __1, ref string __result) => ManagedLiteralOverlay.PrefixFormatByKey(__0, __1, ref __result, 166);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "BrightnessHint", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 166);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_167
@@ -2350,9 +2355,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(167);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookbook", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 167);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "SectionLabel", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 167);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_168
@@ -2360,9 +2365,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(168);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 168);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "OtherSectionLabel", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 168);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_169
@@ -2370,9 +2375,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(169);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriIndustry", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 169);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "FilterAlertLabel", new Type[] { typeof(global::System.String) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 169);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_170
@@ -2380,9 +2385,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(170);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCropHandbook", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 170);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ItemDurabilityBars.DisplaySettings", "<Initialize>g__Add|9_0", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }), (ModReflect.FindType("ItemDurabilityBars.DisplaySettings+<>c__DisplayClass9_0")).MakeByRefType() });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 170);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_171
@@ -2390,9 +2395,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(171);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriDelivery", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 171);
+        internal static MethodBase TargetMethod() => ModReflect.Target("BetterLiquidScanner.L10n", "T", new Type[] { typeof(global::System.String), (typeof(global::System.Object)).MakeArrayType() });
+        [HarmonyPrefix]
+        internal static bool Prefix(string __0, object[] __1, ref string __result) => ManagedLiteralOverlay.PrefixFormatByKey(__0, __1, ref __result, 171);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_172
@@ -2400,7 +2405,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(172);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriDeliveryMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookbook", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 172);
     }
@@ -2410,7 +2415,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(173);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 173);
     }
@@ -2420,7 +2425,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(174);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmAccess", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriIndustry", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 174);
     }
@@ -2430,7 +2435,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(175);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCropHandbook", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 175);
     }
@@ -2440,7 +2445,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(176);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmHandbook", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriDelivery", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 176);
     }
@@ -2450,7 +2455,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(177);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriDeliveryMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 177);
     }
@@ -2460,7 +2465,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(178);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmSecurity", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 178);
     }
@@ -2470,7 +2475,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(179);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockAccess", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmAccess", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 179);
     }
@@ -2480,7 +2485,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(180);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 180);
     }
@@ -2490,7 +2495,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(181);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmHandbook", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 181);
     }
@@ -2500,7 +2505,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(182);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriNextCatalog", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 182);
     }
@@ -2510,7 +2515,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(183);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeItems", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmSecurity", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 183);
     }
@@ -2520,7 +2525,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(184);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeMachines", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockAccess", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 184);
     }
@@ -2530,7 +2535,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(185);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeManual", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 185);
     }
@@ -2540,7 +2545,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(186);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeManualText", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 186);
     }
@@ -2550,7 +2555,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(187);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeProcessor", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriNextCatalog", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 187);
     }
@@ -2560,7 +2565,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(188);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriSuperCrops", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeItems", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 188);
     }
@@ -2570,7 +2575,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(189);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringGameWindow", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeMachines", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 189);
     }
@@ -2580,7 +2585,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(190);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoring", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeManual", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 190);
     }
@@ -2590,7 +2595,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(191);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringManual", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeManualText", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 191);
     }
@@ -2600,9 +2605,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(192);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "Describe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 192);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeProcessor", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 192);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_193
@@ -2610,9 +2615,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(193);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__0", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 193);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriSuperCrops", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 193);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_194
@@ -2620,9 +2625,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(194);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCropHandbook", "BuildBook", new Type[] { typeof(global::GameItem) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 194);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringGameWindow", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 194);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_195
@@ -2630,9 +2635,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(195);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "Open", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 195);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoring", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 195);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_196
@@ -2640,9 +2645,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(196);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "OpenGoodsShop", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 196);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringManual", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 196);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_197
@@ -2650,7 +2655,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(197);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "RefreshWindow", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "Describe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 197);
     }
@@ -2660,7 +2665,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(198);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "EndJournal", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems+<>c__DisplayClass6_0", "<Note>b__0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 198);
     }
@@ -2670,7 +2675,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(199);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "IndustryPolicy", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCropHandbook", "BuildBook", new Type[] { typeof(global::GameItem) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 199);
     }
@@ -2680,7 +2685,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(200);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "Metric", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "Open", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 200);
     }
@@ -2690,7 +2695,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(201);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "OpenAnimals", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "OpenGoodsShop", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 201);
     }
@@ -2700,7 +2705,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(202);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "OpenPlot", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "RefreshWindow", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 202);
     }
@@ -2710,7 +2715,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(203);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "OpenRecyclingSettings", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "EndJournal", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 203);
     }
@@ -2720,7 +2725,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(204);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "OpenStock", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "IndustryPolicy", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 204);
     }
@@ -2730,7 +2735,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(205);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "PlotLabel", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "Metric", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 205);
     }
@@ -2740,7 +2745,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(206);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "RefreshPlot", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "OpenAnimals", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 206);
     }
@@ -2750,7 +2755,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(207);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "UpdateStock", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "OpenPlot", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 207);
     }
@@ -2760,7 +2765,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(208);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "WaterReport", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "OpenRecyclingSettings", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 208);
     }
@@ -2770,7 +2775,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(209);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmHandbook", "Build", new Type[] { typeof(global::GameItem), ((typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Int32) })).MakeByRefType() });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "OpenStock", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 209);
     }
@@ -2780,7 +2785,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(210);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriIndustry", "Buttons", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Action), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "PlotLabel", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 210);
     }
@@ -2790,7 +2795,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(211);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeMachines", "CreateBlender", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "RefreshPlot", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 211);
     }
@@ -2800,7 +2805,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(212);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "UpdateStock", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 212);
     }
@@ -2810,7 +2815,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(213);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeProcessor", "Create", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "WaterReport", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 213);
     }
@@ -2820,7 +2825,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(214);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriSuperManual", "Crop", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmHandbook", "Build", new Type[] { typeof(global::GameItem), ((typeof(global::System.Func<,,>)).MakeGenericType(new Type[] { typeof(global::System.Int32), typeof(global::System.Int32), typeof(global::System.Int32) })).MakeByRefType() });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 214);
     }
@@ -2830,9 +2835,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(215);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriText", "Get", new Type[] { typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 215);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriIndustry", "Buttons", new Type[] { typeof(global::GameItem), typeof(global::GameInventory), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Action), (typeof(global::System.Action<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 215);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_216
@@ -2840,9 +2845,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(216);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriText", "SavedText", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 216);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeMachines", "CreateBlender", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 216);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_217
@@ -2850,9 +2855,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(217);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriText", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 217);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeMachines+Blender", "Refresh", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 217);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_218
@@ -2860,9 +2865,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(218);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 218);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriPerfumeProcessor", "Create", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 218);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_219
@@ -2870,7 +2875,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(219);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "get_WaterNames", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriSuperManual", "Crop", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 219);
     }
@@ -2880,9 +2885,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(220);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ApplyMineralRatio", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 220);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriText", "Get", new Type[] { typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 220);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_221
@@ -2890,9 +2895,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(221);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookbookText", "Review", new Type[] { ModReflect.FindType("AgriExpansion.CookingRecipe"), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriText", "SavedText", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 221);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 221);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_222
@@ -2900,9 +2905,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(222);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "Create", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 222);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriText", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 222);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_223
@@ -2910,9 +2915,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(223);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "Create", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 223);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 223);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_224
@@ -2920,7 +2925,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(224);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "Create", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "get_WaterNames", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 224);
     }
@@ -2930,7 +2935,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(225);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Collect", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ApplyMineralRatio", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 225);
     }
@@ -2940,9 +2945,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(226);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectName", new Type[] { typeof(global::System.Int32) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 226);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookbookText", "Review", new Type[] { ModReflect.FindType("AgriExpansion.CookingRecipe"), typeof(global::System.Boolean) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 226);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_227
@@ -2950,7 +2955,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(227);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "Create", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 227);
     }
@@ -2960,7 +2965,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(228);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "Create", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 228);
     }
@@ -2970,7 +2975,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(229);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "Create", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 229);
     }
@@ -2980,7 +2985,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(230);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectCosts", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Collect", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 230);
     }
@@ -2990,7 +2995,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(231);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectCosts", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectName", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 231);
     }
@@ -3000,7 +3005,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(232);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 232);
     }
@@ -3010,7 +3015,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(233);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 233);
     }
@@ -3020,7 +3025,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(234);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 234);
     }
@@ -3030,7 +3035,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(235);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectCosts", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 235);
     }
@@ -3040,7 +3045,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(236);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectCosts", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 236);
     }
@@ -3050,7 +3055,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(237);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 237);
     }
@@ -3060,7 +3065,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(238);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 238);
     }
@@ -3070,7 +3075,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(239);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 239);
     }
@@ -3080,7 +3085,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(240);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 240);
     }
@@ -3110,7 +3115,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(243);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 243);
     }
@@ -3120,7 +3125,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(244);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 244);
     }
@@ -3130,7 +3135,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(245);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "Describe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 245);
     }
@@ -3140,7 +3145,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(246);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "Describe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 246);
     }
@@ -3150,7 +3155,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(247);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "Describe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 247);
     }
@@ -3160,7 +3165,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(248);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriDeliveryMachine", "Create", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 248);
     }
@@ -3170,7 +3175,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(249);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "Open", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 249);
     }
@@ -3180,7 +3185,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(250);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectName", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "Describe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 250);
     }
@@ -3190,7 +3195,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(251);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectCosts", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "Describe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 251);
     }
@@ -3200,7 +3205,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(252);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectCosts", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriCookingItems", "Describe", new Type[] { typeof(global::GameItem), ModReflect.FindType("AgriExpansion.CookingRecipe") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 252);
     }
@@ -3210,7 +3215,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(253);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriDeliveryMachine", "Create", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 253);
     }
@@ -3220,7 +3225,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(254);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriEleanorStory", "Open", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 254);
     }
@@ -3230,7 +3235,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(255);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectName", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 255);
     }
@@ -3240,7 +3245,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(256);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ApplyMineralRatio", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectCosts", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 256);
     }
@@ -3250,7 +3255,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(257);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ApplyMineralRatio", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ProjectCosts", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 257);
     }
@@ -3260,7 +3265,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(258);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "Create", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 258);
     }
@@ -3270,7 +3275,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(259);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFoodMachine", "Create", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 259);
     }
@@ -3280,7 +3285,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(260);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockCooking", "Name", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "BuildAnimalProject", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 260);
     }
@@ -3290,7 +3295,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(261);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems", "CreateEgg", new Type[] { typeof(global::System.Boolean), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ApplyMineralRatio", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 261);
     }
@@ -3300,7 +3305,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(262);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems", "RefreshEgg", new Type[] { typeof(global::GameItem) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "ApplyMineralRatio", new Type[] { typeof(global::GameItem), typeof(global::System.Int32), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 262);
     }
@@ -3310,7 +3315,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(263);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarmMachine", "Create", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 263);
     }
@@ -3320,7 +3325,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(264);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_2", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFoodMachine", "Create", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 264);
     }
@@ -3330,7 +3335,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(265);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_3", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockCooking", "Name", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 265);
     }
@@ -3340,7 +3345,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(266);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems", "CreateEgg", new Type[] { typeof(global::System.Boolean), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 266);
     }
@@ -3350,7 +3355,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(267);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems", "RefreshEgg", new Type[] { typeof(global::GameItem) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 267);
     }
@@ -3360,7 +3365,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(268);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Collect", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 268);
     }
@@ -3370,7 +3375,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(269);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_2", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 269);
     }
@@ -3380,7 +3385,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(270);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriLivestockItems+<>c", "<Register>b__10_3", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 270);
     }
@@ -3390,7 +3395,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(271);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 271);
     }
@@ -3400,7 +3405,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(272);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 272);
     }
@@ -3410,7 +3415,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(273);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine+MilkingView", "Collect", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 273);
     }
@@ -3440,7 +3445,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(276);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 276);
     }
@@ -3450,7 +3455,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(277);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 277);
     }
@@ -3460,7 +3465,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(278);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 278);
     }
@@ -3470,7 +3475,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(279);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriSuperManual", "Crop", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 279);
     }
@@ -3480,7 +3485,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(280);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringManualText", "Profession", new Type[] { typeof(global::System.Int32), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Refresh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 280);
     }
@@ -3490,7 +3495,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(281);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringManualText", "Profession", new Type[] { typeof(global::System.Int32), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 281);
     }
@@ -3500,7 +3505,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(282);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 282);
     }
@@ -3510,7 +3515,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(283);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.TailorView", "Requirements", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 283);
     }
@@ -3520,7 +3525,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(284);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriSuperManual", "Crop", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 284);
     }
@@ -3530,7 +3535,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(285);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringManualText", "Profession", new Type[] { typeof(global::System.Int32), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 285);
     }
@@ -3540,7 +3545,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(286);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringManualText", "Profession", new Type[] { typeof(global::System.Int32), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 286);
     }
@@ -3550,7 +3555,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(287);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTraitDescriptions", "For", new Type[] { typeof(global::System.String), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 287);
     }
@@ -3560,7 +3565,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(288);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTraitDescriptions", "For", new Type[] { typeof(global::System.String), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 288);
     }
@@ -3570,9 +3575,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(289);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentsBinding(__args, ref __result, 289);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 289);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_290
@@ -3580,7 +3585,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(290);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "<RepairText>b__82_0", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 290);
     }
@@ -3590,7 +3595,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(291);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriUniformItems", "Effects", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTailoringRules", "Needs", new Type[] { ModReflect.FindType("AgriExpansion.UniformRecipe"), ModReflect.FindType("AgriExpansion.TailorStep") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 291);
     }
@@ -3600,9 +3605,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(292);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ClockSettings", "T", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 292);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTraitDescriptions", "For", new Type[] { typeof(global::System.String), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 292);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_293
@@ -3610,9 +3615,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(293);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("StationEvents.TranslationCatalog", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 293);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriTraitDescriptions", "For", new Type[] { typeof(global::System.String), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 293);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_294
@@ -3620,7 +3625,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(294);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("StationEvents.TranslationCatalog", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriMilkingMachine", "T", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
         internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentsBinding(__args, ref __result, 294);
     }
@@ -3630,9 +3635,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(295);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSCaseOpening.OpeningDescriptionData", "Read", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentsBinding(__args, ref __result, 295);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriFarm", "<RepairText>b__82_0", new Type[] { typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 295);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_296
@@ -3640,9 +3645,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(296);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.AgentDialogues", "Pick", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Random) });
-        [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 296);
+        internal static MethodBase TargetMethod() => ModReflect.Target("AgriExpansion.AgriUniformItems", "Effects", new Type[] { typeof(global::System.Int32), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 296);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_297
@@ -3650,9 +3655,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(297);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "Case", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("ClockSettings", "T", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 297);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 297);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_298
@@ -3660,9 +3665,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(298);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "ItemName", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("StationEvents.TranslationCatalog", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 298);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 298);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_299
@@ -3670,9 +3675,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(299);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "T", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("StationEvents.TranslationCatalog", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 299);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentsBinding(__args, ref __result, 299);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_300
@@ -3680,9 +3685,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(300);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSCaseOpening.OpeningDescriptionData", "Read", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 300);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentsBinding(__args, ref __result, 300);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_301
@@ -3690,7 +3695,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(301);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.AgentDialogues", "Pick", new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.Random) });
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 301);
     }
@@ -3700,7 +3705,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(302);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "Weapon", new Type[] { ModReflect.FindType("CSWeaponCase.WeaponDefinition") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "Case", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition") });
         [HarmonyPostfix]
         internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 302);
     }
@@ -3710,9 +3715,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(303);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.BadLuckLeaderboardView", "Request", new Type[] { typeof(global::System.Int32) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 303);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "ItemName", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 303);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_304
@@ -3720,9 +3725,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(304);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CasePoolPreview+<>c__DisplayClass40_1", "<ShowBatch>b__2", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 304);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "T", new Type[] { typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 304);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_305
@@ -3730,9 +3735,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(305);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CasePoolPreview+<>c__DisplayClass40_1", "<ShowBatch>b__7", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 305);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 305);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_306
@@ -3740,9 +3745,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(306);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CasePoolPreview+<>c__DisplayClass44_0", "<ShowCapsule>b__0", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 306);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 306);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_307
@@ -3750,9 +3755,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(307);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "FilterSkins", Type.EmptyTypes);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 307);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "Weapon", new Type[] { ModReflect.FindType("CSWeaponCase.WeaponDefinition") });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 307);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_308
@@ -3760,7 +3765,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(308);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "Layout", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.BadLuckLeaderboardView", "Request", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 308);
     }
@@ -3770,7 +3775,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(309);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "RenderPicker", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CasePoolPreview+<>c__DisplayClass40_1", "<ShowBatch>b__2", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 309);
     }
@@ -3780,7 +3785,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(310);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "Render", new Type[] { ModReflect.FindType("CSWeaponCase.LeaderboardPage") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CasePoolPreview+<>c__DisplayClass40_1", "<ShowBatch>b__7", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 310);
     }
@@ -3790,7 +3795,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(311);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "Request", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CasePoolPreview+<>c__DisplayClass44_0", "<ShowCapsule>b__0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 311);
     }
@@ -3800,7 +3805,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(312);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionSkinFilters", "Category", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "FilterSkins", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 312);
     }
@@ -3810,7 +3815,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(313);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CsContacts+<>c__DisplayClass16_0", "<Dialog>b__0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "Layout", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 313);
     }
@@ -3820,7 +3825,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(314);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CsIntel", "Create", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "RenderPicker", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 314);
     }
@@ -3830,7 +3835,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(315);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CsNativeCalendar", "Complete", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "Render", new Type[] { ModReflect.FindType("CSWeaponCase.LeaderboardPage") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 315);
     }
@@ -3840,7 +3845,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(316);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass171_0", "<PurchasePrompt>b__5", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionLeaderboardView", "Request", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 316);
     }
@@ -3850,7 +3855,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(317);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass171_0", "<PurchasePrompt>b__8", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CollectionSkinFilters", "Category", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 317);
     }
@@ -3860,7 +3865,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(318);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CsContacts+<>c__DisplayClass16_0", "<Dialog>b__0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 318);
     }
@@ -3870,7 +3875,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(319);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__2", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CsIntel", "Create", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 319);
     }
@@ -3880,7 +3885,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(320);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__7", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.CsNativeCalendar", "Complete", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 320);
     }
@@ -3890,7 +3895,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(321);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass67_0", "<SettingToggle>b__0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass171_0", "<PurchasePrompt>b__5", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 321);
     }
@@ -3900,7 +3905,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(322);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass5_0", "<GroupSalePrompt>b__1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass171_0", "<PurchasePrompt>b__8", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 322);
     }
@@ -3910,7 +3915,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(323);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "RefreshBulkLabel", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 323);
     }
@@ -3920,7 +3925,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(324);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "RenderCards", new Type[] { typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__2", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 324);
     }
@@ -3930,7 +3935,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(325);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "SettingChanged", new Type[] { typeof(global::System.Action) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass63_0", "<ShowTerminalSettings>b__7", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 325);
     }
@@ -3940,7 +3945,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(326);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "TickTerminalShortcutCapture", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass67_0", "<SettingToggle>b__0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 326);
     }
@@ -3950,7 +3955,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(327);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.OpeningLedgerView+Page", "Render", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<>c__DisplayClass5_0", "<GroupSalePrompt>b__1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 327);
     }
@@ -3960,7 +3965,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(328);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectLocalization", "SettingsFooter", new Type[] { typeof(global::CustomUIWindow) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "RefreshBulkLabel", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 328);
     }
@@ -3970,7 +3975,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(329);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectLocalization", "Settings", new Type[] { typeof(global::CustomUIWindow) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "RenderCards", new Type[] { typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 329);
     }
@@ -3980,7 +3985,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(330);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.StickerInspectPanel", "Confirm", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "SettingChanged", new Type[] { typeof(global::System.Action) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 330);
     }
@@ -3990,7 +3995,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(331);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.StickerInspectPanel", "Drop", new Type[] { typeof(global::GameItem), typeof(global::UnityEngine.Vector2) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "TickTerminalShortcutCapture", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 331);
     }
@@ -4000,7 +4005,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(332);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.StickerInspectPanel", "UpdateControls", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.OpeningLedgerView+Page", "Render", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 332);
     }
@@ -4010,7 +4015,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(333);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CardPackExpansion.Items", "Pack", new Type[] { ModReflect.FindType("CardPackExpansion.PackDefinition") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectLocalization", "SettingsFooter", new Type[] { typeof(global::CustomUIWindow) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 333);
     }
@@ -4020,7 +4025,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(334);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CardPackExpansion.Items", "Album", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectLocalization", "Settings", new Type[] { typeof(global::CustomUIWindow) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 334);
     }
@@ -4030,7 +4035,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(335);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<ApplyGroupFlags>d__215", "<>m__Finally1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.StickerInspectPanel", "Confirm", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 335);
     }
@@ -4040,7 +4045,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(336);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketStorage", "RetrieveCore", new Type[] { typeof(global::System.String), (typeof(global::System.String)).MakeByRefType(), (typeof(global::GameItem)).MakeByRefType(), typeof(global::System.Boolean), typeof(global::GameGridInventory), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::GameItem), typeof(global::SlotMarker) }) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.StickerInspectPanel", "Drop", new Type[] { typeof(global::GameItem), typeof(global::UnityEngine.Vector2) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 336);
     }
@@ -4050,9 +4055,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(337);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "T", new Type[] { typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 337);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.StickerInspectPanel", "UpdateControls", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 337);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_338
@@ -4060,7 +4065,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(338);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "UpdateGunFilters", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CardPackExpansion.Items", "Pack", new Type[] { ModReflect.FindType("CardPackExpansion.PackDefinition") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 338);
     }
@@ -4070,7 +4075,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(339);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "ToggleGunConditions", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CardPackExpansion.Items", "Album", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 339);
     }
@@ -4080,7 +4085,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(340);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "AddCaliberOption", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::System.String), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow+<ApplyGroupFlags>d__215", "<>m__Finally1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 340);
     }
@@ -4090,7 +4095,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(341);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.BatchOpening", "StartPlannedCore", new Type[] { typeof(global::System.String), typeof(global::GameItem), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSWeaponCase.OpeningResource") }), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSWeaponCase.OpeningResource") }), typeof(global::System.Int32), (typeof(global::System.String)).MakeByRefType() });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketStorage", "RetrieveCore", new Type[] { typeof(global::System.String), (typeof(global::System.String)).MakeByRefType(), (typeof(global::GameItem)).MakeByRefType(), typeof(global::System.Boolean), typeof(global::GameGridInventory), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::GameItem), typeof(global::SlotMarker) }) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 341);
     }
@@ -4100,9 +4105,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(342);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.BatchOpening", "BuildCasePreview", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition"), typeof(global::LoadedMod), ((typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSCaseOpening.LootView") })).MakeByRefType() });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 342);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.ProjectText", "T", new Type[] { typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 342);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_343
@@ -4110,9 +4115,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(343);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ProbablyStolenInGameModSettings.UiText", "Get", new Type[] { typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 343);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "UpdateGunFilters", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 343);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_344
@@ -4120,7 +4125,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(344);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("EleanorRescue.TextCatalog"), Type.EmptyTypes, searchForStatic: true);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "ToggleGunConditions", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 344);
     }
@@ -4130,9 +4135,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(345);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("ModText", "Get", new Type[] { typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 345);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.MarketWindow", "AddCaliberOption", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::System.String), typeof(global::System.Int32) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 345);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_346
@@ -4140,7 +4145,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(346);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.BtcStoryProfiles"), Type.EmptyTypes, searchForStatic: true);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.BatchOpening", "StartPlannedCore", new Type[] { typeof(global::System.String), typeof(global::GameItem), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSWeaponCase.OpeningResource") }), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSWeaponCase.OpeningResource") }), typeof(global::System.Int32), (typeof(global::System.String)).MakeByRefType() });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 346);
     }
@@ -4150,7 +4155,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(347);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.BtcStationPanel"), Type.EmptyTypes, searchForStatic: true);
+        internal static MethodBase TargetMethod() => ModReflect.Target("CSWeaponCase.BatchOpening", "BuildCasePreview", new Type[] { ModReflect.FindType("CSWeaponCase.CaseDefinition"), typeof(global::LoadedMod), ((typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("CSCaseOpening.LootView") })).MakeByRefType() });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 347);
     }
@@ -4160,9 +4165,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(348);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.DrinkRecipeBook"), Type.EmptyTypes, searchForStatic: true);
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 348);
+        internal static MethodBase TargetMethod() => ModReflect.Target("ProbablyStolenInGameModSettings.UiText", "Get", new Type[] { typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 348);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_349
@@ -4170,7 +4175,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(349);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.Va11MixologyItems"), Type.EmptyTypes, searchForStatic: true);
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("EleanorRescue.TextCatalog"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 349);
     }
@@ -4180,9 +4185,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(350);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Va11HallA.Loc", "Get", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("ModText", "Get", new Type[] { typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 350, koreanOnly: true);
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 350);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_351
@@ -4190,9 +4195,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(351);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Va11HallA.Loc", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
-        [HarmonyPostfix]
-        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 351, koreanOnly: true);
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.BtcStoryProfiles"), Type.EmptyTypes, searchForStatic: true);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 351);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_352
@@ -4200,7 +4205,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(352);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenClinicPrimer>b__577_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.BtcStationPanel"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 352);
     }
@@ -4210,7 +4215,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(353);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenForgeBook>b__351_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.DrinkRecipeBook"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 353);
     }
@@ -4220,7 +4225,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(354);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenPracticeGuide>b__575_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("Va11HallA.Va11MixologyItems"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 354);
     }
@@ -4230,9 +4235,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(355);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicText", "T", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Va11HallA.Loc", "Get", new Type[] { typeof(global::System.String) });
         [HarmonyPostfix]
-        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 355);
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 355, koreanOnly: true);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_356
@@ -4240,9 +4245,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(356);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AddPollutionTooltip", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 356);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Va11HallA.Loc", "Get", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(ref string __result) => ManagedLiteralOverlay.PostfixStringBinding(ref __result, 356, koreanOnly: true);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_357
@@ -4250,7 +4255,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(357);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AssessProcedure", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenClinicPrimer>b__577_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 357);
     }
@@ -4260,7 +4265,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(358);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureToolPresentation", new Type[] { typeof(global::GameItem) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenForgeBook>b__351_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 358);
     }
@@ -4270,7 +4275,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(359);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawAnesthesiaHandbook", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod+<>c", "<OpenPracticeGuide>b__575_0", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 359);
     }
@@ -4280,9 +4285,9 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(360);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawHandbookMaterials", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) });
-        [HarmonyTranspiler]
-        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 360);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ClinicText", "T", new Type[] { typeof(global::System.String) });
+        [HarmonyPostfix]
+        internal static void Postfix(object[] __args, ref string __result) => ManagedLiteralOverlay.PostfixByArgumentBinding(__args, ref __result, 360);
     }
     [HarmonyPatch]
     internal static class GeneratedManagedPatch_361
@@ -4290,7 +4295,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(361);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawHandbookStepRows", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }) }), typeof(global::System.Int32), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AddPollutionTooltip", new Type[] { typeof(global::RichTextBuilder), typeof(global::GameItem) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 361);
     }
@@ -4300,7 +4305,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(362);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerMeter", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.String), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Single), typeof(global::System.Single), typeof(global::UnityEngine.Color), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Double) }) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "AssessProcedure", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 362);
     }
@@ -4310,7 +4315,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(363);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawTitanManual", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ConfigureToolPresentation", new Type[] { typeof(global::GameItem) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 363);
     }
@@ -4320,7 +4325,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(364);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "HandbookOperationSteps", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawAnesthesiaHandbook", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 364);
     }
@@ -4330,7 +4335,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(365);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshBrainDecoder", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawHandbookMaterials", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 365);
     }
@@ -4340,7 +4345,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(366);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshForgeMachine", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+ForgeMachineState") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawHandbookStepRows", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { (typeof(global::System.ValueTuple<,,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String), typeof(global::System.String) }) }), typeof(global::System.Int32), typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 366);
     }
@@ -4350,7 +4355,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(367);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderClinicRoom", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerMeter", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.String), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Int32) }), typeof(global::System.Single), typeof(global::System.Single), typeof(global::UnityEngine.Color), (typeof(global::System.Nullable<>)).MakeGenericType(new Type[] { typeof(global::System.Double) }) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 367);
     }
@@ -4360,7 +4365,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(368);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderMedicalScanner", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawTitanManual", new Type[] { typeof(global::UnityEngine.Transform), typeof(global::TMPro.TMP_FontAsset), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 368);
     }
@@ -4370,7 +4375,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(369);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ToolDescription", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "HandbookOperationSteps", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 369);
     }
@@ -4380,7 +4385,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(370);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ViktorShopCatalog", "Build", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshBrainDecoder", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+BrainDecoderState") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 370);
     }
@@ -4390,7 +4395,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(371);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerBody", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RefreshForgeMachine", new Type[] { typeof(global::GameItem), ModReflect.FindType("Clinic.InventoryTest.TestMod+ForgeMachineState") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 371);
     }
@@ -4400,7 +4405,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(372);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "RebuildNow", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderClinicRoom", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 372);
     }
@@ -4410,7 +4415,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(373);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildTitle", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "RenderMedicalScanner", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 373);
     }
@@ -4420,7 +4425,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(374);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "SuppressText", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "ToolDescription", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 374);
     }
@@ -4430,7 +4435,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(375);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ConditionText", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.ViktorShopCatalog", "Build", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 375);
     }
@@ -4440,7 +4445,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(376);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildGunList", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Clinic.InventoryTest.TestMod", "DrawScannerBody", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 376);
     }
@@ -4450,7 +4455,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(377);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ShowInstallFailed", new Type[] { typeof(global::GameItem) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "RebuildNow", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 377);
     }
@@ -4460,7 +4465,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(378);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "MoveToCounter", new Type[] { typeof(global::GameItem) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildTitle", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 378);
     }
@@ -4470,7 +4475,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(379);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildPopup", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::UnityEngine.Vector2), typeof(global::UnityEngine.Vector2), typeof(global::System.Boolean), ModReflect.FindType("GunModTarkov.GunSlotInfo"), typeof(global::System.Single), typeof(global::System.Single) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "SuppressText", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 379);
     }
@@ -4480,7 +4485,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(380);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "TagLabel", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ConditionText", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 380);
     }
@@ -4490,7 +4495,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(381);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildOrderPanel", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Single) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildGunList", new Type[] { typeof(global::UnityEngine.RectTransform) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 381);
     }
@@ -4500,7 +4505,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(382);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_ScaleEntry", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ShowInstallFailed", new Type[] { typeof(global::GameItem) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 382);
     }
@@ -4510,7 +4515,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(383);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_ZoomInEntry", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "MoveToCounter", new Type[] { typeof(global::GameItem) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 383);
     }
@@ -4520,7 +4525,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(384);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_ZoomOutEntry", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildPopup", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::UnityEngine.Vector2), typeof(global::UnityEngine.Vector2), typeof(global::System.Boolean), ModReflect.FindType("GunModTarkov.GunSlotInfo"), typeof(global::System.Single), typeof(global::System.Single) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 384);
     }
@@ -4530,7 +4535,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(385);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_ReturnModeEntry", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "TagLabel", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 385);
     }
@@ -4540,7 +4545,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(386);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_HideInstalledEntry", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildOrderPanel", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Single) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 386);
     }
@@ -4550,7 +4555,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(387);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_MergeDupEntry", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_ScaleEntry", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 387);
     }
@@ -4560,7 +4565,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(388);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_PosXEntry", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_ZoomInEntry", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 388);
     }
@@ -4570,7 +4575,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(389);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_PosYEntry", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_ZoomOutEntry", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 389);
     }
@@ -4580,7 +4585,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(390);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildStats", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_ReturnModeEntry", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 390);
     }
@@ -4590,7 +4595,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(391);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildZoomBar", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_HideInstalledEntry", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 391);
     }
@@ -4600,7 +4605,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(392);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "MergeDupLabelText", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_MergeDupEntry", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 392);
     }
@@ -4610,7 +4615,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(393);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "HideInstalledLabelText", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_PosXEntry", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 393);
     }
@@ -4620,7 +4625,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(394);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ToggleKeyPanel", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "get_PosYEntry", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 394);
     }
@@ -4630,7 +4635,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(395);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "KeyName", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildStats", new Type[] { typeof(global::UnityEngine.RectTransform) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 395);
     }
@@ -4640,7 +4645,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(396);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("GunModTarkov.GunBenchView"), Type.EmptyTypes, searchForStatic: true);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildZoomBar", new Type[] { typeof(global::UnityEngine.RectTransform) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 396);
     }
@@ -4650,7 +4655,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(397);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<BuildTitle>b__33_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "MergeDupLabelText", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 397);
     }
@@ -4660,7 +4665,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(398);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<BuildTitle>b__33_2", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "HideInstalledLabelText", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 398);
     }
@@ -4670,7 +4675,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(399);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ScaleEntry>b__90_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ToggleKeyPanel", new Type[] { typeof(global::UnityEngine.RectTransform) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 399);
     }
@@ -4680,7 +4685,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(400);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ZoomInEntry>b__97_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "KeyName", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 400);
     }
@@ -4690,7 +4695,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(401);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ZoomInEntry>b__97_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("GunModTarkov.GunBenchView"), Type.EmptyTypes, searchForStatic: true);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 401);
     }
@@ -4700,7 +4705,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(402);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ZoomOutEntry>b__99_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<BuildTitle>b__33_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 402);
     }
@@ -4710,7 +4715,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(403);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ZoomOutEntry>b__99_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<BuildTitle>b__33_2", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 403);
     }
@@ -4720,7 +4725,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(404);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ReturnModeEntry>b__110_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ScaleEntry>b__90_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 404);
     }
@@ -4730,7 +4735,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(405);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_HideInstalledEntry>b__114_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ZoomInEntry>b__97_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 405);
     }
@@ -4740,7 +4745,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(406);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_MergeDupEntry>b__118_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ZoomInEntry>b__97_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 406);
     }
@@ -4750,7 +4755,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(407);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_PosXEntry>b__128_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ZoomOutEntry>b__99_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 407);
     }
@@ -4760,7 +4765,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(408);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_PosXEntry>b__128_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ZoomOutEntry>b__99_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 408);
     }
@@ -4770,7 +4775,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(409);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_PosYEntry>b__130_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ReturnModeEntry>b__110_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 409);
     }
@@ -4780,7 +4785,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(410);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_PosYEntry>b__130_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_HideInstalledEntry>b__114_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 410);
     }
@@ -4790,7 +4795,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(411);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass154_0", "<KeyButton>b__0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_MergeDupEntry>b__118_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 411);
     }
@@ -4800,7 +4805,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(412);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass39_0", "<BuildGunList>b__1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_PosXEntry>b__128_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 412);
     }
@@ -4810,7 +4815,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(413);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass74_2", "<BuildPopup>b__5", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_PosXEntry>b__128_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 413);
     }
@@ -4820,7 +4825,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(414);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass74_3", "<BuildPopup>b__9", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_PosYEntry>b__130_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 414);
     }
@@ -4830,7 +4835,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(415);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunSlotInfo", "FallbackName", new Type[] { ModReflect.FindType("GunModTarkov.SlotKind") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_PosYEntry>b__130_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 415);
     }
@@ -4840,7 +4845,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(416);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "SuppressText", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass154_0", "<KeyButton>b__0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 416);
     }
@@ -4850,7 +4855,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(417);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildGunList", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass39_0", "<BuildGunList>b__1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 417);
     }
@@ -4860,7 +4865,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(418);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ReturnModeLabelText", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass74_2", "<BuildPopup>b__5", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 418);
     }
@@ -4870,7 +4875,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(419);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunSlotInfo", "FallbackName", new Type[] { ModReflect.FindType("GunModTarkov.SlotKind") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass74_3", "<BuildPopup>b__9", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 419);
     }
@@ -4880,7 +4885,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(420);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ShowInstallFailed", new Type[] { typeof(global::GameItem) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunSlotInfo", "FallbackName", new Type[] { ModReflect.FindType("GunModTarkov.SlotKind") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 420);
     }
@@ -4890,7 +4895,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(421);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildOrderPanel", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Single) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "SuppressText", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 421);
     }
@@ -4900,7 +4905,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(422);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildStats", new Type[] { typeof(global::UnityEngine.RectTransform) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildGunList", new Type[] { typeof(global::UnityEngine.RectTransform) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 422);
     }
@@ -4910,7 +4915,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(423);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ScaleEntry>b__90_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ReturnModeLabelText", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 423);
     }
@@ -4920,7 +4925,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(424);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ReturnModeEntry>b__110_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunSlotInfo", "FallbackName", new Type[] { ModReflect.FindType("GunModTarkov.SlotKind") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 424);
     }
@@ -4930,7 +4935,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(425);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_HideInstalledEntry>b__114_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ShowInstallFailed", new Type[] { typeof(global::GameItem) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 425);
     }
@@ -4940,7 +4945,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(426);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_MergeDupEntry>b__118_1", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildOrderPanel", new Type[] { typeof(global::UnityEngine.RectTransform), typeof(global::System.Single), typeof(global::System.Single), typeof(global::System.Single) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 426);
     }
@@ -4950,7 +4955,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(427);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass74_2", "<BuildPopup>b__5", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "BuildStats", new Type[] { typeof(global::UnityEngine.RectTransform) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 427);
     }
@@ -4960,7 +4965,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(428);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass74_3", "<BuildPopup>b__9", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ScaleEntry>b__90_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 428);
     }
@@ -4970,7 +4975,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(429);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ModDeltaLines", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_ReturnModeEntry>b__110_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 429);
     }
@@ -4980,7 +4985,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(430);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ModDeltaText", new Type[] { typeof(global::GameItem) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_HideInstalledEntry>b__114_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 430);
     }
@@ -4990,7 +4995,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(431);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "TagLabel", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c", "<get_MergeDupEntry>b__118_1", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 431);
     }
@@ -5000,7 +5005,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(432);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Core", "LoadConfig", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass74_2", "<BuildPopup>b__5", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 432);
     }
@@ -5010,7 +5015,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(433);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyPanel", "Build", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView+<>c__DisplayClass74_3", "<BuildPopup>b__9", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 433);
     }
@@ -5020,7 +5025,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(434);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "ApplyCapture", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String), typeof(global::UnityEngine.KeyCode) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ModDeltaLines", new Type[] { typeof(global::GameItem), typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 434);
     }
@@ -5030,7 +5035,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(435);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "ApplyConfig", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String), typeof(global::UnityEngine.KeyCode), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "ModDeltaText", new Type[] { typeof(global::GameItem) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 435);
     }
@@ -5040,7 +5045,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(436);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "ApplyRegistry", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("GunModTarkov.GunBenchView", "TagLabel", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 436);
     }
@@ -5050,7 +5055,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(437);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "BeginCapture", new Type[] { typeof(global::System.Int32) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Core", "LoadConfig", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 437);
     }
@@ -5060,7 +5065,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(438);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "ClosePanel", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyPanel", "Build", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 438);
     }
@@ -5070,7 +5075,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(439);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "CurrentKeyText", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "ApplyCapture", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String), typeof(global::UnityEngine.KeyCode) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 439);
     }
@@ -5080,7 +5085,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(440);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "DescribeBoxed", new Type[] { typeof(global::System.Object) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "ApplyConfig", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String), typeof(global::UnityEngine.KeyCode), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 440);
     }
@@ -5090,7 +5095,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(441);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "DescribeToggleKeys", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "ApplyRegistry", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 441);
     }
@@ -5100,7 +5105,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(442);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "Reject", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "BeginCapture", new Type[] { typeof(global::System.Int32) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 442);
     }
@@ -5110,7 +5115,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(443);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "Report", new Type[] { typeof(global::System.Boolean), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "ClosePanel", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 443);
     }
@@ -5120,7 +5125,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(444);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "RestoreDefault", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "CurrentKeyText", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 444);
     }
@@ -5130,7 +5135,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(445);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "SyncPairedEntries", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), (typeof(global::System.String)).MakeByRefType() });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "DescribeBoxed", new Type[] { typeof(global::System.Object) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 445);
     }
@@ -5140,7 +5145,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(446);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "TickCapture", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "DescribeToggleKeys", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 446);
     }
@@ -5150,7 +5155,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(447);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "VerifyRegistry", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), (typeof(global::System.String)).MakeByRefType() });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "Reject", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 447);
     }
@@ -5160,7 +5165,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(448);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "WarnBlockedMouseOnce", new Type[] { typeof(global::UnityEngine.KeyCode) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "Report", new Type[] { typeof(global::System.Boolean), typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 448);
     }
@@ -5170,7 +5175,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(449);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyBindCompat+<>c", "<Register>b__2_0", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "RestoreDefault", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 449);
     }
@@ -5180,7 +5185,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(450);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyBindCompat+<>c", "<Register>b__2_2", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "SyncPairedEntries", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), (typeof(global::System.String)).MakeByRefType() });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 450);
     }
@@ -5190,7 +5195,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(451);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyBindCompat", "Apply", new Type[] { typeof(global::UnityEngine.KeyCode) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "TickCapture", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 451);
     }
@@ -5200,7 +5205,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(452);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyText", "DescribeMouse", new Type[] { typeof(global::UnityEngine.KeyCode) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "VerifyRegistry", new Type[] { ModReflect.FindType("DuojiHotkeyManager.BindRow"), typeof(global::UnityEngine.KeyCode), (typeof(global::System.String)).MakeByRefType() });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 452);
     }
@@ -5210,7 +5215,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(453);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyText", "Describe", new Type[] { typeof(global::UnityEngine.KeyCode) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyManager", "WarnBlockedMouseOnce", new Type[] { typeof(global::UnityEngine.KeyCode) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 453);
     }
@@ -5220,7 +5225,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(454);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.ModCatalog", "DisplayName", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyBindCompat+<>c", "<Register>b__2_0", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 454);
     }
@@ -5230,7 +5235,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(455);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyScan", "DetectCollisions", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyBindCompat+<>c", "<Register>b__2_2", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 455);
     }
@@ -5240,7 +5245,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(456);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Zh", "BuildEntryZh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyBindCompat", "Apply", new Type[] { typeof(global::UnityEngine.KeyCode) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 456);
     }
@@ -5250,7 +5255,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(457);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Zh", "BuildWordZh", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyText", "DescribeMouse", new Type[] { typeof(global::UnityEngine.KeyCode) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 457);
     }
@@ -5260,7 +5265,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(458);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Zh", "EntryName", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.KeyText", "Describe", new Type[] { typeof(global::UnityEngine.KeyCode) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 458);
     }
@@ -5270,7 +5275,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(459);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "LoadEditable", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.ModCatalog", "DisplayName", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 459);
     }
@@ -5280,7 +5285,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(460);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadMap", new Type[] { typeof(global::System.String), typeof(global::System.Xml.Linq.XElement) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.HotkeyScan", "DetectCollisions", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 460);
     }
@@ -5290,7 +5295,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(461);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "RequireId", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Zh", "BuildEntryZh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 461);
     }
@@ -5300,7 +5305,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(462);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "ValidateMap", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap"), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalPropDef") }), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Zh", "BuildWordZh", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 462);
     }
@@ -5310,7 +5315,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(463);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadCell", new Type[] { typeof(global::System.Xml.Linq.XElement) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("DuojiHotkeyManager.Zh", "EntryName", new Type[] { typeof(global::System.String), (typeof(global::System.Func<>)).MakeGenericType(new Type[] { typeof(global::System.String) }) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 463);
     }
@@ -5320,7 +5325,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(464);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadInt", new Type[] { typeof(global::System.Xml.Linq.XElement), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "LoadEditable", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 464);
     }
@@ -5330,7 +5335,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(465);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalBoard", "Create", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap"), (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalUnit") }) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadMap", new Type[] { typeof(global::System.String), typeof(global::System.Xml.Linq.XElement) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 465);
     }
@@ -5340,7 +5345,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(466);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalBoard", "FindSpawn", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalUnit"), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { typeof(global::UnityEngine.Vector2Int) }) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "RequireId", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 466);
     }
@@ -5350,7 +5355,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(467);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.DistrictService", "AddTacticalTestFighter", new Type[] { (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.DistrictFighter") }), typeof(global::System.String), typeof(global::System.String), typeof(global::System.String), ModReflect.FindType("Yexiaoyang.InteriorExpansion.SoldierProfession"), ModReflect.FindType("Yexiaoyang.InteriorExpansion.SoldierIdentity") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "ValidateMap", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap"), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalPropDef") }), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 467);
     }
@@ -5360,7 +5365,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(468);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.DistrictService", "CreateTacticalTest", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap") });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadCell", new Type[] { typeof(global::System.Xml.Linq.XElement) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 468);
     }
@@ -5370,7 +5375,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(469);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("CartelSupply", "Sync", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalMaps", "ReadInt", new Type[] { typeof(global::System.Xml.Linq.XElement), typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 469);
     }
@@ -5380,7 +5385,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(470);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Incomplete", new Type[] { typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalBoard", "Create", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap"), (typeof(global::System.Collections.Generic.IEnumerable<>)).MakeGenericType(new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalUnit") }) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 470);
     }
@@ -5390,7 +5395,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(471);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "FinishCondition", new Type[] { ModReflect.FindType("HologramTrade.InspectionReport"), typeof(global::System.String), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.TacticalBoard", "FindSpawn", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalUnit"), (typeof(global::System.Collections.Generic.IReadOnlyList<>)).MakeGenericType(new Type[] { typeof(global::UnityEngine.Vector2Int) }) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 471);
     }
@@ -5400,7 +5405,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(472);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Cigarette", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.DistrictService", "AddTacticalTestFighter", new Type[] { (typeof(global::System.Collections.Generic.List<>)).MakeGenericType(new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.DistrictFighter") }), typeof(global::System.String), typeof(global::System.String), typeof(global::System.String), ModReflect.FindType("Yexiaoyang.InteriorExpansion.SoldierProfession"), ModReflect.FindType("Yexiaoyang.InteriorExpansion.SoldierIdentity") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 472);
     }
@@ -5410,7 +5415,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(473);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Stamp", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("Yexiaoyang.InteriorExpansion.DistrictService", "CreateTacticalTest", new Type[] { ModReflect.FindType("Yexiaoyang.InteriorExpansion.TacticalMap") });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 473);
     }
@@ -5420,7 +5425,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(474);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Injector", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("CartelSupply", "Sync", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 474);
     }
@@ -5430,7 +5435,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(475);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Hand", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Incomplete", new Type[] { typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 475);
     }
@@ -5440,7 +5445,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(476);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Plasma", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "FinishCondition", new Type[] { ModReflect.FindType("HologramTrade.InspectionReport"), typeof(global::System.String), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 476);
     }
@@ -5450,7 +5455,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(477);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Ribwich", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Cigarette", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 477);
     }
@@ -5460,7 +5465,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(478);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Stamp", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 478);
     }
@@ -5470,7 +5475,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(479);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.ChemicalAppraisal", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Injector", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 479);
     }
@@ -5480,7 +5485,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(480);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Hand", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 480);
     }
@@ -5490,7 +5495,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(481);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "Describe", new Type[] { ModReflect.FindType("HologramTrade.CustomerForecast"), typeof(global::System.String), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Plasma", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 481);
     }
@@ -5500,7 +5505,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(482);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "InspectionError", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Ribwich", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 482);
     }
@@ -5510,7 +5515,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(483);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastView", "ForecastText", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.AppraisalService", "Translate", new Type[] { typeof(global::System.String), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 483);
     }
@@ -5520,7 +5525,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(484);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "Label", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.ChemicalAppraisal", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 484);
     }
@@ -5530,7 +5535,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(485);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "IsWantedLabel", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 485);
     }
@@ -5540,7 +5545,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(486);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "WithReward", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "Describe", new Type[] { ModReflect.FindType("HologramTrade.CustomerForecast"), typeof(global::System.String), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 486);
     }
@@ -5550,7 +5555,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(487);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerPanelLayout", "Messages", new Type[] { typeof(global::System.Boolean), typeof(global::System.Boolean), typeof(global::System.String), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastService", "InspectionError", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 487);
     }
@@ -5560,7 +5565,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(488);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerPanelLayout", "TextColor", new Type[] { typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerForecastView", "ForecastText", new Type[] { typeof(global::GameItem), typeof(global::StoreClient), typeof(global::System.Boolean), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 488);
     }
@@ -5570,7 +5575,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(489);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "Status", new Type[] { typeof(global::System.String), typeof(global::System.String) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "Label", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 489);
     }
@@ -5580,7 +5585,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(490);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "PulseLabels", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "IsWantedLabel", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 490);
     }
@@ -5590,7 +5595,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(491);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerSceneHologram", "UpdateMorningEvents", new Type[] { typeof(global::StoreStation), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerIdentityService", "WithReward", new Type[] { typeof(global::StoreClient), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 491);
     }
@@ -5600,7 +5605,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(492);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramBargainControls", "Layout", new Type[] { typeof(global::NegotiationTabletFrame), typeof(global::System.Single) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerPanelLayout", "Messages", new Type[] { typeof(global::System.Boolean), typeof(global::System.Boolean), typeof(global::System.String), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 492);
     }
@@ -5610,7 +5615,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(493);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramScaleMenu", "Open", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerPanelLayout", "TextColor", new Type[] { typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 493);
     }
@@ -5620,7 +5625,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(494);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("HologramTrade.HologramSettingsView"), new Type[] { typeof(global::CustomUIWindow), typeof(global::System.Action) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "Status", new Type[] { typeof(global::System.String), typeof(global::System.String) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 494);
     }
@@ -5630,7 +5635,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(495);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "LayoutButtons", Type.EmptyTypes);
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "PulseLabels", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 495);
     }
@@ -5640,7 +5645,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(496);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.InspectionOptionLabels", "Name", new Type[] { typeof(global::System.String), typeof(global::System.Boolean), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String) }) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.CustomerSceneHologram", "UpdateMorningEvents", new Type[] { typeof(global::StoreStation), typeof(global::System.Boolean) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 496);
     }
@@ -5650,7 +5655,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(497);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.LabelInspectionService", "ConditionName", new Type[] { typeof(global::ItemCondition), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramBargainControls", "Layout", new Type[] { typeof(global::NegotiationTabletFrame), typeof(global::System.Single) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 497);
     }
@@ -5660,7 +5665,7 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(498);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.LabelInspectionService", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramScaleMenu", "Open", Type.EmptyTypes);
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 498);
     }
@@ -5670,9 +5675,59 @@ namespace ProbablyStolenKo
         [HarmonyPrepare]
         internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(499);
         [HarmonyTargetMethod]
-        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.WholesaleView", "Fail", new Type[] { typeof(global::System.Exception) });
+        internal static MethodBase TargetMethod() => AccessTools.DeclaredConstructor(AccessTools.TypeByName("HologramTrade.HologramSettingsView"), new Type[] { typeof(global::CustomUIWindow), typeof(global::System.Action) });
         [HarmonyTranspiler]
         internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 499);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_500
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(500);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.HologramTradeView", "LayoutButtons", Type.EmptyTypes);
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 500);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_501
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(501);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.InspectionOptionLabels", "Name", new Type[] { typeof(global::System.String), typeof(global::System.Boolean), (typeof(global::System.Func<,>)).MakeGenericType(new Type[] { typeof(global::System.String), typeof(global::System.String) }) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 501);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_502
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(502);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.LabelInspectionService", "ConditionName", new Type[] { typeof(global::ItemCondition), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 502);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_503
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(503);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.LabelInspectionService", "Inspect", new Type[] { typeof(global::GameItem), typeof(global::System.Boolean) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 503);
+    }
+    [HarmonyPatch]
+    internal static class GeneratedManagedPatch_504
+    {
+        [HarmonyPrepare]
+        internal static bool Prepare() => ManagedLiteralOverlay.PrepareBinding(504);
+        [HarmonyTargetMethod]
+        internal static MethodBase TargetMethod() => ModReflect.Target("HologramTrade.WholesaleView", "Fail", new Type[] { typeof(global::System.Exception) });
+        [HarmonyTranspiler]
+        internal static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions) => ManagedLiteralOverlay.TranspileBinding(instructions, 504);
     }
 
     internal static class GeneratedManagedRefresh
