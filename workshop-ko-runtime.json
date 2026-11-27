@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "inventory_fingerprint": "c928b9d7c9067d6b2d303bc80f726d7225b65849a91f28028d131b42cc6209ac",
+  "inventory_fingerprint": "ff930ed246b9cc5763d5bc6e5d2ba8dfb184fd02a4bf6e514f1f35a4ad87ebcc",
   "scope": "installed_workshop_mod_korean_overlay_20261118_direct_review",
   "locale": "ko",
   "base_game_entries": 0,
@@ -10,7 +10,7 @@
     "ps-fishing-gameplay": {
       "workshop_item_id": "3829110153",
       "csv_path": "workshop-overlays/3829110153/Localization/ko.csv",
-      "entry_count": 3932
+      "entry_count": 3938
     },
     "Pen_mod_pipette": {
       "workshop_item_id": "3829409725",
@@ -45,7 +45,7 @@
     "ai.emporium": {
       "workshop_item_id": "3832941698",
       "csv_path": "workshop-overlays/3832941698/Localization/ko.csv",
-      "entry_count": 2601
+      "entry_count": 2604
     },
     "gunsmith_expansion": {
       "workshop_item_id": "3834619049",
@@ -69,7 +69,7 @@
     "upper_levels": {
       "workshop_item_id": "3838944803",
       "csv_path": "workshop-overlays/3838944803/Localization/ko.csv",
-      "entry_count": 4235
+      "entry_count": 4450
     },
     "traits_probably_fun": {
       "workshop_item_id": "3834226532",
@@ -108,7 +108,7 @@
     "vanilla_chem_ext": {
       "workshop_item_id": "3832077837",
       "csv_path": "workshop-overlays/3832077837/Localization/ko.csv",
-      "entry_count": 590
+      "entry_count": 592
     },
     "local.hologram_trade": {
       "workshop_item_id": "3837476079",
@@ -116,5 +116,5 @@
       "entry_count": 75
     }
   },
-  "entry_count": 17322
+  "entry_count": 17548
 }

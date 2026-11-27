@@ -80,6 +80,8 @@ The Agri Expansion 2.0.11 book review adds the three missing crop bodies and tra
 
 The 1.0.49 Workshop follow-up covers AI Emporium 1.3.79's two new Claude appraisal messages and its revised inspection instructions, plus Vanilla Chemistry Expansion 1.11.0's condenser and still descriptions, controls, and status text. The current DLLs use the existing localization lookups, including the dynamically constructed cooling-mode keys. The offline game-Mono probe loaded both runtime catalogs and verified the new equipment descriptions, coolant format arguments, and updated dialogue without opening the game.
 
+The 1.0.50 CSV update covers GoFishing 2.6.1's tournament and nautilite views, AI Emporium 1.3.81's surplus-harvest options and revised Claude lines, Upper Levels 0.9.31.6's crate, navy, and profession traits, and Vanilla Chemistry Expansion 1.11.1's Cartel merchant setting and updated equipment text. It checks the published source keys and their localized display paths; it does not re-attest a full managed assembly inventory for those versions.
+
 ## Cro pack coexistence
 
 The [Cro pack's maintained support list](https://gall.dcinside.com/mgallery/board/view/?id=probablystolen&no=1248) supersedes its Steam description for coverage. Match source mods by Workshop item ID, not the display name. Enable both packs and all seven overlaps when running a coexistence check; GoFishing and Fishing Cuisine Expansion list each other as prerequisites. Include Perks: Probably Fun as a non-overlapping control.

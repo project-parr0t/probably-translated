@@ -2518,6 +2518,9 @@ nautilite.inspection.value,기본 예상가 {0}
 nautilite.manual.gift,"나우틸라이트를 샀다고 들었네. 얼마 전 친구가 이걸 맡기고 갔는데, 자네에게 쓸모가 있을지도 모르겠군."
 nautilite.manual.giftLeft,(베테랑의 경험을 남깁니다.)
 nautilite.manual.giftPending,설명서를 둘 공간이 없습니다. 공간을 비우면 윌리가 다음 방문 때 다시 전달합니다.
+nautilite.manual.table.gem,녹색 형석 · 보석
+nautilite.manual.table.mineral,"녹니석 · 저급 광물"
+nautilite.manual.table.reveal,드러난 정도
 nautilite.manual.text.0,나우틸라이트 종류
 nautilite.manual.text.1,원석 나우틸라이트
 nautilite.manual.text.10,연마
@@ -2540,7 +2543,7 @@ nautilite.manual.text.5,가공
 nautilite.manual.text.6,껍질 열기
 nautilite.manual.text.7,돋보기를 사용해 가공 화면을 여세요.\n껍질 열기를 하면 종류와 등급이 드러납니다.
 nautilite.manual.text.8,절단
-nautilite.manual.text.9,"연마기를 끌어 흰색 끝을 절단면에 대세요. 2초 동안 닿으면 절단 결과가 나옵니다.\n같은 색의 코어도 흔한 광물일 수도, 보석일 수도 있습니다. 모양과 광택을 살펴보세요."
+nautilite.manual.text.9,"연마기를 끌어 흰색 끝을 절단면에 대세요. 2초 동안 닿으면 절단이 완료됩니다. 정밀 연마가 끝난 뒤에는 자를 수 없습니다.\n같은 색의 코어도 흔한 광물일 수도, 보석일 수도 있습니다. 모양과 광택을 살펴보세요."
 nautilite.name,{0} · {1}
 nautilite.offer,{0}에서 갓 들여온 나우틸라이트입니다. 몇 개 사시겠어요?
 nautilite.polish.confirm,연마 확인
@@ -2586,7 +2589,7 @@ potion.customer.refuse,적합한 물약이 없습니다
 potion.customer.refuseHint,이번 방문을 끝내고 전달하지 않은 물약은 보관합니다.
 potion.customer.refuseReply,알겠습니다. 다음에 다시 올게요.
 potion.customer.retry,지금은 전달을 완료할 수 없습니다. 나중에 다시 시도해 주세요.
-potion.customer.service.description,선택해 두면 매일 밤 무료로 물약 손님에게 연락해 다음 날 방문하도록 합니다. 선택을 해제하면 이후 연락을 중단합니다. 대기 중인 방문은 중복 예약되지 않습니다.
+potion.customer.service.description,선택해 두면 매일 밤 무료로 물약 손님에게 연락해 다음 날 방문하도록 합니다. 그날 완료하지 않은 일반 주문은 밤이 지나면 만료됩니다. 선택을 해제하면 이후 방문을 예약하지 않습니다.
 potion.customer.service.name,물약 손님에게 연락
 potion.customer.title,물약 전달
 potion.story.delivery.hint,전달 구역\n물약을 여기에 놓으세요
@@ -3348,7 +3351,7 @@ voyage.change.summary,실제 변경 사항 | {0}
 voyage.change.temp,임시 보관
 voyage.change.time,시간: {0}분
 voyage.change.value,{0} {1:+0;-0;0}
-willy.buyer.arrival,이 상품은 동업자 가격으로 매입합니다. 소매 마진 없이 평가액에서 15%를 뺀 가격입니다.
+willy.buyer.arrival,팔 물건이 있나?
 willy.buyer.booked,좋습니다. 내일 가게에 들러 어떤 물건을 파는지 보겠습니다.
 willy.buyer.cooldown,지난번 화물을 아직 정리 중입니다. {0}일 후에 다시 연락해 주세요.
 willy.buyer.deal,거래 성립
@@ -3570,6 +3573,8 @@ fish.tooltip.water_low,수질 요구 수준: 낮음
 fish.tooltip.water_medium,수질 요구 수준: 보통
 fish.tournament.active,진행 중
 fish.tournament.board_next,다음 경기: {0}
+fish.tournament.board_read_failed,낚시 대회 정보를 불러오지 못했습니다.
+fish.tournament.board_read_retry,참가 신청판을 닫았다가 다시 여세요.\n저장된 대회 정보는 변경되지 않았습니다.
 fish.tournament.champion,우승
 fish.tournament.choose,살아 있는 성체 물고기를 넣으세요. 확정하면 대회가 끝날 때까지 이 물고기로 참가합니다. 물고기가 없거나 참가 자격을 잃으면 기권 처리됩니다.
 fish.tournament.claim_available,받을 수 있는 상품이 있습니다
@@ -3788,6 +3793,7 @@ fish.tournament.retrieve,물고기 회수
 fish.tournament.reward_credits,{0} 크레딧
 fish.tournament.reward_lines,우승: {0} 크레딧 + {3} ×2\n준우승: {1} 크레딧 + {3} ×1\n4강: {2} 크레딧
 fish.tournament.reward_pending,아직 받지 못한 상품이 있습니다. 공간을 비우고 다시 시도하세요.
+fish.tournament.reward_preview_unavailable,상품 미리보기를 사용할 수 없습니다.
 fish.tournament.rewards,상품
 fish.tournament.round_done,라운드가 끝났습니다. 클릭하여 계속하세요.
 fish.tournament.round_title,대회 {0} · {1}

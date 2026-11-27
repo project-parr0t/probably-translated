@@ -28,8 +28,8 @@ namespace ProbablyStolenKo
 
     internal sealed class WorkshopPayloadCatalog
     {
-        private const string ExpectedFingerprint = "c928b9d7c9067d6b2d303bc80f726d7225b65849a91f28028d131b42cc6209ac";
-        private const int ExpectedEntries = 17322;
+        private const string ExpectedFingerprint = "ff930ed246b9cc5763d5bc6e5d2ba8dfb184fd02a4bf6e514f1f35a4ad87ebcc";
+        private const int ExpectedEntries = 17548;
         private const int ExpectedMods = 20;
         private static readonly IReadOnlyDictionary<string, string> ExpectedWorkshopItems =
             new Dictionary<string, string>(StringComparer.Ordinal)

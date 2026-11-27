@@ -192,7 +192,7 @@ debug.reset,명함 및 첫 방문 플래그 초기화
 dialogue.accept.fallback,거래 성립.
 dialogue.appraisal.fallback,...전부 카운터에 올려놓으세요. 하나씩 보죠.
 dialogue.claude.appraisal.unavailable,남은 의뢰품은 이번 방문에서 감정할 수 없습니다.
-dialogue.claude.appraisal.wait,아직 가져온 의뢰품이 남아 있습니다. 앞쪽 카운터에 자리를 내주시면 올려놓겠습니다.
+dialogue.claude.appraisal.wait,이 물건을 놓을 자리가 없군요.
 dialogue.claude.card,제 명함입니다. 뒷면에 신탁소의 의뢰 절차가 적혀 있습니다. 다음 의뢰를 맡을 준비가 되면 그 번호로 전화하세요. 상층 구역에서 새로운 물건을 가져오겠습니다.
 dialogue.claude.egg.1,한동안 고민해 봤습니다... 제안을 받아들여야 할지 확신이 서지 않네요.
 dialogue.claude.egg.2,"솔직히 그 가격은 조금 불안합니다. 비싸서가 아니라, 이유를 알 수 없을 만큼 싸서요."
@@ -213,7 +213,7 @@ dialogue.claude.judge.pat1,아무래도 이 의뢰는 당신에게 너무 어려
 dialogue.claude.judge.pat2,신탁소로 도로 가져가겠습니다. 제7조는 잊으셔도 됩니다.
 dialogue.claude.judge.perfect,좋습니다. 장부에 적힌 수치와 거의 정확히 일치하는군요.
 dialogue.claude.judge.shutter,잠시만 기다려 주십시오. 아직 평가서를 다 정리하지 못했습니다.
-dialogue.claude.judge.stock,의뢰품은 제가 올려놓겠습니다. 돋보기로 하나씩 살펴보고 검사 창에 감정가를 입력해 주세요.
+dialogue.claude.judge.stock,의뢰품은 전부 카운터에 올려 두었습니다. 하나씩 천천히 감정해 주십시오.
 dialogue.claude.judge.thanks,감사합니다. 지금 비용을 정산하겠습니다.
 dialogue.claude.judge.unholster,……특정 존재에 대한 원한을 제게 투영하고 계신 겁니까?
 dialogue.claude.phone.1,"...Claude입니다. 정산할 일이 있습니까, 아니면 지난 감정에 관해 물으실 게 있습니까?"
@@ -2599,7 +2599,10 @@ ds.ui.dispatch.choose,배송 목적지
 ds.ui.dispatch.no_bays,"소유한 하이퍼테크 보관함을 가게 창고, 가게 안쪽 카운터, 진열장, 숨겨진 수납칸 중 한 곳에 놓으면 여기서 선택할 수 있습니다."
 ds.ui.dispatch.selected,선택됨 · {0}
 ds.ui.dispatch.to_bay,배송 목적지: 하이퍼테크 보관함 #{0}
-ds.ui.feed.harvest_hint,수확물을 사료로 사용하도록 설정하면 수조를 관리할 때 먹을 수 있는 수경재배 수확물을 이 수조의 급이기에 넣습니다.\n씨앗과 고정한 물품은 그대로 둡니다. 투입 칸이 꽉 차거나 저장 열량이 한도에 이르면 남은 수확물은 수확 칸에 남아 나중에 사용하거나 직접 꺼낼 수 있습니다.\n분쇄 여부는 급이기의 자동 분쇄 설정을 따릅니다. 물고기는 평소 식성에 맞는 먹이만 먹습니다.
+ds.ui.feed.harvest_hint,수조를 관리할 때 먹을 수 있는 수경재배 수확물을 먼저 급이기에 넣습니다.\n남은 수확물은 집에 보관하거나 다음 날 아침으로 예약된 배송에 실어 가게로 보낼 수 있습니다. 어느 쪽이든 직접 꺼낼 수 있습니다.\n씨앗과 고정한 물품은 사료로 쓰지 않습니다. 자동 분쇄는 급이기 설정을 따르며 물고기는 평소 식성에 맞는 먹이를 먹습니다.
 ds.ui.feed.harvest_log,{0} 구획의 급이기에 수경재배 수확물 {1}개를 넣었습니다.
 ds.ui.feed.harvest_off,수확물을 사료로 사용 · 꺼짐
 ds.ui.feed.harvest_on,수확물을 사료로 사용 · 켜짐
+ds.ui.feed.surplus,남은 수확물
+ds.ui.feed.surplus_keep,집에 보관
+ds.ui.feed.surplus_ship,가게로 보내기
