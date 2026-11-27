@@ -77,6 +77,7 @@ def main() -> int:
     }
     state["artifacts"].setdefault("preview.png", "")
     state["artifacts"].setdefault("src/ProbablyStolenKo.Localization/AquaSenseCompositionOverlay.cs", "")
+    state["artifacts"].setdefault("src/ProbablyStolenKo.Localization/LiquidScannerOverlay.cs", "")
     state["artifacts"].setdefault("src/ProbablyStolenKo.Localization/ModuleEffectTextOverlay.cs", "")
     state["artifacts"].setdefault("src/ProbablyStolenKo.Localization/PerksFriendlyTalkOverlay.cs", "")
     state["artifacts"].setdefault("src/ProbablyStolenKo.Localization/KitchenLanguageOverlay.cs", "")

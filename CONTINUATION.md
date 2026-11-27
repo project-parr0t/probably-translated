@@ -182,9 +182,9 @@ Do not add `resolveMs`, `harmonyMs`, or `constructorHarmonyMs` to `bindingMs`; t
 
 The labeler and its item tooltip re-read only cached `Mechanic` translation errors for vanilla category and condition keys. The overlay changes display output, not the shared category or condition caches, label choices, item identifiers, or value modifiers. Lookups happen on demand without depending on Vanilla Chemistry Expansion or Claims & Uprisings.
 
-### Better Water Trading composition recovery
+### Liquid component name recovery
 
-When AquaSense builds its existing composition rows, re-read the current `Mechanic` entry only for cached `Translation Error 'liquid_…' in Mechanic` strings. Valid names and unresolved errors pass through unchanged. The fix does not add rows, change their quantities, or write to the shared liquid cache. It runs even with the Cro pack enabled and uses the result of the game's lookup, including any translation supplied there by Cro.
+The vanilla chemical and water scanners and AquaSense's composition tooltip re-read the current `Mechanic` entry when the cached component name is `Translation Error 'liquid_…' in Mechanic`. Valid names and unresolved errors pass through unchanged. The fix does not add rows, change quantities, or write to the shared liquid cache. The vanilla patches do not depend on Claims & Uprisings or AquaSense. The AquaSense patch still runs with Cro enabled and uses any translation the active pack supplies through the game's lookup.
 
 ### Module effect tooltip recovery
 

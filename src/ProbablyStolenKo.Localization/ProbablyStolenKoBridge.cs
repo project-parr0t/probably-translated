@@ -33,6 +33,7 @@ namespace ProbablyStolenKo
         private readonly HologramPreferenceLayout _hologramPreferenceLayout = new HologramPreferenceLayout();
         private readonly PerksFriendlyTalkOverlay _perksFriendlyTalkOverlay = new PerksFriendlyTalkOverlay();
         private readonly KitchenLanguageOverlay _kitchenLanguageOverlay = new KitchenLanguageOverlay();
+        private readonly LiquidScannerOverlay _liquidScannerOverlay = new LiquidScannerOverlay();
         private readonly AquaSenseCompositionOverlay _aquaSenseCompositionOverlay = new AquaSenseCompositionOverlay();
         private ModLog _log;
         private bool _enabled;
@@ -68,6 +69,8 @@ namespace ProbablyStolenKo
                 _log.Error("Labeler text overlay failed: " + error.Message);
                 RestoreLabelerText();
             }
+            try { _liquidScannerOverlay.Apply(); }
+            catch (Exception error) { _log.Error("Liquid scanner text overlay failed: " + error.Message); }
             _moduleEffectTextOverlay.Apply();
             _patchLoadingOverlay = ManagedPatchLoadingOverlay.Create(_managedOverlay, _manifest.ID, _log);
             if (!_assetsSubscribed)
@@ -298,6 +301,8 @@ namespace ProbablyStolenKo
             _activated = false;
             _enabled = false;
             RestoreLabelerText();
+            try { _liquidScannerOverlay.Restore(); }
+            catch (Exception error) { _log.Error("Liquid scanner text overlay removal failed: " + error.Message); }
             try { _moduleEffectTextOverlay.Restore(); }
             catch (Exception error) { _log.Error("Module effect text overlay removal failed: " + error.Message); }
             if (_assetsSubscribed)
